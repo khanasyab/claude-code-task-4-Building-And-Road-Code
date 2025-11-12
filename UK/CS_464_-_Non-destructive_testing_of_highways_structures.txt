@@ -1,0 +1,1254 @@
+======================================================================
+PAGE 1 of 28
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 464
+Non-destructive testing of highways structures
+(formerly BA 86/06)
+Revision 1
+Summary
+This document sets out requirements regarding the non-destructive testing of highways
+structures.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 2 of 28
+======================================================================
+CS 464 Revision 1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Preliminary work
+9
+Assessment of the structure condition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Selecting appropriate NDT methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Commissioning, specification and tender requirements
+11
+Accreditation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Tender documentation and specification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4. Undertaking non-destructive testing (NDT)
+13
+5. NDT records
+14
+6. Specific structure/method requirements
+15
+Concrete testing
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Post-tensioned concrete structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Masonry arches
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Impact echo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Sonic tomography for masonry arches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Ground penetrating radar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Acoustic emission
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+7. Interpretation of results
+21
+Results
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+8. Certification
+22
+9. Normative references
+23
+10. Informative references
+24
+Appendix A. Technique records
+25
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 3 of 28
+======================================================================
+CS 464 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Mar 2020
+Revision 1 (March 2020) Update to references only. Revision 0 (September
+2019) CS 464 replaces BA 86/06. This full document has been re-written to
+make it compliant with the new Highways England drafting rules. The update
+removes detail regarding testing methodologies available as out of date and
+now focusses primarily on outcome requirements of testing.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 4 of 28
+======================================================================
+CS 464 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BA 86/06, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 5 of 28
+======================================================================
+CS 464 Revision 1
+Introduction
+Introduction
+Background
+This document contains the requirements related to the non destructive testing (NDT) of highways
+structures.
+Typical uses of NDT for highway structures are as follows:
+1) gaining increased assurance as to the quality of new construction such as weld testing of steelwork;
+2) gaining increased assurance as to the integrity of earlier construction where similar types of
+construction have been shown to be defective, such as detecting voids in post-tensioned concrete;
+3) providing an indication of the possible internal structure of old bridges for assessment purposes,
+such as the structural form of masonry arches;
+4) providing supplementary indications of the condition of structures which are showing signs of
+distress, such as the degree of contamination and corrosion of reinforced concrete bridges exposed
+to chloride attack; and,
+5) recording acoustic emissions from bearings exhibiting cracking or excessive friction or from bedding
+to bearings undergoing cracking.
+The expert interpretation of NDT results can be of assistance with structural appraisal.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 3.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 6 of 28
+======================================================================
+CS 464 Revision 1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+AE
+Acoustic Emission
+ASNT
+The American Society of Non-destructive Testing
+BiNDT
+British Institute of Non-destructive Testing
+NDT
+Non-Destructive Testing
+PCN
+Personnel Certificate in NDT
+UKAS
+United Kingdom Accreditation Service
+UPV
+Ultrasonic Pulse Velocity
+Symbols
+Symbol
+Definition
+dBAE
+The unit of logarithmic measure of an acoustic emission amplitude in decibels
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 7 of 28
+======================================================================
+CS 464 Revision 1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Acoustic emission
+Phenomena whereby transient elastic waves are generated by,
+as examples, plastic deformation, crack propagation, erosion,
+corrosion, impact, leakage.
+Acquisition system
+A system consisting of sensors, data acquisition measurement
+hardware, and a computer with programmable software that
+acquires data such as an electrical or physical phenomenon
+such as voltage, current, temperature, pressure, or sound,
+generally by digitising analogue channels and storing the data
+in digital form.
+Bill of quantities
+A detailed statement of work, prices, dimensions, and other
+details, for carrying out the work as per the contract.
+Bi-static arrangement
+Mode of operation of ground penetration radar when two
+separate transmitting and receiving antennae are used and Tx
+and Rx antennas are separated in space.
+Coin tap test
+Manual test including the tapping of a coin on a surface to
+establish the integrity of a material that can be subject to
+delamination/cracking and voids/hollowness.
+Gain
+Process of amplifying signals to match the dynamic range of
+the display or the recording device.
+Global monitoring
+Acoustic emission monitoring technique to identify the
+presence of active defects in a structure with a minimum
+number of sensors over long distances.
+Ground penetrating radar
+An electromagnetic echo sounding method where
+electromagnetic impulses are transmitted into structure and
+recorded by a receiver.
+Hammer tap test
+Manual test including the tapping/dragging of a hammer on a
+surface to establish the integrity of a material that can be
+subject to delamination/cracking and voids/hollowness.
+Hsu-Nielsen source (pencil lead
+break)
+Device to simulate an acoustic emission event using the
+fracture of a brittle graphite lead in a suitable fitting.
+Impact echo
+A send-receive non-destructive test method based on the use
+of a short-duration mechanical impact to generate transient
+stress waves and the use of a broadband receiving transducer
+placed adjacent to the impact point.
+Local monitoring
+Acoustic emission monitoring technique to provide detailed
+information on source location, orientation and on the
+characteristics of defects and failure.
+Monostatic arrangement
+Mode of operation of ground penetration radar when
+transmitting antenna is combined in the same housing as the
+receiving antenna.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 8 of 28
+======================================================================
+CS 464 Revision 1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Non-destructive testing
+A wide group of investigative techniques used to evaluate the
+properties of a material, component or system without causing
+damage.
+Semi-global monitoring
+Acoustic emission monitoring technique to accurately locate
+and identify the individual defects and to provide a 100%
+volumetric condition assessment of a structure.
+Transducer
+Active element of a probe which converts electrical energy into
+sound energy and vice versa.
+Ultrasonic pulse velocity
+An in-situ, nondestructive test to check the quality of concrete
+using the velocity of an ultrasonic pulse passing through the
+structure.
+Sonic tomography
+Measurement of stress wave transmitted through structure
+when section crossed by a net of wave paths.
+Sonic transmission
+Measurement of stress wave transmitted through structure.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 9 of 28
+======================================================================
+CS 464 Revision 1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+NDT (non-destructive testing) shall be carried out where required to assure that new construction is in
+accordance with the relevant specification and design assumptions, and to help establish the condition
+of existing construction and the appropriateness of assessment assumptions.
+1.2
+This document sets out the specific requirements that shall be carried out for NDT of highways
+structures, including:
+1) existing structure requirements;
+2) commissioning and specification requirements;
+3) specific requirements regarding structural form and testing; and,
+4) records and certification requirements.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving non-destructive testing on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 3.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 3.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 10 of 28
+======================================================================
+CS 464 Revision 1
+2. Preliminary work
+2.
+Preliminary work
+Assessment of the structure condition
+2.1
+A visual inspection of the structure shall precede specification of a testing programme.
+NOTE
+An initial visual inspection allows particular circumstances and the current condition of the structure to
+be taken into account.
+2.2
+During the preliminary stage, the following factors shall be determined:
+1) visual defects that require further investigation;
+2) the influence of access and test number on costs;
+3) the effectiveness of a staged approach in prevailing circumstances;
+4) the cost of tests relative to the potential significance of the irregularities; and,
+5) the time required for test results and their interpretation, if further testing is dependent upon results.
+NOTE
+Due to the varied nature of structures and their defects, specification of the same types and number of
+tests as used on another structure is rarely likely to be appropriate.
+2.2.1
+In order to assess the current capacity, and the likely durability of a structure and to plan remedial
+works, the following information should be obtained:
+1) age of the structure and the dates of any modifications or repairs;
+2) materials with which the structure has been built or modified;
+3) properties of these materials, such as strength and ductility;
+4) geometry of the bridge, the size of members and details of the joints; and,
+5) condition of the members, joints and protection of the structure, including defects; corrosion, and
+distortion or damage including fatigue damage.
+2.2.2
+Testing programmes should be devised, upon assessing the following:
+1) striking a balance between obtaining sufficient information to make a reasonable judgement on risk,
+and seeking so much information that the examination itself compromises durability by intrusive
+sampling;
+2) the effectiveness of testing in combination; for example ducts can be located by specialist probes or
+radar in preparation for intrusive drilling and sampling or impact-echo testing as per guidance in
+Impact-Echo of PT concrete [Ref 3.I] and NDT 2004 [Ref 4.I];
+3) tests can be interpreted in combination; for example a representative sample of locations revealing a
+particular characteristic can be examined in greater detail by a variety of more detailed tests as per
+guidance in ACI Technical Report 228.2R-13 [Ref 10.I];
+4) particular characteristics can be examined in greater detail by a variety of more detailed tests;
+5) testing programmes are only provisional, and can require amendment as a result of continuing
+testing and interpretation. Staged testing, permitting interpretation of results between each stage,
+can be appropriate on larger jobs; and,
+6) intrusive drilling and sampling can provide invaluable information on materials, corrosion details,
+void volumes, and atmospheric leakage in order to calibrate the NDT techniques.
+2.2.3
+The condition evidence required may be obtained by combining different examination and test
+methods, each one offering particular advantages and disadvantages:
+1) visual examination including, for example, looking for corrosion, cracks, deformities, mechanical
+damage or indication of slip or movement at joints or at the interface between concrete deck and
+steel beams;
+2) testing of small samples of the materials taken from structurally safe locations to determine
+properties unless these are known with certainty;
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 11 of 28
+======================================================================
+CS 464 Revision 1
+2. Preliminary work
+3) geometric survey to determine straightness, verticality, deformation and deflection of members, and
+the positions and sizes of members and details of joints;
+4) hammer tapping survey, where appropriate, to determine soundness of bolts and rivets, or corrosion
+leading to delamination within wrought iron members; and,
+5) NDT techniques to locate and/or size defects, and to determine member or paint thickness.
+NOTE
+The effectiveness of NDT methods can be heavily influenced by the geometry and materials of the
+structure under investigation, such as the depth reinforcement or other key hidden structural elements
+as per guidance in Martin, J. & Forde, M.C. (1995) [Ref 6.I] and Lyons et al 2005 [Ref 7.I].
+Selecting appropriate NDT methods
+2.3
+The prevailing condition of the structure shall be assessed to determine a suitable combination of tests
+that together build up a picture of the structure and its condition.
+NOTE 1
+NDT techniques are not definitive, and require calibration and therefore it can be necessary to
+frequently evaluate the results from different tests in combination, in order to achieve a meaningful
+interpretation.
+NOTE 2
+A return to site, after the analysis of early tests, to undertake further testing can be necessary.
+2.4
+The effectiveness of each NDT method in the prevailing situation shall be predicted in advance of
+specification.
+NOTE
+The effectiveness and accuracy of each NDT method for use in a particular structure and in specific
+circumstances can be different.
+2.4.1
+Staged work should be identified to enable targeted testing and determine more detailed information
+about features identified in earlier tests.
+NOTE
+Additional tests can be required in order to determine the extent of structural features or faults.
+2.4.2
+Prior to commissioning the NDT, a site visit should be undertaken to assess the structure and the
+suitability of the proposed testing strategies, as well as to determine any specific requirements.
+2.4.3
+The testing strategy should be chosen through consultation between the designer and the testing
+contractor.
+2.4.4
+NDT should only be used where, after allowing for the accuracy of the testing, the results would
+usefully inform on the assessed capacity of a structure.
+NOTE 1
+A sensitivity analysis can be necessary prior to commencing the works to identify whether NDT testing
+is sufficiently accurate to be useful.
+NOTE 2
+Trial NDT testing can be necessary to establish that a full set of testing provides useful data.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 12 of 28
+======================================================================
+CS 464 Revision 1
+3. Commissioning, specification and tender requi...
+3.
+Commissioning, specification and tender requirements
+3.1
+Extents of the commissioning shall be identified when developing the scope to ensure the NDT
+technique utilised is appropriate to the work carried out.
+3.2
+NDT shall not damage the structure or result in weakening an already damaged structure unless
+specifically permitted within the works specification.
+3.2.1
+Where NDT techniques do not provide definitive results regarding the structures condition, intrusive
+testing may need to be carried out in parallel.
+Accreditation
+3.3
+Accredited organisations shall be used to carry out any NDT work.
+3.3.1
+Accreditation of personnel and organisations carrying out NDT testing should be conducted against BS
+EN ISO/IEC 17020 [Ref 1.N] and BS EN ISO 9712 [Ref 6.N].
+3.4
+NDT testing shall be carried out by a supplier with a UKAS accreditation.
+Tender documentation and specification
+3.5
+The tender documents setting out the testing specification shall include a description of the works
+required.
+3.5.1
+The following information should be included within the tender documentation:
+1) location of structure;
+2) as-built drawings providing general arrangement, structure and materials of the bridge;
+3) elements of the bridge to be tested;
+4) whether the structure of the bridge is to be determined or confirmed;
+5) whether faults in the bridge are to be detected and/or known faults are to be investigated;
+6) results of previous testing such as drilling-in so that the testing organisation can use these for
+calibration purposes;
+7) information on any known faults;
+8) preliminary hazard information such as adjacent highways, railway lines, water courses or overhead
+electrical equipment;
+9) information on live services present such as buried cables which impact on the accuracy of the data;
+10) as-built drawings providing reinforcing details, duct types and sizes, profiles, locations and depth of
+cover;
+11) which ducts and which lengths of ducts are to be tested in detail;
+12) whether other ducts or intermediate lengths of the above ducts are to be tested at sample locations.
+Interval to be stated; and,
+13) confirmation of tendon material.
+3.5.2
+The testing organisation should be asked to confirm all hazards such as adjacent highways, railway
+lines, water courses or overhead electrical equipment themselves and carry out risk assessments.
+3.5.3
+A bill of quantities may be drawn up giving:
+1) mobilisation costs;
+2) cost of test and interpretation at each test location (different costs for different degrees of access
+difficulty); and,
+3) cost of testing report.
+3.6
+A specification shall be produced setting out the requirements of the NDT testing.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 13 of 28
+======================================================================
+CS 464 Revision 1
+3. Commissioning, specification and tender requi...
+3.6.1
+The deliverables from testing organisations should be stated in the tender documentation and
+specification.
+3.6.2
+The following information should be set out as a deliverable as part of the tender documentation and
+the specification:
+1) the name and precise location of the structure using Ordnance Survey co-ordinates;
+2) the date, time and weather, including temperature when the survey was undertaken;
+3) the dimensions of the structural elements;
+4) the location and size of the test areas including orientation relative to North;
+5) the surveying method chosen for the accurate positioning of the equipment on the structure, and
+how this is indicated, both on the raw data outputs and on the interpretative drawings;
+6) plots of the measuring grids;
+7) the trade name, model and frequency of standard instrumentation used, specification of
+non-standard instrumentation and similar details of any interpretative software;
+8) the type of survey carried out, a clear description of the methodologies of collection of the data, the
+test locations used and a demonstration as to whether these were able to locate structural features,
+faults or voids at all locations required;
+9) the personnel involved in the survey, including their qualifications and experience;
+10) raw and, if applicable, filtered data to provide a clear view of the quality of the data print-out in a
+format such that it can be interpreted by a second opinion;
+11) a clear indication of the accuracy and sensitivity of the survey based upon the choice of the
+hardware provided in a format so that the specifying engineer can compare the claimed accuracy
+with the plots and further interpretation carried out at a later date;
+12) a plot of results in tabular and graphical format and an interpretation of these;
+13) drawings showing the positions of structural elements and of clear voiding or faults, together with
+size or volume, of possible voiding and other defects, together with their location and extent;
+14) an indication of the accuracy of the information provided in (8) above, and the likelihood of there
+being unidentified defects;
+15) a discussion of the number of readings and a demonstration of whether these were able to locate
+structural features, faults or voids at all locations required;
+16) the results of complementary NDT or in situ tests, such as confirmation of the presence or absence
+of voids by physical drilling and endoscopic inspection;
+17) photographs of structure including close-ups of areas investigated; and,
+18) a reference to this document.
+3.6.3
+The deliverables required from the testing organisation(s) should be set out in the specification and are
+given below:
+1) raw and filtered data (or traces);
+2) contoured plots where applicable;
+3) diagrammatic type interpretation; and,
+4) interpretation of the data.
+3.7
+Where drilling and subsequent sealing of holes is carried out as part of the NDT, these activities shall
+be carefully specified and supervised to avoid potentially serious damage to the structure.
+3.7.1
+The NDT specification should require test locations or traverse lines across the structure to be clearly
+marked.
+3.7.2
+A diagrammatic interpretation of the results from the NDT should be required within the specification.
+3.7.3
+Markers should be shown on the records or traces indicating lateral locations where apparatus is
+moved across the section of the structure under investigation.
+3.8
+After testing has been carried out, all breakout and holes shall be repaired.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 14 of 28
+======================================================================
+CS 464 Revision 1
+4. Undertaking non-destructive testing (NDT)
+4.
+Undertaking non-destructive testing (NDT)
+4.1
+Visual inspections shall be carried out prior to more detailed NDT being undertaken.
+4.2
+Personnel undertaking NDT shall be competent and accredited in accordance with BS EN ISO/IEC
+17020 [Ref 1.N].
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 15 of 28
+======================================================================
+CS 464 Revision 1
+5. NDT records
+5.
+NDT records
+5.1
+Records shall be kept regarding the non-destructive tests adopted on structures with comments and
+conclusions by the Overseeing Organisation.
+NOTE
+A form for NDT records is provided as Appendix A.
+5.2
+Testing organisations shall provide an interpretation of the cross-sections in relation to the internal
+constituents of the structure and the raw data.
+5.3
+The results from a survey shall be presented in a format which can be clearly understood and
+unambiguously related to the internal constituents of the structure.
+5.3.1
+The deliverables from the testing organisations should include diagrammatic type interpretation (such
+as CAD drawings).
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 16 of 28
+======================================================================
+CS 464 Revision 1
+6. Specific structure/method requirements
+6.
+Specific structure/method requirements
+Concrete testing
+6.1
+Where concrete strength testing is required, this shall be set out in the specification.
+6.1.1
+Estimation of compressive strength may be carried out using indirect methods such ultrasonic pulse
+velocity (UPV) and rebound hammer testing as per guidance in ACI 228 Committee Report [Ref 5.I],
+ASTM C805-02 [Ref 15.I], ACI Technical Report 228.2R-13 [Ref 10.I].
+6.1.2
+Ultrasonic pulse velocity (UPV) and rebound hammer tests should comply with BS EN 12504: parts 2
+and 4 ( BS EN 12504-2 [Ref 10.N] and BS EN 12504-4 [Ref 9.N]).
+Post-tensioned concrete structures
+6.2
+For testing of conditions within post-tensioned ducts, the following information shall be included:
+1) the location of the ducts and tendons;
+2) the presence and characteristics of voids within ducts;
+3) the existing degree of tendon corrosion; and,
+4) the probability of future corrosion.
+NOTE
+Guidance on NDT of post tensioned structures is set out in CS 465 [Ref 8.I], and CS TR72 [Ref 2.N].
+Masonry arches
+6.3
+The appropriateness of different testing techniques shall be evaluated depending on disruption costs,
+depth of the investigation required, the extent and the nature of the structure to be investigated in
+accordance with recommendations of RILEM [Ref 12.I] and McCann et al [Ref 11.I].
+6.3.1
+Visual inspection may be used to identify the geometry of the arch, the surface condition of the
+masonry and the location of surface defects.
+NOTE 1
+Masonry arch bridges are highly variable in their geometry and construction.
+NOTE 2
+Hollowness of the masonry can be identified, in conjunction with visual inspection, by hammer tap
+testing or coin-tap-testing on the surface.
+NOTE 3
+Routine investigations, used to supplement a visual inspection, generally comprise trial holes
+excavated on top of the bridges, through the surfacing and fill to expose the upper surface of the barrel
+or any backing.
+NOTE 4
+Where the initial inspection indicates the need, or the purpose of the survey requires it, further
+investigation can be carried out by coring to determine the nature and condition of the internal masonry.
+6.3.2
+Cores may be used to determine the compressive strength of the masonry.
+Impact echo
+6.4
+Procedures shall be adopted to minimise damage to the surface caused by the impactor used for the
+impact echo tests to ensure the concrete surface does not crumble on impact.
+NOTE
+Minimising damage to the structure being tested reduces inaccuracies in the results from the impact
+echo test.
+6.4.1
+Impact echo testing may be carried out in line with guidance set out in Carino & Sansalone 1992 [Ref
+1.I] and Carino & Sansalone 1984 [Ref 9.I].
+NOTE
+Carino, N. J. et. al. NDT 2004 [Ref 4.I] describes impact echo test method and provides information
+about where the techniques can be applied.
+6.5
+The limitations of impact echo testing shall be assessed prior to carrying out any testing.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 17 of 28
+======================================================================
+CS 464 Revision 1
+6. Specific structure/method requirements
+NOTE 1
+Dense reinforcement can affect the accuracy of impact echo testing readings - see Martin, J. & Forde,
+M.C. (1995) [Ref 6.I].
+NOTE 2
+Outer ducts can mask impact echo readings from inner ducts - see Carino & Sansalone 1992 [Ref 1.I].
+6.5.1
+Vacuum testing rather than sonic techniques should be used to determine the volume of the voids in
+grouted ducts as a precursor to re-grouting them in accordance with The Concrete Society's Technical
+Report 'Durable post-tensioned concrete structures', 2010 CS TR72 [Ref 2.N].
+6.5.2
+The test report from the impact echo test should include the following:
+1) the likely impact frequency achieved and the ball bearing sizes used at each location; and,
+2) a discussion of the ball sizes and frequencies used and a demonstration of whether these were
+appropriate for locating voids at all locations investigated.
+Sonic tomography for masonry arches
+6.6
+The tender documentation setting out the NDT testing scope shall set out specific requirements
+associated with sonic tomography.
+6.6.1
+The tender documents should include the requirement that the following additional information is
+provided:
+1) the number of sonic transmission transits required through each element and whether tomography is
+to be used; and,
+2) all available construction details of the structure to be tested.
+6.6.2
+The testing organisations providing sonic tomography testing should be asked to state:
+1) the type of sonic survey proposed and proposed transit locations; and,
+2) details of the hammer to be used.
+6.6.3
+The specification setting out the requirements for the sonic tomography testing should require details of
+the sonic survey carried out and the transit locations used.
+NOTE
+Colla et al (1997) [Ref 13.I] describes sonic tomography test method and provides information about
+where the techniques can be applied.
+6.6.4
+The sonic tomography test method may be used when surveying the structure of masonry arches to
+identify construction details, voids and poor compaction of fill materials as per recommendations in
+Colla et al (1997) [Ref 13.I].
+NOTE
+The tomographic procedure can be very time consuming unless multiple receiving transducers are
+used.
+6.6.5
+Anomalies identified during sonic tomography testing should be further investigated by drilling or
+excavation.
+6.7
+Surface damage to the structure during sonic tomography testing shall be minimised.
+Ground penetrating radar
+6.8
+The following additional information shall be required within the tender documentation for ground
+penetrating radar (GPR):
+1) trade name, model and frequency of both the main frame and the antennae, including date of most
+recent calibration;
+2) probable range and choice of antennae to be used together with justifications;
+3) likely filtering to be used;
+4) likely number of points to be recorded; and,
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 18 of 28
+======================================================================
+CS 464 Revision 1
+6. Specific structure/method requirements
+5) expected standard of interpretation of the results, such as voids detected or no voids detected –
+together with a percentage confidence level.
+6.8.1
+GPR may be employed both for structural monitoring in time and for checking the outcome of repair
+interventions as per ASTM D6087-03 [Ref 14.I].
+NOTE
+ASTM D6087-03 [Ref 14.I] and Malhotra, V.M et. al. NDT 2004 [Ref 4.I] describe the GPR test method
+and provide information about where the techniques can be applied.
+6.9
+Testing objectives shall depend on the geometry and material of the structure.
+6.9.1
+Test locations should be dictated by engineering objectives such as areas of high load concentrations
+or areas critical to the structural integrity.
+6.9.2
+Any variation in material quality or condition throughout the structure should be measured if possible.
+6.9.3
+Dimensions including spans, deck widths, structural depths etc. should be measured accurately to
+enable subsequent mapping to be undertaken.
+6.9.4
+The deliverables from the testing should include the following information:
+1) whether used in monostatic or bi-static arrangement;
+2) the number and frequency of the operating antennae;
+3) the time range used and rate of data recording (number of scans per second, number of samples
+per scan, etc.);
+4) whether filtering and gain were applied and of which kind;
+5) use of survey wheel on the antenna and antenna orientation in relation of the direction of scan;
+6) calibration of radar equipment;
+7) precise settings used on the instrumentation, as the systems have varying capabilities and data can
+be recorded in a number of ways;
+8) clear description of the methodologies of collection of the data;
+9) whether transmission or reflection mode survey has been carried out and the surface distance
+covered by transmitting and receiving antennae;
+10) test results compiled in the form of grey-scale plot accompanied by time window or depth scale; and,
+11) 2-D and 3-D interpretative model.
+Acoustic emission
+6.10
+Prior to commissioning the acoustic emission (AE) monitoring, the root cause, damage mechanisms
+and an awareness of how and when the damage is likely to propagate shall be identified in order to
+specify the duration and extent of monitoring.
+NOTE 1
+BS EN 13554 [Ref 5.N] describes the AE test method and provide information about where the
+techniques can be applied.
+NOTE 2
+A short AE monitoring duration can miss defects inactive under prevalent conditions whereas extended
+monitoring can provide no further new information.
+NOTE 3
+Typical uses of AE are as follows:
+1) detection of cracking and failure in concrete structure;
+2) detection of deterioration in reinforced concrete bridges, in particular for providing information on the
+condition of half joints and hinge joints, and detecting reinforcement corrosion;
+3) detection of the residual strength of concrete beam;
+4) detection of wire fractures in steel cables in both suspension and cable stayed bridges; also
+detecting tendon wire breaks in post-tensioned concrete bridges tendons;
+5) detection and location of cracks in welded steel structures;
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 19 of 28
+======================================================================
+CS 464 Revision 1
+6. Specific structure/method requirements
+6) detection of fatigue cracks in steel box-girder bridges;
+7) detection of fatigue cracks in shear studs and degradation of concrete surrounding the studs;
+8) detection of deterioration in bearings;
+9) detection of fatigue cracks in steel corbels;
+10) determine whether the structure is in a stable condition or deteriorating and how it compares with
+other structures of a similar type;
+11) monitoring welded steel such as steel box-girders, orthotropic bridge decks and welded I-beam
+girders, steel corbels, shear studs and bridge bearings; and,
+12) detection of secondary effects of steel fatigue such as plastic deformation and crack face fretting
+(rubbing).
+6.10.1
+The raw data from AE monitoring should be made available if requested.
+6.10.2
+A final report on the condition of the structure should include:
+1) the make, model and frequency range of the proposed sensors along with a calibration certificate for
+a typical sensor;
+2) the method used to hold the sensor to the structure;
+3) the method of coupling the sensor;
+4) the method for verifying sensor sensitivity, location accuracy and attenuation of the structure; and,
+5) make and model of AE data capturing system.
+6.10.3
+Global and semi-global monitoring should be used for steel plate structures.
+6.10.4
+Local monitoring may be used for both steel and the more heavily damped concrete structures.
+6.10.5
+The chosen testing strategy should identify the level of monitoring (number of sensors and information
+required) and the duration of monitoring.
+6.10.6
+The monitoring of fatigue cracking in a steel structure using an AE technique should be performed with
+a representative period of vehicular loading, such as one day on motorway bridges or two or more days
+for less frequently trafficked bridges as per Mori & Obata 1998 [Ref 2.I].
+6.11
+Where appropriate, AE shall be used for long-term/permanent monitoring.
+6.11.1
+Long-term/permanent AE monitoring should be used in the following circumstances:
+1) when the defect is serious and failure or an increase in damage size could lead to the closure of a
+structure;
+2) where damage propagation is sporadic with long intervals in between where a short period of
+monitoring could miss AE activity;
+3) sub-standard bridges, as described in CS 470 [Ref 4.N] as examples, detection of wire breaks in
+suspension cables, cable stays and post-tensioning tendons; and,
+4) where a structure requires periodic evaluation to assess degradation.
+6.12
+The location accuracy of the AE monitoring system shall be verified before the start of a test.
+6.13
+The position of detected AE sources found during testing shall be verified at the end of the test.
+6.13.1
+Verification tests should use Hsu-Nielsen source (pencil lead break) device to simulate an AE event in
+accordance with BS EN 1330-9 [Ref 7.N]).
+6.13.2
+Active AE locations may be followed up with more sensor-intensive monitoring.
+6.13.3
+Where defects are suspected within a structure, it may be beneficial to use a more intensive strategy
+such as semiglobal or local monitoring from the outset to provide accurate source location.
+6.13.4
+Specific additional requirements such as specific method of installation, test objectives, outputs from
+monitoring or limitations should be set out where required for AE monitoring in accordance with BS EN
+13554 [Ref 5.N].
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 20 of 28
+======================================================================
+CS 464 Revision 1
+6. Specific structure/method requirements
+6.14
+The resonant AE frequency applicable to the structural material shall be used.
+6.14.1
+Resonant AE sensors with frequency of 30-100 kHz should be used for concrete structures and
+resonant AE sensors with a frequency of 100 and 200 kHz for metallic structures.
+6.14.2
+Higher frequency resonant sensors should be used in high noise environments but only for local
+monitoring.
+6.14.3
+Broadband AE sensors should only be used for source characterisation and fundamental studies in the
+laboratory.
+6.14.4
+Interpretation of the AE signals should include a simple source location to identify the most active areas.
+6.14.5
+An analysis of the AE hit rate, rise time and duration should be performed.
+6.15
+The tender documents setting out the testing specification for AE shall include:
+1) the objectives of the test and the level and duration of monitoring that is required;
+2) any available information about the actual known condition of the structure; and,
+3) any available information about previous AE testing and/or monitoring.
+6.15.1
+The following additional information should be included within the tender documentation for AE testing:
+1) the specification for the AE system that is proposed; that is its make and model, and type of;
+2) acquisition system; such as hit based acquisition, feature extraction capability and type of source
+location provided;
+3) the number, type and specification of the AE sensors that are to be used;
+4) an indication of where the sensors are to be located, how they are to be mounted, their separation
+and the procedure for checking their sensitivity when installed;
+5) a general indication of the type of analysis that are to be undertaken;
+6) details of relevant experience and background in testing,
+7) the accuracy and reliability that are anticipated;
+8) references of previous work;
+9) details of the qualifications, training and experience of the testing engineers (that is, to ASNT TC-1A
+Level 2 AE or BiNDT PCN Level 2 AE certification);
+10) procedures for reviewing the test results and qualifications of the personnel. These are to be carried
+out by more experienced personnel with a qualification such as the ASNT Level 3 (or equivalent);
+and,
+11) details of their quality system used ( BS EN ISO 9001 2017 [Ref 8.N]).
+6.16
+The application of AE monitoring shall include the following steps:
+1) aim of the test;
+2) preliminary survey;
+3) selection of AE system;
+4) selection of sensor;
+5) sensor location;
+6) sensor mounting and coupling;
+7) instrumentation settings;
+8) mounted sensor sensitivity check;
+9) noise and attenuation study; and,
+10) parametric data and environmental conditions.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 21 of 28
+======================================================================
+CS 464 Revision 1
+6. Specific structure/method requirements
+6.16.1
+The selection of the AE system should enable waveform feature recognition with separate data
+channels, be able to measure individual signal amplitude (dBAE), risetime, duration, absolute energy
+and counts, as an absolute minimum and have a sufficient sampling rate for feature extraction and
+waveform analysis.
+6.16.2
+Suitable sensors should be selected depending on:
+1) material, geometry and size of the structure under test;
+2) working environment;
+3) type of data analysis required;
+4) sensitivity and frequency range required; and,
+5) signal attenuation in the material under test.
+6.16.3
+Global monitoring of the whole structure should use large spacings between sensors and local
+monitoring closer spacing.
+6.16.4
+Clamps should be used to hold the sensors in place and cables to be held in position to avoid
+interference from electromagnetic signals.
+6.16.5
+The settings of the AE instrumentation should be in accordance with the equipment manufacturer's
+recommendations where records are to be kept of the settings used during the test.
+6.16.6
+The sensitivity of sensors should be checked in accordance with procedure BS EN 1330-9 [Ref 7.N],
+where the checks are to be done at the beginning, at the end and if possible in the middle of the test.
+6.16.7
+A noise and attenuation study should be performed.
+6.16.8
+During AE monitoring additional formation, such as displacement and/or strain, together with the
+environmental conditions under which the measurements were made such as wind, temperature and
+rain, should be recorded and utilised when setting the threshold value of the equipment.
+6.16.9
+The following universal AE set-up information should be included for an acoustic emission bridge
+investigation:
+1) the threshold used for recording signals and whether AE waveforms were also recorded and the
+corresponding threshold;
+2) the type and accuracy of source location and whether location accuracy is based on an
+experimental investigation on the structure or previous investigations, including references;
+3) the background noise level. Where background noise were unacceptable, details of the methods
+used to control it, such as guard sensors, using location analysis to exclude known sources of noise
+from the analysis, or other established methods.
+6.17
+The complementary use of other NDT techniques shall be assessed to confirm the findings obtained
+from the AE investigation.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 22 of 28
+======================================================================
+CS 464 Revision 1
+7. Interpretation of results
+7.
+Interpretation of results
+7.1
+The data collected shall be interpreted with reference to what it means in terms of physical features or
+material properties.
+NOTE 1
+Testing assists in the determination of the condition of a structure at a particular time. It can be
+necessary or cost effective to take remedial action at that time, or it can be considered safe and
+economical to delay remedial action.
+NOTE 2
+Where remedial action is delayed, it can be prudent to monitor deterioration to ensure safety is
+maintained and to determine the optimum time for remedial action.
+7.1.1
+Monitoring may be carried out by retesting at intervals or by continuous monitoring whereby equipment
+is installed which records information at short intervals on a regular basis.
+7.2
+The accuracy of predicted NDT results shall be checked before reliance is placed on the results.
+7.3
+The limitations of the NDT technique used shall be taken into account in assessing the results.
+Results
+7.4
+The following key issues shall be assessed prior to installing continuous monitoring:
+1) robustness of site equipment and its ability to withstand elements of the weather and sited to
+minimise the risk of vandalism;
+2) maintenance of system including its power source by either battery or mains with battery back-up;
+3) data logging capacity and its potential to store the required data between downloads and
+transferring the data to an offsite computer remotely;
+4) facilities for analysing potentially large volumes of data.
+7.5
+Results from testing shall be used to inform future maintenance strategies including whether to:
+1) repair;
+2) monitor by automated monitoring or repeat testing;
+3) leave unrepaired and revert to standard inspections.
+7.6
+When establishing the monitoring requirements, any additional monitoring required in conjunction with
+the main data shall be specified.
+NOTE 1
+Additional monitoring can include an accurate measure of the temperature at the same time as strain
+measurements or core and surface temperature monitoring to allow temperature gradients to be
+determined. This can be particularly applicable where solar radiation can induce large thermal
+differences, causing displacements and strains.
+NOTE 2
+Ambient air temperatures alone cannot fully determine differential structure temperatures.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 23 of 28
+======================================================================
+CS 464 Revision 1
+8. Certification
+8.
+Certification
+8.1
+Certification shall be provided for all NDT carried out on a structure.
+8.1.1
+The certification should confirm that:
+1) quality assurance procedures have been followed;
+2) that the client's brief has been followed as stated in the report;
+3) that the experience and qualifications of the personnel carrying out and interpreting the survey are
+as stated in the report;
+4) that the survey, testing, interpreting the results have been carried out with reasonable professional
+skill, care and diligence;
+5) taking account of the contract terms and conditions and resources devoted to it in agreement with
+the client.
+8.2
+Certification requirements for the NDT processes carried out shall be set out within the specification.
+8.2.1
+Certification requirements should be agreed with the Overseeing Organisation.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 24 of 28
+======================================================================
+CS 464 Revision 1
+9. Normative references
+9.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+BSI. BS EN ISO/IEC 17020, 'Conformity Assessment Requirements for the operation
+of various types of bodies performing inspection'
+Ref 2.N
+The Concrete Society. CS TR72, 'Durable Post-Tensioned Concrete Structures'
+Ref 3.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 4.N
+Highways England. CS 470, 'Management of sub-standard highway structures'
+Ref 5.N
+BSI. BS EN 13554, 'Non destructive testing. Acoustic emission testing. General
+principles.'
+Ref 6.N
+BSI. BS EN ISO 9712, 'Non-destructive testing. Qualification and certification of NDT
+personnel'
+Ref 7.N
+BSI. BS EN 1330-9, 'Non-destructive testing. Terminology - Part 9 - Terms used in
+acoustic emission testing'
+Ref 8.N
+BSI. BS EN ISO 9001, 'Quality management systems. Requirements' , 2017
+Ref 9.N
+BSI. BS EN 12504-4, 'Testing concrete - Part 4 - Determination of ultrasonic pulse
+velocity'
+Ref 10.N
+BSI. BS EN 12504-2, 'Testing Concrete in Structures - Part 2 - Non-destructive testing
+- Determination of rebound number'
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 25 of 28
+======================================================================
+CS 464 Revision 1
+10. Informative references
+10.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+ACI Materials Journal, Vol 89, No 3, May/June, 296- 303. Carino, N.J. & Sansalone,
+M. . Carino & Sansalone 1992, 'ACI Materials Journal. Detection of voids in grouted
+ducts using the impact-echo method'
+Ref 2.I
+Nondestructive Testing Communications. 4:11-21. Mori,Y., Obata, Y. (1998). Mori &
+Obata 1998, 'Characteristics of Acoustic Emission source in a fatigue crack'
+Ref 3.I
+U.S. Department of Transportation. Federal Highway Administration. Publication No.
+FHWA-RD- 92-096. Dec 1993. pp84. Ghorbanpoor, A. . Impact-Echo of PT concrete,
+'Evaluation of Post-tensioned Concrete Bridge Structures by the Impact-Echo
+Technique'
+Ref 4.I
+Taylor & Francis Group, LLC. Malhotra, V.M., Carino, N.J. NDT 2004, 'Handbook on
+Nondestructive Testing of Concrete Second Edition, 2004'
+Ref 5.I
+ACI, September/October 1988. J Mater . ACI 228 Committee Report, 'In-place
+methods for determination of strength of concrete'
+Ref 6.I
+Construction and Building Materials 1995, 9, No. 4, 245-255. Martin, J. & Forde, M.C.
+(1995) . Martin, J. & Forde, M.C. (1995) , 'Influence of concrete age and mix design
+on impulse hammer spectrum and compression wave velocity'
+Ref 7.I
+Corrosion Science, 47, No. 2. Feb. 413-433. Lyons, R., Ing, M., and Austin, S. A.
+(2005). Lyons et al 2005, 'Influence of diurnal and seasonal temperature variations on
+the detection of corrosion in reinforced concrete by acoustic emission'
+Ref 8.I
+Highways England. CS 465, 'Management of post-tensioned concrete bridges'
+Ref 9.I
+NBS Technical note 1199. U.S. Dept. of Commerce/National Bureau of standards.
+1984. pp34. Carino, N.J. & Sansalone, M.. Carino & Sansalone 1984, 'NBS
+Technical note 1199. Pulse-Echo Method for Flaw Detection in Concrete'
+Ref 10.I
+ACI (2013). ACI Committee 228. ACI Technical Report 228.2R-13, 'Report on
+Nondestructive Test Methods for Evaluation of Concrete in Structures'
+Ref 11.I
+NDT&E International, Elsevier Science, Vol 34, 2001, 71-84. McCann, D.M. & Forde,
+M.C.. McCann et al, 'Review of NDT Methods in the Assessment of Concrete and
+Masonry Structures'
+Ref 12.I
+R.C.de Vekey ed . RILEM, 'Rilem Recommendations of Non Destructive Tests For
+Masonry, MS.D.3: Radar Investigation of Masonry, pp131-134; MS.D.4:
+Measurement of Local Dynamic Behaviour for Masonry, pp135-137; MS-D.8:
+Electrical Conductivity (2001)'
+Ref 13.I
+NDT & E International, Vol. 30, No. 4, 249-254. Colla, C., Das, P.C., McCann, D.M. &
+Forde, M.C.. Colla et al (1997), 'Sonic, electromagnetic and impulse radar
+investigation of stone masonry bridges'
+Ref 14.I
+ASTM, West Conshohocken, PA, USA. ASTM D6087-03, 'Standard Test Method for
+Evaluating Asphalt-Covered Concrete Bridge Decks Using Ground Penetrating Radar
+in Annual Book of ASTM Standards, Vol. 04.03'
+Ref 15.I
+ASTM, West Conshohocken, PA, USA. ASTM C805-02, 'Standard Test Method for
+Rebound Number of Hardened Concrete in Annual Book of ASTM Standards, Vol.
+04.02'
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 26 of 28
+======================================================================
+CS 464 Revision 1
+Appendix A. Technique records
+Appendix A. Technique records
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 27 of 28
+======================================================================
+CS 464 Revision 1
+Appendix A. Technique records
+Table A.1 Technique records for NDT testing
+Technique/
+Equipment
+Structural
+Element
+Dimensions of
+Element
+Form
+of Element
+Materials of
+Element
+Structural
+Dimension
+Void
+Size
+Cracking
+Detected
+Comments
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
+
+======================================================================
+PAGE 28 of 28
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 464, published: Mar-2020
+
+
