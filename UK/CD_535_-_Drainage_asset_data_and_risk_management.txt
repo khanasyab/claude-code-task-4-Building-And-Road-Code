@@ -1,0 +1,5702 @@
+======================================================================
+PAGE 1 of 134
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 535
+Drainage asset data and risk management
+(formerly HD 43/04, IAN 147/12)
+Version 1.2.0
+Summary
+This document defines the requirements for recording of inventory and condition of drainage
+assets, and the management of flooding, pollution and cross-asset risks related to drainage.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 134
+======================================================================
+CD 535 Version 1.2.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+11
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+2. General requirements
+12
+When to do drainage surveys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Risk management
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Scheme development . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Condition inspections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Reactive or proactive maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+3. Asset inventory data
+14
+Asset type . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Asset location . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Asset referencing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Activity and activity sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Activity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Activity set
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Asset sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Components
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Connectivity and flow direction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Point assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Continuous assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Additional requirements for continuous assets with intermediate connections
+. . . . . . . . . . . . . .
+21
+Region assets
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Use of phantom nodes and phantom connectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+4. Asset condition data
+23
+Asset-level condition assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Defect-level condition assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+5. Managing flood risk
+25
+General requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Recording flood data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Floods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Recording flood risk
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Flooding hotspots
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Sub-catchment flood risk
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+6. Managing risks to water quality
+27
+General requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Outfalls and soakaways . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Recording spillage data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 134
+======================================================================
+CD 535 Version 1.2.0
+Contents
+7. Managing cross-asset risks
+28
+8. Normative references
+29
+9. Informative references
+30
+Appendix A. Drainage asset types
+31
+A1 Asset type descriptions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A1.1 Point assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A1.2 Continuous assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+A1.3 Region assets
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+A2 Asset example usages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+A2.1 Point assets - inlets and outlets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+A2.2 Drainage network modelling items
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Appendix B. Drainage catchments
+65
+B1 Drainage catchment definition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+B2 Drainage catchment model
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+Appendix C. Drainage data management features
+67
+C1 Activity and activity set example
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+C2 Asset set example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+C3 Component examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+71
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 134
+======================================================================
+CD 535 Version 1.2.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+1.2.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+requirements
+Section 2 - new section to set out requirements for when to undertake drainage surveys
+Sections 3 to 6 - minor changes and additions to reflect the implementation of drainage in the GDMS system
+Appendix A - minor changes to reflect the implementation of drainage in the GDMS system
+Appendix B - new section to provide the definition and modelling method of drainage catchments
+Appendix C - new section to provide the definition of activities, activity sets, asset sets and components
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+1.1.0
+October 2021
+Core document,
+England NAA
+Incremental change to
+requirements
+CD 535
+1
+January 2020
+CD 535
+0
+June 2019
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 134
+======================================================================
+CD 535 Version 1.2.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 535 version 1.1.0 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 134
+======================================================================
+CD 535 Version 1.2.0
+Introduction
+Introduction
+Background
+This document defines the requirements for recording of inventory and condition of drainage assets,
+and the management of flooding, pollution and cross-asset risks related to drainage.
+Prior to this document, HD 43 set out the requirements for recording of drainage asset inventory
+information. This was updated and supplemented by IAN 147, which set out advice for recording of
+inventory and condition data for all types of drainage assets, and provided guidance for capturing this
+data through surveys and digitisation of records.
+This document formalises these requirements, and incorporates other drainage asset management
+instructions and guidance that have been published prior to publication of this version.
+National Application Annexes to this document provide further details of the scope and format of data,
+and drainage asset management procedures specific to the Overseeing Organisation.
+This document provides requirements and advice used to develop the design outputs required to
+deliver the works in accordance with CC 500 [Ref 4.N].
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 134
+======================================================================
+CD 535 Version 1.2.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+DDMS
+Drainage data management system
+GIS
+Geographical information system
+GPS
+Global positioning system
+LiDAR
+Light detection and ranging
+VRS
+Vehicle restraint system
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 134
+======================================================================
+CD 535 Version 1.2.0
+Terms and definitions
+Terms and definitions
+In addition to the terms defined in the table below, drainage asset types are defined and described in
+greater detail in Appendix A. Catchments and sub-catchments are described in greater detail in
+Appendix B. Activities, activity sets, asset sets and components are described in greater detail in
+Appendix C.
+Term
+Definition
+Acute pollution
+Incidence of pollution that occurs suddenly.
+NOTE: A spill as a result of an accidental discharge from a
+vehicle is a potential cause of an acute pollution incident.
+Activity
+Represents an action such as a survey that was carried out
+on that asset on a specific date.
+Activity set
+Multiple activities, possibly on different dates, on multiple
+assets.
+Asset condition
+A measure of the current health of an asset, that indicates
+its ability to perform as designed and its likelihood of failure.
+NOTE: Condition is considered in terms of serviceability
+(service condition) and structural integrity (structural
+condition).
+Asset condition survey
+Field surveys that assess the condition of all drainage
+assets in an area at the asset level, without detailed
+recording of defects.
+NOTE: Where the assets have not been previously
+recorded the survey also captures the asset inventory,
+connectivity and flow direction between assets.
+Asset inventory information
+Data and information concerning the physical, permanent
+characteristics of one or more assets.
+NOTE 1: Asset inventory includes details of each asset
+type, their parts, information about their permanent
+characteristics such as materials and dimensions, and how
+the assets connect together to form a drainage system.
+NOTE 2: To satisfy connectivity requirements, some
+records in the asset inventory can comprise network
+modelling items.
+Asset inventory survey
+Quick field surveys that either identify the location of priority
+drainage assets or confirm the validity of existing inventory
+records.
+NOTE: The surveys are selective and are unlikely to survey
+100% of the assets in an area.
+Asset set
+Continuous assets that work together to provide the
+functionality of a combined asset.
+Basin
+A depression in the ground that temporarily detains storm
+water flows.
+NOTE: The water can be directed to a surface water outfall,
+or it can percolate through to groundwater.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 134
+======================================================================
+CD 535 Version 1.2.0
+Terms and definitions
+(continued)
+Chronic pollution
+Incidence of pollution that occurs over a long period of time,
+not from an individual incident.
+NOTE: Long-term run-off from the carriageway can cause
+chronic pollution.
+Component
+Components model the change in dimension, shape,
+material or lining along a continuous asset.
+Continuous asset
+Asset such as a pipe, ditch or channel that is represented
+as a linear feature in GIS.
+NOTE: The GIS geometry represents the asset's
+centre-line, and does not reflect its width.
+Detailed defect survey
+Detailed field surveys to record all condition defects in the
+surveyed drainage assets.
+NOTE 1: For pipework and chambers, this involves internal
+CCTV survey. For non-pipework assets, it involves detailed
+survey, possibly with selective excavation of some buried
+assets.
+NOTE 2: Where the asset inventory has not previously
+been recorded, or has not been recorded in detail, then the
+detailed inventory is also captured.
+NOTE 3: The survey can focus on particular assets in an
+area of known performance problems, or can survey all the
+drainage assets in the area, in which case the survey also
+records how the assets connect together and flow
+directions.
+Diffuse pollution
+Incidence of pollution involving pollutants from several
+sources, over a long period of time, rather than from an
+individual incident.
+NOTE: Individually, the pollutants involved can have no
+significant impact on water quality, but at a catchment scale
+and/or in combination can become significant.
+Drainage asset
+An individual item within a drainage system, such as a gully,
+pipe, ditch or pond.
+Drainage data management system
+(DDMS)
+Overseeing Organisation's master database for managing
+information concerning drainage assets and flooding.
+Drainage catchment
+A group of all the drainage systems and the adjacent land
+they drain, between two geographical high points of the
+highway network.
+NOTE 1: Both carriageways of a dual carriageway are
+considered part of the same catchment, but risks can be
+assessed separately for each carriageway (see drainage
+sub-catchment).
+NOTE 2: A drainage catchment can include one or more
+drainage systems.
+Drainage sub-catchment
+The separate carriageways of a drainage catchment, used
+primarily for flood risk assessment.
+NOTE: Sub-catchments can contain multiple systems.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 134
+======================================================================
+CD 535 Version 1.2.0
+Terms and definitions
+(continued)
+Drainage surveys
+Detailed field investigations that are drainage specific, are
+mainly carried out on foot, generally by drainage survey
+specialists in accordance with CS 551 [Ref 5.N].
+Drainage system
+A group of drainage assets that are directly or indirectly
+connected to each other, within a single drainage
+catchment.
+NOTE 1: Each individual drainage asset is part of only one
+drainage system.
+NOTE 2:Systems can cross sub-catchments within the
+same catchment.
+Flooding
+The accumulation or passage of water at the ground surface
+where it is not normally experienced.
+Flood
+A single incidence of flooding on or within 200 m of a
+carriageway or within 500 m of a drainage asset, at a
+particular location and time.
+Flooding hotspot
+An arbitrary extent of carriageway at risk of repeating
+flooding
+Mitigation
+An action or procedure that is designed and implemented to
+reduce a risk to an acceptable level.
+NOTE 1: A mitigation does not necessarily eliminate a risk
+entirely.
+NOTE 2: Acceptability criteria for the level of residual risk
+can be defined on a case-by-case basis.
+Network modelling item
+An asset inventory record that takes the place of one or
+more physical point asset or continuous asset records to
+satisfy drainage network connectivity requirements.
+NOTE: Example usages are where there is either no
+physical asset, where the detailed arrangement of the
+physical assets are not yet known, or where flow direction is
+generalised in a region asset. Further details and examples
+are given in Appendix A.
+Point asset
+An asset such as a chamber that is represented as a point
+in GIS.
+NOTE 1: The dimensions or physical shape of the asset are
+not represented in the GIS geometry, but only as data
+attributes.
+NOTE 2: Some assets of a linear physical shape such as
+weirs are represented as point assets because the overall
+flow direction is across their width, rather than along their
+length.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 134
+======================================================================
+CD 535 Version 1.2.0
+Terms and definitions
+(continued)
+Pollution
+The presence or introduction of a substance that can have
+an adverse impact on the environment, over a short or long
+period, regardless of cause and whether this is accidental or
+deliberate.
+NOTE: Pollution can affect environmental factors such as
+air quality, noise, water quality, visual impacts, etc; only
+water quality impacts are within the scope of this document.
+Pollution incident
+An incidence of pollution at a specific location, either on an
+acute or chronic basis.
+Pond
+A depression in the ground with a permanent water body.
+Priority asset register
+Flooding or pollution risk assessment information for all
+priority assets, recorded in the DDMS in addition to the
+asset's inventory and condition information.
+Priority asset
+Drainage assets that present a risk of pollution or flooding
+i.e. all outfalls, soakaways and culverts.
+Region asset
+Asset such as a pond or basin that is represented as a
+closed polygon in GIS.
+NOTE: The GIS geometry reflects its physical boundary.
+Repeated flooding
+The occurrence of at least two floods within a rolling
+five-year period, on the same sub-catchment.
+Service condition
+The performance of an asset and severity of the defects that
+affect its serviceability, independent of its structural
+condition.
+NOTE: Service defects are addressed by maintenance of
+the asset such as cleansing or vegetation clearance.
+Spill
+A single spillage on, or within 200 m of, the carriageway, at
+a particular location and time.
+NOTE: A spill does not necessarily result in the occurrence
+of a pollution incident.
+Structural condition
+The condition of the fabric of the asset and the severity of
+defects that affect its integrity.
+NOTE: Structural defects are addressed by repairing or
+replacing the asset.
+Sub-catchment flood risk
+The assessed flood risk for each and every sub-catchment.
+Watershed
+The high point between two drainage catchments. The
+drainage systems on either side flow in opposite directions.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 134
+======================================================================
+CD 535 Version 1.2.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements and advice contained within this document shall apply to all matters concerning
+recording of inventory and condition of drainage assets, and the management of priority drainage
+assets and flooding.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving recording of inventory and
+condition of the drainage asset, and the management of priority drainage assets and flooding, on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 6.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 134
+======================================================================
+CD 535 Version 1.2.0
+2. General requirements
+2.
+General requirements
+When to do drainage surveys
+2.1
+Drainage surveys shall be undertaken to collect asset inventory and condition data to address
+knowledge deficiencies.
+2.1.1
+Asset data to fill knowledge deficiencies may be required for the following:
+1)
+risk management;
+2)
+scheme development;
+3)
+condition inspections; or,
+4)
+reactive or proactive asset maintenance.
+Risk management
+2.2
+Drainage surveys shall be undertaken to collect asset inventory and condition data to fill data gaps or
+verify inventory information when managing flooding, pollution and cross asset risks.
+2.2.1
+Data gap and verification surveys to assist with risk management may include undertaking the following
+in accordance with CS 551 [Ref 5.N]:
+1)
+validation surveys to verify inventory information held on the Drainage Data Management System
+(DDMS);
+2)
+priority asset surveys to locate the outfall or soakaway of each drainage catchment and any
+culverts; and,
+3)
+all assets condition and connectivity surveys to determine the inventory, asset level condition and
+connectivity of all drainage assets to better understand the reasons for flooding or cross-asset
+impacts and determine locations to focus resources where more detailed surveys are needed.
+Scheme development
+2.3
+Drainage surveys shall be undertaken to collect asset inventory and condition data to systematically
+develop drainage schemes, and wider schemes that have a drainage element, in accordance with the
+Overseeing Organisations standard business processes.
+2.3.1
+The Overseeing Organisation's standard business processes for scheme development may include the
+following stages during which a drainage survey is undertaken:
+1)
+feasibility study;
+2)
+preliminary design;
+3)
+detailed design; and
+4)
+pre-construction.
+2.4
+A post-construction survey shall be undertaken following completion of a scheme to:
+1)
+capture as-built inventory and condition data;
+2)
+update the Overseeing Organisations DDMS; and,
+3)
+confirm that design and construction contractual requirements have been met.
+2.5
+A post-construction survey shall be undertaken following completion of the drainage works and
+following completion of works to other assets that could damage the newly installed or renewed
+drainage.
+NOTE 1
+This is to ensure that the as-built inventory and condition data collected is a true reflection at handover
+into operation and maintenance.
+NOTE 2
+If construction work continues following the completion of the drainage works, damage can occur to
+new or renewed drainage assets due to overrun by vehicles and plant.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 134
+======================================================================
+CD 535 Version 1.2.0
+2. General requirements
+Condition inspections
+2.6
+Knowledge of the condition of all drainage assets shall be updated on a cyclical basis in accordance
+with GS 801 [Ref 1.N].
+2.6.1
+Condition inspections of above ground drainage assets may be satisfied by undertaking either:
+1)
+a drainage inspection in accordance with GS 801 [Ref 1.N]; or,
+2)
+a drainage survey in accordance with CS 551 [Ref 5.N].
+2.6.2
+Condition inspections of below-ground drainage assets and specialist drainage equipment (such as
+pumps and valves) need specialist survey equipment and drainage asset knowledge, and should be
+carried out as a drainage survey in accordance with CS 551 [Ref 5.N].
+Reactive or proactive maintenance
+2.7
+As part of reactive or proactive asset maintenance in accordance with GM 701 [Ref 2.N], drainage
+surveys shall be undertaken to collect asset inventory and condition data .
+2.7.1
+Reactive and proactive asset maintenance may include:
+1)
+post-incident investigations, of:
+a)
+flooding;
+b)
+pollution (spills); or,
+c)
+cross-asset impacts.
+2)
+intelligence lead maintenance, including such items as:
+a)
+works planning informed by instrumentation monitoring;
+b)
+silt level monitoring to plan optimum timing and location of gully cleaning; or,
+c)
+pre-works contamination sampling and testing to assess spoil disposal requirements.
+3)
+a find and fix approach that combines identification and immediate remediation of minor defects.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+3.
+Asset inventory data
+3.1
+All drainage assets shall be recorded in the Overseeing Organisation's drainage data management
+system (DDMS).
+NOTE 1
+Overseeing Organisation-specific information on the DDMS including data dictionary, format and
+validation requirements is provided in the National Application Annexes.
+NOTE 2
+Drainage inventory data can be obtained from various sources including:
+1)
+asset inventory and condition field surveys;
+2)
+existing information in non-primary databases;
+3)
+processing of as-built drainage drawings; or,
+4)
+processing of remote sensing data such as Li DAR or photography.
+3.2
+Where the required asset data is to be obtained from a field survey, the decision tree shown in Figure
+3.2 shall be followed to determine the most appropriate survey method to capture the information.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+Figure 3.2 Drainage survey methodology decision tree
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+3.3
+Drainage asset field surveys shall be carried out in accordance with the detailed requirements given in
+CS 551 [Ref 5.N].
+3.4
+Where traffic management is required to safely undertake a field survey, this shall be in accordance
+with TSM Chapter 8 [Ref 8.N].
+3.5
+Each physical drainage asset shall be recorded only once in the DDMS.
+NOTE 1
+Where an asset already recorded in the DDMS is resurveyed, the existing record is updated rather than
+adding a new record.
+NOTE 2
+Where the condition of an asset has been surveyed more than once and the DDMS permits records for
+multiple surveys to be held, then these are all related to the same single asset inventory record, and the
+most recent condition information is indicated.
+3.6
+Each drainage asset recorded in the DDMS shall be assigned to one drainage sub-catchment.
+3.7
+Where asset inventory data is not derived from a field survey, the inventory records shall be marked as
+"unvalidated" until they have been validated by a field survey.
+3.7.1
+A field validation survey may cover a representative sample of point assets to determine the overall
+reliability of the records used to derive the data.
+3.7.2
+In addition to validation surveys, the inventory data may be validated during any other type of field
+survey, such as an asset condition survey.
+3.8
+As-built drawings, record status reports and signed design certificates shall be provided in accordance
+with the requirements of the National Application Annexes.
+Asset type
+3.9
+Each drainage asset shall have its asset type identified and recorded.
+NOTE 1
+A brief definition of each asset type is provided in Appendix A.
+NOTE 2
+Drainage asset type codes, and further detailed descriptions of asset types are provided in the National
+Application Annexes.
+3.10
+At the location where drainage discharges to a third party system, watercourse, the sea, or otherwise
+leaves the responsibility of the Overseeing Organisation, an outfall shall be recorded.
+NOTE 1
+Outfalls can occur at a physical asset, such as an outlet from a pipe, or at a location where there is no
+physical asset such as a point along a ditch.
+NOTE 2
+Requirements for the precedence of asset types, where more than one type asset type is applicable,
+are given in this sub-section.
+3.11
+At the location where drainage discharges to the ground, a soakaway chamber, soakaway borehole,
+soakaway trench or infiltration basin shall be recorded.
+3.12
+Where a drainage asset has more than one function and could be classified as one of several types, its
+asset type shall be identified in the following descending order of precedence:
+1)
+soakaways, outfalls and culverts;
+2)
+any other asset types apart from standalone flow control devices and network modelling items;
+3)
+standalone flow control devices; and,
+4)
+network modelling items.
+NOTE
+Further guidance for specific asset types is provided in Appendix A.
+3.13
+Where an asset such as an outlet or standalone flow control device is located at an outfall location, its
+asset type shall be recorded as an outfall.
+3.14
+Where there is no physical asset at the location of an outfall, its asset type shall be recorded as an
+outfall.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+3.15
+Where an asset such as an outlet has a flow control device, but is not at an outfall location, its asset
+type shall be recorded as an outlet. The nature of the flow control is recorded as part of the inventory
+information.
+3.16
+Where a flow control device is not associated with another asset type, and is not at an outfall location,
+its asset type shall be recorded as a standalone flow control device. The nature of the flow control is
+recorded as part of the inventory information.
+3.17
+Drainage assets shall be recorded as a point, continuous or region asset as shown in Table 3.13,
+depending on their asset type.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+Table 3.17 High level grouping of drainage asset types
+Asset group
+Geometry
+Asset types
+Chambers
+point
+manhole, catchpit, inspection chamber, rodding eye, bifurcation or storm overflow, lamphole,
+soakaway chamber, soakaway borehole, gully, other special chamber
+Inlets and outlets
+point
+outfall, inlet, outlet, grip inlet
+Pipes
+continuous
+pipework, perforated pipe for filter drains, gravity drain, rising main, culvert, syphon, land drainage
+Filter drains
+continuous
+counterfort drain, filter drain, narrow filter drain, fin drain, soakaway trench
+Ditches and channels
+continuous
+ditch, grip, grassed surface water channel or swale, surface water channel, drainage channel block,
+edge channel, combined kerb and drainage channel, combined pipe and channel drain, linear
+drainage channel, "over the edge" drainage, watercourse
+Ponds
+region
+detention basin, retention pond, sedimentation pond, infiltration basin, pollution containment pond or
+tank, pond (undifferentiated)
+Wetlands
+region
+wetlands, reed bed treatment system
+point
+standalone flow control device, interceptor, oil separator, pumping station, vortex separator
+continuous
+linear cellular storage system
+Ancillaries
+region
+reservoir pavement
+point
+ghost node, phantom node, region node, connector node
+Network modelling items
+continuous
+phantom connector, region connector
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+Asset location
+3.18
+The location of all drainage assets shall be recorded using the national grid, datum and transformation
+according to the requirements of the Overseeing Organisation.
+NOTE
+Overseeing Organisation specific requirements on asset location are provided in the National
+Application Annexes.
+3.19
+Where the level of an asset is recorded, this shall be to the datum determined by the Overseeing
+Organisation.
+3.20
+Asset location shall be recorded to the minimum accuracy and stated to the precision given in Table
+3.16 below, depending on the survey type.
+Table 3.20 Asset location accuracy
+Survey type(s)
+Horizontal
+accuracy
+Horizontal
+precision
+Vertical accuracy
+Vertical
+precision
+Inventory
+surveys
++/- 5 metres
+1 metre
+not surveyed
+n/a
+Condition
+surveys
++/- 1 metre
+1 metre
+not surveyed
+n/a
+Detailed defect
+surveys
++/- 100 mm
+0.1 metre
++/- 25 mm absolute levels
++/- 10 mm relative levels within
+same asset
+0.01 metre
+NOTE
+Where a measurement of relatively low accuracy is stated to a high precision, such as a GPS receiver
+that outputs a location at a centimetre-level of precision but is only accurate to within +/-1 metre, stating
+the full precision can give a misleading impression of the accuracy of the measurement.
+3.20.1
+For herringbone drains, the full geometric layout should be recorded as several connected continuous
+assets, each classified as a counterfort drain.
+Asset referencing
+3.21
+Each drainage asset shall be assigned a permanent asset reference that is unique across the entire
+Overseeing Organisation's drainage asset base.
+NOTE
+A region asset and its associated region node are considered to be the same asset, and have the same
+asset reference.
+3.22
+The permanent asset reference shall be assigned by the Overseeing Organisation's master DDMS,
+when the asset is first recorded.
+3.23
+Any secondary systems that the Overseeing Organisation maintains that contain drainage data shall
+derive that data from the master DDMS, including the permanent asset reference.
+3.24
+If a secondary system is used to edit or otherwise modify the drainage data, processes shall be in place
+to update the asset data record held on the master DDMS using the permanent asset reference as the
+link.
+3.24.1
+Assets may be assigned a local asset reference, which is:
+1)
+unique within a drainage catchment, except for a region asset and its associated region node;
+2)
+alphanumeric, containing at least one letter, such that the reference cannot be interpreted by
+computer software as a numeric, date or time value; and,
+3)
+in a format that does not visually resemble the unique, national asset reference.
+NOTE 1
+Overseeing Organisation-specific requirements in the relevant National Application Annex define if a
+local asset reference is optional or mandatory information.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+NOTE 2
+Computer software can modify and reformat numeric, date and time values, or text strings that it can
+interpret as such, either during data production or subsequently. This leads to incorrect asset
+references and can break connectivity between assets. For example:
+1)
+values such as "001" can be modified, in this case to "1";
+2)
+values such as "10/02" or "10-2" can be interpreted as dates, modified and variably formatted, in
+this case to 10th February or 2nd October of the current year;
+3)
+values such as "10:2" or "10:02" can be interpreted as times, modified and variably formatted, in
+this case to "10:02:00";
+4)
+values such as "1E3" can be interpreted as numeric and modified, in this case to "1000" or
+"1,000".
+3.25
+Asset references, whether manually or system assigned, shall not contain space characters.
+3.25.1
+The underscore character may be used in asset references instead of a space.
+3.26
+Asset references, whether manually or system assigned, shall be retained during all subsequent
+updates of the asset record.
+Activity and activity sets
+Activity
+3.27
+Activities shall be linked to assets.
+3.27.1
+An activity may be:
+1)
+a survey that updates the asset information of existing assets, finds new assets or finds assets
+that are no longer present;
+2)
+a repair or refurbishment that changes the asset inventory and/or condition;
+3)
+a renewal that creates a new asset; or,
+4)
+a data management activity such as archiving the asset record.
+3.28
+Each activity shall be linked to one asset only.
+3.28.1
+An asset may have a history of multiple activities over time.
+3.29
+Each activity shall be linked to one activity set.
+Activity set
+3.30
+Activity sets shall contain at least one activity.
+3.30.1
+Activity sets may be comprised of multiple activities, on different dates, on multiple assets.
+3.30.2
+An activity set may contain different types of activities, although there will be some commonality such
+as the contractor or user carrying out the activity, the period of time, or a consistent asset or other entity.
+NOTE
+An example scenario of activities and activity sets is provided in Appendix C.
+Asset sets
+3.31
+Continuous assets that work together to provide the functionality of a combined asset shall be recorded
+as separate assets but linked together by an asset set.
+3.31.1
+The assets may be managed and maintained separately.
+NOTE
+An example scenario of an asset set is provided in Appendix C.
+Components
+3.32
+Continuous assets shall have associated components that model when a significant change in the
+asset occurs, such as changes in dimensions, materials, shape or lining.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+NOTE
+Any change to one (or more) of these attributes defines the start of a new component within the asset.
+3.33
+Components shall not overlap.
+3.34
+Components shall be contiguous along the full length of the asset.
+3.35
+Each component shall be linked to one activity.
+NOTE
+Example scenarios of continuous asset components are provided in Appendix C.
+Connectivity and flow direction
+Point assets
+3.36
+Each point asset shall be connected to at least one continuous asset.
+Continuous assets
+3.37
+Each continuous asset shall have one associated point asset located at each of its ends.
+3.37.1
+A single point asset may have any number of continuous assets connecting with them.
+3.38
+The flow direction of all continuous assets shall be indicated by recording one of the associated point
+assets as the upstream asset and the other as the downstream asset.
+NOTE
+A single point asset can be the upstream point asset of one or more continuous assets, and the
+downstream point asset of one or more other continuous assets.
+3.39
+The flow direction shall be recorded as the drainage system was designed, and as it would function
+under conditions within design criteria.
+NOTE
+Flow direction can be temporarily reversed in some drainage assets under surcharge or other
+exceptional conditions.
+3.40
+The certainty of the connectivity and flow direction shall be recorded in the inventory information for all
+continuous assets.
+3.41
+Continuous assets shall be split into two separately recorded, but contiguous, assets where there is an
+intermediate flow control device in the asset.
+NOTE
+Where there is an intermediate flow control device, a flow control device asset is recorded at the ends
+of the two continuous assets in the location where the split was made, and hence the two parts of the
+original continuous asset will be in the same drainage system.
+3.42
+Continuous assets shall be split into two separately recorded non-contiguous assets at a watershed at
+the boundary between two catchments.
+NOTE
+Where there is a watershed, separate ghost nodes are recorded at the ends of the two continuous
+assets in the location where the split was made, and hence the two parts of the original continuous
+asset will be in separate drainage systems.
+Additional requirements for continuous assets with intermediate connections
+3.43
+Where a continuous asset has one or more incoming assets connecting part way along it, the
+continuous asset shall not be split into multiple assets.
+3.44
+Where a continuous asset has one or more incoming assets connecting part way along it, the point
+asset at the farthest upstream end of the continuous asset shall be recorded as the upstream asset.
+NOTE
+An example scenario of a continuous asset with intermediate incoming assets is provided in Appendix
+A.
+3.45
+Where a continuous asset has one or more outgoing assets connecting part way along it, the
+continuous asset shall be split into multiple assets.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 134
+======================================================================
+CD 535 Version 1.2.0
+3. Asset inventory data
+NOTE
+An example scenario of a continuous asset with intermediate outgoing assets, is where inlets are
+located along a channel.
+Region assets
+3.46
+Each region asset shall have one associated region node point asset located at its geometric centroid
+that is used to define connectivity.
+3.46.1
+Where the geometric centroid lies outside the perimeter of the region asset, the region node location
+should instead be defined within the perimeter.
+NOTE
+The geometric centroid only lies outside the perimeter of a region asset where it is of a highly irregular
+shape.
+3.47
+The association between the region node and region asset shall be defined by assigning the same
+asset reference to both.
+NOTE 1
+The only scenario when it is acceptable to have two asset records with the same asset reference within
+a single catchment, is a region asset and its associated region node.
+NOTE 2
+Where local asset references are assigned, these are also the same for the region asset and
+associated region node.
+3.48
+Each region asset shall be connected to the rest of the drainage network at its associated region node,
+by at least one region connector to represent inwards flow and, with the exception of infiltration basins,
+one region connector to represent outwards flow.
+NOTE
+Infiltration basins discharge to the ground over their full extent rather than at a specific point.
+3.49
+Region connectors shall connect the region node at one end, and a point asset at the location of the
+inflow or outflow as applicable at the other.
+3.49.1
+Where there is no physical asset at the inflow or outflow location, the point asset type should be
+assigned as a ghost node.
+NOTE 1
+To satisfy connectivity requirements of continuous assets, the region connector is connected to the
+region node point asset, as a proxy for the associated region asset.
+NOTE 2
+An example usage of region assets, region nodes and region connectors is provided in Appendix A.
+NOTE 3
+The inflow or outflow point is normally located on the perimeter of the region asset, but can be located
+within it to accurately record the inflow or outflow location.
+Use of phantom nodes and phantom connectors
+3.50
+Where the nature of the drainage asset is not known beyond a point along a continuous asset, a
+phantom node point asset shall be recorded at that location.
+3.51
+Where the nature of the drainage asset between two point assets is not known but connectivity
+between them is expected, a phantom connector continuous asset shall be recorded between the two
+point assets.
+3.51.1
+A single phantom connector may represent either a single physical continuous drainage asset or
+multiple drainage assets of various types.
+NOTE
+The point assets at each end of a phantom connector have their actual asset type recorded, and are
+not recorded as phantom nodes.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 134
+======================================================================
+CD 535 Version 1.2.0
+4. Asset condition data
+4.
+Asset condition data
+4.1
+Where the condition of an asset is to be recorded, the asset shall also have its inventory recorded in
+accordance with Section 3.
+4.2
+The condition of drainage assets shall be assessed separately in terms of structural condition and
+service condition.
+4.3
+Asset condition shall be assessed either at an asset level, or by recording separate structural and
+service defects (defect level) which are then aggregated to asset level.
+NOTE 1
+Either condition assessment approach is intended to result in the same condition grades, with the asset
+level approach being quicker, and the defect level approach providing additional detail and accuracy.
+NOTE 2
+Selection of the approach to condition assessment depends on the survey methodology used.
+Asset-level condition assessment
+4.4
+Where condition is assessed at asset level, structural condition and service condition shall be graded in
+accordance with the criteria in Table 4.4, except where the Overseeing Organisation provides more
+prescriptive data.
+Table 4.4 Structural and service grade definitions
+Grade
+Structural condition
+Service condition
+1
+No defects
+Clear
+2
+Superficial defects
+Superficial defects with no loss of performance
+3
+Minor defects
+Performance slightly reduced
+4
+Major defects
+Performance severely reduced
+5
+Not fit for purpose
+Blocked or unsafe condition
+9
+Assessment attempted but not possible
+Assessment attempted but not possible
+0
+Assessment not attempted
+Assessment not attempted
+NOTE 1
+Where assessment of an asset's condition was attempted but not possible, e.g. visibility or access
+obstructed by extensive vegetation, the condition grade(s) that could not be assessed are recorded as
+9.
+NOTE 2
+Where the service condition of an asset could not be assessed due to a structural defect, such as a
+seized cover, the structural grade is assessed if possible and recorded as 1 to 5, and a service grade of
+9 is recorded.
+NOTE 3
+Where assessment of an asset's condition was intended but not possible due to practicalities such as a
+lack of suitable traffic management or VRS over an access cover, the condition grade(s) that could not
+be assessed are recorded as 0.
+Defect-level condition assessment
+4.5
+All defects and observations shall be linked to one activity.
+4.6
+Where asset condition is assessed at defect level, the structural grade and service grade shall be
+determined in accordance with the criteria in Table 4.6a and Table 4.6b.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 134
+======================================================================
+CD 535 Version 1.2.0
+4. Asset condition data
+Table 4.6a Structural and service grade calculation method
+Asset
+class
+Structural grade
+Service grade
+Point
+Peak structural
+score
+Peak service score
+Continu-
+ous
+Peak structural
+score
+Worst grade defined by peak service score or mean service
+score
+Region
+Peak structural
+score
+Peak service score
+Table 4.6b Structural and service grade definitions
+Structural condition
+Service condition
+Peak structural score
+range
+Structural
+grade
+Peak service score
+range
+(to 1 decimal place)
+Mean service score
+range
+(to 1 decimal place)
+Service
+grade
+<10
+1
+<1.0
+<0.5
+1
+10 to 39
+2
+1.0 to 1.9
+0.5 to 0.9
+2
+40 to 79
+3
+2.0 to 4.9
+1.0 to 2.4
+3
+80 to 164
+4
+5.0 to 9.9
+2.5 to 4.9
+4
+165
+5
+≥10.0
+≥5.0
+5
+Unable to assess
+9
+Unable to assess
+Unable to assess
+9
+Not attempted
+0
+Not attempted
+Not attempted
+0
+NOTE 1
+Overseeing Organisation-specific detailed defect coding and scoring criteria are provided in the
+National Application Annexes.
+NOTE 2
+For continuous assets, the mean service score is defined as the sum of all service defect level scores,
+divided by the length of the asset in metres.
+4.6.1
+Where the DDMS provides functions to determine defect scores and/or calculate the resultant
+structural grade and service grade, these scores and grades should not be manually calculated.
+NOTE
+Any manual calculations can be overridden by the DDMS, to ensure consistency of scoring and grading.
+4.6.2
+Where a defect level assessment is carried out on an asset but no structural defects are found, an
+appropriate observation to indicate the asset is free from structural defects should be recorded.
+NOTE
+Where there are no structural defects in an asset, its structural grade is 1.
+4.6.3
+Where a defect level assessment is carried out on an asset but no service defects are found, an
+appropriate observation to indicate the asset is free from service defects should be recorded.
+NOTE
+Where there are no service defects in an asset, its service grade is 1.
+4.6.4
+A single drainage asset may have any number of structural and/or service defects recorded.
+4.6.5
+Where a defect level assessment is carried out on an asset, other non-defect observations related to
+the survey, such as the location of any abandonment, or detailed inventory aspects such as alignment
+deviations may be recorded.
+NOTE
+Non-defect observations are not scored and do not affect the structural or service condition grades.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 134
+======================================================================
+CD 535 Version 1.2.0
+5. Managing flood risk
+5.
+Managing flood risk
+General requirements
+5.1
+The drainage asset shall be managed to minimise the current and future predicted impacts of flooding
+on the network's assets, users, workers and third parties.
+5.2
+In addition to the drainage asset inventory and condition data, registers of culverts, floods and one of
+either flooding hotspots or sub-catchment flood risk shall be maintained.
+NOTE
+Assessment and mitigation procedures, risk assessment criteria, and information recording
+requirements for culverts, floods, flooding hotspots and sub-catchment flood risk are given in the
+National Application Annexes.
+Recording flood data
+5.3
+Information and data about flooding shall be recorded in the Overseeing Organisation's DDMS for
+flooding data.
+NOTE
+Overseeing Organisation-specific information on DDMS including data dictionary, format and validation
+requirements is provided in the National Application Annexes.
+5.4
+Where flooding is potentially related to a culvert, the flooding risk due to the culvert shall be assessed
+and recorded in the DDMS priority asset register for culverts.
+Floods
+5.5
+As soon as flooding is notified, actions shall be commenced to mitigate any impacts.
+5.5.1
+The flooding and arising mitigation actions should be logged within the operational management
+system within 24 hours.
+5.6
+The flooding shall be assessed to determine whether it is a reportable flood.
+NOTE
+Overseeing Organisation-specific definitions of a reportable flood are provided in the National
+Application Annexes.
+5.7
+All floods reported to the Overseeing Organisation or its agents, that are either on the road network or
+within 200 metres of it, or within 500 m of a drainage asset, shall be entered into the DDMS, within 7
+days of the report.
+NOTE 1
+Flooding can be reported by members of the public, emergency services, Overseeing Organisation
+personnel or their agents.
+NOTE 2
+Where a reported flood is further than 200 metres from the network and 500 m from a drainage asset, it
+is not necessary to enter this into the DDMS.
+5.8
+Within the initial 7-day period of the flood being reported, the following information shall be recorded in
+the DDMS:
+1)
+location of the approximate centre of the flood using the national grid and transformation
+according to the requirements of the Overseeing Organisation;
+2)
+date and time the flood was initially reported; and,
+3)
+whether the flood is affecting the carriageway and/or adjacent third party property.
+5.8.1
+Where additional information about the flood is confirmed within the initial 7-day period, this should be
+entered into the DDMS.
+NOTE 1
+Overseeing Organisation-specific requirements on flood location are provided in the National
+Application Annexes.
+NOTE 2
+Not all information regarding a flood is likely to be known within 7 days, such as causes and
+identification of further required actions.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 134
+======================================================================
+CD 535 Version 1.2.0
+5. Managing flood risk
+5.9
+All information regarding a flood shall be recorded in the DDMS within 28 days of its occurrence.
+NOTE
+Overseeing Organisation-specific requirements on the information to be recorded about floods is
+provided in the National Application Annexes.
+Recording flood risk
+5.10
+Where an extent of carriageway is at risk of repeated flooding, the risk shall be assessed and recorded,
+either as a flooding hotspot or as sub-catchment flood risk.
+NOTE
+Where an Overseeing Organisation has specific requirements on how to record an extent of
+carriageway at risk of repeated flooding, this is provided in the National Application Annexes.
+Flooding hotspots
+5.11
+Where flood risk is to be managed through flooding hotspots, they shall be recorded on the DDMS.
+NOTE
+The minimum extent of a flooding hotspot is typically delimited by adjacent junctions, or the extent of
+carriageway that a diversion route avoids, around the specific flooding location(s).
+5.11.1
+Each carriageway of a dual carriageway may be treated as separate flooding hotspots, for separate
+flood risk assessment.
+5.11.2
+A flooding hotspot may be identified where a single high-impact flood event has occurred.
+5.12
+Where the DDMS does not automatically identify potential flooding hotspot locations, they shall be
+manually identified based on flood records.
+NOTE
+Overseeing Organisation specific requirements and criteria for defining flooding hotspots are provided
+in the National Application Annexes.
+Sub-catchment flood risk
+5.13
+Where flood risk is to be managed through sub-catchment flood risk, it shall be recorded on the DDMS.
+5.14
+The DDMS shall automatically identify the flood risk for each sub-catchment on the network based on
+flood records.
+NOTE 1
+The definition and modelling method of catchments and sub-catchments is provided in Appendix B.
+NOTE 2
+Overseeing Organisation specific requirements and criteria for defining sub-catchment flood risk are
+provided in the National Application Annexes.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 134
+======================================================================
+CD 535 Version 1.2.0
+6. Managing risks to water quality
+6.
+Managing risks to water quality
+General requirements
+6.1
+The drainage asset must be managed in accordance with the European Community Directive
+2000/60/EC [Ref 3.N] to:
+1)
+prevent the deterioration of the status of all types of surface water and groundwater bodies; and,
+2)
+support the protection, enhancement and restoration of all bodies of surface water and
+groundwater.
+NOTE 1
+The legislation which translates this directive into law is given in the National Application Annexes of LA
+113 [Ref 7.N].
+NOTE 2
+Pollution of water bodies can occur either due to:
+1)
+short-term incidents at a specific location that cause acute pollution, such as accidental spills
+from vehicles; or,
+2)
+carriageway run-off over a longer period of time or wider geographical area, causing chronic or
+diffuse pollution.
+Outfalls and soakaways
+6.2
+In addition to the drainage asset inventory and condition data, registers of outfalls and soakaways shall
+be maintained.
+NOTE
+Assessment and mitigation procedures, risk assessment criteria, and information recording
+requirements for soakaways and outfalls are given in the National Application Annexes.
+Recording spillage data
+6.3
+All spills on the highway network shall be recorded on the DDMS with the following information, within
+24 hours of the spill's occurrence:
+1)
+location of the approximate centre of the spill using the national grid and transformation according
+to the requirements of the Overseeing Organisation;
+2)
+date and time the spill was initially reported; and,
+3)
+whether the spill is affecting the carriageway and/or adjacent third party property.
+NOTE
+Overseeing Organisation-specific requirements on spill location are provided in the National Application
+Annexes.
+6.4
+All information regarding a spill shall be recorded in the DDMS, within 28 days of its occurrence.
+NOTE
+Further information required to be entered regarding each spill is detailed in the relevant National
+Application Annex.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 134
+======================================================================
+CD 535 Version 1.2.0
+7. Managing cross-asset risks
+7.
+Managing cross-asset risks
+7.1
+A cross-asset approach shall be taken to managing the risks caused by, and to, the drainage asset.
+7.2
+When determining the overall level of risk that a drainage asset causes, the drainage-related condition
+of associated non-drainage assets shall be assessed, in addition to the condition of the drainage asset
+itself.
+7.2.1
+Best practice advice in CIRIA C714 [Ref 1.I] should be followed when implementing processes for
+managing the cross-asset risks related to drainage.
+NOTE 1
+As an example of assessment using non-drainage assets, the presence of hydrophilic vegetation on an
+earthwork can indicate underperforming or insufficient drainage, even if the condition of the drainage
+asset itself is good.
+NOTE 2
+Inadequate carriageway drainage resulting in slow removal of water from the pavement can lead to
+premature failure of the pavement surface or formation layers, as well as the risks associated with
+flooding.
+7.3
+Where improvement or remedial works are required on non-drainage assets, and these are partly or
+wholly as a result of poor condition or insufficient drainage, these works shall include measures to
+address the future cross-asset risk due to the drainage assets.
+7.4
+Works carried out to non-drainage assets shall be designed and implemented such that they do not
+cause an adverse impact to the drainage asset.
+NOTE
+Potential adverse impacts to drainage assets due to work on other assets can include, for example:
+1)
+physical damage to drainage assets, for example, as a result of excavations or installation of
+other assets such as VRS;
+2)
+changes to run-off characteristics such that existing drainage is unsuitable or of insufficient
+capacity; or,
+3)
+release of foreign materials into the drainage system, above normal background amounts, which
+might result in blockages, reduced capacity or risks to water quality.
+7.5
+Works carried out to drainage assets shall be designed and implemented such that they do not cause
+an adverse impact on other assets.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 134
+======================================================================
+CD 535 Version 1.2.0
+8. Normative references
+8.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GS 801, 'Asset delivery asset inspection requirements'
+Ref 2.N
+National Highways. GM 701, 'Asset delivery asset maintenance requirements'
+Ref 3.N
+Europa.eu. 2000/60/EC, 'Directive 2000/60/EC of the European Parliament and of
+the Council of 23 October 2000 establishing a framework for Community action in the
+field of water policy'
+Ref 4.N
+National Highways. CC 500, 'Drainage'
+Ref 5.N
+National Highways. CS 551, 'Drainage surveys'
+Ref 6.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 8.N
+TSO. TSM Chapter 8, 'Traffic Signs Manual Chapter 8 - Traffic Safety Measures and
+Signs for Road Works and Temporary Situations'
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 134
+======================================================================
+CD 535 Version 1.2.0
+9. Informative references
+9.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Construction Industries Research and Information Association, London. Spink T,
+Duncan I, Lawrance A, Todd A.. CIRIA C714, 'Transport infrastructure drainage:
+condition appraisal and remedial treatment'
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Appendix A. Drainage asset types
+A1
+Asset type descriptions
+Example photographs of assets are provided where appropriate.
+A1.1
+Point assets
+Tables A.1 to A.4 define each type of point drainage asset. Some point asset types may also have
+attributes that describe additional inventory features, detailed in Table A.5.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.1 Point assets - chambers
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Manhole
+In pipe runs generally
+off the carriageway at
+intervals, at pipe
+junctions or at
+changes in pipe
+diameter
+Chamber with solid
+base with formed
+channel
+Access to pipes for
+inspection and
+cleaning
+Point asset with
+connectivity
+Manhole
+Catchpit
+Sediment trap
+In pipe runs generally
+off the carriageway at
+intervals, at pipe
+junctions or at
+changes in pipe
+diameter
+Chamber with
+unbenched base set
+below the invert level
+of the outgoing pipe
+Retains sediment to
+reduce the volume of
+solid material moving
+downstream, and
+provides access for
+cleaning
+Point asset with
+connectivity
+Catchpit
+Inspection
+chamber
+In pipe runs generally
+off the carriageway
+Small non-entry
+chamber
+Inspection access to
+small diameter pipes
+or ancillary equipment
+Point asset with
+connectivity
+Inspection chamber
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.1 Point assets - chambers (continued)
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Rodding eye
+In pipe runs generally
+off the carriageway
+Small non-entry
+access to pipe in one
+direction only
+Limited access for pipe
+cleaning by manual
+rodding techniques
+Point asset with
+connectivity
+Rodding eye
+Bifurcation or
+storm
+overflow
+In pipe runs generally
+off the carriageway,
+more often as an
+attribute of an
+attenuation feature
+Chamber with two or
+more outgoing pipes
+Splits water flow
+and/or relieves storm
+surcharge
+Point asset with
+connectivity
+Bifurcation or storm
+overflow
+Lamphole
+In pipe runs generally
+off the carriageway.
+Primarily found on
+combined sewerage
+systems rather than
+highway drainage.
+Narrow non-entry
+chamber, shaft or
+vertical pipe
+Inspection access
+Point asset with
+connectivity
+Lamphole
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.1 Point assets - chambers (continued)
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Soakaway
+chamber
+At the downstream
+end of the highway
+drainage system
+where it discharges
+into the ground.
+Chamber with
+perforated base and/or
+sides
+Storage and infiltration
+to the ground of
+surface water
+Point asset with
+upstream connectivity.
+Included within
+soakaways register
+Soakaway
+borehole
+Borehole also
+known as
+"well"
+At the downstream
+end of the highway
+drainage system
+where it discharges
+into the ground.
+Chamber with
+perforated borehole or
+shaft in its base
+Storage and infiltration
+to the ground of
+surface water
+Point asset with
+upstream connectivity.
+Included within
+soakaways register
+Gully
+Kerb inlet
+At the edge of the
+carriageway
+Small chamber usually
+with a surface grating
+in the edge of the
+pavement. Can have a
+sediment sump. Can
+have an integral water
+odour trap. Primarily
+used in conjunction
+with kerbs
+Intercepts carriageway
+run-off and conveys it
+to a continuous
+drainage asset. Can
+trap sediment. Can
+prevent odours
+escaping from the
+downstream piped
+system.
+Point asset with
+downstream
+connectivity
+(see Figure A.3)
+Gully
+Other special
+chamber
+Not specific. Generally
+off the carriageway
+Chamber of
+unspecified use
+Access or containing
+non-standard
+equipment
+Point asset with
+connectivity
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.2 Point assets - inlets and outlets
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Outfall
+At the downstream end
+of the highway
+drainage system where
+it discharges into a third
+party drainage system,
+such as a watercourse,
+tidal waters or a sewer
+(see Section A2.1.1 for
+details)
+Might or might not be a
+physical asset. Can be
+an outlet or standalone
+flow control device
+Demarcates the
+ownership boundary
+between the
+Overseeing
+Organisation's highway
+drainage network and a
+third party drainage
+system
+Point asset with
+upstream connectivity.
+Included within outfall
+register (see Figure A.1
+)
+Outfall
+Inlet
+The point at which
+water flows from an
+open surface
+continuous asset (such
+as a ditch) or region
+asset, to a sub-surface
+continuous asset (such
+as pipework or a
+culvert)
+Can have various
+physical characteristics
+including flow controls,
+headwall, trash screen,
+etc.
+Controls surface waters
+and protects adjacent
+infrastructure.
+Demarcates change
+from surface to
+sub-surface flow
+Point asset with
+connectivity (see
+Figure A.1)
+Inlet
+Outlet
+The point at which
+water flows from a
+sub-surface continuous
+asset (such as
+pipework or a culvert)
+to an open surface
+continuous asset (such
+as a ditch) or region
+asset
+Can have various
+physical characteristics
+including flow controls
+or headwall.
+Controls surface waters
+and protects adjacent
+infrastructure.
+Demarcates change
+from sub-surface to
+surface flow
+Point asset with
+connectivity. Included
+within outfall register
+only if it is also an
+outfall (see Figure A.1)
+Outlet
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.2 Point assets - inlets and outlets (continued)
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Grip inlet
+Piped grip
+At the edge of the
+carriageway
+Inlet at the upstream
+end of a piped grip,
+non-piped grip or
+informal over-the-edge
+drainage
+Leads surface water
+away from the
+carriageway across the
+verge.
+Point asset with
+downstream
+connectivity
+Grip inlet
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.3 Point assets - ancillaries
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example photographs
+Standalone flow
+control device
+In point assets on pipe
+runs, in ditches or
+channels, or at the inlet
+or outlet to a region
+asset, remote from the
+carriageway
+Can have various
+physical characteristics
+Regulates flow
+rate
+down-stream
+Point asset with
+connectivity (see
+Figure A.7)
+Where the flow control
+is part of another point
+asset type, the asset is
+recorded as that other
+asset type, and the
+nature of the flow
+control is recorded as
+an inventory attribute of
+the asset (see Table A.
+5).
+See Table A.5
+Interceptor
+In pipe runs, ditches or
+channels off the
+carriageway
+A chamber or tank
+Traps sediment
+Point asset with
+connectivity
+Oil separator
+Oil/petrol
+interceptor
+In pipe runs, ditches or
+channels off the
+carriageway
+A chamber or tank.
+Can be designed as
+either a bypass or full
+retention separator,
+treating part or all of the
+inflow.
+Pollution control
+device that traps
+fuel and oil.
+Point asset with
+connectivity
+Oil separator
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.3 Point assets - ancillaries (continued)
+Asset type
+Synonyms
+Location
+Construction
+Function
+Drainage database
+representation
+Example photographs
+Pumping station
+In pipe runs off the
+carriageway
+A chamber or other
+structure containing
+pumps that can be
+submersible (wet well)
+or there can be a
+separate structure for
+the motors (dry well).
+Can include
+mechanical and
+electrical equipment
+such as valves, floats
+or control switch gear.
+Pumped removal
+of surface water
+Point asset with
+connectivity. With
+supplementary details
+of the contained
+equipment
+Pumping station
+Vortex separator
+In pipe runs off the
+carriageway
+Installed within a
+chamber or as a
+standalone device.
+Runoff is directed into a
+vortex flow that
+separates and traps
+sediment and other
+solid material.
+Separates
+sediment and
+other solids from
+liquid
+Point asset with
+connectivity
+Vortex separator
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.4 Point assets - network modelling
+Asset
+type
+Location
+Function
+Drainage database
+representation
+Ghost
+node
+Connects adjacent
+continuous assets where
+there is no physical point
+asset.
+Allows definition of
+connectivity
+Point item with
+connectivity
+Phantom
+node
+Upstream or downstream
+end point of a known
+drainage system
+Indicates limit of knowledge
+of the drainage system
+Point item with either
+upstream or downstream
+connectivity
+Region
+node
+Point item located at the
+geometric centroid of a
+region asset
+Allows definition of
+connectivity to a region
+asset
+Point item with
+connectivity (see Figure
+A.7)
+Connector
+node
+Point item representing an
+incoming intermediate
+connection to a continuous
+asset
+Allows definition of
+connectivity to a continuous
+asset without segmenting
+the continuous asset
+Point item with
+connectivity (see Figures
+A.2 and A.3)
+Table A.5 Point assets - inventory attributes
+Attribute
+type
+Applicable asset types
+Description
+Example photographs
+Headwall
+Outfall, outlet, inlet
+Structure at the start or end
+point of a piped outfall,
+outlet or inlet to retain and
+stabilise an earth bank and
+minimise erosion risk.
+Headwall
+Step irons
+Manhole, catchpit,
+bifurcation or storm
+overflow, soakaway
+chamber, other special
+chamber, interceptor, oil
+separator, pumping station,
+vortex separator
+Preformed steps, usually
+galvanised steel, cast into a
+structure wall to provide a
+means of access.
+Step irons
+Throttle
+pipe
+Manhole, catchpit,
+bifurcation or storm
+overflow, other special
+chamber
+A pipe of smaller diameter
+than that of the free-flowing
+hydraulic pipe that is
+positioned to restrict the
+flow that will pass
+downstream.
+Throttle pipe
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.5 Point assets - inventory attributes (continued)
+Attribute
+type
+Applicable asset types
+Description
+Example photographs
+Guardrail
+Outfall, outlet, inlet,
+standalone flow control
+device
+A safety feature comprising
+a rail, or rails, forming a
+barrier around an opening
+or vertical drop.
+Guardrail
+Safety
+chain
+Manhole, catchpit,
+bifurcation or storm
+overflow, other special
+chamber
+A chain across the
+outgoing pipe from a
+chamber that is attached to
+the chamber benching or
+walls, as a safety feature to
+reduce the risk of an
+operative being swept into
+the pipeline by the flow.
+Safety chain
+Safety bar
+Manhole, catchpit,
+bifurcation or storm
+overflow, other special
+chamber
+A bar positioned across
+handrails in a manhole to
+prevent direct access to the
+invert or, less commonly, in
+place of a safety chain
+across an outgoing pipe.
+Sump
+Catchpit
+A volume within a structure
+positioned below the
+incoming and/or outgoing
+pipes usually to detain
+settleable materials or
+water.
+Sump
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.5 Point assets - inventory attributes (continued)
+Attribute
+type
+Applicable asset types
+Description
+Example photographs
+Trapped
+gully
+Gully, instrumented gully
+A gully with an enclosed
+vertical riser connecting the
+horizontal outlet pipe, the
+latter will have a removable
+bung to enable rodding.
+The base of the riser is
+below the water level in the
+gully pot preventing the
+escape of odours.
+Trapped gully
+Ventilation
+pipe
+Manhole, catchpit,
+bifurcation or storm
+overflow, soakaway
+chamber, other special
+chamber, interceptor, oil
+separator, pumping station,
+vortex separator
+A vertical pipe that enables
+the escape of gases and
+prevents the build-up of air
+pressure in a structure due
+to flows surcharging above
+the pipe level.
+Ventilation pipe
+Flap valve
+Outfall
+A plate hung over the end
+of an outfall pipe that is
+pushed open by the
+outgoing flow but is pushed
+closed, should the water
+level beyond the pipe rise,
+to prevent backflow up the
+outfall pipe.
+Flap valve
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.5 Point assets - inventory attributes (continued)
+Attribute
+type
+Applicable asset types
+Description
+Example photographs
+Orifice
+plate
+Outfall, outlet, manhole,
+catchpit, bifurcation or
+storm overflow, other
+special chamber
+A plate placed over an
+outgoing pipe that has an
+opening smaller than the
+diameter of the pipe
+thereby restricting the flow
+rate downstream of the
+orifice.
+Orifice plate
+Sluice
+gate
+Standalone flow control
+device
+A gate of metal (cast iron)
+or timber that is set in
+grooves in the channel
+sides and moves vertically
+to either open or close for
+control of flows within the
+channel.
+Sluice gate
+Weir
+Standalone flow control
+device
+A low height dam
+positioned in a channel or
+ditch to control the
+overtopping water flow rate,
+sometimes positioned at
+the side of a channel to
+allow high water levels to
+overflow.
+Weir
+Screen/
+grill
+Outfall, outlet, inlet
+Usually positioned over a
+headwall to provide security
+and/or retain floatable
+debris reducing the risk of
+blockage downstream.
+Screen/ grill
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.5 Point assets - inventory attributes (continued)
+Attribute
+type
+Applicable asset types
+Description
+Example photographs
+Penstock
+Outfall, outlet, inlet,
+manhole, catchpit,
+bifurcation or storm
+overflow, other special
+chamber, standalone flow
+control device
+Similar to a sluice gate, a
+penstock controls the flow
+of water into a pipe
+(on-seating) or out of a pipe
+(off-seating) and is usually
+positioned inside a
+chamber or on a headwall.
+Penstock
+Flume
+Standalone flow control
+device
+A hydraulically designed
+restriction in the width of a
+channel to increase the
+flow velocity under
+free-flowing conditions.
+Flume
+Baffle
+Standalone flow control
+device
+A plate, or set of plates, or
+solid obstacles positioned
+within a channel to regulate
+the flow of water.
+Baffle
+Hanging
+wall
+Standalone flow control
+device
+A baffle plate suspended
+above a channel bed and
+immersed in the flow to
+regulate the flow and/or
+detain floatable debris.
+Hanging wall
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.5 Point assets - inventory attributes (continued)
+Attribute
+type
+Applicable asset types
+Description
+Example photographs
+Handstop
+Outfall, outlet, inlet,
+standalone flow control
+device
+Similar to a small sluice
+gate that slides vertically in
+grooves of the channel
+sides and operated by hand
+to stem the flow of water.
+Handstop
+Monitoring
+instrument
+Any drainage asset type
+Instrumentation on or in
+any drainage asset type
+that measures water level,
+silt level, flow rate or any
+other parameter relevant to
+asset performance or risk
+management. Monitoring
+may be periodic or
+continuous, real time or
+recorded. Monitoring may
+inform intelligence lead
+maintenance programmes
+or provide early warning of
+flooding or pollution
+incidents.
+Monitoring instrument
+A1.2
+Continuous assets
+Tables A.6 to A.10 define each type of continuous drainage asset
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.6 Continuous assets - ditches and channels
+Asset type
+Synonyms
+Location
+and layout
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Ditch
+Usually parallel to
+carriageway in the
+verge or remote
+associated with the
+earthwork
+Open trench, normally
+with battered side
+slopes. Lined or
+unlined
+Intercepts and conveys
+surface water runoff
+from the carriageway,
+earthworks and/or
+adjacent land
+Continuous asset with
+flow direction and
+connectivity
+Ditch
+Grip
+Perpendicular or at an
+angle to the
+carriageway across
+verge and/or
+associated earthwork
+Shallow open trench
+Conveys carriageway
+runoff across the verge
+and/or earthwork,
+usually to a ditch
+Continuous asset with
+flow direction and
+connectivity. Grip inlet
+recorded as upstream
+point asset
+Grip
+Grassed
+surface water
+channel or
+swale
+Surface water
+channels are adjacent
+to the carriageway.
+Swales are separated
+by a section of verge.
+Shallow grassed open
+channels. Swales are
+wider and deeper than
+grassed surface water
+channels.
+Intercepts and conveys
+carriageway runoff.
+Provides storage and
+flow attenuation.
+Continuous asset with
+flow direction and
+connectivity
+Grassed surface
+water channel or
+swale
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.6 Continuous assets - ditches and channels (continued)
+Asset type
+Synonyms
+Location
+and layout
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Surface water
+channel
+Near the edge of the
+carriageway
+Concrete, trapezoidal
+or V-section, shallow
+(<125 mm depth) open
+channel
+Intercepts and
+conveys carriageway
+runoff.
+Continuous asset with
+flow direction and
+connectivity
+Surface water
+channel
+Drainage
+channel block
+Near the edge of the
+carriageway
+Narrow open channel
+formed of precast
+concrete units, often
+interlocking
+Intercepts and
+conveys carriageway
+runoff.
+Continuous asset with
+flow direction and
+connectivity
+Drainage channel
+block
+Edge channel
+At the edge of the
+carriageway where it
+meets the kerb
+Narrow open channel
+Intercepts and
+conveys carriageway
+runoff.
+Continuous asset with
+flow direction and
+connectivity
+Edge channel
+Combined kerb
+and drainage
+channel
+Beany block
+In the kerb at the edge
+of the carriageway
+Precast concrete or
+metal kerb units with
+inlets to an enclosed
+internal drainage
+channel
+Intercepts and
+conveys carriageway
+runoff.
+Continuous asset with
+flow direction and
+connectivity
+Combined kerb
+and drainage
+channel
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.6 Continuous assets - ditches and channels (continued)
+Asset type
+Synonyms
+Location
+and layout
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Combined pipe
+and channel
+drain
+Slot drain
+Near the edge of the
+carriageway
+Open concrete
+channel with an
+integral enclosed
+drainage channel or
+pipe below it. The two
+parts are hydraulically
+connected via
+intermittent slots.
+Intercepts and
+conveys carriageway
+runoff.
+Continuous asset with
+flow direction and
+connectivity
+Combined pipe
+and channel drain
+Linear
+drainage
+channel
+At the edge of the
+carriageway
+Enclosed, U-shaped
+concrete channel with
+an integral grating
+along the top
+Intercepts and
+conveys carriageway
+runoff.
+Continuous asset with
+flow direction and
+connectivity
+Linear drainage
+channel
+"Over the
+edge" drainage
+At the side of the
+carriageway
+No physical asset
+except where used in
+conjunction with a grip
+inlet
+Water flows off the
+edge of the
+carriageway, across
+the verge and/or
+earthwork, usually to a
+ditch
+Connectivity attribute
+on the grip inlet
+provides connectivity
+and flow direction to
+the receiving ditch
+Over the edge
+drain
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.6 Continuous assets - ditches and channels (continued)
+Asset type
+Synonyms
+Location
+and layout
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Watercourse
+Brook, stream,
+river, canal or
+dyke.
+Crossing under the
+carriageway or remote
+from the carriageway.
+A natural or artificial
+channel along which
+water flows, such as a
+stream, river or canal.
+The highway drainage
+commonly outfalls to a
+watercourse.
+Represented by an
+arbitrary length
+continuous asset with
+phantom nodes at
+either end, with flow
+direction. Connectivity
+attribute on an outfall
+provides connectivity
+between the drainage
+system and the
+watercourse.
+Watercourse
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.7 Continuous assets - filter drains
+Asset
+type
+Synonyms
+Location and
+layout
+Filter
+medium
+Geotextile
+wrap
+Pipe
+Function
+Drainage
+database
+representation
+Example
+photographs
+Counter-
+fort
+drain
+Slope drain
+Face of
+earth-works.
+Oblique or
+perpendicular to
+carriageway.
+Deep.
+Maybe
+herring-bone
+Gravel.
+Surface can
+or cannot be
+exposed
+Maybe
+Maybe without.
+May be
+perforated.
+Drains mainly
+subsurface
+water and
+reinforces slope.
+Can also drain
+surface water.
+Single asset for
+filter. Separate
+filter pipe asset
+for pipe.
+Multiple
+connected
+assets if
+herringbone.
+With flow
+direction and
+connectivity
+Counterfort
+drain
+Filter
+drain
+Combined
+surface and
+sub-surface
+filter drain
+Side of
+carriageway
+Graded
+crushed rock,
+or gravel.
+Surface
+exposed.
+Maybe
+May be without.
+May be
+perforated or
+porous.
+Drains surface
+and subsurface
+water
+Single asset for
+filter. Separate
+filter pipe asset
+for pipe. With
+flow direction
+and connectivity
+Filter drain
+Narrow
+filter drain
+Side of
+carriageway
+Graded
+crushed rock,
+or gravel.
+Surface not
+exposed
+Maybe
+Maybe integral
+with pipe
+Perforated or
+porous.
+Drains
+subsurface
+water
+Single asset for
+filter. Separate
+filter pipe asset
+for pipe with
+flow direction
+and connectivity
+Narrow filter
+drain
+Fin drain
+Side of
+carriageway
+Expanded
+plastic.
+Surface not
+exposed
+Integral
+Maybe without.
+Maybe
+perforated or
+porous
+Drains
+subsurface
+water
+Combined filter
+and pipe single
+asset with flow
+direction and
+connectivity
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.7 Continuous assets - filter drains (continued)
+Asset
+type
+Synonyms
+Location and
+layout
+Filter
+medium
+Geotextile
+wrap
+Pipe
+Function
+Drainage
+database
+representation
+Example
+photographs
+Soak-
+away
+trench
+At the
+downstream
+end of the
+highway
+drainage system
+where it
+discharges into
+the ground.
+Graded
+crushed rock
+or gravel.
+Surface not
+exposed
+Maybe
+Maybe without.
+Maybe
+perforated or
+porous.
+Storage and
+infiltration to the
+ground of
+surface water
+Single asset for
+filter. Separate
+filter pipe asset
+for pipe with
+upstream
+connectivity.
+Included within
+soakaways
+register
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.8 Continuous assets - pipes
+Asset type
+Synonyms
+Location and
+layout
+Diameter
+Pipe construction
+Function
+Drainage database
+representation
+Example
+photographs
+Pipework
+Not specific
+≤900 mm
+Sealed,
+perforated, porous
+or butt jointed
+Non-specific.
+Collects and/or
+conveys surface
+and/or subsurface
+water
+Continuous asset
+with flow direction
+and connectivity.
+Where possible
+pipes should be
+identified as one of
+the more specific
+types.
+Filter pipe
+Combined
+surface and
+sub-surface
+filter drain
+Edge of
+carriageway
+≤900 mm
+Perforated or
+porous
+Drains surface and
+subsurface water
+Continuous asset
+with flow direction
+and connectivity.
+Filter medium
+represented by
+separate asset.
+Gravity drain
+Carrier drain
+Not specific
+≤900 mm
+Sealed
+Conveys surface
+water under gravity
+Continuous asset
+with flow direction
+and connectivity
+Rising main
+Not specific
+≤900 mm
+Sealed
+Conveys surface
+water under pressure
+Continuous asset
+with flow direction
+and connectivity
+Culvert
+(managed as a
+drainage
+asset)
+Usually
+crossing below
+carriageway
+≥450 mm to
+≤900 mm
+Large diameter
+pipe
+Conveys surface
+water course or ditch
+drain under the
+carriageway
+Continuous asset
+with flow direction
+and connectivity.
+Included within
+culverts register.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.8 Continuous assets - pipes (continued)
+Asset type
+Synonyms
+Location and
+layout
+Diameter
+Pipe construction
+Function
+Drainage database
+representation
+Example
+photographs
+Culvert
+(managed as a
+structure
+asset)
+Usually
+crossing below
+carriageway
+>900 mm
+Large diameter
+pipe, rectangular
+box or other
+structure
+Conveys surface
+water course or ditch
+drain under the
+carriageway
+Continuous asset
+with flow direction
+and connectivity.
+Included within
+culverts register.
+Culvert
+Syphon
+Inverted syphon
+Usually
+crossing below
+carriageway
+≤900 mm
+Sealed
+Conveys surface
+water under the
+carriageway at a
+level below the
+connected pipework
+Continuous asset
+with flow direction
+and connectivity
+Land drainage
+Remote from
+carriageway
+≤900 mm,
+but usually ≤
+150 mm
+Perforated, porous
+or butt jointed
+Collects subsurface
+water
+Continuous asset
+with flow direction
+and connectivity
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.9 Continuous assets - ancillaries
+Asset type
+Location and layout
+Filter medium
+Geotextile
+wrap
+Pipe
+Function
+Drainage database
+representation
+Linear cellular
+storage
+system
+Usually towards the
+downstream end of the
+highway drainage system
+where it discharges into
+the ground or is upstream
+of a flow control device.
+Modular
+prefabricated units.
+Surface not
+exposed
+Generally
+Maybe without.
+Maybe perforated
+or porous.
+Storage and
+infiltration to the
+ground of surface
+water
+Single asset for filter.
+Separate filter pipe asset
+for pipe. With upstream
+connectivity. Included
+within soakaways register
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.10 Continuous assets - network modelling
+Asset type
+Location
+Function
+Drainage database representation
+Phantom
+connector
+Connects two point assets where the
+physical connection is unknown
+Allows definition of connectivity whilst
+indicating the limit of knowledge of the
+drainage system
+Continuous item with flow direction and
+connectivity (see Figure A.6)
+Region
+connector
+Connects the region node at the centre of a
+region asset to either the inflow or outflow
+point
+Defines the connectivity and flow through a
+region asset
+Continuous item with flow direction and
+connectivity (see Figure A.7)
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+A1.3
+Region assets
+Tables A.11 to A.13 define each type of region drainage asset.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.11 Region assets - ponds
+Asset type
+Synonyms
+Location and
+layout
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Detention basin
+Detention pond,
+dry pond,
+balancing pond
+Remote from
+carriageway
+Basin, intended to be
+dry for extended
+periods. Can have an
+impermeable liner.
+Temporary storm
+water storage and
+attenuation of
+downstream flow.
+Does not allow
+infiltration.
+Region asset with
+central region node
+and region connectors
+to define connectivity
+and flow through the
+asset
+Detention basin
+Detention basin
+Retention pond
+Wet pond,
+balancing pond
+Remote from
+carriageway
+Pond that generally
+retains some water at
+all times.
+Prolonged storm
+water storage,
+allowing controlled
+release downstream.
+Can have a treatment
+function.
+Region asset with
+central region node
+and region connectors
+to define connectivity
+and flow through the
+asset.
+Retention pond
+Sedimentation
+pond
+Balancing pond
+Remote from
+carriageway
+Pond, usually with an
+impermeable base.
+Settlement of
+sediment prior to
+downstream
+discharge. Will also
+have an attenuation
+function.
+Region asset with
+central region node
+and region connectors
+to define connectivity
+and flow through the
+asset
+Sedimentation pond
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.11 Region assets - ponds (continued)
+Asset type
+Synonyms
+Location and
+layout
+Construction
+Function
+Drainage database
+representation
+Example
+photographs
+Infiltration
+basin
+Infiltration /
+soakaway lagoon,
+infiltration /
+soakaway pond
+Remote from
+carriageway
+Basin with permeable
+base, often with a
+granular filter layer
+Storm water storage
+with infiltration to
+groundwater
+Region asset with
+central region node
+and region connectors
+to define connectivity
+and flow through the
+asset. Included within
+soakaways register.
+Can have an
+exceedance overflow.
+Infiltration basin
+Infiltration basin
+Pollution
+containment
+pond or tank
+Balancing pond
+Remote from
+carriageway
+immediately
+upstream of outfall
+Pond or tank with a
+minimum 20 m3
+volume and shut-off
+mechanism
+Containment of
+potentially polluting
+liquid spills
+Region asset with
+central region node
+and region connectors
+to define connectivity
+and flow through the
+asset
+Pollution
+containment pond or
+tank
+Pond
+(undifferen-
+tiated)
+Balancing pond
+Remote from
+carriageway
+Not specific or
+unknown
+Not specific or
+unknown, or can
+perform a combination
+of functions
+Region asset with
+central region node
+and region connectors
+to define connectivity
+and flow through the
+asset
+(Photo not appropriate
+due to generic nature
+of asset type.)
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.12 Region assets - wetlands
+Asset type
+Synonyms
+Location
+and layout
+Construction
+Function
+Drainage database
+representation
+Example photographs
+Wetlands
+Reed bed,
+vegetated
+treatment
+system
+Remote
+from
+carriageway
+Predominantly saturated
+area supporting aquatic
+and/or semi-aquatic life
+such as reed swamps,
+marshes or bogs
+Treatment and
+attenuation of
+potentially polluting
+run-off
+Region asset with central
+region node and region
+connectors to define
+connectivity and flow
+through the asset
+Wetlands
+Reed bed
+treatment
+system
+Wetland
+Remote
+from
+carriageway
+Shallow pond or wide
+ditch with variety of reed
+types
+Treatment and
+attenuation of
+potentially polluting
+run-off
+Region asset with central
+region node and region
+connectors to define
+connectivity and flow
+through the asset
+Reed bed treatment
+system
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Table A.13 Region assets - ancillaries
+Asset type
+Syn-
+ony-ms
+Location and
+layout
+Constructiion
+Function
+Drainage database
+representation
+Example
+pho-
+tographs
+Reservoir
+pavement
+Under the
+carriageway
+pavement
+Porous subbase constructed of
+aggregate or prefabricated units.
+Fed by either a pervious surface
+pavement or surface runoff
+diverted via gullies, edge drains
+and pipes
+Provides storage and
+attenuation of storm
+waters
+Region asset with central region
+node and region connectors to
+define connectivity and flow
+through the asset
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+A2
+Asset example usages
+A2.1
+Point assets - inlets and outlets
+A2.1.1
+Outfalls, inlets and outlets
+Figure A.1 shows an example usage of an inlet, outlet and outfall. A ditch flowing into a culvert, to pass
+underneath a road, would have an inlet at the upstream end of the culvert. As the culvert emerges from
+beneath the road into another ditch, it would have an outlet. The ditch discharges into a third party river
+and in this case does not have a physical structure. The ownership boundary (and the limit of the
+Overseeing Organisation's responsibility) coincides with the river bank and this defines the outfall
+location.
+Figure A.1 Example use of inlets, outlets and outfalls
+Points to note:
+1)
+If the ownership boundary had been midway between the carriageway and the river, then the
+outfall would be at that location, not where the ditch physically discharges into the river.
+2)
+The outfall has the potential to pollute third party waters and like all outfalls is included within the
+outfall register.
+3)
+If the connection between the culvert and the river had been piped, instead of a ditch, then the
+outfall would also have been an outlet. Outlets are only priority assets where they are also
+outfalls, in which case they would be included within the outfall register.
+4)
+Indicative highway ownership boundaries, and hence potential outfall locations, may be found in
+mapping data sets available at www.gov.uk. Definitive ownership boundary information is
+available from HM Land Registry www.gov.uk/government/organisations/land-registry
+5)
+Where the ownership boundary is along a watercourse, under riparian law, the boundary would
+be the centreline of the watercourse channel, although the discharge point into the third party
+waters would be on the river bank.
+A2.1.2
+Grip inlets
+Figure A.2 shows three examples of grip inlets, located along the crest of an embankment, each of
+which allows drainage to be conveyed to the ditch at the toe of the embankment. The ditch is a single
+asset that extends beyond the limits of the figure:
+1)
+The first grip inlet is at the upstream end of a "piped grip", which is recorded as a pipework asset
+or gravity drain. The downstream end of the pipe connects part way along the ditch, and therefore
+has a connector node that references the ditch. (See example use of connector nodes, below.)
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+2)
+The second grip inlet is at the upstream end of a non-piped grip, which is recorded as a grip. In
+this case, the grip does not extend all of the way to the ditch, but it has been established that
+drainage will flow informally into the ditch, part way along it. The downstream end of the grip
+therefore has a connector node that references the ditch. (See example use of connector nodes,
+below.)
+3)
+The third grip inlet has no formal drainage downstream of it, and the drainage would therefore
+flow informally down the embankment and into the ditch, part way along it. Therefore the grip
+inlet references that it is connected to the ditch, similar to a connector node. (See example use of
+connector nodes, below.)
+Figure A.2 Example uses of grip inlets
+A2.2
+Drainage network modelling items
+A2.2.1
+Ghost nodes
+A ghost node is a network modelling point item used to complete a drainage network by representing a
+node that has no physical manifestation. The ghost node allows connectivity between assets to be
+defined, by satisfying the requirement that all continuous assets have an upstream and downstream
+point.
+Example uses of ghost nodes include:
+1)
+the ends of ditches or other continuous assets where there is no physical point asset;
+2)
+at the connection between two surface assets such as a ditch and a pond, where there is no
+physical asset such as a flow control device; and,
+3)
+at the connections between sections of a herringbone drain, where there is no physical asset.
+A2.2.2
+Connector nodes
+A connector node is a network modelling point item representing an incoming intermediate connection
+to a continuous asset. A connector node is located at the downstream end of the incoming asset.
+Because it is at an intermediate location along the outgoing continuous asset, it is neither the upstream
+nor downstream point asset of this continuous asset. The connector node has a connectivity reference
+to associate it to the continuous asset that is downstream of it.
+The connector node would normally be geographically located on its downstream continuous asset, but
+need not be in all cases. Similarly, point assets where the path of connection is unknown (e.g. an
+unknown gully connector) or informal (e.g. a grip inlet with no formal downstream drainage) can refer to
+a downstream continuous asset, into which they would connect at an intermediate point.
+Figure A.3 shows an example use of connector nodes. The example given above for grip inlets, also
+shows example uses.
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+In the example below, there are three gullies ("GU1", "GU2" and "GU3") that are known to connect with
+a single carrier pipe ("PW1"), at intermediate points along it. The carrier pipe has a manhole at its
+upstream ("MH1") and downstream ends ("MH2"). The gullies are connected as follows:
+1)
+The connection between gully GU1 and the carrier pipe is unknown, as the gully connector and/or
+connection has not been identified. GU1 therefore has a connectivity reference to the carrier pipe
+as its downstream asset. No continuous asset is directly connected to GU1.
+2)
+GU2 is known to connect to the carrier pipe via a gully connector pipe "PW10", at a connection
+located at the connector node "CN1". CN1 has a connectivity reference to the carrier pipe as its
+downstream asset. The gully connector pipe PW10 has GU2 as its upstream asset, and CN1 as
+its downstream asset.
+3)
+GU3 is similar to GU2, connected to the carrier pipe via a gully connector pipe "PW11" and
+connector node "CN2". CN2 has a connectivity reference to the carrier pipe as its downstream
+asset. The gully connector pipe PW11 has GU3 as its upstream asset, and CN2 as its
+downstream asset.
+Figure A.3 Example use of connector nodes
+A2.2.3
+Phantom nodes
+A phantom node is a network modelling point item that provides an upstream or downstream end point
+of a drainage system, when the nature of the drainage system beyond the phantom node is unknown,
+because either there are no as-built drawings or it has not been surveyed.
+Once information is available, phantom nodes should be replaced with the correct asset information.
+Figure A.4 shows an example use of a phantom node, when deriving asset data from incomplete
+drawings. The dashed line indicates the limit of available information.
+Figure A.4 Example incomplete asset inventory with phantom node
+A2.2.4
+Phantom connectors
+A phantom connector is a network modelling continuous item that represents a connection between
+two known point assets in which the route of the continuous connection between them is unknown, but
+there is some degree of certainty that the two are connected. A phantom connector can be used if an
+area of an as-built drawing is obscured, or where a below ground pipework survey has not been carried
+out but the pipework route can be established with some degree of certainty, for example by dye tracing.
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+A single phantom connector can represent several assets in reality. This is distinct from other types of
+continuous asset with uncertain connectivity, where the nature of the item is otherwise known.
+Once information is available, phantom connectors should be replaced with the correct asset
+information.
+Figure A.5 and Figure A.6 show an example usage of a phantom connector where part of the source
+information is unavailable, but connectivity is expected.
+Figure A.5 Example incomplete asset inventory due to missing information
+Figure A.6 Example incomplete asset inventory with phantom connector
+A2.2.5
+Region connectors and region nodes
+A region connector is a network modelling continuous item that represents the flow of drainage through
+a region asset such as a pond. It connects the associated region node at the centre of the region asset
+to either an inflow or outflow point, which is normally on the perimeter of the pond but can be within it.
+Each region asset should normally have at least one region connector for the inflow and, with the
+exception of infiltration basins that solely drain to the ground, one for the outflow.
+An example arrangement of a region node, region asset and region connectors is shown in Figure A.7.
+The region asset has two incoming continuous assets: a pipe and a ditch; and one outgoing continuous
+asset: a channel. Where the pipe ends at the pond, there is an outlet because the drainage system is
+changing from sub-surface to open. There is no physical asset where the ditch enters the pond, but to
+satisfy connectivity requirements, there needs to be a point asset at the end of the ditch, so this will be
+a ghost node. Where the pond flows into the channel there is a weir, which is represented by a flow
+control device point asset. Region connectors join the region node to each point where a continuous
+asset enters or leaves the region asset.
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix A. Drainage asset types
+Figure A.7 Example use of region nodes, region assets and region connectors
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix B. Drainage catchments
+Appendix B. Drainage catchments
+B1
+Drainage catchment definition
+Drainage catchment extents align to the geographical high points along the network. Figure B.1 shows
+an idealised catchment where all drainage systems between the geographical high points at either end
+of the road section shown will drain to the watercourse at the low point in the catchment.
+Figure B.1 Catchment definition
+B2
+Drainage catchment model
+The drainage catchment model is a topologically equivalent 2D representation of the 3D catchment
+shown in Figure B.1. The catchments are to be modelled as a linear model, aligning to the Overseeing
+Organisation's road network model. Each drainage catchment is made up of one or more
+sub-catchments, representing the separate sides of the carriageway or junctions. An example
+catchment model for a single carriageway is shown in Figures B.2 and an example catchment model
+for a dual carriageway is shown in Figure B.3.
+Figure B.2 Single carriageway example catchment model
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix B. Drainage catchments
+Figure B.3 Dual carriageway example catchment model
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Appendix C. Drainage data management features
+C1
+Activity and activity set example
+An activity represents an action, such as a survey, that was carried out on a single specific drainage
+asset on a specific date. Multiple activities, possibly on different dates, on multiple assets are grouped
+together into activity sets.
+Figure C.1 shows a schematic example in which a contractor has undertaken a number of activities on
+four drainage assets as follows:
+1)
+the point asset was surveyed on the 1st February resulting in its inventory and/or condition data
+being updated;
+2)
+continuous asset 1 was also surveyed on the 1st February resulting in its inventory and/or
+condition data being updated;
+3)
+continuous asset 2 had some maintenance carried out on it on 1st February resulting in its
+inventory and/or condition data being updated; and,
+4)
+the region asset was surveyed on 2nd February resulting in its inventory and/or condition data
+being updated.
+The updates to the four drainage assets above are submitted as one package of data to the DDMS for
+import. Figure C.1 shows the modelled four activities, on the four drainage assets, grouped together by
+the one activity set within the DDMS after data import.
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Figure C.1 Example of drainage asset activities as recorded on the DDMS
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+C2
+Asset set example
+Asset sets are continuous assets that work together to provide the functionality of a combined asset.
+Asset sets apply to the following continuous asset types when paired with a filter pipe asset:
+1)
+filter drain;
+2)
+counterfort drain;
+3)
+narrow filter drain;
+4)
+soakaway trench; and,
+5)
+linear cellular storage system.
+Each asset is combined into an asset set with its associated filter pipe asset by matching the shared
+upstream and downstream point assets to indicate that they work together.
+Figure C.2 shows a schematic example, in cross section, of two assets, filter drain "FD1" and filter pipe
+"FP1", that both run between the same two catchpit point assets "CP1" and "CP2". Although the filter
+drain and filter pipe remain two separate assets for survey, maintenance and record purposes, they are
+grouped together in the DDMS into asset set "FD1_FP1" so that the functionality of the combined asset
+is recorded.
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Figure C.2 Asset set example
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+C3
+Component examples
+Components model changes in one or more of the following attributes along the length of a continuous
+asset:
+1)
+dimension (diameter in the case of a pipe, or width and/or depth in the case of a ditch);
+2)
+material;
+3)
+shape; or,
+4)
+lining.
+Where a continuous asset does not have any changes in the relevant attributes along its length, it will
+have only one associated component as shown in Figure C.3.
+71
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 73 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Figure C.3 Continuous asset example with no change along its length
+72
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 74 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Where a continuous asset does have a change in one or more of these attributes along its length, a
+new component of that asset is recorded as shown in Figure C.4.
+73
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 75 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Figure C.4 Continuous asset example with material and diameter change at one location
+74
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 76 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Where a continuous asset has more than one change in these attributes along its length, a new
+component of that asset is recorded at each change point as shown in Figure C.5.
+75
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 77 of 134
+======================================================================
+CD 535 Version 1.2.0
+Appendix C. Drainage data management features
+Figure C.5 Continuous asset example with material and diameter change at different locations
+76
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 78 of 134
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 79 of 134
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 535 - ENAA
+England National Application Annex for
+Drainage asset data and risk management
+(formerly HD 43/04)
+Version 0.2.0
+Summary
+This National Application Annex sets out the National Highways-specific requirements for
+recording of inventory and condition of drainage assets, and the management of flooding,
+pollution and cross-asset risks related to drainage.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 80 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+7
+E/1. General requirements
+9
+When to do drainage surveys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Roles and responsibilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Performance measures and metrics
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+E/2. Asset inventory and condition data
+11
+E/3. Managing flooding and pollution risk
+14
+General requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Initial data capture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Priority assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Floods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Spills . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Sub-catchment flood risk
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Culverts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Soakaways . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Outfalls
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Mitigation design and implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+E/4. Normative references
+33
+Appendix E/A. Photographic guide to flood definition
+34
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 81 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535 -
+ENAA
+0.2.0
+September 2025
+England NAA
+Incremental change to
+requirements
+E/1 - new section to set out requirements for when to undertake drainage surveys. Minor edits to Performance
+measure and metrics.
+E/2 - minor additions to signpost drainage data formats document and NH Asset Class Handbook
+E/3 - updates to flowcharts and wording to reflect the implementation of drainage in the GDMS system. Addition
+of requirements to ensure risk assessment evidence is uploaded to the DDMS and advice to consider low risk
+assets for mitigation.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+0.1.0
+October 2021
+England NAA
+Incremental change to
+requirements
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 82 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 535 - ENAA version 0.1.0, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 83 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Introduction
+Introduction
+Background
+This document sets out National Highways specific requirements for recording of inventory and
+condition of drainage assets, and the management of flooding, pollution and cross-asset risks related
+to drainage.
+In addition, it sets out general requirements for the management of drainage assets, and for provision
+of information to support reporting of performance metrics and measures by National Highways.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 6.N].
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 84 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+3D
+Develop, Design and Deliver scheme process
+AADT
+Annual average daily traffic
+ACH
+Drainage Asset Class Handbook
+ADMM
+Asset data management manual ADMM [Ref 1.N]
+AMP
+Asset management plan
+ASC
+Asset support contract
+CFMP
+Catchment flood management plan
+DBFO
+Design, build, finance, operate
+Defra
+Department for Environment, Food and Rural Affairs
+DfT
+Department for Transport
+EA
+Environment Agency
+EngTech
+Engineering Technician (qualification)
+EWDF
+Environment and wellbeing designated fund
+F&WM (Act)
+Flood and Water Management (Act) UKPGA 2010/29 [Ref 5.N]
+FSI
+Flood severity index
+GDMS
+National Highways' Geotechnical and Drainage Management Service
+HEWRAT
+Highways England (National Highways) water risk assessment tool
+HRS
+Hazard ranking score
+IDB
+Internal drainage board
+LLFA
+Lead local flood authority
+MoU
+Memorandum of understanding
+MP
+Major Projects (National Highways directorate)
+OD
+(National Highways) Operations Directorate
+OMM
+Operational Metrics Manual
+OS
+Ordnance Survey
+PCF
+Project control framework
+PI
+Performance indicator
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 85 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Abbreviations
+(continued)
+Abbreviation
+Definition
+RBMP
+River basement management plan
+S58
+Section 58
+SHE
+Safety, health and environment
+SP
+Service provider
+SWP
+Severe weather plan
+VM
+Value management
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 86 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Active management
+Procedures to manage the flooding or pollution risk of a
+drainage asset or drainage system, without carrying out
+renewals or improvements to assets.
+NOTE: Active management can include measures such
+as prioritised scheduled maintenance (such as gully
+cleaning) or an increased frequency of inspections.
+Baseline risk
+Flooding or pollution risk level assigned to priority assets
+during an offline bulk process, usually carried out
+centrally and nationally by National Highways, to
+determine expected risk.
+NOTE: The baseline risk is verified during the risk
+assessment process, comprising desk and/or field
+studies.
+Drainage liaison engineer
+Person or persons responsible for all drainage surveys,
+maintenance and renewals within an operational area,
+and is the key point of contact for all drainage related
+matters.
+Environmental quality standard
+Assessment of the annual average concentration of
+soluble pollutants for outfalls, compared with published
+environmental quality standards given in DMRB LA 113
+[Ref 9.N].
+NOTE: This assessment is facilitated through HEWRAT.
+Flood champion
+Person or persons responsible for integration and
+coordination of flood risk management within an
+operational area.
+NOTE: The person(s) can also be the operational area's
+drainage liaison engineer.
+Flood severity index
+Numeric, quantitative assessment of the severity of a
+flood 's impacts.
+NOTE: The current detailed definition of the flood severity
+index can be downloaded from the GDMS.
+Geotechnical and Drainage
+Management Service
+National Highways' master database for managing
+information concerning drainage assets and flooding.
+Lead local flood authority
+Unitary authority or county council that has responsibility
+for developing, maintaining and applying a strategy for
+local flood risk management in their area and for
+maintaining a register of flood risk assets.
+NOTE: Also has lead responsibility for managing the risk
+of flooding from surface water, groundwater and ordinary
+watercourses.
+Linear network model
+National Highways' primary road network model
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 87 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Operational area
+Geographical and organisational area within which assets
+are managed by National Highways or its supply chain.
+OSGB36
+An ordnance survey datum representing the OS National
+Grid reference system.
+OSGM15
+An ordnance survey geodetic transformation model to
+convert a level between global height models and
+ordnance datum Newlyn.
+NOTE: OSGM15 supersedes the OSGM02
+transformation.
+OSTN15
+An ordnance survey geodetic transformation model to
+convert a location between global coordinate systems
+and OS National Grid (OSGB36).
+NOTE: OSTN15 supersedes the OSTN02 transformation.
+Running lane
+The full width of a lane within the carriageway
+Section 58
+Section 58 of the Highways Act 1980, a special defence
+in action against a highway authority for damages for
+non-repair of the highway.
+Sediment pollution risk
+Assessment of sediment-bound pollutants in highway
+runoff.
+NOTE: This assessment is facilitated through HEWRAT.
+Soluble pollution risk
+Assessment of short-lived, higher concentration
+discharges of soluble pollutants.
+NOTE: This assessment is facilitated through HEWRAT.
+Spillage risk
+Assessment determined for soakaways and outfalls from
+the applicable method set out in LA 113 [Ref 9.N].
+NOTE: This assessment is facilitated through HEWRAT.
+Wheel track
+Only the two strips within the width of a running lane that
+carry the majority of the wheel loading
+Workflow
+The method of recording sub-catchment or priority asset
+mitigation progress and completion in the GDMS. When a
+workflow is completed the risk status of the
+sub-catchment or asset will be 'X (risk addressed)'.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 88 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/1. General requirements
+E/1.
+General requirements
+When to do drainage surveys
+E/1.1
+Drainage surveys shall be undertaken to collect asset inventory and condition data to systematically
+develop drainage schemes, and wider schemes that have a drainage element, in accordance with the
+following business processes:
+1)
+Operations: Develop, Design and Deliver scheme process (3D);
+2)
+Major Projects: Project Control Framework (PCF); and,
+3)
+Designated Funds: Environment and Wellbeing Designated Fund (EWDF).
+E/1.2
+Drainage surveys shall be undertaken to update the asset inventory and condition in the Geotechnical
+and Drainage Management Service (GDMS) after completion of a scheme at the following stages of
+each business process:
+1)
+3D process in Stage 5 Construction;
+2)
+PCF process in Stage 6 Handover; and,
+3)
+EWDF process in Stage 4 Implementation.
+E/1.2.1
+Drainage surveys may additionally be undertaken at the following stages of each business process:
+1)
+3D process:
+a)
+Stage 1 Options Assessment - to gather additional data to support option development;
+b)
+Stage 2 Preliminary Design - to gather additional data to progress a preliminary design of
+the preferred option; and,
+c)
+Stage 3 Detailed Design - to fill any outstanding data gaps required to complete the
+detailed design.
+2)
+PCF process:
+a)
+Stage 3 Preliminary design - to develop the preliminary design and assess the condition of
+existing assets; and,
+b)
+Stage 5 Construction preparation - dilapidation survey to record asset condition
+immediately prior to the start of construction.
+3)
+EWDF process:
+a)
+Stage 2 Feasibility - to inform options and develop preliminary designs; and,
+b)
+Stage 3 Detailed design - to progress the preferred option into a detailed design.
+Roles and responsibilities
+E/1.3
+Each operational area shall nominate a suitably qualified and experienced person or persons to carry
+out each of the following functions:
+1)
+drainage liaison engineer responsible for all matters related to the management of the drainage
+asset; and,
+2)
+flood champion responsible for all matters related to the management of flooding risk.
+NOTE
+"Suitably qualified and experienced" means a minimum of EngTech or equivalent, and a minimum of
+five years' experience of managing highway drainage assets.
+E/1.3.1
+The functions of the drainage liaison engineer and flood champion may be carried out by persons with
+alternative role titles.
+E/1.3.2
+The functions of the drainage liaison engineer and flood champion may be carried out by the same
+person.
+E/1.4
+Those carrying out the functions of drainage liaison engineer and/or flood champion shall be subject to
+acceptance by National Highways, if not employed by National Highways.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 89 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/1. General requirements
+Performance measures and metrics
+E/1.5
+Information shall be recorded on the GDMS to enable National Highways to accurately report against
+the performance metrics defined in the Operational Metrics Manual. OMM [Ref 7.N]
+E/1.6
+Flood and flood risk data shall be recorded on the GDMS to facilitate the monthly calculation of the
+drainage performance indicator, the drainage resilience metric defined in the Operations Metrics
+Manual. OMM [Ref 7.N]
+E/1.7
+All floods recorded on the GDMS shall be assessed against the rainfall that occurred at the time and
+location of the flood, to ascertain if the flood occurred during an extreme weather event that exceeded
+the drainage design criteria for that location.
+E/1.8
+Where a flood is found to have occurred during an extreme rainfall event, it shall be removed from the
+drainage resilience metric calculation.
+NOTE 1
+The metrics defined in the Operational Metrics Manual OMM [Ref 7.N] are reviewed periodically and
+subject to change.
+NOTE 2
+National Highways defines additional drainage and flooding performance measures and metrics for
+internal reporting and monitoring purposes.
+E/1.9
+Where further information is required to satisfy the metric assurance process, a response to a request
+for this information shall be provided within seven days.
+NOTE
+For example, a metric based on the number of flooding mitigations can require further evidence of the
+work that has taken place, or of the active management processes implemented, in order for the
+mitigation to be assured and hence counted in the metric.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 90 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/2. Asset inventory and condition data
+E/2.
+Asset inventory and condition data
+E/2.1
+Drainage asset inventory and condition data shall be recorded in accordance with the requirements of
+the Asset Data Management Manual ADMM [Ref 1.N].
+NOTE
+The asset data management manual includes:
+1)
+detailed definition of asset types, including example photographs and synonyms;
+2)
+data dictionary definition such as the list of inventory and condition data fields, inventory codes
+(such as for material and shape) and condition observation codes;
+3)
+units of measurement;
+4)
+condition defect scoring criteria;
+5)
+mandatory data population requirements;
+6)
+data format specification;
+7)
+acceptable formats for attached documents and files;
+8)
+data validation criteria; and,
+9)
+data submission process.
+E/2.2
+The Drainage Data Formats Document shall be used to ensure drainage asset inventory and condition
+data is recorded in the correct format for the GDMS.
+NOTE
+The Drainage Data Formats Document, template files, example files and further guidance on business
+processes can be downloaded from the GDMS.
+E/2.3
+Survey data shall be supplied in the formats required in CS 551 [Ref 4.N] for upload to the GDMS
+within 30 days of completion of the site works.
+E/2.4
+The process described in Figure E/2.5 shall be followed for maintaining the asset data for each
+drainage catchment.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 91 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/2. Asset inventory and condition data
+Figure E/2.4 Process for maintaining drainage highway catchment data
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 92 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/2. Asset inventory and condition data
+E/2.5
+The location of all drainage assets shall be recorded to OSGB36 datum, using the OSTN15
+transformation model.
+E/2.5.1
+Further advice on coordinate systems and transformation models may be obtained from the Ordnance
+Survey.
+E/2.6
+Where the level of an asset is recorded, this shall be to Ordnance Datum Newlyn, using the OSGM15
+transformation model.
+E/2.7
+Where asset condition is assessed at asset-level, this shall be in accordance with the criteria set out in
+CS 551 [Ref 4.N].
+NOTE
+CS 551 [Ref 4.N] includes:
+1)
+requirements for various survey types:
+a)
+validation surveys;
+b)
+priority asset surveys;
+c)
+filter drain condition surveys by GPR;
+d)
+all assets condition and connectivity surveys;
+e)
+pipework and chambers defect surveys by CCTV; and,
+f)
+pipework geometric surveys by laser profiler.
+2)
+drainage condition grade quick assessment procedure:
+a)
+methodology;
+b)
+definition of asset type groups;
+c)
+list of excluded asset types; and,
+d)
+criteria for visual assessment of structural and service condition grades.
+E/2.8
+As-built drawings, record status reports and signed design certificates shall be acquired and uploaded
+to the GDMS in accordance with the ADMM [Ref 1.N].
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 93 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+E/3.
+Managing flooding and pollution risk
+General requirements
+E/3.1
+Flood risk related to highway drainage assets must be managed in accordance with National Highways'
+role as an English risk management authority under the Flood and Water Management Act UKPGA
+2010/29 [Ref 5.N].
+E/3.2
+Where applicable, flood risk related to region assets must be managed in accordance with the
+Reservoirs Act 1975 ( UKPGA 1975/23 [Ref 8.N]).
+E/3.3
+The relevant lead local flood authority and other flood risk management authorities must be
+co-operated with on matters related to flood risk management, under the requirements of the Flood and
+Water Management Act 2010 UKPGA 2010/29 [Ref 5.N].
+E/3.4
+Data regarding all aspects of flooding and water quality described in this section, shall be recorded on
+the GDMS in accordance with the requirements of the ADMM [Ref 1.N].
+E/3.5
+The National Highways business processes signposted in the Drainage ACH shall be adopted for
+managing flooding and pollution risk.
+E/3.6
+Flood risk shall be recorded as sub-catchment flood risk, not arbitrary flooding hotspots.
+E/3.7
+Priority assets and sub-catchments shall have their flooding or pollution risk level assessed and, if
+necessary, mitigated in the following order:
+1)
+initial data capture;
+2)
+risk assessment; and,
+3)
+mitigation design and implementation.
+Initial data capture
+Priority assets
+E/3.8
+Soakaways, outfalls and culverts shall be recorded as part of the asset inventory and condition data, in
+accordance with Section 2.
+Floods
+E/3.9
+Flooding, a flood and sub-catchment risk shall be defined as set out in the flow chart in Figure E/3.9.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 94 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.9 Flooding definitions
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 95 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+NOTE 1
+Factors such as whether the live carriageway is affected, the duration of impact, the safety impact or
+whether any other National Highways assets are being damaged do not come into the definition of a
+flood. Such matters are considered in the assessment of the impact when reporting a flood on the
+GDMS. The flood is a "near miss" if the live carriageway is not impacted, but it is still recorded as a
+flood on the GDMS.
+NOTE 2
+Where the sub-catchment risk status is C or D the sub-catchment is not a priority for mitigation works,
+however, opportunities for mitigation are to be considered in association with other works being carried
+out in the sub-catchment.
+E/3.10
+The following design requirements shall be taken as defining a flood:
+1)
+any standing or flowing water that extends beyond the CD 526 [Ref 10.N] requirements of:
+a)
+1.5m from the kerb for the hard shoulder; or,
+b)
+1.0m from the kerb for the hard strip;
+2)
+any standing water at pedestrian, cycle or equestrian crossings contrary to the requirements of
+CD 526 [Ref 10.N];
+3)
+any surcharge of water onto the carriageway adjacent to the central reserve contrary to the
+requirements of CG 501 [Ref 2.N]; or,
+4)
+any surcharge of water into the running lane from adjacent surface water channels contrary to the
+requirements of CG 501 [Ref 2.N].
+E/3.10.1
+The following may be used to distinguish between a flood and a puddle:
+1)
+water depth estimated to be more than 30 mm; or
+2)
+one or more wheel tracks affected irrespective of water depth; or
+3)
+third party land or property affected; and,
+4)
+flood area estimated to be 10 m2 or more.
+NOTE
+Photographic examples of what is and what is not defined as a flood are given in Appendix E/A.
+E/3.11
+Flooding that is located on or within 200 m of the carriageway or within 500 m of a drainage asset shall
+be recorded on the GDMS as a flood.
+E/3.12
+The location of all floods shall be recorded to OSGB36 datum, using the OSTN15 transformation model.
+NOTE
+Where the location of the flood is recorded as a relative location, such as a marker post chainage, this
+is in addition to the location as OS coordinates.
+E/3.13
+The severity of floods shall be quantified in accordance with the flood severity index (FSI) definition,
+which can be downloaded from the GDMS.
+NOTE 1
+The GDMS automatically calculates the flood severity index from the information entered for each flood.
+NOTE 2
+A flood receives an FSI score even if the carriageway is not affected.
+NOTE 3
+A flood receives an FSI score even if the duration of impact is less than 15 minutes.
+NOTE 4
+The only way that a flood can receive an FSI of 0 is if it cannot be snapped to the Linear Network Model
+on the GDMS as it is more than 200 m from the carriageway and more than 500 m from a drainage
+asset, and is therefore not classed as a flood.
+E/3.14
+The nature of any impacts of a flood on third parties or other assets shall be assessed and recorded on
+the GDMS.
+E/3.15
+The flood and arising mitigation actions shall be logged within the operational management system
+within 24 hours as detailed in the ADMM [Ref 1.N].
+E/3.16
+All floods shall be entered into the GDMS within 7 days as detailed in the ADMM [Ref 1.N].
+E/3.17
+Flood records shall be completed, reviewed and set to closed status on the GDMS within 28 days of the
+flood's occurrence as detailed in the ADMM [Ref 1.N].
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 96 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Spills
+E/3.18
+The location of all spills shall be recorded to OSGB36 datum, using the OSTN15 transformation model.
+NOTE
+Where the location of the spillage is recorded as a relative location, such as a marker post chainage,
+this is in addition to the location as OS coordinates.
+E/3.19
+The severity of spills shall be quantified in accordance with the spill severity index definition, which can
+be downloaded from the GDMS.
+NOTE
+The GDMS automatically calculates the spill severity Index from the information entered for each spill.
+E/3.20
+The nature of any impacts of a spills on the environment, third parties or other assets shall be assessed
+and recorded on the GDMS.
+E/3.21
+Where the Environment Agency was notified of or attended a spill, or took any enforcement action, the
+nature of this shall be recorded against the spill record in the GDMS.
+E/3.22
+Spill records shall be completed, reviewed and set to closed status on the GDMS by the drainage
+liaison engineer, within 28 days of the spill's occurrence.
+Risk assessment
+Sub-catchment flood risk
+E/3.23
+Sub-catchment flood risk shall be assessed in accordance with the process in Figure E/3.23.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 97 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.23 Process for defining and assessing risk of sub-catchments
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 98 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+NOTE
+Further detailed guidance on flood risk assessment processes can be accessed through the GDMS.
+E/3.24
+Sub-catchments shall have their risk assessed against the criteria in Figure E/3.24.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 99 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.24 Sub-catchment flood risk assessment criteria matrix
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 100 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+NOTE
+The flood severity index of the floods is rounded to the nearest whole number, before applying the
+matrix in Figure E/3.24.
+Culverts
+E/3.25
+Culverts shall have their flooding risk assessed in accordance with the process in Figure E/3.25.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 101 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.25 Process for assessing flood risk of culverts
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 102 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+E/3.26
+Evidence and supporting documents from the process for assessing flood risk of culverts defined in
+Figure E/3.25 shall be uploaded to the GDMS.
+E/3.27
+Evidence and supporting documents shall contain information that enables the conclusions of the risk
+assessment to be replicated independently.
+E/3.27.1
+Evidence and supporting documents may include:
+1)
+the culvert assessment worksheet;
+2)
+a desk study report;
+3)
+hydraulic model files;
+4)
+a field study report; and,
+5)
+a summary of the risk assessment results.
+E/3.27.2
+Where the culvert risk status is C or D the culvert is not a priority for mitigation works, however,
+opportunities for mitigation should be taken in association with other works being carried out in the
+vicinity.
+NOTE 1
+A culvert can fall into one of two scenarios:
+1)
+a current flood risk, with associated recorded floods on the GDMS; or,
+2)
+a future flood risk, with no associated recorded floods, however unrecorded floods could have
+occurred, or hydraulic modelling could suggest the culvert is likely to flood due to inadequate
+capacity.
+NOTE 2
+Further detailed guidance on the culverts assessment process can be accessed through the GDMS.
+E/3.28
+Culverts shall have their flooding risk assessed against the criteria in Figure E/3.28, being the worst of
+either the carriageway or third party flooding impacts.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 103 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.28 Culvert flood risk assessment criteria matrix
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 104 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+NOTE
+The flood severity index of the floods is rounded to the nearest whole number, before applying the
+matrix in Figure E/3.28.
+E/3.29
+Where culverts have a baseline risk recorded on the GDMS, the highest risk level assets shall be
+assessed first.
+E/3.30
+Where culverts do not have a baseline risk recorded on the GDMS, culverts in locations known to be
+susceptible to flooding shall be assessed first.
+E/3.30.1
+Where culverts do not have a baseline risk recorded on the GDMS and are not known to be susceptible
+to flooding, risk assessment should be undertaken if there is an opportunity in association with other
+risk assessment works.
+E/3.31
+The results of the desk study and any field assessment shall be recorded on the GDMS in the culverts
+register.
+Soakaways
+E/3.32
+Soakaways shall have their pollution risk assessed in accordance with the process in Figure E/3.32.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 105 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.32 Process for assessing pollution risk of soakaways
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 106 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+E/3.33
+Evidence and supporting documents from the process for assessing pollution risk of soakaways
+defined in Figure E/3.32 shall be uploaded to the GDMS.
+E/3.34
+Evidence and supporting documents shall contain information that enables the conclusions of the risk
+assessment to be replicated independently.
+E/3.34.1
+Evidence and supporting documents may include:
+1)
+the soakaway assessment worksheet;
+2)
+a desk study report;
+3)
+a field study report; and,
+4)
+a summary of the risk assessment results.
+E/3.34.2
+Where the soakaway risk status is D the soakaway is not a priority for mitigation works, however,
+opportunities for mitigation should be taken in association with other works being carried out in the
+vicinity.
+NOTE
+Further detailed guidance on the soakaways assessment process can be accessed through the GDMS.
+E/3.35
+Soakaways shall have their risk assessed against the criteria in Figure E/3.35.
+Figure E/3.35 Soakaway pollution risk assessment criteria matrix
+E/3.36
+Where soakaways have a baseline risk recorded on the GDMS, the highest risk level assets shall be
+assessed first.
+E/3.37
+Where soakaways do not have a baseline risk recorded on the GDMS, soakaways in locations known
+to be susceptible to pollution shall be assessed first.
+E/3.37.1
+Where soakaways do not have a baseline risk recorded on the GDMS and are not known to be
+susceptible to pollution, risk assessment should be undertaken if there is an opportunity in association
+with other risk assessment works.
+E/3.38
+The results of the desk study and any field assessment shall be recorded on the GDMS in the
+soakaways register.
+Outfalls
+E/3.39
+Outfalls shall have their pollution risk assessed in accordance with the process in Figure E/3.39.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 107 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.39 Process for assessing pollution risk of outfalls
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 108 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+E/3.40
+Evidence and supporting information from the process for assessing pollution risk of outfalls defined in
+Figure E/3.39 shall be uploaded to the GDMS.
+E/3.41
+Evidence and supporting documents shall contain information that enables the conclusions of the risk
+assessment to be replicated independently.
+E/3.41.1
+Evidence and supporting evidence may include:
+1)
+the outfall assessment worksheet - Highways England (National Highways) water risk
+assessment tool (HEWRAT);
+2)
+a desk study report;
+3)
+a field study report; and,
+4)
+a summary of the risk assessment results.
+E/3.41.2
+Where the outfall risk status is D the outfall is not a priority for mitigation works, however, opportunities
+for mitigation should be considered in association with other works being carried out in the vicinity.
+NOTE 1
+Further detailed guidance on the outfalls assessment process can be accessed through the GDMS.
+NOTE 2
+HEWRAT can be downloaded from the GDMS.
+E/3.42
+Outfalls shall have their risk assessed against the criteria in Figure E/3.42.
+Figure E/3.42 Outfall pollution risk assessment criteria matrix
+E/3.43
+Where outfalls have a baseline risk recorded on the GDMS, the highest risk level assets shall be
+assessed first.
+E/3.44
+Where outfalls do not have a baseline risk recorded on the GDMS, outfalls in locations known to be
+susceptible to pollution shall be assessed first.
+E/3.44.1
+Where outfalls do not have a baseline risk recorded on the GDMS and are not known to be susceptible
+to pollution, risk assessment should be undertaken if there is an opportunity in association with other
+risk assessment works.
+E/3.45
+The results of the desk study and any field assessment shall be recorded on the GDMS in the outfalls
+register.
+Mitigation design and implementation
+E/3.46
+Priority assets and sub-catchments shall be mitigated in priority order based on their risk status,
+following risk assessment.
+E/3.46.1
+Priority assets and sub-catchments should be considered for mitigation if their risk status following risk
+assessment is as follows:
+1)
+sub-catchments of risk status A1, A or B;
+2)
+culverts of risk status A or B;
+3)
+soakaways of risk status A, B or C; and,
+4)
+outfalls of risk status A, B or C.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 109 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+E/3.46.2
+Where a lower risk priority asset or sub-catchment could be mitigated sooner than higher risk assets or
+sub-catchments (without delaying mitigation of the higher risk locations), the lower risk asset or
+sub-catchment may be mitigated earlier.
+E/3.47
+Mitigations of priority assets and sub-catchments shall be designed and implemented such that the risk
+status is reduced as follows, when reassessed against the applicable risk level criteria given in this
+section:
+1)
+sub-catchments and culverts reduced to a risk status of C or D (based on expected reduction in
+future flooding); and,
+2)
+soakaways and outfalls reduced to a risk status of D.
+E/3.48
+Where assessment and prioritisation of risk indicates that a priority asset or sub-catchment requires
+mitigation, the mitigation shall be designed and approved in accordance with the process in Figure
+E/3.48.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 110 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+Figure E/3.48 Process for design and approval of priority asset and sub-catchment
+mitigations
+E/3.48.1
+All activities on the flowchart should be undertaken in line with the framework for the appropriate
+scheme delivery business process being followed.
+NOTE 1
+Further detailed guidance on the mitigation design and implementation process can be downloaded
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 111 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/3. Managing flooding and pollution risk
+from the GDMS.
+NOTE 2
+Active management is less applicable to outfalls and soakaways than to flooding related mitigations.
+E/3.49
+Mitigations shall be designed in accordance with the requirements and guidance contained in the
+related documents referenced in CG 501 [Ref 2.N] and that stated in LA 113 [Ref 9.N] and CD 529 [Ref
+3.N].
+E/3.50
+Details of the mitigation shall be recorded on the GDMS, by updating the asset inventory data and
+relevant priority asset or sub-catchment workflow.
+E/3.51
+Where the mitigation is implemented by active management, the following shall be recorded on the
+GDMS, in the relevant workflow:
+1)
+details of the risk management processes to be implemented, including their frequency; and,
+2)
+ongoing records to demonstrate that the processes are being carried out.
+NOTE
+Active management measures can include, but are not limited to, processes such as automated or
+manual monitoring, or a more regular, pro-active maintenance regime, to prevent future flooding or
+pollution at the location.
+E/3.52
+Where active management processes have been implemented, these shall remain in place unless a
+further assessment demonstrates that the risk level has been reduced to a sufficient level where
+mitigations are not otherwise required, and remains at that level without those processes.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 112 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+E/4. Normative references
+E/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+Highways England. ADMM, 'Asset Data Management Manual'
+Ref 2.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 3.N
+National Highways. CD 529, 'Design of outfall and culvert details'
+Ref 4.N
+National Highways. CS 551, 'Drainage surveys'
+Ref 5.N
+National Archives. UKPGA 2010/29, 'Flood and Water Management Act'
+Ref 6.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+Highways England. OMM, 'Operational Metrics Manual'
+Ref 8.N
+National Archives. UKPGA 1975/23, 'Reservoirs Act and various Reservoirs Act
+(Amendment) Regulations'
+Ref 9.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 10.N
+National Highways. CD 526, 'Spacing of road gullies'
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 113 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Appendix E/A. Photographic guide to flood definition
+Appendix E/A. Photographic guide to flood definition
+The following photographs illustrate what should or should not be described as a flood.
+Table E/A.1 Examples of floods
+Description
+Example
+Standing water across lanes 1 and 2. Flooding
+and a flood.
+Flooding and a flood
+Flowing water less than 30 mm deep in fast lane
+adjacent to central reservation. Flooding and a
+flood.
+Flooding and a flood
+Flowing and standing water across the verge and
+hard shoulder, more than 1.5 m wide. Flooding
+and a flood.
+Flooding and a flood
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 114 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Appendix E/A. Photographic guide to flood definition
+Table E/A.1 Examples of floods (continued)
+Flowing water in neighbouring garden within 200
+m of the carriageway. Flooding and a flood.
+Flooding and a flood
+Standing water in adjacent field, on verge and
+carriageway. Flooding and a flood.
+Flooding and a flood
+Standing water in adjacent field within 200 m of
+the carriageway. Flooding and a flood.
+Flooding and a flood
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 115 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Appendix E/A. Photographic guide to flood definition
+Table E/A.1 Examples of floods (continued)
+Standing water at the edge of the carriageway
+locally over one wheel track. Area more than 10
+m2. Flooding and a flood.
+Flooding and a flood
+Standing water on the hard shoulder, locally
+more than 1.5 m wide and more than 10 m2.
+Flooding and a flood.
+Flooding and a flood
+Water flowing across carriageway. Less than 30
+mm deep. Two lanes and slip road affected.
+Flooding and a flood.
+Flooding and a flood
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 116 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Appendix E/A. Photographic guide to flood definition
+Table E/A.1 Examples of floods (continued)
+Standing water on footway more than 10 m2.
+Flooding and a flood.
+Flooding and a flood
+Standing water in turning lane adjacent of central
+reservation. Flooding and a flood.
+Flooding and a flood
+Flowing water across carriageway. Less than 30
+mm deep, more than 10 m2 in area. Flooding and
+a flood.
+Flooding and a flood
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 117 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Appendix E/A. Photographic guide to flood definition
+Table E/A.1 Examples of floods (continued)
+Standing water on hard strip, more than 1.0 m
+wide. 10 m2 criteria does not apply. Flooding and
+a flood.
+Flooding and a flood
+Surcharging gully, water depth more than 30 mm
+and wheel track affected. Less than 10 m2. But
+engineering judgement says that this is flooding
+and a flood due to its location at a junction.
+Flooding and a flood
+Table E/A.2 Examples that are not floods
+Description
+Example
+Standing water less than 30 mm deep, not
+covering a wheel track and less than 10 m2. A
+puddle, not a flood.
+A puddle, not a flood
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 118 of 134
+======================================================================
+CD 535 - ENAA Version 0.2.0
+Appendix E/A. Photographic guide to flood definition
+Table E/A.2 Examples that are not floods (continued)
+Standing water more than 10 m2, but within
+surface water channel within hard strip, not
+impacting on running lanes. Not a flood.
+Not a flood
+Standing water in hard strip. One wheel track
+(just) impacted. Less than 10 m2. A puddle, not a
+flood.
+A puddle, not a flood
+Standing water at edge of carriageway not
+impacting on wheel track. Less than 30 mm deep
+and less than 10 m2. A puddle, not a flood.
+A puddle, not a flood
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 119 of 134
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 120 of 134
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 535
+Northern Ireland National Application Annex to
+CD 535 Drainage asset data and risk
+management
+(formerly HD 43/04)
+Version 0.0.1
+Summary
+This National Application Annex contains the Department for Infrastructure, Northern Ireland
+specific requirements related to drainage asset data and risk management.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 121 of 134
+======================================================================
+CD 535 Version 0.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Applicability of CD 535
+5
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 122 of 134
+======================================================================
+CD 535 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+0.0.1
+October 2021
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+Department for Infrastructure, Northern Ireland NAA to CD 535.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 123 of 134
+======================================================================
+CD 535 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+This document supersedes HD 43/04, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 124 of 134
+======================================================================
+CD 535 Version 0.0.1
+Introduction
+Introduction
+Background
+This National Application Annex contains the Department for Infrastructure, Northern Ireland-specific
+requirements for drainage asset data and risk management.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 125 of 134
+======================================================================
+CD 535 Version 0.0.1
+NI/1. Applicability of CD 535
+NI/1.
+Applicability of CD 535
+NI/1.1
+The requirements of CD 535 shall not apply in Northern Ireland.
+NOTE
+Whilst the general principles of CD 535 are endorsed, this document is not regarded as mandatory for
+use in Northern Ireland.
+NI/1.2
+The Department for Infrastructure, Northern Ireland shall be contacted for current requirements related
+to drainage asset data and risk management.
+NI/1.2.1
+Procedures in CD 535 related to drainage asset data and risk management may be outlined within
+Department for Infrastructure, Northern Ireland contracts as relevant.
+NI/1.2.2
+Reference may be made to maintenance instructions/manuals in Department for Infrastructure,
+Northern Ireland contracts as relevant.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 126 of 134
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 127 of 134
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 535
+Scotland National Application Annex to CD
+535 Drainage asset data and risk
+management
+(formerly HD 43/04)
+Revision 0
+Summary
+Please contact Transport Scotland for the application of CD 535. The email address is:
+TSStandardsBranch@transport.gov.scot
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 128 of 134
+======================================================================
+CD 535 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 129 of 134
+======================================================================
+CD 535 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+0
+June 2019
+Not available
+Not available
+Scotland National Application Annex to CD 535.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 130 of 134
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 131 of 134
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 535
+Wales National Application Annex to CD 535
+Drainage asset data and risk management
+(formerly HD 43/03)
+Revision 0
+Summary
+Please contact Welsh Government for the application of CD 535. The email address is:
+Standards_Feedback_and_Enquiries@gov.wales.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 132 of 134
+======================================================================
+CD 535 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 133 of 134
+======================================================================
+CD 535 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 535
+0
+June 2019
+Not available
+Not available
+Welsh Government National Application Annex for CD 535.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 134 of 134
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 535 Version 1.2.0, published: 30-Sep-2025
+
+
