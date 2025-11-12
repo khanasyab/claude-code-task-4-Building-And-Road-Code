@@ -1,0 +1,1086 @@
+======================================================================
+PAGE 1 of 28
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 363
+Design rules for aerodynamic effects on
+bridges
+(formerly BD 49/01)
+Revision 0
+Summary
+This document sets out the design requirements for bridges with respect to aerodynamic effects
+including provisions for wind-tunnel testing. It updates and supersedes BD 49/01.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 2 of 28
+======================================================================
+CD 363 Revision 0
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Major changes in 1993 version of BD 49 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Major changes in 2001 version of BD 49 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Major changes in this version of BD 49 (now CD 363)
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Additional guidance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Symbols
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. General requirements
+9
+3. Design for aerodynamic stability
+10
+Criteria for applicability and consideration of aerodynamic effects . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Limited amplitude response - vortex excitation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Critical wind speeds for vortex excitation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Limiting criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Vortex excitation effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Limited amplitude response - turbulence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Divergent amplitude response
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4. Partial load factors for aerodynamic design
+12
+5. Fatigue damage
+13
+Fatigue damage requirements
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Fatigue damage due to vortex excitation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+6. Wind tunnel testing
+17
+7. Proximity effects
+18
+8. Normative references
+19
+9. Informative references
+20
+Appendix A. Guidance on proximity effects
+21
+A1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+A2 Twin-deck configurations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+A3 Evaluation of parameters for vortex shedding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+A4 Other proximity effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 3 of 28
+======================================================================
+CD 363 Revision 0
+Contents
+Appendix B. Guidelines for wind tunnel testing
+23
+B1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+B2 Use of smooth flow (laminar) tests to determine time average coefficients . . . . . . . . . . . . . . . . .
+23
+B3 Section model tests to determine aerodynamic stability . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+B4 Aero-elastic simulations of bridges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+B5 Studies of the wind environment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+B5.1 Topographic models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+B5.2 Local environment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B5.3 Use of boundary layer wind tunnels (BLWT) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B6 Instrumentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B7 Quality assurance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B8 Interpretation of test data and prediction of full-scale behaviour . . . . . . . . . . . . . . . . . . . . . . .
+26
+B9 Typical scales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 4 of 28
+======================================================================
+CD 363 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Jan 2020
+CD 363 replaces BD 49/01. This full document has been re-written to make it
+compliant with the new Highways England drafting rules.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 5 of 28
+======================================================================
+CD 363 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BD 49/01, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 6 of 28
+======================================================================
+CD 363 Revision 0
+Introduction
+Introduction
+Background
+The original version of these rules first appeared as the "Proposed British Design Rules" in 1981 ICE
+1981 [Ref 2.I]. A modified version was included in the TRL Contractor Report 36 TRL CR36 [Ref 3.I],
+which also contained the associated partial safety factors and guidance on the use of the rules.
+Major changes in 1993 version of BD 49
+In the light of their use in bridge design from 1981, further consideration was deemed necessary with
+respect to a number of items. The more notable aspects embodied in the 1993 version of BD 49 were
+the rules which determined whether the designs of certain footbridges and steel plate-girder bridges
+needed to be based on wind tunnel testing.
+Background information on these modifications is available in TRL CR256 [Ref 1.I].
+Major changes in 2001 version of BD 49
+Since the 1993 version of this standard, further wind tunnel tests have been carried out and other
+studies have been undertaken, which have led to further amendments to the rules. Background is
+provided in TRL RR530 [Ref 5.I]. The 2001 version of the rules incorporates the outcome of this work,
+including:
+1) more reliable criteria for plate girder bridges, based on a comprehensive series of tests on wind
+tunnel models; and
+2) a review of the rules in the light of experience leading to:
+a) improved considerations of edge details;
+b) amendments to all critical wind speeds;
+c) improved accuracy of vortex shedding amplitudes;
+d) more accurate criteria for aerodynamic susceptibility; and
+e) initial guidance on proximity effects.
+Major changes in this version of BD 49 (now CD 363)
+Many of the provisions of BD 49/01 have since been repeated in BS EN 1991-1-4 [Ref 3.N], NA to BS
+EN 1991-1-4 [Ref 7.N] and PD 6688-1-4 [Ref 2.N]. This version of BD 49 (now CD 363) only contains
+the provisions that have not been repeated in the above referenced documents and indicates where the
+repeated provisions are located.
+Additional guidance
+Guidance on the use of the design rules is available in TRL Contractor Report 36 TRL CR36 [Ref 3.I].
+Actual bridge configurations being designed that may correlate with sections physically tested
+previously may benefit from use of the archive test data which are held in the library of the Institution of
+Civil Engineers ICE Box Girders [Ref 4.I].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 7 of 28
+======================================================================
+CD 363 Revision 0
+Symbols
+Symbols
+Symbols
+Symbol
+Definition
+b
+Overall width of bridge deck
+b′
+Overall width of neighbouring bridge deck
+b*
+Effective width of bridge deck
+Cs
+Coefficient to take account of the extent of wind speed range over which oscillation can
+occur
+Cθ
+Relative frequency of occurrence of winds within +/-10 degrees of normal to the
+longitudinal centre line of the bridge in strong winds
+d4
+Depth of bridge deck
+d′
+Depth of neighbouring bridge deck
+f
+The natural frequency of a chosen mode, taken as nb for a bending mode or nt for a
+torsional mode
+G
+Clear gap between parallel bridges
+G1
+Minimum gap between parallel bridges
+G2
+Maximum gap between parallel bridges
+L
+Length of main span of bridge
+m
+Mass per unit length of bridge
+n
+Effective number of stress cycles per year
+nb
+Natural frequency in bending
+nt
+Natural frequency in torsion
+Pb
+Aerodynamic susceptibility parameter
+p
+Frequency of occurrence of wind speeds within +/- 2 1
+2 % of the critical wind
+speed
+Re
+Reynolds number
+vcrit,i
+Critical wind speed for vortex shedding
+v′
+crit,i
+Critical wind speed for vortex shedding for the estimation of fatigue damage
+vf
+Critical wind speed for classical flutter
+vg
+Critical wind speed for galloping and stall flutter
+vm(z)
+Mean wind speed at height, z
+vRf
+Reduced critical wind speed for classical flutter
+vRg
+Reduced critical wind speed for galloping and stall flutter
+ymax
+Maximum amplitude of vibration of the deck
+z
+Height of bridge deck above ground level
+α
+Inclination of wind to horizontal due to local topography
+γfL
+Partial load factor
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 8 of 28
+======================================================================
+CD 363 Revision 0
+Symbols
+Symbols (continued)
+Symbol
+Definition
+σr
+Stress range
+ϕ
+Solidity ratio of parapet, or ratio of net total projected area presented to the wind to the
+total area encompassed by the outer boundaries of the deck for trusses
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 9 of 28
+======================================================================
+CD 363 Revision 0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements within this document are for bridges with respect to aerodynamic effects, including
+provisions for wind-tunnel testing and this document shall supersede the previous version of this
+standard BD 49/01.
+1.1.1
+The document may be used to supplement BS EN 1993-2 [Ref 4.N] in respect of verification of
+aerodynamic effects on bridges by testing.
+1.2
+The requirements within this document shall be applied to all highway bridges and foot/cycle-track
+bridges.
+1.3
+This document's provisions shall only be used for bridges which comply with the constraints herein.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving the design of highway bridges
+and foot/cycle-track bridges on the Overseeing Organisations' motorway and all-purpose trunk roads
+according to the implementation requirements of GG 101 [Ref 6.N].
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 10 of 28
+======================================================================
+CD 363 Revision 0
+2. General requirements
+2.
+General requirements
+2.1
+The adequacy of the structure to withstand the dynamic effects of wind, together with other coincident
+loading, shall be verified in accordance with Eurocode 1 ( BS EN 1991-1-4 [Ref 3.N]), as implemented
+by the DMRB (see PD 6688-1-4 [Ref 2.N]).
+2.2
+The design shall assess if limited amplitude responses can cause unacceptable stresses or fatigue
+damage.
+NOTE
+Two types of limited amplitude response can occur:
+1) vortex-induced oscillations: these are oscillations of limited amplitude excited by the periodic
+cross-wind forces arising from the shedding of vortices alternatively from the upper and lower
+surfaces of the bridge deck. They can occur over one or more limited ranges of wind speeds. The
+frequency of excitation can be close enough to a natural frequency of the structure to cause
+resonance and, consequently, cross-wind oscillations at that frequency. These oscillations occur in
+isolated vertical bending and torsional modes;
+2) turbulence response: because of its turbulent nature, the forces and moments developed by wind on
+bridge decks fluctuate over a wide range of frequencies. If sufficient energy is present in frequency
+bands encompassing one or more natural frequencies of the structure, vibration can occur.
+2.3
+Divergent amplitude responses shall be avoided.
+2.3.1
+Identifiable divergent amplitude aerodynamic mechanisms, leading to oscillations of this type may
+include:
+1) galloping and stall flutter - galloping instabilities arise on certain shapes of deck cross-section
+because of the characteristics of the variation of the wind drag, lift and pitching moments with angle
+of incidence or time; and
+2) classical flutter - this involves coupling (i.e. interaction) between the vertical bending and torsional
+oscillations.
+2.4
+Non-oscillatory divergence shall be avoided.
+NOTE
+Non-oscillatory divergence can occur if the aerodynamic torsional stiffness (i.e. the rate of change of
+pitching moment with rotation) is negative. At a critical wind speed, the negative aerodynamic stiffness
+becomes numerically equal to the structural torsional stiffness resulting in zero total stiffness.
+2.5
+Consistent units shall be used.
+NOTE
+As an example of a consistent set of units, 1 Newton is the force required to accelerate 1 kilogram at
+1m/s2.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 11 of 28
+======================================================================
+CD 363 Revision 0
+3. Design for aerodynamic stability
+3.
+Design for aerodynamic stability
+Criteria for applicability and consideration of aerodynamic effects
+3.1
+Criteria to assess the susceptibility of a bridge to aerodynamic effects shall be in accordance with the
+NA to BS EN 1991-1-4 [Ref 7.N].
+3.1.1
+For the purposes of initial/preliminary categorisation, the following may be used to give an indicative
+range and upper and lower bound values for Pb:
+1) vm(z) between 20 m/s and 40 m/s;
+2)
+m
+b between 600 kg/m2 and 1200 kg/m2;
+3) nb between
+50
+L0.87 and
+100
+L0.87 , but see also NA to BS EN 1991-1-4 [Ref 7.N], Section NA.2.49.3:
+NOTE 2.
+NOTE 1
+b , m , nb and vm(z) are defined in NA to BS EN 1991-1-4 [Ref 7.N], Section NA.2.49.2 b).
+NOTE 2
+L is defined in NA to BS EN 1991-1-4 [Ref 7.N] , Section NA.2.49.3.
+Limited amplitude response - vortex excitation
+Critical wind speeds for vortex excitation
+3.2
+Estimates of critical wind speeds ( vcrit,i ) at which vortex excitation can occur shall be determined in
+accordance with the method given in PD 6688-1-4 [Ref 2.N], Section A.1.3.1 and Figure A.2.
+Limiting criteria
+3.3
+Any bridge with a fundamental frequency greater than 5Hz shall be assumed stable with respect to
+vortex excitation.
+3.4
+Other criteria used to determine the susceptibility of a bridge to vortex excited vibrations shall be in
+accordance with PD 6688-1-4 [Ref 2.N], Section A.1.2.
+Vortex excitation effects
+3.5
+Where the bridge cannot be assumed to be aerodynamically stable against vortex excitation, the
+effects of maximum oscillations of any one of the motions evaluated singly, shall be combined with the
+effects of other coincident loading (see Section 4).
+3.6
+Where the bridge cannot be assumed to be aerodynamically stable against vortex excitation, fatigue
+damage shall be assessed in accordance with Section 5, summed with damage from other fatigue
+loading.
+3.7
+The amplitudes of response to vortex excitation shall be determined in accordance with PD 6688-1-4
+[Ref 2.N], Section A.1.5.4.1.
+3.8
+Assessment of the significance of vortex excitation effects shall be determined in accordance with PD
+6688-1-4 [Ref 2.N], Section A.1.5.4.5.
+Limited amplitude response - turbulence
+3.9
+To determine whether or not the dynamic magnification effects of turbulence can be neglected,
+reference shall be made to the NA to BS EN 1991-1-4 [Ref 7.N], Section NA.2.49.2
+3.10
+Where the magnification effects of turbulence cannot be ignored, a gust buffeting dynamic analysis
+shall be carried out to calculate the peak amplitudes and modes of vibration under a 10-minute mean
+wind speed of vm(z) (as defined in NA to BS EN 1991-1-4 [Ref 7.N], Section NA.2.49.2 b).
+3.11
+Proximity effects (wake buffeting) shall be evaluated.
+3.11.1
+Proximity effects should be evaluated using the guidance given in Appendix A.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 12 of 28
+======================================================================
+CD 363 Revision 0
+3. Design for aerodynamic stability
+Divergent amplitude response
+3.12
+The critical wind speed for each divergent response shall exceed the limiting criteria.
+3.13
+Estimates of the critical wind speed for galloping and stall flutter for both bending and torsional motion (
+vg ) and for classical flutter ( vf ) shall be derived according to PD 6688-1-4 [Ref 2.N], Section A.2.4.1
+and PD 6688-1-4 [Ref 2.N], Section A.4.4 respectively.
+3.13.1
+Alternatively values of vg and vf may be determined by wind tunnel tests (see Section 6).
+3.14
+The aerodynamic stability of the bridge in respect of divergent responses shall be assessed against the
+limiting criteria given in PD 6688-1-4 [Ref 2.N], Section A.2.4.2.
+3.15
+Where the limiting criteria given in PD 6688-1-4 [Ref 2.N], Section A.2.4.2 cannot be satisfied by
+calculation using the estimates of critical wind speed given in PD 6688-1-4 [Ref 2.N], Section A.2.4.1
+and Section A.4.4, the provisions of PD 6688-1-4 [Ref 2.N], Section A.2.4.2 and Section A.4.4.2 shall
+be used.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 13 of 28
+======================================================================
+CD 363 Revision 0
+4. Partial load factors for aerodynamic design
+4.
+Partial load factors for aerodynamic design
+4.1
+The load combinations at ultimate limit state (ULS) and serviceability limit state (SLS) stated in CS 454
+[Ref 1.N] shall be modified for aerodynamic effects, as given in Tables 4.5 and 4.6.
+4.2
+When across-wind vibrations are predicted to occur due to vortex excitation, the corresponding global
+aerodynamic load effects in the bridge structure shall be calculated for the mode of vibration under
+consideration, using the maximum amplitude as obtained from Section 3.
+4.3
+When across-wind vibrations are predicted to occur due to vortex excitation, the along-wind load effects
+due to mean wind and turbulence shall be calculated, substituting vcrit,i for the mode of vibration under
+consideration as the mean wind speed vm(z) .
+4.4
+Load effects shall be multiplied by the partial load factor, γfL .
+4.5
+For wind loads derived in accordance with CS 454 [Ref 1.N] or turbulence response derived in
+accordance with Section 3, the partial load factor, γfL shall be taken from the Table 4.5:
+Table 4.5 Partial load factor
+Load combination
+ULS
+SLS
+Erection
+1.1
+1.0
+Dead load plus superimposed dead load only, and for members primarily resisting
+wind loads
+1.4
+1.0
+Appropriate combination 2 loads
+1.1
+1.0
+4.6
+For vortex shedding response derived in accordance with Section 3 and combined with any of the
+cases in Table 4.5, the partial load factor, γfL shall be taken from Table 4.6.
+Table 4.6 Partial load factor
+Load combination
+ULS
+SLS
+All
+1.2
+1.0
+4.7
+For relieving effects of the wind, γfL shall be taken as 1.0.
+4.8
+The factor γfL on permanent and live loads associated with all load combinations given in Table 4.5
+and Table 4.6 shall be as per combination 2 in Table A.1 of CS 454 [Ref 1.N].
+NOTE
+The values of γfL have been derived for the UK's synoptic wind climate.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 14 of 28
+======================================================================
+CD 363 Revision 0
+5. Fatigue damage
+5.
+Fatigue damage
+Fatigue damage requirements
+5.1
+All bridges which fail to satisfy the requirements of Section 3 shall be assessed for fatigue damage due
+to vortex excited vibration in addition to fatigue damage due to other load effects.
+Fatigue damage due to vortex excitation
+5.2
+An estimate of the cumulative fatigue damage due to vortex excitation shall be made in accordance
+with BS EN 1993-1-9 [Ref 5.N] by evaluating the stress range and number of cycles specified below, for
+each model in which vcrit,i is less than 1.25 vm(z) .
+NOTE
+vcrit,i is defined in Section 3, and vm(z) is defined in the NA to BS EN 1991-1-4 [Ref 7.N], Section
+NA.2.49.2 b).
+5.3
+The stress range σr shall be taken as 1.2 times the unfactored stress determined from the load effects
+derived in Section 3.
+5.4
+The effective number of cycles per year, n , shall be calculated from: n = 2500f.p.Cθ.Cs
+NOTE 1
+Cs takes account of the extent of the range of wind speeds over which oscillation can occur.
+NOTE 2
+Cθ is the relative frequency of occurrence of winds within ±10° of normal to the longitudinal centre line
+of the bridge in strong winds.
+NOTE 3
+f is the natural frequency of the given mode and is taken as nb for a bending mode or nt for a torsional
+mode.
+NOTE 4
+p , Cθ and Cs are given in Figures 5.7a, 5.7b and 5.7c respectively.
+NOTE 5
+p is the frequency of occurrence, in hours per year, of wind speeds within ±2½% of the critical wind
+speed, v′
+crit,i below irrespective of direction.
+5.5
+The critical wind speed for the estimation of fatigue damage, v′
+crit,i for all bridge types in PD 6688-1-4
+[Ref 2.N] Figure A.3, shall be increased to:
+1) v′
+crit,i = 6.5 for b*/d4 1.25;
+2) v′
+crit,i = (0.8 b*/d4 + 5.5) f.d4 for 1.25 ≤b*/d4 10;
+3) v′
+crit,i = 13.5 f.d4 for b*/d4 ≥10.
+5.6
+The definitions of b* and d4 shall be taken from Section 3 but noting that d4 is replaced by ϕ d4 for
+trusses with ϕ0.5 .
+5.7
+Alternatively, v′
+crit,i shall be assessed from wind tunnel tests.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 15 of 28
+======================================================================
+CD 363 Revision 0
+5. Fatigue damage
+Figure 5.7a Expected frequency of occurrence of critical wind speed (hours per
+annum of occurrence of speed within +/- 2.5% of critical value)
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 16 of 28
+======================================================================
+CD 363 Revision 0
+5. Fatigue damage
+Figure 5.7b Factor for orientation of bridge in plan
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 17 of 28
+======================================================================
+CD 363 Revision 0
+5. Fatigue damage
+Figure 5.7c Speed range factor
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 18 of 28
+======================================================================
+CD 363 Revision 0
+6. Wind tunnel testing
+6.
+Wind tunnel testing
+6.1
+Where wind tunnel testing is employed, PD 6688-1-4 [Ref 2.N], Section A.5 shall apply.
+NOTE
+Guidelines for wind tunnel testing are given in Appendix B.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 19 of 28
+======================================================================
+CD 363 Revision 0
+7. Proximity effects
+7.
+Proximity effects
+7.1
+Proximity effects shall be evaluated for twin deck configurations (and adjacent bridges).
+NOTE
+Guidance is given in Appendix A.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 20 of 28
+======================================================================
+CD 363 Revision 0
+8. Normative references
+8.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CS 454, 'Assessment of highway bridges and structures'
+Ref 2.N
+BSI. PD 6688-1-4, 'Background information to the National Annex to BS EN 1991-1-4
+and additional guidance'
+Ref 3.N
+BSI. BS EN 1991-1-4, 'Eurocode 1: Actions on structures. Part 1-4: General actions
+– Wind actions'
+Ref 4.N
+BSI. BS EN 1993-2, 'Eurocode 3. Design of steel structures Part 2: Steel bridges'
+Ref 5.N
+BSI. BS EN 1993-1-9, 'Eurocode 3. Design of steel structures. Fatigue.'
+Ref 6.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+BSI. NA to BS EN 1991-1-4, 'UK National Annex to Eurocode 1 - Actions on
+structures: Part 1-4: General actions - Wind actions'
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 21 of 28
+======================================================================
+CD 363 Revision 0
+9. Informative references
+9.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Transport Research Laboratory. Flint & Neill Partnership. TRL CR256, 'A re-appraisal
+of certain aspects of the design rules for bridge aerodynamics. TRL Contractor
+Report 256 (1992)'
+Ref 2.I
+Thomas Telford Limited. ICE 1981, 'Bridge aerodynamics. Proceedings of
+Conference at the Institution of Civil Engineers (1981)'
+Ref 3.I
+Transport Research Laboratory, Crowthorne. Flint & Neill Partnership. TRL CR36,
+'Partial safety factors for bridge aerodynamics and requirements for wind tunnel
+testing. TRL Contractor report 36'
+Ref 4.I
+Archived results: Library of Institution of Civil Engineers. Library of Institution of Civil
+Engineers. ICE Box Girders, 'Wind tunnel tests on box girders and plate girder
+bridges'
+Ref 5.I
+TRL. Flint & Neill Partnership in association with BMT Fluid Mechanics Limited and
+TRL (290/2/3/96, May 1996 ). TRL RR530, 'Wind tunnel tests on plate girder bridges
+(subsequently published as TRL report 530 in 2002)'
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 22 of 28
+======================================================================
+CD 363 Revision 0
+Appendix A. Guidance on proximity effects
+Appendix A. Guidance on proximity effects
+A1
+Introduction
+Most obstacles in the path of the wind contribute to the creation of turbulence, either directly by vortex
+shedding or indirectly through the build-up of the profile of mean wind speed with height which in turn
+provides more severe velocity differentials when the flow is further perturbed. The basic turbulence is
+the statistically steady (or developing slowly over a distance of many kilometres) summation of the
+effect of a broadly random scatter of such obstacles over a substantial region upwind of the reference
+point. Where there are identifiable outstanding obstacles, further specific allowance may be necessary.
+The turbulence generated by such identifiable objects decays on translation downwind into a more
+random structure comprising a widening range of gust sizes (or spectral frequencies), eventually being
+subsumed into the basic random 'background'. There is thus a range of potential effects. Where there
+are obstacles (topographic or man-made) that are large compared with the cross-section of the bridge,
+wind tunnel tests can be used to check on the consequences of any change in turbulence affecting the
+bridge.
+A parallel, or near-parallel, prismatic obstacle such as another bridge should be included in any wind
+tunnel tests. However, where the gap is small compared to the characteristic dimension of the 'vortex
+street' (say, less than the structure depth) the formation and shedding of vortices become strongly
+linked. Assessments for small and moderate separation are given below.
+A2
+Twin-deck configurations
+The term 'twin-deck bridge' is used here to describe a bridge with parallel decks each supported by the
+same structural form with equal structural depth, with a gap between the decks not exceeding one
+metre, and the deck edges bordering the gap (or each gap) not differing in level by more than 250 mm.
+The gap may be closed by an apron, or left open. The deck cross-falls may be in the same sense or
+reversed.
+A3
+Evaluation of parameters for vortex shedding
+For the evaluation of the critical wind speed for vortex excitation (see Section 3), the reference width b*
+should be determined according to PD 6688-1-4 [Ref 2.N] Figure A.4, applied to the overall
+cross-section ignoring the existence of the gap when the gap complies with the twin-deck configuration
+in A2 above. For all other provisions in this Appendix A, the evaluations should be based on the
+parameters for the upwind deck. Additionally, the prediction made of response amplitude ymax for
+vertical motion caused by vortex shedding (see Section 3) should be increased by a factor of 1.4 to
+conservatively allow for the interactive response of the twin-deck system.
+Where the gap exceeds G2 (see A4 below) each bridge deck may be treated separately with respect to
+vortex excitation. For gaps in the ranges of G1 to G2 (see A4 below), the estimate of the limiting
+response amplitude to vortex shedding, ymax , given in Section 3 should be doubled. For gaps between
+1m and G1 (see A4 below) for twin deck configurations and less than G1 (see A4 below) for all other
+configurations, the interactive vortex response of the dual system should be investigated.
+A4
+Other proximity effects
+The limiting value of P(z) as defined in NA to BS EN 1991-1-4 [Ref 7.N], Clause 2.49.2 should be
+halved if there is a parallel structure with a clear gap G such that G1 < G < G2 , where:
+G1 is the lesser of d′ or b′
+3 ; and
+G2 is the greater of 24d′ or 6b′
+in which d′ and b′ are the overall depth and breadth respectively of the neighbouring structure.
+Where the gap is less than G1 the parallel structures may be considered as a single structure for
+turbulence effects.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 23 of 28
+======================================================================
+CD 363 Revision 0
+Appendix A. Guidance on proximity effects
+Where the gap is greater than G2 , turbulence effects may be considered independently on each
+structure.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 24 of 28
+======================================================================
+CD 363 Revision 0
+Appendix B. Guidelines for wind tunnel testing
+Appendix B. Guidelines for wind tunnel testing
+B1
+Introduction
+This appendix provides some guidelines to assist the engineer who intends to make use of wind tunnel
+model testing. These guidelines should not be regarded as complete as testing techniques are
+continually being developed. Other publications should be referred to for more extensive details of the
+theory and practice of wind tunnel testing.
+In providing relatively comprehensive procedures it is recognised that sometimes it becomes necessary
+to relax modelling requirements in order to obtain practical information. It is important to stress the
+need for an awareness of the limitations of wind tunnel model tests in general with special caution in
+situations where partial or approximate models are used.
+There are three basic reasons for undertaking wind tunnel tests:
+1) to obtain static coefficients to be used in the basic static design checks for wind or for input to the
+analysis of turbulence response (see Section 3);
+2) to obtain coefficients for checks on vortex excitation effects or divergent amplitude effects (see
+Section 3). Such tests require dynamic models, and can also yield either direct estimation of
+turbulence response or 'derivative' coefficients which enable more sophisticated analysis of
+turbulence response to be carried out;
+3) to examine the influence of topography or other perturbations of the incident wind such as large
+structures or other obstacles nearby. A potentially important effect is inclination of the mean wind to
+the horizontal (quantity α in PD 6688-1-4 [Ref 2.N], Section A.5).
+Aeronautical wind tunnels (wind tunnels operating with laminar flow) are typically used for large scale
+models to accurately simulate the structure, deck furniture and highway or railway traffic. More
+accurate measurements of mean loads require a simulation of the turbulence characteristics of wind,
+but this requires a model whose scale is too small to be practicable. Smooth flow tests are thus
+generally acceptable for these measurements providing upper bound values to the coefficients when
+compared to those appropriate to the natural wind.
+Studies into the influence of topography or other perturbations of the incident wind require simulation of
+the salient properties of the wind. Wind tunnels designed to develop this type of flow are classified as
+boundary-layer wind tunnels (BLWT). The required small scale of the topography is such that a realistic
+model of the bridge itself is impracticable.
+Both types of wind tunnel use air at atmospheric pressure and operate in a low-speed range of 10-50
+m/s.
+Where relevant, proximity effects need to be considered and adjacent structures modelled (see
+Appendix A).
+B2
+Use of smooth flow (laminar) tests to determine time average coefficients
+Tests on sectional models of bridge decks can be used to determine the mean or static components of
+the overall wind load on the model. These wind loads can be obtained using rigid models with
+geometrically scaled features.
+Accurate measurements of both the mean and the dynamic components of the overall loads can only
+be obtained if both the approach flow and the local environment are properly simulated. For the scale
+of model bridge required, this becomes impracticable.
+Approaches towards evaluating overall wind loads include the spatial averaging of instantaneous
+pressures acting on the elements of the bridge structure and the direct measurement of such loads with
+force balances or transducers capable of providing accurate information on both their mean and
+time-varying components. Sections comprising circular section members or other curved surfaces are
+likely to be Reynolds number ( Re ) -sensitive and adjustments based on full-scale data and/or
+theoretical data may be used. Modelling adjustments are commonly needed for very small elements
+such as handrails to avoid local Re effects below about 500.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 25 of 28
+======================================================================
+CD 363 Revision 0
+Appendix B. Guidelines for wind tunnel testing
+The effect of wind inclination in elevation should be examined. The extent of the effect should be
+judged depending on the site topography, any planned super-elevation of the bridge and predicted
+torsional deflections under traffic loads. Generally tests up to ±5° are adequate.
+B3
+Section model tests to determine aerodynamic stability
+The primary objective of section model tests is to determine the aerodynamic stability of the bridge
+deck, mounted with deck furniture, using a geometrically scaled model of a section of the bridge
+elastically mounted in a wind tunnel. Typically, such models simulate the lowest bending and torsional
+vibration frequencies, and are tested in uniform laminar flow. The requirements of geometric scaling
+and Reynolds number limitations, outlined in B2, still apply. In more advanced or refined stages,
+section models are tested in simulated turbulent flow in order to provide estimates of the responses at
+sub-critical wind speeds. As the simulated turbulence generally has a preponderance of the
+smaller-size eddies most likely to influence flow features such as vortex-shedding or re-attachment, the
+total intensity of turbulence should be selected with care. Generally this should be significantly lower
+than the standard atmospheric value for full scale. Reliance on beneficial effects from turbulence
+should not be allowed to reduce the likely aerodynamic effects.
+In addition to modelling the geometry in accordance with B2, it is necessary to maintain a correct
+scaling of inertia forces, the time scale, the frequency, and the structural damping. The time scale is
+normally set indirectly by maintaining the equality of the model and full-scale reduced velocities of
+particular modes of vibration. The reduced velocity is the ratio of a reference wind speed and the
+product of a characteristic length and the relevant frequency of vibration. See vRg  and vRf in PD
+6688-1-4 [Ref 2.N], A.2.4.1 and A.4.4 for 'galloping' and 'flutter'. The numerical coefficient for vortex
+excitation in Section 3 is also derived from use of a similar ratio.
+Measurements should be carried out through the range of wind speeds likely to occur at the site to
+provide information on both relatively common events, influencing serviceability, and relatively rare
+events, which govern ultimate strength behaviour. Wind inclination in elevation should be examined.
+Measurements of vortex excitation require careful control of the wind speed around the critical velocity,
+and any predicted divergent amplitudes should be assessed to ensure they do not become so violent
+as to destroy the model.
+B4
+Aero-elastic simulations of bridges
+A dynamic model of the full bridge should be used in the wind tunnel, commonly referred to as an
+aero-elastic model, to provide information on the overall wind induced mean and/or dynamic loads and
+responses of bridges. Such models are particularly valuable for slender, flexible and dynamically
+sensitive structures, where dynamic response effects may be significant. To be representative the tests
+should consistently model the salient characteristics of natural wind at the site and the aerodynamically
+significant features of the bridge's geometry. It is also necessary to correctly model the stiffness, mass
+and damping properties of the structural system.
+It is only possible to model the full spectrum of atmospheric turbulence in a wind tunnel at small scale;
+together with the obvious constraint of fitting a full bridge model within the tunnel, this is generally
+irreconcilable with the scale desirable to ensure correct behaviour, which is commonly sensitive to
+small changes in cross-section. For this reason the primary study should be made by section model
+tests; where non-uniformity of section or of incident flow conditions, complex dynamics or erection
+considerations, necessitate the use of a full model, particular care is needed in its design and
+interpretation of the test results.
+As the modelling of dynamic properties requires the simulation of the inertia, stiffness and damping
+characteristics of only those modes of vibration which are susceptible to wind excitation, approximate
+or partial models of the structural system are often sufficiently accurate.
+B5
+Studies of the wind environment
+B5.1
+Topographic models
+Information on the characteristics of the full scale wind may not be available in situations of complex
+topography and/or terrain. Small scale topographic models, with scales in the range of 1:2000, can be
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 26 of 28
+======================================================================
+CD 363 Revision 0
+Appendix B. Guidelines for wind tunnel testing
+used in such situations to provide estimates of the subsequent modelling of the wind at a larger scale
+and are suitable for studying particular wind effects on the bridge.
+B5.2
+Local environment
+Nearby buildings, structures, and topographic features of significant relative size influence the local
+wind flow and hence should be allowed for in simulations of wind at particular locations. For bridges in
+urban settings this requires the scaled reproduction (usually in block outline form) of all major buildings
+and structures within about 500 to 800 m of the site. Also of particular importance is the inclusion of
+major nearby existing and projected buildings, which can lead to aerodynamic interference effects,
+even if they are outside this "proximity" model.
+Corrections are generally required if the blockage of the wind tunnel test section by the model and its
+immediate surroundings exceeds 5 to 10%. Typical geometric scales used in studies of overall wind
+effects or for local environment tests range between 1:300 to 1:600 approximately.
+B5.3
+Use of boundary layer wind tunnels (BLWT)
+A BLWT should be capable of developing flows representative of natural wind over different types of
+full-scale terrain. The most basic requirements are as follows:
+1) to model the vertical distribution of the mean wind speed and the intensity of the longitudinal
+turbulence; and,
+2) to reproduce the entire atmospheric boundary layer thickness, or the atmospheric surface layer
+thickness, and integral scale of the longitudinal turbulence component to approximately the same
+scale as that of the modelled topography.
+In some situations a more complete simulation including the detailed modelling of the intensity of the
+vertical components of turbulence becomes necessary.
+B6
+Instrumentation
+The instrumentation used in wind tunnel model tests of all aforementioned wind effects should be
+capable of providing adequate measures of the mean and, where necessary, the dynamic or time
+varying response over periods of time corresponding to about 1 hour in full scale. In the case of
+measurements of wind induced dynamic effects, overall wind loads and the response, the frequency
+response of the instrumentation system should be sufficiently high to permit meaningful measurements
+at all relevant frequencies, and avoid magnitude and phase distortions.
+All measurements should be free of significant acoustic effects, electrical noise, mechanical vibration
+and spurious pressure fluctuations, including fluctuations of the ambient pressure within the wind tunnel
+caused by the operation of the fan, opening of doors and the action of atmospheric wind. Where
+necessary, corrections should be made for temperature drift.
+Most current instrumentation systems are highly complex and include on-line data acquisition
+capabilities which in some situations are organised around a computer which also controls the test. It
+may be possible to provide useful information with more traditional techniques including smoke flow
+visualisation. Although difficult to perform in turbulent flow without proper photographic techniques, flow
+visualisation remains a valuable tool for evaluating the overall flow regime and, in some situations, on
+the potential presence of particular aerodynamic loading mechanisms.
+B7
+Quality assurance
+The reliability of all wind tunnel data should be established and should include considerations of both
+the accuracy of the overall simulation and the accuracy and hence the repeatability of the
+measurements. Checks should be devised where possible to assure the reliability of the results. These
+should include basic checking routines of the instrumentation including its calibration, the repeatability
+of particular measurements and, where possible, comparisons with similar data obtained by different
+methods. For example, mean overall force and/or aero-elastic measurements can be compared with
+the integration of mean local pressures.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 27 of 28
+======================================================================
+CD 363 Revision 0
+Appendix B. Guidelines for wind tunnel testing
+Ultimate comparisons and assurances of data quality can be made in situations where full-scale results
+are available. Such comparisons are not without difficulties as both the model and full-scale processes
+are stochastic. It is also valuable to make credibility crosschecks with the code requirements and
+previous experience.
+B8
+Interpretation of test data and prediction of full-scale behaviour
+The objective of all wind tunnel simulations is to provide direct or indirect information on wind effects
+during particular wind conditions.
+For time average effects this relates to the appropriate design wind speed either with or in the absence
+of traffic as appropriate. Dynamic response requires prediction of the full-scale wind speeds at which
+vertical and/or torsional vortex excitation occurs as well as the speed at which divergent response is
+likely to start.
+Particular care is required in relation to simulation and scaling such as, for example, with respect to
+wind speed, turbulence (intensity and length scales), frequency and damping (see B2, B3 and B5) as
+well as the bridge geometry and properties (see B4). The range of wind angles considered needs to
+take due account of the requirements in PD 6688-1-4 [Ref 2.N] Section A.5. Where measurements
+have been undertaken in turbulent flow (see B3 and B4), the intensity of turbulence and associated
+length scales need to be reported for both the reduced and full size intensities and length scales.
+B9
+Typical scales
+The following typical scales for the various types of wind tunnel tests are recommended:
+Table B.1 Recommended scales for different wind tunnel tests
+Type of test
+Typical scale
+Topographic models
+1:2000
+Local environment
+1:600 to 1:300
+Aero-elastic models
+1:200 to 1:100
+Section models (stability or time average coefficients)
+1:80 to 1:40
+Models of ancillaries
+>1:20
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
+
+======================================================================
+PAGE 28 of 28
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 363, published: Jan-2020
+
+
