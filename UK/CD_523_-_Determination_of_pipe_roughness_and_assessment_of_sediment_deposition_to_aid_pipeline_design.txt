@@ -1,0 +1,2174 @@
+======================================================================
+PAGE 1 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 523
+Determination of pipe roughness and
+assessment of sediment deposition to aid
+pipeline design
+(formerly HA 219/09)
+Version 1.1.0
+Summary
+This document sets out the optimum design of highway drainage pipelines, based on sediment
+transport, in terms of roughness coefficient and velocity. It provides an assessment of the
+volume of sediment deposition that can occur in proposed and existing pipelines.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 2 of 54
+======================================================================
+CD 523 Version 1.1.0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Mutual recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Symbols
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Sediment transport
+8
+Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Sediment load
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Sediment concentration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Methodology to assess sediment load . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Sediment transport . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3. Pipe roughness coefficients
+10
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4. Head loss in hydraulic design
+16
+5. Assessment of sediment deposition
+22
+6. Normative references
+23
+7. Informative references
+24
+Appendix A. Procedure to develop tables for the design of pipes in average and deteriorated condition
+25
+A1 Pipe roughness coefficient (k0):
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+A2 Composite pipe roughness kc:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+A3 Temperature value T and specific gravity: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+A4 Transport equation for deposited bed:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 3 of 54
+======================================================================
+CD 523 Version 1.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 523
+1.1.0
+November 2021
+Core document,
+England NAA
+Incremental change to
+requirements
+Minor modifications to improve clarity of meaning and intended use. Notably for composite roughness in section
+3, the original text was provided as an example but this was being misconstrued as a requirement. version 1.1.0
+addresses this.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 523
+1
+March 2020
+CD 523
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 4 of 54
+======================================================================
+CD 523 Version 1.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes HA 219/09, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 5 of 54
+======================================================================
+CD 523 Version 1.1.0
+Introduction
+Introduction
+Background
+This document examines the key parameters used in the hydraulic design of pipelines and provides
+further guidance in determining optimum design, based on sediment transport, in terms of roughness
+coefficient and velocity.
+The structural design of pipes for road drainage is described in CD 533: Determination of pipe and
+bedding combinations for highway drainage CD 533 [Ref 2.I].
+The introduction of sumpless gullies, see CD 527 [Ref 4.I], led to a change of drainage philosophy to
+reduce maintenance where practical and improve the quality of surface water run off from the
+carriageway. The elimination of the gully sump can lead to an improvement in water quality but can
+potentially increase the amount of sediment entering the drainage system. By improving the ability of
+the pipeline to transport sediment, there is scope to reduce the number or frequency of catchpits and to
+trap sediment at more centralised locations where it can be removed without recourse to the major
+traffic management associated with lane closures.
+In pipes with no sediment deposits, the pipe discharge capacity may be reduced by up to 4% due to
+increased energy losses caused by the movement of sediment along the pipe invert (see Construction
+Industry Research and Information Association (CIRIA) Report CIRIA R141 [Ref 1.I]).
+Sediment deposition in the pipe has a more pronounced impact resulting from the combination of
+reduced cross-sectional area and an increase in bed roughness. Where the depth of deposition
+represents a small proportion of the pipe diameter, then the in loss of discharge capacity is primarily
+due to the increased bed roughness.
+The sediment loads monitoring study Sediment Loads [Ref 3.I] confirmed that land use has a significant
+effect on the volume of sediment entering the drainage system, and that there is a marked difference in
+volume between rural and urban locations. However existing land use is a changeable factor, both in
+terms of time and distance along a road. During the life of a road, adjacent rural areas may easily
+change from being grazing grounds (grassland) to forested areas, for example. It is unwise to base the
+design of the drainage system on factors that cannot be controlled.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+Mutual recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard", or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause GG 101 [Ref 1.N].
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 6 of 54
+======================================================================
+CD 523 Version 1.1.0
+Symbols
+Symbols
+Symbol
+Definition
+D
+Pipe diameter (mm)
+d
+Sediment size (mm)
+dh
+Hydraulic diameter (m)
+d50
+Nominal sediment size (mm)
+K
+Non-dimensional loss coefficient
+kb
+Roughness coefficient of deposited bed (mm)
+kc
+Composite roughness coefficient (mm)
+kg
+Value of ks associated with particles deposited in sediment bed
+k0
+Roughness coefficient of pipe walls (mm)
+ks
+Colebrook-White equation roughness coefficient
+P0
+Length of pipe wall exposed to water
+R
+Hydraulic radius (flow area divided by the wetted perimeter)
+Re
+Reynolds number (dimensionless)
+s
+Specific gravity of sediment particles
+T
+Temperature
+u
+Velocity based on pipe cross section area (m/s)
+V
+Flow velocity (m/s)
+v
+Kinematic viscosity of the fluid (m2/s)
+vm
+Minimum flow velocity
+Wb
+Width of deposited bed (mm)
+y
+Depth of deposited bed (mm)
+λ
+Darcy Weisbach flow friction factor
+λb
+Sediment bed friction factor
+λc
+Composite friction factor
+λ0
+Pipe wall friction factor
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 7 of 54
+======================================================================
+CD 523 Version 1.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Darcy Weisbach
+An equation relating head loss due to friction to average flow velocity for
+an incompressible fluid
+Froude number
+The ratio between inertial and gravitational forces
+Head loss
+Loss of energy in the flow within a pipeline due to deviations from a
+straight line or obstructions
+Reynolds number
+The ratio between inertial and viscous forces
+Sediment load
+The amount of sediment accumulating on the paved surface and
+expressed in g/m2/annum.
+Sediment concentration
+The amount of sediment contained within the pipe flow expressed as mg/l
+Self-cleansing velocity
+The minimum velocity required to prevent sediment deposition in pipes
+Specific gravity
+The ratio between the weight of a substance and the weight of an equal
+volume of water at 4oC
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 8 of 54
+======================================================================
+CD 523 Version 1.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements contained in this document shall be applied to the design of piped drainage for use
+on motorway and all-purpose trunk roads.
+1.2
+The design shall determine the optimum design for sediment transport in terms of pipe roughness
+coefficient and velocity.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes for road drainage on the Overseeing
+Organisation's motorway and all-purpose trunk roads according to the implementation requirements of
+GG 101 [Ref 1.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 1.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 9 of 54
+======================================================================
+CD 523 Version 1.1.0
+2. Sediment transport
+2.
+Sediment transport
+Design
+Sediment load
+2.1
+Pipelines shall be designed to transport sediment.
+NOTE
+Urban roads, which have been found to create more sediment than rural roads, generate maximum
+values in the order of 200 g/m2 per annum, about 90 g/m2 per annum of which is retained in gully pots.
+See Sediment Loads [Ref 3.I].
+Sediment concentration
+2.2
+A value of sediment concentration shall be inserted into the assessment calculation based on evidence
+or the default value of 50 mg/l, referring to the note below.
+NOTE
+The value of sediment concentration obtained for rural roads corresponds approximately to the 'medium
+concentration' recommended in CIRIA R141 [Ref 1.I] for sewer design, that is 50 mg/l, whereas for
+urban roads it is approximately 115 mg/l, a value that is still well below the 'high concentration' value
+given in CIRIA R141 (200 mg/l). This indicates that sediment concentration levels in UK road drainage
+are comparable with the average values associated with other surface water sewers.
+Methodology to assess sediment load
+2.3
+The methodology adopted to assess sediment load shall use sediment sizes as surrogate parameters
+for the type of location factor, i.e. urban versus rural.
+NOTE
+Measurements of sediment loads at these two types of location showed that sediment from urban
+roads has an average sizes of 0.5 mm whereas sediment coming from rural surrounds tends to be
+larger, with an average size of 0.9 mm.
+2.4
+Sediment sizes of 0.5 mm for urban locations and 0.9 mm for rural locations shall be used in the
+calculation the sediment volumes.
+2.5
+Carrier pipes shall be designed to achieve 'self-cleansing' conditions that either prevent sediment from
+depositing or allow a certain amount of deposition, that is not detrimental, and produce a balance
+between the processes of deposition and erosion during a specified period.
+2.5.1
+A simplified approach given in CIRIA R141 [Ref 1.I] may be used which assumes a bed deposit equal
+to 2% of pipe diameter.
+Sediment transport
+2.6
+Highway drainage pipelines shall be designed to transport sediment.
+NOTE
+A thorough evaluation of the various sediment transport equations has been carried out and presented
+in CIRIA R141 [Ref 1.I] . This shows that the equation 2.6N, developed from data collected in pipes
+with diameters in the range 150 to 450 mm, gave prediction values that were closer to the six sets of
+laboratory data than most of the other equations and produced smaller standard deviations.
+Calculations using this equation involve two stages:
+1) the roughness of the sediment bed is first determined and then used to calculate the hydraulic
+resistance of the pipe;
+2) the sediment concentration is calculated from the known flow conditions. The resistance of the bed
+(which is composed of grain resistance and of form resistance caused by the development of dunes)
+was found to be dependent on the grain mobility factor and on the Froude number of the flow.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 10 of 54
+======================================================================
+CD 523 Version 1.1.0
+2. Sediment transport
+Equation 2.6N Minimum flow velocity
+vm =
+√
+(8kg)(s −1)d
+λ
+2.6.1
+To calculate the sediment transport capacity of the pipe, the particle Reynolds number should be
+determined using equation 2.6.1.
+Equation 2.6.1 Calculation of Reynolds number
+Re = udh
+v
+NOTE
+This equation has been adopted in the simplified guidance given in Part B of CIRIA R141 [Ref 1.I] . In
+effect, this equation requires the determination of a long set of parameters using iterative procedures
+which are only practical to carry out by means of a computer program. For details of the full equation
+and its associated parameters see CIRIA R141 [Ref 1.I]
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 11 of 54
+======================================================================
+CD 523 Version 1.1.0
+3. Pipe roughness coefficients
+3.
+Pipe roughness coefficients
+General
+3.1
+The hydraulic design of pipelines shall allow for a depth of deposited sediment equivalent to 2% of the
+pipe diameter.
+3.1.1
+The effect of the bed roughness should be accounted for in the design of pipelines to include the overall
+roughness of the pipe, or its composite roughness kc .
+NOTE
+The presence of sediment increases the roughness coefficient to a value above the one associated
+with the pipe material only, k0 .
+3.1.2
+The roughness coefficient of the sediment bed, kb, may be estimated using an equation (Equation
+3.1.2) developed from laboratory tests on pipe full flows:
+Equation 3.1.2 Roughness coefficient of the sediment bed
+kb = 5.62R0.61d0.39
+50
+NOTE
+Of the various methods used for calculating the composite roughness, the method deemed most
+reliable at the current time is that which uses the perimeter weighting of the Darcy-Weisbach friction
+factors for the bed and pipe walls. This takes into account the proportional weights of the two types of
+roughness and their hydraulic contribution to friction losses and is given as Equation 3.1.2N:
+Equation 3.1.2N Composite friction factor
+λc = λ0P0 + λbWb
+P0 + Wb
+3.1.3
+Where the composite friction factor λc is known, the composite roughness kc may be calculated from
+the simplified formula (Equation 3.1.3):
+Equation 3.1.3 Composite roughness
+kc = 3.7D
+[
+10−( 1
+4 λc)0.5]
+NOTE 1
+As an example, the values of composite roughness coefficient obtained for two different assumptions of
+pipe wall roughness can be found in Tables 3.1.3N2a and 3.1.3N2b.
+NOTE 2
+The two different assumptions of pipe wall roughness:
+1) the design condition k0 = 0.006 mm
+2) deteriorated condition due to pipe ageing and misalignment k0 = 2.1 mm.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 12 of 54
+======================================================================
+CD 523 Version 1.1.0
+3. Pipe roughness coefficients
+Table 3.1.3N2a : Values of composite roughness for design condition k₀ = 0.006mm
+d50 (mm)
+D (mm)
+y (mm)
+Wb (mm)
+kc (mm)
+0.5
+150
+3
+42
+0.4
+0.5
+200
+4
+56
+0.5
+0.5
+225
+4.5
+63
+0.5
+0.5
+250
+5
+70
+0.5
+0.5
+275
+5.5
+77
+0.5
+0.5
+300
+6
+84
+0.5
+0.5
+350
+7
+98
+0.5
+0.5
+375
+7.5
+105
+0.5
+0.5
+400
+8
+112
+0.5
+0.5
+450
+9
+126
+0.5
+0.5
+500
+10
+140
+0.5
+0.5
+525
+10.5
+14
+0.5
+0.5
+600
+12
+168
+0.5
+0.5
+675
+13.5
+189
+0.5
+0.5
+700
+14
+196
+0.5
+0.5
+750
+15
+210
+0.5
+0.5
+800
+16
+224
+0.5
+0.5
+825
+16.5
+231
+0.5
+0.5
+900
+18
+252
+0.5
+0.9
+150
+3
+42
+0.7
+0.9
+200
+4
+56
+0.7
+0.9
+225
+4.5
+63
+0.7
+0.9
+250
+5
+70
+0.7
+0.9
+275
+5.5
+77
+0.7
+0.9
+300
+6
+84
+0.7
+0.9
+350
+7
+98
+0.7
+0.9
+375
+7.5
+105
+0.7
+0.9
+400
+8
+112
+0.7
+0.9
+450
+9
+126
+0.7
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 13 of 54
+======================================================================
+CD 523 Version 1.1.0
+3. Pipe roughness coefficients
+Table 3.1.3N2a : Values of composite roughness for design condition k₀ = 0.006mm (continued)
+d50 (mm)
+D (mm)
+y (mm)
+Wb (mm)
+kc (mm)
+0.9
+500
+10
+140
+0.7
+0.9
+525
+10.5
+147
+0.7
+0.9
+600
+12
+168
+0.8
+0.9
+675
+13.5
+189
+0.8
+0.9
+700
+14
+196
+0.8
+0.9
+750
+15
+210
+0.8
+0.9
+800
+16
+224
+0.8
+0.9
+825
+16.5
+231
+0.8
+0.9
+900
+18
+252
+0.8
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 14 of 54
+======================================================================
+CD 523 Version 1.1.0
+3. Pipe roughness coefficients
+Table 3.1.3N2b : Values of composite roughness coefficient for deteriorating condition (ageing and misalignment) k₀ = 2.1mm
+d50 (mm)
+D (mm)
+y (mm)
+Wb (mm)
+kb (mm)
+kc (mm)
+0.5
+150
+3
+42
+39.1
+4.2
+0.5
+200
+4
+56
+46.6
+4.4
+0.5
+225
+4.5
+63
+50.1
+4.5
+0.5
+250
+5
+70
+53.4
+4.6
+0.5
+275
+5.5
+77
+56.6
+4.7
+0.5
+300
+6
+84
+59.7
+4.7
+0.5
+350
+7
+98
+65.5
+4.9
+0.5
+375
+7.5
+105
+68.4
+4.9
+0.5
+400
+8
+112
+71.1
+5.0
+0.5
+450
+9
+126
+76.4
+5.1
+0.5
+500
+10
+140
+81.5
+5.2
+0.5
+525
+10.5
+147
+83.9
+5.2
+0.5
+600
+12
+168
+91.1
+5.4
+0.5
+675
+13.5
+189
+97.8
+5.5
+0.5
+700
+14
+196
+100
+5.5
+0.5
+750
+15
+210
+104.3
+5.6
+0.5
+800
+16
+224
+108.5
+5.6
+0.5
+825
+16.5
+231
+110.6
+5.7
+0.5
+900
+18
+252
+116.6
+5.8
+0.9
+150
+3
+42
+49.2
+4.8
+0.9
+200
+4
+56
+58.6
+5.1
+0.9
+225
+4.5
+63
+63.0
+5.2
+0.9
+250
+5
+70
+67.1
+5.3
+0.9
+275
+5.5
+77
+71.1
+5.4
+0.9
+300
+6
+84
+75
+5.5
+0.9
+350
+7
+98
+82.4
+5.6
+0.9
+375
+7.5
+105
+86
+5.7
+0.9
+400
+8
+112
+89.4
+5.8
+0.9
+450
+9
+126
+96.1
+5.9
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 15 of 54
+======================================================================
+CD 523 Version 1.1.0
+3. Pipe roughness coefficients
+Table 3.1.3N2b : Values of composite roughness coefficient for deteriorating condition (ageing and misalignment) k₀ = 2.1mm (continued)
+d50 (mm)
+D (mm)
+y (mm)
+Wb (mm)
+kb (mm)
+kc (mm)
+0.9
+500
+10
+140
+102.5
+6.0
+0.9
+525
+10.5
+147
+105.6
+6.1
+0.9
+600
+12
+168
+114.5
+6.2
+0.9
+675
+13.5
+189
+123
+6.3
+0.9
+700
+14
+196
+125.8
+6.4
+0.9
+750
+15
+210
+131.2
+6.5
+0.9
+800
+16
+224
+136.5
+6.5
+0.9
+825
+16.5
+231
+139.1
+6.6
+0.9
+900
+18
+252
+146.6
+6.7
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 16 of 54
+======================================================================
+CD 523 Version 1.1.0
+3. Pipe roughness coefficients
+3.2
+For design of new pipework the roughness coefficients shall be kc 0.6 mm for carrier drains and kc 1.5
+mm for combined surface and sub-surface drains.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 17 of 54
+======================================================================
+CD 523 Version 1.1.0
+4. Head loss in hydraulic design
+4.
+Head loss in hydraulic design
+4.1
+The design of pipelines for highway drainage shall allow for the head losses in the pipeline.
+4.1.1
+The velocities required to maintain sediment transport and minimise deposition are a function of pipe
+gradient and should be expressed as either a minimum velocity or a minimum gradient.
+NOTE 1
+Minimum velocities have been determined on the assumption of continuous straight pipelines.
+However, as part of the design, changes in direction of the pipe are necessary and these result in a
+reduction in flow velocity or head loss.
+NOTE 2
+Loss of energy or head loss occurs wherever there is an impact on the flow within the pipe or channel.
+Local losses that occur in highway drainage systems can typically be associated with the presence of
+bends and junctions in pipes, entry to and exit from manholes/chambers/gully pots and exit at outfalls.
+NOTE 3
+Local losses are approximately proportional to the square of the flow velocity, V, and it is common
+practice to assign to them a non-dimensional loss coefficient K, which results from the division of the
+head loss by the velocity parameter V2/2g (kinematic head).
+Table 4.1.1N3 Values of K (loss conefficient)
+Inlet
+straight run
+0.50
+angled 90o
+1.50
+angled 60o
+1.25
+angled 45o
+1.10
+angled 22.5o
+0.70
+Manhole
+straight run
+0.15
+angled 90o
+1.00
+angled 60o
+0.85
+angled 45o
+0.75
+angled 22.5o
+0.45
+NOTE 4
+Tables 4.1.1N4a to 4.1.1N4d present the minimum velocities and associated pipe gradients for the
+various cases/conditions of straight pipe runs. The procedure followed in the production of these tables
+is contained in Appendix A.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 18 of 54
+======================================================================
+CD 523 Version 1.1.0
+4. Head loss in hydraulic design
+Table 4.1.1N4a Urban - Design conditions k₀ = 0.6mm
+Pipe diameter (mm)
+Minimum V (m/s)
+Slope
+150
+0.47
+1/304
+200
+0.52
+1/362
+225
+0.54
+1/387
+250
+0.56
+1/411
+275
+0.58
+1/433
+300
+0.60
+1/455
+350
+0.63
+1/496
+375
+0.65
+1/515
+400
+0.66
+1/534
+450
+0.69
+1/570
+500
+0.72
+1/603
+525
+0.73
+1/619
+600
+0.78
+1/640
+675
+0.84
+1/641
+700
+0.86
+1/640
+750
+0.90
+1/638
+800
+0.94
+1/635
+825
+0.96
+1/633
+900
+1.02
+1/625
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 19 of 54
+======================================================================
+CD 523 Version 1.1.0
+4. Head loss in hydraulic design
+Table 4.1.1N4b Rural - Design Conditions k₀ = 0.6mm
+Pipe diameter (mm)
+Minimum V (m/s)
+Slope
+150
+0.41
+1/363
+200
+0.44
+1/463
+225
+0.45
+1/511
+250
+0.46
+1/558
+275
+0.47
+1/603
+300
+0.48
+1/646
+350
+0.50
+1/730
+375
+0.51
+1/771
+400
+0.52
+1/810
+450
+0.53
+1/887
+500
+0.55
+1/961
+525
+0.56
+1/997
+600
+0.58
+1/1100
+675
+0.60
+1/1190
+700
+0.60
+1/1212
+750
+0.62
+1/1256
+800
+0.63
+1/1298
+825
+0.64
+1/1319
+900
+0.66
+1/1379
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 20 of 54
+======================================================================
+CD 523 Version 1.1.0
+4. Head loss in hydraulic design
+Table 4.1.1N4c Urban - Deteriorated conditions k₀ = 2.1mm
+Pipe diameter (mm)
+Minimum V (m/s)
+Slope
+150
+0.45
+1/256
+200
+0.50
+1/306
+225
+0.52
+1/328
+250
+0.54
+1/349
+275
+0.56
+1/369
+300
+0.58
+1/388
+350
+0.61
+1/424
+375
+0.63
+1/441
+400
+0.64
+1/457
+450
+0.67
+1/488
+500
+0.70
+1/518
+525
+0.71
+1/532
+600
+0.76
+1/550
+675
+0.82
+1/551
+700
+0.84
+1/551
+750
+0.88
+1/549
+800
+0.92
+1/546
+825
+0.94
+1/544
+900
+1.00
+1/537
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 21 of 54
+======================================================================
+CD 523 Version 1.1.0
+4. Head loss in hydraulic design
+Table 4.1.1N4d Rural - Deteriorated Conditons k₀ = 2.1mm
+Pipe diameter (mm)
+Minimum V (m/s)
+Slope
+150
+0.40
+1/304
+200
+0.43
+1/391
+225
+0.44
+1/433
+250
+0.45
+1/473
+275
+0.46
+1/512
+300
+0.47
+1/550
+350
+0.49
+1/623
+375
+0.50
+1/659
+400
+0.51
+1/694
+450
+0.52
+1/760
+500
+0.54
+1/825
+525
+0.54
+1/856
+600
+0.56
+1/947
+675
+0.59
+1/1025
+700
+0.59
+1/1045
+750
+0.61
+1/1083
+800
+0.62
+1/1120
+825
+0.63
+1/1138
+900
+0.65
+1/1190
+NOTE 5
+Data collected during the Sediment Loads Monitoring Study Sediment Loads [Ref 3.I] revealed that,
+within the various rural locations, there was a wide range of average sediment sizes depending on the
+land use of the surrounding areas. The maximum average sediment size measured corresponded to
+adjacent grassland and had d50 = 2.15 mm. Additional computer simulations were carried out to assess
+the effect of the larger sediment size on minimum velocities and pipe gradients and these are
+summarised in Table 4.1.1N5.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 22 of 54
+======================================================================
+CD 523 Version 1.1.0
+4. Head loss in hydraulic design
+Table 4.1.1N5 Rural - design conditions: d₅₀ = 2.15mm k₀ = 0.6mm
+Pipe Diameter (mm)
+Minimum V (m/s)
+Slope
+150
+0.41
+1/316
+200
+0.46
+1/363
+225
+0.49
+1/383
+250
+0.51
+1/402
+275
+0.53
+1/429
+300
+0.54
+1/461
+350
+0.56
+1/524
+375
+0.57
+1/554
+400
+0.58
+1/584
+450
+0.59
+1/641
+500
+0.61
+1/696
+525
+0.62
+1/723
+600
+0.64
+1/802
+675
+0.66
+1/876
+700
+0.66
+1/900
+750
+0.68
+1/947
+800
+0.69
+1/993
+825
+0.69
+1/1016
+900
+0.71
+1/1081
+NOTE 6
+When compared with similar conditions, but having smaller sediment size (see Table 4.1.1N4b), the
+larger sediment particle size necessitates higher minimum flow velocities and steeper pipe gradients.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 23 of 54
+======================================================================
+CD 523 Version 1.1.0
+5. Assessment of sediment deposition
+5.
+Assessment of sediment deposition
+5.1
+The requirements of the Overseeing Organisations shall be followed for predicting the volume of
+sediment that might enter the drainage system.
+NOTE
+For Overseeing Organisation specific requirements related to prediction of the volume of sediment that
+might enter the drainage system refer to the National Application Annexes.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 24 of 54
+======================================================================
+CD 523 Version 1.1.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 25 of 54
+======================================================================
+CD 523 Version 1.1.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+CIRIA. CIRIA R141, 'Design of sewers to control sediment problems'
+Ref 2.I
+Highways England. CD 533, 'Determination of pipe and bedding combinations for
+drainage works'
+Ref 3.I
+Atkins Ltd. Sediment Loads, 'Monitoring of Sediment Loads from High Speed Roads'
+Ref 4.I
+Highways England. CD 527, 'Sumpless gullies'
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 26 of 54
+======================================================================
+CD 523 Version 1.1.0
+Appendix A. Procedure to develop tables for the design of...
+Appendix A. Procedure to develop tables for the design of pipes in
+average and deteriorated condition
+A1
+Pipe roughness coefficient (k0):
+Determination of a suitable baseline value for the pipe roughness coefficient, k0, to be used in the
+design, and which is representative of any pipe material likely to be used in road drainage: Although a
+wide range of materials is available, a value of k0 = 0.6 mm is commonly used to represent the pipe
+roughness average conditions when new.
+Determination of a suitable value for the pipe roughness coefficient, k0, which is representative of the
+deteriorated pipe condition (ageing plus misalignment): The effect of ageing was taken into account by
+increasing the roughness coefficient to 1.5 mm and an additional increase of 0.6 mm for misalignment.
+This corresponds to a step of 14-18 mm at the pipe joint and raises the total value of the coefficient to
+2.1 mm.
+A2
+Composite pipe roughness kc:
+Sediment load and type of location (rural versus urban) was represented by using a sediment size of
+0.5 mm for urban roads and 0.9 mm for rural roads: The corresponding values of composite pipe
+roughness, kc, due to the presence of the sediment, were calculated for the range of pipe sizes typically
+available for use in road drainage (150 mm to 900 mm).
+A3
+Temperature value T and specific gravity:
+A suitable temperature value for the water needed to be stated as this affects the value of viscosity and
+friction losses in the pipes. A value of T = 15oC was adopted. Also an appropriate value for the specific
+gravity of the sediment needed to be determined. From the Sediment Loads Monitoring Report
+Sediment Loads [Ref 3.I], the average particle density was determined as being 2,220 kg/m3 for both
+rural and urban locations. A value of specific gravity of 2.22 was subsequently used in all simulations.
+A4
+Transport equation for deposited bed:
+Refer to equation 1 in Chapter 3 of CIRIA R141 [Ref 1.I] to obtain minimum flow velocities V and
+associated pipe gradients.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 27 of 54
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 28 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 523
+England National Application Annex to CD 523
+Determination of pipe roughness and
+assessment of sediment deposition to aid
+pipeline design
+(formerly HA 219/09)
+Version 1.0.1
+Summary
+This National Application Annex sets out the National Highways-specific requirements for
+estimating the volume of sediment that accumulates on the carriageway surface and potentially
+enters the drainage system.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 29 of 54
+======================================================================
+CD 523 Version 1.0.1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+E/1. Assessment of sediment deposition in pipes
+6
+E/2. Normative references
+7
+E/3. Informative references
+8
+Appendix E/A. Assessment of sediment deposition in pipes
+9
+E/A1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+E/A1.1 Sediment deposition in pipes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+E/A1.2 Sediment predictor spreadsheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Appendix E/B. Sediment prediction - worked examples
+12
+E/B1 Example 1 (an extreme case) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+E/B2 Example 2
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 30 of 54
+======================================================================
+CD 523 Version 1.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 523
+1.0.1
+November 2021
+England NAA
+Incremental change to
+advice
+Minor modifications to improve clarity of meaning and consistency.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 523
+1
+March 2020
+CD 523
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 31 of 54
+======================================================================
+CD 523 Version 1.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document presents the National Highways-specific requirements in relation to the assessment of
+sediment deposition within the context of DMRB document CD 523, and replaces any such reference to
+this subject in HA 219/09, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 32 of 54
+======================================================================
+CD 523 Version 1.0.1
+Introduction
+Introduction
+Background
+This National Application Annex gives the National Highways-specific requirements for determining the
+amount of sediment that may accumulate on the carriageway and be washed into the drainage system.
+The parameters in this document have been derived from site trials in England. The derived
+geographical factors are based on rainfall, soil type and general topography and hence only apply to
+England.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 33 of 54
+======================================================================
+CD 523 Version 1.0.1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+DDMS
+Drainage Data Management System
+Symbols
+Symbol
+Definition
+Bp
+Primary bed load
+Bs
+Specific bed load
+Bsg
+Gully retained sediment proportion
+Fg
+Geographical location
+Fl
+Land use
+Fp
+Profile
+Fr
+Road size
+τdeposition
+Critical stress for deposition
+τerosion
+Critical stress for erosion
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 34 of 54
+======================================================================
+CD 523 Version 1.0.1
+E/1. Assessment of sediment deposition in pipes
+E/1.
+Assessment of sediment deposition in pipes
+E/1.1
+The volume of sediment entering the drainage system shall be assessed.
+NOTE
+A method of assessing the sediment load in existing pipelines is provided in Appendix E/A and worked
+examples included in Appendix E/B.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 35 of 54
+======================================================================
+CD 523 Version 1.0.1
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+Highways England. MCHW Series 0500, 'Manual of Contract Documents for Highway
+Works, Volume 1 Specification for Highway Works. Series 500 Drainage and service
+ducts.'
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 36 of 54
+======================================================================
+CD 523 Version 1.0.1
+E/3. Informative references
+E/3.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Atkins Ltd. Sediment Loads, 'Monitoring of Sediment Loads from High Speed Roads'
+Ref 2.I
+National Highways. CD 532, 'Vegetated drainage systems for highway runoff'
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 37 of 54
+======================================================================
+CD 523 Version 1.0.1
+Appendix E/A. Assessment of sediment deposition in pipes
+Appendix E/A. Assessment of sediment deposition in pipes
+E/A1
+General
+The parameters below have been derived from site trials in England. The derived geographical factors
+are based on rainfall, soil type and general topography and hence only apply to England.
+E/A1.1
+Sediment deposition in pipes
+The volume of sediment deposited in the pipeline, the primary bed load (Bp), is the volume of sediment
+annually generated by an area of road and is taken to be 0.05 kg/m2 per annum according to the report
+"Monitoring of sediment loads from high speed roads" Sediment Loads [Ref 1.I].
+To determine the predicted sediment load for a section of road, the specific bed load (Bs), the primary
+bed load is multiplied by the sum of four weighted factors.
+These factors are:
+1) Land use (Fl);
+2) Geographical location (Fg);
+3) Road size (Fr); and
+4) Profile (Fp).
+A coefficient, or weighting, is then applied in the formula to represent the influence these factors have
+on sediment deposition.
+The figures are then inserted into the following equation (in kg/m2):
+Land uses and factors (Fl) are:
+1) Rural general (adjacent land has a mixture of uses): 1.0
+2) Rural grassland (adjacent land is predominantly covered with grassland): 0.9
+3) Rural arable (adjacent land is used for arable farming): 0.1
+4) Rural forested (adjacent land has a very high number of trees): 0.35
+A weighting of 50% is applied to the land-use factors.
+Geographical location and factors (Fg) are:
+1) South West: 1.0
+2) London, South and SE: 0.1
+3) East Anglia: 17.0
+4) Midlands: 4.2
+5) NE and Yorkshire: 6.2
+6) Lancs, Cumbria and NW: 1.5
+A weighting of 35% is applied to the geographical location factors.
+Road size and factors (Fr) are:
+1) 2-lane carriageway: 0.4
+2) 3-lane carriageway: 1.0
+3) 4-lane carriageway: 12
+A weighting of 10% is applied to the road size factors.
+Profile and factors (Fp) are:
+1) level: 56.0
+2) cutting: 1.0
+3) embankment: 1.2.
+A weighting of 5% is applied to profile factors.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 38 of 54
+======================================================================
+CD 523 Version 1.0.1
+Appendix E/A. Assessment of sediment deposition in pipes
+Equation E/A.1 Total site specific bed load
+Bs = Bp(Fl + Fg + Fr + Fp)
+To calculate the total site specific bed load, insert the weighted factors into the following equation (in
+kg/m2):
+Equation E/A.2 Weighted site specific bed load
+Bs = Bp[(0.5Fl) + (0.35Fg) + (0.1Fr) + (0.05Fp)]
+The proportion of the generated sediment that enters the gully (Bsg) has been measured as being 40%
+of the total sediment load, hence (in kg/m2):
+Equation E/A.3 Gully retained sediment proportion
+Bsg = 0.4Bs
+For sediment removal refer to MCHW Series 0500 [Ref 2.N] .
+This procedure provides an indication of the volume of sediment that may enter a section of pipeline.
+Refer to the sediment predictor spreadsheet and input the particular pipeline characteristics to
+determine whether or not sediment deposition is likely to occur. The result provides the basis for
+defining the appropriate cleaning frequency for the pipeline. Note this does not indicate that the
+pipeline needs replacing.
+E/A1.2
+Sediment predictor spreadsheet
+This spreadsheet contained in the drainage data management system (DDMS) offers a simple way to
+determine the likelihood of sedimentation in a piped network. It is based on a simple shear stress
+calculation, as bed shear stress has been found to be linked to the erosion and deposition of solids in
+pipes, each of which are initiated at critical shear stresses, which depend on the characteristics of the
+solids concerned.
+Note that this method is only applicable to circular pipes. It does not predict sedimentation in gullies.
+Bed shear stress is linked to velocity of flow. Erosion of existing sediment is initiated when the velocity
+rises and the bed shear stress exceeds the critical stress for erosion, τerosion . Similarly, sediment is
+deposited when the shear stress falls below the critical stress for deposition, τdeposition , at lower flows.
+In between the two, sediment remains in suspension. The spreadsheet compares bed shear at various
+depths of flow with the critical values to indicate susceptibility to erosion or deposition.
+This view is simplified, largely because it ignores whether there is sediment available to be deposited or
+eroded, and the capacity of the flow to transport solids. This, however, is the province of a detailed
+time-stepping model and is beyond a simple spreadsheet solution.
+The inputs needed are simple:
+1) pipe reference (text),
+2) pipe diameter (in mm),
+3) pipe roughness (equivalent sand roughness ks in mm),
+4) pipe gradient (decimal),
+5) sediment particle size (d50 in mm),
+6) sediment specific gravity (dimensionless).
+These can be input manually or copied from another source such as the output of a design model.
+Deposition and erosion factors are also needed. These factors are dimensionless. Default values are:
+γdeposition = 0.08;
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 39 of 54
+======================================================================
+CD 523 Version 1.0.1
+Appendix E/A. Assessment of sediment deposition in pipes
+γerosion = 0.28
+These factors are used to calculate the critical shear stresses, and can be varied to calibrate the
+spreadsheet in particular cases where the critical values are known from laboratory tests or other
+sources such as published literature for similar solids.
+The results are presented in 'traffic light' form. Detailed instructions are included in the spreadsheet.
+The spreadsheet should be used as part of a risk assessment. The first stage of this would be to
+identify whether the catchment is at risk of causing significant wash off of solids. If so, the
+representative particle size and specific gravity need to be determined, preferably using samples
+collected on site. If site-specific data are not available, a range of values should be used.
+The spreadsheet then identifies any pipe lengths that are susceptible to deposition. Where possible,
+these should be redesigned to eliminate the risk, generally by steepening the gradient. If this is
+impractical or excessively expensive, it may be worth commissioning a more detailed model to identify
+the risk and any improvements needed in greater detail.
+Should the potential for sediment deposition remain following redesign, then alternative methods of
+preventing or reducing the volume of sediment entering the pipeline need to be investigated. It may be
+that, in these circumstances, a pipeline is not the most appropriate drainage system.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 40 of 54
+======================================================================
+CD 523 Version 1.0.1
+Appendix E/B. Sediment prediction - worked examples
+Appendix E/B. Sediment prediction - worked examples
+Removal of sediment from the drainage system is a routine maintenance activity that needs to be
+programmed. Being able to assess the volume of sediment that may enter the drain at certain locations
+should assist in this programming. The volume of sediment entering the piped system can be
+estimated from the formulae in Appendix E/A.
+E/B1
+Example 1 (an extreme case)
+To estimate the volume for a 2.5 km section of 3-lane motorway constructed at grade through a rural
+arable site in Essex.
+The land use factor for rural arable is 0.1
+The geographical location factor for East Anglia is 17.0, the road size factor for a 3-lane carriageway is
+1.0 and the profile factor for a road at grade is 56.0.
+The appropriate weightings are applied to the factors and inserted into the equation.
+The total site specific bed load is calculated from:
+Bs = Bp(Fl + Fg + Fr + Fp) kg/m2
+Bs = 0.05 x([0.1x50%] + [17x35%] + [1x10%] + [56x5%]) kg/m2
+Bs = 0.445 kg/m2 per annum
+Paved area = 30.3m (29+paved c/r) x 2,500 m
+Sediment load = 0.445 x 30.3 x 2,500 kg/m2
+Sediment load = 33,931.25 kg
+or
+33.9 tonnes per annum
+or
+13.6 kg/m run or 13.6 tonne/km
+The proportion entering the gullies is 40%
+Bsg = 0.4 x Bs
+Bsg = 0.4 x 33.9 Tonnes
+Bsg = 13.56 Tonnes
+E/B2
+Example 2
+To estimate the volume of sediment generated for a 1.8 km section of 2-lane motorway on embankment
+through grassland in Shropshire.
+The land use factor for rural grassland is 0.9
+The geographical location factor for Shropshire is 4.2, the road size factor for a 2-lane motorway is 0.4
+and the profile factor for a road on embankment is 1.2.
+The appropriate weightings are applied to the factors and inserted into the equation.
+The total site specific bed load is calculated from:
+Bs = Bp(Fl + Fg + Fr + Fp) kg/m2
+Bs = 0.05 x([0.9x50%] + [4.2x35%] + [0.4x10%] + [1.2x5%]) kg/m2
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 41 of 54
+======================================================================
+CD 523 Version 1.0.1
+Appendix E/B. Sediment prediction - worked examples
+Bs = 0.101 kg/m2 per annum
+Paved area = 22.8m (21.5 + paved c/r) x 1,800m
+Sediment load = 0.101 x 22.8 x 1,800 kg/m2
+Sediment load = 4,145.04 kg
+or
+4.14 tonnes per annum
+or
+2.3 kg/m run or 2.3 tonnes per km
+The proportion entering the gullies is 40%
+Bsg = 0.4 x 4.14 tonnes = 1.66 tonnes
+This volume of sediment will either be deposited in the pipe system, or, if not intercepted by a
+vegetative treatment system, (see CD 532 [Ref 2.I]), enter the receiving water course.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 42 of 54
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 43 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 523
+Northern Ireland National Application Annex to
+CD 523 Determination of pipe roughness and
+assessment of sediment deposition to aid
+pipeline design
+(formerly HA 219/09)
+Revision 0
+Summary
+There are no specific requirements for Department for Infrastructure, Northern Ireland
+supplementary or alternative to those given in CD 523.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 44 of 54
+======================================================================
+CD 523 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 45 of 54
+======================================================================
+CD 523 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Jun 2019
+Department for Infrastructure, Northern Ireland National Application Annex to
+CD 523.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 46 of 54
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 47 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 523
+Scotland National Application Annex to CD
+523 Determination of pipe roughness and
+assessment of sediment deposition to aid
+pipeline design
+(formerly HA 219/09)
+Revision 0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CD 523.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 48 of 54
+======================================================================
+CD 523 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 49 of 54
+======================================================================
+CD 523 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Jun 2019
+Transport Scotland National Application Annex to CD 523.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 50 of 54
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 51 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 523
+Wales National Application Annex to CD 523
+Determination of pipe roughness and
+assessment of sediment deposition to aid
+pipeline design
+(formerly HA 219/09)
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 523.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 52 of 54
+======================================================================
+CD 523 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 53 of 54
+======================================================================
+CD 523 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Jun 2019
+Welsh Government National Application Annex to CD 523.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 54 of 54
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 523 Version 1.1.0, published: 29-Nov-2021
+
+
