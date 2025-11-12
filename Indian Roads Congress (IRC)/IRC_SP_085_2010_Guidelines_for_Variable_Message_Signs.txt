@@ -1,0 +1,2016 @@
+======================================================================
+SOURCE PDF: IRC_SP_085_2010_Guidelines_for_Variable_Message_Signs.pdf
+TOTAL PAGES: 44
+======================================================================
+
+
+======================================================================
+PAGE 1 of 44
+======================================================================
+IRC:SP:85-2010
+GUIDELINES FOR
+VARIABLE MESSAGE SIGNS
+INDIAN ROADS CONGRESS
+May 2010
+
+
+
+======================================================================
+PAGE 2 of 44
+======================================================================
+Digitized by the Internet Archive
+in 2014
+https://archive.org/details/govlawircy2010sp85
+
+
+
+======================================================================
+PAGE 3 of 44
+======================================================================
+IRC:SP:85-2010
+GUIDELINES
+FOR
+VARIABLE MESSAGE SIGNS
+Published by
+INDIAN ROADS CONGRESS
+Kama Koti Marg,
+Sector 6, R.K. Puram,
+New Delhi-110 022
+MAY 2010
+Price Rs 600/-
+(Packing and Postage charges extra)
+
+
+
+======================================================================
+PAGE 4 of 44
+======================================================================
+IRC:SP:85-2010
+First Published
+:
+IVlay, 2010
+(All Rights Reserved. No part of this publication shall be reproduced,
+translated or transmitted in any form or by any means without the
+permission of the Indian Roads Congress)
+Printed at India Offset Press, New Delhi-110 064
+(500 copies)
+
+
+
+======================================================================
+PAGE 5 of 44
+======================================================================
+IRC:SP:85"2010
+CONTENTS
+Page No.
+Personnel of the Highways Specifications and Standards Committees
+(i)
+1.
+Introduction
+1
+2.
+Scope
+3
+PART-A OPERATIONAL
+3.
+Principles
+3
+4.
+Purpose of VMS
+4
+5.
+When to Use a VMS
+5
+6.
+Message Content
+7
+7.
+Display
+11
+8.
+Variable Message Signs for Urban Areas
+12
+9.
+Portable VMS
+-
+12
+PART-B TECHNICAL
+10.
+Mechanical
+14
+11.
+Sign Equipment
+18
+12.
+Communication Interfaces
+21
+13.
+Surge Protection and Earthing
+22
+14.
+Datastorage
+22
+15.
+Data Communication
+"
+22
+1 6.
+Connectivity to Central Control Centre
+22
+17.
+Power Requirements
+23
+18.
+Design Life
+23
+19.
+Central Control Computer
+'
+23
+20.
+General Requirements
+24
+21.
+SpecificRequirementsof Portable VMS
+24
+22.
+Design of VMS
+25
+
+
+
+======================================================================
+PAGE 6 of 44
+======================================================================
+1RC:SP:85-2010
+
+
+
+======================================================================
+PAGE 7 of 44
+======================================================================
+ABBREVIATIONS
+CMS
+Changeable Message Sign
+DMS
+Dynamic Message Sign
+PSA
+Public Service Announcements
+LDR
+Light Dependent Resistor
+LED
+Light Emitting Diode
+UV
+Ultra Violet
+VMS
+Variable Message Sign
+ms
+Milli Seconds
+
+
+
+======================================================================
+PAGE 8 of 44
+======================================================================
+iRC:SP:85-2010
+
+
+
+======================================================================
+PAGE 9 of 44
+======================================================================
+IRC:SP:85-2010
+PERSONNEL OF HIGHWAYS SPECIFICATIONS & STANDARDS
+COMMITTEE (HSS)
+(As on 20*'^ October, 2009)
+1.
+Singh,
+Nirmal Jit
+(Convenor)
+2.
+Sinha,A.V.
+(Co-convenor)
+3.
+Kandasamy C.
+(Member-Secretary)
+Director General (RD) & Spl. Secretary, Ministry of
+Road Transport & Highways, New Delhi
+Addl. Director General, Ministry of Road
+Transport & Highways, New Delhi
+Chief Engineer
+( R) S&R, Ministry of Road
+Transport & Highways, New Delhi
+4.
+Dhodapkar, A.N.
+5.
+Datta, RK.
+6.
+Gupta K.K.
+7.
+Sinha, S.
+8.
+Kadiyali, Dr. L.R.
+9.
+Katare, RK.
+10.
+Jain, Dr. S.S.
+11.
+Reddy, K. Siva
+12.
+Basu, S.B.
+13.
+Bordoloi, A.C.
+14.
+Rathore, S.S.
+15.
+Pradhan, B.C.
+16.
+Prasad, D.N.
+17.
+Kumar, Ashok
+18.
+Kumar, Kamlesh
+19.
+Krishna,
+P.
+20.
+Patankar, V.L.
+Members
+Chief Engineer (Pig.), Ministry of Road Transport
+& Highways, New Delhi
+Executive Director, Consulting Engg. Services
+(I)
+Pvt. Ltd., New Delhi
+Chief Engineer (Retd.), Haryana, PWD
+Addl. Chief Transportation. Engineer, CIDCO, Navi Mumbai
+Chief Executive, L.R. Kadiyali & Associate, New Delhi
+Director
+(Projects-Ill),
+National
+Rural Roads Development
+Agency, (Ministry of Rural Development), New Delhi
+Professor & Coordinator, Centre of Transportation Engg., NT
+Roorkee
+E-in-C (R&B) Andhra Pradesh, Hyderabad
+Chief Engineer (Retd.), MORT&H, New Delhi
+Chief Engineer (NH) Assam, Guwahati
+Principal Secretary
+to the Govt,
+of Gujarat, R&B
+Deptt.
+Gandhinagar
+Chief Engineer (NH), Govt, of Orissa, Bhubaneshwar
+Chief Engineer (NH), RCD, Patna
+Chief Engineer,
+Ministry
+of Road Transport & Highways,
+New Delhi
+Chief Engineer,
+Ministry
+of Road Transport & Highways,
+New Delhi
+Chief Engineer (Retd), Ministry of Road Transport & Highways,
+New Delhi
+Chief Engineer,
+Ministry of
+Road Transport & Highways,
+New Delhi
+(\)
+
+
+
+======================================================================
+PAGE 10 of 44
+======================================================================
+IRC:SP:85-2010
+21
+.
+Kumar, Mahesh
+22.
+Bongirwar, P.L.
+23.
+Sinha,A.K.
+24.
+Sharma, S.C.
+25.
+Sharma, Dr. V.M.
+26.
+Gupta, D.P.
+27.
+Momin, S.S.
+28.
+Reddy, Dr. T.S.
+29.
+Shukia, R.S.
+30.
+Jain, R.K.
+31.
+Chandrasekhar, Dr. B.P.
+32.
+Singh, B.N.
+33.
+Nashkar, S.S.
+34.
+Raju, Dr. G.V.S.
+35.
+Alam, Parvez
+36.
+Gangopadhyay, Dr. S.
+37.
+Representative
+1.
+President, IRC
+2.
+Direcor General(RD) &
+Spl. Secretary
+3.
+Secretary General
+1.
+Justo, Dr. C.E.G.
+2.
+Khattar, M.D.
+3.
+Agarwal, M.K.
+4.
+Borge,V.B.
+Engineer-In-Chief, Haryana, PWD
+Advisor L&T, Mumbai
+Chief Engineer (NH), UP PWD, Lucknow
+DG(RD) & AS, MORT&H (Retd.), New Delhi
+Consultant, AIMIL, New Delhi
+DG(RD) & AS, MORT&H (Retd.), New Delhi
+Former Member, Maharashtra
+Public Service Commission,
+Mumbai
+Ex-Scientist, Central Road Research Institute, New Delhi
+Ex-Scientist, Central Road Research Institute, New Delhi
+Chief Engineer (Retd.) Haryana PWD, Sonepat
+Director (Tech.),
+National Rural Roads Development Agency
+(Ministry of Rural Development), New Delhi
+Chief Engineer,
+Ministry
+of Road Transport & Highways,
+New Delhi
+Chief Engineer (NH), PW(R),
+Kolkata
+Chief Engineer (R&B), Andhra Pradesh, Hyderabad
+Vice President, Hindustan Constn. Co. Ltd., Mumbai
+Director, Central Road Research Institute, New Delhi
+DGBR, Directorate General Border Roads, New Delhi
+Ex-Officio Members
+(Deshpande, D.B.) Advisor, Maharashtra Airport Development
+Authority, Mumbai
+(Singh, Nirmal Jit) Ministry of Road Transport & Highways,
+New Delhi
+(Indoria, R.P.) Indian Roads Congress, New Delhi
+Corresponding Members
+Emeritus Fellow, Bangalore Univ., Bangalore
+Consultant, Runwal Centre, Mumbai
+E-in-C(Retd), Haryana, PWD
+Secretary (Roads) (Retd.), Maharashtra PWD, Mumbai
+(ii)
+
+
+
+======================================================================
+PAGE 11 of 44
+======================================================================
+IRC:SP:85-2010
+GUIDELINES FOR
+VARIABLE MESSAGE SIGNS
+1.
+INTRODUCTION
+The purpose of these guidelines is to ensure that Variable Message Signs (VMS) messages
+are used to inform and direct motorists of variable situations
+in a consistent and orderly
+manner. The messages are for the purpose of traffic control, management and timely traveler
+information.
+It also has some basic requirements for design.
+As with other traffic control devices, legibility, credibility and reliability of the message are
+critical. Without these basic requirements, even the best message will go unheeded. Care
+must be taken not to display a message that the motorists will not understand, disregard or
+will discover to be incorrect. Signs are the primary channels of communication to the motorists.
+VMS
+is a valuable and effective traffic control device used to provide motorists en-route
+traveler information. The information is most often displayed in real-time and can be controlled
+either from a remote centralized location or locally at the site. VMS are designed to modify
+motorist behaviour to improve traffic flow and operations. Traveler information displayed on
+VMS may be generated as a result of a planned or unplanned event, which is programmed
+or scheduled by operations personnel. They are commonly installed on full-span overhead
+sign bridges, post-mounted on roadway shoulders, overhead cantilever structures and portable
+types mounted on trailers/ prime-mover.
+Examples of traveler information provided through VMS include:
+•
+Travel time between known destinations
+•
+Congestion conditions along a high-speed corridor
+•
+Construction site warning/information notices
+•
+Special event notice and motorist instructions
+•
+Maintenance operations schedule
+•
+Severe weather announcement
+•
+Incident or accident notification
+The objective of providing the information is to give travel directions and to enable the motorist
+adequate time to avoid an incident or prepare for unavoidable conditions. For all information
+displayed, the goal is to have a positive impact on the motorist's travel time.
+VMS comprise of continuous and discontinuous signs.
+•
+Continuous signs are similar to fixed signs, the only difference being that
+they can show various messages by some electromechanical means e.g.
+rotating prism signs, roller blinds, etc.
+
+
+
+======================================================================
+PAGE 12 of 44
+======================================================================
+IRC:SP:85-2009
+Discontinuous signs create messages using individual elements that can
+be in one of two states (or more) and can thereby create various messages
+on the same sign face. e.g. flip-disk signs, fiber optic signs, LED signs, etc.
+Most VMS used for dynamic traffic management are of the discontinuous type, and make
+use of light emitting techniques (fibre optic or LED signs).
+Generally, Variable Message Sign (VMS) systems form
+part of the Advanced
+Traffic
+Management System (ATMS), one of the major components of Intelligent Transport System
+(ITS). The Integrated ATMS software receives online data from Automatic Traffic Counter &
+Classifier (ATCC), Meteorological Sensors, Traffic Control System, CCTV, Video Incident
+Detection System (VIDS), Emergency Call Boxes (ECB), etc. After processing and analyzing
+the data, information can be automatically shared with the road users through VMS, Internet,
+SMS, FM, radio etc.
+However, Variable Message Sign systems can also be used independently for providing
+information to the road users effectively.
+In this case, the inputs to the VMS systems are
+using manual entry or pre-programmed messages through computers.
+This document was approved by the Transport Planning, Traffic Engineering and Road Safety
+Committee (H1
+) and Highways Specifications and Standards (HSS) Committee in their first
+meetings held on
+1 3 April, 2009 and 06 June, 2009 respectively and then
+it was sent to IRC
+Council
+in
+its 188th Mid Term Council Meeting held at Kodaikanal.
+IRC Council referred
+back the document to H-1 Committee for some modifications. Modified document duly
+incorporating the comments offered by the Council Members was approved by the H-1
+Committee in
+its third meeting held on 18 September, 2009. The modified draft document
+thereafter, placed before the HSS Committee during its second meeting held on 20 October,
+2009 and HSS Committee approved the same.
+Draft document was approved by the
+Executive Committee in
+its meeting held on 31 October, 2009 was placed before the IRC
+Council in its 189th Meeting held at Patna on 14 November, 2009 for consideration. Council
+approved the document subject to some modifications in the light of comments offered by
+the Council Members. The Composition of the H-1 Committee is as given below:
+Sharma,S.C.
+Gangopadhyay
+, Dr. S.
+Velmurugan, Dr. S.
+Convenor
+Co-Convenor
+Member-Secretary
+Members
+Basu,S.B.
+Bajpai, R.K.
+Chandra, Dr. Satish
+Gajria, Maj. Gen. K.T
+Gupta, D.P
+Gupta, Dr. Sanjay
+Kadiyali, Dr. L.R.
+Kandasamy, C.
+2
+
+
+
+======================================================================
+PAGE 13 of 44
+======================================================================
+IRC:SP:85-2010
+Kumar, Sudhir
+Sikdar, Dr. P.K.
+Mittal, Dr. (Mrs.) Nishi
+Singh, Nirmal Jit
+Pal, Ms. Nimisha
+Singh, Dr. (Ms.) Raj
+Palekar, R.C.
+Tiwari, Dr. (Ms.) Geetam
+Parida, Dr. M.
+Jt. Comm. of Delhi Police
+Raju, Dr. M.P
+(Traffic) (S.N. Srivastava)
+Ranganathan, Prof. N.
+Director (Tech.), NRRDA
+Singh, Pawan Kumar
+(Dr. B.P. Chandrasekhar)
+Rep. of E-in-C, NDMC
+Ex-Officio Members
+President, IRC
+(Deshpande, D.B.)
+Director General (RD) &
+(Singh, Nirmal Jit),
+Spl. Secretary, MORTH
+Secretary General, IRC
+(Indoria, R.P)
+Corresponding Members
+Bahadur, A.P
+Sarkar, J.R.
+Reddy, Dr. TS.
+Tare, Dr. (Mrs.) Vandana
+Rao, Prof. K.V. Krishna
+2. SCOPE
+This document covers guidelines for design of Variable Message Sign for highways and
+urban roads. The intent of this document is to implement Intelligent Transport System in highway
+operation through deployment of VMS Signs. The document covers purpose of using VMS,
+warrants for VMS, message content of VMS, VMS for urban areas, portable VMS and design
+ofVMS.
+The Guidelines are broadly categorized into (i) Operational and
+(ii) Technical.
+PART-A
+OPERATIONAL
+3.
+PRINCIPLES
+The guidelines set forth the basic principles governing the use and design of VMS signs,
+and the messages should meet the following requirements:
+a)
+Fulfill a need
+b)
+Command attention
+c)
+Convey a clear and simple meaning
+d)
+Command respect of road users
+3
+
+
+
+======================================================================
+PAGE 14 of 44
+======================================================================
+IRC:SP:85-2009
+e)
+Give adequate time for proper response
+f)
+Reliable and credible
+Each VMS message shall be displayed for a specific purpose, such as, those provided in
+these guidelines. VMS shall not be used for advertising or public service announcement,
+VMS messages posted for roadway conditions or restrictions should be removed immediately
+when those conditions cease to exist or the restrictions are withdrawn. Identical conditions
+should always be given the same VMS message irrespective of where the conditions occur.
+Some examples of VMS are given in Annex-A.
+The success of VMS depends upon the mechanism for collection and transmission of data
+on real time basis. Travel time between two destinations through a particular highway varies
+during different hours of the day. For display of this travel time, vehicle speed sensors need
+to be installed on the corridor. Also, there shall be a Control Centre where the data get
+assimilated, analyzed and distributed to the stake holders. Normally, input information to
+VMS are received in the Control Center from Emergency Call Boxes, Telephone/Mobile from
+road users/general
+public.
+Police, sensors
+like ATCC (Automatic Traffic Counter cum
+Classifiers), Meteorological System etc.
+4.
+PURPOSE OF VMS
+Variable Message Signs are used for the following purposes:
+4.1
+Control
+VMS can be used for lane and/or speed control purposes, and
+in most cases positioned
+over the
+traffic lanes
+e.g.
+lane change/closure/lane merge; speed
+funneling: speed
+harmonization, etc., by using speed indications.
+4.2
+Danger Warning Messages
+VMS can be used for following warning messages.
+•
+Road works ahead
+•
+Flooding/fog/rain/wind
+4.3
+Informative Messages
+Informative signs should use large text panels with two or three lines of text, sometimes
+accompanied by a pictogram. The picture/symbol will be more useful. For example Incident/
+accident, Congestion/queue, Road closers, useful traffic information, and also Link messages
+(in future) may be displayed for information to motorists.
+4
+
+
+
+======================================================================
+PAGE 15 of 44
+======================================================================
+IRC:SP:85-2010
+5. WHEN TO USE A VMS
+The various situations when VMS will be appropriate are detailed below:
+5.1
+Incidents
+5.1.1
+Accidents
+An incident with a minimum of blockage and with short time duration is not appropriate for a
+VMS warning. The situation will probably be cleared before the message is placed on the
+VMS.
+Incidents that block lanes for substantial periods of time are ideal for providing information
+to the traveling public. Messages near the incident can inform motorists of the problem and
+move cars into side lanes. Signs location further away from the incident can suggest alternate
+routes.
+5.1.2
+Traffic diversion
+Traffic
+is commonly diverted, such as when a road or pass
+is closed due
+to weather
+conditions, flooding, roadwork, major accident, and movement of oversized vehicles or
+movement of very important persons.
+5.1.3
+Incident management
+Regional, corridor-wise as well as project-wise incident management plans is to be developed
+to facilitate response to incidents and help mitigate traffic congestion. As directed by the
+Traffic and Safety Engineer/Project Manager, implementation of various levels of traffic
+management plans for incident management (i.e. use of pre-identified traffic detour routes)
+incorporate strategic use of VMS signs.
+5.1 .4
+Notice of roadwork and work zones
+This warns motorists of on going or upcoming construction activities that will impact traffic
+flow. This may include lane closures, lane
+shifts, two-way
+traffic, shoulder work, and
+construction, traffic entering the highway, detours, etc. This will supplement normal signs
+required for roadworks and as provided in IRC SP: 55.
+5.1.5
+Adverse weather and roadway conditions
+Messages will be used to display adverse weather or roadway conditions that may impact
+the drivers' visibility or safety. These conditions may include rains, flooding/water-logging,
+dust storms, snow, fog, falling rocks, mudslides, high winds, etc.
+5
+
+
+
+======================================================================
+PAGE 16 of 44
+======================================================================
+IRC:SP:85-2009
+5.1 .6
+Operation with lane control signals
+Typically used in the tunnels and on toll plazas, these signs have a red 'X' in the closed lane
+and a green arrow in the open lane.
+5.2
+Traveler Information
+Probable time to reach the destination, Climatic conditions, Emergency number, General
+cautionary information like flood. Strike, Curfew, etc, in the areas nearby.
+5.3
+Test Messages
+During initial VMS burn-in or during maintenance, test messages are a necessary function.
+These messages are for limited duration. But they are real messages with general purpose.
+5.4
+Special Events that Affect Traffic Flow
+These messages display information about future events that affect traffic flow and safety.
+The messages should be displayed within a week of the event. In urban areas these messages
+shall be used only on through routes and high-speed corridors. There may be times where
+static signs would be more appropriate to use.
+5.5
+Public Service Announcements
+In general. Public Service Announcements (PSA) may be displayed on a limited and short-
+term basis. The VMS should be used sparingly for the PSA so that the primary purpose and
+long-term efficacy of these signs will not be degraded. The PSA shall not be displayed in
+urban areas during the peak travel periods. Special event signing,
+notification of future
+roadway construction, are all forms of public service announcements while they are more for
+managing traffic, and have been addressed in previous sections.
+However, there are additional categories of PSA messages appropriate for VMS use. Most
+PSA messages will fall into one of these categories, though there may be others, such as,
+non-typical truck load
+restrictions,
+natural disaster notification, and evacuation
+route
+information that would be appropriate as a PSA. Under no circumstances shall the VMS be
+used for advertising of any kind. The PSA shall not be displayed prior to the approval of the
+concerned authorities.
+Messages related to driver safety campaigns will be allowed
+if other media is used, such as
+radio, TV, newspapers,
+billboards,
+etc. This
+is necessary since the message could be
+confusing to drivers
+if they have not been exposed to the information. In such cases the VMS
+should be used randomly, and sparingly. The total duration of display in these cases should
+not exceed two hours per day on any one-message board. The display times will be staggered,
+6
+
+
+
+======================================================================
+PAGE 17 of 44
+======================================================================
+IRC:SP:85-2010
+so the message will not appear at the same time each day, and care must be taken so the
+staggered times do not fall consecutively.
+AVMS will be in a blank mode during the peak and off-peak periods when traffic, roadway,
+environmental, or pavement conditions, or public service announcements do not warrant the
+display of a message, or messages.
+6.
+MESSAGE CONTENT
+Variable Message Signs do provide a versatile means of communication for attending to a
+variable situation. The message, however, must be concise and clear for the drivers to interpret
+at high speeds while they can have any number of distractions. This section will illustrate how
+to write and display the message to give brief, clear and accurate information to the motorists.
+Each VMS board must be capable of displaying alphanumeric characters in English, Hindi
+and local language. Pictorial signs already available for regular traffic signs can be useful as
+variable message sign.
+6.1
+Timing
+The reading time is the time
+it actually takes a driver to read a sign message. The exposure
+time is the length of time a driver is within the legible distance of the message. So the exposure
+time must always be equal to or greater than the reading time. Depending upon the speed of
+the drivers, the message length must be adjusted to ensure the reading time can fit into the
+exposure time.
+The aim should be to have minimum legibility of portable variable message signs at 300 m
+for expressway and 200 m for other roads. Table
+1 gives the time in seconds,
+it takes to
+travel 300 m at various speeds.
+Table
+1
+Time to Travel 300 m
+Speed (km/h)
+Time (Seconds) to Travel 300 m
+50
+21.6
+70
+15.4
+90
+12.0
+100
+10.8
+120
+9?0
+It is, however, recommended that the size and distance for clear legibility should be designed
+for at least
+1 5 seconds for NH and 20 seconds for access controlled expressways. Further
+more, the messages need to be displayed alternately in HINDI (or Local Language) and
+'ENGLISH'
+if not possible pictorially as well. The board having the facility to display minimum
+7
+
+
+
+======================================================================
+PAGE 18 of 44
+======================================================================
+IRC:SP:85-2009
+of 2 lines of 12 or 15 English characters, can have English display in 1st line and other
+language in 2nd line, at the same time as well.
+When the VMS displays a series of message, 2-4 seconds per message is recommended.
+The blinking feature may be used on one or more of the messages.
+It should, however, not be
+used for more than one line of each message.
+Table 2 shows the maximum number of message panels that can be displayed for each
+speed limit, provided there is at least 300 m of sight distance.
+Table 2 Maximum Number of Message Panels
+Speed Limit (km/h)
+Number of Message Panels
+70
+3 (see "Limit Panels" section)
+90
+3
+-do-
+100
+2
+-do-
+120
+2
+-do-
+If only one message is used, the sign may be at steady burn and the blinking feature may
+also be used for a single message. For example, the single message may also be ON for 2
+seconds and OFF for
+1 second.
+6.2
+Height of Lettering
+For 1 20 km/h according to the various standards the letter size should be minimum 400 mm
+for English Alphabet and 380 mm for any other local script excluding the vowel connotations
+(manufacturer at his choice may use full matrix instead of line matrix to fulfill vowel display
+requirement).
+6.3
+Limit Panels
+The limitations to the number of message panels to use are two fold:
+a)
+Motorists should be able to read the message twice while travelling at the
+posted speed.
+b)
+When more than two screens (panels) are used, the message and its order
+become confusing to the motorist. The message shall be kept to two panels,
+except as described below:
+1)
+The chain law, as three panels must be used to get all the pertinent
+information to the drivers as approved by the Traffic Engineer for safety
+or emergency reasons.
+8
+
+
+
+======================================================================
+PAGE 19 of 44
+======================================================================
+IRC:SP:85-2010
+2)
+Again, the average motorist at a high rate of speed can comprehend
+two message panels.
+If three panels are necessary, keep the confusion
+minimized. Each panel should be a complete phrase and each phrase
+should be independent of the other.
+If the motorist begins reading the
+message at the 2nd or 3rd panel, the total message should make
+sense.
+6.4
+Message Unit
+A sample list of VMS messages are given in Annex-B.
+In each message there are units of information. A unit is one separate piece of data that the
+driver can recall and use to make a decision. A unit normally is one or two words but can be
+up to four words long. For example, the following message has four units of information.
+What happened?
+ROAD CLOSED
+Where?
+AT EXIT XX TO DELHI
+Who is affected?
+ALL TRAFFIC
+What must they do?
+MUST USE ALTERNATE ROUTE
+Another example could be as follows:
+ACCIDENT 2 KM AHEAD
+2 km
+DRIVE CAREFULLY
+GO SLOW
+6.5
+Message Length
+The message-load for the above is 4 units, that is reaching the limit for an average person to
+understand while traveling at a high speed. The message length is the number of words or
+characters in the message. The average motorist traveling at a high rate of speed can handle
+8 word messages of 4 to 8 characters per word, (excluding prepositions). The number of
+panels or frames is another important variable in the construction of a clear message.
+9
+
+
+
+======================================================================
+PAGE 20 of 44
+======================================================================
+!RC:SP;85-2009
+6.6
+Message Familiarity
+Message familiarity is another aide for motorist's ability to understand a message. When
+information displayed
+to motorists
+is unusual, longer comprehension time
+is required.
+Common language is necessary.
+For message comprehension, the following are suggestions taken from research conducted
+by the developed countries concerning messages, drivers can comprehend the quickest:
+i)
+Drivers have difficulty corresponding calendar days to days of the week.
+ii)
+For example, "TUES - FRI" is preferred over "OCT
+1
+- OCT 4".
+iii)
+Drivers find the phrase "FOR
+1 WEEK" ambiguous.
+It is preferable to use
+"WED-TUES". Most drivers felt the term "WEEKEND" meant the work would
+begin Saturday morning and be complete by Sunday evening.
+It
+is
+recommended that times and days be used
+if the work begins on Friday and
+extends to Monday.
+iv)
+The highway or route numbers should display destination. The number alone
+can be confusing to both local and drivers from other areas.
+v)
+A unit of information may be displayed on more than one line on the VMS.
+6.7
+Message Sets
+Experience has shown there are three types of elements to use when messages fall under
+the categories of incidents and traveler information, as follows:
+6.7.1
+Advisory signs
+The advisory signs,
+display real-time information about highway status and advises
+concerning the best course of action. These will mostly be used for incidents. The advisory
+sign message should consist of the following:
+A problem statement (accident, road closure, construction, adverse weather, etc.)
+A location statement (details of location)
+An attention statement (addressing a certain group of audience)
+An action statement (what to do)
+The minimum information is the problem and action statements. The location of the problem
+is also sometimes useful in a diversion decision.
+10
+
+
+
+======================================================================
+PAGE 21 of 44
+======================================================================
+IRC:SP:85-2010
+ROAD WORK AHEAD < Problem Statement
+SLOW DOWN < Effect Statement
+HEAVY VEHICLES < Attention Statement
+MAY BE STOPPED < Action Statement
+6.7.2
+Guide signs
+Guide signs are necessary
+if the traffic must be diverted due to an incident or construction.
+The guide signs must provide destination information and route affirmation and direction.
+6.7.3
+Advance signs
+There are times to inform drivers of incidents that are further ahead of the current location.
+This up-to-date information has the following basic elements that can be communicated:
+Information alert
+Nature of information (best route, traffic conditions, etc)
+Destination for which information applies
+Location of the information (AHEAD or specific distance)
+If there is a diversion situation with known alternative routes available:
+Route markers of the major alternative routes.
+7.
+DISPLAY
+7.1
+Location of Equipment
+The location of the equipment shall be strategically placed to:
+a)
+Ensure maximum visibility for the road user from all the traffic lanes of the
+carriageway,
+b)
+Allow the road user sufficient time to read and comprehend the message
+and react.
+7.2
+Display Requirements
+The display background shall be non-reflective. There are 3 types of displays:
+a)
+Text only display, and these shall be displayed in two contrasting colours
+b)
+Graphics only display, this display must be able to produce colours and
+shapes according to the standard road traffic requirements
+11
+
+
+
+======================================================================
+PAGE 22 of 44
+======================================================================
+IRC:SP:85-2009
+c)
+Combination display,
+i.e. which combines the text and graphics units into
+one unit.
+7.3
+Language Requirements
+The system must be in three languages, able to display English, Hindi and Regional Language.
+8.
+VARIABLE MESSAGE SIGNS FOR URBAN AREAS
+8.1
+VMS are to provide the following information in urban areas:
+a)
+recurring congestion,
+b)
+non-recurrent congestion.
+c)
+weather-related problems,
+d)
+congestion due to special events,
+e)
+routes,
+f)
+speed restrictions
+g)
+Parking information and
+h)
+Other changing conditions or requirements
+8.2
+Equipment shall be placed off-shoulder (pole mounted) and clear of the traffic and
+any emergency lane and position shall be determined so that extraneous effects, such as,
+direct sunlight are negated. Lateral placement of VMS shall be guided by the provisions for
+fixed signs.
+9.
+PORTABLE VMS
+The above guidelines apply to
+all types of VMS, but because of its nature, the following
+additional guidelines are applicable to the portable VMS.
+9.1
+Location of Equipment
+The location of the equipment shall be strategically placed to:
+a)
+Ensure maximum visibility for the road user from all the traffic lanes of the
+carriageway.
+b)
+Allow the road user sufficient time to read and comprehend the message
+and react.
+12
+
+
+
+======================================================================
+PAGE 23 of 44
+======================================================================
+1RC:SP:85-2010
+Equipment shall be portable and will be installed on the vehicle (Crane/Trolley mount).
+9.2
+Display Requirements
+Text displays shall be capable of displaying 2 lines of text characters. There shall be a
+minimum of 1 0 characters per line. Minimum default character height shall be 300 mm. For
+variable font height, FONT generator module is to be provided wherein user can create bmp
+files and later convert to image file to preview and display on required VMS. The sign panel
+display shall be legible from a distance of at least 200 m.
+Each LED to be separately encapsulated in a round lens.
+9.3
+Placement
+The proper placement of a portable VMS
+is
+critical to
+its effectiveness. The placement
+requirement must give the motorist adequate time to react to the message. The VMS must
+be located prior to major decision points, such as intersections or interchanges, where the
+driver may change their travel plans. On National Highways, or other access-controlled
+freeways, placement 2 km prior to the interchange /exit
+is recommended, and must be
+repeated at every 500 m and also
+it must be placed 50 m prior to the point of decision.
+Placement requirements include:
+To provide 200 m of sight distance.
+•
+Signs, poles, or other objects should not obstruct the VMS.
+®
+On a level surface.
+•
+Not within an intersection or interchange.
+•
+Should not interfere with other traffic control devices.
+•
+Should not affect traffic flow in any way. (Means vehicle hosting VMS should
+be beyond safety distance limit from main carriageway.)
+If more than 2 VMS are to be used in sequence, they should be separated by at least 300 m.
+The sign should be placed off the shoulder of the roadway, behind the crash barrier,
+if possible,
+and where
+it will be accessible to maintenance vehicles even
+if the traffic queue develops or
+grows.
+To be comfortable to read, the VMS panel should be turned slightly towards the driver's view,
+at approximately 5 to
+1 0 degrees from perpendicular of the road's centerline. Reading the
+VMS becomes more difficult as the angle is increased from the normal field of vision.
+It is
+recommended to test check the VMS after installation by driving along the road to be sure
+that the message on the sign can be read from the road.
+13
+
+
+
+======================================================================
+PAGE 24 of 44
+======================================================================
+IRC:SP:85-2009
+If the portable VMS
+is set up along the roadway and a message will not be needed for a
+period of next 4 hours or more, the sign panel should be turned away from traffic, parallel to
+the road's centerline. No blank signs should be facing the drivers for extended periods.
+PART-B TECHNICAL
+10. MECHANICAL
+10.1
+General
+The sign part of the VMS system shall consist of a sign housing, optical systems, internal
+wiring, controller system and related equipment, terminal strips for interconnecting wire, etc.
+Any electronic or electrical device installed in the housing shall be mounted for easy access
+for maintenance personnel. The VMS System shall be modular in design so that
+it is not
+necessary for a technician to remove or replace discrete components in the field to analyze
+and/or correct a failure.
+10.2
+Weather-Tight Enclosure
+All front face windows and access doors shall be sealed or gasketed to prevent water, dirt
+and insects from entering the interior. Screened ventilation louvres and drains shall be included
+to eliminate moisture buildup due to condensation.
+10.3
+General Temperature Control
+VMS shall operate continuously within the temperature range of -34°C to +65°C. The transfer
+and absorption of heat due to solar radiation shall be minimized by the design of the housing
+and front face. This design also helps minimize the power consumption and maintenance
+needs and maximize the operability and longevity of the sign.
+The VMS controller shall monitor all the temperature and humidity sensors and perform the
+proper action when required. Temperature and humidity sensors shall be solid state. Heaters
+shall be used to control moisture and to prevent condensation (i.e. frost, snow, ice, etc) from
+accumulating on the front face.
+If the temperature reaches a specific threshold (+65°C),
+it should be automatically switched
+off for safety reasons.
+10.4
+Sign Face
+All front face panel surfaces not directly in front of a light emitting pixel shall be masked with
+a black material to reduce glare and increase the contrast ratio.
+All light emitting pixels shall
+14
+
+
+
+======================================================================
+PAGE 25 of 44
+======================================================================
+1RC:SP:85-2010
+be protected by the use of a polycarbonate face that shall prevent the entry of water, dust, dirt
+and insects. All pixels shall be designed in such a manner to eliminate reflective ghost effects
+from sunlight shining onto the front of the pixel. An aluminum mask shall be utilized in front of
+the polycarbonate window to shade the LED pixels from the sun.
+The housing shall prevent any light leaks or reflection from:
+®
+service lights or other internal lights shall not be visible from outside,
+®
+reflective surfaces
+®
+light leaks from behind the housing.
+The housing of the VMS must be based on modular design.
+10.5
+Contrast Shields (Border)
+The front of the sign housing shall be surrounded by an aluminum contrast shield to improve
+legibility. This shield shall be bolted to the sign or be an integral part of the sign housing and
+shall mate so that no light leaks occur.
+The contrast shield shall be covered by the same black protection as the front face. No
+difference in color shall be visible by the motorist between the front face and the contrast
+shield.
+10.6
+Housing
+The VMS housing shall be built to guarantee structural integrity and shall comply with the
+Standard Specifications for Structural Supports for Highway Signs, Luminaires, and Traffic
+Signals.
+The structural members of the VMS Sign Housing shall use an aluminum alloy. The housing
+must be made of aluminum extrusions that are welded or assembled together. The structural
+framing members shall be welded for a walk-in housing. Other sign access types that utilize
+extrusions as the structural members shall be bolted together using stainless steel and
+aluminum hardware.
+10.7
+Exterior Housing Finish
+To minimize heat build up, the back, top, bottom and sides shall have a maintenance free
+natural aluminum finish.
+15
+
+
+
+======================================================================
+PAGE 26 of 44
+======================================================================
+IRC:SP:85-2009
+10.8
+Tilting
+If necessary due to the road configuration, each VMS may as an option have the ability to
+adjust the tilt of the entire sign housing (and front face), from 0° to 10°, in one-degree minimum
+increments, to properly aim and orient the sign to the roadway.
+10.9
+VMS Access
+Any access panels shall be limited in size so they may be opened or closed by one person
+only and shall be gasketed and sealed to prevent the elements from entering (when closed)
+and shall include locks to prevent unauthorized access. Access panels shall be supported in
+their open position by multiple self-locking retaining devices that thoroughly support the panel
+assembly in the open position in 64 km/h wind.
+Several access are possible and should be defined on project basis.
+It is important to define
+the VMS access in accordance with the design of the supporting structure in order to insure
+that the mounting arrangement is adequate and possible.
+10.9.1
+Walk-in access
+The VMS enclosure provides a walk-in access. Walkways along the support structure shall
+be provided. Walk-in housings shall allow access to all components from within the sign.
+A non-skid aluminum floor shall be provided, so that a maintenance person can walk to either end
+of the interior with a constant minimum of 61 cm (24-inches) of aisle space to perform his duties.
+For the safety of motorists as well as maintenance teams, the following safety equipment
+shall be provided:
+A door handle shall be provided outside and inside the housing so that a person with no key
+or no tools cannot be trapped inside the housing.
+-
+Light Service:
+A minimum of one 60W fluorescent light every 2.40 m of housing shall be provided.
+Walk-In Access Door
+:
+The sign shall have one access door, which shall be rain, insect and dust-tight and shall open
+outward. A stop mechanism shall be provided to keep the door in the open (90°) position.
+When open, the door shall be sturdy enough to withstand wind gusts of 64 km/h and not be
+deformed. The door shall be equipped with a proper latching system. A door handle must be
+provided outside and inside the housing so that a person with no key or no tools cannot be
+trapped inside the housing.
+16
+
+
+
+======================================================================
+PAGE 27 of 44
+======================================================================
+1RC:SP:85-2010
+A door switch shall be provided and wired to the VMS controller so that the position of the
+door (open or closed) can be monitored.
+This information shall be transmitted to control
+center upon request.
+Walk-In Work Area
+:
+The dimension of a non-obstructed interior walkway must be a minimum of 61 cm wide and
+180 cm or 1.8 m high and the structural members shall not obstruct any movement of
+technicians inside the work area.
+The sign floor shall be designed to avoid water retention. A minimum of four drainage holes,
+designed to prevent the entry of insects and the accumulation of dirt and moisture, shall be
+provided.
+Walk-In Light Service:
+A minimum of one 60 W fluorescent light every 2.40 m of housing shall be provided. The light
+assembly shall be protected by a cage. A manual timer having a maximum ON time of two
+hours must control all lights and must be placed near the entry door so the light will automatically
+be switched off.
+It is noted that no maintenance can be done without internal light system as
+it will be impossible to see the electronic equipment.
+10.9.2
+Canopy Doors
+For signs greater than
+1 83 cm high, the access doors shall be hinged at the top and at some
+other intermediate point, so that when the access doors are in the open position, they shall
+create a temporary shelter that consists of a roof and partial rear wall.
+•
+When
+all of the doors are open, the canopy shall protect the electronic
+equipment and maintenance personnel from the elements. The gap between
+two adjacent doors shall be no larger than 3/4 Inch (19 mm).
+•
+Opening a canopy door shall allow maintenance personnel immediate access
+to circuit boards and internal sign parts, without having to remove any items
+in the sign, or the need to use any tools or to remove any device that could
+be dropped or lost, such as a locking pin or bolt.
+•
+The Manufacturer shall furnish any catwalks or framing members necessary
+to offset the back of the sign from the structure, to reach the sign from the
+roadside and to provide work space and door clearances. The Manufacturer
+must provide a solid floor (diamond etched catwalk) in locations over active
+traffic, to allow maintenance personnel to work over live traffic.
+17
+
+
+
+======================================================================
+PAGE 28 of 44
+======================================================================
+lRC:SP:85-2009
+10.9.3
+Mounting structure
+Mounting Structure shall use minimum 5.5 m high hexagonal/octagonal IViS pole (minimum
+300 mm diameter and 5 mm thickness) with minimum 520 mm x 520 mm x 16 mm base
+plate (with sufficient stiffeners).
+It shall be painted with one coat of primer and two coats of
+PU paint. Structure shall be provided with suitable stiffeners and support angles to survive
+wind speed upto 150 km/h.
+The minimum vertical clearance under the sign shall be 5.5 m to the road surface.
+11.
+SIGN EQUIPMENT
+The VMS Sign, the VMS controller, and any interface cabling between the sign and controller
+shall be considered as one closed system regardless of where the VMS controller is installed
+relative to the sign. The protocol and command set between the sign controller and VMS
+sign shall be entirely independent of and not interfere with any communication protocol or
+command set used to communicate to the control center or any remote devices such as a
+laptop or wireless system.
+11.1
+Wiring
+Terminations for the wiring between the VMS Sign and the VMS Controller cabinet shall be made
+on screw clamp terminal blocks located at one location within the VMS Sign Housing.
+11.2
+Display
+11.2.1
+LED pixel construction
+The VMS display board
+shall use high
+intensity
+light emitting diode (LED) to display
+alphanumeric messages. LEDs are grouped, mounted on a special holder or on a RGB to
+form a pixel. The number of LEDs per pixels is defined by the manufacturer to achieve the
+luminance requirements defined within this document. Each character is displayed by lighting
+up the relevant pixels.
+Pixel size can be
+1 5 to 22 mm as per design of manufacturer while
+pixel pitch (centre to centre distance of 2 adjacent pixels) should be 22 mm to 25 mm
+depending on pixel size and character sizes.
+11.2.2
+Brick construction
+Each character has a minimum height of 400 mm +/- 20 mm. English character in 7x5 (HxW)
+aspect ratio and thus character height has to be in multiple of 7x5 matched as per pixel pitch.
+14 pixels at Min. 22.5 mm pixel pitch gives 315 mm and 21 pixels gives 472 mm The spacing
+between 2 characters in the horizontal direction should be 2S and spacing between 2 lines
+is min 4S.
+18
+
+
+
+======================================================================
+PAGE 29 of 44
+======================================================================
+!RC:SP:85-2010
+S is derived as under,
+S =
+1 Stroke = 1/7(character height).
+11.2.3
+Display properties
+The optical system shall provide a uniform display across the sign, so that there is no visible
+difference in luminous intensity from any one pixel to another pixel, under any brightness
+level.
+The luminance intensity (also called luminosity) shall be measured at the front of the sign in
+its final position with any component that could impede or otherwise affect the light output
+(such as the front face, mask, and polycarbonate) in place.
+The VMS supplier shall submit a test certificate from an independent laboratory/Agency to
+certify that the luminance intensity is at least 1 2,000 cd/m^ under 40,000 Lux. The luminance
+intensity shall be measured at the front of the sign in its final position with any component that
+could impede or otherwise affect the
+light output (such as the front face, mask, and
+polycarbonate) in place.
+Luminous Intensity Uniformity
+The ratio between the brightest pixel and the less luminous pixel shall be less than 3:1 when
+measured at the front of the sign with all components in place.
+The board shall be designed for automatic adjustment of the display brightness (LED Intensity)
+to the ambient light based on Light dependent resistor (LDR).
+11.2.4
+Display ciiange time
+The display shall change from one page of text to another in less than
+1 00 ms. Changes
+from one message to another shall take place so that the motorist visualizes only the complete
+and intended message on the sign face, at any one time. No other message interpretations
+other than the intended message shall be possible during transitions from one message to
+another.
+All lines of text shall energize and de-energize simultaneously.
+11.3
+VIVIS Features
+VMS should have following features.
+a)
+Hardware capable of storing
+1 0 sets of messages and associated Software
+capable of sending
+1 0 sets of messages
+b)
+Emergency message over riding set of messages for a prescribed duration
+c)
+Temperature monitoring inside board and sending temperature information
+to associated software when asked for
+19
+
+
+
+======================================================================
+PAGE 30 of 44
+======================================================================
+IRC:SP:85-2009
+d)
+Serial port for connection to control room or local laptop
+e)
+Modular design for easy replacement without any soldering arrangement
+f)
+Diagnostics features in hardware as well as software for link or power failure,
+temperature monitor, defective display card
+g)
+If pictogram in red and white or yellow pixel combination are requested by
+the project, pictogram of suitable size as required for legibility distance
+recommended and hardware memory of storing at least 24 message signs
+as per IRC standards.
+LED Light System
+All LEDs used in a sign shall come from the same LED component manufacturer and shall
+be non-tinted, non-diffused, high intensity.
+%
+The minimum operating temperature range of the LEDs, as defined by the LED manufacturer,
+shall be -40°C to +85°C.
+11.4
+VMS Controller
+11.4.1
+Controller cabinet
+A cabinet shall protect all the electronic components and the controller. This cabinet shall be
+mounted on floor near the VMS or on the supporting pole.
+The cabinet shall be made of aluminum and shall comply with IP55 protection.
+The cabinet shall include the following:
+«
+Microprocessor based VMS Controller (CPU);
+®
+The main power supply and energy distribution system (main disconnect);
+•
+One work lamp to illuminate the work area, when the cabinet door is open;
+•
+Lightning protection and terminations for the communication
+and control
+cables;
+•
+Termination blocks for the control cables to and from the VMS sign housing;
+Permanently Mounted Document Holder
+A pullout shelf for the placement of a laptop computer, provided and stored within the cabinet.
+20
+
+
+
+======================================================================
+PAGE 31 of 44
+======================================================================
+!RC:SP:85-2010
+11.4.2
+Electronics
+The controller
+is the main
+intelligent unit of the VMS.
+It shall be 19-inch rack mounted
+microprocessor based VMS Controller (CPU).
+The VMS Controller shall be capable of full operations, without the need for an external modem
+or signal booster when the VMS Controller is located upto one kilometer from the sign.
+The controller shall be capable of receiving
+1 2V DC from a battery, in order to provide extended
+operation time in the event of a power failure. The controller shall be capable of charging the
+battery.
+The VMS Controller shall include a Central Processor Module having a battery backed clock
+calendar to record power failures and to perform all calculations and logical functions of the
+VMS Controller.
+One VMS Controller shall be capable of operating multiple VMS.
+The VMS Controller shall include one integrated Digital I/O board with 4 inputs and 4 outputs.
+Additional boards can be added external to the controller.
+The VMS Controller CPU shall be at least a 32-bit processor which operates at 400 MHz or
+greater.
+It shall have at least 20 MB of SRAM, and be capable of expanding its memory at
+least 16 MB more, via use of an industry standard "FLASH" memory card.
+VMS Controller shall have the ability to control a TFT color screen with keypad, for local
+diagnostics and control of the sign. Screen and keyboard shall be at the front of the controller.
+11.4.3
+Controller functions
+The VMS Controller shall continuously monitor the display of the sign, independent of any
+external commands, and shall cause the signs to display all the appropriate characters.
+The VMS Controller shall command the sign to display characters and messages by turning
+the LED's on and off.
+In addition,
+it shall accumulate data about the status of the sign (to be
+transmitted upon request), and shall receive commands from the Central Computer and
+Portable Maintenance Computer.
+12.
+COMMUNICATION
+INTERFACES
+Each VMS Controller shall be uniquely addressable from the Control Centre
+via the
+communication system for control and monitoring. The communication profiles that must be
+21
+
+
+
+======================================================================
+PAGE 32 of 44
+======================================================================
+IRC:SP:85-2009
+supported by the controller are:
+PMPP - NULL, PPP = NULL, Ethernet - UDP/IP, RS-232
+The VMS Controller shall be capable of comnnunicating using NTCIP or other equivalent
+international protocols.
+13. SURGE PROTECTION AND EARTHING
+The VMS electronics is protected against high voltage surges coming on the field cables, by
+using appropriate surge arresters. Suitable earthing (maximum 3 Ohms earthing resistance)
+is provided by using separate conductor for earth.
+14.
+DATA STORAGE
+Each individual VMS shall be able to store all the required data for displaying information
+locally. The equipment shall be capable of storing minimum 20 frames that can be triggered
+on receiving the command.
+15.
+DATA COMMUNICATION
+Data Communications may be through any of the links like Dedicated line, Leased line from
+the local service provider, GSM/CDMA = DATA channel, GSM/CDMA- SMS channel.
+Data communication shall be provided with sufficient security check to avoid unauthorised
+access.
+16.
+CONNECTIVITY TO CENTRAL CONTROL CENTRE
+a)
+Each VMS unit shall be provided with a unique Identification Number and
+shall communicate with designated Central Control Computer only. Sufficient
+security checks shall be implemented before accepting message for storage
+or display. VMS unit shall respond to command, generated by Central Control
+Computer, for Communication link diagnostics.
+b)
+VMS unit shall be able to accept messages created on Central Control
+Centre, using Graphical User Interface application. Messages shall be
+accepted either for storage or display.
+It shall display various message
+22
+
+
+
+======================================================================
+PAGE 33 of 44
+======================================================================
+IRC:SP:85-2010
+attributes like message blink, message blank, and message entry styles (Left,
+Top Bottom entry).
+c)
+VMS unit shall be able to send its health status to the Central Control Centre
+on query basis. This query shall be generated by Central Control Computer
+and transmitted to VMS unit. The Health status info shall include individual
+display matrix LED status, Controller status, etc. All this information shall be
+Time and Date stamped for proper MIS report generation.
+17. POWER REQUIREMENTS
+VMS shall be powered by 230 V AC, 50 Hz single phase power supply. The equipment
+components shall have adequate surge and lightning protection.
+In case of power failure. Inverter of adequate power capacity having 6 hours back up will be
+provided.
+18. DESIGN
+LIFE
+The minimum design life for the equipment before replacement shall be
+1 0 years.
+19. CENTRAL CONTROL COMPUTER
+The
+central
+control computer
+shall be capable
+of setting an
+individual VMS,
+or group of VMS, to display either one of the pre-set messages, or symbols, or a text message.
+In addition, the central control computer system shall be capable of being programmed
+to display an individual message on a VMS, or group of VMS, at a pre-set date and time.
+A sequence of a minimum of 1 0 messages/symbols per VMS shall be possible.
+The central control computer shall also store, in a suitable database, information about the
+messages displayed on each VMS. The minimum information to be stored shall be:
+a)
+The identification number of the VMS,
+b)
+The message/symbol content, or the standard message/symbol number,
+c)
+The start date and time at which the message/symbol was displayed, and
+d)
+The end date and time at which the message/symbol was displayed,
+The central control computer shall test each individual VMS on a regular (pre-set) basis.
+This test should be exhaustive and determine
+if the system is fully operational.
+23
+
+
+
+======================================================================
+PAGE 34 of 44
+======================================================================
+IRC:SP:85-2009
+20. GENERAL REQUIREMENTS
+a)
+HOUSING: Powder coated housing with ingress protection IP55 or other
+equivalent international standards for protection against dust, rain & wind.
+b)
+The structure on which the VMS
+will be mounted
+shall be sturdy and
+aesthetically designed and capable of bearing wind loads upto 200 km/h.
+c)
+PROTECTION AGAINST EMI :The electronic circuitry & wiring inside the
+VMS shall be protected against any kind of EMI interference.
+21.
+SPECIFIC REQUIREMENTS OF PORTABLE VMS
+21.1
+Ssgn Data Storage
+Each individual VMS shall be able to store all the required data for displaying information
+locally. The equipment shall be capable of storing minimum
+1 0 frames that can be triggered
+on receiving the command.
+21.2
+Equipment shall be portable and will be installed on the vehicle (Crane/Trolley
+mount).
+21.3
+Placement
+The proper placement of a portable VMS
+is
+critical to
+its effectiveness. The placement
+requirement must give the motorist adequate time to react to the message. The VMS must
+be located prior to major decision points, such as intersections or interchanges, where the
+driver may change their travel plans. On National Highways, or other access-controlled
+freeways, placement 2 kilometres prior to the interchange/exit is recommended, and must
+be repeated at every 500 m and also
+it must be placed 50 m prior to the point of decision.
+Placement requirements include:
+•
+To provide 200 m of sight distance.
+•
+Where signs, poles, or other objects will not obstruct the VMS.
+•
+On a level surface.
+•
+Not within an intersection or interchange.
+•
+Should not interfere with other traffic control devices.
+•
+Should not affect traffic flow in any way. (means vehicle hosting VMS should
+be beyond safety distance limit from main carriageway).
+24
+
+
+
+======================================================================
+PAGE 35 of 44
+======================================================================
+IRC:SP:85-2010
+If more than 2 VMS are to be used in sequence, they should be separated by at least 300 m.
+The sign should be placed off the shoulder of the roadway, behind the crash barrier,
+if possible,
+and where
+it will be accessible to maintenance vehicles even
+if the traffic queue develops or
+grows.
+To be comfortable to read, the VMS panel should be turned slightly towards the driver's view,
+at approximately 5 to
+1 0 degrees from perpendicular of the road's centerline. Reading the
+VMS becomes more difficult as the angle is increased from the normal field of vision.
+It is
+recommended to test check the VMS after installation by driving along the road
+to be sure
+that the message on the sign can be read from the road.
+If the portable VMS
+is set up along the roadway and a message will not be needed for a
+period of next 4 hours or more, the sign panel should be turned away from traffic, parallel to
+the road's centerline. No blank signs should be facing the drivers for extended periods.
+Line
+matrix signs should be capable
+of displaying two
+lines
+of text with
+either
+450 mm or 400 mm characters per line depending on whether they are deployed
+in an
+Expressway or National Highway. The overall luminous intensity is 9000 cd/ m^.
+22. DESIGN OF VMS
+The design of the system will be modular except for the housing
+22.1
+VMS Matrix Displays
+Messages are limited by the type of VMS used and its display space, configuration or matrix.
+There are three typical types of matrix displays: character, line, and full. In a character matrix
+a separate display space
+is made available for each
+letter of the text message and not
+recommended. A character matrix of 8 horizontal by 3 vertical has only 24 display spaces
+available. In a line matrix there is no physical separation between the characters in a single
+line of text. However, in a line matrix there still remains a separation between different lines
+of text. In a full matrix no physical separations exist between individual characters or lines in
+the message. A message can be shown at any size and location as long as
+it is within the
+display space. The exhibit below demonstrates the differences between the matrix types.
+Line and full matrix are recommended
+DDDDDDDD
+I
+I
+|
+DDDDDDDD
+i
+i
+DDDDDDDD
+|
+|
+I
+I
+|
+|
+I
+Character Matrix
+Line Matrix
+Full Matrix
+Variable Message Sign Matrix Displays-'
+25
+
+
+
+======================================================================
+PAGE 36 of 44
+======================================================================
+IRC:SP:85-2009
+Messages displayed on a VMS are done by using single or multiple-phases. A phase
+is
+defined as the limits of the display area available for text, bitmaps, or animation. Messages
+that require more information than can be shown on a single VMS display space may require
+the use of multiple phases. Multiple phases allow more than one message to be displayed at
+a location.
+22.2
+VMS Design Process
+The design process presented here demonstrates the steps needed
+for proper VMS
+deployment.
+It does not, however, take every possible variable
+into consideration. The
+designer must use proper judgment within each step for a successful deployment. Along
+urban streets VMS could be installed only on streets segments offering clear sight distance
+of at least 150 m in plain and rolling terrain. In hilly terrain, the distance for glance legibility
+shall be decided on the basis of design speed. Under no circumstances shall the front panel
+of such signs be used for any kind of advertising purpose.
+a)
+Collect preliminary data required for the proposed variable message sign
+deployment
+•
+Intended purpose of the VMS
+•
+Type of information to be displayed on VMS
+•
+Alternative route diversion points
+b)
+Determine VMS type
+•
+Intended purpose of the VMS
+•
+Type of information to be displayed on VMS
+•
+Type of VMS technology
+c)
+Determine corridor placement for VMS implementation
+•
+Alternative Route Diversion
+Points
+- The minimum distance an
+expressway VMS should be placed prior to an access point is
+1 .5 km.
+For NH
+it should be
+1 km.
+•
+Existing Horizontal Alignment Data-To ensure proper viewing of the
+VMS, message sites must be located on tangent roadway sections.
+•
+Existing Vertical Alignment Data - Ideal site locations along roadway
+segments within
+1 percent grade or less are desirable. VMS should
+not be placed along grades exceeding 4 percent.
+•
+Existing Sign and Traffic Control Inventory - Existing signs may need to
+be moved
+to accommodate proper VMS placement. On the
+26
+
+
+
+======================================================================
+PAGE 37 of 44
+======================================================================
+IRC:SP:85-2010
+expressways, the minimum distance between road signs and a VMS
+should be at least 250 m, and for NH
+1 50 m.
+•
+Location of source of power along roadway segment
+d)
+Collect site-specific data required for the proposed variable message sign
+location
+•
+Base mapping with local roadway network linked to the segment under
+review for the VMS
+•
+Existing roadway horizontal alignment
+•
+Roadway vertical alignment
+•
+Existing sign inventory
+®
+Location of source of power along roadway segment
+e)
+Select the VMS site required for design
+•
+VMS supports/location
+•
+VMS height requirements
+•
+Cabinet locating
+•
+Underground Infrastructure
+•
+Power requirements
+•
+Conduit routing
+•
+Safety consideration
+f)
+Determine cabinet placement for the VMS.
+g)
+Perform underground infrastructure
+h)
+Determine the communications medium used for the proposed location
+i)
+Revisit steps (d) through (h) until final design is complete
+27
+
+
+
+======================================================================
+PAGE 38 of 44
+======================================================================
+IRC:SP:85-2009
+AnneX"A
+{Clause 3)
+Photo 3 VMS for Parking Lots in Urban Areas
+Photo 4 VMS Displays Showing Availability of Spaces for Parking
+28
+
+
+
+======================================================================
+PAGE 39 of 44
+======================================================================
+IRC:SP:85-2010
+Annex-B
+{Clause 6.4)
+TYPICAL VMS MESSAGES
+CLOSURE
+REST AREA CLOSED
+RIGHT LANE CLOSED
+RIGHT LANE CLOSED AHEAD
+RIGHT SHOULDER CLOSED AHEAD
+ROAD CLOSED
+ROAD CLOSED
+KM AHEAD
+ROAD CLOSED AHEAD
+ROAD TEMPORARILY CLOSED
+TUNNEL CLOSED AHEAD
+CONSTRUCTION
+BRIDGE WORK AHEAD
+PAVING OPERATIONS AHEAD
+CONSTRUCTION AHEAD EXPECT DELAYS
+ROAD PAVING AHEAD
+CONSTRUCTION NEXT
+KM
+ROAD WORK AHEAD EXPECT DELAYS
+CRACK FILLING AHEAD
+ROAD WORK NEXT
+KM
+FRESH BITUMEN ON ROAD
+ROAD WORKERS AHEAD
+MEDIAN WORK AHEAD
+SHOULDER WORK AHEAD
+METAL PLATES AHEAD
+SLOW MOVING VEHICLE
+MOBILE PATCHING AHEAD
+'
+TRUCKS CROSSING
+MOWERS AHEAD
+WATCH FOR TRUCKS
+NIGHT WORK AHEAD
+WETPAINT
+PAINT CREW AHEAD
+WORKERS IN TUNNEL
+29
+ACCIDENT AHEAD ROAD CLOSED
+CENTER LANE CLOSED AHEAD
+EXIT CLOSED AHEAD
+FRONTAGE ROAD CLOSED
+LEFT LANE CLOSED
+LEFT LANE CLOSED AHEAD
+LEFT SHOULDER CLOSED AHEAD
+RAMP CLOSED
+RAMP CLOSED AHEAD
+
+
+
+======================================================================
+PAGE 40 of 44
+======================================================================
+IRC:SP:85-2009
+DIRECTION
+ACCIDENT AHEAD ALL TRAFFIC MUST
+EXIT
+ACCIDENT AHEAD BE PREPARED TO
+STOP
+ACCIDENT AHEAD EXPECT DELAYS
+ACCIDENT AHEAD MERGE LEFT
+ACCIDENT AHEAD MERGE RIGHT
+ALL RAMPS OPEN
+ALL TRAFFIC EXIT
+ALL TRAFFIC EXIT LEFT
+ALL TRAFFIC EXIT RIGHT
+ALL TRAFFIC MUST STOP
+BUMP AHEAD
+CHECK FUEL BEFORE ENTERING
+CONGESTED AREA AHEAD
+CURVE AHEAD
+DETOUR
+DO NOT PASS
+EXIT HERE
+EXPECT DELAY
+FORM ONE LANE LEFT
+FORM ONE LANE RIGHT
+FORM TWO LANES LEFT
+FORM TWO LANES RIGHT
+HEAVY TRAFFIC AHEAD
+HEAVY TRAFFIC TO MOUNTAINS
+KEEP LEFT
+KEEP RIGHT
+LANE CLOSURES AHEAD EXPECT
+DELAYS
+LANECONTROLAHEAD
+LANE ENDS
+LANE NARROWS AHEAD
+LANES MERGE AHEAD
+LEFT 2 LANES CLOSED
+LIMITED SIGHT DISTANCE
+LOOSE GRAVEL AHEAD
+LOOSE GRAVEL ON ROAD
+MAX SPEED
+KMPH
+MERGE AHEAD
+MERGE LEFT
+MERGE RIGHT
+MERGE RIGHT
+MERGE RIGHT
+MERGING TRAFFIC AHEAD
+MINIMUM SPEED
+KMPH
+NO PASSING
+NO PASSING
+NO SHOULDER
+NO WIDE LOADS
+ONE LANE BRIDGE AHEAD
+ONE LANE TRAFFIC
+30
+
+
+
+======================================================================
+PAGE 41 of 44
+======================================================================
+PASS LEFT
+PASS RIGHT
+PAVEMENT ENDS
+PEDESTRIAN CROSSING
+PILOT CAR AHEAD
+PREPARE TO MERGE
+RIGHT LEFT 2 LANES CLOSED
+ROAD NARROWS AHEAD
+ROCKS ON ROAD
+ROUGH ROAD AHEAD
+SHARP CURVE AHEAD
+SHOULDER DROP OFF
+SHOULDER DROP OFF AHEAD
+SIGNALAHEAD
+SIGNAL NOT WORKING
+SINGLE LANE AHEAD
+SLOW TRAFFIC
+IRC:SP:85-2010
+SOFT SHOULDER AHEAD
+SPEED LIMIT STRICTLY ENFORCED
+STAY IN LANE
+STEEP GRADE
+STOP AHEAD
+TWO LANE TRAFFIC AHEAD
+TWO-WAY TRAFFIC
+UNEVEN PAVEMENT AHEAD
+UNMARKED LANES AHEAD
+USE DETOUR
+USE DETOUR ROUTE
+USE LEFT LANE
+USE RIGHT LANE
+VEHICLES CROSSING
+ROCKS ON ROAD
+WATCH FOR STOPPED TRAFFIC
+YIELD
+YIELD AHEAD
+FIRE
+EXTREME FIRE DANGER
+TRUCKS
+BRIDGE WEIGHT LIMIT AHEAD
+RUNAWAY TRUCK RAMP OCCUPIED
+LOW BRIDGE AHEAD
+^
+TRUCKS USE LEFT LANE
+LOWER RUNAWAYTRUCK RAMP OCCUPIED
+TRUCKS USE LOW GEAR
+RUNAWAY TRUCK RAMP
+TRUCKS USE RIGHT LANE
+RUNAWAY TRUCK RAMP CLOSED
+LANES SHIFT AHEAD
+31
+
+
+
+======================================================================
+PAGE 42 of 44
+======================================================================
+IRC;SP:85-2009
+W
+ADVERSE CONDITIONS AHEAD
+DENSE FOG AHEAD
+FLOODED ROAD AHEAD
+FOG AND ICY CONDITIONS MAY EXIST
+FOGGY CONDITIONS MAY EXIST
+GUSTY WINDS AHEAD
+HEAVY FOG AHEAD
+HIGH WIND ADVISORY
+HIGH WIND RESTRICTION
+HIGH WIND RESTRICTION HIGH PROFILE
+VEHICLES MAY BE STOPPED
+POOR VISIBILITY AHEAD
+REDUCED VISIBILITY AHEAD
+WATER ON ROAD
+32
+
+
+
+======================================================================
+PAGE 44 of 44
+======================================================================
+(The Official amendments to this document would be published by
+the IRC in its periodical, 'Indian Highways' which shall be
+considered as effective and as part of the code/guidelines/manual,
+etc. from the date specified therein)
+
+
