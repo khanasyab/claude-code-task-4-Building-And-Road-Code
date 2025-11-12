@@ -1,0 +1,1341 @@
+======================================================================
+PAGE 1 of 41
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 121
+Ramp metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+This document contains appraisal requirements for ramp metering.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 2 of 41
+======================================================================
+TA 121 Version 0.0.2
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Ramp metering appraisal
+8
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Criteria for provision of ramp metering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Existing ramp metering sites and new main carriageway interventions . . . . . . . . . . . . . . . . . . . . .
+9
+3. Normative references
+11
+Appendix A. Integrated traffic management
+12
+A1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+A2 Benefits of ITM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+A3 Criteria for the selection of ITM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+A3.1 Basic criteria
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+A3.2 Irregular causes of congestion
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A3.3 Liaison between authorities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A4 The ITM interface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A4.1 Local link connection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A4.2 Centralised instation connection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A5 ITM control strategy
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 3 of 41
+======================================================================
+TA 121 Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121
+0.0.2
+October 2024
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121
+0.0.1
+September 2024
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+notes and editorial
+updates
+TA 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 4 of 41
+======================================================================
+TA 121 Version 0.0.2
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes IAN 103/08 and IAN 121/09, which are withdrawn.
+This document contains relevant information from MCH 2470 and MCH 2471.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 5 of 41
+======================================================================
+TA 121 Version 0.0.2
+Introduction
+Introduction
+Background
+Ramp metering is a traffic management technique which manages the number of vehicles joining a
+main carriageway at peak periods. The purpose of ramp metering is to prevent or delay the onset of
+flow breakdown on the main carriageway and assist with its recovery.
+Ramp metering systems use part-time traffic signals on the slip road which come into operation when
+traffic sensors on the main carriageway indicate heavy traffic. The detectors on the main carriageway
+along with queue detectors on the slip road enable the system to determine the required flows from the
+slip to keep the main carriageway flowing close to critical occupancy.
+A successful design of a ramp metering site relies on knowledge and understanding of motorway
+communication devices and design, traffic flows, motorway traffic behaviours and ramp metering
+control algorithms.
+Ramp metering systems aim to control the flow of vehicles joining the motorway and all-purpose trunk
+road network and are recognised as being fundamentally different to traditional traffic signalling
+systems which manage vehicle conflicts and provide safety functionality.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 6 of 41
+======================================================================
+TA 121 Version 0.0.2
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+CLF
+Cableless linking facility
+ITM
+Integrated traffic management
+MIDAS
+Motorway incident detection and automatic signalling
+MOVA
+Microprocessor optimised vehicle actuation
+SCOOT
+Split cycle offset optimised technique
+veh/lane/hr
+Vehicles per lane per hour
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 7 of 41
+======================================================================
+TA 121 Version 0.0.2
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Critical occupancy
+The downstream main carriageway occupancy at which the
+maximum downstream traffic flow rate is achieved.
+Downstream
+That part of the carriageway(s) where the traffic is flowing away from
+the section in question.
+Integrated traffic
+management
+An interface between the ramp metering system and one or more
+third party systems which provides additional system functionality
+and control.
+Local scheme
+Improvement project undertaken in the vicinity of a ramp metering
+site with potential to affect traffic characteristics.
+Main carriageway
+The section of road network which vehicles will join or leave via
+junction merges and diverges.
+Physical characteristics
+The alignment and topology of a ramp metering site.
+NOTE: This includes the number of traffic lanes and gradients on slip
+roads and the main carriageway, the location of infrastructure, etc.
+Queue detector
+Traffic detector (multiple) used to indicate the length of a queue. The
+queue detectors are located between the presence detector and
+queue override detector.
+Ramp metering
+A traffic management technique which manages the number of
+vehicles joining a main carriageway in peak hour periods in response
+to current traffic conditions.
+Ramp metering site
+The slip road, main carriageway and equipment necessary to
+operate a ramp metering system.
+Stop line
+The solid white line which is located adjacent to the ramp metering
+signals and crosses the entry slip road.
+Traffic characteristics
+The speeds, flows, occupancy, congestion seed points and general
+behaviours of traffic in the vicinity of a ramp metering site.
+Upstream
+That part of the carriageway(s) where traffic is flowing towards the
+section in question.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 8 of 41
+======================================================================
+TA 121 Version 0.0.2
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for identifying suitable locations that are likely to benefit from the
+implementation of ramp metering.
+1.2
+This document outlines the ramp metering appraisal requirements that shall be implemented on all new
+or modified ramp metering sites.
+1.3
+The potential for the implementation of integrated traffic management (ITM) shall be assessed using
+the information in Appendix A as guidance.
+NOTE
+Overseeing Organisation-specific requirements related to the treatment of existing ramp metering sites
+can be found in the National Application Annexes.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving ramp metering on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 1.N].
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 1.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 9 of 41
+======================================================================
+TA 121 Version 0.0.2
+2. Ramp metering appraisal
+2.
+Ramp metering appraisal
+General
+2.1
+For recurrent congestion problems caused either by the merge or the main carriageway traffic
+characteristics, the site shall be assessed to determine whether it is suitable for ramp metering using
+the following approach:
+1)
+assess the traffic characteristics at the site; and,
+2)
+assess the suitability of the entry slip road geometry.
+NOTE 1
+Specific examples of traffic characteristics where ramp metering has been found to be particularly
+effective are:
+1)
+merging traffic from entry slip road disrupting main carriageway traffic flow;
+2)
+weaving traffic as a result of closely located merge and diverge of adjacent junctions;
+3)
+entry slip roads fed by signalised junctions on the adjoining network causing large platoons of
+motorway bound traffic;
+4)
+entry slip road flows overloading merge capacity;
+5)
+entry slip road affected by flow breakdown downstream of the junction;
+6)
+where queuing traffic is already present on the entry slip road during peak periods;
+7)
+short or sub-standard merge areas;
+8)
+where a bottleneck exists downstream on the main carriageway as a result of a bend or a
+gradient; and,
+9)
+two-lane entry slip roads which have been artificially reduced to one lane in an attempt to restrict
+joining traffic.
+NOTE 2
+There are no individual physical characteristics that rule out a site for selection completely. The main
+consideration is the practicality of locating the stop line and signals safely as these affect both the
+acceleration distance for vehicles merging safely and the storage capacity for queuing vehicles.
+Forward visibility to the stop line and signals are required to account for the high approach speeds.
+2.1.1
+The assessment of the site to determine its suitability for ramp metering should include the forecast
+impact on traffic characteristics and road geometry from other schemes.
+NOTE 1
+Ramp metering schemes for imminent implementation need not account for any adjustment in traffic
+growth.
+NOTE 2
+Future traffic growth can be evaluated where, for example, a future development is expected in the
+vicinity of the junction.
+NOTE 3
+Other schemes likely to have an impact on the traffic characteristics can include:
+1)
+changes to traffic flows;
+2)
+changes to geometry including road markings;
+3)
+changes to the number of lanes/operating regime on the motorway;
+4)
+changes to speed restrictions in the area; and,
+5)
+impact of downstream improvement schemes.
+2.2
+Traffic characteristics shall be determined using available traffic data from representative time periods
+(such as peak hours over multiple weeks).
+NOTE
+A MIDAS detection system, for example, is an acceptable source to obtain traffic data that can be
+collected and analysed.
+2.2.1
+The traffic data collection period should allow assessment over a number of days (excluding school
+holidays, special events and adverse weather conditions).
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 10 of 41
+======================================================================
+TA 121 Version 0.0.2
+2. Ramp metering appraisal
+NOTE
+At least a two week period for traffic data collection is typically suitable. However, a more in-depth
+traffic data assessment provides a more useful understanding of the recurrent congestion issue.
+Criteria for provision of ramp metering
+2.3
+Ramp metering shall be proposed when traffic characteristics and road geometry allow the
+management of slip road flows and reduce main carriageway congestion.
+2.3.1
+Ramp metering should be provided when each of the following traffic characteristics are valid:
+1)
+annualised hours of main carriageway delay is greater than 10,000 vehicle hours delay, or
+average main carriageway speeds are less than 30 mph for greater than 100 hours over an
+annual period;
+2)
+the downstream main carriageway flows per lane are at least 1250 vehicles per hour during
+congested periods;
+3)
+the average entry slip road flow per lane is not less than 400 vehicles per hour or greater than
+1250 vehicles per hour during congested periods; and,
+4)
+the entry slip road flow is between 10% and 45% of downstream traffic flow on the main
+carriageway during congested periods.
+NOTE
+Previous site assessment has demonstrated the average main carriageway delay reduction to be 13%.
+2.3.2
+Where entry slip road flows exceed the maximum flow, excessive slip road queuing may be prevented
+by:
+1)
+provision of integrated traffic management to better manage slip road demand in collaboration
+with adjoining road authorities (see Appendix A);
+2)
+remodelling the entry slip road to increase the number of lanes or storage capacity and reduce
+the entry slip road flow per lane; and/or,
+3)
+use of local knowledge, observations and specialist expertise to assist in justifying the suitability
+of the site.
+NOTE
+Where the maximum entry slip road flows per lane are exceeded, the installation of a standard ramp
+metering system can lead to excessive queuing on the entry slip.
+2.3.3
+Ramp metering may still be provided when the road geometry includes:
+1)
+one or two lane entry slip roads;
+2)
+curved entry slip road;
+3)
+ghost island; or,
+4)
+lane gain from entry slip road.
+NOTE
+Ramp metering can struggle to perform effectively when there is:
+1)
+a bottleneck causing a large congestion problem, where capacity of the main carriageway is
+greatly exceeded;
+2)
+a reduction of main carriageway capacity due to lane loss;
+3)
+traffic backing up from an off-slip and blocking a lane of the main carriageway;
+4)
+diverging tailbacks from downstream motorway intersections; or,
+5)
+roadwork traffic management/accident causing lane loss on the main carriageway.
+Existing ramp metering sites and new main carriageway interventions
+2.4
+An assessment shall be conducted where a main carriageway intervention is proposed in the vicinity of
+an existing ramp metering site, and only subsequently modified or removed with the approval of the
+Overseeing Organisation.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 11 of 41
+======================================================================
+TA 121 Version 0.0.2
+2. Ramp metering appraisal
+2.5
+The traffic characteristics and road geometry of the current and proposed arrangement shall be
+assessed as follows:
+1)
+main carriageway characteristics (changes to speed limits, quantity of lanes, merge type and
+length);
+2)
+ramp metering characteristics (changes to gradient, alignment, traffic signals and proximity of
+diverge);
+3)
+traffic characteristics (changes to the quantity and ratio of downstream main carriageway flows
+and slip road flows).
+NOTE
+The treatment of existing ramp metering sites and new main carriageway interventions can be
+assessed using the assessment tool available from the Overseeing Organisation as described in the
+National Application Annexes. The assessment tool can help to determine any expected changes in
+annualised hours of operation based on the traffic characteristics and the road geometry proposals.
+2.6
+The existing ramp metering system shall be:
+1)
+retained in its current state if the annualised hours of operation are expected to be at least 40;
+and,
+2)
+modified as necessary to be compatible with the main carriageway intervention if the annualised
+hours of operation are expected to be at least 60.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 12 of 41
+======================================================================
+TA 121 Version 0.0.2
+3. Normative references
+3.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 13 of 41
+======================================================================
+TA 121 Version 0.0.2
+Appendix A. Integrated traffic management
+Appendix A. Integrated traffic management
+A1
+Introduction
+Integrated traffic management (ITM) is the practice of connecting to and sharing information between
+local authority and national authority control systems to reduce congestion in the locality of a motorway
+junction and improve efficiency through the coordinated operation of both systems. This typically
+involves providing an interface between ramp metering systems and traditional traffic signalling
+systems.
+ITM requires the commitment and cooperation of both the national and local authorities, and all such
+relevant organisations should be involved at all stages in the process of developing an ITM solution.
+A2
+Benefits of ITM
+The fundamental purpose of ITM is to improve the flow of traffic at the boundary of the motorway and
+local road network. The technical approach integrates the operation of ramp metering with the
+operation of the adjacent traffic signal systems to better manage the combined network. Information /
+data from one system is dynamically used by the other system to better manage and control the traffic
+intending to join the motorway from the local road network.
+When functioning correctly ITM can deliver the following benefits:
+Primary benefits:
+1)
+overall improvement of junction performance during peak demand;
+2)
+net reduction in journey times for vehicles crossing the junction on the local network and vehicles
+entering the motorway network from the local network;
+3)
+reduction in journey times for vehicles travelling along the motorway through the junction;
+4)
+improvement in the utilisation of the circulatory junction for local traffic;
+5)
+reduction in the likelihood of queue blocking at the roundabout from vehicles trying to enter the
+motorway; and,
+6)
+improvement of ramp metering operation through minimising the effects of queue override and
+optimising queue management.
+Secondary benefits:
+1)
+improved working relationships between national and local authorities;
+2)
+improved maintenance agreements; and,
+3)
+opportunity to implement other improvements at the junction.
+A3
+Criteria for the selection of ITM
+A3.1
+Basic criteria
+The criteria for assessing the suitability of a site for the application of ITM relates to the control mode of
+the traffic signal systems at the junction and the resultant local traffic conditions.
+A potentially suitable ITM site requires the operation of ramp metering and the partial or full
+signalisation of the interchange which typically uses one of the following traffic signal control modes.
+The most suitable ITM strategy will be dependent on the control mode for the junction.
+1)
+cableless linking facility (CLF);
+2)
+microprocessor optimised vehicle actuation (MOVA); or
+3)
+split cycle offset optimised technique (SCOOT).
+If the junction is partially signalised, the performance of ITM will be improved if the partial signalisation
+occurs on the arm of the junction which provides the highest flows to the motorway in either the a.m. or
+p.m. peak demand period. In addition, the junction should be sufficiently congested such that it will
+benefit from ITM.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 14 of 41
+======================================================================
+TA 121 Version 0.0.2
+Appendix A. Integrated traffic management
+ITM should provide benefits when the flow of traffic onto the slip road is higher than the ramp metering
+system or motorway merge can cope with efficiently. When assessing the suitability of a site, this
+situation is most easily recognised through analysis of the queue profiles within the ramp metering
+system (frequent high-flow requests from the queue management or queue override algorithm).
+If slip road flows exceed 1250 veh/lane/hr for short periods of time, then ITM should also be assessed
+for potential use as it is likely that these very high flows could be smoothed out by ITM.
+An understanding of the following elements should support the decision as to whether a junction with
+ramp metering is suitable for ITM:
+1)
+flow rates on the slip road and on the main carriageway;
+2)
+proportion of time the ramp metering system spends in queue management mode as opposed to
+the main carriageway control mode;
+3)
+the number of times that queue override events occur in a typical peak period;
+4)
+the profile of the queue on the slip road. A queue which regularly fluctuates from small to large
+may be supportive for ITM;
+5)
+the profile of the release rate from the stop line. Erratic release rates may indicate that ITM could
+be adopted;
+6)
+typical sizes of platoons entering the slip road from the signalised gyratory;
+7)
+control strategy and settings of the traffic signal system feeding traffic on to the motorway; and,
+8)
+any evidence of traffic queuing from the motorway merge onto the local road network.
+A3.2
+Irregular causes of congestion
+ITM should be assessed for potential use where local traffic conditions cause irregular congestion. For
+example, junctions near major venues which generate localised problems causing the gyratory to 'lock'
+can be suitable for ITM.
+The relatively low costs of an ITM solution mean that it should be assessed for potential use to address
+even the most irregular causes of congestion.
+A3.3
+Liaison between authorities
+ITM works optimally when it provides a mutual benefit to traffic on the national and local road networks
+or provides a benefit to one of the networks without having a detrimental effect on the other. As such,
+ITM necessitates the commitment and involvement of both national and local authorities in the process
+of developing an ITM solution.
+A4
+The ITM interface
+There are two possible mechanisms for providing the interface between the ramp metering and traffic
+signal systems as follows:
+A4.1
+Local link connection
+A local link requires infrastructure to be installed on-street to allow communication between the two
+systems. The connection may be either a wireless or cabled link. For a cabled solution, the durability of
+the link, cost of construction materials and post-installation maintenance should be assessed. For a
+wireless link, a radio path analysis under varying conditions should be conducted.
+A4.2
+Centralised instation connection
+A centralised instation connection can be implemented if both the ramp metering and the traffic signal
+systems operate using a centralised control (e.g., urban traffic control system) which can facilitate a
+greater range of information-sharing and control functionality. These solutions would not typically
+necessitate the implementation of any specialised on-street cabling or equipment.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 15 of 41
+======================================================================
+TA 121 Version 0.0.2
+Appendix A. Integrated traffic management
+Irrespective of the interfacing option, it is necessary to ensure that information security of either system
+is not comprised in any way.
+It is recommended that the national and local authority stakeholders are consulted with regard to
+acceptable standards for cabling or equipment installation within their jurisdiction. The termination and
+testing of the cables, equipment and control logic should be carried out by engineers competent in the
+disciplines of ramp metering and traffic signal systems.
+If installing infrastructure on-street, a mini-pillar or chamber at the network boundary fence line can
+simplify demarcation points for maintenance purposes, but also adds complexity to the design and
+introduces an additional failure point.
+A5
+ITM control strategy
+ITM control strategy can be used to vary signal timings on the signalised junction to ensure the most
+efficient flow of traffic onto the motorway and local network. In its most basic form, ITM can limit the
+number of vehicles trying to enter the motorway system by reducing green time on the approach road
+with the highest supply of motorway-bound traffic.
+The control strategy is facilitated by sharing real-time network metrics (speeds, occupancies, flows,
+events etc.) between the two systems. Both systems will need to be configured to send/receive the
+appropriate data and eventual control mechanisms. The configuration activities should be undertaken
+by a person(s) competent in the discipline of ramp metering and traditional traffic signals systems. The
+chosen control mechanism may differ depending on traffic behaviours observed on-street or the control
+mode of the traffic signal systems.
+The key to an efficient ITM solution is ensuring that the systems optimise the flow of traffic across both
+networks. Achieving the optimal set-up is a skilled task for a team having competencies in both ramp
+metering calibration and traffic signal control.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 16 of 41
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 17 of 41
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 121 - ENAA
+England National Application Annex for Ramp
+metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+This National Application Annex contains the National Highways specific appraisal requirements
+for ramp metering.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 18 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Terms and definitions
+5
+E/1. Existing ramp metering sites and new mainline interventions
+6
+E/2. Normative references
+7
+Appendix E/A. A Ramp metering task force change request form
+8
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 19 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+ENAA
+0.0.2
+October 2024
+England NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+ENAA
+0.0.1
+September 2024
+England NAA
+Incremental change to
+notes and editorial
+updates
+TA 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 20 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes IAN 103/08 and IAN 121/09, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 21 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Introduction
+Introduction
+Background
+This National Application Annex gives the National Highways-specific appraisal requirements for ramp
+metering.
+Ramp metering is a traffic management technique which manages the number of vehicles joining a
+main carriageway at peak periods. The purpose of ramp metering is to prevent or delay the onset of
+flow breakdown on the main carriageway and assist with its recovery.
+Ramp metering systems use part-time traffic signals on the slip road which come into operation when
+traffic sensors on the main carriageway indicate heavy traffic. The detectors on the mainline along with
+queue detectors on the slip road enable the system to determine the required flows from the slip to
+keep the mainline flowing close to critical occupancy.
+A successful design of a ramp metering site relies on knowledge and understanding of motorway
+communication devices and design, traffic flows, motorway traffic behaviours and ramp metering
+control algorithms.
+Ramp metering systems control the flow of vehicles joining the motorway and all-purpose trunk road
+network and are recognised as being fundamentally different to traditional traffic signal systems which
+manage vehicle conflicts and provide critical safety functionality.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 22 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Ramp metering
+A traffic management technique which manages the number of vehicles joining a
+main carriageway in peak hour periods in response to current traffic conditions.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 23 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+E/1. Existing ramp metering sites and new mainline...
+E/1.
+Existing ramp metering sites and new mainline interventions
+E/1.1
+A ramp metering site shall only be removed with the approval of National Highways.
+E/1.1.1
+To gain approval from National Highways, the ramp metering task force change request form should be
+submitted as detailed in Appendix A.
+NOTE
+A tool to assess the treatment of ramp metering sites and mainline interventions can be obtained from
+National Highways by contacting the ramp metering task force at the following email address:
+rmtaskforce@nationalhighways.co.uk.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 24 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 25 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Appendix E/A. A Ramp metering task force change request for...
+Appendix E/A. A Ramp metering task force change request form
+Table to be completed and submitted to rmtaskforce@nationalhighways.co.uk
+Table E/A.1 Ramp metering task force change request form
+Status Quick Ref.
+Change Number:
+Date:
+Status:
+o Submitted
+o Deferred
+o Rejected
+o Accepted
+o Implemented
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 26 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Appendix E/A. A Ramp metering task force change request for...
+Table E/A.2 Ramp metering task force change request form
+Proposal Details
+Originator's Name:
+Originator's Ref:
+Request Title:
+Change Type
+Site Specific o
+Core System o
+Location(s)
+Items Affected:
+o Hardware / o Software / o Configuration / o
+Documentation /o Drawing / o Other:
+Request Detail:
+Reason:
+Will the change or its implementation have an effect on the
+operation of the RM site, or the network?
+o Yes
+o No
+If YES – How?
+Supporting Docs:
+Perceived Priority:
+o HIGH
+o MEDIUM
+o LOW
+Anticipated Cost of Change:
+N/A
+Payment Responsibility
+RMTF o
+Scheme o
+Area Team o
+Other:
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 27 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Appendix E/A. A Ramp metering task force change request for...
+Table E/A.3 Ramp metering task force change request form
+Initial Review
+Reviewed By:
+Position:
+Company:
+Signed:
+Date:
+Agreed Status:
+o Deferred
+o Rejected
+o Accepted
+Agreed Priority:
+o HIGH
+o MEDIUM
+o LOW
+National Highways Project
+Sponsor
+Signed:
+Date:
+Explanation:
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 28 of 41
+======================================================================
+TA 121 - ENAA Version 0.0.2
+Appendix E/A. A Ramp metering task force change request for...
+Table E/A.4 Ramp metering task force change request form
+Subsequent Review (only to be completed following Further Analysis)
+Reviewed By:
+Position:
+Company:
+Signed:
+Date:
+Agreed Status:
+o Deferred
+o Rejected
+o Accepted
+Agreed Priority:
+o HIGH
+o MEDIUM
+o LOW
+Explanation:
+Table E/A.5 Ramp metering task force change request form
+Change Request History
+Date:
+Comment:
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 29 of 41
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 30 of 41
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 121 - NINAA
+Northern Ireland National Application Annex
+for Ramp metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+There are no specific requirements for Department for Infrastructure, Northern Ireland
+supplementary or alternative to those given in TA 121.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 31 of 41
+======================================================================
+TA 121 - NINAA Version 0.0.2
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 32 of 41
+======================================================================
+TA 121 - NINAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+NINAA
+0.0.2
+October 2024
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+NINAA
+0.0.1
+September 2024
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+TA 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 33 of 41
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 34 of 41
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 121 - SNAA
+Scotland National Application Annex for Ramp
+metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in TA 121.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 35 of 41
+======================================================================
+TA 121 - SNAA Version 0.0.2
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 36 of 41
+======================================================================
+TA 121 - SNAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+SNAA
+0.0.2
+October 2024
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+SNAA
+0.0.1
+September 2024
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+TA 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 37 of 41
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 38 of 41
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 121 - WNAA
+Wales National Application Annex for Ramp
+metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in TA 121.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 39 of 41
+======================================================================
+TA 121 - WNAA Version 0.0.2
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 40 of 41
+======================================================================
+TA 121 - WNAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+WNAA
+0.0.2
+October 2024
+Wales NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 121 -
+WNAA
+0.0.1
+September 2024
+Wales NAA
+Incremental change to
+notes and editorial
+updates
+TA 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 41 of 41
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 121 Version 0.0.2, published: 31-Oct-2024
+
+
