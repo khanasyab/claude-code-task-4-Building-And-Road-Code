@@ -1,0 +1,629 @@
+======================================================================
+PAGE 1 of 17
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 374
+The use of recycled aggregates in structural
+concrete
+(formerly BA 92/07)
+Version 0.0.1
+Summary
+This document enables the use of recycled aggregates in structural concrete for highways
+structures, providing key information that is required to design structural concrete containing
+recycled aggregates and manage the risks in their adoption.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 17
+======================================================================
+CD 374 Version 0.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Recycled aggregate
+8
+Supply . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3. Structural concrete incorporating recycled aggregates
+9
+Design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Limitations to use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+4. Normative references
+11
+5. Informative references
+12
+Appendix A. Properties of recycled aggregate and its effect on structural concrete
+13
+A1 Properties of recycled aggregate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A2 Internal degradation of concrete (IDC) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A3 Properties of structural concrete incorporating recycled aggregates . . . . . . . . . . . . . . . . . . . . .
+13
+A3.1 Physical properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A3.2 Effects on durability
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Notification
+15
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 17
+======================================================================
+CD 374 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 374
+0.0.1
+September 2025
+Core document
+Incremental change to
+notes and editorial
+updates
+Rebranding to National Highways as publisher; one reference update in Background; few other minor editorial
+changes.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 374
+0
+March 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 17
+======================================================================
+CD 374 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes BA 92/07, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 17
+======================================================================
+CD 374 Version 0.0.1
+Introduction
+Introduction
+Background
+This document gives requirements and advice for the use of recycled aggregates in structural concrete
+for highways structures, providing key information that is required to design structural concrete
+containing recycled aggregates and manage the risks in their adoption.
+Recycled aggregates, as opposed to natural and manufactured aggregates that are of mineral origin,
+result from the processing of inorganic material previously used in construction and can be made of
+different constituents, defined in BS EN 12620 [Ref 1.N] as:
+1)
+Rc (concrete, concrete products, mortar, concrete masonry units);
+2)
+Ru (unbound aggregate, natural stone, hydraulically bound aggregate);
+3)
+Rb (clay masonry units such as bricks and tiles, calcium silicate masonry units, aerated
+non-floating concrete);
+4)
+Ra (bituminous material);
+5)
+FL (floating material in volume);
+6)
+Rg (glass);
+7)
+X (other - cohesive clay or soil, ferrous or non ferrous metals, non-floating wood, plastic, rubber,
+gypsum plaster).
+Aggregates for concrete, including recycled aggregates, are covered in BS EN 12620 [Ref 1.N] which
+gives, as one of the essential characteristics, the composition of coarse recycled aggregates in terms of
+categories of content for each constituent.
+This document clarifies that the performance requirements for recycled aggregates to be used for
+highway structures, including their composition, are those given in BS 8500-1 [Ref 4.N] and BS 8500-2
+[Ref 5.N].
+This document sets out the considerations a designer should take into account for using recycled
+aggregates in highways structures. It also sets out the limitations on where these should be used and
+describes the effects on concrete properties.
+The document is also intended to summarise the provisions of the standards and documents relevant
+to the use of recycled aggregates in the UK. Since the publication of the previous edition, a number of
+those have been published or updated, updated, allowing the streamlining of the requirements and
+advice, and refer, where appropriate, directly to those.
+Relevant standards and documents include BS EN 12620 [Ref 1.N] and the associated PD 6682-1 [Ref
+2.N], BS EN 206 [Ref 3.N] and the complementary British Standards BS 8500-1 [Ref 4.N] and BS
+8500-2 [Ref 5.N], and CC 482 [Ref 1.I].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 8.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard", or
+other technical specification, that requirement may be met by compliance with GG 101 [Ref 8.N].
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 17
+======================================================================
+CD 374 Version 0.0.1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+ASR
+Alkali silica reaction
+CCA
+Crushed concrete aggregate
+GGBS
+Ground granulated blast furnace slag
+IDC
+Internal degradation of concrete
+WRAP
+Waste and resource action programme
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 17
+======================================================================
+CD 374 Version 0.0.1
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Alkali aggregate reaction
+Damaging chemical reactions to aggregates within a mass of
+concrete which can include alkali silica reaction, alkali silicate
+reaction or alkali carbonate reaction. Alkali silica reaction (ASR) is
+the most common.
+Crushed concrete aggregate
+Recycled aggregate obtained from crushed concrete.
+Internal degradation of
+concrete
+Deterioration mechanism (consisting of alkali aggregate reaction or
+delayed ettringite formation) which affects the concrete composition
+and can affect concrete mechanical properties. Concrete
+degradation factors define the degradation of mechanical
+properties.
+Manufactured aggregate
+Aggregate of mineral origin resulting from an industrial process
+involving thermal or other modification.
+Natural aggregate
+Aggregate from mineral sources which has been subjected to
+nothing more than mechanical processing.
+Recycled aggregate
+Aggregate resulting from the processing of inorganic material
+previously used in construction.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 17
+======================================================================
+CD 374 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements set out in this document shall be adopted for the use of recycled aggregates in
+structural concrete for highway structures.
+NOTE 1
+The use of recycled aggregates in structural concrete is encouraged, as it can provide benefits
+associated with sustainable development, related to prudent use of natural resources and maximising
+use of recycling of construction waste, and potential for cost savings; however, while their use is well
+established for low grade applications such as subbase in road construction, use in structural concrete
+applications has been limited.
+NOTE 2
+An inherit characteristic of recycled aggregates is that they have a higher water demand than
+aggregates of mineral origin, which could lead to reductions in strength and durability performance of
+the hardened concrete. For this reason, they are generally used only in combination with natural and
+manufactured aggregates within a concrete mix.
+NOTE 3
+Until a track record of successful use of recycled aggregates in structural concrete is established, their
+use is restricted to structural elements subject to less onerous exposure classes and with inherent
+robustness.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the use of recycled aggregates
+on the Overseeing Organisations' motorway and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 8.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 8.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 17
+======================================================================
+CD 374 Version 0.0.1
+2. Recycled aggregate
+2.
+Recycled aggregate
+Supply
+2.1
+Recycled aggregates for use in structural concrete shall be specified to conform to BS EN 12620 [Ref
+1.N].
+NOTE
+PD 6682-1 [Ref 2.N] gives guidance on the use of BS EN 12620 [Ref 1.N] and recommends the limiting
+values of aggregate properties for use in the UK within the permitted range.
+2.2
+When coarse recycled aggregates are used, the performance requirements of the aggregates in
+relation to the essential characteristics in BS EN 12620 [Ref 1.N], including the composition in terms of
+categories of content of constituents of recycled aggregates, shall be as those given in BS 8500-2 [Ref
+5.N] for coarse crushed concrete aggregates (CCA).
+NOTE 1
+Definitions and distinction between coarse and fine aggregates are given in BS EN 12620 [Ref 1.N].
+NOTE 2
+The performance requirements given in BS 8500-2 [Ref 5.N] for coarse CCA in terms of category of
+content of constituents ensure that the coarse recycled aggregates are adequate for use in structural
+concrete.
+NOTE 3
+The use of fine recycled aggregates in structural concrete applications is not recommended, as there
+are challenges in establishing their suitability, as clarified in BS 8500-1 [Ref 4.N] and BS 8500-2 [Ref
+5.N].
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 17
+======================================================================
+CD 374 Version 0.0.1
+3. Structural concrete incorporating recycled ag...
+3.
+Structural concrete incorporating recycled aggregates
+Design
+3.1
+Design of structural concrete incorporating recycled aggregates, undertaken to BS EN 1992-1-1 [Ref
+7.N] and BS EN 1992-2 [Ref 6.N], shall take into account the changes in properties of fresh and
+hardened concrete resulting from the presence of recycled aggregates in the concrete mix.
+NOTE
+Mix design of concrete incorporating recycled aggregates is a specialist skill to be undertaken by
+personnel with the appropriate knowledge and experience.
+3.1.1
+The magnitude and significance of changes in the properties of concrete, due to the use of recycled
+aggregates, which could affect the design of the structural concrete element should be assessed.
+NOTE 1
+Incorporating recycled aggregates into concrete can have an effect on the concrete properties, and as
+the amount of recycled aggregates increases the changes become more pronounced. This can lead to
+changes in physical properties of the concrete and potential effects on durability.
+NOTE 2
+Guidance on properties of recycled aggregates and their effect on structural concrete is provided in
+Appendix A.
+3.1.2
+For non-prestressed concrete, where the proposed percentage of recycled aggregates exceeds 30% of
+the total aggregates by mass in the concrete mix, the modulus of elasticity of the concrete should be a
+measured value from trial concrete mixes and not values based on cube strength (as is often used for
+normal concrete), as the relationship between cube strength and modulus can be different.
+NOTE
+BS EN 1992-1-1 [Ref 7.N] clarifies that the modulus of elasticity of a concrete is controlled by the
+modulus of elasticity of its components, which is largely dictated by the aggregates.
+3.1.3
+For prestressed concrete, the modulus of elasticity should be measured from trial concrete mixes in all
+cases.
+3.1.4
+BS EN 1992-1-1 [Ref 7.N] gives guidance on shrinkage and creep for normal concrete and this may
+need to be adjusted to suit the properties of the concrete mix incorporating recycled aggregates on the
+basis of the results from trial concrete mixes.
+Limitations to use
+3.2
+The percentage of recycled aggregates to the total aggregates by mass in the concrete mix shall not
+exceed:
+1)
+60% for non-prestressed concrete structures; nor,
+2)
+20% for prestressed concrete structures.
+NOTE 1
+The effect on concrete properties when high percentages of recycled aggregates are used can be
+considerable and it is not considered appropriate at this stage for this percentage to exceed 60%.
+NOTE 2
+The 20% limit on percentage of recycled aggregates to the total aggregates by mass in the concrete
+mix for use in prestressed concrete is in relation to the increasingly higher effects on drying shrinkage
+and potential effects on creep on concrete incorporating recycled aggregates beyond that level, which
+are considered to give too high an unknown for the long-term properties of prestressed concrete.
+3.2.1
+When the proposed percentage of recycled aggregates to the total aggregates by mass in the concrete
+mix in non-prestressed concrete structures is in excess of 30%, and in all cases for prestressed
+concrete structures, trial mixes should be specified at an early stage on the proposed resulting concrete
+to verify the properties to be used in design, to be subsequently agreed as part of the technical
+approval process to CG 300 [Ref 9.N].
+3.2.2
+For buried structures and structures with no access for inspection, the percentage of recycled
+aggregates to the total aggregates by mass in the concrete mix should not be in excess of 30%.
+NOTE 1
+A percentage of recycled aggregates of up to 30% of the total aggregate by mass in structural concrete
+is recommended as the limit in BS EN 206 [Ref 3.N] for typical exposure classes; up to this level the
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 17
+======================================================================
+CD 374 Version 0.0.1
+3. Structural concrete incorporating recycled ag...
+impact on the design properties for non-prestressed concrete is considered minimal and no additional
+measures need to be undertaken..
+NOTE 2
+Guidance on the properties of structural concrete incorporating recycled aggregates that could affect
+the design considerations is given in Appendix A.
+3.3
+Structural concrete incorporating recycled aggregates shall not be used for structures in exposure
+classes other than X0, XC1, XC2, XC3, XC4, XF1, XD1 and DC-1.
+NOTE
+The exposure classes for structural concrete for use in the UK are defined in BS 8500-1 [Ref 4.N].
+3.4
+Structural concrete incorporating recycled aggregates shall only be used for strength classes up to
+C40/50 as per the recommendations in BS 8500-2 [Ref 5.N], unless the recycled aggregates is
+obtained by crushing hardened concrete of known composition that has not been in use, e.g. surplus
+precast units or returned fresh concrete, and not contaminated by storage or processing.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 17
+======================================================================
+CD 374 Version 0.0.1
+4. Normative references
+4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS EN 12620, 'Aggregates for concrete (Designated Standard - CPR)'
+Ref 2.N
+BSI. PD 6682-1, 'Aggregates. Aggregates for concrete. Guidance on the use of BS
+EN 12620'
+Ref 3.N
+BSI. BS EN 206, 'Concrete - specification, performance, production and conformity'
+Ref 4.N
+BSI. BS 8500-1, 'Concrete. Complementary British Standard to BS EN 206. Method
+of specifying and guidance for the specifier.'
+Ref 5.N
+BSI. BS 8500-2, 'Concrete. Complementary British Standard to BS EN 206.
+Specification for constituent materials and concrete.'
+Ref 6.N
+BSI. BS EN 1992-2, 'Eurocode 2. Design of concrete structures: Concrete bridges.
+Design and detailing rules'
+Ref 7.N
+BSI. BS EN 1992-1-1, 'Eurocode 2: Design of concrete structures. General rules and
+rules for buildings'
+Ref 8.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 9.N
+National Highways. CG 300, 'Technical approval of highway structures'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 17
+======================================================================
+CD 374 Version 0.0.1
+5. Informative references
+5.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CC 482, 'Structural concrete'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 17
+======================================================================
+CD 374 Version 0.0.1
+Appendix A. Properties of recycled aggregate and its eff...
+Appendix A. Properties of recycled aggregate and its effect on structural
+concrete
+A1
+Properties of recycled aggregate
+Particles of recycled aggregate generally comprises crushed stone aggregate partially coated with
+mortar or cement paste. The amount of surrounding mortar will vary depending on the method by
+which the recycled aggregate was produced; for example, an increasing number of cycles in a ball
+crusher can reduce the amount of mortar present. However there are other more efficient processing
+methods available, but the aim should still be to remove as much of the mortar as possible. The mortar,
+which is lighter and more porous than aggregates used in standard concrete mixes, affects the physical
+properties of the recycled material notably with respect to water absorption and density. This has
+implications for concrete mix design and concrete properties such as elastic modulus, shrinkage, creep
+and permeability. Moreover, the increased alkali content resulting from the mortar, and the presence of
+unknown aggregate types in the parent concrete of the recycled aggregate might increase the risk of
+internal degradation of concrete (IDC). The parent concrete could also have additional contaminants
+such as high chloride levels, carbonated material or IDC reaction products. In fact such features might
+be the reason for the concrete to have been recycled in the first place.
+A2
+Internal degradation of concrete (IDC)
+IDC needs greater consideration where recycled aggregates are used. The mortar surrounding the
+aggregate particles will increase alkali levels and there is the possibility that the source concrete for the
+recycled aggregate included reactive aggregates, although the risk of expansion would be reduced
+because of the higher porosity of recycled aggregate. If the specification for the original source
+concrete is known then the aggregate reactivity could be assessed but this will not always be the case.
+There is also the possibility that partial replacement with recycled aggregate could result in pessimum
+proportions – the concentration of reactive aggregates where the reaction is maximised. If it is known
+that active IDC or significant quantities of IDC were present in a source structure this would preclude its
+use as a source of recycled aggregate. Moreover, if there is any reason to believe that there might be
+reactive aggregates in the recycled aggregate, a petrographical examination can be carried out or the
+recycled aggregate classed as high reactivity for the purpose of checking the susceptibility of the
+resulting concrete to ASR.
+A3
+Properties of structural concrete incorporating recycled aggregates
+A3.1
+Physical properties
+The impact of the following on physical properties on the concrete should be accounted for in the
+development of a mix design for structural concrete incorporating recycled aggregates, which are areas
+where there are likely to be differences compared with similar strength concretes made with traditional
+aggregates:
+1)
+water demand (in the fresh state) increases with increase in recycled aggregate content, where
+the degree of demand increases as the proportion of recycled aggregate increases;
+2)
+density is reduced, where the degree of reduction increases as the proportion of recycled
+aggregate increases;
+3)
+modulus of elasticity is reduced, where the degree of reduction increases as the proportion of
+recycled aggregate increases;
+4)
+shrinkage is increased, where increasing levels of recycled aggregate lead to increased
+shrinkage and potential problems with creep, especially relevant for prestressed concrete;
+5)
+permeability is increased, which could result in more rapid ingress of contaminants;
+6)
+potential impacts on other concrete properties include coefficient of thermal expansion, tensile
+strength, and bond strength; and
+7)
+the cement content of the mix containing the recycled aggregate and its effect on various
+properties of concrete.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 17
+======================================================================
+CD 374 Version 0.0.1
+Appendix A. Properties of recycled aggregate and its eff...
+As the information available on the degree of such effects is not extensive, it is prudent to adopt a
+conservative approach to the use of recycled aggregate in structural concrete, which results in its use
+not being recommended for high percentage of replacement, especially in more sensitive cases such
+as prestressed concrete, concrete structures difficult to inspect and high strength concrete applications
+with higher degrees of doubt about the condition of the source concrete of the recycled aggregates.
+A3.2
+Effects on durability
+The impact of the following on durability of the concrete should be accounted for in the development of
+a mix design for structural concrete incorporating recycled aggregates, which are areas where there
+are likely to be differences compared with similar strength concretes made with traditional aggregates:
+1)
+there are no indications that freeze-thaw resistance and resistance to carbonation are particularly
+different, provided that properly quality controlled recycled aggregate has been used;
+2)
+the increased permeability of concrete incorporating recycled aggregate can increase the rate of
+chloride ingress and may lead to higher corrosion rates; however the increased alkali content of
+recycled aggregate could assist in raising the chloride threshold level which triggers corrosion,
+and the use of blended cements with higher proportions of additions such as GGBS or fly ash
+may greatly mitigate the effects;
+3)
+sulfate attack can result in expansive disruption of concrete. In some cases sulfate contamination
+could be present in recycled aggregate (e.g. from plaster), and this should be taken into account
+in choosing source material for the recycled aggregate. There are no indications that resistance
+to external sources of sulfate would be dissimilar to traditional aggregate concrete; and
+4)
+alkali silica reaction and, more generally IDC, needs greater consideration, as described in
+section A2 of this Appendix.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 17
+======================================================================
+CD 374 Version 0.0.1
+Notification
+Notification
+This document was notified in draft to the European Commission in accordance with Technical
+Standards and Regulations Directive 2015/1535/EU.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 17
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 374 Version 0.0.1, published: 30-Sep-2025
+
+
