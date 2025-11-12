@@ -1,0 +1,2302 @@
+======================================================================
+PAGE 1 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 146
+Positioning of signalling and advance direction
+signs
+(formerly TD 46/05, TD 18/85 )
+Version 2.0.0
+Summary
+This document provides the positioning requirements of signalling (lane signals and variable
+message signs) and advance direction signs for motorways
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 2 of 60
+======================================================================
+CD 146 Version 2.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. General
+8
+3. Motorway advance direction signs
+9
+Criteria to be met before using gantries for direction signs . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Carriageways with 5 or more lanes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4. Motorway signalling and variable message signs
+11
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Motorway variable message signs
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Motorway strategic variable message signs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Motorway above-lane signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Motorway entry slip signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+5. All-purpose trunk road advance direction signs
+14
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Grade separated junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+At-grade junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+6. All-purpose trunk road signalling and variable message signs
+16
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+APTR variable message signs
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+APTR strategic variable message signs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+APTR above-lane signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+APTR entry slip signals
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+7. Normative references
+19
+8. Informative references
+20
+Appendix A. Illustrative grade separated diverge and merge layouts for VMS and ADS
+21
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 3 of 60
+======================================================================
+CD 146 Version 2.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146
+2.0.0
+September 2023
+Core document,
+England NAA,
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+Rev. V.2.0.0: (Publication: Sep. 2023) Scope of document updated to include requirements and advice for the
+positioning of signalling and advance direction signs on all-purpose trunk roads. Further minor changes
+incorporated across the document.
+Revision 1 (March 2020) Revision to update references only.
+Revision 0 (July 2019) CD 146 replaces TD 46/05 and TD 18/85. This full document has been re-written to make
+it compliant with the new Highways England drafting rules.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146
+1
+March 2020
+CD 146
+0
+July 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 4 of 60
+======================================================================
+CD 146 Version 2.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes:
+1)
+TD 46/05 Motorway Signalling;
+2)
+TD 18/85 Criteria for the use of gantries for traffic signs and matrix traffic signals on trunk roads
+and trunk road motorways;
+3)
+parts of sections 5 and 6 of Interim Advice Note 149/17 Existing Motorways: Additional
+Requirements and Relaxations;
+4)
+clauses 2.7.2, 2.7.21 and 2.7.25 of Interim Advice Note 161/15 Smart Motorways;
+5)
+parts of clause 11.4 of TD 33/05 The use of VMS on motorways and APTR
+6)
+parts of section A4 of TA 83/05 Guide to the Use of Variable Message Signs for Strategic Traffic
+Management on Trunk Roads and Trunk Road Motorways
+7)
+parts of section 4.3 of TA 74/05 Motorway signalling
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 5 of 60
+======================================================================
+CD 146 Version 2.0.0
+Introduction
+Introduction
+Background
+This document provides the positioning requirements of signalling (above lane signals and variable
+message signs) and advance direction signs for motorways and all-purpose trunk roads.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 6 of 60
+======================================================================
+CD 146 Version 2.0.0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ADS
+Advance direction signs
+APTR
+All-purpose trunk road
+ESS
+Entry slip signal
+HGV
+Heavy goods vehicle
+HSR
+Hard shoulder running
+MSA
+Motorway service area
+TSRGD
+Traffic Signs Regulations and General Directions UKSI 2016/362 (TSRGD) [Ref
+3.N]
+VMS
+Variable message sign
+VMSL
+Variable mandatory speed limits
+VPD
+Vehicles per day
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 7 of 60
+======================================================================
+CD 146 Version 2.0.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Advance direction sign
+sign giving route information in respect of a junction ahead
+Confirmatory direction sign
+a sign placed over the diverge (gantry mounted) or on the nosing
+(verge mounted) which confirms the destinations and/or routes
+reached from the junction
+Datum points
+defined points at merges and diverges used for the purposes of
+locating features such as signs and signals and measuring
+weaving lengths.
+Downstream
+a position trailing a reference point, measured in the direction of
+travel.
+Ghost island
+an area of the carriageway marked to separate lanes of traffic
+travelling in the same direction on merge and diverge layouts.
+NOTE 1: The purpose of the ghost island at a merge is to separate
+the points of entry of two slip road traffic lanes.
+NOTE 2: At a diverge it is to separate the points of exit to a slip
+road.
+Inter-junction
+This is the region between junctions on the mainline carriageway
+between the merge tip of the nose of one junction and the diverge
+tip of the nose of the next junction.
+NOTE: Definition from TD 131 [Ref 2.I].
+Intra-junction
+This is the region within a junction on the mainline carriageway
+between the diverge tip of the nose and the entry tip of the nose.
+NOTE 1: Intra-junction also includes the entry slip road.
+Upstream
+a position in advance of a reference point, measured in the
+direction of travel.
+Variable message signs (VMS)
+VMS are technology devices, within the definition of Schedule 16 of
+the UKSI 2016/362 (TSRGD) [Ref 3.N], capable of displaying, at
+different times, two or more defined legends or messages.
+NOTE: VMS can be in the form of light emitting or non-light
+emitting, electrical or electromechanical devices.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 8 of 60
+======================================================================
+CD 146 Version 2.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the positioning of signalling (above-lane signals and variable message
+signs) and advance direction signs (ADS) for motorways and all-purpose trunk roads.
+NOTE 1
+Refer to GD 300 [Ref 1.I]for further information on new and upgraded all-purpose trunk roads.
+NOTE 2
+Requirements related to all other types of fixed signing apart from ADS signs are not included in this
+document.
+NOTE 3
+Positioning requirements of signals and VMS related to smart motorways are contained within the
+National Application Annexes, where applicable.
+NOTE 4
+The datum points for grade separated merge and diverge layouts used in this document are defined in
+CD 122 [Ref 1.N] for the purposes of locating signs and signals.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the positioning requirements of
+signals (above lane signals and variable message signs) and ADS on the Overseeing Organisations'
+motorways and all-purpose trunk roads according to the implementation requirements of GG 101 [Ref
+2.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 2.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 9 of 60
+======================================================================
+CD 146 Version 2.0.0
+2. General
+2.
+General
+2.1
+Where an existing portal gantry is present and it has residual design life, the feasibility of reusing this
+existing infrastructure shall be assessed while complying with the functional, spacing and visibility
+requirements specified in this document.
+NOTE
+An assessment for the feasibility of reusing the existing equipment is to be undertaken as part of the
+feasibility, option selection or design phase of a scheme.
+2.1.1
+Variable message signs (VMS) and direction signs associated with a junction should be cantilever- and
+post-mounted respectively.
+NOTE
+It is not necessary to provide VMS in the central reserve.
+2.2
+Where cantilever-mounted signals/signs are to be installed and the lighting is in the verge,
+signals/signs shall be positioned at least one column length away from the nearest lighting column.
+NOTE
+Cantilever-mounted signals/signs are positioned at least one column length away from the nearest
+lighting column to prevent damage being sustained by the signal in the event of the lighting column
+being knocked down by a vehicle. The lantern height is usually 10 m or greater and therefore does not
+interfere with signal visibility.
+2.3
+The Traffic Signs Regulations (Northern Ireland) 1997 ( NISR 1997/386 (TSRNI) [Ref 5.N]) must be
+applied in Northern Ireland.
+NOTE
+In Northern Ireland, where a clause in CD 146 refers to the Traffic Signs Regulations and General
+Directions ( UKSI 2016/362 (TSRGD) [Ref 3.N]), the reference is replaced by the NISR 1997/386
+(TSRNI) [Ref 5.N].
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 10 of 60
+======================================================================
+CD 146 Version 2.0.0
+3. Motorway advance direction signs
+3.
+Motorway advance direction signs
+3.1
+Advance direction sign (ADS) position distances shall be measured from the exit datum point.
+3.2
+A primary and secondary ADS shall be provided on the approach to each junction exit in accordance
+with the hierarchy and distances outlined in Table 3.2.
+Table 3.2 ADS Combinations for motorways
+Priority
+Motorway
+Primary ADS
+Motorway
+Secondary
+ADS
+Upstream tolerance of
+signed distance
+Downstream tolerance of
+signed distance
+1
+1 mile
+1/2 mile
+10%
+20 metres
+2
+2/3 mile
+1/3 mile
+10%
+20 metres
+3
+1 mile
+1/3 mile
+10%
+20 metres
+4
+1 1/4 mile
+115 metres
+20 metres
+1/2 mile
+10%
+20 metres
+5
+1 1/3 mile
+1/2 mile
+10%
+20 metres
+6
+1 1/4 mile
+115 metres
+20 metres
+1/3 mile
+10%
+20 metres
+7
+1 1/3 mile
+2/3 mile
+10%
+20 metres
+8
+1 1/3 mile
+1/3 mile
+10%
+20 metres
+NOTE 1
+Beyond 115 metres upstream of the 1 1/4 mile primary ADS, a 1 1/3 mile ADS is more accurate than a
+1 1/4 mile primary ADS.
+NOTE 2
+Illustrative diverge and merge layouts for ADS are provided in Figures A.1 and A.2 in Appendix A.
+3.3
+The hierarchy of primary and secondary ADS positioning shall be applied in sequence starting at
+'priority 1' as shown in Table 3.2.
+3.3.1
+Only when it is not practicable to provide a combination of signs within the tolerances given in Table
+3.2, a lower priority combination may be used.
+3.3.2
+ADS should be positioned as close as practicable to the distances they sign.
+3.4
+A final direction sign shall be positioned at the exit datum or up to 50 metres upstream of it.
+3.5
+A confirmatory direction sign shall be provided.
+3.6
+Where there is a confirmatory above-lane signal gantry, the confirmatory direction sign shall be
+co-located on the confirmatory above lane signal gantry.
+3.7
+Where there is no confirmatory above-lane signal gantry, the confirmatory direction sign shall be
+positioned either:
+1)
+on the verge of the 'diverge' island, not more than 30 metres beyond the physical nose;
+2)
+on a gantry between 30 and 50 metres downstream of the diverge nose tip.
+3.8
+For ghost island diverges, verge mounted signs in accordance with Diagram 2904.2 of UKSI 2016/362
+(TSRGD) [Ref 3.N] shall be provided between the primary and secondary ADS and between the
+secondary ADS and the final direction sign.
+3.8.1
+For ghost island diverges, verge mounted signs should be positioned as close as practicable to the
+midpoint between the relevant ADSs.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 11 of 60
+======================================================================
+CD 146 Version 2.0.0
+3. Motorway advance direction signs
+NOTE
+For ghost island diverges, verge mounted signs which include a distance of less than 1/3 mile are
+non-prescribed signs and require authorisation in accordance with UKSI 2016/362 (TSRGD) [Ref 3.N].
+Criteria to be met before using gantries for direction signs
+3.9
+Gantries shall only be used for mounting direction signs where one or more of the following criteria are
+met:
+1)
+the carriageway has or is due to have 4 or more running lanes;
+2)
+the carriageway has 3 running lanes and carries (or is due to carry within 15 years of opening)
+33,000 vehicles per day (1-way) (high growth estimate) and the proportion of HGVs is greater
+than 20%;
+3)
+the number of lanes available to a driver going ahead reduces after the junction;
+4)
+a series of junctions are (an average of) less than 3 km apart measured between centres of
+junctions;
+5)
+the road is on a structure but does not have a hard shoulder;
+6)
+the road is on a steep embankment or in a deep cutting;
+7)
+an assessment of the cost has confirmed that it is cheaper to provide gantry mounted signs
+rather than mounting direction signs on the left-hand side of the road.
+NOTE 1
+Side-mounted signs can be obscured for a significant proportion of a driver's 'reading time' when the
+traffic volume is high and when the proportion of HGVs is high. It is also a function of the width of the
+road where the driver in the extreme right-hand lane has the highest probability of poor visibility due to
+the traffic in the other lanes.
+NOTE 2
+The demands on drivers are greater when approaching complex layouts which can draw their attention
+away from the road, including where the number of lanes reduces after a junction, where junctions
+follow in quick succession or on elevated roads.
+Carriageways with 5 or more lanes
+3.10
+Where ADS signs are to be provided on sections of 5 or more lanes, they shall be mounted on gantries.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 12 of 60
+======================================================================
+CD 146 Version 2.0.0
+4. Motorway signalling and variable message sign...
+4.
+Motorway signalling and variable message signs
+General
+4.1
+Where the operational need for above-lane signals has been established, above-lane signals shall be
+positioned in accordance with the requirements within the 'Motorway above-lane signals' sub-section.
+4.1.1
+Where the provision of above-lane signalling is not justified, verge mounted VMS should be provided if:
+1)
+the existing signalling infrastructure is near the end of its design life or where an opportunity for
+replacement is provided by highway improvement or maintenance works; or,
+2)
+the VMS are being used in a sequence forming part of a signalling scheme and not on an
+individual basis.
+4.1.2
+Where the operational need for a system of signalling has been identified, gantries for motorway
+signalling should be positioned in a sequence and not on an individual basis.
+4.1.3
+Above-lane signals or variable message signs (VMS) should not be positioned within 300 m
+downstream of a change in the number of carriageway lanes between junctions.
+4.1.4
+The Overseeing Organisation should be advised at an early stage of any signals outside the scheme
+boundaries that may be impacted by the proposed works.
+NOTE
+The boundaries between carriageway and lane signalling cannot always coincide with the limits of the
+scheme if safe signal sequencing is to be achieved. Therefore, it is important to check the effect of the
+scheme design on existing signals in adjacent sections of motorway.
+4.2
+The spacing between any ADS(s) and/or signal(s) shall be no less than 180 m.
+4.2.1
+The spacing between a VMS and a route confirmatory sign, or a sign indicating the distance to the next
+motorway service area should be at least 200 m.
+Motorway variable message signs
+4.3
+Where a new system of variable message signs (VMS) is to be provided and above-lane signals are
+not, or not planned, to be present, VMS shall be located in accordance with the requirements in the
+'Motorway variable message signs' sub-section of this document.
+NOTE
+Illustrative diverge and merge layouts for VMS are provided in Figures A.1 and A.2 in Appendix A.
+4.4
+Where above-lane signals are, or planned to be, present, VMS shall be located in accordance with
+requirements in the 'Motorway above lane signals' section of this document.
+4.5
+The first VMS shall be provided between 200 and 400 metres downstream of the entry datum point.
+4.5.1
+The first VMS downstream of the entry datum point should be provided as close to the 300 metres point
+as practicable.
+NOTE
+The function of a first or primary VMS can be fulfilled by a single VMS.
+4.6
+A primary VMS shall be provided between 200 and 400 metres upstream of the primary ADS.
+4.6.1
+The primary VMS upstream of the primary ADS should be provided as close to the 300 metres point as
+practicable.
+NOTE
+The function of a first or primary VMS can be fulfilled by a single VMS.
+4.6.2
+Where it is not practicable to locate the primary VMS between 200 and 400 metres upstream of the
+primary ADS, the VMS may be co-located with the relevant gantry mounted ADS.
+4.7
+A secondary VMS shall be provided between 200 and 400 metres upstream of the secondary ADS, and
+a minimum of 180 metres downstream of the primary ADS.
+4.7.1
+The secondary VMS upstream of the secondary ADS should be provided as close to the 300 metres
+point as practicable.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 13 of 60
+======================================================================
+CD 146 Version 2.0.0
+4. Motorway signalling and variable message sign...
+NOTE
+The function of a first or secondary VMS can be fulfilled by a single VMS.
+4.7.2
+Where it is not practicable to locate a secondary VMS between 200 and 400 metres upstream of the
+secondary ADS, the VMS may be co-located with the relevant gantry mounted ADS.
+4.8
+A final VMS shall be provided at the back of the diverge nose.
+4.8.1
+The final VMS should be provided as close as practicable to the back of the diverge nose.
+4.9
+VMS shall be spaced between 600 and 1,500 metres apart between the first VMS and the primary VMS.
+4.10
+An intra-junction VMS shall be provided if the distance between the first VMS and the upstream VMS is
+greater than 1,500 metres.
+4.10.1
+The intra-junction VMS should be located as near to the midpoint of the upstream VMS and first VMS
+as practicable.
+4.11
+There shall be unobstructed forward visibility to each VMS for at least two thirds of the distance
+between the VMS in question and the upstream VMS.
+4.12
+Visibility shall be measured to the centre of the VMS:
+1)
+from the centre of the left-hand lane on left-hand curves with radii up to 2,880 m;
+2)
+from the centre of the right-hand lane on right-hand curves with radii up to 2,880 m; and
+3)
+from the centre of the lane closest to the signal elsewhere.
+Motorway strategic variable message signs
+4.13
+Where the operational need for the provision of strategic VMS has been established, strategic VMS
+shall be provided between 200 m and 400 m upstream of the associated primary and secondary ADS.
+4.13.1
+Strategic VMS upstream of a primary or secondary ADS should be provided as close to the 300 metres
+point as practicable.
+4.14
+Strategic VMS shall not be colocated with fixed signs.
+4.15
+Where existing strategic VMS are present they shall be retained or be repositioned.
+NOTE
+It is not necessary to provide additional strategic VMS as part of a scheme.
+4.15.1
+The sequence of signs and signals on the approach to a junction should be strategic VMS, VMS, and
+then the primary ADS.
+4.15.2
+The sequence of signs and signals following the primary ADS should be strategic VMS, VMS, and then
+the secondary ADS.
+4.15.3
+The spacing between strategic VMS, VMS and ADS should be equalised as far as practicable.
+Motorway above-lane signals
+4.16
+Where above-lane signals currently exist, an assessment shall be undertaken to determine the impact
+of modifying their layout in accordance with the requirements in this 'Motorway above-lane signals'
+sub-section.
+4.16.1
+Where the assessment to determine the impact of modifying the layout of existing above-lane signals
+shows that application of the requirements in this 'Motorway above-lane signals' sub-section can lead
+to operational inconsistencies or lead to disproportionate cost, then the original above-lane signal
+layout may be retained.
+NOTE
+Operational inconsistencies can include a short length with a different signal layout.
+4.17
+The first above-lane signals shall be provided between 200 and 400 metres downstream of the entry
+datum point.
+4.17.1
+The first above-lane signals downstream of the entry datum point should be provided as close to the
+300 metres point as practicable.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 14 of 60
+======================================================================
+CD 146 Version 2.0.0
+4. Motorway signalling and variable message sign...
+4.18
+Above-lane signals shall be colocated with the primary, secondary and final direction signs.
+4.19
+Confirmatory above-lane signals shall be provided between 30 and 50 metres downstream of the
+diverge nose tip.
+4.20
+Where the distance between the final above-lane signal and the confirmatory above-lane signal gantry
+exceeds 800 metres, a supplementary above-lane signal or signals shall be added so that there is no
+more than 800 metres between above-lane signals.
+4.21
+Inter-junction above-lane signals shall be spaced between 600 and 1,500 metres apart between the
+first above-lane signal and the primary above-lane signal.
+4.21.1
+The spacing between existing inter-junction above- lane signals may be retained if:
+1)
+the minimum spacing is less than 600 metres; and,
+2)
+the structure or foundations are suitable for reuse with new above-lane signals.
+4.22
+Intra-junction above-lane signals shall be provided if above-lane signals are to be provided on the
+downstream link and where the distance between the confirmatory above-lane signal gantry and the
+first above-lane signal is greater than 1,500 metres.
+4.22.1
+Intra-junction above-lane signals should be located as near to the midpoint of the confirmatory and first
+above lane signals as practicable.
+4.23
+There shall be unobstructed forward visibility to each set of above-lane signals for at least two thirds of
+the distance between the above-lane signals in question and the above lane signals upstream.
+4.24
+Visibility shall be measured to the two least obstructed signals:
+1)
+from the centre of the left-hand lane on left-hand curves with radii up to 2,880 m; or
+2)
+from the centre of the right-hand lane on right-hand curves with radii up to 2,880 m; or
+3)
+from the centre of the lane closest to the signals elsewhere.
+4.25
+A primary VMS shall be provided between 200 and 400 metres upstream of the primary ADS above
+lane signal.
+4.25.1
+The primary VMS upstream of the primary ADS above-lane signal should be provided as close to the
+300 metres point as practicable.
+4.26
+A secondary VMS shall be provided between 200 and 400 metres upstream of the secondary ADS
+above-lane signal, and a minimum of 180 metres downstream of the primary ADS above-lane signal.
+4.26.1
+The secondary VMS upstream of the secondary ADS above-lane signal should be provided as close to
+the 300 metres point as practicable.
+4.27
+A VMS shall be co-located on the first, confirmatory and all inter-junction and intra-junction gantries,
+unless this results in ahead signs, exit signs, above- lane signals and VMS being mounted on a single
+gantry.
+Motorway entry slip signals
+4.28
+Where above-lane signal(s) and/or VMS(s) are provided on the mainline, an entry slip signal (ESS)
+shall be provided on the offside verge of the entry slip road.
+4.29
+ESS shall be visible from all approach angles to the entry slip road.
+4.30
+Where visibility from all approach angles is not achieved with one ESS, additional ESSs shall be
+provided to achieve visibility from all approach angles.
+4.30.1
+Existing ESSs may be repositioned to achieve the positioning and visibility requirements.
+4.31
+ESSs shall be positioned downstream of the motorway regulatory sign to Diagram 2901 of UKSI
+2016/362 (TSRGD) [Ref 3.N].
+NOTE
+It could be necessary to relocate the ESS and/or motorway regulatory sign to achieve the correct
+sequence.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 15 of 60
+======================================================================
+CD 146 Version 2.0.0
+5. All-purpose trunk road advance direction sign...
+5.
+All-purpose trunk road advance direction signs
+General
+5.1
+Advance direction sign (ADS) positioning distances shall be measured from the exit datum point.
+Grade separated junctions
+5.2
+At least one ADS shall be provided on the approach to a grade separated junction.
+5.2.1
+A primary ADS should be provided on the approach to each grade separated junction exit in
+accordance with the hierarchy, distances and tolerances outlined in Table 5.4.
+NOTE 1
+A primary ADS cannot always be provided under some circumstances, e.g. constraints in junction
+spacing to accommodate the primary ADS.
+NOTE 2
+For junctions with spacing constraints, a primary ADS can be provided within the intra-junction section
+or with signs on a preceding junction.
+5.3
+A secondary ADS shall be provided on the approach to each grade separated junction exit.
+5.4
+Where a primary ADS is provided in combination with a secondary ADS the hierarchy, distances and
+tolerances outlined in Table 5.4 shall apply.
+Table 5.4 ADS combinations (primary and secondary) for APTRs
+Priority
+APTR Primary ADS
+position distance
+APTR Secondary
+ADS position distance
+Upstream tolerance
+of signed distance
+Downstream
+tolerance of
+signed distance
+1
+1 mile
+1/2 mile
+10%
+20 metres
+2
+2/3 mile
+1/3 mile
+10%
+20 metres
+3
+1 mile
+1/3 mile
+10%
+20 metres
+4
+1 1/4 mile
+115 metres
+20 metres
+1/2 mile
+10%
+20 metres
+5
+1 1/3 mile
+1/2 mile
+10%
+20 metres
+6
+1 1/4 mile
+115 metres
+20 metres
+1/3 mile
+10%
+20 metres
+7
+1 1/3 mile
+2/3 mile
+10%
+20 metres
+8
+1 1/3 mile
+1/3 mile
+10%
+20 metres
+NOTE 1
+Beyond 115 metres upstream of the 1 1/4 mile primary ADS, a 1 1/3 mile ADS is more accurate than a
+1 1/4 mile primary ADS.
+NOTE 2
+Illustrative diverge and merge layouts for ADS are provided in Figures A.1 and A.2 in Appendix A.
+5.5
+Where a secondary ADS is provided in combination with a primary ADS the hierarchy of primary and
+secondary ADS positioning shall be applied in sequence starting at 'priority 1' as shown in Table 5.4.
+5.5.1
+Only when it is not practicable to provide a combination of signs within the tolerances given in Table
+5.4, a lower priority combination may be used.
+5.5.2
+ADS should be positioned as close as practicable to the distances they sign.
+5.6
+Where a primary ADS is not provided in combination with a secondary ADS the hierarchy, distances
+and tolerances outlined in Table 5.6 shall apply.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 16 of 60
+======================================================================
+CD 146 Version 2.0.0
+5. All-purpose trunk road advance direction sign...
+Table 5.6 ADS (secondary only) for APTRs
+Priority
+APTR Secondary ADS
+position distance
+Upstream tolerance of signed
+distance
+Downstream
+tolerance of signed
+distance
+1
+1/2 mile
+10%
+20 metres
+2
+1/3 mile
+10%
+20 metres
+3
+2/3 mile
+10%
+20 metres
+5.7
+Where a primary ADS is not provided in combination with a secondary ADS the hierarchy of secondary
+ADS positioning shall be applied in sequence starting at 'priority 1' as shown in Table 5.6.
+5.7.1
+When a sign within the tolerances given in Table 5.6 cannot be provided, a lower priority may be used.
+5.7.2
+ADS should be positioned as close as practicable to the distances they sign.
+5.8
+A final direction sign shall be positioned at the exit datum or up to 50 metres upstream of it.
+5.9
+A confirmatory direction sign shall be provided.
+5.10
+Where there is a confirmatory above-lane signal gantry, the confirmatory direction sign shall be
+colocated on the confirmatory above-lane signal gantry.
+5.11
+Where there is no confirmatory above-lane signal gantry, the confirmatory direction sign shall be
+positioned either:
+1)
+on the verge of the 'diverge' island, not more than 30 metres beyond the physical nose; or,
+2)
+on a gantry between 30 and 50 metres downstream of the diverge nose tip.
+At-grade junctions
+5.12
+The need for ADS on the approach to at-grade junctions shall be determined on a case by case basis.
+5.12.1
+ADS for at-grade junctions should be positioned in accordance with Appendix E of TSM Chapter 7 [Ref
+4.N].
+NOTE
+Within TSM Chapter 7 [Ref 4.N] a Primary ADS is referred to as the 'first sign' and Secondary ADS is
+referred to as the 'second sign'.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 17 of 60
+======================================================================
+CD 146 Version 2.0.0
+6. All-purpose trunk road signalling and variabl...
+6.
+All-purpose trunk road signalling and variable message signs
+General
+6.1
+Where the operational need for VMS provision has been established, VMS shall be positioned in
+accordance with the requirements within the 'APTR variable message signs' sub-section.
+NOTE
+Illustrative diverge and merge layouts for VMS are provided in Figures A.1 and A.2 Appendix A.
+6.2
+Where the operational need for strategic VMS has been established, strategic VMS shall be positioned
+in accordance with the requirements within the 'APTR strategic variable message signs' sub-section.
+6.3
+Where above-lane signals currently exist or are proposed, the requirements in the 'APTR above-lane
+signals' sub-section shall apply.
+6.3.1
+The Overseeing Organisation should be advised at an early stage of any alterations to signals outside
+the scheme boundaries that are potentially necessary.
+NOTE
+The boundaries between carriageway and lane signalling cannot always coincide with the limits of the
+scheme if safe signal sequencing is to be achieved. Therefore, it is important to check the effect of the
+scheme design on existing signals in adjacent sections of APTRs.
+6.4
+The spacing between any ADS(s) and/or signal(s) shall be no less than 180 m.
+APTR variable message signs
+6.5
+A VMS or sequence of VMS shall be provided based upon the operational need.
+6.5.1
+The first VMS should be provided between 200 and 400 metres downstream of the entry datum point,
+and as close to the 300 metres point as practicable.
+6.5.2
+A primary VMS should be provided between 200 and 400 metres upstream of the primary ADS, and as
+close to the 300 metres point as practicable.
+NOTE
+The function of a first or primary VMS can be fulfilled by a single VMS.
+6.5.3
+A secondary VMS should be provided between 200 and 400 metres upstream of the secondary ADS,
+and as close to the 300 metres point as practicable.
+NOTE
+The function of a first or secondary VMS can be fulfilled by a single VMS.
+6.5.4
+A final VMS should be provided as close as practicable to the back of the diverge nose when signalling
+is to continue through the junction.
+6.5.5
+VMS should be spaced between 600 and 1,500 metres apart between the first VMS and the primary
+VMS.
+6.5.6
+Where primary VMS are not provided the distances should be measured from a secondary VMS.
+6.5.7
+An intra-junction VMS should be provided if the distance between the first VMS and the upstream VMS
+is greater than 1,500 metres.
+6.5.8
+The intra-junction VMS should be located as near to the midpoint of the upstream VMS and first VMS
+as practicable.
+6.6
+Where a secondary VMS is provided it shall be a minimum of 180 metres downstream of the primary
+ADS.
+6.7
+There shall be unobstructed forward visibility for a minimum distance of 295 m to a VMS.
+6.7.1
+There should be unobstructed forward visibility equal to or greater than 350 m to a VMS.
+6.8
+Visibility shall be measured to the centre of the VMS:
+1)
+from the centre of the left-hand lane on left-hand curves with radii up to 2,880 m;
+2)
+from the centre of the right-hand lane on right-hand curves with radii up to 2,880 m; and,
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 18 of 60
+======================================================================
+CD 146 Version 2.0.0
+6. All-purpose trunk road signalling and variabl...
+3)
+from the centre of the lane closest to the signal elsewhere.
+APTR strategic variable message signs
+6.9
+Where the operational need for the provision of strategic VMS has been established, strategic VMS
+shall be provided between 200 m and 400 m upstream of the associated primary and secondary ADS.
+6.9.1
+Strategic VMS upstream of a primary or secondary ADS should be provided as close to the 300 metres
+point as practicable.
+6.10
+Strategic VMS shall not be co-located with fixed traffic signs.
+6.11
+Where existing strategic VMS are present they shall be retained or be repositioned.
+NOTE
+It is not necessary to provide additional strategic VMS as part of a scheme.
+6.11.1
+The sequence of sign and signals on the approach to a junction should be strategic VMS, VMS, and
+then the primary ADS.
+6.11.2
+The sequence of sign and signals following the primary ADS should be strategic VMS, VMS, and then
+the secondary ADS.
+6.11.3
+The spacing between Strategic VMS, VMS and ADS should be equalised as far as practicable.
+6.12
+The spacing between any ADS(s) and/or signal(s) shall be no less than 180 m.
+APTR above-lane signals
+6.13
+Where above-lane signals currently exist, an assessment shall be undertaken to determine the impact
+of modifying their layout in accordance with the requirements in this 'APTR above-lane signals'
+sub-section.
+6.13.1
+Where the assessment to determine the impact of modifying the layout of existing above-lane signals
+shows that application of the requirements in this 'APTR above lane signals' section can lead to
+operational inconsistencies or lead to disproportionate cost, then the original above-lane signal layout
+may be retained.
+NOTE
+Operational inconsistencies can include a short length with a different signal layout, which could impact
+the customer experience.
+6.14
+Where an all purpose trunk road feeds directly into a motorway, gantry mounted above-lane signals
+shall be provided where the road:
+1)
+merges with the motorway as a slip road; the gantry is provided prior to the point where the two
+carriageways merge;
+2)
+ends and becomes a motorway; the gantry is provided immediately after the start of a motorway.
+6.15
+A minimum of one additional gantry mounted above-lane signals shall be provided in advance of the
+start of a motorway, except where the speed limit of the approach road is less than 40 mph.
+6.16
+Where the operational need for above-lane signals has been established on APTRs, a sequence of
+above lane signals shall be provided.
+6.16.1
+The first above-lane signals should be provided between 200 and 400 metres downstream of the entry
+datum point, and as close to the 300 metres point as practicable.
+6.16.2
+Above-lane signals should be co-located with the primary, secondary and final direction signs.
+6.16.3
+Confirmatory above-lane signals should be provided between 30 and 50 metres downstream of the
+diverge nose tip.
+6.16.4
+Where the distance between the final above-lane signal and the confirmatory above-lane signal gantry
+exceeds 800 metres, a supplementary above-lane signal or signals should be provided so that there is
+no more than 800 metres between above-lane signals.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 19 of 60
+======================================================================
+CD 146 Version 2.0.0
+6. All-purpose trunk road signalling and variabl...
+6.16.5
+Inter-junction above-lane signals should be spaced between 600 and 1,500 metres apart between the
+first above-lane signal and the primary above-lane signal.
+6.16.6
+The spacing between existing inter-junction above-lane signals may be retained if:
+1)
+the minimum spacing is less than 600 metres; and
+2)
+the structure or foundations are suitable for reuse with new above lane signals.
+6.16.7
+Intra-junction above-lane signals should be provided if above-lane signals are to be provided on the
+downstream link and where the distance between the confirmatory above-lane signal gantry and the
+first above-lane signal is greater than 1,500 metres.
+6.16.8
+Intra-junction above-lane signals should be located as near to the midpoint of the confirmatory and first
+above-lane signals as practicable.
+6.17
+There shall be unobstructed forward visibility for a minimum distance of 295m to an above-lane signal.
+6.17.1
+There should be unobstructed forward visibility equal to or greater than 350m to an above-lane signal.
+6.18
+Visibility shall be measured to the two least obstructed signals:
+1)
+from the centre of the left-hand lane on left-hand curves with radii up to 2,880 m; or
+2)
+from the centre of the right-hand lane on right-hand curves with radii up to 2,880 m; or
+3)
+from the centre of the lane closest to the signals elsewhere.
+6.18.1
+A primary VMS should be provided between 200 and 400 metres upstream of the primary ADS above
+lane signal, and as close to the 300 metres point as practicable.
+6.18.2
+A secondary VMS should be provided between 200 and 400 metres upstream of the secondary ADS
+above-lane signal, and as close to the 300 metres point as practicable.
+6.19
+Where a secondary VMS is provided it shall be a minimum of 180 metres downstream of the primary
+ADS above-lane signal.
+6.19.1
+A VMS should be co-located on the first, confirmatory and all inter-junction and intra-junction gantries,
+unless this results in ahead signs, exit signs, above-lane signals and VMS being mounted on a single
+gantry.
+APTR entry slip signals
+6.20
+Where above-lane signal(s) and/or VMS(s) are provided on the mainline, an entry slip signal (ESS)
+shall be provided on the offside verge of the entry slip road.
+6.21
+ESSs shall be visible from all approach angles to the entry slip road.
+6.22
+Where an APTR is subject to a speed limit different to the adjacent network, ESS shall be positioned
+downstream of any speed limit terminal sign on the slip road.
+NOTE
+It might be necessary to relocate the ESS and/or speed limit terminal sign to achieve the correct
+sequence.
+6.23
+Where visibility from all approach angles is not achieved with one ESS, additional ESSs shall be
+provided to achieve visibility from all approach angles.
+6.23.1
+Existing ESSs may be repositioned to achieve the positioning and visibility requirements.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 20 of 60
+======================================================================
+CD 146 Version 2.0.0
+7. Normative references
+7.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 122, 'Geometric design of grade separated junctions'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+The National Archives. UKSI 2016/362 (TSRGD), 'The Traffic Signs Regulations and
+General Directions 2016'
+Ref 4.N
+TSO. TSM Chapter 7, 'Traffic Signs Manual Chapter 7 - The Design of Traffic Signs'
+Ref 5.N
+The National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland) 1997'
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 21 of 60
+======================================================================
+CD 146 Version 2.0.0
+8. Informative references
+8.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. GD 300, 'Requirements for new and upgraded all-purpose trunk
+roads (expressways)'
+Ref 2.I
+National Highways. TD 131, 'Roadside technology and communications'
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 22 of 60
+======================================================================
+CD 146 Version 2.0.0
+Appendix A. Illustrative grade separated diverge and mer...
+Appendix A. Illustrative grade separated diverge and merge layouts for
+VMS and ADS
+Figure A.1 provides illustrative layouts for VMS and ADS on grade-separated diverges. Figure A.2
+provides illustrative layouts for VMS and ADS on grade-separated merges.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 23 of 60
+======================================================================
+CD 146 Version 2.0.0
+Appendix A. Illustrative grade separated diverge and mer...
+Figure A.1 Illustrative Diverge Layouts for VMS and ADS
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 24 of 60
+======================================================================
+CD 146 Version 2.0.0
+Appendix A. Illustrative grade separated diverge and mer...
+Figure A.2 Illustrative Merge Layouts for VMS and ADS
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 25 of 60
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 26 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 146 - ENAA
+England National Application Annex for
+Positioning of signalling and advance direction
+signs
+(formerly TD 46/05 and TD 18/85 )
+Version 2.0.0
+Summary
+This National Application Annex sets out the National Highways specific positioning
+requirements of signalling (lane signals and variable message signs) and advance direction
+signs for motorways.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 27 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+E/1. Smart motorways [CD 146, 3]
+7
+Direction signing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Control signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Positioning requirements for control signalling/VMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Visibility requirements for control signalling/VMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Strategic variable message signing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Entry slip signals (ESS) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+VMS/signalling requirements on interchange links
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+E/2. Normative references
+12
+E/3. Informative references
+13
+Appendix E/A. Figures of generic designs for ALR and CM
+14
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 28 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146 -
+ENAA
+2.0.0
+September 2023
+England NAA
+Change to policy, major
+revision, new document
+development
+Rev. V.2.0.0: (Publication: Sept. 2023) Minor changes primarily relating to clauses for VMS provision for
+emergency areas and entry slip signals. Figures in Appendix E/A refreshed.
+Revision 1 (March 2020) Update to references only.
+Revision 0 (July 2019) Highways England National Application Annex to CD 146.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146
+1
+March 2020
+CD 146
+0
+July 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 29 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes parts of Section 2.7 of Interim Advice Note 161/15 Smart Motorways.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 30 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the National Highways-specific positioning requirements for
+signalling (above-lane signals and variable message signs) and advance direction signs for smart
+motorways.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 31 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ADS
+Advance direction sign
+ALR
+All lane running
+CM
+Controlled motorways
+EA
+Emergency area
+ERT
+Emergency roadside telephone
+ESS
+Entry slip signal
+FTP
+Fixed taper point
+HGV
+Heavy goods vehicle
+MSA
+Motorway service area
+SCRG
+Safety Control Review Group
+SM
+Smart motorways
+VMS
+Variable message sign
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 32 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Conditioning VMS
+At the start of the scheme the first VMS is defined as the conditioning
+VMS.
+Confirmatory direction sign
+a sign placed over the diverge (gantry mounted) or on the nosing
+(verge mounted), which confirms the destinations and/or routes
+reached from the junction
+Continuation VMS
+With the exception of the terminal junction, the VMS located on a
+gantry at the diverge nose is defined as a continuation VMS.
+Intra-junction
+This is the region within a junction on the mainline carriageway
+between the diverge tip of the nose and the entry tip of the nose.
+NOTE 1: Intra-junction also includes the entry slip road.
+NOTE 2: Definition from TD 131 [Ref 1.I].
+Termination VMS
+At the terminal junction of a scheme, the VMS located on a gantry at
+the diverge nose is defined as the termination VMS.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 33 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/1. Smart motorways [CD 146, 3]
+E/1.
+Smart motorways [CD 146, 3]
+Direction signing
+E/1.1
+CD 146, clause 3.5 shall not apply.
+Control signals
+E/1.2
+VMS shall be provided at every signalling site except where:
+1)
+ahead signing, exit signing and above-lane signalling are all co-located on the same structure;
+2)
+there are existing strategic message signs.
+E/1.2.1
+Where additional signals are required between the secondary ADS and the continuation/termination
+VMS, then these may take the form of a cantilever VMS, above-lane signals or VMS on the final ADS
+gantry.
+E/1.3
+Where carriageway signalling is provided, both this and the VMS capability shall be integrated within
+one item of equipment, as shown in Figures E/A.1 and E/A.2, except where there are existing strategic
+message signs.
+E/1.3.1
+For all lane running (ALR) schemes, the midpoint of the carriageway signal/VMS enclosure should be
+located between the edge of carriageway road marking and the lane 1/lane 2 road marking.
+E/1.3.2
+For controlled motorways (CM) schemes, the midpoint of the carriageway signal/VMS enclosure should
+be located between the edge of carriageway and the hard shoulder/lane 1 road marking, except where
+there are existing strategic message signs.
+NOTE
+The final choice of carriageway signal/VMS lateral position is dictated by the horizontal and vertical
+alignment of the carriageway and presence of upstream obstructions.
+E/1.4
+Where existing signal portal gantry structures at gateway or intermediate locations are retained as part
+of a scheme, mandatory above-lane signals shall be provided to replace the advisory above-lane
+signals.
+E/1.4.1
+VMS should be provided to replace the advisory above-lane signals where:
+1)
+existing signal portal gantry structures that are not at gateway or intermediate locations are
+retained as part a scheme; and
+2)
+there are no more than 4 running lanes.
+E/1.5
+Above-lane signalling shall be provided in locations with 5 or more running lanes (e.g. a parallel
+connector road on the approach to a junction).
+E/1.6
+Where additional signals are required between the secondary ADS and the continuation/termination
+VMS in order to meet the positioning and visibility requirements, these shall take the form of a
+cantilever VMS, above lane signals or VMS on the final ADS gantry.
+E/1.7
+A conditioning VMS shall be provided on all mainline approaches to a smart motorways (SM) scheme.
+NOTE
+The approaches to a SM scheme can be multiple locations at a motorway to motorway interchange.
+E/1.7.1
+Only one conditioning signal should be provided per approach when transitioning from advisory
+signalling.
+E/1.7.2
+The VMS should be provided on an existing gantry in a location over the main carriageway that
+simplifies traffic management requirements for maintenance.
+Positioning requirements for control signalling/VMS
+E/1.8
+Above-lane signals and VMS shall be provided between 200 and 400 metres downstream of the entry
+datum point, at the "gateway signals and VMS" location, as shown in Figures E/A.1 and E/A.2.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 34 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/1. Smart motorways [CD 146, 3]
+E/1.8.1
+Above-lane signals and VMS downstream of the entry datum point should be provided as close to the
+300 metres point as practicable.
+E/1.8.2
+Where there are two successive merges, and the distance between the end of the first merge and the
+nose of the second merge does not allow room to locate a gateway gantry between 200 and 400
+metres, then the gateway gantry at the first merge may be omitted.
+E/1.9
+A minimum of two signal sites per link (between the entry and exit datum points) shall be provided.
+E/1.9.1
+The second set of signals, on a link with only two signal sites, may either be above-lane or carriageway
+signals.
+NOTE 1
+Signal spacing at less than 600 m is acceptable to meet the requirement to provide a minimum of two
+signal sites per link (between the entry and exit datum points).
+NOTE 2
+The selection of signal type for the second site needs to be endorsed by the SCRG (Safety Control
+Review Group).
+E/1.9.2
+The spacing between the two signal sites per link should be equal.
+E/1.10
+For distances between 5 km and 6 km measured from the gateway signal to the downstream
+continuation/termination VMS at the back of the diverge nose, an assessment shall be undertaken to
+determine whether additional "above lane signals and VMS" sites are to be provided, as shown in
+Figures E/A.1 and E/A.2 at the "intermediate signals and VMS" location.
+NOTE
+The decision whether additional "above-lane signals and VMS" sites are provided for link lengths
+between 5 km and 6 km measured from the gateway signal to the downstream continuation/termination
+VMS at the back of the diverge nose needs to be endorsed by the SCRG.
+E/1.11
+Where the link exceeds 6 km then a minimum of one "intermediate signal and VMS" site shall be
+provided.
+NOTE
+The decision to provide one or more "intermediate signal and VMS" sites if the link exceeds 6 km needs
+to be endorsed by the SCRG.
+E/1.12
+The distance between signals as described below shall not be greater than 6 km:
+1)
+gateway signal to the downstream continuation/termination VMS at the back of the diverge nose;
+2)
+gateway signal to a downstream intermediate signal;
+3)
+intermediate signal to the downstream continuation/termination VMS at the back of the diverge
+nose; and,
+4)
+intermediate signal to downstream intermediate signal.
+E/1.12.1
+The spacing between the signals as described below should be equal:
+1)
+gateway signal to the downstream continuation/termination VMS at the back of the diverge nose;
+2)
+gateway signal to a downstream intermediate signal;
+3)
+intermediate signal to the downstream continuation/termination VMS at the back of the diverge
+nose; and,
+4)
+intermediate signal to downstream intermediate signal.
+E/1.13
+Where no confirmatory direction sign gantry is present or proposed, a VMS shall be provided
+downstream of the diverge back of nose at a junction or interchange except at a motorway service area
+(MSA).
+E/1.13.1
+The VMS should be provided as close to the diverge back of nose as practicable.
+E/1.13.2
+Where an existing gantry is present over the diverge nose then this may be used for VMS provision,
+instead of locating the signal downstream of the back of nose.
+E/1.14
+At diverge junctions, carriageway signalling on a VMS shall be located upstream of the primary and
+secondary ADS.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 35 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/1. Smart motorways [CD 146, 3]
+E/1.14.1
+At diverge junctions, carriageway signalling on a VMS should be located between 200 and 400 metres
+upstream of the primary and secondary ADS, and as close to the 300 metres point as practicable.
+E/1.14.2
+Where existing portal gantries are present, existing infrastructure should be reused to satisfy the
+functional, spacing and visibility requirements, thereby co-locating the control signalling with the
+primary, secondary and final direction signs.
+E/1.15
+Mandatory control signals shall be spaced between a minimum of 600 m and up to a maximum of 1500
+m apart.
+NOTE 1
+The actual mandatory control signal spacing is determined by the requirements in the 'visibility
+requirements for control signalling/VMS' sub-section.
+NOTE 2
+The spacing requirements for mandatory control signals is also applicable at MSAs.
+NOTE 3
+Any situation where mandatory control signal spacing is less than 600 m is to be endorsed by the
+SCRG.
+NOTE 4
+Any situation where mandatory control signal spacing is greater than 1500 m is to be endorsed by the
+SCRG and Operations technical leadership group.
+E/1.15.1
+At intra-junction, mandatory control signals should be spaced between a minimum of 600 m and up to a
+maximum of 1500 m apart.
+NOTE
+At intra-junction, mandatory control signals spaced less than 600 m or more than 1500 m is to be
+endorsed by the SCRG.
+E/1.16
+Signal gantries shall not be positioned such that they span a ghost island.
+NOTE
+Signal gantries positioned such that they span a ghost island can cause inappropriate signals to be
+displayed to road users.
+E/1.17
+An intra-junction VMS with combined signal shall be provided if the distance between the continuation
+VMS/conditioning VMS and the gateway signal/VMS following the junction merge, is greater than 1500
+m.
+E/1.17.1
+The intra-Junction VMS should be located at or close to the midpoint subject to sight line and
+buildability constraints.
+Visibility requirements for control signalling/VMS
+E/1.18
+There shall be unobstructed forward visibility for a minimum distance of 350 m in advance of the
+downstream signal.
+E/1.19
+Where the distance between signals is greater than 800 m, there shall be unobstructed forward visibility
+to each signal for at least half of the distance between the signal in question and the signal upstream.
+E/1.20
+The maximum distance between the upstream signal and the start of visibility of the downstream signal
+shall not exceed 600 m.
+NOTE
+Where a scheme design proposes non-visibility distances greater than 500 m, this is to be endorsed by
+the SCRG and the Operations technical leadership group.
+E/1.21
+Where the downstream signal is provided by a verge mounted VMS, the unobstructed forward visibility
+shall be provided for a minimum of 50% of the VMS sign face (right hand side).
+E/1.22
+Where the downstream signal is provided by an above-lane signal, the unobstructed forward visibility
+shall be provided to all of the signal mounted over lane 1 (right-hand bend) or lane 4 (left-hand bend).
+E/1.23
+The unobstructed forward visibility shall be determined:
+1)
+from the centre line of the right-hand traffic lane on right-hand bends;
+2)
+from the centre line of the left-hand traffic lane on left-hand bends;
+3)
+from the centre point of any lane on straights or near straights.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 36 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/1. Smart motorways [CD 146, 3]
+E/1.24
+The need for fixed taper points (FTPs) shall be established.
+E/1.24.1
+The final signal/VMS should be positioned between 300 m and 450 m upstream of the FTP.
+E/1.24.2
+The secondary signal/VMS should be positioned between 500 m and 1500 m from the final signal/VMS.
+E/1.24.3
+The primary signal/VMS should be positioned between 500 m and 1500 m from the secondary
+signal/VMS.
+E/1.25
+For every emergency area (EA) situated on the mainline or on a motorway-to-motorway interchange
+link, a VMS shall be located upstream of the EA such that the EA end of exit taper is visible from all
+lanes at a point adjacent to this VMS.
+NOTE 1
+VMS located upstream of the EA is referred to as the EA VMS.
+NOTE 2
+VMS located upstream of the EA such that a vehicle exiting the EA is visible from all lanes at a point
+adjacent to this VMS, enables a message advising road users that a vehicle could be leaving the EA to
+be set.
+E/1.26
+The visibility requirements in this Section shall be met for signal sites that are designated as 'live' and
+'non-live' enforcement sites.
+Strategic variable message signing
+E/1.27
+In addition to the requirements of CD 146, where it is not possible to relocate strategic VMS according
+to the requirements, alternative positions shall be agreed with regional control centres (RCC), national
+traffic information service (NTIS) and the senior user and endorsed by the SCRG.
+Entry slip signals (ESS)
+E/1.28
+ESS shall be provided at all junctions.
+E/1.29
+ESS shall be located at the last decision point before accessing the motorway.
+NOTE 1
+The last decision point can be the start of the slip road, such that customers still have the option not to
+join the motorway (during a motorway closure) when viewing the signal(s).
+NOTE 2
+Multiple directions of entry to a slip road can require additional signals to provide visibility from all
+approach angles.
+E/1.30
+Where the first signal downstream of the merge is not visible from the entry datum point, existing ESS
+shall be upgraded to be capable of displaying all of the following:
+1)
+advisory speed limits;
+2)
+mandatory speed limits;
+3)
+lane control aspects.
+E/1.30.1
+Where existing ESS are being upgraded the existing infrastructure should be reused where it has been
+determined that it has residual design life.
+E/1.30.2
+Existing ESS capable of displaying advisory aspects may be retained if they are located to provide
+visibility from all approach angles, and the first signal downstream of the merge is visible from the entry
+datum point.
+E/1.31
+Where existing ESS are not located at the start of the slip to meet the visibility requirements, or there
+are no existing ESS, then a single mandatory ESS shall be installed at the start of the slip road, located
+to provide visibility from all approach angles.
+E/1.32
+Where visibility from all approach angles is not achieved with one signal, additional signals shall be
+provided to achieve visibility from all approach angles.
+E/1.33
+Where ESS are not currently installed at MSAs they shall only be provided if:
+1)
+the first signal downstream of the merge is not visible from the entry datum point; or
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 37 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/1. Smart motorways [CD 146, 3]
+2)
+the ESS is able to be located such that customers still have the option not to join the motorway
+(during a motorway closure) when viewing the signal.
+E/1.33.1
+Where the first signal downstream of the merge is visible from the entry datum point, existing ESS at
+MSAs may be retained.
+E/1.33.2
+Where the first signal downstream of the merge is not visible from the entry datum point, existing ESS
+at MSAs should be replaced with a single ESS capable of displaying:
+1)
+advisory speed limits;
+2)
+mandatory speed limits; and
+3)
+lane control aspects.
+E/1.34
+ESS shall be positioned downstream of the motorway regulatory sign to Diagram 2901 of UKSI
+2016/362 (TSRGD) [Ref 2.N].
+NOTE
+It could be necessary to relocate the ESS and/or motorway regulatory sign to achieve the correct
+sequence.
+VMS/signalling requirements on interchange links
+E/1.35
+Where a SM scheme intersects with an existing or planned SM scheme at a motorway-to-motorway
+interchange with free flow links between the schemes, the VMS/signalling requirements shall be
+discussed with the Overseeing Organisation.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 38 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+The National Archives. UKSI 2016/362 (TSRGD), 'The Traffic Signs Regulations and
+General Directions 2016'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 39 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+E/3. Informative references
+E/3.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. TD 131, 'Roadside technology and communications'
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 40 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Appendix E/A. Figures of generic designs for ALR and CM
+Appendix E/A. Figures of generic designs for ALR and CM
+Figure E/A.1 provides an illustrative layout for ADS, VMS and signals for ALR schemes. Figure E/A.2
+provides an illustrative layout for ADS, VMS and signals for CM schemes.
+The mounting options for VMS, signs and signals are shown in Figure E/A.1 and E/A.2 for illustrative
+purposes, and the form of the superstructure may be varied.
+The following are omitted from Figure E/A.1 for clarity:
+1)
+count-down markers;
+2)
+marker posts;
+3)
+driver location signs;
+4)
+no hard shoulder for 'x' miles sign;
+5)
+EA/ERT approach signing; and,
+6)
+EA signing.
+The following are omitted from Figure E/A.2 for clarity:
+1)
+count-down markers;
+2)
+marker posts;
+3)
+driver location signs; and,
+4)
+ERTs.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 41 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Appendix E/A. Figures of generic designs for ALR and CM
+Figure E/A.1 Generic design for ALR - for illustrative purposes only
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 42 of 60
+======================================================================
+CD 146 - ENAA Version 2.0.0
+Appendix E/A. Figures of generic designs for ALR and CM
+Figure E/A.2 Generic Design for CM - for illustrative purposes only
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 43 of 60
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 44 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 146 - NINAA
+Northern Ireland National Application Annex
+for Positioning of signalling and advance
+direction signs
+(formerly TD 46/05 and TD 18/85 )
+Version 0.0.1
+Summary
+This National Application Annex sets out the Department for Infrastructure, Northern Ireland
+specific positioning requirements of signalling (lane signals and variable message signs) and
+advance direction signs for motorways.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 45 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+NI/1. Traffic Signs Regulations (Northern Ireland) 1997 [CD 146, 2.]
+6
+NI/2. Normative references
+7
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 46 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146 -
+NINAA
+0.0.1
+September 2023
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+Release notes; Publication: September 2023. Change to National Highways branding only. Department for
+Infrastructure, Northern Ireland National Application Annex to CD 146.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146
+0
+July 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 47 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+This document supersedes TD 46/05 and TD 18/85, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 48 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+Introduction
+Introduction
+Background
+This National Application Annex contains the Department for Infrastructure, Northern Ireland-specific
+requirements related to positioning requirements of signalling (lane signals and variable message
+signs) and advance direction signs for motorways.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 49 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+TSRGD
+Traffic Signs Regulations and General Directions: UKSI 2016/362 (TSRGD)
+[Ref 2.N]
+TSRNI
+Traffic Signs Regulations Northern Ireland: NISR 1997/386 (TSRNI) [Ref 3.N]
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 50 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+NI/1. Traffic Signs Regulations (Northern Ireland) ...
+NI/1.
+Traffic Signs Regulations (Northern Ireland) 1997 [CD 146, 2.]
+NI/1.1
+The Traffic Signs Regulations Northern Ireland ( NISR 1997/386 (TSRNI) [Ref 3.N]) must be applied in
+Northern Ireland.
+NI/1.2
+Where a clause in CD 146 refers to the Traffic Signs Regulations and General Directions ( UKSI
+2016/362 (TSRGD) [Ref 2.N]), the reference shall be replaced by the NISR 1997/386 (TSRNI) [Ref
+3.N].
+NI/1.3
+The Department for Infrastructure, Northern Ireland shall be contacted for advice on the sign diagram
+numbers and regulations equivalent to UKSI 2016/362 (TSRGD) [Ref 2.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 51 of 60
+======================================================================
+CD 146 - NINAA Version 0.0.1
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+The National Archives. UKSI 2016/362 (TSRGD), 'The Traffic Signs Regulations and
+General Directions 2016'
+Ref 3.N
+The National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland) 1997'
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 52 of 60
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 53 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 146
+Scotland National Application Annex to CD
+146 Positioning of signalling and advance
+direction signs
+(formerly TD 46/05 and TD 18/85 )
+Revision 0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CD 146.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 54 of 60
+======================================================================
+CD 146 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 55 of 60
+======================================================================
+CD 146 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146
+0
+July 2019
+Not available
+Not available
+Transport Scotland National Application Annex to CD 146.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 56 of 60
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 57 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 146
+Wales National Application Annex to CD 146
+Positioning of signalling and advance direction
+signs
+(formerly TD 46/05 and TD 18/85 )
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 146.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 58 of 60
+======================================================================
+CD 146 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 59 of 60
+======================================================================
+CD 146 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 146
+0
+July 2019
+Not available
+Not available
+Welsh Government National Application Annex to CD 146.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 60 of 60
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 146 Version 2.0.0, published: 30-Sep-2023
+
+
