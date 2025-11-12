@@ -1,0 +1,2621 @@
+======================================================================
+PAGE 1 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Maintenance & Operation
+CM 431
+Maintenance painting of steelwork
+Version 0.1.0
+Summary
+This document sets out the requirements for, and gives advice on, the development of
+maintenance painting schemes and specifications for steelwork in highway structures. The
+document also provides details of bespoke maintenance painting specifications that have been
+developed to address specific maintenance painting situations.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 60
+======================================================================
+CM 431 Version 0.1.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. General requirements for developing a maintenance painting scheme
+9
+Durability of maintenance paint systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Environment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Accessibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Maintenance painting of weathering steel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Requirements for provision of paint samples
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Existing condition survey of steelwork corrosion protection
+11
+Existing condition survey of steelwork corrosion protection outputs . . . . . . . . . . . . . . . . . . . . . . .
+11
+4. Maintenance painting of steelwork design
+13
+Design output for maintenance painting of steelwork . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Site information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Site specific constraints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Visually sensitive areas
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Painting design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Substrate surface preparation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Substrate cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Protective system for maintenance painting of steelwork . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Protective system for maintenance painting of steelwork - stripe coats . . . . . . . . . . . . . . . . . .
+16
+Protective system for maintenance painting of steelwork - finish coat . . . . . . . . . . . . . . . . . . .
+16
+Components to be replaced with newly hot dipped galvanised components
+. . . . . . . . . . . . . . .
+17
+Paint application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Procedure trials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Verification of paint execution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Verification of paint execution through testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Verification of paint execution through assessment by a paint inspector
+. . . . . . . . . . . . . . . . .
+19
+5. Feasibility trials
+20
+Reporting of the feasibility trials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+6. Normative references
+22
+7. Informative references
+23
+Appendix A. Categories of failure of protective systems
+24
+Appendix B. Protective systems for maintenance painting of steelwork
+27
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 60
+======================================================================
+CM 431 Version 0.1.0
+Contents
+Appendix C. Guidance on the application of the paint systems described in Appendix B
+31
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 60
+======================================================================
+CM 431 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 431
+0.1.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+requirements
+Consequential updates following the rewrite of the MCHW.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 431
+0
+December 2019
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 60
+======================================================================
+CM 431 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CM 431 version V0.0.0 which is being withdrawn.
+This document provides requirements and guidance used to develop the design outputs required to
+deliver the works in accordance with CC 487 [Ref 4.N].
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 60
+======================================================================
+CM 431 Version 0.1.0
+Introduction
+Introduction
+Background
+The content of this document is based on that of BD 87/05, rewritten to make it compliant with the new
+drafting rules. The technical content has been updated and improved to reflect current practice for the
+maintenance painting of steelwork.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 3.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a 'British Standard' or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 3.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 60
+======================================================================
+CM 431 Version 0.1.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+BBA
+British Board of Agrément
+HAPAS
+Highway Authorities Product Approval Scheme
+ICorr
+Institute of Corrosion
+NACE
+National Association of Corrosion Engineers
+AMPP
+Association for Materials Protection and Performance
+Frosio
+The Norwegian Professional Council for Education and Certification of Inspectors
+of Surface Treatment
+UKAS
+United Kingdom Accreditation Service
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 60
+======================================================================
+CM 431 Version 0.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Batch
+a quantity of paint produced under standardised conditions, identified by a
+unique code, to ensure consistency and quality within a production run.
+Contamination
+after surface preparation and/or cleaning, any remaining matter that could
+be detrimental to application, adhesion and durability of subsequently
+applied coatings.
+Damage
+unfavourable change in the condition of a protective system that affects
+its performance and/or durability.
+Defects
+imperfections which could contribute to premature deterioration in the
+durability, corrosion protection, or appearance of a paint coat or system
+Inclusions
+particle of foreign material embedded in the workpiece material
+Laminations
+an imperfection in a steel or alloy, resulting from blisters, seams, foreign
+material, and/or scratches on an ingot or billet that are not repaired during
+the rolling process
+Local failure
+localised damage to a protective system with the potential to propagate
+into widespread failure, where failure is the inability of a protective system
+to perform its function
+Patch repair
+process of locally repairing a damaged or flawed area of a protective
+system
+Rogue peaks
+sharp spikes of parent metal on blast-cleaned surfaces formed by the
+impact of abrasive particles and which project above the blast-cleaning
+profile
+Roll overs
+weld metal that has rolled over at the edges and not fused to the parent
+metal.
+Shelling
+a layer of corrosion in steel causing the corroded surface to separate and
+lift, leaving an interlocking flaky shell texture.
+Sound galvanised steel
+galvanised steel that shows no sign of disruption, or penetration by rust or
+other corrosion products, or a hot dip galvanised coating restored to these
+standards by blast cleaning or abrading, but with a reduced thickness
+Sound metal coating
+thermal metal spray coating showing no signs of disruption, or penetration
+by rust or other corrosion products and having adequate adhesion of ≥5.
+2 MPa to a steel substrate, or a thermal metal spray coating restored to
+these standards by blast cleaning or abrading, but with a reduced
+thickness.
+Sound paint
+paint with no visible defects or breaks in the coating and having adequate
+adhesion (≥5.2MPa for paint that is to be overcoated other than with a
+finish coat only).
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 60
+======================================================================
+CM 431 Version 0.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document sets out the requirements for, and gives supportive advice on, the development of
+maintenance painting schemes for corrosion protection of steelwork in highway structures, including
+the process that shall be followed to develop maintenance painting specifications.
+NOTE 1
+The document includes requirements relating to the painting of weathering steel in highway structures.
+NOTE 2
+The document does not cover the protection and remediation of steel reinforcement to concrete.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the maintenance painting of
+steelwork on the Overseeing Organisations' motorway and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 3.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 3.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 60
+======================================================================
+CM 431 Version 0.1.0
+2. General requirements for developing a mainten...
+2.
+General requirements for developing a maintenance painting
+scheme
+2.1
+The need for maintenance painting of a structure shall be established by undertaking an existing
+condition survey of steelwork corrosion protection in accordance with Section 3 of this document.
+NOTE
+The need for an existing condition survey can be identified through inspections undertaken in
+accordance with CS 450 [Ref 2.N].
+2.1.1
+Where the condition of a protective system has been assessed in the existing condition survey as being
+Category III or Category IV, maintenance painting should be carried out at the earliest opportunity.
+2.1.2
+The maintenance painting of a structure should be undertaken before the condition of the protective
+system has deteriorated to the extent that structural integrity is compromised as a result of corrosion of
+the steel substrate.
+NOTE 1
+Delaying maintenance painting work can lead to increased costs for restoring the protective system to a
+satisfactory standard and can result in corrosion of the steel substrate.
+NOTE 2
+Undertaking localised repairs can be beneficial in extending the service life of the protective system
+whilst an overall maintenance painting scheme is put in place. Undertaking localised repairs can also
+extend the period to overall maintenance painting being required where the condition of a protective
+system has been assessed in the existing condition survey as being one of categories 0, I, or II, as
+described in Appendix A, but localised areas exhibit severe coating defects.
+NOTE 3
+For structures with a remaining service life of less than 20 years, undertaking localised repairs can be
+beneficial in extending the service life of the protective system where the remaining service life of a
+protective system is less than the expected remaining service life of the structure.
+2.2
+Where the need for maintenance painting has been established, following an existing condition survey,
+a preliminary design for maintenance painting of steelwork design shall be prepared in accordance with
+Section 4 of this document.
+2.3
+Feasibility trials shall be undertaken in accordance with Section 5 of this document, to verify the
+methods and materials for the preliminary maintenance painting of steelwork design prior to issue.
+2.4
+All structural maintenance work that affects the durability of a protective system, including the
+remedying of deck leaks and the repair of leaking joints, shall be carried out before maintenance
+painting.
+Durability of maintenance paint systems
+2.5
+A protective system shall have an anticipated life to major maintenance of 20 years, in accordance with
+Appendix C, unless otherwise agreed with the Overseeing Organisation.
+NOTE 1
+A protective system with an anticipated life to major maintenance of less than 20 years can be
+appropriate where:
+1)
+a structure has a remaining life of less than 20 years, as agreed with the Overseeing
+Organisation;
+2)
+the Overseeing Organisation decides to prioritise cost; or
+3)
+the required paint items are unavailable.
+NOTE 2
+The remaining life of the structure and its future use can be clarified with the structure owner.
+NOTE 3
+The remaining life of a structure can be limited, for example, as a result of structural defects or by the
+future need for a structure.
+2.6
+For structures where a protective system with a life to major maintenance of less than 20 years is used,
+the anticipated service life shall be recorded in the Overseeing Organisation's structures asset
+management database.
+2.6.1
+For protective systems where an anticipated life to major maintenance of less than 20 years is
+permissible, the anticipated life to major maintenance may be in accordance with Appendix C.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 60
+======================================================================
+CM 431 Version 0.1.0
+2. General requirements for developing a mainten...
+Environment
+2.7
+The environment of the structure for maintenance painting shall be defined as Inland or Marine.
+2.8
+The definition Marine shall apply to structures in locations where there is a risk of coming into contact
+with sea salt spray or road salt spray.
+2.8.1
+Structures within 2000 meters of the coast should be defined as marine.
+2.8.2
+Structures over salted roads at or below the minimum standard headroom or located within 10.0 metres
+horizontally of a salted carriageway should be defined as marine.
+2.9
+The definition Inland shall apply to structures where the conditions for Marine do not apply.
+Accessibility
+2.10
+The accessibility of the structure for maintenance painting shall be defined as Difficult Access or Ready
+Access.
+2.10.1
+The definition Difficult Access should apply to painting activities, which includes any associated
+inspections and trials, where:
+1)
+any form of traffic management and/or temporary access/works is required; or
+2)
+painting activities are subject to any kind of restriction due to road or rail traffic, including being
+restricted to being undertaken one section at a time, undertaken at night or outside the normal
+painting season of May to September, or halted completely at certain periods due to road or rail
+traffic volume.
+NOTE
+Difficult Access is likely to apply to any structure on or adjacent to a carriageway or railway, including
+minor structures such as lighting columns.
+2.11
+The definition Ready Access shall apply to structures where the conditions for Difficult Access do not
+apply.
+Maintenance painting of weathering steel
+2.12
+The processes described in this document for preparing a maintenance painting design, including
+undertaking feasibility trials, shall apply in the case of the maintenance of weathering steel in a
+structure when it is to be painted for the first time.
+2.12.1
+The painting of weathering steel in a structure may be adopted to address poor performance of the
+material in service.
+Requirements for provision of paint samples
+2.13
+The following information about the Overseeing Organisation's testing authority shall be provided:
+1)
+name;
+2)
+postal address; and
+3)
+email address.
+NOTE 1
+The contact details of the Overseeing Organisation's testing authority are available from the
+Overseeing Organisation's paint specialist.
+NOTE 2
+The contact details of the Overseeing Organisation's testing authority are not required where other
+arrangements have been agreed with the Overseeing Organisation's testing authority for the testing
+and reporting 'A' and 'B' samples.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 60
+======================================================================
+CM 431 Version 0.1.0
+3. Existing condition survey of steelwork corros...
+3.
+Existing condition survey of steelwork corrosion protection
+3.1
+An existing condition survey of steelwork corrosion protection shall be undertaken to inform a decision
+on whether and to what extent maintenance painting is required.
+3.2
+The existing condition survey of steelwork corrosion protection shall provide the information described
+in 'Existing condition survey of steelwork corrosion protection outputs', in this section.
+3.3
+The planning, supervision, inspection, and reporting of the existing condition survey shall be
+undertaken by inspector(s):
+1)
+holding a minimum level 2 coating inspection qualification certified by any of
+ICorr/NACE/AMPP/Frosio; and
+2)
+with experience of undertaking inspections of coated steel highway structures and of related
+painting specifications.
+3.4
+The information gathered in the existing condition survey shall be recorded in a existing condition
+survey report.
+3.4.1
+The existing condition survey report may cover each main part of the structure separately.
+3.4.2
+In providing recommendations for the preliminary maintenance painting design, reference should be
+made to the guidance given in Appendix C on application of the protective systems described in
+Appendix B.
+NOTE
+The requirements relating to methods of surface preparation are provided in CC 487 [Ref 4.N].
+Existing condition survey of steelwork corrosion protection outputs
+3.5
+The condition of the existing protective systems shall be established in accordance with this section.
+3.6
+For each area of failure, the condition of the protective system shall be categorised in accordance with
+the categories of failure given in Appendix A.
+3.6.1
+Where the condition of a single protective system falls within two separate categories of failure, the
+areas of failure may be subdivided to clarify where each failure category applies.
+3.7
+The existing condition survey report shall include information in accordance with the reporting
+requirements in the test standards used.
+3.8
+The existing condition survey shall determine the adhesion values of the existing protective systems in
+accordance with BS EN ISO 4624 [Ref 8.N] or ASTM D4541 [Ref 3.I].
+NOTE
+Where the existing protective system is in such a poor state that pull-off adhesion tests are not
+practical, alternative methods such as X-Cut and Cross-Cut adhesion can be used.
+3.9
+The existing condition survey shall determine the dry film thickness values of the existing protective
+systems in accordance with BS EN ISO 2808 [Ref 7.N], ISO 19840 [Ref 6.N], or ASTM D5796 [Ref
+12.N].
+3.10
+The existing condition survey shall determine the nature and composition of the existing protective
+systems, including:
+1)
+colour;
+2)
+coats present;
+3)
+softening of the products;
+4)
+other factors which demonstrate how the existing coating is behaving; and
+5)
+presence and condition of galvanising and metal coatings.
+3.11
+The existing condition survey shall determine whether the existing protective systems are convertible or
+non-convertible.
+NOTE
+Solvent rub methods can be used to test whether a coating is convertible or non-convertible.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 60
+======================================================================
+CM 431 Version 0.1.0
+3. Existing condition survey of steelwork corros...
+3.12
+The existing condition survey shall determine the presence of any toxic element in the existing
+protective system, including lead, cadmium, chromium, arsenic, aluminium, and zinc.
+NOTE
+Various toxic elements can be released from the coating depending on method of preparation. As the
+final method of preparation is not known at the time of the existing condition survey, it is not be possible
+to identify all toxic elements, and the contractor can carry out additional tests at time of work to
+determine toxicity of the existing protective system.
+3.13
+The existing condition survey shall determine the resin type of the existing paint coats by carrying out
+resin identity testing.
+3.14
+The existing condition survey shall determine the types and levels of contaminants present on the
+surface of the existing protective systems, including:
+1)
+soluble salt;
+2)
+guano;
+3)
+graffiti;
+4)
+oils; and
+5)
+grease.
+3.15
+The existing condition survey shall define the accessibility of the structure as Ready Access or Difficult
+Access, as described in this document.
+3.16
+The existing condition survey shall identify specific access constraints for all areas of the structure,
+including:
+1)
+existing access provision;
+2)
+past access methods described in historic records;
+3)
+requirement for working at height; and
+4)
+any environmental restrictions such as water courses, residential areas, and Sites of Special
+Scientific Interest.
+3.17
+On the basis of the existing condition survey, a preliminary maintenance painting design, including
+protective systems defined in Appendix B, shall be recommended.
+NOTE
+Manufacturers of paint products can be consulted when determining a suitable maintenance painting
+design.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+4.
+Maintenance painting of steelwork design
+4.1
+The design for maintenance painting of steelwork design shall be reviewed following the feasibility trials.
+4.1.1
+The design for maintenance painting of steelwork design should be updated to account for any
+recommended changes identified in the feasibility trials.
+Design output for maintenance painting of steelwork
+4.2
+Design outputs for maintenance painting shall be provided, including
+1)
+details of the existing protective system;
+2)
+the required standard of surface preparation;
+3)
+the corrosion protection system to be applied;
+4)
+scheme specific aesthetic requirements for the finish coat; and
+5)
+the work specific constraints on execution.
+4.3
+A unique 'Area reference' shall be assigned to each component or area of steelwork to enable
+cross-referencing of design outputs.
+4.4
+The extent, reference and description of each unique 'Area reference' shall be identified on
+model(s)/drawing(s).
+Site information
+Site specific constraints
+4.5
+Site specific constraints on the execution of maintenance painting shall be identified.
+NOTE 1
+Site specific constraints on execution of maintenance painting are identified during the existing
+condition survey.
+NOTE 2
+Site specific constraints include health hazards associated with access to the structure. Information
+provided in the existing condition survey can include enclosed spaces, working at height, possession
+restrictions, and hazardous weather conditions due to time of year.
+NOTE 3
+Site specific constraints include health hazards associated with pollution of the environment.
+Information provided in the existing condition survey can include water courses, residential areas, and
+Sites of Special Scientific Interest.
+NOTE 4
+Site specific constraints include factors that pose a risk to the quality of surface preparation and paint
+application due to access restrictions or the local environment. For surface preparation and coating
+application to be carried out satisfactorily, it is important that the working area and access permits,
+wherever possible, unrestricted access to the workface by the operators.
+4.6
+Information shall be provided for each site specific constraint to assist planning of the works.
+4.6.1
+The site specific constraint information may include:
+1)
+what the constraint is;
+2)
+how it could impact the execution of the works;
+3)
+details of historic mitigation; and
+4)
+reference to documents that contain any further information.
+4.7
+The presence of toxic elements within the existing protective system identified during the existing
+condition survey shall be provided as a constraint.
+4.8
+Unique references shall be provided for each site specific constraint on execution of maintenance
+painting.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+Visually sensitive areas
+4.9
+Visually sensitive areas of maintenance painting shall be identified.
+4.9.1
+Visually sensitive areas of steelwork should include the parts of a structure that are visible in the
+following contexts:
+1)
+static views from and of major tourist attractions;
+2)
+views from and of very important national/international landscapes, cultural/historical sites (e.g.
+National Parks, UNESCO World Heritage sites);
+3)
+views by users of nationally important public rights of way / recreational trails (e.g. national trails,
+long distance footpaths);
+4)
+views by users of public open spaces for enjoyment of the countryside (e.g. country parks);
+5)
+static views from dense residential areas, longer transient views from designated public open
+space, recreational areas;
+6)
+views from and of rare designated landscapes of national importance; and
+7)
+views from and of landscapes of regional importance.
+4.9.2
+Steelwork on structures that are defined as aesthetic category AC3 in CD 351 [Ref 13.N] should be
+classed as visually sensitive, unless the steelwork cannot be viewed from a public space.
+NOTE
+Where available, structure specific Aesthetic Appraisal Documents, in accordance with CD 351 [Ref
+13.N], provide further guidance on whether the structure, or parts thereof, are considered visually
+sensitive.
+4.10
+The following shall be provided for each visually sensitive area of maintenance painting:
+1)
+a unique reference for the visually sensitive area;
+2)
+the unique area references of the areas of maintenance painting that are included in the visually
+sensitive area;
+3)
+a description including the extents of the area and reasons for being visually sensitive; and
+4)
+aesthetic requirements.
+4.11
+Where required for visually sensitive areas, additional requirements for light intensity and paint quality
+verification shall be provided.
+4.11.1
+The light intensity may be increased above the default of 500 lux over 1 m2.
+4.11.2
+The frequency of measurement of the gloss level of the finished paint system may be increased above
+the default of once for every 10 m2, up to once for every 1 m2.
+4.11.3
+The frequency of visual comparison of the colour of the finished paint system with the painted tinplate
+reference panel may be increased above the default of once for every 10 m2, up to once for every 1 m2.
+4.11.4
+The frequency of testing of paint coats for pin-holing and porosity may be increased above the default
+of once for each area covering a minimum of 20% of that area.
+NOTE
+The defaults for light intensity, frequency of measurement of the gloss level, frequency of visual
+comparison of the colour and frequency of testing for pin-holing and porosity are as specified in CC 487
+[Ref 4.N].
+Painting design
+4.12
+For each unique 'Area reference', the design outputs shall include details of the following:
+1)
+existing protective system;
+2)
+substrate standard following surface preparation; and
+3)
+the corrosion protection system to be applied.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+Substrate surface preparation
+4.13
+The substrate standard following surface preparation shall be selected from the following options:
+1)
+sound paint;
+2)
+sound metal coating;
+3)
+sound galvanised steel;
+4)
+steel substrate - Sa2½ or St3 steel; or
+5)
+steel substrate - Sa2½.
+4.13.1
+Following surface preparation the substrate standard following surface preparation should be based on
+the makeup of the existing system and the extent and severity of its failure, as identified in the existing
+condition survey.
+4.13.2
+Where galvanised steel is present the substrate standard selected following surface preparation should
+be sound galvanised steel.
+4.13.3
+Where galvanised steel is not present the substrate standard selected should be steel substrate
+- Sa2½ or St3 steel' .
+4.14
+The surface roughness following preparation of steel substrates shall be selected from fine, medium, or
+course as defined in BS EN ISO 8503-1 [Ref 9.N].
+4.14.1
+'Medium' surface roughness should be selected in accordance with BS EN ISO 8503-1 [Ref 9.N].
+4.14.2
+A surface profile of 'fine' or 'coarse' in accordance with BS EN ISO 8503-1 [Ref 9.N]may be required for
+specific types of paint products.
+4.15
+The standard of surface preparation for fasteners shall be provided.
+4.15.1
+Fasteners should be prepared to the same standard as the adjacent main surfaces of the original
+protective system.
+Substrate cleaning
+4.16
+The cleaning of steelwork during surface preparation shall remove all traces of contamination
+detrimental to the application, adhesion, and durability of the protective system.
+4.16.1
+A cleaning agent followed by rinsing with water should be used for the cleaning of steelwork for surface
+preparation.
+4.16.2
+Cleaning solvents, other than water, may be used where there is visible oil or grease, or it is known that
+there are significant amounts of soluble salts.
+NOTE
+Significant amount of soluble salts are concentrations above 40 mg/m2.
+Protective system for maintenance painting of steelwork
+4.17
+The protective system for maintenance painting of steelwork shall be selected from one of the systems
+defined in Appendix B.
+NOTE
+Guidance on the selection of the protective system for maintenance painting of steelwork is given in
+Appendix C.
+4.17.1
+Prior to the selection of a protective system defined in Appendix B, the availability of specific item
+numbers should be checked.
+4.18
+Details of the protective system shall include:
+1)
+item numbers for each coat;
+2)
+minimum dry film thicknesses for each coat; and
+3)
+minimum total dry film thickness for the paint system.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+NOTE
+For each protective system, the item numbers minimum dry film thickness for each coat, and minimum
+total dry film thickness, are given in Appendix B.
+4.19
+Verification of the compliance of paint supplied for maintenance painting shall be through contract
+compliance testing of 'A' samples.
+4.19.1
+Where the requirements for provision of 'A' samples for contract compliance testing are different to the
+defaults, the requirements should be included in the maintenance painting design.
+NOTE
+The works-specific requirements for maintenance painting of steelwork can be found in CC 487 [Ref
+4.N] .
+4.19.2
+'A' samples may not be required where the quantity of paint required to provide an 'A' sample is less
+than the quantity of paint required to perform the maintenance work.
+Protective system for maintenance painting of steelwork - stripe coats
+4.20
+First stripe coats shall be used for all systems, except for system HM IV where agreed with the
+Overseeing Organisation.
+4.20.1
+For protective system HM IV, first stripe coats should be provided except in cases where they could be
+impractical; for example due to limited time available to complete the maintenance painting works.
+NOTE
+The omission of stripe coats is likely to result in a reduced durability of the paint system due to
+drawback of paint from edges.
+4.21
+An additional stripe coat shall be used where:
+1)
+the accessibility of the structure for painting is defined as Difficult Access; or
+2)
+a particular weld, fastener, or edge will be vulnerable to excessive weathering of the protective
+coating.
+4.22
+The following details shall be provided for stripe coats:
+1)
+whether the first stripe coat may be omitted;
+2)
+the first stripe Item number and minimum dry film thickness, unless omitted;
+3)
+whether an additional stripe coat is required; and
+4)
+item number and minimum dry film thickness for the additional stripe coat, if required.
+4.23
+The item number and minimum dry film thickness of each stripe coat shall be the same as that
+specified for the preceding coat.
+NOTE
+Additional stripe coats can cause problems with excessive film thickness resulting in premature failure
+of the coating.
+Protective system for maintenance painting of steelwork - finish coat
+4.24
+Where a proposed protective system includes a finish coat, the details shall include:
+1)
+finish coat colour, defined in accordance with BS 4800 [Ref 11.N]; and
+2)
+finish coat gloss level.
+4.24.1
+The colour of the finish coat should be agreed with the structure owner.
+4.24.2
+Unless there are specific aesthetic requirements, the finish coat colour should be selected from the
+following colours in BS 4800 [Ref 11.N]:
+1)
+light Grey 00 A 05;
+2)
+medium Grey 18 B 21;
+3)
+dark Grey 18 B 25;
+4)
+green-yellow 12 B 21; or
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+5)
+white 00 E 55.
+4.24.3
+The default finish coat colour should be Medium Grey 18 B 21.
+4.25
+The finish coat gloss level shall be selected from the following options: Gloss, Semi-gloss, Gloss or
+semi-gloss.
+4.25.1
+In cases where the a specific gloss level is not required, 'Gloss or semi-gloss' should be used.
+NOTE
+The finish coat gloss level of an item number is defined in CG 303 [Ref 10.N].
+4.25.2
+For protective system HM II or HM III for internal surfaces, a finish coat may be required to provide a
+light finish colour to the finished paint system to aid future inspections if the final intermediate coat is
+not available in a light colour.
+NOTE
+For protective systems HM II or HM III for internal surfaces, a finish coat could be omitted without
+affecting the anticipated durability of the protective system.
+4.26
+For protective system HM IV, the omission of finish coats locally or overall shall be agreed with the
+Overseeing Organisation.
+4.26.1
+For protective system HM IV, an overall finish coat should be used for visually sensitive areas.
+4.26.2
+For protective system HM IV, the use of a single protective coat (with stripe coats where practical)
+without a decorative finish coat may be aesthetically acceptable in parts of a structure that are not
+visible to the public, or parts of a structure that are visible in the following contexts:
+1)
+quick transient views such as from fast moving vehicles;
+2)
+views from industrial area, land awaiting re-development; or
+3)
+views from landscapes of no importance with no variety or distinctiveness
+NOTE 1
+It could be impractical to adopt a finish coat for various reasons, including due to limited time available
+to complete the maintenance painting works.
+NOTE 2
+The omission of a finish coat is likely to result in a reduced durability of the paint system.
+Components to be replaced with newly hot dipped galvanised components
+4.27
+Components to be replaced with newly hot-dipped galvanised components shall be identified.
+4.27.1
+Hot-dip galvanised components may need to be replaced where the original galvanised coating has
+been consumed leading to a risk that substrate corrosion compromises the structural capacity of a
+component.
+4.28
+All details required to produce replacement hot-dipped galvanised components shall be provided and
+included on drawings or models.
+4.28.1
+Details for replacement hot-dipped galvanised components should include structure location, unique
+structure reference, component location(s), geometrical data, detailing, mechanical strength, durability,
+and material properties.
+4.29
+Any additional, or alternative, requirements for hot-dip galvanised coatings to those in BS EN ISO 1461
+[Ref 1.N] shall only be provided if agreed with the Overseeing Organisation.
+4.29.1
+The requirements for hot-dip galvanised coatings in BS EN ISO 1461 [Ref 1.N] should only be changed
+in exceptional circumstances, where specialist technical advice has been sought.
+4.30
+The thickness of the hot-dip galvanised coating, where greater than that given in BS EN ISO 1461 [Ref
+1.N], shall be provided.
+4.31
+Where the thickness of the hot-dip galvanised coating is greater than that given in BS EN ISO 1461
+[Ref 1.N], the requirements for surface preparation for hot dip galvanising, shall be provided.
+4.32
+Any additional requirements for the protective system on replacement hot- dipped galvanised
+components to be painted, shall be provided.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+4.32.1
+Paint coats to be applied in the workshop may be used where the paint type is highly sensitive to
+environmental conditions or painting on site is not practical, such as over water courses.
+Paint application
+4.33
+The method of paint application shall be consistent with the type of paint selected.
+NOTE
+The default methods of paint application are brush, airless spray, and air-assisted spray.
+4.33.1
+Alternative methods of paint application may be provided where the design includes a particular paint
+type and the manufacturers recommend a specific application method.
+4.33.2
+The use of one of the default application methods may be prohibited due to environmental or local
+restrictions.
+4.34
+Paint rollers shall not be used.
+NOTE
+Paint application using rollers has been found to provide unsatisfactory outcomes.
+4.35
+The maintenance painting design shall include overcoating time requirements, where these are
+different to the defaults specified in CC 487 [Ref 4.N].
+4.35.1
+Where site weather conditions are expected to be poor, e.g. in coastal or brackish areas, then
+overcoating times may be adjusted to suit paint curing times.
+4.35.2
+Different overcoating times may be used where the design includes a particular type of paint and the
+manufacturers recommend more onerous overcoating times.
+Procedure trials
+4.36
+The parts of the structure on which procedure trials are to be conducted shall be identified, by providing
+unique 'Area reference(s)'.
+4.36.1
+Requirements for procedure trials should be provided where different to those specified in CC 487 [Ref
+4.N].
+4.36.2
+Procedure trials should only be omitted in exceptional circumstances, for example:
+1)
+where it would be impractical to conduct trials due to limited access time resulting from rail or
+highway possession time and trials can't be undertaken away from where any restrictions apply;
+and/or
+2)
+in the case of very minor works.
+4.36.3
+The reference areas to be used in the procedure trials should be selected in accordance with Annex A
+of BS EN ISO 12944-7 [Ref 5.N].
+4.36.4
+Timeframes for completion of procedure trials prior to application of the paints may be altered due to
+the need for urgent repair or issues with product availability.
+4.36.5
+The requirement for provision of 'A' and 'B' samples may be amended where it is agreed with the
+Overseeing Organisation that the extent of the maintenance painting is minor enough to not require the
+'A' and 'B' samples for contract compliance testing.
+Verification of paint execution
+Verification of paint execution through testing
+4.37
+The paint testing requirements shall provide confidence in the quality of the maintenance painting
+execution, appropriate for the environment, complexity, and accessibility of the maintenance painting
+scheme.
+4.37.1
+The frequencies of the following tests may be changed from the defaults :
+1)
+temperature and humidity testing;
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 60
+======================================================================
+CM 431 Version 0.1.0
+4. Maintenance painting of steelwork design
+2)
+pin-holing and porosity;
+3)
+wet-film thickness of paint; and
+4)
+paint adhesion.
+NOTE
+The default work specific requirements for frequency of tests for maintenance painting of steelwork can
+be found in CC 487 [Ref 4.N].
+4.37.2
+Where dew point, temperature, or humidity are expected to be close to the allowable limits, the
+frequency of temperature and humidity testing should be increased to once before each shift and every
+5 minutes thereafter.
+NOTE
+Dew point, temperature, or humidity are likely to be close to the allowable limits where Moisture Cured,
+Solvent Free, or Single Pack paint products are used in coastal areas or near water courses.
+4.37.3
+Where there is an elevated risk of pin-holing and/or porosity, the frequency of testing of paint coats for
+pin-holing and porosity may be increased to once for each area, covering a minimum of 20% of that
+area.
+NOTE
+The risk of pin-holing and/or porosity is elevated in poor weather or where there is Difficult Access.
+4.37.4
+The frequency of testing of the wet-film thickness of paint should be increased where there is an
+elevated risk of the required dry-film thickness not being achieved.
+NOTE
+Paint applied to components with complex geometry is at elevated risk of the required dry-film
+thickness not being achieved.
+4.37.5
+Where components are of a complex nature the frequency of paint adhesion testing may be increased.
+4.37.6
+Where inspection standards call for a defined light intensity to carry out a test, the required light
+intensity should be provided.
+Verification of paint execution through assessment by a paint inspector
+4.38
+The requirements for the paint inspector shall be selected to provide confidence in the quality of the
+maintenance painting execution, appropriate for the scale and complexity of the maintenance painting
+scheme.
+4.39
+The default requirements for paint inspectors, shall only be amended if agreed with the Overseeing
+Organisation.
+4.39.1
+Alternative paint inspector qualifications may be provided where they can be demonstrated to be
+equivalent to the defaults listed.
+NOTE
+The default work specific requirements for paint inspectors for maintenance painting of steelwork can
+be found in CC 487 [Ref 4.N].
+4.39.2
+Relaxations to the requirement for the paint inspector to be from an independent organisation, such as
+being from the same organisation or a subsidiary, should be commensurate with the scale of the
+maintenance painting scheme.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 60
+======================================================================
+CM 431 Version 0.1.0
+5. Feasibility trials
+5.
+Feasibility trials
+5.1
+Feasibility trials of the proposed method(s) of surface preparation and maintenance paint system(s)
+described in the preliminary maintenance painting design shall be carried out and reported except in
+the following cases:
+1)
+where the surface preparation has been identified as blast cleaning to clean steel or Sa2 to BS
+EN ISO 8501-1 [Ref 2.I], over the whole surface area of the structure; or
+2)
+for small section steelwork having ready access (such as parapets and lighting columns remote
+from a carriageway), where there are no concerns over the compatibility of the proposed
+maintenance paint system and any sound existing protective systems that are to be overcoated.
+NOTE 1
+Except in cases where the whole of the existing protective system is to be removed, it is not always
+possible to quantify accurately the full extent or intensity of the surface preparation required, or to
+predict the compatibility of new paints when applied over existing paints, without carrying out feasibility
+trials.
+NOTE 2
+The feasibility trials are intended to verify the suitability of the maintenance painting design.
+NOTE 3
+Changes to the maintenance painting design shown to be necessary during the feasibility trials can
+prevent delays and additional costs during the maintenance painting works due to inappropriate design
+requirements.
+5.2
+The feasibility trials shall be undertaken by an organisation that is registered to NHSS 19A [Ref 1.I] by a
+UKAS-accredited certification body or equivalent.
+5.3
+Except in the case of weathering steel being painted for the first time, the feasibility trials shall comprise
+a minimum of two separate representative areas of the structure such that each proposed method of
+surface preparation and at least two different paint manufacturer's paint systems are subject to a trial.
+NOTE
+Two trial areas allow one method of surface preparation and two paint manufacturer's paint systems to
+be trialled.
+5.3.1
+In the case of weathering steel being painted for the first time, the feasibility trials may comprise one
+representative area to trial the proposed method(s) of surface preparation only.
+5.4
+The surface preparation and paint application for feasibility trials shall be in accordance with CC 487
+[Ref 4.N].
+NOTE
+The feasibility trials need to be consistent with the methods and materials that can be used in the
+maintenance painting scheme.
+5.5
+At each stage in the treatment of the trial areas, that is surface preparation, the application of each
+paint coat, and the curing of each paint coat, the treated areas shall be inspected in accordance with
+CC 487 [Ref 4.N], by an inspector complying with CC 487 [Ref 4.N].
+5.5.1
+At each stage, the trial should not proceed until compliance with the maintenance painting design has
+been achieved.
+5.5.2
+Where the inspection cannot confirm compliance with the maintenance painting design, the reasons for
+any defects and remedial action required to achieve compliance should be identified.
+5.6
+Following application and curing of the complete paint system, the inspection shall include testing the
+adhesion of the applied maintenance paint system to the substrate.
+NOTE
+Satisfactory adhesion is >5.2 MPa, with pull-off adhesion tested in accordance with ASTM D4541 [Ref
+3.I].
+Reporting of the feasibility trials
+5.7
+The feasibility trials shall be recorded in a report, including:
+1)
+details of the organisation that undertook the trials;
+2)
+details of the maintenance painting design trialled;
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 60
+======================================================================
+CM 431 Version 0.1.0
+5. Feasibility trials
+3)
+details of the representative areas used for the trials, referenced to the method of surface
+preparation, paint system details, and paint application method adopted for each representative
+area;
+4)
+all the documentation requirements; and
+5)
+Recommended changes to the as-trialled maintenance painting design prior to issue.
+NOTE
+All the documentation requirements can be found in Sections 2 and 6 of CC 487 [Ref 4.N] .
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 60
+======================================================================
+CM 431 Version 0.1.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS EN ISO 1461, 'Hot dip galvanized coatings on fabricated iron and steel
+articles. Specifications and test methods'
+Ref 2.N
+National Highways. CS 450, 'Inspection of highway structures'
+Ref 3.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 4.N
+National Highways. CC 487, 'Maintenance painting of steelwork'
+Ref 5.N
+BSI. BS EN ISO 12944-7, 'Paints and varnishes. Corrosion protection of steel
+structures by protective paint systems. Execution and supervision of paint work'
+Ref 6.N
+BSI. ISO 19840, 'Paints and varnishes. Corrosion protection of steel structures by
+protective paint systems. Measurement of, and acceptance criteria for, the thickness
+of dry films on rough surfaces'
+Ref 7.N
+BSI. BS EN ISO 2808, 'Paints and varnishes. Determination of film thickness'
+Ref 8.N
+BSI. BS EN ISO 4624, 'Paints and varnishes. Pull-off test for adhesion'
+Ref 9.N
+BSI. BS EN ISO 8503-1, 'Preparation of steel substrates before application of paints
+and related products. Surface roughness characteristics of blast-cleaned steel
+substrates. Specifications and definitions for ISO surface profile comparators for the
+assessment of abrasive blast-cleaned surfaces '
+Ref 10.N
+National Highways. CG 303, 'Quality assurance scheme for paints and similar
+protective coatings'
+Ref 11.N
+BSI. BS 4800, 'Schedule of paint colours for building purposes'
+Ref 12.N
+American Society for Testing and Materials. ASTM D5796, 'Standard Test Method for
+Measurement of Dry Film Thickness of Thin-Film Coil-Coated Systems by Destructive
+Means Using a Boring Device'
+Ref 13.N
+National Highways. CD 351, 'The design and appearance of highway structures'
+Ref 14.N
+Network Rail. NR/L3/CIV/040, 'Work Instruction for the Use of Protective Coating
+Systems'
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 60
+======================================================================
+CM 431 Version 0.1.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+LANTRA. NHSS 19A, 'National Highway Sector Scheme 19A - Corrosion Protection
+of Ferrous Materials by Industrial Coatings'
+Ref 2.I
+BSI. BS EN ISO 8501-1, 'Preparation of steel substrates before application of paints
+and related products. Visual assessment of surface cleanliness. Rust grades and
+preparation grades of uncoated steel substrates and of steel substrates after removal
+of previous coatings'
+Ref 3.I
+American Society for Testing and Materials. ASTM D4541, 'Standard test method for
+pull-off strength of coatings using portable adhesion testers'
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix A. Categories of failure of protective systems
+Appendix A. Categories of failure of protective systems
+The category of failure of protective systems described in Table A.1 allows for an assessment of the
+condition of a protective system to be made and the need for maintenance painting to be identified.
+The categories of failure of protective systems described in Table A.1 may be used in reporting routine
+structure inspections, to describe the extent of failure of protective systems and to identify whether the
+need for maintenance painting should be investigated further through undertaking a pre-specification
+survey.
+The purpose of allocating one of the five categories of failure described in Table A.1 as part of the
+pre-specification survey is to confirm the need for and extent of maintenance painting.
+The categorisation also allows the prioritisation of the need for maintenance painting where a number of
+structures are exhibiting coating defects. It also assists in standardising the pre-contract procedure for
+maintenance painting works and helps in identifying the extent and nature of the maintenance painting
+that is required. Other criteria that can influence the latter are accessibility, environment, expected life
+of the structure and cost, including road user delay costs and rail access or train delay costs.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix A. Categories of failure of protective systems
+Table A.1 Categories of failure of protective systems
+Category of failure
+Description
+Maintenance requirement
+0
+Minor weathering of finish coat apparent but no evidence of denatured paintwork or
+substrate corrosion.
+None
+I
+Small localised areas of denatured finish coat and intermediate coats visible. Paintwork
+generally sound elsewhere with no evidence of denatured primer, deterioration of metal
+coating if present or substrate corrosion. Less than 1.0% of the total area exhibits
+paintwork defects.
+Possibly localised
+II
+Normal weathering of finish coat e.g. chalking, loss of gloss, surface affected by deposits.
+Localised areas of denatured paintwork affecting finish and intermediate coats and small
+localised areas of denatured primer possibly with some deterioration of metal coating if
+present or substrate corrosion. Small areas of white corrosion products may be apparent
+due to the deterioration of a metal coating if present. Less than 1.0% of total area exhibits
+denatured primer, deterioration of metal coating if present or substrate corrosion, or greater
+than 1.0% but less than 3.0% of the total area exhibits paintwork defects or poor adhesion1.
+Possibly localised
+III
+Areas of denatured paintwork affecting finish, intermediate and primer coats with evidence
+of deterioration of metal coating if present or substrate corrosion. Areas of white corrosion
+products may be apparent due to the deterioration of a metal coating if present. Less than
+3.0% of the total area exhibits denatured primer, deterioration of metal coating if present or
+substrate corrosion, or greater than 3.0% but less than 10% of the total area exhibits
+paintwork defects or poor adhesion1.
+Minor maintenance
+IV
+General failure of the protective system with numerous areas of denatured paintwork and
+areas of deterioration of metal coating if present or substrate corrosion. Substrate
+corrosion varying from surface rusting to heavy rusting. Areas of white corrosion products
+may be apparent due to the deterioration of a metal coating if present. Greater than 3.0%
+of the total area exhibits denatured primer, deterioration of metal coating if present or
+substrate corrosion, or greater than 10.0% of the total area exhibits paintwork defects or
+poor adhesion1.
+Major maintenance
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix A. Categories of failure of protective systems
+Note 1: 5.2 MPa pull-off adhesion is the minimum adhesion value that is considered satisfactory for
+new protective systems, including where an existing coating is to be overcoated as a result of
+maintenance painting. However, a pull-off adhesion value of less than 5.2 MPa may be sufficient for the
+continued satisfactory performance of an existing protective system to achieve its intended service life
+without maintenance. In undertaking a pre-specification survey of an existing coating, the inspector
+should consider the measured pull-off adhesion values, the overall condition of the protective system
+and its expected remaining service life in making a judgement on whether the coating exhibits poor
+adhesion and is in need of maintenance.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix B. Protective systems for maintenance painting o...
+Appendix B. Protective systems for maintenance painting of steelwork
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix B. Protective systems for maintenance painting o...
+Table B.1 Protective systems for maintenance painting of steelwork.
+Protective system
+Substrate/Standar-
+d
+Item No.1
+and mdft2
+1st Coat
+2nd Coat
+3rd Coat
+4th Coat
+Paint system
+mdft
+Item No.
+115
+112,116 or 121
+112,116 or 121
+167,168,169, 18
+5 or 195
+Sa2½ Steel or St3
+Steel
+mdft
+100 µm
+100 µm
+100 µm
+50 µm or 100 µm
+(for item 185)
+400 µm or 450 µm
+(with item 185)
+Item No.
+115
+112,116 or 121
+112,116 or 121
+167,168,169, 18
+5 or 195
+Sound Thermal
+Metal Spray Coating
+mdft
+100 µm
+100 µm
+100 µm
+50 µm or 100 µm
+(for item 185)
+400 µm or 450 µm
+(with item 185)
+Item No.
+Nil
+Nil
+112,116 or 121
+167,168,169, 18
+5 or 195
+Sound paint
+(undercoats)
+mdft
+100 µm
+50 µm or 100 µm
+(for item 185)
+175 µm or 225 µm
+(with Item 185)
+Item No.
+Nil
+Nil
+Nil
+167,168,169, 18
+5 or 195
+HM I Maintenance 4 Coat
+System
+(external surfaces)
+Sound paint (finish
+coat)
+mdft
+50 µm or 100 µm
+(for item 185)
+50 µm or 100 µm
+(for
+item 185)
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix B. Protective systems for maintenance painting o...
+Table B.1 Protective systems for maintenance painting of steelwork. (continued)
+Item No.
+115
+112,116 or 121
+167,168,169, 18
+5 or 195
+Sa2½ Steel or St3
+Steel
+mdft
+100 µm
+100 µm
+50 µm or 100 µm
+(for item 185)
+300 µm or 350 µm
+(with
+item 185)
+Item No.
+Nil
+112,116 or 121
+167,168,169, 18
+5 or 195
+Sound paint
+(undercoats)
+mdft
+100 µm
+50 µm or 100 µm
+(for item 185)
+175 µm or 225 µm
+(with Item 185)
+Item No.
+Nil
+Nil
+167,168,169, 18
+5 or 195
+HM II Maintenance 3 Coat
+System
+(external or internal
+surfaces)
+Sound existing
+finish coat
+mdft
+50 µm or 100 µm
+(for item 185)
+50 µm or 100 µm
+(for
+item 185)
+Item No.
+112,116
+or
+121
+167,168,169, 18
+5 or 195
+HM III Maintenance 2 Coat
+Patch System
+Sound paint
+(undercoats)
+mdft
+100 µm
+50 µm or 100 µm
+(for item 185)
+175 µm or 225 µm
+(with Item 185)
+Item No.3
+7.2.6
+7.3.1 or 7.3.4
+HM IV Maintenance 1 or 2
+Coat Short Possession
+System
+Sa2½ Steel or St3
+Steel or sound paint
+mdft
+400 µm
+50 µm
+400 µm (single
+coat) or 450 µm
+(with 2nd coat)
+Item No.
+155 or
+sweep
+blast
+112,116 or 121
+167,168,169, 18
+5 or 195
+HM V Maintenance of
+galvanised coatings
+Sound galvanised
+coating
+mdft
+100 µm
+50 µm or 100 µm
+(for item 185)
+175 µm or 225 µm
+(with Item 185)
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix B. Protective systems for maintenance painting o...
+Table B.1 Protective systems for maintenance painting of steelwork. (continued)
+Item No.
+113
+114
+Sa2½ Steel or St3
+Steel
+mdft
+100 µm
+100 µm
+225 µm
+Item No.
+113
+114
+Sound Metal Spray
+mdft
+100 µm
+100 µm
+225 µm
+Item No.
+113
+114
+Sound paint
+(undercoats)
+mdft
+100 µm
+100 µm
+225 µm
+Item No.
+Nil
+114
+HM VI Maintenance of
+internal surfaces (water
+based)
+Sound existing
+finish coat
+mdft
+100 µm
+125 µm
+Item No.
+117
+117
+Sound existing
+finish coat
+mdft
+150 µm
+150 µm
+350 µm
+Item No.
+117
+117
+Sound Metal Spray
+mdft
+150 µm
+150 µm
+350 µm
+Item No.
+117
+117
+Sound paint
+(undercoats)
+mdft
+150 µm
+150 µm
+350 µm
+Item No.
+Nil
+117
+HM VII Maintenance of
+internal surfaces (solvent
+free)
+Sound existing
+finish coat
+mdft
+150 µm
+175 µm
+Note 1: Paint Item Nos are as defined in CG 303 [Ref 10.N].
+Note 2: Minimum dry film thickness (mdft) [µm], excluding any stripe coats for paint system.
+Note 3: Item No. refers to Network Rail Item Number from Network Rail Document Reference NR/L3/CIV/040 [Ref 14.N].
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix C. Guidance on the application of the paint syst...
+Appendix C. Guidance on the application of the paint systems described in
+Appendix B
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix C. Guidance on the application of the paint syst...
+Table C.1 Guidance on the application of the paint systems described in Appendix B
+Paint system
+Notes on application
+Anticipated durability to major maintenance
+HM I: Maintenance 4 Coat System
+The HM I maintenance paint system:
+1) Is applicable as the default maintenance painting
+system for minor or major maintenance of external
+surfaces to achieve the best durability, maximising the
+period to the next maintenance painting intervention.
+2) Should be adopted for the maintenance of structures
+originally protected with a paint system incorporating a
+thermal metal spray coating (aluminium or zinc) which
+has become exposed due to failure of the paint system
+over the thermal metal spray coating, and where total
+removal of the protective coating system is not cost
+effective.
+3) Should be adopted for the painting of structures where
+the complete removal of the original protective system
+is necessary, and the remaining life of the structure is
+greater than 15 years.
+4) Is suitable for the maintenance of internal surfaces of
+enclosed steel sections to maximise the period to the
+next maintenance painting intervention of internal
+surfaces (durability likely to be >20 years for internal
+surfaces).
+5) Is not suitable for use over chlorinated rubber, acrylated
+rubber, bituminous or single pack coatings.
+20 years.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix C. Guidance on the application of the paint syst...
+Table C.1 Guidance on the application of the paint systems described in Appendix B (continued)
+HM II: Maintenance 3 Coat System
+(external or internal surfaces)
+The HM II
+maintenance paint system:
+1) Is suitable for minor or major maintenance of external
+surfaces where the reduced durability provides a
+cost-effective solution over the remaining life of the
+structure compared to the use of the HM I system.
+2) Should be adopted for the painting of structures where
+the complete removal of the original protective system
+is necessary, and the remaining life of the structure is
+less than 15 years.
+3) Is suitable for the maintenance of internal surfaces of
+enclosed steel sections (durability likely to be >15 years
+for internal surfaces).
+4) May be suitable for use over chlorinated rubber or
+acrylated rubber coatings.
+5) Is not suitable over bituminous or single pack coatings.
+6) Is not suitable for maintenance of structures originally
+protected with a paint system incorporating a thermal
+metal spray coating (aluminium or zinc) which has
+become exposed due to failure of the paint system over
+the thermal metal spray coating.
+15 years.
+HM III: Maintenance 2 Coat Patch
+System
+The HM III
+maintenance paint system:
+1) Is suitable for localised maintenance of both external
+and internal surfaces with small areas of denatured
+finish coat or finish and intermediate coats (Category I
+failure Table A.1), to extend the life of the paint system
+overall.
+2) Is not suitable where metal coatings or steel substrate
+are exposed.
+Depends on the durability of the remaining original paint
+system which is not subject to maintenance.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix C. Guidance on the application of the paint syst...
+Table C.1 Guidance on the application of the paint systems described in Appendix B (continued)
+HM IV Maintenance 1 or 2 Coat
+Short Possession System
+The HM IV
+maintenance paint system:
+1) Is suitable for the maintenance of external surfaces of
+existing structures immediately adjacent to railways or
+highways where the length of available access time to
+undertake the works is severely restricted due to limited
+availability and/or duration of railway or highway
+possession time. The use of the HM IV system should
+only be considered as a last resort when use of other
+paint systems that would provide a better durability can
+be shown to be impractical, and where use under these
+circumstances is agreed in advance with the
+Overseeing Organisation.
+2) The HM IV system should only be considered for use
+on those areas of a structure where the limited access
+time directly applies.
+3) May be suitable for patch repairs but only under the
+circumstances described in 1.
+4) See guidance on whether stripe coats and/or a finish
+coat may be omitted, given in Section 4 of this
+document. Note that the omission of stripe coats and/or
+a finish coat should be agreed at the time of agreeing
+the use of the HM IV system with the Overseeing
+Organisation.
+5 to 10 years; highly dependent on the quality of
+substrate preparation achieved, the prevailing
+atmospheric/ environmental conditions when the painting
+work is carried out and whether tripe coats and or a finish
+coat are omitted.
+HM V Maintenance of galvanised
+coatings
+The HM V
+maintenance paint system:
+1) Is suitable for the maintenance of sound galvanised
+coatings.
+2) Is not suitable for the maintenance of other exposed
+metal coatings.
+15 years; dependent on the extent of loss of the
+galvanised coating
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 60
+======================================================================
+CM 431 Version 0.1.0
+Appendix C. Guidance on the application of the paint syst...
+Table C.1 Guidance on the application of the paint systems described in Appendix B (continued)
+HM VI Maintenance of internal
+surfaces
+(water based)
+The HM VI
+maintenance paint system:
+1) Is suitable for the maintenance of internal surfaces of
+enclosed steel sections as an alternative to using the
+HM I, HM II or HM VII systems.
+2) Is not suitable for the maintenance of
+0ptexternal surfaces.
+15 years.
+HM VII Maintenance of internal
+surfaces
+(solvent free)
+The HM VII
+maintenance paint system:
+1) Is suitable for the maintenance of internal surfaces of
+enclosed steel sections as an alternative to using the
+HM I, HM II or HM VI systems.
+2) Is suitable where the solvent free properties would be
+an advantage, for example in a confined environment.
+3) Is not suitable for the maintenance of external surfaces.
+15 years
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 60
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Maintenance & Operation
+CM 431 - ENAA
+England National Application Annex for
+Maintenance painting of steelwork
+Version 1.0.0
+Summary
+There are no specific requirements for National Highways supplementary or alternative to those
+given in CM 431.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 60
+======================================================================
+CM 431 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 60
+======================================================================
+CM 431 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 431 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+New England NAA introduced due to new Scotland NAA for CM 431.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 60
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Maintenance & Operation
+CM 431 - NINAA
+Northern Ireland National Application Annex
+for Maintenance painting of steelwork
+Version 1.0.0
+Summary
+There are no specific requirements for Department for Infrastructure, Northern Ireland
+supplementary or alternative to those given in CM 431.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 60
+======================================================================
+CM 431 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 60
+======================================================================
+CM 431 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 431 -
+NINAA
+1.0.0
+September 2025
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+New Northern Ireland NAA introduced due to new Scotland NAA for CM 431.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 60
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Maintenance & Operation
+CM 431 - SNAA
+Scotland National Application Annex for
+Maintenance painting of steelwork
+Version 1.0.0
+Summary
+This National Application Annex sets out the Transport Scotland specific requirements on CM
+431
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Normative references
+5
+Appendix S/A. Protective systems for maintenance painting of steelwork
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 431 -
+SNAA
+1.0.0
+September 2025
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+Scotland-specific requirements for maintenance painting of steelwork.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+This document is a National Application Annex to DMRB document CM 431.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Transport Scotland-specific requirements related to the
+maintenance painting of steelwork.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+S/1. Normative references
+S/1.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Highways. CG 303, 'Quality assurance scheme for paints and similar
+protective coatings'
+Ref 3.N
+Network Rail. NR/L3/CIV/040, 'Work Instruction for the Use of Protective Coating
+Systems'
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Appendix S/A. Protective systems for maintenance painting o...
+Appendix S/A. Protective systems for maintenance painting of steelwork
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Appendix S/A. Protective systems for maintenance painting o...
+Table S/A.1 Protective systems for maintenance painting of structural steelwork
+Protective system
+Substrate
+Standard
+Item No.1
+and mdft2
+1st
+Coat
+2nd Coat
+3rd Coat
+4th Coat
+Paint system
+mdft
+Item No.
+115
+112,116 or 121
+112 116 or 121
+167,168,169,18
+5, or 195
+Sa2½ Steel or St3
+Steel
+mdft
+100 µm
+100 µm
+100µm
+50 µm or 100
+µm (for item 185
+)
+400 µm or 450
+µm (with item 18
+5)
+Item No.
+115
+112, 116 or 121
+112, 116 or 121
+167, 168, 169, 1
+85 or 195
+Sound Thermal
+Metal Spray
+Coating
+mdft
+100 µm
+100 µm
+100 µm
+50 µm or 100
+µm (for item 185
+)
+400 µm or 450
+µm (with item 18
+5)
+Item No.
+Nil
+Nil
+112,116 or 121
+167, 168, 169, 1
+85 or 195
+Sound paint
+(undercoats)
+mdft
+100 µm
+50 µm or 100
+µm (for item 185
+)
+175 µm or 225
+µm
+(with Item 185)
+Item No.
+Nil
+Nil
+Nil
+167,168,169, 18
+5 or 195
+HM I Maintenance 4 Coat
+System
+(external surfaces)
+Sound paint (finish
+coat)
+mdft
+50 µm or 100
+µm (for item 185
+)
+50 µm or 100 µm
+(for
+item 185)
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Appendix S/A. Protective systems for maintenance painting o...
+Table S/A.1 Protective systems for maintenance painting of structural steelwork (continued)
+Item No.
+115
+112,116 or 121
+167,168,169, 185 or 195
+Sa2½ Steel or St3
+Steel
+mdft
+100 µm
+100 µm
+50 µm or 100 µm (for
+item 185)µmor 100 (for
+item 185)
+300 µm or 350
+µm (with item 18
+5)
+Item No.
+Nil
+112,116 or 121
+167,168,169, 185 or 195
+Sound paint
+(undercoats)
+mdft
+100 µm
+50 µm or 100 µm (for
+item 185)
+175 µm or 225
+µm
+(with Item 185)
+Item No.
+Nil
+Nil
+167,168,169, 185 or 195
+HM II Maintenance 3 Coat
+System
+(external or internal
+surfaces)
+Sound existing
+finish coat
+mdft
+50 µm or 100 µm (for
+item 185)
+50 µm or 100 µm
+(for
+item 185)
+Item No.
+112,116
+or
+121
+167,168,169, 1
+85 or 195
+HM III Maintenance 2
+Coat Patch System
+Sound paint
+(undercoats)
+mdft
+100 µm
+50 µm or 100
+µm (for item 18
+5)
+175 µm or 225
+µm
+(with Item 185)
+Item No.3
+7.2.6
+7.3.1 or 7.3.4
+HM IV Maintenance 1 or 2
+Coat Short Possession
+System
+Sa2½ Steel or St3
+Steel or sound
+paint
+mdft
+400 µm
+50 µm
+400 µm (single
+coat) or 450 µm
+(with 2nd coat)
+Item No.
+155 or
+sweep
+blast
+112,116 or 121
+167,168,169, 185 or 195
+HM V Maintenance of
+galvanised coatings
+Sound galvanised
+coating
+mdft
+100 µm
+50 µm or 100 µm (for
+item 185)
+175 µm or 225
+µm
+(with Item 185)
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 60
+======================================================================
+CM 431 - SNAA Version 1.0.0
+Appendix S/A. Protective systems for maintenance painting o...
+Table S/A.1 Protective systems for maintenance painting of structural steelwork (continued)
+Item No.
+113
+114
+Sa2½ Steel or St3
+Steel
+mdft
+100 µm
+100 µm
+225 µm
+Item No.
+113
+114
+Sound Metal Spray
+mdft
+100 µm
+100 µm
+225 µm
+Item No.
+113
+114
+Sound paint
+(undercoats)
+mdft
+100 µm
+100 µm
+225 µm
+Item No.
+Nil
+114
+HM VI Maintenance of
+internal surfaces (water
+based)
+Sound existing
+finish coat
+mdft
+100 µm
+125 µm
+Item No.
+117
+117
+Sound existing
+finish coat
+mdft
+150 µm
+150 µm
+350 µm
+Item No.
+117
+117
+Sound Metal Spray
+mdft
+150 µm
+150 µm
+350 µm
+Item No.
+117
+117
+Sound paint
+(undercoats)
+mdft
+150 µm
+150 µm
+350 µm
+Item No.
+Nil
+117
+HM VII Maintenance of
+internal surfaces (solvent
+free)
+Sound existing
+finish coat
+mdft
+150 µm
+175 µm
+Item No.
+200
+201
+Grease Paint
+Sound existing
+finish coat
+mdft
+100 µm
+150 µm
+300 µm
+Note 1: Paint Item Nos are as defined in CG 303 [Ref 2.N].
+Note 2: Minimum dry film thickness (mdft) [µm], excluding any stripe coats for paint system.
+Note 3: Item No. refers to Network Rail Item Number from Network Rail Document Reference NR/L3/CIV/040 [Ref 3.N].
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 60
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 60
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Maintenance & Operation
+CM 431 - WNAA
+Wales National Application Annex for
+Maintenance painting of steelwork
+Version 1.0.0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CM 431.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 60
+======================================================================
+CM 431 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 60
+======================================================================
+CM 431 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 431 -
+WNAA
+1.0.0
+September 2025
+Wales NAA
+Change to policy, major
+revision, new document
+development
+New Wales NAA introduced due to new Scotland NAA for CM 431.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 60
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 431 Version 0.1.0, published: 30-Sep-2025
+
+
