@@ -1,0 +1,6839 @@
+======================================================================
+PAGE 1 of 70
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 526
+Spacing of road gullies
+Version 3.1.0
+Summary
+This document provides the requirements and advice for determining the length of road that can
+be drained by grating and kerb outlets.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 70
+======================================================================
+CD 526 Version 3.1.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Design principles
+9
+3. Types of gully grating
+11
+4. Types of kerb inlet
+12
+5. Factors affecting hydraulic design
+15
+Effect of performance reduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Types of gully . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Rainfall
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Catchment width . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+6. Normative references
+19
+7. Informative references
+20
+Appendix A. Determining the grating type
+21
+A1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Appendix B. Use of tables for determining flow capacity of gullies
+22
+B1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+B2 Hydraulic parameters
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+B3 Maximum spacings for gully gratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+B4 Maximum spacings for kerb inlets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+B5 Terminal gullies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Appendix C. Use of equations for determining the flow capacity of gullies
+25
+C1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+C2 Flow capacity of kerb channel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+C3 Flow collection efficiency of gully grating . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+C4 Maximum design spacing of gully gratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+C5 Flow collection efficiency of kerb inlet
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+C6 Maximum design spacing for kerb inlets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+C7 Effect of longitudinally varying gradient . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+C8 Flow capacity of gully pots . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+C9 Redesign . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Appendix D. Design tables
+30
+Appendix E. Rainfall depth
+67
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 70
+======================================================================
+CD 526 Version 3.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 526
+3.1.0
+September 2025
+Core document
+Incremental change to
+requirements
+Requirement on waterway area moved from CD 534 as it sits better in this standard adjacent to the other advice
+on waterway area.
+Other minor editorials.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 526
+3.0.0
+January 2020
+CD 526
+2
+October 2019
+CD 526
+1
+October 2018
+CD 526
+0
+August 2018
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 70
+======================================================================
+CD 526 Version 3.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 526 version 3.0.0, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 70
+======================================================================
+CD 526 Version 3.1.0
+Introduction
+Introduction
+Background
+This document sets out the requirements and advice for determining the spacing of road grating and
+kerb inlets for removing surface water from the carriageway within an acceptable width of channel flow.
+The research upon which the design methodologies described in Appendix B and C are based is
+detailed in HRW SR 533 [Ref 5.I].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+The limiting factor determining the spacing between road gullies is normally taken to be the inlet
+capacity of the overlying grating rather than the underlying gully pot or associated pipework. See also
+Appendix C8.
+The hydraulic design method in this document assumes that the gap between the kerb and the first
+slot(s) of a gully grating is not greater than 50mm.
+Road profiling and gradients determine gully locations on roundabouts; refer to CG 501 [Ref 2.N] for
+further information.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 70
+======================================================================
+CD 526 Version 3.1.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+HRW
+Hydraulics Research Wallingford
+TRL
+Transport Research Laboratory
+Symbols
+Symbol
+Definition
+Aa
+As Adr but for actual rainfall intensity, performance factor and channel roughness (m2)
+Adr
+Maximum area which can be drained by a kerb channel for a rainfall intensity of I = 50m
+m/hr, a performance factor of m = 1.0, and a channel roughness of n = 0.017 (m2)
+Af
+Cross-sectional area of flow in channel just upstream of grating (m2)
+Ag
+Area of smallest rectangle with two sides parallel to kerb that contains all the slots in the
+grating (m2)
+B
+Maximum allowable width of flow in channel upstream of grating (m)
+Cb
+Coefficient for grating bar pattern
+G
+Grating parameter (s/m2)
+Gd
+Design value of G for grating type (s/m2)
+H
+Water depth at kerb (m)
+I
+Design rainfall intensity (mm/h)
+kn
+Roughness and grating efficiency factor
+kL
+Kerb inlet length factor
+L
+Length of opening provided by kerb inlet (m)
+Li
+Overall length of opening in kerb provided by angled kerb inlet (m)
+m
+Performance factor
+mus
+Performance factor for upstream grating
+N
+Return period of design storm (years)
+n
+Manning roughness coefficient
+p
+Waterway area as a percentage of grating area (%)
+Q
+Flow rate in channel approaching grating (m3/s)
+Qus
+Flow rate in channel approaching upstream grating (m3/s)
+R
+Hydraulic radius of channel (m)
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 70
+======================================================================
+CD 526 Version 3.1.0
+Abbreviations and symbols
+Symbols (continued)
+Symbol
+Definition
+Sc
+Crossfall
+Si
+Longitudinal slope at distance Zi from upstream gully (m)
+Sp
+Maximum allowable spacing between adjacent gullies (m)
+SL
+Longitudinal gradient
+T
+Critical storm duration (minutes)
+tg
+Time for water to travel along kerb to gully grating (minutes)
+ts
+Time for water to travel from furthest point on road surface to kerb (minutes)
+V
+Flow velocity along kerb (m/s)
+We
+Effective catchment width draining to channel (m)
+η
+Flow collection efficiency of grating (%)
+ηus
+Flow collection efficiency of upstream grating (%)
+2minM5
+Rainfall depth occurring at a location in a period of 2 minutes with an average return
+period of 5 years (mm)
+Z
+Distance between adjacent gullies (m)
+Zi
+Distance from upstream gully measured in downstream direction (m)
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 70
+======================================================================
+CD 526 Version 3.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Critical storm duration
+A storm duration equal to the time of concentration.
+Frame
+For a gully, the fixed part of the gully top that receives and supports the
+grating.
+Grating
+The removable part(s) of a gully top that permits the passage of water to
+the gully.
+Gully
+An assembly to receive water for discharge into a drainage system.
+Gully pot
+A device installed below a grating to collect settleable solids and prevent
+them entering the piped drainage system.
+Gully top
+That part of a gully which is placed on the gully pot.
+Intermediate gullies
+Gullies for which some calculated portion of the approaching flow may be
+permitted to continue past the grating, to be picked up by the next grating
+downstream.
+Kerb channel
+The channel formed by the surface of a carriageway and the kerb.
+Kerb inlet
+Kerb inlets are units that when installed along the line of a kerb provide a
+series of openings parallel to the direction of flow and through each of
+which water can be discharged via a gully pot to the below-ground pipe
+system.
+Return period
+The average period between successive exceedances of a specified storm
+event.
+Surface water channel
+A triangular or other cross-section channel near the edge of the
+carriageway specially constructed to collect and convey water.
+Terminal gullies
+Gullies for which no significant portion of the approaching flow may be
+permitted to pass the grating.
+Time of concentration
+The sum of the time taken for water to travel from the furthest point on the
+road surface to the kerb, and then along the kerb to the gully.
+Transverse bars
+Part of the grating which is at 90º ± 10º to the direction of flow.
+Waterway area
+The total area of all the slots in a grating through which water can pass.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 70
+======================================================================
+CD 526 Version 3.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements, advice and design methodologies contained within this document shall apply for
+determining the spacing of road grating and kerb inlets to the range of longitudinal gradients between
+0.33% (1/300) and 6.67% (1/15).
+1.1.1
+The requirements, advice and design methodologies for determining the spacing of road grating and
+kerb inlets may be extended to a longitudinal gradient of 8.0% (1/12.5) in accordance with HRW SR
+533 [Ref 5.I].
+NOTE 1
+Flat longitudinal gradients are unavoidable in some situations and road gullies can offer advantages
+over surface water channels in this situation as the gradient to carry road runoff from a gully to an
+outfall is not dependent on the gradient of the road.
+NOTE 2
+For long lengths of flat gradient, grating and kerb outlets do not always provide the optimum drainage
+solution.
+NOTE 3
+Further information on the design of gully spacings for the drainage of level or nearly level roads is
+given in TRL LR 602 [Ref 1.I].
+NOTE 4
+Kerb drainage system having continuous slots or closely-spaced holes that discharge into a
+longitudinal pipe or channel formed within the kerb unit (combined kerb and drain unit) are outside the
+scope of this document.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the use of gully gratings and
+kerb outlets to remove runoff from the carriageway on the Overseeing Organisations' motorway and
+all-purpose trunk roads according to the implementation requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+1.4
+Safety risk mitigation measures shall follow the ERIC hierarchy - Eliminate, Reduce, Isolate and
+Control for each identified safety risk.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 70
+======================================================================
+CD 526 Version 3.1.0
+2. Design principles
+2.
+Design principles
+2.1
+The hydraulic design of road gratings and kerb inlets shall fulfil the requirements set out in this section.
+2.2
+The flow of water parallel to the kerb shall not exceed an allowable flow width (see reference to B in
+Figures 2.2 and 2.4).
+Figure 2.2 Flow width of water against kerb
+2.3
+When checked for a 1 in 5 year storm as described in CG 501 [Ref 2.N] the allowable flow width B shall
+not exceed 1.5m for the hard shoulder or lay-by, or 1.0m for the hard strip.
+NOTE
+An excessive flow width can be a danger to traffic.
+2.4
+The grating of the gully or kerb inlet shall collect as much of the approaching flow as possible.
+Efficiency η (%) is expressed as the water flow down the grating or inlet as a percentage of the
+approaching flow (Figure 2.4).
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 70
+======================================================================
+CD 526 Version 3.1.0
+2. Design principles
+Figure 2.4 Flow of water along kerb and by-passing gully grating
+NOTE
+Any water not collected flows past the grating, augmenting the flow in the next downstream section.
+2.5
+No flow shall bypass a terminal gully.
+2.6
+The overall hydraulic capacity of a system of road gratings and kerb inlets shall capture any water that
+by-passes any single grating in the system.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 70
+======================================================================
+CD 526 Version 3.1.0
+3. Types of gully grating
+3.
+Types of gully grating
+3.1
+Gully gratings shall comply with the requirements outlined in BS EN 124:1994 [Ref 3.N] .
+NOTE 1
+The hydraulic capacity of a gully grating depends on its overall size, the number and orientation of the
+slots and the total waterway area provided by the slots.
+NOTE 2
+For requirements relating to the design of gully tops see CD 534 [Ref 1.N].
+3.2
+Gully gratings shall be rectangular or triangular with one side adjacent to the kerb.
+3.2.1
+The kerb face of the frame should be hard against the kerb.
+3.2.2
+The portion of the total waterway area within 50mm of the kerb should not be less than 45 cm2, in
+accordance with BS 7903 [Ref 3.I].
+NOTE
+The hydraulic design method in this document assumes that the gap between the kerb and the first
+slot(s) of a gully grating is not greater than 50mm.
+3.2.3
+The minimum area of waterway should be 900 cm2.
+3.2.4
+There should be a minimum waterway area of 65 cm2 between the kerb face of the frame and a parallel
+line 90 mm distant.
+3.3
+Circular gully gratings, and any shapes that are highly asymmetric in a direction transverse to the kerb,
+shall not be used.
+3.4
+Grating slots shall be orientated so as not to pose a hazard to cyclists riding over them in the direction
+of travel.
+NOTE
+BS EN 124:1994 [Ref 3.N]allows grating slots parallel to the kerb which can present a serious hazard to
+cyclists.
+3.5
+Classification of gratings shall be determined by the method of calculation in Appendix A, based upon
+the geometric characteristics of the grating.
+NOTE 1
+In order to deal with the large number of possible designs that can be produced, Appendix A sets out a
+method of classifying gratings based on their hydraulic characteristics - Types P, Q, R, S or T in
+decreasing hydraulic capacity. The advantage of this approach is that a grating type can be specified
+during design, ensuring the required hydraulic performance whatever type of conforming grating is
+chosen during construction.
+NOTE 2
+If a manufacturer wishes to carry out hydraulic tests to determine the classification of a grating, a
+suitable test procedure is described in HRW SR 533 [Ref 5.I].
+3.5.1
+Where a gully grating is under performing hydraulically, it may be more cost effective to install a more
+efficient grating than install an additional gully.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 70
+======================================================================
+CD 526 Version 3.1.0
+4. Types of kerb inlet
+4.
+Types of kerb inlet
+4.1
+Kerb inlet covers and frames shall be Class D400 or stronger, in accordance with BS EN 124:1994 [Ref
+3.N].
+NOTE 1
+Kerb inlets tend to have lower flow collection capacity than a gully grating of similar length. This is
+because the lower velocity of flow along a kerb channel limits the proportion of total flow that is able to
+turn into the opening provided by the kerb inlet.
+NOTE 2
+A method of increasing the efficiency of a kerb inlet is to create a longer opening parallel to the
+direction of flow by recessing the upstream kerb line and setting the kerb inlet at a greater angle to the
+flow (see Figure 4.1.1).
+NOTE 3
+For requirements relating to the design of kerb-type gully tops see CD 534 [Ref 1.N].
+4.1.1
+To prevent flow separating from the recessed section of kerb, the angle β in Figure 4.1.1 should be no
+greater than 14º, corresponding to an expansion angle of 1:4.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 70
+======================================================================
+CD 526 Version 3.1.0
+4. Types of kerb inlet
+Figure 4.1.1 Layout of kerb inlets
+4.2
+To minimise the risk to errant vehicles, angled kerb inlets of the type shown in Figure 4.1.1 shall only be
+used where the direction of water flow is opposite to that of the traffic in the carriageway adjacent to the
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 70
+======================================================================
+CD 526 Version 3.1.0
+4. Types of kerb inlet
+kerb.
+NOTE
+Angled kerb inlets can be more prone to blockage. Debris decreases performance and increases the
+risk of flooding.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 70
+======================================================================
+CD 526 Version 3.1.0
+5. Factors affecting hydraulic design
+5.
+Factors affecting hydraulic design
+5.1
+The hydraulic parameters of channels, gratings and inlets shall be evaluated in accordance with this
+section before commencing the design procedure.
+5.2
+An initial assumption about the most suitable grating type (P to T) for a particular scheme shall be
+made, and upgraded if it does not prove satisfactory.
+5.3
+The Manning roughness coefficient of the channel (n) shall be taken as no less than 0.017 for an
+asphalt surface.
+NOTE
+Values for Manning's n for different drainage channel materials are given in Table 5.3N.
+Table 5.3N Values of Manning's n
+Surface
+Condition
+n
+Concrete
+Average
+0.013
+Concrete
+Poor
+0.016
+Asphalt
+Average
+0.017
+Asphalt
+Poor
+0.021
+5.4
+The location of specific gullies shall first be fixed by the requirements and advice given in this section.
+5.4.1
+The location and spacing for any intermediate gullies may be determined by the design methods given
+in Appendix B and Appendix C.
+5.5
+Calculations shall commence at the crests or highest point of the scheme and proceed downhill.
+NOTE
+Design storm return periods are given in CG 501 [Ref 2.N].
+Effect of performance reduction
+5.6
+A performance factor 'm' shall be included to allow for reduced grating efficiency.
+NOTE 1
+Reduced efficiency can be caused by the accumulation of debris that reduces the hydraulic area and
+therefore the efficiency.
+NOTE 2
+The performance factor m has a value of 1.0 for no effect, and decreasing values for increasing levels
+of risk.
+NOTE 3
+Values for m are given in Table 5.6N4.
+NOTE 4
+Site specific characteristics can determine the grating efficiency factor m to be used in the design.
+Table 5.6N4 Values of performance factor
+Situation
+Maintenance factor (m)
+Baseline condition
+1.0
+Roads subject to substantial leaf falls or vehicle
+spillages (e.g. at sharp roundabouts)
+0.8
+Sag points on road gradients
+0.7
+Types of gully
+5.7
+The type of gully, intermediate or terminal, shall be determined by the distinction between their two
+modes of hydraulic operation.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 70
+======================================================================
+CD 526 Version 3.1.0
+5. Factors affecting hydraulic design
+NOTE 1
+Intermediate gullies are those for which some calculated proportion of the approaching flow can be
+permitted to continue past the gully, to be picked up by the next gully downstream as shown in Figure
+2.4. This is known as by-pass flow.
+NOTE 2
+Terminal gullies are those for which no significant proportion of the approaching flow is permitted to
+pass the gully, either because there is no downstream gully or because the passing flow will interfere
+with traffic.
+5.8
+Gully design shall allow future maintenance to be carried out safely and effectively.
+5.9
+Gully design shall not affect the safety of cyclists and other road users and will not impact upon traffic
+flow.
+5.10
+Gullies shall be located so as not to pose a hazard to users of pedestrian, cycle or equestrian crossings.
+5.11
+Gullies shall be located so that there is no standing water at pedestrian, cycle or equestrian crossings.
+NOTE 1
+A particular problem occurs at sag points in gradients, both because floating debris will tend to
+accumulate at this point, and because any water not entering a gully at this point cannot pass to
+another gully.
+NOTE 2
+Where the crest along a length of road with changing longitudinal gradient is well defined, a gully is not
+required at this point.
+5.11.1
+Where there is a slow transition from negative to positive gradient, a gully may be placed at the crest to
+prevent any ponding of water.
+NOTE
+In cases such as the following it can be beneficial to install an additional upstream gully, designed to act
+as a terminal gully:
+1)
+Transitions to superelevations.
+2)
+A pedestrian, cycle or equestrian crossing.
+3)
+For steeply angled road junctions.
+5.12
+Kerb inlets shall not be used as terminal gullies at sag points unless it is in combination with gratings.
+Rainfall
+5.13
+The design rainfall intensity I (mm/h) shall be determined in accordance with the requirements
+described in CG 501 [Ref 2.N].
+5.13.1
+Design rainfall intensity may also be determined from the formula given in CD 521 [Ref 4.N],
+reproduced below:
+Equation 5.13.1
+I = 32.7(N −0.4)0.223
+{
+(T −0.4)0.5652 min M5
+T
+}
+where:
+I
+Design rainfall intensity (mm/h)
+N
+Return period of design storm (years)
+T
+Critical storm duration (minutes)
+2 min M5
+Rainfall depth occurring at a location in a period of 2 minutes with an average
+return period of 5 years (mm)
+NOTE 1
+The term 2minM5 describes the depth of rainfall (in mm) falling at a site over a period of 2 minutes, and
+with an average return period of 5 years (i.e. an annual exceedance probability of 20%). This is a
+measure of the rainfall characteristics at any given site and is reproduced in Figure E.1 in Appendix E.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 70
+======================================================================
+CD 526 Version 3.1.0
+5. Factors affecting hydraulic design
+NOTE 2
+Design values of the storm return period are given in CG 501 [Ref 2.N].
+NOTE 3
+Records indicate East Anglia and the South East experience lower Average Annual Rainfall than other
+parts of the UK. However, these regions experience higher intensity and more frequent short duration
+storms, particularly during summer months as demonstrated by the 2minM5 values shown in Figure
+E.1.
+NOTE 4
+The critical storm duration T (in minutes) is the time of concentration of flow for the area served by the
+gully.
+NOTE 5
+The critical storm duration T used for simple modelling purposes is generally recognised as 5 minutes.
+NOTE 6
+T can be significantly less than 5 minutes for gullies spaced at less than 10m intervals, and with
+moderate to severe longitudinal gradients (more than 4%).
+NOTE 7
+T can be significantly greater than 5 minutes for gullies spaced at greater than 50m intervals, and with
+flatter longitudinal gradients (less than 0.5%).
+5.14
+The value of T shall be checked for the shortest and longest drainage lengths between gullies.
+5.14.1
+The sum of the time taken for water to travel from the furthest point on the road surface to the kerb, ts ,
+and then along the kerb to the gully, tg , should be approximately equal to T , as follows:
+Equation 5.14.1
+T = ts + tg
+where:
+T
+critical storm duration (minutes)
+ts
+time for water to travel from the furthest point on the road surface to the kerb (minutes)
+tg
+time for water to travel along the kerb to the gully (minutes)
+NOTE 1
+A value of ts of 3 minutes is generally recommended. HRW WP [Ref 6.I](see Vol 1 section 7.10)
+provides information on non-standard cases.
+NOTE 2
+For a reasonably uniform gradient, tg (in minutes) can be calculated from the flow velocity, V (in m/s)
+and gully spacing:
+Equation 5.14.1N2a
+tg = Sp
+60V
+where:
+tg
+time for water to travel along the kerb to the gully (minutes)
+Sp
+gully spacing (m)
+V
+flow velocity along kerb (m/s)
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 70
+======================================================================
+CD 526 Version 3.1.0
+5. Factors affecting hydraulic design
+Equation 5.14.1N2b
+V =
+2Q
+B2Sc
+where:
+V
+flow velocity along kerb
+Q
+Flow rate in channel approaching grating
+B
+Maximum allowable width of flow in channel upstream of grating
+Sc
+Crossfall
+5.14.2
+If Equation 5.14.1 shows T to be outside the range 4 to 7 minutes, the design procedure should be
+repeated using the recalculated value of critical storm duration (T) rounded to the nearest minute.
+Catchment width
+5.15
+All paved areas draining to the kerb shall be included in the catchment width.
+NOTE
+Paved areas can include hard shoulders, paved central reserves, footways, emergency refuge areas
+and maintenance hard-standing. Roof drainage from buildings can also be included where it
+discharges to road gullies.
+5.15.1
+The effective catchment width draining to the kerb channel, We (in m), may be determined from a plan
+area of the site.
+5.16
+If the unpaved area exceeds the paved area then the methodology outlined in CD 521 [Ref 4.N] shall
+be used to determine the effective catchment width draining to the kerb channel.
+5.16.1
+Where the unpaved area does not exceed the paved area, it may be accepted that runoff contribution
+from unpaved areas equates to 20% that of an equivalent paved area.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 70
+======================================================================
+CD 526 Version 3.1.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 534, 'Chamber tops and gully tops for road drainage and
+services'
+Ref 2.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 3.N
+BS EN 124:1994, 'Gully tops and manhole tops for vehicular and pedestrian areas —
+Design requirements, type testing, marking, quality control'
+Ref 4.N
+National Highways. CD 521, 'Hydraulic design of road edge surface water channels
+and outlets'
+Ref 5.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 70
+======================================================================
+CD 526 Version 3.1.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Transport Research Laboratory. Whiffin, A.C. and Young, C.P.. TRL LR 602,
+'Drainage of level or nearly level roads'
+Ref 2.I
+BSI. BS EN 12056-3, 'Gravity drainage systems inside buildings. Roof drainage,
+layout and calculation'
+Ref 3.I
+BSI. BS 7903, 'Guide to selection and use of gully tops and manhole covers for
+installation within the highway'
+Ref 4.I
+HR Wallingford. Forty, E.J.. HRW SR 508, 'Performance of gully pots for road
+drainage'
+Ref 5.I
+HR Wallingford. Spaliviero, F., May, R.W.P. and Escarameia, M.. HRW SR 533,
+'Spacing of road gullies: Hydraulic performance of BS EN 124 gully gratings and kerb
+inlets'
+Ref 6.I
+National Water Council. Hydraulics Research Ltd.. HRW WP, 'The Wallingford
+Procedure: Design and Analysis of Urban Storm Drainage'
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix A. Determining the grating type
+Appendix A. Determining the grating type
+A1
+Introduction
+When determining the grating type, the following three geometrical properties are determined first.
+1)
+The area Ag (in m2) of the smallest rectangle parallel to the kerb that just includes all the slots.
+2)
+The waterway area as a percentage (p) of the grating area Ag.
+3)
+The coefficient Cb determined from Table A1 below.
+Bars more than 10mm below the surface of the grating are treated as part of the waterway area when
+calculating the value of p. If a grating has a combination of bar alignments, the number of transverse
+slots and the number of slots with other alignments are calculated. If there are more transverse slots
+than other slots, Cb is be taken as 1.75; otherwise Cb is taken as 1.5.
+Table A.1 Grating bar pattern
+Grating bar pattern
+Cb
+Transverse bars
+1.75
+Other bar alignments - (i.e. longitudinal, diagonal and bars curved in plan)
+1.5
+The category into which a grating falls may then be determined from the value of the grating parameter
+G (in s/m2):
+Equation A.1
+G =
+69Cb
+(
+A0.75
+g
+)√p
+where:
+G
+Grating parameter (s/m2)
+Cb
+Coefficient for grating bar pattern
+Ag
+Area of smallest rectangle with two sides parallel to kerb that contains all the slots in the
+grating (m2)
+p
+Waterway area as a percentage of grating area (%)
+The grating type and the corresponding design value Gd of the grating parameter is then determined
+from Table A2. The value of Gd should be used to calculate the maximum spacing between gullies,
+rather than the actual value of G from Equation (A.1).
+Table A.2 Determination of grating type
+Grating type
+P
+Q
+R
+S
+T
+Range of G (s/m2)
+<30
+30.1 - 45
+45.1 - 60
+60.1 - 80
+80.1 - 110
+Design value Gd (s/m2)
+30
+45
+60
+80
+110
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix B. Use of tables for determining flow capacity ...
+Appendix B. Use of tables for determining flow capacity of gullies
+B1
+Introduction
+A series of design tables is given in Appendix D of this document. These can be used, subject to the
+limitations indicated, to determine gully spacings with the minimum of calculation.
+Alternatively the equations on which they are based are given in Appendix C of this document, and
+these equations can be used directly.
+It should be noted that the tables refer to spacing of intermediate gullies. The design of terminal gullies
+is described at the end of this appendix.
+B2
+Hydraulic parameters
+The following parameters are required:
+1)
+Values of the longitudinal gradient, SL, at points along the length of the scheme (expressed as
+fractions in the design tables and calculations). For an individual length drained by a gully, SL
+should be taken as the average gradient over a 3m distance upstream of the gully.
+2)
+The cross-fall, Sc, also expressed as a fraction in the tables and calculations. It is measured 0.5m
+upstream of the leading edge of the gully and for the maximum permissible width of flow.
+3)
+The Manning roughness coefficient, n.
+4)
+The maximum allowable flow width against the kerb (B in m, see Figure 2.2).
+5)
+The grating type (P, Q, R, S or T), or the size and angle of kerb inlet.
+Table D1 in Appendix D can be used to determine the discharge at the kerb immediately upstream of
+the grating if required. For intermediate values of cross-fall and gradient, the flow may be either
+interpolated or taken as the nearest higher value. For values of n other than 0.017, the flow should be
+multiplied by 0.017/n.
+B3
+Maximum spacings for gully gratings
+Tables D2 to D6 in Appendix D give the area of road that may be drained (Adr in m2) by an intermediate
+gully for a rainfall intensity of 50mm/h, performance factor m = 1.0, and n = 0.017. Each of tables D2 to
+D6 corresponds to one of grating types P to T. The actual area (Aa) that can be drained is then given by:
+Equation B.1
+Aa = Adr
+(50
+I
+)
+mkn
+where:
+Aa
+Actual area that can be drained (m2) (see text above for clarification)
+Adr
+Maximum area that can be drained (m2) (see text above for clarification)
+I
+Design rainfall intensity (mm/h)
+m
+Performance factor
+kn
+Roughness and grating efficiency factor
+It is sufficiently accurate, where the grating efficiency η at n = 0.017 is more than about 80%, to set kn to
+0.017/n. The exact solution is:
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix B. Use of tables for determining flow capacity ...
+Equation B.2
+kn =
+
+
+(0.017
+n
+)
+−
+((
+1 −
+( η
+100
+))((0.017
+n
+)2))
+η
+100
+
+
+where:
+kn
+Roughness and grating efficiency factor
+n
+Manning roughness coefficient
+η
+Flow collection efficiency (%)
+The maximum design spacing between adjacent intermediate gratings (Sp in m) is then given by:
+Equation B.3
+Sp = Aa
+We
+where:
+Sp
+Maximum allowable spacing between adjacent gullies (m)
+Aa
+Actual area that can be drained (m2)
+We
+Effective catchment width
+These tables also give the flow collection efficiency η of the grating in % (in brackets). If η is below
+about 60%, the grating is not very efficient, and the design should be reconsidered (see Appendix C).
+The design method is intended to be applied over a range of η between 100 and 50%. Below 50%, it
+becomes increasingly conservative.
+Tables D2 to D6 are for intermediate gullies on a uniform gradient, and become inaccurate for gradients
+which vary greatly over short distances. As a general guide, errors become significant if the gradients
+between adjacent gullies change by more than two of the increments in the tables, and also if the
+grating efficiency η is less than 80%. A more accurate calculation for this case is given in Appendix C.
+B4
+Maximum spacings for kerb inlets
+Values of the catchment area (Adr in m2) that can be drained by 0.5m long and 1.5m long inlets installed
+in the line of the kerb are given in tables D7 and D8 respectively. Table D9 applies to the case of a
+0.5m long inlet installed at angles α = 50º and β = 14º as shown in Figure 4.1.1; this arrangement is
+equivalent in performance to an in-line inlet providing a 1.85m long opening in the kerb. The values of
+Adr given in the tables assume a rainfall intensity of I = 50 mm/h, a performance factor of m = 1.0 and a
+channel roughness of n = 0.017. If other values of I or m apply, the actual area, Aa , that can be drained
+will be different from Adr and may be calculated from Equation (B.1). If tables D7 to D9 show that the
+flow collection efficiency, η, would be less than 60%, the use of either a longer kerb inlet or a suitable
+gully grating is recommended. For a given length, a gully grating will usually be more efficient than a
+kerb inlet.
+The maximum allowable spacing between intermediate kerb inlets, Sp (in m), is calculated from
+Equation (B.3) using the value of Aa (in m2) and the effective catchment width, We (in m).
+The effect on the allowable drained area and spacing of assuming a different value of channel
+roughness, n, may be estimated approximately by setting kn in Equation (B.1) to 0.017/n, provided the
+flow collection efficiency given for n = 0.017 in the appropriate tables D7 to D9 exceeds η = 80%. If the
+efficiency is lower the more accurate formula given in Equation (B.2) should be used.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix B. Use of tables for determining flow capacity ...
+The drained areas and spacings for other lengths of kerb inlet may be determined by applying an
+appropriate factor kL to the values obtained from tables D7 to D9. Firstly the table for which the inlet
+length, Li1 (in m), is closest to the required length, Li2 (in m) should be chosen. From the table, the flow
+collection efficiency, η , corresponding to the length Li1 should be found, and the value of the factor kL
+calculated from the formula:
+Equation B.4
+kL =
+1.0 −
+((
+1.0 −
+( η
+100
+))(
+Li1
+Li2
+))
+η
+100
+where:
+kL
+Kerb inlet length factor
+η
+Flow collection efficiency (%)
+Li1
+Inlet length (m)
+Li2
+Required inlet length (m)
+The actual drained area (Aa) and the maximum spacing distance (Sp) corresponding to the inlet length
+Li1 should then be multiplied by the factor kL to find the corresponding values for the required inlet
+length Li2.
+B5
+Terminal gullies
+The procedure for designing different arrangements of terminal gullies is as follows:
+1)
+Single gully at sag point. There will be flow into the gully from both directions. Table D1 or
+Equation (C.4) are used to determine which direction gives the greater flow. This flow is then
+doubled, and Equation (C.5) or (C.8) is used to determine the flow collection efficiency η . For
+effective drainage this is greater than 95%. The maximum allowable spacings upstream of the
+gully is then checked using Equation (C.6) or (C.7).
+2)
+Twin gullies at sag point (the more efficient arrangement, possibly requiring fewer gullies
+upstream). Use the tables or equations to determine the design spacing and η for each gully. η
+will be greater than 95% for both gullies.
+3)
+Other terminal gullies (where it is not desirable for the flow to bypass the grating) The design
+spacing upstream of the gully should be determined from the tables or equations. To avoid
+excessive flow past the gully, η should be greater than 95%.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix C. Use of equations for determining the flow ca...
+Appendix C. Use of equations for determining the flow capacity of gullies
+C1
+Introduction
+Appendix C describes the equations used in the design procedure described in this document. They
+were used in compiling the design tables in Appendix D, and may also be used for direct calculation of
+gully spacings. These equations may readily be programmed, and in this form are very easy to use for
+exploring the effects of changing the drainage parameters.
+C2
+Flow capacity of kerb channel
+The water depth against the kerb (H, in m) as shown in Figure 2.2 is given by:
+Equation C.1
+H = BSc
+where:
+H
+Water depth at kerb (m)
+B
+Maximum allowable width of flow in channel upstream of grating (m)
+Sc
+Crossfall
+The cross-sectional area of flow, Af (in m2), just upstream of the grating is given by:
+Equation C.2
+Af = BH
+2
+where:
+Af
+Cross-sectional area of flow in channel just upstream of grating (m2)
+B
+Maximum allowable width of flow in channel upstream of grating (m)
+H
+Water depth at kerb (m)
+The hydraulic radius of the channel, R (in m), is given by:
+Equation C.3
+R =
+Af
+H +
+√
+B2 + H2
+where:
+R
+Hydraulic radius of channel (m)
+Af
+Cross-sectional area of flow in channel just upstream of grating (m2)
+H
+Water depth at kerb (m)
+B
+Maximum allowable width of flow in channel upstream of grating (m)
+The flow rate, Q (in m3/s) approaching the grating is calculated from Manning's equation:
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix C. Use of equations for determining the flow ca...
+Equation C.4
+Q = AfR
+2
+3S
+1
+2
+L
+n
+where:
+Q
+Flow rate in channel approaching grating (m3/s)
+Af
+Cross-sectional area of flow in channel just upstream of grating (m2)
+R
+Hydraulic radius of channel (m)
+SL
+Longitudinal gradient
+n
+Manning roughness coefficient
+C3
+Flow collection efficiency of gully grating
+The flow collection efficiency, η (in %) is given by:
+Equation C.5
+η = 100 −Gd
+( Q
+H
+)
+where:
+η
+Flow collection efficiency of grating (%)
+Gd
+Design value of G for grating type (s/m2)
+Q
+Flow rate in channel approaching grating (m3/s)
+H
+Water depth at kerb (m)
+Gd is the grating parameter and its value is determined by the grating type - see Appendix A.
+The acceptable range of values for η is discussed in Appendix B3.
+C4
+Maximum design spacing of gully gratings
+For intermediate gratings along a uniform longitudinal gradient, the maximum allowable spacing
+between adjacent gratings (Sp) may be calculated from the equation:
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix C. Use of equations for determining the flow ca...
+Equation C.6
+Sp =
+(
+3.6 · 106Q mη
+100
+)
+WeI
+where:
+Sp
+Maximum allowable spacing between adjacent gullies (m)
+Q
+Flow rate in channel approaching grating (m3/s)
+m
+Performance factor
+η
+Flow collection efficiency of grating (%)
+We
+Effective catchment width draining to channel (m)
+I
+Design rainfall intensity (mm/h)
+For non-uniform gradients, the grating spacings are calculated going downstream for each pair of
+gratings, and Equation (C.6) is replaced by:
+Equation C.7
+Sp = 3.6 · 106[
+Q −Qus
+(
+1 −musηus
+100
+)]
+WeI
+where:
+Sp
+Maximum allowable spacing between adjacent gullies (m)
+Q
+Flow rate in channel approaching grating (m3/s)
+Qus
+Flow rate in channel approaching upstream grating (m3/s)
+mus
+Performance factor for upstream grating
+ηus
+Flow collection efficiency of upstream grating (%)
+We
+Effective catchment width draining to channel (m)
+I
+Design rainfall intensity (mm/h)
+where Qus , mus and ηus refer to the upstream grating. Calculations using this equation should
+commence at the upstream end. If the upstream end is at the top of a crest with no gully, Qus becomes
+zero.
+C5
+Flow collection efficiency of kerb inlet
+The flow collection efficiency ( η in %) is given by:
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix C. Use of equations for determining the flow ca...
+Equation C.8
+η = 100 −36.1Q
+LiH1.5
+where:
+η
+Flow collection efficiency of grating (%)
+Q
+Flow rate in channel approaching grating (m3/s)
+Li
+Overall length of opening in kerb provided by angled kerb inlet (m) (see text below)
+H
+Water depth at kerb (m)
+Q is the flow rate (in m3/s) in the kerb channel just upstream of the gully and is calculated using
+Equation C.4. H is the corresponding water depth (in m) at the kerb. Li is the length (in m) of the
+opening in the line of the kerb provided by the inlet. Note that in the case of an angled kerb inlet (see
+Figure 4.1.1), Li is greater than the length L of the kerb unit itself. For the particular kerb angles shown
+in Figure 4.1.1, Li = 3.7 L.
+If Equation (C.8) shows that the flow collection efficiency, η , would be less than 60%, the use of either
+a longer kerb inlet or a suitable gully grating is recommended as described in Appendix B.
+C6
+Maximum design spacing for kerb inlets
+The maximum allowable spacing between intermediate kerb inlets can be determined from Equations
+(C.6) and (C.7).
+C7
+Effect of longitudinally varying gradient
+If the longitudinal gradient of a kerb channel increases significantly with distance in the direction of flow,
+it is necessary to check that the channel has sufficient flow capacity at all points along its length. If the
+distance between two adjacent gullies is Z and the gradient at the downstream gully is SL as described
+in Appendix B, then at any intermediate distance Zi from the upstream gully the local gradient Si should
+satisfy the following requirement:
+Equation C.9
+Si > SL
+(Zi
+Z
+)2
+where:
+Si
+Longitudinal slope at distance Zi from upstream gully (m)
+SL
+Longitudinal gradient
+Zi
+Distance from upstream gully measured in downstream direction (m)
+Z
+Distance between adjacent gullies (m)
+If the limit is not satisfied, an additional gully should be located at the point where the kerb channel has
+insufficient capacity.
+Note that the limit only needs to be checked if Si increases with Zi, the opposite of what might be
+expected. The above requirement is independent of whether gratings or kerb inlets are used.
+C8
+Flow capacity of gully pots
+On steeper sections of road, the maximum allowable spacing between gullies may not be determined
+by the collection efficiency of the grating but by the flow capacity of the gully pot beneath it.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix C. Use of equations for determining the flow ca...
+Experimental tests in HRW SR 508 [Ref 4.I] indicate that the maximum flow rate that can be accepted
+by a gully pot without surcharge is about 10 litres/s if the outlet pipe has a diameter of 100mm, and 15
+litres/s if it has a diameter of 150mm. Table D1 in Appendix D gives estimated discharges at the kerb,
+under a rainfall intensity of 50 mm/h, for combinations of flow width, crossfall and longitudinal gradient.
+C9
+Redesign
+The design gully spacings determined from the design tables in Appendix C or by calculation are the
+maximum spacings: good practice would aim to reduce this distance. If the design shows the gully
+spacing or grating efficiency to be inadequate for the scheme, then redesign using one or more of the
+following options.
+1)
+If the grating efficiency η is less than about 80% for an intermediate gully, the most effective
+solution is likely to be redesign with an improved grating type.
+2)
+If the grating efficiency η of a terminal grating is less than 95%, redesign is essential. The first
+step should be to redesign with an improved grating type. If the required efficiency is still not
+achieved, the permitted width of kerb flow B should be replaced by a lesser design width. This
+will have the effect of reducing the design flow approaching the grating and increasing the grating
+efficiency, but may require the use of additional intermediate gullies.
+Alternatively it may be more practical to adjust other parameters , e.g. changes in the road profile or the
+catchment width.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Appendix D. Design tables
+The following tables are derived from research, see HRW SR 533 [Ref 5.I].
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.1 Discharge at the kerb in litres/s
+Flow width (B in m)
+Crossfall %(Sc)
+Gradient %(SL)
+0.5
+0.75
+1
+1.5
+1.67%(1/60)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+0.18
+0.26
+0.31
+0.35
+0.41
+0.44
+0.50
+0.57
+0.70
+0.81
+0.53
+0.76
+0.93
+1.03
+1.19
+1.31
+1.46
+1.69
+2.07
+2.39
+1.15
+1.63
+1.99
+2.23
+2.57
+2.82
+3.15
+3.64
+4.46
+5.14
+3.39
+4.80
+5.87
+6.57
+7.58
+8.31
+9.29
+10.73
+13.14
+15.17
+2.0%(1/50)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+0.24
+0.35
+0.42
+0.47
+0.55
+0.60
+0.67
+0.77
+0.95
+1.10
+0.72
+1.02
+1.25
+1.40
+1.62
+1.77
+1.98
+2.28
+2.80
+3.23
+1.56
+2.20
+2.69
+3.01
+3.48
+3.81
+4.26
+4.92
+6.02
+6.96
+4.59
+6.49
+7.94
+8.88
+10.25
+11.23
+12.56
+14.50
+17.76
+20.51
+2.5%(1/40)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+0.35
+0.50
+0.61
+0.69
+0.79
+0.87
+0.97
+1.12
+1.37
+1.58
+1.04
+1.48
+1.81
+2.02
+2.33
+2.56
+2.86
+3.30
+4.04
+4.67
+2.25
+3.18
+3.89
+4.35
+5.03
+5.51
+6.16
+7.11
+8.71
+10.06
+6.63
+9.38
+11.48
+12.84
+14.83
+16.24
+18.16
+20.97
+25.68
+29.65
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.1 Discharge at the kerb in litres/s (continued)
+Flow width (B in m)
+Crossfall %(Sc)
+Gradient %(SL)
+0.5
+0.75
+1
+1.5
+3.33%(1/30)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+0.57
+0.80
+0.99
+1.10
+1.27
+1.39
+1.56
+1.80
+2.20
+2.54
+1.68
+2.37
+2.91
+3.25
+3.75
+4.11
+4.59
+5.30
+6.50
+7.50
+3.61
+5.11
+6.26
+6.99
+8.08
+8.85
+9.89
+11.42
+13.99
+16.15
+10.65
+15.06
+18.45
+20.62
+23.81
+26.09
+29.17
+33.68
+41.25
+47.63
+4.0%(1/25)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+0.77
+1.09
+1.33
+1.49
+1.72
+1.88
+2.10
+2.43
+2.97
+3.43
+2.26
+3.20
+3.92
+4.38
+5.06
+5.54
+6.20
+7.16
+8.76
+10.12
+4.87
+6.89
+8.44
+9.44
+10.90
+11.94
+13.35
+15.41
+18.87
+21.79
+14.37
+20.32
+24.88
+27.82
+32.13
+35.19
+39.35
+45.43
+55.64
+64.25
+5.0%(1/20)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+1.11
+1.56
+1.92
+2.14
+2.47
+2.71
+3.03
+3.50
+4.28
+4.95
+3.26
+4.61
+5.65
+6.31
+7.29
+7.99
+8.93
+10.31
+12.63
+14.58
+7.02
+9.93
+12.16
+13.60
+15.70
+17.20
+19.23
+22.20
+27.19
+31.40
+20.70
+29.28
+35.86
+40.09
+46.29
+50.71
+56.69
+65.46
+80.18
+92.58
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.1 Discharge at the kerb in litres/s (continued)
+Flow width (B in m)
+Crossfall %(Sc)
+Gradient %(SL)
+0.5
+0.75
+1
+1.5
+6.67%(1/15)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+1.77
+2.50
+3.06
+3.42
+3.95
+4.33
+4.84
+5.59
+6.84
+7.90
+5.21
+7.37
+9.02
+10.09
+11.65
+12.76
+14.26
+16.47
+20.17
+23.29
+11.22
+15.86
+19.43
+21.72
+25.08
+27.47
+30.72
+35.47
+43.44
+50.16
+33.07
+46.77
+57.28
+64.04
+73.94
+81.00
+90.56
+104.57
+128.07
+147.89
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Manning's coefficient is n = 0.017.
+For other values of Manning's n, multiply the discharge by (0.017/n)
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.2 Type P
+Flow width (B in m)
+Crossfall (Sc)
+Gradient % (SL)
+0.5
+0.75
+1.0
+1.5
+1.67%(1/60)
+0.33%(1/300)
+0.67%(1/150)
+1.0% (1/100)
+1.33%(1/80)
+1.67%(1/60)
+2.0%(1/50)
+2.5%(1/40)
+3.33%(1/30)
+5.0%(1/20)
+6.67%(1/15)
+13
+18
+22
+25
+29
+31
+35
+40
+49
+57
+(99)
+(99)
+(99)
+(99)
+(99)
+(98)
+(98)
+(98)
+(97)
+(97)
+38
+53
+65
+73
+84
+91
+102
+117
+142
+162
+(99)
+(98)
+(98)
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(94)
+81
+114
+138
+154
+177
+193
+214
+245
+295
+336
+(98)
+(97)
+(96)
+(96)
+(95)
+(95)
+(94)
+(93)
+(92)
+(91)
+234
+325
+393
+436
+496
+539
+594
+673
+797
+893
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(94)
+(87)
+(84)
+(82)
+2.0%(1/50)
+0.33%(1/300)
+0.67%(1/150)
+1.0%(1/100)
+1.33%(1/80)
+1.67%(1/60)
+2.0%(1/50)
+2.5%(1/40)
+3.33%(1/30)
+5.0%(1/20)
+6.67%(1/15)
+18
+25
+30
+34
+39
+42
+47
+54
+66
+76
+(99)
+(99)
+(99)
+(99)
+(98)
+(98)
+(98)
+(98)
+(97)
+(97)
+51
+72
+88
+98
+113
+123
+137
+157
+190
+218
+(99)
+(98)
+(97)
+(97)
+(97)
+(96)
+(96)
+(95)
+(94)
+(94)
+109
+153
+186
+207
+237
+259
+287
+328
+395
+449
+(98)
+(97)
+(96)
+(95)
+(95)
+(94)
+(94)
+(93)
+(91)
+(90)
+315
+437
+526
+583
+663
+718
+791
+893
+1052
+1174
+(95)
+(94)
+(92)
+(91)
+(90)
+(89)
+(87)(
+85)
+(82)
+(79)
+2.5%(1/40)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67%( 1/15)
+25
+36
+44
+49
+56
+61
+68
+78
+96
+110
+(99)
+(99)
+(99)
+(98)
+(98)
+(98)
+(98)
+(97)
+(97)
+(96)
+74
+104
+126
+141
+162
+177
+196
+225
+272
+311
+(98)
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(95)
+(94)
+(93)
+158
+220
+267
+297
+340
+370
+411
+468
+562
+637
+(97)
+(96)
+(95)
+(95)
+(94)
+(93)
+(93)
+(91)
+(90)
+(88)
+452
+624
+751
+829
+941
+1017
+1117
+1256
+1469
+1628
+(95)
+(92)
+(91)
+(90)
+(88)
+(87)
+(85)
+(83)
+(79)
+(76)
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.2 Type P (continued)
+Flow width (B in m)
+Crossfall (Sc)
+Gradient % (SL)
+0.5
+0.75
+1.0
+1.5
+3.33%(1/30)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+41
+57
+70
+78
+89
+98
+109
+125
+152
+175
+(99)
+(99)
+(98)
+(98)
+(98)
+(97)
+(97)
+(97)
+(96)
+(95)
+118
+166
+202
+225
+258
+281
+312
+358
+431
+491
+(98)
+(97)
+(97)
+(96)
+(95)
+(95)
+(94)
+(94)
+(92)
+(91)
+252
+351
+425
+472
+539
+586
+649
+738
+880
+994
+(97)
+(95)
+(94)
+(94)
+(93)
+(92)
+(91)
+(90)
+(87)
+(85)
+718
+986
+1181
+1301
+1470
+1584
+1732
+1935
+2235
+2449
+(94)
+(91)
+(89)
+(88)
+(86)
+(84)
+(83)
+(80)
+(75)
+(71)
+4.0%(1/25)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+55
+77
+94
+105
+120
+132
+147
+168
+204
+234
+(99)
+(98)
+(98)
+(98)
+(97)
+(97)
+(97)
+(96)
+(96)
+(95)
+159
+223
+271
+302
+346
+377
+419
+478
+576
+655
+(98)
+(97)
+(96)
+(96)
+(95)
+(94)
+(94)
+(93)
+(91)
+(90)
+338
+471
+569
+631
+720
+782
+865
+981
+1167
+1313
+(96)
+(95)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(86)
+(84)
+960
+1314
+1569
+1725
+1942
+2088
+2276
+2528
+2892
+3140
+(93)
+(90)
+(88)
+(86)
+(84)
+(82)
+(80)
+(77)
+(72)
+(68)
+5.0%(1/20)
+0.33% (1/300)
+0.67% 1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+79
+110
+135
+150
+173
+189
+210
+241
+293
+335
+(99)
+(98)
+(98)
+(97)
+(97)
+(97)
+(96)
+(96)
+(95)
+(94)
+229
+320
+388
+432
+494
+538
+597
+681
+817
+927
+(97)
+(96)
+(95)
+(95)
+(94)
+(94)
+(93)
+(92)
+(90)
+(88)
+484
+672
+812
+899
+1024
+1111
+1225
+1386
+1638
+1835
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(87)
+(84)
+(81)
+1367
+1861
+2211
+2423
+2716
+2910
+3156
+3479
+3921
+4197
+(92)
+(88)
+(86)
+(84)
+(81)
+(80)
+(77)
+(74)
+(68)
+(63)
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.2 Type P (continued)
+Flow width (B in m)
+Crossfall (Sc)
+Gradient % (SL)
+0.5
+0.75
+1.0
+1.5
+6.67%(1/15)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+125
+176
+214
+239
+274
+299
+333
+382
+462
+528
+(98)
+(98)
+(97)
+(97)
+(96)
+(96)
+(96)
+(95)
+(94)
+(93)
+363
+507
+614
+682
+780
+848
+939
+1069
+1276
+1443
+(97)
+(96)
+(95)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(86)
+767
+1061
+1276
+1411
+1602
+1734
+1906
+2146
+2516
+2796
+(95)
+(93)
+(91)
+(90)
+(89)
+(88)
+(86)
+(84)
+(80)
+(77)
+2145
+2895
+3415
+3725
+4143
+4415
+4749
+5167
+5678
+5924
+(90)
+(86)
+(83)
+(81)
+(78)
+(76)
+(73)
+(69)
+(62)
+(56)
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.3 Type Q
+Flow width (B in m)
+Crossfall (Sc)
+Gradient % (SL)
+0.5
+0.75
+1.0
+1.5
+1.67% (1/60)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+13
+18
+22
+25
+29
+31
+35
+40
+49
+56
+(99)
+(99)
+(98)
+(98)
+(98)
+(98)
+(97)
+(97)
+(96)
+(96)
+38
+53
+64
+72
+82
+90
+100
+114
+138
+157
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(95)
+(94)
+(93)
+(91)
+80
+112
+136
+151
+172
+187
+208
+236
+282
+319
+(97)
+(96)
+(95)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(86)
+229
+316
+378
+417
+472
+509
+557
+623
+722
+794
+(94)
+(91)
+(89)
+(88)
+(86)
+(85)
+(83)
+(81)
+(76)
+(73)
+2.0%(1/50)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+17
+25
+30
+33
+38
+42
+47
+54
+65
+75
+(99)
+(98)
+(98)
+(98)
+(98)
+(97)
+(97)
+(97)
+(96)
+(95)
+51
+71
+87
+96
+111
+121
+134
+153
+185
+210
+(98)
+(97)
+(96)
+(96)
+(95)
+(95)
+(94)
+(93)
+(92)
+(90)
+108
+151
+182
+202
+231
+251
+277
+315
+375
+422
+(97)
+(95)
+(94)
+(93)
+(92)
+(91)
+(90)
+(89)
+(86)
+(84)
+307
+422
+504
+554
+625
+673
+734
+817
+938
+1022
+(93)
+(90)
+(88)
+(87)
+(85)
+(83)
+(81)
+(78)
+(73)
+(69)
+2.5%(1/40)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+25
+35
+43
+48
+55
+61
+67
+77
+94
+108
+(99)
+(98)
+(98)
+(98)
+(97)
+(97)
+(97)
+(96)
+(95)
+(94)
+73
+103
+125
+139
+159
+173
+192
+219
+263
+299
+(97)
+(96)
+(96)
+(95)
+(94)
+(94)
+(93)
+(92)
+(90)
+(89)
+155
+216
+261
+289
+329
+357
+394
+446
+529
+593
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(89)
+(87)
+(84)
+(82)
+439
+599
+713
+782
+878
+941
+1022
+1130
+1279
+1375
+(92)
+(89)
+(86)
+(85)
+(82)
+(81)
+(78)
+(75)
+(69)
+(64)
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.3 Type Q (continued)
+Flow width (B in m)
+Crossfall (Sc)
+Gradient % (SL)
+0.5
+0.75
+1.0
+1.5
+3.33%(1/30)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+40
+57
+69
+77
+88
+97
+107
+123
+149
+171
+(98)
+(98)
+(97)
+(97)
+(97)
+(96)
+(96)
+(95)
+(94)
+(93)
+117
+163
+198
+220
+252
+274
+303
+345
+413
+467
+(97)
+(96)
+(95)
+(94)
+(93)
+(93)
+(92)
+(90)
+(88)
+(86)
+247
+342
+412
+456
+518
+561
+617
+696
+817
+909
+(95)
+(93)
+(92)
+(91)
+(89)
+(88)
+(87)
+(85)
+(81)
+(78)
+693
+937
+1108
+1209
+1347
+1437
+1549
+1690
+1867
+1959
+(90)
+(86)
+(83)
+(81)
+(79)
+(77)
+(74)
+(70)
+(63)
+(57)
+4.0%(1/25)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+54
+76
+93
+103
+119
+130
+144
+165
+200
+228
+(98)
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(95)
+(93)
+(92)
+157
+219
+266
+295
+337
+366
+405
+460
+548
+618
+(97)
+(95)
+(94)
+(93)
+(92)
+(92)
+(91)
+(89)
+(87)
+(85)
+332
+458
+550
+607
+688
+744
+817
+917
+1070
+1184
+(95)
+(92)
+(91)
+(89)
+(88)
+(87)
+(85)
+(83)
+(79)
+(75)
+923
+1240
+1457
+1585
+1756
+1865
+1997
+2157
+2334
+2397
+(89)
+(85)
+(81)
+(79)
+(76)
+(74)
+(70)
+(66)
+(58)
+(52)
+5.0%(1/20)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+78
+109
+133
+148
+170
+186
+206
+236
+285
+324
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(95)
+(94)
+(92)
+(91)
+226
+314
+379
+420
+479
+520
+574
+650
+771
+866
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(89)
+(88)
+(85)
+(83)
+474
+651
+780
+859
+971
+1047
+1145
+1279
+1479
+1622
+(94)
+(91)
+(89)
+(88)
+(86)
+(85)
+(83)
+(80)
+(76)
+(72)
+1305
+1738
+2026
+2192
+2407
+2540
+2693
+2862
+2996
+Not eff.
+(88)
+(82)
+(78)
+(76)
+(72)
+(70)
+(66)
+(61)
+(52)
+(44)
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.3 Type Q (continued)
+Flow width (B in m)
+Crossfall (Sc)
+Gradient % (SL)
+0.5
+0.75
+1.0
+1.5
+6.67%(1/15)
+0.33% (1/300)
+0.67%(1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+124
+174
+211
+235
+269
+293
+326
+372
+447
+508
+(98)
+(97)
+(96)
+(95)
+(95)
+(94)
+(93)
+(92)
+(91)
+(89)
+357
+496
+597
+660
+751
+813
+895
+1010
+1189
+1325
+(95)
+(93)
+(92)
+(91)
+(90)
+(89)
+(87)
+(85)
+(82)
+(79)
+746
+1020
+1215
+1335
+1500
+1611
+1753
+1942
+2211
+2389
+(92)
+(89)
+(87)
+(85)
+(83)
+(81)
+(79)
+(76)
+(71)
+(66)
+2027
+2659
+3061
+3282
+3552
+3706
+3863
+3986
+Not eff.
+(85)
+(79)
+(74)
+(71)
+(67)
+(64)
+(59)
+(53)
+(42)
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.4 Type R
+Flow width (B in m)
+Crossfall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+1.67%(1/60)
+0.33% (1/300)
+0.67%(1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+13
+18
+22
+25
+28
+31
+34
+40
+48
+55
+37
+52
+64
+71
+81
+88
+98
+112
+134
+152
+(97)
+(96)
+(96)
+(95)
+(94)
+(94)
+(93)
+(92)
+(90)
+(89)
+79
+110
+133
+148
+168
+182
+201
+228
+269
+302
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(89)
+(87)
+(84)
+(81)
+224
+306
+363
+398
+447
+479
+520
+573
+648
+695
+(92)
+(88)
+(86)
+(84)
+(82)
+(80)
+(78)
+(74)
+(68)
+(64)
+2.0%(1/50)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+17
+24
+30
+33
+38
+42
+46
+53
+64
+74
+51
+71
+86
+95
+109
+118
+131
+149
+179
+203
+(97)
+(96)
+(95)
+(94)
+(94)
+(93)
+(92)
+(91)
+(89)
+(87)
+107
+148
+178
+197
+224
+243
+268
+302
+355
+396
+(95)
+(93)
+(92)
+(91)
+(90)
+(89)
+(87)
+(85)
+(82)
+(79)
+300
+406
+481
+526
+587
+627
+677
+741
+825
+871
+(91)
+(87)
+(84)
+(82)
+(79)
+(78)
+(75)
+(71)
+(64)
+(59)
+2.5%(1/40)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+25
+35
+43
+48
+55
+60
+67
+76
+92
+105
+73
+101
+123
+136
+156
+169
+187
+213
+253
+286
+(97)
+(95)
+(94)
+(94)
+(93)
+(92)
+(91)
+(89)
+(87)
+(85)
+153
+211
+254
+281
+318
+344
+378
+425
+496
+549
+(95)
+(92)
+(91)
+(90)
+(88)
+(87)
+(85)
+(83)
+(79)
+(76)
+427
+574
+675
+735
+814
+865
+928
+1003
+1089
+1122
+(89)
+(85)
+(82)
+(79)
+(76)
+(74)
+(71)
+(66)
+(59)
+(53)
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.4 Type R (continued)
+Flow width (B in m)
+Crossfall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+3.33%(1/30)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+40
+56
+68
+76
+87
+95
+106
+121
+146
+166
+16
+161
+195
+216
+246
+267
+294
+333
+395
+443
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(89)
+(87)
+(84)
+(82)
+243
+334
+400
+440
+497
+536
+585
+653
+754
+825
+(93)
+(91)
+(89)
+(87)
+(85)
+(84)
+(82)
+(79)
+(75)
+(71)
+669
+888
+1034
+1117
+1225
+1290
+1365
+1445
+1500
+Not eff.
+(87)
+(82)
+(78)
+(75)
+(71)
+(69)
+(65
+(60)
+(51)
+(43)
+4.0%(1/25)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+54
+76
+92
+102
+117
+128
+142
+162
+195
+222
+156
+216
+260
+288
+327
+355
+391
+441
+520
+581
+(95)
+(94)
+(92)
+(91)
+(90)
+(89)
+(88)
+(86)
+(82)
+(80)
+325
+445
+531
+583
+656
+706
+769
+853
+974
+1056
+(93)
+(90)
+(87)
+(86)
+(84)
+(82)
+(80)
+(77)
+(72)
+(67)
+886
+1166
+1346
+1446
+1570
+1642
+1718
+1785
+Not eff.
+(86)
+(80)
+(75)
+(72)
+(68)
+(65)
+(61)
+(55)
+(44)
+5.0%(1/20)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+78
+108
+132
+146
+167
+182
+202
+231
+277
+314
+222
+307
+370
+409
+464
+502
+551
+620
+725
+805
+(95)
+(93)
+(91)
+(90)
+(88)
+(87)
+(86)
+(84)
+(80)
+(77)
+463
+630
+748
+819
+917
+983
+1065
+1173
+1319
+1409
+(92)
+(88)
+(85)
+(84)
+(81)
+(79)
+(77)
+(73)
+(67)
+(62)
+1244
+1614
+1841
+1961
+2099
+2170
+2231
+Not eff.
+(83)
+(77)
+(71)
+(68)
+(63)
+(59)
+(55)
+(48)
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.4 Type R (continued)
+Flow width (B in m)
+Crossfall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+6.67%(1/15)
+0.33% (1/300)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+123
+172
+208
+231
+264
+287
+318
+362
+432
+488
+352
+483
+579
+638
+721
+778
+851
+951
+1101
+1208
+(94)
+(91)
+(89)
+(88)
+(86)
+(85)
+(83)
+(80)
+(76)
+(72)
+726
+979
+1154
+1258
+1398
+1489
+1600
+1739
+1905
+1981
+(90)
+(86)
+(83)
+(80)
+(77)
+(75)
+(72)
+(68)
+(61)
+(55)
+1909
+2422
+2707
+2839
+2962
+2998
+Not eff.
+(80)
+(72)
+(66)
+(62)
+(56)
+(51)
+(46)
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.5 Type S
+Flow width (B in m)
+Crossfall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+1.67% (1/60)
+0.33%(1/300)
+0.67%(1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+13
+18
+22
+24
+28
+31
+34
+39
+47
+54
+(98)
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(94)
+(93)
+(92)
+37
+52
+63
+70
+79
+86
+95
+108
+129
+146
+(97)
+(95)
+(94)
+(93)
+(92)
+(92)
+(91)
+(89)
+(87)
+(85)
+78
+108
+130
+143
+162
+175
+193
+216
+252
+279
+(94)
+(92)
+(90)
+(89)
+(88)
+(86)
+(85)
+(83)
+(79)
+(75)
+218
+292
+343
+374
+414
+439
+470
+507
+548
+562
+(89)
+(85)
+(81)
+(79)
+(76)
+(73)
+(70)
+(66)
+(58)
+(51)
+2.0%2.0%(150)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+17
+24
+30
+33
+38
+41
+46
+52
+63
+72
+(98)
+(97)
+(97)
+(96)
+(96)
+(95)
+(95)
+(94)
+(92)
+(91)
+50
+70
+84
+93
+106
+115
+127
+144
+171
+193
+(96)
+(95)
+(93)
+(93)
+(91)
+(91)
+(89)
+(88)
+(85)
+(83)
+105
+144
+173
+191
+216
+233
+254
+284
+329
+361
+(94)
+(91)
+(89)
+(88)
+(86)
+(85)
+(83)
+(80)
+(76)
+(72)
+290
+386
+451
+488
+536
+567
+601
+640
+673
+Not eff.
+(88)
+(83)
+(79)
+(76)
+(73)
+(70)
+(67)
+(61)
+(53)
+(45)
+2.5%(1/40)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+25
+35
+42
+47
+54
+59
+65
+75
+90
+102
+(98)
+(97)
+(96)
+(96)
+(95)
+(94)
+(94)
+(93)
+(91)
+(90)
+72
+100
+120
+133
+151
+164
+181
+204
+241
+269
+(96)
+(94)
+(92)
+(91)
+(90)
+(89)
+(88)
+(86)
+(83)
+(80)
+150
+206
+245
+270
+304
+327
+356
+395
+452
+491
+(93)
+(90)
+(88)
+(86)
+(84)
+(82)
+(80)
+(77)
+(72)
+(68)
+410
+540
+624
+671
+730
+764
+801
+834
+Not eff.
+(86)
+(80)
+(76)
+(73)
+(68)
+(65)
+(61)
+(55)
+(45)
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.5 Type S (continued)
+Flow width (B in m)
+Crossfall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+3.33%(1/30)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+40
+56
+68
+75
+86
+94
+104
+118
+142
+161
+(97)
+(96)
+(95)
+(95)
+(94)
+(93)
+(93)
+(91)
+(89)
+(88)
+114
+158
+190
+210
+238
+257
+282
+317
+370
+410
+(95)
+(92)
+(91)
+(90)
+(88)
+(87)
+(85)
+(83)
+(79)
+(76)
+238
+323
+383
+419
+469
+502
+543
+597
+669
+712
+(91)
+(88)
+(85)
+(83)
+(81)
+(79)
+(76)
+(73)
+(66)
+(61)
+636
+823
+936
+995
+1061
+1094
+1120
+Not eff.
+(83)
+(76)
+(70)
+(67)
+(62)
+(58)
+(53)
+(46)
+4.0%(1/25)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+54
+75
+91
+101
+115
+125
+139
+158
+189
+213
+(97)
+(96)
+(95)
+(94)
+(93)
+(92)
+(92)
+(90)
+(88)
+(86)
+153
+211
+253
+279
+315
+340
+372
+417
+484
+532
+(94)
+(91)
+(90)
+(88)
+(87)
+(85)
+(83)
+(81)
+(77)
+(73)
+317
+428
+505
+551
+614
+654
+704
+768
+846
+885
+(90)
+(86)
+(83)
+(81)
+(78)
+(76)
+(73)
+(69)
+(62)
+(56)
+836
+1067
+1197
+1260
+1322
+1345
+Not eff.
+(81)
+(73)
+(67)
+(63)
+(57)
+(53)
+(48)
+5.0%(1/20)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+77
+107
+129
+144
+164
+178
+197
+224
+266
+300
+(96)
+(95)
+(94)
+(93)
+(92)
+(91)
+(90)
+(89)
+(86)
+(84)
+218
+299
+358
+393
+443
+477
+520
+579
+664
+723
+(93)
+(90)
+(88)
+(87)
+(84)
+(83)
+(81)
+(78)
+(73)
+(69)
+449
+601
+705
+766
+846
+898
+959
+1031
+1106
+Not eff.
+(89)
+(84)
+(81)
+(78)
+(75)
+(72)
+(69)
+(64)
+(56)
+(50)
+1161
+1450
+1594
+1652
+1687
+Not eff.
+(78)
+(69)
+(62)
+(57)
+(51)
+(46)
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.5 Type S (continued)
+Flow width (B in m)
+Crossfall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+6.67%(1/15)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+122
+169
+204
+226
+257
+279
+308
+348
+412
+461
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(87)
+(84)
+(81)
+344
+468
+556
+609
+682
+731
+793
+873
+984
+1052
+(92)
+(88)
+(86)
+(84)
+(81)
+(80)
+(77)
+(74)
+(68)
+(63)
+699
+925
+1073
+1156
+1262
+1326
+1396
+1467
+Not eff.
+(87)
+(81)
+(77)
+(74)
+(70)
+(67)
+(63)
+(57)
+(48)
+1751
+2107
+2234
+Not eff.
+(74)
+(63)
+(54)
+(49)
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.6 Type T
+Flow width (B in m)
+Cross fall (Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+1.67% (1/60)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+13
+18
+22
+24
+28
+30
+33
+38
+46
+52
+(98)
+(97)
+(96)
+(95)
+(95)
+(94)
+(93)
+(92)
+(91)
+(89)
+37
+51
+61
+68
+77
+83
+92
+104
+122
+136
+(95)
+(93)
+(92)
+(91)
+(89)
+(88)
+(87)
+(85)
+(82)
+(79)
+77
+105
+125
+137
+154
+165
+180
+199
+226
+245
+(92)
+(89)
+(87)
+(85)
+(83)
+(81)
+(79)
+(76)
+(71)
+(66)
+208
+272
+314
+336
+364
+380
+395
+408
+Not eff.
+(85)
+(79)
+(74)
+(71)
+(67)
+(63)
+(59)
+(53)
+(42)
+2.0%2.0%(1/50)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+17
+24
+29
+32
+37
+40
+45
+51
+61
+69
+(97)
+(96)
+(95)
+(95)
+(94)
+(93)
+(93)
+(91)
+(90)
+(88)
+49
+68
+82
+90
+103
+111
+122
+137
+160
+177
+(95)
+(93)
+(91)
+(90)
+(88)
+(87)
+(85)
+(83)
+(79)
+(76)
+102
+139
+165
+181
+203
+217
+235
+258
+290
+309
+(91)
+(88)
+(85)
+(83)
+(81)
+(79)
+(77)
+(73)
+(67)
+(62)
+275
+356
+405
+431
+461
+476
+488
+Not eff.
+(83)
+(76)
+(71)
+(67)
+(62)
+(59)
+(54)
+(47)
+2.5%(1/40)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+25
+34
+42
+46
+53
+58
+64
+73
+87
+98
+(97)
+(96)
+(95)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(86)
+71
+97
+116
+128
+145
+157
+171
+192
+222
+244
+(94)
+(91)
+(89)
+(88)
+(86)
+(85)
+(83)
+(81)
+(76)
+(73)
+146
+197
+232
+253
+282
+300
+323
+352
+387
+404
+(90)
+(86)
+(83)
+(81)
+(78)
+(76)
+(73)
+(69)
+(62)
+(56)
+385
+489
+548
+576
+603
+612
+Not eff.
+(81)
+(72)
+(66)
+(62)
+(57)
+(52)
+(47)
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.6 Type T (continued)
+3.33%(1/30)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+39
+55
+66
+74
+84
+91
+101
+114
+136
+152
+(96)
+(95)
+(93)
+(93)
+(92)
+(91)
+(90)
+(88)
+(85)
+(83)
+112
+153
+182
+200
+225
+242
+264
+293
+334
+362
+(93)
+(90)
+(87)
+(86)
+(83)
+(82)
+(80)
+(77)
+(71)
+(67)
+229
+306
+357
+387
+427
+451
+480
+512
+542
+Not eff.
+(88)
+(83)
+(79)
+(77)
+(73)
+(71)
+(67)
+(62)
+(54)
+(47)
+587
+725
+789
+811
+Not eff.
+(77)
+(67)
+(59)
+(55)
+(48)
+4.0%(1/25)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+53
+73
+89
+98
+112
+121
+134
+151
+179
+200
+(96)
+(94)
+(93)
+(92)
+(91)
+(90)
+(88)
+(87)
+(84)
+(81)
+149
+203
+242
+265
+297
+318
+345
+380
+428
+458
+(92)
+(88)
+(86)
+(84)
+(81)
+(80)
+(77)
+(74)
+(68)
+(63)
+304
+402
+467
+503
+549
+577
+608
+639
+Not eff.
+(87)
+(81)
+(77)
+(74)
+(70)
+(67)
+(63)
+(58)
+(48)
+762
+918
+974
+Not eff.
+(74)
+(63)
+(54)
+(49)
+5.0%(1/20)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+76
+105
+126
+140
+159
+172
+189
+213
+250
+279
+(95)
+(93)
+(92)
+(91)
+(89)
+(88)
+(87)
+(85)
+(81)
+(78)
+212
+287
+339
+370
+413
+440
+474
+518
+572
+601
+(90)
+(86)
+(83)
+(81)
+(79)
+(77)
+(74)
+(70)
+(63)
+(57)
+427
+559
+641
+686
+740
+770
+799
+818
+Not eff.
+(85)
+(78)
+(73)
+(70)
+(65)
+(62)
+(58)
+(51)
+(40)
+1038
+1203
+Not eff.
+(70)
+(57)
+(47)
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.6 Type T (continued)
+6.67%(1/15)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+120
+165
+198
+218
+247
+267
+293
+328
+381
+420
+(94)
+(92)
+(90)
+(89)
+(87)
+(86)
+(84)
+(82)
+(77)
+(74)
+332
+444
+521
+565
+624
+661
+705
+756
+808
+Not eff.
+(89)
+(84)
+(80)
+(78)
+(74)
+(72)
+(69)
+(64)
+(56)
+(49)
+658
+843
+950
+1003
+1058
+1081
+Not eff.
+(81)
+(74)
+(68)
+(64)
+(59)
+(55)
+(49)
+1515
+Not eff.
+(64)
+(49)
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.7 Kerb inlet with opening length equal to 0.5m
+Flow width (B in m)
+Cross fall (Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.67% (1/60)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+11
+14
+16
+17
+18
+18
+19
+Not eff.
+(83)
+(76)
+(70)
+(67)
+(62)
+(58)
+(53)
+(46)
+28
+33
+35
+Not eff.
+(72)
+(61)
+(52)
+(46)
+51
+Not eff.
+(61)
+(45)
+2.0%2.0%(1/50)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+15
+19
+21
+22
+24
+24
+25
+Not eff.
+(82)
+(75)
+(69)
+(66)
+(60)
+(57)
+(52)
+(44)
+38
+44
+46
+Not eff.
+(72)
+(60)
+(51)
+(45)
+68
+Not eff.
+(60)
+(44)
+2.5%(1/40)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+21
+27
+30
+32
+34
+34
+35
+Not eff.
+(82)
+(74)
+(68)
+(64)
+(59)
+(55)
+(50)
+(42)
+53
+62
+Not eff.
+(71)
+(58)
+(49)
+95
+Not eff.
+(59)
+(42)
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.7 Kerb inlet with opening length equal to 0.5m (continued)
+3.33%(1/30)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+33
+42
+47
+50
+52
+54
+Not eff.
+(81)
+(73)
+(67)
+(63)
+(57)
+(52)
+(47)
+84
+97
+Not eff.
+(69)
+(57)
+(47)
+149
+Not eff.
+(57)
+(39)
+4.0%(1/25)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+44
+56
+63
+66
+69
+70
+Not eff.
+(80)
+(72)
+(66)
+(62)
+(56)
+(52)
+(46)
+112
+128
+Not eff.
+(68)
+(56)
+(46)
+196
+Not eff.
+(56)
+(38)
+5.0%(1/20)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+64
+80
+90
+94
+98
+98
+Not eff.
+(80)
+(71)
+(65)
+(61)
+(55)
+(50)
+(45)
+159
+180
+Not eff.
+(68)
+(54)
+(44)
+276
+Not eff.
+(55)
+(36)
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.7 Kerb inlet with opening length equal to 0.5m (continued)
+6.67%(1/15)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+100
+126
+140
+146
+151
+Not eff.
+(79)
+(70)
+(64)
+(59)
+(53)
+(49)
+249278
+Not eff.
+(66)
+(52)
+(42)
+427
+Not eff.
+(53)
+(33)
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.8 Kerb inlet with opening length equal to 1.5m
+Flow width (B in m)
+Cross fall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+1.67% (1/60)
+0.33%(1/300)
+0.67%(1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+12
+17
+20
+22
+25
+27
+30
+34
+39
+43
+(94)
+(92)
+(90)
+(89)
+(87)
+(86)
+(84)
+(82)
+(78)
+(74)
+35
+47
+56
+61
+68
+73
+79
+86
+96
+101
+(91)
+(87)
+(84)
+(82)
+(79)
+(77)
+(75)
+(71)
+(64)
+(59)
+72
+96
+111
+121
+132
+139
+147
+155
+161
+Not eff.
+(87)
+(82)
+(78)
+(75)
+(71)
+(68)
+(65)
+(59)
+(50)
+(42)
+194
+244
+272
+284
+294
+Not eff.
+(79)
+(71)
+(64)
+(60)
+(54)
+(49)
+2.0%2.0%(1/50)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+17
+23
+27
+30
+34
+37
+40
+45
+53
+58
+(94)
+(92)
+(90)
+(89)
+(87)
+(86)
+(84)
+(81)
+(77)
+(74)
+47
+64
+75
+82
+92
+98
+105
+115
+128
+134
+(90)
+(87)
+(84)
+(82)
+(79)
+(77)
+(74)
+(70)
+(63)
+(58)
+97
+129
+149
+161
+176
+185
+195
+206
+Not eff.
+(87)
+(81)
+(77)
+(74)
+(70)
+(68)
+(64)
+(58)
+(49)
+260
+326
+361
+376
+387
+Not eff.
+(79)
+(70)
+(63)
+(58)
+(52)
+(48)
+2.5%(1/40)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+24
+33
+40
+44
+49
+53
+58
+66
+75
+83
+(94)
+(91)
+(89)
+(88)
+(86)
+(85)
+(83)
+(81)
+(76)
+(73)
+68
+92
+108
+118
+131
+140
+150
+164
+181
+189
+(90)
+(86)
+(83)
+(81)
+(78)
+(76)
+(73)
+(69)
+(62)
+(56)
+140
+185
+214
+230
+251
+263
+277
+291
+Not eff.
+(86)
+(81)
+(76)
+(73)
+(69)
+(66)
+(62)
+(57)
+(47)
+32
+465
+512
+531
+540
+Not eff.
+(78)
+(69)
+(62)
+(57)
+(51)
+(46)
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.8 Kerb inlet with opening length equal to 1.5m (continued)
+Flow width (B in m)
+Cross fall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+3.33%(1/30)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+38
+53
+63
+70
+78
+85
+93
+103
+120
+131
+(93)
+(91)
+(89)
+(88)
+(86)
+(84)
+(82)
+(80)
+(75)
+(72)
+108
+146
+172
+187
+208
+222
+238
+258
+283
+293
+(89)
+(86)
+(82)
+(80)
+(77)
+(75)
+(72)
+(68)
+(60)
+(54)
+223
+293
+339
+364
+396
+414
+433
+450
+Not eff.
+(86)
+(80)
+(79)
+(72)
+(68)
+(65)
+(61)
+(55)
+(45)
+591
+732
+800
+825
+Not eff.
+(77)
+(68)
+(60)
+(56)
+(49)
+4.0%(1/25)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+51
+71
+85
+93
+106
+114
+124
+138
+158
+175
+(93)
+(91)
+(89)
+(87)
+(85)
+(84)
+(82)
+(79)
+(74)
+(71)
+146
+196
+231
+251
+279
+296
+318
+344
+375
+387
+(90)
+(85)
+(82)
+(80)
+(76)
+(74)
+(70)
+(67)
+(59)
+(53)
+300
+393
+453
+486
+529
+550
+575
+595
+Not eff.
+(85)
+(79)
+(74)
+(72)
+(67)
+(64)
+(60)
+(54)
+(43)
+791
+976
+1061
+1090
+Not eff
+(76)
+(67)
+(59)
+(54)
+(47)
+5.0%(1/20)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+74
+102
+122
+134
+151
+163
+178
+198
+228
+249
+(93)
+(90)
+(88)
+(87)
+(85)
+(83)
+(82)
+(79)
+(74)
+(70)
+209
+281
+330
+359
+398
+422
+452
+488
+528
+542
+(89)
+(85)
+(81)
+(79)
+(76)
+(74)
+(70)
+(66)
+(58)
+(52)
+429
+562
+646
+692
+748
+779
+811
+834
+Not eff.
+(85)
+(79)
+(74)
+(71)
+(66)
+(63)
+(59)
+(52)
+(41)
+1129
+1384
+1496
+1529
+Not eff.
+(76)
+(66)
+(58)
+(53)
+(46)
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.8 Kerb inlet with opening length equal to 1.5m (continued)
+Flow width (B in m)
+Cross fall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+6.67%(1/15)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+118
+162
+194
+213
+240
+240
+282
+313
+359
+391
+(93)
+(90)
+(88)
+(86)
+(84)
+(83)
+(81)
+(78)
+(73)
+(69)
+333
+446
+523
+568
+628
+666
+711
+765
+821
+Not eff.
+(89)
+(84)
+(81)
+(78)
+(75)
+(72)
+(69)
+(64)
+(56)
+(49)
+681
+888
+1018
+1088
+1171
+1261
+1286
+Not eff.
+(84)
+(77)
+(72)
+(68)
+(63)
+(55)
+(50)
+(39)
+1781
+2168
+2324
+2361
+Not eff.
+(75)
+(64)
+(56)
+(51)
+(44)
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.9 Kerb inlet with opening length equal to 1.85m
+Flow width (B in m)
+Cross fall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+1.67%(1/60)
+0.33%(1/300
+0.67%(1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+12
+17
+21
+23
+26
+28
+32
+35
+41
+46
+(95)
+(93)
+(92)
+(91)
+(90)
+(89)
+(87)
+(85)
+(82)
+(79)
+36
+49
+58
+64
+72
+77
+84
+93
+106
+115
+(92)
+(89)
+(87)
+(86)
+(83)
+(82)
+(80)
+(76)
+(71)
+(67)
+74
+100
+118
+128
+142
+151
+162
+175
+191
+197
+(90)
+(85)
+(82)
+(80)
+(77)
+(74)
+(71)
+(67)
+(60)
+(53)
+203
+264
+300
+319
+341
+353
+362
+Noteff.
+(83)
+(76)
+(71)
+(68)
+(62)
+(59)
+(54)
+(47)
+2.0%(1/50)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+17
+23
+28
+31
+35
+38
+42
+47
+56
+62
+(95)
+(93)
+(92)
+(91)
+(89)
+(88)
+(87)
+(85)
+(81)
+(79)
+48
+66
+78
+85
+96
+103
+112
+124
+142
+153
+(92)
+(89)
+(87)
+(86)
+(83)
+(81)
+(79)
+(76)
+(70)
+(66)
+100
+134
+158
+172
+190
+202
+216
+234
+253
+260
+(89)
+(85)
+(81)
+(79)
+(76)
+(74)
+(70)
+(66)
+(58)
+(52)
+273
+353
+402
+426
+454
+467
+477
+Noteff.
+(83)
+(76)
+(70)
+(67)
+(61)
+(58)
+(53)
+(45)
+2.5%(1/40)
+0.33% (1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+24
+34
+40
+45
+51
+55
+60
+68
+80
+89
+(95)
+(93)
+(91)
+(90)
+(89)
+(88)
+(86)
+(84)
+(81)
+(78)
+69
+94
+112
+123
+138
+148
+161
+178
+202
+217
+(92)
+(89)
+(86)
+(85)
+(82)
+(80)
+(78)
+(75)
+(69)
+(64)
+144
+193
+226
+246
+272
+289
+308
+332
+357
+364
+(89)
+(84)
+(81)
+(78)
+(75)
+(73)
+(70)
+(65)
+(60)
+(50)
+392
+505
+571
+605
+642
+658
+668
+Not eff.
+(82)
+(75)
+(69)
+(65)
+(60)
+(56)
+(51)
+(44)
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.9 Kerb inlet with opening length equal to 1.85m (continued)
+Flow width (B in m)
+Cross fall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+3.33%(1/30)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+39
+54
+65
+71
+81
+88
+96
+108
+127
+141
+(95)
+(93)
+(91)
+(90)
+(88)
+(87)
+(86)
+(84)
+(80)
+(77)
+111
+151
+179
+196
+220
+236
+256
+282
+318
+340
+(91)
+(88)
+(86)
+(84)
+(81)
+(80)
+(77)
+(74)
+(68)
+(63)
+230
+308
+360
+390
+431
+456
+486
+521
+555
+Not eff.
+(88)
+(84)
+(80)
+(76)
+(74)
+(72)
+(68)
+(63)
+(55)
+(48)
+624
+799
+900
+950
+1001
+1022
+Not eff.
+(81)
+(74)
+(68)
+(64)
+(58)
+(54)
+(49)
+4.0%(1/25)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+52
+72
+87
+96
+109
+118
+129
+145
+170
+188
+(95)
+(92)
+(90)
+(90)
+(88)
+(87)
+(85)
+(83)
+(79)
+(76)
+149
+203
+241
+264
+295
+316
+342
+377
+423
+451
+(92)
+(88)
+(85)
+(84)
+(81)
+(79)
+(77)
+(73)
+(67)
+(62)
+309
+413
+482
+523
+576
+609
+648
+692
+732
+Not eff
+(88)
+(83)
+(79)
+(77)
+(73)
+(71)
+(67)
+(62)
+(54)
+(47)
+837
+1068
+1199
+1263
+1326
+1349
+Not eff
+(81)
+(73)
+(67)
+(63)
+(57)
+(53)
+(48)
+5.0%(1/20)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+75
+104
+125
+138
+156
+169
+185
+208
+243
+269
+(95)
+(92)
+(90)
+(89)
+(88)
+(87)
+(85)
+(83)
+(79)
+(76)
+215
+291
+345
+377
+422
+452
+488
+536
+600
+638
+(91)
+(88)
+(85)
+(83)
+(80)
+(78)
+(76)
+(72)
+(66)
+(61)
+444
+591
+690
+746
+820
+866
+919
+979
+1028
+Not eff
+(88)
+(83)
+(79)
+(76)
+(72)
+(70)
+(66)
+(61)
+(52)
+(45)
+1197
+1521
+1701
+1786
+1866
+1890
+Not eff
+(80)
+(72)
+(66)
+(62)
+(56)
+(52)
+(46)
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Table D.9 Kerb inlet with opening length equal to 1.85m (continued)
+Flow width (B in m)
+Cross fall
+(Sc)
+Gradient
+(SL)
+0.5
+0.75
+1.0
+1.5
+6.67%(1/15)
+0.33%(1/300)
+0.67% (1/150)
+1.0% (1/100)
+1.33% (1/80)
+1.67% (1/60)
+2.0% (1/50)
+2.5% (1/40)
+3.33% (1/30)
+5.0% (1/20)
+6.67% (1/15)
+120
+165
+199
+219
+248
+268
+294
+330
+384
+424
+(94)
+(92)
+(90)
+(89)
+(87)
+(86)
+(84)
+(82)
+(78)
+(75)
+341
+462
+547
+598
+668
+714
+771
+845
+941
+995
+(91)
+(87)
+(84)
+(82)
+(80)
+(78)
+(75)
+(71)
+(65)
+(59)
+705
+936
+1090
+1178
+1292
+1441
+1526
+1586
+Not eff
+(87)
+(82)
+(78)
+(75)
+(72)
+(65)
+(60)
+(51)
+(43)
+1895
+2395
+2665
+2787
+2893
+Not eff
+(80)
+(71)
+(65)
+(60)
+(54)
+(44)
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix D. Design tables
+Drained area of road in m2 under a rainfall intensity of 50mm/h and collection efficiency in % (in
+brackets)
+Manning's coefficient is n = 0.017.
+For others values of rainfall intensity I, multiply the area by (50/I).
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix E. Rainfall depth
+Appendix E. Rainfall depth
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 70
+======================================================================
+CD 526 Version 3.1.0
+Appendix E. Rainfall depth
+Figure E.1 2MinM5 rainfall depth for the UK
+Reproduced from BS EN 12056-3 [Ref 2.I]) by permission of the British Standards Institution.
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 70
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 526 Version 3.1.0, published: 30-Sep-2025
+
+
