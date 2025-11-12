@@ -1,0 +1,778 @@
+======================================================================
+PAGE 1 of 16
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 131
+Design of roadside technology and
+communications
+Version 1.0.0
+Summary
+This document contains general design requirements for roadside technology and
+communications.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 16
+======================================================================
+TD 131 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. General requirements for roadside technology and communications
+8
+DMRB and MCHW documents applicable to the design of roadside technology and communications . . . .
+8
+Outputs from the design of general requirements for roadside technology and communications . . . . . . .
+8
+Physical security for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Designing for maintenance for roadside technology and communications
+. . . . . . . . . . . . . . . . . . .
+9
+Specification and supply of roadside technology equipment . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Environmental control for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . . . .
+10
+Siting of roadside technology equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Managing the geotechnical risk for roadside technology and communications . . . . . . . . . . . . . . . . .
+10
+Existing roadside technology equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Hazard warning labels for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+11
+Configuration data for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Commissioning and handover for roadside technology and communications . . . . . . . . . . . . . . . . . .
+11
+3. Normative references
+12
+Appendix A. Abbreviations for drawings
+13
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 16
+======================================================================
+TD 131 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 131
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+Scope of document updated to include general requirements and advice for the design of roadside technology
+equipment, with all roadside technology equipment specific requirements and advice transferred to new individual
+documents as follows:
+TD 132 Design of electrical & telecommunication systems for roadside technology & communications
+TD 133 Design of cabinets, ducts & chambers for roadside technology & communications
+TD 134 Design of variable message sign and signal systems for roadside technology & communications
+TD 135 Design of traffic detection systems
+TD 136 Design of permanent traffic cameras
+TD 137 Design of emergency roadside telephones
+TD 138 Design of permanent traffic enforcement systems.
+Further minor changes incorporated across the document.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 131
+0.1.0
+November 2023
+Core document
+Incremental change to
+requirements
+TD 131
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 16
+======================================================================
+TD 131 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 v0.1.0.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 16
+======================================================================
+TD 131 Version 1.0.0
+Introduction
+Introduction
+Background
+The purpose of roadside technology is to contribute to safe and reliable journeys and to assist
+customers by informing them about traffic conditions. The technology used on motorways and
+all-purpose trunk roads contributes to these objectives by:
+1)
+monitoring - observing the network to detect incidents that could have an impact on the safety of
+customers or their journey times;
+2)
+informing - providing customers with the information they need to make safe and informed
+decisions whilst using the network;
+3)
+directing - controlling the flow of traffic on the network, and where appropriate enabling
+enforcement activities.
+This document references other documents that provide the criteria for provision and design
+requirements for the roadside technology equipment and systems.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 10.N] apply to this document.
+Where the design of the roadside technology and communications equipment has additional testing
+requirements (such as contract- specific requirements), it is assumed that those requirements are to be
+recorded in the works information.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 16
+======================================================================
+TD 131 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+TSP
+Telecommunications service provider
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 16
+======================================================================
+TD 131 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definitions
+Communications
+As defined in TD 132 [Ref 2.N].
+Hardstanding maintenance working
+area
+An area surrounding roadside technology equipment where
+authorised workers can safely maintain equipment from,
+typically in the verge (e.g. paving slabs around cabinets).
+Information model
+As defined in GG 184 [Ref 23.N].
+Road restraint systems
+As defined in CD 377 [Ref 18.N].
+Roadside technology equipment
+Any equipment installed at the side, any connected video or
+data device or associated component installed above, or
+under the carriageway of a motorway or all purpose trunk
+road that provides or enables technology services.
+Telecommunications service
+As defined in TD 132 [Ref 2.N].
+Telecommunications service provider
+(TSP)
+As defined in TD 132 [Ref 2.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 16
+======================================================================
+TD 131 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document provides general requirements that shall be followed for the design and implementation
+of roadside technology and communications on motorways and all-purpose trunk roads.
+1.2
+This document shall apply to the design of all roadside technology including; electrical and
+communications systems, cabinets, ducts and chambers for roadside technology and communications,
+variable message sign and signal systems, traffic detection systems, permanent traffic cameras,
+emergency roadside telephones, traffic enforcement systems and ramp metering.
+1.2.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 15.N], GG
+104 [Ref 19.N], GD 304 [Ref 9.N] and with all other DMRB documents relevant to the design of the
+particular works to be undertaken.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving roadside technology and
+communications on the Overseeing Organisation's motorways and the all-purpose trunk roads
+according to the implementations of GG 101 [Ref 10.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 10.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 16
+======================================================================
+TD 131 Version 1.0.0
+2. General requirements for roadside technology ...
+2.
+General requirements for roadside technology and
+communications
+DMRB and MCHW documents applicable to the design of roadside technology
+and communications
+2.1
+This document shall be read in conjunction with the other documents in the DMRB and the MCHW
+which also contain requirements and advice for the design of roadside technology and communications.
+NOTE
+Other documents in the DMRB and MCHW which also contain requirements and advice for the design
+of roadside technology and communications include:
+1)
+TD 132 [Ref 2.N]Design of electrical & telecommunication systems for roadside technology &
+communications;
+2)
+TD 133 [Ref 1.N] Design of cabinets, ducts & chambers for roadside technology &
+communications;
+3)
+TD 134 [Ref 8.N] Design of variable message sign and signal systems for roadside technology &
+communications;
+4)
+TD 135 [Ref 7.N] Design of traffic detection systems;
+5)
+TD 136 [Ref 6.N] Design of permanent traffic cameras;
+6)
+TD 137 [Ref 3.N] Design of emergency roadside telephones;
+7)
+TD 138 [Ref 5.N] Design of permanent traffic enforcement systems;
+8)
+CD 146 [Ref 14.N]Positioning of signalling and advance direction signs;
+9)
+GD 300 [Ref 17.N] Enhanced all-purpose dual carriageways;
+10)
+GD 301 [Ref 22.N] Smart motorways;
+11)
+TD 121 [Ref 16.N] Ramp metering;
+12)
+TD 101 [Ref 26.N] Traffic signalling systems (design);
+13)
+TC 131 [Ref 21.N] Roadside technology and communications; and,
+14)
+TC 101 [Ref 25.N] Traffic signalling systems.
+Outputs from the design of general requirements for roadside technology and
+communications
+2.2
+The outputs from the design of general requirements for roadside technology and communications shall
+include all details necessary for the construction and installation of roadside technology equipment.
+2.2.1
+The outputs from the design of general requirements for roadside technology and communications
+should include details for each roadside technology equipment installation such as:
+1)
+the assessment of physical security threat and the mitigation measures;
+2)
+the specification for each roadside technology equipment;
+3)
+a list of who is responsible for the procurement of each type of roadside technology equipment;
+4)
+design for maintenance arrangements:
+a)
+location and size of hardstanding maintenance working areas;
+b)
+form of construction of the hardstanding maintenance working areas;
+c)
+slope dimensions of hardstanding maintenance working areas; and
+d)
+location of access steps and handrails.
+5)
+types and locations of roadside technology equipment to be removed, recovered, reinstated and
+retained;
+6)
+maximum period of acceptable disruption to the service provided by roadside technology
+equipment;
+7)
+types and locations of roadside technology equipment to remain operational during the works;
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 16
+======================================================================
+TD 131 Version 1.0.0
+2. General requirements for roadside technology ...
+8)
+the telecommunications services to be temporarily or permanently decommissioned or relocated
+by the telecommunications service provider (TSP);
+9)
+the technique for detection, marking and protection of underground services;
+10)
+excavation requirements for the underground telecommunications services, power cables and
+infrastructure owned, operated or maintained by the TSP;
+11)
+details of the minimum time period for submitting record of the connection or disconnection of
+electrical installations during the works;
+12)
+specify hazard warning label type and location; and
+13)
+the siting tolerances that have been used in the design.
+2.3
+Information models shall be produced to define the details and dimensions of each roadside technology
+equipment to be installed.
+2.3.1
+Drawings and non-graphical information should be produced to provide any additional details or views
+needed for the construction of roadside technology and communications.
+NOTE
+A list of typical abbreviations for roadside technology equipment to be used on drawings is shown in
+Appendix A.
+Physical security for roadside technology and communications
+2.4
+Physical security threats to the roadside technology equipment shall be assessed, documented,
+mitigated and managed in accordance with the Overseeing Organisation's security procedure.
+NOTE
+Examples of physical security threats to roadside technology equipment can include compromised
+roadside equipment and metal theft.
+2.4.1
+The TSP may request security measures on selected roadside technology equipment that are deemed
+to be at risk of physical security threats.
+2.4.2
+Security mitigation measures may include security straps on cabinets and lockable chamber covers for
+roadside technology and communications.
+Designing for maintenance for roadside technology and communications
+2.5
+The roadside technology and communications design shall promote and enable safe site maintenance
+and inspection.
+NOTE
+Examples to enable safe site maintenance and inspection can include: maintenance access points,
+pathways, steps, handrails and hardstanding maintenance working areas.
+2.5.1
+The following should be taken into account when considering safe site maintenance and inspection of
+roadside technology equipment:
+1)
+distance of the equipment from the maintenance access point;
+2)
+position of the equipment relative to the carriageway and any vehicle restraint;
+3)
+types and frequency of maintenance activities;
+4)
+whole life cost of providing a maintenance access point versus benefits of reduced temporary
+traffic management deployments.
+2.6
+The Overseeing Organisation and maintainers shall be consulted on the design for maintenance for
+roadside technology equipment.
+2.7
+Pathways between maintenance access points and roadside technology equipment sites shall be
+continuous and a minimum of 600 mm in width.
+2.8
+Hardstanding maintenance working areas for roadside technology and communications shall be
+designed and positioned to enable the maintainer to work safely and unencumbered.
+2.8.1
+A 600 x 600 mm hardstanding may provide a suitable safe working area for maintenance purposes for
+roadside technology and communications.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 16
+======================================================================
+TD 131 Version 1.0.0
+2. General requirements for roadside technology ...
+2.8.2
+At cabinet sites for roadside technology and communications the hardstanding should be measured
+from the edge of the fully open cabinet door and not be encroached upon by the open doors of any
+adjacent cabinet.
+2.9
+The hardstanding maintenance working area for roadside technology and communications shall not
+encroach on the working width of the road restraint system.
+Specification and supply of roadside technology equipment
+2.10
+The specification for each roadside technology equipment shall be determined and documented.
+NOTE 1
+The Operational Technology Specifications Library OTSL [Ref 13.N] provides performance
+specifications for roadside technology equipment.
+NOTE 2
+Traffic Open Products and Specifications TOPAS [Ref 24.N] provides performance specifications for
+traffic signalling systems.
+2.11
+The responsibility for the supply of roadside technology equipment shall be determined using the
+procurement procedures of the Overseeing Organisation.
+NOTE
+Procurement procedures can determine whether the equipment is procured by the Overseeing
+Organisation or by the installation contractor.
+Environmental control for roadside technology and communications
+2.12
+The environmental protection requirements for the roadside technology equipment shall be determined.
+2.12.1
+The environmental protection requirements for roadside technology equipment should be based on the
+local environment.
+NOTE
+Particularly harsh environments include tunnels, high altitudes, near marine environments and
+extremes of temperatures.
+Siting of roadside technology equipment
+2.13
+Other than for the maintenance renewal of existing roadside technology equipment, roadside
+technology equipment shall not be sited in the central reserve.
+2.13.1
+Roadside technology equipment should be relocated from the central reserve.
+2.14
+Roadside technology equipment shall be co-located, where design allows.
+NOTE
+Co-locating roadside technology equipment can support maintenance activities and minimise whole life
+costs.
+2.15
+Roadside technology equipment shall be located so as not to interfere with, or be interfered by,
+co-located roadside technology and communications.
+NOTE
+Communications interference includes radio, electromagnetic and physical interference, and
+interference with third party systems.
+2.16
+Any roadside technology equipment sites that are at risk from flooding shall be positioned above the
+flood level in accordance with CG 501 [Ref 4.N]and LA 113 [Ref 20.N].
+2.17
+The siting tolerances that have been used in the design of roadside technology and communications
+shall be stated.
+Managing the geotechnical risk for roadside technology and communications
+2.18
+Any roadside technology and communications asset designed on and below ground shall be subject to
+certification and approval by the Overseeing Organisation in accordance with CD 622 [Ref 12.N].
+NOTE
+Certification and approval of any asset on and below ground is required to safeguard against, as
+examples:
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 16
+======================================================================
+TD 131 Version 1.0.0
+2. General requirements for roadside technology ...
+1)
+defects that are direct result of poor workmanship/supervision of site works;
+2)
+ducting/chambers feeding water directly into slopes; and
+3)
+existing slope drain blocked by cabling installation.
+Existing roadside technology equipment
+2.19
+The types and locations of roadside technology equipment to be removed, recovered, reinstated or
+retained shall be determined.
+2.20
+The maximum period of disruption to any service provided by roadside technology equipment shall be
+determined by liaison with the Overseeing Organisation and TSP.
+NOTE
+Power and communication bypass cables are used to keep services operational during the works.
+2.21
+The telecommunications services to be temporarily or permanently decommissioned or relocated shall
+be determined in liaison with the TSP.
+2.22
+The technique for detection, marking and protection of underground services for roadside technology
+and communications shall be determined by liaison with the maintainer and TSP.
+2.23
+The minimum time period for the submission of records for electrical installations for roadside
+technology and communications that are connected or disconnected from the roadside electricity
+supplies shall be determined by liaison with the Overseeing Organisation.
+Hazard warning labels for roadside technology and communications
+2.24
+The type and location of hazard warning labels shall be determined to provide clear warnings and
+instructions to maintainers.
+Configuration data for roadside technology and communications
+2.25
+The site data requirements for roadside technology equipment shall be established early enough in the
+design life cycle for any changes to be deployed.
+Commissioning and handover for roadside technology and communications
+2.26
+The scheme commissioning and handover for roadside technology and communications shall be in
+accordance with GG 182 [Ref 11.N].
+2.27
+Any scheme-specific information that is required to be recorded on the as-built drawings for roadside
+technology and communications shall be identified.
+NOTE
+A list of typical information to be included on the as-built drawings and schedules is shown in TC 131
+[Ref 21.N].
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 16
+======================================================================
+TD 131 Version 1.0.0
+3. Normative references
+3.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. TD 133, 'Design of cabinets, ducts and chambers for roadside
+technology and communications'
+Ref 2.N
+National Highways. TD 132, 'Design of electrical and telecommunication systems for
+roadside technology and communications'
+Ref 3.N
+National Highways. TD 137, 'Design of emergency roadside telephones'
+Ref 4.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 5.N
+National Highways. TD 138, 'Design of permanent traffic enforcement systems'
+Ref 6.N
+National Highways. TD 136, 'Design of traffic cameras and permanent traffic
+enforcement'
+Ref 7.N
+National Highways. TD 135, 'Design of traffic detection systems'
+Ref 8.N
+National Highways. TD 134, 'Design of variable message signs and signal systems
+for roadside technology and communications'
+Ref 9.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 10.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 11.N
+National Highways. GG 182, 'Major schemes: Enabling handover into operation and
+maintenance'
+Ref 12.N
+National Highways. CD 622, 'Managing geotechnical risk'
+Ref 13.N
+National Highways. OTSL. OTSL, 'Operational Technology Specifications Library'
+Ref 14.N
+National Highways. CD 146, 'Positioning of signalling and advance direction signs'
+Ref 15.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 16.N
+National Highways. TD 121, 'Ramp metering'
+Ref 17.N
+National Highways. GD 300, 'Requirements for new and upgraded all-purpose trunk
+roads (expressways)'
+Ref 18.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 19.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 20.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 21.N
+National Highways. TC 131, 'Roadside technology and communications'
+Ref 22.N
+National Highways. GD 301, 'Smart motorways'
+Ref 23.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+Ref 24.N
+Traffic Products and Open Specifications (TOPAS) Ltd. www.topasgroup.org.uk.
+TOPAS, 'Traffic Open Products and Specifications'
+Ref 25.N
+National Highways. TC 101, 'Traffic signalling systems'
+Ref 26.N
+National Highways. TD 101, 'Traffic signalling systems (design)'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 16
+======================================================================
+TD 131 Version 1.0.0
+Appendix A. Abbreviations for drawings
+Appendix A. Abbreviations for drawings
+The abbreviations to be used on drawings are shown in table A.1.
+Table A.1 Abbreviations for and drawings
+Equipment type
+Drawing abbreviation
+Air quality monitoring equipment
+AQM
+Ambient light monitor
+ALM
+Ambient light sensor
+ALS
+AMI controller
+AMI
+Automatic number plate recognition equipment
+AR
+Average speed enforcement camera
+ENF
+Battery
+BATT
+CAT x Ethernet cable
+CATx
+Coaxial cable
+CO
+CCTV outstation
+TV
+Communications equipment
+C
+Enforcement aspect verification camera
+EAV
+Electricity interface
+EI
+EMS controller
+EMS
+Enforcement equipment
+EE
+Environmental sensor station
+ESS
+Emergency roadside telephone
+ERT
+Feeder pillar
+FP
+Fibre isolation
+FIS
+Fibre reinforced polymer (cabinet)
+FRP
+Fixed text message sign
+FTMS
+Gantry power
+GP
+Hard shoulder monitoring equipment
+HSM
+Ice detection equipment
+ICE
+Local communications/ power cabinet combined
+LP
+Loop feeder cable
+LF
+Marshalling cabinet
+M
+Meteorological equipment
+MET
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 16
+======================================================================
+TD 131 Version 1.0.0
+Appendix A. Abbreviations for drawings
+Table A.1 Abbreviations for and drawings (continued)
+Midas outstation
+MD
+Midas outstation with radar
+MDR
+Midas transponder
+MT
+MS1 Controller
+MS1
+MS2 Controller
+MS2
+MS3 Controller
+MS3
+MS4 Controller
+MS4
+Optical fibre cable
+OF
+Pan, tilt, zoom camera
+PTZ
+Power equipment
+P
+Power inverter equipment
+INV
+Quad cable
+Q
+Ramp metering equipment
+RMC
+Stopped vehicle detection equipment
+SVD
+Traffic monitoring unit
+TMU
+Traffic management local
+TML
+Traffic management system
+TMS
+Traffic signal control equipment
+TSC
+Transmission cabinet
+TC
+Transmission station
+TS
+Weigh in motion equipment
+WIM
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 16
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 131 Version 1.0.0, published: 30-Sep-2025
+
+
