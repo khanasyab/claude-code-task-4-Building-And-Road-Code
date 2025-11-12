@@ -1,0 +1,4349 @@
+======================================================================
+SOURCE PDF: IRC_SP_110_2017_Application_of_Intelligent_Transport_System_for_Urban_Roads.pdf
+TOTAL PAGES: 74
+======================================================================
+
+
+======================================================================
+PAGE 2 of 74
+======================================================================
+IRC:SP:110-2017
+APPLICATION OF INTELLIGENT  
+TRANSPORT SYSTEM 
+FOR 
+URBAN ROADS
+Published by:
+INDIAN ROADS CONGRESS
+Kama Koti Marg, 
+Sector-6, R.K. Puram, 
+New Delhi-110 022
+November, 2017
+Price : ` 600/- 
+(Plus Packing & Postage)
+
+
+
+======================================================================
+PAGE 3 of 74
+======================================================================
+IRC:SP:110-2017
+First Published	
+:	
+November, 2017
+(All Rights Reserved. No part of this publication shall be reproduced,  
+translated or transmitted in any form or by any means without the  
+permission of the Indian Roads Congress)
+Printed at India Offset Press, Delhi - 110 064
+500 Copies
+
+
+
+======================================================================
+PAGE 4 of 74
+======================================================================
+IRC:SP:110-2017
+Contents
+S. No.	
+Description
+Page No.
+ 
+Personnel of the Highways Specifications and Standards Committee��������������������i-ii
+	
+Abbreviations.........................................................................................................iii-vi
+1.	
+INTRODUCTION....................................................................................................... 1
+	
+1.2	
+Urbanization.................................................................................................. 2
+	
+1.3	
+Transportation Issues.................................................................................... 2
+	
+1.4	
+Need for Intelligent Transport System........................................................... 3
+2.	
+ROLE OF ITS............................................................................................................ 4
+	
+2.1	
+What is ITS?.................................................................................................. 4
+	
+2.2	
+ITS Architecture............................................................................................. 5
+	
+2.3 	
+Need of ITS Architecture to resolve issues in urban areas........................... 5
+	
+2.4	
+Logical Architecture....................................................................................... 6
+	
+2.5	
+Physical Architecture..................................................................................... 6
+	
+2.6	
+Organizational Architecture........................................................................... 7
+	
+2.7	
+Equipment Packages.................................................................................... 8
+	
+2.8	
+Market Package............................................................................................ 8
+	
+2.9	
+User Services Bundles and User Services................................................... 8
+3.	
+DETECTION AND DATA COLLECTION METHODS ............................................ 10
+	
+3.1	
+Detection Methods...................................................................................... 10
+	
+3.1.1	
+Automatic Pedestrian Detection Method..................................................... 10
+	
+3.1.2	
+Red Light Violation Detection System..........................................................11
+	
+3.1.3	
+Automatic Number Plate Recognition Techniques...................................... 13
+	
+3.2	
+Data Collection Methods............................................................................. 13
+	
+3.3	
+Route Travel Time Estimation Models......................................................... 17
+4.	
+ITS FOR TRAFFIC MANAGEMENT SYSTEM....................................................... 19
+ 
+4.1 
+Issues in Traffic Management System........................................................ 19
+ 
+4.2 
+ITS Tools for Traffic Management............................................................... 19
+ 
+4.3 
+Advanced Traffic Management System...................................................... 20
+	
+4.4	
+ATMS Functional Areas............................................................................... 21
+ 
+4.5 
+Traffic Management Centre......................................................................... 22
+ 
+4.6 
+Crash Prevention and Safety and Efficiency of Commercial Operations.... 24
+	
+4.7	
+Its Tools for Safety..................................................................................... 25
+ 
+4.8 
+Emergency Notification and Personal Security........................................... 26
+	
+4.9	
+Emergency Vehicle Management............................................................... 27
+5.	
+ITS FOR PUBLIC TRANSPORT SYSTEM............................................................. 27
+	
+5.1	
+Introduction................................................................................................. 27
+
+
+
+======================================================================
+PAGE 5 of 74
+======================================================================
+	
+5.2	
+Fleet Management and Operations............................................................. 28
+	
+5.2.1	
+Automatic Passenger Counter.................................................................... 29
+	
+5.2.2	
+Automatic Vehicle Location......................................................................... 29
+	
+5.2.3	
+Geographic Information Systems................................................................ 30
+	
+5.2.4	
+Scheduling and Dispatch............................................................................ 30
+ 
+5.2.5 
+Traffic Signal Priority................................................................................... 31
+	
+5.3	
+Traveler Information Systems..................................................................... 31
+	
+5.4	
+Automated Trip Itineraries........................................................................... 32
+	
+5.5	
+In-Vehicle Announcers................................................................................ 32
+	
+5.6	
+Interactive Kiosks........................................................................................ 33
+	
+5.7	
+Electronic Fare Collection........................................................................... 34
+6.	
+APPLICATIONS OF ITS......................................................................................... 35
+	
+6.1	
+General....................................................................................................... 35
+	
+6.2	
+Advanced Traveller Information System..................................................... 35
+ 
+6.3 
+Advanced Traffic Management System...................................................... 37
+	
+6.4	
+ITS Enabled Pricing Systems...................................................................... 40
+	
+6.5	
+ Advanced Public Transportation Systems.................................................. 44
+	
+6.6	
+Advanced Vehicle Control Systems............................................................ 45
+ 
+6.7 
+Traffic Control and Management................................................................. 47
+	
+6.8	
+Law Enforcement........................................................................................ 48
+7.	
+PHASES FOR IMPLEMENTATIONS OF ITS......................................................... 50
+	
+7.1	
+General....................................................................................................... 50
+	
+7.2	
+Phase I........................................................................................................ 50
+	
+7.3	
+Phase II....................................................................................................... 51
+	
+7.4	
+Phase III...................................................................................................... 53
+	
+7.5	
+Phase IV...................................................................................................... 55	
+	
+7.6	
+Phase V....................................................................................................... 56
+8.	
+ITS AROUND THE WORLD................................................................................... 58
+	
+8.1	
+Introduction................................................................................................. 58
+	
+8.2	
+United States of America............................................................................. 58
+	
+8.3	
+Japan.......................................................................................................... 58	
+	
+8.4	
+Europe......................................................................................................... 59
+	
+8.5	
+United Kingdom........................................................................................... 60	
+	
+8.6	
+Middle EAST............................................................................................... 60
+	
+8.7	
+ITS Development in China.......................................................................... 61
+	
+8.8	
+ITS Initiatives in India ................................................................................. 62
+9.	
+ISSUES AND CHALLENGES OF ITS IN INDIA..................................................... 62
+10.	
+References........................................................................................................ 63
+
+
+
+======================================================================
+PAGE 6 of 74
+======================================================================
+IRC:SP:110-2017
+i
+PERSONNEL OF THE HIGHWAYS SPECIFICATIONS  
+AND STANDARDS COMMITTEE 
+(As on 23.06.2017)
+1
+Kumar, Manoj
+(Convenor)
+Director General (Road Development) & Special Secretary to Govt. of 
+India, Ministry of Road Transport and Highways, New Delhi
+2
+Singh, B.N.
+(Co-Convenor) 
+Addl. Director General (Incharge), Ministry of Road Transport and 
+Highways, New Delhi
+3
+Verma, Dr. S.K.
+(Member Secretary) 
+Chief Engineer (R) S,R & T, Ministry of Road Transport & Highways, 
+New Delhi
+Members
+4
+Bamezai, Prof. (Dr.) Gita
+R&D, Indian Institute of Mass Communication, New Delhi
+5
+Basar, Toli
+Chief Engineer, PWD, Arunachal Pradesh
+6
+Bhanot, Balraj
+Chairman, TED, Bureau of Indian Standards, New Delhi
+7
+Bongirwar, P.L.
+Secretary (Retd.), PWD Maharashtra
+8
+Gupta, D.P.
+DG(RD) & AS (Retd.), Ministry of Road Transport and Highways, 
+New Delhi 
+9
+Jain, Prof. (Dr.) S.S.
+Professor, Indian Institute of Technology, Roorkee
+10
+Jain, R.K.
+Chief Engineer (Retd.), PWD Haryana
+11
+Kadiyali, Dr. L.R.
+Chief Executive, L.R. Kadiyali & Associates, New Delhi 
+(Expired on 18.02.2016)
+12
+Lal, Bhure
+Chairman, Environment Pollution Control Authority, Delhi
+13
+Lal, Chaman
+Engineer-in-Chief, Gurugram Metropolitan Development Authority, 
+Haryana
+14
+Narain, Sunita
+DG, Centre for Science and Environment, New Delhi
+15
+Nashikkar, J.T.
+Secretary (Retd.), PWD Maharashtra
+16
+Pandey, R.K.
+Member (Projects), National Highways Authority of India, New Delhi
+17
+Parida, Prof. (Dr.) M.
+Dean, SRIC, Indian Institute of Technology, Roorkee
+18
+Pateriya, Dr. I.K.
+Director (Tech), National Rural Roads Development Agency, New Delhi
+19
+Pawar, Ajit
+Secretary (Retd.), PWD Maharashtra
+20
+Porwal, Dr. S.S. (VSM)
+ADG (Retd.), Border Roads Organisation, New Delhi
+21
+Raju, Dr. G.V.S.
+Engineer-in-Chief (Retd.), Roads & Building, Andhra Pradesh
+22
+Rawat, M.S.
+Executive Director, AECOM India Pvt. Ltd.
+23
+Sarangi, D.
+CGM, National Highways Authority of India, New Delhi
+24
+Sharma, M.P.
+Chief Engineer, Ministry of Road Transport and Highways, New Delhi
+25
+Sharma, S.C.
+DG(RD) & SS (Retd.), Ministry of Road Transport and Highways, 
+New Delhi
+
+
+
+======================================================================
+PAGE 7 of 74
+======================================================================
+IRC:SP:110-2017
+ii
+26
+Sheokand, Balbir Singh
+Executive Engineer, PWD Haryana
+27
+Singh, Nirmaljit
+DG(RD) & SS (Retd.), Ministry of Road Transport and Highways, 
+New Delhi 
+28
+Singh, Pawan Kumar
+GM, 3M India Ltd.
+29
+Sinha, A.V.
+DG(RD) & SS (Retd.), Ministry of Road Transport and Highways, 
+New Delhi
+30
+Tawade, D.O.
+Member (T), National Highways Authority of India, New Delhi
+31
+The Director,
+(Chandra, Dr. Satish)
+Central Road Research Institute, New Delhi
+32
+The Director General,
+(Shrivastava, Lt. Gen. S.K.)
+Border Roads Organisation, New Delhi
+33
+The Director General, 
+(Mathur, Vishnu) 
+Society of Indian Automobile Manufacturers, New Delhi
+34
+The Engineer-in-Chief,
+(Sharma, Lt. Gen. Suresh) 
+Military Engineer Services, New Delhi
+35
+Tickoo, Bimal
+Secretary (T), PWD Jammu
+36
+Tiwari, Prof. (Dr.) Geetam
+Professor, Indian Institute of Technology, New Delhi
+37
+Varshney, Sharad
+Superintending Engineer, Ministry of Road Transport and Highways, 
+New Delhi
+38
+Verma, G.L.
+MD, Engg and Planning Consultants Ltd., New Delhi
+Corresponding Members
+1
+Baluja, Dr. Rohit
+President, Institute of Road Traffic Education, New Delhi
+2
+Bhowmik, Sunil 
+Engineer-in-Chief (Retd.), Tripura
+3
+Kandasamy, C
+DG(RD) & SS (Retd.), Ministry of Road Transport and Highways,  
+New Delhi
+4
+The Director,
+(Patil, Capt. (Dr.) Rajendra B. 
+Saner)
+Central Institute of Road Transport, Pune
+Ex-Officio Members
+1
+President,
+Indian Roads Congress
+(Pradhan, N.K.), Engineer-in-Chief cum Secretary, Works Department, 
+Odisha
+2
+Director General (Road 
+Development) & Special 
+Secretary to Govt. of India
+(Kumar, Manoj), Ministry of Road Transport and Highways, New Delhi
+3
+Secretary General,
+Indian Roads Congress
+ Nirmal, Sanjay Kumar
+
+
+
+======================================================================
+PAGE 8 of 74
+======================================================================
+IRC:SP:110-2017
+iii
+ABBREVIATIONS
+ACC	
+-	
+Adaptive Cruise Control
+ACN 
+- 
+Automatic Collision Notification
+ANPR	
+-	
+Automatic Number Plate Recognition
+APC	
+-	
+Automatic Passenger Counter
+APTS	
+-	
+Advanced Public Transportation Systems
+ATC	
+-	
+Advance Transportation Controller
+ATC 
+- 
+Area Traffic Control
+ATIS	
+-	
+Advanced Traveller Information System
+ATM 
+- 
+Active Traffic Management
+ATMS 
+- 
+Advanced Traffic Management System
+ATSC 
+- 
+Adaptive Traffic Signal Control
+AVCS	
+-	
+Advanced Vehicle Control Systems
+AVI 
+- 
+Automatic Vehicle Identification
+AVL	
+-	
+Automated Vehicle Location
+AVO	
+-	
+Automated Vehicle Operations
+BRTS	
+-	
+Bus Rapid Transit System
+CAD	
+-	
+Computer Aided Dispatch
+CBD	
+-	
+Central Business District
+CCC	
+-	
+Central Control Centre
+CCTV	
+-	
+Closed Circuit Television
+CEC	
+-	
+Commission of European Communities
+CPU	
+-	
+Central Processing Unit
+CWS	
+-	
+Collision Warning Systems
+DMS	
+-	
+Dynamic Message Signs
+DRIVE	
+-	
+Road Infrastructure for Vehicle Safety in Europe
+DSP	
+-	
+Digital Signal Processing
+DSRC	
+-	
+Dedicated Short Range Communications
+EMS	
+-	
+Emergency Management Services
+EPC	
+-	
+Electronic Product Code
+ERP	
+-	
+Electronic Road Pricing
+ETC	
+-	
+Electronic Toll Collection
+ETCS	
+-	
+Electronic Toll Collection System
+EU	
+-	
+European Union
+EUREKA	
+-	
+European Research Coordination Agency
+EVM	
+-	
+Emergency Vehicle Management
+eVMS	
+-	
+Electronic Variable Message Signs
+FHWA	
+-	
+Federal Highway Administration
+GIS	
+-	
+Geographic Information System
+GNSS	
+-	
+Global Navigation Satellite System
+
+
+
+======================================================================
+PAGE 9 of 74
+======================================================================
+IRC:SP:110-2017
+iv
+GPS	
+-	
+Global Positioning System
+GSM	
+-	
+Global System for Mobile Communication
+HOT	
+-	
+High Occupancy Toll
+HOV	
+-	
+High Occupancy Vehicle
+HSS 
+- 
+Highways Specifications and Standards
+IPT	
+-	
+Informal Public Transport
+IR	
+-	
+Infra Red
+IRC	
+-	
+Indian Roads Congress
+ISA	
+-	
+Intelligent Speed Adaptation
+ITS	
+-	
+Intelligent Transport System
+JPO 
+- 
+Joint Program Office
+LCSs	
+-	
+Lane Control Signs
+LED	
+-	
+Light Emitting Diode
+MHZ	
+-	
+Megahertz
+NETC	
+-	
+National Electronic Toll Collection
+NHAI	
+-	
+National Highways Authority of India
+OCR	
+-	
+Optical Character Recognition
+PIR	
+-	
+Passive Infra Red
+PROMETHEUS 
+ - 
+Program for European Traffic with Highest Efficiency 
+Unprecedented Safety
+P-Spec 
+- 
+Process Specification
+PWD	
+-	
+Public Works Department
+RF	
+-	
+Radio Frequency
+RFID 
+- 
+Radio Frequency Identification
+RTC 
+- 
+Regional Traffic Control
+RTI	
+-	
+Road Transport Informatics
+RTTI 
+- 
+Real Time Traffic Information
+RWIS	
+-	
+Road Weather Information System
+SP	
+-	
+Signal Priority
+SP	
+-	
+Special Publication
+TFL	
+-	
+Transport for London
+TMC 
+- 
+Traffic Management Centre
+TMS 
+- 
+Traffic Management System
+TOC 
+- 
+Traffic Operation Centre
+UHF	
+-	
+Ultra High Frequency
+USDOT	
+-	
+U.S. Department of Transportation
+VICS	
+-	
+Vehicle Information Communication System
+VKT	
+-	
+Vehicle Kilometres Travelled
+VMS	
+-	
+Variable Message Signs
+VVD	
+-	
+Video Vehicle Detection
+WPC	
+-	
+Wireless Planning & Coordination
+
+
+
+======================================================================
+PAGE 10 of 74
+======================================================================
+IRC:SP:110-2017
+1
+APPLICATION OF INTELLIGENT TRANSPORT SYSTEM
+FOR URBAN ROADS
+1 INTRODUCTION
+1.1	
+Rapid Growth in population in India along with commensurate economic 
+upturn and urbanization, has resulted in tremendous increase in mobility by all modes of 
+transportation especially Automobile. This has also given rise to environmental and traffic 
+control management issues on roads, in towns and major cities. Intelligent Transportation 
+System (ITS) is now the established technology for resolving and mitigating these issues. 
+Different countries have adopted their own strategies to use this technology depending upon 
+their local socioeconomic culture and environment status. Therefore, need was felt to frame 
+a separate document on this subject for road sector to bring uniformity and for guidance 
+of professionals. The initial draft was prepared by the sub-group under chairmanship of 
+Prof. P.K. Sarkar comprising Shri D.P. Gupta, Prof. M. Parida, Dr. Ch. Ravi Sekhar, 
+Shri Pawan Kumar Singh and Shri Namit Kumar as members. The document was deliberated 
+in several meetings of Urban Roads and Streets (H-8) Committee and finally it was approved 
+in its meeting held on 14th October, 2016.
+The Composition of H-8 Committee is as given below:
+	
+Pawar, A.B.	
+……..	
+Convenor
+	
+Parida, Prof. (Dr.) M.	
+…….	
+Co-Convenor
+	
+Thakar, Vikas	
+……..	
+Member-Secretary
+Members 
+	
+Agarwal, Anjlee	
+	
+Roy, Paromita 
+	
+Bagish, Dr. B.P. 	
+	
+Rustagi, S.K.
+	
+Gadepalli, Shreya 	
+	
+Sabnis, Sharad
+	
+Gupta, D.P.	
+	
+Sanyal, D. 
+	
+Jaigopal, R.K. 	
+	
+Sarkar, Prof. (Dr.) P.K
+	
+Joshi, Dr. G.J.	
+	
+Sharan, G.
+	
+Kamble, M.T.	
+	
+Singh, Nirmaljit
+	
+Kide, P.M.	
+	
+Singh, Pawan Kumar
+	
+Narain, Sunita	
+	
+Srivastava, Sarvagya Kumar
+	
+Nath, Prem 	
+	
+Surisetti, Ramakrishna
+	
+Ram, Prof. (Dr.) Sewa	
+	
+Tiwari, Prof. (Dr.) Geetam 
+	
+Ravi Sekhar, Dr. Ch.
+
+
+
+======================================================================
+PAGE 11 of 74
+======================================================================
+IRC:SP:110-2017
+2
+Corresponding Members
+ 	
+Kharwadkar, V.	
+	
+Prasad, R. Jai
+	
+Krishnan, Dr. Geeta	
+	
+Ramchandani, S.M.
+Ex-Officio Members
+	
+President,
+	
+Indian Roads Congress
+	
+(Pradhan, N.K.), Engineer-in-
+Chief cum Secretary, Works 
+Department, Odisha
+	
+Director General 
+	
+(Road Development) & Special 
+Secretary to Govt. of India
+	
+(Kumar, Manoj), Ministry of Road 
+Transport & Highways
+	
+Secretary General, 
+	
+Indian Roads Congress
+	
+Nirmal, Sanjay Kumar
+The Highways Specifications & Standards Committee (HSS) considered and approved 
+the draft document in its meeting held on 23rd June, 2017. The Executive Committee 
+in its meeting held on 13th July, 2017 considered and approved the same document 
+for placing it before the Council. The Council in its 212th meeting held at Udaipur on 
+14th July, 2017 considered and approved the draft IRC:SP:110 “Application of Intelligent 
+Transport System (ITS) for Urban Roads” for printing.
+1.2	
+Urbanization
+Urbanization is central to achieving faster and more inclusive growth because agglomerations 
+and densification of economic activities in urban conglomerates, stimulates economic 
+efficiencies and employment opportunities. Number of urban agglomerations in India has 
+increased from 1827 in 1901 to 7935 in 2011. Population living in urban areas has increased 
+from 25.8 million in 1901 to 377 million (representing 31.2 percent of total population) in 2011. 
+The number of metropolitan cities with a million plus population has increased from thirty five 
+in 2001 to fifty three, in the year 2011. And over two-thirds of urban population lives in class 1 
+towns (population above 100,000). There is continuing increase in their numbers, especially 
+those with population above one million. Eight cities viz. Mumbai, Delhi, Kolkata, Chennai, 
+Hyderabad, Bangalore, Ahmedabad, and Pune have population over five million. The sharp 
+increase in population in these cities has implications for urban transport management.
+1.3	
+Transportation Issues
+	
+i.	
+Traffic jam and parking: Congestion and insufficient parking spots are 
+the foremost transport issues in large urban agglomerations, significantly 
+connected with motorization and the dispersion of the automobile that has 
+expanded the demand for transport infrastructure. The provision of transport 
+infrastructure has not kept pace with the traffic demand. Motorization has 
+created significant demand for parking areas. 
+
+
+
+======================================================================
+PAGE 12 of 74
+======================================================================
+IRC:SP:110-2017
+3
+	
+ii.	
+Long commutation: Besides experiencing congestion, people are spending 
+an increasing amount of time to travel between their residence and workplace. 
+A vital element behind this pattern is the thought with the trend related to 
+residential affordability, as housing located far away from central areas 
+(where most of the employment remains) is less expensive. Along these 
+lines, workers are exchanging time for housing affordability. 
+	
+iii.	
+Public transport inadequacy: Many transit systems or parts of them, are 
+either over or under used. Uneasiness for users created by crowdedness 
+in peak hours shaped low ridership that makes several services financially 
+unsustainable, significantly in urban areas. Disregarding essential 
+endowments and cross financing (e.g. tolls) virtually, not every transit system 
+can prove adequate to cover its operational and capital expenses.
+	
+iv.	
+Lack of concern for non-motorized transport: As a result of the intense 
+traffic, the flexibility of walkers, bikes and vehicles is impaired. An absence 
+of consideration for walkers and bikes while undertaking the physical design 
+of road infrastructure in urban areas is leading to traffic management 
+challenges.
+	
+v.	
+High maintenance costs: Financial deficit is being faced for ageing transport 
+infrastructure, for both maintenance and upgradation to modern infrastructure, 
+demand.
+	
+vi.	
+Environmental impacts and energy consumption: Pollution, as well as noise, 
+generated by traffic circulation is becoming a major impediment to the quality 
+of life and even the health of urban populations. 
+	
+vii.	
+Accidents and safety: Growing traffic in urban areas is leading to growing 
+range of accidents and fatalities. 
+1.4	
+Need for Intelligent Transport System
+In India, a fast developing economy, the problem of road traffic congestion is getting 
+aggravated in every major city. Infrastructure growth isn’t enough as compared with 
+growth in number of vehicles, due to space and expense imperatives. Further; increasing 
+transportation capacity by building new roads and upgradation of existing infrastructure may 
+not be a suitable solution in many urban areas as a result of the high costs as well as 
+environmental and associated social issues. In such situation, there would be need to adopt 
+traffic management measures to improve the quality of service and safety for the users of 
+both public transport and personalized vehicles. The Intelligent Transportation System has 
+emerged as an effective traffic management tool, based on a combination of information 
+and communication technologies. The information technologies allow components within the 
+transportation system (vehicles, roads, traffic lights, message signs, etc) to become intelligent 
+by embedding them with microchips and sensors and empowering them to communicate with 
+one another through wireless technologies. This manual focus on ITS system architecture, 
+sensors and their applications in ensuring the safe and efficient movements of urban road 
+traffic.
+
+
+
+======================================================================
+PAGE 13 of 74
+======================================================================
+IRC:SP:110-2017
+4
+2 ROLE OF ITS
+2.1	
+What is ITS?
+Intelligent Transportation System (ITS) is the application of computer, electronics, and 
+communication technologies and management strategies in an integrated manner to provide 
+traveller knowledge to extend the safety and efficiency of the surface transportation systems 
+(Mathew, 2014). These systems involve vehicles, drivers, passengers, road operators, 
+transportation system manager, all interacting with each other and the surroundings, and 
+linking with the advanced infrastructure systems to boost the security and capacity of road 
+systems (Fig. 1). ITS have evolved with applications, as well as collision warning systems, 
+ramp meters, advanced signal control systems, transit and emergency vehicle management 
+systems, and others.
+Fig. 1 Intelligent Transportation System (ETSI, 2012)
+The purpose of ITS is to improve transportation safety and efficiency, and also advance 
+capability of road systems. In the leading nations in the world, ITS has brought vital 
+improvements, in transportation performance, as well as reduced congestion and pollution 
+besides enhanced safety and traveller convenience. Thus, the main key categories of benefits 
+delivered by ITS are increasing safety, mobility and operational performance, reducing 
+congestion and pollution.
+ITS can impact transportation performance in five key areas that address safety, mobility, 
+productivity, energy and environment, and customer satisfaction. Different performance 
+
+
+
+======================================================================
+PAGE 14 of 74
+======================================================================
+IRC:SP:110-2017
+5
+measures are used to assess ITS performance for each of these areas. Safety is measured 
+through changes in crash rates or different surrogate measures like vehicle speeds, traffic 
+conflicts, or traffic law violations. Mobility enhancements are measured in savings in delay, 
+travel time budget savings, and on-time performance. Productivity enhancements are usually 
+documented in cost savings to transportation providers, travellers, or shippers. Advantages 
+accrued from ITS area with respect to energy and environment are generally documented 
+through fuel savings and reduced pollutant emissions. 
+2.2	
+ITS Architecture
+An ITS architecture is the framework inside which a system of ITS projects is designed. It 
+defines the components of the system and therefore it allows interconnections and information 
+flow between the elements. The first parts of ITS architecture are subsystems and information 
+flows.
+Subsystems: Subsystems are individual items of the general ITS that perform specific 
+functions like managing traffic, providing traveller’s information, or responding to emergencies. 
+Subsystems can be related to explicit organizations like public safety agencies, transportation 
+services, emergency management agencies, or transit providers. They are the sources 
+and/or users of knowledge provided by different subsystems inside the boundary of ITS 
+architecture. Subsystems embrace centre systems, wayside equipment, vehicle equipment 
+and traveller devices that are associated in ITS.
+Information Flows: Information flows of the data is changed/processed between subsystems 
+like traffic information, or surveillance and sensor control data. They depict ITS integration by 
+illustrating the information links between subsystems. In ITS, this integration is technical as 
+well as institutional.
+ITS architecture can be defined as comprehensive image of functions that has got to be 
+performed (user services), physical entities wherever these functions reside (subsystems), 
+interfaces between subsystems (information flows), communications requirements for 
+interfaces and stakeholder roles. 
+2.3 	
+Need of ITS Architecture to resolve issues in urban areas
+ITS architecture could be a useful tool for integrating ITS technique into planning process. 
+The ITS architecture defines the comprehensive set of data that ought to be shared by 
+numerous agencies of transportation network. With the information of what knowledge should 
+be changed between subsystems, these agencies develop a standard interest in cooperating 
+planning efforts between all transportation projects. As Vehicle Kilometres Travelled (VKT) 
+and congestion has systematically gone up unabated, preciseness technology has become 
+essential to capture the details of the updated status of traffic for efficient transportation 
+planning programmes. As urban areas expand and more roadways are interlinked with each 
+other, operations and maintenance of this technology is imperative. Therefore ITS architecture 
+has emerged as the best way through which to oversee the physical and virtual networks 
+interacting with ITS.
+
+
+
+======================================================================
+PAGE 15 of 74
+======================================================================
+IRC:SP:110-2017
+6
+2.4	
+Logical Architecture
+Fig. 2 shows the interaction of management of traffic with different processes. Every method 
+is broken down into additional sub processes. The sub process is further broken down into 
+next level of sub process that are known as process specifications (P-specs) lowest level. 
+These p-specs are needed to be performed to meet the necessities of user services.
+Provide 
+Vehicle 
+Monitoring 
+and 
+control
+Provide 
+Electronic 
+Payment
+service
+Provide 
+Driver and 
+Traveller
+Service
+Manage 
+Emergency 
+Service
+Manage
+commercial
+Service
+Manage 
+Archived
+Data
+Manage
+Transit
+Manage 
+Maintenance 
+and 
+Construction
+Manage
+Traffic
+Fig. 2 Logical Architecture framework (US DoT, 1998)
+2.5	
+Physical Architecture
+The functions from logical design that serve a similar need are classified into sub systems. 
+With these subsystems, a physical entity is developed to deliver functions. The info flow of 
+logical architecture is combined to define interface between subsystems. Fig. 3 shows the 
+functions A and B of logical architecture assigned to system in physical architecture. Both the 
+architecture forms the core of ITS.
+Logical Architecture
+What has to be done
+(functions or
+processes)
+Physical Architecture
+(Group functions
+together)
+Architecture
+flow
+Subsystem 
+Subsystem H
+data flows
+Function
+Function
+Function
+Function
+A
+A
+B
+C
+D
+Fig. 3 Physical Architecture (US DoT, 1998)
+
+
+
+======================================================================
+PAGE 16 of 74
+======================================================================
+IRC:SP:110-2017
+7
+The physical architecture of ITS, defines the physical subsystems and architectural flows 
+based on the logical architecture. The subsystems are generally classified in four groups 
+as centres, field, vehicle, and travellers. Fig. 4 shows the subsystems and communications 
+that comprise the physical architecture. The system represents aggregation of functions 
+that serve a similar transportation need and closely correspond to physical components of 
+transportation management system. Vehicle cluster consists of five differing kinds of vehicles. 
+The traveller group represents other ways a traveller will access information on the status of 
+the transportation system. There are four differing types of communication systems.
+	
+● 
+Fixed point to fixed point
+	
+●	
+Wide area wireless
+	
+●	
+Vehicle - vehicle communication
+	
+●	
+Field - vehicle communication
+Travelers
+Remote
+Traveler
+Support
+Personal
+Information
+Access
+Traffic
+Management
+Information
+Service
+Provider
+Emergency
+Management
+Emissions
+Management
+Transit
+Management
+Toll
+Administration
+Commercial
+Vehicle
+Administration
+Maintenance &
+Construction
+Management
+Archived Data
+Management
+Fleet and
+Freight
+Management
+Roadway
+Security
+Monitoring
+Toll
+Collection
+Parking
+Management
+Commercial
+Vehicle
+Check
+Maintenance &
+Construction
+Vehicle
+Transit
+Vehicle
+Commercial
+Vehicle
+Emergency
+Vehicle
+Vehicle
+Field
+Fixed-Point to Fixed-Point Communications
+Wide Area Wireless (Mobile) Communications
+Vehicle to Vehicle Communications
+Dedicated Short Range Communications
+Vehicles
+Centers
+Fig. 4 ITS Architecture (TRB, 2000)
+Traffic management system is connected to communications which gets real time information 
+of the transportation system through roadway subsystem that comprise of signal control, 
+detectors, camera, RFID Tags/ Readers (Compatible to open Road Tolling), ANPR Cameras 
+and VMS (smart / eVMS) etc. These Smart / Connected/ eVMS shall aggregate the data from 
+multiple subsystems and display location specific dynamic real time information.
+2.6	
+Organizational Architecture
+Organizational architecture refers to the engagement of various organizations/ stakeholders 
+associated to be a part of the Traffic Management Centre (TMC) or Central Control Centre(CCC) 
+such as NHAI, Traffic Police, Municipal Corporation, PWD, Mobile/ WiFi Service providers, 
+Utility service provider companies, etc. for the control and management of traffic movement, 
+incident management, maintenance of street lights, traveller information service, commercial 
+vehicle management, Electronic payment systems, Safety services, Emergency management 
+
+
+
+======================================================================
+PAGE 17 of 74
+======================================================================
+IRC:SP:110-2017
+8
+services, etc. The organizational architecture also defines and divides the involvement and 
+role of various agencies in a system. When the works are distributed amongst all the agencies 
+involved, it is also easy to find out the reasons for the failure of the system.
+2.7	
+Equipment Packages
+In order to provide additional preparation and oriented perspective to the ITS architecture, 
+an equipment package is developed. Similar functions of a particular subsystem are grouped 
+together and implemented by a package of hardware and software system facilities. For 
+example, TMC equipment package enables traffic managers to monitor and manage the 
+traffic flow at signalized intersections. It analyzes and reduces the collected data from traffic 
+surveillance equipment and implements control plans for signalized intersections. TMC signal 
+control equipment package contains five P- specs:
+	
+● 
+Traffic operation personnel traffic interface
+	
+● 
+Method traffic data
+	
+●	
+Choose strategy
+	
+● 
+Confirm indicator state for road management
+	
+●	
+Output control data for roads
+2.8	
+Market Package
+The market package defines a set of equipment packages that are required to work together 
+to provide a given transportation service. Most market packages are created from instrument 
+packages from two or additional subsystems. These are designed to deal with specific 
+transportation issues and desires. This package offers the central control and monitoring 
+equipment, communication links and therefore the signal control equipment that support 
+local street control or arterial traffic management. The various signal control systems are 
+dynamically adjusted control plans and strategies based on current traffic conditions and 
+priority requests.
+2.9	
+User Services Bundles and User Services
+A number of functions are required to accomplish the user services. These functional 
+statements are known as user services requirements. For all the user services, the necessities 
+are specified. If any new operation is added, new requirements are to be outlined. An 
+illustration of user service requirements for traffic control user service is provided below:
+Traffic Control provides the capability to efficiently manage the movement of traffic on streets 
+and highways. Four functions are provided. These are:
+	
+● 
+Traffic flow optimisation
+	
+● 
+Traffic surveillance
+	
+●	
+Control
+	
+●	
+Provide information
+
+
+
+======================================================================
+PAGE 18 of 74
+======================================================================
+IRC:SP:110-2017
+9
+There are eight users associated with ITS architecture as indicated below:
+ 
+(i) 
+Travel and Traffic Management (User Services Bundle) User Services:
+	
+●	
+Pre-trip Travel Information
+	
+●	
+En-route Driver Information
+	
+●	
+Route Guidance
+	
+●	
+Ride Matching and Reservation
+	
+●	
+Traveller Services Information
+	
+● 
+Traffic Control
+	
+●	
+Incident Management
+	
+●	
+Travel Demand Management
+	
+●	
+Emissions Testing and Mitigation
+	
+●	
+Highway Rail Intersection
+	
+(ii)	
+Public Transportation Management (User Services Bundle) User Services:
+	
+●	
+Public Transportation Management
+	
+●	
+En-route Transit Information
+	
+●	
+Personalized Public Transit
+	
+●	
+Public Travel Security
+	
+(iii)	 Electronic Payment (User Services Bundle) User Services:
+	
+●	
+Electronic Payment Services
+	
+(iv)	 Commercial Vehicle Operations (User Services Bundle) User Services:
+	
+●	
+Commercial Vehicle Electronic Clearance
+	
+●	
+Automated Roadside Safety Inspection
+	
+●	
+On-board Safety and Security Monitoring
+	
+●	
+Commercial Vehicle Administrative Processes
+	
+●	
+Hazardous Materials Security and Incident Response
+	
+●	
+Freight Mobility
+	
+(v)	
+Emergency Management (User Services Bundle) User Services:
+	
+● 
+Emergency Notification and Personal Security
+	
+●	
+Emergency Vehicle Management
+	
+●	
+Disaster Response and Evacuation
+	
+(vi)	 Advanced Vehicle Safety Systems (User Services Bundle) User Services:
+	
+●	
+Longitudinal Collision Avoidance
+	
+●	
+Lateral Collision Avoidance
+	
+●	
+Intersection Collision Avoidance
+	
+●	
+Vision Enhancement for Crash Avoidance
+	
+●	
+Safety Readiness
+	
+●	
+Pre-crash Restraint Deployment
+	
+●	
+Automated Vehicle Operation
+
+
+
+======================================================================
+PAGE 19 of 74
+======================================================================
+IRC:SP:110-2017
+10
+	
+(vii)	 Information Management (User Services Bundle) User Services:
+	
+●	
+Archived Data
+	
+(viii)	 Maintenance and Construction Management (User Services Bundle) User 
+Services:
+	
+●	
+Maintenance and Construction Operations.
+3 DETECTION AND DATA COLLECTION METHODS 
+3.1	
+Detection Methods
+Detection methods or sensors are the techniques/components to sense a vehicle or pedestrian 
+moving on the road and then to take necessary action accordingly. Various types of detection 
+systems for vehicles and pedestrians are briefly described in this section.
+3.1.1	
+Automatic Pedestrian Detection Method
+In this method, sensors detect the presence of pedestrians and take pre-defined actions for 
+traffic signal control. In this method, the pedestrian does not have to press any button as the 
+system takes care of signal timing automatically and works on the principle of infrared red 
+wave or pedestrian pressure sensitive mat. Moreover, if pedestrian takes more time to cross 
+the road (may be due to age or any other reason), the pedestrian green light is adjusted 
+accordingly to facilitate the movement of such pedestrians. Fig. 5 illustrates the Automatic 
+Pedestrian Detection System.
+Fig. 5 Automatic Pedestrian Detection System (FHWA, 2001)
+
+
+
+======================================================================
+PAGE 20 of 74
+======================================================================
+IRC:SP:110-2017
+11
+There are a few other types of Pedestrian Detection Systems as mentioned under:
+(a) 
+Traffic light as a permanent feature: The traffic lights in this scenario are 
+provided for pedestrian crossings at intersections as a part of traffic signal for vehicular 
+traffic. A specific cycle time is allotted for pedestrian signal. This type of arrangement is 
+usually provided where there is continuous flow of pedestrian traffic. The green light for 
+pedestrian crossing is designed on the basis of vehicular flow and pedestrian flow so that 
+both get reasonable time to cross the intersection safely. The advantage of this system is 
+that the pedestrian knows that he will get his time to cross the road and his needs are inbuilt 
+in the traffic signal system. Usually the signal timing is fixed (even in ATC system, the signal 
+timings for vehicles may increase or decrease as per load on network), but the green time for 
+pedestrian is provided with some minimum fixed values. 
+(b) 
+Traffic light but on request based: In this scenario, the traffic lights are provided 
+for pedestrian crossings at intersections as a part of traffic signal for vehicular traffic, but the 
+green light system for pedestrian is not automatic part of vehicular traffic signal system. In 
+this case, at a road side traffic light pole (or special pole is placed), a button is provided. As 
+soon as any pedestrian arrives, then he can press the button (pedestrian crossing button), 
+called Pelican Crossing. After a small period of time, the pedestrian gets a green signal to 
+cross the road. These signal timings are adjusted in a way that the drivers get sufficient 
+time to stop his vehicle. This facility is provided where the pedestrian flow is irregular (not 
+continuous). The advantage of this method is that the vehicular traffic will only be stopped 
+when there is any pedestrian. If there is no pedestrian, there is no red light signal for driver. 
+This type of system is mostly installed on mid block of the roads. 
+3.1.2	
+Red Light Violation Detection System
+Motorists driving through an intersection after the traffic signal has turned red confronted 
+with safety hazard. A Red Light violation can be considered as the violation when a motorist 
+enters an intersection after the signal light has turned red.
+The process of identifying a driver running during a red light and enforcing the violation 
+is the time, generally consumed using traditional police methods. Although enforcing red 
+light violations is a high priority for many police departments, the actual enforcement of the 
+violation is difficult for several reasons. A single officer on patrol to stop an individual observed 
+running a red light, the officer has to have a direct view of the traffic signal so that the decision 
+can be quickly made, whether the suspected vehicle running during the red light was at he 
+intersection before the light turned red.
+By imposition of the enforcement, the officers should have the same view of the traffic signal 
+as the violator. Officers who observe violations from cross streets or the opposing direction 
+of traffic cannot enforce the violation. If an officer does observe a violation while viewing the 
+same face of the traffic signal, the police officer will have to follow the violator through the 
+flow of cross traffic that has the green signal, creating a dangerous situation for both the 
+officer and the crossing vehicles. These factors make it difficult for an officer on patrol to 
+enforce red light violations and force officers to position themselves in a stationary spot to 
+view violations. Heavy manpower and resources are required to enable police departments 
+
+
+
+======================================================================
+PAGE 21 of 74
+======================================================================
+IRC:SP:110-2017
+12
+to enforce violations for a long period of time. Automation of traffic Violation Detection would 
+help in improved enforcement.
+Automated enforcement systems designed to detect red light violations must have the ability 
+to detect and record violations under varying field conditions and also to produce clear 
+images that are easily retrieved and stored. Gary Erickson of Eastman Kodak Company, 
+a manufacturer of automated enforcement technology, cites the ten following requirements 
+that automated enforcement systems should include: 
+	
+(i)	
+The ability to capture, transmit, process, store and recover captured images 
+so that data may be managed in an efficient manner;
+ 
+(ii) 
+Sufficient resolution to satisfy court standards for the image-reading of 
+vehicle license plates, clear detail of the vehicle, and identification of the 
+vehicle operator (if necessary);
+	
+(iii)	 The capability to prevent the spreading of over exposed portions of an image 
+(anti-blooming) that may result from vehicle headlights or sunlight from highly 
+reflective surfaces;
+	
+(iv)	  Adequate differentiation of light to dark areas within an image to provide 
+necessary details (also referred to as contrast latitude);
+	
+(v)	
+The ability to provide blur-free images of moving vehicles;
+	
+(vi)	 The ability to detect at varying levels of light;
+	
+(vii)	 Image enhancement circuitry to eliminate major sensor defects such as bright 
+or dark columns which detract from the visible presentation of an image;
+	
+(viii)	 Continuous read-out of images to support monitoring along with single fame 
+capture capability for recognising several successive vehicles committing a 
+violation;
+	
+(ix)	 The ability to be moved to different locations or to be mounted into a 
+permanent position; and
+	
+(x)	
+Components should be environmentally friendly.
+This ITS based solution of red light violation detection system may help reduce the accidents 
+as it creates a sense of psychological fear among users not to violate the traffic rules . It 
+also helps the driver to respect the law and provides visual and documentary evidences of 
+violation and capturing regular offenders. There are three types of systems available namely 
+Inductive Loop Sensor, Above Ground Sensors like Radar and Microwave based sensors 
+techniques and ANPR cameras. 
+Inductive Loop Sensor consists of sensor loops (inductive type) detection system (single loop 
+and two loop configuration depending on system design), Video camera and still camera 
+with flash light and controller equipment’s and communication system. In the above ground 
+sensors system, functioning is almost same as the inductive loop except that the system 
+uses above ground based detection system like laser system, which makes it simple and 
+there is no need to dig the road or reroute the traffic at the time of installation. 
+ANPR (Automatic Number Plate Recognisation) cameras having a combination of IR (Infra 
+Red) and Visual Spectrum Camera are used as part of an automated Red Light enforcement 
+
+
+
+======================================================================
+PAGE 22 of 74
+======================================================================
+IRC:SP:110-2017
+13
+program. This will enable system to perform Automatic Vehicle Identification (AVI) with the 
+help of a central processing unit, and a storage subsystem to record information such as 
+date, time and location. This will enable enough documentary evidence for the offenders to 
+be booked for violation and also instill a sense of discipline for Traffic Signal in road users. 
+This will help to reduce the junction crashes due to red light violation.
+3.1.3	
+Automatic Number Plate Recognition Techniques
+The classical means to capture traffic density and speed of vehicular traffic depend on local 
+measurements from induction loops and other on site instruments. This information does not 
+give the whole picture of traffic situation. In order to collect data on the traffic flow of a large 
+area, only airborne cameras or cameras positioned at very high locations (towers, etc.) can 
+provide an up-to-date image of all roads covered. The method for measuring several traffic 
+parameters for single vehicles and vehicle groups involve recording and evaluating a number 
+of digital or analogue aerial images from high altitude and with a large total field of view. 
+This can be carried out as non real time (Video recording and manual search). and real time 
+methods such as Automatic Number Plate Recognition (ANPR), real time Optical Character 
+Recognition (OCR) based vehicle monitoring system for tracking. 
+3.2	
+Data Collection Methods
+Sensing Technologies: Sensing systems for Intelligent Transportation System are vehicle 
+and infrastructure based networked systems, e.g., intelligent vehicle technologies. Pavement 
+loops (Fig. 6) are used to sense the presence of vehicle demand at intersections and parking 
+lot entrances. Pressure pads are used to sense the presence of pedestrians waiting to cross 
+a roadway. 
+Inductive Loop Detection: One or more loops of wire are embedded under the road and 
+connected to a control box. It is an established technology and not impacted by environmental 
+conditions. Accurate in detecting vehicle presence and also performs well in both high and 
+low volume traffic. A set-up of inductive loop detection system is shown in Fig. 6
+Magnetic Flux
+Lead in Cable
+Buried
+Inductive Loop
+Terminal Connections
+Fig. 6  Inductive Loop Detection System (FHWA, 1998)
+Detector
+Electronics
+In Cabinet
+
+
+
+======================================================================
+PAGE 23 of 74
+======================================================================
+IRC:SP:110-2017
+14
+Automated Number Plate Recognition (ANPR): The use of ANPR technology has grown 
+rapidly, seeing widespread adoption worldwide as a means to providing more accurate and 
+timely information in making critical business and enforcement decisions. The advancements 
+include numerous capture technologies with an integrated dual lens camera and ANPR 
+processor in one compact housing. It is seen as critical that the camera processor have 
+in-house OCR algorithm mechanism. Plate detection and plate character recognition 
+happen inside camera hardware thereby ensuring low bandwidth usage as well as speed of 
+transmission and therefore preventive/corrective action is possible. Detection is possible for 
+plates (reflective plates) even at high speeds of 120-150 kmph. Key of these camera systems 
+are their feature of seamless sharing of hotlists, reads and alerts (Remote notification via 
+email or text messaging) between agencies when ANPR captures vehicles matching details 
+in hotlists. ANPR is an attractive product to complement or validate RFID or Digital Short-
+Range Communications.
+Radar and acoustic sensors (Fig. 7) are also used for detecting vehicles in the roadway. It 
+works along with transmission of radar pulses. A portion of the energy is reflected or scattered 
+from the vehicle and roadway back toward the sensor and this energy is received and 
+interpreted. The major benefits of this are low power, most accurate technology for detecting 
+speed, traffic count accuracy and easy installation.
+Passive sensor
+Receiving aperature
+Tsky
+Fig. 7 Functioning of Sensor Technology 
+(FHWA, 1998)
+Video Vehicle Detection: Video Vehicle Detection (VVD) is one of the most widely used 
+methods (Fig. 8). Video detection is an image processor. It consists of a microprocessor-
+based CPU and software that analyzes video images. Using a mouse and interactive graphics, 
+the user places virtual “detectors” on the video image displayed on a monitor Information/
+data can be progressively transmitted to a server for real-time analysis.
+
+
+
+======================================================================
+PAGE 24 of 74
+======================================================================
+IRC:SP:110-2017
+15
+Fig. 8 Video Vehicle Detection System (Bachani, 2013) 
+Bluetooth Detection: Bluetooth is an accurate and inexpensive way to measure the travel 
+time and undertake analysis of origin and destination pattern of trips. Bluetooth is a wireless 
+standard used for communication between electronic devices such as mobile phones, smart 
+phones, headsets, navigation systems, computers, etc. Bluetooth road sensors are able to 
+detect Bluetooth MAC addresses of Bluetooth devices in vehicles passing. These sensors 
+are able to calculate the travel time and provide data for origin and destination matrices if 
+they are interconnected. Compared to other traffic measurement technologies, Bluetooth 
+measurement has some differences.
+	
+● 
+Accurate measurement points with absolute confirmation to provide to the 
+second travel times.
+	
+●	
+Is non-intrusive, which can lead to lower-cost installations for both permanent 
+and temporary sites.
+	
+●	
+Is limited to how many Bluetooth devices are broadcasting in a vehicle , 
+therefore the counting and other applications are limited.
+	
+●	
+Systems are generally quick to set up with little to no calibration needed.
+Radio-Frequency Identification (RFID): Radio-Frequency Identification (RFID) is the 
+wireless use of electromagnetic fields to transfer data, for the purposes of automatically 
+identifying and tracking tags attached to objects. The tags contain electronically stored 
+information. It is widely used in industries and transportation and communication purposes. 
+For example, RFID placed in the road infrastructure can identify and communicate with the 
+vehicles plying on the road through the following RFID system. Fig. 9 shows the operation 
+of RFID.
+
+
+
+======================================================================
+PAGE 25 of 74
+======================================================================
+IRC:SP:110-2017
+16
+Fig. 9 Operation of RFID (RFIDHY Technology, 2016)
+Electronic Toll Collection (ETC)
+ETC will enable seamless travel 
+on national highways in the entire 
+country by providing a uniform 
+inter-operable ETC system for 
+paying tolls.
+Fig. 10 RFID Based Electronic Toll Collection System (ETCS) (Bizlogics, 2016)
+RFID protocol to be used for the ITS infrastructure shall conform to EPC Gen 2, ISO 18000-
+6C. RFID Frequency range used shall be UHF 865 MHZ to 867 MHZ* (*is the wireless license 
+free band for RFID use in India). Typical existing product(s) for ‘RFID-based-ETC’ operates in 
+the 865 MHZ – 868 MHZ bang. The used devices shall comply with the general conformance 
+requirements of ISO 18000-6C standard and India specific requirements for WPC Type 
+Approvals authority. Any offered device shall also support the future Gen2 V2 version with 
+the antenna having linear polarised less than 25° Beam width having Operating Temperature 
+between -20°C and 55°C and Storage Temperature varying between -40°C and 85°C. Critical 
+for RFID Devices will be able to read Tag & EPC memory for at least 2 Tags per second for a 
+moving vehicle with a speed limit of 75 Kilometers/ hour and to have a rich array of diagnostic 
+and statistical reporting tools, user-configurable system, and a host of management features 
+based on industry standard protocols. Air Interface with High Performance radio, a modem 
+subsystems employing sophisticated DSP technology, an advanced singulation algorithms 
+that optimize read rates in a wide range of end-user applications. 
+Infrared: It is a wireless used in wireless technology devices or systems that transfer 
+data through infrared (IR) radiation. Infrared is electromagnetic energy at a wavelength or 
+wavelengths somewhat longer than those of red light. The operation is more or less similar 
+to RFID. It works with passive working mechanism with electric sensor that measures IR light 
+radiating from all objects with temperature above absolute zero. It means that a Passive Infra 
+Red (PIR) device does not generate or radiate any energy for detection purposes. In this 
+case, IR light is being generated from vehicles plying on the road. It can classify vehicles, 
+speed and density of vehicles. It is easy to install with probability of detection along with good 
+resistance to rain, fog, dust and snow. 
+
+
+
+======================================================================
+PAGE 26 of 74
+======================================================================
+IRC:SP:110-2017
+17
+Microwave Sensors: It is also known as Dopplers sensors or Radar or RF that help detect 
+walking, running, human targets etc. It produces electromagnetic wave (RF) field between 
+transmitter and receiver that help to create an invisible volumetric detection zone, if anybody 
+enters into that zone, change in field is recognized giving rise to sound of alarm. This sensor 
+can also be effectively used for recording traffic data. Fig. 11 demonstrates the concept of 
+Infrared sensor technology.
+Fig. 11 : Concept of Infrared Sensor Technology  
+(http://education.rec.ri.cmu.edu)
+3.3	
+Route Travel Time Estimation Models
+Travel time estimation models can be used in on line and offline application. Online application 
+models are mainly focused on real-time application (Ravi Sekhar et.al 2012). Whereas offline 
+application models are useful to the system planners and managers to estimate travel time 
+for monitoring the performance of the road network overtime. These models are briefly 
+discussed:
+Time of
+Day
+Section numbers
+Present
+Time
+(s)
+Travel
+Time
+by Time
+slice
+method
+Detectors
+Distance
+t
+t N
+i
+2
+1
+t
+Fig. 12 Route Travel Time Estimation models (Ravi Sekhar 2008)
+	
+i)	
+Instantaneous method: This is the simplest method of estimating the travel 
+time of route. This method accumulates simply the section travel time for 
+the same time period, regardless of whether vehicle traversing the freeway 
+
+
+
+======================================================================
+PAGE 27 of 74
+======================================================================
+IRC:SP:110-2017
+18
+section will actually be in that section during the period. Mathematically, this 
+can be explained in equation (3.1). 
+	
+
+(3.1)
+	
+	
+Where ti (s) denotes the travel time of section “i” at present time “s”.
+	
+	
+This method generates an instantaneous travel time in which vehicle traverse 
+the route instantaneously. In this method travel time calculations have a strong 
+underlying assumption that the speeds will not change over time, means that 
+travel time remain same in all the sections. This assumption may be valid in 
+free flow conditions but as congestion starts building up, the instantaneous 
+travel time starts lagging. The travel time estimation from these models is 
+reliable when there is a small variation in travel time. In practical, speed will 
+vary over the section at different time periods. Therefore these models fail to 
+observe the dynamic behavior of traffic flow. The main advantage of these 
+models is that they require less computational effort and can be used online 
+to provide real time traffic information.
+	
+ii) 	
+Time slice method: Time slice method considers the variation of speed over 
+time by constructing the vehicle trajectory. Travel Time obtained from this 
+method is sufficiently close to the actual travel time. When a traffic condition 
+is unstable and travel speed is varying, the travel time may be different from 
+the instantaneous travel time, is called as the time slice method, in which the 
+section travel times are accumulated successively with the delay of the section 
+travel time. This is expressed mathematically in equation (3.2) and (3.3)
+	
+	
+ 
+ (3.2)
+	
+	
+Where ti (s) denotes the travel time of section “i” to section i-1 can be written as
+	
+	
+ 
+( 3.3)
+	
+	
+This model produces better results than the Instantaneous method but this 
+method needs extensive data covering more time periods than the previous 
+model. This method is more suitable for offline application rather than on line 
+application. 
+	
+iii)	
+ Linear method: In linear method, vehicles change their speeds gradually 
+within the link. The speed of the vehicle at time ‘t’ in section ‘i’ is not only 
+a function of the speeds collected from upstream side and downstream 
+detectors, as like in the preceding methods but also a function of distance of 
+the vehicle to the end points of the section.(Lint and Vander Zijpp, 2003).
+	
+	
+
+(3.4)
+	
+	
+Where x (i, t) is the location of the vehicle at time t in section i; X(ia)is the 
+location of the upstream detector for section i ; and v(ib,t) and v(ia, t) are the 
+measured speeds at the extremities of the section i at time t.
+
+
+
+======================================================================
+PAGE 28 of 74
+======================================================================
+IRC:SP:110-2017
+19
+ 4 ITS FOR TRAFFIC MANAGEMENT SYSTEM
+4.1 
+Issues in Traffic Management System
+The major issues of Traffic Management System (TMS) are optimizing capacity, minimize 
+journey time by ensuring safety. In implementing any traffic management solution, the 
+authorities face challenges to address concerns related to safety, efficiency and capacity. 
+The main reasons resulting in challenges are :-
+	
+●	
+Rapid increase in number of vehicles on the network
+	
+●	
+Narrow roads, close intersections, encroachment on roads and haphazard 
+on-street parking
+	
+●	
+High density area not according to master plan
+	
+●	
+Chronic congestion on major roads especially in the Central Business and 
+the old city area
+	
+● 
+Heterogeneous traffic, old (poorly maintained) vehicles
+	
+●	
+Non-availability of proper maps and network inventory
+	
+● 
+Non-availability of traffic data, inadequate power supply to traffic signals – 
+manual management of traffic at corridor, area level
+	
+●	
+Lack of coordination among related agencies
+	
+●	
+Poor intersection geometry, roadside obstructions
+	
+●	
+Lack of proper signage, information display system
+	
+●	
+Lack of public awareness, driver behaviour
+	
+●	
+Misuse (encroachment) on side roads
+	
+●	
+Lack of facilities for pedestrian, pedestrian crossing, poor maintenance of 
+foot over bridge, and footpaths
+	
+●	
+Poorly designed road-side infrastructure that is unable to handle weather 
+events such as heavy rains.
+	
+●	
+Lack of interoperability in systems / no data standardisation for TMS.
+4.2 
+ITS Tools for Traffic Management
+It is extremely important to manage and regulate traffic safely and efficiently. Therefore, the 
+most important part is to collect all kinds of traffic data from all sources including primary 
+and secondary for using as real time data in order to work out an optimal solution for traffic 
+problems. Advance Traffic Management in urban area appears to be one of the best options 
+in this regard. 
+
+
+
+======================================================================
+PAGE 29 of 74
+======================================================================
+IRC:SP:110-2017
+20
+4.3 
+Advanced Traffic Management System
+The ATMS view is a top-down management perspective that integrates technology primarily 
+to improve the flow of vehicle and improve safety. Real-time traffic data from cameras, 
+speed sensors, etc. traffic flows with respect to passenger and goods vehicles into a Traffic 
+Management Centre (TMC) where it is integrated and processed (e.g. for incident detection), 
+and may result in actions taken (e.g. traffic routing, DMS messages) with the goal of improving 
+traffic flow. 
+This service deals with the issue related to road network based traffic management. Most of 
+the time, ATMS provides most economic benefits to the traffic management of the city. It helps 
+in optimising the use of road capacity for different modes and users. It helps in reducing travel 
+time. The efficient use of traffic signals at intersection reduces queue length at traffic signals, 
+while its use at area level or corridor level helps in reducing overall delays and decrease 
+in journey time of most of the vehicles using that area or corridor. This ultimately helps in 
+reducing vehicle operating cost as well as reducing fuel consumption and air pollution.
+The ATMS also helps in managing the traffic demand on various corridors. ATMS is of great 
+help in optimising the budget meant for providing solutions to the congested traffic. It also 
+helps in maintaining the various transport related infrastructure for better services. Fig. 13 
+shows the ATMS architecture while Fig. 14 shows the functioning of ATMS.
+Information
+ collection
+Information
+ guidance
+Information
+ guidance
+interface
+Control
+measure
+Traffic
+information
+Traffic
+number data
+Traffic
+image data
+Enforcement
+data
+database
+Traffic
+data
+database
+Central
+platform
+software
+Protocol
+interface
+On-site
+control
+equipment
+Traffic signal
+management
+Signal control
+interface I
+Signal control
+interface II
+Signal
+Signal
+Signal
+Vehicle
+detection
+Vehicle
+detection
+Vehicle
+detection
+Automatic
+vehicle detector
+Video camera
+Data
+changeable sign
+Parking
+guidance sign
+Image
+defection
+Image
+interface
+Other
+interface
+Information
+collection
+interface
+Illegal &
+event detection
+e-Maps
+Image control
+Duty
+management    
+KMS
+Fig. 13 ATMS Architecture
+
+
+
+======================================================================
+PAGE 30 of 74
+======================================================================
+IRC:SP:110-2017
+21
+Fig. 14 ATMS Working Diagram (SWRI)
+4.4	
+ATMS Functional Areas
+	
+● 
+Real-time traffic monitoring
+	
+● 
+Dynamic message sign monitoring, regulate and control traffic
+	
+●	
+Incident monitoring
+	
+● 
+Traffic camera monitoring and control
+	
+● 
+Active Traffic Management (ATM)
+	
+●	
+Chain control
+	
+●	
+Ramp meter monitoring and control
+	
+●	
+Arterial management
+	
+● 
+Traffic signal monitoring and control
+	
+●	
+Automated warning systems
+	
+●	
+Road Weather Information System (RWIS) monitoring
+	
+●	
+Highway advisory radio
+	
+● 
+Urban Traffic Management and Control
+The other important aspects of traffic management are that the reduction of traffic rule 
+violations as far as possible. This system has an impact on the mobility of the road users.
+
+
+
+======================================================================
+PAGE 31 of 74
+======================================================================
+IRC:SP:110-2017
+22
+Fig. 15 ATMS Data Collection System (ITS, 2008)
+In order to ensure safe and efficient advanced traffic management using various sources 
+of data as shown in Fig. 15, one has to develop Traffic Management Control Centre as 
+discussed below.
+4.5 
+Traffic Management Centre
+TMC is the hub of transport administration, where data is collected, and analyzed and combined 
+with other operational and control concepts to manage the complex transport management 
+network. It is the focal point for communicating transportation-related information to the 
+media and the motoring public, a place where agencies can coordinate their responses to 
+transportation situations and conditions. Typically, several agencies share the administration 
+of transport infrastructure, through a network of traffic operation and management centres. 
+There is localized distribution of data and information, communication with traffic management 
+centre which adopts different criteria to achieve the goals of traffic management. This 
+inter-dependent autonomy in operations and decision-making is essential because of the 
+heterogeneity of demand and performance characteristics of interacting subsystems.
+When it is not possible to develop a comprehensive Traffic Management Control Centre due 
+to paucity of funds, traffic management measures for a single location or for a set of locations 
+are commonly provided with ANPR, Red Light Camera, Speed/Detection/Enforcement 
+Camera, VMS in urban areas. The following are some demonstrations as a part of ITS driven 
+applications for Traffic Management. Fig. 16 shows a concept of Traffic Management Control 
+Centre.
+
+
+
+======================================================================
+PAGE 32 of 74
+======================================================================
+IRC:SP:110-2017
+23
+Traffic Operations 
+Personnel
+Traffic 
+Management
+Information 
+Service  
+Provider
+Roadway
+traffic operator inputs
+road network conditions
+road network conditions
+broadcast 
+advisories
+roadway informations
+TMC Traffic 
+Information 
+Dissemination 
+roadway equipment
+roadway equipment 
+coordination
+Roadway Traffic 
+Information 
+Dissemination 
+coordination
+system data
+system status
+roadway informations
+driver 
+informations
+current asset restrictions
+road network conditions
+road network conditions
+traffic operator data
+Media
+Basic Vehicle
+Other 
+Roadway
+Driver
+Maintenance and 
+Construction 
+Management
+Transit  
+Management
+Emergency 
+Management
+Fig. 16  A Concept of Traffic Management Control Centre 
+(ITS, 2008)
+Arterial Management: Arterial management systems manage traffic along arterial roadways, 
+employing traffic detectors, traffic signals, and various means of communicating information 
+to travellers. These systems make use of information collected by traffic surveillance devices 
+to ensure smooth flow of traffic along travel corridors. 
+Freeway Management: Motorists are now able to receive relevant information on location 
+specific traffic conditions in a number of ways, including dynamic message signs, highway 
+advisory radio, in-vehicle signing, or specialized information transmitted only to a specific set 
+of vehicles. 
+Transit Management: Transit ITS services include surveillance and communications, such as 
+Automated Vehicle Location (AVL) systems, Computer-Aided Dispatch (CAD) systems, and 
+remote vehicle and facility surveillance cameras, which enable transit agencies to improve 
+the operational efficiency, safety, and security of the nation’s public transportation systems. 
+Traffic Incident Management: These systems can reduce the effects of incident-related 
+congestion by decreasing the time to detect incidents, the time for responding vehicles to 
+arrive, and the time required for traffic to return to normal conditions. 
+Emergency Management: ITS applications in emergency management include hazardous 
+materials management, the deployment of emergency medical services, and large and small-
+scale emergency response and evacuation operations. 
+Electronic Payment for Congestion and Road Pricing: These systems employ various 
+communication and electronic technologies to facilitate monetory transaction between 
+travellers and transportation agencies, typically for the purpose of paying tolls and transit 
+
+
+
+======================================================================
+PAGE 33 of 74
+======================================================================
+IRC:SP:110-2017
+24
+fares. Pricing refers to charging motorists a fee or toll that varies with the level of demand or 
+with the time of day. 
+Traveller Information: Traveller information derived from real life data transmission from 
+the traffic management centre to help road users to take appropriate travel decision, use a 
+variety of technologies, including Internet websites, telephone hotlines, as well as television 
+and radio, to enable users to make more informed decisions regarding trip departures, routes, 
+and mode of travel. 
+Information Management: ITS information management supports the archiving system and 
+retrieval of data generated by other ITS applications and enables ITS applications that use 
+archived information. Decision support systems, predictive information, and performance 
+monitoring are some ITS applications enabled by ITS information management. In addition, 
+ITS information management systems can assist in transportation planning, research, and 
+safety management activities. 
+4.6 
+Crash Prevention and Safety and Efficiency of Commercial Operations
+4.6.1	
+Crash prevention and safety systems detect unsafe conditions and provide 
+warnings to travellers to take action to avoid crashes. These systems provide alerts for traffic 
+approaching at dangerous curves, off ramps, restricted overpasses, highway-rail crossings, 
+high-volume intersections, and also provide warnings about the presence of pedestrians, 
+and bicyclists, and even animals on the roadway.
+Roadway Operations and Maintenance: ITS applications in operations and maintenance 
+focus on integrated management of maintenance fleets, specialized service vehicles, 
+hazardous road conditions remediation, and work zone mobility and safety. These applications 
+monitor, analyze, and disseminate roadway and infrastructure data for operational, 
+maintenance, and managerial uses. ITS can help secure the safety of workers and travellers 
+in a work zone while facilitating traffic flow through and around the construction area.
+Road Weather Management: Road weather management activities include Road Weather 
+Information Systems (RWIS), winter maintenance technologies. ITS applications assist in 
+monitoring and forecasting of roadway and atmospheric conditions, dissemination of weather-
+related information to travellers, weather-related traffic control measures such as variable 
+speed limits, and both fixed and mobile winter maintenance activities, in high attitude areas.
+Collision Avoidance Systems: To improve the ability of drivers to avoid accidents, vehicle-
+mounted Collision Warning Systems (CWS) continue to be tested and deployed. These 
+applications use a variety of sensors to monitor the vehicle’s surroundings and alert the 
+driver of conditions that could lead to a collision. Examples include forward collision warning, 
+obstacle detection systems, and road departure warning systems. 
+Driver Assistance Systems: Numerous intelligent vehicle technologies exist to assist the 
+driver in operating the vehicle safely. Systems are available to aid with navigation, while 
+others, such as vision enhancement and speed control systems, are intended to facilitate 
+safe driving during adverse conditions. Other systems assist with difficult driving tasks such 
+as transit and commercial vehicle docking. 
+
+
+
+======================================================================
+PAGE 34 of 74
+======================================================================
+IRC:SP:110-2017
+25
+Collision Notification Systems: Collision notification systems have been designed to 
+detect and report the location and severity of incidents to agencies and services responsible 
+for coordinating appropriate emergency response actions. These systems can be activated 
+manually (May day), or automatically with Automatic Collision Notification (ACN), and 
+advanced systems may transmit information on the type of crash, number of passengers, 
+and the likelihood of injuries.
+4.6.2 
+The ITS also helps in improving efficiency of commercial vehicle operation  and 
+freight movement:
+Commercial Vehicle Operations: ITS applications for commercial vehicle operations are 
+designed to enhance communication between motor carriers and regulatory agencies. They 
+include electronic registration and permitting programs, electronic exchange of inspection 
+data between regulating agencies for better inspection targeting, electronic screening 
+systems, and several applications to assist operators with fleet operations and security. 
+Intermodal Freight: Intermodal Freight ITS can facilitate the safe, efficient, secure, and 
+seamless movement of freight. Applications being deployed provide for tracking of freight 
+and carrier assets such as containers and chassis, and improve the efficiency of freight 
+terminal processes, drayage operations, and international border crossings. 
+4.7	
+ITS Tools for Safety
+The objective of the transportation system is to improve seamless travel with safety of travel. 
+Crashes and fatalities are undesirable occurrence of the transportation system. Intelligent 
+Transportation System helps to minimize the risk of occurrences of accident. 
+Advanced Vehicle Control & Safety Systems: The aim of the user service is to improve the 
+safety of transportation system by improving the drivers’ abilities with respect to maintaining 
+vigilance and control of the vehicle through enhancing the accident avoidance capabilities of 
+vehicles. Following user services are included in this group.
+Longitudinal Collision Avoidance: The user service can provide assistance to vehicle 
+operators in avoiding collisions to the front and/or rear of the vehicle longitudinally. This 
+is achieved by implementing rear-end collision control and warning, Adaptive Cruise 
+Control (ACC), head-on collision control and warning, and backing collision warning to 
+the drivers.
+Lateral Collision Avoidance: This helps drivers in avoiding accidents that result when a 
+vehicle goes out of lane of travel, by warning drivers and by assuming some control of the 
+vehicle. This service assists the drivers through the blind spot situation display/lane change, 
+lane departure warning and control, and collision warning control.
+Intersection Collision Avoidance: The aim is to provide assistance to the vehicle operators 
+in avoiding collisions at intersections. With this system, the position of vehicles within 
+the intersection area through the use of vehicle-to-vehicle communications or vehicle to 
+infrastructure communications can be tracked.
+
+
+
+======================================================================
+PAGE 35 of 74
+======================================================================
+IRC:SP:110-2017
+26
+Vision Enhancement for Crash Avoidance: This service helps in reducing the number 
+of vehicle accident that occur during periods of poor visibility. Vehicle sensors capable of 
+capturing an image of driving environment and providing a graphical display of the image 
+help the drivers to enhance the road safety.
+Safety Readiness: With the help of this, warnings regarding their own driving performance, 
+the condition of the vehicle, and the condition of the roadway as sensed from the vehicle can 
+be provided to drivers.
+Pre-Crash Restraint Deployment: This service helps in reducing the number and severity 
+of injuries caused by vehicle collisions by anticipating an imminent collision and by activating 
+passenger safety systems prior to the actual impact.
+Automated Vehicle Operations (AVO): This service provides a fully automated vehicle-
+highway system in which instrumented vehicles operate on instrumented roadways without 
+operator intervention.
+4.8 
+Emergency Notification and Personal Security
+This user service consists of two sub parts i.e., (i) driver and personal security (user-initiated 
+distress signals), and (ii) automated collision notification (automated notification of emergency 
+personnel of the location, nature, and severity of the serious crashes). For personnel security 
+subservice, GPS is used to transmit the location for help and provides assistance to the 
+emergency personnel, repair service or the vehicle towing centre. Now vehicles which are 
+pre-fitted with the GPS trackers and sensors and connected to cloud data are easily being 
+operated on this system.
+Private vehicles are normally not connected/not installed with GPS. However, the RFID Tags 
+pre-installed in vehicles and the advent of e-tolling ensuring existing vehicles to get tagged; it 
+shall be easier to track and find vehicles through a network of RFID Readers across the city for 
+surveillance using the unique and pre-programmed yet open to all TID field in the tags.
+For the Automated Collision Notification subservice, this is automatically used by the installed 
+sensors in the vehicle to the emergency helpline about the location of the vehicle where it 
+meets with accident. Additional information about the condition and severity of the accident 
+also get transmitted based on the technology. This emergency notification requires crash-
+sensing and GPS technology. 
+Performance requirements for Emergency Notification and Personal Security include 
+continuous real-time communications from appropriately equipped vehicles to at least 
+one response unit from any location nationwide, there should be minimum time taken for 
+transmission and GPS tracker. This system should be both manual and automatic depending 
+upon the severity of the crash or the requirement of the user. The system should monitor 
+vehicle component conditions from inside the vehicle every few seconds and, for critical 
+emergency condition cases, this automatically sends the appropriate distress signal.
+To have this system in use, the main elements of the operation are in-vehicle GPS device for 
+vehicle position/location, a two way communications link between the vehicle and the control 
+
+
+
+======================================================================
+PAGE 36 of 74
+======================================================================
+IRC:SP:110-2017
+27
+centre using commercially available smart phone service, and control centre equipment 
+for processing vehicle location, type of assistance required, and routing of the request to 
+the appropriate response agency. The motorist will be notified of the action taken and the 
+anticipated response time.
+Private aggregators also have launched disaster reporting apps which can be connected to 
+central systems. User shall be able to also see in real time, the action taken and the time / 
+route taken by the first responders on his registering the issues.
+4.9	
+Emergency Vehicle Management
+The EVM service will provide for more efficient management and assignment of emergency 
+response vehicles. Its intent is to reduce the amount of time between a public safety operator’s 
+notification of an incident and the arrival of emergency personnel on the accident location. 
+This service will provide public safety agencies with fleet-management capabilities, route 
+guidance, and signal priority and pre-arrangement for emergency vehicles. 
+This service consists of three sub divisions
+	
+● 
+Emergency vehicle fleet management
+	
+●	
+Route guidance
+	
+●	
+Signal priority
+The primary users of all these services are police, fire, and hospitals. Real time reliable 
+transportation and traffic information is required by this service in order to provide travel 
+alternatives for the arrival of the emergency vehicle at the emergency site; location of the 
+incident and of emergency vehicles in the fleet is essential at the dispatch centre. Emergency 
+Vehicle Management will identify the closest and most appropriate response vehicle, and 
+transfer complete, accurate information on the nature and location of the incident to it.
+Performance requirements developed to date indicate that EVM should provide real-time 
+emergency vehicle fleet management, offer vehicle identification with 99.9% accuracy within 
+one minute of initiation, and vehicle location with position accuracy within the range of 
+6-15 m. The system should also provide real-time traffic signal prioritization by maintaining 
+current information on signal timing, vehicle’s location which is in emergency, and its routing.
+5 ITS FOR PUBLIC TRANSPORT SYSTEM
+5.1	
+Introduction
+The public transport modes include buses, trains, rapid transit (metro/subways/undergrounds) 
+etc. The public transport between cities is mostly dominated by intercity rails, airplanes and 
+coaches. Few examples, transport management systems include GPS based operation of 
+public transport, computerized traffic signalling, information systems such as e-ticketing, 
+e-information etc. Such systems increase the efficiency, safety, reliability and quality 
+of transport systems. An increase in the efficiency of the transport system also leads to 
+reduction in the GHG emissions. It includes using the real-time information of public transport 
+
+
+
+======================================================================
+PAGE 37 of 74
+======================================================================
+IRC:SP:110-2017
+28
+for passengers such as real time passenger information systems, prioritization of public 
+transport, estimation of arrival time of bus at stops, transit priority of public transport etc. 
+When ITS is used for operation of Bus Rapid Transit System (BRTS) , it has to develop the 
+mechanism for integrations with various components of the system as shown in flowchart 
+as shown Fig 17. It illustrates how the various ITS elements can work together in a BRTS 
+context and groups the elements into those for the customer, operator and vehicle. The 
+three major implication of ITS in integration with public transport are fleet Operation and 
+Management, Fare Collection and Customer Information (Fig. 18)
+Communication
+Technology
+PRECISION
+DOCKING
+LANE
+GUIDANCE
+COLLISION
+AVOIDANCE
+AUTOMATED
+ENFORCEMENT
+FLEET
+MANAGEMENT/
+MONITORING
+AUTOMATED
+PASSENGER
+COUNTING
+TRANSIT SIGNAL
+PRIORITY
+PASSENGER
+WiFi
+PANIC BUTTON/
+EMERGENCY
+RESPONSE
+REAL TIME
+PASSENGER
+INFORMATION
+TRANSIT
+TV
+FARE
+COLLECTION
+SURVEILLANCE/
+SECURITY
+LANE CONTROL
+TECHNOLOGIES
+AUTOMATIC
+VEHICLE LOCATION
+COMPUTER  AIDED
+DISPATCH
+Integration of ITS Elements
+Fig. 17 Integration of ITS Elements in Public Transport System
+ITS in Public transport
+Fleet
+Operation
+and
+Management
+Fare
+Collection
+Customer
+Information
+Fig. 18 ITS in Public Transport
+5.2	
+Fleet Management and Operations
+Fleet Management and Operation includes five different technologies, as follows: Automatic 
+Passenger Counters (APC), Automatic Vehicle Location (AVL), Scheduling and Dispatching 
+(S&D), Geographic Information Systems (GIS), and Signal Priority (SP). These technologies 
+are often combined in various software packages, which allow for the integration of many 
+different transit functions. The computer applications allow better resource utilization so 
+
+
+
+======================================================================
+PAGE 38 of 74
+======================================================================
+IRC:SP:110-2017
+29
+as to meet service demands, which help make public transportation more appealing to the 
+people.
+5.2.1	
+Automatic Passenger Counter
+The APC automatically records the number of passengers, time and location of each stop as 
+passenger board and alight the bus. The APC can collect data which is collected manually or 
+with a hand-held device or electromagnetic spectrum (infrared beam). With the help of infrared 
+beams at the doors or pressure sensitive mats on the steps, the APC accurately records 
+the time, location, and the number of passengers as they enter or exit the bus as shown in 
+Fig. 19. With the information provided by the APCs, transit planners can make changes to 
+routes and schedules that better serve the transportation needs of their community.
+Fig. 19 Working of Automatic Passenger Counter (Innovation in Traffic Systems)
+5.2.2	
+Automatic Vehicle Location
+Satellite geo-positioning technology tracking vehicles is one of the most common AVL 
+systems, which is another ITS technology that involves daily operations and management. 
+The location of buses can be determined at any given time with AVL of the vehicles that are 
+equipped with the technology. Access to this type of information, is especially significant in an 
+emergency situation, when either passenger or driver safety may be threatened. Moreover, 
+the bus location information can be given to customers to assist them in planning an itinerary 
+based on the most up-to-the minute information. Finally, this information can be used to 
+determine whether buses are running on their schedule and, if necessary, to reroute buses 
+around problem areas. Many transit agencies have found that automatic vehicle location has 
+been increasing their on time performance while at the same time it has been decreasing the 
+number of buses necessary for a route. Fig. 20 shows the Bus Management Architecture.
+
+
+
+======================================================================
+PAGE 39 of 74
+======================================================================
+IRC:SP:110-2017
+30
+Fig. 20 Bus Management Architecture
+5.2.3	
+Geographic Information Systems
+A Geographic Information System (GIS) enables a transport agency in collection, storage, 
+and analysis and displays the data by location. GIS can deliver transportation agencies 
+with detailed information regarding mobility issues. With the help of GIS software, a spatial 
+analysis can be used to determine about job opportunities, day-care centres, and public 
+transportation, etc. Transit planners also can use the information provided by GIS to revise, 
+improve, or add new services. 
+5.2.4	
+Scheduling and Dispatch
+The scheduling/dispatch software helps in aiding the design and modifying the transit routes. 
+It can also be used to route, schedule, and dispatch vehicles in demand response operations, 
+when it is combined with GIS and AVL in order to coordinate different transit operations 
+as shown in the Fig. 21. Combined technologies like, computer-aided dispatching and AVL 
+helps in increasing the efficiency of transit operations, improve service, enhance safety and 
+cut costs. For example, systems integrated with automated scheduling and dispatching and 
+AVL allow a dispatcher to know the exact location and status of each bus under control. 
+This real-time information allows the dispatcher to address any problems with service or 
+to respond to any emergency. In addition, automated dispatching software and AVL allow 
+the coordination of services among many separate transportation agencies to meet the 
+employment transportation gaps.
+
+
+
+======================================================================
+PAGE 40 of 74
+======================================================================
+IRC:SP:110-2017
+31
+Fig. 21 Comprehensive Scheduling & Dispatch Centre
+5.2.5	
+Traffic Signal Priority
+Traffic Signal Priority is a technology that aims to ensure a continuous traffic light green 
+wave or turns it green earlier than it would do without priority as shown in the Fig. 22. Signal 
+Priority is implemented primarily by emergency vehicles, but now can be used by buses 
+and streetcars. A signal priority system is combined with AVL technology, which allows the 
+system to provide priority only when needed (i.e., when a bus is running behind schedule). 
+The benefits of a signal priority system are that these keep transit vehicles on schedule and 
+improves on-time performance. As a result, fewer vehicles are necessary for serving a route. 
+This can mean good savings for a transit agency. 
+Fig. 22 Transit Signal Priority using Optical Detection System (Transit Signal Priority)
+5.3	
+Traveler Information Systems
+Traveller information systems provide road users with information for planning their trips 
+as well as while they are travelling. Transit information may be static, like route maps, or 
+
+
+
+======================================================================
+PAGE 41 of 74
+======================================================================
+IRC:SP:110-2017
+32
+dynamic information such as route delays and any other real-time information. Travellers 
+are able to access information from different locations such as home, work, wayside areas, 
+transportation terminals and on-board vehicles. Information can be accessed through various 
+means, such as automated trip itineraries, in-vehicle announcers; variable message signs, 
+monitors, and interactive kiosks. These technologies also help individuals better plan their 
+trips and help decrease hindrances by providing required information.
+5.4	
+Automated Trip Itineraries
+Automated trip itineraries help in assistance to the customers with the information necessary 
+to plan a trip from its point of origin to its final destination. Automated trip itineraries include 
+a broad range of data, like modes of travel, travel time, fares, tourist information, transfers, 
+schedules and weather. When these are combined with AVL technology, real-time information 
+regarding traffic congestion, possible delays can be reported. Since automated trip itineraries 
+are electronic, they can be accessed by various means, such as touch-tone telephones, 
+kiosks, and Internet, fax machines, personal computers, pagers, hand-held devices, cable 
+and interactive television. The benefits of automated trip itineraries are that they provide 
+accurate and timely information for customers through a variety of means. 
+5.5	
+In-Vehicle Announcers
+In-vehicle announcers usually are audio and visual systems, used en-route, to provide 
+passengers with next stop information. A sign placed in the front, and sometimes in the middle 
+of each vehicle, displays next stop information and a pre-recorded message simultaneously 
+announces the same information as shown in Fig. 23. The working system of vehicle 
+announcer is also shown in Fig. 24. In-vehicle announcers help the passengers to either 
+visualize or hear the information which helps to recognize their stop. Moreover, they help new 
+customers, unfamiliar with a route, as well as existing customers who may be , inattentive to 
+their surroundings, to find their stop. 
+Fig. 23 In-Vehicle Announcers System  
+(Scheidt & Bachmann System Technic)
+
+
+
+======================================================================
+PAGE 42 of 74
+======================================================================
+IRC:SP:110-2017
+33
+Fig. 24 Working of In-Vehicle Announcers
+5.6	
+Interactive Kiosks
+Interactive Kiosks are computer-like terminals or larger machines that display the travel 
+information as shown in Fig. 25. These are generally found in malls, businesses, hotels, 
+airports and transit centres. Interactive kiosks are accessed easily by means of a computer-
+mouse, touch screen, or keyboard. Kiosks can also deliver a wide range of travel information, 
+like routes and schedules, traffic congestion, and weather, etc. When combined with automatic 
+vehicle location information, kiosks provide the customers with real-time information, like on 
+time status of their transit vehicle.
+Fig. 25 Kiosks (Urban Transport)
+
+
+
+======================================================================
+PAGE 43 of 74
+======================================================================
+IRC:SP:110-2017
+34
+Interactive kiosks promote transit services by providing easily accessible information about 
+various services for both new and existing customers. This contributes to greater customer 
+convenience, satisfaction, and for the transit agency which are, potential for increased 
+revenues.
+5.7	
+Electronic Fare Collection
+An electronic fare collection is a system in which cards are used in place of coins or tokens, to 
+pay for transit rides as shown in Fig. 26. The purpose of an electronic fare collection system 
+is to reduce the cost of handling and protecting transit revenues and to provide customer 
+convenience. RFID based windshield tags issued by certified banks too could be used for 
+the payments extending further applications other than only tolling alone; same could be 
+used for parking as well as Fuel/Gas stations payments especially for commercial operators. 
+Automated Congestion pricing implementation too can utilise the same pre-existing RFID 
+Windshield tags.
+ 
+Fig. 26 Electronic Fare Collection System
+In an automated fare system different types of media devices can be used in a variety of 
+ways which include magnetic stripe cards, credit cards, or smart cards that can be contact 
+or contactless as shown in Fig. 27. For example, some systems may use these media for 
+transit, retail purchases, and banking, while other systems may use them for transit only. 
+One of the benefits of an electronic fare system is a reduction in the cost of handling and fare 
+processing. 
+
+
+
+======================================================================
+PAGE 44 of 74
+======================================================================
+IRC:SP:110-2017
+35
+ 
+Fig. 27 Automatic Fare Collection (Prodigy Electronics, 2001)
+6 APPLICATIONS OF ITS
+6.1	
+General
+ITS improves transportation safety and mobility and enhances global connectivity by means 
+of productivity improvements achieved through the integration of advanced communications 
+technologies into the transportation infrastructure and in vehicles. The major applications 
+of ITS in road sector are discussed in this section. Given the wide range of intelligent 
+transportation systems, it is useful to deliberate ITS applications through a taxonomy that 
+arranges them by their primary functional intent. The major ITS application areas can be 
+classified into the following functional groups:
+	
+●	
+Advanced Traveller Information System (ATIS)
+	
+● 
+Advanced Traffic Management Systems (ATMS)
+	
+●	
+ITS Enabled Pricing Systems
+	
+●	
+Advanced Public Transportation Systems (APTS)
+	
+●	
+Advanced Vehicle Control Systems (AVCS)
+	
+● 
+Traffic Control & Management
+	
+●	
+Law Enforcement
+6.2	
+Advanced Traveller Information System
+Advanced travellers information systems (ATIS), a part of new technology applications in 
+transportation, provide accurate and timely information that help travellers to select routes, 
+times of travel and travel modes. They work even better with inclusion of geographic tourist 
+guides and yellow pages that enable travellers to select destinations based on proximity to 
+other places.
+
+
+
+======================================================================
+PAGE 45 of 74
+======================================================================
+IRC:SP:110-2017
+36
+Fig. 28 GPS based Navigation System
+Delivering data directly to travellers empower them to make better choices about alternate 
+routes or modes of transportation. When archived, this historical data provides transportation 
+planners with accurate travel pattern information, optimizing the transportation planning 
+process. The following ITS applications are part of ATIS:
+Real Time Traffic Information (RTTI) Provisions: The Real-time Traffic Information System 
+is a technology for providing dynamic traffic information on real time basis to the users. The 
+RTTI prototype uses advanced technologies (GPS, video cameras, wireless communication, 
+traffic models and algorithms) to provide traffic information that is updated every minute. The 
+following information is usually provided through RTTI system:
+Information is provided on:
+	
+●	
+Alternate Routes and Travel Times: Alternate routes and estimated travel 
+times for user selected with respect to origins and destinations and modes.
+	
+●	
+Congestion and speed maps: Speed and congestion levels on various roads.
+	
+● 
+Maps for Delay of Vehicular Traffic: Traffic delays (in minutes) at various 
+junctions and roads.
+	
+●	
+Variable Message Signs (VMS): Snapshot images of information to be 
+displayed on electronic sign boards about current traffic conditions, at key 
+locations.
+	
+● 
+Live Traffic Camera: Live traffic images from video cameras on the ITS 
+platform.
+Users can access this information from anywhere at any time via the web. Such information 
+can help travellers in selecting better routes and departure times, which can lead to saving in 
+travel time, reduction of travel cost, and avoidance of traffic congestion.
+
+
+
+======================================================================
+PAGE 46 of 74
+======================================================================
+IRC:SP:110-2017
+37
+Route Guidance/Navigation System: A route-guidance system uses maps, arrows, and/or 
+a voice interface to provide drivers turn-by-turn guidance to a destination. First-generation 
+navigation systems primarily select routes on the basis of the shortest distance between a 
+source and a destination. Recently, new advanced systems are capable of incorporating 
+real-time congestion delays which allow the users to find the shortest travel time route 
+instead of the standard shortest distance route, and enabling users to adapt to dynamic 
+traffic conditions.
+Parking Information and Management: It provides information about the current parking 
+situation to the end-user via mobile application and navigate the end user to the vacant 
+parking lot. The usage of the current Indian NETC Flagship RFID based FASTAG can be 
+used for payment processing in the parking.
+Road Side Weather Information: Road Weather Information Systems (RWIS) provide 
+detailed roadside weather conditions and road surface temperature data. A complete RWIS 
+combines the road side readings with standard meteorological data to provide precision road 
+weather forecasts and pavement condition predictions.
+6.3 
+Advanced Traffic Management System
+ATMS are a fundamental part of intelligent transportation systems that has been used to 
+improve the quality of traffic service and to reduce traffic delays as well. ATMS operates with 
+a series of video and roadway loop detectors, variable message signs, network signal and 
+ramp meter timing schedules, including roadway incident control strategies from one central 
+location to respond to traffic conditions in real time. 
+The main ATMS elements are -
+	
+● 
+Support systems - cameras, sensors, traffic light/ semaphore and electronic 
+displays help system operators to manage and control real time traffic
+	
+● 
+Real time traffic control systems - These systems use the information 
+provided by the two previous elements, they can change semaphores/ traffic 
+light, send messages to electronic displays and control highway access.
+The following ITS applications are part of ATMS:
+Traffic Operations Centres (TOC): TOCs serve as the control centre for city’s major street 
+and highway network. TOC monitors traffic signals, intersections, and roads and proactively 
+deploys traffic management strategies to reduce congestion and coordinate state and local 
+authorities during special events, emergencies, or daily stop-and-go traffic. Operators in 
+TOC monitor a closed circuit television (CCTV) system and alert the proper authorities and 
+approaching drivers (via dynamic message signs [DMS] or a website about problem areas, 
+reducing crashes and saving in travel time to drivers, money, and fuel. Representatives 
+of law enforcement, fire and emergency management services (EMS), and local transit 
+agencies are often co-located at TOCs to improve multi agency response. Using a complete 
+network picture, TOCs can proactively identify weak areas, suggest solutions to state or local 
+agencies, and communicate solutions or information to drivers and transit riders in real time. 
+
+
+
+======================================================================
+PAGE 47 of 74
+======================================================================
+IRC:SP:110-2017
+38
+Adaptive Traffic Signal Control (ATSC): The conventional signal systems use pre–
+programmed, daily signal timing schedules. The Adaptive Traffic Signal Control technology 
+adjusts the timing of red, yellow and green lights to accommodate changing traffic patterns 
+and ease traffic congestion. The process is simple. The traffic sensors collect data, traffic 
+data is evaluated and signal timing improvements are developed. ATSC implements signal 
+timing updates. The process is repeated every few minutes to keep traffic flowing smoothly. 
+On average ATSC improves travel time by more than 10 percent. In areas with particularly 
+outdated signal timing, improvements can go up to 50 percent or more. 
+Variable Message Signs: VMSs are electronic traffic signs often used on roadways to give 
+travellers information about special events. Such signs warn the road users of traffic congestion, 
+accidents, incidents, roadwork zones, or speed limits on a specific highway segment. VMSs 
+as shown in Fig. 29 may suggest the road users to take alternative routes, limit travel speed, 
+warn of location of the incidents or just inform of the traffic conditions. A common technology 
+used in new installations for variable message signs are LED displays. In recent years, some 
+newer LED variable message signs have the ability to display coloured text and graphics. 
+They are commonly installed on an overhead gantry structure or a cantilever structure. It is 
+fully-programmable, customizable solution specific to the location for the benefit of users.
+The information displayed is real-time dynamic information as well as static information 
+controlled automatically via a central server. It is designed to affect motorist’s behaviour to 
+improve traffic flow and enhance the driving experience of motorists on roads.
+	
+The information displayed include:
+	
+●	
+Live travel time between destinations
+	
+● 
+Live traffic congestion
+	
+●	
+Weather Updates
+	
+●	
+Alternate routes
+	
+●	
+Pollution data
+	
+●	
+Variable Speed limits
+	
+●	
+Event notice and motorist instructions
+	
+●	
+Accident updates
+	
+●	
+Incident management via Emergency messages
+	
+●	
+Directional signs
+	
+● 
+Traffic Do’s and Don’ts
+	
+●	
+Warning / Public messages etc.
+Smart Variable Message signs should be able to draw information from cloud based services 
+as well as able to integrate with local road/ground based sensors to provide useful information 
+to the motorists. The variable message signs should be able to work on a standalone basis 
+and show real time information even in the event of a failure at the central server / during 
+emergency situations.
+
+
+
+======================================================================
+PAGE 48 of 74
+======================================================================
+IRC:SP:110-2017
+39
+Unlike the late 1990s when the most common technology used in new installations for variable 
+message signs are LED display which are mostly single coloured displays showing static 
+messages, today the technology has advanced and now these displays are fill coloured with 
+better resolution, capable of displaying text and graphics both. A full-colour 10 mm pitch LED 
+display having a brightness of 7500-8000 cd/m2 is required for better visibility and readability.
+Apart from Traffic Management system, Variable Message Signs can be used at bus stops to 
+display the live journey time of buses, can be integrated with other ITS solutions to give driver 
+feedback, ensure driver safety and enforce traffic rules.
+VMS as shown in Fig. 29 may suggest the road users to take alternative routes, limit travel 
+speed, warn of duration and location of the incidents or just inform of the traffic conditions.
+Fig. 29 VMS in working
+(Smart Electronic Display Solutions)
+Ramp Metering: Ramp metering can be defined as a method by which traffic seeking to 
+gain access to a busy highway is controlled at the access point via traffic signals. This control 
+prevents traffic flow breakdown and the onset of congestion. Ramp metering is the use of 
+traffic signals to control the flow of traffic entering an expressway facility as shown in Fig. 30. 
+Ramp metering, when properly applied, is a valuable tool for efficient traffic management on 
+expressway
+The objectives of ramp metering include:
+	
+a.	
+Controlling the number of vehicles that are allowed to enter the expressway.
+	
+b.	
+Reducing expressway demand.
+ 
+c. 
+Breaking up of the platoon of vehicles released from an upstream traffic 
+signal.
+
+
+
+======================================================================
+PAGE 49 of 74
+======================================================================
+IRC:SP:110-2017
+40
+Fig. 30 Ramp Metering
+Driver Feedback System
+Over speeding is one of the major reasons for road accidents and fatalities. Authorities all 
+over the world struggle with enforcement of speed limit with highways and city roads. 
+Enforcement of speed limits is conventionally imposed using speed radar guns coupled with 
+cameras pointed at vehicles to measure the spot speed of vehicles and issue a challan in the 
+event of over speeding. This method is largely dependent on availability of police patrol vans, 
+manpower and specialized radar equipment. The Driver Feedback System aims to overcome 
+these requirements by providing feedback to drivers on their speed relative to the speed limit 
+on the lane. This has proved world over to be an effective mechanism to control speeds of 
+lanes. As the driver slows down, vehicles behind him tend to slow down within the speed limit 
+and this creates a snowball effect to slow down the entire lane.
+A typical Driver Feedback system has a digital LED display showing the speed of the 
+approaching vehicle on the lane along with an indication to the driver whether he is above 
+or below the limit. Warnings are flashed if the driver is over speeding. A Doppler radar is 
+mounted facing the lane to capture speed of the vehicle and relay the same to the processor 
+which in turn feeds the display.
+This system can be further enhanced to impose enforcement by coupling with ANPR cameras 
+which can identify the number plate of the vehicle which is over speeding and relay the same 
+to the authorities for appropriate fines / actions.
+6.4	
+ITS Enabled Pricing Systems
+With the advent of RFID based contact less smart card technology, there has been 
+revolutionary changes in the transportation pricing (fares, tolls etc) system. The money can 
+be automatically deducted from the smart card at collection centres without any manual 
+transaction as toll, congestion prices, fares, parking fee etc. 
+The following ITS applications are a part of Transportation Pricing Systems:
+
+
+
+======================================================================
+PAGE 50 of 74
+======================================================================
+IRC:SP:110-2017
+41
+Electronic Toll Collection: ITS have a central role to play in electronic toll collection (ETC), 
+also commonly known internationally as “road user charging,” through which drivers can 
+pay tolls automatically via a DSRC-enabled on-board device or tag placed on the windshield 
+(such as E-Z Pass in the United States). The most sophisticated countries, including Australia 
+and Japan, have implemented a single national ETC standard as shown in Figs. 31 and 32, 
+obviating the need to carry multiple toll collection tags on cross-country trips because of lack 
+of interoperability of various highway operators’ ETC systems.
+Radio Frequency Identification is the usage of electromagnetic fields wirelessly to transfer 
+and receive data from the tags mounted on the object being tracked and identified using 
+the RFID transceiver. RFID tag and trans receiver are the heart of the system with RFID 
+tag storing the information electronically. ETC (Electronic Toll Collection) using RFID tag 
+consists of Electronic chip and antenna which are embedded together. RFID tags could be 
+divided mainly into two classes, passive or active by design. Passive tags are powered by 
+the reader emitted power. Active tags have small battery which helps them in emitting its ID 
+signal periodically. RFID reader is a combination of transmitter and receiver. It emits signals 
+continuously. 
+Fig. 31 Electronic Toll Collection via E-Z Pass (E-Z Pass)
+
+
+
+======================================================================
+PAGE 51 of 74
+======================================================================
+IRC:SP:110-2017
+42
+Roadside antenna
+Interactive
+communication
+On-board
+unit
+IC card
+Fig. 32 Conceptual Image of ETC (ITS, 2012)
+As per the Government of India mandate, UHF RFID readers need to be installed at lanes 
+to process the vehicle coming with tags automatically at individual lanes. Readers and tags 
+are tuned to 865-868 MHz frequency which is UHF frequency band used in India as per the 
+Government regulations. The tags are mapped with the individual vehicles with number of 
+trips or money which could be deducted per trip when the vehicle passed the toll plaza. RFID 
+readers could be mounted at the height of 5-6 meters at middle of the lane or mounted on 
+the island of individual lanes. RFID reader reads the EPC and User data memory bank of the 
+RFID tag to successfully validate the transaction. 
+As per the Government mandate, individual lanes at the plaza need to have individual readers 
+and antenna combination. Overall plaza requires multiple readers (As many as number of 
+lanes) and antennas. These readers working together produce very high RF radiations which 
+at times can reflect and refract in the plaza causing undesirable results i.e. tag not getting 
+scanned, tag reading from other lanes etc. Considering these constraints, plaza needs a 
+stable technology which can mitigate these issues and perform optimally to get desired 
+results. Following points shall be kept in mind:
+	
+●	
+Antenna – Antenna should be selected based on the beam width of 
+radiation it emits.
+ 
+ 
+Antenna could be broadly classified under two categories:
+	
+●	
+Linear Antennas – Linear Antennas has lower beam width compared 
+to circular antennas. This helps in defining shorter, thinner read zones 
+subsequently helps in enhanced accuracy levels and less cross-talks 
+between adjacent lanes compared to circular antennas.
+	
+●	
+Circular Antennas – Circular Antenna has wider beam width. It covers 
+wider area read zone but tends to penetrate into unwanted read zoned which 
+introduces signal reflection and unwanted reading of tags from undesired 
+zones. Globally, Linear antenna is preferred antenna for ETC system. 
+Circular antenna is preferred in parking and supply chain applications where 
+readings and read zone are not constraints.
+
+
+
+======================================================================
+PAGE 52 of 74
+======================================================================
+IRC:SP:110-2017
+43
+	
+●	
+It is critical for RFID Devices to be able to read tag and EPC memory for at 
+least 2 tags per second for moving vehicle with a speed limit of 75 kilometers/ 
+hour. It should also have a rich array of diagnostic and statistical reporting 
+tools, user-configurable alarms, and a host of management features based 
+on industry standard protocols.
+	
+●	
+Mounting height of Antenna – Height of Antenna is crucial as the beam 
+width of the antenna coming from a distance increases the reading zone. 
+Reading zone has to be defined in a way that readers captures the tag in the 
+desired lane.
+	
+●	
+Zone mapping – Reading zone of the reader should be defined during the 
+installation and commissioning.
+	
+● 
+Site interference – Presence of metal at the plaza reflects and refract RF 
+radiations across the lanes. As the plaza was not designed originally for 
+RFID system implementation, there will be certain issues which will be part 
+of the overall RFID implementation.
+	
+●	
+RFID tags – ISO 18000-6C tags needs to be utilized as per the mandate. 
+Only approved tags shall be used.
+Electronic Road Pricing (ERP): ERP is electronic means of collecting congestion charges 
+which are usually collected from the road users in the congested parts of the cities as a 
+part of traffic management strategies. Based on a pay-as-you-use principle, motorists are 
+charged when they use priced roads during peak hours. It uses a dedicated short-range radio 
+communication system to get ERP charges deducted from smart-cards inserted in the in-
+vehicle units of vehicles each time they pass a pricing point when the system is in operation. 
+The pay-as-you-use principle helps make motorist more aware of the true cost of driving. 
+Singapore is one of the foremost countries to implement the ERP as a part of congestion 
+management programs as shown in Fig. 33.
+Fig. 33 ERP in Singapore (ERP, Singapore)
+
+
+
+======================================================================
+PAGE 53 of 74
+======================================================================
+IRC:SP:110-2017
+44
+Fee Based Express – High Occupancy Toll (HOT) Lanes: A high-occupancy toll lane (or 
+HOT lane) is a type of traffic lane or roadway that is available to high-occupancy vehicles and; 
+other vehicles being required to pay a variable fee that is adjusted in response to demand. 
+Unlike toll roads, drivers have an option to use general purpose lanes, on which a fee is 
+not charged. HOT lanes allow lower occupancy cars access to High Occupancy Vehicle 
+(HOV) lanes. Admission to these managed lanes is based on a fee paid by the driver. Those 
+in the HOT lanes are assured of a high-speed and reliable trip time; the toll is adjusted to 
+maintain free-flow conditions. The IT based electronic payment mechanism is used to collect 
+the user fee to use HOVs. Existing Fastags (mandated by Govt. of India) can be utilised to 
+be incorporated in the HOV Lanes for charging of variable fees.
+Vehicle Kilometers Travelled (VKT) Usage Fees: VKT fees are distance-based fees levied 
+on a vehicle user for use of a roadway system. In a broad sense, VKT fees’ application is 
+envisioned through the use of an onboard vehicle device to capture the distance driven by a 
+vehicle through GPS or other technology and relate that to a method of charging, which could 
+range from manual cash payment to automatic deduction for a prepaid customer account 
+through Credit Cards/Fastag mandated by Govt. of India etc.
+Variable Parking Fees: Variable parking pricing is a tool for managing the parking supply in 
+a particular area. The concept is to increase parking fees during heavily used times, days, 
+during event or in particular areas, and lower fees when demand is low. It is a mechanism to 
+better manage the parking supply to reach a particular performance target. Within variable 
+pricing, prices can vary based on duration of stay, day of week, time of day or location. 
+In the parking lots, the sensors that report the occupancy of each lot and parking meters 
+that charge variable prices according to the time of day. Using this new technology, the city 
+adjusts parking prices in response to the occupancy rates.
+6.5	
+ Advanced Public Transportation Systems
+Advanced Public Transportation Systems (APTS) include applications such as Automatic 
+Vehicle Location (AVL), which enable transit vehicles, whether bus or rail, to report their 
+current location, making it possible for traffic operations managers to construct a real-time 
+view of the status of all assets in the public transportation system. APTS help to make public 
+transport a more attractive option for commuters by giving them enhanced visibility into the 
+arrival and departure status (and overall timeliness) of buses and trains. This category also 
+includes electronic fare payment systems for public transportation systems, such as Suica in 
+Japan or T-Money in South Korea, which enable transit users to pay fares contactless from 
+their smart cards or mobile phones using near field communications technology.
+The following ITS applications are part of APTS system:
+	
+●	
+Real Time information of Public Transit System (e.g. Bus, Metro, Rail)
+	
+●	
+Real-time information means any information available to transit providers 
+or customers about the current status of vehicles, including approximate 
+locations and predictive arrival times. Most real-time information relies on 
+Automatic Vehicle Location (AVL) and Global Positioning Systems (GPS) in 
+order to estimate approximate arrival times for passengers and transit system 
+
+
+
+======================================================================
+PAGE 54 of 74
+======================================================================
+IRC:SP:110-2017
+45
+operators. Passengers access real-time arrival and departure information 
+through dynamic signs at stops and stations or through the Internet at home 
+or on smart phones. As smart phones become more prevalent, they have 
+made access to third-party scheduling information and apps highly accessible 
+for passengers.
+Tracking Bus locations
+Providing operation information
+Responding demands
+Operation information
+(the nearest bus stop)
+Server
+machines
+Demands
+Directions
+Bus location information
+Demands
+Home/Office
+Operation center
+Overview of bus Information system
+Operation information
+(the nearest bus stop)
+Display board
+   PHS.
+Cellular Phone
+Bus stop / Bus station
+Public
+telephone
+network /
+Internet
+Fig. 34 Bus Information System  
+http://www.oki.com/jp/SSC/ITS/eng/businfo.html
+Automatic Vehicle Location (AVL): The Automatic Vehicle Location (AVL) systems enable 
+transit agencies to easily monitor and collect data on their fleet’s location and performance. 
+This data is translated into real-time bus arrival information for passengers, and an improved 
+perception of transit reliability as shown in Fig. 34. The system is practical, time-saving, and 
+increases schedule adherence. If the system was linked to other systems, potential uses 
+may include tracking where traffic delays happen to occur on highways since multiple transit 
+vehicles use the transport network. 
+Electronic Fare Payment: Electronic Fare Payment system allows integration of fare for 
+various modes of transport. The integrated fare product (Usually a smart card) can be used 
+across all or most of the modes of public transport in a city and promotes the use of public 
+transport. 
+6.6	
+Advanced Vehicle Control Systems
+Vehicle Information and Communication System is a digital data communication system, which 
+promptly provides the latest necessary road traffic information to drivers via car navigation 
+systems. Information is transmitted in the direction of traffic flow to the drivers to suit their 
+needs, from beacons installed on the roadside via on-board car navigation equipment. There 
+are over 2 million AVCS units already in use. The benefit of this system is that, the road traffic 
+conditions informed in advance makes a driver more relaxed and comfortable. It also offers 
+
+
+
+======================================================================
+PAGE 55 of 74
+======================================================================
+IRC:SP:110-2017
+46
+alternative choice on routes to avoid traffic congestion. This ensures that AVCS changes 
+from a “Luxury” to a “Necessity” once people start using it.
+One of the areas having the greatest potential payoff for electronics in automobiles is in 
+the relationship of the car and driver to the road. Seemingly, the key feature of automatic 
+intelligent transportation network is precise and real-time interaction between vehicles and 
+a network. Improvements in traffic flow in congested areas might be possible if the drivers 
+are updated with real time information concerning traffic problems on the road ahead. The 
+two most popular means of communication between the vehicle and the driver are given in 
+Fig. 35 and Fig. 36.
+Fig.35 Vehicle to Vehicle Integration  
+(http://www.utires.com/blog/road-safety-overview)
+ 
+Fig. 36 Vehicle to Infrastructure Integration 
+(Automobile Innovations Website, 2013)
+
+
+
+======================================================================
+PAGE 56 of 74
+======================================================================
+IRC:SP:110-2017
+47
+6.7 
+Traffic Control and Management
+The Traffic Control and Management system using ITS helps in efficient control and 
+management of the traffic. Depending upon the geographical reach, the Traffic Control and 
+Management system can be divided into following categories:
+Surface Street Control: Surface Street Control refers to the monitoring, control and 
+management of traffic operations on municipal streets and arterials. The primary application 
+of ITS within Surface Street Control is the management of signalized intersection control and 
+the assignment of right-of-way for all users of the transportation network including vehicles 
+(e.g., passenger cars, trucks, transit vehicles, emergency response vehicles, maintenance 
+vehicles, etc.), cyclists and pedestrians. This section describes surface street control systems 
+from a network perspective addresses signal coordination techniques, system types and 
+vehicle priority systems. A range of traffic signal control systems are represented ranging 
+from static pre-timed control systems to fully traffic-responsive systems that dynamically 
+adjust control plans and strategies based on current traffic conditions and priority requests. 
+The major objectives of Surface Street Control Systems are to 
+	
+●	
+Maximize the capacity of the existing road network through the optimization 
+of traffic signal operation; 
+	
+●	
+Improve safety for all road users, including vehicles, cyclists and pedestrians; 
+	
+●	
+Reduce delays, stops and fuel consumption associated with the operation of 
+traffic signals for all road users; 
+	
+● 
+Monitor the operation of traffic signal equipment and report malfunctions to 
+minimize equipment “down time” and maximize maintenance efficiency.
+A typical Surface Street Control System consists of intersection control equipment (i.e., 
+intersection controller, signal heads, etc.), detection equipment (i.e., vehicle detector, 
+pedestrian detector, bicycle detector, etc.), communications network and a computer system 
+to provide central control and monitoring functions of the field equipment. Multiple Surface 
+Street Control Systems in a region should be capable of sharing data with each other 
+electronically. The objective of this information exchange is to allow adjacent jurisdictions to 
+provide area-wide signal coordination along major corridors and road networks regardless 
+of jurisdictional boundaries.
+The primary objective of a traffic signal is to safely assign right-of-way to vehicles, cyclists 
+and pedestrians, competing for the use of the same road space at intersecting roadways. 
+Typically, this is achieved using intersection control equipment with right-of-way assigned, 
+based on the presence of vehicles, pedestrians and bicycles. Priorities between road users 
+and vehicle types can vary, and for this reason many traffic signal systems offer a method 
+of providing priority service to accommodate transit vehicles, emergency response vehicles 
+and operation of at-grade rail crossings located in close proximity to signalized intersections. 
+Both local and centralized methods of priority control are available.
+A secondary application of ITS within Surface Street Control is lane management, which 
+involves the restriction of specific lanes of a roadway to designated vehicle types, direction 
+of travel or other purposes. It involves the use of Lane Control Signs (LCSs) and a central 
+
+
+
+======================================================================
+PAGE 57 of 74
+======================================================================
+IRC:SP:110-2017
+48
+control and monitoring system. Lane management systems are commonly used for reversible 
+lane operation on urban arterials as well as bridges and tunnels, for High Occupancy Vehicle 
+(HOV) / High Occupancy Toll (HOT) lane management, and have also been applied for traffic 
+management purposes through construction zones. Typically, they are applied to traffic 
+bottlenecks where roadway expansion is difficult due to right-of-way or cost restrictions. Their 
+primary objective is to maximize the capacity of existing roadway infrastructure for specific 
+vehicles or to alter a direction of travel.
+Highway Control: Highway control uses roadside equipment and communications to 
+monitor traffic conditions on the highway network for traffic management, incident detection 
+and management, ramp metering and access control. Typically, it is applied to high-volume; 
+access-controlled highways located within or in close proximity to large population centres. 
+Highway control employs monitoring techniques and adaptive control strategies to maximize 
+the efficiency of traffic movement and better manage traffic congestion. It is widely recognized 
+that the occurrence of an incident and the resultant blockage of traffic lanes and/or shoulders 
+has a dramatic effect on the capacity of the roadway. It therefore follows that the faster an 
+incident can be cleared, the less impact it will have on the operation of the highway network. 
+Incident management refers to the timely detection of incidents and the dissemination of 
+relevant information to emergency response agencies, maintenance personnel, traffic 
+management staff and motorists in order to minimize the duration and impact of the incident 
+on the transportation network.
+Regional Traffic Control (RTC): RTC enhances the surface street control and highway 
+control by adding the communications links and integrated control strategies that enable 
+integrated inter-jurisdictional traffic management. Regional traffic control can be applied to an 
+expressway or an arterial corridor consisting of an expressway, arterial road or combination 
+of both. A typical Regional Traffic Control System consists of traditional traffic control such 
+as regulation, warning and guidance of traffic, as well as expressway management activities 
+such as vehicle monitoring, incident detection and management, provision of motorist 
+assistance and traffic information dissemination. The major objectives of Regional Traffic 
+Control Systems are to:
+	
+● 
+Monitor traffic flow and other environmental conditions on the expressway/
+arterial corridor; 
+	
+●	
+Reduce delays and collision risks due to non-recurrent congestion through 
+rapid detection and appropriate management of incidents; 
+	
+● 
+Determine and identify actions to alleviate recurrent of traffic congestion; 
+	
+●	
+Disseminate information to motorists about the expressway/arterial corridor 
+condition to improve safety and mobility, and enable diversion of traffic if 
+required; and 
+	
+● 
+Maintain the expressway/arterial corridor at an operating level by efficient 
+implementation of traffic control strategies (including ramp metering, active/
+passive diversions, etc.)
+6.8	
+Law Enforcement
+The ITS can be effectively used to ensure enforcement of traffic laws by the road users. 
+
+
+
+======================================================================
+PAGE 58 of 74
+======================================================================
+IRC:SP:110-2017
+49
+Some of the most popular ITS applications for Law enforcement are given here:
+Automatic Number Plate Recognition: This technology applies the concept of optical 
+character recognition on images to read vehicle registration plates. It can be applied on 
+existing closed-circuit television, road-rule enforcement cameras. The police forces around 
+the world use it for law enforcement purposes. For the purpose of electronic toll collection 
+on pay-per-use roads by local or urban body/highways agencies use this technique around 
+the world. The images of the front vehicle including the colour, texture and text from the 
+registration number plate are captured by the cameras with some configurable to store a 
+photograph of the driver. Systems commonly work on the concept of infrared lighting to allow 
+the camera to take the picture at any time of the day. Major concerns about these systems 
+expose the privacy fears of government tracking citizens’ movements. Fig. 37 shows the 
+application of ANPR.
+Plate detection and plate character recognition happen inside camera hardware thereby 
+ensuring low bandwidth usage as well as speed of transmission and therefore preventive/ 
+corrective action is possible since now detection is possible for plates (reflective plates) even at 
+high speeds ranging between 120-150 kmph. Keys of this camera system are their feature of 
+seamless sharing of hotlists, reads, and alerts (Remote notification via email or text messaging) 
+between agencies when ANPR captures vehicles matching details in hotlists. ANPR is an 
+attractive product to complement or validate RFID or Digital Short- Range Communication.
+Mobile Anpr
+The Mobile ANPR on the other hand assists on-street patrol officers checking for criminal 
+activity by capturing and analysing the license plates against known data basis thereby 
+greatly increasing the chances of successfully finding the suspect. The ANPR system acts 
+as a valuable force multiplier. 
+Licence Plate Image Camera
+Boom Barrier
+Monitoring Terminal
+KLiPR Engine
+VNC Cable
+Loop Sensor
+Fig. 37 Automatic Number Plate Recognition
+Red Light Violation Detection System: The ITS based solution’s red light violation detection 
+system discussed in previous chapter may help reduce the accidents as it creates a sense of 
+psychological fear not to violate the traffic rules.
+Speed Violation Detection System: Speed violation detecting system using Global System 
+for Mobile Communications (GSM) technology and Radio Frequency Identification (RFID) 
+technology is adopted as a solution to the general problem of road speed violations and 
+related accidents on the roads.
+
+
+
+======================================================================
+PAGE 59 of 74
+======================================================================
+IRC:SP:110-2017
+50
+7 PHASES FOR IMPLEMENTATIONS OF ITS
+7.1	
+General
+All the challenges to minimize the transport problems mentioned in the preceding sections cannot 
+be addressed completely using ITS tools alone for traffic and transport demand management 
+tools. ITS tools combined with other engineering interventions can together create a successful 
+traffic and transport management system plan for any city in India. 
+The TMS measures need to be implemented in a phased manner so that the experience 
+from the earlier phases can be utilized in the later phases. Thus based on funds, available 
+expertise, severity of the problem, and ground reality, the following suggested phases or 
+components of ITS can be modified and adapted to suit the prevailing conditions in a city. 
+Depending on actual needs, one can add or delete systems or subsystems described in this 
+section. 
+It means that the ITS tools suggested in different phases can be added in earlier phases 
+or postponed for future phases as per specific need for a city. For example, a city is not 
+experiencing much traffic congestion, accidents, delays etc. but the public transport system 
+is introduced in a city. In that case, in first phase itself, one can add passenger information 
+system along with or without other tools as proposed in Phase I. The best examples are 
+in new cities (like New Raipur) where the public transport system/BRT system is the first 
+priority. The passenger information system is an appropriate ITS tool to start with for traffic 
+management system in first phase. 
+7.2	
+Phase I
+The first phase applies to cities where the problem of traffic congestion has not become acute, 
+congestion is just starting to spread beyond the peak hours, and funds or trained/technical staff 
+may also be a constraint. This phase is ideal to appreciate the benefits of ITS. It also constitutes 
+the first step towards learning about the experiences or issues related to implementing and 
+maintaining TMS in a city. This phase does not require a sophisticated control room or advanced 
+level of infrastructure. Once cities understand and sort out the implementation and maintenance 
+issues related to TMS and ITS, and become capable of analysing the field data on their own, then 
+they can graduate to higher phases. Cities like Vijayawada, Amritsar, Pathankot, Karnal, and 
+Meerut are good examples of cities that can start with Phase I immediately. Systems proposed 
+in the first phase are listed in Table 1. 
+Table 1 Systems Proposed in Phase I
+System Proposed
+Objective
+Intelligent signals/ coordinated signals
+For smooth discharge of traffic at intersection /smooth 
+flow of traffic on corridor
+Area traffic control system (ATC)
+Smooth flow of traffic in implemented network, minimum 
+overall delay at red lights, and green signal throughout for 
+emergency vehicles. 
+In order to implement this phase, the coordination among following agencies/organisations 
+is required. 
+
+
+
+======================================================================
+PAGE 60 of 74
+======================================================================
+IRC:SP:110-2017
+51
+	
+● 
+Traffic Police
+	
+●	
+Public Works Department(PWD)
+	
+●	
+Municipality
+	
+●	
+Development Authority
+Authorities and agencies included in the organizational architecture are those that are 
+responsible for providing and maintaining the road infrastructure along with the traffic police. 
+A systems architecture diagram for each of the proposed phases has been prepared. 
+The definition of a “System” as used in this report is “a set of methods or procedures or 
+algorithms to perform a specific job”. Usually the system consists of input, data processing 
+or manipulation and output (desired/defined). The system architecture proposed for Phase I 
+is shown in Fig. 38.
+Road Side 
+Sensors
+Intelligent and
+Coordinated Traffic
+Signals
+ATC Controlled Traffic
+ Signals
+Road Side Data
+Transferring and
+Communication
+Equipment
+Information
+Dissemination and
+Communication
+System
+ATC Server or Room/
+Traffic Control Terminals
+Fig. 38 System Architecture for Phase-I
+7.3	
+Phase II
+When a city is ready with a computerized database of vehicle owners/driving licenses/
+commercial vehicle permits and also starts implementing smart driving licenses/permits/
+registration certificates, etc., it is an indication that the city is prepared for Phase II. Further, if 
+the road network in the city is also used by a lot of traffic and traffic violations show increasing 
+trends (and disposing of the traffic violation cases takes more time), then that city could turn 
+to Phase II. 
+This phase also assumes that the city has some basic infrastructure such as a traffic police 
+control room and is ready to expand in terms of trained/ skilled staff, infrastructure, and 
+advanced communication systems. Systems proposed for Phase II include all systems in 
+Phase I along with the systems presented in Table 2.
+
+
+
+======================================================================
+PAGE 61 of 74
+======================================================================
+IRC:SP:110-2017
+52
+Table 2 Additional Systems Proposed for Phase II
+System 
+Proposed
+Sub-System
+(ITS – Tools)
+Objective
+Intelligent Traffic 
+management 
+and Electronic 
+payment
+● Speed control signage, hazard 
+warning system (VMS)
+● Emergency road side phone 
+system 
+● Electronic road pricing system
+● To inform the vehicle drivers about speed 
+restrictions and about any obstruction 
+(temporarily or permanent) in traffic flow
+● To reduce congestion by means of 
+introducing congestion charges
+Traffic rules 
+enforcement 
+system
+Transport 
+authority 
+enforcement 
+system
+● CCTV system, Automatic Speed 
+detection system
+● Automatic 
+number 
+plate 
+recognition system
+● Red light violation detection 
+system
+● Wrong way vehicle detection 
+system
+● e- Challan system
+● Smart 
+card 
+based 
+driving 
+licenses issue system
+● Smart card based permit and 
+registration 
+certificate 
+issue 
+system
+● Police patrol monitoring system
+● Traffic 
+police 
+(squad, 
+post) 
+Traffic interceptor vans
+● To capture traffic rules offenders, and 
+collect fines from them.
+● To book the traffic rules offenders, 
+violation of permit rules, fake driving 
+license holders, fake permits and RC 
+holders, stolen vehicles in the law of 
+court
+● Maintain the records of traffic rules 
+offenders for giving severe punishment 
+in law of court
+● Reduce accidents and increase safety
+● To collect congestion charges 
+Infrastructure 
+maintenance and 
+management 
+system
+● Maintain and manage road 
+side ITS and non-ITS based 
+infrastructure
+● Maintain 
+roads, 
+footpaths, 
+FOBs, junctions
+● Maintain 
+and 
+manage 
+communication system, control 
+room
+● Maintain traffic signals, VMS, 
+signage of different types
+● To provide maintained road network for 
+all road users for smooth flow of traffic 
+and road users mobility.
+● To provide un-interrupted platform for 
+ITS functioning
+Data warehouse
+● Automatic traffic counter and 
+classifiers
+● To maintain data of traffic, vehicles for 
+forecasting, planning etc.
+● For demand management
+Information 
+dissemination 
+system
+● VMS, speed signage, hazard 
+warning signage, SMS, Web 
+sites, social sites, e-mail, FM 
+radio
+● It helps the traveller and vehicle driver to 
+take corrective action in their trip as well 
+as prepare themselves as per any traffic 
+advisory or alert is issued
+
+
+
+======================================================================
+PAGE 62 of 74
+======================================================================
+IRC:SP:110-2017
+53
+Organisation: 
+The urban transport departments of the city can be the main agency assisted by the Traffic 
+Police, other stakeholders would be
+	
+●	
+Public Works Department(PWD)
+	
+●	
+Municipality
+	
+●	
+Development Authority
+	
+●	
+Planning departments/Research units
+In the Organizational Architecture, some more departments are added due to their role in 
+Phase II. Some more departments may also be required or some of the departments suggested 
+above may be removed, depending on the jurisdictions and responsibilities assigned to them 
+as per their State Constitution or by their State Assembly. The systems architecture diagram 
+for Phase II is given in Fig. 39.
+Smart Card Based
+Permit/RC Driving
+License System
+Transport Authority
+Enforcement Unit
+Transport Authority
+Department Data Centre
+Transport Urban 
+Development Authority
+Planning
+Department
+Research Units
+Infrastructure
+Maintenance and
+Management System
+SMS/
+Website/
+E-mail
+City Control Room
+3
+2
+1
+Fig. 39 System Architecture for Phase II
+7.4	
+Phase III
+When road accidents and road rage become everyday affair and fatalities are increased 
+then the city should consider adopting Phase III. It is recommended that the city should 
+begin to prepare for Phase III immediately after implementing Phase II. If the pollution level 
+increases at a faster rate than stipulated, the city should also commence implementing phase 
+III. This Phase requires that the city should have a trauma centre and ambulance system. 
+All metropolitan cities and state capitals should implement components of Phase I, II and III.
+System Proposed: Additional systems for Phase III are indicated in Table 3 and its 
+architecture is shown in Fig. 40.
+
+
+
+======================================================================
+PAGE 63 of 74
+======================================================================
+IRC:SP:110-2017
+54
+Table 3 Additional Systems Proposed for Phase III
+System Proposed
+Sub-System
+Objective
+Traffic monitoring and 
+surveillance system
+●	 Automatic vehicle detection system 
+(Image processing)
+●	 Towing system
+●	 Journey time monitoring system
+●	 To clear the network in time of 
+breakdown of vehicles for un-
+interrupted traffic flow
+●	 To take action after detecting 
+any incidents and reduce 
+casualties 
+Emergency 
+and 
+accident 
+response 
+system
+●	 Transportation monitoring system 
+(fleet 
+monitoring 
+system-public 
+transport, ambulances)
+●	 Distress call response management 
+system- 
+emergency 
+road 
+side 
+telephone system
+●	 To provide immediate relief to 
+road users 
+●	 To help save life of road-side 
+accident victims
+●	 To help road users in case of 
+emergency
+Automatic air pollution 
+monitoring system – 
+meteorological sensors
+●	 To save the city and habitats 
+from pollution
+●	 To book the vehicles for 
+violation of pollution norm and 
+collect fine and book them in 
+law of court
+Stakeholders:
+The purpose of bringing various stakeholders at one ITS architecture platform is to collect, 
+exchange and disseminate the relevant information so as to help travelers, operators to 
+provide with real time information on travel for taking appropriate decision. There are a 
+number of stakeholders to be included for effectively addressing the traffic management 
+operation. These are namely:
+	
+● 
+Traffic Police
+	
+●	
+Public Works Department (PWD)
+	
+●	
+Municipality
+	
+●	
+Transport Authority
+	
+●	
+Development Authority
+	
+●	
+Planning departments/Research units
+	
+●	
+Fire Brigade
+	
+●	
+CAT-Ambulance system
+	
+●	
+Hospitals
+	
+●	
+Disaster Management Agency
+	
+●	
+Environment-Pollution Control Department 
+	
+●	
+Courts
+
+
+
+======================================================================
+PAGE 64 of 74
+======================================================================
+IRC:SP:110-2017
+55
+CAT/Ambulance System
+Fire Brigade
+4
+3
+1
+2
+Hospitals
+Emergency and Accident 
+Response System
+SMS/
+Website/
+E-mail
+Smart Card Based
+Permit/RC Driving
+License System
+Transport Authority
+Enforcement Unit
+Transport Authority
+Department Data Centre
+Planning Department
+Research Units
+City Control Room
+Infrastructure
+Maintenance and
+Management System
+Automatic Air Pollution
+Monitoring/Met Sensors
+Pollution Checking Units
+Transport Urban Development
+Authority
+Fig. 40 System Architecture for Phase III
+7.5	
+Phase IV
+This phase is for those cities/areas where pedestrian or bicycle traffic is also an important 
+component of the transportation system. 
+System Proposed: Additional systems for Phase IV are indicated in Table 4 and System 
+Architecture is given in Fig. 41. 
+Table 4 Additional Systems Proposed for Phase IV
+System Proposed
+Sub-System
+Objective
+Parking 
+management and 
+information system
+●	 Parking 
+guidance 
+system
+●	 Intelligent parking lot 
+management system
+●	 Electronic 
+parking 
+charge 
+payment 
+system 
+●	 Guide the driver to particular parking sites among 
+number of sites within an area 
+●	 Guiding the drivers to park at particular parking bay
+●	 Help the drivers to locate particular location in city 
+through unit fitted in car
+●	 Help the drivers or road users to locate particular 
+location in city through system available on road side
+Pedestrian / biker 
+detection system 
+●	 To reduce and avoid pedestrian/biker casualty in road 
+accidents
+
+
+
+======================================================================
+PAGE 65 of 74
+======================================================================
+IRC:SP:110-2017
+56
+Fig. 41 System Architecture for Phase IV
+Red light/Stop Line 
+Violation Detection
+System
+Intelligent Coordinated 
+Traffic Signals
+Road Side Data 
+Transferring/ 
+Communication 
+Equipment
+Traffic Control Room 
+Police Control Room
+FM Radio, Website 
+Social Sites, SMS
+ATC Controlled Traffic 
+Signals
+Information 
+Dissemination and 
+Communication System
+VMS (Speed Limit, 
+Hazard Warning)
+Traffic Interceptor 
+Traffic Police Squad 
+Traffic Police Post 
+Towing System
+Emergency 
+Roadside Phone 
+System
+PCR 
+Squad
+Court 
+System
+Data 
+Warehouse
+E-Challan 
+System
+SMS/Website/ 
+E-mail
+Road Side 
+Sensors/
+CCTV
+ATCC
+ERP
+1
+3
+Traffic Rules 
+Enforcement 
+System/ANPR 
+ASDS, WWWD)
+2
+Pollution Checking Units
+5
+CAT/Ambulance 
+System
+Fire Brigade
+Hospitals
+Emergency 
+and Accident 
+Response System
+Smart Card Based 
+Permit/RC Driving 
+License System
+Transport Authority 
+Enforcement Unit
+Transport Authority 
+Department Data 
+Centre
+SMS/
+Website/
+E-mail
+Infrastructure 
+Maintenance and 
+Management 
+System
+Automatic Air 
+Pollution Monitoring/
+Met Sensors
+Transport Urban Development 
+Authority
+Planning
+Department
+Research Units
+City Control Room
+4
+1
+2
+3
+Parking Lot Management System 
+Electronic Parking Charges System
+Parking Management 
+Information System
+Parking Guidance System
+5
+7.6	
+Phase V
+When the city wants to integrate public transport system with the traffic management system, 
+Phase V is proposed. 
+System Proposed: Additional systems proposed for Phase V are indicated in Table 5.
+Table 5 Additional Systems Proposed for Phase V
+System Proposed
+Sub-System
+Aim
+Advanced 
+Traveller 
+Information System (ATIS)
+Passenger information 
+system 
+To help the road user for information related to public 
+transport/Informal Public Transport (IPT) at road side
+Authority/agency involved: all agencies along with public transport authority and IPT 
+service provider (If they exist). 
+Area covered: The whole network.
+The suggested system architecture for Phase V, which is the fully built-out phase, is given in 
+Fig. 42.
+
+
+
+======================================================================
+PAGE 66 of 74
+======================================================================
+IRC:SP:110-2017
+57
+Fig. 42 System Architecture Diagram for All Phases
+Red Light/Stop Line 
+Violation Detection
+System
+Intelligent Coordinated 
+Traffic Signals
+Road Side Data 
+Transferring/ 
+Communication 
+Equipment
+Traffic Control Room 
+Police Control Room
+Information 
+Dissemination and 
+Communication System
+ATC Controlled Traffic 
+Signals
+VMS (Speed Imit, 
+Hazard Warning)
+Traffic Interceptor 
+Traffic Police Squad 
+Traffic Police Post 
+Towing System
+Emergency 
+Roadside Phone 
+System
+PCR 
+Squad
+Court 
+System
+Data 
+Warehouse
+E-Challan 
+System
+SMS/Website/ 
+E-mail
+Road Side 
+Sensors/
+CCTV
+ATCC
+ERP
+2
+1
+3
+Traffic Rules 
+Enforcement 
+System/ANPR 
+ASDS, WWWD)
+FM Radio, Website 
+Social Sites, SMS
+CAT/Ambulance 
+System
+Fire Brigade
+Hospitals
+Emergency and 
+Accident Response 
+System
+Smart Card Based 
+Permit/RC Driving 
+License System
+Transport Authority 
+Department Data 
+Centre
+SMS/
+Website/
+E-mail
+Infrastructure 
+Maintenance and 
+Management 
+System
+Automatic Air 
+Pollution Monitoring/
+Met Sensors
+Pollution Checking 
+Units
+Transport Urban Development 
+Authority
+Planning
+Department
+Research Units
+City Control Room
+4
+1
+2
+3
+5
+6
+Transport Authority 
+Enforcement Unit
+5
+5
+Bus/Fleet 
+Tracking 
+System
+Public Transport 
+Control Room
+Parking Management 
+Information System
+Parking Lot Management 
+System Electronic Parking 
+Charges System
+Information 
+Dissemination and 
+Communication 
+System
+Parking Guidance 
+System
+Passenger 
+Information System
+Bus 
+Stops
+Bus 
+Terminals
+Inside 
+Bus
+
+
+
+======================================================================
+PAGE 67 of 74
+======================================================================
+IRC:SP:110-2017
+58
+8 ITS AROUND THE WORLD
+8.1	
+Introduction
+A number of ITS applications have been developed by various organizations/institutions 
+around the globe and tailored to offer transportation solution to meet their specific needs. 
+In developed countries, road operators have become dependent on ITS for not only traffic 
+congestion and travel demand management, but also for road safety and improved transport 
+infrastructure. ITS employs modern communication, computer and sensor technology 
+directly, and are also enabled indirectly by developments in terms of materials, technology 
+and operations research, including network analysis and risk assessment. The vastness of 
+the playing field makes the ITS a cooperative effort between the public sector, private sector, 
+and academia. There is a substantial emphasis on the central and critical role of local public-
+sector partnership with knowledge input from academic circles. Substantial changes have 
+been made in the core competencies and perspective of these organizations and relationships 
+for developing programmes towards a successful ITS. Some implementations of ITS around 
+the world are briefly described here.
+8.2	
+United States of America
+The U.S. Department of Transportation (USDOT) with the help of Intelligent Transportation 
+Systems Joint Program Office (ITS JPO) conducts research on all major modes to advance 
+transportation safety, mobility, and environmental sustainability through electronic and 
+information technology applications. USDOT developed ITS strategic Plan for 2015-2019. 
+This presents the strategic themes and programme categories under which ITS categories 
+reflect modal and external stakeholder input about the areas where attention, focus and 
+resources should be devoted. Los Angeles smart traveller project has deployed a small 
+number of information kiosks in location such as office lobbies and shopping plazas.
+8.3	
+Japan
+Japan’s ITS not only promotes the optimization of road traffic control, but also achieves 
+reduction in traffic accidents and congestion, and aims to co-exist with energy saving society. 
+Under cooperative project between Japanese government and private companies, “Grand 
+Design of ITS Promotion” clarified nine development fields and twenty one utility services 
+in July 1997, and led them into national projects. Research and Development of Japan’s 
+ITS, such as car navigation, VICS (Vehicle Information Communication System) and ETC 
+(Electronic Toll Collection System) have progressed, and market of these systems has grown 
+rapidly in Japan. In the second stage of ITS, “ITS Promotion Guide Line” as government/ 
+private collaborating project promoted the practical applications of ITS, and assisted safe 
+driving to realize “the world’s safest road traffic environment”. And hereafter, Japan’s ITS 
+activities are also expected as a better approach to “a sustainable mobile society”, and solve 
+the environmental issues and traffic issues. ITS tools in Japan used to resolve the problems 
+such as traffic congestion, traffic accidents and environment degradation (Fig. 43). Due to 
+implementation, 20% of CO2 reduction in transport sector, saved 5 billion hours annually 
+and reduced fatality accidents to 4400 (Year 2010). Practical application of VICS (Fig. 44) 
+
+
+
+======================================================================
+PAGE 68 of 74
+======================================================================
+IRC:SP:110-2017
+59
+reduced annual CO2 emission by 2.4 million tonnes in the year 2009. ETC eliminates almost 
+all toll gate congestion on expressways. Japan Launched nationwide 1600 ITS spots on 
+expressways to provide basic services such as dynamic route guidance, safety driving 
+support and ETC. ITS spot transmit optimum speed and Headway Distance.
+Fig. 43 Progress of Japan ITS and New Challenge
+(Wireless Technologies and Solutions of Japan, 2011)
+Fig. 44 Widely Developed ITS Services in Japan
+ (VICS, 2013)
+8.4	
+Europe
+Mainland Europe’s Intelligent Transport Systems falls under the umbrella of Road Transport 
+Informatics (RTI). RTI focuses on two interacting programs - Road Infrastructures for Vehicle 
+safety in Europe (DRIVE) and Program for European Traffic with Highest Efficiency and 
+
+
+
+======================================================================
+PAGE 69 of 74
+======================================================================
+IRC:SP:110-2017
+60
+Unprecedented Safety (PROMETHEUS). DRIVE falls under the control of the Commission 
+of European Communities (CEC), and PROMETHEUS is part of the European Research 
+Coordination Agency (EUREKA) platform, an industrial research initiative involving 19 
+countries and European vehicle manufacturers. Other European Union (EU) public-private 
+partnership focusing on specific safety applications of ITS technologies initiatives are eSafety, 
+INVENT, and PReVENT. The INVENT program works towards improving traffic flow and 
+traffic safety by development of novel driver assistance systems, knowledge and information 
+technologies, and solutions for more efficient traffic management, to prevent or minimise the 
+severity of accidents. Traffic Impact, Legal issues and Acceptance evaluate the economic 
+and business implications of the new technologies, as well as potential legal conflicts. The 
+PReVENT programme integrates a number of safety functions in order to create a safety belt 
+around the vehicle.
+8.5	
+United Kingdom
+In London, Internet based maps is aimed at facilitating the operation of freight transport. In 
+London, “Transport for London” (TfL) have produced a digital map of all London’s speed 
+limits which is available free of charge to anyone who wishes to use the map for personal 
+use, or to create commercial applications. Various facilities developed to ensure smooth and 
+safe flow of traffic are described as under:
+	
+●	
+Information services to support travel planning - for towns, workplaces, other 
+activity centres, and individuals.
+	
+●	
+Toll collection and management. Electronic toll collection has been 
+implemented in several regions of the country.
+	
+●	
+Point to point speed enforcement has been ensured by use of multilane 
+cameras.
+	
+● 
+Automated information display for smoother and safer traffic flows.
+	
+●	
+Two kinds of Intelligent Speed Adaptation (ISA) applications are being 
+implemented.
+London Congestion Pricing: London congestion pricing is one of the most talked about ITS 
+applications. Transport for London has used thousands of ANPR cameras to identify vehicles 
+entering into London CBD (Central Business District) to reduce congestion. Authorities 
+implemented a unique solution of levying a hefty charge on Vehicles entering CBD areas 
+during peak hours. ANPR cameras provide an efficient and accurate inventory of vehicles, 
+which are visiting CBD areas during peak hours and automatically charging them through an 
+account linked to License plate.
+8.6	
+Middle EAST
+Dubai Municipality started the implementation phase I for project ITS Dubai, which is 
+considered to be the first comprehensive ITS project in the Middle East, and one of the most 
+sophisticated ITS projects currently being implemented in the world. This ITS is expected to 
+
+
+
+======================================================================
+PAGE 70 of 74
+======================================================================
+IRC:SP:110-2017
+61
+serve a rapidly growing population. Several integrated approaches are being implemented 
+to achieve ITS in Dubai, such as constructing new roads and interchanges, promoting public 
+transportation, and enhancing road network. 
+Fig. 45 Trend using ITS from 2003-2008 in China
+8.7	
+ITS Development in China
+In China, the National ITS strategy has been generated. This is mainly focused for development 
+of ITS standard and Framework. Many ITS technologies have been applied in China and 
+created new industries. National and local ITS application system promote safety, flexible, 
+and environmentally safe movement of people and goods. The current status of ITS in China 
+is as follows:
+	
+● 
+Traffic Information Services: Become popular Smart Phone, Car-navigator, 
+Website, VMS, Broadcast
+	
+●	
+Car Navigator: Cumulative sales of on-board units: 65 million
+	
+●	
+ETC: ETC cover the total national expressway network. More than 12,000 
+ETC lanes have been built.
+	
+●	
+Network Reservation Taxi/Car Service; Taxi hailing, Express, Private car 
+service,
+	
+● 
+City Traffic Control Centre: Established in 256 Cities
+	
+●	
+Smart Public Transport and Service: Smart Card: issued more than 430 
+million
+	
+●	
+The Use of GNSS Big Data
+	
+●	
+Commercial Vehicle Monitoring System
+	
+●	
+Online Ticket booking System
+
+
+
+======================================================================
+PAGE 71 of 74
+======================================================================
+IRC:SP:110-2017
+62
+8.8	
+ITS Initiatives in India 
+The ITS program in India is aimed at ensuring safe, affordable, quick, comfortable, reliable and 
+sustainable access for the growing urban and rural population to jobs, education, recreation 
+and such other needs. Some of the ITS initiatives in India are as follows:
+	
+●	
+Electronic Toll Collection (ETC): Pilot projects on NH-5 and Ahmedabad 
+Mumbai Highways
+	
+●	
+ITS on BRT Corridors: Signal priority, Vehicle Tracking and Automatic Fare 
+Collection in Ahmedabad, Indore and Bhopal BRT
+	
+●	
+Advanced Parking Management: Parking lot at Palika Bazar in Delhi, Capacity 
+to park 1050 cars and 500 two wheelers, Electronic Parking Guidance and 
+VMS Smart Cards – Automated multi-level parking in Sarojini Nagar Market 
+of Delhi implemented;
+	
+●	
+City Wide ITS: Implemented in Mysore and planned in Naya Raipur
+9 ISSUES AND CHALLENGES OF ITS IN INDIA
+In India, there are not many comprehensive, fully developed ITS applications with traffic 
+management centres. ITS concepts will be useful in the Indian scenario particularly in 
+emergency management, enforcement for speed management and red light violation, electronic 
+toll pricing, e-challaning, traffic congestion management, advanced traffic management 
+systems, advanced traveller information systems, commercial vehicle operations, advanced 
+vehicle control systems, etc. Full utilization of ITS on urban roads can be achieved only by 
+implementation at network level rather than at corridor level. (Corridor level ITS can function 
+well on inter-city expressways and highways). Some of the specific actions required to meet 
+the challenges of ITS in India include:
+	
+● 
+Availability of definite guidelines and regulations, standards and specification 
+in physical implementation
+	
+●	
+Integration of the ITS applications and development introduction of standards/
+specifications of equipments
+	
+●	
+High cost for ITS safety systems
+	
+● 
+Setting up a citywide ITS implementation with fully functional Traffic 
+Management Centres
+	
+●	
+National level Data Centres and Maintenance of Archived data
+	
+● 
+Online or offline data modelling methods to handle huge data
+	
+●	
+Development of ITS architecture at city, regional and national level along 
+formulation of ITS policies and programmes.
+
+
+
+======================================================================
+PAGE 72 of 74
+======================================================================
+IRC:SP:110-2017
+63
+REFERENCES
+● 
+Advanced Traffic Information Collection System (2014), Sunsky International, Taiwan
+● 
+ATMS Connected Vehicle Module Integration, South West Research Institute(SWRI),  http://
+www.swri.org/3pubs/brochure/d10/ATMS/ATMSflyer.pdf 
+● 
+Automatic 
+Fare 
+Collection 
+(AFC) 
+System, 
+Prodigy 
+Electronics(2001), 
+http://www.
+prodigyelectronics.com/solutions/automatic-fare-collectionafc/ 
+● 
+Bachani, M (2013), Intelligent Transportation System, International Journal of Scientific & 
+Engineering Research, http://www.bizlogics.co.in/electronic_toll_collection_system.html 
+● 
+Barth, M. J., and Todd M.  (2001), Journal on Intelligent Transportation System Architecture for a 
+Multi-station Shared Vehicle System. 
+● 
+Bus Information System, OKI http://www.oki.com/jp/SSC/ITS/eng/businfo.html 
+● 
+Complete Road Safety Overview: Global Issues, Safety Laws, New Road Safety Measures, Car 
+Safety Technology, Car Safety For Kids, Teenage Drivers, from http://www.utires.com/blog/road-
+safety-overview/ 
+● 
+Detailed Project Report (2013), Bus Rapid Transit System in Naya Raipur 
+● 
+Electronic Road Pricing (ERP), Land Transport Authority, Singapore, Retrieved from https://www.
+lta.gov.sg/content/ltaweb/en/roads-and-motoring/managing-traffic-and-congestion/electronic-
+road-pricing-erp.html 
+● 
+European Telecommunications Standards Institute ETSI (2012), http://www.etsi.org/technologies-
+clusters/technologies/intelligent-transport 
+● 
+E-Z Pass, http://auto.howstuffworks.com/e-zpass2.htm 
+● 
+Federal 
+Highway 
+Administration 
+(FHWA1998), 
+https://www.fhwa.dot.gov/publications/
+publicroads/98septoct/images/induct.gif 
+● 
+Federal Highway Administration, Retrieved from https://www.fhwa.dot.gov/publications/research/
+safety/pedbike/05085/images/fig1015.gif 
+	
+http://www.sunsky.com.tw/web_e/html/04_achievement/01.aspx 
+	
+https://www.pcb.its.dot.gov/factsheets/tsp/tsp_overview.aspx#page=factors 
+● 
+Innovation in Traffic Systems, http://www.initag.de/en/products/APC.php?thisID=437 
+● 
+Intelligent Transport Systems in Japan (2013), Ministry of Land, Infrastructure, Transport and 
+Tourism, Japan  
+● 
+Intelligent Transportation  Systems (ITS 2012), https://constructionduniya.blogspot.in/2012/01/
+intelligent-transportation-systems.html 
+● 
+Intelligent Transportation Systems Report (2008), U.S. Department of Transportation,https://ntl.
+bts.gov/lib/31000/31400/31418/14475_files/chap2.html 
+● 
+ISN: ESCAP (2016), Highway Expert Group Meeting, Bangkok 
+● 
+Juan., M, García.,C, Giancarlo, Fortino, Sergio F. and  Ochoa (2015),  Ubiquitous Computing 
+and Ambient Intelligence, Sensing, Processing, and Using Environmental Information, 9th 
+International Conference, Springer 
+● 
+Know Your Traffic Signals (2016), Regional Municipality of Wood Buffalo, http://www.rmwb.ca/
+living/FAQ/Know-Your-Traffic-Signals.html 
+● 
+Lujaina Al-Shabibi, et al, “Automobile Speed Violation Detection System using RFID 
+
+
+
+======================================================================
+PAGE 73 of 74
+======================================================================
+IRC:SP:110-2017
+64
+and Mobile Technology”, International Journal of Applied Information Systems (IJAIS)–
+ISSN:2249-0868 Foundation of Computer Science FCS, New York, USA Volume 7– 
+No. 6, July 2014–www.ijais.org
+● 
+M A Chowdhary and A Sadek (2003),  Fundamentals of Intelligent Transportation systems 
+Planning,  Artech House Inc., US,  
+● 
+Mokashi and Nilay (2015),  Intelligent Traffic Signal Control using Image Processing, International 
+Journal of Advance Research in Computer Science and Management Studies,  Vol.3, (10) 
+● 
+Number Plate Recognition, SRKS Enterprises, http://srksenterprises.com/product/number-plate-
+recognition/
+● 
+Ontario Traffic Manual Report, Intelligent Transport Systems by Stephen Ezell, ITIF 
+● 
+Pallets with RFID Tag (2016), RFIDHY Technology, 2016. http://www.rfidhy.com/wp-content/
+uploads/2016/06/what-is-rfid.jpg 
+● 
+Passenger Information Technology (2010) Scheidt & Bachmann System Technik http://www.
+funkwerk-it.com/wEnglisch/aktuelles/2010/presse_24062010.shtml 
+● 
+Ravi Sekhar, Ch., Iryo T. and Asakura Y. (2012) Analysis of travel-time variation over multiple 
+sections of Hanshin expressway in Japan, Jl. Current Science, Vol.102(11) 
+● 
+Ravi Sekhar. Ch. (2008), Measuring Travel Time Reliability of Road Transportation System, 
+Doctoral Dissertation. Kobe University, Kobe Japan.
+● 
+Sarkar, P.K. & Maitri, V. “ITS Toolkits for Traffic Management”, Institute of Urban Transport, 
+Ministry of Urban Development, Government of India.
+● 
+Tom Mathew V., Transportation Systems Engineering; IIT Bombay 
+● 
+Transit Fact Sheets, ITS Joint Programme Office, Intelligent Transportation Systems, U.S. DoT
+● 
+Umrao and  Prabhat Kumar (2009) Intelligent Transportation System,  Institute of Engineering 
+and Technology, Lucknow 
+● 
+United States Department of Transportation http://www.iteris.com/itsarch/html/menu/laindex.htm 
+● 
+Urban Transport, New Atlas, http://newatlas.com/nyc-subway-touch-screen-kiosks/26751/ 
+● 
+US National ITS Architecture (1998), Developing Traffic Signal Control Systems Using National 
+ITS Architecture, U.S. Department of Transportation. 
+● 
+US National ITS Architecture, U.S. Department of Transportation. http://local.iteris.com/itsarch/
+documents/keyconcepts/keyconcepts.pdf 
+● 
+Vanajkshi Lelitha, Ramadurai G. and Anand A. (2010) Synthesis Report on ITS including Issues 
+and Challenges in India, IIT Madras 
+● 
+Variable Message Signs (VMS), Smart Electronic Display Solutions National Roads Authority (NRA), 
+Irlande, http://www.data-display.com/roads-authority-message-display?language=francais 
+● 
+Vehicle Information Communication System (VICS 2013) http://www.vics.or.jp/en/vics/ 
+● 
+Vehicle to Vehicle Communications(2013) http://automobileinnovations.blogspot.in/2013/06/
+v2v-vehicle-to-vehicle-communication.html 
+● 
+Wireless Technologies and Solutions (2011), Japan http://www.arib.or.jp/english/html/wireless/
+its/ 
+
+
