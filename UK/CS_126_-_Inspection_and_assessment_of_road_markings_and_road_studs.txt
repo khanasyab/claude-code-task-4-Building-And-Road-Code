@@ -1,0 +1,2106 @@
+======================================================================
+PAGE 1 of 80
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Inspection & Assessment
+CS 126
+Inspection and assessment of road markings
+and road studs
+(formerly TD 26/17)
+Version 0.1.0
+Summary
+This document provides general information to support the inspection and assessment of the
+road marking and road stud asset. It specifically clarifies the risk based approach when
+considering renewal of these assets.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 2 of 80
+======================================================================
+CS 126 Version 0.1.0
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Inspection frequencies
+9
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Frequency of inspections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Street lighting changes
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Characteristics requiring inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Retroreflecting road studs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Light emitting (active) road studs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Inspection methods
+11
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Machine surveys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Detailed surveys and skid resistance measurement
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Preview time of road markings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Retroreflective road studs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+4. Defect categories
+14
+5. Performance requirements
+15
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Light emitting (active) road studs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Street lighting regimes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Special circumstances . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+6. Asset management data records
+17
+7. Normative references
+18
+Appendix A. Risk based inspection process
+19
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 3 of 80
+======================================================================
+CS 126 Version 0.1.0
+Contents
+Appendix B. Asset inspection methods and defect categorisation
+21
+B1 Road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+B1.1 Detailed visual assessment scoring system . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+B1.2 Machine surveys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+B1.3 Skid resistance on critical areas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B1.4 Procedure for the in situ testing of retroreflection using handheld devices
+. . . . . . . . . . . . .
+25
+B2 Comparison of vehicle mounted device and handheld retroreflectometer readings . . . . . . . . . . . . .
+26
+B2.1 Advantages and disadvantages of different devices . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+B2.2 Correlation factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+B3 Road studs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Appendix C. Photographic examples for detailed visual assessment
+30
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 4 of 80
+======================================================================
+CS 126 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CS 126
+0.1.0
+May 2022
+Scotland NAA
+Incremental change to
+requirements
+Updates to Scotland National Application Annex only.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CS 126
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 5 of 80
+======================================================================
+CS 126 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes TD 26/17 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 6 of 80
+======================================================================
+CS 126 Version 0.1.0
+Introduction
+Introduction
+Background
+This document sets requirements for inspection regimes to be carried out for road markings and
+retroreflecting road studs, (including light emitting (active) road studs), on motorways and all-purpose
+trunk roads as agreed by the relevant Overseeing Organisation. These are necessary because:
+1) if there is a failure in the performance of road markings and retro-reflecting road studs, this affects
+their legal status or that of an associated statutory provision;
+2) proliferation of road markings can have a detrimental effect on the visual environment and
+comprehension by the road user;
+3) the visual performance of road markings degrades over time, reducing conspicuity and legibility;
+4) road safety can be affected by the reduction in the visibility and legibility of road markings;
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 3.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 3.N].
+Non-reflecting road studs and those incorporating active elements are not within the scope of BS EN
+1463-1 [Ref 7.N] and require type approval to comply with the SI 2016 No.362 (TSRGD) [Ref 10.N]. SA
+1 in the MCHW SA 1 [Ref 4.N] lists road stud products which have been type approved for use in the
+UK.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 7 of 80
+======================================================================
+CS 126 Version 0.1.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+EEA State
+A state which is a contracting party to the European Economic Area Agreement.
+NHSS
+National Highway Sector Scheme, NHSS 7 [Ref 5.N].
+TSM
+Traffic Signs Manual, TSM Chapter 5 [Ref 11.N].
+TSRGD
+The Traffic Signs Regulations and General Directions, SI 2016 No.362 (TSRGD)
+[Ref 10.N].
+Symbols
+Symbol
+Definition
+Qd
+Luminance co-efficient
+β
+Luminance factor - ratio of the luminance of a field of
+the road marking in a given direction to that of a
+perfect reflecting diffuser identically illuminated, BS
+EN 1436 [Ref 9.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 8 of 80
+======================================================================
+CS 126 Version 0.1.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+British Standard
+Any standard published by the British Standards Institution
+including adopted European or other international standards.
+Chromaticity
+The colour of the line by reference to the chromaticity diagram in
+BS EN 1436 [Ref 9.N].
+Contract
+Legal document that states the formal agreement between two
+different groups, enforceable by law. In some forms of procurement
+this is termed as an "Agreement".
+Critical area
+Critical areas of the network refer to those areas of the network that
+can pose a risk to the road user if badly worn.
+Critical defect
+A defect that requires prompt attention because it represents an
+immediate or imminent hazard, or there is a breach of statutory
+duty, including where markings are not prescribed in regulations
+nor authorised by the relevant Secretary of State.
+NOTE: These have previously been referred to as a Category 1 (or
+Category I) defect. See Section 4 for required action.
+Functional life
+The period during which the road marking fulfils all the
+performance requirements initially specified. The life is influenced
+by thickness of the laid materials, the type of materials and the
+nature of location, including the traffic. This is either the number of
+roll overs identified on the product test certificate to BS EN 1824
+[Ref 8.N] or as identified by the markings manufacturer.
+Luminance
+The property of the marking which describes the brightness of its
+colour, measured as either the luminance co-efficient (Qd) or
+luminance factor (β), as described in detail in BS EN 1436 [Ref
+9.N].
+Luminance co-efficient (Qd)
+Luminance co-efficient under diffuse illumination is the quotient of
+the luminance of a field of the road marking in a given direction by
+the illuminance on the field (unit: mcd/m2/lx).
+Non-critical defect
+A defect that requires replacement within a pre-defined period in
+line with agreements reached with the Overseeing Organisation.
+This has previously been referred to as a Category 2 (or Category
+II) defect. See Section 4 for required action.
+Retroreflectivity
+The ability of a road marking to reflect light from a vehicle's
+headlights back to the driving position of a vehicle.
+Skid resistance
+Measurement on road markings carried out using the standard
+British pendulum apparatus. BS EN 1436 [Ref 9.N] specifies skid
+resistance classes.
+Targeted inspections
+Inspections focused on specific locations to address specific local
+risks, or following extreme or unusual events.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 9 of 80
+======================================================================
+CS 126 Version 0.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the inspections of road marking and retroreflecting road studs
+(including light emitting (active) road studs but excluding non-reflective road studs).
+1.2
+The requirements in this document shall apply to all road markings and retroreflecting road studs in
+permanent use.
+1.3
+The requirements in this document shall apply to all road markings and retroreflecting road studs
+designed to be in use for more than 3 months in temporary situations and road works.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving the inspection of road markings
+and retroreflecting road studs (including light emitting (active) studs), on the Overseeing Organisations'
+motorway and all-purpose trunk roads according to the implementation requirements of GG 101 [Ref
+3.N] .
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 3.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 10 of 80
+======================================================================
+CS 126 Version 0.1.0
+2. Inspection frequencies
+2.
+Inspection frequencies
+General
+2.1
+Inspection regimes shall follow a risk based approach where available data permits its adoption.
+NOTE
+For routes with available, accurate asset data, a cyclical approach to renewals can assist with reducing
+the cost and inconvenience of formal surveys.
+2.2
+Where available data does not permit the adoption of a risk based approach, a fixed frequency for
+inspections shall be used in accordance with the requirements of the Overseeing Organisation.
+2.3
+The reasons for the selected approach shall be documented and retrievable, in accordance with the
+requirements of the Overseeing Organisation.
+2.4
+The format and content of risk assessments to support a risk based inspection approach shall be in
+accordance with the requirements of the Overseeing Organisation.
+Frequency of inspections
+2.5
+Inspections of road markings and retroreflecting road studs shall be undertaken periodically so that the
+requirements of this document can be met.
+NOTE
+Further guidance on the methodology that can be employed in order to determine inspection
+frequencies is provided in Appendix A.
+2.5.1
+Targeted inspections should be carried out in response to reports of extreme conditions that have the
+potential to increase the risk of asset damage.
+NOTE
+For example, a major road traffic accident or extreme weather.
+Street lighting changes
+2.6
+Proposals to dim street lighting, or turn off street lighting (fully or partially) either via a trial or
+permanently, shall be supported by a current assessment (less than 6 months) of condition of road
+markings and road studs.
+Road markings
+2.7
+The selected time period for the first formal inspection shall be determined by the claimed functional life.
+2.7.1
+The time period may be increased or decreased depending on:
+1) the characteristics of the site;
+2) the product genre and actual product used; and
+3) assurance of the quality of installation, including the thickness of any in-situ markings and the road
+surface condition.
+2.8
+Evidence to support the choice of timing of the first formal inspection shall be recorded in accordance
+with the requirements of the Overseeing Organisation.
+2.9
+Where a risk based inspection regime is used, the rate of deterioration of a representative sample of
+road markings shall be measured in order to provide a knowledge base and further evidence of risk to
+assist in determining the future of:
+1) inspection frequencies;
+2) routine renewals of road markings.
+2.10
+Different classes of road have different accident rates and those with poorer accident performance, or
+individual roads historically performing worse than expected, shall attract a higher level of importance
+when determining risk profiles.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 11 of 80
+======================================================================
+CS 126 Version 0.1.0
+2. Inspection frequencies
+Characteristics requiring inspection
+2.11
+An inspection regime shall be devised to determine if any of the following characteristics are to be
+inspected, the priorities and how often they are inspected:
+1) wear;
+2) retroreflectivity (dry);
+3) retroreflectivity (wet);
+4) colour;
+5) luminance factor or luminance co-efficient; and
+6) skid resistance.
+2.11.1
+The needs and priorities of those characteristics deemed important for any given inspection site should
+be assessed.
+NOTE
+Road markings characteristics detailed above, combined with the site characteristics, present differing
+inspection priorities for lit and unlit locations.
+Retroreflecting road studs
+2.12
+Visual inspections of retroreflective road studs shall be carried out at intervals in accordance with the
+requirements of the Overseeing Organisation.
+2.13
+Where surface break-up is apparent due to replacement roads studs being placed too close to
+historical stud locations, this shall be recorded on inspections.
+2.14
+All inspections shall be programmed to enable maintenance works to be completed before the winter
+season.
+2.15
+Inspections shall be carried out after the winter season to detect damage by snow ploughs in affected
+areas.
+Light emitting (active) road studs
+2.16
+The inspection regimes for light emitting (active) road studs shall be determined in line with the
+manufacturers requirements.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 12 of 80
+======================================================================
+CS 126 Version 0.1.0
+3. Inspection methods
+3.
+Inspection methods
+General
+3.1
+Visual assessment surveys shall be carried out to obtain an overview of performance (see Appendix B
+Table B.1).
+NOTE
+Photographic examples for visual assessments of road markings can be found in Appendix C.
+Road markings
+3.2
+Visual assessment surveys shall be carried out for measuring wear.
+3.3
+Where machine surveys are not undertaken, visual digital surveys for assessing dry nighttime
+retroreflectivity shall be undertaken, using the method of determining preview times and visibility
+distances provided in Section 5.
+NOTE
+Visual assessment surveys can be employed to confirm visibility of road marking preview times both in
+daytime and nighttime dry conditions, although on unlit roads the nighttime performance is likely to be
+the most important factor.
+3.4
+The network shall be formally surveyed in accordance with the requirements of the Overseeing
+Organisation for each route and homogeneous sections of a route.
+3.4.1
+A mixture of survey techniques may be appropriate.
+3.4.2
+Visual assessment surveys may be supplemented by machine surveys and/or residual performance
+data taken before replacement or renewal.
+NOTE
+For example, detailed measurements of smaller samples can be used as supporting evidence, if
+generally using higher level assessment for markings known to be of similar age, traffic level and
+material.
+Machine surveys
+3.5
+All survey devices and techniques (including vehicle mounted devices and handheld spectrometer
+devices) shall be approved by the Overseeing Organisation and calibrated and maintained in line with
+the manufacturer's recommendations as described in BS EN 1436 [Ref 9.N].
+NOTE
+Appendix B provides additional information on the use of current survey techniques for different
+circumstances.
+3.6
+Vehicle mounted device survey results shall be aggregated and reported over 100m lengths.
+Detailed surveys and skid resistance measurement
+3.7
+Where planned road closures can be utilised, hand held devices shall be used to provide a primary
+data source for characteristics not measurable from vehicle mounted devices, as well as spot checking
+measurements obtained from vehicle mounted devices, i.e. retroreflectivity of longitudinal markings.
+3.7.1
+Hand held devices may be used on areas of the network that cannot be surveyed using vehicle
+mounted devices.
+NOTE
+For example, "STOP" and "Give Way" lines, "SLOW" markings, yellow bar markings, lane designations
+and exit arrows.
+3.8
+Hand held devices shall be used when wet retroreflectivity data is required as described in BS EN 1436
+[Ref 9.N].
+3.9
+Where detailed assessment is carried out, the survey area shall be split into 100m segments for record
+storage purposes and carrying out the following assessments:
+1) wear assessment:
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 13 of 80
+======================================================================
+CS 126 Version 0.1.0
+3. Inspection methods
+a) for continuous longitudinal markings, measurement of a 5m length every 20m. Results are
+presented as averaged values;
+b) for other markings, including modular longitudinal road markings, the assessment is to be carried
+out on the worst worn 25% of the markings at each location. Results are presented as averaged
+values;
+2) retroreflectivity using a handheld device (see Section B1.4 in Appendix B);
+3) an assessment of the luminance. Measurement of luminance factor of structured (Type II) markings
+is potentially unreliable. A marking is required to meet either the threshold for luminance factor or
+luminance co-efficient in Appendix B Table B.2.
+3.10
+Skid resistance measurements shall be carried out on a representative sample of defined critical areas
+of the network.
+3.11
+Critical areas shall be defined taking into account the examples given in Appendix B Table B.3 and the
+condition or age of the road marking material.
+3.12
+Measurements shall be taken on the most trafficked areas of the road markings at each location and an
+average calculated.
+Preview time of road markings
+3.13
+Where visual assessments are used to both identify defects and to provide quantifiable performance
+data then marking preview times shall be identified, as shown in Table 5.3.
+NOTE
+The preview time is the number of seconds taken to drive a distance equal to the road marking visibility
+distance.
+3.14
+Where performing surveys to ascertain preview times, the selected survey vehicle shall replicate the
+circumstances of a typical vehicle and driver.
+3.15
+To determine accurate visibility distances in a moving vehicle, visual digital equipment shall be used
+and mounted at a normal driving height.
+NOTE
+Use of visual digital data can allow initial desktop review of road marking preview times.
+3.16
+Where requested by the Overseeing Organisation independent evidence shall be provided to
+demonstrate that visual digital survey replicates road users' experience when obtaining preview times
+and distances.
+Retroreflective road studs
+3.17
+Bi-directional retro reflecting road studs installed on single carriageway roads shall be inspected for
+defects in both directions.
+3.18
+Inspections for reflective conspicuity of retroreflecting road studs shall be carried out during hours of
+darkness.
+3.18.1
+Retroreflective road stud inspections should be carried out to be synchronized with night outage
+inspections referred to in TS 501 [Ref 6.N] Road lighting inspection and CS 125 [Ref 2.N] Inspection of
+traffic signs.
+3.19
+The daytime visual inspection shall be in accordance with the methods set out in Appendix B Figure
+B.4 for the following characteristics:
+1) identification of unlawful double–studding;
+2) wear, corrosion, gaps, voids, ponding, damage;
+3) loose or missing studs or inserts;
+4) loss of or damage to retroreflective lenses, sinkage or settlement or masking due to adjacent raised
+road surfacing (e.g. surface dressing);
+5) detritus on lenses or masking by adhesive;
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 14 of 80
+======================================================================
+CS 126 Version 0.1.0
+3. Inspection methods
+6) integrity and security of casings of "embedded" studs (housings);
+7) loss of adhesion or breaking up of surface mounted road studs under traffic loading; and
+8) misalignment with existing road markings.
+3.20
+Visual inspections for night-time performance of retroreflective road studs shall be carried out during
+the hours of darkness using a reference sample in accordance with the method set out in Appendix B
+Figure B.5.
+3.21
+The definition of "safety critical location" for retroreflective road studs (as shown in Appendix B, Figure
+B.5) shall be agreed in accordance with the requirements of the Overseeing Organisation and include
+the following locations:
+1) regulatory markings e.g. double white lines, solid edged ghost islands;
+2) lay-bys, including emergency areas;
+3) merge and diverge tapers;
+4) roads where the horizontal alignment constitutes a departure from standard from CD 109 [Ref 1.N];
+and
+5) light emitting (active) road stud locations.
+3.22
+Retroreflective road stud inspections shall be arranged (with specific road closures) where significant
+groupings of displacement have occurred.
+NOTE
+For example, 3 or more consecutive road studs.
+3.23
+Wear along the shoulders of the casting shall be checked when re-rubbering into existing inset
+castings, of embedded retroreflective road studs.
+3.23.1
+Re-rubbering into a worn casting may cause accelerated wear of the insert and can lead to its insert
+becoming detached.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 15 of 80
+======================================================================
+CS 126 Version 0.1.0
+4. Defect categories
+4.
+Defect categories
+4.1
+Defects shall be categorised as critical or non-critical, using the requirements of this document,
+including the methodology given in Appendix B.
+4.2
+A road marking shall be deemed a critical defect three years after its application where there is no
+record of its expected functional life and no recorded value of in-service performance.
+4.3
+For road markings in defined critical areas, this period shall be reduced to two years after the marking
+is laid.
+4.4
+Where the expected functional life of a road marking is known, the road marking shall be deemed a
+non-critical defect after that period is reached and re-classified as a critical defect one year after it is
+reached, except where recorded in-service performance identifies higher performance or a critical
+defect.
+4.5
+A road marking with more than 30% of the surface area worn down to the road surface shall have a
+wear index, as identified in Appendix B, of less than 30.
+4.6
+Where the road marking is regulatory or is in a critical area with less than 70% of the surface area
+remaining, it shall be categorised as a critical defect.
+4.7
+Raised rib road markings with a wear index of 30 or more (refer to Appendix B, Table B.1), affecting a
+length of road marking equal to or greater than the desirable minimum preview distance, as defined in
+Section 5, shall be re-categorised as a critical defect where the residual rib height is;
+1) 6mm or less on motorways;
+2) 3mm or less on all-purpose trunk roads.
+4.8
+Road marking preview time values (as shown in Table 5.3) lower than the absolute minimum shall be
+classed as critical defects.
+4.9
+Road marking preview time values (as shown in Table 5.3) between absolute minimum and desirable
+minimum shall be classed as non-critical defects.
+4.10
+Loose casings of embedded road studs shall be classed as a critical defect.
+4.10.1
+Detailed inspections for this purpose should be carried out when lane closures for other activities are in
+operation.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 16 of 80
+======================================================================
+CS 126 Version 0.1.0
+5. Performance requirements
+5.
+Performance requirements
+General
+5.1
+A risk based inspection regime for road markings and retroreflecting road studs shall result in the
+identification of any defects.
+Road markings
+5.2
+Visual assessments surveys shall be undertaken to measure the wear index/score of road markings, as
+identified in Appendix B.
+5.3
+Visual digital surveys for dry nighttime retroreflectivity shall use preview times and visibility distances as
+shown in Table 5.3 at locations where no machine survey data is available.
+Table 5.3 Required road marking visibility distances (m) for various speed limits and preview
+times (dry conditions)
+Preview time (secs)
+Speed limit (miles per hour)
+20
+30
+40
+50
+60
+70
+1.8 (absolute minimum)
+16m
+24m
+32m
+40m
+48m
+56m
+2.2 (desirable minimum)
+20m
+30m
+39m
+49m
+59m
+69m
+NOTE
+The preview time values presented in Table 5.3 are based on the assumption that typical vehicles are
+used i.e. a typical family car with standard headlight height and output not exceeding 1150 lumens.
+5.4
+On multi-lane carriageways each lane shall be assessed separately.
+5.5
+Where nearside and offside road markings are present and are visible for different distances, the
+longest achieved visibility can be used, but both shall be recorded.
+5.6
+For all visual survey methods (excluding calibrated visual digital play back and stationary observation
+during a road closure), the age of the observer shall be applied in accordance with the correction
+percentages in Table 5.6.
+Table 5.6 Age related corrections to achieve visibility distances from initial surveys
+Age (years) related corrections to visibility distances
+Age <30
+Age 30-40
+Age 40-50
+Age 50-60
+Age >60
+-14.2%
+-9.5%
+-4.8%
+-2.4%
+N/A
+NOTE
+In Table 5.6 the corrections take account of the fact that eye structures become less effective as a
+person ages. For example if a 31 one year old carrying out the test can see a road marking at 100m,
+the survey record will show a corrected distance of 90.5m to take account of the relatively young age of
+the observer.
+5.7
+Road markings shall exceed the values identified in Appendix B Tables B.2 and B.3 for the
+characteristics included in BS EN 1436 [Ref 9.N].
+5.8
+Specific locations where road markings framed by longitudinal road markings are subject to increased
+wear or deterioration (e.g. reduced lane widths, reduced ghost island width) shall be identified and
+managed in accordance with the requirements of the Overseeing Organisation.
+5.9
+Visual inspections of road markings framed by longitudinal road markings shall identify specific
+locations where additional sweeping is required in order to deal with build-up of detritus that can affect
+the legibility of road markings of this type.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 17 of 80
+======================================================================
+CS 126 Version 0.1.0
+5. Performance requirements
+Light emitting (active) road studs
+5.10
+Physical characteristics of active road studs not related to the active element shall be inspected in the
+same manner as retroreflecting road studs, if not specified by the manufacturer or in the type approval
+document.
+Street lighting regimes
+5.11
+Where street lights are dimmed or switched off (full or part-time), road markings and retroreflecting road
+studs shall be inspected as if the road is unlit.
+Special circumstances
+5.12
+Health and safety files of schemes completed since the last inspection shall be reviewed to enable any
+site specific performance requirements to be identified.
+NOTE
+For example, at a safety critical location, wet night retroreflectivity might have been increased.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 18 of 80
+======================================================================
+CS 126 Version 0.1.0
+6. Asset management data records
+6.
+Asset management data records
+6.1
+Inspection data and records shall be collected, maintained and placed on a asset data management
+system that is able to output records in an agreed format, as identified by the Overseeing Organisation,
+either directly or via interface, in accordance with contractual requirements.
+NOTE
+The integrity of the inventory can be maintained through back-up facilities with agreed security
+procedures.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 19 of 80
+======================================================================
+CS 126 Version 0.1.0
+7. Normative references
+7.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+Highways England. CD 109, 'Highway link design'
+Ref 2.N
+Highways England. CS 125, 'Inspection of traffic signs'
+Ref 3.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 4.N
+Highways England. MCHW SA 1, 'MCHW Volume 0, Section 3, Part 1: SA 1: Lists of
+Compliant/Approved/Registered Products.'
+Ref 5.N
+NHSS 7, 'National Highway Sector Scheme 7 - Application of Road Marking Materials
+& Road Studs to Road Surfaces'
+Ref 6.N
+Highways England. TS 501, 'Road lighting inspection'
+Ref 7.N
+BSI. BS EN 1463-1, 'Road marking materials – Retroreflecting road studs – Initial
+performance Requirements (Designated Standard)'
+Ref 8.N
+BSI. BS EN 1824, 'Road marking materials – Road trials'
+Ref 9.N
+BSI. BS EN 1436, 'Road marking materials. Road marking performance for road
+users and test methods'
+Ref 10.N
+The National Archives. legislation.gov.uk. SI 2016 No.362 (TSRGD), 'ROAD
+TRAFFIC - The Traffic Signs Regulations and General Directions 2016'
+Ref 11.N
+TSO. TSM Chapter 5, 'Traffic Signs Manual Chapter 5 - Road Markings'
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 20 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix A. Risk based inspection process
+Appendix A. Risk based inspection process
+If the Overseeing Organisation has identified the potential to use a risk based inspection process in
+order to determine inspection frequencies of road markings and road studs, use Figure A.1
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 21 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix A. Risk based inspection process
+Figure A.1 Risk based inspection process
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 22 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Appendix B. Asset inspection methods and defect categorisation
+B1
+Road markings
+B1.1
+Detailed visual assessment scoring system
+Table B.1 provides information on visual assessment scoring. Photographic examples for each of the
+scores below can be found in Appendix C. The visual assessment system should be applied to each
+road marking and aggregated over 100m. The assessment should not mix materials or line types i.e.
+each line type should be associated with its own averaged score. In the case of lane dividing lines,
+each lane line should also be associated with its own average score.
+Use of Table B.1 may be required when carrying out the process in Figures B.1 and B.2 for vehicle
+mounted surveys.
+Where detritus or vegetation encroaches onto a road marking the assessment score should be taken
+before and after remedial action has been taken to remove the defect. The defect should be scored
+and categorised in the same way as wear defects based on the residual visible area.
+Table B.1 Visual assessment scoring for wear
+Assessment
+Wear
+index/score
+Defect type when score is averaged
+Non-existent, residue only
+0
+Critical defect
+Barely visible
+10
+Critical defect
+Visible, but has randomly spaced
+small bare spots
+20
+Potentially critical defect – judgement required
+taking into account location and function. Plan
+should be put in place to manage
+Marginal – some visible wear,
+larger bare spots
+30
+Non-critical defect
+Very little wear
+40
+Non-critical defect
+No obvious wear
+50
+Not a defect
+Note 1: The criteria in Table B.1 applies to raised rib edge road markings when viewed from above
+(plan view) as well as the vertical profile of raised road markings as these provide an auditory function
+as well as a visual function.
+B1.2
+Machine surveys
+Figures B.1 and B.2 provide requirements when carrying out vehicle mounted device surveys in unlit
+and lit areas respectively. Figure B.3 is for areas that cannot be surveyed by vehicles.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 23 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Figure B.1 Assessment of longitudinal road markings by vehicle mounted device in unlit area
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 24 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Figure B.2 Assessment of longitudinal road markings by vehicle mounted device in lit areas
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 25 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Figure B.3 Assessment of areas that cannot be surveyed by vehicle mounted device
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 26 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Note 1: Measurements of retroreflectivity should be carried out as set out in B1.4. Measurements for
+wear and luminance factor should be carried out in accordance with Section 3.
+Table B.2 Threshold levels for characteristics
+Characteristic
+Threshold level
+Method
+Retroreflectivity
+(R)
+< 100 mcd/m2/lux in lit areas and
+< 150 mcd/m2/lux in unlit areas for line type
+(a) - see note 2
+< 80 mcd/m2/lux in lit areas and
+< 120 mcd/m2/lux in unlit areas for line type
+(b) - see note 2
+< 35 mcd/m2/lux for "Condition of
+wetness" (where applicable for markings
+specified to SHW [Ref. 5])
+BS EN 1436 [Ref
+9.N]
+Wear
+< 30 Score for each type of
+marking
+Visual assessment
+(Table B.1)
+Luminance factor (β) or
+Luminance co-efficient (Qd)
+< 0.30 for white or < 0.20 for yellow line
+type (c) or Q2 or B3
+BS EN 1436 [Ref
+9.N]
+Note 2: Critical areas of the network refer to those areas of the network that may pose a risk to the road
+user if badly worn. These should be defined with local knowledge and should include:
+1) "Give Way" lines and "STOP" signs;
+2) regulatory road markings, e.g. double white lines, solid edged ghost islands;
+3) large areas of markings, e.g. "SLOW" markings, exit arrows to slips on the main line and
+on-carriageway 'destinations';
+4) transverse yellow bars;
+5) road markings at or within 50m of a junction.
+B1.3
+Skid resistance on critical areas
+Pendulum measurements of the critical areas of the network should be taken using Table B.3.
+Measurements should be taken on the most trafficked areas of the road markings at each location and
+an average calculated.
+Table B.3 Skid resistance criteria
+Area
+Critical defect threshold level (Skid Resistance
+Tester Value - SRT)
+Method
+Critical areas (as Note 2 of
+Figure B.3)
+<55
+Non-critical areas
+<45
+BS EN 1436
+[Ref 9.N]
+B1.4
+Procedure for the in situ testing of retroreflection using handheld devices
+B1.4.1
+General
+This procedure is for the use of handheld retro-reflectometers as described in BS EN 1436 [Ref 9.N]
+"Road marking performance for road users".
+B1.4.2
+Number of readings
+For continuous lines, take 15 readings over a 5 metre section minimum. If the marking is a centre line,
+take 15 readings with the equipment facing in each direction.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 27 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+For broken lines, take 5 readings per mark for 3 consecutive marks. Readings should not be taken at
+the very beginning or end of the line. If the marking is a centre line, take 5 readings with the equipment
+facing in each direction.
+For markings wider than 150mm, take readings down the central axis of the line but including some
+"off-centre" ensuring that any such measurements are still made within the confines of the marking.
+For other markings, i.e. 'symbols', 'lettering', transverse lines etc., readings should be taken at
+approximately 5 equidistant points on the surface of the marking.
+If a particular reading appears inconsistent, that reading should be repeated.
+B1.4.3
+Recording and interpretation of results
+A survey report for each location should be produced in a format agreed by the Overseeing
+Organisation, to include for example averages or sub-totals of markings.
+B1.4.4
+Measurement of retrospective in conditions of wetness
+Where required, the inspection method for conditions of wetness, as described in BS EN 1436 [Ref
+9.N]. The inspection methods for "conditions of rain" is not intended for use with the standard
+measuring equipment currently in general use in the UK.
+B2
+Comparison of vehicle mounted device and handheld retroreflectometer
+readings
+B2.1
+Advantages and disadvantages of different devices
+Advantages of using vehicle mounted devices are that they provide:
+1) savings in traffic management costs as road closures are not required;
+2) fast and reliable data collection on straight roads for decision making; and
+3) a focus for further investigations.
+Disadvantages of using vehicle mounted devices are that:
+1) they do not give consistently the same results as hand held instruments for site location and hence
+multiplication factors may be required as described below;
+2) they can generate large amounts of missing data for single carriageway roads as vehicles cannot
+drive sufficiently close to centrelines due to oncoming traffic;
+3) the level of data confidence can vary, dependent on device; and
+4) they can only measure dry retroreflectivity values and therefore require dry conditions, if required by
+vehicle manufacturer, to produce accurate results.
+Advantages of using handheld instruments are:
+1) they are reliable for small areas or areas where use can be made of existing road closures (for other
+reasons) or where vehicle mounted devices are not suitable; e.g. closely spaced junctions or heavily
+trafficked single carriageways;
+2) they can be used to measure wet retroreflectivity values; and
+3) they are easily carried.
+Disadvantages of using handheld instruments are:
+1) they do not provide the same results as vehicle mounted devices for the same spots; and
+2) road closures (with associated risks for road workers) are required for taking readings.
+B2.2
+Correlation factors
+Where hand held readings are taken, they should be recorded over lengths no shorter than 50m for
+averaging purposes. Manufacturers produce correlation factors and these should be applied converting
+a vehicle mounted device reading to an equivalent reading by a hand held instrument.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 28 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+B3
+Road studs
+Figures B.4 and B.5 provide guidance on survey of road studs. A non-critical defect from applying
+Figure B.4 may need to be re-classified after applying Figure B.5.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 29 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Figure B.4 Daytime assessment of retroreflecting road studs
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 30 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix B. Asset inspection methods and defect categori...
+Figure B.5 Night-time assessment of retroreflecting road studs
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 31 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Appendix C. Photographic examples for detailed visual assessment
+Below are photographs to provide guidance on scoring the level of condition of road markings:
+Figure C.1 Condition score 50 – close-up
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 32 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.2 Condition score 50 – close-up of profiled line designed for wet visibility
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 33 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.3 Condition score 50 – long view
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 34 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.4 Condition score 40 - close-up
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 35 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.5 Condition score 40 – long view
+Note - although not ideal, the surface patch repair being at the end of the marking will be unlikely to
+have an effect on road user understanding, but may in time become a surfacing hazard, particularly for
+motorcyclists.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 36 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.6 Condition score 30 – close-up
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 37 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.7 Condition score 30 – long view
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 38 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.8 Condition score 20 – close-up
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 39 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.9 Condition score 20 – close-up of profiled line designed for wet visibility
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 40 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.10 Condition score 20 – long view
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 41 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.11 Condition score 10 – close-up
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 42 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.12 Condition score 10 – long view
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 43 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.13 Condition score 0 – close-up
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 44 of 80
+======================================================================
+CS 126 Version 0.1.0
+Appendix C. Photographic examples for detailed visual as...
+Figure C.14 Condition score 0 – long view
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 45 of 80
+======================================================================
+© Crown copyright 2022.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 46 of 80
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Inspection & Assessment
+CS 126
+England National Application Annex to CS 126
+Inspection and assessment of road markings
+and road studs
+(formerly TD 26/17)
+Revision 0
+Summary
+This National Application Annex contains Highways England specific requirements related to
+inspection and assessment of road markings and road studs.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 47 of 80
+======================================================================
+CS 126 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Terms and definitions
+5
+E/1. Inspection frequencies
+6
+Road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Representative sample (CS 126, 2.9)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+E/2. Inspection methods
+7
+Detailed surveys and skid resistance measurements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Representative sample (CS 126, 3.10) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+E/3. Defect categories
+8
+E/4. Normative references
+9
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 48 of 80
+======================================================================
+CS 126 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Mar 2020
+Highways England National Application Annex to CS 126.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 49 of 80
+======================================================================
+CS 126 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes TD 26/17 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 50 of 80
+======================================================================
+CS 126 Revision 0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Highways England specific requirements related to
+inspection and assessment of road markings and retro-reflective road studs.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 51 of 80
+======================================================================
+CS 126 Revision 0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Contract
+Legal document that states the formal agreement between two different groups,
+enforceable by law. In some forms of procurement this is termed as an
+"Agreement".
+Critical areas
+Critical areas of the network refer to those areas of the network that can pose a
+risk to the road user if badly worn.
+Skid resistance
+Measurement on road markings carried out using the standard British pendulum
+apparatus. BS EN 1436 [Ref 2.N] specifies skid resistance classes.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 52 of 80
+======================================================================
+CS 126 Revision 0
+E/1. Inspection frequencies
+E/1.
+Inspection frequencies
+Road markings
+Representative sample (CS 126, 2.9)
+E/1.1
+For a representative sample of road marking data, a minimum of 10% of the network shall be collected
+each year for each characteristic, or for safety critical areas, 20% of the network.
+NOTE
+This evidence can be from measurements taken between renewals, using road closures undertaken
+specifically (if necessary) or evidence taken when road or lane closures are applied for other reasons.
+E/1.2
+Where there is insufficient data to undertake a risk based inspection process the following maximum
+intervals shall not be exceeded, for the initial inspection:
+1) retroreflection of road markings - safety critical locations: two years, other locations: three years;
+2) visual survey of markings for wear - yearly;
+3) road studs - six months for visual surveys.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 53 of 80
+======================================================================
+CS 126 Revision 0
+E/2. Inspection methods
+E/2.
+Inspection methods
+Detailed surveys and skid resistance measurements
+Representative sample (CS 126, 3.10)
+E/2.1
+For a representative sample of data, a minimum of 10% of the network shall be collected each year, or
+for safety critical areas, 20% of the network.
+NOTE
+This evidence can be from measurements taken between renewals, using road closures undertaken
+specifically, (if necessary) or evidence taken when road or lane closures are applied for other reasons.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 54 of 80
+======================================================================
+CS 126 Revision 0
+E/3. Defect categories
+E/3.
+Defect categories
+E/3.1
+To align with national contracts in England, the score range currently illustrated in CS 126 Appendix B,
+Table B.1 and the photographs shown in Appendix C shall be converted in accordance with Table
+E/3.1N2.
+NOTE 1
+For example, in CS 126, a score of 30 is equivalent to a revised score of 3.
+NOTE 2
+There is no equivalent to the score of 0 as it is considered that the marking has ceased to exist at this
+point.
+Table E/3.1N2 Wear index/Score conversion table
+CS 126 Description wear index/score
+New score
+0
+N/A
+10
+5
+20
+4
+30
+3
+40
+2
+50
+1
+E/3.2
+On unlit carriageways of four lanes or wider, any roadmarking that produces a result of < 160mcd/m2
+/lux shall be defined as a critical defect.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 55 of 80
+======================================================================
+CS 126 Revision 0
+E/4. Normative references
+E/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+BSI. BS EN 1436, 'Road marking materials – Road marking performance for road
+users'
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 56 of 80
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 57 of 80
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Inspection & Assessment
+CS 126
+Northern Ireland National Application Annex to
+CS 126 Inspection and assessment of road
+markings and road studs
+(formerly TD 26/17)
+Revision 0
+Summary
+This National Application Annex contains Department for Infrastructure, Northern Ireland specific
+requirements related to inspection and assessment of road markings and road studs.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 58 of 80
+======================================================================
+CS 126 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Applicability
+5
+NI/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 59 of 80
+======================================================================
+CS 126 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Mar 2020
+Department for Infrastructure, Northern Ireland National Application Annex to
+CS 126.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 60 of 80
+======================================================================
+CS 126 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England on behalf of Department for Infrastructure, Northern
+Ireland.
+This document supersedes TD 26/17, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 61 of 80
+======================================================================
+CS 126 Revision 0
+Introduction
+Introduction
+Background
+This National Application Annex contains the Department for Infrastructure, Northern Ireland specific
+requirements related to inspection and assessment of road markings and road studs.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 62 of 80
+======================================================================
+CS 126 Revision 0
+NI/1. Applicability
+NI/1.
+Applicability
+NI/1.1
+The requirements in CS 126 shall not apply in Northern Ireland.
+NI/1.1.1
+The Department for Infrastructure should be contacted for further guidance and advice related to the
+inspection and assessment of road markings and road studs.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 63 of 80
+======================================================================
+CS 126 Revision 0
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 64 of 80
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 65 of 80
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Inspection & Assessment
+CS 126
+Scotland National Application Annex to CS
+126 Inspection and assessment of road
+markings and road studs
+(formerly TD 26/17)
+Version 0.1.0
+Summary
+This National Application Annex contains Transport Scotland specific requirements related to
+inspection and assessment of road markings and road studs.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 66 of 80
+======================================================================
+CS 126 Version 0.1.0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Terms and definitions
+5
+S/1. Scope
+6
+S/2. Inspection frequencies
+7
+Roadmarkings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Clauses 2.7 and 2.8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+S/3. Inspection methods
+8
+Machine surveys . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+S/4. Defect categories
+9
+Defect categories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+S/5. Normative references
+10
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 67 of 80
+======================================================================
+CS 126 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CS 126
+0.1.0
+May 2022
+Scotland NAA
+Incremental change to
+requirements
+Review of Transport Scotland's requirements that do not apply, or are different to CS 126.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CS 126
+0
+March 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 68 of 80
+======================================================================
+CS 126 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+This document supersedes TD 26/17 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 69 of 80
+======================================================================
+CS 126 Version 0.1.0
+Introduction
+Introduction
+Background
+This National Application Annex gives Transport Scotland specific requirements related to inspection
+and assessment of road markings and retro-reflective road studs.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 70 of 80
+======================================================================
+CS 126 Version 0.1.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Contract
+Legal document that states the formal agreement between two different groups,
+enforceable by law. In some forms of procurement this is termed as an "Agreement".
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 71 of 80
+======================================================================
+CS 126 Version 0.1.0
+S/1. Scope
+S/1.
+Scope
+S/1.1
+Where stated, the requirements in this document shall be used, instead of those requirements in CS
+126.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 72 of 80
+======================================================================
+CS 126 Version 0.1.0
+S/2. Inspection frequencies
+S/2.
+Inspection frequencies
+Roadmarkings
+Clauses 2.7 and 2.8
+S/2.1
+Clauses 2.7 and 2.8 in CS 126 shall not apply as Transport Scotland carries out annual formal
+inspections, regardless of the claimed functional life of an asset.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 73 of 80
+======================================================================
+CS 126 Version 0.1.0
+S/3. Inspection methods
+S/3.
+Inspection methods
+Machine surveys
+S/3.1
+To align with national contracts in Scotland, the wear index/score range currently referred to in CS 126,
+together with CS 126 - Appendix B (Table B.1) and photographs shown in Appendix C, shall be
+converted in accordance with Table S/3.1N "wear index/score conversion table" illustrated below.
+NOTE
+For example, in CS 126, a wear index/score of 30 is equivalent to a Scottish rating score of C - Fair.
+Table S/3.1N Wear index/score conversion table
+CS 126 Wear index/score
+Scottish condition rating
+0
+E - Very Poor
+10
+E - Very Poor
+20
+D - Poor
+30
+C - Fair
+40
+B - Good
+50
+A - Excellent
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 74 of 80
+======================================================================
+CS 126 Version 0.1.0
+S/4. Defect categories
+S/4.
+Defect categories
+Defect categories
+S/4.1
+To align with national contracts in Scotland, the categorisation of defects currently referred to in CS
+126, Section 4 and Appendix B shall be converted in accordance with the Table S/4.1N "categorisation
+of defects" illustrated below.
+NOTE
+For example, in CS 126, a defect category of critical defect is equivalent to a revised category of CAT 1.
+Table S/4.1N Categorisation of defects
+CS 126 category
+Transport Scotland category
+Critical defect
+All CAT1 categories
+Non-Critical defect
+All CAT2 categories
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 75 of 80
+======================================================================
+CS 126 Version 0.1.0
+S/5. Normative references
+S/5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 76 of 80
+======================================================================
+© Crown copyright 2022.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 77 of 80
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Inspection & Assessment
+CS 126
+Wales National Application Annex to CS 126
+Inspection and assessment of road markings
+and road studs
+(formerly TD 26/17)
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CS 126.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 78 of 80
+======================================================================
+CS 126 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 79 of 80
+======================================================================
+CS 126 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Mar 2020
+Welsh Government National Application Annex to CS 126.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
+
+======================================================================
+PAGE 80 of 80
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 126 Version 0.1.0, published: 30-May-2022
+
+
