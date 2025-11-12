@@ -1,0 +1,3869 @@
+======================================================================
+PAGE 1 of 105
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 109
+Highway link design
+(formerly TD 9/93, TD 70/08)
+Revision 1
+Summary
+This document provides requirements and advice for all aspects of highway link design to be
+used for both new and improved all-purpose and motorway trunk roads including connector
+roads.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 2 of 105
+======================================================================
+CD 109 Revision 1
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Design principles
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Connection to existing roads
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Wide single 2 + 1 roads and climbing lanes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Coordinated link design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Design speed
+9
+Selection of design speed . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Rural roads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Urban roads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Harmonic mean visibility (VISI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Design speed related parameters and relaxations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+3. Sight distance
+18
+Stopping sight distance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Full overtaking sight distance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Obstructions to sight distance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Relaxations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+4. Horizontal alignment
+20
+Road camber and superelevation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Relaxations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Application of superelevation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Widening on curves
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Transitions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Length of curve:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+5. Vertical alignment
+23
+Gradients . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Minimum gradient
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Vertical curves
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Crest curves
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Sag curves . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Relaxations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Crest curves
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Sag curves . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 3 of 105
+======================================================================
+CD 109 Revision 1
+Contents
+6. Wide single 2+1 roads
+26
+Design principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Geometric standards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Cross-section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Lengths of overtaking lane sections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Changeovers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+WS2+1 interfaces
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Traffic signs and road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+7. Climbing lanes - single carriageways
+38
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Layout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Layout at the start of a climbing lane . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Layout at the end of climbing lane
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Sight distance requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Road markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+8. Climbing lanes - dual carriageways and motorways
+50
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Layout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Lane widths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Layout at the start of climbing lane . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Layout at the end of climbing lane
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+9. Single carriageway road overtaking sections
+56
+Overtaking sections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Overtaking value . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Lengths of road over 2km . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Lengths of road less than 2 km . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Level overtaking sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Commencement of level overtaking sections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+Termination of level overtaking sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+Climbing lane sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Commencement of climbing lane overtaking sections . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Termination of climbing lane overtaking sections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Single lane downhill sections at climbing lanes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Commencement of single lane downhill overtaking sections at climbing lanes . . . . . . . . . . . . . .
+58
+Termination of single lane downhill overtaking sections at climbing lanes . . . . . . . . . . . . . . . . .
+61
+Dual carriageway overtaking sections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Commencement of dual carriageway overtaking sections
+. . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Termination of dual carriageway overtaking sections . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Wide single 2+1 roads (WS2+1)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Commencement of WS2+1 overtaking sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Termination of WS2+1 overtaking sections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Obstructions to overtaking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Horizontal curve design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+Vertical curve design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+Changes in carriageway type . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+10. Normative references
+66
+11. Informative references
+67
+Appendix A. Coordinated link design
+68
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 4 of 105
+======================================================================
+CD 109 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Mar 2020
+Revision 1 (March 2020) Update to references in England National Application
+Annex only. Revision 0 (November 2019) CD 109 replaces TD 9/93 and TD
+70/08. This full document has been re-written to make it compliant with the
+new Highways England drafting rules.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 5 of 105
+======================================================================
+CD 109 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes TD 9/93 "Highway Link Design" and TD 70/08 "Design of Wide Single 2+1
+Roads", which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 6 of 105
+======================================================================
+CD 109 Revision 1
+Introduction
+Introduction
+Background
+This document sets out the design requirements and advice to be used when developing the design of
+a highway / road link.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+Design principles
+General
+This document provides requirements and advice to derive the design speed and the appropriate
+values of geometric parameters for use in the design of the road alignment. It states the basic
+principles to be used for coordinating the various geometrical elements of the road design, which
+together form the three dimensional design of the road.
+This document provides requirements for maximum and minimum levels of provision for the various
+design features and also identifies where relaxations from these requirements are permitted.
+Connection to existing roads
+Where an improved section of road rejoins an unimproved section of existing road, providing a similar
+standard of curvature and stopping sight distance as provided for the improvement will create a
+consistent standard at the interface.
+The figure below shows the connection of an improvement to an existing road. The curvature and
+stopping sight distance at point C is adequate for the approach design speed which has increased due
+to the improvement between points A and B.
+Connection to existing roads
+Wide single 2 + 1 roads and climbing lanes
+This document includes requirements and advice for the design of wide single 2 + 1 roads and climbing
+lanes when improving an existing carriageway or in a new build situation.
+Coordinated link design
+The various geometrical elements detailed in this document need to be coordinated, together with
+cross-section ( CD 127 [Ref 1.N]) and junction layouts ( CD 122 [Ref 3.N], CD 123 [Ref 2.N] and
+roundabouts CD 116 [Ref 4.N]), so the three-dimensional layout as a whole is appropriate in terms of
+traffic safety, operation and economic / environmental effects. Single carriageway design is given
+particular emphasis due to the problems of driver understanding and provision for overtaking. A
+general guide of the layout features, such as edge treatments, access treatments and junction types,
+that can be appropriate for various types of rural roads is given in Appendix A. It is not possible to
+tabulate overall layout characteristics for roads in urban areas in the same way as for rural areas, as
+the constraints of the existing urban fabric will result in designs tailored to meet the site-specific
+requirements.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 7 of 105
+======================================================================
+CD 109 Revision 1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+AADT
+Annual average daily traffic
+C/way
+Carriageway
+D2AP
+Dual 2 lane all-purpose
+D3AP
+Dual 3 lane all-purpose
+D2M
+Dual 2 lane motorway
+D3M
+Dual 3 lane motorway
+D4M
+Dual 4 lane motorway
+FOSD
+Full overtaking sight distance
+Km
+Kilometres
+Kph
+Kilometres per hour
+S2
+Single 2 lane carriageway
+TSRGD
+Traffic Signs Regulations and General Directions
+VRS
+Vehicle Restraint System
+WS2
+Wide Single 2 lane carriageway
+WS2+1
+Wide Single 2+1 carriageway
+Symbols
+Symbol
+Definition
+Ac
+Alignment constraint
+B
+Bendiness Degrees / km
+L
+Length of basic transition (metres)
+Lc
+Layout constraint
+n
+Number of observations
+q
+Rate of change of centripetal acceleration (metres / second³) travelling along curve at
+constant speed V(kph)
+R
+Radius of curve (metres)
+S
+Superelevation %
+V
+Design speed kph
+VW
+Average verge width (averaged for both sides of the road)
+VISI
+Harmonic mean visibility
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 8 of 105
+======================================================================
+CD 109 Revision 1
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Adverse camber
+A road profile where the carriageway surface slopes away from the
+inside of a bend, resulting in the carriageway being higher on the
+inside of the bend than on the outside.
+Alignment constraint
+The degree of constraint imparted by the road alignment.
+Bendiness
+The total change of direction in horizontal alignment in degrees / km
+measured over a minimum length of 2km.
+Changeover
+A carriageway layout which effects a change in the designated use of
+the middle lane of a WS2+1 road from one direction of traffic to the
+opposite direction.
+Climbing lane
+The nearside lane when a lane is added to a single carriageway, dual
+carriageway or motorway in order to improve capacity and / or safety
+because of the presence of a steep gradient.
+Conflicting changeover
+A changeover where the vehicles using the middle lane on a WS2+1
+road are travelling towards each other.
+Full overtaking sight
+distance
+The sight distance required for overtaking vehicles using the
+opposing traffic lane on single carriageway roads.
+Harmonic mean visibility
+The harmonic mean of individual measurements of sight distance.
+Layout constraint
+The degree of constraint imparted by the road cross-section, verge
+width and frequency of junctions and accesses.
+Link
+A length of road between junctions.
+Non-conflicting changeover
+A changeover where the vehicles using the middle lane on a WS 2+1
+road are travelling away from each other.
+Non-overtaking section
+Sections of a 2 lane single carriageway road which are not overtaking
+sections.
+Overtaking lane section
+A two lane section of a WS2+1 road provided in one direction to
+facilitate overtaking, with the opposing traffic confined to one lane.
+Overtaking section
+Sections of 2 lane single carriageway road where the combination of
+horizontal / vertical alignment, visibility, or width provision is such that
+clear opportunities for overtaking using the opposing lane occur.
+Single lane section
+A single lane section of a WS2+1 road provided in one direction
+running parallel to an overtaking lane section in the opposite direction.
+Stopping sight distance
+The distance within which drivers need to be able to see ahead to
+stop from a given speed as required by this document.
+WS2 carriageway
+A wide single carriageway road with one lane in each direction.
+WS2+1 carriageway
+A road with two lanes of travel in one direction and a single lane in the
+opposite direction as outlined in Section 6 of this document.
+WS2+1 interface
+The interface between a WS2+1 road and a two-lane single
+carriageway road (S2).
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 9 of 105
+======================================================================
+CD 109 Revision 1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document provides requirements and advice for all aspects of highway / road link design and shall
+be used for both new and improved motorway and all-purpose trunk roads.
+1.2
+This document shall apply to WS2 roads where they are equal to or less than 2km in length.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving highway / road link design on
+the Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 10 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+2.
+Design speed
+Selection of design speed
+Rural roads
+2.1
+For new rural roads, design speed shall be derived from Figure 2.1 using alignment constraint (Ac) and
+layout constraint (Lc).
+Figure 2.1 Selection of design speed (rural roads)
+NOTE 1
+In Figure 2.1 the design speeds are arranged in bands (i.e. 120kph, 100kph, 85kph, etc). Suffixes A
+and B indicate the higher and lower categories of each band.
+NOTE 2
+As an example using Figure 2.1 to derive a design speed, an Ac value of 12 and and Lc value of 15
+would give a design speed of 100A.
+2.2
+Alignment constraint (Ac) shall be calculated using Equation 2.2a and Equation 2.2b for dual
+carriageways and single carriageways respectively:
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 11 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+Equation 2.2a Dual carriageways
+Ac = 6.6 + B
+10
+Equation 2.2b Single carriageways
+Ac = 12 −VISI
+60 + 2B
+45
+where:
+B =
+Bendiness degrees / km.
+VISI =
+Harmonic mean visibility (metres) (see harmonic mean visibility section below).
+NOTE
+Bendiness is calculated by dividing the sum of the change in direction (in degrees) of a road by the
+length (in km) over which it occurs. For example, a 3km length of road with a total change in direction
+of 180 degrees would have a bendiness of 60 degrees / km.
+2.3
+Layout constraint (Lc) shall be derived using Table 2.3.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 12 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+Table 2.3 Layout constraint (Lc)
+Road type
+S2
+WS2
+WS2+1
+D2AP
+D3AP
+D2M
+D3M
+D4M
+Carriageway width (excluding hard
+strips and hard shoulder)
+6 metres
+7.3 metres
+10 metres
+11.5
+metres
+Dual 7.3
+metres
+Dual
+11 m-
+etres
+Dual 7.3
+metres &
+hard
+shoulder
+Dual 11
+metres &
+hard
+shoulder
+Dual 14.7
+metres &
+hard
+shoulder
+Frequency of commercial
+accesses, lay-bys and junctions
+H
+M
+M
+L
+M
+L
+M
+L
+M
+L
+L
+L
+L
+L
+Standard verge width
+29
+26
+23
+21
+19
+17
+19
+17
+10
+9
+6
+4
+0
+0
+1.5 metre verge
+31
+28
+25
+23
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+0.5 metre verge
+33
+30
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+L = Low number of commercial accesses, lay-bys and junctions, less than or equal to 5 per km
+M = Medium number of commercial accesses, lay-bys and junctions, between 6 to 8 per km
+H = High number of commercial accesses, lay-bys and junctions, greater than or equal to 9 per km
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 13 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+NOTE 1
+Layout constraint (Lc) measures the degree of constraint provided by the road cross-section, verge
+width, and frequency of junctions, lay-bys and commercial accesses.
+NOTE 2
+Values of Lc are obtained from Table 2.3 by reading along the appropriate verge width rows and down
+the road type columns corresponding to the appropriate frequency of commercial accesses, lay-bys
+and junctions. The appropriate value of Lc is denoted by the number read at the intersection of the
+verge width row and the road type column.
+2.4
+For road improvements of up to 2km in length on existing rural roads, the design speed shall be derived
+using Figure 2.1 with the value of Ac calculated for a minimum road length of 2 km incorporating the
+section of road improvement.
+Urban roads
+2.5
+On urban roads, design speeds shall be selected with reference to the speed limits for the road, as
+shown in Table 2.5.
+Table 2.5 Urban roads speed limit/design speed relationship
+Speed limit
+Design speed
+Mph
+Kph
+Kph
+30
+48
+60B
+40
+64
+70A
+50
+80
+85A
+60
+96
+100A
+NOTE
+Design speeds are higher than the speed limit and therefore permit a small margin for vehicle speeds
+in excess of the speed limit.
+Harmonic mean visibility (VISI)
+2.6
+The harmonic mean visibility (VISI) shall be measured over a minimum length of 2km.
+2.6.1
+Measurements of sight distance should be taken in both directions at regular intervals (50 metres for
+sites of restricted visibility, 100 metres for sites with unrestricted visibility).
+2.7
+Sight distance shall be measured from an eye height of 1.05 metres to an object height of 1.05 metres,
+with both measurements taken above the centre line of the road surface.
+2.8
+Sight distance shall be the true sight distance available at any location, including any sight distance
+available across verges and outside of the highway boundary or across embankment slopes or
+adjoining land, as shown in Figure 2.8.
+Figure 2.8 Measurement of harmonic mean visibility
+2.8.1
+The harmonic mean visibility for new roads should be calculated using Equation 2.8.1.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 14 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+Equation 2.8.1 Formula for calculating harmonic mean visibility
+V ISI =
+n
+1
+V1 + 1
+V2 + 1
+V3 . . . +
+1
+Vn
+where:
+n =
+Number of observations.
+V1 =
+Sight distance at point 1, etc.
+2.8.2
+The harmonic mean visibility for existing roads should be calculated using an empirical relationship
+given in Equation 2.8.2.
+Equation 2.8.2 Empirical relationship
+Log10V ISI = 2.46 + VW
+25 −B
+400
+where:
+VW =
+Average verge width (averaged for both sides of the road)
+B=
+Bendiness (degree per km - minimum length of 2 km)
+NOTE 1
+Equation 2.8.2 is applicable up to VISI = 720 metres.
+NOTE 2
+On long straight roads, or where sight distance is available outside of the highway boundary, the
+relationship between the average verge width and bendiness can result in values of harmonic visibility
+calculated using Equation 2.8.1 being significantly underestimated.
+2.8.3
+For preliminary route analysis, where detailed measurements of sight distance are not available, the
+following typical values should be used:
+1) VISI = 700 metres for long virtually straight roads, or where the road is predominantly on
+embankment affording high visibility across embankment slopes or adjoining level land;
+2) VISI = 500 metres where a new road is designed with continuous overtaking visibility, with large
+crest K values and wide verges for visibility;
+3) VISI = 300 metres where a new road is designed with frequent overtaking sections, but with
+stopping sight distance provision at all sharp curves;
+4) VISI = 100 - 200 metres where an existing single carriageway contains sharp bends, frequent
+double white line sections and narrow verges.
+NOTE
+The empirical relationship provided by Equation 2.8.2 can be used for the preliminary analysis of
+existing routes if values of bendiness (B) are available.
+Design speed related parameters and relaxations
+2.9
+Designs shall provide at least the desirable minimum values for stopping sight distance, horizontal
+curvature, vertical crest curvature and sag curvature as shown in Table 2.10, except for the following
+situations:
+1) where a relaxation is permitted by sections 2, 3, 4 or 5 of this document;
+2) the design of a vertical crest curve on a 2 lane single carriageway road (see Section 9).
+2.9.1
+Design parameters should meet or exceed desirable minimum values except where particular
+circumstances relating to 2 lane single carriageways roads exist (see Section 9).
+NOTE
+Requirements and advice on the application of relaxations below desirable minimum is provided in GG
+101 [Ref 5.N].
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 15 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+2.9.2
+Interfaces between sections of road with different design speeds should be designed so as not to
+suddenly present the driver with low radius horizontal curves, sharp crests or shorter sight distances.
+2.10
+Minimum geometric parameters for full overtaking sight distance (FOSD) and overtaking crest K values
+that shall be used for the corresponding design speed are shown in Table 2.10.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 16 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+Table 2.10 Design speed related parameters
+Design speed kph
+120
+100
+85
+70
+60
+50
+V2/R
+Stopping sight distance (metres)
+Desirable minimum
+295
+215
+160
+120
+90
+70
+-
+One step below desirable minimum
+215
+160
+120
+90
+70
+50
+-
+Horizontal curvature (metres)
+Minimum R* with adverse camber and without transitions
+2880
+2040
+1440
+1020
+720
+520
+5
+Minimum R* with superelevation of 2.5%
+2040
+1440
+1020
+720
+510
+360
+7.07
+Minimum R* with superelevation of 3.5%
+1440
+1020
+720
+510
+360
+255
+10
+Desirable minimum R (superelevation 5%)
+1020
+720
+510
+360
+255
+180
+14.14
+One step below desirable Minimum R (superelevation 7%)
+720
+510
+360
+255
+180
+127
+20
+Two steps below desirable minimum radius (superelevation 7%)
+510
+360
+255
+180
+127
+90
+28.28
+Vertical curvature
+Desirable minimum* crest K value
+182
+100
+55
+30
+17
+10
+-
+One step below desirable min crest K value
+100
+55
+30
+17
+10
+6.5
+-
+Desirable minimum sag K value
+37
+26
+20
+20
+13
+9
+-
+Overtaking sight distances
+Full overtaking sight distance FOSD (metres)
+-
+580
+490
+410
+345
+290
+-
+FOSD overtaking crest K value
+-
+400
+285
+200
+142
+100
+-
+* Not recommended for use in the design of single carriageways (see Section 9)
+The V²/R values shown above simply represent a convenient means of identifying the relative levels of design parameters, irrespective of design speed.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 17 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+NOTE 1
+The limit for relaxations is defined by a given number of design speed steps below a specific bench
+mark, usually the desirable minimum. Relaxations vary according to the type of road - motorway or
+all-purpose, and whether the design speed is band A or band B. Details for permitted relaxations are
+given in:
+1) Section 3 for stopping sight distance;
+2) Section 4 for horizontal alignment; and
+3) section 5 for vertical alignment.
+NOTE 2
+GG 101 [Ref 5.N] provides requirements and advice on recording the decision process when applying
+relaxations.
+NOTE 3
+When preparing design options that include relaxations, a number of site specific factors need to be
+assessed, including, whether the site is:
+1) isolated from other relaxations;
+2) isolated from junctions;
+3) one where drivers have desirable minimum stopping sight distance;
+4) subject to momentary visibility impairment only;
+5) subject to low traffic volumes;
+6) on geometry that is readily understandable to road users;
+7) on a road with no frontage access;
+8) one where traffic speeds are reduced locally due to adjacent road geometry (e.g. uphill sections,
+approaching roundabouts and priority junctions where traffic has to give way or stop, etc), or speed
+limits.
+NOTE 4
+The safety risk of using a relaxation in the design can be mitigated by providing:
+1) collision prevention measures;
+2) specific warning signs and road markings.
+2.11
+Values for stopping sight distance, horizontal curvature and vertical curvature shall not be less than
+those given in Table 2.10 for 50kph design speed regardless of permitted relaxations.
+2.12
+Except for stopping sight distance relaxations of up to 1 design speed step below desirable minimum
+coincident with horizontal curvature relaxations of up to 1 design speed step below desirable minimum,
+relaxations shall not be used in combination.
+2.13
+The relaxations below desirable minimum in stopping sight distance, desirable minimum vertical
+curvature for crest curves and sag curves, described in Sections 3 and 5 of this document respectively,
+shall not be used on the immediate approaches to junctions.
+NOTE
+For the purposes of this document the immediate approaches to a junction are defined as:
+1) for minor road approaches at at-grade priority junctions without diverge and merge tapers, those
+lengths of carriageway on the minor roads between a point 1.5 times the desirable minimum stopping
+sight distance upstream of the stop line or give way line and the stop line or give way line itself;
+2) for major road approaches at at-grade priority junctions without diverge and merge tapers, those
+lengths of carriageway on the mainline between a point 1.5 times the desirable minimum stopping
+sight distance from the centre line of the minor road and the centre line itself;
+3) for at-grade junctions with a diverge taper the length of carriageway from a point 1.5 times the
+desirable minimum stopping sight distance upstream of the start of the diverge taper to a point level
+with the minor road centre line;
+4) for at-grade junctions with a diverge auxiliary lane the length of carriageway from a point 1.5 times
+the desirable minimum stopping sight distance upstream of the start of the auxiliary lane taper to a
+point level with the minor road centre line;
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 18 of 105
+======================================================================
+CD 109 Revision 1
+2. Design speed
+5) for at-grade junctions with a merge taper the length of carriageway from a point 1.5 times the
+desirable minimum stopping sight distance upstream of a point level with the minor road centre line
+to the end of the merge taper;
+6) for roundabouts, those lengths of carriageway on the approach to the roundabout between a point
+1.5 times the desirable minimum stopping sight distance from the give way line and the give way line
+itself;
+7) for grade separated diverges with a diverge taper, the length of carriageway from a point 1.5 times
+the desirable minimum stopping sight distance upstream of the start of the diverge taper to the back
+of the diverge nose. For diverges without a diverge taper, the length of carriageway 1.5 times the
+desirable minimum stopping sight distance upstream of a point equivalent to the diverge exit taper
+length for the appropriate road class (see CD 122 [Ref 3.N]) upstream from the tip of nosing or ghost
+island head to the back of nosing;
+8) for grade separated merges with a merge taper, the length of carriageway from a point 1.5 times the
+desirable minimum stopping sight distance upstream of the back of the merge nose to the end of the
+merge taper. For merges without a merge taper, the length of carriageway from a point 1.5 times the
+desirable minimum stopping sight distance upstream of the back of the merge nose to a point
+equivalent to merge entry taper length downstream of the tip of nosing or ghost island tail (see CD
+122 [Ref 3.N]).
+2.13.1
+Where the design speed of an alignment changes from a higher to a lower value, permitted relaxations
+in design standards should be avoided on the length of road with the lower design speed adjacent to its
+interface with the section of road with the higher design speed.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 19 of 105
+======================================================================
+CD 109 Revision 1
+3. Sight distance
+3.
+Sight distance
+Stopping sight distance
+3.1
+Stopping sight distance as identified in Table 2.10 shall be measured between driver's eye heights of
+1.05 metres and 2.00 metres to object heights of between 0.26 metres and 2.00 metres measured from
+the road surface, as shown in Figure 3.1.
+Figure 3.1 Measurement of stopping sight distance
+3.2
+Desirable minimum stopping sight distance shall be available between any two points in the centre of
+each lane within the horizontal and vertical extents of the visibility envelope (measured for each
+carriageway in the case of dual carriageways and motorways).
+Full overtaking sight distance
+3.3
+Where an overtaking section is provided, at least full overtaking sight distance shall be available
+between eye heights of 1.05 metres and 2.00 metres to object heights of 1.05 metres and 2.00 metres
+above the centre of the carriageway as shown in Figure 3.3.
+Figure 3.3 Measurement of full overtaking sight distance
+3.3.1
+On 2 lane single carriageway roads, overtaking sections should be provided on as much of the road as
+practicable, especially where daily traffic flows are expected to approach the maximum design flows.
+NOTE 1
+Where an overtaking section is provided on a 2 lane single carriageway road, the full overtaking sight
+distance to be used is shown in Table 2.10 for the corresponding design speed.
+NOTE 2
+Full overtaking sight distance can normally only be economically provided in flat terrain where the
+combination of vertical and horizontal alignment permits the design of a level and relatively straight
+road alignment. It can be more economical to design a single carriageway road to provide clearly
+identifiable overtaking sections with full overtaking sight distance in relatively level areas, with individual
+sections of overtaking lane interspersed with non-overtaking sections.
+NOTE 3
+Designs which provide the driver with overtaking sections have been found to have a lower frequency
+of serious collisions than roads with continuous large radius curves without overtaking sections.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 20 of 105
+======================================================================
+CD 109 Revision 1
+3. Sight distance
+Obstructions to sight distance
+3.4
+The stopping sight visibility envelope shall be free of obstructions by fixed objects with the exception of:
+1) a fixed object with a width / length less than or equal to 550mm;
+2) a group of fixed objects with a combined width / length of 550mm or less
+3) those obstructions covered by the relaxations below.
+NOTE 1
+Isolated slim objects less than or equal to 550mm in width / length, such as lighting columns, sign
+supports, or slim footbridge supports, only result in intermittent obstructions to sight lines.
+NOTE 2
+On horizontal curves where the road is in a cutting, or at bridge crossings, verges and central reserves
+can be widened or bridge clearances increased to ensure the appropriate stopping sight distance is not
+obstructed.
+NOTE 3
+Verge and central reserve widening is sometimes required on horizontal curves to provide stopping
+sight distance in front of VRS.
+3.4.1
+Stopping sight distance and FOSD may be measured across opposing lanes or carriageways.
+Relaxations
+3.5
+Except for the restrictions to relaxations noted in Section 2 (Relaxations) of this document and in the
+clauses below, relaxations to the desirable minimum stopping sight distance requirements shall be
+permitted as identified in Table 3.5.
+Table 3.5 Number of steps permitted below desirable minimum - stopping sight distance
+Road type
+Design speed band
+Permitted relaxation
+Motorways
+Band A
+1 step
+Motorways
+Band B
+2 steps
+All-purpose
+Band A
+2 steps
+All-purpose
+Band B
+3 steps
+3.6
+Further relaxations to those shown in Table 3.5 shall be permitted as follows:
+1) for all band A roads where the stopping sight distance is reduced by features such as bridge piers,
+bridge abutments, communications equipment, lighting columns, supports for gantries and traffic
+signs in the verge or central reserve which form momentary obstructions greater than 550mm in
+width / length, the scope for relaxations can be extended by 1 design speed step;
+2) long bridge parapets or safety fences or safety barriers on horizontal curves can obscure stopping
+sight distance to the 0.26 metre object height, although the appropriate sight distance to the tops of
+other vehicles, represented by the 1.05 metre object height, can be obtained above the parapet or
+safety fence or safety barrier. For band A roads where the appropriate stopping sight distance to the
+high object is available in this way, the scope for relaxation of stopping sight distance for sight lines
+passing in front of the obstruction to the 0.26 metre object height can be extended by 1 design
+speed step;
+3) at or near the top of up gradients on single carriageways steeper than 4% and longer than 1.5 km,
+the scope for relaxation can be extended by 1 step due to reduced speeds uphill.
+3.7
+The permitted relaxations identified in Table 3.5 shall be reduced by 1 design speed step:
+1) on and immediately following long grades on dual carriageways steeper than 3% and longer than
+1.5km;
+2) immediately following an overtaking section on single carriageway roads.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 21 of 105
+======================================================================
+CD 109 Revision 1
+4. Horizontal alignment
+4.
+Horizontal alignment
+Road camber and superelevation
+4.1
+On horizontal curves, with radii less than shown in Table 2.10 (Minimum R with adverse camber and
+without transitions), (i.e. V²/R > 5) but greater or equal to radii shown in Table 2.10 (Minimum R* with
+superelevation of 2.5%), 2.5% superelevation falling towards the inside of the curve shall be provided.
+4.1.1
+On sections of road with radii greater than shown in Table 2.10 (Minimum R with adverse camber and
+without transitions), (i.e. V²/R < 5), the crossfall or camber should be 2.5% falling from the centre of
+single carriageways, or the central reserve of dual carriageways, to the outer channels.
+NOTE 1
+Document CG 501 [Ref 1.I] provides further advice on the design of crossfall for highway drainage.
+NOTE 2
+It can be necessary to eliminate adverse camber on larger radii for drainage reasons.
+4.2
+For curves with radii less than those shown in Table 2.10 (Minimum R with superelevation of 2.5%),
+(i.e. V²/r > 7) superelevation shall be provided in accordance with Equation 4.2 subject to maximum
+values for rural and urban roads.
+Equation 4.2 Superelevation
+S =
+V 2
+2.828R
+where:
+V
+Design speed (kph)
+R
+Radius (metres)
+S
+Superelevation (%)
+4.3
+In rural areas superelevation shall not exceed 7% except on:
+1) existing roads, or
+2) connector road loops (see CD 122 [Ref 3.N]).
+4.4
+In urban areas the maximum superelevation shall be 5%.
+NOTE
+The maximum superelevation in urban areas is influenced by the need to accommodate at-grade
+junctions and accesses.
+Relaxations
+4.5
+Except for the restrictions to relaxations noted in Section 2 (Relaxations) of this document and in the
+clauses below, relaxations to the desirable minimum horizontal alignment requirements shall be
+permitted as identified in Table 4.5.
+Table 4.5 Number of steps permitted below desirable minimum - horizontal alignment
+Road type
+Design speed band
+Permitted relaxation
+Motorways
+Band A
+2 steps
+Motorways
+Band B
+3 steps
+All-purpose
+Band A
+3 steps
+All-purpose
+Band B
+4 steps
+4.6
+Further relaxations of 1 design speed step from those shown in Table 4.5 shall be permitted for band B
+roads at, and immediately before the top of up gradients on single carriageways steeper than 4% and
+longer than 1.5 km.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 22 of 105
+======================================================================
+CD 109 Revision 1
+4. Horizontal alignment
+NOTE
+At locations immediately before the top of gradients the scope for relaxations can be extended due to
+reduced speeds uphill.
+4.7
+The permitted relaxations identified in Table 4.5 shall be reduced by 1 design speed step for band B
+roads:
+1) on, and immediately following long grades on dual carriageways steeper than 3% and longer than
+1.5km;
+2) immediately following an overtaking section on single carriageway roads.
+NOTE
+At locations following long grades on dual carriageways and following overtaking sections on single
+carriageways the scope for relaxations is reduced due to the potential for increased vehicle speeds.
+Application of superelevation
+4.8
+Superelevation shall not be introduced, nor adverse camber removed, so gradually as to create large
+flat areas of carriageway, nor so sharply as to cause road user discomfort due to the change in
+carriageway profile.
+NOTE
+Progressive superelevation or removal of adverse camber can be achieved over the length of the
+transition curve, from the arc end, where transitions are provided.
+4.8.1
+The carriageway edge profile should not vary in grade by more than 1% from the line about which the
+carriageway is pivoted.
+4.8.2
+On motorways, a smoother edge profile should be provided by reducing the variation in grade of the
+edge profile to a maximum of 0.5% where practicable, i.e. where local drainage conditions permit.
+4.8.3
+A minimum longitudinal gradient of at least 0.5% should be maintained wherever superelevation is to
+be applied or reversed.
+NOTE 1
+In some locations the application of superelevation can lead to drainage problems, options for
+mitigating against potential drainage problems can include:
+1) modifying the horizontal alignment to move the superelevation area,
+2) increasing the variation in grade of the edge profile, or
+3) applying a rolling crown.
+NOTE 2
+Situations where the superelevation can lead to drainage problems include locations where the
+superelevation is applied against the longitudinal gradient.
+4.9
+For improvements to existing roads without transitions, between half and two thirds of the
+superelevation shall be introduced on the approach straight with the remainder provided at the
+beginning of the curve.
+Widening on curves
+4.10
+For carriageways of standard width as defined in CD 127 [Ref 1.N], an increase of 0.3 metre per lane
+shall be provided when the horizontal radius is greater than 90 metres but below 150 metres.
+NOTE
+Two lane roads of width greater than 7.9 metres require no additional lane widening when the
+horizontal radius is greater than 90 metres but below 150 metres.
+4.11
+For carriageways less than the standard widths as defined in CD 127 [Ref 1.N], widening shall be:
+1) 0.6 metres per lane where the radius is greater than 90 metres but below 150 metres subject to
+maximum carriageway widths of 7.9 metres, 11.9 metres and 15.8 metres (for 2, 3 and 4 lanes
+carriageways respectively);
+2) 0.5 metres per lane where the radius is between 150 metres and 300 metres, subject to a maximum
+width not being greater than the standard lane widths in CD 127 [Ref 1.N];
+3) 0.3 metres per lane, where the radius is between 300 metres and 400 metres subject to a maximum
+width not greater than the standard lane widths in CD 127 [Ref 1.N].
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 23 of 105
+======================================================================
+CD 109 Revision 1
+4. Horizontal alignment
+NOTE 1
+Widening of curves on links, including where the mainline passes through junctions, need to be
+provided for carriageways of less than standard width and for low radius curves of standard width.
+NOTE 2
+Widening on curves is provided to allow for the swept path of long vehicles.
+4.11.1
+Where curve widening is applied, the extra lane width should be applied uniformly along the transition
+curve where a transition curve is provided.
+4.11.2
+Where curve widening is applied as an improvement to an existing curve, the widening should be
+applied on the inside of the curve.
+Transitions
+4.12
+Transition curves shall be provided on curves with radii less than shown in Table 2.10 (minimum R with
+adverse camber and without transitions).
+NOTE
+The calculation of transition curves is a two-step process where firstly the length of basic transition is
+calculated using Equation 4.13 then the results of this calculation are compared with a further
+calculation using √(24R).
+Length of curve:
+4.13
+The length of basic transition curves shall be derived from the formula:
+Equation 4.13 Calculation of basic transition length
+L =
+V 3
+46.7qR
+where:
+L =
+Length of basic transition (metres)
+V =
+Design speed (kph)
+q =
+Rate of increase of centripetal acceleration (metres / sec³) travelling along curve at
+constant speed V (kph)
+R =
+Radius of curve (metres)
+4.14
+The value of q used in the basic transition length calculation shall not exceed 0.6 metres / sec³.
+4.14.1
+The value of q used in the basic transition length calculation should not exceed 0.3 metres / sec³.
+4.15
+Where the results of the calculation of basic transition length gives a value less than √(24R) metres, the
+basic transition length calculated by the formula shall be used.
+4.15.1
+Where the results of the calculation of basic transition length gives a value greater than √(24R) metres,
+the √(24R) metres value should be used.
+NOTE 1
+Where a transition length of √(24R) is used this can result in a transition curve with a q value greater
+than 0.6 metres / sec³.
+NOTE 2
+The use of transition lengths in excess of √(24R) metres can create flat areas of carriageway resulting
+in drainage issues.
+4.15.2
+Where the basic transition appropriate to the design speed results in insufficient transition length to
+accommodate superelevation turnover, longer transitions to match the superelevation design should be
+provided.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 24 of 105
+======================================================================
+CD 109 Revision 1
+5. Vertical alignment
+5.
+Vertical alignment
+Gradients
+5.1
+Longitudinal gradients of links shall not exceed the permitted relaxation values given in Table 5.1.
+Table 5.1 Desirable maximum and permitted relaxations to gradients
+Desirable maximum
+Permitted relaxations
+Motorways
+3%
+4%
+All-purpose dual carriageways
+4%
+8%
+All-purpose single carriageways
+6%
+8%
+5.1.1
+Wherever practicable desirable maximum values for longitudinal gradients of links should not be
+exceeded.
+NOTE
+Climbing lanes (see Sections 7 and 8 of this document) can be appropriate for gradients above 2% on
+single carriageway and for gradients of 3% and above on dual carriageways.
+Minimum gradient
+5.2
+On kerbed roads with a minimum gradient of 0.5% the drainage path shall be provided by false channel
+paths.
+5.2.1
+In flatter areas, the vertical alignment should not be manipulated by the introduction of vertical
+curvature simply to achieve the required surface water drainage gradients.
+NOTE
+The creation of false channel paths involves providing a drainage path steeper than the adjacent road
+surface gradient. Methods of achieving this can include providing kerb units with integral drainage
+channels.
+5.2.2
+The desirable minimum gradient for a kerbed road should be 0.5% to enable effective drainage.
+5.2.3
+Where kerbs are inappropriate, false channel paths may be avoided by using over-edge drainage.
+Vertical curves
+General
+5.3
+Vertical curves shall be provided at all changes in gradient.
+NOTE
+The use of permitted vertical curve parameters normally results in compliance with the visibility
+requirements; however, the horizontal alignment of the road, the presence of crossfall, superelevation
+or verge treatment and features such as signs, vehicle restraint systems and structures adjacent to the
+carriageway can affect the interaction between vertical curvature and visibility. Therefore stopping sight
+distance still needs to be checked.
+Crest curves
+5.4
+The lengths of vertical crest curves shall be determined by multiplying the K values shown in Table 2.10
+by the algebraic change of gradient expressed as a percentage.
+NOTE 1
+As an example, the length of crest curve connecting a gradient of +3% with a gradient of -2% on a road
+with a design speed of 120kph would be calculated in the following way. The difference between the
++3% gradient and the -2% gradient creates a total grade change of 5%. For a design speed of 120 kph,
+the desirable minimum K value obtained from Table 2.10 is 182. Multiplying the grade change by the K
+value (5 x 182) gives a vertical crest curve length of 910 metres.
+NOTE 2
+There are two factors that affect the choice of crest curvature: these are visibility and comfort. The
+crest in the road can restrict forward visibility to the desirable minimum stopping sight distance before
+driver comfort is affected.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 25 of 105
+======================================================================
+CD 109 Revision 1
+5. Vertical alignment
+Sag curves
+5.5
+The lengths of vertical sag curves shall be determined by multiplying the K values shown in Table 2.10
+by the algebraic change of gradient expressed as a percentage.
+NOTE 1
+As an example, the length of sag curve connecting a gradient of +3% with a gradient of -2% on a road
+with a design speed of 120kph would be calculated in the following way. The difference between the
++3% gradient and the-2% gradient creates a total grade change of 5%. For a design speed of 120 kph,
+the desirable minimum K value obtained from Table 2.10 is 37. Multiplying the grade change by the K
+value (5 x 37) gives a vertical sag curve length of 185 metres.
+NOTE 2
+The provision of sag curves based on desirable minimum K values does not usually result in
+obstruction to stopping sight distance (unless overbridges, signs or other features are present). Road
+user comfort is usually affected before desirable minimum stopping sight distance is impacted.
+Relaxations
+Crest curves
+5.6
+Except for the restrictions to relaxations noted in Section 2 (Relaxations) of this document and in the
+clauses below, relaxations to the desirable minimum crest curve requirements shall be permitted as
+identified in Table 5.7.
+5.7
+Further relaxations to those shown in Table 5.7 shall be permitted as follows:
+1) on, and immediately following the top of up gradients on single carriageways steeper than 4% and
+longer than 1.5 km, the scope for relaxations can be extended by 1 step due to reduced speeds
+uphill;
+2) for band A roads when the crest curve is within a straight section the scope for relaxations can be
+extended by 1 design speed step.
+Table 5.7 Number of steps permitted below desirable minimum - crest curves
+Road type
+Design speed band
+Permitted relaxation
+Motorways
+Band A
+1 step
+Motorways
+Band B
+2 steps
+All-purpose
+Band A
+2 steps
+All-purpose
+Band B
+3 steps
+5.8
+The permitted relaxations identified in Table 5.7 shall be reduced by 1 design speed step immediately
+following an overtaking section on single carriageway roads.
+Sag curves
+5.9
+Except for the restrictions to relaxations noted in Section 2 (Relaxations) of this document and in the
+clauses below, relaxations to the desirable minimum sag curve requirements shall be permitted as
+identified in Table 5.9.
+Table 5.9 Number of steps permitted below desirable minimum - sag curves
+Road Type
+Permitted relaxation
+Motorways
+None
+All-purpose 50B, 60B, and 70B
+2 steps
+All-purpose all others
+1 step
+5.10
+The permitted relaxations identified in Table 5.9 shall be extended by 1 design speed step for design
+speeds of 70kph and less where the road is illuminated.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 26 of 105
+======================================================================
+CD 109 Revision 1
+5. Vertical alignment
+5.11
+The permitted relaxations identified in Table 5.9 shall be reduced by 1 design speed step for roads in
+design speed bands 50B, 60B and 70B immediately following an overtaking section on single
+carriageway roads.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 27 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+6.
+Wide single 2+1 roads
+Design principles
+6.1
+Wide single 2+1 (WS2+1) roads shall only apply to rural all-purpose single carriageway roads.
+6.1.1
+WS2+1 roads should only be used for routes with a traffic flow of up to 25,000 vehicles annual average
+daily traffic (AADT).
+6.1.2
+Factors such as the number of accesses, junction spacing, grade separation and gradient can have a
+significant impact on the design of a WS2+1 road, therefore reference should be made to CD 123 [Ref
+2.N] and Section 5 of this document.
+6.1.3
+Individual sections of WS2+1 road providing overtaking opportunities in one direction (i.e. without
+changeovers) may be introduced within standard single carriageway roads or wide single roads.
+6.1.4
+Where individual sections of WS2+1 are provided, overtaking opportunities should also be available in
+the opposite direction as part of a route strategy, see Section 9 of this document.
+NOTE
+Overtaking opportunities can be achieved by the provision of additional WS2+1 sections in close
+proximity, as illustrated in Figure 6.1.4N.
+Figure 6.1.4N Individual sections of WS2+1 road providing overtaking opportunities
+in one direction
+6.2
+For existing single carriageway roads converted to WS2+1, where desirable minimum stopping sight
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 28 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+distance is available, the provision of section C curves shall be permitted.
+NOTE
+The horizontal and vertical alignment design parameters for single carriageway roads, given in this
+document, apply to the design of WS2+1 roads.
+6.3
+Direct interfaces between WS2+1 roads and dual carriageways shall not be permitted unless the
+interface occurs at a roundabout.
+6.4
+Where a roundabout does not provide a direct interface between a WS2+1 road and a dual
+carriageway, a 2km section of single carriageway shall be provided between the WS2+1 layout and the
+dual carriageway section.
+NOTE 1
+Overtaking lane sections can start directly at the exit from the roundabout.
+NOTE 2
+Where there is a need to provide overtaking opportunities on a single carriageway road at an isolated
+uphill gradient of greater than 2% and longer than 500 metres, Section 7 of this document provides
+requirements and advice for providing climbing lanes.
+Geometric standards
+Cross-section
+6.5
+On sections of WS2+1 between junctions, the crown of the road shall be located within the double
+white lines and not within traffic lanes.
+NOTE
+For requirements and advice for cross-sectional elements of WS2+1 roads see CD 127 [Ref 1.N].
+6.5.1
+When improving existing roads at restricted locations, the cross-section may be reduced by the use of
+a changeover to omit the overtaking lane as shown in Figure 6.5.1.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 29 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.5.1 Removal of overtaking lanes at restricted locations
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 30 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+6.5.2
+Where a changeover is provided to remove the overtaking lane at a constrained location, the double
+white line system should be continued through the restricted location as illustrated in Figure 6.5.1.
+Lengths of overtaking lane sections
+6.6
+The minimum length of an overtaking lane section shall be 800 metres (see Figure 6.1.4N and Figure
+6.7).
+6.7
+The maximum length of an overtaking lane section shall be 1500 metres.
+Figure 6.7 Typical layout of a WS2+1 road with changeover
+NOTE
+Overtaking lane sections between 800 metres and 1500 metres in length provide sufficient length to
+disperse platoons of traffic but are not so long as to cause frustration for drivers in the single lane
+section.
+Changeovers
+6.8
+Where changeovers are remote from junctions they shall be in accordance with the layouts shown in
+Figure 6.8.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 31 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.8 Dimension of changeovers
+NOTE
+Details of layouts where junctions are incorporated in changeovers are given in CD 123 [Ref 2.N].
+6.9
+Conflicting changeovers shall not be located where the curve radius falls within section C or below of
+Figure 9.24N2 (see Section 9 of this document).
+6.10
+At least desirable minimum stopping sight distance shall be provided on the immediate approach to and
+through all changeovers.
+NOTE
+For the purposes of this document, the immediate approach to a changeover is the length of
+carriageway from a point 1.5 times the desirable minimum stopping sight distance upstream of the start
+of the changeover taper through the changeover to a point where the cross-section returns to the
+standard WS 2+1 layout (as defined in CD 127 [Ref 1.N]).
+WS2+1 interfaces
+6.11
+WS2+1 interfaces shall not coincide with horizontal curves less than the required desirable minimum
+radius for the link as identified in Section 2 of this document.
+6.11.1
+Where a WS2+1 carriageway terminates, the same standards of horizontal and vertical alignment and
+visibility that apply to the WS2+1 road as defined in Sections 2 to 5 of this document should be applied
+to the length of two lane single carriageway road within 1.5 times desirable minimum stopping sight
+distance of the WS2+1 interface.
+6.11.2
+The layout at the start of a section of WS2+1 road should be designed by widening to the right-hand
+side (from the perspective of traffic entering the WS 2+1 overtaking section), as shown in Figure 6.11.2.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 32 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.11.2 WS2+1 start of overtaking lane section with widening on right-hand
+side
+NOTE
+The widening of the nearside channel to the right-hand side encourages drivers to maintain their
+position on the nearside.
+6.11.3
+Where physical constraints necessitate widening to the left-hand side (from the perspective of traffic
+entering the WS 2+1 overtaking section), the layout should guide traffic into the left hand lane, as
+shown in Figure 6.11.3.
+Figure 6.11.3 WS2+1 start of overtaking lane section with widening on left-hand side
+6.11.4
+The layout for a WS2+1 interface where the WS2+1 road ends at a single lane section should be as
+shown in Figure 6.11.4.
+Figure 6.11.4 WS2+1 end of overtaking lane section
+Traffic signs and road markings
+6.12
+Traffic signs to TSRGD 2016 [Ref 6.N] diagram 521 (schedule 2, part 2, item 16), prescribed to indicate
+the resumption of two-way traffic at the end of a dual carriageway road, shall not be used.
+6.12.1
+Traffic signs and road markings that should be used on WS2+1 roads are shown in Figure 6.12.1a to
+6.12.1d.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 33 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.12.1a Traffic signs and road markings at WS2+1 interface (commencing on single lane section)
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 34 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.12.1b Traffic signs and road markings at WS2+1 interface (commencing on overtaking lane section)
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 35 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.12.1c Traffic signs and road markings at a conflicting changeover
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 36 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.12.1d Traffic signs and road markings at a non-conflicting changeover
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 37 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+NOTE 1
+Diagram numbers shown in Figures 6.12.1a to 6.12.1d refer to TSRGD 2016 [Ref 6.N].
+NOTE 2
+Arrow road markings to TSRGD 2016 [Ref 6.N] diagram 1014 (schedule 11, part 4, item 14) are to be
+place in accordance with the TSM Chapter 5 [Ref 9.N].
+NOTE 3
+Road studs are to be placed in accordance with TSRGD 2016 [Ref 6.N] and TSM Chapter 5 [Ref 9.N].
+NOTE 4
+See TSM Chapter 4 [Ref 8.N] for distance information on informatory traffic signs.
+6.12.2
+Advance information up to a distance of two miles prior to the start of the overtaking lane section may
+be given by the use of the signs shown in Figure 6.12.1b.
+NOTE
+Traffic signs as shown in Figure 6.12.1b can reduce frustration and encourage drivers to delay
+overtaking until the overtaking lane section is reached.
+6.12.3
+Traffic signs as shown in Figure 6.12.1a should be used at the WS2+1 interface.
+NOTE
+At priority junctions, traffic signs and road markings are such that drivers do not confuse the right
+turning lane with the start of an overtaking lane section.
+6.13
+The double white line road marking system separating the directions of flow on a WS2+1 road shall be
+to TSRGD 2016 [Ref 6.N] diagram 1013.1B (schedule 9, part 6, item 23).
+6.14
+The width of the road marking to TSRGD 2016 [Ref 6.N] diagram 1013.1B (schedule 9, part 6, item 23)
+shall be 1.0 metre including white lines.
+6.15
+Road marking to TSRGD 2016 [Ref 6.N] diagram 1013.1B (schedule 9, part 6, item 23) shall
+incorporate differential coloured surfacing.
+6.16
+The white line for the TSRGD 2016 [Ref 6.N] diagram 1013.1B (schedule 9, part 6, item 23) shall be
+150mm wide.
+6.17
+At changeovers, interfaces and junctions, the road marking to TSRGD 2016 [Ref 6.N] diagram 1013.1B
+(schedule 9, part 6, item 23) shall change to the wider road marking to TSRGD 2016 [Ref 6.N] diagram
+1013.5 (schedule 9, part 6, item 24) as shown in Figures 6.12.1a to 6.12.1d and 6.17.1.
+6.17.1
+Road markings to TSRGD 2016 [Ref 6.N] diagram 1013.1B (schedule 9, part 6, item 23) and 1013.5
+(schedule 9, part 6, item 24) should be fitted with studs in pairs, within the width of each of the two
+lines, as shown in Figure 6.17.1 (also see TSM Chapter 5 [Ref 9.N]).
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 38 of 105
+======================================================================
+CD 109 Revision 1
+6. Wide single 2+1 roads
+Figure 6.17.1 Interface between TSRGD diagram 1013.1B (shedule 9, part 6, item 23)
+and 1013.5 (shedule 9, part 6, item 24)
+NOTE 1
+Diagram numbers shown in Figure 6.17.1 refer to TSRGD 2016 [Ref 6.N].
+NOTE 2
+Road studs are to be placed in accordance with TSRGD 2016 [Ref 6.N] and TSM Chapter 5 [Ref 9.N].
+6.17.2
+The studs used in the road markings should be uni-directional so that only reflectors on the line of studs
+adjacent to the road users direction of travel face the road user.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 39 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+7.
+Climbing lanes - single carriageways
+Introduction
+7.1
+Where there is a need to provide overtaking opportunities on a single carriageway road at an isolated
+uphill gradient of greater than 2% and longer than 500 metres, the overtaking section shall be designed
+as a climbing lane.
+7.2
+This section shall be used for the design of climbing lanes on single carriageway all-purpose road
+schemes including improvements to the existing all-purpose trunk road network.
+NOTE 1
+For the widths of cross-sectional elements of single carriageway climbing lanes see CD 127 [Ref 1.N].
+NOTE 2
+For details of the layout of junctions on climbing lanes see CD 123 [Ref 2.N].
+Layout
+Layout at the start of a climbing lane
+7.3
+The full width of a climbing lane shall be provided at a point C, 100 metres uphill from the 2% point of
+sag curve, as shown in Figure 7.3.
+Figure 7.3 Layout at the start of climbing lanes
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 40 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+7.4
+The full width of the climbing lane shall be preceded by a taper of between 1 in 30 and 1 in 40, as
+shown in Figure 7.3.
+7.4.1
+The alignment at the commencement of the climbing lane should encourage drivers to follow the
+nearside channel unless overtaking.
+7.4.2
+The taper should provide a smooth transition, by utilising the road curvature to develop the extra width,
+wherever practicable.
+7.4.3
+Climbing lanes may also commence directly from the exit lane of a roundabout where the geometry
+does not allow the use of conventional taper layout, as shown in Figure 7.4.3.
+Figure 7.4.3 Climbing lane starts at roundabout exit - single carriageway
+7.4.4
+Where there are climbing lanes at both ends of a sag curve, and conditions can lead to a conventional
+2 lane road layout between tapers which is less than 500 metres in length, the intervening carriageway
+paved width should be maintained at the same width as the climbing lanes section and road markings
+provided as shown in Figure 7.4.4.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 41 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Figure 7.4.4 Road markings at sags between climbing lanes
+Layout at the end of climbing lane
+7.5
+The full width of the climbing lane shall be maintained up or down the gradient to a point F, at least 220
+metres beyond the end of the 2% point of the crest curve as shown in Figure 7.5.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 42 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Figure 7.5 Layout at end of climbing lane
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 43 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+7.5.1
+The distance between the 2% point and point F (the end of the full width of the climbing lane), should
+be extended beyond the minimum value if:
+1) an existing junction is in the vicinity of the existing merge taper area and / or where the extension
+enables traffic to merge more safely;
+2) the climbing lane is part of an overall route strategy for overtaking and the climbing lane is extended
+to maximise overtaking opportunities;
+3) a high proportion of HGVs, or slow moving vehicles, currently cause problems or significantly reduce
+capacity in the merge taper area.
+7.6
+Commencing from point F, the carriageway shall be narrowed from the offside using a taper of between
+1 in 30 and 1 in 40 in order to gradually remove the climbing lane (see Figure 7.5).
+NOTE
+In situations where the climbing lane termination point is extended greater than 220 metres beyond the
+2% point, the taper arrangement at the end of the climbing lane is the same as that of the climbing lane
+terminating at 220 metres beyond the 2% point.
+7.7
+Where a climbing lane terminates advance warning signs shall be provided in accordance with TSRGD
+2016 [Ref 6.N] diagram 890 (schedule 11, part 2 item 19).
+NOTE
+Clear signing and road markings at the end of a climbing lane is provided to ensure road users are fully
+aware of potential lane changing movements of other vehicles. This is important both from the point of
+view of the safety and efficient operation of the climbing lane.
+7.7.1
+The transition from a climbing lane to a single lane should not coincide with junctions or curves below
+desirable minimum radius for the design speed of the road.
+7.7.2
+The climbing lane may terminate at a roundabout so the overtaking lane becomes the right hand entry
+lane into the roundabout (see Figure 7.7.2).
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 44 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Figure 7.7.2 Climbing Lane ends at roundabout entry - single carriageway
+7.7.3
+Where climbing lanes are provided on both sides of a hill, resulting in a four lane road and the length
+between tapers is equal to or greater 500 metres, the taper should be terminated as shown in Figure
+7.5.
+7.7.4
+Where climbing lanes are provided on both sides of a hill, resulting in a four lane road and the length
+between tapers is less than 500 metres, the taper should be terminated as shown in Figure 7.7.4.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 45 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Figure 7.7.4 Crest curve at overlapping climbing lanes
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 46 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Sight distance requirements
+7.8
+Desirable minimum stopping sight distance appropriate for the design speed of the road (see Table
+2.10) shall be provided throughout the length of the climbing lane (including tapers), except in
+constrained locations where a relaxation of 1 design step below desirable minimum stopping sight
+distance is permitted.
+NOTE 1
+Relaxations in stopping sight distance on climbing lanes can be used where difficult or constrained
+locations result in provision of desirable minimum stopping sight distance not being practicable.
+NOTE 2
+FOSD need not be provided over the length of a climbing lane.
+7.8.1
+For climbing lanes provided as part of a new scheme, crest curves should be designed to just above
+one step below the desirable minimum K value, with a double white line road marking as in Figure 7.7.4
+to clearly establish the climbing lane priority.
+NOTE
+If vehicles on the crest approaching the downhill section are provided with a high visibility crest curve,
+there can be a possibility of road users illegally crossing the continuous double white line road marking.
+Road markings
+7.9
+On a climbing lane, a double white line road marking shall separate the two uphill lanes from the
+downhill lane with a continuous line for uphill traffic in all cases.
+7.9.1
+On a climbing lane a continuous line for downhill traffic should be provided except where the criteria for
+adopting a broken line is satisfied, as identified in TSM Chapter 5 [Ref 9.N].
+NOTE 1
+The use of a continuous road marking for downhill traffic, even when the visibility criteria for an
+intermittent road marking line are satisfied, can avoid frequent changes to road markings on long hills.
+NOTE 2
+On a climbing lane the two uphill lanes are separated by road markings in accordance with TSM
+Chapter 5 [Ref 9.N].
+7.9.2
+The road marking at the commencement of the climbing lane should be designed to encourage uphill
+drivers to keep to the nearside lane unless overtaking (see Figure 7.9.2).
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 47 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Figure 7.9.2 Road markings at start / end of a climbing lane
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 48 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+7.9.3
+At the commencement of the climbing lane a length of double continuous line road marking should be
+provided for a length equal to the warning line visibility distance (W), according to the speed of uphill
+traffic (see Table 7.9.3).
+Table 7.9.3 Length of double white line to be provided at the commencement of a climbing lane
+85 percentile speed (kph)
+Warning line visibility distance W (metres)
+60
+145
+70
+175
+85
+205
+100
+245
+120
+290
+NOTE 1
+The length of double continuous line at the commencement of the climbing lane can reduce the
+potential for conflict between uphill and downhill overtaking traffic.
+NOTE 2
+The length of double continuous line at the commencement of the climbing lane encourages a driver of
+an overtaking vehicle travelling downhill to return to the nearside lane reducing the potential for conflict
+with a vehicle travelling uphill.
+7.9.4
+The double white line at the commencement of the climbing lane may be extended to divide opposing
+traffic over the taper in order to discourage overtaking by downhill traffic.
+7.9.5
+The road marking layout that should be used at overlapping climbing lanes at hill crests is shown in
+Figures 7.7.4 and 7.9.5 .
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 49 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+Figure 7.9.5 Road marking at crests - climbing lanes terminate in advance
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 50 of 105
+======================================================================
+CD 109 Revision 1
+7. Climbing lanes - single carriageways
+7.10
+At overlapping climbing lanes, the hatched road markings at the end of opposing lanes must not
+overlap in accordance with TSRGD 2016 [Ref 6.N].
+NOTE
+Ensuring the hatched areas of the overlapping climbing lanes do not overlap maintains the
+differentiation between the opposing lanes.
+7.10.1
+Figure 7.7.5 should be applied to situations where conventional exit taper layout would lead to a
+distance between ends of tapers of less than 500 metres.
+7.10.2
+Where opposing climbing lanes are provided on a crest and the climbing lane carriageway width is to
+be retained, Figure 7.9.5 shows the road marking layout that should be used over the crest.
+7.10.3
+The road marking layout that should be used at adjoining climbing lanes at sag curves is shown in
+Figure 7.4.4.
+7.10.4
+At sag curves the taper road marking between opposing traffic streams at adjoining climbing lanes
+should not be sharper than 1 in 50.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 51 of 105
+======================================================================
+CD 109 Revision 1
+8. Climbing lanes - dual carriageways and motorw...
+8.
+Climbing lanes - dual carriageways and motorways
+Introduction
+8.1
+This section shall be used for the design, assessment and construction of climbing lanes on all
+motorway and dual carriageway trunk road schemes including improvements to the existing trunk road
+network that result in climbing lanes being introduced on motorways and dual carriageways.
+8.1.1
+A climbing lane may be provided by means of entry and exit tapers.
+8.1.2
+Where climbing lanes are provided by means of entry and exit tapers, the climbing lane should be a
+continuation of the nearside lane and the overtaking traffic merge into the slower moving traffic at the
+termination point.
+NOTE
+On dual carriageways, climbing lanes can be justified on gradients of 3% and above over distances of
+at least 500 metres.
+Layout
+Lane widths
+8.2
+The climbing lane shall be 3.65 metres wide.
+Layout at the start of climbing lane
+8.3
+The full width of the climbing lane shall be provided at a point C, 100 metres uphill from the 2% point of
+sag curve as shown in Figure 8.3.
+Figure 8.3 Start of dual carriageway climbing lane
+8.4
+The full width of the climbing lane shall be preceded by a taper of at least 1 in 45, as shown in Figure
+8.3, except for where it is provided at a roundabout exit on a dual carriageway.
+8.4.1
+The additional width should be developed by utilising the road curvature to provide a smooth transition.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 52 of 105
+======================================================================
+CD 109 Revision 1
+8. Climbing lanes - dual carriageways and motorw...
+8.5
+Climbing lanes on dual carriageways shall not be provided directly at the exit of a roundabout.
+8.5.1
+Climbing lanes on dual carriageways located near the exit from a roundabout should allow for a
+distance of at least 100 metres before the entry taper to avoid conflicting traffic movements on exiting
+the roundabout.
+8.6
+The minimum entry taper shall be 1 in 30 where a climbing lane is provided on the exit from a
+roundabout as shown in Figure 8.6.
+Figure 8.6 Start of climbing lane at roundabout
+Layout at the end of climbing lane
+8.7
+The full width of the climbing lane shall be maintained up the gradient to point F, which is at least 220
+metres beyond the 2% gradient point of the crest curve as shown in Figure 8.7N.
+NOTE
+The distance between the 2% gradient point and point F can be extended if a high proportion of HGVs
+or other slow moving vehicles currently cause problems or significantly reduce capacity.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 53 of 105
+======================================================================
+CD 109 Revision 1
+8. Climbing lanes - dual carriageways and motorw...
+Figure 8.7N End of dual carriageway climbing lane
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 54 of 105
+======================================================================
+CD 109 Revision 1
+8. Climbing lanes - dual carriageways and motorw...
+8.8
+The taper at the end of the climbing lane shall be at least 1 in 45, as shown in Figure 8.7N.
+8.8.1
+Longer tapers than 1 in 45 should be provided wherever practicable.
+8.8.2
+A smooth transition should be used wherever possible.
+8.8.3
+The climbing lane may precede a roundabout so the overtaking lane becomes the right hand entry lane
+into the roundabout.
+8.8.4
+Where the climbing lane ends at a distance greater than 500 metres from the roundabout it should be
+terminated as shown in Figure 8.8.4.
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 55 of 105
+======================================================================
+CD 109 Revision 1
+8. Climbing lanes - dual carriageways and motorw...
+Figure 8.8.4 Climbing lane end at roundabout entry - dual carriageway
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 56 of 105
+======================================================================
+CD 109 Revision 1
+8. Climbing lanes - dual carriageways and motorw...
+8.8.5
+Where the climbing lane ends within 500 metres of the roundabout, the climbing lane should be
+extended to the roundabout and hatching at the end of the climbing lane omitted.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 57 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+9.
+Single carriageway road overtaking sections
+Overtaking sections
+9.1
+Overtaking sections on single carriageway roads shall comprise of any of the following:
+1) level overtaking sections;
+2) climbing lane sections;
+3) single lane downhill sections at climbing lanes;
+4) dual carriageway overtaking sections;
+5) wide single 2+1 road overtaking lanes.
+NOTE
+Dual carriageway overtaking sections are lengths of dual carriageway forming part of a route which is
+otherwise predominantly single carriageway. The dual sections can be taken into account when
+calculating the percentage of the route length that provides overtaking sections.
+9.1.1
+Clearly identifiable overtaking sections for both directions of travel should be provided throughout a
+single carriageway so vehicles can maintain the design speed in off-peak conditions therefore
+minimising the potential for driver frustration.
+Overtaking value
+9.2
+The minimum overtaking value for rural S2 roads shall be 30%.
+NOTE
+The overtaking value is the length of overtaking sections expressed as a percentage of the route.
+9.3
+The minimum overtaking value for WS2 roads shall be 30%.
+9.3.1
+The minimum overtaking value for WS2 roads should be 40%.
+NOTE
+Overtaking values at or above the recommended value of 40% are appropriate for WS2 roads with
+single lane dualling at junctions with minor roads and at-grade roundabouts at junctions with major
+roads.
+Lengths of road over 2km
+9.4
+The calculation of overtaking value shall apply to new single carriageway roads exceeding 2km in
+length.
+9.5
+The total length of overtaking sections for each direction shall be summed and divided by the total
+length of the new road to obtain the overtaking value in each direction, expressed as a percentage.
+9.5.1
+Overtaking sections should be distributed along a length of road such that no individual non-overtaking
+section exceeds 3km in length.
+Lengths of road less than 2 km
+9.6
+New single carriageway roads less than 2km in length shall be integrated with the contiguous sections
+of existing road when calculating the overtaking value.
+9.6.1
+Where contiguous sections afford little or no overtaking opportunities, the overtaking value should only
+be provided for the length of the new single carriageway road.
+NOTE 1
+Where contiguous existing sections of road provide good overtaking opportunities, it can relieve the
+necessity to provide the required overtaking value for the proposed section of new road.
+NOTE 2
+The minimum overtaking values do not apply to isolated improvements to existing roads such as the
+treatment of bends, junctions, and narrow sections of road.
+Level overtaking sections
+9.7
+Level overtaking sections on 2 lane single carriageway roads shall consist of:
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 58 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+1) straight or nearly straight horizontal alignment with a minimum radius of curvature as shown in Table
+9.7 (also see Figure 9.23N2), and/or;
+2) right hand curves which provide at least FOSD at their commencement (see Figure 9.23N2).
+Table 9.7 Minimum radius of straight or nearly straight sections at level overtaking sections
+Design speed (kph)
+100
+85
+70
+60
+50
+Minimum radius of straight or nearly straight sections (metres)
+8160
+5760
+4080
+2880
+2040
+NOTE
+Level overtaking sections are lengths of 2 lane single carriageway that provide clear opportunities for
+overtaking. Lengths of road that form level overtaking sections have central road markings that can be
+legally crossed.
+Commencement of level overtaking sections
+9.8
+Level overtaking sections shall be measured from the point on a straight, nearly straight or right hand
+curve where FOSD is achieved either within or outside of the highway / road boundary.
+9.9
+Where FOSD is measured outside of the highway / road boundary this visibility shall be permanently
+maintained.
+Termination of level overtaking sections
+9.10
+Level overtaking sections shall terminate at one of the following:
+1) a point FOSD/4 prior to the tangent point (or centre of transition) of a left hand curve (see Figure
+9.10); or
+2) the point on a right hand curve where sight distance has reduced to FOSD/2 (see Figure 9.10); or
+3) a point FOSD/4 prior to an obstruction to overtaking (see the section on Obstructions to overtaking
+below).
+Figure 9.10 Commencement and termination of level overtaking sections
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 59 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+NOTE
+Figure 9.10 shows diagrammatically the commencement and termination points of level overtaking
+sections.
+Climbing lane sections
+Commencement of climbing lane overtaking sections
+9.11
+Climbing lane overtaking sections shall be measured from the mid-point of the commencing taper at the
+start of the two uphill lanes, see Figure 9.11.
+Figure 9.11 Commencement and termintation of climbing lane overtaking sections
+Termination of climbing lane overtaking sections
+9.12
+The termination point of a climbing lane overtaking section shall be measured to a point FOSD/4 prior
+to the mid-point of the finishing taper, see Figure 9.11.
+9.12.1
+If the section of road following a climbing lane overtaking section is also an overtaking section, it should
+be treated as being contiguous with the climbing lane section.
+Single lane downhill sections at climbing lanes
+9.13
+Single lane downhill overtaking sections at climbing lanes shall only consist of straight or nearly straight
+sections (see Table 9.7 and Figure 9.23N2), or right hand curves with minimum radii as shown in Table
+9.13.
+Table 9.13 Minimum right hand curve radii for single lane downhill sections at existing climbing
+lanes
+Design speed (kph)
+100
+85
+70
+60
+50
+Minimum right hand curve radius of single
+lane downhill sections (metres)
+2880
+2040
+1440
+1020
+720
+NOTE 1
+Single lane downhill overtaking sections are sections of a single downhill lane constrained by a double
+white line system, with a solid line provided adjacent to the two lane side and a broken line provided
+adjacent to the single lane, where the combination of visibility and horizontal curvature provide clear
+opportunities for overtaking when the opposing traffic permits.
+NOTE 2
+Climbing lane road markings confine downhill traffic to a single lane, unless there is ample forward
+visibility unobstructed by slow-moving vehicles in the climbing lane. Where the length of a climbing lane
+exceeds about 3km, it can be beneficial that some sections are provided with a straight or large radius
+right hand curvature in order to provide an overtaking section for downhill traffic.
+9.14
+Verges shall not be widened on single lane downhill lane sections to give FOSD.
+NOTE
+On single downhill lane sections the sight distance naturally occurring within the normal highway / road
+boundaries along straights, near straights and at the radii shown in Table 9.8 for right hand curves is
+sufficient for downhill overtaking.
+9.14.1
+Single lane downhill sections should only be used as overtaking sections on straight grades or sag
+curves where FOSD is achieved.
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 60 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+Commencement of single lane downhill overtaking sections at climbing lanes
+9.15
+Single lane downhill overtaking sections shall be measured from the point where the right hand curve
+radius achieves or exceeds the requisite value from Table 9.13, see Figure 9.15.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 61 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+Figure 9.15 Commencement and termintation of single lane downhill climbing lane overtaking sections
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 62 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+Termination of single lane downhill overtaking sections at climbing lanes
+9.16
+The termination point of a single lane downhill overtaking section shall be measured to a point FOSD/4
+prior to the end of the straight or nearly straight section or end of radius equal to or greater than shown
+in Table 9.13, see Figure 9.15.
+Dual carriageway overtaking sections
+Commencement of dual carriageway overtaking sections
+9.17
+Dual carriageway overtaking sections shall be measured from the mid-point of the commencing taper
+where the carriageway widens from 1 to 2 lanes.
+Termination of dual carriageway overtaking sections
+9.18
+The termination point of dual carriageway overtaking sections shall be measured to a point FOSD/4
+prior to the mid-point of the finishing taper where the carriageway reduces from 2 lanes to 1 lane.
+NOTE
+Details of the appropriate road marking layout of the finishing taper where the carriageway reduces
+from 2 lanes to 1 lane are shown in TSM Chapter 5 [Ref 9.N].
+Wide single 2+1 roads (WS2+1)
+Commencement of WS2+1 overtaking sections
+9.19
+WS2+1 overtaking sections shall be measured from a point where the full width overtaking lane
+commences, see Figures 6.11.2 and 6.11.3.
+Termination of WS2+1 overtaking sections
+9.20
+The termination point of WS2+1 overtaking sections shall be measured to a point FOSD/4 prior to the
+mid-point of the 130 metres long taper immediately following the full width overtaking lane see Figure
+6.15.
+Obstructions to overtaking
+9.21
+On 2 lane single carriageway roads the termination point for overtaking sections on the approach to
+obstructions shall be a distance of FOSD/4 prior to the nose of the ghost island or physical island, or
+the roundabout give way line, as shown in Figure 9.21.
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 63 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+Figure 9.21 Termination of overtaking sections at obstructions
+NOTE 1
+Priority junctions incorporating ghost islands or single lane dualling and roundabouts are defined as
+obstructions to overtaking when they are located within an, otherwise, overtaking section.
+NOTE 2
+Simple priority junctions (with no central mainline treatment) are not considered obstructions to
+overtaking. Direct accesses are not permitted in overtaking sections (refer to CD 123 [Ref 2.N] for
+details).
+9.22
+Following an obstruction to overtaking, an overtaking section shall commence on a straight or nearly
+straight horizontal alignment with radius of curvature greater than shown in Table 9.7 (also see Figure
+9.23N2) providing at least FOSD, or right hand curves which provide at least FOSD at their
+commencement (see Figure 9.23N2).
+9.22.1
+When an overtaking section follows a priority junction, the measurement of the overtaking section
+should commence from the end of the ghost island nose shown in Figure 9.21.
+Horizontal curve design
+9.23
+Level overtaking sections on single carriageway 2 lane roads shall be provided as straight or nearly
+straight sections (see section A in Figure 9.23N2 and Table 9.7), thus providing an overtaking section
+for both directions of travel (V²/R < 1.25).
+NOTE 1
+Where straight sections or nearly straight sections are not possible, lower radii results in right hand
+curve overtaking sections:
+1) on level sections following the achievement of FOSD; and
+2) on existing climbing lane single lane downhill sections.
+NOTE 2
+Figure 9.23N2 shows a curve selection chart for horizontal curves, which illustrates the bands of radii
+(relative to design speed) and their applicability in the design of 2 lane single carriageway roads.
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 64 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+Figure 9.23N2 Horizontal curve design
+9.24
+The minimum radii for overtaking sections on single carriageway 2 lane roads shall be the lower limit of
+section B in Figure 9.24N2 (V²/R = 3.53) and values shown in Table 9.13 for right hand curves.
+NOTE
+At the lower limit of section B, visibility for left hand curve traffic deteriorates significantly, and a verge
+width of 10.65 metres is needed to maintain FOSD within the highway / road for right hand curve traffic.
+9.24.1
+The radii in section C, shown in Figure 9.23N2 (V²/R = 3.53 to V²/R =10), should not be used in single
+carriageway design.
+NOTE
+The use of mid to large radius curves inhibits the design of clear overtaking sections for vehicles
+travelling in the left hand curve direction, and reduces the length of overtaking straight that could
+otherwise be achieved.
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 65 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+9.24.2
+Non-overtaking sections should be designed using the radii shown in section D (V²/R = 10 to V²/R = 20)
+in Figure 9.23N2.
+9.24.3
+Radii of non-overtaking sections should be chosen around the middle of section D (V²/R = 14) in Figure
+9.23N2.
+NOTE
+Radii around the middle of section D as shown in Figure 9.23N2 strikes a balance between providing
+clear non-overtaking sections and avoiding steep superelevation.
+Vertical curve design
+9.25
+For measurement of overtaking sections, a single carriageway 2 lane road with a crest curve with less
+than FOSD shown in Table 2.10 shall be a non-overtaking section.
+9.25.1
+The overtaking section approaching the non-overtaking crest should terminate at the point at which
+sight distance has reduced to FOSD/2, as shown in Figure 9.25.1.
+Figure 9.25.1 Non-overtaking crest
+9.25.2
+The use of desirable minimum crest K values should be avoided for 2 lane single carriageway road
+design.
+NOTE 1
+The use of desirable minimum crest K values results in a continuous sight distance only slightly above
+FOSD/2, and therefore theoretically, the overtaking section is continuous over the crest (and warning
+markings are not strictly justified).
+NOTE 2
+Unless a vertical curve can have a large enough K value to provide FOSD (therefore forming an
+overtaking section) the resulting alignment will provide inadequate visibility for safe overtaking. A K
+value of one design speed step below desirable minimum results in a clear non-overtaking section and
+further improvement to K value is counter productive as it increases the length of uncertain crest
+visibility while not achieving a safe overtaking visibility.
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 66 of 105
+======================================================================
+CD 109 Revision 1
+9. Single carriageway road overtaking sections
+Changes in carriageway type
+9.26
+If lengths of dual carriageway within a generally single carriageway road or vice-versa are provided
+they shall be at least 2km in length.
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 67 of 105
+======================================================================
+CD 109 Revision 1
+10. Normative references
+10.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CD 127, 'Cross-sections and headrooms'
+Ref 2.N
+Highways England. CD 123, 'Geometric design of at-grade priority and
+signal-controlled junctions'
+Ref 3.N
+Highways England. CD 122, 'Geometric design of grade separated junctions'
+Ref 4.N
+Highways England. CD 116, 'Geometric design of roundabouts'
+Ref 5.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+The Stationery Office. TSRGD 2016, 'The Traffic Signs Regulations and General
+Directions 2016'
+Ref 7.N
+The Stationery Office. TSM Chapter 3, 'Traffic Signs Manual Chapter 3 - Regulatory
+Signs'
+Ref 8.N
+The Stationery Office. TSM Chapter 4, 'Traffic Signs Manual Chapter 4 - Warning
+Signs'
+Ref 9.N
+The Stationery Office. TSM Chapter 5, 'Traffic Signs Manual Chapter 5 - Road
+Markings'
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 68 of 105
+======================================================================
+CD 109 Revision 1
+11. Informative references
+11.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Highways England. CG 501, 'Design of highway drainage systems'
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 69 of 105
+======================================================================
+CD 109 Revision 1
+Appendix A. Coordinated link design
+Appendix A. Coordinated link design
+The tables below give guidance on layout features for the various rural road types that can help to
+provide coordinated link design. The contents of the tables are not exhaustive and not intended to
+supersede requirements and advice included in the wider Design Manual for Roads and Bridges
+requirements and advice documents, and the requirements and advice in the appropriate highway
+design requirements and advice documents take precedence.
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 70 of 105
+======================================================================
+CD 109 Revision 1
+Appendix A. Coordinated link design
+Table A.1 Single carriageway roads
+Type of road (see
+CD 127 [Ref 1.N] )
+Sub-
+category
+Edge
+treatment
+Direct access
+treatment (see CD 123
+[Ref 2.N] for a
+definition of direct
+access)
+Junction treatment at
+minor road
+intersection (see CD
+123 [Ref 2.N] and CD
+116 [Ref 4.N])
+Junction treatment at
+major road
+intersection (see CD
+123 [Ref 2.N],
+CD 122 [Ref 3.N] and
+CD 116 [Ref 4.N])
+Previous category
+reference used in TD
+9 Table 4 (see note 1)
+a
+Kerbs and
+raised
+verges.
+Pedestrian
+footways
+and cycle
+tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.
+Simple priority junctions.
+Ghost island junctions.
+Ghost island junctions.
+1
+b
+No
+pedestrian
+footways or
+cycle tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.
+Simple priority junctions.
+Ghost island junctions.
+Ghost island junctions.
+Single lane dualling.
+Roundabouts.
+Traffic signals.
+2
+2 lane single
+carriageway (S2) - 7.
+3 metre carriageway
+c
+No
+pedestrian
+footways or
+cycle tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.
+Clearway (see TSM
+Chapter 3 [Ref 7.N])
+Left-in / left-out priority
+junctions.
+Ghost island junctions.
+Single lane dualling.
+Roundabouts.
+Traffic signals.
+3A
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 71 of 105
+======================================================================
+CD 109 Revision 1
+Appendix A. Coordinated link design
+Table A.1 Single carriageway roads (continued)
+Type of road (see
+CD 127 [Ref 1.N] )
+Sub-
+category
+Edge
+treatment
+Direct access
+treatment (see CD 123
+[Ref 2.N] for a
+definition of direct
+access)
+Junction treatment at
+minor road
+intersection (see CD
+123 [Ref 2.N] and CD
+116 [Ref 4.N])
+Junction treatment at
+major road
+intersection (see CD
+123 [Ref 2.N],
+CD 122 [Ref 3.N] and
+CD 116 [Ref 4.N])
+Previous category
+reference used in TD
+9 Table 4 (see note 1)
+a
+Pedestrian
+footways
+and cycle
+tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.
+Clearway (see TSM
+Chapter 3 [Ref 7.N])
+Left-in / left-out priority
+junctions.
+Ghost island junctions.
+Single lane dualling.
+Single lane dualling.
+Roundabouts.
+3B
+Wide single 2 lane
+carriageway (WS2)
+- 10 metre
+carriageway
+b
+No
+pedestrian
+footways or
+cycle tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.Clearway
+(see TSM Chapter 3
+[Ref 7.N])
+Left-in / left-out priority
+junctions.
+Single lane dualling.
+Roundabouts.
+Some side roads
+stopped up.
+Roundabouts.
+4
+Wide single 2+1
+roads (WS2+1) - 11.5
+metre carriageway
+a
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Not permitted.
+Ghost island junctions.
+Left-in / left-out compact
+grade separated
+junctions.
+Ghost island junctions.
+Roundabouts.
+Not previously used
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 72 of 105
+======================================================================
+CD 109 Revision 1
+Appendix A. Coordinated link design
+Table A.2 Dual carriageway roads
+Type of road (see
+CD 127 [Ref 1.N] )
+Sub-
+category
+Edge
+treatment
+Direct access
+treatment (see CD 123
+[Ref 2.N] for a
+definition of direct
+access)
+Junction treatment at
+minor road
+intersection (see CD
+123 [Ref 2.N] and CD
+116 [Ref 4.N])
+Junction treatment at
+major road
+intersection (see CD
+123 [Ref 2.N],
+CD 122 [Ref 3.N] and
+CD 116 [Ref 4.N])
+Previous category
+reference used in TD
+9 Table 4 (see note 1)
+a
+Kerbs and
+raised
+verges.
+Pedestrian
+footways and
+cycle tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.
+Clearway (see TSM
+Chapter 3 [Ref 7.N] )
+Left-in / left-out priority
+junctions.
+Priority junctions.
+No other gaps in the
+central reserve.
+Traffic signals.
+At-grade roundabouts.
+Compact grade
+separation.
+Grade separation if
+economically justified.
+5
+b
+No
+pedestrian
+footways or
+cycle tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Minimise number of
+direct accesses to avoid
+standing vehicles and
+concentrate turning
+movements.
+Clearway (see TSM
+Chapter 3 [Ref 7.N])
+No minor junctions
+at-grade.
+No gaps in the central
+reserve.
+At-grade roundabouts.
+Full grade separation.
+6
+Dual 2 lane
+All-purpose roads (D
+2AP) - 7.3 metre
+carriageway
+c
+No
+pedestrian
+footways or
+cycle tracks.
+Nearside
+- hard strip.
+Offside
+- hard strip.
+No access except
+isolated existing access
+with left turns only.
+Clearway (see TSM
+Chapter 3 [Ref 7.N])
+No minor junctions
+at-grade.
+No gaps in the central
+reserve.
+Full grade separation.
+7A
+Dual 3 lane
+All-purpose roads (D
+3AP) - 11 metre
+carriageway
+a
+Nearside
+- hard strip.
+Offside
+- hard strip.
+Not permitted.
+Clearway (see TSM
+Chapter 3 [Ref 7.N])
+No minor junctions
+at-grade.
+No gaps in the central
+reserve.
+Full grade separation.
+7C / 8B (See note 2)
+71
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 73 of 105
+======================================================================
+CD 109 Revision 1
+Appendix A. Coordinated link design
+Table A.2 Dual carriageway roads (continued)
+Type of road (see
+CD 127 [Ref 1.N] )
+Sub-
+category
+Edge
+treatment
+Direct access
+treatment (see CD 123
+[Ref 2.N] for a
+definition of direct
+access)
+Junction treatment at
+minor road
+intersection (see CD
+123 [Ref 2.N] and CD
+116 [Ref 4.N])
+Junction treatment at
+major road
+intersection (see CD
+123 [Ref 2.N],
+CD 122 [Ref 3.N] and
+CD 116 [Ref 4.N])
+Previous category
+reference used in TD
+9 Table 4 (see note 1)
+Dual 2 lane motorway
+(D2M) - 7.3 metre
+carriageway
+a
+Nearside
+- hard
+shoulder.
+Offside
+- hard strip.
+Not permitted
+- Motorway Regulations.
+Not permitted
+- Motorway Regulations.
+Full grade separation
+- motorway standard.
+7B / 8A (See note 3)
+Dual 3 lane motorway
+(D3M) - 11 metre
+carriageway
+a
+Nearside
+- hard
+shoulder.
+Offside
+- hard strip.
+Not permitted
+- Motorway Regulations.
+Not permitted
+- Motorway Regulations.
+Full grade separation
+- motorway standard.
+9
+Dual 4 lane motorway
+(D4M) - 14.7 metre
+carriageway
+a
+Nearside
+- hard
+shoulder.
+Offside
+- hard strip.
+Not permitted
+- Motorway Regulations.
+Not permitted
+- Motorway Regulations.
+Full grade separation
+- motorway standard.
+10
+72
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 74 of 105
+======================================================================
+CD 109 Revision 1
+Appendix A. Coordinated link design
+Note 1: Reference is made to the categorisation system used in TD 9 to allow comparison with
+schemes that are being progressed to the previous standard or have been completed to the previous
+standard. It is suggested that for developing schemes the categorisation system introduced in the
+figures above, based on road type and sub-category, is referenced (for example D2APb).
+Note 2: The previous categories 7C and 8B in TD 9 essentially duplicated each other and these have
+been rationalised in this document.
+Note 3: The previous categories 7B and 8A in TD essentially duplicated each other and these have
+been rationalised in this document.
+73
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 75 of 105
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 76 of 105
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 109
+England National Application Annex to CD 109
+Highway link design
+(formerly IAN 149/17, IAN 161/15 and IAN 198/17)
+Revision 1
+Summary
+This National Application Annex sets out the Highways England specific requirements for
+highway link design on existing roads
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 77 of 105
+======================================================================
+CD 109 Revision 1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+E/1. Modifying existing motorways
+7
+Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Geometric parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Design speed (CD 109 clauses 2.1 and 2.4) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Combinations (CD 109 clause 2.12)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Immediate approaches to junctions (CD 109 clause 2.14) . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Stopping sight distance (CD 109 clause 3.7) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Road camber and drainage (CD 109 clauses 4.1 to 4.4) . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Transitions (CD 109 clause 4.14) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+E/2. Modifying existing all-purpose dual carriageways
+9
+Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Geometric parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Combinations (CD 109 clause 2.12)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+E/3. Smart motorways
+10
+Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Geometric parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Design speed (CD 109 clauses 2.1 and 2.4) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Combinations (CD 109 clauses 2.12 and 2.13)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Immediate approaches to junctions (CD 109 clause 2.14) . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Stopping sight distance (CD 109 clauses 3.7) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Road camber and drainage (CD 109 clauses 4.1 to 4.4) . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+E/4. Normative references
+12
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 78 of 105
+======================================================================
+CD 109 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Mar 2020
+Revision 1 (March 2020) Update to references only. Revision 0 (November
+2019) Highways England National Application Annex to CD 109.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 79 of 105
+======================================================================
+CD 109 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes those parts of IAN 149/17, IAN 161/15 and IAN 198/17 relating to the
+highway link design which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 80 of 105
+======================================================================
+CD 109 Revision 1
+Introduction
+Introduction
+Background
+This National Application Annex (NAA) gives Highways England specific requirements and additional
+relaxations relating to highway link design for:
+1) modifying existing motorways where motorway regulations apply (herein referred to as 'existing
+motorways');
+2) modifying existing all-purpose dual carriageways; and
+3) smart motorways.
+The additional relaxations included in this NAA allow greater flexibility when dealing with the constraints
+associated with enhancing elements of existing motorways and all-purpose dual carriageways.
+This NAA is to be used in conjunction with CD 109 [Ref 1.N], GD 300 [Ref 3.N] and IAN 161 [Ref 4.N]
+where appropriate.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 81 of 105
+======================================================================
+CD 109 Revision 1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+IAN
+Interim Advice Note
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 82 of 105
+======================================================================
+CD 109 Revision 1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Expressway
+A high speed dual carriageway that has at least two lanes in each direction, grade
+separated junctions and uses technology to support operational regimes (see GD
+300 [Ref 3.N]).
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 83 of 105
+======================================================================
+CD 109 Revision 1
+E/1. Modifying existing motorways
+E/1.
+Modifying existing motorways
+Scope
+E/1.1
+The requirements and advice in Section E/1 shall only be used when modifying existing motorways,
+with the exception of smart motorway and expressway schemes.
+E/1.1.1
+The parameters in Section E/1 should only be used where it is not practicable to comply with the
+requirements of CD 109 [Ref 1.N].
+NOTE 1
+IAN 161 [Ref 4.N] provides requirements and advice for the design of smart motorways.
+NOTE 2
+Document GD 300 [Ref 3.N] provides requirements and advice for the design of expressways.
+E/1.2
+The parameters in Section E/1 shall not be used for new motorway elements e.g. the construction of a
+new slip road.
+Geometric parameters
+Design speed (CD 109 clauses 2.1 and 2.4)
+E/1.3
+Design speed shall be derived in accordance with CD 109 [Ref 1.N] however all design speeds can be
+classified as band B.
+Combinations (CD 109 clause 2.12)
+E/1.4
+The relaxations below desirable minimum identified in CD 109 [Ref 1.N] for the following parameters
+shall be permitted in combination:
+1) stopping sight distance;
+2) horizontal curvature;
+3) vertical crest curves;
+4) absolute minimum for sag curves;
+5) superelevation.
+Immediate approaches to junctions (CD 109 clause 2.14)
+E/1.5
+The relaxations below desirable minimum identified in CD 109 [Ref 1.N] for the following parameters
+shall be permitted on the immediate approaches to junctions:
+1) stopping sight distance;
+2) vertical crest curves;
+3) absolute minimum for sag curves.
+Stopping sight distance (CD 109 clause 3.7)
+E/1.6
+The relaxations of one design speed step described in CD 109 [Ref 1.N] Section 3 for band A roads
+shall be permitted for band B roads.
+Road camber and drainage (CD 109 clauses 4.1 to 4.4)
+E/1.7
+Crossfall shall be measured across the paved surface of a road's cross-section.
+NOTE
+The paved surface of the cross-section comprises the carriageway, hard shoulder and hard strips.
+E/1.8
+Where the total width of the running lanes is to be increased, the existing drainage flow paths shall be
+assessed to determine their suitability.
+E/1.8.1
+Where the assessment of suitability identifies a benefit of doing so, crossfall may be increased by 0.5%
+above the requirements of CD 109 [Ref 1.N] Table 2.9 to mitigate excessive depths of water.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 84 of 105
+======================================================================
+CD 109 Revision 1
+E/1. Modifying existing motorways
+E/1.9
+Retention of the existing crossfall (running lanes, hard shoulder, and hard strip) shall be permitted
+unless:
+1) the assessment of drainage flow paths indicates the existing crossfall is not suitable (if an
+assessment is required);
+2) the variation in crossfall for any given cross-section does not meet the criteria given in the following
+clauses in this sub-section of this document;
+3) the review of the existing operational performance as described in this document highlights a
+collision problem relating to the existing crossfall, e.g. standing water.
+E/1.10
+The change in gradient of crossfall shall not exceed 5%.
+NOTE
+For example, a hard shoulder with a 2.5% fall towards the verge adjacent to lane one with a 2.5% fall
+towards the central reserve, is acceptable as the overall change is 5%.
+E/1.11
+Changes in crossfall that create a sag shall only occur within hatched road markings with solid edge
+lines.
+E/1.12
+Where a sag creates a low point the associated surface water flow width shall not enter a traffic lane.
+E/1.13
+Crossfall shall not change within a lane.
+E/1.14
+Adverse camber shall not be provided on horizontal radii less than 2000 metres.
+Transitions (CD 109 clause 4.14)
+E/1.15
+The basic transition length shall be no shorter than the existing transition.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 85 of 105
+======================================================================
+CD 109 Revision 1
+E/2. Modifying existing all-purpose dual carriagew...
+E/2.
+Modifying existing all-purpose dual carriageways
+Scope
+E/2.1
+The requirements and advice in Section E/2 shall only be used when modifying existing all-purpose
+dual carriageways, with the exception of expressways.
+E/2.1.1
+The parameters in Section E/2 should only be used where it is not practicable to comply with the
+requirements of CD 109 [Ref 1.N].
+NOTE
+Document GD 300 [Ref 3.N] provides requirements and advice for the design of expressways.
+E/2.2
+The parameters in Section E/2 shall not be used for new all-purpose dual carriageway elements e.g.
+the construction of a new slip road.
+Geometric parameters
+Combinations (CD 109 clause 2.12)
+E/2.3
+The relaxations below desirable minimum identified in CD 109 [Ref 1.N] for the following parameters
+shall be permitted in combination:
+1) stopping sight distance;
+2) horizontal curvature;
+3) vertical crest curves;
+4) absolute minimum for sag curves.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 86 of 105
+======================================================================
+CD 109 Revision 1
+E/3. Smart motorways
+E/3.
+Smart motorways
+Scope
+E/3.1
+The requirements and advice contained in Section E/3 shall only be used to upgrade an existing
+motorway to a smart motorway.
+E/3.2
+Where a new junction is proposed as part of a smart motorway, the parameters given in Section E/3
+shall not be used to design the new elements of that junction e.g. the slip roads.
+Geometric parameters
+Design speed (CD 109 clauses 2.1 and 2.4)
+E/3.3
+Design speed shall be derived in accordance with CD 109 [Ref 1.N], however all design speeds can be
+classified as band B.
+Combinations (CD 109 clauses 2.12 and 2.13)
+E/3.4
+The relaxations below desirable minimum for the following parameters shall be permitted in
+combination:
+1) stopping sight distance;
+2) horizontal curvature;
+3) vertical crest curves;
+4) absolute minimum for sag curves;
+5) superelevation.
+Immediate approaches to junctions (CD 109 clause 2.14)
+E/3.5
+The relaxations below desirable minimum identified in CD 109 [Ref 1.N] for the following parameters
+shall be permitted on the immediate approaches to junctions:
+1) stopping sight distance;
+2) vertical crest curves;
+3) absolute minimum for sag curves.
+Stopping sight distance (CD 109 clauses 3.7)
+E/3.6
+The relaxations of one design speed step described in CD 109 [Ref 1.N] Section 3 for band A roads
+shall be permitted for band B roads.
+Road camber and drainage (CD 109 clauses 4.1 to 4.4)
+E/3.7
+Crossfall shall be measured across the paved surface of a road's cross-section.
+NOTE
+The paved surface of the cross-section comprises the carriageway, hard shoulder and hard strips.
+E/3.8
+Where the total width of the running lanes is to be increased, the existing drainage flow paths shall be
+assessed to determine their suitability.
+NOTE
+Where the assessment of suitability identifies a benefit of doing so, crossfall can be increased by 0.5%
+above the requirements of CD 109 [Ref 1.N] to mitigate excessive depths of water.
+E/3.9
+Retention of the existing crossfall (running lanes, hard shoulder, and hard strip) shall be permitted
+unless:
+1) the assessment of drainage flow paths indicates the existing crossfall is not suitable (if an
+assessment is required);
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 87 of 105
+======================================================================
+CD 109 Revision 1
+E/3. Smart motorways
+2) the variation in crossfall for any given cross-section does not meet the criteria given in the following
+clauses in this sub-section of this document;
+3) the review of the existing operational performance as described in this document highlights a
+collision problem relating to the existing crossfall, e.g. standing water.
+E/3.10
+The change in gradient of crossfall shall not exceed 5%.
+NOTE
+For example, a hard shoulder with a 2.5% fall towards the verge adjacent to lane one with a 2.5% fall
+towards the central reserve, is acceptable as the overall change is 5%.
+E/3.11
+Changes in crossfall that create a sag shall only occur within hatched road markings with solid edge
+lines.
+E/3.12
+Where a sag creates a low point the associated surface water flow width shall not enter a traffic lane.
+E/3.13
+Crossfall shall not change within a lane.
+E/3.14
+Adverse camber shall not be provided on horizontal radii less than 2000 metres.
+E/3.15
+A minimum distance of 3 metres in cross-section shall be provided between changes in crossfall or
+superelevation within any given cross-section, except for connector road nosings where two changes in
+crossfall or superelevation are located on either side of the nose.
+E/3.15.1
+Where pavement works are being carried out (such as resurfacing or strengthening) then the crown line
+should be relocated to co-locate it with the road marking position, or adverse camber removed.
+NOTE
+Where an adverse camber is to be retained between the new lane 1 and 2, there is no requirement to
+move the crown line from its existing position to co-locate it with the road marking position.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 88 of 105
+======================================================================
+CD 109 Revision 1
+E/4. Normative references
+E/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CD 109, 'Highway link design'
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+Highways England. GD 300, 'Requirements for new and upgraded all-purpose trunk
+roads (expressways)'
+Ref 4.N
+IAN 161, 'Smart Motorways'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 89 of 105
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 90 of 105
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 109
+Northern Ireland National Application Annex to
+CD 109 Highway link design
+(formerly TD 9/93)
+Revision 0
+Summary
+This National Application Annex sets out the Department for Infrastructure, Northern Ireland
+specific requirements for highway link design.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 91 of 105
+======================================================================
+CD 109 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Traffic signs and road markings (additional to CD 109)
+5
+NI/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 92 of 105
+======================================================================
+CD 109 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Nov 2019
+Department for Infrastructure, Northern Ireland National Application Annex to
+CD 109.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 93 of 105
+======================================================================
+CD 109 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England on behalf of Department for Infrastructure, Northern
+Ireland.
+This document supersedes those parts of TD 9/93 'Highway link design' which solely relate to roads in
+Northern Ireland which are withdrawn
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 94 of 105
+======================================================================
+CD 109 Revision 0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Department for Infrastructure, Northern Ireland-specific
+requirements for the design of highway links to CD 109 on the Northern Ireland road network.
+This National Application Annex is to be used in conjunction with CD 109.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 95 of 105
+======================================================================
+CD 109 Revision 0
+NI/1. Traffic signs and road markings (additional t...
+NI/1.
+Traffic signs and road markings (additional to CD 109)
+NI/1.1
+All traffic signs and road markings on highway links shall conform to the TSR(NI) 1997 1997 [Ref 2.N].
+NOTE
+Traffic sign and road marking diagram numbers in TSR(NI) 1997 1997 [Ref 2.N] are generally
+consistent with TSRGD 2016 2016 [Ref 3.N] but the two sets of regulations can occasionally differ.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 96 of 105
+======================================================================
+CD 109 Revision 0
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+The Stationery Office (TSO). Department for Infrastructure (DfI). TSR(NI) 1997, 'The
+Traffic Signs Regulations (Northern Ireland) 1997' , 1997
+Ref 3.N
+The Stationery Office. TSRGD 2016, 'The Traffic Signs Regulations and General
+Directions 2016' , 2016
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 97 of 105
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 98 of 105
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 109
+Scotland National Application Annex to CD
+109 Highway link design
+(formerly TD 9/93)
+Revision 0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CD 109.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 99 of 105
+======================================================================
+CD 109 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 100 of 105
+======================================================================
+CD 109 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Nov 2019
+Transport Scotland National Application Annex to CD 109.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 101 of 105
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 102 of 105
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 109
+Wales National Application Annex to CD 109
+Highway link design
+(formerly TD 9/93)
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 109.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 103 of 105
+======================================================================
+CD 109 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 104 of 105
+======================================================================
+CD 109 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Nov 2019
+Welsh Government National Application Annex to CD 109.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
+
+======================================================================
+PAGE 105 of 105
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 109 , published: Mar-2020
+
+
