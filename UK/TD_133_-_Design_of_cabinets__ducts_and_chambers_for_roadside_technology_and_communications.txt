@@ -1,0 +1,2929 @@
+======================================================================
+PAGE 1 of 122
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 133
+Design of cabinets, ducts and chambers for
+roadside technology and communications
+Version 1.0.0
+Summary
+This document contains design requirements for cabinets, ducts and chambers for roadside
+technology and communications and communications.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 122
+======================================================================
+TD 133 Version 1.0.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. General requirements for cabinets, ducts and chambers
+11
+Design of road restraint systems for cabinets for roadside technology and communications
+. . . . . . . . .
+11
+Design of foundations for cabinet for roadside technology and communications . . . . . . . . . . . . . . . .
+11
+Outputs from the design of cabinets, ducts and chambers for roadside technology and communications . .
+11
+3. Cabinets for roadside technology and communications
+13
+Provision of cabinets for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . .
+13
+Siting of cabinets for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Cabinets at the boundary for roadside technology and communications
+. . . . . . . . . . . . . . . . .
+13
+Cabinet arrangements for roadside technology and communications . . . . . . . . . . . . . . . . . . .
+14
+Design of cabinets for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Cabinet orientation for roadside technology and communications . . . . . . . . . . . . . . . . . . . . .
+14
+Cabinet foundations for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . .
+17
+Cabinet internals for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+20
+Cabinet labels for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . .
+20
+4. Ducts for roadside technology and communications
+21
+Provision of ducts for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Siting of ducts for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Design of ducts for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Backfill of trenches for roadside technology and communications . . . . . . . . . . . . . . . . . . . . .
+22
+Local ducts for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Longitudinal ducts for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . . .
+23
+Duct sealing systems for roadside technology and communications . . . . . . . . . . . . . . . . . . . .
+23
+Cross carriageway ducts (CCD) for roadside technology and communications . . . . . . . . . . . . . .
+23
+Ducts through structures (DTS) for roadside technology and communications . . . . . . . . . . . . . .
+34
+Ducts over gantries for roadside technology and communications . . . . . . . . . . . . . . . . . . . . .
+34
+5. Chambers for roadside technology and communications
+36
+Provision of chambers for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+36
+Siting of chambers for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Design of chambers for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . . . . .
+37
+Type A chambers for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+38
+Type B chambers for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+42
+Type E chambers for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+46
+Jointing chambers for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . . .
+46
+6. Normative references
+49
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 122
+======================================================================
+TD 133 Version 1.0.0
+Contents
+7. Informative references
+50
+Appendix A. Cabinets located in or at the boundary fence
+51
+Appendix B. Typical site layouts
+55
+Appendix C. Abbreviations to be used on cabinet identification labels
+99
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 122
+======================================================================
+TD 133 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 133
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+New document derived from Section split from TD 131, with updated amendments.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 122
+======================================================================
+TD 133 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 v0.1.0, incorporating parts of Section 5 and Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 122
+======================================================================
+TD 133 Version 1.0.0
+Introduction
+Introduction
+Background
+Cabinets, ducts and chambers are used to support and house electrical and telecommunication
+systems for roadside technology equipment, which supports operational services that monitor, inform
+and direct customers, to enable safe and reliable journeys.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 11.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 122
+======================================================================
+TD 133 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+CCD
+Cross carriageway duct
+DTS
+Ducts through structures
+SDP
+Service Delivery Point
+TSP
+Telecommunications Service Provider
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 122
+======================================================================
+TD 133 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Asset owner
+As defined in TD 132 [Ref 6.N].
+Cabinet
+A collective term for all cabinets for roadside technology and
+communications, which includes electricity interface (EI) cabinets,
+cabinets at the boundary, local power cabinets, communications
+cabinets, transmission cabinets and power cabinets.
+Cabinets at the boundary
+A cabinet located at or within the highway boundary, used to
+house interface equipment between distribution network
+operators and third party telecommunications service providers.
+Chamber
+In this document, a chamber is an access point to
+communications, power or other cable networks. Chambers on
+the drainage network are not considered in this document.
+NOTE: Examples of chambers are Type A, Type B, Type E and
+jointing chamber, dimensions of which are defined in Section 5 of
+this document.
+Combined communications
+cabinet
+A variant of local power cabinet and communications cabinet
+combined as a single cabinet.
+NOTE: Examples of combined communications cabinets are the
+Type 640 and Type 699 (in Scotland), combining functionality of a
+Type 609 and Type 600 cabinet.
+Communications
+As defined in TD 132 [Ref 6.N].
+Communications cabinet
+Used to house the roadside (outstation) equipment and TSP
+transmission and service delivery point equipment. It is a
+weatherproof and environmentally controlled cabinet that can
+accommodate a variety of equipment, including termination
+frames, a power distribution unit, air conditioning, or heater and
+fans.
+Cross carriageway ducts (CCD)
+Duct crossing a slip road or mainline carriageway, installed
+underneath the road surface.
+Ducts over gantries
+Ducts over gantries comprise of both the buried ducts between
+chambers and a gantry base and the above ground ducts routed
+up and over the gantry, with access points at ground level to
+facilitate the pulling of cables.
+Duct
+Ducts, sub-ducts or conduits used for installing the highway
+communications cable network comprising communications,
+power and other cables.
+NOTE: Used as an overarching term for definitions contained with
+BS EN 61386-1 [Ref 2.N].
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 122
+======================================================================
+TD 133 Version 1.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Ducts through structures (DTS)
+Any duct installed within any structure, including:
+1) bridge abutments;
+2) bridge decks;
+3) foundations for sign or signal gantries; or,
+4) other technology equipment.
+Electricity Interface (EI) cabinet
+Interface point between the distribution network operator (DNO)
+supply and the electrical distribution cables to road network.
+Used to house the DNO cutout and main distribution board.
+NOTE: In Scotland these are referred to as Termination Pillars.
+Enforcement authority
+As defined in CD 133 [Ref 8.N].
+Flexible duct
+Ducts of a construction that are designed to be coiled to a small
+radius.
+Hardened verge
+Areas of verge where a duct is under a hard surface; for instance
+a hard pavement or shallow encasement in concrete. This
+applies where there are location-specific space restrictions, such
+as retained cutting or where access pathways are provided.
+Highway boundary
+Edge of the land owned or managed by the Overseeing
+Organisation.
+Home Office Type Approval
+As defined in CD 133 [Ref 8.N].
+Information model
+As defined in GG 184 [Ref 18.N].
+Local duct
+Duct connecting individual roadside technology equipment
+between local cabinets and/or to end-device supporting structures
+or to the longitudinal communications and power duct networks.
+Local power cabinet
+Used to house the sub-distribution board, providing power at
+roadside technology equipment sites.
+NOTE 1: In England these are referred to as rural or gantry.
+NOTE 2: In Scotland these are referred to as Traffic Equipment
+Distribution Pillars.
+Longitudinal duct
+Duct running along the length of the road to facilitate cables for
+the transmission telecommunications service
+Plinth
+Used as a foundation to mount cabinets, typically made up of a
+frame and skirt arrangement.
+NOTE: An example of a plinth is the Type 610.
+Power cabinet
+A collective term for EI cabinets and local power cabinets, which
+house the main distribution board and sub-distribution board.
+Roadside technology equipment
+As defined in TD 131 [Ref 17.N].
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 122
+======================================================================
+TD 133 Version 1.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Service Delivery Point (SDP)
+As defined in TD 132 [Ref 6.N].
+Service Type Instance
+As defined in TD 132 [Ref 6.N].
+Transmission cabinet
+Used to house the TSP's transmission equipment. It is a
+weatherproof and environmentally controlled cabinet that
+accommodates a variety of equipment, including termination
+frames, a power distribution unit, air conditioning, standby power
+provision in the form of batteries and a generator socket.
+Type II cabinet identification
+label
+Used to provide details of the marker post number, carriageway
+designation letter, internal equipment or cabinet function for each
+cabinet installation.
+NOTE 1: An example is provided in TC 131 [Ref 16.N]
+Figure 16.27.
+NOTE 2: In Scotland, the Scottish NDX drawing series provide
+example.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 122
+======================================================================
+TD 133 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of cabinets, ducts and chamber installations for roadside
+technology and communications on motorways and all purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 13.N], GG
+104 [Ref 15.N], GD 304 [Ref 9.N] and with all other DMRB documents relevant to the design of the
+particular works to be undertaken.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving cabinets, duct and chambers
+for roadside technology and communications on the Overseeing Organisations' motorway and the
+all-purpose trunk roads according to the implementations of GG 101 [Ref 11.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 11.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 122
+======================================================================
+TD 133 Version 1.0.0
+2. General requirements for cabinets, ducts and ...
+2.
+General requirements for cabinets, ducts and chambers
+Design of road restraint systems for cabinets for roadside technology and
+communications
+2.1
+The design of road restraint systems for cabinets for roadside technology and communications shall be
+in accordance with CD 377 [Ref 14.N] requirements for road restraint systems.
+Design of foundations for cabinet for roadside technology and communications
+2.2
+The design of foundations for cabinets for roadside technology and communications shall be in
+accordance with CD 354 [Ref 7.N] design of minor structures.
+Outputs from the design of cabinets, ducts and chambers for roadside
+technology and communications
+2.3
+The output from the design of cabinets, ducts and chambers for roadside technology and
+communications shall include all details for the construction and installation of cabinets, ducts and
+chambers.
+2.3.1
+The outputs from the design of cabinets for roadside technology and communications should include
+details for each cabinet installation such as:
+1)
+the installation location, using a formal location referencing system;
+2)
+cabinets at a boundary fence arrangements:
+a)
+fence foundation interface arrangements;
+b)
+access arrangements;
+c)
+distribution network operator and third-party communications service provider requirements.
+3)
+cabinet foundation arrangements:
+a)
+dimensions and construction of foundations surrounding plinth and chamber bases;
+4)
+cabinet orientation:
+a)
+external clearance arrangements;
+5)
+duct and base interface arrangements;
+6)
+cabinet type and variant;
+7)
+cabinet internal arrangements:
+a)
+resistors and break-jack arrangements;
+b)
+environmental options, for example, air conditioning, fans and filter or heater;
+c)
+equipment and devices to be installed, including TSP equipment requirements;
+d)
+termination frame and connection box arrangements;
+e)
+electrical and communications wiring arrangements.
+8)
+cabinet security arrangements;
+9)
+cabinet identification labels.
+2.3.2
+The outputs from the design of ducts for roadside technology and communications should include
+details for each duct installation such as:
+1)
+the installation location, using a formal location referencing system;
+2)
+performance requirements for ducts, in addition to BS EN 61386-24 [Ref 3.N];
+3)
+route and depth of ducts and sub-ducts;
+4)
+diameter and quantity of ducts and sub-ducts;
+5)
+duct type and changes in duct type throughout the route;
+6)
+installation techniques, including requirements for shallow duct installation, trenched and
+trenchless installations;
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 122
+======================================================================
+TD 133 Version 1.0.0
+2. General requirements for cabinets, ducts and ...
+7)
+duct plugs or other proprietary duct sealing systems arrangements;
+8)
+duct proving arrangements for new and existing ducts and sub-ducts;
+9)
+trench reinstatement arrangements.
+2.3.3
+The outputs from the design of chambers for roadside technology and communications should include
+details for each chamber installation such as:
+1)
+the installation location, using a formal location referencing system;
+2)
+chamber type;
+3)
+interface type, for example, cabinet or ducts through structures interface;
+4)
+dimensions and construction of each chamber type:
+a)
+loading requirements for chambers and hard standings;
+b)
+chamber drainage arrangements;
+c)
+access step arrangements;
+d)
+cable joint bearer system arrangements;
+e)
+interrupter port arrangements;
+5)
+continuous duct route through chamber arrangements;
+6)
+chamber security arrangements.
+2.4
+Information models shall be produced to define the details and dimensions of each cabinet, duct and
+chamber for roadside technology and communications to be installed.
+2.4.1
+Drawings and non-graphical information should be produced to provide any additional details of views
+needed for the construction of cabinets, ducts and chambers for roadside technology and
+communications.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+3.
+Cabinets for roadside technology and communications
+Provision of cabinets for roadside technology and communications
+3.1
+Cabinets shall be provided for housing roadside technology and communications equipment.
+NOTE
+Any requirements for housing of the TSP's transmission equipment is determined by the TSP, including
+the internal environmental conditions, the amount of internal communications cabinet space required,
+and the power supply and distribution requirements.
+3.1.1
+The combined communications cabinet for roadside technology and communications should be used
+where site constraints allow to limit the number of cabinets deployed.
+NOTE 1
+Cabinet adaptation kits for power distribution in combined communications cabinets are described in
+TR 2637 [Ref 1.I].
+NOTE 2
+The combined communications cabinet is referred to as the 640 cabinet or 699 cabinet in Scotland.
+3.2
+The shared use of cabinets for roadside technology and communications shall be agreed by all asset
+owners and maintainers.
+3.3
+For cabinets at permanent traffic enforcement sites for roadside technology and communications, the
+Overseeing Organisation and Enforcement Authority shall be consulted to determine the cabinet
+requirements for the specific permanent traffic enforcement system.
+3.4
+Cabinets at permanent traffic enforcement sites for roadside technology and communications shall be
+in accordance with the requirements of the Home Office Type Approval for the specific permanent
+traffic enforcement system.
+Siting of cabinets for roadside technology and communications
+3.5
+A local power cabinet and communications cabinet or enclosure housing roadside equipment for
+roadside technology and communications shall be sited within view of, and readily accessible from, the
+end device and any other communications cabinets it serves.
+3.6
+The siting of cabinets for roadside technology and communications that house TSP equipment and
+SDPs shall be agreed with the TSP.
+3.6.1
+The proximity to and accessibility of longitudinal communications cables and cable joints should be
+assessed when determining the siting of communications cabinets for roadside technology and
+communications.
+3.7
+Cabinets shall be sited such that any communications cable connecting roadside technology equipment
+and the TSP's SDP does not exceed 75% of the maximum cable length for the service supported.
+3.8
+Non-accessible faces of cabinet installations for roadside technology and communications, that are not
+located at a boundary, shall have a minimum external clearance of one of the following options:
+1)
+Option 1: 250 mm clearance
+2)
+Option 2: 150 mm clearance.
+3.8.1
+Option 1 should be applied where site constraints allow.
+3.8.2
+Option 2 should only be applied at constraint sites with limited verge space where Option 1 cannot be
+achieved.
+3.9
+Option 2 for shall be agreed with the TSP, asset owners and maintainers.
+Cabinets at the boundary for roadside technology and communications
+3.10
+Cabinets at the boundary for roadside technology and communications shall be sited such that they are
+accessible both from inside and outside the highway boundary.
+NOTE 1
+Access from within the highway boundary is required for the Overseeing Organisation's maintainers.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+NOTE 2
+Access from outside the highway boundary via third party land is necessary for the distribution network
+operator or third-party communications service provider.
+3.11
+Cabinets at the boundary for roadside technology and communications and associated infrastructure
+shall not encroach onto the third parties land.
+3.12
+The position of the cabinet for roadside technology and communications and foundation shall allow for
+the construction of the boundary fence.
+3.12.1
+The boundary fence should not encroach within 50 mm of the cabinet, but should maintain the security
+of the boundary.
+3.12.2
+Standardised arrangement for fencing for cabinets at the boundary for roadside technology and
+communications should be used throughout the scheme based on typical layouts shown in Appendix A.
+Cabinet arrangements for roadside technology and communications
+3.13
+Where site conditions allow, the order of local power cabinets and communications cabinets from the
+roadside technology in a downstream direction shall be:
+1)
+communications cabinets used for permanent enforcement equipment;
+2)
+other communications cabinets; and
+3)
+local power cabinets.
+3.13.1
+A standardised arrangement for local power cabinets and communications cabinets and chambers for
+roadside technology and communications should be used throughout the scheme based on typical
+layouts shown in Appendix B.
+Design of cabinets for roadside technology and communications
+Cabinet orientation for roadside technology and communications
+3.14
+Where site conditions allow, local power cabinets and communications cabinets for roadside
+technology and communications shall be orientated to protect the operatives from spray and allow
+vehicles to be seen approaching from upstream of the site.
+3.14.1
+Doors on the local power cabinets and communications cabinets for roadside technology and
+communications should open towards the carriageway as shown in Figures 3.12.1a-c.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+Figure 3.14.1a Combined communications cabinet orientation option 1.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+Figure 3.14.1b Combined communications cabinet orientation option 2.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+Figure 3.14.1c Combined communications cabinet orientation option 3.
+3.15
+Local power cabinets and communications cabinets for roadside technology and communications shall
+be orientated such that the doors are capable of fully opening and closing without catching on the
+paved area or other cabinet doors.
+3.16
+For cabinets in the boundary fence for roadside technology and communications, cabinet orientation
+shall be such that the doors are parallel to the fence, when the doors are closed.
+Cabinet foundations for roadside technology and communications
+3.17
+The selection of cabinet foundations for roadside technology and communications shall take into
+account the environmental conditions, sustainability of the solution and whole-life costs.
+3.17.1
+Chambered cabinet base type foundations for roadside technology and communications should be
+used for cabinets where there is space within the verge.
+3.17.2
+A plinth type 610 may be used as an alternative cabinet base for roadside technology and
+communications.
+3.18
+Cabinet bases for roadside technology and communications shall include a minimum of 2 x 100 mm
+ducts or sub-ducts.
+NOTE
+A minimum of 2 x 100mm ducts are used to support the segregation of power and communications
+cables.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+3.19
+The foundations of cabinets at the boundary fence for roadside technology and communications shall
+be located fully within the highway boundary.
+3.20
+The concrete foundation for a plinth type 610 for roadside technology and communications shall be in
+accordance with the dimensions L1 - L9 of Figure 3.18.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+Figure 3.20 The concrete foundation for a plinth type 610.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 122
+======================================================================
+TD 133 Version 1.0.0
+3. Cabinets for roadside technology and communic...
+3.20.1
+Plinth type 610s for roadside technology and communications may be used as foundations for post
+type 75s.
+3.21
+The plinth foundation size for roadside technology and communications shall be determined taking into
+account the local ground conditions to ensure that the cabinet or post type 75 remains upright.
+Cabinet internals for roadside technology and communications
+3.22
+Internal equipment layouts within cabinets for roadside technology and communications shall allow
+access for installation and maintenance.
+3.22.1
+Access for installation and maintenance may include to the rear of the internal equipment within a
+communications cabinet for roadside technology and communications.
+3.23
+Internal wiring and termination block arrangements shall allow for the connectivity of the equipment in
+the communications cabinet for roadside technology and communications.
+NOTE
+The TSP can request resistors and break-jacks to be installed.
+3.23.1
+Standardised cabinet internal wiring arrangements for roadside technology and communications should
+be used throughout the scheme where possible.
+3.24
+Communications cabinets for roadside technology and communications shall be laid out, heated and
+ventilated to maintain internal operating conditions within specified limits for all equipment contained
+within the cabinet.
+3.25
+The internal conditions of communications cabinets for roadside technology and communications shall
+meet the operating requirements of the equipment housed within the cabinet.
+NOTE 1
+Air conditioning or fans and filters to provide external air into communications cabinets are used to
+maintain internal environmental conditions.
+NOTE 2
+The need for provision of thermostatically controlled heaters in the TSP's communications cabinets is
+determined by the TSP.
+3.26
+Each communications cabinet containing the TSP roadside technology equipment shall allow space for
+cable termination, SDP presentation and labelling of service type instances in accordance with the
+requirements of the TSP.
+3.27
+Communications cabinets for roadside technology and communications shall include space for TSP
+equipment, including aerials, cabling and mounting arrangements for their equipment.
+3.27.1
+The TSP should detail the space and mounting requirements for TSP equipment.
+3.28
+The cabinet internal design for roadside technology and communications shall indicate the additional
+installation requirements to those indicated in TC 131 [Ref 16.N].
+Cabinet labels for roadside technology and communications
+3.29
+Type II cabinet identification labels for roadside technology and communications shall be used to show
+cabinet location and function.
+NOTE
+Cabinets that have been modified need new cabinet identification labels when the equipment in the
+cabinet has been changed.
+3.30
+The abbreviations to be used on cabinet identification labels for roadside technology and
+communications shall be in accordance with Appendix C.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+4.
+Ducts for roadside technology and communications
+Provision of ducts for roadside technology and communications
+4.1
+Ducts shall be used to house communication and power cables for roadside technology equipment.
+4.2
+Ducts for roadside technology and communications shall allow installation or removal of cables without
+causing damage.
+4.3
+All ducts for roadside technology and communications shall be in accordance with BS EN 61386-24
+[Ref 3.N].
+4.3.1
+Performance requirements that are not covered in BS EN 61386-24 [Ref 3.N] may be needed for ducts
+for roadside technology and communications when they are located in constraint areas such as
+adjacent to filter drains.
+Siting of ducts for roadside technology and communications
+4.4
+All ducts for roadside technology and communications shall be laid within the highway boundary.
+4.4.1
+Where site conditions allow, ducts for roadside technology and communications should be sited within
+a flat verge.
+4.4.2
+Where there is limited opportunity for additional verge width or no conventional verges, such as in
+areas of retained cutting or where access pathways are provided, the ducts may be sited under a
+hardened verge.
+NOTE
+Where sited under a hardened verge, the ducts are considered to have hard reinstatement and are not
+classified as ducts through structures (DTS).
+4.5
+Ducts for roadside technology and communications shall be sited to ensure that they are protected
+from all operational conditions which might impact the integrity of the installation, including vehicles
+leaving the carriageway.
+4.6
+All ducts for roadside technology and communications on motorways shall be positioned to facilitate
+maintenance to ducts, other services, equipment and structures.
+4.6.1
+Longitudinal duct routes for roadside technology and communications should be a minimum of 2000
+mm set back from the carriageway edge of the verge where there is no vehicle restraint system.
+4.7
+The impact of external power sources on copper communications cables for roadside technology and
+communications shall be minimised.
+4.7.1
+For designs of new longitudinal infrastructure for roadside technology and communications where
+overhead power lines, electric rail supplies or other power supply circuits run alongside a particular
+verge, the longitudinal cable route should be designed in the opposite verge, where space is available
+and safety is not unduly impacted.
+Design of ducts for roadside technology and communications
+4.8
+The longitudinal and local duct network for roadside technology and communications shall be of
+sufficient capacity and condition to carry all communications and power cables, including the TSP's,
+through the extent of the scheme.
+NOTE
+The duct design supports both the scheme and the TSP's services through the works area.
+4.9
+The TSP shall be consulted to determine any TSP specific performance requirements for ducts for
+roadside technology and communications.
+NOTE
+Internal size of longitudinal duct is nominally 100 mm.
+4.9.1
+The TSP's duct performance requirements should include any additional requirements for the
+preparation and proving of new or existing ducts and sub-ducts for roadside technology and
+communications.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+NOTE
+The TSP allocates space within all ducts.
+4.10
+The duct route for roadside technology and communications shall be continuous through the extent of
+the scheme.
+4.10.1
+The type of duct for roadside technology and communications should be the same throughout the
+works.
+NOTE
+Flexible duct, rigid and continuous duct are examples of types of duct.
+4.11
+Existing ducts for roadside technology and communications shall interface with new sections of duct via
+a chamber.
+4.11.1
+Existing duct infrastructure for roadside technology and communications should be reused where site
+conditions allow.
+4.12
+Separate ducts for roadside technology and communications for communications cables and power
+cables shall be provided.
+NOTE
+Individual ducts for communications and power cables mitigates against the effects of electromagnetic
+interference.
+4.12.1
+New or existing ducts for roadside technology and communications may be sub-ducted to provide
+managed cable installation and to increase the integrity of the duct network.
+4.13
+Where sub-ducts for roadside technology and communications are provided, they shall provide a
+continuous network between chambers, allowing cables to be installed without snagging or damage.
+4.14
+The utilisation of a duct or sub-duct for roadside technology and communications, including for pulling
+arrangements, shall not exceed 70% of the cross-sectional area of the inner diameter of the duct or
+sub-duct.
+4.15
+Duct routes and duct bend radii for roadside technology and communications shall be designed to
+minimise friction forces between the cable and the duct for cable pulling operations.
+4.15.1
+Where the existing duct for roadside technology and communications has discontinuities or internal
+sharp edges or roughness that could otherwise damage cables during their installation, a continuous
+duct route may be achieved through sub-ducting.
+NOTE
+Designing duct routes to reduce friction on cable pulling operations requires prevention of pinch points
+or sharp turns and discontinuities within the duct route that risk damage to ducts or cables during cable
+installation.
+4.16
+The number of ducts for roadside technology and communications into a cabinet shall allow for all
+cables to enter the cabinet without deformation of the duct.
+4.17
+Transitions of duct or trough for roadside technology and communications to a surface mounted route
+shall not exceed 1:30 horizontally or 1:60 vertically.
+Backfill of trenches for roadside technology and communications
+4.18
+The minimum cover depth of overall backfill of trenchnes for roadside technology and communications
+shall be selected from one of the following options:
+1)
+Option 1: 600 mm for longitudinal ducts in non-hardened verges;
+2)
+Option 2: 450 mm for longitudinal ducts in non-hardened verges where the duct has a
+compression class of 450 N;
+3)
+Option 3: 350 mm for local duct trenches in non-hardened verges;
+4)
+Option 4: An alternative duct installation in constraint areas that maintains the integrity of the duct
+for the loading requirements.
+4.18.1
+Option 1, 2 or 3 should be applied.
+4.18.2
+Option 4 may be applied when the minimum cover depths cannot be achieved.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+4.18.3
+Backfill of trenches should be as detailed in TC 131 [Ref 16.N].
+NOTE
+Topsoil and grass seed or turf is placed in the top 150 mm of the cable duct trench unless otherwise
+specified.
+Local ducts for roadside technology and communications
+4.19
+Local ducts for roadside technology and communications shall be provided for all local TSP cables
+where services extend from a longitudinal cable joint to a communications cabinet or SDP location.
+4.20
+Where a SDP is not co-located with a longitudinal cable joint, local ducts for roadside technology and
+communications shall be provided from the designated longitudinal chamber to an interface chamber at
+the communications cabinet or SDP location.
+4.20.1
+Where communications cabinets or SDP locations are in the same verge and adjacent to the
+longitudinal cable route, local ducts for roadside technology and communications may be laid in the
+same trench, parallel to the longitudinal duct route up to a maximum length nominated by the TSP.
+Longitudinal ducts for roadside technology and communications
+4.21
+A minimum of two ducts shall be provided on the longitudinal side of the carriageway, with one duct
+available to be sub-ducted for communications cables for roadside technology and communications.
+NOTE
+Longitudinal ducts for typical motorway installations consist of 4 x 100 mm ducts.
+4.22
+Flexible ducts shall not be used as longitudinal ducts for roadside technology and communications.
+4.23
+Where bases for roadside technology coincide with the longitudinal duct route, these bases shall be
+designed to allow ducts to be built in.
+NOTE
+Where longitudinal ducts coincide with bases for roadside technology, they are not DTS and do not
+require transition chambers to be installed.
+4.24
+Longitudinal ducts for roadside technology and communications shall include a minimum of one spare
+duct of the same size and type as those used for cable installation, fully roped, which is solely for TSP's
+future use.
+NOTE
+A spare duct can be used, for example, to install a replacement cable, whilst maintaining operational
+service through the existing cable and duct.
+4.25
+Where the local duct for roadside technology and communications exceeds the maximum length
+specified by the TSP, an intermediate chamber shall be provided on the longitudinal duct route adjacent
+to the communications cabinet or SDP location.
+4.25.1
+The longitudinal duct for roadside technology and communications allocated to local cables may be
+broken out in this intermediate chamber and the local duct run directly to the communications cabinet
+or SDP location.
+Duct sealing systems for roadside technology and communications
+4.26
+Removable mechanical duct plugs or another removable proprietary duct sealing system for roadside
+technology and communications shall be provided at chamber end of ducts that run into a cabinet,
+cabinet base chamber or equipment site.
+4.26.1
+Longitudinal ducts between chambers for roadside technology and communications should not require
+sealing unless the area is prone to flooding or a build up of toxic gas.
+4.27
+Mechanical duct plugs or another proprietary duct sealing system for roadside technology and
+communications shall be provided at the cabinet end of a duct if a cabinet base chamber has not been
+installed for the cabinet.
+4.28
+Expanding foam shall not be used as a duct sealing system for roadside technology and
+communications.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Cross carriageway ducts (CCD) for roadside technology and communications
+4.29
+CCDs for roadside technology and communications shall be provided for the TSP and electrical power
+design to allow cables to cross carriageways.
+4.30
+The duct route shall maximise the use of existing viable CCDs for roadside technology and
+communications.
+4.30.1
+The viability of existing CCDs for roadside technology and communications should be determined from
+their relevance to the duct route, their proved condition and their capacity for new cables.
+4.31
+Where the condition of an existing CCD for roadside technology and communications is unfit for reuse
+or there is constraint capacity, one of the following options shall be chosen:
+1)
+Option 1: sub-duct the CCD;
+2)
+Option 2: use an alternative existing CCD; or,
+3)
+Option 3: provision of a new CCD crossing.
+4.31.1
+Option 1 should be applied where an existing CCD for roadside technology and communications is fit
+for re-use and there is no capacity constraints.
+4.31.2
+CCDs for roadside technology and communications should be perpendicular to the carriageway unless
+there is a verge constraint.
+4.32
+The installation technique for each CCD for roadside technology and communications shall be
+determined by assessing the site conditions and the impacts to customers during construction.
+NOTE
+Trenched and trenchless installation techniques are used in CCD construction.
+4.33
+The design for the installation of CCDs for roadside technology and communications shall minimise the
+excavation of, and disruption to existing assets.
+NOTE
+Minimising excavation of and disruption to the existing assets can be achieved by:
+1)
+Using existing duct infrastructure;
+2)
+Minimising the number of duct crossings; and,
+3)
+Installation of duct crossings using trenchless techniques.
+4.33.1
+CCDs for roadside technology and communications should be designed to be installed using trenchless
+techniques.
+NOTE
+Trenchless installation is often unsuitable where underground obstructions are present and where
+space for plant is limited.
+4.34
+The use of open cut cross carriageway trenches shall be minimised, unless as part of a new
+carriageway construction or full reconstruction.
+NOTE
+Cross-carriageway trenches cause disruption and create discontinuities and weaknesses in the
+pavement structure that have been shown to cause medium-to-long term damage to the pavement.
+4.35
+Open cut cross carriageway trenches shall be designed in accordance with CD 227 [Ref 5.N].
+4.36
+Chambers shall be designed at the demarcation point between CCD and longitudinal or local ducts for
+roadside technology and communications, such that a continuous duct route is formed.
+4.37
+The physical transition between ducts and CCD for roadside technology and communications shall be
+implemented such that cables can be safely installed through the CCD without damage to the cables or
+the ducts.
+4.38
+New CCDs for roadside technology and communications shall comprise a minimum of 4 x 100 mm
+ducts.
+4.39
+Where new CCDs for roadside technology and communications require access to the central reserve,
+at least two continuous ducts shall be provided between verges.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+4.40
+CCDs for roadside technology and communications shall have a minimum clearance of 150 mm below
+a drain or 100 mm clearance above a drain.
+4.41
+CD 622 [Ref 12.N]managing geotechnical risk shall be used for the design of CCD installations for
+roadside technology and communications.
+NOTE
+The depth of CCD is determined by the following factors:
+1)
+the pavement construction depth;
+2)
+the technique of duct installation to be used;
+3)
+the need to ensure that adequate protection to the duct is achieved, both during construction and
+under long-term vehicular loading;
+4)
+the highway drainage depth and location;
+5)
+whether the road is new or existing; and,
+6)
+geotechnical risk management in accordance with CD 622 [Ref 12.N]
+4.41.1
+For shallow depth CCD installations for roadside technology and communications on slip roads and
+mainline carriageways in a new road construction or open cut, the duct level should be a minimum 150
+mm below the road construction as illustrated in Figure 4.40.1.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Figure 4.41.1 CCD installation for slip roads in a new road construction or open cut
+NOTE 1
+Trenched techniques on existing roads are normally only considered when crossing a slip road.
+NOTE 2
+Road construction includes pavement foundations (i.e. capping layer and sub-base), base (i.e.
+roadbase) and surface (i.e. binder and surface) courses, covering all layers above the formation.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+4.41.2
+For deep depth CCD installations for roadside technology and communications on mainline
+carriageways in a new road construction, the duct level should be a minimum 150 mm below the road
+construction and min 1200 mm below carriageway surface as illustrated in Figure 4.40.2.
+Figure 4.41.2 CCD installation for mainline carriageway in a new road construction
+4.41.3
+For CCD installations for roadside technology and communications on slip roads and mainline
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+carriageways installed using trenchless techniques, the outer sleeve should be a minimum 300 mm
+below road construction as illustrated in Figure 4.40.3.
+Figure 4.41.3 CCD installtion for ducts installed using trenchless techniques
+4.42
+Where CCDs for roadside technology and communications are constructed at a depth greater than
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+2000 mm, arrangements shown in figures 4.41a - d shall be used depending on the site conditions.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Figure 4.42a Construction of ducts where CCDs are constructed at a greater depth than 2000 mm in a cutting with ducts perpendicular to
+carriageway.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Figure 4.42b Construction of ducts where CCDs are constructed at a greater depth than 2000 mm on an embankment with ducts perpendicular
+to carriageway.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Figure 4.42c Construction of ducts where CCDs are constructed at a greater depth than 2000 mm in a cutting with ducts curving along the
+carriageway in a constrained verge.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Figure 4.42d Construction of ducts where CCDs are constructed at a greater depth than 2000 mm on an embankment with ducts curving along
+the carriageway in a constrained verge
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+Ducts through structures (DTS) for roadside technology and communications
+4.43
+Where the Overseeing Organisation's and TSP's cable infrastructure passes through a structure, the
+cable shall be contained within ducts for roadside technology and communications.
+NOTE 1
+Examples of structures are bridge decks, foundations, walls and bases.
+NOTE 2
+Ducts passing through a structure containing cables are designated as DTS in order to differentiate
+them from ducts otherwise located within a hardened verge (for example shallow encasement in
+concrete or hard pavement) or a soft verge.
+NOTE 3
+Where there are DTS, it is notable that some structures installed prior to the year 2000 contain
+asbestos.
+NOTE 4
+The process and procedures for asbestos management are held within GG 105 [Ref 1.N].
+4.44
+The duct route shall maximise the use of existing viable DTS for roadside technology and
+communications.
+4.44.1
+The viability of existing DTS for roadside technology and communications should be determined by the
+proximity to the duct route, the proved condition and capacity for new cables.
+4.45
+Where the condition of an existing DTS for roadside technology and communications is unfit for reuse
+or there is capacity constraints, one of the following options shall be chosen:
+1)
+Option 1: sub-duct the DTS;
+2)
+Option 2: use an alternative existing DTS; or
+3)
+Option 3: provision of a new DTS.
+4.45.1
+Option 1 should be applied where an existing DTS for roadside technology and communications is fit
+for re-use and there is no capacity constraints.
+4.46
+There shall be chambers at the demarcation point between DTS and longitudinal or local ducts for
+roadside technology and communications.
+4.46.1
+DTS for roadside technology and communications should connect to ducts, via chambers such that a
+continuous duct route is formed.
+NOTE
+DTS are integral elements of the structure in which they are located.
+4.47
+Sub-ducts for roadside technology and communications shall be installed to bridge interfaces between
+variations in duct diameter and allow a continuous run between interface chambers either side of the
+structure.
+NOTE
+Some existing structures contain ducts that are smaller in diameter than standard longitudinal ducts,
+which are often truncated at the edge of the structure.
+4.48
+The physical transition between ducts in the soft verge and DTS for roadside technology and
+communications shall be implemented such that cables can be safely installed through the DTS without
+damage to the cables or the ducts.
+4.49
+Where carriageways are constructed on separate structures, provision for cabling between the
+structures shall be implemented in the design.
+Ducts over gantries for roadside technology and communications
+4.50
+Ducts over gantries for roadside technology and communications shall meet the design criteria
+provided by the TSP.
+4.50.1
+The use of CCDs for roadside technology and communications should be assessed in the first instance
+as the preferred method.
+4.51
+Cable duct transitions onto gantry cable trays for roadside technology and communications shall
+prevent water ingress into the ducts to IP66 in accordance with BS EN 60529 [Ref 4.N].
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 122
+======================================================================
+TD 133 Version 1.0.0
+4. Ducts for roadside technology and communicati...
+4.51.1
+Ducts and their fixing arrangements over a gantry for roadside technology and communications should
+be a permanent part of the gantry structure.
+4.51.2
+The design should be demonstrated and tested in an off-road environment prior to implementation to
+prove that the design is functional for the installation of the cables for roadside technology and
+communications and their maintenance thereafter.
+NOTE
+It is not necessary to demonstrate or test previously consented designs (or those with minor
+modifications), subject to the consent of the TSP.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+5.
+Chambers for roadside technology and communications
+Provision of chambers for roadside technology and communications
+5.1
+Chambers shall be used to support the installation and maintenance of communication and power
+cables for roadside technology equipment.
+5.2
+Chambers for roadside technology equipment shall not be used for other types of equipment cabling.
+NOTE
+Road lighting and traffic signalling systems use separate chambers.
+5.3
+The maximum spacing between chambers for roadside technology and communications shall be
+optimal for meeting life cycle demands on the ducts for installation, maintenance, inspection,
+replacement, modification and removal.
+NOTE
+Typically, 500-m maximum chamber spacing is suitable to meet the life cycle demands on the ducts.
+5.4
+A chamber for roadside technology and communications shall be provided on the longitudinal duct at
+each end of a structure.
+NOTE 1
+DTS are likely to be located at a different depth and offset from the main longitudinal duct run and
+therefore chambers are required to allow cables to be installed through the structure. One chamber can
+be used to accommodate the transition of ducts from the structure and one to accommodate the offset
+to the line of the longitudinal ducts.
+NOTE 2
+Where there are chambers in structures, some structures can contain asbestos.
+NOTE 3
+The process and procedures for asbestos management are held within GG 105 [Ref 1.N].
+NOTE 4
+The requirements for a safety risk assessment are held within GG 104 [Ref 15.N].
+5.5
+The type of chamber for roadside technology and communications to be used shall be selected from
+one of the following options:
+1)
+Option 1: Type A chamber;
+2)
+Option 2: Type B chamber;
+3)
+Option 3: Type E chamber;
+4)
+Option 4: Jointing chamber.
+5.5.1
+Option 1 should be selected where site constraints allow.
+5.5.2
+Option 2 should be selected at constraint sites and for Highways Agency Digital Enforcement and
+Compliance System infrastructure requirements.
+5.5.3
+Option 3 may be used to interface with masts or poles to facilitate cable pulling.
+NOTE
+Type E chambers can be used to facilitate cable pulling where the end device is more than 30 m away
+from the nearest chamber or cabinet along the cable route.
+5.5.4
+Option 4 should be used to house loop feeder joints.
+Siting of chambers for roadside technology and communications
+5.6
+New chambers for roadside technology and communications shall not be sited in the carriageway, hard
+shoulders or central reserve crossovers.
+5.7
+Where existing chambers for roadside technology and communications are sited in the carriageway or
+hard shoulder, they shall be removed or relocated away from the carriageway and hard shoulder.
+5.8
+Chambers for roadside technology and communications shall be sited to allow operatives to safely
+access the chamber and ducting.
+5.9
+Chambers for roadside technology and communications and their maintenance access areas shall not
+encroach on the working width of the road restraint system.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+5.10
+Chambers for roadside technology and communications with hinged lids shall be sited such that the
+hinged lid can be opened fully and is not impeded by any object, and does not encroach on the working
+width of the road restraint system.
+5.11
+Chamber locations for roadside technology and communications shall allow for the safe insertion and
+removal of chamber covers, or the operation of hinged lids.
+5.12
+Chambers for roadside technology and communications where cable pulling activities are undertaken
+shall allow unimpeded space for operatives to stand and deploy equipment to undertake these
+activities.
+5.12.1
+Capacity for cable pulling should allow for manual or machine operations, as determined by the length
+and size of the cables being installed.
+5.13
+The dimensions and spacing of chambers for roadside technology and communications on structures
+shall be subject to the requirements of the TSP.
+5.14
+On structures, chambers for roadside technology and communications shall be installed either side of
+any expansion joint, to allow the termination of the flexible or other duct work arrangements to
+accommodate the expansion of the structure, for the correct operation and the retention of cables either
+side of the expansion joint.
+5.14.1
+The duct work arrangements for roadside technology and communications should be agreed with the
+structural designer to ensure that they do not interfere with the operation of the expansion joint.
+Design of chambers for roadside technology and communications
+5.15
+The construction details and material properties for each chamber for roadside technology and
+communications shall be determined by the size of the chamber, ground conditions and loading
+requirements of the chamber.
+5.15.1
+Type GEN 3 concrete for ancillary purposes should be used for concrete chambers for roadside
+technology and communications unless ground conditions or loading requires otherwise.
+5.15.2
+The material properties for plastic and pre-cast concrete communication chambers for roadside
+technology and communications should be specified.
+NOTE
+Material properties can include:
+1)
+Mechanical properties;
+2)
+Resistance to chemical exposure from soil;
+3)
+Thermal properties to withstand temperature fluctuations without cracking or deforming the
+chamber;
+4)
+Electrical insulation of the chamber;
+5)
+Water absorption and permeability to prevent damage and maintain structural integrity of the
+chamber;
+6)
+UV stability.
+5.16
+Hard standings for chambers, chambers, covers and frames for roadside technology and
+communications shall have a design life of at least 30 years.
+5.17
+The grade of chamber lid and supporting frame for each chamber for roadside technology and
+communications shall be selected from one of the following options:
+1)
+Option 1: Class B125;
+2)
+Option 2: Class C250;
+3)
+Option 3: Class D400.
+NOTE
+The performance characteristics are defined in BS EN 124-1 [Ref 10.N].
+5.17.1
+Option 1 should be selected in locations where the maximum loading is 125 kN.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+5.17.2
+Option 2 should be selected in locations where the maximum loading is 250 kN.
+5.17.3
+Option 3 should be selected in locations where the maximum loading is 400 kN.
+5.18
+The design of chambers for roadside technology and communications shall take into account
+construction and maintenance hazards.
+NOTE
+Hazards include working in a confined space (in some locations toxic gas collects in the chamber) and
+manual handling of chamber lids.
+5.18.1
+A standard design for each type of chamber for roadside technology and communications should be
+used throughout the scheme.
+5.19
+Chambers for roadside technology and communications shall allow for the bending radius of power
+cables and the containment of reduction joints at cabinet sites.
+5.20
+Bearers for cables and joints in chambers for roadside technology and communications shall be
+provided for cable management.
+5.21
+Internal steps shall be provided for safe access where the invert depth exceeds 900 mm below the
+finished surface of the carriageway or the adjacent ground.
+5.22
+A maintenance access area extending a minimum 600 mm from the side of the chamber lid for
+roadside technology and communications shall be designed on all sides of chambers that do not have
+a hinged lid.
+5.23
+Chambers with hinged lids for roadside technology and communications shall have a minimum 100 mm
+clearance from the edge of the lid to any obstruction throughout the opening radius.
+NOTE
+Objects and the deflection zone of vehicle restraint system are examples of obstructions.
+5.24
+Drainage for all chambers for roadside technology and communications shall be designed such that
+chambers and ducts remain free from standing water at all times.
+5.24.1
+A sump of 150 mm x 225 mm should be used unless determined otherwise by the ground conditions.
+Type A chambers for roadside technology and communications
+5.25
+The maximum depth of a type A chamber for roadside technology and communications from the
+underside of the cover to the internal base of the chamber excluding the sump, shall be 2000 mm.
+5.26
+Type A chambers for roadside technology and communications containing a communications cable
+joint shall be equipped with 2 x 100 mm interrupter ports for network bypass cables.
+5.27
+Type A chambers or a group of Type A chambers for roadside technology and communications at a site
+located on the longitudinal side of the carriageway shall be equipped with 2 x 100 mm interrupter ports
+for network bypass cables.
+5.28
+Type A chambers for roadside technology and communications containing a power or communications
+cable joint shall be a minimum 900 mm deep from the underside of the cover to the internal base of the
+chamber, excluding the sump, for the design of cable supports.
+5.29
+Type A chambers for roadside technology and communications containing a power or communications
+cable joint shall be provided with a cable joint bearer system.
+5.30
+A maximum of three cable joint enclosures shall be designed in any one chamber for roadside
+technology and communications.
+5.30.1
+Where more than three cable joint enclosures are required, an additional type A chamber for roadside
+technology and communications should be provided.
+5.31
+Type A chambers for roadside technology and communications shall be designed based on the
+illustrations in Fig 5.31 a to c.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.31a Type A communications chamber plan view
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.31b Type A communications chamber Section A-A
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.31c Type A communications chamber Section B-B
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Type B chambers for roadside technology and communications
+5.32
+The maximum depth of a type B chamber for roadside technology and communications, from the
+underside of the cover to the internal base of the chamber excluding the sump, shall be 1300 mm.
+5.33
+Type B chambers for roadside technology and communications shall be designed based on the
+illustrations in Fig 5.33a to c.
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.33a Type B communications chamber plan view.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.33b Type B communications chamber section A-A view.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.33c Type B communications chamber section B-B view.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Type E chambers for roadside technology and communications
+5.34
+Type E chambers for roadside technology and communications shall be a minimum depth 550 mm from
+the underside of the cover to the internal base of the chamber.
+5.35
+Type E chambers for roadside technology and communications shall be a minimum width 400 mm.
+Jointing chambers for roadside technology and communications
+5.36
+Where site constraints allow, jointing chambers for roadside technology and communications shall be
+used to house loop feeder joints.
+5.37
+A 50 mm duct shall be used for the detector loop tail cables from the pavement into the jointing
+chamber for roadside technology and communications for detection loops.
+5.38
+Jointing chambers for roadside technology and communications for detection loops shall be based
+upon the illustrations in Figure 5.38a and b.
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.38a Jointing chamber for detection loops plan view.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 122
+======================================================================
+TD 133 Version 1.0.0
+5. Chambers for roadside technology and communic...
+Figure 5.38b Jointing chamber for detection loops.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 122
+======================================================================
+TD 133 Version 1.0.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 105, 'Asbestos management'
+Ref 2.N
+BSI. BS EN 61386-1, 'Conduit systems for cable management General requirements
+[Designated Standard - LVD]'
+Ref 3.N
+BSI. BS EN 61386-24, 'Conduit systems for cable management. Particular
+requirements. Conduit systems buried underground [Designated Standard - LVD until
+24/10/2025'
+Ref 4.N
+BSI. BS EN 60529, 'Degrees of protection provided by enclosures (IP code).
+(Designated Standard - LVD)'
+Ref 5.N
+National Highways. CD 227, 'Design for pavement maintenance'
+Ref 6.N
+National Highways. TD 132, 'Design of electrical and telecommunication systems for
+roadside technology and communications'
+Ref 7.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 8.N
+National Highways. CD 133, 'Design of temporary automatic speed camera systems
+(TASCAR)'
+Ref 9.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 10.N
+BSI. BS EN 124-1, 'Gully tops and manhole tops for vehicular and pedestrian areas.
+Definitions, classification, general principles of design, performance requirements and
+test methods'
+Ref 11.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 12.N
+National Highways. CD 622, 'Managing geotechnical risk'
+Ref 13.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 14.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 15.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 16.N
+National Highways. TC 131, 'Roadside technology and communications'
+Ref 17.N
+National Highways. TD 131, 'Roadside technology and communications'
+Ref 18.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 122
+======================================================================
+TD 133 Version 1.0.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. OTSL. TR 2637, 'Specification for the supply of Cabinet Type 640'
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix A. Cabinets located in or at the boundary fence
+Appendix A. Cabinets located in or at the boundary fence
+Figures A.1, A.2 and A.3 illustrate three different scenarios for siting a third party cabinet in or at a
+boundary fence.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix A. Cabinets located in or at the boundary fence
+Figure A.1 A third party cabinet in a boundary fence - Option 1
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix A. Cabinets located in or at the boundary fence
+Figure A.2 A third party cabinet in a boundary fence - Option 2
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix A. Cabinets located in or at the boundary fence
+Figure A.3 A third party cabinet at a boundary fence
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Appendix B. Typical site layouts
+Figure B.1 shows the key to the remainder of the figures in this appendix.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.1 Key to the figures in Appendix B
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.2 shows a typical layout for 640 (or 699) cabinet with two type A chambers.
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.2 Typical layout for 640 (or 699) cabinet with two type A chambers
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.3 shows a typical layout for 640 (or 699) cabinet combined with a 600 (or 600S) cabinet in an
+array formation.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.3 Typical layout for 640 (or 699) cabinet combined with a 600 (or 600S) cabinet in an array formation
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.4 shows a typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or
+600S) cabinet with two type A chambers located downstream of the CCTV mast.
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.4 Typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet with two type A chambers located
+downstream of the CCTV mast
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.5 shows a typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or
+600S) cabinet with two type A chambers located upstream of the CCTV mast.
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.5 Typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet with two type A chambers located
+upstream of the CCTV mast
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.6 shows a typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or
+600S) cabinet along with a single type A chamber located downstream of the CCTV mast.
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.6 Typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet along with a single type A chamber
+located downstream of the CCTV mast
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.7 shows a typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or
+600S) cabinet with a single type A chamber located upstream of the CCTV mast.
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.7 Typical layout for a CCTV site with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet with a single type A chamber located
+upstream of the CCTV mast
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.8 shows a typical layout for a CCTV site with a 640 (or 699) cabinet with a single type A
+chamber located downstream of the CCTV mast.
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.8 Typical layout for a CCTV site with a 640 (or 699) cabinet with a single type A chamber located downstream of the CCTV mast
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.9 shows a typical layout for a CCTV site with a 640 (or 699) cabinet with a single type A
+chamber located upstream of the CCTV mast.
+71
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 73 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.9 Typical layout for a CCTV site with a 640 (or 699) cabinet with a single type A chamber located upstream of the CCTV mast
+72
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 74 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.10 shows a typical layout for a radar site with a 640 (or 699) cabinet with a single type A
+chamber located downstream of the radar pole.
+73
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 75 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.10 Typical layout for a radar site with a 640 (or 699) cabinet with a single type A chamber located downstream of the radar pole
+74
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 76 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.11 shows a typical layout for a radar site with a 640 (or 699) cabinet with a single type A
+chamber located upstream of the radar pole.
+75
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 77 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.11 Typical layout for a radar site with a 640 (or 699) cabinet with a single type A chamber located upstream of the radar pole
+76
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 78 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.12 shows a typical layout for a EAV camera site.
+77
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 79 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.12 Typical layout for a EAV camera site
+78
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 80 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.13 shows a typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet, permanent
+traffic enforcement and a single type A chamber.
+79
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 81 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.13 Typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet, permanent traffic enforcement and a single type A chamber.
+80
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 82 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.14 shows a typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet and a single
+type A chamber.
+81
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 83 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.14 Typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet and a single type A chamber
+82
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 84 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.15 shows a typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet, permanent
+traffic enforcement and two type A chambers.
+83
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 85 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.15 Typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet, permanent traffic enforcement and two type A chambers
+84
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 86 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.16 shows a typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet and two
+type A chambers.
+85
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 87 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.16 Typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet and two type A chambers
+86
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 88 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.17 shows a typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet combined
+with a 600 (or 600S) cabinet, permanent traffic enforcement and two type A chambers.
+87
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 89 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.17 Typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet, permanent traffic
+enforcement and two type A chambers
+88
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 90 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.18 shows a typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet combined
+with a 600 (or 600S) cabinet and two type A chambers.
+89
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 91 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.18 Typical layout for an MS4 cantilever gantry with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet and two type A
+chambers.
+90
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 92 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.19 shows a typical layout for a superspan gantry with a 640 (or 699) cabinet, permanent traffic
+enforcement and two type A chambers.
+91
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 93 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.19 Typical layout for a superspan gantry with a 640 (or 699) cabinet, permanent traffic enforcement and two type A chambers
+92
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 94 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.20 shows a typical layout for a superspan gantry with a 640 (or 699) cabinet and two type A
+chambers.
+93
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 95 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.20 Typical layout for a superspan gantry with a 640 (or 699) cabinet and two type A chambers
+94
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 96 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.21 shows a typical layout for a superspan gantry with a 640 (or 699) cabinet combined with a
+600 (or 600S) cabinet, permanent traffic enforcement and two type A chambers.
+95
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 97 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.21 Typical layout for a superspan gantry with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet, permanent traffic
+enforcement and two type A chambers
+96
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 98 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.22 shows a typical layout for a superspan gantry with a 640 (or 699) cabinet combined with a
+600 (or 600S) cabinet and two type A chambers.
+97
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 99 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix B. Typical site layouts
+Figure B.22 Typical layout for a superspan gantry with a 640 (or 699) cabinet combined with a 600 (or 600S) cabinet and two type A chambers
+98
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 100 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix C. Abbreviations to be used on cabinet identific...
+Appendix C. Abbreviations to be used on cabinet identification labels
+The abbreviations to be used on cabinet identification labels are shown in Table C.1.
+Table C.1 Abbreviations for cabinet identification labels and drawings
+Equipment type
+Cabinet abbreviation
+Air quality monitoring equipment
+AQM
+Ambient light monitor
+ALM
+Ambient light sensor
+ALS
+AMI controller
+AMI
+Automatic number plate recognition equipment
+AR
+Battery
+BATT
+CCTV outstation
+TV
+Communications equipment
+C
+Electricity interface
+EI
+EMS controller
+EMS
+Enforcement equipment
+EE
+Environmental sensor station
+ESS
+Feeder pillar
+FP
+Fixed text message sign
+FTMS
+Hard shoulder monitoring equipment
+HSM
+Local communications/power cabinet combined
+LP
+Marshalling cabinet
+M
+Gantry power
+GP
+Meteorological equipment
+MET
+Midas outstation
+MD
+Midas outstation with radar
+MDR
+Midas transponder
+MT
+MS1 Controller
+MS1
+MS2 Controller
+MS2
+MS3 Controller
+MS3
+MS4 Controller
+MS4
+Power equipment
+P
+Ramp metering equipment
+RMC
+99
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 101 of 122
+======================================================================
+TD 133 Version 1.0.0
+Appendix C. Abbreviations to be used on cabinet identific...
+Table C.1 Abbreviations for cabinet identification labels and drawings (continued)
+Permanent traffic enforcement camera
+ENF
+Stopped vehicle detection equipment
+SVD
+Traffic monitoring unit
+TMU
+Traffic management local
+TML
+Traffic management system
+TMS
+Traffic signal control equipment
+TSC
+Transmission cabinet
+TC
+Weigh in motion equipment
+WIM
+100
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 102 of 122
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 103 of 122
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 133 - ENAA
+England National Application Annex for
+Design of cabinets, ducts and chambers for
+roadside technology and communications
+Version 1.0.0
+Summary
+There are no specific requirements for National Highways supplementary or alternative to those
+given in TD 133.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 104 of 122
+======================================================================
+TD 133 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 105 of 122
+======================================================================
+TD 133 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 133 -
+ENAA
+1.0.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+New National Highways National Application Annex to TD 133.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 106 of 122
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 107 of 122
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 133 - NINAA
+Northern Ireland National Application Annex
+for Design of cabinets, ducts and chambers for
+roadside technology and communications
+Version 1.0.0
+Summary
+There are no specific requirements for Department for Infrastructure Northern Ireland
+supplementary or alternative to those given in TD 133.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 108 of 122
+======================================================================
+TD 133 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 109 of 122
+======================================================================
+TD 133 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 133 -
+NINAA
+1.0.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+New Department for Infrastructure Northern Ireland National Application Annex to TD 133.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 110 of 122
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 111 of 122
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 133 - SNAA
+Scotland National Application Annex for
+Design of cabinets, ducts and chambers for
+roadside technology and communications
+Version 1.0.0
+Summary
+This National Application Annex sets out the Transport Scotland specific requirements on cross
+carriageway ducts.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 112 of 122
+======================================================================
+TD 133 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Ducts for roadside technology and communications
+5
+Design of ducts for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Cross-carriageway ducts for roadside technology and communications . . . . . . . . . . . . . . . . . .
+5
+S/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 113 of 122
+======================================================================
+TD 133 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 133 -
+SNAA
+1.0.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+New Transport Scotland National Application Annex to TD 133.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 114 of 122
+======================================================================
+TD 133 - SNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+This document supersedes TD 131 [Ref 3.N], v0.1.0, in part (Section 7).
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 115 of 122
+======================================================================
+TD 133 - SNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Transport Scotland-specific requirements for cross
+carriageway duct for roadside technology and communications.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 116 of 122
+======================================================================
+TD 133 - SNAA Version 1.0.0
+S/1. Ducts for roadside technology and communicati...
+S/1.
+Ducts for roadside technology and communications
+Design of ducts for roadside technology and communications
+S/1.1
+A separate ducted system for roadside technology and communications shall be provided for power
+cables and communications cables.
+Cross-carriageway ducts for roadside technology and communications
+S/1.2
+TD 133 [Ref 1.N], 4.38 shall not apply in Scotland.
+S/1.3
+New cross-carriageway ducts for roadside technology and communications shall comprise a minimum
+of 4 x 100 mm and 1 x 150mm ducts.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 117 of 122
+======================================================================
+TD 133 - SNAA Version 1.0.0
+S/2. Normative references
+S/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. TD 133, 'Design of cabinets, ducts and chambers for roadside
+technology and communications'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+National Highways. TD 131, 'Roadside technology and communications'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 118 of 122
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 119 of 122
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 133 - WNAA
+Wales National Application Annex for Design
+of cabinets, ducts and chambers for roadside
+technology and communications
+Version 1.0.0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in TD 133.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 120 of 122
+======================================================================
+TD 133 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 121 of 122
+======================================================================
+TD 133 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 133 -
+WNAA
+1.0.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+New Welsh Government National Application Annex to TD 133.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 122 of 122
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 133 Version 1.0.0, published: 30-Sep-2025
+
+
