@@ -1,0 +1,706 @@
+======================================================================
+PAGE 1 of 17
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 401
+Renewable energy systems appraisal
+(formerly N/A)
+Version 1.0.0
+Summary
+This document contains the requirements for the appraisal of new and retrofitted renewable
+energy system installations on motorways and all-purpose trunk roads.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 2 of 17
+======================================================================
+TA 401 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Mutual recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Competency
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Renewable energy system appraisal process
+8
+3. Concept overview
+9
+Location of equipment and safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Availability of supply . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Reliability of supply . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Standardised equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Non-quantifiable requirements
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4. Economic appraisal
+11
+Benefit-cost analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Capital expenditure (CapEx) appraisal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Operational & maintenance expenditure (OpEx) appraisal . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Carbon saving calculator
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+5. Findings report
+13
+6. Normative references
+14
+7. Informative references
+15
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 3 of 17
+======================================================================
+TA 401 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 401
+1.0.0
+October 2023
+Core document
+Change to policy, major
+revision, new document
+development
+Version 1.0.0; Publication: October 2023: New document. See Summary.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 4 of 17
+======================================================================
+TA 401 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 5 of 17
+======================================================================
+TA 401 Version 1.0.0
+Introduction
+Introduction
+Background
+This document sets out the process for the appraisal of the deployment of renewable energy systems
+(RES) on motorways and all-purpose trunk roads. It specifically addresses the high-level approach for
+RES requirements as well as the competencies of those involved in this area of the service.
+The primary purpose of introducing RES on the motorway and all-purpose trunk road network is to
+reduce carbon emissions through a greater proportion of energy to be provided from renewable
+sources. Consequently a key consideration is the potential carbon saving, which can be used in order
+to provide economic justification for the introduction of renewable energy systems.
+Other considerations where RES provides benefits, such as economic value in remote locations not in
+the proximity of existing DSO electrical networks, can also be quantifiable and therefore can be
+recorded and taken into account.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 3.N]apply to this document.
+This document is written for the competent electrical roadside technology professional/practitioner,
+electrical engineer and road safety engineer with experience in the appraisal of renewable energy
+schemes for all electrical roadside assets in order that a renewable energy appraisal is undertaken that
+is suitable for motorway and all-purpose trunk roads.
+Mutual recognition
+Where there is a requirement in this document for compliance with any part of a 'British Standard' or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 3.N].
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 6 of 17
+======================================================================
+TA 401 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+BCR
+Benefit cost ratio
+BEIS
+Department for Business, Energy & Industrial Strategy
+CapEx
+Capital expenditure.
+COTS
+Commercial off the shelf
+DSO
+Distribution system operator (historically referred to as a DNO).
+ITS
+Intelligent transport systems
+OpEx
+Operational expenditure.
+OPI
+Construction output price indices
+PV
+Photovoltaic.
+RES
+Renewable energy system
+VSS
+Variable signs and signals
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 7 of 17
+======================================================================
+TA 401 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Carbon footprint
+The amount of carbon dioxide released into the atmosphere as a
+result of the activities of a particular individual, organisation, or
+community
+Electrical connection point
+A DNO/DSO service point of an adjacent cable network with capacity
+to provide the load required
+Electricity supplier
+The company from whom electricity is purchased
+Note: The electricity supplier is independent of the DSO.
+Energy storage
+The capture of energy produced at one time for use at a later time to
+reduce imbalances between energy demand and energy production
+Hybrid supply
+The combining of two or more sources of electrical energy; typically a
+combination of DSO-derived energy, energy derived from a
+renewable energy system and/or an energy storage system
+Intelligent transport systems
+The technologies employed by transport network operators to enable
+the delivery of their services
+Operational technology
+The subset of 'intelligent transport systems' (ITS) used to operate
+and maintain the strategic road network.
+Net zero
+In reference to the Overseeing Organisations' aim of achieving a
+carbon neutral business and assisting government to reduce the
+carbon impact of transport
+Renewable energy
+Energy derived from a source that is naturally replenished when used
+e.g. wind, solar, hydro, geothermal, tidal, etc.
+Supply configuration
+The potential origin of a source of electrical energy. The supply
+configurations will include, but not necessarily be limited to; a
+DSO-derived source, a renewable energy source, an energy storage
+system or a hybrid arrangement of these. (See 'Hybrid supply').
+System autonomy
+A period of time (in minutes or hours) that an energy storage system
+will provide power at a specified load level in the event of atmospheric
+conditions not being favourable for on-site energy generation.
+In essence, the system autonomy represents a synergy between the
+energy generation profile, the load profile and the energy storage
+capacity (for example battery capacity) of any given RES installation.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 8 of 17
+======================================================================
+TA 401 Version 1.0.0
+1. Scope
+1.
+Scope
+1.1
+This document shall be applied to appraise the deployment of a RES to generate electricity from
+renewable sources.
+NOTE 1
+The reasons for a RES appraisal can include achieving 'Net zero' targets, reducing electricity costs, or
+off-grid generation at a remote location.
+NOTE 2
+For background information refer to the 'BEIS Net Zero Strategy: Build Back Greener' ( BBG [Ref 5.I]).
+1.2
+This document shall not be used to determine whether the roadside asset requiring a power supply is
+necessary. The requirement for the roadside asset has been determined by a separate and appropriate
+appraisal process. This document assumes that process has been fully completed and the roadside
+asset has been justified.
+1.2.1
+This document should be used to obtain the necessary facts and data to inform the appraisal for
+deployment of a RES on motorway and all-purpose trunk road networks for the following scenarios:
+1)
+new installations of operational technology and lighting (if included) requiring a new electrical
+connection point; and,
+2)
+existing installations of operational technology and lighting (if included) with an existing electrical
+connection point.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving the appraisal of new and
+existing operational technology and lighting (if included) installations on the Overseeing Organisations'
+motorway and all-purpose trunk roads according to the implementation requirements of GG 101 [Ref
+3.N].
+1.4
+The appraisal shall be carried out remotely, it is assummed, via desktop-based studies and no physical
+site visits are required to complete the process.
+1.5
+Where a proposed scheme does not warrant the completion of a full RES appraisal then agreement
+shall be sought from the Overseeing Organisation.
+Use of GG 101
+1.6
+The requirements contained in GG 101 [Ref 3.N]shall be followed in respect of activities covered by this
+document.
+Competency
+1.7
+All organisations and personnel delivering the RES appraisal shall be registered with an appropriate
+professional institution, the Engineering Council (ECUK) and hold the competencies and experience in
+the design and implementation of renewable energy systems and associated infrastructure, with a
+record made available to the Overseeing Organisation.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 9 of 17
+======================================================================
+TA 401 Version 1.0.0
+2. Renewable energy system appraisal process
+2.
+Renewable energy system appraisal process
+2.1
+The RES appraisal process shall include the following steps:
+1)
+concept overview;
+2)
+economic appraisal; and,
+3)
+findings report.
+NOTE
+These steps in the appraisal process are addressed individually in subsequent sections of this
+document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 10 of 17
+======================================================================
+TA 401 Version 1.0.0
+3. Concept overview
+3.
+Concept overview
+Location of equipment and safety
+3.1
+The potential location of any RES shall be determined by the operational requirements of the
+equipment requiring an electrical supply.
+NOTE
+Once this location is determined then the feasibility of deploying a RES can be appraised.
+3.2
+When locating a RES the choice of system and locations shall be assessed to minimise the risk of
+vandalism and theft.
+3.3
+Any RES shall be located at a setback from the carriageway as to minimise any risk to all affected
+populations.
+3.4
+An assessment in accordance with CD 377 [Ref 4.N] shall be included within the findings report.
+3.5
+The location of a RES shall assess the likelihood of coming in close proximity with all affected
+populations.
+3.5.1
+Where a fence or barrier is required, the cost of this should be included within the economic appraisal.
+3.6
+Any proposed RES locations shall provide a safe working environment for persons interfacing with the
+installation.
+Availability of supply
+3.7
+The availability of a DSO electrical connection (exit point) shall only be determined through liaison with
+the DSO and with reference to TG 411 [Ref 2.N].
+3.8
+Where a DSO-derived supply (exit point) does not currently exist or is not viable, after liaison with the
+DSO, then a RES shall be appraised as an alternative source of energy.
+3.9
+Where a DSO-derived supply (exit point) already exists/is viable, the RES shall be appraised either as
+an alternative source or as a hybrid supply source. This applies to existing electrical connections both
+to be retained and those requiring an upgrade by the DSO.
+3.10
+Where a hybrid supply is proposed this shall be documented within the findings report and presented to
+the Overseeing Organisation with supporting information and evidence of the liaison that has taken
+place.
+NOTE
+Hybrid supplies require liaison with the Overseeing Organisation and the DSO in order to be permitted.
+3.10.1
+The existing metering arrangement and electrical supply terms and conditions should be ascertained to
+inform the appraisal report.
+Reliability of supply
+3.11
+The supply configuration shall be reliable for the nature of the equipment supplied.
+3.11.1
+The energy demands of the equipment should be met through either:
+1)
+the use of a RES capable of providing reliable energy,
+2)
+the use of a RES and a suitable energy storage system,
+3)
+the use of a RES and a DSO-derived supply, or
+4)
+the combination of RES, a suitable energy storage system and a DSO-derived supply.
+3.12
+Where the nature of the equipment supplied warrants a reliability of supply, unless it can be
+demonstrated that a RES can supply this load profile requirement independently, either through
+generation and/or the provision of an energy storage system, then a DSO-derived supply shall also be
+required.
+3.13
+The energy storage system shall be suitable for the environment in which it is proposed.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 11 of 17
+======================================================================
+TA 401 Version 1.0.0
+3. Concept overview
+NOTE
+For example, street lighting typically operates at night therefore the load requirement can be inversely
+proportional to the generation profile of a PV-based RES due to the availability of daytime solar
+insolation, where as VSS can be operational at all times.
+3.14
+Where the load profile exceeds the calculated potential energy generation profile (including any
+contribution from an energy storage system) and reliability of supply is required, then a DSO supply
+shall also be required.
+3.15
+The system autonomy of installation supplied from a RES shall be calculated and presented to the
+Overseeing Organisation.
+Standardised equipment
+3.16
+Industry standard and non-proprietary commercially available off-the-shelf renewable energy
+components and systems shall be assessed.
+NOTE 1
+The standardisation of equipment ensures less diversity of devices, reduced maintenance stock and
+improved operative familiarity with the equipment on site. This requires far less effort to get to know the
+devices and reduces the complexity of keeping the plant operating.
+NOTE 2
+New innovative systems can be considered for trials off the motorway and all-purpose trunk road
+networks to determine their viability.
+3.17
+Evidence showing proposed equipment complies with the DSO connection requirements shall be
+included with the appraisal findings report.
+Non-quantifiable requirements
+3.18
+The RES installation and appearance shall be sympathetic to the environment in which it is located.
+NOTE 1
+For example, potential glint and glare from the solar PV panels, shadow flicker and acoustic noise from
+wind turbines can impact the surrounding environment.
+NOTE 2
+Installation appearance can be influenced by the choice of equipment and mounting heights.
+3.19
+In instances where specific protected or designated fauna or flora are present, national guidance shall
+be followed to mitigate any adverse effects.
+3.20
+In locations of historical and cultural significance, specific mitigation shall be required and subject to the
+agreement of the Overseeing Organisation.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 12 of 17
+======================================================================
+TA 401 Version 1.0.0
+4. Economic appraisal
+4.
+Economic appraisal
+Benefit-cost analysis
+4.1
+A benefit-cost analysis shall be undertaken reviewing all gains (benefits) and losses (costs) to show the
+potential rewards expected from a RES compared with a solely DSO-derived supply. This includes
+capital costs, operating costs, decommissioning costs and carbon savings over the expected operating
+life of the system.
+4.2
+A RES shall offer an overall proposition that is comparable in terms of overall benefit-cost to that of the
+DSO-powered alternative.
+4.2.1
+Where a RES is not able to have a favourable benefit-cost ratio then a threshold BCR should not be
+assumed.
+NOTE
+Reporting energy use and carbon emissions is vital to ensure a full account of climate change and
+energy impacts when appraising and evaluating projects.
+Capital expenditure (CapEx) appraisal
+4.3
+The CapEx for both the RES and the DSO-powered alternative shall be assessed in order to provide a
+basis of comparison.
+4.4
+CapEx for both the RES and DSO-powered systems shall include the full cost of design, procurement,
+installation and commissioning.
+4.4.1
+Costs should be based on sources and historical pricing data such as; equipment supplier quotes, DSO
+connection quotes or recent costs for similar works on other projects.
+Operational & maintenance expenditure (OpEx) appraisal
+4.5
+An assessment of the operation and maintenance requirements of the RES shall be carried out with
+respect to working on the motorways and all-purpose trunk road network environment and the
+Operations directorate, or equivalent, will be consulted.
+4.6
+This assessment of the operation and maintenance of the RES shall include:
+1)
+maintenance tasks that are required for the reliable operation of the RES;
+2)
+expected frequency and duration of these tasks considering the harsh environment on the
+motorways and all-purpose trunk road network;
+3)
+maintenance staff skills & competencies required and expected duration of maintenance tasks;
+4)
+understanding the safety and cost implications of working on live road networks;
+5)
+impact of maintenance tasks on system operation (e.g. whether they result in interruption to
+supply); and,
+6)
+other impacts (e.g. whether maintenance requires restriction on access to other areas, temporary
+traffic management etc.).
+4.6.1
+Maintenance task frequency should take into account the environment and conditions of the motorways
+and all-purpose trunk road network and the requirement for periodic tasks required to keep the RES
+operational.
+NOTE
+For example, removal of dirt and salt residue from PV arrays where its build-up could adversely affect
+the RES performance.
+4.7
+Whole life costing shall follow BS ISO 15686-5 [Ref 1.N].
+4.8
+OpEx for both the RES and the DSO-derived supply alternative shall be assessed in order to provide a
+basis of comparison.
+4.9
+An allowance linked to Construction Output Price Indices (OPI) shall be included for increasing the
+operation and maintenance costs.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 13 of 17
+======================================================================
+TA 401 Version 1.0.0
+4. Economic appraisal
+4.10
+The expected lifetime of components within the RES shall be estimated and allowance made for any
+components that are expected to require replacement during operating life of the RES.
+NOTE
+Guidance can be sought from equipment manufacturers on maintenance requirements.
+4.11
+Decommissioning costs shall be included as part of the OpEx appraisal process.
+Carbon saving calculator
+4.12
+An appraisal shall be undertaken on the carbon savings, of DSO supplies versus RES alternatives,
+over the whole life of the equipment supplied.
+4.12.1
+Guidance on carbon savings should be taken from the Overseeing Organisation's carbon appraisal or
+calculator scheme or, where unavailable, a suitable alternative.
+NOTE 1
+An example of an OO carbon appraisal or calculator scheme is the National Highways carbon
+emissions calculation tool HECT [Ref 3.I]and the associated guidance HECT(G) [Ref 4.I].
+NOTE 2
+There are standardised approaches and guidance documents such as the DMRB LA 114 [Ref 2.I] and
+the publicly available standard PAS 2080 [Ref 1.I]. These resources give guidance how to measure
+carbon and what is to be included in your calculations.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 14 of 17
+======================================================================
+TA 401 Version 1.0.0
+5. Findings report
+5.
+Findings report
+5.1
+A report shall be produced to document the background information, methodology and the overall
+findings and recommendations of the RES appraisal.
+5.2
+The report shall include:
+1)
+a description of the scheme extents or proposed installation;
+2)
+RES concept overview including:
+a)
+operational requirements;
+b)
+location of RES equipment:
+c)
+CD 377 assessment;
+d)
+risks to affected populations and protective measures;
+e)
+access requirements;
+f)
+availability of existing DSO electrical connections (where applicable);
+g)
+calculation of the reliability of supply including load profile and potential energy generation
+profile;
+h)
+details of proposed RES equipment demonstrating standardisation and evidence of DSO
+connection agreement compliance; and,
+i)
+assessment of any further quantifiable and non-quantifiable impacts.
+3)
+economic appraisal including:
+a)
+CapEx appraisal;
+b)
+OpEx appraisal; and,
+c)
+carbon saving calculator reports (include assumptions where applicable); and,
+4)
+conclusion and recommendations.
+5.3
+Where information related to the RES appraisal is not available or incomplete, clear reasons shall be
+provided within the findings report.
+5.4
+All supporting documentation produced as part of the RES appraisal shall be included within the
+appendices of the report, such as; evidence of DSO/electricity supplier liaison, system autonomy
+calculations, capital and operating cost calculation worksheets, and any further relevant appraisal
+outcomes.
+5.5
+Any recommendations made within the RES appraisal report shall be submitted to the Overseeing
+Organisation.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 15 of 17
+======================================================================
+TA 401 Version 1.0.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS ISO 15686-5, 'Buildings and constructed assets. Service life planning.
+Life-cycle costing'
+Ref 2.N
+National Highways. TG 411, 'Electricity supply connections'
+Ref 3.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 4.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 16 of 17
+======================================================================
+TA 401 Version 1.0.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+BSI. Construction Leadership Council. PAS 2080, 'Carbon Management in
+Infrastructure'
+Ref 2.I
+National Highways. LA 114, 'Climate'
+Ref 3.I
+National Highways. HECT, 'Highways England Carbon Tool'
+Ref 4.I
+National Highways. HECT(G), 'Highways England Carbon Tool Guidance'
+Ref 5.I
+Department for Business, Energy & Industrial Strategy. ISBN 978-1-5286-2938-6.
+BBG, 'Net Zero Strategy: Build Back Greener'
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
+
+======================================================================
+PAGE 17 of 17
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 401 Version 1.0.0, published: 31-Oct-2023
+
+
