@@ -1,0 +1,3215 @@
+======================================================================
+PAGE 1 of 55
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 368
+Design of fibre reinforced polymer bridges and
+highway structures
+(formerly BD 90/05)
+Revision 0
+Summary
+This document contains the requirements for the design of fibre reinforced polymer bridges.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 2 of 55
+======================================================================
+CD 368 Revision 0
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Complementary standards and design guides . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+8
+1. Scope
+16
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+2. Materials
+18
+General information
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Material properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Resin
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Core materials
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Fibres and fabrics
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Laminate
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Material factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Environmental conversion factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Conversion factor combinations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+3. Design
+28
+General recommendations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Pultrusion specific recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Infusion specific recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Design approval
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Design for durability
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Serviceability limit state
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Deformations and deflections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Damping
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Dynamics and vibrations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Fatigue limit state (ULS/SLS) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+4. Testing and verification of design
+34
+General information
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Testing hierarchy and pyramid approach to material certification
+. . . . . . . . . . . . . . . . . . . . . . . .
+34
+Testing methods
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Coupon testing for materials classification and durability . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Static load tests - local wheel loads and maximum design loads . . . . . . . . . . . . . . . . . . . . . .
+39
+Maximum design loads on connections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Fatigue tests
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Testing matrix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Design assisted by testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 3 of 55
+======================================================================
+CD 368 Revision 0
+Contents
+5. Durability and detailing
+44
+Design for durability
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Service environment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Resistance to impact damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Detailing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Waterproofing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Surfacing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Parapets
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+Movement joints
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+Fire
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+Finishes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+6. Execution of FRP bridges
+48
+Fabrication
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Adhesive bonding
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+7. Normative references
+49
+8. Informative references
+51
+Appendix A. Approval in principle for FRP bridges
+52
+A1 General information
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+A2 AIP additions for FRP bridges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+A3 Composites processing Information
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+A3.1 Pultrusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+A3.2 Infusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 4 of 55
+======================================================================
+CD 368 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Feb 2020
+CD 368 replaces BD 90/05 and includes additional information taken from the
+draft Eurocode (JRC report) and recently released CIRIA C779 FRP Bridges:
+Guidance for Designers. It includes finding from recent research and reflects
+current best practice. The document has been adjusted to be compatible with
+the current Eurocodes (there are no references to historic BSi Standards) and
+re-written to make it compliant with the new Highways England drafting rules.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 5 of 55
+======================================================================
+CD 368 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BD 90/05, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 6 of 55
+======================================================================
+CD 368 Revision 0
+Introduction
+Introduction
+Background
+Fibre-reinforced polymer (FRP) structures are to be designed in accordance with the general rules
+given in BS EN 1990 [Ref 3.N], BS EN 1991 [Ref 4.N] and the associated National Annexes. The
+additional provisions detailed in this document also apply.
+The fundamental requirements in clause 1.1 (2) of BS EN 1990 [Ref 3.N] are applicable. These are
+considered to have been fulfilled where:
+1) the design is based on limit states with the loads and load combinations specified in BS EN 1990
+[Ref 3.N] and BS EN 1991 [Ref 4.N];
+2) the rules and procedures for resistance, serviceability and durability specified herein have been
+applied; and
+3) it has been demonstrated that the mechanical properties and geometrical tolerances applied in the
+calculation have been achieved.
+FRP bridges can be manufactured from the use of either modular solutions (formed by connecting
+standard pultrusions) or from utilising bespoke mouldings (and the vacuum infusion process).
+FRP bridges can also be constructed using hybrids of both of the composite processing methods listed
+above. In this instance, recommendations for both pultrusions and infusions can be applicable.
+For bridges carrying highway vehicles the use of hybrid construction with steel main beams and an
+FRP road deck, would generally provide the most cost-effective solution.
+In developing an FRP bridge, testing is required to confirm the design assumptions and assumed
+strengths are achieved.
+Complementary standards and design guides
+This document includes reference to third party documents. These documents provide design criteria
+and advice. They also highlight lessons learnt by industry in the deployment of FRP bridges.
+The list provided below is a useful source of reference information, design recommendations and rules.
+They are listed for information to aid the design and manufacturing process.
+The documents include:
+1) CIRIA C779 [Ref 2.I]: FRP Bridges: Guidance for Designers;
+2) BS EN 13706 [Ref 11.N]: Reinforced plastics composites Specifications for pultruded profiles, Parts
+1 to 3 (inclusive);
+3) EUR 27666 EN [Ref 5.I]: JRC Science for Policy Report: Prospects for the new guidance in the
+design of FRP, 2016. Report EUR 27666 EN, (pre-standard for reference and 'use with care' health
+warning);
+4) CUR96 [Ref 3.I]:2003 - FRP Composite Structures;
+5) Clark 1996 [Ref 6.I] Structural Design of Polymer Composites, Eurocomp Design Guide and
+Handbook, J.L.Clark, 1996.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 7.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 7 of 55
+======================================================================
+CD 368 Revision 0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+3D
+Three Dimensional
+AIP
+Approval in Principle
+APL
+Additional protection layer
+ASTM
+American Standard Test Method
+BS EN
+British Standard European Norm
+BM
+Bending Moment
+CIRIA
+Construction Industry Research and Information Association
+CSM
+Chopped strand mat (usually) or continuous swirl mat (occasionally)
+CFRP
+Carbon fibre reinforced plastic
+FRP
+Fibre-reinforced plastic/polymer
+GFRP
+Glass fibre reinforced plastic
+GPa
+Giga pascals
+HDT
+Heat distortion temperature
+Hz
+Hertz
+ILSS
+Interlaminar shear strength
+ILTS
+Interlaminar tensile strength
+K
+Kilo
+MPa
+Mega pascals
+NDE
+Non-Destructive Evaluation
+NDI
+Non-Destructive Inspection
+NDT
+Non-Destructive Testing
+PAN
+Polyacrylonitrile
+PET
+Polyethylene Terephthalate
+PD
+Published Document
+PMI
+Polymethacrylimide
+PUR
+Polyurethane
+PVC
+Polyvinyl chloride
+NA
+National Annex
+NDP
+National Determined Parameter
+RTM
+Resin transfer moulding (pressure injection)
+SF
+Shear Force
+SLS
+Serviceability Limit State
+S-N Curve
+Plot of the magnitude of an alternating stress (S) versus the number (N) of cycles
+to failure for a given material
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 8 of 55
+======================================================================
+CD 368 Revision 0
+Abbreviations and symbols
+Abbreviations (continued)
+Abbreviation
+Definition
+UD
+Unidirectional fibre reinforcement with continuous fibre glass bundles oriented in
+one direction. (Common designations: UD roving, UD tape (prepreg), UD
+non-crimp fabric).
+UKAS
+United Kingdom Accreditation Service
+ULS
+Ultimate Limit State
+UV
+Ultra Violet
+VA-RTM
+Vacuum injection (Vacuum Assisted Resin Transfer Moulding)
+Symbols
+Symbol
+Definition
+Tg
+Glass transition temperature
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 9 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Additives
+A large number of specialist chemicals that are added to resins to
+impart specific matrix properties, such as removal from processing
+mould, flame retardancy and UV protection.
+NOTE: Known also as modifiers.
+Adhesion
+State in which two surfaces are connected together at the interface
+by mechanical or chemical forces or interlocking actions.
+Adhesive
+Substance, can be a polymer based material, which when applied
+on mating surfaces is capable of bonding the two adherends
+together.
+NOTE: An adhesive can be in liquid, film or paste form. There are
+structural or non-structural types of adhesive products.
+Anisotropic
+Material having mechanical properties being directionally
+dependent.
+Aspect ratio
+In fibre technology it is the ratio of length-to-diameter of a fibre.
+Balanced laminate
+FRP where the individual layers (or plies) are stacked so that there
+is a balance maintained of + oriented layers and - oriented layers
+at the same height from the laminate's mid-plane.
+Binder
+Agent applied to fibre mat or preforms to bond the fibres prior to
+laminating or moulding. Is a term used for the matrix that holds the
+FRP together.
+Bond
+Adhesion of one material surface to another using an adhesive or
+other bonding agent.
+Bonded connection
+Connection between two components (adherends) where surfaces
+are held together by means of an adhesive or another polymer
+material.
+Bundle
+General term for a collection of essentially parallel filaments or
+fibres.
+Carbon fibre
+Fibre type with low density and high strength and/or high modulus
+of elasticity. High strength and/or high modulus fibres are produced
+from organic materials such as polyacrylonitrile (PAN).
+Chopped strand matt
+Non-woven mat with short strands cut (approximately 50 mm long)
+from continuous fibre (or filament) strands and fairly evenly
+distributed and randomly oriented in a swirled pattern within the
+plane of the mat. The mat is held together by a binder.
+Closed mould
+Two-piece mould that encloses the uncured FRP component and
+applies pressure, and heat.
+Component
+Any element or member made of one of more FRP materials, with
+or without a core material.
+NOTE: The FRP component can have metallic features, for
+example, for a moulded joint.
+Composite
+A material comprising a polymer resin matrix reinforced by fibres or
+filaments.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 10 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Connection
+For design purposes it is the assembly of the basic components
+required to represent the transfer of the relevant internal forces and
+moments.
+Continuous roving
+Single or multiple strands of parallel filaments coated with sizing
+and wound into a cylindrical package.
+NOTE: Rovings can be used to provide continuous reinforcement
+in woven rovings, filament winding pultrusion, prepregs, or contact
+moulding components. They can be chopped to produce a
+chopped strand mat.
+Core
+In sandwich construction, the core is the central part to which top
+and bottom FRP face sheets or skins are attached.
+NOTE: Foams, honeycombs, woods (balsa) and cork are core
+materials.
+Coupon
+A coupon is a small sample of the material under test that has
+been prepared in such a way that its failure mechanism will be
+representative of the larger production pieces.
+Crazing
+Fine cracks at or under the surface of the matrix material in the
+finished FRP component.
+NOTE: Tensile stresses causing crazing can results from shrinkage
+or machining, flexure, impact shocks, temperature or swelling
+changes.
+Creep
+Time dependent part of strain resulting from stress.
+Cure
+Process of hardening of a thermosetting polymer resin (by
+cross-linking of the molecular structure), often under the influence
+of heat energy, (see also 'Post cure').
+Cure temperature
+Temperature profile to which the FRP is subjected during the
+curing process.
+Cure time
+Time needed for liquid polymer resin to reach solid state after the
+catalyst/hardener has been added, thoroughly mixed, and initiation
+has progressed.
+Curing agent
+Chemical substance(s) added to a polymer mix to promote or
+control the curing reaction of the thermoset polymer resin.
+Curing cycle
+Schedule of time periods at specified conditions to which a reacting
+thermosetting material is subjected in order to reach a specified
+property level.
+Debonding
+Failure of an adhesive layer at the interface.
+Degradation
+Deleterious change in physio-chemical structure of the matrix or
+fibre reinforcement by exposure to heat (for thermal degradation),
+ultraviolet (for photo-degradation), oxygen (for oxidative
+degradation), or weathering.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 11 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Delamination
+Separation of the layers of material in a laminate.
+NOTE 1: This can be local or can cover a significant area of the
+component.
+NOTE 2: This can occur at any time in the cure or subsequent life
+of the laminate and can arise from a wide variety of causes.
+NOTE 3: This mode of failure is linked to a relatively low
+through-thickness tensile strength.
+Die (Tool)
+Steel mould that is either one or two-sided and is either open or
+closed, in or upon which FRP material(s) is/are placed with or
+without a core to make the structural component.
+Dimensional stability
+Ability of a polymer resin part or other substance to retain the
+precise shape of the component on curing.
+E-glass
+Low alkali borosilicate glass that is the most widely used in fibres
+for reinforcing FRPs.
+Epoxy resins
+Thermoset polymer resins that can be of widely different
+formulations, but, which are characterised by the reaction of the
+epoxy group to form a cross-linked hard resin.
+Fabric, non-woven
+Textile structure produced by bonding or interlocking of fibres (or
+filaments), or both, accomplished by mechanical, chemical,
+thermal or solvent means, and combinations thereof.
+Fabric, woven
+Generic reinforcement construction consisting of interlaced yarns
+or fibres, usually a planar structure.
+NOTE: The warp direction of the woven fabric is taken to be the
+longitudinal (or 0o) direction, which is the direction of the principal
+load action.
+Filament winding
+An automated composite process in which continuous filaments (or
+tapes) are covered with resin and wound onto a mandrel in a
+predetermined pattern design.
+Fibre
+General term for a material in a filamentary form.
+NOTE: Often, 'fibre' is used synonymously with 'filament', and it is
+the more common of the two terms used.
+Fibre architecture
+Design of a FRP component where the fibre reinforcement is
+oriented and layered in a particular way to achieve the desire
+laminate mechanical properties.
+Fibre blooming
+Exposure of fibres due to erosion of surface veil and top resin layer
+in composite material.
+Fibre content
+Quantity of fibre in the FRP material.
+NOTE: Usually expressed as the percentage volume or weight
+fraction in the FRP.
+FRP
+Abbreviation for any fibre reinforced polymer material or fibre
+reinforced polymer composite, (also referred to as fibre reinforced
+plastic).
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 12 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Filler
+Relatively inert substance added to a polymer resin to alter its
+physical, mechanical, thermal, electrical or other properties or to
+lower cost.
+NOTE: The term is often used specifically to mean particulate
+additives.
+Gel
+State of a polymer resin, which has set to a jelly-like consistency.
+Gel coat
+Thin layer of unreinforced quick-setting resin on the outer surface
+of an FRP component.
+NOTE: Used in moulding processes to provide an improved
+surface to the FRP product.
+Glass fibre
+Reinforcing fibre made by drawing molten glass through bushings.
+NOTE: There are different types of glass fibres. E-glass is the
+dominant type of glass fibre.
+Glass transition temperature
+(Tg)
+Approximate midpoint of the temperature range over which the
+glass transition takes place, below Tg the polymer resin is a brittle
+(glassy) material and above Tg it is a flexible (rubbery) material.
+Hand lay-up
+FRP manufacturing process in which a thermoset polymer resin
+and the fibre reinforcement layers are applied manually either to an
+open mould or to a working surface in a number of successive
+layers.
+Hardener
+A (curing agent) substance or mixture of substances added to the
+polymer mix that reacts with to take part in and promote or control
+curing reaction.
+Heat distortion temperature
+The temperature at which a standard beam under controlled
+heating conditions reaches a prescribed deflection.
+Honeycomb
+Lightweight cellular core material made from either metallic sheets
+or non-metallic materials and formed into hexagonal-shaped cells.
+Hybrid connection
+Connection between two components where the surfaces are held
+together by combination of adhesive bonding and mechanical
+fastening.
+NOTE: Hybrid connection is also known as a combined connection.
+Insert
+Integral part of the FRP component consisting of metal or other
+material that can be moulded or bonded into position or pressed
+into the component after completion.
+Interlaminar
+Descriptive term pertaining to some feature (e.g. void), event (e.g.
+fracture) or shear stress that exists or occurs between two adjacent
+FRP layers.
+Interlaminar shear
+Shearing action between two laminae in the plane of their interface.
+Isophthalic polyester
+Unsaturated polymer resin prepared with isophthalic acid as the
+starting acid constituent.
+Joint
+Zone where two or more members are joined using connections of
+mechanical fasteners, adhesive bonding or a combination of both
+methods.
+Lamina
+Single layer or ply in a laminate of a number of individual layers of
+fibre reinforcement.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 13 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Laminate
+FRP material formed from curing and consolidating one or more
+laminae, layer or plies of one or more fibre reinforced polymer
+materials.
+NOTE: Structural form is a relatively thin flat or curved plate or
+panel component having two dimensions considerably larger than
+the third (thickness) dimension.
+Lap-joint
+Joint made by overlapping two (thin-walled) components and
+forming a load carrying connection between them.
+Layer
+Synonymous with terms 'ply' or 'lamina' with the FRP material.
+Lay-up
+Fabrication involving the stacking of successive laminae or layers
+or plies.
+Mat
+Fibrous material comprising randomly oriented chopped or swirled
+continuous fibres loosely held together with a binder.
+Matrix
+Polymer resin system alone or a mixture that is with additives
+and/or fillers.
+Moulding
+Forming of an FRP material in a solid form or prescribed shape
+and size within a closed or open mould, can be accomplished
+under pressure and heat.
+NOTE: Term can be used to denote the finished component.
+Non destructive evaluation
+Broadly considered synonymous with non destructive inspection.
+Non destructive inspection
+A process or procedure for determining the quality or
+characteristics of a material, part, or assembly without permanently
+altering the subject or its properties.
+Non destructive testing
+Broadly considered synonymous with non destructive inspection.
+Open mould
+Single-piece unenclosed mould having the component shape with
+one smooth surface.
+Orthophthalic
+Unsaturated polymer resin prepared with phthalic anhydride as the
+starting constituent.
+Orthotropic
+Having three mutually perpendicular planes of elastic symmetry,
+which are coincident with the geometric planes of symmetry.
+Peel ply
+Sacrificial exterior layer that is removed to create an improved
+surface for bonding to another component.
+NOTE: Acts as a protective layer to ensure that the surface
+remains undamaged and uncontaminated prior to the adhesive
+bonding process.
+Phenolic resin
+Family of thermosetting polymer resins made by reacting
+epichlorohydrin with bisphenol A and sodium hydroxide in dimethyl
+sulphoxide.
+NOTE: Phenoxy resins are chemically similar to epoxy resins.
+Polyester
+Usual term for an unsaturated polyester thermoset resin, which is
+capable of being cured from a liquid or solid state when subject to
+the right processing conditions.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 14 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Polymer
+High-molecular weight organic compound composed, natural or
+synthetic, of molecules characterised by the repetition of one or
+more types of monomeric units.
+NOTE: Known also as a plastic.
+Polyurethane
+Resin produced by reacting a diisocycyanate with an organic
+compound containing two or more active hydrogen atoms to form a
+polymer having free isocynate groups. Under influence of heat or
+specific catalysts, the groups react with each other, or with a
+compound containing active hydrogen, such as water or a glycol,
+to form a thermosetting resin.
+Porosity
+Volume fraction of the FRP material that is of air or other gases
+trapped within the total volume (also Voids).
+Post cure
+Additional elevated temperature cure of the matrix usually without
+pressure.
+NOTE: For certain resins, complete cure is attained only by
+exposure of the matrix to higher temperatures than those of curing.
+Pot life
+Length of time during which a catalysed thermosetting resin matrix
+retains sufficiently low viscosity for FRP processing.
+Preform
+Pre-shaped (dry) fibre reinforcement for a moulded FRP
+component.
+Prepreg
+Factory-made lamina (layer or ply) of a reactive polymer resin
+matrix and reinforcing fibres (unidirectional, fabrics or mats).
+Pultrusion
+Automated, continuous closed mould manufacturing process for
+thin-walled open and closed FRP shapes (or profiles or sections),
+having constant cross-sectional area in the direction of pultrusion.
+Quasi-isotropic laminate
+Laminate that approaches having isotropic properties in its plane
+by having a number of layers with specific orientations and lay-up
+arrangements.
+NOTE: As an example, unidirectional laminae are often grouped
+using the four orientations of 0o, 90o and 45o.
+Reinforcement
+Fibres that are added to a polymer matrix to form an FRP material
+with the required mechanical properties.
+NOTE: Reinforcement types range from short fibres to continuous
+fibres, through to complex woven fabrics and stitched fabrics.
+Resin
+Polymer material with indefinite and often high molecular weight
+and a softening or melting range that exhibits a tendency to flow
+when subjected to stress.
+NOTE: It can exist in solid, semi-solid or liquid state.
+Resin transfer moulding
+FRP manufacturing process in which a catalysed polymer resin is
+injected into a closed mould already containing the preform for the
+component.
+Roving
+Strands or bundles of continuous fibres with little or no twist along
+their length.
+Runner
+Channel in the FRP mould to assist matrix flow for complete fibre
+wet-out.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 15 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Sandwich construction
+FRP structural form comprising lightweight core material to which
+two high strength FRP faces are adhesively bonded.
+Shrinkage
+Relative change in dimension between a dimension of the moulded
+component 24 hours after it has been moulded.
+Skin
+Outer laminate layers in sandwich construction.
+Stacking sequence
+Orientations and lay-up arrangements of the laminae (or layers or
+plies) in the FRP laminate.
+Stitched fabrics
+Textile fabric that also has fibre reinforcement in the out-of-plane
+direction.
+Strand
+Assembly of parallel fibres (or filaments), normally an untwisted
+bundle or assembly of continuous filaments used as a unit.
+Stress rupture
+Also known as creep rupture. Property whereby the material can
+fail (rupture) at a sustained stress level considerably less than the
+short-term ultimate stress.
+Surfacing veil
+Very thin mat, usually 0.18 to 0.51 mm thick, of highly filamentised
+non-reinforcing fibre. Present in pultrusion to enhance the quality
+of the surface finish, to block out the fibre pattern of the underlying
+reinforcement and to add ultraviolet protection and a moisture
+diffusion barrier.
+Symmetric laminate
+Laminate in which each lamina type, angles and composition is
+exactly mirrored about the mid-plane of the FRP material.
+Thermoplastic
+Polymer resin that softens each time it is heated and hardens
+when cooled.
+Thermoset
+Class of polymers that, when cured using heat, chemical, or other
+means, changes into a substantially infusible and insoluble
+material.
+Tow
+An untwisted bundle of continuous filaments. Commonly used in
+referring to man-made fibers, particularly carbon and graphite
+fibers, in the FRP industry. Typically designated by a number
+followed by K, meaning multiplication by 1000 (e.g.12K tow has 12
+000 filaments).
+UV stabiliser
+Any chemical compound added into the resin matrix mix to
+selectively absorb UV rays.
+Unidirectional laminate
+FRP material with all the continuous fibres aligned in a single
+orientation.
+Vacuum bag
+FRP manufacturing process in which the lay-up is cured under
+moulding: pressure generated by drawing a vacuum in the space
+between the lay-up and a flexible sheet placed over it and sealed
+at the edges.
+Vinylester
+Thermosetting resin that is chemically similar to both unsaturated
+polyesters and epoxy resins.
+Water absorption
+Ratio of mass of water absorbed by FRP to weight of dry (cured)
+FRP.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 16 of 55
+======================================================================
+CD 368 Revision 0
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Wet-out
+Complete wetting or saturation of the fibre reinforcement by the
+resin matrix.
+Wet lay-up
+FRP manufacturing process for making an FRP laminate by
+applying a liquid resin system whilst or after the reinforcement is
+put in place.
+Working life
+Length of time an adhesive remains low enough in viscosity that it
+can still be easily applied.
+Yarn
+Generic term for strands or bundles of continuous fibres (or
+filaments), usually twisted for producing fabric reinforcements.
+0o
+Orientation of fibres, laminae or component that is aligned to the
+principal direction of loading.
+45o
+Orientation that is 45o from the 0o and 90o orientation.
+90o
+Orientation(s) that is/are perpendicular to the 0o orientation.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 17 of 55
+======================================================================
+CD 368 Revision 0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of FRP bridges.
+NOTE
+The following parts of a highway bridge or structure are included and referenced in this document with
+guidance given where appropriate:
+1) deck - the part of the bridge deck forming the carriageway and transferring wheel loads to the
+supporting members. It is assumed that the deck consists of top and bottom flanges, separated by a
+core of FRP webs or a filler material;
+2) primary beams/supporting members - the remaining part of the bridge deck, consisting of the main
+structural members (usually longitudinal beams) that support the deck and transfer loads to piers or
+abutments. The supporting members can be FRP, steel, concrete, or a combination of these;
+3) connections and joints – these are usually bonded or bolted and are located at joints, between the
+spans and also connecting the deck and primary supporting members;
+4) surfacing system - the surface course, including waterproofing if required, additional protective
+layers including additional plate for improved load distribution including anti-skid running surface;
+5) critical interfaces - for example, expansion joints/bearings and connections;
+6) parapet anchorage - requirements for bridge parapets are given elsewhere: only the anchorage is
+covered in this document;
+7) ancillaries - kerbs, foot-ways, drainage, service ducts, anchorage of street furniture (lighting
+columns, signs, etc.).
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving FRP bridges on the Overseeing
+Organisations' motorway and all-purpose trunk roads according to the implementation requirements of
+GG 101 [Ref 7.N].
+1.3
+This document shall be used for the design of highway bridges and structures and for re-decking of
+existing bridges using structural members made of FRP materials.
+NOTE
+This document gives guidance and additional requirements for the technical approval of highway
+structures schemes utilising FRP and also provides information for design including design rules and
+approvals. The document also presents some materials information and gives guidance on the testing
+requirements.
+1.4
+The document is a performance standard, within broad limits on permitted materials and manufacturing
+processes, it shall be used in conjunction with the 'Complimentary standard and design guides' listed in
+the Introduction.
+1.4.1
+The document is intended to be relevant to as wide a range of FRP systems as possible, and should
+not restrict future developments in materials, manufacturing processes and innovative forms of
+construction.
+1.5
+Where variance in the 'Complimentary standard and design guides' exists the values and
+recommendation made in this document shall prevail.
+1.6
+In lieu of the release and implementation of any FRP Eurocodes, this document shall be used and
+testing undertaken to confirm design assumptions and strengths.
+1.7
+Testing shall be undertaken on all new FRP systems deployed on the network to prove the design
+assumptions and strengths.
+NOTE
+The testing for modular systems is not required to be replicated, other than workmanship test for any
+repeated designs.
+1.8
+The design and testing requirements for FRP bridges varies considerably and the different methods of
+certification shall be followed in accordance with this document.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 18 of 55
+======================================================================
+CD 368 Revision 0
+1. Scope
+NOTE
+Details of the process of pultrusion and resin infusion can be found in Appendix A.
+1.9
+Processing methods other than pultrusion and infusion are permitted and specific requirements for
+these shall be agreed with the Overseeing Organisation.
+1.10
+Design undertaken using pultrusion shall be classed as 'modular' and designs using resin infusion will
+be classed as 'bespoke' solutions.
+1.10.1
+Bespoke solutions may be specifically tailored for individual structures utilising various fibre layups to
+provide a structure with materials properties designed to meet the individual structures' needs.
+1.11
+Bespoke designs shall be verified by testing, according to the requirements of this document.
+1.12
+The testing for bespoke systems (full scale tests and fatigue load tests) shall not be required to be
+replicated, for any repeated designs where previous test results are available to confirm strengths.
+NOTE
+For repeated design material characterisation (coupon testing) is still required to ensure the design
+assumptions are realised.
+Use of GG 101
+1.13
+The requirements contained in GG 101 [Ref 7.N] shall be followed in respect of activities covered by
+this document.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 19 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+2.
+Materials
+General information
+2.1
+The materials properties shall be determined by laboratory tests and elaborated from a statistical point
+of view to give characteristic values in accordance with BS EN 1990 [Ref 3.N].
+2.2
+The materials selected for use in FRP structures shall be suitable for the proposed manufacturing
+process.
+NOTE 1
+The two main components of an FRP composite are the resin and fibre reinforcement. A cured
+thermosetting resin is often very brittle and the addition of reinforcing fibres improves the composites
+mechanical properties.
+NOTE 2
+FRP composites generally have anisotropic properties unlike traditional materials which generally have
+isotropic properties. The properties of FRP materials depend on the direction being considered and the
+amount and strength of fibres in that direction.
+2.2.1
+An FRP composite material may be customised with additional reinforcement in the direction and
+location of high stresses to allow the creation of a more efficient optimised structures at lighter weights.
+2.3
+The strength of joints and connections shall be tested to give characteristic properties.
+Material properties
+Resin
+2.4
+Resin choice shall be limited to polyester, vinylester and epoxy for structural applications, however, the
+use of phenolic resin is permitted where fire risk is high.
+2.5
+The glass transition temperature (Tg) of the resin shall be at least 20°C above the maximum service
+temperature.
+NOTE
+There is a large variation in strength properties within every resin type. Indicative materials properties
+are given in Table 2.5N to aid preliminary design choices. For more detailed information refer to the
+manufacturer's information.
+Table 2.5N Indicative resin properties
+Material property / resin type
+Polyester
+Vinylester
+Epoxy
+Poisson ratio
+0.38
+0.26
+0.39
+Tg (degrees C)
+60
+100
+80 – 150
+Tensile or compression strength (MPa)
+55
+75
+75
+Youngs modulus in tension (MPa)
+3550
+3350
+3100
+Strain limit in tension or compression (%)
+1.8
+2.2
+2.5
+In plane shear modulus (MPa)
+1250
+1400
+1500
+Shear strength (MPa)
+50
+65
+80
+Shear strain limit (%)
+3.8
+3.7
+5
+Expansion coefficient (10-6 K-1)
+50 - 120
+50 - 75
+45 – 65
+Core materials
+2.6
+Core materials shall be used to create sandwich-structured composites.
+NOTE
+Sandwiching a low-density, lightweight core material between face sheets increases a laminate's
+stiffness with little added weight.
+2.7
+Core materials for use in FRP bridges shall utilise PUR, PMI, PVC, PET or balsa.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 20 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+2.7.1
+Other core materials may be used subject to agreement with the Overseeing Organisation.
+NOTE 1
+For a sandwich construction, the core functions like the connecting web of an I-beam, separating the
+face skins at a constant distance, while the skins themselves function as the I-beam flanges.
+NOTE 2
+Indicative materials properties are given in in Table 2.7.1N2 below to aid preliminary design choices.
+For more detailed information refer to the manufacturer's information.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 21 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Table 2.7.1N2 Indicative core material properties
+Density
+(kg/m3)
+Compression strength
+(N/mm2)
+Shear strength
+(N/mm2)
+Elasticity modulus
+(N/mm2)
+In-plane shear modulus
+(N/mm2)
+50
+0.3 – 0.5
+~ 0.2
+6 – 10
+4 – 5
+PUR (polyurethane)
+100
+0.6 – 1.0
+0.3 – 0.5
+~ 30
+~ 10
+40
+0.5 – 0.8
+0.3 – 0.4
+20 – 30
+~ 10
+80
+1.2 – 2.0
+0.7 – 1.0
+60 – 90
+20 – 30
+PVC
+(polyvinyl chloride)
+80
+~ 0.9
+0.5 – 1.0
+~ 50
+20
+30
+~ 0.5
+~ 0.3
+~ 30
+~ 15
+PMI
+(polymethacrylimide)
+70
+~ 1.5
+~ 1.0
+~ 90
+~ 30
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 22 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Fibres and fabrics
+2.8
+The reinforcing fibres for use in FRP components shall either be glass, basalt, aramid or carbon or a
+combination of these.
+NOTE
+Fibres are combined to create fabrics and there are various combinations created by different
+manufacturers. Typical fabrics include unidirectional fabrics, woven fabrics and multiaxial fabrics.
+Fabrics can also be individually weaved to create bespoke layouts and 3D shapes aptly named
+'preforms'.
+2.8.1
+Hybrid fabrics comprising of 2 or more different fibres may be used in FRP components, subject to the
+appropriate testing as highlighted in Section 4.
+NOTE
+Indicative materials properties are given in Table 2.8.1N below to aid preliminary design choices. For
+more detailed information refer to the manufacturer's information.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 23 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Table 2.8.1N Indicative fibre properties
+Glass
+Carbon
+E glass
+R glass
+HS
+IM
+HM
+Poisson's ratio
+0.238
+0.2
+0.3
+0.32
+0.35
+Young modulus (MPa)
+73100
+86000
+238000
+350000
+410000
+Strain limit (%)
+3.8
+4
+1.5
+1.3
+0.6
+Tension in fibre direction
+Strength (MPa)
+2750
+3450
+3600
+4500
+4700
+Poisson's ratio
+0.238
+0.26
+0.02
+0.01
+0.01
+Young modulus (MPa)
+73100
+86000
+15000
+10000
+13800
+Strain limit (%)
+2.4
+2.4
+0.9
+0.7
+0.45
+Tension perpendicular to fibre direction
+Strength (MPa)
+1750
+2000
+135
+70
+60
+Strain limit (%)
+2.4
+2.4
+0.9
+0.6
+0.45
+Compression in fibre direction
+Strength (MPa)
+1750
+2000
+2140
+2100
+1850
+Modulus (MPa)
+30000
+34600
+50000
+35000
+27000
+Strain limit (%)
+5.6
+5.6
+2.4
+3
+3.8
+Shear
+Strength (MPa)
+1700
+1950
+1200
+1100
+1000
+Thermal expansion (10-6 K-1)
+5 - 0
+3
+-0.4
+-0.6
+-0.5
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 24 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Laminate
+2.9
+Classical laminate theory shall be used for the design of laminates.
+2.10
+The resulting mechanical properties of an FRP laminate shall be determined by testing.
+2.11
+Mechanical testing of the proposed fibre/resin configuration shall be undertaken to prove the theoretical
+design strengths are achieved specifically for moulded structures.
+NOTE 1
+Refer to coupon testing in Section 4.
+NOTE 2
+The mechanical properties are dependent on the chosen resin and reinforcing fibres (material type,
+layers and orientation) together with the method of manufacture which can have a direct impact on the
+consolidation of the laminate affecting the achieved fibre volume fraction (FVF).
+NOTE 3
+Indicative laminate materials properties for varying fibre volume fractions (for unidirectional fibre layups
+and balanced bi-directional fabrics with polyester resin) are given in Table 2.11N3a and Table 2.11N3b
+below to aid preliminary design choices.
+Table 2.11N3a Indicative UD ply E glass stiffness values
+Volume fraction Vf
+E1 (GPa)
+E2 (GPa)
+G12 (GPa)
+v12
+40%
+30.4
+8.9
+2.7
+0.30
+45%
+33.8
+10.1
+3.0
+0.29
+50%
+37.2
+11.4
+3.4
+0.29
+55%
+40.5
+12.9
+3.8
+0.28
+60%
+43.9
+14.6
+4.3
+0.27
+65%
+47.3
+16.8
+5.0
+0.27
+70%
+50.7
+19.4
+5.8
+0.26
+Table 2.11N3b lndicative balanced bi-directional ply E glass stiffness values
+Volume fraction Vf
+E1 (GPa)
+E2 (GPa)
+G12 (GPa)
+v12
+40%
+12.8
+12.8
+1.9
+0.21
+45%
+14.7
+14.7
+2.1
+0.20
+50%
+16.8
+16.8
+2.4
+0.20
+55%
+18.9
+18.9
+2.6
+0.19
+60%
+21
+21.0
+2.9
+0.19
+65%
+23.3
+23.3
+3.3
+0.19
+70%
+25.6
+25.6
+3.7
+0.18
+NOTE 4
+A simple cost benefit analysis can be undertaken to assess the benefits of improving the fibre volume
+fraction by improved manufacturing processes versus the provision of additional fibres and the use of
+thicker sections.
+NOTE 5
+Increasing the volume fraction percentage can improve the attained strength of the composites
+however this can come at an increased cost due to more complex composites processing methods.
+NOTE 6
+In many cases for FRP bridges, utilising a thicker section with a lower cost manufacturing method can
+be more effective than optimising the material properties with high volume fraction. Thicker sections
+can also improve the overall damage tolerance hence improving resilience within the materials against
+external actions.
+Material factors
+2.12
+The appropriate material factors shall be applied to the strength and stiffness.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 25 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Equation 2.12 Material Factors
+γm = γm1.γm2
+NOTE 1
+γm1 is the partial material factor linked to uncertainties in obtaining the correct material properties, γm1
+is 1.15 in the case of material properties derived from tests, or 1.35 in the case of material properties
+derived from theoretical models or values available in technical literature.
+NOTE 2
+γm2 is the partial material factor due to uncertainties in material properties as a result of the nature of
+the constituent parts and depends on the production method.
+2.13
+For SLS verification, the material partial factor γm1 and γm2 shall be put equal to 1.0.
+2.14
+For ULS verification, the material partial factor γm1 and γm2 shall be obtained from tables 2.14a, b and
+c.
+Table 2.14a Partial Factor γm2 for laminates and foam core
+γm2
+Laminate type
+Strength verification
+Local stability
+Global stability
+Variation coefficient
+Vx < 0.10
+1.35
+1.5
+1.35
+Post cured
+Variation coefficient
+0.10 <= Vx <= 0.17
+1.6
+2.0
+1.5
+Variation coefficient
+Vx <= 0.10
+1.6
+1.8
+1.6
+Non post cured
+Variation coefficient
+0.10 <= Vx <= 0.17
+1.9
+2.4
+1.8
+Foam under shear
+1.5
+1.7
+1.2
+Foam core
+Foam under compression
+1.2
+1.4
+1.2
+Table 2.14b Process derived partial factor γm1 for laminates and structures
+Quality process and certification
+γm1
+Certified production process and quality system
+1.0
+Material/mechanical properties derived from tests
+1.15
+Laminates and
+structures
+Material/mechanical properties derived from theory or technical
+literature
+1.35
+Table 2.14c Partial Factor γm1 & γm2 for adhesives
+γm1
+Manual application with few controls of the thickness and surface
+pre-treatment
+1.5
+Manual applications with systematic control of the thickness and surface
+pre-treatment
+1.25
+Adhesives
+Identified application with defined and repeatable controlled parameters
+including surface pre-treatment
+1.0
+γm2
+Variation coefficient Vx <= 0.10
+1.2
+Adhesives
+Variation coefficient 0.10 < = Vx <= 0.17
+1.5
+NOTE
+Uncertainties are allowed for by means of a material factor γm .
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 26 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Environmental conversion factors
+2.15
+The effect of the environment shall be applied using various conversion factors.
+2.16
+The materials used in FRP bridge construction shall be suitable for the intended service environment,
+(e.g. temperature range, exposure to moisture, alkalis from concrete, de-icing salts and chemicals).
+2.17
+General guidance relating to environmental factors is given in BS EN 1990 [Ref 3.N], but site-specific
+requirements shall also be defined.
+2.18
+The conversion factor ηc shall be obtained by multiplying the specific conversion factors relevant for all
+the environmental actions and long term effects affecting the behaviour of the material.
+NOTE
+The effect of environment on the materials is characterised by both the design life and the assumed
+design values of the material properties over the design life. The data provided does not necessarily
+need to demonstrate that there can be no reduction in properties over the design life, but that any
+reductions are consistent with the design assumptions over the design life.
+2.18.1
+Protective coverings already tested as able to mitigate the environmental degradation and to allow the
+service life of the structure to remain unaltered, should be used in aggressive environments.
+2.18.2
+Where the presence of a protective system is able to counteract a specific environmental effect, the
+value of the corresponding conversion factor may be assumed to be equal to 1.0.
+2.19
+The total conversion factor, ηc , for the limit states analysis shall be determined from:
+Equation 2.19 Environmental conversion factors
+ηc = ηct.ηcm.ηcv.ηcf
+NOTE 1
+ηct is the conversion factor for temperature effects for verification of strength, ηct = 0.9; for verification
+of deformability and stability at a service temperature of Td = Tg – 40°C then ηct = 1.0 and at a service
+temperature of Tg – 40°C <Td < Tg – 20°C then ηct = 0.9.
+NOTE 2
+ηcm is the conversion factor for humidity effects. For UK bridges, in an outdoor climate with
+temperatures typically below 30°C then for cured laminates ηcm = 0.9 and non post cured laminates
+ηcm = 0.8. For temperatures higher than 30°C then for cured laminates ηcm = 0.8, (non post cured
+laminates for temperatures above 30°C are not permitted).
+NOTE 3
+ηcv is the conversion factor for creep effects. The conversions factors for creep related directly to the
+categories relating to the load duration classes. Dead loads are classed as 'permanent', vertical live
+loads on bridges which have a medium to high occurrence of heavy goods vehicles are classed as
+'long', bridges on local roads with a low HGV occurrence are classed 'medium' and agricultural roads
+are classed as 'low'.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 27 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Table 2.19N3 ηcv conversion factors for time duration tv
+Level of proof
+Estimated loads
+Conversion factors ηcv (tv) according to the tabular
+value ηcv20 and the duration of exposure tv
+tabular value ηcv20
+(20 years)
+- - -
+0.67
+0.5
+0.4
+0.33
+0.29
+0.25
+Permanent
+50 years
+permanent
+0.65
+0.48
+0.38
+0.31
+0.27
+0.23
+Long - term
+10 years
+permanent, long
+0.69
+0.51
+0.42
+0.35
+0.30
+0.27
+Medium - term
+6 months
+permanent, long, medium
+0.74
+0.59
+0.49
+0.43
+0.38
+0.34
+Short - term
+1 week
+permanent, long,
+medium, short
+0.80
+0.67
+0.59
+0.53
+0.49
+0.45
+Instantaneous
+1 minute
+permanent, long,
+medium, short, very short
+1.00
+1.00
+1.00
+1.00
+1.00
+1.00
+NOTE 4
+ηcf is the conversion factor for fatigue effects. In the serviceability limit state verification allowance is
+made for loss of stiffness in the material due to fatigue using a conversion factor for fatigue effects of
+ηcf = 0.9.
+Conversion factor combinations
+2.20
+Conversion factors shall be combined as indicated in Table 2.20.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 28 of 55
+======================================================================
+CD 368 Revision 0
+2. Materials
+Table 2.20 Combinations for environmental factors
+Aspect being verified
+Influencing factor
+Strength
+(ULS)
+Stability
+(ULS)
+Fatigue
+(ULS)
+Creep
+(SLS)
+Momentary deformation
+(SLS)
+Comfort / vibrations
+(SLS)
+Damage
+(SLS)
+Temperature - ηct
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Humidity - ηcm
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Creep - ηcv
+Yes
+Yes
+No
+Yes
+No
+No
+Yes
+Fatigue - ηcf
+No
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 29 of 55
+======================================================================
+CD 368 Revision 0
+3. Design
+3.
+Design
+General recommendations
+3.1
+The design requirements within this section shall be followed.
+NOTE 1
+General design advice is given together with information in the form of notes for consideration.
+NOTE 2
+The design process for FRP bridges manufactured using resin infusion and pultrusion varies
+considerably. The recommendations and advice are given to highlight the key differences and specific
+areas for consideration for both processes. For instance, material selection and characterisation is
+more important for infusions, whilst effective connection design is more appropriate for bridges made
+with pultrusions.
+NOTE 3
+In general bridges constructed with glass fibre have high strength and low stiffness compared to
+traditional construction materials. Therefore, design can be governed by deflection rather than stress
+and by serviceability limit states rather than ultimate limit states.
+3.1.1
+For bespoke fabrications the addition of carbon fibre may help improve the stiffness and reduce the
+anticipated deflections.
+NOTE
+Designs using CFRP can help control deflection however solutions using CFRP can then be governed
+by ULS stress requirements.
+3.1.2
+The use of CFRP to control defelction may require the additional bespoke testing (i.e. for fatigue) to
+ensure the design provides sufficient resilience against the applied actions during its lifetime, where
+ULS stress requirements govern.
+3.2
+The configuration of the structure and the interaction between the structural members shall be such as
+to ensure a robust and stable design.
+3.3
+In verifying the resistance, the deformability as well as the stability, the characteristic values
+corresponding to the fractile 5% of the statistical distribution, shall be used.
+3.4
+In verifying the deformability, the mean values of the modulus of elasticity shall be used.
+3.5
+FRP materials are generally linear elastic up to failure and do not behave in a ductile manner hence,
+non-linear analysis methods such as yield-line and moment re-distribution shall not be used.
+3.6
+Redistribution methods shall not be permitted.
+3.6.1
+Conventional methods of linear elastic analysis may be used assuming plane sections remain plane,
+however in the analysis an assessment of the possible increased shear lag effects is required due to
+the low shear modulus of the constituent materials.
+3.7
+Local stress concentrations shall be assessed in the design of bearings, movement joints, parapets,
+kerbs, signs.
+NOTE 1
+The effect of local stress concentrations is different from that in steel and concrete due to the lower
+ductility of FRP.
+NOTE 2
+Modes of failure can also be different to traditional materials, hence damage can accumulate at a
+microscopic level with very little overall change being apparent.
+3.8
+The use of structural health monitoring shall be assessed where appropriate concerns are raised over
+damage tolerance, dynamic performance, accumulation and where there are hidden sections that can
+be a future concern.
+3.9
+The temperature and durability data shall be analysed in setting the design values for component
+properties.
+3.10
+Due to the lower shear modulus, 'global shear' shall be assessed, (specifically for thin walled FRP
+sections such as pultrusions) to ensure the relatively low shear strength of the material is acceptable.
+3.11
+Thermal stress effects shall be assessed to ensure thermal expansion is managed.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 30 of 55
+======================================================================
+CD 368 Revision 0
+3. Design
+3.12
+Thermal stress effects shall be regarded as variable stresses and applied with a partial stress factor
+and a ψ factor. The stress factor and ψ factor are defined in the applicable National Annexes of BS EN
+1990 [Ref 3.N] and BS EN 1991 [Ref 4.N].
+3.13
+Temperature variations shall be assessed in accordance with BS EN 1991 [Ref 4.N].
+3.13.1
+FRP Bridges may be classed as Type 3 structures in accordance with BS EN 1991 [Ref 4.N].
+3.13.2
+Alternative values may be taken where supported by information on the thermal characteristic of the
+material, subject to the agreement of the Overseeing Organisation.
+NOTE
+Within BS EN 1991 [Ref 4.N] Type 2 structures are referred to as composite. This annotation refers to
+steel / concrete composites and not FRP composites.
+3.14
+Adjustments shall be made for surfacing thickness as noted in Table NA.1 within the National Annex for
+BS EN 1991 [Ref 4.N].
+3.15
+Deflections due to transient effects shall not exceed span/300.
+3.16
+The structure shall be designed to support loads caused by normal function.
+3.16.1
+The design of the structure should allow for reasonable probability that it can not collapse or suffer
+disproportionate damage under the effects of misuse or accident.
+3.17
+When undertaking the design of an FRP bridge, the following procedure shall be followed:
+1) seek advice from materials suppliers, manufacturers and fabricators regarding their preferred
+materials and manufacturing processes to inform design decisions;
+2) establish preferred manufacturing methods and associated information (post cure time and
+temperature);
+3) utilise typical materials properties for preliminary design sizing;
+4) establish preferred solution and undertake materials classification process (for infusions) and/or
+develop outline designs for connections and test accordingly;
+5) target zero joints in fully moulded structures or use of prefabricated FRP components with
+bonded/bolted connections;
+6) record details and agree design proposals in consultation with the Overseeing Organisation;
+7) design in accordance with available standards and adopt design assisted by testing process for
+areas of ambiguity/uncertainty;
+8) undertake design and analysis including FE analysis utilising agreed material properties with
+appropriate stiffness matrix used (6x6 or 9x9);
+9) appoint competent reviewer for design check ensure they have demonstrable FRP composites
+expertise;
+10) undertake design check, agree outputs and changes required and amend design accordingly.
+Pultrusion specific recommendations
+3.18
+The design and specification of pultrusion for FRP bridges shall be in accordance with BS EN 13706
+[Ref 11.N].
+3.19
+Pultrusions manufactured to BS EN 13706 [Ref 11.N] shall not require individual testing of the
+structural elements.
+3.20
+When using pultrusions for the formation of a bridge deck, manufacturers materials information and
+design guides shall be consulted and relevant controls relating to workmanship of bolted and bonded
+connections and joints developed.
+3.21
+Testing shall be undertaken including that of full scale, sub components and structural details.
+3.21.1
+For pultrusions the design and resulting testing should also assess the application of loads that do not
+act in the principal fibre directions of the material.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 31 of 55
+======================================================================
+CD 368 Revision 0
+3. Design
+3.22
+Where pultrusions are used which do not conform to BS EN 13706 [Ref 11.N] additional coupon testing
+shall be undertaken to confirm the mechanical properties of the preformed sections in addition to the
+testing referred to in Section 3.
+3.22.1
+Additional testing may also involve an assessment of fibre waviness and connection alignment, as
+addressed in paper on fibre waviness referenced in Section 8, Sebastian 2018 [Ref 1.I].
+3.23
+Recommendations for testing of bridges made from pultrusion shall be followed in Section 4 of this
+document.
+Infusion specific recommendations
+3.24
+In the case of preliminary designs for moulded structures, the ply or laminate properties shall be
+determined from theoretical models or values available in technical literature available from the
+proposed manufacturer.
+3.25
+At detailed design the adoption and use of classic laminate theory shall be followed to determine the
+configuration of individual plies required in the laminate stack(s).
+3.26
+Testing shall be undertaken to confirm material properties in accordance with Section 4 of this
+document.
+3.27
+Areas of uncertainty in the design shall be addressed through the design assisted by testing approach.
+Design approval
+3.28
+The design life of an FRP deck shall be taken as 120 years.
+3.28.1
+A shorter design life may be permitted where it is otherwise desirable to use a material which is so
+newly developed that it is not possible to provide reliable evidence for a life of 120 years.
+3.29
+A shorter design life can be justified where replacement of the FRP deck is possible, however the
+underlying primary beams shall have a 120 years design life.
+3.30
+Details of any design life relaxations proposed shall be agreed with the Overseeing Organisation.
+3.31
+The design and calculation of structures or structural elements shall be supported by tests, as
+stipulated in Section 4 of this document.
+3.32
+The design approval process shall include the following considerations:
+1) technical approval (AIP process) including construction and maintenance information with design
+decisions documented and the analysis methods adopted, proposed structural form, manufacturing
+methods and proposed quality controls;
+2) analysis and design of FRP members and components including connections and detailing to
+required standards and performance specification for the project;
+3) verification and validation of materials and component properties by testing;
+4) design and check of components and assemblies against defined material properties.
+3.33
+The additional clauses listed in Appendix A shall be added to the AIP to permit improved clarity of the
+design input assumptions and approval process.
+Design for durability
+3.34
+To account for durability and environmental factors the design shall:
+1) apply environmental factors and material factors;
+2) provide sacrificial thickness (designing for environment and for robustness);
+3) provide minimum laminate thickness (to be agreed with Overseeing Organisation);
+4) apply waterproofing and additional protection layers;
+5) utilise coatings as a protection to UV/weathering/moisture uptake.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 32 of 55
+======================================================================
+CD 368 Revision 0
+3. Design
+NOTE
+To enhance durability for the intended service life of 120 years, FRP bridges can be waterproofed (deck
+surface below pavement) to prevent water ingress and moisture uptake thereby limiting possible
+damage to the FRP component from freeze thaw cycles.
+3.35
+The environmental conditions shall be identified during the design phase in order to evaluate their
+influence on the durability of the structure, with any eventual measures being included to protect the
+material or the structural parts.
+3.36
+It shall be necessary to reduce the mechanical properties of FRP materials by material and
+environmental conversion factors for strength and stiffness.
+3.37
+Materials properties shall be reduced by application of adjusted material factors using environmental
+factors referred to in Section 4.
+NOTE
+Creep and/or stress rupture can reduce the capacity of some fibres and resins under long-term
+sustained load.
+3.38
+The robustness and resilience of the surfacing details shall be confirmed through a verification process
+to be agreed with the Overseeing Organisation.
+3.38.1
+The surfacing verification process may involve design simulation and/or mechanical testing to
+demonstrate acceptable long-term behaviour of this interface ensuring the integrity is not compromised
+due to fatigue or environmental effects.
+Ultimate limit state
+3.39
+The ULS design shall be carried out using either data supplied by the FRP manufacturer for
+appropriate values of ultimate strength and/or strain limits or data obtained from testing and in
+accordance with the design loading general rules given in BS EN 1990 [Ref 3.N], BS EN 1991 [Ref 4.N]
+and the associated National Annexes.
+3.40
+The testing and/or manufacturer's data shall assess the effects of creep, sustained load, deterioration,
+ageing, temperature effects and any other effect that can influence the strength and stiffness through
+the application of environmental factors as highlighted in Section 2.
+3.41
+The material assumptions made by the design organisation during preliminary/detailed design shall be
+verified through appropriate testing, (refer to Section 4).
+3.42
+The ULS design shall be checked as followed:
+1) pultrusions: axial tension, axial compression, in-plane flexure, in-plane tension and compression,
+shear, torsion, through-thickness tension, connection strength;
+2) laminates: resistance and stability checks at ply and laminate level;
+3) sandwich panels: facing failure, transverse shear failure, flexural crushing of core, local crushing of
+core, general buckling, shear crimping, face wrinkling and intracell buckling or dimpling.
+3.42.1
+The list of ULS design checks is not exhaustive and may be extended where required.
+Serviceability limit state
+3.43
+The serviceability limit state design shall undertake a review of the following checks:
+1) deformations and deflections;
+2) vibrations;
+3) damage tolerance.
+3.43.1
+The SLS requirements may govern the design of FRP components due to the relatively low value of
+elastic modulus.
+Deformations and deflections
+3.44
+The deflection of the structure or any part of it shall not be such as to adversely affect its appearance or
+serviceability.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 33 of 55
+======================================================================
+CD 368 Revision 0
+3. Design
+3.45
+The deflection of the structure shall be limited to span/300 under live load alone, including shear
+deformation.
+3.46
+The deflection limit shall be applied locally and globally, in both longitudinal and transverse directions.
+Damping
+3.47
+When determining the response, a material damping coefficient of 1.0 % and an average value of 1.5 %
+shall be assumed as a realistic conservative lower limit for calculations.
+3.47.1
+Higher damping values may be used where these have been substantiated by representative
+experimental data.
+Dynamics and vibrations
+3.48
+Dynamic analysis shall be carried out to determine the natural frequencies and associated mode
+shapes of the structure to indicate the susceptibility of the bridge to traffic and pedestrian induced
+vibrations.
+NOTE
+The lightweight nature of FRP can result in a "lively" bridge.
+3.48.1
+Excessive vibrations may affect the bond in joints and between surfacing and FRP.
+3.48.2
+Vibration and sway may cause discomfort to users and/or reduce the function of the structure.
+3.49
+The deformations and vibration behaviour shall be verified in both the loaded and unloaded situation for
+vertical, lateral and torsional effects.
+3.50
+The criteria for assessing the dynamic behaviour of bridges shall follow the procedures outlined in the
+following Eurocodes (BS EN) and Published Documents (PD):
+1) BS EN 1990 [Ref 3.N] as modified by UK National Annex;
+2) BS EN 1991 [Ref 4.N] as modified by UK National Annex;
+3) PD 6688-2 [Ref 10.N].
+NOTE
+None of the above documents provide limiting horizontal accelerations for deliberate lateral shaking of
+the bridge.
+3.51
+Pedestrian comfort criteria shall be assessed in accordance with BS EN 1990 [Ref 3.N], Annex A2 and
+the National Annex applied with respect to the comfort criteria for pedestrians.
+3.51.1
+BS EN 1990 [Ref 3.N]/Clause A2.4.3.2 (1) states that comfort criteria should be defined in terms of
+maximum acceptable acceleration, gives a limit for lateral and torsional vibrations (0.2 ms-2) and makes
+the value a nationally determined parameter (NDP).
+3.51.2
+Clause NA.2.3.10 of NA to BS EN 1990 [Ref 3.N] states that the pedestrian comfort criteria should be
+as given in NA.2.44 of NA to BS EN 1991-2 [Ref 2.N].
+NOTE
+NA.2.44 of NA to BS EN 1991-2 [Ref 2.N] does not specify a maximum acceptable acceleration for
+horizontal movement under normal use. BS EN 1990 [Ref 3.N] Clause A2.4.3.2 (2) gives the limiting
+values of fundamental frequency for verification of the comfort criteria (up to 2.5Hz for lateral and
+torsional modes). This is not a NDP, however NA to BS EN 1991-2 [Ref 2.N] and PD 6688-2 [Ref 10.N]
+to specify limiting values that are inconsistent with BS EN 1990 [Ref 3.N].
+3.52
+In the absence of a maximum acceptable acceleration for horizontal movement under normal use being
+specified by NA.2.44 of NA to BS EN 1991-2 [Ref 2.N], the recommended value given in BS EN 1990
+[Ref 3.N]/Clause A2.4.3.2 (1) shall be used (i.e. 0.2 m/s2), measured at the level of the deck.
+3.53
+The design is to conform to the requirements of BS EN 1990 [Ref 3.N]/Clause A2.4.3.2 (2) [i.e. a
+verification of the comfort criteria shall be performed where the fundamental frequency of the deck is
+less than (1) 5 Hz for vertical vibrations, and (2) 2.5 Hz for horizontal (lateral) and torsional vibrations].
+3.54
+Where the fundamental frequency of the bridge is less than 3Hz for horizontal (lateral) and torsional
+vibrations, provision shall be made in the design for the possible installation of dampers in the bridge.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 34 of 55
+======================================================================
+CD 368 Revision 0
+3. Design
+NOTE
+Experience with conventional bridges suggests that where the fundamental natural frequency is above
+5Hz, then dynamic effects are not significant.
+Fatigue limit state (ULS/SLS)
+3.55
+The fatigue design shall include the following checks:
+1) local effects. Wheel loads on the road surfacing affecting details such as webs, flanges, web-flange
+connections, plus joints between components, sections of deck and surfacing;
+2) global effects. Bending moment and shear forces on components and joints in the FRP decks due to
+wheels, axles or groups of axles.
+3.56
+Fatigue effects shall be assessed for stiffness, strength and environmental conditions e.g. moisture
+ingress.
+3.57
+The reference fatigue load model shall be taken from BS EN 1991-2 [Ref 2.N].
+3.58
+The partial load factor for fatigue shall be taken as 1.0.
+3.58.1
+For the fatigue check for local effects a factor of 1.5 should be applied to allow for the combined effect
+of twin wheels for wheel loads less than 30kN.
+3.59
+In the serviceability limit state verification allowance shall be made for loss of stiffness in the material
+due to fatigue using a conversion factor of:
+Equation 3.59 Conversion factor for fatigue (SLS)
+ηcf = 0.9
+3.60
+For preliminary design a matrix cracking strain (SLS) limits shall be taken as:
+1) 0.002 for polyester;
+2) 0.003 for vinylester;
+3) 0.004 for epoxy.
+3.61
+For detailed design, matrix strain limits shall be confirmed by testing where no previous testing
+information is available.
+3.62
+For ultimate limit state structures subject to cyclic variations, the fatigue effects resulting from cyclic
+loading shall be assessed.
+NOTE
+A cyclic load can be regarded as a constant amplitude load provided that the difference between the
+maximum and minimum values of the load amplitude does not exceed 10 %. Above that figure, the
+fatigue load is regarded as a variable amplitude load.
+3.62.1
+In the case of a constant amplitude load, the fatigue life should be determined using the S-N line of the
+same material and of the fatigue load type under consideration, expressed as an R value.
+3.62.2
+The evaluation of fatigue with a variable amplitude load should be based on Miner's linear damage rule.
+3.63
+Stress concentrations, such as bolted or bonded attachments shall be reviewed to ensure they are
+located in areas where they are not subject to excessive dynamic loading, (where possible).
+3.64
+Where such details are subjected to dynamic loading they shall be included in the fatigue check.
+3.65
+A bonded unidirectional GFRP additional protective layer (APL) laid normal to the pultrusion direction
+shall be applied as a measure to reduce peak local stresses and extend the fatigue lives of pultruded
+decks.
+NOTE 1
+The APL also protects the deck from damage during resurfacing.
+NOTE 2
+In estimating the static or fatigue life, finite element analysis can be performed using multiple solid
+elements through the deck webs, deck flanges, adhesive and overplates. Alternatively the test defined
+in Section 4 can applied to samples of the overplated deck.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 35 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+4.
+Testing and verification of design
+General information
+4.1
+The wide variety of fibre and matrix types along with the multiple fibre arrangement possibilities makes
+FRP composites behave in a more complex way than conventional materials and testing shall be
+undertaken to verify material properties and confirm design adequacy.
+NOTE
+FRP composites are inherently heterogeneous and as a result, they not only have a strong anisotropic
+behaviour but also predicting failure can be challenging.
+4.2
+The scope of testing and certification of material properties shall be undertaken following a simplified
+testing pyramid as suggested in the proceeding sections.
+NOTE
+Historically the solution has been to focus on extensive experimental testing. The testing pyramid can
+be used to simplify this process.
+Testing hierarchy and pyramid approach to material certification
+4.3
+Testing shall be carried out by an independent laboratory with UKAS accreditation or similar.
+4.4
+Tests on full-scale components and sub-assemblies including connections between components shall
+be undertaken to verify their structural adequacy and confirm the design data and assumptions.
+4.5
+Static load and fatigue tests shall be carried out for each new design of component or sub-assembly.
+4.5.1
+Where designs are re-used, (with no changes in the fibre and resin configuration), the design does not
+need to be retested and existing testing data may be used to verify the solution proposed.
+4.6
+Where the design or manufacturing process is changed significantly, components and sub-assemblies
+affected by the change shall be re-tested.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 36 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Figure 4.6 Rouchon pyramid of composites materials certification
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 37 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+4.7
+Testing shall take the form of laboratory testing from small coupons to full scale static and fatigue tests
+on built structures.
+4.7.1
+Virtual testing may also be used to validate observations and calibrate load and analysis models with
+laboratory performance.
+4.8
+Testing shall be undertaken on FRP bridges to confirm:
+1) material properties (for infusion in particular or pultrusions where the information from the
+manufacturer is limited);
+2) connections methods and strengths (for connecting pultrusions and/or infused sections);
+3) static load effects for all structures including foot and road bridges manufactured using both
+pultrusion and infusion processes;
+4) fatigue load effects (from vehicle loading and/or any other critical cyclic load).
+NOTE 1
+Details of the individual tests required for FRP bridges to address the testing requirements are listed in
+the 'testing methods' subsection with the testing requirements highlighted for different types of structure.
+NOTE 2
+The volume of testing to be undertaken during design and manufacturing is to be agreed with the
+Overseeing Organisation and can be commensurate to the size and complexity of the solution being
+proposed.
+Testing methods
+Coupon testing for materials classification and durability
+4.9
+Coupons shall be tested for bridges manufactured using the resin infusion process and also for
+pultrusions where the sections do not conform to BS EN 13706 [Ref 11.N] as indicated in Table 4.15.
+4.10
+Samples of the proposed materials shall be tested to confirm the assumed design properties.
+4.11
+Tests shall be carried out prior to manufacture to inform the design process by confirming mechanical
+properties.
+4.12
+Additional tests (quality control) shall be undertaken during manufacture to confirm the mechanical
+properties have been achieved in the production.
+4.13
+The suppliers material properties for pultrusions shall confirm that the requirements of all parts of BS
+EN 13706 [Ref 11.N] are met.
+4.14
+Where conformance to the BS EN 13706 [Ref 11.N] (for pultrusions only) is not possible then additional
+testing shall be undertaken on samples obtained from the pultrusions to establish the relevant material
+properties.
+4.14.1
+The size of the test bodies should be adapted to the actual structural dimensions to avoid strong
+variations of the results.
+4.14.2
+Additional testing may include an assessment of fibre waviness as addressed in the paper on fibre
+waviness referenced in Section 8, Sebastian 2018 [Ref 1.I].
+4.15
+All tests shall be carried out to the standards and methods listed in Tables 4.15 and 4.16.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 38 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Table 4.15 Material classification tests
+Property
+ISO test method
+ASTM test method
+0o tensile modulus
+90o tensile modulus
+0o tensile strength
+90o tensile strength
+ISO 527-4 [Ref 8.N]
+ASTM D638 - 14 [Ref 25.N]
+0o compressive modulus
+90o compressive modulus
+0o compressive strength
+90o compressive strength
+EN ISO 14126:1999 [Ref 5.N]
+ASTM D6641 [Ref 22.N]
+0o pin-bearing strength
+90o pin-bearing strength
+BS EN 13706-2 [Ref 12.N]
+ASTM D953 [Ref 23.N]
+ASTM D2247-15 [Ref 19.N]
+0o interlaminar shear strength
+90o interlaminar shear strength
+BS EN ISO 14130 [Ref 6.N]
+ASTM D2344 [Ref 24.N]
+Major Poisson's ratio
+Minor Poisson's ratio
+ISO 527-4 [Ref 8.N]
+ASTM D638 - 14 [Ref 25.N]
+NOTE
+In the standards referenced in Table 4.15 there are geometric limitations to address, i.e. for the 0o
+tensile modulus test the ISO method limits section thickness to 10mm whilst the ASTM method has
+thickness restrictions of 14mm.
+4.16
+Where proposed sections have a thickness greater than the values stipulated in the above test
+methods, the proposed departures from these test methods shall be highlighted and agreed in the AIP
+document submission, (refer to Appendix A, section A2).
+4.16.1
+Durability and weathering tests may be undertaken on coupons to understand the effect of
+environmental weathering of material properties.
+NOTE
+Table 4.16.1N highlights the relevant standards and test requirements addressing accelerated
+weathering.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 39 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Table 4.16.1N Environmental durability test
+Test
+Reference standard
+Test parameters
+Test
+duration
+(hours)
+Retained
+values (%)
+Moisture resistance
+ASTM D2247-15 [Ref 19.N]
+ASTM E104-02 [Ref 17.N]
+Relative humidity: >=90%
+Temperature:
+38 +- 2oC
+Salt water resistance
+ASTM D1141-98 [Ref 20.N]
+ASTM C581 - 15 [Ref 14.N]
+immersion at:
+23 +-2oC
+Alkali resistance
+ASTM D7705-7705M [Ref 21.N]
+immersion in a dilution with pH = 9.5 or
+larger; temperature 23 +- 2oC
+1000
+3000
+85
+80
+Accelerated weathering (UV
+tests, moisture and heat)
+ASTM D4329 [Ref 15.N], ASTM G154 - 16
+[Ref 18.N], ASTM D4587 [Ref 16.N], ISO
+4892 [Ref 9.N]
+A QUV test chamber uses fluorescent
+lamps to provide a radiation spectrum
+centered in the ultraviolet wavelengths.
+Moisture is provided by forced
+condensation, and temperature is
+controlled by heaters.
+The standard sample holders can hold one
+sample 75 x 300 mm or two samples 75 x 1
+50 mm.
+Varies
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 40 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Static load tests - local wheel loads and maximum design loads
+4.17
+Static proof load tests shall be carried out assessing the local effects of wheel loads and global effects
+of maximum design loads on full scale components or partial sections of deck.
+4.18
+For road bridges the tests for local wheel loads shall consist of a 200 x 200mm patch load placed at
+'worst case' locations.
+4.19
+The patch load shall be represented by a 30mm thick plate faced with a 12mm thick cork pad.
+4.20
+Static load tests shall also be undertaken with the maximum global design loads applied to the deck
+using weighed sand bags or by other means to simulate the global load effects.
+4.21
+The deflection and outer fibre stresses shall be recorded and compared to the theoretical values to
+verify the design assumptions and manufacturing process suitability.
+4.22
+The first test deck shall initially be loaded to 1.2 times the serviceability load, with deflection and strain
+recorded, then unloaded and re-loaded up to failure of the deck.
+4.23
+The test conditions and the number of tests shall be agreed within the technical approval process.
+4.23.1
+A minimum of one test per 50m² of deck area should be undertaken.
+NOTE
+The purpose is to verify the component characteristics and demonstrate that the 'as-built' deck has the
+load capacities and stiffnesses given in the design data supplied by the FRP designer.
+Maximum design loads on connections
+4.24
+Tests on materials, samples and processes (e.g. adhesive bonding) shall be undertaken to inform the
+design process prior to fabrication.
+4.25
+Tests on materials, samples and processes shall be carried out during fabrication/construction to
+ensure the quality of the materials and processes used (workmanship) are sufficient to ensure the
+assumed design strengths are achieved.
+Fatigue tests
+4.26
+A single wheel load test to assess the fatigue strength shall be undertaken on all new roadway deck
+configurations, in accordance with the paper on wheel load tests referenced in Section 8, Sebastian et
+al 2017 [Ref 4.I].
+4.27
+The test shall identify all potential failure locations and determine the position of a single wheel, which
+produces the most severe effect at each location.
+4.28
+The component to be tested shall be supported in a manner that is similar to its intended service
+condition.
+4.29
+The test load shall be applied by a steel loading plate 200 mm x 200 mm square and at least 30 mm
+thick, faced with a 12 mm thick cork pad.
+4.30
+The cork pad shall be intermittently checked for fatigue degradation during the cyclic loading and if
+necessary replaced.
+4.31
+The fatigue test load shall be set to induce the required design bending moment or shear force.
+4.32
+The result of a fatigue test shall be deemed a 'pass' if 107 cycles are completed without detectable
+cracking or failure and the result of the following static test is within two standard deviations of the
+mean value of the maximum load, BM or SF achieved in the static tests.
+4.32.1
+Failure of deck may include defects such as the presence of visible cracks which could permit the
+ingress of moisture resulting in a reduction in the capacity of the member.
+4.33
+Where a 'pass' result is obtained in the fatigue tests, the value of the test load, BM or SF shall be used
+as the design fatigue capacity for the location(s).
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 41 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+NOTE
+The test is not required for repeat installations using the same configuration as structures already
+tested unless material and processing methods have changed.
+Testing matrix
+4.34
+Tests shall be carried out pre-design, during fabrication and construction to ensure the quality of the
+materials and processes used (workmanship) are sufficient to ensure the assumed design strengths
+are achieved.
+4.34.1
+The matrix in Table 4.34.1 identifies testing which may be required for different forms of construction,
+subject to agreement of the Overseeing Organisation.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 42 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Table 4.34.1 Testing matrix
+Bridge
+form
+Full scale component
+test
+Sub component test
+Structural details
+Structural elements
+Coupons
+Pultruded
+profile
+bridge
+Global static load test on
+completed structure to
+verify performance.
+Local static load tests on
+sub components such as
+roadway decking to
+simulate local effects such
+as wheel and tyre load.
+Connections to be
+assessed (bonded, bolted
+and hybrids including steel
+beam to FRP deck
+interfaces) and also
+between pultrusions and
+other connected furniture
+(i.e. parapets).
+Fatigue tests and tests to
+failure on structural
+elements (pultruded
+sections) required at proof
+of concept only (repeat
+tests not required for future
+structures) permitting the
+development of fatigue
+strengths and
+development of S-N curves
+to inform future designs.
+Refer to BS EN 13706 [Ref
+11.N] information if
+applicable and also refer to
+manufacturer's data for
+materials properties.
+Only test coupons where
+manufacturer's data is not
+available or is suspect
+and/or the profiles do not
+conform to BS EN 13706
+[Ref 11.N].
+Environmental durability
+tests to be undertaken
+where no manufacture
+information is available as
+per recommendations in
+Table 4.16.1N
+Infused
+bridge
+Global static loads tests
+on completed structures
+required, (all structures).
+Fatigue tests and tests to
+failure on a representative
+section of deck/bridge
+required (proof of concept
+only - repeat tests not
+required).
+Furniture connections to
+be assessed, (i.e.
+parapets).
+Fatigue tests and tests to
+failure on a representative
+section of deck/bridge
+required (proof of concept
+only - repeat tests not
+required).
+Undertake coupon testing
+for material classification
+including 'environmental
+durability tests' if there is
+no previous information
+available (for similar
+materials) as per
+recommendations in Table
+4.16.1N.
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 43 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Table 4.34.1 Testing matrix (continued)
+Bridge
+form
+Full scale component
+test
+Sub component test
+Structural details
+Structural elements
+Coupons
+Steel
+beam and
+pultruded
+deck
+Not required.
+Global static laboratory
+load test on representative
+deck sample only
+required.
+Connections to be tested
+(bonded, bolted and
+hybrids) between
+pultrusions and also for
+connected furniture (i.e.
+parapets).
+Laboratory fatigue tests
+and tests to failure on a
+representative section of
+deck only required (if no
+previous tests have been
+undertaken). Proof of
+concept only - repeat tests
+not required.
+Use manufacturer's data
+for materials classification
+and only test coupons
+where manufacturers data
+is not available or is
+suspect.
+Environmental durability
+tests to be undertaken
+where no manufacture
+information is available as
+per recommendations in
+Table 4.16.1N.
+Steel
+beams and
+infused
+deck
+Not required.
+Global static laboratory
+load tests representative
+deck sample only
+required.
+Furniture connections to
+be assessed, (i.e.
+parapets).
+Laboratory fatigue tests
+and tests to failure on a
+representative section of
+deck/bridge required (proof
+of concept only - repeat
+tests not required).
+Undertake coupon testing
+for material classification
+including 'environmental
+durability tests' if no
+previous information is
+available as per
+recommendations in Table
+4.16.1N.
+Other
+Previous laboratory load tests on representative samples can be relied upon subject to the agreement of the Overseeing Organisation
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 44 of 55
+======================================================================
+CD 368 Revision 0
+4. Testing and verification of design
+Design assisted by testing
+4.35
+Design assisted by testing shall be undertaken where uncertainty in the design exists to ensure
+long-term durability and robustness principles are adopted to target environmental effects.
+4.36
+Where required, the process for 'design assisted/supported by testing' given in Annex D of BS EN 1990
+[Ref 3.N] shall be followed.
+NOTE
+'Design assisted by testing' aims to introduce new innovations into the sector including the use of new
+fibres such as Basalt, Flax plus Hybrid Fabrics and 3D fabrics.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 45 of 55
+======================================================================
+CD 368 Revision 0
+5. Durability and detailing
+5.
+Durability and detailing
+Design for durability
+Service environment
+5.1
+The resistance of the FRP material to the expected extreme in-service environmental conditions shall
+be verified by appropriate testing and/or back-up data.
+NOTE
+The expected extreme in-service environmental conditions include water, alkalis, chlorides, ultra-violet
+light, chemicals (vehicle oil and fuel) and de-icing salts amongst others.
+5.2
+Information relating to resistance of the FRP materials with respects to the service environment
+suitability and conditions shall be provided within the AIP documentation, (refer to Appendix A).
+Resistance to impact damage
+5.3
+Information shall be provided with the AIP documentation on the resilience and resistance of the
+relevant FRP components to impact damage including the design approach adopted and materials
+used to provide effective damage tolerance.
+NOTE
+FRP can be susceptible to impact damage from vehicle accidents or falling loads.
+Detailing
+5.4
+The performance of details such as connections, joints, protection methods and coatings of all FRP
+bridges shall be sufficient for the life cycle of the structure.
+NOTE
+Detailing of FRP composite structures is one of the most important aspects in ensuring the long-term
+performance and durability.
+5.5
+For moulded structures using the resin infusion process, the fibre layups/orientation including stacking
+requirements and detailing at interfaces (corners and near connections) are key areas where quality
+controls shall be agreed with the Overseeing Organisation to cover the manufacturing process.
+5.5.1
+Typical quality controls may include the specification of non crimp fabrics and/or the use of additional
+reinforcement fibres at areas of high stress.
+5.6
+Connections shall be either bonded, bolted or a combination of both.
+NOTE 1
+For pultruded elements, the primary consideration relates to the design and detailing of the connections
+and interfaces.
+NOTE 2
+It is critical that the details of connections and interfaces are carefully worked up, designed and tested
+to ensure that they do not compromise the integrity of the overall structure.
+5.7
+The detailing of FRP members and connections the following aspects shall include:
+1) protection of the end of the FRP units such as the use of grouted infill;
+2) levelling of main beams for effective connection between main beams and roadway/decking units
+(dimension tolerance);
+3) deck end connections and bearing use (fixed, free ends, tackling uplift);
+4) parapet connections and the parapet replacement process in the event of an impact event;
+5) application and configuration of the surfacing details including the use of additional protections
+layers and bond promoters.
+5.8
+In the design and detailing of connection and interfaces the analysis and detailing shall demonstrate
+there is sufficient longitudinal shear strength without causing local damage to the FRP components.
+NOTE
+The longitudinal bond is of particular importance in specifying the surfacing. Insufficient bond strength
+can result in damage occurring to the FRP deck through cyclic actions.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 46 of 55
+======================================================================
+CD 368 Revision 0
+5. Durability and detailing
+Waterproofing
+5.9
+Waterproofing shall be provided to:
+1) prevent water ingress/seepage through joints, thereby limiting environmental degradation (via
+mechanisms such as freeze/thaw);
+2) promote bond with conventional surfacing.
+5.10
+The use of an additional protection layer (APL) formed with pultruded plates bonded to the upper
+surfaces of the deck shall be provided to:
+1) act as a sacrificial layer, promoting bond between the FRP deck and surfacing (a gritted finish can
+also be provided);
+2) provide additional distribution permitting reduction in high localised stresses from wheel loads;
+3) protect the deck during future resurfacing operations.
+NOTE 1
+Whilst FRP as a material has good water resisting qualities with a very low water absorption rate, the
+management of water over the structure still is an important feature, especially for structures
+comprising bonded and bolted sections where ingress in and through joints is possible.
+NOTE 2
+Most waterproofing systems can bond well to the FRP sections and provide an effective bond to
+conventional surfacing materials thereby reducing the risk of bond failure between the surfacing and
+FRP deck.
+Surfacing
+5.11
+Evidence regarding the surfacing and its interface with the FRP deck system shall be provided
+(laboratory test data, computer simulations and analysis outputs) to support the suitability of the
+proposed surfacing system.
+NOTE
+Historic failures have resulted from fatigue failure from localised wheel loads. To overcome this the use
+of APLs is suggested to reduce the localised induced effects. Further information is included in the
+publication from CIRIA C779 [Ref 2.I].
+5.12
+Conventional surfacing solutions shall be used on all road overbridges with an allowance for APL to
+protect the FRP during future resurfacing and provide sufficient dispersal of high localised wheel loads
+through the pavement and into the FRP Deck.
+NOTE
+The use of APLs such as bonding additional GFRP plates is recommended to:
+1) improve load distribution;
+2) act as an additional protection layer;
+3) help improve bond.
+5.13
+The APL shall be a contrasting colour to help identification during future maintenance operations such
+as resurfacing.
+5.14
+For road bridges the surfacing shall be in accordance with CS 228 [Ref 13.N] and CD 236 [Ref 26.N],
+and in keeping with the existing pavement located either side of the bridge.
+5.14.1
+For footbridges thin surfacing materials (resin based solutions incorporating fine aggregate materials)
+may be used subject to testing.
+5.15
+The bond between roadway and surfacing shall be sufficient to prevent failure of the bond in service.
+5.16
+A tensile bond strength 1 N/mm² and a longitudinal shear strength greater than the shear strength of
+the surfacing shall be achieved.
+5.17
+The effects of differential thermal movement between surface course and FRP roadway shall be
+assessed.
+5.18
+Localised strains within the surfacing due to wheel loading and the resulting local deflection of the FRP
+deck shall be designed to avoid fatigue failure of the surfacing material and/or interface bond.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 47 of 55
+======================================================================
+CD 368 Revision 0
+5. Durability and detailing
+5.19
+The temperature at which the surfacing material is laid shall be assessed to ensure that the FRP deck
+is not adversely affected.
+5.20
+Testing shall be undertaken to confirm the suitability of any surfacing proposals.
+5.21
+The testing shall review the lay temperatures and glass transition temperature effects in their proposals.
+5.22
+Bond tests shall also be undertaken to confirm suitability of the proposed systems with the FRP deck.
+5.23
+The use of non-contributory protection, APL, shall be used to protect the FRP deck.
+NOTE
+The use of APLs can reduce the concerns about exceeding the glass transition temperatures through
+the application of hot laid bituminous surfacing and use of sacrificial layers (APLs) which help protect
+the main structural FRP deck.
+5.24
+The minimum recommended thickness of an APL shall be 10mm excluding bond lines.
+NOTE
+The APL thickness can be fabricated using plates bonded together.
+Parapets
+5.25
+The forces from parapet impact shall not result in irreparable damage to the FRP deck.
+5.26
+A combination of analysis, simulations and tests shall be used to model these effects.
+5.26.1
+Where an FRP deck is to be installed onto existing steel or concrete beams, the parapets may be
+attached directly to the beams provided that the beams have been assessed as capable of carrying the
+additional loads.
+5.27
+For high containment parapets, full-scale quasi-static testing shall be undertaken on the FRP
+deck-parapet connection.
+Movement joints
+5.28
+The movement joints shall:
+1) prevent leakage between deck end and abutment;
+2) provide a smooth running surface over the gap and allow the level of the surface course adjacent to
+the deck and on the deck to be set equal, so that dynamic magnification of wheel loading is
+minimised;
+3) bridge the gap at the ends of the deck/abutment interface.
+5.29
+The ends of any moulded FRP road bridge deck shall also be manufactured adopting stiff end plates to
+avoid issues relating to vehicle 'hammering' as a result of longitudinal loads at the deck ends.
+5.30
+Likewise the ends of the deck for modular construction using pultrusions shall be filled with a stiff
+material such as grout/resin to avoid similar issues from longitudinal deck loads.
+Fire
+5.31
+The risk of fire damage shall be minimised through appropriate measures.
+NOTE
+FRP structures pose no threat over and above that to be found in traditional bridges.
+5.31.1
+The use of fire retardant additives in the resin may be considered for critical structural components
+whose loss would result in disproportionate effects, as well as the use of fire protection plates with
+fire-retardant materials such as phenolic FRP plates, or the use of fire retardant coatings.
+NOTE
+Actions for bridges are included in BS EN 1991-2 [Ref 2.N], however actions due to fire are not required
+for bridges unless enclosures are provided; hence the requirements of BS EN 1991-1 [Ref 1.N] govern
+as opposed to BS EN 1991-2 [Ref 2.N] where enclosures are provided.
+5.32
+Where utilising fire-retardant fillers in the resin, additional testing shall be undertaken to ensure the use
+of the filler is not compromising the strength and durability of the material.
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 48 of 55
+======================================================================
+CD 368 Revision 0
+5. Durability and detailing
+5.33
+FRP decks shall utilise long unidirectional fibres which maintain strength much longer than chopped
+fibres.
+NOTE
+Due to the low thermal conductivity of FRP, fire damage where it occurs is likely to be localised.
+Finishes
+5.34
+Surface finishes shall be applied to improve the long-term appearance, improve durability and aid
+performance of FRP bridges and other composite products.
+5.35
+The surface finish shall be free from defects and be smooth in appearance with a suitable surface finish
+applied to provide UV protection, additional corrosion resistance and aesthetics.
+5.35.1
+FRP composites may accept a wide range of surface finishes, including paints, gel coats, surface veils
+and adhesives.
+NOTE
+Other surface finishes include aliphatic isocyanates, polyurethanes, polyesters, acrylics and epoxies. In
+some cases, fine sand can be added for additional protection and improved surface roughness where
+bonding operations require improved bond characteristics.
+5.36
+The FRP elements shall be protected from UV radiation.
+5.36.1
+Surface finishes may be applied to block UV radiation which can cause degradation of polymers and
+reduce the strength of the resin and in some cases even of the fibre reinforcement:
+1) gel coats - a common surface finish for FRP composites is gel coat, a specifically formulated
+polyester resin that is applied to the mould surface prior to laminate build-up. Gel coats are used to
+improve weathering, filter out ultraviolet radiation, add flame resistance, provide a thermal barrier,
+improve chemical resistance, improve abrasion resistance, and provide a moisture barrier;
+2) paints (including top coats and lacquers) - various paint systems are available for use with a palette
+of colours possible.
+5.36.2
+Other methods of finishes may include:
+1) pigments - resins can be coloured through the addition of pigments. Pigments improve UV
+resistance however they are not as effective as surface coatings which provide a physical barrier;
+2) surface veils with UV inhibitors - in some composite designs, a surface veil is used to provide an
+improved corrosion or weather barrier to the product. A surface veil is a fabric made from nylon or
+polyester that acts as a very thin sponge that can absorb resin to 90% of its volume. This helps to
+retain an extra layer of protective resin on the surface of the product;
+3) use of UV resistant resin and/or the use of UV absorbers and additives.
+NOTE 1
+Gel coats are used to improve the product appearance and a unique benefit of gel coats is that they are
+supplied in many colours by the incorporation of pigments per the specification of the engineer.
+NOTE 2
+Surface veils are used to improve the surface appearance and ensure the presence of a corrosion
+resistance barrier for typical composites products such as pipes, tanks and other chemical process
+equipment. Other benefits include increased resistance to abrasion, UV and other weathering forces.
+NOTE 3
+The application of a surface protection coating is advisable. Alternatively, UV absorbers can be
+specified.
+NOTE 4
+Surface finishes are used for both aesthetics and protection, and they can be specified and applied in a
+number of forms. Some notable characteristics include:
+1) can be applied to the internal surfaces of the mould or be applied (painted/sprayed) as
+post-manufacture coatings;
+2) bond promoters can be used to improve the bond between FRP composites materials and coatings;
+3) veils can be used in conjunction with gel coats to provide reinforcement to the resin;
+4) for applications where toughness is needed, urethane paints can be used.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 49 of 55
+======================================================================
+CD 368 Revision 0
+6. Execution of FRP bridges
+6.
+Execution of FRP bridges
+Fabrication
+General
+6.1
+Manufacturing of the bridge shall be undertaken offsite in a controlled environment.
+6.2
+All cut surfaces (including drilled holes) shall be sealed with resin to protect against weathering.
+Adhesive bonding
+6.3
+Adhesives shall be structural (such as epoxy), compatible with the materials to be joined and suitable
+for the intended service environment.
+6.4
+Surface preparation shall be undertaken in accordance with the manufacturer's information and surface
+treatments used to help promote bond and improve the adhesion characteristic of joints within FRP
+components.
+6.5
+Additional testing shall be carried out where site bonding is undertaken to ensure the design strengths
+are achieved.
+6.6
+Where site bonding activities are required a covered 'tented' area with appropriate environmental
+controls shall be provided to permit the outstanding assembly to be undertaken in a controlled
+environment with controls on temperature and humidity in place.
+6.6.1
+Site bonding is permitted, although it should be avoided where alternative solutions are possible to
+ensure fabrication quality control is maximised.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 50 of 55
+======================================================================
+CD 368 Revision 0
+7. Normative references
+7.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+BSI. BS EN 1991-1, 'Eurocode 1- Actions on Structures'
+Ref 2.N
+BSI. BS EN 1991-2, 'Eurocode 1. Actions on structures. Traffic loads on bridges'
+Ref 3.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 4.N
+BSI. BS EN 1991, 'Eurocode 1: Actions on structures'
+Ref 5.N
+ISO. Technical Committee: ISO/TC 61/SC 13 Composites and reinforcement fibres.
+EN ISO 14126:1999, 'Fibre-reinforced plastic composites -- Determination of
+compressive properties in the in-plane direction'
+Ref 6.N
+BSI. BS EN ISO 14130, 'Fibre-reinforced plastic composites. Determination of
+apparent interlaminar shear strength by short-beam method'
+Ref 7.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 8.N
+ISO. Technical Committee: ISO/TC 61/SC 13 Composites and reinforcement fibres .
+ISO 527-4, 'Plastics -- Determination of tensile properties -- Part 4: Test conditions for
+isotropic and orthotropic fibre-reinforced plastic composites'
+Ref 9.N
+ISO. Technical Committee: ISO/TC 61/SC 6 . ISO 4892, 'Plastics – Methods of
+exposure to laboratory light sources'
+Ref 10.N
+BSI. PD 6688-2, 'Recommendations for the design of structures to BS EN 1991-2'
+Ref 11.N
+BS EN 13706, 'Reinforced plastics composites. Specifications for pultruded profiles.
+Method of test and general requirements'
+Ref 12.N
+BSI. BS EN 13706-2, 'Reinforced plastics composites. Specifications for pultruded
+profiles. Method of test and general requirements'
+Ref 13.N
+Highways England. CS 228, 'Skidding resistance'
+Ref 14.N
+ASTM. ASTM C581 Subcommittee: D20.23. ASTM C581 - 15 , 'Standard Practice for
+Determining Chemical Resistance of Thermosetting Resins Used in
+Glass-Fiber-Reinforced Structures Intended for Liquid Service'
+Ref 15.N
+ASTM. ASTM D4329 Subcommittee: D20.50. ASTM D4329, 'Standard Practice for
+Fluorescent Ultraviolet (UV) Lamp Apparatus Exposure of Plastics'
+Ref 16.N
+ASTM. ASTM D4587 Subcommittee: D01.27. ASTM D4587, 'Standard Practice for
+Fluorescent UV-Condensation Exposures of Paint and Related Coatings'
+Ref 17.N
+ASTM. ASTM E104 Subcommittee: D22.11. ASTM E104-02, 'Standard Practice for
+Maintaining Constant Relative Humidity by Means of Aqueous Solutions'
+Ref 18.N
+ASTM. ASTM G154 Subcommittee: G03.03. ASTM G154 - 16 , 'Standard Practice
+for Operating Fluorescent Ultraviolet (UV) Lamp Apparatus for Exposure of
+Nonmetallic Materials'
+Ref 19.N
+ASTM. ASTM D2247 Subcommittee: D01.27. ASTM D2247-15, 'Standard Practice
+for Testing Water Resistance of Coatings in 100 % Relative Humidity'
+Ref 20.N
+ASTM. ASTM D1141 Subcommittee: D19.02. ASTM D1141-98, 'Standard Practice
+for the Preparation of Substitute Ocean Water'
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 51 of 55
+======================================================================
+CD 368 Revision 0
+7. Normative references
+Ref 21.N
+ASTM. ASTM D7705 / D7705M Subcommittee: D30.10. ASTM D7705-7705M,
+'Standard Test Method for Alkali Resistance of Fiber Reinforced Polymer (FRP)
+Matrix Composite Bars used in Concrete Construction'
+Ref 22.N
+ASTM. ASTM D6641 / D6641M Subcommittee: D30.04. ASTM D6641, 'Standard
+Test Method for Compressive Properties of Polymer Matrix Composite Materials
+Using a Combined Loading Compression (CLC) Test Fixture'
+Ref 23.N
+ASTM. ASTM D953 Subcommittee: D20.18. ASTM D953 , 'Standard Test Method for
+Pin-Bearing Strength of Plastics'
+Ref 24.N
+ASTM. ASTM D2344 / D2344M Subcommittee: D30.04. ASTM D2344, 'Standard
+Test Method for Short-Beam Strength of Polymer Matrix Composite Materials and
+Their Laminates'
+Ref 25.N
+ASTM. ASTM D638 Subcommittee: D20.10. ASTM D638 - 14 , 'Standard Test
+Method for Tensile Properties of Plastics'
+Ref 26.N
+Highways England. CD 236, 'Surface course materials for construction'
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 52 of 55
+======================================================================
+CD 368 Revision 0
+8. Informative references
+8.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Sebastian W M. 2018. Sebastian 2018, 'Fibre waviness in pultruded bridge deck
+profiles : Geometric characterisation and consequences on ultimate behaviour,
+Composites Part B: Engineering, Vol. 146, 270-280'
+Ref 2.I
+CIRIA. J T Mottram and J G Henderson. CIRIA C779, 'FRP Bridges:Guidance for
+Designers'
+Ref 3.I
+CUR96, 'FRP Composites Structures'
+Ref 4.I
+Sebastian W M, Ralph M, Poulton M, Goacher J. 2017. Sebastian et al 2017, 'Lab
+and field studies into effectiveness of flat steel plate – rubber pad systems as tyre
+substitutes for local loading of cellular GFRP bridge decking, Composites Part B:
+Engineering, Vol. 125, 100-122'
+Ref 5.I
+JRC Science and Policy Report. EUR 27666 EN, 'Prospect for the new guidance in
+the design of FRP'
+Ref 6.I
+J.L.Clark. Clark 1996, 'Structural Design of Polymer Composites, Eurocomp Design
+Guide and Handbook 1996'
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 53 of 55
+======================================================================
+CD 368 Revision 0
+Appendix A. Approval in principle for FRP bridges
+Appendix A. Approval in principle for FRP bridges
+A1
+General information
+There are a number of additional aspects that need to be agreed in the development of FRP bridge
+designs over and above those provided in the standard AIP template.
+Hence, a number of additional clauses are listed below to add to the AIP template for use in the design
+approval of FRP bridge. The inclusion of these details can improve the level of detail therein aiding the
+design and approval process with increased clarity of requirements.
+A2
+AIP additions for FRP bridges
+The following additional clauses are to be added to the AIP submission as highlighted below:
+1) Construction/Structural Details: Minimum proposed laminate thicknesses to be stated and
+connection methods;
+2) Parapet Fixings: Methods of attachment of parapets and options for replacement to be stated;
+3) Surfacing Details: Surfacing proposals to be highlighted together with strategy for maintenance and
+replacement;
+4) Hidden Areas: Inspection of hidden areas to be provided, proposed mitigation where access is not
+available, (i.e. additional redundancy);
+5) Durability and Resilience: Measures to be identified such as coatings and additional protection
+measures, sacrificial laminate thickness and additional redundancy. In addition to this any
+resistance of the materials to the intended service environment to be highlighted in this section;
+6) Constituent Materials: Details of resins, fibres, core materials, adhesives including the use of any
+additives and surfacing agents;
+7) Materials Processing: Proposed composite processing methods to be highlighted including initial
+cure temperature, post cure time and temperatures;
+8) Design Properties: Assumed post manufacture design properties;
+9) Consultation with Manufacturers: Details of any manufacturer discussions to be listed here including
+any specific requirements;
+10) Proposed Testing: To include details of testing proposals including static load, fatigue testing, full
+scale testing, connections, component and sub-component tests, coupons, tests to destruction and
+accelerated weathering tests;
+11) Testing Standards: Standards used and to be followed for testing including amendments and
+departures from these standards;
+12) Proposed Software: Details of software to be used including revisions;
+13) Stiffness Matrix: Adopted stiffness matrix size for use in all modelling to be quantified.
+A3
+Composites processing Information
+A3.1
+Pultrusion
+Pultrusion is a process used to create an FRP component such as a beam by drawing resin-coated
+fibres through a heated die. As opposed to extrusion, which pushes the material, pultrusion works by
+pulling the material. Typical characteristics defining pultrusion are their higher material strengths in the
+longitudinal direction and a lower strength in transverse direction due to the limited transverse fibres.
+Designs using pultrusions therefore require a much greater focus on how connections are made and
+designed. The detailing and subsequent testing of these connections is a key design consideration to
+ensure an efficient and effective design is promoted. Workmanship is also a key aspect of connection
+strength and efficiency requiring attention.
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 54 of 55
+======================================================================
+CD 368 Revision 0
+Appendix A. Approval in principle for FRP bridges
+A3.2
+Infusion
+Resin Infusion is a process by which vacuum draws resin into a dry fibre laminate in a one (or
+sometimes two) sided mould. For single sided moulds, a rigid or flexible film membrane is placed over
+the top and sealed around the mould periphery with a vacuum used to pull resin through the fibre
+layups. Resin infusion permits bespoke fibre layups to be installed permitting the customisation of the
+properties of the FRP component which is not possible for pultrusions. This permits areas of high
+stress to receive additional reinforcement in the orientation required. Most moulded bridges are
+'infused' in a single operation with no joints thereby negating the issues of connection design and
+testing common with the use of pultrusions. However, classifying and understanding the material
+properties through design, simulation and testing is one of the key focus areas to be addressed in
+designing bespoke moulded components.
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
+
+======================================================================
+PAGE 55 of 55
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 368, published: Feb-2020
+
+
