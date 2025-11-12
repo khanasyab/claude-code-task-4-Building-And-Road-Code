@@ -1,0 +1,4117 @@
+======================================================================
+PAGE 1 of 79
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 357
+Bridge expansion joints
+Version 1.1.0
+Summary
+This document sets out the requirements for the design and specification of expansion joints for
+use in highway bridge decks. It also provides supporting advice on the selection, installation,
+management and maintenance of various types of expansion joints.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 79
+======================================================================
+CD 357 Version 1.1.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. General requirements for bridge expansion joints
+11
+3. Selection of joint type
+12
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Preliminary design criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Detailed design criteria
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Traffic noise . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+4. Detailed joint design requirements
+15
+Basis of design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Fatigue
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Movements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Joint gaps, grooves and cover plates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Transition strips . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Skidding resistance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Drainage
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Road gullies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Drainage system . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+In-joint drainage
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+In-situ nosings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+5. Design for installation and maintenance
+19
+Installation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Inspection and maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+6. Design outputs for expansion joints and sealing of gaps in bridges and structures
+22
+Design outputs for bridge deck expansion joints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Design outputs for sealing of gaps in bridges and structures
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+7. Normative references
+25
+8. Informative references
+26
+Appendix A. Expansion joint types
+27
+A1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+A1.1 Very large movements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+A2 Generic expansion joint types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+A2.1 Buried expansion joint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+A2.2 Flexible plug expansion joint
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 79
+======================================================================
+CD 357 Version 1.1.0
+Contents
+A2.3 Nosing expansion joint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+A2.4 Mat expansion joints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+A2.5 Cantilever expansion joints
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+A2.6 Supported expansion joint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+A2.7 Modular expansion joints
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+A3 In-joint drainage at expansion joints
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Appendix B. Declaration of performance
+40
+B1 Declarations of performance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Appendix C. Departmental Type Approval
+61
+C1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+C2 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+C2.1 Asphaltic plug joints, in-situ nosing joints and transition strips . . . . . . . . . . . . . . . . . . . .
+61
+C2.2 Asphaltic plug joints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+C2.3 In-situ nosings and transition strips . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+C2.4 Testing laboratories in other member states . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+C3 Previous requirements - field trials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+C4 Previous tests and trials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+C5 Previous requirements for Departmental Type Approval certificate
+. . . . . . . . . . . . . . . . . . . . .
+62
+Appendix D. Installation guidance
+64
+D1 Installation procedures for expansion joints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+Appendix E. Typical defects in multi-element modular expansion joints
+68
+E1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+E2 Background to failures of multi-element modular expansion joints . . . . . . . . . . . . . . . . . . . . . .
+68
+E2.1 Form of construction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+E2.2 Examples of defects discovered
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+E3 Other forms of expansion joint
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+75
+E4 Recommendations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+75
+Appendix F. Temporary cover plates
+76
+F1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+F2 Factors to consider when using temporary cover plates
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+F3 Technical approval certification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+77
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 79
+======================================================================
+CD 357 Version 1.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 357
+1.1.0
+September 2025
+Core document
+Incremental change to
+requirements
+Consequential update following the rewrite of the MCHW including update to references.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 357
+1
+March 2020
+CD 357
+0
+May 2019
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 79
+======================================================================
+CD 357 Version 1.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 357 version 1.0.0 which is being withdrawn.
+This document provides requirements and guidance used to develop the design outputs required to
+deliver the works in accordance with CC 490
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 79
+======================================================================
+CD 357 Version 1.1.0
+Introduction
+Introduction
+Background
+Bridge deck expansion joints can be installed at the transverse joints between the end of the bridge
+deck and abutment ballast wall, or between adjacent decks in non-continuous multi-span structures.
+Expansion joints can accommodate thermal and other movements that occur at the ends of the deck,
+while providing a level, skid-resistant running surface, capable of supporting the required traffic loads,
+and managing the drainage of surface or sub-surface water to avoid leakage through the joint.
+A variety of proprietary joint types are available to suit different structure types and movement ranges.
+Expansion joints, and their constituent components, generally have a working life significantly shorter
+than the design working life of the structure itself, hence thought needs to be given at the design stage
+of how the joints are to be maintained or replaced, while minimising delay or disruption to road users.
+The generic expansion joint types covered by this document are described in Appendix A.
+The Guideline for European Technical Approval applicable to bridge deck expansion joints, ETAG 032
+2013 [Ref 10.N]is discussed in Appendix B, along with the Declaration of Performance for each of the
+generic expansion joint types referred to in Appendix A.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 12.N] apply to this document.
+References in this document to BS EN documents include their UK National Annexes and all relevant
+Published Documents (PDs).
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Standards
+equivalence (mutual recognition) clause in GG 101 [Ref 12.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 79
+======================================================================
+CD 357 Version 1.1.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+DMRB
+Design manual for roads and bridges
+EMR
+Elastomeric in metal runners (modular) joint
+ETA
+European technical approval
+ETAG
+Guideline for European technical approval
+FERFA
+Federation of resin formulators and applicators
+IAN
+Interim advice note
+PTV
+Pendulum test value (for skid resistance)
+TAA
+Technical approval authority
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 79
+======================================================================
+CD 357 Version 1.1.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Approval in principle
+The document, which records the agreed basis and criteria for
+the detailed design or assessment of a highway structure.
+Bridge deck gap (structural gap)
+The gap between adjacent spans in a bridge deck or between
+a bridge deck and a curtain wall. The structural gap width
+varies where the joint is designed to accommodate thermal
+and other movements.
+Buried expansion joint
+A joint which is formed in-situ using components, such as an
+elastomeric pad or a flashing, to support the surfacing which is
+continuous over the structural gap (formerly referred to as a
+'Type 1' or buried joint).
+Cantilever expansion joint
+A pre-fabricated joint comprising principally mating metal
+comb or saw-tooth plates which bridge the structural gap
+(formerly referred to as a 'Type 7' or tooth/comb joint).
+Cover plate
+Plate forming a permanent part of an expansion joint system
+at surfacing level, to cover the structural gap.
+Declaration of performance
+Document providing information on the performance of a
+construction product covered by a European standard or for
+which a European Technical Assessment (ETA) has been
+issued, as required by the Construction Products Regulation
+2011/305/EU [Ref 2.N].
+Departmental type approval
+Department of Transport (UK) legacy system for approval of
+proprietary expansion joint systems, retained for existing
+systems that do not have ETA (see Appendix C).
+Design life
+The period over which the designer specifies the joint system
+remains functional and safe in service after installation based
+on the criteria which influence the joint selection.
+Effective bridge deck temperature
+The uniform temperature component of the bridge deck which
+governs the longitudinal thermal movement of the deck,
+determined in accordance with TRL SR 479 [Ref 1.N] and
+section 6 of BS EN 1991-1-5 [Ref 5.N]
+Expansion joint gap (Surface gap)
+The continuous gap within an expansion joint system at
+surfacing level along the line of the joint.
+Flexible plug expansion joint
+An in-situ joint comprising a band of specially formulated
+flexible material, which also forms the surfacing, supported
+over the structural gap by thin metal plates or other suitable
+components (formerly referred to as a 'Type 2' or asphaltic
+plug joint).
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 79
+======================================================================
+CD 357 Version 1.1.0
+Terms and definitions
+Terms (continued)
+Term
+Definition
+In-joint drainage (sub-surface
+drainage)
+In ETAG 032 2013 [Ref 10.N], sub-surface drainage is defined
+as a drainage system to collect water from an expansion joint
+that is not watertight, such as a gutter located beneath the
+joint. Except where specifically referencing ETAG 032 2013
+[Ref 10.N], sub-surface drainage in this document refers to a
+system for draining water embedded within the carriageway
+surfacing such as buried slotted tubes.
+Mat expansion joint
+A pre-fabricated joint comprising a mat plate spanning the
+joint gap formed from an elastomer with or without bonded
+metal plates. (Formerly referred to as a 'Type 5' or reinforced
+elastomeric joint).
+Modular expansion joint
+A pre-fabricated joint comprising an elastomeric seal fixed
+between metal runners, either in single-element or
+multi-element form (Formerly referred to as a 'Type 6' or
+elastomeric in metal runners (EMR) joint).
+Nosing
+In-situ material or fabricated component to protect the
+adjacent edges of the surfacing at the expansion joint
+- possibly a steel plate or angle section, but now more usually
+a modified cementitious mortar or elastomeric resin.
+Nosing expansion joint
+Expansion joint formed between two nosings, with the gap
+infilled with either a poured sealant (formerly 'Type 3' joint) or
+pre-formed compression seal (formerly 'Type 4' joint).
+Overseeing Organisation
+This refers to the following organisations (or their successors):
+National Highways; Transport Scotland; Welsh Government
+(Llywodraeth Cymru) and The Department for Infrastructure
+(Northern Ireland). Additionally, it also refers to any other
+organisation or client that chooses to use this document for
+technical approval.
+Ride quality
+The quality of the experience of the travelling public when
+driving a vehicle over the expansion joint, affected by factors
+including bumps, steps or other changes in the vertical
+alignment, or excessive flexibility of cover pates.
+Service life
+The minimum period when deterioration or defect arising
+during service results in the replacement of the joint or any of
+its components in order that the joint remains safe for use and
+fit for purpose assuming that the joint system is routinely
+maintained in accordance with the manufacturer's instructions.
+Supported expansion joint
+Supported expansion joints include a number of joint types,
+such as bridging plate expansion joints (with or without
+fingers) and roller-shutter expansion joints.
+Surfacing
+Carriageway or footway surface course and binder course
+materials.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 79
+======================================================================
+CD 357 Version 1.1.0
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Temporary cover plate
+A plate placed over the expansion joint in the carriageway or
+footway, either to protect the joint during installation or
+maintenance, or to carry loads over the joint in the event that it
+has become damaged.
+Transition strip
+A narrow strip of infill material between a pre-fabricated
+expansion joint and the adjacent cut edge of the surfacing.
+Waterproofing system
+A concrete bridge deck waterproofing system which has been
+granted departmental registration in accordance with CD 358
+[Ref 20.N].
+Working life
+The period over which it is envisaged that the joint functions
+satisfactorily in service without the need for significant
+maintenance (see section 2.3.4 of ETAG 032 2013 [Ref 10.N]).
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 79
+======================================================================
+CD 357 Version 1.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document sets out requirements for the design and specification of expansion joints for use in
+highway bridge decks, including footbridges and shall apply to new expansion joint works and the
+maintenance and repair of existing expansion joints.
+NOTE 1
+This document provides advice on the selection, installation, management and maintenance of various
+types of expansion joint.
+NOTE 2
+Specific advice on the design of expansion joints to accommodate movement greater than that
+provided for by proprietary joint systems is not given in this document, although many of the same
+basic principles are applicable.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving expansion joints for use on
+bridge decks on the Overseeing Organisations' motorway and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 12.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 12.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 79
+======================================================================
+CD 357 Version 1.1.0
+2. General requirements for bridge expansion joi...
+2.
+General requirements for bridge expansion joints
+2.1
+Expansion joints shall be:
+1)
+selected from products with a legacy departmental type approval certificate;
+2)
+designed in accordance with the requirements contained in ETAG 032 2013 [Ref 10.N] ; or,
+3)
+a product complying with the European Assessment Document applicable for the joint family.
+NOTE
+Declarations of performance requirements from ETAG 032 2013 [Ref 10.N]are included in Appendix B
+for the generic groups of expansion joints, which are listed and described in Appendix A.
+2.1.1
+The approach and relevant information for seismic behaviour may be omitted from the declaration of
+performance unless it has been assessed as necessary and agreed with the technical approval
+authority (TAA) for bridges with Importance Class III defined in BS EN 1998-2 [Ref 8.N], and
+Consequence Class CC3 defined in BS EN 1990 [Ref 9.N].
+NOTE
+Refer to PD 6698 [Ref 13.N] for further information.
+2.2
+Expansion joints shall not cause a hazard to any class of road user, including motorcyclists, cyclists,
+pedestrians and livestock where they have access.
+NOTE
+Section 4 includes requirements and advice relating to skid resistance and ride quality.
+2.3
+Expansion joints in highway bridge decks shall be capable of sustaining the loads and accommodating
+movements described in ETAG 032 2013 [Ref 10.N], and in this document, while remaining safe for all
+categories of road users, without damage to the surfacing or supporting structures during service.
+2.3.1
+Where the total design horizontal movement is less than 5 mm and vertical movement is less than 0.5
+mm, an expansion joint should not be provided.
+2.4
+Where no expansion joint is to be provided, the waterproofing shall be detailed in accordance with CD
+358 [Ref 20.N] to accommodate movements and ensure continuity across the bridge deck gap.
+2.5
+The same joint system, seal or sealant shall continue across the full width of the deck including
+footway, verge, hard shoulder and central reserve.
+2.5.1
+Expansion joints should be installed in a straight line.
+2.6
+The specification of an expansion joint shall balance the ease of replacement and safety of the
+operatives carrying out that work, with the working life of that product.
+2.7
+The expansion joint shall be designed, fabricated and installed to neither permit water to enter the
+structure, nor permit water to accumulate water within the joint or structure or on the structure.
+2.8
+The deck waterproofing system shall be compatible with the expansion joint system.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 79
+======================================================================
+CD 357 Version 1.1.0
+3. Selection of joint type
+3.
+Selection of joint type
+General
+3.1
+Expansion joints shall be specified which will accommodate all the horizontal, vertical and rotational
+movement likely to be encountered whilst the joint is in service.
+NOTE 1
+Details of the various bridge deck expansion joint types that fall within the scope of this document are
+provided in Appendix A.
+NOTE 2
+The key factors affecting the performance of the various types of expansion joint are shown in:
+1)
+ETAG 032 2013 [Ref 10.N]Part 1 Table 4.0; and,
+2)
+Table A.2 (Appendix A), which is based on a similar table in TRL LR 1104 [Ref 10.I].
+NOTE 3
+Indicative ranges of movement for various types of expansion joint are shown in Table A.3 (Appendix A).
+3.2
+Where more than one type of joint is suitable for a particular range of movement or site location, other
+relevant factors which affect performance and whole life costs shall be identified and assessed before
+the final choice of joint is made.
+3.3
+The justification for selection of a particular joint type shall be demonstrated to the Technical Approval
+Authority (TAA).
+3.4
+The optimum whole life cost of the expansion joint system shall be achieved by assessing:
+1)
+the suitability of a particular joint;
+2)
+the working life;
+3)
+initial supply and installation costs;
+4)
+safety of maintenance operatives;
+5)
+road user delay costs;
+6)
+structural damage costs;
+7)
+joint maintenance costs; and,
+8)
+joint replacement costs at end of service life.
+NOTE
+The working life depends in particular on the external loads or the imposed movements, the cycle
+frequency, the number of cycles and the durability (including fatigue, wear resistance, etc) of the
+expansion joint and its components. It is also linked with the ability to replace components and the
+installation quality.
+3.5
+The assessment demonstrating the optimum whole life cost of the expansion joint system shall be
+provided to the TAA.
+NOTE
+Guidance on the whole life costing of bridge deck expansion joints can be obtained from TRL RR 236
+[Ref 2.I].
+Preliminary design criteria
+3.6
+At the preliminary design stage, the basic requirements necessary to specify the expansion joint shall
+be established from the following:
+1)
+required movement capacity;
+2)
+user category (i.e. vehicular, cycle, pedestrian, livestock); and,
+3)
+any special needs for that site (for example, limited depth of surfacing, high skew).
+3.7
+As part of the joint initial joint selection process, the following shall be assessed:
+1)
+approximate joint dimensions:-
+2)
+working life;
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 79
+======================================================================
+CD 357 Version 1.1.0
+3. Selection of joint type
+3)
+ancillary items (including cover plates and drainage systems);
+4)
+noise limits;
+5)
+ease of replacement of components (including aspects such as speed, access and traffic
+management);
+6)
+potential for joints to be replaceable under lane closures rather than full carriageway closure;
+7)
+capital cost; and,
+8)
+maintenance costs.
+Detailed design criteria
+3.8
+The Approval in Principle (AIP) document prepared in accordance with CG 300 [Ref 4.I] shall include
+the following information about each expansion joint on a bridge:
+1)
+location;
+2)
+anticipated extreme ambient temperature range;
+3)
+user category (i.e. vehicular, cycle, pedestrian, livestock);
+4)
+environmental conditions such as noise constraints;
+5)
+drainage requirements;
+6)
+illustrative cross section of bridge deck at expansion joint location (i.e. a cross section showing
+full lateral extent of the required joint and the location of the carriageway and verges, including
+the applicability/location of vehicular traffic, cycle traffic, pedestrian traffic, and animal traffic);
+7)
+illustrative long section of bridge (showing location of expansion joints);
+8)
+interface with service ducts;
+9)
+relevant DMRB documents, UK national standards, Eurocodes (including national annexes), BSI
+published documents, codes of practice, and related documents; and,
+10)
+constraints and external controls that affect installation or maintenance of the joint such as
+available lane closure arrangements.
+3.9
+All of the information above plus the following additional information shall be included in the detailed
+specification:
+1)
+required movement capacity (x, y, z) between extreme positions;
+2)
+assumed installation temperature range; and,
+3)
+fatigue traffic category from Table NA.4 of UK NA to BS EN 1991-2 [Ref 19.N].
+3.10
+The following management and maintenance information about the selected joint system shall be
+recorded in the Health and Safety file and the Overseeing Organisation's bridge management
+information system:
+1)
+proposed joint and ancillary items;
+2)
+declaration of performance;
+3)
+working life;
+4)
+installation and maintenance procedures; and,
+5)
+maintenance costs (including access and traffic management costs).
+Traffic noise
+3.11
+Where the installation is adjacent to residential property the expansion joint shall be selected and
+designed to limit noise levels (subject to the over-riding requirements of durability and performance).
+NOTE 1
+Information on noise pollution levels can be obtained from relevant legislation or other published
+guidance documents. The Overseeing Organisation can provide guidance on acceptable noise where
+joints are installed close to residential properties.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 79
+======================================================================
+CD 357 Version 1.1.0
+3. Selection of joint type
+NOTE 2
+Joints with the lowest noise levels are those that have a continuous surface over the joint. Some
+information is stated in TRL RR 236 [Ref 2.I] regarding mat or reinforced elastomeric joints, and nosing
+or elastomeric in metal runner expansion joints. Information is also available from some manufacturers
+regarding noise reduction measures.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 79
+======================================================================
+CD 357 Version 1.1.0
+4. Detailed joint design requirements
+4.
+Detailed joint design requirements
+Basis of design
+4.1
+Mechanical resistance of expansion joints for highway bridges shall be specified in accordance with
+ETAG 032 2013 [Ref 10.N].
+NOTE
+The performance requirements for the various joint types covered by ETAG 032 2013 [Ref 10.N] are
+included in Appendix B.
+4.2
+The actions and combinations to be used for the design of supporting structures shall be in accordance
+with the relevant Eurocodes, including BS EN 1990 [Ref 9.N], BS EN 1991-1-5 [Ref 5.N], and BS EN
+1991-2 [Ref 4.N].
+NOTE
+All references to Eurocodes in this document include the respective UK national annexes and the
+implementation document CD 350 [Ref 18.N].
+Fatigue
+4.3
+Where a component of the expansion joint or the supporting structure is subject to fluctuating traffic
+loads, the component or supporting structure shall be designed to have a fatigue life consistent with the
+design life of the expansion joint in accordance with CD 350 [Ref 18.N].
+Movements
+4.4
+The joint shall be designed for the relative movements that could occur at the relevant limit states.
+NOTE 1
+Movements can arise from the effects of actions, including thermal actions, shrinkage, creep, traffic and
+settlement.
+NOTE 2
+Relative movements can occur due to compression of bearings, structural deflections due to traffic on
+one side of the joint, or rotation of the deck.
+4.5
+Bridge movements that can occur simultaneously shall be combined in accordance with BS EN 1990
+[Ref 9.N].
+4.6
+Partial factors and combinations of actions for the calculation of bridge movements shall be in
+accordance with BS EN 1990 [Ref 9.N].
+4.7
+The longitudinal movement due to changes in temperature shall be calculated in accordance with BS
+EN 1991-1-5 [Ref 5.N].
+4.8
+On new concrete and composite bridge decks, calculations of the range of longitudinal movement of
+concrete elements shall include predicted changes in deck dimensions resulting from shrinkage and
+creep.
+4.9
+Irreversible movements due to creep and shrinkage of concrete shall be calculated in accordance with
+BS EN 1992-2 [Ref 6.N] and BS EN 1994-2 [Ref 7.N].
+4.10
+In wide, curved or skew bridges the joint performance requirements shall be determined according to
+the combination of the transverse and longitudinal movement of the deck.
+4.11
+Any longitudinal and vertical movement at joints arising from the predicted differential settlement
+between the bridge supports and the tilt of the bridge supports, such as abutment tilt, shall be included
+in the calculations of movement.
+Joint gaps, grooves and cover plates
+4.12
+Where there is an expansion joint gap it shall be of a uniform width, and never less than 10% of the
+specified range of movement of the joint system or 6mm, whichever is the greater.
+4.13
+The degree of compressibility of seals, sealants and filler boards shall be incorporated into the design.
+NOTE
+Compression seals, sealants and filler boards can transmit significant forces across a gap.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 79
+======================================================================
+CD 357 Version 1.1.0
+4. Detailed joint design requirements
+4.14
+The width of the expansion joint gap and the bridge deck gap to be provided shall be related to the
+amount of residual creep, shrinkage, structural rotation and temperature movements that are expected
+in the deck and to the prevailing deck temperature at the time of setting the expansion joint gap.
+4.15
+Where a preformed compression seal is to be incorporated in the expansion joint gap, the gap shall be
+set so that the seal does not lock up before full expansion has taken place.
+4.16
+Seals which are not effectively restrained in metal rails shall be designed to remain in compression.
+4.17
+Where gap sealing is required, the details shall be shown on drawings.
+4.18
+Where pedestrians have access, all expansion joints with an open joint gap at surface level in the
+footway shall be closed with either:
+1)
+a cover plate; or,
+2)
+a load bearing seal 5 ± 2 mm below the top surface of the joint.
+4.19
+Where the expansion joint in the carriageway consists of toothed, finger or comb plates and where
+motorcyclists, cyclists, wheelchair users, pedestrians or livestock have access, the spaces between the
+mating teeth or fingers shall not exceed 150 mm in length or 20 mm in width, unless compatible cover
+plates are provided over the expansion joint.
+4.20
+Where an expansion joint is skewed, such that gaps or grooves can become orientated in the direction
+of traffic flow, and where motorcyclists, cyclists or wheelchair users have access, cover plates or
+compressible inserts shall be provided at surface level.
+4.21
+Cover plates shall have a sufficient thickness to withstand accidental wheel loading and to provide
+acceptable ride quality.
+4.21.1
+Steel cover plates subject to traffic (including accidental wheel loading on footways) should be at least
+12 mm thick.
+4.22
+The cover plate arrangement shall avoid steps in the roadway surface or alignment that would cause a
+hazard to road users.
+4.22.1
+The height of the joint should be set to accommodate the thickness of the cover plate.
+Transition strips
+4.23
+Where a joint system requires a transition strip (to infill the gap between the joint and the adjacent
+surfacing), the width of the strip shall be kept as narrow as possible with the edge of the strip adjacent
+to the joint chamfered to assist in the dissipation of wheel impact loads.
+4.23.1
+The width of the transition strip should be no wider than 400 mm.
+Skidding resistance
+4.24
+The skid resistance of an expansion joint shall be at least equal to the minimum requirement for the
+adjacent carriageway surfacing (as defined in DMRB standard CS 228 [Ref 17.N]) throughout its
+working life.
+4.25
+The upper surfaces of expansion joints or compatible cover plates in footways and cycleways shall
+have a slip-resistant finish, which, when new, has a mean corrected Pendulum Test Value (PTV) of not
+less than 65 under wet conditions.
+4.26
+The finish of the upper surfaces of expansion joints or compatible in footways and cycleways cover
+plates shall have an effective life of at least five years and also retain a PTV of not less than 45 under
+wet conditions throughout this period.
+4.27
+Where required by ETAG 032 2013 [Ref 10.N] Part 1 clause 4.1.4.2(b), the skid resistance shall be
+verified by testing in accordance with ETAG 032 2013 [Ref 10.N] Part 1 clause 5.1.4.2, which refers to
+BS EN 13036-4 [Ref 15.N].
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 79
+======================================================================
+CD 357 Version 1.1.0
+4. Detailed joint design requirements
+Drainage
+4.28
+Joints shall be designed so that water does not accumulate on or around joints.
+4.29
+Joints shall be protected from surface water and ponding through incorporating suitable falls on the
+carriageway around joints and the use of appropriate drainage systems.
+Road gullies
+4.30
+Road gullies shall be provided on the upstream side of expansion joints to collect surface water before
+it reaches the joint.
+4.31
+Where porous asphalt is specified, road and kerb gullies shall be detailed to collect water flowing both
+on top of and within the asphalt.
+Drainage system
+4.32
+Joints provided with a compression seal, elastomeric element or sealant at surfacing level (such as
+nosing joints), shall be designed to be watertight.
+4.33
+For joints which are not sealed at surfacing level (such as modular and comb joints), an effective
+secondary drainage system shall be provided immediately beneath the expansion joint with access for
+inspection and maintenance.
+4.34
+Water from the drainage system shall be discharged away from the structure into a suitable road
+drainage system or soakaway.
+NOTE
+Requirements on the management of water from the highway are given in CG 501 [Ref 3.N] and LA
+113 [Ref 16.N].
+4.35
+Sub-surface and below-joint drainage systems shall be designed in accordance with the joint
+manufacturer's instructions.
+4.36
+Sub-surface and below-joint drainage systems shall be compatible with the expansion joint.
+4.37
+Sub-surface and below-joint drainage systems shall be accessible for cleaning and maintenance.
+In-joint drainage
+4.38
+A transverse and through-deck in-joint drainage system shall be provided to prevent water leakage into
+the bridge deck gap (Structural gap), and hence onto the adjacent structural elements and components.
+NOTE 1
+Water trapped within the road surfacing on the high side of a deck joint can, through hydraulic pressure
+from wheel loading, cause failure of the bond or seal between the joint and the waterproofing systems.
+NOTE 2
+For advice relating to the waterproofing and drainage of bridge decks reference can be made to CD
+358 [Ref 20.N].
+NOTE 3
+Longitudinal drainage systems can be used, for example, within flexible plug joints, where longitudinal
+pipes are laid across the width of the joint providing a pressure relief system from one side of the joint
+to the other.
+NOTE 4
+Examples of in-joint drainage systems are illustrated in Appendix A.
+4.38.1
+Transverse drainage systems should be as large as possible, located in such a manner that the flow
+area is not interrupted and detailed to permit jetting through the drainage tubes.
+4.38.2
+Buried galvanised steel or aluminium slotted drainage tubes for in-joint drainage may be either circular
+or rectangular in cross section and discharge water via a suitable connection to the bridge deck
+drainage system.
+4.38.3
+As an alternative to transverse slotted drains, a transverse channel may be formed in the top of the
+bridge deck, parallel to the joint.
+4.38.4
+Where a transverse channel is used, cast-in down pipes should be provided at intervals along the
+channel, to clear the bearing and jacking point positions.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 79
+======================================================================
+CD 357 Version 1.1.0
+4. Detailed joint design requirements
+4.38.5
+Where a transverse channel is used, the trough should be filled with surfacing which is sufficiently
+permeable to permit the passage of water.
+4.38.6
+The deck surface adjacent to the joint should be cast with a backfall to ensure that sub-surface water
+drains towards the cast-in pipes.
+In-situ nosings
+4.39
+In-situ nosings shall be dimensioned on drawings.
+4.40
+In-situ nosings shall be applied on sound deck and abutment concrete.
+4.41
+Defective concrete on the bridge deck and abutment shall be repaired in accordance with CS 462 [Ref
+14.N] prior to applying any nosing material for the joint system.
+NOTE
+It is emphasised that satisfactory in-situ resin-based mixes can only be achieved with completely dry
+aggregates.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 79
+======================================================================
+CD 357 Version 1.1.0
+5. Design for installation and maintenance
+5.
+Design for installation and maintenance
+Installation
+5.1
+Expansion joints shall be securely anchored to the underlying bridge deck in accordance with the
+manufacturer's instructions.
+5.1.1
+Where the manufacturer gives no specific anchorage instructions, attachment may be through the
+following means:
+1)
+bond;
+2)
+bolts or resin anchored studs; and/or,
+3)
+anchor bars or studs.
+5.2
+The installation of expansion joint systems shall be undertaken by suitably accredited contractors, in
+accordance with the manufacturer's approved installation instructions.
+NOTE 1
+General guidance for the installation of expansion joint systems is provided in Appendix D.
+NOTE 2
+Poor installation and lack of maintenance can contribute to defects in bridge expansion joint systems
+such as the typical defects shown in Appendix E for multi-element modular expansion joints.
+5.3
+The expansion joint gap width for expansion joints in new construction or a full replacement of an
+existing joint system shall be set, in relation to the effective bridge deck temperature, to accommodate
+the range of movements calculated in accordance with Section 4 of this document.
+5.4
+The sides of the joint gap shall be parallel.
+5.5
+The expansion joint and its components (such as epoxy nosing materials or transition strips, or flexible
+asphalt joint fillers) shall be protected until all components have achieved the required strength.
+5.6
+Holding down bolts installed for securing expansion joints shall be protected to prevent damage.
+NOTE
+Holding down bolts installed at an early stage of the deck construction are particularly vulnerable to
+damage. Damaged threads or any imperfections on bolts can prevent the predetermined torque load
+being achieved.
+5.6.1
+Traffic should be excluded from the joint until the required material properties have been achieved.
+NOTE
+The curing time required for materials before the joint can be trafficked can be determined by the:
+1)
+actual mean air temperature; and,
+2)
+the joint manufacturer's requirements.
+5.7
+Where the joint is to be subject to traffic prior to components achieving the required material properties,
+temporary cover plates capable of withstanding vehicular loading shall be provided over the expansion
+joints during and after installation.
+NOTE 1
+Temporary cover plates can also be used to allow traffic to pass over failed expansion joints.
+NOTE 2
+Guidance on the use of temporary cover plates is provided in Appendix F.
+5.7.1
+Requirements for the protection of newly installed joints should be shown on drawings .
+5.8
+Where prefabricated units are proposed, a secondary waterproofing system shall be included to
+prevent water penetrating between the joints.
+5.9
+The secondary waterproofing system shall be in the form of a continuous membrane.
+Inspection and maintenance
+5.10
+The inspection and maintenance of expansion joints shall be in accordance with the requirements
+incorporated within DMRB documents, notably CS 450 [Ref 11.N].
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 79
+======================================================================
+CD 357 Version 1.1.0
+5. Design for installation and maintenance
+5.10.1
+Where the joint manufacturer recommends inspection intervals which are more frequent than those
+given in CS 450 [Ref 11.N], this should be agreed with the Overseeing Organisation and stated in the
+joint maintenance manual.
+NOTE 1
+Expansion joints systems requiring inspections intervals which are more frequent than those given in
+CS 450 [Ref 11.N] can be more demanding to manage and have higher whole life costs.
+NOTE 2
+The inspection of a more complex expansion joint can trigger further targeted investigation and testing,
+to quantify the scale and nature of the issues identified during the initial routine inspection,
+necessitating a longer period of closure to traffic than originally anticipated.
+5.10.2
+When carriageway resurfacing operations are planned, any bridge joints which are affected should be
+inspected so that, if necessary, they can be replaced at the same time.
+NOTE 1
+A proactive joint maintenance and management regime can be very beneficial to avoid or minimise
+disruptions.
+NOTE 2
+The overall cost of replacing an expansion joint is significantly more than the cost of the joint itself,
+because of the additional costs associated with traffic management, and the indirect costs of traffic
+delays. So an early joint replacement can often be economically favourable when undertaking localised
+resurfacing around a joint. Replacing joints before they have reached the end of their service life can
+reduce whole life costs if carried out at the same time as resurfacing.
+5.11
+Routine maintenance of expansion joints shall be in accordance with the manufacturer's
+recommendations.
+5.11.1
+Items that have a shorter service life, such as split compression seals or detached sealants should be
+replaced; tracked flexible plug joints re-profiled; and defective modular joints partially replaced or
+re-set, to ensure that the joints are operating effectively and safely.
+5.11.2
+Faults such as blocked drainage or silted-up gaps should be rectified immediately after detection.
+NOTE 1
+Failure of a joint can create a serious hazard for traffic.
+NOTE 2
+Water leakage (possibly contaminated with chlorides) can have very damaging effects on reinforced
+concrete or steel elements in the bridge structure. Silted up gaps, such as from water passage, can
+permit the transmission of high forces into the joint fixing system.
+NOTE 3
+Expansion joint failure can be identified by indicators such as an increase in noise levels, components
+becoming loose, broken or damaged, or depressions in the carriageway on the approaches to joints.
+5.12
+A maintenance manual shall be prepared, and included in the Health and Safety File.
+NOTE
+The requirements for inspection and maintenance are incorporated within existing DMRB documents,
+notably CS 450 [Ref 11.N].
+5.13
+The maintenance manual shall be updated where existing joints are subject to significant maintenance
+and management actions such as repairs, partial replacements and changes recommended following
+inspections.
+5.14
+Delivery times for expansion joints and components shall be included in the maintenance manual for
+each structure for the planning of repair or replacement works.
+NOTE 1
+Some components of more complex expansion joints need to be specifically fabricated - this can be
+identified through discussions with the manufacturer and considered during the options phase.
+NOTE 2
+Table 5.14N2 contains the indicative list of minimum information required for inclusion in the
+maintenance manual.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 79
+======================================================================
+CD 357 Version 1.1.0
+5. Design for installation and maintenance
+Table 5.14N2 Indicative list of items for inclusion in maintenance manual for expansion joints
+Expansion joint type
+Confirm the expansion joint type.
+Ensure that the drawings prepared and/or provided are accurate and sufficiently detailed.
+Details of joint settings and special features including specialist equipment required for installation,
+maintenance and replacement.
+Details identifying the manufacturer.
+Information on the availability, lead / delivery times for replacement parts.
+Procedure
+Manufacturer's instructions to include specific requirements for inspection and maintenance.
+Inspections
+Intervals between inspections.
+Specific areas to inspect or issues to look for such as spot corrosion, unusual noises, loose
+components as identified in the manufacturer's manual.
+Level of skill and experience of the inspector necessary to include awareness of the expansion joint
+type.
+Specific guidance on the access for inspection such the need to remove seals in order to view or
+arrange for specialist equipment.
+Maintenance
+In accordance with the manufacturer's instructions, as a minimum:
+1) clean and remove debris from the joint;
+2) record any issues found if apparent; and,
+3) grease (if appropriate for joint type).
+Checking and clearing drainage system
+Working life
+Expected working life of joint system
+Service life
+Identify the service life of components (e.g. seals) and the date when replacement is anticipated.
+Repair strategy
+Strategy to include replacement component service life and replacement schedules.
+Information on stocking of hard-to-obtain components, or components with a long lead time, for
+critical routes on the Strategic Road Network (SRN).
+5.15
+Details of the maintenance works completed to repair or replace the expansion joints shall be recorded
+in the Overseeing Organisation's bridge management information system.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 79
+======================================================================
+CD 357 Version 1.1.0
+6. Design outputs for expansion joints and seali...
+6.
+Design outputs for expansion joints and sealing of gaps in bridges
+and structures
+Design outputs for bridge deck expansion joints
+6.1
+The outputs from the design of bridge deck expansion joints shall include all details necessary to define
+the following:
+1)
+the location, setting out, and geometry of the existing and/or proposed bridge deck expansion
+joints;
+2)
+the type and/or model of the existing and/or proposed bridge deck expansion joints; and,
+3)
+the performance requirements for the proposed bridge deck expansion joints.
+6.2
+A unique reference shall be assigned to each bridge deck expansion joint.
+6.2.1
+The unique reference should relate to the location of the joint on the bridge and the highway carried.
+6.2.2
+The structure name, structure reference and structure location should be consistent with information on
+the Overseeing Organisation's highways structures information management system.
+6.3
+All design outputs for bridge deck expansion joints shall be associated with a bridge deck expansion
+joint reference.
+6.4
+Drawings or models showing details of the bridge deck expansion joints shall be provided.
+6.5
+The design outputs of the bridge deck expansion joints listed in Table 6.5 shall be provided on the
+drawings or models for the selection of the expansion joint systems to be used on the bridge:-
+Table 6.5 Bridge deck expansion joint design outputs
+Bridge deck expansion joint design
+outputs
+Permitted choices
+Guidance
+Expansion joint reference
+Each and every structural element
+within a structure should have a
+unique reference number allocated to
+it, which is used consistently
+throughout the contract to improve
+clarity and remove ambiguity.
+Structure name
+Each and every structure on a
+scheme to have a unique name
+allocated to it, which is used
+consistently throughout the contract to
+improve clarity and remove ambiguity.
+Structure reference
+Each and every structure on a
+scheme to have a unique reference
+number allocated to it, which is used
+consistently throughout the contract to
+improve clarity and remove ambiguity.
+Drawing(s) model reference
+Each and every drawing/model within
+a contract to have a unique reference
+number, which is used consistently
+throughout the contract to improve
+clarity and remove ambiguity.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 79
+======================================================================
+CD 357 Version 1.1.0
+6. Design outputs for expansion joints and seali...
+Table 6.5 Bridge deck expansion joint design outputs (continued)
+Bridge deck expansion joint design
+outputs
+Permitted choices
+Guidance
+Bridge support reference
+Each and every structural element
+within a structure to have a unique
+reference number allocated to it,
+which is used consistently throughout
+the contract to improve clarity and
+remove ambiguity.
+Existing bridge deck joint
+manufacturer & joint model
+For joint systems with departmental
+type approval this is the joint
+manufacturer name and joint model
+name as given in the statement of
+registration.
+Existing bridge deck joint type
+Type 1-7
+Specified in accordance with ETAG
+032 2013 [Ref 10.N]. As listed in
+Appendix A table A.1.
+Existing bridge deck joint type
+expansion joint length
+Value in m
+the bridge deck joint gap width at 0
+degrees C
+Value in mm
+the bridge deck joint gap width at 20
+degrees C
+Value in mm
+Proposed bridge deck expansion joint
+type
+Type 1-7
+Specified in accordance with ETAG
+032 2013 [Ref 10.N]. As listed in
+Appendix A table A.1.
+Proposed bridge deck expansion joint
+total length
+Value in m
+Proposed bridge deck expansion joint
+longitudinal movement range
+Value in mm
+Proposed bridge deck expansion joint
+vertical movement range
+Value in mm
+Proposed bridge deck expansion joint
+other requirements
+No restriction
+Proposed minimum heavy goods
+vehicles expected per year and per
+lane
+Nobs per lane in
+millions per year
+Expected working life of proposed
+joint
+Value in years
+Specified in accordance with ETAG
+032 2013 [Ref 10.N].
+NOTE
+For products where a particular value for a design output is not required, the design output for that
+performance characteristic can be omitted.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 79
+======================================================================
+CD 357 Version 1.1.0
+6. Design outputs for expansion joints and seali...
+Design outputs for sealing of gaps in bridges and structures
+6.6
+The following specific details shall be provided to allow for the design for sealing of gaps in bridges and
+structures:-
+1)
+unique gap reference/identification;
+2)
+the structure name;
+3)
+the unique structure number/reference;
+4)
+the drawing(s) / model reference; and,
+5)
+the gap sealing location.
+6.6.1
+A unique gap reference number should be assigned to each location of gap, or group of gaps with
+similar characteristics.
+6.6.2
+The structure name and unique structure number/reference and structure location should be consistent
+with information on the Overseeing Organisation's highway structures information management
+systems.
+6.7
+The design outputs for sealing of gaps listed in Table 6.7 shall be provided on the drawings or models
+to allow for the design for sealing of gaps in bridges and structures:-
+Table 6.7 Sealing of gaps design outputs
+Sealing of gaps design outputs
+Permitted choices
+Existing gap sealing material
+No requirements
+Proposed length of gap sealing
+Value in m
+Proposed width of gap
+Value in mm
+Filler material requirements
+Sealant material requirements
+Water stop material requirements
+6.8
+The following specific details shall be provided to allow for the design of filler boards in expansion joints
+on bridges and structures:-
+1)
+the structure key;
+2)
+the position of the joint on the structure; and,
+3)
+the detail / make / model number of filler board if known.
+6.9
+The specific requirements for filler boards listed in Table 6.9 shall be provided to allow for the design for
+sealing of gaps in bridges and structures:-
+Table 6.9 Filler boards design outputs
+Filler board use in expansion joints design outputs
+Permitted choices
+Nominal thickness of the filler board
+Value in mm
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 79
+======================================================================
+CD 357 Version 1.1.0
+7. Normative references
+7.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+Transport Research Laboratory. Emerson, M. TRL SR 479, 'Bridge temperatures for
+setting bearings and expansion joints'
+Ref 2.N
+Europa.eu. 2011/305/EU, 'Construction Products Regulation'
+Ref 3.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 4.N
+BSI. BS EN 1991-2, 'Eurocode 1. Actions on structures. Traffic loads on bridges'
+Ref 5.N
+BSI. BS EN 1991-1-5, 'Eurocode 1: Actions on structures: General actions – Thermal
+actions'
+Ref 6.N
+BSI. BS EN 1992-2, 'Eurocode 2. Design of concrete structures: Concrete bridges.
+Design and detailing rules'
+Ref 7.N
+BSI. BS EN 1994-2, 'Eurocode 4. Design of composite steel and concrete structures:
+General rules and rules for bridges'
+Ref 8.N
+BSI. BS EN 1998-2, 'Eurocode 8. Design of structures for earthquake resistance.
+Bridges'
+Ref 9.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 10.N
+EOTA. ETAG 032, 'Guideline for European technical approval of expansion joints for
+road bridges' , 2013
+Ref 11.N
+National Highways. CS 450, 'Inspection of highway structures'
+Ref 12.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 13.N
+BSI. PD 6698, 'Recommendations for the design of structures for earthquake
+resistance to BS EN 1998'
+Ref 14.N
+National Highways. CS 462, 'Repair and management of deteriorated concrete
+highway structures'
+Ref 15.N
+BSI. BS EN 13036-4, 'Road and airfield surface characteristics. Test methods -
+Method for measurement of slip/skid resistance of a surface: The pendulum test'
+Ref 16.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 17.N
+National Highways. CS 228, 'Skidding resistance'
+Ref 18.N
+National Highways. CD 350, 'The design of highway structures'
+Ref 19.N
+BSI. NA to BS EN 1991-2, 'UK National Annex to Eurocode 1: Actions on structures:
+Traffic loads on bridges'
+Ref 20.N
+National Highways. CD 358, 'Waterproofing and surfacing of concrete bridge decks'
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 79
+======================================================================
+CD 357 Version 1.1.0
+8. Informative references
+8.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Construction Industries Research and Information Association, London. Collins J et
+al. CIRIA C764, 'Hidden defects in bridges. Guidance for detection and maintenance'
+Ref 2.I
+Transport Research Laboratory. TRL RR 236, 'Improving the performance of bridge
+expansion joints: Bridge Deck Expansion Joint Working Group Final Report'
+Ref 3.I
+National Highways. CS 470, 'Management of sub-standard highway structures'
+Ref 4.I
+National Highways. CG 300, 'Technical approval of highway structures'
+Ref 5.I
+BSI. BS 812-101, 'Testing aggregates. Guide to sampling and testing aggregates' ,
+1984
+Ref 6.I
+BSI. BS 812-103.1, 'Testing aggregates. Method for determination of particle size
+distribution. Sieve tests' , 1985
+Ref 7.I
+BSI. BS 812-1, 'Testing aggregates. Methods for determination of particle size and
+shape' , 1975
+Ref 8.I
+BSI. BS 812-2, 'Testing aggregates. Methods for determination of physical properties'
+Ref 9.I
+BSI. BS 812-102, 'Testing aggregates. Methods for sampling' , 1989
+Ref 10.I
+Transport Research Laboratory. TRL LR 1104, 'The performance in service of bridge
+deck expansion joints'
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Appendix A. Expansion joint types
+A1
+General
+The various generic types of joint for different ranges of movement are described within this Appendix.
+More than one type of joint may be suitable for a particular movement range or site location and other
+factors have to be considered before the final choice of joint is made.
+A1.1
+Very large movements
+Descriptions of expansion joints to accommodate movement greater than that provided for by
+proprietary joint systems are not given in this Appendix.
+A2
+Generic expansion joint types
+The various 'families' of expansion joint type covered by the constituent parts of ETAG 032 2013 [Ref
+10.N] and their corresponding equivalent generic joint types as previously described in the withdrawn
+BD 33 are provided in Table A.1.
+For the purposes of this document and this appendix, the expansion joint terminology used in ETAG
+032 2013 [Ref 10.N] has been adopted.
+Guidance given on the selection of joints in this appendix is based on information obtained from site
+inspections, surveys and feedback from a number of sources.
+The information compiled has shown that most types of joint perform satisfactorily provided:
+1)
+the total joint system is designed to withstand the effects of traffic loading including impact and
+abrasion;
+2)
+the total movement at the bridge deck gap is within the capacity of the joint system; and,
+3)
+the joint is installed by a competent contractor familiar with the system.
+Key factors affecting the choice of a joint are shown in Table A.2. The range of longitudinal movements
+for which each generic joint type is suitable is shown in Table A.3.
+Table A.1 Families of expansion joints in ETAG 032 and their equivalent in BD 33
+ETAG 032 Part and joint family
+Equivalent BD 33 joint type
+Part 1 – General
+Part 2 – Buried expansion joint
+Type 1 – Buried joint under continuous surfacing
+Part 3 – Flexible plug joint
+Type 2 – Asphaltic plug joint
+Part 4 – Nosing expansion joint
+Type 3 – Nosing joint with poured sealant and Type 4 – Nosing
+with preformed compression seal and Type 6 - Elastomeric in
+metal runners (single element form only)
+Part 5 – Mat expansion joint
+Type 5 – Reinforced elastomeric
+Part 6 – Cantilever expansion joint
+Type 7 – Cantilever comb or tooth joint
+Part 7 – Supported expansion
+joint
+Not covered
+Part 8 – Modular expansion joint
+Type 6 – Elastomeric in metal runners (includes multi-element
+form only)
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Table A.2 Key factors affecting past joint performance
+Joint type
+Buried
+expansion joint
+Flexible
+plug
+expansion
+Nosing
+expansion joint
+(with sealant)
+Mat
+expansion
+joint
+Modular
+expansion joint
+Cantilever
+expansion joint
+Transi-
+tion
+Strip
+0-15
+M
+L
+M
+L*
+L
+L*
+L
+15-50
+H
+M
+H
+L*
+L
+L*
+L
+Ther-
+mal
+Horiz-
+ontal
+50+
+N/A
+N/A
+N/A
+L*
+L
+L*
+L
+<0.05
+L
+L
+L
+L
+L
+L
+L
+0.05-0.
+10
+M
+L
+L
+L
+L
+L
+L
+Horiz-
+ontal
+>0.10
+H
+L
+M
+M
+L
+M
+M
+<2
+L
+L
+L
+L
+L
+L
+L
+2-4
+M
+L
+L
+L
+L
+L
+L
+Move-
+ments
+at
+the joint
+(mm)
+Dy-
+namic
+Vertical
+>4
+H
+M
+M
+M
+L
+M
+M
+<10
+L
+L**
+L
+M
+L
+L
+L
+10-50
+M
+L**
+M
+M
+L
+L
+M
+Frequency/Lane
+/Hour
+>50
+H
+M**
+H
+H
+M
+M
+H
+<10
+L
+L**
+L
+L
+L
+L
+L
+10-40
+M
+L**
+M
+L
+L
+L
+M
+Traffic over
+joint
+Axial loads (kN)
+>40
+H
+M**
+H
+M
+L
+M
+H
+Joint design
+M-H
+L-M
+H
+M-H
+M-H
+M-H
+M
+Materials used
+M-H
+M
+H
+L-M
+M
+L-M
+M-H
+Condition of substrate
+M-H
+M
+H
+M-H
+N/A
+M-H
+H
+<10
+L
+L
+L
+L
+L
+L
+L
+10-15
+M
+L
+M
+L
+L
+L
+M
+Installation temperature (oC)
+>15
+H
+M
+H
+L
+L
+L
+H
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Table A.2 Key factors affecting past joint performance (continued)
+Joint type
+Buried
+expansion joint
+Flexible
+plug
+expansion
+Nosing
+expansion joint
+(with sealant)
+Mat
+expansion
+joint
+Modular
+expansion joint
+Cantilever
+expansion joint
+Transi-
+tion
+Strip
+In service weathering
+M-H
+L
+L-M
+L
+L
+L
+L
+Detritus and corrosion
+L
+L
+L-M
+M-H
+M
+H
+L-M
+Site preparation and workmanship
+H
+M
+H
+H
+M
+M
+H
+Bond and anchorage
+M
+L
+H
+H
+H
+H
+H
+* Assuming joint in correct design range
+** Assuming correct binder type
+N/A = Not applicable
+L - Low )
+M - Moderate ) effect on performance
+H - High )
+Note: This table is reproduced from BA 26/94. It is based on a similar table in TRL LR 1104 [Ref 10.I], modified to take into account information on joint
+performance current in 1994.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Table A.3 Indicative movement range capacities at SLS based on past experience
+Total longitudinal movement
+(mm)
+ETAG 032 joint family(3)
+Minimum(2)
+Maximum
+Maximum vertical movement
+between sides of joint (mm)
+Buried expansion joint
+5
+20
+1.3
+Flexible plug joint
+5
+40
+3.0
+Nosing expansion joint, with
+poured sealant
+5
+12
+3.0
+Nosing expansion joint, with
+pre-formed compression
+seal
+5
+40
+3.0
+Mat expansion joint
+5
+Varies(1)
+3.0
+Cantilever expansion joint
+25
+Varies(1)
+3.0
+Supported expansion joint
+150
+Varies(1)
+3.0
+Modular expansion joint
+25
+Varies(1)
+3.0
+(1) Maximum value varies according to manufacturer or type.
+(2) Minimum of the range is given to indicate when the type of joint may not be economical.
+(3) This table is based on information from BD 33/94, but updated in line with ETAG 032 2013 [Ref
+10.N] joint type descriptions.
+A2.1
+Buried expansion joint
+One or more components may be used to form the joint below the surfacing. Materials range from
+elastomeric pads to proprietary flashings which support the surfacing above the bridge deck gap (see
+Figure A.1 for an example; refer to ETAG 032 2013 [Ref 10.N], Part 2, Annex 2-M for other examples).
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.1 Example of buried expansion joint
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Various materials have been used to form buried joints, such as copper-lined bituminous sheeting,
+quarry tiles, Formica or similar, or steel plates. These materials have had varying degrees of success
+depending on the horizontal movements and traffic loads imposed. The principal problem where rigid
+plates have been used is that they are difficult to bed down properly and subsequent rocking under
+traffic loading has been a major cause of premature failure of the joint system.
+For movements up to 10mm a proprietary flashing may be appropriate provided there is a minimum of
+100mm surfacing. For movements of 10 - 20mm an elastomeric pad may be installed on top of the
+flashing to support surfacing 500 - 600mm wide. When laid as part of the joint this improves its
+flexibility and durability.
+A2.2
+Flexible plug expansion joint
+There are a number of proprietary joint systems included in this description, formerly referred to as
+asphaltic plug joints. The joint is normally constructed in layers using a mixture of flexible material and
+aggregate to provide not only the homogeneous expansion medium but also the running surface at
+carriageway level (see Figure A.2 for an example; refer to ETAG 032 2013 [Ref 10.N], Part 3 for other
+examples).
+Figure A.2 Example of flexible plug expansion joint
+This system was developed during the 1970s and was used initially to cater for small movements. In
+some cases the joint material was too flexible and suffered from tracking and flowing especially during
+hot weather. The system was improved by increasing the density and stiffness of the material, mainly in
+the top layers up to carriageway level.
+In general, flexible plug joints are now formulated to work satisfactorily in the movement range given in
+Table A.3 provided the adjacent surfacing is not less than 100 mm thick, the gradients and cross-falls
+are not too severe and the bridge deck is not noticeably 'lively' at the joints. It is difficult to define limits
+for the latter two but generally where premature failure has occurred one or both of these factors have
+been present.
+On significant gradients the joint should be formed using a stiffer binder to reduce debonding and
+bulging caused by binder flow. These joints are normally installed at a nominal 500mm width but,
+depending on the condition of the surfacing at the time of installation, joints as wide as 1000mm have
+been installed. Joints of this width should be avoided and where possible the maximum joint width
+should be limited to 850mm.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+A2.3
+Nosing expansion joint
+Steel plates or angle sections, bolted or anchored to the deck, were commonly used to form protective
+nosings but are seldom used today. Epoxy mortar nosings were first used in 1964, for the replacement
+of faulty steel nosings, and were the most widely used type of joint in the early 1970s but did not
+perform as well as first anticipated. A number of factors influenced the performance including nosing
+design, materials and bad workmanship.
+In spite of improvements in the formulations of epoxy nosings, which increased their success, they
+have been superseded to some extent by cementitious polyurethane and polyureide binders, which are
+more tolerant of adverse site conditions and have a better success rate in service (See Figure A.3 for
+an example; refer to ETAG 032 2013 [Ref 10.N], Part 4 Annex 4-M for other examples).
+Figure A.3 Example of nosing expansion joint
+A2.4
+Mat expansion joints
+These joints (formerly referred to as reinforced elastomeric joints) are prefabricated units which span
+the bridge deck gap and are either an elastomer or elastomer reinforced with metal plates. They have
+been used for many years with a good success rate. Different sizes are available to suit various
+movement ranges. See Figure A.4 for an example; refer to ETAG 032 2013 [Ref 10.N], Part 5 for other
+examples.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.4 Example of mat expansion joint
+The larger sizes of elastomeric type joints tend to create more noise than normal under traffic. This is
+only usually a problem when the installation is adjacent to residential property. Some manufacturers
+can provide a special attachment to reduce the noise problem.
+Failure of this type of joint has been from failed transition strips and splitting or excessive wear of the
+rubber, and subsequent exposure of the metal plates has occurred in a few cases.
+Failure by exposure of the metal plates has also been recorded where lateral forces have caused
+accelerated wear of the covering rubber, such as at exits from roundabouts. Elastomeric joints are
+normally supplied in unit lengths and fixed to the deck using bolts or resin anchors. Where possible
+tensioned cast-in bolts should be used to anchor these joints, or if site drilled installations are used the
+holes should be under-reamed prior to fixing of the bolts. In either case an adequate length of bolt
+should be de-bonded so that any relaxation over the bolt length does not result in the complete loss of
+tension in the bolts. Performance of bolts should be confirmed by testing.
+Resistance to water penetration can be improved by ensuring that either the joint is manufactured and
+supplied in one continuous length, or alternatively the units are bonded together on site to form one
+continuous length.
+A2.5
+Cantilever expansion joints
+These joints (formerly referred to as 'comb' or 'tooth' joints) are pairs of mating toothed metal plates
+individually bolted to each side of the bridge deck gap. They can either be purpose made for a
+particular installation or be proprietary units. See Figure A.5 for an example; refer to ETAG 032 2013
+[Ref 10.N], Part 6 for other examples, and its Annex 6.M for examples of finger shapes.
+The gaps between the teeth can become very large, especially on skew bridges decks and the
+orientation of the teeth may also be significant in certain circumstances (see Section 4 of this
+document).
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.5 Example of cantilever expansion joint
+A2.6
+Supported expansion joint
+A supported expansion joint consists of one sub-component flush with the running surface, which is
+fixed by hinges on one side and sliding supports on the other side (by a second element), and which
+spans the bridge deck gap. The expected structure movement is allowed through sliding on the
+non-fixed side of the hinged sub-component, i.e. on the supporting element that is anchored to the
+sub-structure.
+Supported expansion joints can be classified in the following subfamilies: bridging plate expansion
+joints without fingers; bridging plate expansion joints with fingers; and roller shutter expansion joints.
+These subfamilies are described in ETAG 032 2013 [Ref 10.N] Part 7. An example of a supported
+expansion joint is shown in Figure A.6; refer to ETAG 032 2013 [Ref 10.N], Part 7 for other examples.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.6 Example of supported expansion joint without fingers
+A2.7
+Modular expansion joints
+There are a number of proprietary joints which fit into this category (formerly known as 'elastomeric in
+metal runners', or EMR joints), in multi-element form, and in a range of sizes. The single element form
+of the EMR joints which consists of a profiled elastomeric seal fitted between two metal runners, one
+fixed to each end of the deck gap is now categorised as a nosing joint; refer to ETAG 032 2013 [Ref
+10.N] Part 4. A typical nosing expansion joint (formerly single-element modular expansion joint) in
+accordance with ETAG 032 Part 4 Annex 4-M is shown in Figure D.2 (in Appendix D).
+Multi-element modular joints are more complex, and can accommodate a much larger range of
+movements. In multi-element joints, one or more intermediate runners are provided (in addition to the
+runners either side of the bridge deck gap), into which the elastomeric seals are fitted, and these are
+supported on support beams placed transversely to the bridge deck gap. The support beams are, in
+turn, supported on sliding bearings, which facilitate the movement of the deck. An example of a
+multi-element joint is shown in Figure A.7; refer to ETAG 032 2013 [Ref 10.N], Part 8 Annex 8P for
+other examples.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.7 Example of modular expansion joint
+Generally the multi-element modular joints are cast in using formed recesses in the deck concrete.
+Depending on the type of joint used, fixings can be similar to those used in elastomeric joints or even
+bonded to the deck concrete. The elastomeric seals are generally of two distinct types, those which are
+non-load bearing membranes located below carriageway level and those which form load bearing seals
+at carriageway surface level.
+A3
+In-joint drainage at expansion joints
+Water trapped within the road surfacing on the high side of a deck joint can, through hydraulic pressure
+from wheel loading, cause failure of the bond or seal between the joint and the waterproofing systems.
+A typical detail for the provision of sub-surface drainage is shown in Figure A.8 (this is shown for a
+nosing joint, but a similar detail would be applicable for other joint types).
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.8 Typical detail for provision of sub-surface drainage at expansion joints
+using transverse slotted drains
+As an alternative to transverse slotted drains, a transverse channel may be formed in the top of the
+bridge deck, parallel to the joint. A typical detail for this alternative is shown in Figure A.9.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix A. Expansion joint types
+Figure A.9 Typical detail for provision of sub-surface drainage adjacent to
+expansion joint using a transverse channel
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Appendix B. Declaration of performance
+B1
+Declarations of performance
+Declarations of performance to be demonstrated for the essential requirements (ER) in ETAG 032 2013
+[Ref 10.N] are stated in Tables B.2 to B.8 of this Appendix, for the families of expansion joints listed in
+Table B.1.
+Table B.1 Families of expansion joints for bridges
+Family
+ETAG 032 Part
+Buried expansion joints
+2
+Flexible plug expansion joints
+3
+Nosing expansion joints
+4
+Mat expansion joints
+5
+Cantilever expansion joints
+6
+Supported expansion joints
+7
+Modular expansion joints
+8
+Note: Refer to Appendix A for examples of the different types of expansion joints.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.2 Declaration of performance - buried expansion joints
+ER
+Characteristics specified
+in the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 2
+paragraph on product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Covered by component assessment
+Mechanical resistance
+6.1.1.2
+Supported element (e.g.
+bridging plate)
+Pass/Fail
+Pass
+Resistance to fatigue
+6.1.1.3
+Pass/Fail
+Pass
+Seismic behaviour
+6.1.1.4
+Not relevant
+Not applicable
+Movement capacity
+6.1.1.5
+Declared values
+Declared values and
+required surfacing
+properties
+Cleanability
+6.1.1.6
+Not relevant
+Not applicable
+Resistance to wear
+6.1.1.7
+Not relevant
+Not applicable
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+Pass
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+3
+Release of dangerous
+substances
+6.1.3
+Indication of dangerous substances, incl.
+concentration, etc.
+or:
+"No dangerous substances"
+Declaration required
+Ability to bridge gaps and
+levels in the running surface
+6.1.4.1
+Not relevant
+Not applicable
+Skid resistance
+6.1.4.2
+Not relevant
+Not applicable
+4
+Drainage capacity
+6.1.4.3
+Not relevant
+Not applicable
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+6
+Energy economy and heat
+retention
+6.1.6
+Not relevant
+Not applicable
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.2 Declaration of performance - buried expansion joints (continued)
+ER
+Characteristics specified
+in the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 2
+paragraph on product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Corrosion
+Pass/fail (considering
+working life category)
+Declaration of pass
+required, if relevant*
+7
+Durability of the
+characteristics
+against:
+Corrosion, ageing,
+chemicals, temperature,
+UV-radiation,
+freeze-thaw, ozone
+6.1.7
+Chemicals
+Pass/fail (considering
+working life category)
+Declaration of pass
+required, if relevant*
+Note: *the requirement is relevant if the class, use category or criterion is applicable to the structure under consideration.
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.3 Declaration of performance - flexible plug expansion joints
+ER
+Characteristics specified
+in the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 3
+paragraph on pro
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Mechanical resistance
+6.1.1.2
+Carriageway and/or
+footpath
+and/or options:
+-accidental load on
+footpath
+-collision on kerb
+Pass/Fail
+Refer to carriageway use
+category
+Not relevant
+Not relevant
+Pass
+Resistance to fatigue
+6.1.1.3
+Pass/Fail
+Pass
+Seismic behaviour
+6.1.1.4
+Not relevant
+Not applicable
+Movement capacity
+6.1.1.4
+Declared values
+Declared values
+Changeability
+6.1.1.5
+Not relevant
+Not applicable
+Resistance to wear
+6.1.1.7
+Not relevant
+Not applicable
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+Pass
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+3
+Release of dangerous substances
+6.1.3
+Indication of dangerous substances, incl.
+concentration, etc.
+or:
+"No dangerous substances"
+Declaration required
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.3 Declaration of performance - flexible plug expansion joints (continued)
+ER
+Characteristics specified
+in the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 3
+paragraph on pro
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Allowable surface gaps and voids
+6.1.4.1.1
+Not relevant
+Not applicable
+Level differences
+and steps
+Pass/Fail
+Pass
+Level differences in the running
+surface
+6.1.4.1.2
+After loading
+Pass/Fail
+Pass
+Skid resistance
+6.1.4.2
+On carriageway and
+footpath
+Assessment by testing
+criterion: declared values
+Declared values
+4
+Drainage capacity
+6.1.4.3
+Not relevant
+Not applicable
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+6
+Energy economy and heat retention
+6.1.6
+Not relevant
+Not applicable
+Corrosion
+Pass/Fail
+Pass
+Chemicals
+Pass/Fail
+Pass
+Ageing resulting from:
+temperature
+Pass/Fail
+Pass
+UV-radiation
+Pass/Fail
+Pass
+ozone
+Pass/Fail
+Pass
+7
+Durability of the characteristics
+against:
+Corrosion, ageing, chemicals,
+temperature, UV-radiation,
+freeze-thaw, ozone
+6.1.7
+Resistance against
+freeze-thaw
+Not relevant
+Not applicable
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.4 Declaration of performance - nosing expansion joints
+ER
+Characteristics specified
+in the mandate
+ETAG 032 2013 [Ref
+10.N]Part 4
+paragraph on product
+performance to be assessed
+Class, use category criterion
+Declaration of
+performance requirement
+Carriageway
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or options:
+- accidental load on footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Mechanical resistance
+6.1.1.2
+- collision on kerb
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Resistance to fatigue
+6.1.1.3
+Pass/Fail
+Pass/Fail
+Pass
+Seismic behaviour
+6.1.1.4
+Declaration of selected approach and
+relevant information (aspects, etc.)
+Declaration required
+Movement capacity
+6.1.1.5
+Declared values
+Declared values
+Cleanability
+6.1.1.6
+Pass/Fail
+Pass
+Resistance to wear
+6.1.1.7
+Not relevant
+Not applicable
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+Pass
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+3
+Release of dangerous substances
+6.1.3
+Indication of dangerous substances, incl.
+concentration, etc.
+or: "No dangerous substances"
+Declaration required
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.4 Declaration of performance - nosing expansion joints (continued)
+ER
+Characteristics specified
+in the mandate
+ETAG 032 2013 [Ref
+10.N]Part 4
+paragraph on product
+performance to be assessed
+Class, use category criterion
+Declaration of
+performance requirement
+Gap
+For vehicle
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Gap/recess
+For cyclist
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Allowable surface gaps and voids
+6.1.4.1.1
+For pedestrian
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Level differences and steps
+Pass/Fail
+Pass
+Level differences in the running
+surface
+6.1.4.1.2
+Level differences under
+loaded conditions
+Pass/Fail
+Pass
+On carriageway
+Declared value required, if
+relevant*
+Skid resistance
+6.1.4.2
+On footpath
+Declared value required, if
+relevant*
+4
+Drainage capacity
+6.1.4.3
+Declared capacity of drainage system, if
+present
+Declared value required, if
+relevant*
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+6
+Energy economy and heat retention
+6.1.6
+Not relevant
+Not applicable
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.4 Declaration of performance - nosing expansion joints (continued)
+ER
+Characteristics specified
+in the mandate
+ETAG 032 2013 [Ref
+10.N]Part 4
+paragraph on product
+performance to be assessed
+Class, use category criterion
+Declaration of
+performance requirement
+Corrosion
+Pass/Fail
+Pass
+Chemicals
+Pass/Fail
+Pass
+Ageing resulting from:
+temperature
+Pass
+UV-radiation
+Pass
+ozone
+Pass
+7
+Durability of the characteristics
+against:
+Corrosion, ageing,chemicals,
+temperature, UV-radiation,
+freeze-thaw, ozone
+6.1.7
+Resistance against freeze-thaw
+Pass
+Note: *the requirement is relevant if the class, use category or criterion is applicable to the structure under consideration.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.5 Declaration of performance - mat expansion joints
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N] Part 5
+paragraph on product
+performance to be
+assessed
+Class, use category,
+criterion
+Declaration of
+performance
+requirement
+Carriageway
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or options:
+-accidental load on footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Mechanical resistance
+6.1.1.2
+-collision on kerb
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Caused by traffic loads on the
+expansion joint
+Pass/Fail
+Pass
+Resistance to fatigue
+6.1.1.3
+Caused by bridge movements
+under traffic (without
+consideration of traffic loads
+on the joint)
+Pass/Fail
+Pass
+Seismic behaviour
+6.1.1.4
+Declaration of selected approach and relevant information
+(aspects, etc.)
+Declaration required
+Movement capacity
+6.1.1.5
+Declared values
+Declared values
+Cleanability
+6.1.1.6
+Pass/Fail
+Pass
+Resistance to wear
+6.1.1.7
+Pass/fail
+Declaration of value of abrasion
+Declaration of pass
+required, if available*
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+Pass
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.5 Declaration of performance - mat expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N] Part 5
+paragraph on product
+performance to be
+assessed
+Class, use category,
+criterion
+Declaration of
+performance
+requirement
+3
+Release of dangerous
+substances
+6.1.3
+Indication of dangerous substances, incl. concentration,
+etc.
+or: "No dangerous substances"
+Declaration required
+Gap
+For vehicle
+Pass/Fail
+Yes
+Gap for use in
+longitudinal axis
+Pass/Fail
+Yes
+Gap/recess
+For cyclist
+Pass/Fail
+Yes
+Allowable surface gaps and
+voids
+6.1.4.1.1
+For pedestrian
+Pass/Fail
+Yes
+Level differences and steps in
+unloaded conditions
+Pass/Fail
+Yes
+Level differences under
+deformed conditions
+Level differences in the
+running
+6.1.4.1.2
+Level differences under
+loaded conditions
+Pass/Fail
+Yes
+On carriageway
+Declared value if relevant
+Declared value
+required, if relevant*
+Skid resistance
+6.1.4.2
+On footpath
+Declared value if relevant
+Declared value
+required, if relevant*
+4
+Drainage capacity
+6.1.4.3
+Declared capacity of drainage system, if present
+Yes
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.5 Declaration of performance - mat expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N] Part 5
+paragraph on product
+performance to be
+assessed
+Class, use category,
+criterion
+Declaration of
+performance
+requirement
+6
+Energy economy and heat
+retention
+6.1.6
+Not relevant
+Not applicable
+Corrosion
+Pass/fail (considering the
+working life category)
+Pass
+Chemicals
+Pass
+Ageing resulting from:
+temperature
+Pass
+UV-radiation
+Pass
+ozone
+Pass
+7
+Durability of the
+characteristics against:
+Corrosion, ageing, chemicals,
+temperature, UV-radiation,
+freeze-thaw, ozone
+6.1.7.1
+other aspects
+See ETAG 032 Part 5
+section 6.2
+Pass
+Note: *the requirement is relevant if the class, use category or criterion is applicable to the structure under consideration.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.6 Declaration of performance - cantilever expansion joints
+ER
+Characteristics specified in
+the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 6 paragraph on
+product performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Mechanical resistance
+6.1.1.2
+Carriageway
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or options:
+accidental load on footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+-collision on kerb
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Caused by traffic loads on
+the expansion joint
+Pass/Fail
+Pass
+Resistance to fatigue
+6.1.1.3
+Caused by bridge
+movements under traffic
+(without consideration of
+traffic loads on the joint)
+Not relevant
+Not applicable
+Seismic behaviour
+6.1.1.4
+Declaration of selected approach and relevant information
+(aspects, etc.)
+Declaration required
+Movement capacity
+6.1.1.5
+Declared values
+Declaration required
+Cleanability
+6.1.1.6
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Resistance to wear
+6.1.1.7
+Not relevant
+Not applicable
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+Pass
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.6 Declaration of performance - cantilever expansion joints (continued)
+ER
+Characteristics specified in
+the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 6 paragraph on
+product performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+3
+Release of dangerous
+substances
+6.1.3
+Indication of dangerous substances, incl. concentration,
+etc.
+or:
+"No dangerous substances"
+Declaration required
+Gaps/voids
+For vehicle
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Gaps/voids/slots
+For cyclist
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Allowable surface gaps and
+voids
+6.1.4.1.1
+For pedestrian
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Level differences in the
+running surface
+6.1.4.1.2
+On carriageway
+Declared value if relevant
+Declared value required,
+if relevant*
+Skid resistance
+6.1.4.2
+On footpath
+Declared value if relevant
+Declared value required,
+if relevant*
+4
+Drainage capacity
+6.1.4.3
+If relevant
+Declared capacity (in case
+of drainage system)
+Declared value required,
+if
+relevant*
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+6
+Energy economy and heat
+retention
+6.1.6
+Not relevant
+Not applicable
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.6 Declaration of performance - cantilever expansion joints (continued)
+ER
+Characteristics specified in
+the Mandate
+ETAG 032 2013 [Ref
+10.N]Part 6 paragraph on
+product performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Corrosion
+Pass/fail (considering the
+working life category)
+Pass
+Chemicals
+Pass
+Ageing resulting from:
+temperature
+Pass
+UV-radiation
+Pass
+ozone
+Pass
+7
+Durability of the
+characteristics against:
+Corrosion, ageing,
+chemicals, temperature,
+UV-radiation, freeze-thaw,
+ozone
+6.1.7.1
+resistance against
+freeze-thaw
+See ETAG 032 Part 6
+section 6.2
+Pass
+Note: *the requirement is relevant if the class, use category or criterion is applicable to the structure under consideration.
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.7 Declaration of performance - supported expansion joints
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N] Part 7 paragraph
+on
+product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Carriageway
+Pass/Fail
+and/or footpath
+Pass/Fail
+and/or options:
+-accidental load on footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Mechanical resistance
+6.1.1.2
+-collision on kerb
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Caused by traffic loads on the
+expansion joint
+Pass/Fail
+Pass
+Resistance to fatigue
+6.1.1.3
+Caused by bridge movements
+under traffic (without consideration
+of traffic loads on the joint)
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Seismic behaviour
+6.1.1.4
+Declaration of selected approach and relevant information
+(aspects, etc.)
+Declaration required
+Movement capacity
+6.1.1.5
+Declared values
+Declared values
+Cleanability
+6.1.1.6
+Pass/Fail
+Pass
+Resistance to wear
+6.1.1.7
+Pass/Fail
+Pass
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+3
+Release of dangerous substances
+6.1.3
+Indication of dangerous substances, incl. concentration, etc.
+or:
+"No dangerous substances"
+Declaration required
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.7 Declaration of performance - supported expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N] Part 7 paragraph
+on
+product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Gaps/voids
+For vehicle
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Gap/voids/recess
+For cyclist
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Allowable surface gaps and voids
+6.1.4.1.1
+For pedestrian
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Level differences and steps in
+unloaded conditions
+Pass/Fail
+Pass
+Level differences in the running
+surface
+6.1.4.1.2
+Level differences under loaded
+conditions
+Pass/Fail
+Pass
+On carriageway
+Declared value if
+relevant
+Declaration of pass
+required, if relevant*
+Skid resistance
+6.1.4.2
+On footpath
+Declared value if
+relevant
+Declaration of pass
+required, if relevant*
+4
+Drainage capacity
+6.1.4.3
+If relevant
+Declared capacity (in
+case of drainage
+system)
+Declaration of pass
+required, if relevant*
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+6
+Energy economy and heat
+retention
+6.1.6
+Not relevant
+Not applicable
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.7 Declaration of performance - supported expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N] Part 7 paragraph
+on
+product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Corrosion
+Pass
+Chemicals
+Pass
+Ageing resulting from:
+temperature
+Pass
+UV-radiation
+Pass
+ozone
+Pass
+7
+Durability of the characteristics
+against:
+corrosion, ageing, chemicals,
+temperature, UV-radiation,
+freeze-thaw, ozone
+6.1.7.1
+resistance against freeze-thaw
+Pass/fail (considering
+the working life
+category)
+See ETAG 032 Part 7
+section 6.2
+Declaration of pass
+required, if relevant*
+Note: *the requirement is relevant if the class, use category or criterion is applicable to the structure under consideration.
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.8 Declaration of performance - modular expansion joints
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N]Part 8
+paragraph on product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+Carriageway
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+and/or options:
+accidental load on footpath
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Mechanical resistance
+6.1.1.2
+collision on kerb
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Resistance to fatigue
+6.1.1.3
+Pass/Fail
+Pass
+Seismic behaviour
+6.1.1.4
+Declaration of selected approach and relevant information
+(aspects, etc.)
+Declaration required
+Declared values with reaction forces
+Declared values with
+reaction forces
+Minimum clearances
+Declared values
+Movement capacity
+6.1.1.5
+Maximum skewness
+Declared value
+Cleanability
+6.1.1.6
+Pass/Fail
+Pass
+Resistance to wear
+6.1.1.7
+Pass/Fail
+Declaration of value of abrasion
+Pass
+1
+Water-tightness
+6.1.1.8
+Pass/Fail
+Pass
+2
+Safety in case of fire
+6.1.2
+Not relevant
+Not applicable
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.8 Declaration of performance - modular expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N]Part 8
+paragraph on product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+3
+Release of dangerous
+substances
+6.1.3
+Indication of dangerous substances, incl. concentration,
+etc.
+or:
+"No dangerous substances"
+Declaration required
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.8 Declaration of performance - modular expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N]Part 8
+paragraph on product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+6.1.4.1.1
+Gaps/voids
+For vehicle
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Gap/voids/recess
+For cyclist
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Allowable surface gaps and
+voids
+For pedestrian
+Pass/Fail
+Declaration of pass
+required, if relevant*
+Level differences and steps
+between edge beams and
+centre beams in unloaded
+conditions
+Pass/Fail
+Pass
+Level differences in the running
+surface
+6.1.4.1.2
+Level differences and steps
+between edge beams and
+centre beams under loaded
+conditions
+Pass/Fail
+Pass
+On carriageway
+Declared value if
+relevant
+Declared value
+required, if relevant*
+Skid resistance
+6.1.4.2
+On footpath
+Declared value if
+relevant
+Declared value
+required, if relevant*
+4
+Drainage capacity
+6.1.4.3
+If relevant
+Declared capacity (in
+case of drainage
+system)
+Declared value
+required, if relevant*
+5
+Protection against noise
+6.1.5
+Not relevant
+Not applicable
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix B. Declaration of performance
+Table B.8 Declaration of performance - modular expansion joints (continued)
+ER
+Characteristics specified in the
+Mandate
+ETAG 032 2013 [Ref
+10.N]Part 8
+paragraph on product
+performance to be
+assessed
+Class, use category, criterion
+Declaration of
+performance
+requirement
+6
+Energy economy and heat
+retention
+6.1.6
+Not relevant
+Not applicable
+Corrosion
+Pass/Fail (considering
+the working life capacity
+Pass
+Chemicals
+Pass/Fail
+Pass
+Ageing resulting from:
+temperature
+Pass/Fail
+Pass
+UV-radiation
+Pass/Fail
+Pass
+ozone
+Pass/Fail
+Pass
+7
+Durability of the characteristics
+against:
+Corrosion, ageing, chemicals,
+temperature, UV-radiation,
+freeze-thaw, ozone
+6.1.7.1
+resistance against freeze-thaw
+Not relevant
+Not applicable
+Note: *the requirement is relevant if the class, use category or criterion is applicable to the structure under consideration.
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix C. Departmental Type Approval
+Appendix C. Departmental Type Approval
+C1
+Background
+Departmental Type Approval as previously required in BD 33 is no longer available for new expansion
+joint systems. Expansion joints that already have a Departmental Type Approval certificate, and which
+are registered with the Overseeing Organisation, can still be considered for incorporation into the works.
+Even with a Departmental Type Approval, any component that falls within the scope of a designated
+standard will need to have a Declaration of Performance and CE mark to demonstrate that the product
+meets the equivalent performance of the original product.
+It is anticipated that in the future, once there is a sufficient number of expansion joints that have an
+ETA, or a designated standard has been published, the option of using joint systems with Departmental
+Type Approval will be removed.
+The remainder of this appendix is provided for legacy information only, and should not be used to
+attempt to obtain Departmental Type Approval. This appendix does not contain any current
+requirements.
+C2
+General
+For all types of expansion joint the manufacturer or supplier was required to submit full details of the
+expansion joint system including installation procedures and where relevant the corrosion protection
+system. Where the system incorporated a transition strip or was of the asphaltic plug or in-situ nosing
+type, full details of the formulation for the expansion joint materials, including primer and aggregate
+were also required to be submitted under "Commercial in Confidence". The following were relevant
+requirements for specific joint types.
+C2.1
+Asphaltic plug joints, in-situ nosing joints and transition strips
+The manufacturer or supplier were required to submit to the Overseeing Organisation the following
+information about the aggregate specified in the formulation:
+i. The classification, in accordance with BS 812-1 1975 [Ref 7.I], BS 812-101 1984 [Ref 5.I], BS
+812-102 1989 [Ref 9.I] and BS 812-103.1 1985 [Ref 6.I] , and source of the aggregate. These cannot
+be changed without the agreement of the Overseeing Organisation.
+ii. The all-in aggregate grading curve determined and presented as a cumulative percentage passing in
+accordance with BS 812-1 1975 [Ref 7.I], BS 812-101 1984 [Ref 5.I], BS 812-102 1989 [Ref 9.I] and BS
+812-103.1 1985 [Ref 6.I]. The grading curve of the aggregates supplied cannot vary from the grading
+curve submitted by more than ± 10% of the value for any given sieve size.
+iii. The water absorption, impact, crushing and abrasion properties of the aggregates determined in
+accordance with BS 812-1 1975 [Ref 7.I]and BS 812-2 [Ref 8.I].
+C2.2
+Asphaltic plug joints
+The manufacturer or supplier were required to arrange for testing of the binder material, for the physical
+properties shown in Table C.1 (reproduced from withdrawn BD 33, Annex C), to be carried out by a
+testing laboratory accredited in accordance with ISO/IEC 17025 by the United Kingdom Accreditation
+Service (UKAS) for such tests, or by a laboratory in a member state of the European Economic Area
+which could offer suitable and satisfactory evidence of technical and professional competence and
+independence for the tests concerned, and forward the results to the Overseeing Organisation. Testing
+and supply of information to the Overseeing Organisation were required to all be at the manufacturer's
+or supplier's expense. The information was to be retained by the Overseeing Organisation in the
+strictest confidence and constituent materials were required to not be subsequently changed without
+the agreement of the Overseeing Organisation.
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix C. Departmental Type Approval
+C2.3
+In-situ nosings and transition strips
+The manufacturer or supplier were required to arrange for testing of the hardener and resin
+composition, including spectrographic analysis, by a testing laboratory accredited in accordance with
+ISO/IEC 17025 by the United Kingdom Accreditation Service (UKAS) for such tests, or by a laboratory
+in a member state of the European Economic Area which could offer suitable and satisfactory evidence
+of technical and professional competence and independence for the tests concerned, and forward the
+results to the Overseeing Organisation. The tests and criteria were required to be as in Table C.2
+(reproduced from withdrawn BD 33, Annex C). All testing and supply of information were required to be
+at the manufacturer's or supplier's expense.
+C2.4
+Testing laboratories in other member states
+Where tests were carried out in other member states the requirements for laboratories given in clauses
+C2.2 and C2.3 were required to be satisfied if the laboratory is accredited in a member state of the
+European Economic Area in accordance with the relevant parts of the EN 45000 series of standards for
+the tests carried out.
+C3
+Previous requirements - field trials
+On satisfactory completion of the relevant requirements the manufacturer or supplier was required to
+undertake a field trial for workmanship and performance. It was necessary to install a complete
+expansion joint, using material to the formulation submitted in accordance with paragraph C2, on a
+bridge carrying not less than 20,000 vehicles per day on a single carriageway of a dual two lane road or
+its equivalent. However, an equivalent trial to the foregoing criteria in another member state of the
+European Economic Area was acceptable. The trial period was a minimum of 12 months, after which
+time the joint was required to be inspected for any defects. Where premature failure occurred the
+Overseeing Organisation reserved the right to cancel the trial, extend the trial period or call for a new
+trial, subject to notifying the manufacturer of supplier of the reason for doing so. There was no
+guarantee that a site would be immediately available for a new trial.
+The manufacturer or supplier was required to meet the costs of both successful and unsuccessful field
+trials including traffic management costs.
+C4
+Previous tests and trials
+Expansion joint systems already in the motorway and trunk road network did not need further
+assessment for Departmental Type Approval provided that they satisfied the criteria of paragraphs C2
+and C3 with respect to test results and successful trials.
+C5
+Previous requirements for Departmental Type Approval certificate
+Subject to satisfactory compliance with the foregoing requirements the manufacturer's or supplier's
+expansion joint system received a Departmental Type Approval certificate.
+The Overseeing Organisation reserves the right to revoke a certificate subject to notifying the
+manufacturer or supplier of the reasons for doing so.
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix C. Departmental Type Approval
+Table C.1 Tests for physical requirements for Departmental Type Approval of materials for use
+in asphaltic plug bridge deck expansion joints
+Standard test method
+Typical result
+BS 2000: Part 58: 1988 Softening
+Point R & B, °CBS 2499: 1973 Flow Resistance:
+@ 45°C, 5 Hours.
+@ 60°C, 5 Hours
+ASTM D1190 - Flow Resistance:
+5 hours/60°/75° Slope mm
+Penetration ASTM D5
+@ 25°C,
+@ 0°C
+Specific gravity @ 25°C
+Flash point - COC (Cleveland Open Cup)
+Manufacturer's recommended application temperature
+Manufacturer's recommended maximum safe heating temperature
+Table C.2 Tests and related criteria for Departmental Type Approval of materials for use in
+bridge deck expansion joint in-situ nosings and transition strips
+Test
+Material
+characteristics
+Temp. of
+test
+Mortar-
+filled
+or
+unfilled
+Acceptance criteria
+Min. Max.
+FeRFA Test No. 2
+Compressive
+strength
+20oC
+Filled
+12 N/mm2
+-
+FeRFA Test No. 4
+Tensile strength
+20oC
+Unfilled
+3 N/mm2
+-
+FeRFA Test No. 4
+Elongation
+20oC
+Unfilled
+20%
+-
+FeRFA Test No. 5
+Elastic Modulus
+in tension
+-10oC
+Unfilled
+1600 N/mm2
+* Aggregate Grading
+Test to BS 812
+To conform with manufacturer's
+stated grading curves
+*Spectrographic
+analysis
+Components of mortar to remain
+unchanged
+NOTE 1 *Test to identify the manufacturer's formulation and for the subsequent quality control tests.
+NOTE 2 The above testing information is strictly confidential.
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix D. Installation guidance
+Appendix D. Installation guidance
+D1
+Installation procedures for expansion joints
+Typical installation procedures for expansion joints are shown in Figure D.1 (for joints fixed to the deck
+by bond or bolts/resin anchored studs) and Figure D.2 (for joints fixed to the deck using cast-in
+reinforcing bars or studs).
+These procedures are given for illustration only, and are not intended to take precedence over the
+installation procedures for specific proprietary joints developed by joint suppliers/manufacturers.
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix D. Installation guidance
+Figure D.1 Typical installation procedure for joints fixed to deck using a.) bond or
+b.) bolts or resin-anchored studs
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix D. Installation guidance
+Figure D.2 Typical installation procedure for joints fixed to deck using cast-in
+anchor bars or studs (single element modular joint shown)
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix D. Installation guidance
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Appendix E. Typical defects in multi-element modular expansion joints
+E1
+Introduction
+This appendix includes material relating to defects in multi-element modular (elastomeric in metal
+runners) joints, and also covers typical problems associated with other expansion joint types.
+Some expansion joints have complex components comprising multiple parts. These need to be
+inspected and maintained to ensure functionality and durability. Replacement of these joints needs to
+be planned, as some components may need to be specially fabricated.
+E2
+Background to failures of multi-element modular expansion joints
+There have been a number of failures of modular expansion joints (formerly referred to as
+multi-element elastomeric in metal rails). This type of joint is mostly used on long-span structures, on
+strategic parts of the highway network.
+When investigating some of these failures, it was found that the maintenance requirements for some of
+these joints was unclear, and this had led to the maintenance contractors not being able to identify the
+signs of deterioration leading to the abrupt failure of the joints.
+It has been reported on some structures, where failure had occurred, that the supply of replacement
+parts took some time as these were bespoke. The failures caused considerable disruption to the public
+and significant cost to the highway authority. The manner of the failure of these joints has the potential
+to cause considerable safety hazard to the public.
+E2.1
+Form of construction
+Multi-element modular expansion joints typically consist of steel beams arranged in the longitudinal
+direction of the joint with interposed steel strips. Depending on the width to accommodate the
+movement more than one centre beam may be required between the edge beams, which are
+supported on cross bars, aligned in the direction of movement of the structure. Elastomeric sealing
+strips then fill the gaps between the adjacent steel beams, to ensure the water-tightness of the joint
+across its full range of movements.
+A diagram of a typical multi-element modular joint is shown in Figure E.1 - note that the number of rails
+and seals will be dependent on the longitudinal movement range required, and individual
+manufacturers will have slightly different details.
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Figure E.1 Typical arrangement of a multi-element modular expansion joint
+E2.2
+Examples of defects discovered
+On one viaduct, the failure of one of the joint rails (Figure E.2) resulted in lane 1 of both carriageways
+having to be closed, causing disruption to traffic. There was no record of any inspection being carried
+out either within the abutment (possibly because it was designated a confined space) or the main span.
+On discovery of the failure, a temporary modular bridging system with speed restriction was put in
+place over the failed joint.
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Figure E.2 Viaduct (precast prestressed concrete) built in 1993- The damaged rail
+has been taken out of the joint and corrosion is visible on the rails
+A full internal inspection of the abutment was arranged, which revealed extensive damage to the joints,
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+with loss of components and failed bearings at the edge of lane 2 and the offside verge. It had been
+reported that there was excessive noise emanating from the joint, suggesting that the bearings
+supporting the transverse bearer beams were worn. It is likely that the wear and ultimate collapse of
+these bearings was the root cause of the transverse beam failure, leading to the collapse of the joint.
+The failure of expansion joint components is generally a result of deterioration over time. Failure of the
+joint in many cases is preceded by indicators which include increased noise levels, or components
+becoming loose or vibrating.
+The photographs (Figures E.3, E.4, E.5, E.6, E.7 and E.8) below are other examples of some defects
+which have been discovered during inspection of bridges with modular joints.
+Bridge inspectors may be able to identify signs of deterioration without direct visual evidence. These
+should be a trigger for further investigation and testing to quantify the scale and nature of the issues.
+This requires the inspectors to have the necessary skills and experience, including an understanding of
+the specifics of the joint type and possible causes of failure.
+Figure E.3 Cable-stayed bridge (composite steel-concrete deck) Built 1991 -
+Fracture in the support joist immediately below the welded connection to the rail
+71
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 73 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Figure E.4 Cable-stayed bridge (composite steel-concrete deck) Built 1991 - Rust
+staining from expansion joint over pier (Seal replacement stopped water ingress,
+circa 2007)
+Figure E.5 Cable-stayed bridge (Composite steel-concrete deck) Built 1991 -
+Corrosion to expansion joint sliding plates over pier, circa 2007
+72
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 74 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Figure E.6 Viaduct (Pre-cast pre-stressed concrete) Built 1976- Failure of joint
+footway. Seal failed between rails on carriageway
+73
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 75 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Figure E.7 - Cable-stayed Bridge (composite steel-concrete deck). Built 1991 -
+Trimmer beam support steelwork corroded.
+Figure E.8 Viaduct (in-situ concrete deck). Built 1986 - Damage to the west deck
+expansion joint - rail broken in the middle and level difference in carriageway
+surface
+74
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 76 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix E. Typical defects in multi-element modular expa...
+Figure E.9 Viaduct (in-situ pre-stressed concrete). Built 1990 - Corrosion to rails
+and debris in seals
+E3
+Other forms of expansion joint
+The need to regularly inspect and maintain expansion joints applies to all joint types.
+The CIRIA report, CIRIA C764 [Ref 1.I], provides a useful reference for typical defects associated with
+all the expansion joint types. In particular, Tables 9.1 and 9.2 'hidden defects encountered within
+common expansion joint types' details the leakage, loose elements including bolts, metal fatigue, and
+plugging / sealing failure which may be discovered during routine inspections of the structure.
+E4
+Recommendations
+Expansion joints provide a means for the bridge deck to move, while limiting the gap at road surface
+level, and preventing the ingress of water and other deleterious materials. However, to ensure that this
+functionality is sustained, it is important to regularly inspect and maintain the joint. Where defects are
+discovered, steps should be taken to repair or replace defective components, and reduce the risk to
+road users.
+A management plan should be developed to minimise the effect of failure of expansion joint
+components.
+75
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 77 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix F. Temporary cover plates
+Appendix F. Temporary cover plates
+F1
+Introduction
+This appendix is based on the withdrawn Interim Advice Note (IAN 169), which was a Highways
+England document issued in October 2012 to draw attention to potential issues when using temporary
+metallic cover plates over temporary or failed bridge expansion joints, or at stages during their
+installation when they cannot support traffic (such as during the curing of transition strips).
+Prior to the publication of IAN 169, a temporary cover plate on a bridge was dislodged, resulting in a
+serious accident.
+This appendix provides advice relating to the use of temporary cover plates.
+The advice in this appendix also applies to any temporary measures intended to allow live
+carriageways to be operational until permanent repair/replacement of defective expansion joints can be
+undertaken. This includes plates placed directly over joints, which may or may not be hinged, and other
+solutions like buried plates covered by pavement surfacing.
+F2
+Factors to consider when using temporary cover plates
+It is important that sufficient scrutiny is given to the design and maintenance of any temporary works,
+such as temporary cover plates.
+A number of factors should be considered relating to the safe use of temporary cover plates for
+expansion joints.
+Operational issues:
+1)
+the potential for the plate to cause an obstruction (bump/step/ramp) on the approach and
+transition to the cover plate;
+2)
+the need for a speed restriction and enforcement (considering the angle of plate edge to direction
+of travel, geometry of site, behaviour of traffic, the need to keep noise down):
+a)
+cover plates have been installed on many schemes without the need for any speed
+restrictions, which can increase delays and the risk of accidents. Therefore, where
+possible, the aim should be to provide unrestricted travel;
+3)
+the need for a weight restriction (suitable for HGVs or cars only) at the site, and how that
+impinges on local traffic flows;
+4)
+identify and specify any additional requirements for pedestrians, equestrians, cyclists and
+motorcyclists;
+5)
+plan the work to minimise the period that the plate is in place;
+6)
+consider changes to noise levels that may result, and their effect on the local environment;
+7)
+consider drainage issues and how the installation of the plate will affect these.
+Engineering issues (design and installation):
+1)
+avoid bumps, steps and ramps in the transition between road surface and cover plate;
+2)
+ensure that the plate has adequate skid resistance (consistent with the skid resistance
+requirements of the joint itself, and the adjacent carriageway);
+3)
+ensure that the plate covers the full lane width affected and that there are no gaps between the
+road surface and plate, or between adjacent plates;
+4)
+ensure that the plate is suitable for the design loads and the timescale for which it will be in place;
+5)
+ensure that the plate will carry the loads without undue deflection or displacement;
+6)
+ensure that the cover plate and fixings can accommodate the longitudinal movements of the
+bridge deck;
+76
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 78 of 79
+======================================================================
+CD 357 Version 1.1.0
+Appendix F. Temporary cover plates
+7)
+ensure that the fixings and their connection to the road surface are adequate for the traffic speeds
+and loads - particularly the substrate for the fixing, and the robustness of the system under cyclic
+loading, and to facilitate periodic removal and replacement, where required;
+8)
+consider the noise levels arising from the use of the cover plate and ensure that any mitigation
+measures such as speed or weight restrictions, or acoustic barriers, are put in place;
+9)
+ensure that drainage issues, and the potential for ponding or icing, are addressed;
+10)
+ensure that design requirements and any assumptions made for the cover plate, its fixings and
+the road are clearly set out;
+11)
+when specifying a cover plate, consider fabrication, transportation and installation issues;
+12)
+confirm the condition and profile of the carriageway surfacing has been allowed for in the design;
+13)
+consider if weather conditions during installation will require different procedures. This may be
+temperature limits on fixings, extended waiting times, or if the design parameters are exceeded,
+etc.
+14)
+specify an inspection and maintenance regime for the cover plate;
+15)
+ensure that the effects of regular removal and replacement of the cover plate (if required to
+facilitate repair of the over-spanned expansion joint) are taken into account;
+16)
+ensure that any manufacturer's special requirements are met;
+17)
+ensure that the cover plate and fixings are installed by competent personnel.
+Investigation of the existing bridge:
+1)
+checks should be carried out to ensure that the load from the cover plate and the over-spanned
+(damaged) expansion joint does not adversely affect the existing structure;
+2)
+sufficient investigation is carried out to identify that any anchorages can be safely installed to the
+required depth, will transfer loads without damage, and can be removed and the original structure
+reinstated.
+Maintenance and inspection of temporary cover plates:
+1)
+procedures for inspection and maintenance of the cover plate and its fixings should be set out;
+2)
+requirements for the inspection and maintenance of the cover plate and its fixings should be
+minimised;
+3)
+cover plates and their fixings are inspected and maintained by suitably qualified and competent
+people;
+4)
+inspection intervals of the cover plate and fixings should be specified;
+5)
+any defects are reported and rectified quickly.
+F3
+Technical approval certification
+The design and installation of temporary cover plates should be managed using formal technical
+approval procedures, as set out in CG 300 [Ref 4.I], to ensure an adequate level of scrutiny (including
+the agreement of an appropriate category of checking), and that a consistent approach is adopted. The
+category should generally be a minimum of category 2, unless otherwise agreed with the TAA.
+Where a sub-standard structure is being managed under CS 470 [Ref 3.I] procedures, or there are
+specific issues that significantly raise the risks, then a higher category of checking should be
+considered.
+77
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 79 of 79
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 357 Version 1.1.0, published: 30-Sep-2025
+
+
