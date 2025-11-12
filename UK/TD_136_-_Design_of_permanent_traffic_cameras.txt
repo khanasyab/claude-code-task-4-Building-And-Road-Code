@@ -1,0 +1,547 @@
+======================================================================
+PAGE 1 of 15
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 136
+Design of permanent traffic cameras
+Version 1.0.0
+Summary
+A DMRB document to be used for the design of permanent traffic cameras
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 15
+======================================================================
+TD 136 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Terms and definitions
+5
+1. Scope
+6
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+2. General requirements for permanent traffic cameras for roadside technology and communications
+7
+Design of supports and foundations for permanent traffic cameras for roadside technology and communications
+7
+Design of gantries for permanent traffic cameras for roadside technology and communications
+. . . . . . .
+7
+Design of road restraint systems for permanent traffic cameras for roadside technology and communications
+7
+Outputs from the design of permanent traffic cameras for roadside technology and communications
+. . . .
+7
+3. Provision of permanent traffic cameras for roadside technology and communications
+8
+Provision of permanent traffic cameras for roadside technology and communications . . . . . . . . . . . . .
+8
+4. Siting of permanent traffic cameras for roadside technology and communications
+11
+Siting of permanent traffic cameras for roadside technology and communications . . . . . . . . . . . . . . .
+11
+5. Normative references
+12
+6. Informative references
+13
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 15
+======================================================================
+TD 136 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 136
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+New document derived from Section split from TD 131, with updated amendments.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 15
+======================================================================
+TD 136 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 version 0.1.0, Section 3.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 15
+======================================================================
+TD 136 Version 1.0.0
+Introduction
+Introduction
+Background
+Permanent traffic cameras for roadside technology and communications are provided to assist with the
+management of traffic on roads.
+The primary users of the permanent traffic cameras are control centre operators. The Operators are
+able to move and zoom the cameras to monitor and manage congestion and incidents. The cameras
+give a bird's eye view of what is happening which helps the Operator to decide on the support needed.
+Permanent traffic camera coverage is particularly beneficial in the following situations:-
+1)
+where there are high traffic flows with recurrent congestion or queues, particularly in urban areas
+at terminal junctions, interchanges, or where the number of lanes reduces;
+2)
+at interchanges with high traffic flows where there are converging/diverging movements or
+sub-standard construction features such as sharp bends;
+3)
+at locations such as tunnels where traffic congestion or accidents can create dangerous
+environmental conditions;
+4)
+on exposed bridges or motorways at high elevations above sea level where inclement weather
+conditions such as high cross winds frequently can occur and occur hazardous conditions.
+5)
+Verifying incident reports, such as from customers or system generated i.e. stopped vehicle
+detection alerts.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 4.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 15
+======================================================================
+TD 136 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Control centre operators
+Control centre operators are responsible for managing
+incidents on motorways and all-purpose trunk roads
+by responding to emergency calls, setting signs and
+signals when they are required and managing on-road
+resources.
+Information model
+As defined in GG 184 [Ref 10.N]
+Emergency area
+As defined in England National Application Annex in
+GD 301 [Ref 9.N]
+Incident management system
+The overseeing organisation system, electronic or
+otherwise, used for recording incident details
+occurring on the strategic road network.
+Maintenance hardstanding
+As defined in CD 169 [Ref 1.I]
+Motorway incorporating variable mandatory
+speed limits
+As defined in TD 135 [Ref 2.N]
+New short section of hard shoulder
+As defined in England National Application Annex in
+GD 301 [Ref 9.N]
+Place of relative safety
+As defined in England National Application Annex in
+GD 301 [Ref 9.N]
+Variable mandatory speed limits
+As defined in England National Application Annex in
+GD 301 [Ref 9.N]
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 15
+======================================================================
+TD 136 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the provision, siting and design of permanent traffic camera
+installations on motorways and all-purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 6.N], GG
+104 [Ref 8.N], GD 304 [Ref 3.N] and with all other DMRB documents relevant to the design of the
+particular works to be undertaken.
+1.2
+This document shall not be used for the design of temporary traffic cameras.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving permanent traffic cameras on
+the Overseeing Organisations' motorways and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 4.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 4.N] shall be followed in respect of activities covered by
+this document.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 15
+======================================================================
+TD 136 Version 1.0.0
+2. General requirements for permanent traffic ca...
+2.
+General requirements for permanent traffic cameras for roadside
+technology and communications
+Design of supports and foundations for permanent traffic cameras for roadside
+technology and communications
+2.1
+The design of supports and foundations for permanent traffic cameras for roadside technology and
+communications shall be in accordance with CD 354 [Ref 1.N] design of minor structures.
+Design of gantries for permanent traffic cameras for roadside technology and
+communications
+2.2
+The design of gantries and gantry mounting arrangements for permanent traffic cameras for roadside
+technology and communications shall be in accordance with CD 365 [Ref 5.N] portal and cantilever
+signs/signals gantries.
+Design of road restraint systems for permanent traffic cameras for roadside
+technology and communications
+2.3
+The design of road restraint systems for permanent traffic cameras for roadside technology and
+communications shall be in accordance with CD 377 [Ref 7.N].
+Outputs from the design of permanent traffic cameras for roadside technology
+and communications
+2.4
+The outputs from the design of permanent traffic cameras for roadside technology and communications
+shall include all details for the construction of the supporting infrastructure and the installation of
+permanent traffic cameras.
+2.4.1
+For each permanent traffic camera installation for roadside technology and communications the design
+outputs should include:
+1)
+type and variant of each permanent traffic camera;
+2)
+the installation location, using a formal location referencing system;
+3)
+location of each permanent traffic camera outstation;
+4)
+mounting arrangement;
+5)
+support structures: posts, gantries, and methods of fixing to support structures;
+6)
+foundations for support structures;
+7)
+road restraint systems;
+8)
+design coverage and visibility splay drawings for each permanent traffic camera;
+9)
+installation requirements for the permanent traffic camera and traffic enforcement equipment;
+10)
+electrical and telecommunications installations, including cables, chambers and ducting; housings
+and enclosures; housing lock types; numbers of keys for locks; switchgear and wiring; and
+11)
+position and orientation of all components of the proposed installation relative to other items of
+existing and proposed road infrastructure, including the edge of the carriageway, so that the
+following can be identified:
+a)
+the environment in which the installation is to take place;
+b)
+the factors that can influence the construction methodology and scheduling of the proposed
+installation; and
+c)
+the factors that can affect the operational performance of the proposed installation in the
+future.
+2.5
+Information models shall be produced to define the details and dimensions of each permanent traffic
+camera installation for roadside technology and communications.
+2.5.1
+Drawings and non-graphical information should be produced to provide any additional details or views
+needed for the construction of each permanent traffic camera installation for roadside technology and
+communications.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 15
+======================================================================
+TD 136 Version 1.0.0
+3. Provision of permanent traffic cameras for ro...
+3.
+Provision of permanent traffic cameras for roadside technology
+and communications
+Provision of permanent traffic cameras for roadside technology and
+communications
+3.1
+Where an operational need has been established, permanent traffic cameras for roadside technology
+and communications shall be provided on motorways and all-purpose trunk roads.
+NOTE 1
+Operational requirements includes maintenance and calibration of ramp metering equipment, which
+requires visibility of the equipment.
+NOTE 2
+The operational benefits of permanent traffic cameras can be maximised by combining with variable
+message signs to provide prompt information to drivers and thus reduce the frequency of secondary
+accidents.
+3.1.1
+Permanent traffic cameras for general surveillance for roadside technology and communications should
+be provided in the locations detailed in Table 3.1.1.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 15
+======================================================================
+TD 136 Version 1.0.0
+3. Provision of permanent traffic cameras for ro...
+Table 3.1.1 Permanent traffic camera criteria
+Traffic volume
+Coverage
+Motorway/motorway interchanges or motorway/major all-purpose trunk road
+interchanges where there is a traffic diversion strategy or where speed or
+lane width restrictions are needed because of construction features such as
+sub-standard radius bends.
+Motorway sections or interchanges with four or more running lanes per
+carriageway where there are converging/diverging traffic movements over a
+distance of less than 2 km.
+Elevated motorways within built-up areas.
+Within and on the approaches to motorway tunnels.
+Urban motorways with tidal flow and/or reduced width, or no hard shoulders.
+Motorway interchanges or points with lane reductions where weekday
+congestion frequently occurs and queues then exceed 1 km.
+Exposed motorway bridges or at high elevations above sea level, where
+inclement weather conditions frequently necessitate restrictions or diversions.
+Exceptionally on all-purpose trunk roads in the vicinity of motorway junctions
+where the above criteria are met.
+Traffic flow exceeds an overall average of 10,000 vehicles per lane per day
+on an existing motorway, or is forecast to exceed this level within the 15 year
+high growth estimate for a new motorway.
+Within links, maximum camera spacing of 1.5 km with each camera covering
+up to 750 m of motorway and a maximum gap in coverage of 200 m.
+Traffic flow is less than an overall average of 10,000 vehicles per lane per day
+on an existing motorway, or is not forecast to exceed this level within the 15
+year high growth estimate for a new motorway.
+Areas with an operational need for coverage, such as incident hot-spots,
+inclement weather, junctions, hills or lane drops and gains.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 15
+======================================================================
+TD 136 Version 1.0.0
+3. Provision of permanent traffic cameras for ro...
+3.1.2
+The control centre operators should be consulted regarding the proposed provision of permanent traffic
+cameras for roadside technology and communications on schemes to confirm the operational need for
+permanent traffic cameras.
+NOTE
+Local operational intelligence can provide insights on problematic locations which are not easily
+identified through traditional data analysis.
+3.1.3
+Incident management system logs and road traffic collision data should be used to determine incident
+hot-spots on existing roads.
+3.2
+On motorways incorporating variable mandatory speed limits where the hard shoulder is not used as a
+running lane or where it is dynamically used as a running lane, permanent traffic camera coverage for
+roadside technology and communications shall enable:
+1)
+operators to see in excess of 95% of the total scheme area and be able to interpret the images
+correctly;
+2)
+view of a 1.75 m cube to represent a minimum of 5% of the image height at maximum zoom; and,
+3)
+coverage of emergency roadside telephones.
+3.3
+On motorways incorporating variable mandatory speed limits without a hard shoulder, permanent traffic
+camera coverage for roadside technology and communications shall include the whole carriageway,
+emergency areas and maintenance hard standings, where provided to enable:
+1)
+operators to see the entire mainline carriageway running lanes and the full extent of emergency
+areas with no blind spots in all ambient lighting levels;
+2)
+view of a 1.75 m cube to represent a minimum of 5% of the image height at maximum zoom; and,
+3)
+views of emergency roadside telephones in emergency areas that represent a minimum of 10%
+of the image height.
+NOTE
+A blind spot exists if a 1.75 m wide cube target (or the remaining visible area of this target when
+obscured) does not represent at least 5% of image height and width.
+3.4
+On motorways where stopped vehicle detection is provided, permanent traffic camera coverage for
+roadside technology and communications shall enable control centre operators to verify stopped
+vehicle detection alerts.
+3.5
+Permanent traffic cameras for roadside technology and communications associated with an emergency
+area shall include a pre-set position to view and zoom into the emergency area in addition to the home
+position and any other positions agreed with the Overseeing Organisation.
+3.6
+Permanent traffic camera coverage of an emergency roadside telephone located at a new short section
+of hard shoulder or hard shoulder defined as a place of relative safety shall represent a minimum of
+10% of image height for roadside technology and communications.
+3.7
+Permanent traffic camera coverage drawings showing the viewing areas of each camera shall be
+produced for roadside technology and communications.
+NOTE 1
+Permanent traffic camera coverage drawings provide plan view and cross-section splays.
+NOTE 2
+The permanent traffic camera coverage drawings can be used to verify coverage during installation and
+once in operation.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 15
+======================================================================
+TD 136 Version 1.0.0
+4. Siting of permanent traffic cameras for roads...
+4.
+Siting of permanent traffic cameras for roadside technology and
+communications
+Siting of permanent traffic cameras for roadside technology and
+communications
+4.1
+Permanent traffic cameras for roadside technology and communications shall be located and mounted
+so that they provide the required coverage.
+4.1.1
+The siting and mounting of permanent traffic cameras for roadside technology and communications
+should take coverage, environmental conditions, image stability and whole life costs into account.
+4.1.2
+Permanent traffic cameras for roadside technology and communications should be co-located with
+other roadside technology equipment, for efficient construction and ongoing maintenance.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 15
+======================================================================
+TD 136 Version 1.0.0
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 2.N
+National Highways. TD 135, 'Design of traffic detection systems'
+Ref 3.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 4.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 5.N
+National Highways. CD 365, 'Portal and cantilever signs/signals gantries'
+Ref 6.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 7.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 8.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 9.N
+National Highways. GD 301, 'Smart motorways'
+Ref 10.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 15
+======================================================================
+TD 136 Version 1.0.0
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CD 169, 'The design of lay-bys, maintenance hardstandings, rest
+areas, service areas and observation platforms'
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 15
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 136 Version 1.0.0, published: 30-Sep-2025
+
+
