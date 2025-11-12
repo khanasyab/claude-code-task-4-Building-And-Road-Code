@@ -1,0 +1,2742 @@
+======================================================================
+PAGE 1 of 42
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 372
+Design of post-installed anchors and
+reinforcing bar connections in concrete
+(formerly IAN 104/15)
+Version 1.0.0
+Summary
+This document provides design requirements for post-installed anchors and reinforcing bar
+connections - collectively referred to as fixings - in concrete, including the conceptual design and
+detailed design requirements for both new and existing structures.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 42
+======================================================================
+CD 372 Version 1.0.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+7
+1. Scope
+9
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Concept design of fixing system
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Design of fixings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. Concept design of fixing system
+11
+Identification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Technical approval of fixings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Mitigating risks of fixings at concept design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Effect of fixings on structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Loads transferred to structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Reduced resistance due to drill holes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Avoidance of damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Design for testing following installation including provision of sacrificial fixings . . . . . . . . . . . . . . . . .
+15
+Design for robustness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Design to facilitate future management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Design for inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Design for future testing in service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Design for end-of-life . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Fire
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+3. Design of post-installed fixings
+20
+European and United Kingdom assessment documents . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Design working life . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Suitability for use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Durability
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Material for post-installed anchors for concrete highway structures . . . . . . . . . . . . . . . . . . . .
+27
+Durability classification for post-installed bonded and mechanical anchors except for mechanical an-
+chors in accordance with the UK-designated pre-Exit version of the EAD
+. . . . . . . . . . . .
+27
+Durability classification for mechanical anchors in accordance with the UK-designated pre-Exit version
+of EADs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Durability classifications for temporary anchors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Durability classification for post-installed reinforcing bar connections . . . . . . . . . . . . . . . . . . .
+28
+Dissimilar metals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Design method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Serviceability limit state (SLS) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Fire resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Proof testing for fixings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 42
+======================================================================
+CD 372 Version 1.0.0
+Contents
+4. Project specific information to be recorded
+31
+Design outputs for post-installed anchors and reinforcing bar connections in concrete
+. . . . . . . . . . . .
+31
+5. Records and inspection
+32
+Inspection and review of previous records for post-installed fixings in concrete
+. . . . . . . . . . . . . . . .
+32
+6. Normative references
+33
+7. Informative references
+35
+Appendix A. Guidance on concept design for safety critical fixings
+36
+A1 Examples of degree of redundancy related to the safety critical classification
+. . . . . . . . . . . . . . .
+36
+A2 Indicative strategies to eliminate safety critical fixings . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+A3 Indicative risk factors and implications for concept design of fixing systems
+. . . . . . . . . . . . . . . .
+38
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 42
+======================================================================
+CD 372 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 372
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+Consequential update as a result of the MCHW redraft. The specification of the fixings have been updated to the
+latest versions of the EADs and UKTAs, including post-installed anchors in concrete under fatigue cycle loading.
+Specification for stainless steel rebar fixings previously given in Section 3 replaced with a reference to BS EN
+1993-1-4.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 372
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 42
+======================================================================
+CD 372 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 372 revision 0, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 42
+======================================================================
+CD 372 Version 1.0.0
+Introduction
+Introduction
+Background
+Post-installed fixings in concrete, which include mechanical and bonded anchors and bonded
+reinforcing bars, are regularly used in works relating to highway structures.
+Fixings can offer a cost-effective solution for making attachments or extensions to new and existing
+concrete structures. The use of fixings can mitigate the need for extensive breakout of the parent
+concrete. They can also have benefits in reducing disruption to the highway network, reducing
+requirements for traffic management and reducing the duration of the construction programme.
+Post-installed fixings are used for a wide range of applications, including fixing ancillary equipment to
+concrete surfaces, attaching environmental barriers to structures, provision of extensions to concrete
+elements such as construction of new parapet upstands, strengthening or extending foundations and
+substructures, fixing temporary works to the edge of bridges to facilitate parapet replacement, and
+attaching walkways to the sides of structures.
+Recent guidance ( CIRIA C778 [Ref 5.I]) highlights that fixings can introduce risks in the long term
+management of structures, and that effective management of risks is greatly influenced by the design
+and the quality of installation of fixings.
+This document gives requirements and supportive advice for the design of post-installed fixings in both
+new and existing concrete structures, providing key information that is required to manage risks and
+maintain a safe and serviceable network, and implements the recommendations made in CIRIA C778
+[Ref 5.I] for the design of new fixings to ensure they can be effectively managed in the future and to
+minimise the future risk of the fixings.
+In addition to the content formerly in IAN 104/15 and CD 372 revision 0, appropriately updated to reflect
+the current EU and UK standards, requirements and advice on the conceptual design of fixings have
+been added, and construction and installation requirements have been moved to CC 482 [Ref 28.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 20.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a British Standard,
+technical specification or quality mark, that requirement may be met by compliance with the Mutual
+Recognition clause in GG 101 [Ref 20.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 42
+======================================================================
+CD 372 Version 1.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+AIP
+Approval in Principle
+EAD
+European Assessment Document
+ETA
+European Technical Assessment
+(Some superseded documents use the term European Technical Approvals which
+has the same abbreviation - this is now an outdated term and is not used in this
+document)
+SLS
+Serviceability limit state
+ULS
+Ultimate limit state
+UKAD
+UK Assessment Document
+UKTA
+UK Technical Assessment
+Symbols
+Symbol
+Definition
+d
+Nominal diameter of the anchor/reinforcing bar (mm)
+Tmlt
+Maximum long-term temperature in accordance with EAD 330087-01-0601 [Ref 29.N],
+EAD 330499-01-0601 2020 [Ref 3.N] and EAD 330499-02-0601 [Ref 2.N]
+Tmst
+Maximum short-term temperature in accordance with EAD 330087-01-0601 [Ref 29.N],
+EAD 330499-01-0601 2020 [Ref 3.N] and EAD 330499-02-0601 [Ref 2.N]
+Tlt
+Long-term temperature in accordance with EAD 330087-00-0601 2018 [Ref 30.N]
+Tst
+Short-term temperature in accordance with EAD 330087-00-0601 2018 [Ref 30.N]
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 42
+======================================================================
+CD 372 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Anchor
+Manufactured device or element for achieving a connection between a
+fixture and the base material, with potential to act in tension, shear or
+combined tension and shear. Includes mechanical and bonded anchors.
+This document only covers post-installed anchors and not cast-in
+anchors.
+Base material
+Material of a structure into which a post-installed reinforcing bar or
+anchor is installed. In this document the base material is concrete.
+Bonded anchor
+Anchor where the gap between metal element and base material is filled
+with a bonding material and the strength of the anchor depends on the
+performance of the bonding material.
+Bonding material
+Cementitious material or resin providing a bond between a metal
+element and the concrete.
+Design working life
+Assumed period for which a fixing is to be used for its intended purpose
+without replacement or major repair.
+The following terms are used in other documents and are taken as
+synonymous: service life; working life; design life; design service life.
+Fastener
+See "Anchor". Term used in BS EN 1992-4 [Ref 13.N]
+Fastening
+See "Anchor".
+Fire-critical fixings
+Fixings that:
+1) are at risk of exposure to fire; and,
+2) have a high consequence if they fail during fire.
+Fixture
+Element or component to be fixed to the base material. In the case of
+post installed reinforcing bars the fixture is commonly additional concrete
+to be cast after the post-installed reinforcing bars have been installed.
+Fixing
+Anchor or post-installed reinforcing bar connection.
+Fixing system concept
+design
+Determination of the arrangement and type of fixings to support a fixture,
+including the arrangement of any supporting framework or base-plate.
+Does not include determining the specific fixing product or size.
+Mechanical anchor
+Anchor where the strength depends on the direct reaction of the
+embedded device against the base material.
+Post-installed anchor
+Anchor installed in a drilled hole after the concrete base material has
+been cast. Does not include cast-in components.
+Post-installed
+reinforcing bar
+Reinforcement installed in a drilled hole after the concrete base material
+has been cast, used to form a post-installed reinforcing bar connection.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 42
+======================================================================
+CD 372 Version 1.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Post-installed reinforcing
+bar connection
+A reinforcing bar (or tension rod) and bonding material achieving a
+connection between a fixture and the base material, behaving similar to
+a cast-in reinforcing bar assumed to act in tension but not shear. It is
+possible for short reinforcing bars to be designed and act as anchors
+(see anchor).
+Rebar
+Reinforcing bar.
+Robustness
+The ability of a structure to sustain adverse and unforeseen events and
+limit local damage to an extent that is not disproportionate to the cause.
+Safety critical
+application
+Application in which the failure of a post-installed reinforcement
+connection or anchor can, in accordance with BS 8539 [Ref 1.I]:
+1) result in the collapse or partial collapse of the structure;
+2) cause risk to human life; and/or
+3) lead to significant economic loss.
+Safety critical fixing
+Fixing used in a safety-critical application.
+Support framework
+Structural component, not part of the fixture, to connect the fixture to the
+fixings. Can comprise of a steel bracket or frame.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 42
+======================================================================
+CD 372 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+Concept design of fixing system
+1.1
+Where designs of new structures or modifications to existing structures create a need or a potential
+need for post-installed fixings, then the post-installed fixings shall be identified and classified in
+accordance with this document.
+1.2
+The conceptual arrangement of the fixing system, including for robustness, maintenance and
+inspection, shall be designed in accordance with this document.
+Design of fixings
+1.3
+The design of post-installed anchors and reinforcing bar connections in concrete for permanent and
+temporary works shall be undertaken in accordance with this document.
+NOTE 1
+Specification requirements for post-installed anchors and reinforcing bar connections are given in CC
+482 [Ref 28.N].
+NOTE 2
+Post-installed rebar tension anchors as described EAD 330087-01-0601 [Ref 29.N]are not covered by
+this document.
+NOTE 3
+Design of fixings for seismic action is not covered by this document.
+NOTE 4
+Post-installed anchors include mechanical anchors (including expansion anchors, undercut anchors
+and concrete screws) and bonded anchors.
+NOTE 5
+Rope access anchor points are not covered by this document, requirements and guidance regarding
+rope access anchor points can be found in publications such as BS 7985 [Ref 4.N] and BS 8610 [Ref
+25.N].
+NOTE 6
+Post installed anchors and reinforcing bar connections in steel fibre reinforced concrete are not
+covered by this document.
+NOTE 7
+Section 3 of this document defines the design requirements using the relevant European Assessment
+Documents (EADs) that apply in the design of post-installed anchors and reinforcing bar connections.
+NOTE 8
+Fixings for vehicle restraint systems, permanent bollards, traffic signs, lighting columns and CCTV
+masts are not covered by this document. These applications are covered in the following documents:
+1)
+CC 400 [Ref 24.N]for post-installed anchors for vehicle restraint systems;
+2)
+CC 120 [Ref 8.N] for permanent bollards and traffic signs;
+3)
+CC 481 [Ref 23.N]for minor structures such as lighting columns and CCTV masts.
+NOTE 9
+Post-installed fixings in masonry are not covered by this document.
+NOTE 10
+There is greater variability in masonry substrates than in concrete and hence additional design, testing
+and installation considerations apply. Further guidance on masonry applications is available in BS 8539
+[Ref 1.I].
+NOTE 11
+Plastic anchors, such as those covered by EAD 330284-00-0604 [Ref 26.N]are not covered by this
+document.
+NOTE 12
+Non-structural applications where redundancy is provided in the system, such as those covered by
+EAD 330747-00-0601 [Ref 18.N], are not covered by this document.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving the design of post-installed
+fixings on the Overseeing Organisations' motorway and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 20.N].
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 42
+======================================================================
+CD 372 Version 1.0.0
+1. Scope
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 20.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+2.
+Concept design of fixing system
+Identification
+2.1
+The inclusion of post-installed fixings on a structure shall be identified during the design process.
+NOTE 1
+Early identification of potential need for fixings is important because it allows a coherent design to be
+developed that minimises long-term risks and maintenance effort associated with fixings.
+NOTE 2
+In some cases (for example, when designing a new tunnel) it is possible and desirable to identify the
+need for post-installed fixings at an early stage, for example, during structural concept design.
+NOTE 3
+In other cases (for example the design of a new CCTV system to be connected to an existing bridge),
+the need for post-installed fixings can only be identified when the requirement for the fixture is defined,
+for example, during a modification or improvement project.
+NOTE 4
+Common situations where post-installed fixings are required are included in Table 2.1N4:
+Table 2.1N4 Indicative locations where post-installed fixings can be required
+Post-installed anchors
+Post-installed reinforcing bar connections
+Mechanical and electrical systems
+Column strengthening
+Lighting
+Structural element to be cast in stages
+Signage
+Extension of an existing structure
+Communications
+New plinths for safety barrier / lighting column
+Ventilation systems
+Bearing plinth replacement
+Cladding system
+Classification
+2.2
+Post-installed fixings shall be classified as either safety critical or non-safety critical.
+NOTE 1
+It is desirable and useful to undertake the classification at an early stage because this provides greater
+opportunity to mitigate or eliminate the risks associated with a safety critical fixing.
+NOTE 2
+The classification as safety critical or non-safety critical affects the following:
+1)
+how a post-installed anchor/reinforcing bar is tested;
+2)
+the information that needs to be provided for technical approval; and/or
+3)
+how it is managed in the future.
+2.2.1
+The classification should be undertaken using Table 2.2.2.
+2.2.2
+Where the response to any of the questions in Table 2.2.2 is 'yes' then the fixing should be classified as
+safety critical.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+Table 2.2.2 Safety critical fixings
+Question
+Response
+If the fixing fails is there potential for...
+1
+...one or more people to be killed or seriously injured?
+Yes/no
+2
+...severe damage to one or more road vehicles or rail vehicles?
+Yes/no
+3
+...structural failure of one or more structural members?
+Yes/no
+4
+...failure of further fixings (progressive failure)?
+Yes/no
+5
+...closure of a road, railway or a significant utility service?
+Yes/no
+6
+...restoration of normal operation of the network to take longer than one week,
+taking into account investigation and access arrangements?
+Yes/no
+NOTE 1
+Table 2.2.2 expands on the formal definition of safety critical fixings for use in highway works.
+NOTE 2
+In some cases in Table 2.2.2 the answer can be yes but justification can be provided that the fixings are
+not safety critical. For example, progressive failure does not always lead to loss of life or significant
+economic loss.
+NOTE 3
+Table 2.2.2 is taken from CIRIA C778 [Ref 5.I]. Further guidance and examples on classifying fixings is
+provided in CIRIA C778 [Ref 5.I].
+2.2.3
+Where there is uncertainty in responding to the questions in Table 2.2.2, the fixings should be classified
+as safety critical.
+2.2.4
+Where there is an extremely high degree of redundancy such that failure of the fixing cannot lead to the
+adverse consequences listed in Table 2.2.2, and failure of multiple fixings by a common mode is not
+conceivable, then the fixings may be classified as non-safety critical.
+NOTE 1
+Redundancy contributes to achieving robustness, but there have been examples where the same
+mode of failure has affected numerous fixings on an installation, negating the benefits of redundancy.
+Therefore, the potential consequence of failure is more important in classifying a fixing or group of
+fixings as safety critical or non-safety critical, than is the exact degree of redundancy.
+NOTE 2
+Appendix A provides examples of situations that illustrate how the degree of redundancy can be related
+to the safety critical classification.
+Technical approval of fixings
+2.3
+Proposals for safety critical fixings shall be subject to technical approval in accordance with CG 300
+[Ref 31.N].
+NOTE 1
+Technical approval provides the technical approval authority the opportunity to identify and assess the
+effect on future management, ensures that maintenance arrangements can be set out, and triggers
+inclusion of the fixings within the asset record.
+NOTE 2
+Proposals for new fixings on new structures can be recorded in the CG 300 [Ref 31.N] Approval in
+Principle (AIP) (or equivalent) for the structure.
+NOTE 3
+Proposals for new fixings associated with other elements requiring AIP, such as mechanical and
+electrical installations, can be recorded in the mechanical and electrical AIP (or equivalent), including
+the effect of the fixing on the structure.
+2.3.1
+The following design details for safety critical fixings should be provided for technical approval:
+1)
+the fixture supported;
+2)
+the location on the structure;
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+3)
+the design working life of the fixing;
+4)
+the future maintenance arrangements;
+5)
+safe removal of the fixing of the end of its working life.
+NOTE
+Requirements for design working life are given in Section 3. The respective design working life of the
+fixture and fixing can need early consideration to ensure that the proposals are viable, particularly
+where a design working life in excess of 50 years is required of the fixing.
+Mitigating risks of fixings at concept design
+2.4
+Safety critical fixings shall only be proposed in the design where alternative connection methodologies
+are not viable.
+NOTE 1
+Safety critical fixings introduce the potential for a failure with high consequence and require greater
+future management effort.
+NOTE 2
+Appendix A provides example of indicative strategies to eliminate safety critical fixings from the design.
+2.5
+Where safety critical fixings are proposed, the following measures shall be incorporated in the design
+and recorded in the CG 300 [Ref 31.N]AIP:
+1)
+measures to reduce the consequence of failure; and
+2)
+measures to minimise the residual risk factors that affect the likelihood of future degradation of
+fixings
+2.6
+The residual risk factors that affect the likelihood of future degradation of fixings shall be minimised by
+incorporating mitigation measures in the design.
+NOTE 1
+At the concept design stage, of the structure or of the fixing system, there can be an opportunity to
+make design decisions that reduce the long term probability of failure of a fixing.
+NOTE 2
+Although anchors qualified with a European technical assessment (ETA) or UK technical assessment
+(UKTA) have a notional design working life, there is potential for the real working life to be shorter
+depending on design, execution, environment, use and maintenance conditions.
+2.6.1
+Mitigation measures to minimise the residual risk factors should be developed during the design by:
+1)
+understanding the applicable risk factors;
+2)
+confirming which of the risk factors apply to the proposed design; and
+3)
+reviewing whether a different design approach could reduce or remove the risk factor.
+NOTE
+Appendix A provides a summary of indicative risk factors and implications for concept design of fixing
+systems.
+Effect of fixings on structure
+Loads transferred to structure
+2.7
+It shall be verified that the structure is able to withstand the design actions imposed through fixings, in
+combination with other actions.
+NOTE 1
+The fixing design method results in minimum edge distances, spacing and member thickness that are
+necessary to achieve the intended resistance of the fixing.
+NOTE 2
+In addition, actions imposed by the fixing can induce load effects such as moments, shears or torsion
+into the structure that need to be checked more remotely from the fixing particularly for slender
+members.
+2.7.1
+The design should provide a hierarchy of strength in the following cases:
+1)
+where the design load on a fixture is a notional accidental action that can be exceeded in practice;
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+2)
+where accidental impact on the fixture is conceivable even if there is no explicit accidental design
+load; and
+3)
+where the failure of a fixture through concrete failure has potential to disproportionately
+compromise the structural integrity of the wider structure;
+NOTE 1
+The concept of providing a hierarchy of strength requires there to be an explicit 'weakest element' in the
+structural system and then designing other elements to be stronger; this approach can assist in
+avoiding costly repairs to the main structural elements.
+NOTE 2
+Normal design of a fixing results in the actual fixing providing a design resistance equal to or greater
+than the design action. Therefore, if the design action of the fixing is also used in the structural design,
+there can be a possibility that the fixing is overloaded and at failure imposes a higher load and
+damages the structure.
+NOTE 3
+Where accidental actions are not involved and there is no potential for disproportionate damage, then
+the normal partial factors used in design provide an adequate level of structural reliability and there is
+no need to provide an explicit hierarchy of strength.
+NOTE 4
+This is a principle commonly used in the design of parapets. In the design of connections of vehicle
+parapets with actions in accordance with BS EN 1991-2 [Ref 2.I], the parapet post is designed as the
+weakest element. Both the structure and the fixing are designed for the failure load of the parapet, but
+there is no need for the structure also to be stronger than the fixing.
+2.7.2
+A hierarchy of strength may be provided by taking the design action (applied to other elements) to be
+equal to the characteristic resistance of the weakest element and factoring by 1.25.
+2.7.3
+Where the fixing is intended to be the weakest element, then the characteristic resistance of the fixing
+may be defined and specified as an upper limit.
+NOTE 1
+In practice, the fixing can be selected at a late stage of the structure design so it can be more practical
+to verify the structure against an assumed upper limit of fixing strength, rather than determine the exact
+fixing strength at this stage.
+NOTE 2
+Specification of internally threaded sockets can facilitate the rapid replacement of a damaged
+attachment or bolt.
+Reduced resistance due to drill holes
+2.8
+The structural resistance of the structure shall be derived taking into account the holes to be drilled for
+the fixings.
+2.9
+Fixings shall not be installed in locations where there is a risk of damage to a prestressing strand,
+prestressing tendons or prestressing bars.
+2.10
+Where it is likely or intended that reinforcement is hit during drilling, then assumptions for lost
+reinforcement section area shall be defined and the assumed lost section area excluded from the
+verification.
+2.11
+Where it is assumed that the reinforcement remains undamaged during drilling, then this assumption
+shall be communicated clearly in the specification and drawings.
+2.11.1
+Where it is assumed that reinforcement is to be located on site prior to drilling and fixing locations
+revised to avoid reinforcement, then the fixture or support framework should be designed to
+accommodate the relocation of fixings.
+2.12
+Where it is proposed to install multiple fixings in line, then the resistance of the element shall be verified
+taking into account the potential for a plane of weakness.
+Avoidance of damage
+2.13
+The proposed drill holes shall be capable of being made without wider damage to the concrete
+substrate.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+NOTE
+For example, there is potential for the drilling to 'burst out' the rear of thin concrete sections.
+2.14
+Where it is proposed to install a fixing through bridge deck waterproofing, then the integrity of the
+waterproofing shall be maintained.
+2.14.1
+The design should include measures to repair and reinstate the waterproofing that assure the integrity
+of the joint with the existing waterproofing.
+Design for testing following installation including provision of sacrificial fixings
+2.15
+The fixing system shall be designed to allow for proof testing following installation.
+NOTE 1
+Requirements for proof testing are given in Section 3.
+NOTE 2
+Space is needed for the testing equipment, including jacks, load transfer arrangement, and space for
+the tester.
+2.15.1
+Where testing of the works fixings is not possible due to geometrical constraints, sacrificial fixings may
+be provided and tested.
+2.15.2
+Sacrificial fixings should be located on the structure in the vicinity of the works fixings.
+2.15.3
+Sacrificial fixings should replicate the conditions and installation methods of the works fixings.
+2.15.4
+The design of the fixing system should incorporate physical measures to enable proof testing following
+installation including:
+1)
+fixture/connection designed to enable testing, for example, detailing an extended thread to allow
+for attachment of a testing rig, or allowing for testing without removal of the fixture; and
+2)
+space to allow for the testing rig, which can include a spreader beam.
+2.16
+Where the provision of sacrificial fixings for testing following installation are proposed in the
+design,details of the proposed sacrificial fixings for testing shall be recorded within the design outputs
+in accordance with CD 350 [Ref 32.N].
+Design for robustness
+2.17
+Fixing systems that include safety critical fixings shall be designed with a defined strategy to provide
+robustness.
+NOTE
+Robustness is a defined term; refer to 'Terms and Definitions'.
+2.17.1
+Strategies to provide robustness may include:
+1)
+segmentation, to limit the extent of failure;
+2)
+limiting the exposure of the fixing to adverse and unforeseen events; and
+3)
+redundancy, to allow load to be transferred in the event of failure of an element of the fixing
+system.
+NOTE 1
+Segmentation means dividing the fixing system into structurally-independent sections, such that a
+failure of one section is not transmitted into the next section.
+NOTE 2
+In some cases it can be possible to reduce the exposure of a fixing by adjusting its location, for
+example in relation to accidental impacts.
+NOTE 3
+Failure case studies show that there is potential for common-cause failure where the same failure
+mode can apply to large numbers of similar fixings. In the case of such systematic failures, a high
+overall factor of safety or high level of redundancy are not necessarily sufficient to prevent failure.
+2.17.2
+The fixing system design may allow for identifiable deformation to occur following failure of an element
+of the system, prior to total failure.
+NOTE 1
+The provision of a ductile system can allow initial failures to be detected by inspections and acted upon
+prior to overall failure.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+NOTE 2
+Such identifiable deformation can be provided through deformation of support frameworks, or
+movement of secondary restraints, or load indicating elements.
+2.18
+Fixing systems for permanent works that include safety critical fixings shall be designed to
+accommodate a failure of any single safety critical fixing as an accidental design situation, without
+collapse of the fixture.
+2.18.1
+For the failure cases, the partial factors relevant to the accidental design situation should be applied, in
+accordance with BS EN 1990 [Ref 17.N].
+2.18.2
+For all the failure cases, the remaining elements of the fixing system (such as base-plate, support
+framework, and other fixings) should be designed to carry the redistributed loads consistent with the
+failure cases.
+NOTE
+The critical design actions on fixings can be generated by this redistribution case, which is checked to
+avoid the possibility of an 'unzipping' progressive failure.
+2.18.3
+A secondary restraint system may be an option to protect against failure of a primary fixing.
+NOTE
+Examples of secondary restraint include:
+1)
+lanyards;
+2)
+safety chains;
+3)
+a corbel or other structural device to 'catch' the fixture; and
+4)
+a crash deck.
+2.18.4
+Where a secondary restraint is provided, the design of the restraint and associated fixings should
+include for dynamic effects, where there is potential for the fixture to drop due to slack before the
+restraint is mobilised.
+NOTE 1
+The actions on a fixing providing secondary restraint can be different to those on a primary fixing, and
+hence a different size or type of fixing can be needed.
+NOTE 2
+There can be beneficial improvements in robustness in selecting a different type of fixing for a
+secondary restraint system compared with the primary fixings, since this reduces the possibility of the
+same risk factors, degradation or failure mechanisms applying to both sets of fixings.
+2.18.5
+Where a secondary restraint is provided, the fixture should not be able to move to a position that can
+cause harm to persons or traffic when the restraint is mobilised.
+Design to facilitate future management
+General
+2.19
+The fixing system shall be designed to facilitate future management.
+NOTE 1
+Decisions taken during the design phase can have a significant impact on how the fixing is managed in
+future.
+NOTE 2
+The purpose of designing to facilitate future management is to make provisions in design that can
+enable an appropriate management regime to be followed in order that a tolerably low level of risk is
+maintained through the life of the fixing.
+NOTE 3
+The following sub-sections provide requirements that facilitate future management under the following
+headings:
+1)
+design for inspection;
+2)
+design for future testing in service; and
+3)
+design for end-of-life.
+Design for inspection
+2.20
+The fixing system and fixings shall be designed to facilitate future inspection.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+2.20.1
+Anchors should be observable without special access equipment.
+NOTE
+General inspections are visual inspections undertaken without special access equipment. It is desirable
+that information on anchors can be obtained from general inspections, in particular, signs of distortion,
+corrosion or cracking of the substrate.
+2.20.2
+Anchors should be accessible at touching distance using a viable means of access.
+NOTE
+Touching distance access is required for principal inspections. Touching distance access is also
+important if investigations are required into condition or performance of the fixing.
+2.20.3
+Space should be provided around the fixing system to allow for the means of access and the inspector.
+NOTE
+Where equipment is suspended from fixings, then access to the fixing using elevated platforms can be
+prevented by the size and position of the equipment.
+2.20.4
+Joints between concrete elements connected using post installed reinforcement should be observable
+from at least one side.
+NOTE
+Signs of degradation of the post installed reinforcement can become visible at the surface of the joint. It
+is not possible to inspect the post installed reinforcement directly when it is used to connect two
+concrete elements.
+2.21
+Safety critical anchors shall not be hidden.
+NOTE
+Guidance is provided in CIRIA C764 [Ref 4.I] on managing hidden defects in bridges. The report
+defines a hidden component as one that can not usually be visually inspected as part of a principal
+inspection. Components are hidden if they are inaccessible for inspection without excavation or
+removal of material or other structural components.
+2.22
+Where the proposed access requires removal of panels for remote imaging such as endoscopes, then
+justification for the proposed means of access shall be provided.
+Design for future testing in service
+2.23
+The benefits of including measures to enable future testing of safety critical fixings in service shall be
+evaluated.
+NOTE 1
+Future testing refers to in service testing during the design working life, rather than to proof testing
+following installation.
+NOTE 2
+The extra costs of including measures to enable testing can be relatively low if included from the start.
+Such measures can provide a future contingency for testing that could provide assurance that a fixing
+continues to achieve a certain resistance over time.
+NOTE 3
+The potential benefits of future testing in service are highest when some or all of the following apply:
+1)
+high consequences of failure;
+2)
+large number of similar fixings;
+3)
+potential for degradation of the substrate or aspects of the substrate performance or strength are
+unknown (more likely in a retrofit application than a new structure);
+4)
+permanent actions carried by the fixing are a low proportion of the design action (for example,
+when the fixing is intended to perform in an accidental design situation such as a vehicle impact);
+and/or
+5)
+the replacement of fixings would be particularly challenging.
+NOTE 4
+Load testing in service can be a costly and disruptive activity. In some cases access and traffic
+management costs can be comparable for installation of new fixings.
+NOTE 5
+Guidance on planning for future load testing of anchors during service is provided in CIRIA C778 [Ref
+5.I].
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+2.24
+Where measures to enable future testing of safety critical fixings in service are proposed in the design,
+the proposed measures to enable future testing of safety critical fixings in service shall be recorded in
+the design outputs in accordance with CD 350 [Ref 32.N].
+2.25
+Where measures to enable future testing of safety critical fixings in service are proposed, then the
+measures shall be documented in the maintenance records as defined in CG 302 [Ref 1.N].
+2.25.1
+Where measures to enable future testing of safety critical fixings are proposed, a future testing strategy
+should be produced and included in the records, including:
+1)
+type of tests (for example, proof test);
+2)
+frequency of tests;
+3)
+location of tests;
+4)
+magnitude of test load(s);
+5)
+envisaged test method, including access and means of applying load;
+6)
+action to be taken in the event that the test load is not achieved; and
+7)
+action to be taken in the event of damage to the fixing or substrate during the test.
+2.26
+The frequency of future tests such that it provides sufficient warning to allow for intervention before
+failure shall be recorded in the design outputs.
+NOTE 1
+Factors that can be used to determine the frequency of future tests include the level of risk presented
+by the fixing, the rate of deterioration, and potential for changes to the condition, environment, use of
+the fixing and loading.
+NOTE 2
+CIRIA C778 [Ref 5.I]provides a sample model for assessment of risk.
+NOTE 3
+Examples of suitable frequencies of testing include:
+1)
+at every CS 450 [Ref 19.N] principal inspection for a high consequence fixing that is not
+anticipated to have changes to the condition, environment, its use and loading.
+2)
+at alternate CS 450 [Ref 19.N]principal inspections for a medium consequence fixing that is not
+anticipated to have changes to the condition, environment, its use and loading
+2.26.1
+Physical measures to enable future testing may include:
+1)
+extra fixings included specifically and solely for future testing;
+2)
+identification markings of extra fixings specifically and solely for future testing;
+3)
+fixture/connection designed to enable testing, for example, detailing an extended thread to allow
+for attachment of a testing rig, or allowing for testing without removal of the fixture; and
+4)
+space to allow for the testing rig, which can include a spreader beam.
+2.26.2
+Physical measures to enable future testing may be the same physical measures provided for testing
+following installation.
+2.26.3
+Where extra fixings are provided specifically for future testing in service, the extra fixings should be in
+locations and conditions that are representative of the other fixings.
+2.26.4
+Where it is proposed to apply a test load to the fixture rather than directly to the fixing, then the
+intended load on the fixing should be defined and related to the test load.
+NOTE
+For some arrangements of fixings, such as post-installed reinforcement, it can be possible only to apply
+load to the fixture.
+Design for end-of-life
+2.27
+Design assumptions about the end-of-life of the fixing system and fixing shall be documented in the
+maintenance records as defined in CG 302 [Ref 1.N].
+2.27.1
+A viable method of removing the fixture should be identified and recorded.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 42
+======================================================================
+CD 372 Version 1.0.0
+2. Concept design of fixing system
+2.27.2
+Where potential interim replacement of fixings is included as part of a strategy to justify an extended
+design working life, then the intended method of replacement should be identified and recorded.
+NOTE
+Potential options to allow fixings to be replaced while the fixture remains in service can include:
+1)
+making provision for fixings to be installed at other locations along a support framework, where
+one is present;
+2)
+allowing for progressive replacement of fixings whilst the fixture remains in place, with
+assumptions about the number of fixings that can be removed at any time during replacement.
+Fire
+2.28
+Fire-critical fixings shall be identified, as those that:
+1)
+are at risk of exposure to fire; and,
+2)
+have a high consequence if they fail during fire.
+2.28.1
+Fixings in road tunnels should be classified as at risk of exposure to fire.
+NOTE 1
+Open structures such as retaining walls and bridges that can be cleared of people relatively quickly are
+unlikely to include fixings with a high consequence of failure during a fire.
+NOTE 2
+A non-safety critical fixing has a low consequence of failure in normal conditions, hence is unlikely to
+have a high consequence of failure during fire.
+2.29
+The performance of fire-critical fixings in a fire shall be consistent with the overall fire design strategy
+for the structure.
+NOTE
+A fire design strategy can have various objectives, including some or all of:
+1)
+means of escape and fire fighting;
+2)
+continued provision of ventilation or smoke control;
+3)
+provide fire resistance to reduce the chance of collapse;
+4)
+protection of adjacent assets from fire, for example, by compartmentation.
+2.30
+Fire-critical fixings shall be designed in accordance with the fire design requirements derived from the
+overall fire design strategy of the structure.
+NOTE
+Fire design requirements can include, as appropriate:
+1)
+design fire scenario;
+2)
+fire model;
+3)
+fire resistance class; and/or
+4)
+deformation limits in the fire.
+2.30.1
+The fire design requirements should be consistent with the purpose of the fixing and its role in the
+overall fire design strategy.
+NOTE
+For example, if a fixing supports a ventilation duct, and the fire life safety strategy relies on ventilation
+being maintained during the evacuation period, then the fixing cannot fail during that period.
+2.30.2
+Fire design requirements may include design or mitigation measures, including:
+1)
+design to provide fire resistance;
+2)
+use fixings with load values certified against fire test results;
+3)
+provide fire protection to fixings;
+4)
+increase robustness of fixings to fire, for example, by using a greater embedment depth; or
+5)
+verify performance of the complete system using fire tests.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+3.
+Design of post-installed fixings
+European and United Kingdom assessment documents
+3.1
+Specification of post-installed anchors and systems for post-installed reinforcement bar connections
+shall be in compliance with an appropriate European assessment document (EAD).
+NOTE 1
+Compliance with an EAD means that a fixing has a European technical assessment (ETA).
+NOTE 2
+Relevant EADs are shown in Table 3.1N2.
+Table 3.1N2 EADs
+Type
+EAD
+Design method
+Mechanical anchor
+EAD 330232-00-0601 2016
+[Ref 22.N] (1)
+or EAD 330232-01-0601 [Ref
+21.N] (2)
+BS EN 1992-4 [Ref
+13.N]
+Bonded anchor
+EAD 330499-01-0601 2020
+[Ref 3.N] (1) or EAD
+330499-02-0601 [Ref 2.N] (2)
+BS EN 1992-4 [Ref
+13.N]
+Post-installed reinforcement bar
+connections
+EAD 330087-00-0601 2018
+[Ref 30.N] (1) or
+EAD 330087-01-0601 [Ref
+29.N] (2)
+BS EN 1992-1-1
+[Ref 14.N]
+and
+BS EN 1991-1-2
+[Ref 11.N]
+Post-installed anchors in concrete under
+fatigue cycle loading
+EAD 330250-00-0601 [Ref
+27.N]
+BS EN 1992-4 [Ref
+13.N]
+and
+TR 061 [Ref 9.N] (3)
+Notes:
+(1) EAD 330232-00-0601 2016 [Ref 22.N], EAD 330087-00-0601 2018 [Ref 30.N]and EAD
+330499-01-0601 2020 [Ref 3.N] are the pre-Exit EADs that are recognised by UK approved bodies to
+produce UK Technical Assessments (UKTA).
+(2) EAD 330232-01-0601 [Ref 21.N], EAD 330087-01-0601 [Ref 29.N]and EAD 330499-02-0601 [Ref
+2.N] are the current EADs from which ETAs are drawn up.
+(3) TR 061 [Ref 9.N] provides a design method for anchors in concrete with a characteristic
+resistance under fatigue cyclic loading on the basis of EAD 330250-00-0601 [Ref 27.N].
+Design working life
+3.2
+The design working life of a fixing shall be at least equal to that of the fixture.
+NOTE
+Design working lives assumed in design methods and EADs are typically 50 years and 100 years.
+Suitability for use
+3.3
+The design of post-installed fixings shall only incorporate products that are suitable for their intended
+application in accordance with the relevant EAD or UK assessment document (UKAD).
+NOTE
+The EADs or UKADs for fixings generally contain a number of different categories and options, and
+some options can be unsuitable for some applications.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+3.3.1
+Where an ETA or UKTA is selected, the options covered by the ETA or UKTA should be suitable for the
+intended application.
+3.4
+The options for the intended application shall be classified against relevant categories for the
+UK-designated pre-Exit versions of the relevant EADs and where published, current versions, including
+those summarised in Table 3.4.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+Table 3.4 Categories and options within EADs for mechanical anchors and systems for post-installed rebar connections
+EAD
+330087-00-0601
+2018 [Ref
+30.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330087-01-0601
+[Ref
+29.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(Current EAD
+for ETA and CE
+marking)
+EAD 330499-01-0601
+2020 [Ref 3.N]
+Bonded anchors for
+use in concrete
+(UK- designated
+pre-Exit version of
+EAD)
+EAD 330499-02-0601
+[Ref 2.N]Bonded
+anchors and bonded
+expansion anchors
+for use in concrete
+(Current EAD for
+ETA and CE
+marking)
+EAD
+330232-00-0601
+2016 [Ref
+22.N]Mechanical
+anchors for use
+in concrete
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330232-01-0601
+[Ref
+21.N]Mechanical
+anchors for use
+in concrete
+(Current EAD
+for ETA and CE
+marking)
+EAD
+330250-00-0601
+[Ref 27.N]
+Post-installed
+anchors in
+concrete under
+fatigue cycle
+loading
+Concrete
+Cracked
+Uncracked
+Cracked
+Uncracked
+Cracked
+Uncracked
+Cracked
+Uncracked
+Cracked
+Uncracked
+Cracked
+Uncracked
+Cracked
+Uncracked
+Actions 1)
+Static or
+quasi-static
+Does not cover
+dynamic or
+fatigue
+For post-installed
+rebar
+connections:
+Static or
+quasi-static
+Does not cover
+dynamic or
+fatigue
+Static or quasi-static
+Does not cover
+dynamic, fatigue
+Static or quasi-static
+Does not cover
+dynamic, fatigue
+Static or
+quasi-static
+Does not cover
+dynamic, fatigue
+Static or
+quasi-static
+Does not cover
+dynamic, fatigue
+Static or
+quasi-static
+Does not cover
+dynamic
+Fire
+Exposure to fire
+is included
+Exposure to fire
+is included
+Does not include
+exposure to fire
+Resistance to fire
+included for options
+1-6 from Table 1.2.1.1
+of EAD
+330499-02-0601 [Ref
+2.N] for
+anchors in cracked
+concrete only (C20/25
+to C50/60)
+Exposure to fire
+included for
+anchors in
+cracked concrete
+only
+Resistance to fire
+included for
+anchors in
+cracked concrete
+only
+Resistance to fire
+is included
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+Table 3.4 Categories and options within EADs for mechanical anchors and systems for post-installed rebar connections (continued)
+EAD
+330087-00-0601
+2018 [Ref
+30.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330087-01-0601
+[Ref
+29.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(Current EAD
+for ETA and CE
+marking)
+EAD 330499-01-0601
+2020 [Ref 3.N]
+Bonded anchors for
+use in concrete
+(UK- designated
+pre-Exit version of
+EAD)
+EAD 330499-02-0601
+[Ref 2.N]Bonded
+anchors and bonded
+expansion anchors
+for use in concrete
+(Current EAD for
+ETA and CE
+marking)
+EAD
+330232-00-0601
+2016 [Ref
+22.N]Mechanical
+anchors for use
+in concrete
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330232-01-0601
+[Ref
+21.N]Mechanical
+anchors for use
+in concrete
+(Current EAD
+for ETA and CE
+marking)
+EAD
+330250-00-0601
+[Ref 27.N]
+Post-installed
+anchors in
+concrete under
+fatigue cycle
+loading
+Load
+direction
+Tension only.
+Shear transfer is
+carried by the
+interface
+between old and
+new concrete
+For post-installed
+rebar
+connections:
+Tension and
+compression.
+Shear transfer is
+carried by the
+interface between
+old and new
+concrete
+Tension.
+Shear.
+Combined tension
+and shear
+Tension.
+Shear.
+Combined tension
+and shear
+Tension.
+Shear.
+Combined
+tension and
+shear
+Tension.
+Shear.
+Combined
+tension and
+shear
+Tension.
+Shear.
+Combined
+tension and
+shear
+Tempera-
+ture
+range
+of the
+concrete
+substrate
+T1 (-40oC to 24/4
+0oC long / short
+term)
+T2 (-40oC to 50/8
+0oC long / short
+term)
+T3 (-40oC to Tlt /
+Tst long / short
+term, Tlt and Tst
+can be defined)
+T1 (-40oC to 24/4
+0oC long / short
+term)
+T2 (-40oC to 50/8
+0oC long / short
+term)
+T3 (-40oC to Tmlt
+/ Tmst >40oC long
+/ short term, Tmlt
+and Tmslt can be
+defined)
+T1 (-40oC to 24/40oC
+long / short term)
+T2 (-40oC to 50/80oC
+long / short term)
+T3 (-40oC to
+Tmlt/Tmst >40oC long
+/ short term, Tmlt and
+Tmst can be defined)
+T1 (-40oC to 24/40oC
+long / short term)
+T2 (-40oC to 50/80oC
+long / short term)
+T3 (-40oC to
+Tmlt/Tmst >40oC long
+/ short term, Tmlt and
+Tmst can be defined)
+-40oC to +80oC
+-40oC to +80oC
+(-40oC to 50/80o
+C long / short
+term)
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+Table 3.4 Categories and options within EADs for mechanical anchors and systems for post-installed rebar connections (continued)
+EAD
+330087-00-0601
+2018 [Ref
+30.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330087-01-0601
+[Ref
+29.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(Current EAD
+for ETA and CE
+marking)
+EAD 330499-01-0601
+2020 [Ref 3.N]
+Bonded anchors for
+use in concrete
+(UK- designated
+pre-Exit version of
+EAD)
+EAD 330499-02-0601
+[Ref 2.N]Bonded
+anchors and bonded
+expansion anchors
+for use in concrete
+(Current EAD for
+ETA and CE
+marking)
+EAD
+330232-00-0601
+2016 [Ref
+22.N]Mechanical
+anchors for use
+in concrete
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330232-01-0601
+[Ref
+21.N]Mechanical
+anchors for use
+in concrete
+(Current EAD
+for ETA and CE
+marking)
+EAD
+330250-00-0601
+[Ref 27.N]
+Post-installed
+anchors in
+concrete under
+fatigue cycle
+loading
+Durability
+of fixings
+Cl 0.20
+Cl 0.40
+(Chloride content
+class in
+accordance with
+BS EN 206 [Ref
+5.N], BS 8500-1
+[Ref 6.N]) and
+BS 8500-2 [Ref
+7.N]
+Cl 0.20
+Cl 0.40
+(Chloride content
+class in
+accordance with
+BS EN 206 [Ref
+5.N], BS 8500-1
+[Ref 6.N])
+and BS 8500-2
+[Ref 7.N]). If no
+chloride content
+is specified by the
+manufacturer,
+assume
+allowable
+chloride content
+Cl 0.20
+Stainless steel
+anchors corrosion
+resistance class in
+accordance with
+Annex A of BS EN
+1993-1-4 [Ref 16.N]
+Stainless steel
+anchors corrosion
+resistance class in
+accordance with
+Annex A of BS EN
+1993-1-4 [Ref 16.N]
+(1) (dry internal)
+(2) (external)
+(3) (extreme
+chemical
+pollution
+including
+exposure to
+de-icing salts)
+Stainless steel
+anchors
+corrosion
+resistance class
+in accordance
+with Annex A of
+BS EN 1993-1-4
+[Ref 16.N]
+Additional
+requirements for
+fatigue not
+specified(3).
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+Table 3.4 Categories and options within EADs for mechanical anchors and systems for post-installed rebar connections (continued)
+EAD
+330087-00-0601
+2018 [Ref
+30.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330087-01-0601
+[Ref
+29.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(Current EAD
+for ETA and CE
+marking)
+EAD 330499-01-0601
+2020 [Ref 3.N]
+Bonded anchors for
+use in concrete
+(UK- designated
+pre-Exit version of
+EAD)
+EAD 330499-02-0601
+[Ref 2.N]Bonded
+anchors and bonded
+expansion anchors
+for use in concrete
+(Current EAD for
+ETA and CE
+marking)
+EAD
+330232-00-0601
+2016 [Ref
+22.N]Mechanical
+anchors for use
+in concrete
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330232-01-0601
+[Ref
+21.N]Mechanical
+anchors for use
+in concrete
+(Current EAD
+for ETA and CE
+marking)
+EAD
+330250-00-0601
+[Ref 27.N]
+Post-installed
+anchors in
+concrete under
+fatigue cycle
+loading
+EAD
+options
+N/A
+N/A
+Table of 12 options
+(derived from some of
+the classifications
+above)
+Table of 12 options
+(derived from some of
+the classifications
+above)
+Table of 12
+options (derived
+from some of the
+classifications
+above)
+Table of 12
+options (derived
+from
+some of the
+classifications
+above)
+Characteristic
+resistance:
+options 1-6 from
+Table of 12
+options in EAD
+330232-01-0601
+[Ref 21.N]and
+EAD
+330499-01-0601
+2020 [Ref 3.N]
+with anchor
+fatigue
+requirements as
+described (2).
+Drilling
+tech-
+nique
+Drilling methods
+as applied for by
+the manufacturer
+Drilling methods
+as applied for by
+the manufacturer
+Rotary hammer
+Diamond drilling
+Rotary hammer
+Diamond drilling
+Manufacturer's
+instructions on
+drilling
+technology
+Manufacturer's
+instructions on
+drilling
+technology
+Additional
+requirements for
+fatigue not
+specified(3).
+Concrete
+installa-
+tion
+condition
+N/A
+Water filled holes
+are not covered
+I1 (dry or wet)
+I2 (water-filled holes)
+I1 (dry or wet)
+I2 (water-filled holes)
+N/A
+N/A
+Additional
+requirements for
+fatigue not
+specified(3).
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+Table 3.4 Categories and options within EADs for mechanical anchors and systems for post-installed rebar connections (continued)
+EAD
+330087-00-0601
+2018 [Ref
+30.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330087-01-0601
+[Ref
+29.N]Systems
+for
+post-installed
+rebar
+connections
+with mortar
+(Current EAD
+for ETA and CE
+marking)
+EAD 330499-01-0601
+2020 [Ref 3.N]
+Bonded anchors for
+use in concrete
+(UK- designated
+pre-Exit version of
+EAD)
+EAD 330499-02-0601
+[Ref 2.N]Bonded
+anchors and bonded
+expansion anchors
+for use in concrete
+(Current EAD for
+ETA and CE
+marking)
+EAD
+330232-00-0601
+2016 [Ref
+22.N]Mechanical
+anchors for use
+in concrete
+(UK- designated
+pre-Exit version
+of EAD)
+EAD
+330232-01-0601
+[Ref
+21.N]Mechanical
+anchors for use
+in concrete
+(Current EAD
+for ETA and CE
+marking)
+EAD
+330250-00-0601
+[Ref 27.N]
+Post-installed
+anchors in
+concrete under
+fatigue cycle
+loading
+Installa-
+tion
+direction
+As applied for by
+the
+manufacturer.
+- Vertically
+downward
+- Horizontal
+- Vertically
+upwards
+D1 (downward
+only)
+D2 (downward
+and horizontal
+installation)
+D3 (downward
+and horizontal
+and upwards
+(e.g. overhead)
+installation
+D1 (downward only)
+D2 (downward and
+horizontal installation)
+D3 (downward and
+horizontal and
+upwards (e.g.
+overhead) installation
+D1 (downward only)
+D2 (downward and
+horizontal installation)
+D3 (downward and
+horizontal and
+upwards (e.g.
+overhead) installation
+N/A
+N/A
+Additional
+requirements for
+fatigue not
+specified(3).
+Design
+Working
+Life
+-
+50 years, 100
+years
+50 years, 100 years
+50 years, 100 years
+-
+50 years
+50 years
+Notes: 1) While some EADs cover seismic action, this document does not cover design of fixings for seismic actions. For characteristic resistance under
+fatigue cycle loading,
+2) in accordance with EAD 330250-00-0601 [Ref 27.N], the following anchors are covered:
+anchors that are secured against turning of the nut under fatigue cyclic loading by suitable means. Loosening of the nut is avoided (such as by the use of lock
+nuts, counter nuts of other suitable means).
+anchors under fatigue cyclic shear loads only without an annular gap between the hole and the fixture and the anchor. Under fatigue cyclic tension loading a
+gap is possible.
+3) See EAD 330499-01-0601 2020 [Ref 3.N] for bonded anchors or EAD 330232-01-0601 [Ref 21.N]for mechanical anchors.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+NOTE
+Table 3.4 provides a summary to assist in classifying the intended application. It does not cover all
+categories nor fully describe all of the classifications.
+3.5
+Where the current version of an EAD is different to the UK designated pre-Exit version of the EAD, the
+criteria for a category shall be classified to both the current version of the EAD and the UK designated
+pre-Exit version of the EAD.
+NOTE
+For example, for a vertically downward direction of installation criteria for post-installed reinforcing bar
+connections, the specifier instruction in CC 482/WSR/004 is completed with both D1 in accordance with
+EAD 330087-01-0601 [Ref 29.N]and vertically downward in accordance with EAD 330087-00-0601
+2018 [Ref 30.N].
+3.5.1
+The maximum and minimum temperatures of the concrete substrate should be derived in accordance
+with BS EN 1991-1-5 [Ref 12.N] and NA to BS EN 1991-1-5 [Ref 33.N].
+3.5.2
+For external applications in the United Kingdom a temperature range of T2 may be assumed which can
+be found in Table 3.4.
+3.5.3
+Where the actions to be carried by fixings have been evaluated, but the selection of a particular fixing
+product is to be made by others at a later stage, then the following design information should be
+provided:
+1)
+whether the application is safety critical or non-safety critical;
+2)
+design values of actions at ultimate limit state (ULS) and serviceability limit state (SLS);
+3)
+the options required for relevant categories in Table 3.4, including cracked/uncracked concrete,
+durability classification, etc.;
+4)
+the characteristic concrete strength to be used in the design of the fixings;
+5)
+any application-specific criteria relating to edge distance, centre spacings and embedment depth,
+such as a maximum embedment depth, or a pre-determined embedment length;
+6)
+displacement limits for short and long-term loads at serviceability limit state;
+7)
+details of the metal component when this has been pre-determined;
+8)
+proof test requirements including number of tests and value of the test load.
+Durability
+Material for post-installed anchors for concrete highway structures
+3.6
+Post-installed anchors for concrete highway structures shall be stainless steel.
+Durability classification for post-installed bonded and mechanical anchors except for
+mechanical anchors in accordance with the UK-designated pre-Exit version of the EAD
+3.7
+The corrosion resistance class for stainless steel post-installed bonded and mechanical anchors
+classified to EAD 330499-01-0601 2020 [Ref 3.N], EAD 330499-02-0601 [Ref 2.N], or EAD
+330232-01-0601 [Ref 21.N]shall be derived in accordance with Annex A of BS EN 1993-1-4 [Ref 16.N].
+NOTE
+Annex A of BS EN 1993-1-4 [Ref 16.N]gives suitable stainless steel grades for each corrosion
+resistance class.
+Durability classification for mechanical anchors in accordance with the UK-designated pre-Exit
+version of EADs
+3.8
+The durability classification for permanent mechanical anchors not fully encased in concrete in
+accordance with EAD 330232-00-0601 2016 [Ref 22.N]shall be either (2) or (3).
+NOTE
+(2) and (3) are classifications defined in EAD 330232-00-0601 2016 [Ref 22.N]. Mechanical anchors
+classified as (2) or (3) are stainless steel.
+3.9
+In aggressive environments, such as road tunnels, the durability classification for mechanical anchors
+not fully encased in concrete shall be (3) in accordance with EAD 330232-00-0601 2016 [Ref 22.N].
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+Durability classifications for temporary anchors
+3.10
+Where temporary anchors are planned to be left in place after use, then the durability classification for
+the temporary anchor shall be the same as for an equivalent permanent anchor.
+3.10.1
+Where temporary anchors are planned to be removed after use, then lower durability classifications
+may be used.
+Durability classification for post-installed reinforcing bar connections
+3.11
+Where post-installed reinforcing bars are to be installed with portions of the bar not fully encased in
+concrete, the reinforcing bar shall be stainless steel.
+3.12
+The corrosion resistance class for stainless steel post-installed reinforcing bars with portions of the bar
+not fully encased in concrete shall be derived in accordance with Annex A of BS EN 1993-1-4 [Ref
+16.N].
+NOTE
+Annex A of BS EN 1993-1-4 [Ref 16.N]gives suitable stainless steel grades for each corrosion
+resistance class.
+Dissimilar metals
+3.13
+Dissimilar metals shall be isolated.
+NOTE
+An example where dissimilar elements need to be isolated is a where a stainless steel mechanical
+anchor is installed directly adjacent to carbon steel reinforcement. There are concerns that corrosion
+resistance can be impaired in this situation and the existing carbon steel could already be active and be
+vulnerable to bi-metallic corrosion with the stainless steel.
+3.13.1
+The bonding material for post-installed fixings may be used to isolate dissimilar metals.
+Design method
+3.14
+Anchors shall be designed in accordance with the design method stated in the relevant EAD or UKAD.
+NOTE 1
+Post-installed anchors are designed in accordance with BS EN 1992-4 [Ref 13.N].
+NOTE 2
+The ETA or UKTA provides characteristic values that are used in the design method given in BS EN
+1992-4 [Ref 13.N]. The design method cannot be applied without such values from an ETA or UKTA.
+The ETA is the European technical product specification.
+NOTE 3
+In the design method for anchors, the element acts as an anchor bolt (which, in the case of bonded
+anchors, is generally a threaded rod) stressed in tension, shear or combined tension and shear over a
+short embedment depth.
+3.15
+Post-installed reinforcing bar connections shall be designed in accordance with BS EN 1992-1-1 [Ref
+14.N] and BS EN 1991-1-2 [Ref 11.N].
+NOTE 1
+The ETA for post-installed reinforcing bar connections provides characteristic values that are used to
+calculate the bond and anchorage length. The design method cannot be applied without such values
+from an ETA.
+NOTE 2
+In the design method for post-installed reinforcing bar connections, the element (a reinforcing bar or a
+tension rod) is intended to behave in the same way as a cast-in reinforcing bar and acts only in tension.
+This applies to most situations where existing and new concrete members are to be connected or to be
+made continuous.
+3.16
+For post-installed reinforcing bar connections design, the shear transfer between old and new concrete
+shall be designed in accordance with the rules on shear at the interface between concrete cast at
+different times within BS EN 1992-1-1 [Ref 14.N].
+3.16.1
+Where the interface between the fixture and the base material has insufficient capacity, shear lugs or
+post installed anchors carrying shear should be provided in addition to the post-installed reinforcing bar
+connection.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+3.17
+Where a post-installed fixing is installed in a surface with a concrete repair, then the repair material
+shall be ignored in the design of the fixing.
+NOTE
+The design methods and testing that underpins an ETA or UKTA assume that the concrete is
+continuous, but for a concrete repair there is potential for a plane of weakness at the interface between
+concrete surface and the repair material.
+Serviceability limit state (SLS)
+3.18
+Post-installed reinforcing bar connections shall satisfy the SLS criteria in BS EN 1992-1-1 [Ref 14.N].
+3.19
+The deformation of post-installed anchors under SLS loads shall not impair structural performance,
+appearance or durability.
+NOTE 1
+In some applications (such as temporary works fixings, strengthening a structure to accommodate
+accidental loading etc.) deformation control is unlikely to be critical. However, in other cases (e.g.
+anchors subject to long-term loads), careful control of deformation is often of greater significance.
+NOTE 2
+The characteristic displacement of an anchor under tension and shear loading is given in its ETA or
+UKTA.
+3.19.1
+Displacement may be assumed to be proportional to applied load.
+3.19.2
+Where load/displacement data for a particular arrangement of embedment depth, concrete strength
+and bar diameter is not available, data applicable to a smaller embedment depth, lower concrete
+strength and smaller bar diameter may be used.
+3.20
+The design value of the displacement of an anchor shall not exceed the limiting displacements given in
+Table 3.20 for short and long-term loading at SLS.
+Table 3.20 Deformation limits for anchors
+Maximum deformation under
+short-term loading
+Maximum deformation under
+long-term loading
+Tension
+0.05 d
+0.12 d
+Shear
+0.20 d
+0.30 d
+NOTE
+d is the nominal diameter of the anchor in millimetres.
+3.21
+The deformation limits shall be met at short and long-term concrete temperatures in accordance with
+the temperature classification selected from the ETA or UKTA.
+NOTE
+Refer to Table 3.4 for the temperature classifications.
+3.21.1
+Where displacement under load has significant adverse implications, more onerous project-specific
+limits should be defined.
+Fire resistance
+3.22
+Where a fixing is fire-critical and the fire design strategy includes requirements for fire resistance, then
+fixings shall be designed for fire resistance based on the fire design requirements identified in Section 2.
+NOTE 1
+Requirements for identification of fire-critical fixings are given in Section 2.
+NOTE 2
+Further guidance on design of fixings for fire resistance is provided in CFA (Fixings and fire) [Ref 3.I].
+3.22.1
+Compliance with fire design requirements may be demonstrated by an ETA or UKTA that covers the
+requirements.
+3.22.2
+Fire resistance may be derived for a specified design fire scenario in accordance with BS EN 1991-1-2
+[Ref 11.N], BS EN 1992-4 [Ref 13.N].
+NOTE
+For post-installed rebar connections with mortar and bonded anchors, TR 082 [Ref 10.N]describes a
+fire design method.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 42
+======================================================================
+CD 372 Version 1.0.0
+3. Design of post-installed fixings
+3.22.3
+Where the primary load effect is axial tension, the effects of fire may be mitigated by increasing the
+embedment depth to compensate for the loss of bond strength close to the surface of the concrete.
+NOTE
+When a structure is exposed to extreme heat or fire, the temperature at relatively shallow depths within
+the concrete can often be much lower than that at the concrete surface.
+3.22.4
+Concrete elements containing post-installed reinforcing bar connections having a high risk of exposure
+to fire may be designed in accordance with BS EN 1992-1-2 [Ref 15.N].
+3.22.5
+The design of fire-critical post-installed reinforcement bar connections should be based on a reduced
+bond strength at elevated temperatures described in BS EN 1992-1-2 [Ref 15.N].
+Proof testing for fixings
+3.23
+A proof test axial load shall be derived for each fixing.
+NOTE
+Proof testing is carried out after installation of the fixing to confirm the quality of the installation as the
+performance of fixings can be heavily influenced by workmanship and/or environmental conditions.
+3.24
+For anchors carrying tension, the proof test axial load shall be a minimum of 1.1 times the ULS design
+tensile action.
+3.25
+For anchors carrying tension, the proof test axial load shall not exceed 1.1 times the ULS design tensile
+resistance.
+3.26
+For anchors carrying shear, the proof test axial load shall be equal to or greater than the ULS design
+tensile resistance.
+3.27
+For anchors carrying shear, the proof test axial load shall not exceed 1.1 times the ULS design tensile
+resistance.
+3.28
+For post-installed reinforcing bar connections, the proof test axial load shall be a minimum of 1.1 times
+the ULS design tensile action.
+3.29
+For post-installed reinforcing bar connections, the proof test axial load shall not exceed 1.1 times the
+ULS design resistance.
+3.30
+The number of proof tests shall be recorded in the design outputs for each area of the works with a
+different size or type of fixing, different concrete strength and different installation direction in
+accordance with Table 3.32.
+Table 3.30 Proof tests for fixings
+Is the fixing safety critical?
+Minimum number of proof tests
+No
+3%*
+Yes
+10%*
+* Subject to a minimum of 3 fixings
+NOTE
+For works involving the installation of very large numbers of anchors (e.g. > 1000), the percentage of
+anchors/reinforcement bars to be tested can be reduced with the agreement of the Technical Approval
+Authority
+3.31
+The locations of the proof tests shall be recorded in the design outputs in accordance with CD 350 [Ref
+32.N].
+3.31.1
+The locations of the proof tests should be representative of the area of the works.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 42
+======================================================================
+CD 372 Version 1.0.0
+4. Project specific information to be recorded
+4.
+Project specific information to be recorded
+Design outputs for post-installed anchors and reinforcing bar connections in
+concrete
+4.1
+The design outputs for post-installed anchors and reinforcing bar connections in concrete shall be in
+accordance with Appendix C of CD 350 [Ref 32.N].
+4.2
+The design information for construction of post-installed anchors and reinforcing bar connections in
+concrete shall include the records defined in BS 8539 [Ref 1.I] that cover design.
+NOTE
+The following sections of BS 8539 [Ref 1.I] cover design:
+1)
+information to be provided by the designer to the specifier;
+2)
+information to be provided by the specifier to the contractor/installer.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 42
+======================================================================
+CD 372 Version 1.0.0
+5. Records and inspection
+5.
+Records and inspection
+Inspection and review of previous records for post-installed fixings in concrete
+5.1
+Structural elements where post-installed fixings in concrete have been installed shall be inspected for
+signs of deterioration or defects of the post-installed fixing systems as part of the structural inspection
+regime in accordance with CS 450 [Ref 19.N].
+NOTE
+Examples of signs of deterioration or defects of post-installed fixing systems can be found in CIRIA
+C778 [Ref 5.I].
+5.2
+Prior to the inspection of the post-installed fixings, the post-installed fixings as-built records shall be
+reviewed.
+NOTE
+Post-installed fixings as-built records include:
+1)
+full description, including make, type, EAD, ETA and declaration of performance (where
+applicable), size, designation, manufacturer's reference number;
+2)
+design actions and their nature;
+3)
+performance data, including characteristic resistance and design resistance ;
+4)
+material details for fixing and resin where used (eg grade, corrosion resistance);
+5)
+assumed substrate strength;
+6)
+embedment depth;
+7)
+minimum spacings, edge distances, base material thicknesses;
+8)
+measures to enable future testing in service of safety critical fixings;
+9)
+locations and identification of extra fixings for testing in service;
+10)
+future testing strategy in service and testing frequency for safety critical fixings.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 42
+======================================================================
+CD 372 Version 1.0.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CG 302, 'As-built, operational and maintenance records for
+highway structures'
+Ref 2.N
+EOTA. EAD 330499-02-0601, 'Bonded fasteners and bonded expansion fasteners for
+use in concrete [EAD]'
+Ref 3.N
+EOTA. EAD 330499-01-0601, 'Bonded fasteners for use in concrete [UKAD]' , 2020
+Ref 4.N
+BSI. BS 7985, 'Code of practice for the use of rope access methods for industrial
+purposes. Recommendations and guidance supplementary to BS ISO 22846'
+Ref 5.N
+BSI. BS EN 206, 'Concrete - specification, performance, production and conformity'
+Ref 6.N
+BSI. BS 8500-1, 'Concrete. Complementary British Standard to BS EN 206. Method
+of specifying and guidance for the specifier.'
+Ref 7.N
+BSI. BS 8500-2, 'Concrete. Complementary British Standard to BS EN 206.
+Specification for constituent materials and concrete.'
+Ref 8.N
+National Highways. CC 120, 'Construction of permanent traffic signs and road
+markings'
+Ref 9.N
+EOTA. TR 061, 'Design method for fasteners in concrete under fatigue cyclic loading'
+Ref 10.N
+EOTA. TR 082, 'Design of bonded fasteners in concrete under fire conditions'
+Ref 11.N
+BSI. BS EN 1991-1-2, 'Eurocode 1: Actions on structures exposed to fire'
+Ref 12.N
+BSI. BS EN 1991-1-5, 'Eurocode 1: Actions on structures: General actions – Thermal
+actions'
+Ref 13.N
+BSI. BS EN 1992-4, 'Eurocode 2: Design of concrete structures. Design of fastenings
+for use in concrete'
+Ref 14.N
+BSI. BS EN 1992-1-1, 'Eurocode 2: Design of concrete structures. General rules and
+rules for buildings'
+Ref 15.N
+BSI. BS EN 1992-1-2, 'Eurocode 2: Design of concrete structures.General rules -
+Structural fire design '
+Ref 16.N
+BSI. BS EN 1993-1-4, 'Eurocode 3: Design of steel structures. General rules —
+Supplementary rules for stainless steels.'
+Ref 17.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 18.N
+EOTA. EAD 330747-00-0601, 'Fasteners for use in concrete for redundant
+non-structural systems [EAD & UKAD]'
+Ref 19.N
+National Highways. CS 450, 'Inspection of highway structures'
+Ref 20.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 21.N
+EOTA. EAD 330232-01-0601, 'Mechanical fasteners for use in concrete [EAD]'
+Ref 22.N
+EOTA. EAD 330232-00-0601, 'Mechanical fasteners in concrete [UKAD]' , 2016
+Ref 23.N
+National Highways. CC 481, 'Minor Structures'
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 42
+======================================================================
+CD 372 Version 1.0.0
+6. Normative references
+Ref 24.N
+National Highways. CC 400, 'Permanent Road Restraint Systems'
+Ref 25.N
+BSI. BS 8610, 'Personal fall protection equipment. Anchor systems. Specification'
+Ref 26.N
+EOTA . EAD 330284-00-0604, 'Plastic anchors for redundant non-structural systems
+in concrete and masonry [EAD & UKAD]'
+Ref 27.N
+EOTA. EAD 330250-00-0601, 'Post-installed fasteners in concrete under fatigue
+cyclic loading [EAD]'
+Ref 28.N
+National Highways. CC 482, 'Structural concrete'
+Ref 29.N
+EOTA. EAD 330087-01-0601, 'Systems for post-installed rebar connections with
+mortar [EAD]'
+Ref 30.N
+EOTA. EAD 330087-00-0601, 'Systems for post-installed rebar connections with
+mortar [UKAD]' , 2018
+Ref 31.N
+National Highways. CG 300, 'Technical approval of highway structures'
+Ref 32.N
+National Highways. CD 350, 'The design of highway structures'
+Ref 33.N
+BSI. NA to BS EN 1991-1-5, 'UK National Annex to Eurocode 1. Actions on
+structures. General actions. Thermal actions'
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 42
+======================================================================
+CD 372 Version 1.0.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+BSI. BS 8539, 'Code of practice for the selection and installation of post-installed
+anchors in concrete and masonry'
+Ref 2.I
+BSI. BS EN 1991-2, 'Eurocode 1. Actions on structures. Traffic loads on bridges'
+Ref 3.I
+Construction Fixings Association. CFA (Fixings and fire), 'Guidance note: Fixings and
+fire'
+Ref 4.I
+Construction Industries Research and Information Association, London. Collins J et
+al. CIRIA C764, 'Hidden defects in bridges. Guidance for detection and maintenance'
+Ref 5.I
+Construction Industries Research and Information Association, London. CIRIA C778,
+'Management of safety critical fixings in-service. Guidance for the management and
+design of safety-critical fixings'
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 42
+======================================================================
+CD 372 Version 1.0.0
+Appendix A. Guidance on concept design for safety critica...
+Appendix A. Guidance on concept design for safety critical fixings
+A1
+Examples of degree of redundancy related to the safety critical classification
+Examples of situations that illustrate how the degree of redundancy can be related to the safety critical
+classification are given in Table A.1.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 42
+======================================================================
+CD 372 Version 1.0.0
+Appendix A. Guidance on concept design for safety critica...
+Table A.1 Examples illustrating how the degree of redundancy can be related to the safety critical classification
+Example situation
+Non-safety critical if...
+Safety critical if...
+Temporary works suspended from the side of a
+bridge deck to facilitate parapet replacement. The
+temporary works are to be supported by fixings
+anchored into the edge of the bridge deck.
+…there are sufficient longitudinal members within
+the temporary works to redistribute loads in the
+event of failure at a group of anchors, and the
+adjacent anchors have sufficient resistance to
+accommodate the redistributed loads.
+…each element of the temporary works is held in
+place by a small number of fixings, there is no
+mechanism to redistribute the load if these fixings
+fail and the collapse of the temporary works could
+cause injury or death.
+Service duct carrying a significant utility service
+suspended from a bridge deck. The duct is to be
+attached to the deck using anchors supporting
+brackets.
+…the service duct itself has sufficient structural
+resistance to span across a missing bracket, and
+the adjacent brackets and anchors have sufficient
+resistance to accommodate the additional
+redistributed load after loss of one bracket.
+…the consequences of failure of the utility are
+high, for example, explosion of a gas main, or if
+the loss of one bracket could lead to failure of the
+utility itself, for example due to brittle duct
+materials or lack of rotation capacity, or the
+progressive failure of the anchors.
+Environmental barrier to be fixed to the edge of a
+bridge deck using anchors where the support
+system is dependent on a small group of fixings.
+…the consequence of failure is low, if the barrier is
+likely to only fall onto a non-trafficked area on the
+road side or a low height onto an inaccessible area
+below.
+…failure of any of the small group of fixings could
+lead to failure of the support post, and the barrier
+could fall onto a live carriageway.
+Construction of a parapet plinth on a bridge. The
+plinth is to be attached to the existing deck with
+anchored reinforcing bars.
+...the plinth is continuous, as the failure of one
+reinforcement bar connection is unlikely to lead to
+a full failure of the plinth, and ultimate failure could
+also mobilise a dowel-type shear behaviour in the
+connection (even though not assumed in design).
+...each parapet post is attached to a standalone
+plinth with a small number of local reinforcement
+bar connections, since impact on a parapet post
+could cause failure of the standalone plinth.
+Traffic sign and associated bracket to be fixed to
+the edges of a bridge deck using anchors.
+...the bracket is attached using two groups of
+fixings in different orientations with some acting in
+shear and some acting in tension.
+...the bracket is attached using a small number of
+fixings in the same orientation.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 42
+======================================================================
+CD 372 Version 1.0.0
+Appendix A. Guidance on concept design for safety critica...
+A2
+Indicative strategies to eliminate safety critical fixings
+Examples of indicative strategies to eliminate safety critical fixings are shown in Table A.2 and can
+include redesign to remove the need for the fixing or adjustment of the design to avoid the fixing being
+safety critical.
+Table A.2 Indicative strategies to remove the need for safety critical fixings
+Strategy
+Example
+Review whether the fixture is necessary given that it
+introduces a safety-critical fixing.
+Review whether project requirements can be satisfied using
+alternative solutions.
+Eliminate the fixture
+Mount the fixture elsewhere; for example supported from the
+ground.
+Reduce the consequence of failure by changing the location
+of the fixture, such as away from a traffic lane.
+Make non-safety critical
+Make sufficiently robust that it is inconceivable that failure of a
+fixing can lead to collapse.
+Cast-in fixings.
+Alternatives to post-installed
+anchors or reinforcing bar
+connections
+Alternative support, such as built-in beam.
+A3
+Indicative risk factors and implications for concept design of fixing systems
+Table A.3 provides a summary of indicative risk factors and implications for concept design of fixing
+systems. Other risks can also apply, and various mitigation strategies are possible. Further guidance
+on risk factors is provided in CIRIA C778 [Ref 5.I].
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 42
+======================================================================
+CD 372 Version 1.0.0
+Appendix A. Guidance on concept design for safety critica...
+Table A.3 Indicative risk factors and implications for concept design of fixing systems
+Area
+Detail
+Implication of risk
+Repetition
+Large number of fixings to the same design and
+similar installation conditions (e.g. multiple similar
+installations or single large installation)
+Could suffer from similar degradation in future from the same common
+cause; develop strategy to provide robustness; build in ways to test
+performance in the future.
+Reinforced concrete
+Likelihood of hitting reinforcement during drilling; specification of action
+to take if reinforcement is hit.
+Shotcrete
+Interface between fixture connection and rough surface finish.
+Prestressed concrete
+Potential unsuitability of post-installed fixings due to risk of destroying
+structural prestressing strand/tendons during drilling of holes.
+Base material
+Cladding
+Potential for fixings to be hidden.
+Sustained tension
+Suitability of fixing type (risk of creep; note that resin fixings with an
+appropriate ETA are suitable for use under sustained tension).
+Actions
+Cyclic loading, shock load, exposure to vibration
+Potential restriction of fixings which are suitable for these actions. Some
+of these actions are not covered by EADs. Supplementary justifications
+and test results needed from suppliers.
+Water management (such as in tunnels)
+Likelihood of fixing being exposed to damp conditions.
+Exposure to severe chemical pollution, such as exhaust
+fumes in road tunnels, and deicing salts
+Selection of fixing material type and grade (special alloys of stainless
+steel required in these conditions).
+Damp, corrosive, temperature extremes, fire risk
+Selection of fixing material type and grade.
+Unsuitability of some resins (e.g. some ETA's state fixings are only
+suitable for dry internal conditions.).
+Potential for loss of concrete cover during fire.
+Environment
+Chlorides (such as in marine environment, deicing salts)
+Potential for stress corrosion of stainless steel.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 42
+======================================================================
+CD 372 Version 1.0.0
+Appendix A. Guidance on concept design for safety critica...
+Table A.3 Indicative risk factors and implications for concept design of fixing systems (continued)
+Area
+Detail
+Implication of risk
+Time available for installation (such as due to restricted
+access periods)
+Susceptibility of fixing type to poor quality of installation.
+Curing time for resin before loading.
+Likelihood of satisfactory supervision.
+Installation conditions (such as during night work, lighting
+conditions, working conditions including weather
+and temperature)
+Susceptibility of fixing type to quality of installation.
+Installation position (such as overhead working)
+Susceptibility of fixing type to quality of installation.
+Need for full penetration of vertical hole by resin systems.
+Practicalities
+Achievable tolerances
+Ability of fixture connection to accommodate realistically achievable
+tolerances.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 42
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 372 Version 1.0.0, published: 30-Sep-2025
+
+
