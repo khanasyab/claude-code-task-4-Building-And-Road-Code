@@ -1,0 +1,1784 @@
+======================================================================
+PAGE 1 of 30
+======================================================================
+Manual of Contract Documents for Highway Works
+Control & Communications Technology
+Construction
+TC 101
+Traffic signalling systems
+(formerly Series 1200, Clauses 1217 and 1218)
+Version E/1.0.0
+Summary
+This document gives requirements for traffic signalling systems including requirements for signal
+heads, signal detectors, signal controllers, signal posts, cables for signalling systems, chambers
+and ducts for signalling systems.
+This document incorporates specific requirements for National Highways. Alternative versions of this document are
+available for other Overseeing Organisations.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 30
+======================================================================
+TC 101 Version E/1.0.0
+Contents
+Release notes
+3
+Foreword
+4
+1. General requirements for traffic signalling systems
+5
+Scope of works for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Contractor design requirements for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Installation requirements for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Road markings and road studs for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Maintenance hardstandings and hardstanding maintenance working areas for traffic signalling systems
+6
+Tactile paving for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Asset identification labels for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Bar code labels for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Colour and external finish of traffic signalling systems street furniture . . . . . . . . . . . . . . . . . . .
+6
+Telecommunications Service Provider (TSP) interface . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Verification requirements for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Documentation requirements for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Site records for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Traffic signal heads
+9
+Product requirements for traffic signal heads
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Scope of works for traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Installation requirements for traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Mounting of traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Installation of traffic signal head backing boards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Covering of traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Documentation requirements for traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Nearside light signals and wait indicator equipment
+11
+Product requirements for nearside light signals and wait indicator equipment
+. . . . . . . . . . . . . . . . .
+11
+Scope of works for nearside light signals and wait indicator equipment . . . . . . . . . . . . . . . . . . . . .
+11
+Installation requirements for nearside light signals and wait indicator equipment . . . . . . . . . . . . . . . .
+11
+Covering of nearside light signals and wait indicator equipment . . . . . . . . . . . . . . . . . . . . . .
+11
+Documentation requirements for nearside light signals and wait indicator equipment . . . . . . . . . . . . .
+12
+4. Traffic signal detectors
+13
+Product requirements for traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Scope of works for traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Installation requirements for traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Verification requirements for traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Documentation requirements for traffic signal detectors
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Product compliance documentation for traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . .
+14
+Test and commissioning documentation for traffic signal detectors
+. . . . . . . . . . . . . . . . . . . .
+14
+5. Traffic signal controllers
+15
+Product requirements for traffic signal controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Scope of works for traffic signal controller . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Installation requirements for traffic signal controllers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Traffic signal controller configuration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Outstation Transmission Unit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+MOVA unit
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+RMS unit
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Photo cell . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Verification requirements for traffic signal controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Documentation requirements for traffic signal controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 30
+======================================================================
+TC 101 Version E/1.0.0
+Contents
+6. Auxiliary equipment cabinets for traffic signalling systems
+17
+Product requirements for auxiliary equipment cabinets for traffic signalling systems . . . . . . . . . . . . . .
+17
+Scope of works for auxiliary equipment cabinets for traffic signalling systems
+. . . . . . . . . . . . . . . . .
+17
+Installation requirements for auxiliary equipment cabinets for traffic signalling systems . . . . . . . . . . . .
+17
+Documentation requirements for auxiliary equipment cabinets for traffic signalling systems . . . . . . . . . .
+17
+7. Power supply feeder pillars for traffic signalling systems
+18
+Product requirements for power supply feeder pillars for traffic signalling systems . . . . . . . . . . . . . . .
+18
+Scope of works for power supply feeder pillars for traffic signalling systems . . . . . . . . . . . . . . . . . .
+18
+Installation requirements for power supply feeder pillars for traffic signalling systems . . . . . . . . . . . . .
+18
+Documentation requirements for power supply feeder pillars for traffic signalling systems
+. . . . . . . . . .
+18
+8. Cables for traffic signalling systems
+19
+Product requirements for cables for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Traffic signal cables
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Power cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Scope of works for cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Installation requirements for cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Installation of cables for traffic signalling systems in ducts . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Termination of cables for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Jointing of cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Marking of cables for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Earthing and bonding of traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Documentation requirements for cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . .
+20
+9. Traffic signal posts
+21
+Product requirements for traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Scope of works for traffic signal posts
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Foundations for traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Installation requirements for traffic signals posts
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+10. Chambers for traffic signalling systems
+22
+Product requirements for chambers for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . .
+22
+Product requirements for covers and frames for chambers for traffic signalling systems . . . . . . . . .
+22
+Scope of works for chambers for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Installation requirements for chambers for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . .
+22
+Installation of traffic signal chambers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Installation of plastic traffic signal chambers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Verification requirements for chambers for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . .
+23
+Verification testing for plastic traffic signal chambers . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+11. Cable ducts for traffic signalling systems
+24
+Product requirements for cable ducts for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . .
+24
+Traffic signal cable ducts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Power cable ducts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Marker tape for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Scope of works for cable ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Installation requirements for cable ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . .
+24
+Cable ducts into traffic signal chambers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Cable sub-ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Marker tape for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Backfilling to cable duct trenches for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . .
+25
+Reinstatement of existing surfaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Additional requirements for cable ducts for traffic signalling systems
+. . . . . . . . . . . . . . . . . . .
+25
+Verification requirements for cable ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . .
+25
+Documentation requirements for cable ducts for traffic signalling systems
+. . . . . . . . . . . . . . . . . . .
+25
+12. Normative references
+26
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 30
+======================================================================
+TC 101 Version E/1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TC 101
+E/1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+TC 101 replaces and updates Clauses 1217 and 1218 of Series 1200. This full document has been re-written as
+part of the MCHW re-write.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 30
+======================================================================
+TC 101 Version E/1.0.0
+Foreword
+Foreword
+This document gives requirements for the construction of works for the Overseeing Organisation.
+This document forms part of the works specification.
+The works specification is made up of both the Specification for Highway Works and the Works Specific
+Requirements completed by the Specifier.
+This document is applicable to contracts throughout the UK, complemented by the additional
+specification requirements and contractual changes of each Overseeing Organisation.
+Users are responsible for applying all appropriate documents applicable to their contract.
+Users are responsible for archiving contract documentation in accordance with the user's quality
+management system.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 30
+======================================================================
+TC 101 Version E/1.0.0
+1. General requirements for traffic signalling s...
+1.
+General requirements for traffic signalling systems
+1.1
+This document shall only apply to traffic signalling systems for permanent installations.
+1.2
+Temporary and portable traffic signalling systems shall comply with CC 130 [Ref 4.N].
+Scope of works for traffic signalling systems
+1.3
+The scheme design for the installation of traffic signalling systems shall be as stated in
+TC 101/WSR/001.
+Contractor design requirements for traffic signalling systems
+1.4
+The items of traffic signalling systems listed in Table 1.4 shall be Contractor designed items, unless
+otherwise stated in TC 101/WSR/001.
+Table 1.4 Contractor designed items for traffic signalling systems
+Contractor designed items
+Contractor designed item description
+1
+Electrical design of the traffic signalling system installation, including:
+1) the sizing and capacity of power supply feeder pillars, including
+foundation;
+2) the sizing and capacity of switchgear, including cut-outs, isolators
+and fuses;
+3) the sizing and capacity of power distribution devices;
+4) the sizing and capacity of electrical protective devices;
+5) the sizing and capacity of universal power supplies;
+6) internal wiring and earthing arrangements for all cabinets;
+7) the cable schematic and cable core schedule, including the cable
+type (including number of cores), the quantity of cables for each
+cable route and the function of each cable core; and
+8) agreement of electrical supplies with DNO, in accordance with TG
+411 [Ref 8.N].
+2
+The fixings for attaching the traffic signal heads, traffic signal head
+backing boards, nearside light signals and wait indicator equipment
+and above-ground detector equipment to the supporting infrastructure.
+1.5
+The design of traffic signalling systems shall be in accordance with TD 101 [Ref 48.N] and BS 7671
+[Ref 35.N].
+1.6
+The requirements for "Contractor design" in Section 17 of GC 101 [Ref 14.N] shall apply to traffic
+signalling systems.
+Installation requirements for traffic signalling systems
+1.7
+The overseeing and maintenance of highways electrical equipment and supporting works for traffic
+signalling systems shall be carried out by organisations registered to and operating in compliance with
+a quality management scheme in accordance with "Quality management schemes" in Section 7 of
+GC 101 [Ref 14.N].
+1.8
+Electrical installations for traffic signalling systems shall comply with BS 7671 [Ref 35.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 30
+======================================================================
+TC 101 Version E/1.0.0
+1. General requirements for traffic signalling s...
+Road markings and road studs for traffic signalling systems
+1.9
+Road markings for traffic signalling systems shall comply with "Permanent road markings" in Section 7
+of CC 120 [Ref 3.N].
+1.10
+Road studs for traffic signalling systems shall comply with "Permanent road studs" in Section 8 of
+CC 120 [Ref 3.N].
+Maintenance hardstandings and hardstanding maintenance working areas for traffic signalling
+systems
+1.11
+The location and layout of maintenance hardstandings and hardstanding maintenance working areas
+for traffic signalling systems shall be as stated in TC 101/WSR/001.
+1.12
+Maintenance hardstandings and hardstanding maintenance working areas for traffic signalling systems
+shall comply with CC 207 [Ref 12.N].
+Tactile paving for traffic signalling systems
+1.13
+Tactile paving for traffic signalling systems shall comply with CC 207 [Ref 12.N].
+Asset identification labels for traffic signalling systems
+1.14
+An asset identification label shall be affixed to each of the traffic signalling system products: traffic
+signal posts, traffic signal controllers, power supply feeder pillars and auxiliary equipment cabinets,
+unless otherwise stated in TC 101/WSR/001.
+1.15
+Asset identification labels for traffic signalling systems and their method of fixing shall be specified for
+external use and be temperature resistant for a temperature range of at least -15 ⁰C to 60 ⁰C.
+1.16
+The layout, sizing, colour and position of asset identification labels affixed to traffic signalling systems
+shall be as stated in TC 101/WSR/001.
+1.17
+The following Documentation shall be submitted for asset identification labels for traffic signalling
+systems prior to the commencement of installation: manufacturer's data sheet specifying the product
+both for external use and temperature resistant for a temperature range of at least -15 ⁰C to 60 ⁰C.
+Bar code labels for traffic signalling systems
+E/1.18
+Bar code labels for traffic signalling systems shall be compliant with SE 1199 2024 [Ref 43.N].
+E/1.19
+Bar code labels for traffic signalling systems shall be installed in accordance with PL 1166 [Ref 33.N].
+E/1.20
+The additional installation requirements for bar code labels for traffic signalling systems shall be as
+stated in TC 101/WSR/001.
+E/1.21
+The following Documentation shall be submitted for bar code labels for traffic signalling systems prior to
+the commencement of the installation of the bar code labels: build standard qualification certificate
+showing that the product conforms with the Overseeing Organisation's product requirements in
+accordance with RG 1110 [Ref 36.N].
+Colour and external finish of traffic signalling systems street furniture
+1.22
+The colour and external finish requirements for traffic signalling systems street furniture shall be as
+stated in TC 101/WSR/001.
+Telecommunications Service Provider (TSP) interface
+1.23
+The TSP(s) for this scheme shall be as stated in TC 101/WSR/001.
+1.24
+The connection interface with a TSP shall comply with the rules and regulations of that TSP.
+1.25
+The TSP rules and regulations shall be as stated in TC 101/WSR/001.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 30
+======================================================================
+TC 101 Version E/1.0.0
+1. General requirements for traffic signalling s...
+1.26
+The connection interfaces with a TSP shall be as stated in TC 101/WSR/001.
+Verification requirements for traffic signalling systems
+1.27
+An Inspection and Test Plan (ITP) detailing the inspection activities and tests to be undertaken to
+provide evidence of conformity with the requirements of this document shall be prepared for each traffic
+signalling system installation.
+1.28
+The ITP shall be prepared in accordance with BS ISO 10005 [Ref 34.N].
+1.29
+The ITP shall incorporate the mandatory tests defined in the 'Installation' section of BS EN 50556 [Ref
+37.N].
+1.30
+The ITP shall incorporate factory acceptance tests and site acceptance tests.
+1.31
+The additional requirements for the ITP shall be as stated in TC 101/WSR/001.
+1.32
+Verification shall be undertaken for each traffic signalling systems installation by undertaking the
+inspection activities and tests detailed in the ITP, with the results recorded in the ITP.
+1.33
+The frequency of inspection activities and tests detailed in the ITP shall be as detailed in the ITP.
+1.34
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to the inspection
+activities and tests for each traffic signalling systems installation.
+1.35
+Verification shall be undertaken for each traffic signalling system installation by inspection and testing in
+accordance with BS 7671 [Ref 35.N] 'Inspection and Testing', and the result recorded in the electrical
+installation certificate.
+1.36
+The frequency of the electrical inspection and testing shall be once upon the completion of the
+installation of each traffic signalling system installation.
+1.37
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to the electrical
+inspection and testing of traffic signalling system installations.
+Documentation requirements for traffic signalling systems
+1.38
+The following Documentation shall be submitted for each traffic signalling systems installation prior to
+the commencement of handover into maintenance: completed ITP with results of inspection activities
+and tests.
+1.39
+The requirements for "Documentation" in Section 2 of GC 101 [Ref 14.N] shall apply to the completed
+ITP for each traffic signalling systems installation.
+1.40
+The following Documentation shall be submitted for electrical inspection and testing of traffic signalling
+system installations prior to the commencement of commissioning: electrical installation certificate in
+accordance with BS 7671 [Ref 35.N].
+1.41
+Documentation for electrical inspection and testing of traffic signalling systems shall be submitted within
+10 working days of the completion of the inspection and testing of the traffic signalling system
+installation.
+1.42
+The following Documentation shall be submitted for all traffic signalling systems assets prior to the
+commencement of acceptance of the traffic signalling systems assets into maintenance: handover
+certificate in accordance with GG 182 [Ref 19.N].
+1.43
+The requirements for "Documentation" in Section 2 of GC 101 [Ref 14.N] shall apply to the handover
+certificate for all traffic signalling systems assets.
+1.44
+The following Documentation shall be submitted for all traffic signalling systems assets prior to the
+commencement of project closure: scheme maintenance handover documentation in accordance with
+GG 182 [Ref 19.N].
+1.45
+The requirements for "Documentation" in Section 2 of GC 101 [Ref 14.N] shall apply to the scheme
+maintenance handover documentation for all traffic signalling systems assets.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 30
+======================================================================
+TC 101 Version E/1.0.0
+1. General requirements for traffic signalling s...
+1.46
+The following Documentation shall be submitted for all traffic signalling systems assets prior to the
+commencement of project closure: traffic signalling systems scheme maintenance handover
+documentation.
+1.47
+The requirements for "Documentation" in Section 2 of GC 101 [Ref 14.N] shall apply to the traffic
+signalling systems scheme maintenance handover documentation.
+1.48
+Traffic signalling systems scheme maintenance handover documentation shall be as stated in
+TC 101/WSR/001.
+Site records for traffic signalling systems
+E/1.49
+The production and issuing of as-built record drawings for traffic signalling systems, upon completion of
+the works shall be in accordance with GG 182 [Ref 19.N].
+1.50
+The following information shall be recorded on the as-built record drawings for traffic signalling systems.
+1)
+traffic signal heads: location, type and orientation;
+2)
+nearside light units and wait indicator equipment: location, type and orientation;
+3)
+traffic signal detectors: location and type;
+4)
+traffic signal controllers: position and type;
+5)
+auxiliary equipment cabinets for traffic signalling systems: location and type;
+6)
+power supply feeder pillars for traffic signalling systems: location and type;
+7)
+detector loop cable joint positions;
+8)
+traffic signal posts: location and type;
+9)
+chambers for traffic signalling systems: location, type, depth, incoming and outgoing cable ducts,
+cable sub-ducts, type of chamber cover and details of cable joints within;
+10)
+cable ducts for traffic signalling systems: location, including depth on leaving and entering each
+chamber, offset from kerb or edge of carriageway, quantity, size and composition;
+11)
+equipment references; and
+12)
+phasing and staging diagram.
+1.51
+The recording of additional information on the as-built record drawings for traffic signalling systems
+shall be as stated in TC 101/WSR/001.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 30
+======================================================================
+TC 101 Version E/1.0.0
+2. Traffic signal heads
+2.
+Traffic signal heads
+2.1
+Traffic signal head requirements contained within this section shall cover.
+1)
+traffic signal heads, including traffic signal head backing boards, referred to as "background
+screens" in BS EN 12368 [Ref 46.N], hoods and louvres;
+2)
+farside light signals, including pedestrian, equestrian and combined pedestrian and cycle;
+3)
+low level cycle signals;
+4)
+countdown timers;
+5)
+wig-wag signals;
+6)
+regulatory signs; and
+7)
+secret regulatory signs.
+Product requirements for traffic signal heads
+2.2
+Traffic signal heads shall be compliant with BS EN 12368 [Ref 46.N].
+2.3
+The traffic signal heads shall meet the following performance characteristics: as stated in TOPAS 2543
+[Ref 30.N].
+2.4
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal heads.
+2.5
+Traffic signal heads shall be compliant with BS EN 12899-2 [Ref 11.N].
+2.6
+The traffic signal heads shall meet the following performance characteristics: Mean luminance Class
+L2, colour 'white'.
+2.7
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal heads.
+2.8
+Traffic signal heads shall be compliant with TOPAS 2543 [Ref 30.N].
+2.9
+The traffic signal heads shall meet the following performance characteristics: as stated in TOPAS 2543
+[Ref 30.N].
+2.10
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal heads.
+E/2.11
+No nationally determined requirement is provided.
+2.12
+Traffic signal heads shall be fitted with LED aspects.
+2.13
+Traffic signal head backing boards shall be black and have a white border of not less than 45 mm nor
+more than 55 mm wide.
+2.14
+The retroreflective material used for the white border on traffic signal head backing boards shall be
+compliant with BS EN 12899-1 [Ref 10.N].
+2.15
+The retroreflective material used for the white border on traffic signal head backing boards shall meet
+the following performance characteristics: coefficient of retroreflection: RA1.
+2.16
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to the
+retroreflective material used for the white border on traffic signal head backing boards.
+Scope of works for traffic signal heads
+2.17
+The installation of traffic signal heads shall be as stated in TC 101/WSR/002.
+Installation requirements for traffic signal heads
+Mounting of traffic signal heads
+2.18
+Mounting of traffic signal heads on traffic signal posts and gantries shall be in accordance with the
+manufacturer's instructions.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 30
+======================================================================
+TC 101 Version E/1.0.0
+2. Traffic signal heads
+Installation of traffic signal head backing boards
+2.19
+Traffic signal head backing boards shall be installed on all traffic signal heads.
+2.20
+Traffic signal head backing boards shall be installed in accordance with the manufacturer's instructions.
+Covering of traffic signal heads
+2.21
+All traffic signal heads shall be covered when switched off and not in normal operation.
+2.22
+Traffic signal head covers shall be opaque, non-damaging and fully cover the traffic signal head.
+2.23
+Traffic signal head covers shall be securely fixed over the traffic signal head.
+Documentation requirements for traffic signal heads
+2.24
+The following Documentation shall be submitted for traffic signal heads prior to the commencement of
+installation: declaration of conformity with TOPAS 2543 [Ref 30.N] and a completed technical file in
+accordance with TOPAS 2543 [Ref 30.N].
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 30
+======================================================================
+TC 101 Version E/1.0.0
+3. Nearside light signals and wait indicator equ...
+3.
+Nearside light signals and wait indicator equipment
+3.1
+The requirements of nearside light signals shall apply to pedestrian, equestrian, combined pedestrian
+and cycle, and cycle light signals.
+Product requirements for nearside light signals and wait indicator equipment
+3.2
+Nearside light signals shall be compliant with TOPAS 2511 [Ref 28.N].
+3.3
+The nearside light signals shall meet the following performance characteristics: as stated in TOPAS
+2511 [Ref 28.N].
+3.4
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to nearside
+light signals.
+3.5
+Wait indicator equipment shall be compliant with TOPAS 2544 [Ref 41.N].
+3.6
+The wait indicator equipment shall meet the following performance characteristics: as stated in TOPAS
+2544 [Ref 41.N].
+3.7
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to wait
+indicator equipment.
+3.8
+Non-contact wait indicator equipment shall be compliant with TOPAS 2542 [Ref 29.N].
+3.9
+The non-contact wait indicator equipment shall meet the following performance characteristics: as
+stated in TOPAS 2542 [Ref 29.N].
+3.10
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to
+non-contact wait indicator equipment.
+3.11
+Tactile equipment for wait indicator equipment shall be compliant with TOPAS 2508 [Ref 31.N].
+3.12
+The tactile equipment for wait indicator equipment shall meet the following performance characteristics:
+as stated in TOPAS 2508 [Ref 31.N].
+3.13
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to tactile
+equipment for wait indicator equipment.
+3.14
+Audible equipment for wait indicator equipment shall be compliant with TOPAS 2509 [Ref 25.N].
+3.15
+The audible equipment for wait indicator equipment shall meet the following performance
+characteristics: as stated in TOPAS 2509 [Ref 25.N].
+3.16
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to audible
+equipment for wait indicator equipment.
+E/3.17
+No nationally determined requirement is provided.
+Scope of works for nearside light signals and wait indicator equipment
+3.18
+The installation of nearside light signals and wait indicator equipment shall be as stated in
+TC 101/WSR/003.
+Installation requirements for nearside light signals and wait indicator equipment
+3.19
+Nearside light signals and wait indicator equipment shall be installed in accordance with the
+manufacturer's instructions.
+3.20
+The additional installation requirements for nearside light signals and wait indicator equipment shall be
+as stated in TC 101/WSR/003.
+Covering of nearside light signals and wait indicator equipment
+3.21
+All nearside light signals and wait indicator equipment shall be covered when switched off and not in
+normal operation.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 30
+======================================================================
+TC 101 Version E/1.0.0
+3. Nearside light signals and wait indicator equ...
+3.22
+The covers of nearside light signals and wait indicator equipment shall be opaque, non-damaging and
+fully cover the nearside light signal and wait indicator equipment.
+3.23
+The covers of nearside light signals and wait indicator equipment shall be securely fixed over the
+nearside light signal and wait indicator equipment.
+Documentation requirements for nearside light signals and wait indicator
+equipment
+3.24
+The following Documentation shall be submitted for nearside light signals prior to the commencement
+of installation: declaration of conformity with TOPAS 2511 [Ref 28.N] and a completed technical file in
+accordance with TOPAS 2511 [Ref 28.N].
+3.25
+The following Documentation shall be submitted for wait indicator equipment prior to the
+commencement of installation: declaration of conformity with TOPAS 2544 [Ref 41.N] and a completed
+technical file in accordance with TOPAS 2544 [Ref 41.N].
+3.26
+The following Documentation shall be submitted for non-contact wait indicator equipment prior to the
+commencement of installation: declaration of conformity with TOPAS 2542 [Ref 29.N] and a completed
+technical file in accordance with TOPAS 2542 [Ref 29.N].
+3.27
+The following Documentation shall be submitted for tactile equipment for wait indicator equipment prior
+to the commencement of installation: declaration of conformity with TOPAS 2508 [Ref 31.N] and a
+completed technical file in accordance with TOPAS 2508 [Ref 31.N].
+3.28
+The following Documentation shall be submitted for audible equipment for wait indicator equipment
+prior to the commencement of installation: declaration of conformity with TOPAS 2509 [Ref 25.N] and a
+completed technical file in accordance with TOPAS 2509 [Ref 25.N].
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 30
+======================================================================
+TC 101 Version E/1.0.0
+4. Traffic signal detectors
+4.
+Traffic signal detectors
+Product requirements for traffic signal detectors
+4.1
+Below ground vehicle detection for traffic signalling systems shall be compliant with TOPAS 2512 [Ref
+26.N].
+4.2
+The below ground vehicle detection for traffic signalling systems shall meet the following performance
+characteristics: as stated in TOPAS 2512 [Ref 26.N].
+4.3
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to below
+ground vehicle detection for traffic signalling systems.
+4.4
+Above ground vehicle detectors for traffic signalling systems shall be compliant with TOPAS 2505 [Ref
+24.N].
+4.5
+Above ground pedestrian detectors for traffic signalling systems shall be compliant with TOPAS 2506
+[Ref 23.N].
+4.6
+Detectors for nearside light signals and wait indicator equipment shall be compliant with TOPAS 2507
+[Ref 27.N].
+4.7
+Detector loops shall comply with "Detector loops" in Section 10 of CC 207 [Ref 12.N].
+4.8
+The additional product requirements for traffic signal detectors shall be as stated in TC 101/WSR/004.
+Scope of works for traffic signal detectors
+4.9
+The installation of traffic signal detectors shall be as stated in TC 101/WSR/004.
+Installation requirements for traffic signal detectors
+4.10
+The installation of detector loops shall be in accordance with 'Installation Requirements for Detector
+Loops', "Detector loops" in Section 10 of CC 207 [Ref 12.N].
+4.11
+The installation of detector loops shall be in accordance with MCH 1540 [Ref 42.N].
+4.12
+The installation of traffic signal detectors other than detector loops shall be in accordance with the
+manufacturer's instructions.
+4.13
+The additional installation requirements for traffic signal detectors shall be as stated in
+TC 101/WSR/004.
+Verification requirements for traffic signal detectors
+4.14
+Verification shall be undertaken for detector loops installed for traffic signals by performing loop tests
+and complete circuit tests in accordance with MCH 1540 [Ref 42.N] and recording the results in the
+installation test certificate.
+4.15
+The frequency of each detector loop test and complete circuit test shall be once upon completion of the
+loop installation and again during the test and commissioning of the system.
+4.16
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to each detector loop
+test and complete circuit test.
+4.17
+Verification shall be undertaken for traffic signal detectors other than detector loops by performing tests
+in accordance with the manufacturer's instructions and recording the results in the ITP.
+4.18
+The frequency of each test shall be as stated in the manufacturer's instructions.
+4.19
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to each test.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 30
+======================================================================
+TC 101 Version E/1.0.0
+4. Traffic signal detectors
+Documentation requirements for traffic signal detectors
+Product compliance documentation for traffic signal detectors
+4.20
+The following Documentation shall be submitted for below ground vehicle detectors for traffic signalling
+systems prior to the commencement of installation: declaration of conformity with TOPAS 2512 [Ref
+26.N] and a completed technical file in accordance with TOPAS 2512 [Ref 26.N].
+4.21
+The following Documentation shall be submitted for above ground vehicle detectors for traffic signalling
+systems prior to the commencement of installation: declaration of conformity with TOPAS 2505 [Ref
+24.N] and a completed technical file in accordance with TOPAS 2505 [Ref 24.N].
+4.22
+The following Documentation shall be submitted for above ground pedestrian detectors for traffic
+signalling systems prior to the commencement of installation: declaration of conformity with TOPAS
+2506 [Ref 23.N] and a completed technical file in accordance with TOPAS 2506 [Ref 23.N].
+4.23
+The following Documentation shall be submitted for detectors for nearside light signals and wait
+indicator equipment prior to the commencement of installation: declaration of conformity with TOPAS
+2507 [Ref 27.N] and a completed technical file in accordance with TOPAS 2507 [Ref 27.N].
+Test and commissioning documentation for traffic signal detectors
+4.24
+The following Documentation shall be submitted for traffic signal detector loops prior to the
+commencement of handover into maintenance: installation test certificates in accordance with MCH
+1540 [Ref 42.N].
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 30
+======================================================================
+TC 101 Version E/1.0.0
+5. Traffic signal controllers
+5.
+Traffic signal controllers
+5.1
+Traffic signal controller requirements contained within this section shall cover the traffic signal controller
+unit, the traffic signal controller cabinet and the traffic signal controller base.
+Product requirements for traffic signal controllers
+5.2
+Traffic signal controllers shall be compliant with BS EN 50556 [Ref 37.N].
+5.3
+The traffic signal controllers shall meet the following performance characteristics: as stated in TOPAS
+2500 [Ref 44.N].
+5.4
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal controllers.
+5.5
+Traffic signal controllers shall be compliant with BS EN 12675 [Ref 47.N].
+5.6
+The traffic signal controllers shall meet the following performance characteristics: as stated in TOPAS
+2500 [Ref 44.N].
+5.7
+Traffic signal controllers shall be compliant with TOPAS 2500 [Ref 44.N].
+5.8
+The traffic signal controllers shall meet the following performance characteristics: as stated in TOPAS
+2500 [Ref 44.N].
+5.9
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal controllers.
+5.10
+Traffic signal controllers shall be compliant with TOPAS 2130 [Ref 9.N].
+5.11
+The traffic signal controllers shall meet the following performance characteristics: as stated in TOPAS
+2130 [Ref 9.N].
+5.12
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal controllers.
+5.13
+The product requirements for the Outstation Transmission Units (OTUs) shall be as stated in
+TC 101/WSR/005.
+5.14
+The product requirements for the Microprocessor Optimised Vehicle Actuation (MOVA) units shall be as
+stated in TC 101/WSR/005.
+5.15
+The product requirements for the Remote Monitoring System (RMS) units shall be as stated in
+TC 101/WSR/005.
+5.16
+The traffic signal controllers, OTUs, MOVA and RMS units shall be fully compatible.
+5.17
+The product requirements for the photo cell shall be as stated in TC 101/WSR/005.
+5.18
+The additional product requirements for traffic signal controllers shall be as stated in TC 101/WSR/005.
+Scope of works for traffic signal controller
+5.19
+The installation of traffic signal controllers shall be as stated in TC 101/WSR/005.
+5.20
+The installation of traffic signal controllers with compatibility with external control strategies shall be as
+stated in TC 101/WSR/005.
+5.21
+The installation of photo cells to interface with the traffic signal controller shall be as stated in
+TC 101/WSR/005.
+Installation requirements for traffic signal controllers
+5.22
+Traffic signal controllers shall be installed in accordance with the manufacturer's instructions.
+5.23
+The traffic signal controller base seal shall be installed in accordance with the manufacturer's
+instructions, unless otherwise stated in TC 101/WSR/005.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 30
+======================================================================
+TC 101 Version E/1.0.0
+5. Traffic signal controllers
+Traffic signal controller configuration
+5.24
+The traffic signal controller shall be configured according to the traffic signal controller general
+specification forms for that controller.
+5.25
+The traffic signal controller general specification forms for each traffic signal controller shall be as
+stated in TC 101/WSR/005.
+5.26
+The additional installation requirements for traffic signal controllers shall be as stated in
+TC 101/WSR/005.
+Outstation Transmission Unit
+5.27
+OTUs shall be installed in accordance with the manufacturer's instructions.
+5.28
+The additional installation requirements for OTUs shall be as stated in TC 101/WSR/005.
+MOVA unit
+5.29
+MOVA units shall be installed in accordance with the manufacturer's instructions.
+5.30
+The MOVA dataset shall be installed onto the MOVA unit.
+5.31
+The MOVA dataset for each MOVA unit shall be as stated in TC 101/WSR/005.
+RMS unit
+5.32
+RMS units shall be installed in accordance with the manufacturer's instructions.
+5.33
+The additional installation requirements for RMS units shall be as stated in TC 101/WSR/005.
+Photo cell
+5.34
+Photo cells shall be installed in accordance with the manufacturer's instructions.
+5.35
+The additional installation requirements for photo cells shall be as stated in TC 101/WSR/005.
+Verification requirements for traffic signal controllers
+5.36
+Verification shall be undertaken for each traffic signal controller to confirm by testing that the
+configuration of the traffic signal controller is in accordance with the specification as detailed in the
+traffic signal controller specification form for that controller, with the results recorded in the ITP.
+5.37
+The frequency of testing shall be once before delivery to site (factory acceptance testing) and once
+following installation (site acceptance testing).
+5.38
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to each traffic signal
+controller.
+Documentation requirements for traffic signal controllers
+5.39
+The following Documentation shall be submitted for traffic signal controllers prior to the commencement
+of installation: declaration of conformity and a completed technical file in accordance with TOPAS 2500
+[Ref 44.N].
+5.40
+The following Documentation shall be submitted for traffic signal controllers prior to the commencement
+of installation: declaration of conformity and a completed technical file in accordance with TOPAS 2130
+[Ref 9.N].
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 30
+======================================================================
+TC 101 Version E/1.0.0
+6. Auxiliary equipment cabinets for traffic sign...
+6.
+Auxiliary equipment cabinets for traffic signalling systems
+6.1
+Auxiliary equipment cabinets for traffic signalling systems shall include traffic signal cable termination
+cabinets and any other cabinets required for traffic signalling systems, excluding traffic signal
+controllers and power supply feeder pillars.
+Product requirements for auxiliary equipment cabinets for traffic signalling
+systems
+6.2
+Auxiliary equipment cabinets for traffic signalling systems shall be compliant with BS EN 50556 [Ref
+37.N].
+6.3
+The auxiliary equipment cabinets for traffic signalling systems shall meet the following performance
+characteristics: as stated in TOPAS 2500 [Ref 44.N].
+6.4
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to auxiliary
+equipment cabinets for traffic signalling systems.
+6.5
+Auxiliary equipment cabinets for traffic signalling systems shall be compliant with TOPAS 2500 [Ref
+44.N] 'Environmental and EMC performance'.
+6.6
+The auxiliary equipment cabinets for traffic signalling systems shall meet the following performance
+characteristics: as stated in TOPAS 2500 [Ref 44.N] 'Environmental and EMC performance'.
+6.7
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to auxiliary
+equipment cabinets for traffic signalling systems.
+6.8
+The additional product requirements for auxiliary equipment cabinets for traffic signalling systems shall
+be as stated in TC 101/WSR/006.
+Scope of works for auxiliary equipment cabinets for traffic signalling systems
+6.9
+The installation of auxiliary equipment cabinets for traffic signalling systems shall be as stated in
+TC 101/WSR/006.
+Installation requirements for auxiliary equipment cabinets for traffic signalling
+systems
+6.10
+Auxiliary equipment cabinets for traffic signalling systems shall be installed in accordance with the
+manufacturer's instructions.
+6.11
+The auxiliary equipment cabinet base for traffic signalling systems shall be installed in accordance with
+the manufacturer's instructions.
+Documentation requirements for auxiliary equipment cabinets for traffic
+signalling systems
+6.12
+The following Documentation shall be submitted for auxiliary equipment cabinets for traffic signalling
+systems prior to the commencement of installation: declaration of conformity with TOPAS 2500 [Ref
+44.N] 'Environmental and EMC performance' and a completed technical file in accordance with TOPAS
+2500 [Ref 44.N] 'Environmental and EMC performance'.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 30
+======================================================================
+TC 101 Version E/1.0.0
+7. Power supply feeder pillars for traffic signa...
+7.
+Power supply feeder pillars for traffic signalling systems
+Product requirements for power supply feeder pillars for traffic signalling
+systems
+7.1
+Where non-stainless steel is used for the fabrication of power supply feeder pillars for traffic signalling
+systems, the steel shall be galvanised.
+7.2
+The galvanising of steel power supply feeder pillars for traffic signalling systems shall be compliant with
+BS EN ISO 1461 [Ref 16.N].
+7.3
+All power supply feeder pillars for traffic signalling systems shall be supplied with a plywood backboard.
+7.4
+The plywood backboard for power supply feeder pillars for traffic signalling systems shall have a
+minimum thickness of 12 mm, unless otherwise stated in TC 101/WSR/007.
+7.5
+Plywood backboards for power supply feeder pillars for traffic signalling systems shall be compliant with
+BS EN 314-2 [Ref 32.N].
+7.6
+The plywood backboard for power supply feeder pillars for traffic signalling systems shall meet the
+following performance characteristics: Class 3 (exterior).
+7.7
+Power supply feeder pillar doors shall be lockable.
+7.8
+The requirements for the type of locks for power supply feeder pillar doors shall be as stated in
+TC 101/WSR/007.
+7.9
+The additional product requirements for power supply feeder pillars for traffic signalling systems shall
+be as stated in TC 101/WSR/007.
+Scope of works for power supply feeder pillars for traffic signalling systems
+7.10
+The installation of power supply feeder pillars for traffic signals shall be as stated in TC 101/WSR/007.
+7.11
+The power supply type and details of electrical devices for power supply feeder pillars shall be as
+stated in TC 101/WSR/007.
+Installation requirements for power supply feeder pillars for traffic signalling
+systems
+7.12
+The installation of power supply feeder pillars for traffic signalling systems shall comply with the
+requirements of the Distribution Network Operator (DNO) for the supply connections.
+7.13
+The requirements of the DNO for any supply connections shall be as stated in TC 101/WSR/007.
+7.14
+Power supply feeder pillars for traffic signalling systems shall be installed in accordance with the
+manufacturer's instructions.
+7.15
+The power supply feeder pillar base seal for traffic signalling systems shall be installed in accordance
+with the manufacturer's instructions.
+7.16
+The requirements for internal wiring, electrical devices and earthing for power supply feeder pillars shall
+be as stated in TC 101/WSR/007.
+Documentation requirements for power supply feeder pillars for traffic
+signalling systems
+7.17
+The following Documentation shall be submitted for galvanised steel power supply feeder pillars for
+traffic signalling systems prior to the commencement of installation: declaration of compliance with BS
+EN ISO 1461 [Ref 16.N].
+7.18
+The following Documentation shall be submitted for plywood backboards for power supply feeder pillars
+for traffic signalling systems prior to the commencement of installation: manufacturer's data sheet
+showing compliance with BS EN 314-2 [Ref 32.N] and performance characteristic 'Class 3 (exterior)'.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 30
+======================================================================
+TC 101 Version E/1.0.0
+8. Cables for traffic signalling systems
+8.
+Cables for traffic signalling systems
+8.1
+Cables for traffic signalling systems shall include traffic signal cables and power cables for traffic
+signalling systems.
+Product requirements for cables for traffic signalling systems
+8.2
+Cables for traffic signalling systems, excluding loop feeder cables, loop detector cables and cables for
+controller area network (CAN) distributed cabling traffic signalling systems, shall be compliant with BS
+6346 1997 [Ref 7.N] or BS 5467 [Ref 39.N].
+8.3
+The cables for traffic signalling systems, excluding loop feeder cables, loop detector cables and cables
+for controller area network (CAN) distributed cabling traffic signalling systems, shall meet the following
+performance characteristics: voltage rating: 600/1000 V grade.
+8.4
+Loop feeder cables and loop detector cables shall be compliant with TRH 2583 [Ref 13.N].
+8.5
+Cables for CAN distributed cabling traffic signalling systems shall be compliant with TRH 2583 [Ref
+13.N], unless otherwise stated in TC 101/WSR/008.
+8.6
+The product requirements for the marking/tagging of cables for traffic signalling systems shall be as
+stated in TC 101/WSR/008.
+8.7
+The additional product requirements for cables for traffic signalling systems shall be as stated in
+TC 101/WSR/008.
+Traffic signal cables
+8.8
+All traffic signal cables, including loop feeder cables but excluding loop detector cables, shall be
+coloured orange in accordance with NJUG 1 [Ref 45.N].
+8.9
+All traffic signal cables, including loop feeder cables but excluding loop detector cables, shall be
+embossed with the legend 'TRAFFIC SIGNALS'.
+Power cables for traffic signalling systems
+8.10
+Power cables for traffic signalling systems shall be coloured black.
+Scope of works for cables for traffic signalling systems
+8.11
+Cables for traffic signalling systems shall be as stated in TC 101/WSR/008.
+8.12
+The requirement for cables for traffic signalling systems to be steel wire armoured or unarmoured shall
+be as stated in TC 101/WSR/008.
+Installation requirements for cables for traffic signalling systems
+8.13
+Cables for traffic signalling systems shall be installed in accordance with the manufacturer's
+instructions.
+8.14
+Each traffic signal post shall be individually cabled to the traffic signal controller or traffic signal
+termination cabinet, unless otherwise stated in TC 101/WSR/008.
+8.15
+Low voltage and extra low voltage cables for traffic signalling systems shall not be installed in the same
+duct.
+Installation of cables for traffic signalling systems in ducts
+8.16
+Cables for traffic signalling systems shall be installed in a fully ducted network.
+8.17
+Cables for traffic signalling systems shall not be damaged during installation in ducts for traffic
+signalling systems and cable testing.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 30
+======================================================================
+TC 101 Version E/1.0.0
+8. Cables for traffic signalling systems
+Termination of cables for traffic signalling systems
+8.18
+All termination of cables for traffic signalling systems shall be carried out in accordance with the
+manufacturer's instructions.
+8.19
+All unused cores in cables for traffic signalling systems shall be cut to a minimum length, long enough
+to connect to the furthest working-off point within the unit.
+8.20
+All unused cores in cables for traffic signalling systems shall be end sealed to IPX7 in accordance with
+BS EN 60529 [Ref 5.N]to prevent moisture ingress.
+8.21
+The additional requirements for the termination of cables for traffic signalling systems shall be as stated
+in TC 101/WSR/008.
+Jointing of cables for traffic signalling systems
+8.22
+Cable joints shall only be used for traffic signal detector loop cables, unless otherwise stated in
+TC 101/WSR/008.
+8.23
+Cable joints for traffic signal detector loop cables shall be in accordance with MCH 1540 [Ref 42.N].
+8.24
+All jointing of cables for traffic signalling systems shall be carried out in accordance with the
+manufacturer's instructions.
+8.25
+The additional requirements for the jointing of cables for traffic signalling systems shall be as stated in
+TC 101/WSR/008.
+Marking of cables for traffic signalling systems
+8.26
+All cables for traffic signalling systems shall be marked or tagged at the source and each termination to
+identify the cable destination.
+8.27
+The marking or tagging of low voltage and extra low voltage cables for traffic signalling systems shall
+be differentiated by colour.
+8.28
+The layout, format, colour and size of markings and tags for cables for traffic signalling systems shall be
+as stated in TC 101/WSR/008.
+Earthing and bonding of traffic signalling systems
+8.29
+All protective conductors of traffic signalling systems shall comply with BS 7671 [Ref 35.N] 'Protective
+conductors'.
+8.30
+Power supply earthing of traffic signalling systems shall comply with BS 7671 [Ref 35.N] 'Earthing
+arrangements'.
+Documentation requirements for cables for traffic signalling systems
+8.31
+The following Documentation shall be submitted for cables for traffic signalling systems prior to the
+commencement of installation: build standard qualification certificate showing that the product conforms
+with the Overseeing Organisation's product requirements in accordance with RG 1110 [Ref 36.N].
+8.32
+The following Documentation shall be submitted for cables for traffic signalling systems prior to the
+commencement of installation: manufacturer's data sheet showing compliance with BS 6346 1997 [Ref
+7.N] or BS 5467 [Ref 39.N].
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 30
+======================================================================
+TC 101 Version E/1.0.0
+9. Traffic signal posts
+9.
+Traffic signal posts
+Product requirements for traffic signal posts
+9.1
+Traffic signal posts shall be compliant with BS EN 12899-1 [Ref 10.N].
+9.2
+The traffic signal posts shall meet the following performance characteristics: as stated in WSR 101/009.
+9.3
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to traffic
+signal posts.
+9.4
+Hollow section traffic signal posts shall be covered at the top to prevent ingress of water.
+9.5
+Where an access door and base compartment for electrical equipment is housed in a traffic signal post,
+the access door and base compartment shall be sealed to an Ingress Protection (IP) rating of at least
+IP3x in accordance with BS EN 60529 [Ref 5.N], unless otherwise stated in TC 101/WSR/009.
+9.6
+The additional product requirements for traffic signal posts shall be as stated in TC 101/WSR/009.
+Scope of works for traffic signal posts
+9.7
+The general installation requirements for traffic signal posts shall be as stated in TC 101/WSR/009.
+9.8
+The orientation and positioning requirements for traffic signal posts shall be as stated in
+TC 101/WSR/009.
+Foundations for traffic signal posts
+9.9
+The installation requirements for foundations for traffic signal posts shall be as stated in
+TC 101/WSR/009.
+9.10
+Foundations for traffic signal posts shall comply with CC 481 [Ref 21.N].
+Installation requirements for traffic signals posts
+9.11
+The vertical alignment of traffic signal posts shall be 90 degrees to the horizontal, with a tolerance of ±1
+degree.
+9.12
+The additional installation requirements for traffic signal posts shall be as stated in TC 101/WSR/009.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 30
+======================================================================
+TC 101 Version E/1.0.0
+10. Chambers for traffic signalling systems
+10.
+Chambers for traffic signalling systems
+10.1
+Chambers for traffic signalling systems shall include traffic signal chambers, including TSP interface
+chambers, and traffic signal carriageway loop boxes.
+Product requirements for chambers for traffic signalling systems
+10.2
+Chambers shall not deform when subject to the vertical loads corresponding to the loading class of the
+cover and frame for the chamber as defined in BS EN 124-1 [Ref 15.N].
+10.3
+The maximum internal width and length of traffic signal carriageway loop boxes shall not exceed 200
+mm.
+10.4
+Cast in situ concrete for chambers for traffic signalling systems shall comply with "Concrete for ancillary
+purposes" in Section 2 of CC 495 [Ref 22.N].
+10.5
+Cast in situ concrete base slabs for chambers for traffic signalling systems shall be GEN 3 concrete,
+unless otherwise stated in TC 101/WSR/010.
+10.6
+The bricks for chambers for traffic signalling systems shall be compliant with BS EN 771-1 [Ref 40.N].
+10.7
+The bricks for chambers for traffic signalling systems shall meet the following performance
+characteristics: Class B in accordance with BS EN 771-1 [Ref 40.N] National Annex Table NA.6.
+10.8
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to bricks for
+chambers for traffic signalling systems.
+10.9
+Mortar beds for covers, frames and brickwork for chambers for traffic signalling systems shall comply
+with "Masonry mortar" in Section 5 of CC 491 [Ref 20.N].
+10.10
+The additional product requirements for chambers for traffic signalling systems shall be as stated in
+TC 101/WSR/010.
+Product requirements for covers and frames for chambers for traffic signalling systems
+10.11
+The covers and frames for chambers for traffic signalling systems shall be compliant with BS EN 124-1
+[Ref 15.N].
+10.12
+The requirements for Product certification schemes in Section 11 of GC 101 [Ref 14.N] shall apply to
+covers and frames for chambers for traffic signalling systems.
+10.13
+Traffic signal chamber covers shall be embossed or engraved with the legend 'TS' or 'TRAFFIC
+SIGNALS' on the external surface of each chamber cover complying with the requirements of BS EN
+124-1 [Ref 15.N].
+Scope of works for chambers for traffic signalling systems
+10.14
+The installation of chambers for traffic signalling systems shall be as stated in TC 101/WSR/010.
+10.15
+The requirements for securing chamber covers for chambers for traffic signalling systems shall be as
+stated in TC 101/WSR/010.
+10.16
+The requirements for drainage solutions for chambers for traffic signalling systems shall be as stated in
+TC 101/WSR/010.
+Installation requirements for chambers for traffic signalling systems
+10.17
+Chambers for traffic signalling systems, including covers and frames, shall be installed in accordance
+with the manufacturer's instructions.
+10.18
+The opening into chambers for traffic signalling systems shall not cause the chamber wall to deform.
+10.19
+The opening into chambers for traffic signalling systems shall not impede access to cable ducting and
+chamber fixing arrangements inside the chamber.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 30
+======================================================================
+TC 101 Version E/1.0.0
+10. Chambers for traffic signalling systems
+10.20
+Chambers for traffic signalling systems shall be free from debris before the installation of cables.
+10.21
+The cover, frame and brickwork for chambers for traffic signalling systems shall be set in a 10 mm
+minimum thick compound in accordance with the following requirements, or set in a proprietary
+quick-setting mortar of equivalent strength with a declaration of performance for its intended use:
+"Masonry mortar" in Section 5 of CC 491 [Ref 20.N].
+10.22
+The additional installation requirements for chambers for traffic signalling system shall be as stated in
+TC 101/WSR/010.
+Installation of traffic signal chambers
+10.23
+The traffic signal chamber base shall be constructed with a minimum 1:20 fall into the sump.
+10.24
+Concrete cover slabs shall be installed surrounding the top of traffic signal chambers on all sides to
+provide support for the traffic signal chamber covers, unless otherwise stated in TC 101/WSR/010.
+10.25
+The backfill material surrounding traffic signal chambers shall be GEN 2 concrete in accordance with
+CC 495 [Ref 22.N] or, a Class 1, 2 or 3 earthworks material in accordance with "Acceptable earthwork
+material classes, properties, and frequency of testing" in Section 3 of CC 601 [Ref 6.N].
+Installation of plastic traffic signal chambers
+10.26
+Where plastic traffic signal chambers are comprised of multiple sections, all sections shall be sealed in
+accordance with the manufacturer's instructions to prevent the ingress of water.
+10.27
+The frame for plastic traffic signal chambers shall be mechanically secured to the plastic traffic signal
+chamber walls in accordance with the manufacturer's instructions.
+Verification requirements for chambers for traffic signalling systems
+10.28
+Verification shall be undertaken for each traffic signal chamber and traffic signal loop box, including
+cover and frame, by visual inspection to ensure they have been installed in accordance with the
+manufacturer's instructions, and the result recorded in the ITP for that chamber.
+10.29
+The frequency of the visual inspection of each traffic signal chamber and traffic signal loop box,
+including cover and frame, shall be once upon the completion of installation of each chamber prior to
+backfill.
+10.30
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to the visual
+inspection of each traffic signal chamber and traffic signal loop box, including cover and frame.
+Verification testing for plastic traffic signal chambers
+10.31
+Verification shall be undertaken for each plastic traffic signal chamber by visual inspection to ensure
+they have been sealed to prevent the ingress of water, and the result recorded in the inspection and
+test plan for that chamber.
+10.32
+The frequency of the visual inspection of each plastic traffic signal chamber shall be once upon the
+completion of installation of each chamber prior to backfill.
+10.33
+The requirements for "Verification" in Section 14 of GC 101 [Ref 14.N] shall apply to the visual
+inspection of each traffic signal chamber.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 30
+======================================================================
+TC 101 Version E/1.0.0
+11. Cable ducts for traffic signalling systems
+11.
+Cable ducts for traffic signalling systems
+11.1
+Cable ducts for traffic signalling systems shall include traffic signal cable ducts and power cable ducts
+for traffic signalling systems.
+Product requirements for cable ducts for traffic signalling systems
+11.2
+Cable ducts for traffic signalling systems shall be compliant with BS EN 61386-24 [Ref 2.N].
+11.3
+The cable ducts for traffic signalling systems shall meet the following performance characteristics:
+Resistance to compression: Type 450 or Type 750; Resistance to impact: Normal; Resistance to
+bending: Rigid or Pliable.
+11.4
+The requirements of "Designated standards" in Section 10 of GC 101 [Ref 14.N] shall apply to cable
+ducts for traffic signalling systems.
+11.5
+Cable ducts for traffic signalling systems shall have a smooth internal bore.
+11.6
+The additional product requirements for cable ducts for traffic signalling systems shall be as stated in
+TC 101/WSR/011.
+Traffic signal cable ducts
+11.7
+Traffic signal cable ducts shall be coloured orange in accordance with NJUG 1 [Ref 45.N].
+11.8
+Traffic signal cable ducts shall be embossed with the legend 'TRAFFIC SIGNALS'.
+Power cable ducts
+11.9
+Power cable ducts for traffic signalling systems shall be coloured black.
+Marker tape for traffic signalling systems
+11.10
+Marker tape for traffic signalling systems shall be coloured yellow with a black legend in accordance
+with NJUG 1 [Ref 45.N].
+11.11
+Marker tape for traffic signalling systems shall incorporate a detectable metallic trace wire.
+11.12
+Marker tape for traffic signal cable ducts shall be marked with the legend 'CAUTION TRAFFIC SIGNAL
+CABLE BELOW'.
+11.13
+The legend marked on marker tape for power cable ducts for traffic signalling systems shall be as
+stated in TC 101/WSR/011.
+11.14
+The additional product requirements for marker tape for traffic signalling systems shall be as stated in
+TC 101/WSR/011.
+Scope of works for cable ducts for traffic signalling systems
+11.15
+Cable ducts for traffic signalling systems shall be as stated in TC 101/WSR/011.
+Installation requirements for cable ducts for traffic signalling systems
+11.16
+Cable ducts for traffic signalling systems shall not be bent or undulated to an internal radius less than
+the minimum bend radius of the cables to be housed within the cable duct.
+11.17
+Cable ducts for traffic signalling systems shall have no burrs or sharp edges that constitute a hazard.
+11.18
+Cable ducts for traffic signalling systems shall be free from debris before the installation of cables.
+11.19
+Cable ducts for traffic signalling systems between traffic signal chambers and traffic signal loop boxes
+shall be free from joints.
+11.20
+The requirements for sealing of cable ducts for traffic signalling systems shall be as stated in
+TC 101/WSR/011.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 30
+======================================================================
+TC 101 Version E/1.0.0
+11. Cable ducts for traffic signalling systems
+11.21
+Cable ducts for traffic signalling systems that are laid across or within 500 mm of filter drains shall be
+surrounded with 50 mm of GEN2 concrete in accordance with "Concrete for ancillary purposes" in
+Section 2 of CC 495 [Ref 22.N].
+Cable ducts into traffic signal chambers
+11.22
+Cable ducts for traffic signalling systems terminated at traffic signal chambers shall extend between 25
+mm to 50 mm into the chamber to protect the seal of the cable ducts in the case of cable duct shrinkage.
+11.23
+The draw cord requirements for cable ducts for traffic signalling systems shall comply with the 'Draw
+cords' requirements of "Ducts for roadside technology and communications" in Section 15 of TC 131
+[Ref 38.N].
+Cable sub-ducts for traffic signalling systems
+11.24
+The installation requirements for cable sub-ducts for traffic signalling systems shall be as stated in
+TC 101/WSR/011.
+Marker tape for traffic signalling systems
+11.25
+Marker tape for traffic signalling systems shall be installed at a depth 150 mm below the finished
+ground level, unless otherwise stated in TC 101/WSR/011.
+Backfilling to cable duct trenches for traffic signalling systems
+11.26
+Compaction of earthworks fill used to backfill cable duct trenches for traffic signalling systems shall
+comply with "Compaction of earthworks fill" in Section 6 of CC 601 [Ref 6.N].
+11.27
+The backfill material used for cable duct trenches for traffic signalling systems shall be Class 1, 2 or 3
+material in accordance with "Acceptable earthwork material classes, properties, and frequency of
+testing" in Section 3 of CC 601 [Ref 6.N].
+11.28
+Backfilling shall be undertaken immediately after the laying of the cable ducts for traffic signalling
+systems has been completed.
+11.29
+The additional requirements for backfilling to cable duct trenches for traffic signalling systems shall be
+as stated in TC 101/WSR/011.
+Reinstatement of existing surfaces
+11.30
+Cable ducts for traffic signalling systems in flexible pavements or concrete pavements shall be
+reinstated in compliance with one of the following options: "Excavation and reinstatement of trenches in
+flexible pavements" in Section 2 of CC 205 [Ref 18.N] or "Excavation and reinstatement of trenches in
+concrete pavements" in Section 1 of CC 206 [Ref 17.N].
+Additional requirements for cable ducts for traffic signalling systems
+11.31
+The additional installation requirements for cable ducts for traffic signalling systems shall be as stated
+in TC 101/WSR/011.
+Verification requirements for cable ducts for traffic signalling systems
+11.32
+The requirements for proving cable ducts for traffic signalling systems shall be as stated in
+TC 101/WSR/011.
+Documentation requirements for cable ducts for traffic signalling systems
+11.33
+The Documentation for proving cable ducts for traffic signalling systems shall be Cable duct survey
+records as stated in TC 101/WSR/011.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 30
+======================================================================
+TC 101 Version E/1.0.0
+12. Normative references
+12.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. OTSL. MCH 1652, 'Communications Records Drawings -
+Computer Aided Drawings Standard'
+Ref 2.N
+BSI. BS EN 61386-24, 'Conduit systems for cable management. Particular
+requirements. Conduit systems buried underground [Designated Standard - LVD until
+24/10/2025'
+Ref 3.N
+National Highways. CC 120 'Construction of permanent traffic signs, road markings
+and road studs'
+Ref 4.N
+National Highways. CC 130, 'Construction of temporary traffic signs and road
+markings'
+Ref 5.N
+BSI. BS EN 60529, 'Degrees of protection provided by enclosures (IP code).
+(Designated Standard - LVD)'
+Ref 6.N
+National Highways. CC 601 'Earthworks'
+Ref 7.N
+BSI. BS 6346, 'Electric cables – PVC insulated, armoured cables for voltages, of 600
+/ 1000 V and 1900 / 3300 V ' , 1997
+Ref 8.N
+National Highways. TG 411, 'Electricity supply connections'
+Ref 9.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2130, 'Environmental
+Tests for Road Traffic Control Equipment'
+Ref 10.N
+BSI. BS EN 12899-1, 'Fixed, vertical road traffic signs. Fixed signs (Designated
+Standard - CPR)'
+Ref 11.N
+BSI. BS EN 12899-2, 'Fixed, vertical road traffic signs. Transilluminated traffic
+bollards (TTB) (Designated Standard - CPR)'
+Ref 12.N
+National HIghways. CC 207, 'Footway, cycle track, paved area, kerb unit and access
+step construction'
+Ref 13.N
+National Highways. OTSL. TRH 2583, 'General Regulation Highways Agency Cables'
+Ref 14.N
+National Highways. GC 101, 'General requirements for the Specification for Highway
+Works'
+Ref 15.N
+BSI. BS EN 124-1, 'Gully tops and manhole tops for vehicular and pedestrian areas.
+Definitions, classification, general principles of design, performance requirements and
+test methods'
+Ref 16.N
+BSI. BS EN ISO 1461, 'Hot dip galvanized coatings on fabricated iron and steel
+articles. Specifications and test methods'
+Ref 17.N
+National Highways. CC 206 'Maintenance of concrete pavement layers'
+Ref 18.N
+National Highways. CC 205 'Maintenance of pavements with an asphalt surfacing'
+Ref 19.N
+National Highways. GG 182, 'Major schemes: Enabling handover into operation and
+maintenance'
+Ref 20.N
+National Highways. CC 491 'Masonry'
+Ref 21.N
+National Highways. CC 481, 'Minor Structures'
+Ref 22.N
+National Highways. CC 495, 'Miscellaneous'
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 30
+======================================================================
+TC 101 Version E/1.0.0
+12. Normative references
+Ref 23.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2506, 'Performance
+Specification for Above Ground On-Crossing Pedestrian Detection Systems'
+Ref 24.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2505, 'Performance
+Specification for Above Ground Vehicle Detector Systems for use at Permanent
+Traffic Signal Installations'
+Ref 25.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2509, 'Performance
+Specification for Audible Equipment for use at Pedestrian Crossings'
+Ref 26.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2512, 'Performance
+Specification for Below Ground Vehicle Detection Equipment'
+Ref 27.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2507, 'Performance
+Specification for Kerbside Detection Systems for use with Nearside Signals and
+Demand Units'
+Ref 28.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2511, 'Performance
+Specification for Nearside Signal and Demand Unit'
+Ref 29.N
+Traffic Open Products and Specifications (TOPAS) Ltd. TOPAS 2542, 'Performance
+Specification for non-contact pedestrian signal demand equipment'
+Ref 30.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2543, 'Performance
+Specification for Signal Heads'
+Ref 31.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2508, 'Performance
+Specification for Tactile Equipment for use at Pedestrian Crossings'
+Ref 32.N
+BSI. BS EN 314-2, 'Plywood. Bonding quality. Requirements'
+Ref 33.N
+National Highways. OTSL. PL 1166, 'Process for Installing Asset Bar Code Labels'
+Ref 34.N
+BSI. BS ISO 10005, 'Quality management. Guidelines for quality plans'
+Ref 35.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 36.N
+National Highways. OTSL. RG 1110, 'Requirements for Roadside Technology
+Products'
+Ref 37.N
+BSI. BS EN 50556, 'Road traffic signal systems (Designated Standard - LVD)'
+Ref 38.N
+National Highways. TC 131 'Roadside technology and communications'
+Ref 39.N
+BSI. BS 5467, 'Specification for armoured electric cables having thermosetting
+insulation 600/1000 V and 1900/3300 V'
+Ref 40.N
+BSI. BS EN 771-1, 'Specification for masonry units. Clay masonry units (Designated
+Standard - CPR)'
+Ref 41.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2544, 'Specification
+for Pedestrian Wait Indicator Equipment'
+Ref 42.N
+National Highways. OTSL. MCH 1540, 'Specification for the Installation of Detector
+Loops on Motorways and All Purpose Trunk Roads'
+Ref 43.N
+National Highways. OTSL. SE 1199, 'Specification for the Supply of Asset
+Identification Bar Code Labels' , 2024
+Ref 44.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2500, 'Specification
+for Traffic Signal Controller'
+Ref 45.N
+National Joint Utilities Group . NJUG 1, 'Street Works UK Guidance on the
+Positioning and Colour Coding of Underground Utilities' Apparatus'
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 30
+======================================================================
+TC 101 Version E/1.0.0
+12. Normative references
+Ref 46.N
+BSI. BS EN 12368, 'Traffic control equipment. Signal heads (Designated Standard -
+CPR)'
+Ref 47.N
+BSI. BS EN 12675, 'Traffic signal controllers. Functional safety requirements'
+Ref 48.N
+National Highways. TD 101, 'Traffic signalling systems (design)'
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 30
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TC 101 Version 1.0.0, published: 30-Sep-2025
+
+
