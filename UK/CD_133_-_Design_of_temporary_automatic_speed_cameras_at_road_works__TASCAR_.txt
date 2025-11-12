@@ -1,0 +1,918 @@
+======================================================================
+PAGE 1 of 20
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 133
+Design of temporary automatic speed
+cameras at road works (TASCAR)
+(formerly MCHW 117.28 - 117.47 & IAN 113/08)
+Version 1.0.0
+Summary
+Design requirements and advice document for TASCAR
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 20
+======================================================================
+CD 133 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. General requirements for TASCAR
+8
+Principles to be applied to the design of TASCAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+DMRB, MCHW and other documents applicable to the design of TASCAR . . . . . . . . . . . . . . . . . . .
+8
+3. Detailed design requirements for TASCAR
+9
+Engagement with the enforcement authority (EA) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Outputs from the design of TASCAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Speed measuring devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Siting of TASCAR equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Temporary traffic signs and road markings for TASCAR
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Power supplies for TASCAR equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Telecommunications services for TASCAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Cable ducting and cabling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Support structures for TASCAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Road restraint systems (RRS)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Reinstatement
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+4. Commissioning, calibration and verification requirements for TASCAR
+13
+TASCAR commissioning and calibration plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+TASCAR inspection, measurement and testing plan
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+TASCAR traffic signs verification plan
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+5. Normative references
+17
+6. Informative references
+18
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 20
+======================================================================
+CD 133 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 133
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+CD 133 is a new document for the design of temporary automatic speed cameras at road works (TASCAR). It is
+intended to complement CC 133 (Construction of temporary automatic speed cameras at road works).
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 20
+======================================================================
+CD 133 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 20
+======================================================================
+CD 133 Version 1.0.0
+Introduction
+Introduction
+Background
+This document provides the requirements for the design of temporary automatic speed cameras at road
+works (TASCAR).
+This document is intended for use by specialist TASCAR designers. For the majority of schemes,
+TASCAR is a contractor design item.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 20
+======================================================================
+CD 133 Version 1.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviation
+Definition
+EA
+Enforcement authority
+HOTA
+Home Office Type Approval
+RRS
+Road restraint system
+TASCAR
+Temporary automatic speed cameras at road works
+TTM
+Temporary traffic management
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 20
+======================================================================
+CD 133 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Applicable traffic signs regulations
+In England, UKSI 2016/362 [Ref 11.N] (as amended).
+In Northern Ireland, NISR 1997/386 (TSRNI) [Ref 14.N]
+(as amended).
+In Scotland, UKSI 2016/362 [Ref 11.N] (as amended).
+In Wales, UKSI 2016/362 [Ref 11.N] (as amended) and
+UKSI 1985/713 [Ref 12.N] (as amended).
+Average speed TASCAR
+A TASCAR system that measures the average speed of
+vehicles travelling through road works.
+Enforcement authority
+The individual or organisation within an area or region
+that is responsible for the enforcement of road traffic
+speed limits.
+Home Office Type Approval (HOTA)
+A testing and certification process that a speed
+measuring device is to pass before evidence from the
+device can be admissible in court. HOTA covers the
+speed measuring device itself along with any installation
+limitations placed upon the device (e.g. nearside
+detection only).
+Speed measuring device
+A device that has received HOTA.
+Spot-speed TASCAR
+A TASCAR system that measures the speed of vehicles
+at defined locations within the road works.
+TASCAR commissioning and calibration
+plan
+The TASCAR commissioning and calibration plan is as
+described in Section 4 of this document.
+TASCAR design proposals
+TASCAR design proposals are as described in Section 3
+of this document.
+TASCAR inspection, measurement and
+testing plan
+The TASCAR inspection, measurement and testing plan
+is as described in Section 4 of this document.
+TASCAR traffic signs verification plan
+The TASCAR traffic signs verification plan is as
+described in Section 4 of this document.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 20
+======================================================================
+CD 133 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall apply to the design of temporary automatic speed cameras at road works
+(TASCAR) on motorway and all-purpose trunk roads.
+NOTE 1
+Speed measuring devices used for TASCAR are covered by Home Office Type Approval (HOTA).
+HOTA is granted to the speed measuring device but can also include parameters within which the
+device is to be installed and operated for it to comply with its HOTA (e.g. the type of mast or the
+position of the device with respect to the carriageway).
+NOTE 2
+The decision to implement TASCAR on any scheme is made by the Overseeing Organisation.
+1.2
+This document shall apply to all TASCAR equipment, including speed measuring devices; camera
+recording devices; flash or other ancillary lighting units; support structures; housings; ancillary items
+and power supplies, which are not intended to remain in position, either:
+1)
+on completion of the permanent works, or
+2)
+on conclusion of the event requiring temporary enforcement of mandatory speed limits.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving TASCAR on the Overseeing
+Organisations' motorway and all-purpose trunk roads according to the implementation requirements of
+GG 101 [Ref 6.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 20
+======================================================================
+CD 133 Version 1.0.0
+2. General requirements for TASCAR
+2.
+General requirements for TASCAR
+Principles to be applied to the design of TASCAR
+2.1
+TASCAR shall be designed:
+1)
+on a scheme-specific basis;
+2)
+to detect speeding offences 24 hours per day, 7 days per week during the required period of
+operation;
+3)
+to allow each enforcement authority (EA) to retrieve and process evidence of speeding offences
+using instation facilities in each EA's office;
+4)
+so that all TASCAR equipment is secured to prevent unauthorised access and tampering; and,
+5)
+to facilitate construction of the designed scheme and the temporary traffic management (TTM)
+arrangements associated with the scheme.
+2.1.1
+TASCAR should be designed so that the installation, commissioning, operation and decommissioning
+of TASCAR have minimal impact on the works to implement the designed scheme.
+2.1.2
+The positioning of TASCAR installations may need to change during the scheme works to account for,
+for example, scheme phasing, changes in the length of carriageway subject to speed control measures,
+or changes in the speed limit to be enforced.
+2.2
+Safe systems of work, including safety risk assessment, design review, and design approval, shall be
+developed and followed throughout the design of TASCAR.
+DMRB, MCHW and other documents applicable to the design of TASCAR
+2.3
+This document shall be read in conjunction with:
+1)
+CC 133 [Ref 1.N] (Construction of TASCAR);
+2)
+CD 130 [Ref 3.N] (Design and specification requirements for temporary traffic management at
+road works and temporary layouts); and
+3)
+TSM Chapter 8 [Ref 13.N] (Traffic Signs Manual Chapter 8 - Traffic safety measures and signs for
+road works and temporary situations).
+NOTE 1
+CC 133 [Ref 1.N]includes requirements for the installation, operation, maintenance and
+decommissioning of TASCAR.
+NOTE 2
+CD 130 [Ref 3.N] includes requirements and advice for the design of temporary traffic management
+(TTM) and temporary traffic signs.
+NOTE 3
+TSM Chapter 8 [Ref 13.N] provides requirements and advice on the implementation of TASCAR and
+the deployment and placement of temporary traffic signs for TASCAR.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 20
+======================================================================
+CD 133 Version 1.0.0
+3. Detailed design requirements for TASCAR
+3.
+Detailed design requirements for TASCAR
+Engagement with the enforcement authority (EA)
+3.1
+The detailed design of TASCAR shall be determined and agreed with each EA.
+NOTE
+A scheme can cross EA boundaries, necessitating engagement with each affected EA.
+Outputs from the design of TASCAR
+3.2
+The outputs from the design of TASCAR shall be TASCAR design proposals.
+3.3
+The TASCAR design proposals shall include all details necessary:
+1)
+for the construction of TASCAR in accordance with CC 133 [Ref 1.N]; and
+2)
+to meet the works specific requirements (WSR) for the scheme.
+3.3.1
+The TASCAR design proposals should, for each scheme phase, include details of:
+1)
+scheduling for TASCAR installation, operation, maintenance, decommissioning and site
+reinstatement;
+2)
+the types, locations and methods of installation for TASCAR equipment to be installed:
+a)
+on the road;
+b)
+in the office of each EA;
+3)
+the locations and sizes of the traffic signs that are to display the speed limit that is to be enforced
+using TASCAR;
+4)
+traffic signs that are to be removed, covered or, in the case of variable message signs, disabled
+so that they do not conflict with the speed limit that is to be enforced using TASCAR;
+5)
+power supplies;
+6)
+telecommunications services;
+7)
+cable ducting and cabling;
+8)
+support structures, including:
+a)
+sub-structures and foundations; and
+b)
+evidence that the support structures have been designed to meet the demands of the road
+environment and can be safely deployed on the road;
+9)
+road restraint systems (RRS); and
+10)
+reinstatement of installation locations following TASCAR decommissioning.
+Speed measuring devices
+3.4
+Speed measuring devices selected for TASCAR shall have Home Office Type Approval (HOTA).
+NOTE 1
+HOTA is granted to specific speed measuring devices which meet the requirements of The
+Speedmeter, Traffic Light and Prohibited Lane Enforcement Camera Handbook ( SM v2.0 [Ref 10.N]).
+NOTE 2
+The design of TASCAR requires the selection of a speed measuring device supplier and product.
+Selection of a product informs the overall layout, mounting requirements, power supply design and
+other elements of TASCAR.
+3.5
+Fixings, mountings, base plates, or other items used to secure a speed measuring device to a support
+structure shall be compatible with the speed measuring device and as required for the HOTA for that
+device.
+3.6
+All speed measuring devices shall be secure and protected from any unauthorised access and
+interference.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 20
+======================================================================
+CD 133 Version 1.0.0
+3. Detailed design requirements for TASCAR
+Siting of TASCAR equipment
+3.7
+Where TASCAR equipment is to be installed on the road, it shall be sited:
+1)
+within the highway boundary;
+2)
+to allow HOTA-compliant operation; and
+3)
+to allow safe access for fault rectification, routine maintenance and wholesale replacement.
+3.7.1
+Where an average speed TASCAR system is to be installed, the length of the scheme area covered by
+the TASCAR system should be maximised.
+NOTE
+The road safety benefits of an average speed TASCAR system can be maximised by placing TASCAR
+equipment as close as possible to the beginnings and ends of speed control zones, although TSM
+Chapter 8 [Ref 13.N]advises that entry sites to average speed control zones are not located between
+the initial terminal speed limit signing and the first repeater sign.
+3.8
+Where TASCAR equipment is to be installed in an EA's office, the positioning of equipment and the
+source(s) of electricity shall be agreed with the EA.
+Temporary traffic signs and road markings for TASCAR
+3.9
+CD 130 [Ref 3.N] shall be used for the design of temporary traffic signs for TASCAR.
+3.10
+Temporary traffic signs for TASCAR shall include speed limit signs, speed camera signs and repeater
+signs in accordance with the applicable traffic signs regulations.
+3.10.1
+Where an average speed TASCAR system is to be installed, the 'average speed check' variant of the
+speed camera sign should be used.
+3.11
+A repeater sign, incorporating a speed limit repeater sign and a speed camera repeater sign, shall be
+sited so that one repeater sign is visible in each photograph captured by TASCAR.
+3.11.1
+Making one repeater sign visible in each photograph captured by TASCAR may require the provision of
+an additional repeater sign at each speed measuring device location.
+3.12
+Existing traffic signs that conflict or have the potential to conflict with the speed limit to be enforced
+using TASCAR shall be identified for removal, covering or, in the case of variable message signs,
+disabling so that they do not display a conflicting speed limit or other conflicting information when
+TASCAR is in operation.
+NOTE
+The design and implementation of plans to disable existing variable message signs is likely to require
+engagement and coordination with the Overseeing Organisation's control centre personnel.
+3.13
+Where calibration markings are required for a speed measuring device to be compliant with its HOTA,
+CD 130 [Ref 3.N]and CC 130 [Ref 2.N]shall be used for the design and construction of the temporary
+road markings.
+NOTE
+Calibration markings are not considered to be traffic signs in the applicable traffic signs regulations.
+Power supplies for TASCAR equipment
+3.14
+The means of powering TASCAR equipment shall be determined.
+3.14.1
+Mains electricity for TASCAR may be obtained from existing power supplies for roadside technology
+and communications where sufficient, spare electrical and physical capacity exists, or from on-site
+generators.
+3.14.2
+Existing power supplies that are dedicated to road lighting or traffic signals should not be used for
+TASCAR unless all other options are impracticable.
+NOTE
+Responsibility for determining and demonstrating whether existing power supplies have sufficient,
+spare electrical and physical capacity to power TASCAR equipment rests with the TASCAR designer.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 20
+======================================================================
+CD 133 Version 1.0.0
+3. Detailed design requirements for TASCAR
+3.15
+Agreement for the use of existing power supplies for TASCAR shall be obtained from the Overseeing
+Organisation prior to incorporation of such a feature in the designs for TASCAR.
+NOTE
+Obtaining agreement from the Overseeing Organisation for the use of existing power supplies for
+TASCAR is likely to necessitate consultation with different parties within the Overseeing Organisation
+including, for example, scheme managers, asset managers and maintenance managers.
+3.16
+Where electricity for TASCAR is to be obtained from existing power supplies, designs for TASCAR shall:
+1)
+maintain the electrical and physical integrity of the existing power supply installations;
+2)
+allow for connections to unmetered supplies in accordance with TG 411 [Ref 5.N]('Electricity
+supply connections'); and
+3)
+include a clear definition of the roles and responsibilities for the ongoing inspection and
+maintenance of the existing power supply installations to which TASCAR equipment is to be
+connected.
+3.17
+Power supplies for TASCAR shall be as per the manufacturer's recommendations for the selected
+speed measuring device.
+3.18
+Power supplies for TASCAR shall be as required by the HOTA for the selected speed measuring device.
+NOTE
+The Speedmeter, Traffic Light and Prohibited Lane Enforcement Camera Handbook ( SM v2.0 [Ref
+10.N]), section 6.2.3, provides further information on the requirements when using mains electricity
+supplies for speed measurement devices.
+3.19
+Electrical installations for TASCAR shall be designed in accordance with BS 7671 [Ref 7.N].
+Telecommunications services for TASCAR
+3.20
+Telecommunications equipment and services for TASCAR shall be selected so that they are:
+1)
+as required by the HOTA for the selected speed measuring device;
+2)
+independent of the Overseeing Organisation's telecommunications services;
+3)
+secured against unauthorised access; and
+4)
+available for at least 99% of the time for which TASCAR is deployed.
+Cable ducting and cabling
+3.21
+Cable routes for power and communications cabling shall be designed to ensure TASCAR operation is
+unaffected by any wider works.
+3.21.1
+Preventing TASCAR operation from being affected by any wider works areas may involve protecting
+cables within a duct network, using armoured cables or directing cable routes away from works areas.
+3.21.2
+Where temporary cables for TASCAR are routed above ground, they should be:
+1)
+sleeved in ducts of a colour complying with the Guidelines on the Positioning and Colour Coding
+of Utilities' Apparatus ( NJUG 1 [Ref 9.N]); and
+2)
+raised off the ground so that the installation is visible amongst its surroundings.
+3.21.3
+Ducts containing temporary cables for TASCAR may be raised off the ground by, for example, attaching
+the duct to a fence or stakes.
+Support structures for TASCAR
+3.22
+Support structures for TASCAR, including any sub-structures, shall be designed so that they:
+1)
+are as required by the HOTA for the selected speed measuring device;
+2)
+can meet the demands of the road environment; and
+3)
+can be safely deployed on the road.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 20
+======================================================================
+CD 133 Version 1.0.0
+3. Detailed design requirements for TASCAR
+3.23
+The design of support structures for TASCAR shall be in accordance with recognised structural design
+standards.
+NOTE
+CD 354 [Ref 4.N] is a recognised standard for the design of minor structures and includes references to
+other recognised structural design standards.
+Road restraint systems (RRS)
+3.24
+CD 377 [Ref 8.N] shall be used for the design of RRS for TASCAR.
+Reinstatement
+3.25
+Designs for TASCAR shall include plans for the reinstatement of all areas and items of infrastructure
+affected by TASCAR installations.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 20
+======================================================================
+CD 133 Version 1.0.0
+4. Commissioning, calibration and verification r...
+4.
+Commissioning, calibration and verification requirements for
+TASCAR
+TASCAR commissioning and calibration plan
+4.1
+A TASCAR commissioning and calibration plan shall be produced.
+4.2
+The TASCAR commissioning and calibration plan shall provide the methodology to be used for the
+commissioning and calibration of the TASCAR system, including:
+1)
+how each EA is to be kept informed throughout the commissioning and calibration process;
+2)
+the commissioning and calibration activities to be carried out;
+3)
+the acceptance criteria for each of the commissioning and calibration activities to be carried out;
+4)
+the production of an as-installed location plan for all on-road TASCAR equipment, including
+location datum points for enforcement purposes in the form of latitude and longitude;
+5)
+the production of electrical installation certificate(s), including schedules of electrical inspections
+and test results, in accordance with BS 7671 [Ref 7.N];
+6)
+the production of a TASCAR system commissioning report, which is signed and dated by the
+person responsible for its preparation; and
+7)
+the production of a TASCAR system calibration certificate, which is signed and dated by the
+person responsible for its preparation.
+TASCAR inspection, measurement and testing plan
+4.3
+A TASCAR inspection, measurement and testing plan shall be produced.
+4.4
+The TASCAR inspection, measurement and testing plan shall provide the methodology to be used for
+the verification of TASCAR installations following commissioning and calibration, including the
+inspection, measurement and testing of the following aspects against the acceptance criteria in Table
+4.4:
+1)
+all installation measurements and parameters defined in the HOTA for the selected TASCAR
+product;
+2)
+the accuracy and reliability of the speed measurements made by the TASCAR system;
+3)
+the accuracy and reliability of baseline link length measurements used by the TASCAR system;
+4)
+the quality of images produced by the TASCAR system; and
+5)
+the background radio field strength.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 20
+======================================================================
+CD 133 Version 1.0.0
+4. Commissioning, calibration and verification r...
+Table 4.4 TASCAR inspection, measurement and test acceptance criteria
+Item
+Inspection, measurement or test
+Applicability
+Acceptance criteria
+1
+Installation dimensions and parameters
+All TASCAR systems
+The installation dimensions and parameters do not deviate
+from the installation dimensions and parameters mandated in
+the HOTA for the selected TASCAR product.
+2
+All TASCAR systems
+Measurements of vehicle speed are reliably within the
+measuring accuracy specified in The Speedmeter, Traffic
+Light and Prohibited Lane Enforcement Camera Handbook (
+SM v2.0 [Ref 10.N]).
+3
+Accuracy and reliability of the speed measurements
+Spot-speed TASCAR
+systems
+Secondary check measurements of vehicle speed are reliably
+within ±10% of the vehicle's actual speed.
+4
+Accuracy and reliability of baseline link length
+measurements
+Average speed TASCAR
+systems
+The baseline link length measurements entered in the
+TASCAR system are measured to an accuracy of ±1 m.
+5
+Quality of images
+All TASCAR systems
+For violation record images captured by the TASCAR system:
+1) The make and model of each vehicle can be identified for
+images captured during daylight;
+2) The make and model of each vehicle can be identified for
+images captured during the hours of darkness.
+3) The registration number of each vehicle is legible.
+4) Any reference marks that are used by the TASCAR
+system are visible.
+5) A speed limit repeater sign is visible.
+6
+Background radio field strength
+All TASCAR systems
+The background radio field strength at each on-road TASCAR
+equipment location is no greater than that specified in The
+Speedmeter, Traffic Light and Prohibited Lane Enforcement
+Camera Handbook ( SM v2.0 [Ref 10.N]).
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 20
+======================================================================
+CD 133 Version 1.0.0
+4. Commissioning, calibration and verification r...
+4.4.1
+Drive-through tests with a reference vehicle, which is equipped with a calibrated speed measurement
+and location tracking device, should be used for the inspection, measurement and testing of:
+1)
+the accuracy and reliability of the TASCAR installation's speed measurements;
+2)
+the accuracy and reliability of baseline link length measurements for average speed TASCAR
+systems; and
+3)
+the quality of images captured by the TASCAR system.
+4.4.2
+For the purposes of carrying out measurements and tests of the accuracy and reliability of the TASCAR
+installation's speed measurements using a reference vehicle, the speed limit used by the TASCAR
+system to establish when an offence has occurred may be temporarily lowered so that the reference
+vehicle does not have to exceed the speed limit that applies to the road and can travel at the prevailing
+traffic speed.
+4.5
+The TASCAR inspection, measurement and testing plan shall include the methodology to be used for:
+1)
+keeping each EA informed throughout the implementation of the inspection, measurement and
+testing plan;
+2)
+calibrating the inspection, measurement and testing devices used in the inspection,
+measurement and testing of TASCAR installations;
+3)
+producing calibration certificates for the inspection, measurement and testing devices used in the
+inspection, measurement and testing of TASCAR installations which are signed and dated by the
+person(s) responsible for their preparation;
+4)
+producing records of all inspections, measurements and tests which are signed and dated by the
+person(s) responsible for their preparation; and
+5)
+producing a certificate which confirms compliance of the TASCAR installation with its HOTA and
+the accuracy of the inspection, measurement and testing documentation, and is signed and dated
+by the person responsible for its preparation.
+TASCAR traffic signs verification plan
+4.6
+A TASCAR traffic signs verification plan shall be produced.
+4.7
+The TASCAR traffic signs verification plan shall provide the methodology to be used for the inspection
+and checking of the traffic signs associated with TASCAR against the acceptance criteria in Table 4.7,
+including:
+1)
+details of the traffic signs to be inspected and checked;
+2)
+the frequency of the inspection and checking of traffic signs;
+3)
+the inspection and checking procedures;
+4)
+the form of the documentation to be produced to record the inspection and checking of traffic
+signs, including, for each set of inspections and checks:
+a)
+the name(s) of the person(s) carrying out the inspections and checks;
+b)
+the date and start time for the inspections and checks;
+c)
+the date and completion time for the inspections and checks;
+d)
+the plan of the traffic signs being inspected and checked;
+e)
+the date and time of the inspection or check of each traffic sign;
+f)
+any issues identified during the inspections and checks;
+g)
+any actions taken to resolve issues identified during the inspections and checks;
+h)
+any actions needed to resolve issues identified during the inspections and checks; and
+i)
+signing and dating of the documentation by the person(s) responsible for its preparation.
+5)
+the frequency of which documentation from the inspection and checking of traffic signs is to be
+provided to the Overseeing Organisation and each EA.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 20
+======================================================================
+CD 133 Version 1.0.0
+4. Commissioning, calibration and verification r...
+Table 4.7 TASCAR traffic signs inspection and checking acceptance criteria for each traffic sign
+Item
+Inspection or
+check
+Acceptance criteria
+1
+Location
+The traffic sign is present at its designed location, correctly orientated
+and secured in position.
+2
+Visibility
+The visibility of the traffic sign is not being impeded.
+3
+Legibility
+The legibility of the traffic sign is not being impeded.
+4
+Conflict
+There are no other traffic signs displaying a conflicting speed limit or
+any other conflicting message.
+NOTE
+Section 2 of CS 125 [Ref 1.I](Inspection of traffic signs) identifies factors that can affect the visibility and
+legibility of traffic signs.
+4.8
+The contents of the TASCAR traffic signs verification plan shall be agreed with the Overseeing
+Organisation and each EA.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 20
+======================================================================
+CD 133 Version 1.0.0
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CC 133, 'Construction of temporary automatic speed camera
+systems (TASCAR)'
+Ref 2.N
+National Highways. CC 130, 'Construction of temporary traffic signs and road
+markings'
+Ref 3.N
+National Highways. CD 130, 'Design and specification requirements for temporary
+traffic management at road works and temporary layouts'
+Ref 4.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 5.N
+National Highways. TG 411, 'Electricity supply connections'
+Ref 6.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 8.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 9.N
+National Joint Utilities Group . NJUG 1, 'Street Works UK Guidance on the
+Positioning and Colour Coding of Underground Utilities' Apparatus'
+Ref 10.N
+Home Office. SM v2.0, 'The Speedmeter, Traffic Light and Prohibited Lane
+Enforcement Camera Handbook v2.0 (19 Dec 2022)'
+Ref 11.N
+National Archive. UKSI 2016/362, 'The Traffic Signs Regulations and General
+Directions'
+Ref 12.N
+National Archives. UKSI 1985/713, 'Traffic Signs (Welsh and English Language
+Provisions) Regulations and General Directions'
+Ref 13.N
+TSO. TSM Chapter 8, 'Traffic Signs Manual Chapter 8 - Traffic Safety Measures and
+Signs for Road Works and Temporary Situations'
+Ref 14.N
+National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland)'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 20
+======================================================================
+CD 133 Version 1.0.0
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CS 125, 'Inspection of traffic signs'
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 20
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 133 Version 1.0.0, published: 30-Sep-2025
+
+
