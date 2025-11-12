@@ -1,0 +1,2838 @@
+======================================================================
+PAGE 1 of 77
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 225
+Design for new pavement foundations
+(formerly IAN 73/06 revision 1 (2009), HD 25/94)
+Version 1.1.0
+Summary
+This document sets out the design procedure for pavement foundations in terms of the ability of
+the foundation to resist loads applied both during construction and the service life of the
+pavement.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 77
+======================================================================
+CD 225 Version 1.1.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. Subgrade assessment and requirements
+11
+Construction subgrade surface modulus testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Foundation designs
+13
+Applicability for restricted, performance and widening foundation designs
+. . . . . . . . . . . . . . . . . . .
+13
+General requirements for restricted, performance and widening foundation designs . . . . . . . . . . . . . .
+13
+Frost susceptible and shrink swell materials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Restricted foundation designs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Options and restrictions for restricted foundation designs
+. . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Capping for restricted foundation designs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Thickness and material requirements for restricted foundation designs . . . . . . . . . . . . . . . . . .
+16
+Performance foundation designs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Layer stiffness requirements for performance foundation designs . . . . . . . . . . . . . . . . . . . . .
+23
+Thickness design requirements for performance foundation designs
+. . . . . . . . . . . . . . . . . . .
+23
+Performance foundation testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Widening of pavement foundations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+4. Procedure for performance foundation designs
+27
+5. Design outputs for pavement foundations
+29
+Unbound capping
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Bound capping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Feasibility of stabilisation of materials to form bound capping
+. . . . . . . . . . . . . . . . . . . . . . .
+29
+Material selection for materials to be stabilised to form bound capping . . . . . . . . . . . . . . . . . .
+30
+Material properties for materials to be stabilised to form bound capping
+. . . . . . . . . . . . . . . . .
+32
+Material properties for stabilised materials to form bound capping . . . . . . . . . . . . . . . . . . . . .
+38
+Stabilised materials to form bound capping in performance foundations
+. . . . . . . . . . . . . . . . .
+39
+Compaction of bound capping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Unbound mixtures for subbase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Hydraulically bound mixtures (HBM) for subbase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Induced cracking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Percentage of crushed and broken particles for HBGM subbase
+. . . . . . . . . . . . . . . . . . . . .
+40
+Grading category for HBGM subbase
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Resistance to fragmentation of coarse aggregates in HBGM subbase
+. . . . . . . . . . . . . . . . . .
+41
+Direct trafficking of HBM subbase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Construction type for HBM subbase
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Lower strength concrete for subbase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 77
+======================================================================
+CD 225 Version 1.1.0
+Contents
+6. Normative references
+43
+7. Informative references
+44
+Appendix A. Example performance foundation design charts
+45
+Appendix B. Worked examples
+51
+B1 Example 1 – Restricted foundation design procedure . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+B2 Example 2 – Performance foundation design procedure . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+B3 Example 3 – Restricted foundation design procedure for widening
+. . . . . . . . . . . . . . . . . . . . .
+51
+B4 Example 4 – Performance foundation design procedure . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 77
+======================================================================
+CD 225 Version 1.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 225
+1.1.0
+September 2025
+Core document,
+Northern Ireland NAA
+Incremental change to
+requirements
+Incremental changes to requirements, based on 5 years experience of using CD 225 and cyclic review.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 225
+1
+April 2020
+CD 225
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 77
+======================================================================
+CD 225 Version 1.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 225 Revision 1 which has been withdrawn.
+This document provides requirements and advice to develop the design outputs to deliver works in
+accordance with CC 201 [Ref 15.N] 'Pavement foundation construction'.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 77
+======================================================================
+CD 225 Version 1.1.0
+Introduction
+Introduction
+Background
+The main function of a pavement foundation is to distribute the applied vehicle loads to the underlying
+subgrade, without causing distress in the foundation layers or in the overlying layers. This is required
+both during construction and during the service life of the pavement.
+Pavement foundations are designed on the basis of practical minimum layer thicknesses for
+construction, protection of the subgrade during construction and long-term provision of support to the
+overlying pavement. Other considerations include drainage and durability.
+In the short-term during pavement construction, the stresses in the foundation are relatively high. It is
+expected that loads are going to be applied to the foundation by delivery vehicles, pavers and other
+construction plant. At any level where such loading is applied, the material stiffness and layer thickness
+have to be sufficient to withstand the load without damage occurring that might adversely influence, to
+any significant extent, the long-term performance.
+In the longer-term during the in-service life of a pavement, the stresses in the foundation are expected
+to be lower than during construction; although the foundation is going to experience repeated loads
+from traffic. It is essential that the assumed support of the foundation to the pavement is maintained,
+otherwise, deterioration of the upper pavement layers is going to occur more rapidly than anticipated.
+This document sets out the permitted approaches that can be taken when designing a new pavement
+foundation. A variety of materials can be utilised in the foundation in the capping and subbase layers.
+The designer can take advantage of improved foundation materials by using them to construct stronger
+and stiffer foundations that require a reduced thickness of overlying pavement construction (refer to CD
+226 [Ref 5.N]).
+Three foundation design approaches are presented:
+1)
+A restricted design approach that offers assurance of performance of the foundation through use
+of a limited palette of well understood materials.
+2)
+A performance design approach that gives flexibility to the designer in terms of the materials that
+can be used in the foundation in conjunction with top of foundation testing to confirm performance
+requirements have been met.
+3)
+A widening design approach that utilises a restricted or performance design approach to assure
+the performance of the foundation whilst considering the additional requirements to provide
+subsurface drainage continuity between the existing pavement and the widening.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 14.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 14.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 77
+======================================================================
+CD 225 Version 1.1.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+CBGM
+Cement bound granular mixture
+CBR
+California bearing ratio
+FABGM
+Fly ash bound granular mixture
+GGBS
+Ground granulated blast furnace slag
+HBM
+Hydraulically bound mixture
+HBGM
+Hydraulically bound granular mixture
+HRBBGM
+Hydraulic road binder bound granular mixture
+HSS
+Hydraulically stabilized soil
+IPI
+Immediate bearing index
+IDD
+Intact lump dry density
+LS
+Linear swelling
+MAFI
+Mean annual frost index
+msa
+Million standard axles
+OS
+Oxidisable sulfides
+TPS
+Total potential sulfates
+WS
+Water soluble sulfates
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 77
+======================================================================
+CD 225 Version 1.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Binder
+Product or combination of products used in soil stabilisation to
+form bound capping, which, when mixed with a material,
+provides either a short-term or long-term enhancement of the
+properties of the material.
+California bearing ratio
+Ratio used to characterise the bearing capacity of a mixture,
+determined immediately after compaction, or after a period of
+curing, through laboratory testing of specimen of a mixture
+contained within a mould, in accordance with BS 1924-2 [Ref
+9.N].
+Capping
+An improvement layer on top of the subgrade, protecting the
+subgrade from damage and/or increasing the stiffness at
+formation level.
+Cement
+Hydraulic binder conforming with BS EN 197-1 [Ref 2.N] or BS
+EN 197-5 [Ref 3.N].
+Construction subgrade surface
+modulus
+A value of stiffness modulus of the subgrade measured during
+construction.
+Design subgrade surface
+modulus
+An estimated value of stiffness modulus for the subgrade used
+for foundation design. It is the lower of the short-term and
+long-term subgrade surface modulus.
+Direct trafficking
+Trafficking of a layer of HBM within 7 days of construction with
+site traffic and/or traffic to construct the overlying layer.
+Fly ash
+Siliceous or calcareous fly ash conforming with BS EN
+14227-4 [Ref 12.N].
+Formation
+Level upon which subbase is placed.
+Foundation
+All materials up to and including subbase.
+Foundation surface modulus
+A stiffness modulus based on the application of a known load
+at the top of the foundation; it is a composite value
+representing all of the foundation layers under the completed
+pavement. A design value for the confined foundation under a
+pavement.
+Foundation class
+The design class of the foundation, based upon the long-term
+foundation surface modulus.
+Frost susceptible zone
+Potential frost penetration depth below the road surface,
+dependent on the mean annual frost index (MAFI) of the site.
+Ground granulated blast furnace
+slag
+Hydraulic binder conforming with BS EN 15167-1 [Ref 8.N].
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 77
+======================================================================
+CD 225 Version 1.1.0
+Terms and definitions
+(continued)
+Term
+Definition
+Hydraulically bound mixture
+A mixture which sets and hardens by hydraulic reaction,
+encompassing both hydraulically bound granular mixture
+(HBGM) and hydraulically stabilised soil (HSS).
+Hydraulically bound granular
+mixture
+Hydraulically bound mixture containing aggregates.
+Hydraulically stabilised soil
+Stabilised mixture of soil and water that sets and hardens by
+hydraulic reaction.
+Hydraulic road binder
+Factory produced hydraulic binder, supplied ready for use,
+having properties specifically suitable for treatments of bases,
+subbases and capping layers as well as earthworks.
+Layer stiffness
+The stiffness modulus assigned to a given layer that accounts
+for in-service conditions and degradation.
+Lime
+Calcium oxide or hydroxide conforming with BS EN 459-1 [Ref
+1.N]
+Long-term subgrade surface
+modulus
+An estimated value of stiffness modulus for the subgrade
+when a state of equilibrium is reached under the pavement.
+Narrow widening
+Width of pavement widening 1.2 m or less.
+Pavement
+All layers above formation.
+Performance foundation
+Pavement foundation that uses materials without pre-defined
+thicknesses or properties and is assured by performance
+related testing.
+Restricted foundation
+Pavement foundation that uses a limited selection of materials
+with established properties at defined thicknesses and does
+not require verification via performance related testing.
+Short-term subgrade surface
+modulus
+An estimated value of stiffness modulus for the subgrade
+during construction.
+Standard axle
+An axle exerting or applying a force of 80 kN. The structural
+wear associated with each vehicle increases significantly with
+increasing axle load. Although alternative methods are
+available, structural wear for pavement design in the UK is
+taken as being proportional to the 4th power of the axle load.
+The number of standard axles is the estimated structural wear
+factor for the vehicle class.
+Stiffness modulus
+The ratio of applied stress to induced strain.
+Subbase
+A platform layer upon which the main structure of a pavement
+is constructed. The subbase is both part of the foundation and
+pavement.
+Sub-formation
+Level upon which capping is placed.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 77
+======================================================================
+CD 225 Version 1.1.0
+Terms and definitions
+(continued)
+Term
+Definition
+Subgrade
+Soil or fill underlying a pavement.
+Surface modulus
+A stiffness modulus based on the application of a known load
+at the top of a layer.
+Zone of influence
+The depth of subgrade below the pavement that influences the
+construction and performance of the pavement. Typically up to
+1.5 m below the surface of the subgrade, depending on
+pavement and subgrade properties and thickness.
+The following figure provides a diagrammatic representation to illustrate some of
+the key definitions above.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 77
+======================================================================
+CD 225 Version 1.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document provides details of the requirements that shall be used to design pavement foundations.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the construction, improvement
+and maintenance of pavements on the Overseeing Organisations' motorway and all-purpose trunk
+roads according to the implementation requirements of GG 101 [Ref 14.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 14.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 77
+======================================================================
+CD 225 Version 1.1.0
+2. Subgrade assessment and requirements
+2.
+Subgrade assessment and requirements
+2.1
+The design subgrade surface modulus shall be used in accordance with Section 3, Foundation
+designs, of this document.
+2.2
+The pavement foundation shall be divided into characteristic sections of subgrade, each having a
+single design subgrade surface modulus value.
+2.2.1
+The characteristic sections should be based on type of sub grade material and conditions.
+2.3
+The short-term subgrade surface modulus and long-term subgrade surface modulus shall be
+determined for each characteristic section.
+2.3.1
+Sampling, testing and classification to determine the soil's properties at the critical moisture conditions
+anticipated during construction and over the life of the pavement foundation should be used to estimate
+the short-term subgrade surface modulus and long-term subgrade surface modulus.
+NOTE
+The short-term subgrade surface modulus and long-term subgrade surface modulus are estimated
+values.
+2.3.2
+The process outlined in TRL LR 1132 [Ref 8.I] may be used to review soil properties and construction
+assumptions when estimating the short-term subgrade surface modulus and/or long-term sub grade
+surface modulus.
+NOTE
+The presence of a high or perched water table (300 mm or less below formation level) can reduce
+subgrade stiffness, culminating in low subgrade surface modulus values at the time of construction.
+Guidance on determining subgrade surface modulus values in the presence of a high or perched water
+table is given in TRL LR 1132 [Ref 8.I].
+2.3.3
+Equation 2.3.3 may be used in the estimation of subgrade surface modulus values where the California
+bearing ratio (CBR) has been derived from dynamic cone penetrometer (DCP) testing.
+Equation 2.3.3 CBR to subgrade surface modulus conversion
+E = 17.6(CBR)0.64
+where:
+E
+estimated subgrade surface modulus
+CBR
+California bearing ratio (CBR) of the
+subgrade
+NOTE 1
+Equation 2.3.3 is valid for CBR values in the range 2 to 12 per cent
+NOTE 2
+Guidance on the application of the dynamic cone penetrometer (DCP) can be found in CS 229 [Ref 3.I].
+NOTE 3
+The results obtained from DCP testing will be affected by soil properties including particle size, soil
+water content and dry density. However, the slow or negligible rate of penetration of mixed cohesive /
+granular materials with large aggregate particles (≥20 mm) can result in an overestimation of subgrade
+surface modulus. Further, the water content of granular materials will result in greater variation of the
+subgrade surface modulus than implied by DCP penetration rates.
+2.3.4
+For widening schemes, where the subgrade is consistent across the width of the existing carriageway
+and the proposed widening, use of the in situ long-term subgrade surface modulus of the subgrade
+below the existing carriageway may be used for design purposes.
+2.4
+The design subgrade surface modulus shall be determined as being equal to the lower of the
+short-term subgrade surface modulus and the long-term subgrade surface modulus values.
+2.4.1
+For widening schemes, the depth at which the design subgrade surface modulus is determined may be
+dependent on any requirements to maintain drainage continuity between the existing carriageway and
+the proposed widening.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 77
+======================================================================
+CD 225 Version 1.1.0
+2. Subgrade assessment and requirements
+2.5
+The design subgrade surface modulus shall be rounded to a multiple of 5 MPa.
+2.6
+For each characteristic section of subgrade, the following shall be detailed:
+1)
+start and end chainage;
+2)
+short-term subgrade surface modulus (MPa);
+3)
+long-term subgrade surface modulus (MPa); and,
+4)
+design subgrade surface modulus (MPa).
+2.7
+Where the design subgrade surface modulus is lower than 30 MPa, improvement of the subgrade shall
+be undertaken.
+NOTE
+A design subgrade surface modulus value lower than 30 MPa is unsuitable to support the construction
+of a pavement foundation.
+2.8
+Subgrade improvement shall be designed to enable construction of the overlying courses and deliver
+in-service performance.
+NOTE
+Options for improvement of the subgrade include mechanical stabilisation (geogrids and/or geotextiles),
+soil stabilisation, and/or excavating and replacing typically between 500 mm to 1500 mm of the
+subgrade with granular fill.
+2.9
+Where subgrade improvement design is for excavation and replacing the material with granular fill, the
+design shall include removal of the full depth of the low stiffness material, or otherwise removing
+material to the depth of the zone of influence of the pavement.
+2.10
+The upper limit on design surface modulus for areas of improvement of the subgrade shall be 50 MPa.
+Construction subgrade surface modulus testing
+2.11
+A testing regime shall be detailed to establish the construction subgrade surface modulus.
+2.12
+The frequency of measurement of subgrade surface modulus shall be detailed where the standard
+frequency of 1 test per 60 m is not to be used.
+2.13
+The frequency of measurement of subgrade surface modulus shall be no more than 1 test per 60 m.
+2.14
+Where the construction subgrade surface modulus is found to be lower than the design subgrade
+surface modulus, then action shall be taken by either:
+1)
+redesigning the foundation using a revised lower design subgrade surface modulus where the
+construction subgrade surface modulus is 30 MPa or higher; or,
+2)
+improving the subgrade and redesigning the foundation where the construction subgrade surface
+modulus is less than 30 MPa.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+3.
+Foundation designs
+Applicability for restricted, performance and widening foundation designs
+3.1
+Subgrade characteristic sections shall be divided into one or more foundation areas.
+3.2
+Each foundation area shall have a single design approach.
+3.3
+The design approach for each foundation area shall be one of the following:
+1)
+restricted;
+2)
+performance; or,
+3)
+widening (restricted or performance).
+NOTE
+Restricted and performance design approaches can be implemented on the same scheme where
+different design approaches are appropriate depending on the requirements of specific areas within the
+scheme e.g. slip roads versus mainline.
+3.4
+The design approach shall be determined based on the scheme type, the availability of materials and
+economics.
+NOTE 1
+The restricted foundation design options are based on a limited selection of materials linked to an
+assumed performance which does not require verification via performance testing of the foundation.
+NOTE 2
+Performance foundation designs can offer economic benefits through innovation and/or the use of
+materials not permitted within restricted foundation designs. Assurance of material performance is
+provided by the performance related specification.
+NOTE 3
+Foundation designs for carriageway widening can follow either a restricted or performance foundation
+design approach with additional measures to ensure drainage paths are not impeded by the widening
+of the carriageway.
+General requirements for restricted, performance and widening foundation
+designs
+3.5
+For each foundation area, the design approach shall be detailed, i.e. restricted or performance, and
+whether it is widening.
+3.6
+Details of foundation designs shall be recorded in accordance with Section 7 of CD 226 [Ref 5.N].
+3.7
+The design for all foundation areas shall be based on achieving a foundation class selected from Table
+3.7.
+Table 3.7 Foundation classes
+Foundation class
+Assumed long-term confined foundation surface modulus (MPa)
+1
+≥50
+2
+≥100
+3
+≥200
+4
+≥400
+NOTE
+Foundation class 4 is not available for the restricted foundation design approach due to a lack of
+performance data sets generated since the inclusion of this foundation class in 2006. Therefore,
+foundation class 4 is only permitted as a performance foundation.
+3.8
+The foundation class shall be used in the pavement design in CD 226 [Ref 5.N].
+3.9
+The design subgrade surface modulus in Section 2 for each characteristic section shall be used in the
+foundation design.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+3.10
+The design thicknesses assume the foundation carries up to 1000 standard axles during construction.
+Where higher levels of construction traffic are anticipated (e.g. for a haul road), the design layer
+thickness shall be assessed for suitability versus the limiting requirement on vertical strain in the
+subgrade (see Section 4).
+3.10.1
+TRL LR 1132 [Ref 8.I] may be used to establish the subbase thickness required for different levels of
+cumulative construction traffic.
+3.10.2
+Additional subbase thickness may be required for other reasons such as at interfaces, regulation or for
+drainage continuity.
+Frost susceptible and shrink swell materials
+3.11
+Materials shall be non-frost susceptible within:
+1)
+450 mm of the designed final pavement surface, where the MAFI is 50 or greater; or,
+2)
+350 mm of the designed final pavement surface, where the MAFI is less than 50.
+NOTE 1
+Frost susceptible soils possess moderate permeability and a fairly high capillarity to enable water to be
+drawn up to the ice front. Capillary activity and permeability that permits water migration to be frost
+susceptible are associated with silts, silty fine sands and composite soils.
+NOTE 2
+Information to support determination of the MAFI can be available from the Met Office.
+NOTE 3
+Further information on the development and calculation of the MAFI is available in TRL RR 45 [Ref 9.I].
+3.12
+Where frost susceptible materials are encountered within the frost susceptible zone of the pavement,
+the design shall include:
+1)
+replacement with non-frost susceptible material; or,
+2)
+stabilisation to form a non-frost susceptible material.
+3.13
+Where shrink swell susceptible materials are encountered in the subgrade that have the potential to
+damage the pavement, the design shall include:
+1)
+replacement with non-shrink swell susceptible material; or,
+2)
+stabilisation to form a non-shrink swell susceptible material.
+NOTE 1
+Shrink swell is the volume change that occurs as a result of changes in the water content of clay rich
+soils. Swelling pressures can cause heave, or lifting of the pavement structure; whilst shrinkage can
+cause differential settlement and cracking.
+NOTE 2
+Clay rich soil properties that are consistent with the potential for shrink swell include a plasticity index
+(PI) of 15 or greater; and more than 10 percent of the soil particles are less than 5 micrometers in size.
+NOTE 3
+Further information for assessing and reporting the effects of climate change on the asset is available
+in LA 114 [Ref 4.N].
+Restricted foundation designs
+3.14
+For each restricted foundation area and for each layer to be constructed, the following shall be detailed:
+1)
+start and end chainage;
+2)
+foundation class;
+3)
+materials to be used; and,
+4)
+nominal layer thicknesses to be constructed.
+Options and restrictions for restricted foundation designs
+3.15
+Where the short-term subgrade surface modulus is 50 MPa or lower, the foundation design shall
+consist of subbase and capping.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+NOTE 1
+Foundations built on a construction subgrade surface modulus of 50 MPa or less have a high risk of
+structural rutting during construction. This can be prevented through subgrade improvement and/or the
+use of a capping layer.
+NOTE 2
+Following subgrade improvement, a capping layer is not necessarily required, dependent on the
+estimated short-term subgrade surface modulus value.
+3.16
+Foundation class 1 shall not be used where the pavement is designed for traffic loading greater than 20
+msa.
+3.17
+Type 2 unbound mixtures shall not be used where pavements are designed for traffic loading greater
+than 5 msa.
+Capping for restricted foundation designs
+3.18
+Capping for restricted foundations shall either consist of one class of capping material throughout its
+depth laid in one or more layers of compacted thickness, or be formed of not more than two courses of
+different capping materials.
+3.19
+Unbound capping for restricted foundations shall be selected from one or more of the options in Table
+3.19.
+Table 3.19 Unbound capping for restricted foundations
+Class
+Description
+6F1
+Site won selected granular material (fine grading)
+6F2
+Site won selected granular material (coarse grading)
+6F3
+Site won or imported selected granular material with 50% or more reclaimed asphalt
+6F4
+Imported selected granular material (fine grading)
+6F5
+Imported selected granular material (coarse grading)
+6S
+Granular filter layer material
+3.20
+Class 6S granular filter layer material shall only be used below unbound subbase-only foundations.
+NOTE
+Class 6S granular filter layer material can be used immediately below subbase layers to prevent
+particles from cohesive subgrade materials migrating into an unbound subbase. A filter layer is not
+required if a Class 6F granular capping layer is used.
+3.21
+Bound capping for restricted foundations shall be selected from one or more of the options in Table
+3.21.
+Table 3.21 Bound capping for restricted foundations
+Class
+Description
+9A
+Cement-stabilised well graded granular material
+9B
+Cement-stabilised silty cohesive material
+9C
+Cement-stabilised conditioned fly ash cohesive material
+9D
+Lime-stabilised cohesive material
+9E
+Lime- and cement-stabilised cohesive material
+9F
+Lime- and cement-stabilised well graded granular material
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+NOTE
+The feasibility of using site won materials (particularly soils containing organics, sulfates and/or
+sulfides) within bound capping is dependent on designing a durable mixture. Experience shows that
+initial feasibility assessment is best initiated as part of the site investigation plan.
+3.22
+Class 9D or 9E stabilised capping material shall not be used above Class 6F granular capping material.
+Thickness and material requirements for restricted foundation designs
+3.23
+Design nominal thicknesses for each layer shall be rounded up to the nearest 10 mm.
+NOTE
+For worked examples demonstrating use of the thickness charts, see Appendix B.
+3.24
+The materials used in restricted foundations shall be limited to those in Figure 3.25 to Figure 3.31.
+3.25
+The design thickness and materials for foundation class 1 designs shall be obtained from Figure 3.25.
+Figure 3.25 Restricted design options - class 1 capping only
+3.26
+The design thickness and materials for subbase only foundation class 2 designs shall be obtained from
+Figure 3.26.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.26 Restricted design options - class 2 subbase only
+3.27
+The design thickness and materials for subbase only foundation class 3 designs shall be obtained from
+Figure 3.27.
+Figure 3.27 Restricted design options - class 3 subbase only
+3.28
+The design thicknesses and materials for subbase on capping for foundation class 2 restricted designs
+shall be obtained from Figure 3.28.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.28 Restricted design options - class 2 subbase on capping
+3.29
+The design thicknesses and materials for subbase on capping for foundation class 3 restricted designs
+shall be obtained from Figure 3.29.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.29 Restricted design options - class 3 subbase on capping
+3.30
+The design thicknesses and materials for subbase on a constant thickness of bound capping for
+foundation class 2 shall be obtained from Figure 3.30.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.30 Restricted design options - class 2 subbase on bound capping
+NOTE
+Other constant nominal thicknesses of capping can be used via the performance foundation design
+approach.
+3.31
+The design thicknesses and materials for subbase on a constant thickness of bound capping for
+foundation class 3 shall be obtained from Figure 3.31.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.31 Restricted design options - class 3 subbase on bound capping
+Performance foundation designs
+3.32
+For performance foundation designs, materials shall be selected from Table 3.32.
+Table 3.32 Materials for performance foundations
+Material type
+Material options
+Unbound capping
+Class 6F1, 6F2, 6F3, 6F4, 6F5 or 6S
+Bound capping
+Materials conforming with Class 9P
+Unbound mixtures
+Materials conforming with Type 1, Type 1F, Type 2, Type 3 or
+Type 4
+Hydraulically bound mixtures
+CBGM 1, FABGM 1, HRBBGM 1, SBGM 1, SBGM 3, FABGM 3,
+HRBBGM 3, CBGM 5, FABGM 5, HSS
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Table 3.32 Materials for performance foundations (continued)
+Warm mix asphalt
+Hot mix asphalt
+AC 32 dense base 40/60 des W
+AC 32 dense base 40/60 des
+AC 20 dense bin 40/60 des W
+AC 20 dense bin 40/60 des
+AC 32 dense bin 40/60 des W
+AC 32 dense bin 40/60 des
+AC 32 dense base 40/60 rec W
+AC 32 dense base 40/60 rec
+AC 32 dense base 100/150 rec
+W
+AC 32 dense base 100/150
+rec
+AC 32 dense bin 40/60 rec W
+AC 32 dense bin 40/60 rec
+AC 32 dense bin 100/150 rec W
+AC 32 dense bin 100/150 rec
+AC 20 dense bin 40/60 rec W
+AC 20 dense bin 40/60 rec
+AC 20 dense bin 100/150 rec W
+AC 20 dense bin 100/150 rec
+AC 10 EME2 base 10/20 des W
+AC 10 EME2 base 10/20 des
+AC 10 EME2 base 15/25 des W
+AC 10 EME2 base 15/25 des
+AC 14 EME2 base 10/20 des W
+AC 14 EME2 base 10/20 des
+AC 14 EME2 base 15/25 des W
+AC 14 EME2 base 15/25 des
+AC 20 EME2 base 10/20 des W
+AC 20 EME2 base 10/20 des
+AC 20 EME2 base 15/25 des W
+AC 20 EME2 base 15/25 des
+HRA 60/32 base 40/60 rec W
+HRA 60/32 base 40/60 rec
+HRA 60/20 base 40/60 rec W
+HRA 60/20 base 40/60 rec
+SMA 20 base 40/60 W
+SMA 20 base 40/60
+Cold recycled bound material
+Ex situ cold recycled bound materials: QVE Class B2, QVE
+Class B3, QVE Class B4, SVE Class B2, SVE Class B3 or SVE
+Class B4
+Bituminous bound materials
+In situ cold recycled bound materials: QVE Class B1, QVE
+Class B2, QVE Class B3, QVE Class B4, SVE Class B1, SVE
+Class B2, SVE Class B3, SVE Class B4, QH Class B1, QH
+Class B2, QH Class B3, QH Class B4
+Lower strength concrete for
+subbases
+C6/8, C8/10, C12/15, C16/20
+NOTE
+Class 9P adopts a performance approach for bound capping, permitting additional binders versus other
+options whilst encompassing the permitted materials of all other bound capping options (9A-F).
+3.33
+The compressive strength class for HBGM used in performance foundations shall be detailed.
+3.34
+The compressive strength class or Rit for HSS used in performance foundations shall be detailed.
+3.35
+HBM used in performance foundations within the frost susceptible zone shall have minimum
+compressive strength of C2/2.5, or an Rit greater than 0.25 MPa.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+NOTE 1
+HBM with a compressive strength class of C2/2.5 or an Rit greater than 0.25 MPa are considered to be
+resistant to frost heave.
+NOTE 2
+Rit has been found to be useful for determining the frost resistance of HSS made from fine-grained
+materials such as clay and chalk. More information can be found in BS 9227 [Ref 10.N].
+3.36
+For each performance foundation area and for each course to be constructed, the following shall be
+detailed:
+1)
+start and end chainage;
+2)
+foundation class;
+3)
+the layer stiffness; and,
+4)
+nominal course thicknesses.
+Layer stiffness requirements for performance foundation designs
+3.37
+Capping layers shall be assigned a layer stiffness for use in the foundation design.
+3.38
+Subbase layers shall be assigned a layer stiffness for use in the foundation design.
+3.39
+The layer stiffness assigned to hydraulically bound mixtures for use in the foundation design shall be no
+more than 20% of the mixture's mean modulus of elasticity in compression.
+Thickness design requirements for performance foundation designs
+3.40
+The design thickness shall be derived using the layer stiffness values assigned to each layer and the
+procedure outlined in Section 4.
+3.40.1
+When the subgrade surface modulus is expected to be 50 MPa or less at the time of construction, a
+capping layer should be added to provide a working platform for construction of the subsequent layers.
+NOTE
+Foundations built on a construction subgrade surface modulus of 50 MPa or less have a high risk of
+structural rutting during construction if the foundation does not incorporate a capping layer.
+3.41
+The minimum performance foundation design thickness for class 1 and 2 foundations shall be 150 mm.
+3.42
+The minimum performance foundation design thickness for class 3 foundations shall be 180 mm.
+3.43
+The minimum performance foundation design thickness for class 4 foundations shall be 200 mm.
+3.44
+The nominal thickness for each foundation course for performance foundations shall be the derived
+design thickness plus an additional thickness based on the:
+1)
+allowable surface level tolerances in Figure 3.44;
+2)
+capability of the construction equipment to meet the design level;
+3)
+material properties for construction (permanent deformation); and,
+4)
+material properties for in-service performance (foundation surface modulus).
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.44 Permitted deviation from design level for subbase, formation and
+sub-formation
+Performance foundation testing
+3.45
+Where the demonstration area fails to meet the requirements of the performance pavement foundation
+testing, for foundation surface modulus and permanent deformation, for that foundation class, then the
+materials shall be modified or the foundation redesigned.
+NOTE
+The foundation surface modulus measured is for a partially confined foundation and is not to be
+confused with the long-term confined foundation surface modulus values within Table 3.7.
+3.45.1
+The foundation redesign may involve increasing foundation thickness and/or changing the materials
+used.
+3.46
+Where the foundation surface modulus is lower than that specified for the designed foundation class,
+action shall be taken to either undertake improvement or review the foundation design.
+NOTE
+The approach for improvement is dependent on the scale of the issue and the practical options
+available on site.
+3.47
+Where a foundation area within the main works fails to conform with the surface modulus performance
+measurement requirements, and the foundation is to be redesigned, the suitability of the redesigned
+foundation shall be confirmed with a demonstration area.
+Widening of pavement foundations
+3.48
+For widening, the pavement and the foundation of the existing adjacent carriageway shall be assessed
+to establish the material type, condition and the thickness of each layer.
+NOTE 1
+The type, condition, construction thicknesses and levels of the layers in the adjacent pavement and
+foundation are key to the design of the widened pavement and foundation.
+NOTE 2
+This section only details the requirements for the pavement foundations.
+3.49
+For widening, the design for each foundation area shall follow either a restricted or performance
+foundation design approach.
+3.50
+The foundation design for widening shall provide continuity of drainage.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+NOTE
+The requirement for drainage continuity can result in a thicker subbase layer than required by the
+foundation design.
+3.50.1
+Continuity of drainage may be achieved by selecting:
+1)
+materials that do not inhibit the flow of subsurface drainage through the foundation;
+2)
+layer thicknesses; and/or,
+3)
+crossfalls.
+3.50.2
+For the narrow widening of restricted foundations, lower strength concrete or foamed concrete options
+in Table 3.50.2 may be used, subject to maintaining drainage continuity.
+Table 3.50.2 Alternate foundation materials for narrow widening
+Foundation material
+Alternate foundation material for narrow widening
+Unbound capping
+Unbound subbase
+Foamed concrete
+Lower strength concrete C6/8
+Lower strength concrete C8/10
+HBGM 5 C3/4
+Lower strength concrete C6/8
+Lower strength concrete C8/10
+HBGM 5 C8/10
+Lower strength concrete C8/10
+NOTE
+Foamed concrete is unsuitable for narrow widening of pavement foundations at steep gradients or
+crossfalls due to the material's free-flowing and self levelling nature.
+3.50.3
+Where the narrow widening design includes lower strength concrete subbase course and base course,
+the courses should be combined as a single layer of the base course lower strength concrete.
+3.51
+Edge of pavement drains shall be designed in accordance with CD 524 [Ref 6.N].
+3.52
+Where the existing subsurface drainage falls towards the existing pavement, the formation level within
+the widening shall fall in the opposite direction, away from the existing pavement, to avoid additional
+water contributing to the existing drainage paths (refer to Figure 3.52, for example).
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 77
+======================================================================
+CD 225 Version 1.1.0
+3. Foundation designs
+Figure 3.52 Pavement falls towards existing carriageway
+NOTE
+Additional thickness of subbase to match the existing formation level in this scenario is not required.
+However, there can be practical construction benefits to doing so.
+3.53
+Where the existing subsurface drainage falls towards the widening, the formation level within the
+widening shall either match or be lower than the existing formation level (refer to Figure 3.53, for
+example).
+Figure 3.53 Pavement falls away from existing carriageway
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 77
+======================================================================
+CD 225 Version 1.1.0
+4. Procedure for performance foundation designs
+4.
+Procedure for performance foundation designs
+4.1
+Performance foundation design thicknesses shall be derived analytically using multi-layer linear elastic
+analysis.
+NOTE
+Design charts for a range of layer stiffness and foundation class scenarios are contained within
+Appendix A.
+4.2
+Performance design criteria of subgrade strain and surface deflection shall be as detailed in this
+Section.
+NOTE 1
+Protection of the subgrade during construction (short-term) is based on the vertical compressive strain
+in the top of the subgrade. The structural response is limited so that excessive deformation does not
+occur.
+NOTE 2
+Support for the pavement during its design life is defined by calculating the deflection of the foundation
+under the action of a wheel load at the top of foundation level, shown in Figure 4.3. The deflection
+under a given load can be equated to a surface modulus for the foundation as a whole.
+4.3
+The vertical strain in the subgrade shall be calculated under the action of a standard 40 kN wheel-load
+travelling at the top of foundation level. Refer to Figure 4.3.
+Figure 4.3 Input parameters for performance foundation designs
+4.4
+The vertical strain in the subgrade for the corresponding design subgrade surface modulus value shall
+not exceed the limits in Table 4.4.
+Table 4.4 Subgrade strain limits for performance foundation designs
+Design subgrade surface modulus (MPa)
+30
+35
+40
+45
+50
+60
+Maximum permitted subgrade strain
+(microstrain)
+1953
+2206
+2480
+2774
+3051
+2999
+Design subgrade surface modulus (MPa)
+70
+80
+100
+120
+150
+Maximum permitted subgrade strain
+(microstrain)
+2942
+2879
+2703
+2362
+1946
+NOTE
+Based on the principles presented by TRL LR 1132 [Ref 8.I], these limits assume that the foundation
+carries up to 1000 standard axles of traffic with no more than 40 mm deformation at the top of subbase.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 77
+======================================================================
+CD 225 Version 1.1.0
+4. Procedure for performance foundation designs
+4.4.1
+Subgrade strain limits for design subgrade surface modulus values other than those in Table 4.4 may
+be derived by interpolation.
+4.4.2
+Trafficking at lower levels may be permitted provided the deformation limits given in the performance
+specification are not exceeded.
+4.5
+The deflection of the foundation shall be calculated under the action of a standard wheel load (40 kN
+load over a 151 mm-radius loaded area).
+4.6
+The maximum deflection of the foundation for each foundation class under a standard wheel load (40
+kN load over a 151 mm-radius loaded area) shall be:
+1)
+Foundation class 1 - 2.96 mm;
+2)
+Foundation class 2 - 1.48 mm;
+3)
+Foundation class 3 - 0.74 mm;
+4)
+Foundation class 4 - 0.37 mm.
+NOTE
+These limits are based on the criteria used in TRL LR 1132 [Ref 8.I] and TRL PPR 127 [Ref 5.I].
+4.7
+The Poisson's Ratio value used in the design for subbase materials shall be 0.35.
+4.8
+The Poisson's Ratio value used in the design for subgrade materials including capping and the 10,000
+MPa layer assumed 1.5 m below the surface of the subgrade shall be 0.45.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+5.
+Design outputs for pavement foundations
+Unbound capping
+5.1
+The frequency of plasticity testing shall be detailed for class 6S site won material where the standard
+frequency of once per 5000 tonnes of material is not to be used.
+5.1.1
+A greater testing frequency may be adopted where variability has been identified in the material source
+or the material to be used is less than 5000 tonnes.
+Bound capping
+Feasibility of stabilisation of materials to form bound capping
+5.2
+Materials to be stabilised to form bound capping shall be assessed for feasibility of stabilisation.
+NOTE
+Feasibility assessments are undertaken to identify material compatibility with stabilising equipment and
+the presence of constituents that can adversely affect performance of the setting, hardening,
+performance and volumetric stability of the stabilised material.
+5.2.1
+Britpave guides BP 51 [Ref 7.I]and BP 62 [Ref 6.I]should be used to determine the potential feasibility
+of stabilisation of site won materials through a desktop study to identify the risks associated with
+different geologies and inform the ground investigation plan.
+NOTE
+The feasibility of using site won materials (particularly soils containing organics, sulfates and/or
+sulfides) within bound capping is dependent on designing a durable mixture. Experience shows that
+initial feasibility assessment is best initiated as part of the site investigation.
+5.2.2
+Feasibility of stabilisation for site won materials should include establishing the following properties for
+the materials:
+1)
+material type;
+2)
+range of variation of the material nature and its water content;
+3)
+plasticity index;
+4)
+class of the material to be stabilised;
+5)
+sulfur content;
+6)
+total potential sulfate content;
+7)
+organic matter content and type; and,
+8)
+resistance to water.
+NOTE 1
+The quality and suitability of imported aggregates to be used to form bound capping is controlled by
+requirements in BS EN 13242 [Ref 1.I] and the assessment and verification of constancy of
+performance (AVCP) system.
+NOTE 2
+Laboratory CBR and linear swelling testing can be used to determine the feasibility of stabilisation for
+materials with elevated levels of organic matter. Guidance on acceptable limits of organic matter to
+produce durable mixtures can be found in Britpave guide BP 62 [Ref 6.I].
+NOTE 3
+Linear swelling testing can be used to determine feasibility of stabilisation for materials with high
+sulfate/sulfide levels. Guidance can be found in Britpave guide BP 51 [Ref 7.I].
+5.3
+For cohesive materials (Class 7E, 7F and 7I) to form bound capping, a mixture design shall be
+undertaken at design stage to demonstrate that the linear swelling category LS5 can be achieved at the
+characteristic water soluble (WS) sulfate, oxidisable sulfides (OS), and total potential sulfate (TPS)
+content of the material.
+5.3.1
+The process and guidance provided in Britpave guide BP 51 [Ref 7.I] may be used to derive limits for
+WS, OS and TPS.
+5.4
+Where materials are encountered that contain excessive levels of organic matter, sulfates and/or
+sulfides, the foundation shall be redesigned to use alternatives to bound capping.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Material selection for materials to be stabilised to form bound capping
+5.5
+The binder type and bound capping class shall be selected from one or more of the options in Table 5.5
+based on the plasticity index and classification of material to be stabilised.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Table 5.5 Material selection for materials to be stabilised to form bound capping
+Material type
+Plasticity index
+Material to be stabilised class
+Binder type
+Bound capping class
+≤20
+6E dry granular material
+Cement
+9A
+Granular
+≤20
+6R wet granular material
+Lime and cement
+9F
+≥10
+7E cohesive material
+Lime
+9D
+≥10
+7I cohesive material
+Lime and cement
+9E
+Cohesive
+≤20
+7F silty cohesive material
+Cement
+9B
+Fly ash
+N/A
+7G fly ash
+Cement
+9C
+Any
+Any
+Materials to form performance bound
+capping
+6E dry granular material
+6R wet granular material
+7E cohesive material
+7I cohesive material
+7F silty cohesive material
+7G fly ash
+1) cement;
+2) lime;
+3) fly ash;
+4) GGBS; and / or,
+5) hydraulic road binder.
+9P
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+5.5.1
+The process and guidance provided in Britpave guide BP 62 [Ref 6.I] may be used to derive the choice
+of binder(s).
+Material properties for materials to be stabilised to form bound capping
+5.6
+For the design of bound capping, the limits for the material properties in Table 5.6 shall be detailed for
+the classification of the material to be stabilised.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Table 5.6 Limits for the material properties for materials to form bound capping to be detailed by the design
+Material property
+Material to be stabilised class
+Characteristics for execution
+Chemical testing
+Other
+Class 6E (site won)
+Maximum water content
+Maximum organic matter content
+Maximum WS content
+Maximum OS content
+-
+Class 6E (imported)
+Maximum water content
+Maximum organic matter content
+-
+Class 6R (site won)
+Minimum water content
+Maximum organic matter content
+Maximum WS content
+Maximum OS content
+Maximum IDD (chalk only)
+Class 6R (imported)
+Minimum water content
+Maximum organic matter content
+Maximum IDD (chalk only)
+Class 7G (imported)
+Minimum water content
+Maximum water content
+Maximum organic matter content
+Maximum WS content
+Maximum OS content
+Maximum TPS content
+-
+Class 7E (site won)
+Minimum MCV
+Maximum organic matter content
+Maximum WS content
+Maximum OS content
+Maximum TPS content
+-
+Class 7F (site won)
+Minimum MCV
+Maximum MCV
+Maximum organic matter content
+Maximum WS content
+Maximum OS content
+Maximum TPS content
+-
+Class 7I (site won)
+Minimum MCV
+Maximum organic matter content
+Maximum WS content
+Maximum OS content
+Maximum TPS content
+-
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Table 5.6 Limits for the material properties for materials to form bound capping to be detailed by the design (continued)
+Material property
+Material to be stabilised class
+Characteristics for execution
+Chemical testing
+Other
+Notes:
+WS = Water soluble sulfate
+OS = Oxidisable sulfides
+TPS = Total potential sulfates
+MCV = Moisture condition value
+IDD = Impact lump dry density
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+5.6.1
+Acceptability limits for the relevant material properties may be based on guidance provided in Table
+5.6.1.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Table 5.6.1 Guidance on acceptability limits for materials to be stabilised to form bound capping
+Material type
+Granular material
+Cohesive material
+Material property
+6E (site won)
+6E (imported)
+6R (site won)
+6R (imported)
+7G (imported)
+7E (site won)
+7F (site worn)
+7I (site won)
+Maximum organic
+matter content
+2%, or only higher where CBR 15% and linear swell LS5 in accordance with BS EN 16907-4 [Ref 4.I] is achieved at mix design stage.
+Minimum water
+content
+-
+-
+OWC
+OWC
+0.8 OWC
+-
+-
+-
+Maximum water
+content
+OWC +2%
+OWC +2%
+-
+-
+1.2 OWC
+-
+-
+-
+Minimum moisture
+condition value
+(MCV)
+-
+-
+-
+-
+-
+7
+7
+7
+Maximum
+moisture condition
+value (MCV)
+-
+-
+-
+-
+-
+-
+Value at OWC
+-
+Maximum intact
+lump dry density
+(IDD)
+-
+-
+See CIRIA
+C574 [Ref 7.N]
+See CIRIA
+C574 [Ref 7.N]
+-
+-
+-
+-
+Maximum water
+soluble sulfate
+(WS) content
+(mg/l as SO4)
+3000
+-
+3000
+-
+3000
+Limit to be based on achieving linear swelling LS5
+at mix design stage.
+Maximum
+oxidisable sulfides
+(OS) content (as
+SO4)
+0.6%
+-
+0.6%
+-
+0.6%
+Limit to be based on achieving linear swelling LS5
+at mix design stage.
+Maximum total
+potential sulfate
+(TPS) content
+-
+-
+-
+-
+1.2%
+0.25%, or only higher where linear swelling LS5
+achieved during mix design.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Table 5.6.1 Guidance on acceptability limits for materials to be stabilised to form bound capping (continued)
+Material type
+Granular material
+Cohesive material
+Material property
+6E (site won)
+6E (imported)
+6R (site won)
+6R (imported)
+7G (imported)
+7E (site won)
+7F (site worn)
+7I (site won)
+Notes:
+OWC = Optimum Water Content
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+NOTE
+It is essential that the water content of lime-stabilised materials is wet of optimum water content,
+although below the upper water content limit, otherwise inadequate compaction could occur.
+Material properties for stabilised materials to form bound capping
+5.7
+For the design of bound capping, the limits for the material properties in Table 5.7 shall be detailed for
+the stabilised material class.
+Table 5.7 Limits for the stabilised materials properties to form bound capping to be detailed by
+the design
+Stabilised material class
+Stage
+9A
+9C
+9F
+9B
+9D
+9E
+9P
+Mix
+design
+Minimum laboratory California bearing ratio (CBR) to BS 1924-2 [Ref 9.N][1]
+Construc-
+tion
+Minimum laboratory CBR to BS 1924-2
+[Ref 9.N][1]
+Minimum laboratory CBR to BS 1924-2 [Ref
+9.N] [1]
+Minimum water content
+Moisture condition value
+[1] Value after curing for 3 days at 20 °C then soaking for 3 days
+5.7.1
+Acceptability limits for the relevant material properties may be based on guidance provided in Table
+5.7.1.
+Table 5.7.1 Guidance on acceptability limits for properties of stabilised materials to form bound
+capping
+Stabilised material class
+Property
+9A
+9C
+9F
+9B
+9D
+9E
+9P
+Minimum laboratory
+CBR to BS 1924-2 [Ref
+9.N][1]
+15%
+As per foundation design
+assumptions, not less than
+15%.
+Minimum water content
+W0,9, W0,95, W1,0 or W1,05
+Moisture condition value
+NR
+NR
+NR
+MCV
+8/12
+MCV
+8/12
+MCV
+8/12
+MCV7/11
+MCV8/12
+Notes: NR = No requirement
+[1] Value after curing for 3 days at 20 °C then soaking for 3 days
+NOTE
+The mixture design and constituent proportions for stabilised materials to form capping is typically
+dictated by mixture durability requirements in terms of linear swelling, rather than achieving the
+minimum laboratory CBR.
+5.7.2
+The minimum water content should be the optimum water content, W1,0, or higher.
+NOTE
+The water content of the stabilised material is better to be slightly on the wet side of optimum than dry.
+5.7.3
+The maximum MCV should be the MCV at optimum water content, with compaction at a lower MCV to
+prevent excessive void content, wetting up and long-term swelling. The MCV at optimum water content
+varies between 12 and 14 for various cohesive materials.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+5.7.4
+The limits of MCV for Class 9D material should be confirmed during the ground investigation. The
+upper limit of MCV for Class 9D material has been established as 12 for a wide range of glacial tills and
+some over-consolidated clays.
+NOTE
+MCV of Class 9D material greater than 12 can lead to swelling after compaction.
+5.7.5
+A minimum MCV of 8 is recommended as a lower limit of acceptability: a soil having an MCV less than
+this limit is thus deemed unacceptable i.e. too wet for plant to operate. The limit may be lowered or
+raised based on local situation such as the known behaviour of the material and the type of plant used.
+5.8
+Requirements for measuring the laboratory CBR and linear swelling of stabilised materials to form
+bound capping at the construction stage shall be detailed from the following options:
+1)
+laboratory CBR only;
+2)
+laboratory CBR and linear swelling; or,
+3)
+no measurement at construction stage.
+5.8.1
+Laboratory CBR and linear swell testing should be undertaken during construction to confirm material
+suitability where:
+1)
+the maximum permitted organic matter content is more than 2%; and,
+2)
+the material has been identified during mixture design as being susceptible to swelling or low
+laboratory CBR values.
+5.9
+Where laboratory CBR of stabilised materials to form bound capping is to be measured at the
+construction stage, the testing frequency shall be detailed where different from 1 per lane width per 200
+m length.
+5.10
+Where linear swelling of stabilised materials to form bound capping is to be measured at the
+construction stage, the testing frequency shall be detailed where different from 1 per lane width per 200
+m length.
+Stabilised materials to form bound capping in performance foundations
+5.11
+Where stabilised materials to form bound capping in performance foundations, the material shall not be
+frost-susceptible if it is used within 450 mm of the designed final surface of a road or paved central
+reserve, or 350 mm if the mean annual frost index of the site is less than 50.
+NOTE
+Stabilised materials that form bound capping and conform with linear swelling category LS5 and have a
+CBR of 15% or greater are considered to be resistant to frost.
+5.12
+Where stabilised materials to form bound capping in performance foundations require frost resistance,
+the laboratory CBR and linear swelling shall be measured at construction stage to confirm frost
+resistance.
+5.13
+The laboratory CBR for stabilised materials to form bound capping in performance foundations that
+require frost resistance shall be the greater of:
+1)
+the assumed minimum CBR from the foundation design; or,
+2)
+15%.
+5.14
+Where stabilised materials are to be used to form bound capping in performance foundations, the
+modulus of elasticity in compression (Ec) of the material used in the foundation design shall be detailed.
+Compaction of bound capping
+5.15
+Any areas of bound capping where method compaction is permitted to be used shall be detailed.
+5.15.1
+Method compaction should only be used for temporary works and where in situ density testing is
+impracticable.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+Unbound mixtures for subbase
+5.16
+The crushed or broken particles category for Type 1 unbound mixtures for foundation designs shall be
+selected from one or more of the following options:
+1)
+C90/3; or,
+2)
+C50/10.
+NOTE
+Category C90/3 is characteristic of crushed rock, crushed manufactured and crushed recycled
+aggregate, whilst Category C50/10 is characteristic of crushed gravel. More information can be found in
+BS EN 13242 [Ref 1.I].
+5.16.1
+The resistance to permanent deformation under trafficking of Type 1 unbound mixtures with a crushed
+or broken particle category C50/10 may be demonstrated in advance of the works with a trafficking trial.
+NOTE
+Rounded particles in unbound mixtures increase the risk of deformation when the subbase layer is
+trafficked during construction due to reduced aggregate interlock.
+Hydraulically bound mixtures (HBM) for subbase
+Induced cracking
+5.17
+The spacing of induced transverse cracks shall be detailed for CBGM and cement-based HSS with a
+compressive strength class of C8/10 or higher, where different from:
+1)
+3 m spacing for flexible pavements;
+2)
+5 m spacing for rigid pavements.
+5.18
+The spacing of induced longitudinal cracks shall be detailed for CBGM and cement-based HSS with a
+compressive strength class of C8/10 or higher, where different from 4.75 m spacing.
+5.19
+Where induced cracks are to be made in HBM other than CBGM and cement-based HSS, the spacing
+of induced cracks shall be detailed.
+NOTE
+Detail on the design of induced cracking can be found in BS 9227 [Ref 10.N].
+Percentage of crushed and broken particles for HBGM subbase
+5.20
+The percentage of crushed and broken particles in CBGM 1, FABGM 1, HRBBGM 1, SBGM 1 subbase
+shall be selected from the following categories:
+1)
+C90/3;
+2)
+C50/30; and,
+3)
+CNR (No requirement).
+5.20.1
+C90/3 and C50/30 may be selected for HBGM subbase where direct trafficking is required, in the absence
+of laboratory immediate bearing index (IPI) testing to demonstrate trafficability and stability of the
+material during installation should be undertaken.
+NOTE
+Guidance on the selection of aggregate properties for HBM subject to direct trafficking can be found in
+Britpave guide BP 13 [Ref 2.I] (pre-2013 terminology used) and BS 9227 [Ref 10.N].
+Grading category for HBGM subbase
+5.21
+Where CBGM 1 subbase is to be used, the grading category shall be selected from one or more of the
+following categories:
+1)
+0/31.5;
+2)
+0/20; and,
+3)
+0/14.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+NOTE 1
+The grading category for HBGM subbase is typically a supplier decision based on material availability
+and compliance with end product requirements.
+NOTE 2
+CBGM with a grading category 0/20 or less generally have less risk of segregation versus larger
+maximum aggregate sizes.
+5.22
+The grading category for HBGM subbase other than CBGM 1 shall be as per the requirements in the
+relevant part of BS EN 14227-1 [Ref 16.N], BS EN 14227-2 [Ref 13.N], BS EN 14227-3 [Ref 11.N], and
+BS EN 14227-4 [Ref 12.N].
+Resistance to fragmentation of coarse aggregates in HBGM subbase
+5.23
+The resistance to fragmentation of coarse aggregates in HBGM subbase shall be selected from the
+following categories:
+1)
+LA50;
+2)
+LA60; and,
+3)
+LANR.
+NOTE
+Category LANR is typically used for HBGM subbase.
+Direct trafficking of HBM subbase
+5.24
+Where HBGM 5 and HSS subbase is to be used and subject to direct trafficking, requirements for
+determining the IPI of the layer shall be detailed.
+5.24.1
+Where direct trafficking is required for CBGM 5, the immediate bearing stability of the material should
+be IPI40, unless alternative control measures in BS 9227 [Ref 10.N] are to be adopted.
+NOTE
+Guidance on the direct trafficking of the surface of HBM can be found in BS 9227 [Ref 10.N].
+5.25
+Where HSS mixtures containing non-cohesive soil are to be subject to direct trafficking, the immediate
+bearing stability of the material shall be IPI40.
+5.26
+Where HSS mixtures containing non-cohesive soil are not to be subject to direct traffic, the immediate
+bearing stability of the material shall be IPI25.
+5.27
+HSS mixtures containing cohesive soil mixtures and chalk mixtures shall be IPI15.
+Construction type for HBM subbase
+5.28
+The construction type for HBM subbase shall be selected from one or more of the following options:
+1)
+in-situ; and,
+2)
+ex-situ.
+5.28.1
+In-situ mixing of HBM may be restricted when the mixing is to be carried out above a substrate that
+contains materials that might affect the setting, hardening, strength or stability of the HBM.
+Lower strength concrete for subbase
+5.29
+Where the design includes reinforcement in the lower strength concrete layer, the reinforcement type
+shall be detailed.
+NOTE
+Reinforcement can be included in slabs with an aspect ratio greater than 1.3:1 to limit the formation of
+wide, uncontrolled drying shrinkage cracks, which could reduce load transfer, layer stiffness and lead to
+reflective cracking.
+5.30
+The chloride class of the lower strength concrete shall be:
+1)
+Cl 1,0; or,
+2)
+Cl 0,4 where reinforcement is to be used within the layer.
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 77
+======================================================================
+CD 225 Version 1.1.0
+5. Design outputs for pavement foundations
+5.31
+The transverse joint spacing for the lower strength concrete layer shall be detailed where a joint
+spacing other than 3 m is to be used.
+NOTE
+Sawing transverse joints in lower strength concrete can be impracticable for narrow widening less than
+500 mm wide.
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 77
+======================================================================
+CD 225 Version 1.1.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS EN 459-1, 'Building lime - Definitions, specifications and conformity criteria
+[Designated standard - CPR]'
+Ref 2.N
+BSI. BS EN 197-1, 'Cement. Composition, specifications and conformity criteria for
+common cements. (Designated Standard - CPR)'
+Ref 3.N
+BSI. BS EN 197-5, 'Cement. Portland-composite cement CEM II/C-M and Composite
+cement CEM VI'
+Ref 4.N
+National Highways. LA 114, 'Climate'
+Ref 5.N
+National Highways. CD 226, 'Design for new pavement construction'
+Ref 6.N
+National Highways. CD 524, 'Edge of pavement details'
+Ref 7.N
+Construction Industries Research and Information Association, London. Lord, J A,
+Clayton, C R I, Mortimore, R N. 2002. CIRIA C574, 'Engineering in chalk'
+Ref 8.N
+BSI. BS EN 15167-1, 'Ground granulated blast furnace slag for use in concrete,
+mortar and grout. Definitions, specifications and conformity criteria (Designated
+Standard - CPR)'
+Ref 9.N
+BSI. BS 1924-2, 'Hydraulically bound and stabilized materials for civil engineering
+purposes. Sample preparation and testing of materials during and after treatment '
+Ref 10.N
+BSI. BS 9227, 'Hydraulically bound materials for civil engineering purposes.
+Specification for production and installation in pavements'
+Ref 11.N
+BSI. BS EN 14227-3, 'Hydraulically bound mixtures. Specifications. Fly ash bound
+mixtures'
+Ref 12.N
+BSI. BS EN 14227-4, 'Hydraulically bound mixtures. Specifications. Fly ash for
+hydraulically bound mixtures '
+Ref 13.N
+BSI. BS EN 14227-2, 'Hydraulically bound mixtures. Specifications. Slag bound
+mixtures'
+Ref 14.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 15.N
+National Highways. CC 201, 'Pavement foundation construction'
+Ref 16.N
+BSI. BS EN 14227-1, 'Unbound and hydraulically bound mixtures. Specifications.
+Cement bound granular mixtures'
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 77
+======================================================================
+CD 225 Version 1.1.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+BSI. BS EN 13242, 'Aggregates for unbound and hydraulically bound materials for
+use in civil engineering work and road construction (Designated Standard - CPR)'
+Ref 2.I
+Britpave. BP 13, 'Cement and other hydraulically bound mixtures'
+Ref 3.I
+National Highways. CS 229, 'Data for pavement assessment'
+Ref 4.I
+BSI. BS EN 16907-4, 'Earthworks. Soil treatment with lime and/or hydraulic binders'
+Ref 5.I
+Transport Research Laboratory. Chaddock, B & Roberts, C. TRL PPR 127, 'Road
+foundation design for major UK highways'
+Ref 6.I
+Britpave. BP 62, 'Soil Improvement and Soil Stabilisation. Definitive Industry
+Guidance'
+Ref 7.I
+Britpave. BP 51, 'Stabilisation of sulfate-bearing soils. Guidelines for best practice'
+Ref 8.I
+Transport Research Laboratory . Powell, WD, Potter, JF, Mayhew, HC & Nunn, ME.
+TRL LR 1132, 'The structural design of bituminous roads'
+Ref 9.I
+Transport Research Laboratory. TRL RR 45, 'Winter air temperatures in relation to
+frost damage in roads'
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix A. Example performance foundation design charts
+Appendix A. Example performance foundation design charts
+Example design thicknesses using the procedure in Section 4 have been generated at 5-MPa
+increments between 30 MPa and 50 MPa and at 10-MPa increments between 50 MPa and 150 MPa,
+and have been rounded up to the nearest 10 mm. The graphs are provided for the purposes of
+validation of multi-layer linear elastic analysis tools. The layer stiffness values used are a range for
+typical mixtures used to achieve the foundation class and are not intended to be limiting values used in
+the performance foundation design.
+Table A.1 Summary of performance related design curves
+Figure
+Foundation class
+Construction type
+Layer stiffness (MPa)
+A.1
+1
+Single layer
+50, 75
+A.2
+2
+Single layer
+120, 150, 350
+A.3
+3
+Single layer
+350, 500, 1000
+A.4
+4
+Single layer
+1000, 2000, 4000
+A.5
+2
+Subbase on capping
+Capping – 75
+Subbase – 120, 150, 350
+A.6
+3
+Subbase on capping
+Capping – 75
+Subbase – 350, 500, 1000
+A.7
+4
+Subbase on capping
+Capping – 75
+Subbase – 1000, 2000, 4000
+Figure A.1 Performance design example - class 1 single foundation layer
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix A. Example performance foundation design charts
+Figure A.2 Performance design example - class 2 single foundation layer
+Figure A.3 Performance design example - class 3 single foundation layer
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix A. Example performance foundation design charts
+Figure A.4 Performance design example - class 4 single foundation layer
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix A. Example performance foundation design charts
+Figure A.5 Performance design example - class 2 subbase on capping
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix A. Example performance foundation design charts
+Figure A.6 Performance design example - class 3 subbase on capping
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix A. Example performance foundation design charts
+Figure A.7 Performance design example - class 4 subbase on capping
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix B. Worked examples
+Appendix B. Worked examples
+B1
+Example 1 – Restricted foundation design procedure
+Design factors:
+1)
+long-term subgrade surface modulus = 35 MPa; and,
+2)
+short-term subgrade surface modulus = 60 MPa.
+Design subgrade surface modulus = 35 MPa.
+Using Figure B.1 (replica of Figure 3.27) to design a class 3 restricted subbase only foundation:
+A) 240 mm CBGM 1, CBGM 5 or HSS Rc Class 8/10; or,
+B) 340 mm CBGM 1, CBGM 5 or HSS Rc Class 3/4.
+Figure B.1 Example 1
+B2
+Example 2 – Performance foundation design procedure
+Design factors:
+1)
+long-term subgrade surface modulus = 35 MPa;
+2)
+short-term subgrade surface modulus = 60 MPa; and,
+3)
+mean modulus of elasticity in compression (Ec) of material = 3500 MPa.
+Design subgrade surface modulus = 35 MPa.
+For layer stiffness take 20% Ec of material, therefore layer stiffness = 700 MPa.
+Using the procedure in Section 4 to design a class 3 performance single layer foundation:
+260 mm of 700 MPa subbase
+B3
+Example 3 – Restricted foundation design procedure for widening
+Design factors:
+1)
+long-term subgrade surface modulus = 40 MPa;
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix B. Worked examples
+2)
+short-term subgrade surface modulus = 30 MPa;
+3)
+existing adjacent pavement unbound;
+4)
+existing pavement falls towards proposed widening;
+5)
+existing asphalt approximately 380 mm thick, widening to match this thickness; and,
+6)
+existing subbase approximately 160 mm thick.
+Design subgrade surface modulus = 30 MPa.
+Short-term subgrade surface modulus <50 MPa, capping layer required.
+Formation level to match or be lower than formation under existing adjacent pavement.
+Unbound materials required to ensure drainage is not inhibited.
+Using Figure B.2 (replica of Figure 3.28) to design a class 2 restricted capping and subbase foundation:
+250 mm Type 1, Type 2 or Type 4 unbound mixtures
+On
+430 mm unbound capping
+Formation level of widening lower than adjacent pavement formation so additional thickness not
+required.
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 77
+======================================================================
+CD 225 Version 1.1.0
+Appendix B. Worked examples
+Figure B.2 Example 3
+B4
+Example 4 – Performance foundation design procedure
+Design factors:
+1)
+long-term subgrade surface modulus = 40 MPa; and,
+2)
+short-term subgrade surface modulus = 30 MPa.
+Design subgrade surface modulus = 30 MPa.
+Short-term subgrade surface modulus <50 MPa, capping layer specified.
+Using the procedure in Section 4 and 75 MPa layer stiffness for capping and 150 MPa layer stiffness
+for subbase, to design a class 2 performance multi-layer foundation:
+214 mm of 150 MPa subbase
+on
+430 mm of 75 MPa capping
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 77
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 77
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 225 - ENAA
+England National Application Annex for
+Design for new pavement foundations
+(formerly IAN 73/06 revision 1 (2009), HD 25/94)
+Version 1.0.0
+Summary
+There are no specific requirements for National Highways supplementary or alternative to those
+given in CD 225.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 77
+======================================================================
+CD 225 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 77
+======================================================================
+CD 225 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 225 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+No change this Version.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 77
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 77
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 225 - NINAA
+Northern Ireland National Application Annex
+for Design for new pavement foundations
+(formerly IAN 73/06 revision 1 (2009), HD 25/94)
+Version 1.0.0
+Summary
+This National Application Annex gives the Department for Infrastructure, Northern
+Ireland-specific requirements related to restricted foundation designs.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Foundation designs (CD 225, Section 3)
+5
+NI/2. Normative references
+8
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 225 -
+NINAA
+1.0.0
+September 2025
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+Includes options for the use of Type 3 unbound mixtures in restricted designs for Class 2 subbase.
+Figure NI/1.3 added to document.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of the Department for Infrastructure,
+Northern Ireland.
+This document is a National Application Annex to CD 225 [Ref 1.N].
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Department for Infrastructure, Northern Ireland-specific
+requirements related to restricted foundation designs.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+NI/1. Foundation designs (CD 225, Section 3)
+NI/1.
+Foundation designs (CD 225, Section 3)
+NI/1.1
+The design thickness for subbase-only foundation class 2 designs shall be obtained from Figure NI/1.1.
+Figure NI/1.1 Restricted design options - class 2 subbase only
+NI/1.2
+The design thicknesses for subbase on capping for foundation class 2 restricted designs shall be
+obtained from Figure NI/1.2.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+NI/1. Foundation designs (CD 225, Section 3)
+Figure NI/1.2 Restricted design options - class 2 subbase on unbound capping
+NI/1.3
+The design thickness for subbase on a constant thickness of bound capping for foundation class 2 shall
+be obtained from Figure NI/1.3.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+NI/1. Foundation designs (CD 225, Section 3)
+Figure NI/1.3 Restricted design options - class 2 subbase on bound capping
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 77
+======================================================================
+CD 225 - NINAA Version 1.0.0
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 225, 'Design for new pavement foundations'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 77
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 77
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 225 - SNAA
+Scotland National Application Annex for
+Design for new pavement foundations
+(formerly IAN 73/06 revision 1 (2009), HD 25/94)
+Version 1.0.0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CD 225.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 77
+======================================================================
+CD 225 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 77
+======================================================================
+CD 225 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 225 -
+SNAA
+1.0.0
+September 2025
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+No change to last published version.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 73 of 77
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 74 of 77
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 225 - WNAA
+Wales National Application Annex for Design
+for new pavement foundations
+(formerly IAN 73/06 revision 1 (2009), HD 25/94)
+Version 1.0.0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 225.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 75 of 77
+======================================================================
+CD 225 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 76 of 77
+======================================================================
+CD 225 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 225 -
+WNAA
+1.0.0
+September 2025
+Wales NAA
+Change to policy, major
+revision, new document
+development
+No change since last publication.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 77 of 77
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 225 Version 1.1.0, published: 30-Sep-2025
+
+
