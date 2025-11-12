@@ -1,0 +1,2934 @@
+======================================================================
+PAGE 1 of 58
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 465
+Management of post-tensioned concrete
+bridges
+(formerly BD 54/15)
+Version 0.0.1
+Summary
+This document provides a process of risk review, risk assessment and risk management for
+post-tensioned concrete bridges to provide assurance on the safety of the stock of those bridges.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 58
+======================================================================
+CS 465 Version 0.0.1
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+7
+1. Scope
+9
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2. Management processes
+10
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Personnel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Risk review
+13
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Document review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Critical sections and critical points
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Risk review report
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+4. Risk assessment and risk management
+17
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Identification and assessment of hazards
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Prioritisation of structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Risk management
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Technical plan
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Risk assessment and risk management report
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+5. PTSI site inspection
+26
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Site inspection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+PTSI site inspection report
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+6. PTSI site investigation
+28
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Investigation procedures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+PTSI site investigation report . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Further testing stages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+PTSI site investigation addendum report . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+7. Monitoring
+35
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+8. Repair and strengthening
+37
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Repair . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Strengthening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+9. Normative references
+38
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 58
+======================================================================
+CS 465 Version 0.0.1
+Contents
+10. Informative references
+39
+Appendix A. Determination of critical sections and critical points
+40
+A1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+A2 Calculation of critical points requiring investigation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+A3 Example structures and critical sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+A3.1 Example 1 - single span simply supported beams . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+A3.2 Example 2 - continuous voided slab
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+A3.3 Example 3 - multiple span continuous box girder . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+A3.4 Example 4 - complex post-tensioning system including tied supports . . . . . . . . . . . . . . . .
+45
+Appendix B. Prioritisation
+49
+B1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+B2 Risk rating . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+B2.1 Year of construction factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+B2.2 Form factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+B2.3 Vulnerable details and materials factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+B2.4 Condition factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+B2.5 Consequence factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+B3 Hazard risk level scoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Appendix C. Example risk assessment hazards and prioritisation
+53
+C1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+C2 Example hazards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+C2.1 Vulnerable details and material hazards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+C2.2 Condition hazards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+C2.3 History hazards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+C2.4 Assessment hazards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+C3 Prioritisation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+C3.1 Risk rating
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+C3.2 Hazard risk level scoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 58
+======================================================================
+CS 465 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CS 465
+0.0.1
+September 2025
+Core document
+Incremental change to
+notes and editorial
+updates
+Rebranding to National Highways and updating of references.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CS 465
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 58
+======================================================================
+CS 465 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BD 54/15, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 58
+======================================================================
+CS 465 Version 0.0.1
+Introduction
+Introduction
+Background
+Generally post-tensioned concrete bridges have given good service and few have had significant
+problems. However, tendons can be vulnerable to corrosion and severe deterioration where internal
+grouting of tendon ducts is incomplete and moist air, water and contaminants can enter the ducting
+system.
+Experience has shown that construction practices and a lack of maintenance are of the greatest
+significance in affecting deterioration of post-tensioned concrete bridges. For most forms of concrete
+bridge construction, defects tend to be relatively easy to interpret and result in ductile modes of failure.
+Safety critical defects in post-tensioned concrete are typically hidden, very difficult to detect and may
+result in a brittle mode of failure. The primary problem with post-tensioned bridges which sets them
+apart from other types, is the difficulty in establishing the internal condition of the tendons because
+external signs of distress are not generally expected to occur.
+For this reason the most vulnerable bridges need monitoring and reinspection after an appropriate
+interval, since the level of uncertainty about the condition of the post-tensioning system increases with
+time. Visual inspections alone may not give warning of imminent collapse; on the other hand, intrusive
+investigations can be expensive and potentially damaging for the structure and should only be carried
+out if there is a clear need.
+This document details a process of risk review, risk assessment and risk management for
+post-tensioned concrete bridges to provide assurance on the safety of the stock of those bridges.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 58
+======================================================================
+CS 465 Version 0.0.1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+CTA
+Corrosion test area
+DTE
+Duct and tendon exposure
+EAE
+End anchorage exposure
+GI
+General inspection
+NDT
+Non-destructive testing
+PI
+Principal inspection
+PTSI
+Post-tensioned special inspection
+SI
+Special inspection
+Symbols
+Symbol
+Definition
+CL
+The recommended number of critical points requiring inspection for the longitudinal
+post-tensioning system
+CT
+The recommended number of critical points requiring inspection for the transverse
+post-tensioning system
+CP L
+The total number of critical points on the longitudinal post-tensioning system
+CP T
+The total number of critical points on the transverse post-tensioning system
+FC
+Condition factor
+FF
+Form factor
+FQ
+Consequence factor
+FV
+Vulnerable details and materials factor
+FY
+Year of construction factor
+H
+Mean hazard risk level score
+HS
+Hazard score
+N
+Total number of hazards identified
+R
+Risk rating
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 58
+======================================================================
+CS 465 Version 0.0.1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Corrosion test area
+A panel typically 2m x 1m to which corrosion testing is undertaken on
+a grid basis.
+Critical point
+Any location where a post-tensioning system intersects a critical
+section.
+Critical section
+A section at high risk from ingress of moist air, water and
+contaminants, initiating corrosion of the post-tensioning system.
+NOTE: Critical sections can include regions where voids could form
+preferentially in ducts or where yield points could form a collapse
+mechanism, or both.
+Duct and tendon exposure
+The physical process of removing concrete to expose part of a
+post-tensioning duct and subsequently removing grout to expose the
+tendon.
+End anchorage exposure
+The physical process of removing concrete, capping material or end
+cap to expose part of a post-tensioning end anchorage.
+General inspection
+A visual inspection of all parts of the structure which can be inspected
+without the need for special access equipment or extensive traffic
+management arrangements.
+Hazard score
+A score applied to each hazard identified in the risk assessment
+based on the individual hazard risk level.
+Load assessment
+Determination of a structure's load carrying capacity.
+Mean hazard risk
+level score
+A score for prioritising structures based on all of the hazard risk levels
+identified in the risk assessment.
+Overseeing Organisation
+Highways England and the highways or roads authorities of the
+Devolved Administrations of Scotland, Wales and Northern Ireland
+and their successors.
+Principal inspection
+A close examination, within touching distance, of all inspectable parts
+of a structure.
+PTSI site inspection
+A visual inspection of a post-tensioned concrete bridge in accordance
+with this document.
+PTSI site investigation
+A detailed investigation of a post-tensioned concrete bridge involving:
+1) external examination;
+2) materials testing;
+3) non destructive testing; and
+4) internal examination in accordance with this document.
+Risk assessment
+The identification of hazards, risk events, likelihood, consequence
+and risk level in accordance with this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 58
+======================================================================
+CS 465 Version 0.0.1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Risk management
+The use of various measures to mitigate or remove identified risks, in
+accordance with this document.
+Risk management measure
+A specific action to mitigate or remove identified risks, typically
+including inspection, assessment or remediation.
+Risk Management Plan
+The collation of a set of risk management measures for an individual
+structure, listed in the order of their associated hazard risk levels.
+Risk rating
+A percentage score for prioritising structures based on the year of
+construction, bridge form, vulnerable details and materials, condition
+and consequence factors.
+Risk review
+An examination of a previous risk review and risk assessment and
+other information with the objective of identifying the need for a further
+risk assessment, in accordance with this document.
+Special inspection
+Can comprise a close visual inspection, testing and/or monitoring and
+involve a one-off inspection, a series of inspections or an ongoing
+programme of inspections.
+Technical plan
+A schedule of the intrusive investigations, visual inspection and
+corrosion testing required for a PTSI site investigation.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 58
+======================================================================
+CS 465 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the management of all post-tensioned concrete bridges and includes
+the processes of:
+1)
+risk review;
+2)
+risk assessment; and,
+3)
+risk management.
+NOTE
+The scope includes bridges, any parts of which have been constructed using post-tensioning
+techniques in which tendons (bars, wires, single strands or multi-strands) are tensioned so as to apply
+a compressive force to precast concrete or hardened cast in-situ concrete elements. The tendons can
+be in ungrouted, grouted or greased internal or external ducts, or otherwise protected (e.g. concrete or
+mortar surround), or unprotected. The tendons can be in longitudinal, transverse, secondary, vertical,
+inclined, tied-down or tied members.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the management of
+post-tensioned concrete bridges on the Overseeing Organisations' motorway and all-purpose trunk
+roads according to the implementation requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 58
+======================================================================
+CS 465 Version 0.0.1
+2. Management processes
+2.
+Management processes
+General
+2.1
+The management processes of risk review, risk assessment and risk management shall be applied to
+each post-tensioned concrete bridge.
+2.1.1
+The risk review, risk assessment and risk management process should be as outlined in Figure 2.1.1.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 58
+======================================================================
+CS 465 Version 0.0.1
+2. Management processes
+Figure 2.1.1 Overview of the risk review, risk assessment and risk management
+process
+2.2
+A risk review shall be undertaken concurrently with each principal inspection (PI).
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 58
+======================================================================
+CS 465 Version 0.0.1
+2. Management processes
+2.3
+Additional risk reviews shall be carried out following any changes to the structural form or loading, or
+when defects related to the post-tensioned elements have been identified.
+2.3.1
+A risk review may be carried out before the next scheduled principal inspection with the agreement of
+the Overseeing Organisation.
+2.4
+A risk assessment shall be undertaken using the information identified in the risk review.
+2.5
+Updates to the risk assessment shall be carried out when recommended by the risk review and agreed
+with the Overseeing Organisation.
+2.6
+Each post-tensioned concrete bridge shall have an individual risk management plan, resulting in a set
+of bridge specific risk management measures or the recommendation to continue with the routine
+inspection and maintenance regime.
+2.7
+Records produced from the management process shall be uploaded to the relevant asset management
+system in accordance with the requirements in CG 302 [Ref 1.N].
+Personnel
+2.8
+The person responsible for overseeing the risk review, risk assessment and risk management process
+and the post-tensioned special inspection (PTSI) shall have specialist experience of post-tensioned
+bridge design, construction and management.
+2.9
+The person responsible for overseeing the risk review, risk assessment and risk management process
+and the post-tensioned special inspection (PTSI) shall be agreed with the Overseeing Organisation's
+Technical Approval Authority.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 58
+======================================================================
+CS 465 Version 0.0.1
+3. Risk review
+3.
+Risk review
+General
+3.1
+The risk review process is a desk study and shall include a review of historical records, identification of
+critical sections and calculation of critical points.
+3.2
+The outcome of the risk review shall be to recommend one of the following:
+1)
+updating the most recent risk assessment and risk management plan;
+2)
+completing a new risk assessment and risk management plan;
+3)
+stating that no updates are required to the most recent risk assessment and risk management
+plan.
+3.3
+The risk review shall determine the need for a PTSI site inspection.
+3.4
+A risk review report shall be prepared for each post-tensioned concrete bridge.
+3.5
+The risk review report shall be submitted to the Overseeing Organisation.
+Document review
+3.6
+When a risk review report is available, it shall be examined together with:
+1)
+the most recent risk assessment and risk management report; and,
+2)
+all documents listed under clause 3.7 which have been issued subsequent to the most recent risk
+review.
+3.6.1
+In examining the most recent risk assessment and risk management report, the following should be
+assessed:
+1)
+time elapsed since it was prepared;
+2)
+whether the hazards previously identified are still relevant;
+3)
+whether any known hazards are missing from the risk assessment; and,
+4)
+whether recommended risk management measures have been actioned.
+3.7
+The following documents shall be examined when a previous risk review report is not available:
+1)
+as-built drawings and construction records;
+2)
+PTSI reports;
+3)
+special inspection (SI) reports relevant to post-tensioned elements;
+4)
+the most recent principal inspection (PI) and general inspection (GI) reports;
+5)
+monitoring reports relevant to post-tensioned elements;
+6)
+load assessment reports;
+7)
+reports and records in accordance with CS 470 [Ref 7.N];
+8)
+maintenance records.
+3.7.1
+In examining the available as-built details and construction and maintenance records, the following
+should be included in the risk review:
+1)
+year of construction;
+2)
+structural form;
+3)
+type and location of post-tensioning system(s);
+4)
+degree of redundancy;
+5)
+structural dimensions;
+6)
+mode of articulation;
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 58
+======================================================================
+CS 465 Version 0.0.1
+3. Risk review
+7)
+specification for the grout and concrete;
+8)
+method and sequence of construction;
+9)
+sequence of stressing and grouting;
+10)
+type of deck waterproofing;
+11)
+variations between design and construction;
+12)
+summary of previous defects and repairs undertaken relevant to the post-tensioned elements;
+and,
+13)
+actions taken in response to risk management measures recommended in previous PTSI reports.
+NOTE 1
+Information on the type of post-tensioning system(s), location of individual tendons and end anchorage
+positions is also useful, since observed surface defects can sometimes be related to those systems.
+NOTE 2
+The original specification for the grout and concrete mixes can provide information on the cement
+content, water/cement ratio and compressive strength.
+NOTE 3
+The construction records can be reviewed to ascertain: the type of cement, aggregate, additives, or
+cement replacements used in the grout and concrete mixes; the curing times and the age of the
+elements at the time of stressing. These details can sometimes provide information on the expected
+permeability, durability and relative performance of the various elements of a bridge.
+3.7.2
+Gaps and inadequacies in previous PTSI site inspection and site investigation reports should be
+identified and recorded in the risk review report, to be addressed in the risk assessment.
+3.7.3
+The risk review should identify what investigations have been carried out at critical sections and
+whether site investigations have determined the condition of the post-tensioning system(s) at those
+sections.
+3.7.4
+The review of inspection reports should focus on post-tensioned elements.
+3.7.5
+Where concrete testing has been undertaken, the results of the testing should be reviewed for
+information including:
+1)
+cement content;
+2)
+chloride content;
+3)
+sulfate content;
+4)
+alkali content;
+5)
+depth of carbonation;
+6)
+depth of cover;
+7)
+half-cell potential;
+8)
+concrete resistivity.
+3.7.6
+Where grout testing has been undertaken, the results of the testing should be reviewed for information
+including:
+1)
+cement content;
+2)
+chloride ion concentration;
+3)
+sulfate ion concentration;
+4)
+alkalinity;
+5)
+moisture content.
+3.7.7
+Load assessment reports should be reviewed for consistency with the current condition, sensitivity to
+loss of prestress and possible failure modes.
+Critical sections and critical points
+3.8
+When not already presented in a previous risk review report, critical sections shall be identified and
+critical points calculated as part of the risk review.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 58
+======================================================================
+CS 465 Version 0.0.1
+3. Risk review
+NOTE 1
+A critical section is one at high risk from ingress of moist air, water and contaminants that could initiate
+corrosion of the post-tensioning system. Critical sections can include regions where voids could form
+preferentially in ducts or where yield points could form in a collapse mechanism, or both.
+NOTE 2
+Critical sections can include:
+1)
+end anchorage regions;
+2)
+midspan regions;
+3)
+regions over intermediate supports and other duct high points;
+4)
+cast in-situ construction joints that intersect a post-tensioned duct and tendon;
+5)
+segmental joints that intersect a post-tensioned duct and tendon can be counted as a single
+critical section provided the width of the joint is less than or equal to 100mm. For segmental joints
+wider than 100mm two critical sections can be counted.
+NOTE 3
+Further guidance on critical sections is presented in Appendix A.
+NOTE 4
+A critical point is any location where a post-tensioning system intersects a critical section.
+3.9
+Critical points for each tendon are located at critical sections and shall be identified, classified by type
+and the number present for each type stated.
+3.10
+When bridges have both longitudinal and transverse post-tensioning systems, the number of critical
+points for each system shall be stated.
+3.11
+The number of critical points requiring investigation shall be calculated.
+3.11.1
+The calculated number of critical points requiring investigation should be used to determine the
+adequacy of any previous investigations.
+3.11.2
+Tables 3.11.2a and 3.11.2b should be interpolated to determine the recommended number of critical
+points requiring investigation for the longitudinal and transverse post-tensioning systems, respectively.
+Table 3.11.2a Number of critical points requiring investigation (longitudinal post-tensioning)
+Number of critical points (longitudinal
+post-tensioning) CP L
+Recommended number of critical points requiring
+investigation CL
+50
+15
+100
+19
+200
+24
+400
+31
+800
+40
+2000
+55
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 58
+======================================================================
+CS 465 Version 0.0.1
+3. Risk review
+Table 3.11.2b Number of critical points requiring investigation (transverse post-tensioning)
+Number of critical points (transverse
+post-tensioning) CP T
+Recommended number of critical points requiring
+investigation CT
+50
+5
+100
+6
+200
+8
+400
+10
+800
+13
+2000
+19
+NOTE 1
+The data in tables 3.11.2a and 3.11.2b has been provided from curves which were fitted to historic data
+for the proportion of critical points typically inspected. The best fit equations for the curves, examples of
+critical section identification and critical points calculation are presented in Appendix A.
+NOTE 2
+When transverse post-tensioning is considered critical for contributing to the load carrying capacity,
+table 3.11.2a (for longitudinal post-tensioning) can be used to calculate the number of critical points
+requiring investigation. This can include post-tensioning within crosshead beams or transversely tied
+supports.
+NOTE 3
+Tables 3.11.2a and 3.11.2b can be used for critical points within the stated ranges. For structures with
+critical points beyond the stated ranges, the number requiring investigation can be adjusted.
+Risk review report
+3.12
+The report containing the findings of the risk review shall be approved and signed by the person
+responsible for overseeing the risk review, risk assessment and risk management process and the
+post-tensioned special inspection (PTSI).
+3.13
+When the available information is not sufficient to carry out a risk assessment, recommendations on the
+action needed to collect the necessary information shall be provided in the risk review report.
+NOTE
+Examples of insufficient information to carry out a risk assessment include a lack of information on
+current condition, material properties, section geometry, the post-tensioning system(s) and
+reinforcement details at critical sections.
+3.13.1
+Actions needed may include undertaking any of the following:
+1)
+PTSI site inspection;
+2)
+PTSI site investigation;
+3)
+special inspection;
+4)
+load assessment.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+4.
+Risk assessment and risk management
+General
+4.1
+The risk assessment shall not commence without the agreement of the Overseeing Organisation.
+4.2
+The risk assessment shall identify the hazards relating to the structure's post-tensioning system(s) in
+order to enable preparation of a risk management plan.
+NOTE 1
+A hazard is anything that can adversely affect the condition of the structure's post-tensioning system(s)
+and can be classified under the following headings:
+1)
+vulnerable details and materials;
+2)
+condition;
+3)
+history; and,
+4)
+assessment.
+NOTE 2
+Typical hazards for post-tensioned concrete bridges are presented in Tables 4.7 - 4.10. These tables
+are intended to be comprehensive but not exhaustive. Assessors can include additional hazards
+identified that are not listed in the tables.
+4.3
+The risk management plan shall comprise a set of bridge specific risk management measures, as
+identified in the risk assessment.
+4.4
+A report containing the risk assessment and risk management plan shall be prepared for each
+post-tensioned concrete bridge.
+Risk assessment
+4.5
+The year of construction shall be identified and discussed in the risk assessment.
+NOTE
+Hazards related to year of construction are a reflection of the fact that knowledge, experience, design
+standards, and specifications for methods and materials have improved over time.
+4.6
+The structural form shall be reviewed and categorised for the risk of brittle failure mode (very high to
+very low) using Table 4.6.
+Table 4.6 Bridge form and risk of brittle failure mode
+Bridge form
+Risk of brittle
+failure mode
+Segmental
+Beams or box girders, simply supported, non-composite, transverse
+joints, longitudinal post-tensioning
+Very high
+Beam grillage, simply supported, non-composite, longitudinal and
+transverse joints and post-tensioning
+High
+Beams or box girders, simply supported with a composite slab,
+transverse joints and longitudinal post-tensioning
+Medium
+Continuous beams, box girders or portals, non-composite, transverse
+joints and longitudinal post-tensioning
+Medium
+Continuous beams or box girders or portals with a composite slab,
+transverse joints and longitudinal post-tensioning
+Low
+Monolithic
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+Table 4.6 Bridge form and risk of brittle failure mode (continued)
+Beams, simply supported, non-composite, longitudinal post-tensioning
+Medium
+Beams, continuous, non-composite, longitudinal post-tensioning
+Medium
+Beam or box girder, simply supported, composite, longitudinal or
+longitudinal and transverse post-tensioning
+Low
+Beam or box girder, continuous, composite, longitudinal or
+longitudinal and transverse post-tensioning
+Low
+Beams, simply supported or continuous, non-composite, transverse
+post-tensioning
+Very low
+Solid or voided slab, simply supported or continuous, longitudinal
+and/or transverse post-tensioning
+Very low
+Post-tensioned substructure
+Bridges with ties between supports
+Very high
+Segmental construction, where the post-tensioning arrangement is
+designed to provide resistance to primary bending
+Very high
+Monolithic construction, where the post-tensioning arrangement is
+designed to provide resistance to primary bending
+High
+Segmental construction, where the post-tensioning arrangement is
+not designed to provide resistance to primary bending
+Medium
+Monolithic construction, where the post-tensioning arrangement is not
+designed to provide resistance to primary bending
+Low
+Tie-downs
+Continuous bridges, cantilevers and suspended spans on half-joints,
+with anchor spans tied down for;
+Dead load and live load
+Very high
+Live load only
+High
+Identification and assessment of hazards
+4.7
+The vulnerable details and material hazards shall be identified using Table 4.7.
+Table 4.7 Vulnerable details and material hazards
+Segmental joints
+In descending order of vulnerability:
+1) narrow in situ mortar (typically <25mm);
+2) wide in situ mortar or concrete (typically >100mm);
+3) match cast glued.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+Table 4.7 Vulnerable details and material hazards (continued)
+Other joints
+1) construction joints intersecting anchorages, couplers or
+tendons/ducts;
+2) half-joints;
+3) hinges.
+Post-tensioning
+system
+1) lack of redundancy, e.g. small number of large tendons where a
+severe local defect can have a serious effect on strength;
+2) design where failure of a single post-tensioned element could
+result in structural collapse;
+3) tendons located close to the upper surface of the deck where failure
+of deck waterproofing may lead to corrosion and loss of section;
+4) use of spacers to separate post-tensioning wires making them
+vulnerable to crevice corrosion;
+5) tendon ducts with hogging and sagging profiles with a vulnerability
+to void formation and water ponding;
+6) unlined ducts;
+7) tendons grouped together in a single duct;
+8) tendons protected only by mortar or concrete;
+9) unprotected anchorages;
+10) anchorages concealed within joints or on upper surfaces of decks;
+11) grout tubes exposed in top of deck.
+Water management
+system
+1) absent or malfunctioning drainage system;
+2) absent or old deck waterproofing system;
+3) absence of deck joint seals.
+Materials and
+durability
+1) low cover to reinforcement;
+2) low concrete grade;
+3) additives or admixtures containing chlorides used in concrete or
+grout;
+4) insufficient longitudinal or shear reinforcement (as determined by a
+structural assessment);
+5) reactive aggregates used in concrete.
+Construction
+1) grouting problems;
+2) tensioning problems.
+NOTE
+Vulnerable details and material hazards are features of design or construction which are more likely to
+contribute to deterioration of the post-tensioning system.
+4.7.1
+Where vulnerable details and materials hazards have been addressed, but resulting deterioration
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+remains, they should be identified as condition hazard(s).
+4.8
+The condition hazards shall be identified using Table 4.8.
+Table 4.8 Condition hazards
+Structure
+Cracking
+1) in post-tensioned concrete elements - various locations, crack
+directions and causes.
+Water management
+system
+1) cracks and potholes in carriageway surfacing;
+2) surface ponding on deck;
+3) blocked drainage systems;
+4) water trapped in boxes and other structure voids;
+5) damaged or missing deck joint seals;
+6) water leaks and staining on soffit and at movement joints.
+Deflection
+1) excessive deflection;
+2) differential vertical deflection.
+Concrete
+1) delamination and/or spalling due to corrosion or freeze/thaw action;
+2) spalling or crushing due to stress concentrations;
+3) honeycombing;
+4) evidence of chemical attack;
+5) low cement contents.
+Reinforcement
+corrosion
+1) visual evidence;
+2) evidence from corrosion testing.
+Construction joints
+1) leaks and stains.
+Bearings
+1) corrosion, deterioration and/or damage;
+2) unexpected movement/rotation or failure to move/rotate as
+expected.
+Post-tensioning system
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+Table 4.8 Condition hazards (continued)
+Ducts
+1) incorrect location;
+2) corrosion;
+3) perforation;
+4) presence of water;
+5) ungrouted.
+Grout
+1) cracked or shattered;
+2) soft;
+3) moist;
+4) voids;
+5) low cement contents;
+6) high chloride and/or sulfate contents.
+Tendons
+1) incorrect type or size;
+2) missing tendons;
+3) corrosion resulting in loss of section;
+4) fracture of wires/strands/tendons;
+5) loss of prestress.
+Anchorages
+1) deterioration of capping material.;
+2) moisture/water;
+3) high chloride and/or sulfate contents in capping material;
+4) corrosion;
+5) missing anchorage components.
+4.8.1
+Only corrosion of reinforcement and spalling of concrete rated severity 3 or above in accordance with
+Table G.10 of the Inspection Manual for Highway Structures ( IMHS V1 [Ref 5.I]) should be included in
+the assessment.
+NOTE 1
+Condition hazards are defects which have been identified, typically through inspections and
+investigations.
+NOTE 2
+Condition hazards listed in Table 4.8 can only be scored when present in post-tensioned elements or
+elements associated with the post-tensioning system, such as bearings or joints.
+4.9
+The history hazards shall be identified using Table 4.9.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+Table 4.9 History hazards
+Maintenance
+1) failure to maintain water management systems;
+2) maintenance actions identified in previous inspection reports have
+not been completed.
+Operation
+1) changes in highway cross-section affecting loading;
+2) changes in dead or live loading.
+Environment
+1) use of de-icing salts;
+2) proximity to chemical works;
+3) proximity to tidal waters;
+4) other sources of chemical attack.
+Inspection and
+investigation
+1) no previous, or incomplete, principal/general/special inspections;
+2) no previous PTSI;
+3) previous PTSI was incomplete or inadequate;
+4) recommendations from previous PTSI have not been implemented.
+NOTE
+History hazards relate to inadequacies or risks identified in the areas of maintenance, operation,
+environment, inspection and investigation.
+4.10
+The assessment hazards shall be identified using table 4.10.
+Table 4.10 Assessment hazards
+Assessment
+1) structure has not been assessed for current condition, assessment standards or
+operational loading;
+2) structure has been assessed as substandard in accordance with CS 454 [Ref
+2.N];
+3) structure does not satisfy serviceability limit state assessment requirements in
+accordance with CS 455 [Ref 14.N];
+4) structure has not been assessed for sensitivity to loss of prestress;
+5) assessment has not identified and examined all possible failure modes.
+4.11
+For each hazard identified the following shall be stated:
+1)
+the risk event (what could happen if the hazard is not dealt with);
+2)
+the likelihood of the risk event occurring;
+3)
+the consequences of the risk event occurring;
+4)
+the hazard risk level; and,
+5)
+the recommended risk management measure(s).
+NOTE
+Examples of hazard risk assessment are presented in Appendix C.
+4.12
+Tables 4.12a to 4.12c shall be used to determine the risk level for each hazard.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+Table 4.12a Guidance on likelihood
+Likelihood
+Description
+Certain
+Evidence exists that the event has already happened or is happening.
+High
+Experience has shown that such risk events do typically occur if such hazards are
+not dealt with, or evidence exists that the event is about to happen.
+Medium
+Experience has shown that such events sometimes occur.
+Low
+Experience shows that such events are rare.
+Table 4.12b Guidance on consequence
+Consequence
+Description
+High
+Global structural collapse / closure of a strategic route.
+Medium
+Structural element failure / closure of a regional route / restriction on a strategic
+route.
+Low
+Serviceability failure / restriction on a regional route / closure of or restriction on a
+local route.
+Table 4.12c Guidance on hazard risk levels
+Consequence
+High
+Medium
+Low
+Certain
+Very high
+High
+Medium
+High
+High
+Medium
+Low
+Medium
+Medium
+Low
+Very low
+Likelihood
+Low
+Low
+Very low
+Negligible
+Prioritisation of structures
+4.13
+The need for prioritisation shall be agreed with the Overseeing Organisation.
+NOTE
+Groups of structures can be prioritised for the purposes of implementing their risk management plans.
+4.13.1
+Structures may be prioritised using the following methods:
+1)
+risk rating;
+2)
+mean hazard risk level score.
+NOTE 1
+Guidance on calculating the risk rating and mean hazard risk level score can be found in Appendix B.
+NOTE 2
+Other methods of prioritisation can be used with agreement of the Overseeing Organisation.
+Risk management
+4.14
+The risk management plan shall record the risk management measures identified in the risk
+assessment.
+4.14.1
+When an identical risk management measure has been identified for more than one hazard, only the
+risk management measure with the highest risk level should be presented in the risk management plan.
+4.14.2
+The risk management measures identified should be ranked according to their associated hazard risk
+levels (very high to negligible).
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+4.14.3
+Risk management measures may be categorised using Table 4.14.3.
+Table 4.14.3 Categories of risk management measures
+Inspection
+1) PTSI site inspection;
+2) PTSI site investigation;
+3) structural monitoring;
+4) special Inspection;
+5) general Inspection;
+6) principal Inspection.
+Assessment
+1) structural analysis and load assessment;
+2) management of substandard structure.
+Remediation
+1) maintenance;
+2) repair;
+3) strengthening;
+4) replacement.
+Technical plan
+4.15
+When a PTSI site investigation has been identified as a risk management measure, a technical plan
+shall be prepared.
+4.15.1
+The technical plan should allow for circumstances encountered during the PTSI site investigation, for
+example identification of corroded or fractured tendons.
+4.16
+The technical plan shall identify the critical sections requiring intrusive investigation.
+4.17
+The actual number of critical points recommended for investigation shall be discussed in the technical
+plan to include reasoning for increasing or decreasing the number of critical points and exposures from
+those previously calculated.
+NOTE 1
+Not all points are equally critical, and some tendons can be more important to structural integrity or
+more vulnerable to corrosion than others. The number of critical points selected from each type of
+critical section can reflect this.
+NOTE 2
+The amount of exposures recommended for investigation can be increased if there are very few
+tendons in the structure or it is sensitive to a loss of prestress.
+4.18
+The number and location of duct and tendon exposures (DTEs) to be undertaken shall be identified and
+their reasons for inclusion stated.
+4.19
+The number and location of end anchorage exposures (EAEs) to be undertaken shall be identified and
+their reasons for inclusion stated.
+NOTE 1
+When considering the number and location of exposures it is important to consider the difficulty in
+accessing them and the potential for damaging structural and durability elements.
+NOTE 2
+Factors that can indicate the need for anchorages to be exposed include:
+1)
+voids in ducts near anchorages;
+2)
+water seepage/staining at or near anchorage locations;
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 58
+======================================================================
+CS 465 Version 0.0.1
+4. Risk assessment and risk management
+3)
+poor visual condition of capping material;
+4)
+large proportion of voided ducts;
+5)
+vulnerable design details and/or poor construction;
+6)
+experience of defects on similar structures; and,
+7)
+adverse consequences of local loss of prestressing force.
+4.20
+The number and location of corrosion test areas (CTAs) to be undertaken shall be identified and their
+reasons for inclusion stated.
+4.21
+The methods for determining the risk of corrosion by a process of corrosion testing and material
+sampling shall be identified in the technical plan.
+4.21.1
+Corrosion testing should include measurement of:
+1)
+concrete cover to reinforcement;
+2)
+half-cell potential;
+3)
+concrete resistivity; and,
+4)
+carbonation depth.
+4.21.2
+Material sampling of concrete should be undertaken for laboratory determination of:
+1)
+cement content;
+2)
+chloride ion concentration;
+3)
+sulfate ion concentration; and,
+4)
+alkali content.
+4.21.3
+Material sampling of grout and anchorage capping mortar should be undertaken for laboratory
+determination of:
+1)
+cement content;
+2)
+chloride ion concentration;
+3)
+sulfate ion concentration;
+4)
+alkalinity; and,
+5)
+moisture content.
+NOTE 1
+Guidance on concrete testing can be found in CS 462 [Ref 11.N], the Inspection Manual for Highway
+Structures IMHS V1 [Ref 5.I] and CS TG02 [Ref 3.I].
+NOTE 2
+An indication of corrosion of the reinforcement in the concrete can be taken as indicative of the
+potential for corrosion occurring to the post-tensioning system(s).
+4.22
+The preferred methods of exposure and testing shall be identified in the technical plan.
+4.23
+The access requirements for undertaking the PTSI site investigation shall be identified in the technical
+plan.
+4.24
+The technical plan, to be submitted to the Overseeing Organisation, shall not be executed without the
+prior agreement of the Overseeing Organisation.
+Risk assessment and risk management report
+4.25
+The report shall include a summary of the findings from the most recent risk review and the results of
+the risk assessment and the risk management plan.
+4.26
+The report shall be approved and signed by the person responsible for overseeing the risk review, risk
+assessment and risk management process and the post-tensioned special inspection (PTSI).
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 58
+======================================================================
+CS 465 Version 0.0.1
+5. PTSI site inspection
+5.
+PTSI site inspection
+General
+5.1
+The objectives of a PTSI site inspection shall be to:
+1)
+verify the type of bridge construction and any variations, form of articulation, geometry of the
+sections and the type and locations of all construction joints;
+2)
+identify any post-tensioned elements showing signs of distress and/or deterioration, particularly at
+and adjacent to critical sections as identified in the risk review; and,
+3)
+identify any access constraints at critical sections.
+5.1.1
+The inspection should be undertaken from within touching distance of the post-tensioned elements.
+NOTE 1
+It is important that the inspection objectives can be achieved without unnecessary duplication of the
+close range inspection that can follow in the PTSI site investigation, particularly where the cost of the
+necessary access and traffic management is high.
+NOTE 2
+For efficiency, the inspection can be undertaken with the principal inspection, to make use of planned
+access arrangements.
+5.2
+A PTSI site inspection report shall be prepared following the inspection.
+Site inspection
+5.3
+The inspection shall identify defects relevant to the post-tensioning system(s) including:
+1)
+cracking in post-tensioned concrete elements;
+2)
+delamination and spalling of concrete;
+3)
+visual evidence of reinforcement corrosion;
+4)
+deterioration of construction joints;
+5)
+deterioration of expansion and structural joints;
+6)
+deterioration of the water management systems;
+7)
+deterioration of the deck surfacing;
+8)
+excessive deflection;
+9)
+deterioration of bearings.
+5.4
+When defects are observed they shall be classified according to the Inspection Manual for Highway
+Structures IMHS V1 [Ref 5.I].
+5.5
+The location, severity and extent of all defects shall be recorded.
+5.5.1
+When cracking to post-tensioned elements or water leakage through the deck have been identified,
+their possible cause(s) should be determined and taken into account in the risk assessment or PTSI
+site investigation.
+NOTE 1
+For advice on undertaking inspections and identifying defects refer to CS 450 [Ref 4.N] and the
+Inspection Manual for Highway Structures IMHS V1 [Ref 5.I].
+NOTE 2
+Advice on diagnosing cracking can be found in CS TR22 [Ref 6.I], CS TG02 [Ref 3.I] and the Inspection
+Manual for Highway Structures IMHS V1 [Ref 5.I].
+NOTE 3
+Guidance on the detection and management of hidden defects, with case studies for post-tensioned
+concrete bridges, can be found in CIRIA C764 [Ref 4.I].
+5.6
+Where areas of deterioration are discovered that require immediate action to maintain public safety,
+then the procedures in CS 470 [Ref 7.N] shall be followed.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 58
+======================================================================
+CS 465 Version 0.0.1
+5. PTSI site inspection
+PTSI site inspection report
+5.7
+The report shall contain the findings of the PTSI site inspection.
+5.7.1
+The report should include information under the following headings:
+1)
+inspection arrangements and procedures;
+2)
+restrictions on access;
+3)
+confirmation of construction details;
+4)
+visual condition of post-tensioned elements; and,
+5)
+inspection summary.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+6.
+PTSI site investigation
+General
+6.1
+The objectives of the PTSI site investigation shall be to:
+1)
+execute the technical plan in order to determine the condition of the structure's post-tensioning
+system(s);
+2)
+determine the risk of deterioration of the structure in the future; and,
+3)
+identify recommendations for the future management of the bridge.
+6.1.1
+Where a PTSI site inspection has not been completed, the PTSI site investigation should be preceded
+by a PTSI site inspection in accordance with Section 5 of this document.
+6.2
+Any defects observed during the PTSI site investigation shall be classified according to the Inspection
+Manual for Highway Structures IMHS V1 [Ref 5.I].
+6.2.1
+The location, extent and severity of those defects should be recorded and photographed.
+6.2.2
+The PTSI site investigation should follow the process as outlined in Figure 6.2.2.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+Figure 6.2.2 PTSI site investigation process
+6.3
+Where areas of deterioration are discovered that require immediate action to maintain public safety, the
+procedures in CS 470 [Ref 7.N] shall be followed.
+6.4
+A PTSI site investigation report shall be prepared following the PTSI site investigation.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+6.5
+A PTSI site investigation addendum report shall be prepared following completion of any further testing
+stages.
+Investigation procedures
+6.6
+The PTSI site investigation shall be undertaken in accordance with the technical plan, as agreed with
+the Overseeing Organisation.
+6.7
+The site works shall be undertaken by companies with experience in PTSI site investigations.
+6.8
+The person supervising the site works shall have experience in PTSI site investigations.
+6.9
+All material sampling, site and laboratory testing shall be carried out by companies approved for the
+relevant sampling and testing in accordance with BS EN ISO/IEC 17025 2017 [Ref 3.N].
+6.10
+The position of ducts shall be located on site by:
+1)
+reference to as-built drawings; and,
+2)
+use of non-destructive testing (NDT).
+NOTE 1
+Percussive drilling can be used to confirm the location of ducts however trial and error drilling can
+cause structural damage.
+NOTE 2
+Tendon ducts can be displaced between tie-points during concreting, making them more difficult to
+locate. Typical movements can be 25-50mm however displacements exceeding 100mm are not
+uncommon in some forms of construction.
+NOTE 3
+Guidance on NDT of concrete structures can be found in CS 464 [Ref 8.N] and CS TG02 [Ref 3.I].
+NOTE 4
+NDT can assist in the detection of voids in ducts prior to undertaking intrusive investigations.
+6.10.1
+Where voids in ducts have been detected using NDT methods, ducts and tendons at these locations
+should be targeted for exposure.
+6.11
+The condition of the internal post-tensioning system(s) shall be determined by visual inspection, using
+one or more of the following exposure methods:
+1)
+percussion drilling;
+2)
+diamond coring; and,
+3)
+high-pressure water jetting.
+6.11.1
+The methods of exposure may be used individually or in combination, according to site access, safety
+and the type of structure.
+6.11.2
+When high-pressure water jetting is used, the procedure should be an incremental process to allow
+visual examination or the use of an endoscope as the exposure progresses.
+6.12
+Water jetting shall not be used with grit additives.
+6.13
+The following procedure shall be used to expose ducts and tendons:
+1)
+confirm duct location with a pilot hole;
+2)
+enlarge the pilot hole to within 25mm of the duct;
+3)
+remove remaining concrete to expose duct;
+4)
+open the duct to expose the grout;
+5)
+remove the grout using hand tools to expose the tendon.
+6.13.1
+A minimum of 50% of the duct section should be removed to enable inspection of the grout and tendon.
+6.13.2
+Exposures should target the tops of ducts where possible, since this is the most likely location for
+voiding to be present.
+NOTE 1
+Guidance on exposure methods can be found in the Inspection Manual for Highway Structures IMHS
+V1 [Ref 5.I].
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+NOTE 2
+Over-coring the original pilot hole can lead to the ingress of water from coring, particularly when entry is
+vertically down. This can be avoided by sealing the pilot hole and stopping short of the duct, completing
+the hole by hand chisel.
+6.14
+The following procedure shall be used to expose end anchorages:
+1)
+remove capping material;
+2)
+use of hand tools to fully expose individual components of the anchorage.
+NOTE
+When it is possible to gain access to a duct close to an anchorage and a void is found, an endoscope
+can be used to inspect the internal face of the anchorage plate.
+6.14.1
+Removal of concrete within the bursting zone of the anchorage should be avoided, since this localised
+region is likely to be highly stressed.
+6.15
+The intrusive investigations shall identify details and defects relevant to the post-tensioning system(s).
+6.15.1
+The intrusive investigations should confirm details relevant to the post-tensioning system(s) including:
+1)
+type and size of the duct;
+2)
+precise location of the duct at the point of exposure;
+3)
+type and size of the tendon;
+4)
+position of the tendon within the duct; and,
+5)
+packing of wires or strands in a tendon.
+6.15.2
+The intrusive investigations should identify defects relevant to the post-tensioning system(s) including
+the condition of:
+1)
+concrete and reinforcement in the vicinity of the exposures;
+2)
+duct sheaths, both externally and internally;
+3)
+duct grout;
+4)
+tendons; and,
+5)
+anchorages.
+NOTE 1
+Visual defects to duct sheaths can include:
+1)
+corrosion;
+2)
+perforation; and,
+3)
+water contained within the duct.
+NOTE 2
+Visual defects to duct grout can include:
+1)
+cracked;
+2)
+soft;
+3)
+moist; and,
+4)
+voids.
+NOTE 3
+Visual defects to tendons can include:
+1)
+missing wires/strands/tendons;
+2)
+corrosion and any loss of section;
+3)
+fracture; and,
+4)
+loose wires/strands.
+NOTE 4
+Visual defects to anchorages can include:
+1)
+deteriorated or missing components;
+2)
+deteriorated capping material;
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+3)
+presence of moisture; and,
+4)
+corrosion and any loss of section of anchorage components.
+6.15.3
+When water is found within a duct, a sample should be collected for laboratory analysis of:
+1)
+chloride ion content;
+2)
+sulfate ion content; and,
+3)
+pH value.
+6.16
+When a void is discovered within a post-tensioning duct then its extent shall be recorded and classified
+in accordance with Table 6.16.2.
+6.16.1
+The void volume should be determined using air pressure or vacuum testing techniques.
+NOTE 1
+When tendon ducts are only partially filled, a cement grout can appear white in colour rather than grey,
+due to the effect of carbonation.
+NOTE 2
+Guidance on pressure and vacuum testing can be found in the Inspection Manual for Highway
+Structures IMHS V1 [Ref 5.I].
+6.16.2
+Voids should be classified according to Table 6.16.2.
+Table 6.16.2 Classification of voids
+Classification
+Description
+No void
+Fully grouted
+Small void
+<25% of section, <50mm length
+Medium void
+25-50% of section, 50-300mm length
+Large void
+>50% of section, >300mm length
+Ungrouted
+No evidence of grout
+NOTE 1
+In Table 6.16.2 the percentages refer to the cross-sectional area of the duct.
+NOTE 2
+An endoscope can be used to help determine the extent of voiding and the condition of the exposed
+wires or strands within the duct. Guidance on endoscopic examination can be found in the Inspection
+Manual for Highway Structures IMHS V1 [Ref 5.I].
+6.17
+The repair at all intrusive investigation and sampling locations shall be in accordance with BS EN 1504
+[All parts] [Ref 9.N].
+PTSI site investigation report
+6.18
+The report shall contain the factual data from the PTSI site investigation and provide an interpretation
+of the results.
+6.19
+The reasons for any variations between the technical plan and the PTSI site investigation shall be
+recorded.
+6.20
+The factual data from the PTSI site investigation shall be recorded under the following headings:
+1)
+visual inspection results;
+2)
+visual results from intrusive investigations;
+3)
+grout material tests;
+4)
+concrete material tests; and,
+5)
+tests for corrosion risk.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+6.20.1
+Results of previous testing to determine corrosion risk and materials testing should be presented for
+comparison.
+NOTE
+The results of previous testing can be presented in a tabular format and colour coded to identify items
+of low, medium and high concern.
+6.20.2
+Results of the testing and intrusive investigations should be collated for each critical section to enable
+their condition to be appraised.
+6.21
+The data shall be interpreted and the following provided:
+1)
+discussion on the current condition of the post-tensioned elements;
+2)
+discussion on the risk of deterioration in the future;
+3)
+discussion of the risk of brittle failure mode in the structure's current condition; and,
+4)
+recommendations for the future management of the bridge.
+NOTE
+Recommendations for the future management of the bridge can include further testing stages,
+inspection, assessment or remediation.
+Further testing stages
+6.22
+The need for further testing stages shall be agreed with the Overseeing Organisation.
+6.22.1
+Further testing stages may include:
+1)
+use of techniques already undertaken;
+2)
+use of additional techniques;
+3)
+load testing; and,
+4)
+determination of stresses in steel and concrete.
+6.22.2
+Use of techniques already undertaken or additional techniques may be used to establish the overall
+condition of the post-tensioning system(s).
+6.22.3
+Where extensive voiding has been uncovered by the use of techniques already undertaken or additional
+techniques, then the search area may be widened to allow the full extent of voiding to be determined.
+6.22.4
+Depending upon the structural form of the bridge, the results of the previous load assessments, or the
+perceived high risk, local stress conditions in the steel and/or global stress conditions in the concrete
+may be checked.
+NOTE 1
+Determination of stresses in steel and concrete at critical sections can be used to estimate the local
+and general levels of residual prestress, and can be useful for comparison with assessment output.
+NOTE 2
+Advice on the methods for determination of steel and concrete stresses can be found in the Inspection
+Manual for Highway Structures IMHS V1 [Ref 5.I].
+6.23
+Load testing shall be carried out in accordance with CS 463 [Ref 6.N].
+6.23.1
+Load testing may be used not only to determine the effective level of transverse load distribution, but
+also to correlate the structural analysis with the assessed structural action, as significant reserves of
+strength can be present due to secondary effects such as composite action.
+NOTE
+Failure of single prestressing tendons cannot be determined by load testing. However, the global
+behaviour of a bridge deck can be verified by patterns of loading that trigger specific measurable
+responses.
+PTSI site investigation addendum report
+6.24
+The PTSI site investigation addendum report shall include the factual data from the further testing
+stages.
+6.25
+The data shall be interpreted and the following provided:
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 58
+======================================================================
+CS 465 Version 0.0.1
+6. PTSI site investigation
+1)
+discussion on the current condition of the post-tensioned elements;
+2)
+discussion on the risk of deterioration in the future;
+3)
+discussion of the risk of brittle failure mode in the structure's current condition; and,
+4)
+recommendations for the future management of the bridge.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 58
+======================================================================
+CS 465 Version 0.0.1
+7. Monitoring
+7.
+Monitoring
+General
+7.1
+This section shall be read in conjunction with the requirements and guidance on monitoring interim
+measures in CS 470 [Ref 7.N].
+NOTE 1
+Monitoring can form an important part of risk management strategies for keeping deteriorating
+post-tensioned concrete bridges in service by detecting any ongoing changes in structural behaviour
+and deterioration.
+NOTE 2
+Monitoring systems can only detect deterioration from the time of installation.
+NOTE 3
+For high risk structures there can be a case for installing monitoring systems as part of a long term
+management strategy, even if there is currently no evidence of deterioration.
+7.1.1
+Monitoring of post-tensioned concrete bridges may include various methods such as:
+1)
+acoustic emission;
+2)
+natural frequency;
+3)
+strain monitoring; and,
+4)
+deflection.
+NOTE 1
+Guidance on monitoring of post-tensioned bridges, including acoustic emission, can be found in CS
+464 [Ref 8.N] and the Inspection Manual for Highway Structures IMHS V1 [Ref 5.I].
+NOTE 2
+Natural frequency depends on stiffness and mass distribution. Since the structural mass does not
+normally change significantly, monitoring natural frequency can provide an effective method for
+indirectly monitoring stiffness. Measurement of natural frequency can also be a very effective way of
+determining the force in free lengths of external tendons and can detect very small changes in this.
+NOTE 3
+Recommendations on methods and devices which can be used to determine strain in concrete are
+given in BS 1881-206 [Ref 13.N].
+NOTE 4
+Analysis of segmental structures typically shows that joints open at approximately 50% of the ultimate
+load. Strain monitoring can therefore offer the possibility of detecting loss of prestress in segmental
+structures long before it becomes critical. In a segmental structure with unbonded tendons, the first
+joints to open can be identified by simple structural analysis and instrumentation can be confined to
+these locations. However, in segmental structures with bonded tendons (or even external tendons
+encased in mortar), broken tendons can re-anchor over short distances which could result in tendon
+failure being missed if it is concentrated in a joint other than the one being instrumented.
+NOTE 5
+Deflection due to loss of stiffness can be very small right up to the point of failure since loss of stiffness
+due to deterioration can be very localised.
+NOTE 6
+Deflection is more sensitive to loss of prestress in structures with unbonded post-tensioning, since loss
+of prestress cannot be confined to a small length. If deflection monitoring is to be used in this situation
+it is important to use a conservative high estimate of the degree of bond achieved in the actual
+structure, rather than the conservative no bond assumption used in assessment.
+7.1.2
+Deflection measurement for monitoring grouted or partially grouted post-tensioned structures should
+not be used.
+7.2
+In order to fully understand the possible failure modes of the structure, a structural analysis shall be
+undertaken prior to designing the monitoring system.
+7.3
+Monitoring systems shall be tested and calibrated on installation, with monitoring trigger levels set.
+7.3.1
+Monitoring systems should have built in redundancy and be designed for maintenance to cater for
+future damage and deterioration of their components.
+7.4
+A programme for monitoring and interpretation of the results shall be prepared in order to provide
+advance warning of significant changes in structural behaviour.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 58
+======================================================================
+CS 465 Version 0.0.1
+7. Monitoring
+7.4.1
+Trigger levels should be designed to identify the critical issues and avoid unduly conservative alarms.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 58
+======================================================================
+CS 465 Version 0.0.1
+8. Repair and strengthening
+8.
+Repair and strengthening
+General
+8.1
+The need for repair or strengthening shall be agreed with the Overseeing Organisation.
+Repair
+8.2
+Concrete repairs shall be undertaken in accordance with CS 462 [Ref 11.N] and BS EN 1504 [All parts]
+[Ref 9.N].
+NOTE 1
+Guidance on the repair of concrete structures with reference to CS 462 [Ref 11.N] and the BS EN 1504
+[All parts] [Ref 9.N] can be found in CS TR69 [Ref 7.I].
+NOTE 2
+The 'preflex' method can be used to repair damage resulting from impact or blast. In most cases,
+accidental damage is caused by over-height vehicles striking deck soffits. This type of damage is likely
+to be localised and amenable to repairs, providing no damage has occurred to the stressing wires. The
+'preflex' method works by preloading the damaged member prior to repairing, placing the area of repair
+under increased tension. Once the repair is completed and has achieved sufficient strength, the preload
+is removed, inducing a compressive stress in the material. This can help the repair material to work
+effectively with the existing concrete and improve future performance of the structure under live loading.
+NOTE 3
+Void grouting can be used to protect exposed tendons from corrosion and to assist re-anchoring if
+fracture were to occur. Small, dry, isolated voids pose less of a durability problem than large voids
+where tendons are exposed to air, moisture and contaminants, leading to corrosion. Ungrouted tendons
+are effectively unbonded which can result in a lower assessed capacity for that element, if it was not
+designed as such. Guidance on void grouting can be found in CS TR72 [Ref 1.I] and CS 462 [Ref 11.N].
+8.3
+Materials used for concrete repairs shall be in accordance with with BS EN 1504-3 [Ref 10.N].
+Strengthening
+8.4
+The design of strengthening for concrete highway bridges and structures shall be in accordance with
+CD 350 [Ref 15.N].
+8.4.1
+Methods of strengthening may include, but are not limited to the following:
+1)
+provision of additional concrete section;
+2)
+plate bonding;
+3)
+drilling and grouting additional reinforcement;
+4)
+provision of additional prestress; and,
+5)
+modification of structural form.
+NOTE
+Guidance on strengthening can be found in CS TG10 [Ref 2.I] and CD 371 [Ref 8.I].
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 58
+======================================================================
+CS 465 Version 0.0.1
+9. Normative references
+9.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CG 302, 'As-built, operational and maintenance records for
+highway structures'
+Ref 2.N
+National Highways. CS 454, 'Assessment of highway bridges and structures'
+Ref 3.N
+ISO. BS EN ISO/IEC 17025, 'General requirements for the competence of testing and
+calibration laboratories [Designated Standard - NLF]' , 2017
+Ref 4.N
+National Highways. CS 450, 'Inspection of highway structures'
+Ref 5.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+National Highways. CS 463, 'Load testing for bridge assessment'
+Ref 7.N
+National Highways. CS 470, 'Management of sub-standard highway structures'
+Ref 8.N
+National Highways. CS 464, 'Non-destructive testing of highways structures'
+Ref 9.N
+BSI. BS EN 1504 [All parts], 'Products and systems for the protection and repair of
+concrete structures. Definitions, requirements, quality control and evaluation of
+conformity. General principles for use of products and systems (Some parts
+harmonised)'
+Ref 10.N
+BSI. BS EN 1504-3, 'Products and systems for the protection and repair of concrete
+structures. Definitions, requirements, quality control and evaluation of conformity.
+Structural and non-structural repair. (Designated Standard - CPR)'
+Ref 11.N
+National Highways. CS 462, 'Repair and management of deteriorated concrete
+highway structures'
+Ref 12.N
+National Highways. CS 451, 'Structural review and assessment of highway structures'
+Ref 13.N
+BSI. BS 1881-206, 'Testing concrete. Recommendations for determination of strain in
+concrete.'
+Ref 14.N
+National Highways. CS 455, 'The assessment of concrete highway bridges and
+structures'
+Ref 15.N
+National Highways. CD 350, 'The design of highway structures'
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 58
+======================================================================
+CS 465 Version 0.0.1
+10. Informative references
+10.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+The Concrete Society. CS TR72, 'Durable Post-Tensioned Concrete Structures'
+Ref 2.I
+The Concrete Society. Concrete Bridge Development Group. CS TG10, 'Enhancing
+the Capacity of Concrete Bridges'
+Ref 3.I
+The Concrete Society. Concrete Bridge Development Group. CS TG02, 'Guide to
+testing and monitoring the durability of concrete structures'
+Ref 4.I
+Construction Industries Research and Information Association, London. Collins J et
+al. CIRIA C764, 'Hidden defects in bridges. Guidance for detection and maintenance'
+Ref 5.I
+TSO. IMHS V1, 'Inspection Manual for Highway Structures. Volume 1: Reference
+Manual'
+Ref 6.I
+The Concrete Society. CS TR22, 'Non-structural cracks in concrete'
+Ref 7.I
+The Concrete Society. CS TR69, 'Repair of concrete structures with reference to BS
+EN 1504'
+Ref 8.I
+National Highways. CD 371, 'Strengthening highway structures using fibre-reinforced
+polymers and externally bonded steel plates'
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Appendix A. Determination of critical sections and critical points
+A1
+Introduction
+Figure A.1 illustrates a critical section taken at midspan through a simply supported beam and slab
+deck. Each beam is longitudinally post-tensioned with five tendons. Twenty ducts and tendons cross
+this midspan critical section and therefore twenty critical points are counted.
+Figure A.1 Illustration of midspan critical section through a simply supported beam
+and slab deck
+A2
+Calculation of critical points requiring investigation
+The following equations, based on best-fitting curves for the data in Tables 3.11.2a and 3.11.2b are
+provided below.
+Equation A.1 Recommended number of critical points requiring investigation (longitudinal
+post-tensioning)
+CL = 3.57 · C0.36
+PL
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Equation A.2 Recommended number of critical points requiring investigation (transverse
+post-tensioning)
+CT = 1.21 · C0.36
+PT
+In equations A.1 and A.2: CL and CT represent the recommended number of critical points requiring
+investigation on longitudinal and transverse post-tensioning systems respectively; CP L and CP T
+represent the total number of critical points on longitudinal and transverse post-tensioning systems
+respectively; the constant values were derived using statistical methods based on the proportion of
+critical points historically inspected.
+A3
+Example structures and critical sections
+The example structures provided in this appendix are given primarily to illustrate the identification of
+critical sections and the calculation of critical points. Several structural forms with various
+post-tensioning arrangements are presented. The examples are by no means exhaustive and
+assessors should refer to Section 3 - risk review for requirements and advice on how to identify and
+calculate critical sections and critical points. For each example, the different types of critical sections
+are identified on the drawings and a breakdown of the critical sections and critical points is presented in
+tabular format.
+A3.1
+Example 1 - single span simply supported beams
+The single span bridge deck comprises seventeen simply supported beams which were longitudinally
+post-tensioned. The two edge beams each contain 5 ducts and tendons and the fifteen internal beams
+each contain 6 ducts and tendons.
+Elevation, plan and typical cross-section sketches of the bridge are presented in Figures A.2, A.3 and
+A.4 respectively.
+Figure A.2 Example 1 - Elevation
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Figure A.3 Example 1 - Plan
+Figure A.4 Example 1 - Typical section
+Three critical sections exist, one at midspan (duct low points and possible yield point) and one at each
+beam end (duct high points and end anchorage locations). A breakdown of the critical sections and
+critical points is provided in table A.1.
+Table A.1 Example 1 - Critical sections and critical points
+Critical Section
+Description
+Critical Points
+CS-A
+End anchorage regions
+200
+CS-B
+Midspan region
+100
+According to Table A.1, CP L = 300 . Using Equation A.1 the recommended number of Critical Points
+requiring investigation, CL = 28 .
+A3.2
+Example 2 - continuous voided slab
+The bridge has a three span continuous reinforced concrete slab deck, which has solid side spans and
+a voided central span. The deck was post-tensioned longitudinally and also transversely at the pier
+locations. The longitudinal post-tensioning consists of 42 ducts and tendons. The ducts are profiled
+with low points at midspan and high points over supports. The transverse post-tensioning in the deck
+consists of 10 ducts and tendons above each of the intermediate supports. The tendons are anchored
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+just above mid height of the slab, rise slightly over the columns and dip towards the slab soffit between
+the columns.
+Elevation, plan and typical cross-section sketches of the bridge are presented in Figures A.5, A.6 and
+A.7 respectively.
+Figure A.5 Example 2 - Elevation
+Figure A.6 Example 2 - Plan
+Figure A.7 Example 2 - Sections through deck above pier support and at midspan of
+central span
+Critical sections on the longitudinal post-tensioning system exist at end anchorage regions, duct low
+points at midspan and duct high points over intermediate supports. Critical sections on the transverse
+post-tensioning system exist at end anchorage regions, duct high points over the columns and duct low
+points at the deck centre-line. A breakdown of the critical sections and critical points is provided in
+Table A.2.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Table A.2 Example 2 - Critical sections and critical points
+Critical Section
+Description
+Critical Points
+CS-A
+Longitudinal post-tensioning end anchorage regions
+84
+CS-B
+Longitudinal post-tensioning midspan regions
+126
+CS-C
+Longitudinal post-tensioning intermediate support regions
+84
+CS-D
+Transverse post-tensioning end anchorage regions
+40
+CS-E
+Transverse post-tensioning midpoint
+20
+CS-F
+Transverse post-tensioning intermediate support regions
+40
+According to table A.2, CP L = 294 . Using Equation A.1 the recommended number of critical points
+requiring investigation, CL = 28 .
+According to table A.2, CP T = 100. Using Equation A.2 the recommended number of critical points
+requiring investigation, CT = 6 .
+A3.3
+Example 3 - multiple span continuous box girder
+The superstructure consists of four continuous spans of concrete box girder construction. The deck is
+post-tensioned longitudinally through the webs and transversely through the top flange, through the
+webs and into the cantilevers.The webs were cast in-situ, while the top and bottom flanges were
+precast. Run-on slabs bear onto half-joints at the box girder ends.
+Elevation, plan and typical cross-section sketches of the bridge are presented in Figures A.8, A.9 and
+A.10 respectively.
+Figure A.8 Example 3 - Elevation
+Figure A.9 Example 3 - Plan
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Figure A.10 Example 3 - Section near intermiediate support
+Critical sections for the longitudinal post-tensioning exist at end anchorage regions, duct low points at
+midspan and duct high points over intermediate supports. Critical sections for the transverse
+post-tensioning exist at construction joints between the web and top flange, at the tendon midpoint
+where the duct profile is lowest and at end anchorage regions. A breakdown of the critical sections and
+critical points is provided in table A.3.
+Table A.3 Example 3 - Critical sections and critical points
+Critical
+section
+Description
+Critical points
+CS-A
+Longitudinal post-tensioning end anchorage regions (including half-joints
+at box girder ends)
+16
+CS-B
+Longitudinal post-tensioning midspan regions
+32
+CS-C
+Longitudinal post-tensioning intermediate support regions
+24
+CS-D
+Transverse post-tensioning construction joints
+286
+CS-E
+Transverse post-tensioning midpoint
+143
+CS-F
+Transverse post-tensioning end anchorage regions
+286
+According to table A.3, CP L = 72 . Using equation A.1 the recommended number of critical points
+requiring investigation, CL = 17 .
+According to table A.3, CP T = 715 . Using equation A.2 the recommended number of critical points
+requiring investigation, CT = 13 .
+A3.4
+Example 4 - complex post-tensioning system including tied supports
+The structure is a 3 span continuous haunched concrete 'U' girder comprised of precast post-tensioned
+segmental webs with a cast in-situ reinforced concrete bottom flange. The superstructure is supported
+by intermediate piers consisting of two cast in-situ raking columns forming an integral transverse 'H'
+frame with the 'U' girder. Post-tensioned ties are present below the carriageway extending both
+longitudinally & transversely between the pier columns, and post-tensioned inclined ties extend to the
+end spans which are monolithic with the transversely post-tensioned end diaphragm.
+Elevation, plan and typical cross-section sketches of the bridge are presented in Figures A.11, A.12
+and A.13 respectively.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Figure A.11 Example 4 - Half elevation
+Figure A.12 Example 4 - Plan
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+Figure A.13 Example 4 - Section at intermediate support
+Critical sections for the longitudinal post-tensioning exist at end anchorage regions, high points over
+intermediate supports, midspan regions at low points and segmental joints between the precast
+sections. Critical sections for the transverse post-tensioning in the diaphragms exist at end anchorage
+regions. Critical sections for the ground ties exist at end anchorage regions and cast in-situ joints.
+Critical sections for the inclined ties exist at end anchorage regions. A breakdown of the critical
+sections and critical points is provided in Table A.4.
+Table A.4 Example 4 - Critical Sections and Critical Points
+Critical
+section
+Description
+Critical points
+CS-A
+Longitudinal post-tensioning end anchorage regions
+8
+CS-B
+Longitudinal post-tensioning intermediate support regions
+8
+CS-C
+Longitudinal post-tensioning midspan regions
+12
+CS-D
+Longitudinal post-tensioning segmental joints
+36
+CS-E
+Transverse post-tensioning end anchorage regions
+8
+CS-F
+Transverse ground tie end anchorage regions
+16
+CS-G
+Longitudinal ground tie construction joints
+16
+CS-H
+Inclined tie end anchorage regions
+8
+A total of 64 critical points have been identified for the longitudinal post-tensioning system on this
+structure.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix A. Determination of critical sections and criti...
+A total of 32 critical points have been identified for the post-tensioned ground ties on this structure.
+A total of 8 critical points have been identified for the post-tensioned inclined ties on this structure.
+According to table A.4, CP L = 64 + 32 + 8 = 104 . Using equation A.1, the recommended number of
+critical points requiring investigation, CL = 19 .
+According to table A.4, CP T = 8 . Using equation A.2 the recommended number of critical points
+requiring investigation, CT = 3 .
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix B. Prioritisation
+Appendix B. Prioritisation
+B1
+General
+Groups of structures can be prioritised for the purposes of implementing their risk management plans.
+Various methods of prioritisation can be used with agreement of the Overseeing Organisation. It is
+important that the primary focus of the risk assessment is on the risk management plan. Prioritisation
+scores should not be used in isolation or solely relied upon for identifying high risk structures.
+B2
+Risk rating
+The risk rating is one method which can be used for the prioritisation of post-tensioned concrete
+bridges. The risk rating can be determined by combining the year of construction, bridge form,
+vulnerable details and materials, condition and consequence factors (refer to Section 4 - risk
+assessment and risk management). The risk rating is expressed as a percentage using equation B.1.
+Equation B.1 Risk rating
+R = 100((4FY + FF + FV + FC)FQ) −6
+254
+B2.1
+Year of construction factor
+The year of construction factor FY can be determined using Table B.1.
+Table B.1 Year of construction factor
+Year constructed
+FY
+Pre 1965
+5
+1965 to 1975
+4
+1976 to 1985
+3
+1986 to 1996
+2
+Post 1996
+1
+Hazards related to year of construction reflect that knowledge, experience, design standards, and
+specifications for methods and materials have improved over time.
+B2.2
+Form factor
+The form factor FF can be determined using Table B.2.
+Table B.2 Form factor
+Bridge form
+Risk of brittle
+failure mode
+FF
+Segmental
+Beams or box girders, simply supported, non-composite,
+transverse joints, longitudinal post-tensioning
+Very high
+12
+Beam grillage, simply supported, non-composite, longitudinal
+and transverse joints and post-tensioning
+High
+10
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix B. Prioritisation
+Table B.2 Form factor (continued)
+Bridge form
+Risk of brittle
+failure mode
+FF
+Beams or box girders, simply supported with a composite slab,
+transverse joints and longitudinal post-tensioning
+Medium
+8
+Continuous beams, box girders or portals, non-composite,
+transverse joints and longitudinal post-tensioning
+Medium
+8
+Continuous beams or box girders or portals with a composite
+slab, transverse joints and longitudinal post-tensioning
+Low
+4
+Monolithic
+Beams, simply supported, non-composite, longitudinal
+post-tensioning
+Medium
+6
+Beams, continuous, non-composite, longitudinal post-tensioning
+Medium
+5
+Beam or box girder, simply supported, composite, longitudinal or
+longitudinal and transverse post-tensioning
+Low
+4
+Beam or box girder, continuous, composite, longitudinal or
+longitudinal and transverse post-tensioning
+Low
+3
+Beams, simply supported or continuous, non-composite,
+transverse post-tensioning
+Very low
+2
+Solid or voided slab, simply supported or continuous, longitudinal
+and/or transverse post-tensioning
+Very low
+2
+Post-tensioned substructure
+Bridges with ties between supports
+Very high
+12
+Segmental construction, where the post-tensioning arrangement
+is designed to provide resistance to primary bending
+Very high
+12
+Monolithic construction, where the post-tensioning arrangement
+is designed to provide resistance to primary bending
+High
+9
+Segmental construction, where the post-tensioning arrangement
+is not designed to provide resistance to primary bending
+Medium
+5
+Monolithic construction, where the post-tensioning arrangement
+is not designed to provide resistance to primary bending
+Low
+3
+Tie-downs
+Continuous bridges, cantilevers and suspended spans on
+half-joints, with anchor spans tied down for:
+- Dead load and live load
+Very high
+12
+- Live load only
+High
+10
+Some structures cannot satisfy a particular bridge form description listed in Table B.2, in which case the
+assessor can select the bridge form factor using their engineering judgement.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix B. Prioritisation
+For bridges with more than one type of form as presented in table B.2, the highest risk of brittle failure
+mode should be selected.
+B2.3
+Vulnerable details and materials factor
+To determine the vulnerable details and materials factor FV , score 1 for each vulnerable detail and
+material hazard identified in the risk assessment (Table 4.7), up to a maximum of 10.
+B2.4
+Condition factor
+To determine the condition factor FC , score 1 for each condition hazard identified in the risk
+assessment (table 4.8), up to a maximum of 10.
+B2.5
+Consequence factor
+The consequence factor FQ is intended to represent the consequences of a bridge collapse and can be
+determined using Table B.3.
+Table B.3 Consequence factor
+Feature
+FQ
+Traffic on or below the bridge (Two Way Annual Average Daily Flow)
+Over 95,000
+70,500 to 95,000
+47,000 to 70,500
+25,000 to 47,000
+Up to 25,000
+5
+4
+3
+2
+1
+Railway below
+5
+Other areas below the bridge including:
+1) valuable installations
+2) occupied by people
+3) navigable watercourse
+4) storage facilities for hazardous materials
+5) environmentally sensitive areas (such as conservation areas)
+6) unnavigable watercourse
+3
+3
+3
+3
+2
+1
+Where more than one situation applies, the highest score is to be selected.
+The consequence factor may be increased where:
+1)
+there is no suitable diversion route or the diversion route is very long; or,
+2)
+bridges that provide a link within a community where the loss of the bridge would result in
+unacceptable community severance.
+The consequence factor may be increased by 1, 2 or 3 (to a maximum of 5) where the assessor
+determines the consequences of the failure to be moderate, severe or unacceptable, respectively.
+The traffic flow values listed in table B.3 should be increased by 1% per year from 2019.
+B3
+Hazard risk level scoring
+This is an alternative method for prioritising structures based on all of the hazard risk levels identified in
+the risk assessment. Table B.4 should be used to assign a hazard score to each hazard, and the mean
+hazard risk level score calculated.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix B. Prioritisation
+Table B.4 Hazard risk level scores
+Hazard risk level
+Hazard score HS
+Very high
+6
+High
+5
+Medium
+4
+Low
+3
+Very low
+2
+Negligible
+1
+The mean hazard risk level score, H , is calculated using equation B.2, where HS represents the
+individual hazard scores and N is the total number of hazards identified.
+Equation B.2 Mean hazard risk level score
+H =
+∑Hs
+N
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix C. Example risk assessment hazards and prioriti...
+Appendix C. Example risk assessment hazards and prioritisation
+C1
+Introduction
+The example hazards provided in this appendix are given primarily to illustrate application of the risk
+assessment and prioritisation processes. The format is not intended to be prescriptive and assessors
+may supplement the content to suit particular cases.
+The year of construction and structural form should be reviewed and discussed in the risk assessment
+report, prior to the assessment of hazards. These factors are important since they will affect the risk
+level of each identified hazard.
+C2
+Example hazards
+The example hazards provided below do not relate to a particular structure.
+C2.1
+Vulnerable details and material hazards
+C2.1.1
+Tendons located close to the upper surface of the deck
+Risk event - Water and salts penetrate the deck waterproofing and concrete resulting in corrosion of the
+reinforcement and post-tensioning system, and deterioration of concrete.
+Likelihood - High. The original deck waterproofing system is still in use (44 years old). During the latest
+principal inspection cracking to the carriageway surfacing above the intermediate supports was
+observed, which could be indicative of similar defects in the underlying waterproofing system. At their
+highest point above the intermediate supports, there is only 60mm of concrete cover to the
+post-tensioning ducts. The PTSI 'Phase 3' site investigations determined the presence of voids in
+several locations, particularly over supports. The tendons exposed were found to have only minor
+surface corrosion.
+Consequence - High. If water, chlorides and sulfates were to penetrate the deck waterproofing,
+concrete and ducts, deterioration of the post-tensioning system would likely occur, which could result in
+loss of capacity and eventually structural failure.
+Hazard risk level - High.
+Risk management measures:
+1)
+undertake further PTSI site investigations at tendon high points to determine the current condition
+of the post-tensioning system;
+2)
+investigate the need to replace the waterproofing and resurface the deck to prevent any further
+possible deterioration.
+C2.1.2
+Anchorages concealed at joints
+Risk event - Water and salts penetrate the longitudinal end anchorages located below the expansion
+joints resulting in corrosion of the post-tensioning system and reinforcement, and deterioration of
+concrete.
+Likelihood - Medium. The most recent general and principal inspections reported water staining and
+dampness at the deck ends, suggesting that water has been penetrating the expansion joints. The
+expansion joints over the end supports are 44 years old, exceeding their expected service life. No end
+anchorage exposures were undertaken during the 1997 PTSI 'Phase 3' site investigation. 2 No. ducts
+and tendons towards the deck ends were investigated in 1997 and confirmed to be in good condition
+with no voids present and no significant corrosion at these locations. Concrete dust samples taken
+from the deck adjacent to the deck ends indicated that 2 of the 12 concrete samples had high chloride
+contents exceeding the accepted critical value of 0.3% by mass of cement.
+Consequence - High. Deterioration of the post-tensioning end anchorages with possible loss of
+capacity and eventually structural failure.
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix C. Example risk assessment hazards and prioriti...
+Hazard risk level - Medium.
+Risk management measures:
+1)
+replace expansion joints;
+2)
+undertake further PTSI site investigations to determine the current condition of the
+post-tensioning system at or towards deck ends.
+C2.1.3
+Old deck waterproofing system
+Risk event - Water and salts penetrate the deck waterproofing and concrete resulting in corrosion of the
+reinforcement and post-tensioning system, and deterioration of concrete.
+Likelihood - High. The original deck waterproofing system, which comprises a 5mm thick bituminous
+sheet with a 15mm protection layer, is over 44 years old. The expected service life of such a
+waterproofing system is approximately 30 years. During the latest principal inspection cracking to the
+carriageway surfacing above the intermediate supports was observed, which could be indicative of
+similar defects in the underlying waterproofing system. The PTSI 'Phase 3' site investigations
+determined the presence of voids in several locations, particularly over supports. The tendons exposed
+were found to have only minor surface corrosion.
+Consequence - High. If water, chlorides and sulfates were to penetrate the deck waterproofing,
+concrete and ducts, deterioration of the post-tensioning system would be likely to occur, which could
+result in loss of capacity and eventually structural failure.
+Hazard risk level - High.
+Risk management measures:
+1)
+confirm the condition of the waterproofing system;
+2)
+undertake special inspection to determine the condition of the concrete in the top of the deck;
+3)
+long term measures should include replacement of the waterproofing system.
+C2.2
+Condition hazards
+C2.2.1
+Cracking in post-tensioned concrete elements
+Risk event - As well as general structural deterioration, water and salts penetrate the cracks resulting in
+corrosion of reinforcement and possibly the longitudinal post-tensioning system and also deterioration
+of the concrete.
+Likelihood - Medium. The 1998 PTSI 'Phase 3' site investigation report concluded that the tendon ducts
+were dry and well grouted in most locations investigated except over supports where significant voiding
+was discovered. In all locations the exposed tendon wires were in good condition with minor surface
+corrosion only. The 1997 petrographic examination of concrete cores identified micro-cracking
+characteristic of drying shrinkage cracks. The 1997 PTSI 'Phase 2' report also identified cracks as
+drying shrinkage cracks. A single area above the east abutment on the north web of the box girder
+displayed very fine cracking which appeared to be along the line of the tendon duct.
+Consequence - High. Deterioration of the post-tensioning system with possible loss of capacity and
+eventually structural failure.
+Hazard risk level - Medium.
+Risk management measures:
+1)
+undertake further PTSI site investigations to establish the condition of the tendons, grout and
+ducts at the locations of reported cracking;
+2)
+monitor crack widths and lengths at future Principal Inspections to determine if the cracking is
+progressive.
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix C. Example risk assessment hazards and prioriti...
+C2.2.2
+Voids in grout
+Risk event - Water and salts penetrate the longitudinal post-tensioning system resulting in corrosion. In
+the event of wire and tendon fracture, voids can prevent re-anchorage.
+Likelihood - Medium. The PTSI 'Phase 3' site investigations determined the presence of voids in
+several locations, particularly over supports. The voids were significant in size however it was not
+possible to determine the full extent at the time of inspection. The tendons exposed were found to have
+only minor surface corrosion.
+Consequence - High. Deterioration of the post-tensioning system with possible loss of capacity and
+eventually structural failure.
+Hazard risk level - Medium.
+Risk management measures:
+1)
+undertake further PTSI site investigations to determine the current condition of the
+post-tensioning system and the extent of voiding in the ducts;
+2)
+undertake a feasibility study for void grouting using guidance within CS TR72 [Ref 1.I].
+C2.3
+History hazards
+C2.3.1
+Failure to maintain water management systems
+Risk event - Water containing salts is not discharged from the superstructure and penetrates the deck
+concrete resulting in corrosion of reinforcement and post-tensioning systems, and deterioration of
+concrete.
+Likelihood - High. The deck waterproofing system and expansion joints are 44 years old and have
+therefore exceeded their expected service lives. Inspection reports have identified evidence of leakage
+at the deck ends and cracking in the carriageway surfacing.
+Consequence - High. Deterioration of the post-tensioning system with possible loss of capacity and
+eventually structural failure.
+Hazard risk level - High.
+Risk management measures:
+1)
+Maintain water management systems and conduct a feasibility study for deck re-waterproofing.
+2)
+Replace the expansion joints.
+C2.3.2
+Use of de-icing salts
+Risk event - De-icing salts contaminate the surface water which penetrates the deck surfacing and
+concrete resulting in corrosion of the post-tensioning system and reinforcement, and deterioration of
+concrete.
+Likelihood - Medium. The 2005 special inspection included corrosion testing to the top of the box girder
+within trial pits in the carriageway surfacing. Material sampling confirmed low levels of chlorides and
+sulfates and corrosion testing suggested a low risk of corrosion. The deck waterproofing system is 44
+years old.
+Consequence - High. Deterioration of the post-tensioning system with possible loss of capacity and
+eventually structural failure.
+Hazard risk level - Medium.
+Risk management measure - Maintain water management systems and conduct a feasibility study for
+deck re-waterproofing.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 58
+======================================================================
+CS 465 Version 0.0.1
+Appendix C. Example risk assessment hazards and prioriti...
+C2.4
+Assessment hazards
+C2.4.1
+Structure has not been assessed for current condition, assessment standards or operational
+loading
+Risk event - The load capacity of the bridge in its current condition is unknown.
+Likelihood - Certain. The bridge was constructed in 1974 and no load assessment has been completed.
+Consequence - Low. Should deterioration be discovered there would be a delay in determining the
+effect on the structure.
+Hazard risk level - Medium.
+Risk management measure - Recommend undertaking a structural review in accordance with CS 451
+[Ref 12.N].
+C3
+Prioritisation
+Two methods for prioritisation are illustrated below using the example hazards identified above.
+C3.1
+Risk rating
+The bridge was constructed in 1974, therefore from table B.1, FY = 4
+The structure is a continuous three span longitudinally post-tensioned box girder bridge, therefore from
+table B.2, FF = 3 .
+Three vulnerable details were identified, therefore FV = 3 .
+Two condition hazards were identified, therefore FC = 2 .
+The AADF for the structure in 2017 was 97,128, therefore from table B.3, FQ = 5 .
+Therefore the risk rating is calculated using equation B.1 as follows:
+R = 100 (((4×4)+3+3+2)5)−6
+254
+R = 44.9%
+C3.2
+Hazard risk level scoring
+The following hazard risk levels were identified:
+Table C.1 Hazard risk level scores
+HS
+Number of hazards identified
+6
+0
+5
+3
+4
+4
+3
+1
+2
+0
+1
+0
+Thus the mean hazard risk level score is calculated using equation B.2 as follows:
+H = (5×3)+(4×4)+(3×1)
+8
+= 34
+8
+H = 4.25
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 58
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 465 Version 0.0.1, published: 30-Sep-2025
+
+
