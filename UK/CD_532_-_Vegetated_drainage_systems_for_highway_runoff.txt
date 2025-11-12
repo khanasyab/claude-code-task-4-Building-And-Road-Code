@@ -1,0 +1,2264 @@
+======================================================================
+PAGE 1 of 56
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 532
+Vegetated drainage systems for highway
+runoff
+Version 0.2.0
+Summary
+This document gives the requirements and advice for the design of vegetated drainage systems
+to convey, store and treat runoff from motorways and all-purpose trunk roads.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 56
+======================================================================
+CD 532 Version 0.2.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+9
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2. Selection of vegetated drainage systems
+10
+Treatment of highway runoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Other factors affecting the selection of systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Land availability
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Soil permeability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Topography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Spillage risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+3. Design of vegetated drainage systems
+16
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Health and safety in design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Swales
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Ditches
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Basins . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Ponds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Requirements for attenuation of highway runoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Requirements for treatment of highway runoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Requirements for pond integration into the landscape
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Vegetation for ponds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Wetlands
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Combination of systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+4. Normative references
+28
+5. Informative references
+29
+Appendix A. Runoff constituents and treatment processes
+30
+A1 Suspended solids
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+A2 Heavy metals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+A3 Organic constituents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+A4 Nutrients
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A5 Sodium chloride and other dissolved constituents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A6 The importance of residence time and loading
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A7 Treatment processes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Appendix B. Description of vegetated drainage systems
+33
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 56
+======================================================================
+CD 532 Version 0.2.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532
+0.2.0
+September 2025
+Core document
+Incremental change to
+requirements
+Typical ditch cross section added with associated clauses. Other minor editorials.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532
+0.1.0
+November 2021
+Core document
+Incremental change to
+requirements
+CD 532
+0
+March 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 56
+======================================================================
+CD 532 Version 0.2.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 532 version 0.1.0, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 56
+======================================================================
+CD 532 Version 0.2.0
+Introduction
+Introduction
+Background
+This document gives the requirements and advice for the design of vegetated drainage systems to
+convey, store and treat runoff from motorways and all-purpose trunk roads. It has been developed to
+address the requirements of the European Parliament Directive 2000/60/EC [Ref 5.I] and the
+Assessment and Management of Floods Directive 2007/60/EC [Ref 12.I]. These systems can provide
+benefits arising from their sustainability. They are described as vegetated drainage systems because
+they contain a significant element of vegetation and they are designed for use especially in the
+drainage networks of motorways and all purpose trunk roads.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard", or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 5.N].
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 56
+======================================================================
+CD 532 Version 0.2.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+BOD
+Biochemical oxygen demand
+EPA
+Environmental protection agency
+PAH
+Polynuclear aromatic hydrocarbon
+PCB
+Polychlorinated biphenyl
+Spp
+Species
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 56
+======================================================================
+CD 532 Version 0.2.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Absorption
+substances taken into plant, soil or other material and loosely
+held without binding nor physical or chemical incorporation
+Adsorption
+(of particles or droplets): substances collected, and sometimes
+bound, on surface of soil, vegetation or other matter
+Aerobic
+in the presence of oxygen (air)
+Anaerobic
+in the absence of oxygen (air)
+Aquatic species
+plants living wholly within the body of water or directly on its
+surface
+Assimilation
+conversion into complex constituents of the organism
+Biodegradation
+decomposition by microbes
+Biological oxygen demand
+the rate of removal of oxygen by bacterial organisms using the
+organic matter in water
+Designated sites
+sites that have been designated by a statutory environmental
+body
+Detention basin
+a basin designed to prevent infiltration
+Emergent species
+plants that are rooted in water and have parts (shoots, leaves
+and or flowers) which grow above the surface of the water
+Environmental protection agency
+the national body responsible for managing the quality of water
+bodies
+First flush
+the runoff from the first part of a rainfall event.
+NOTE: This usually is the most polluted runoff, especially when
+there is intense rainfall after long dry periods during which
+pollutants can accumulate on the road
+Flood zone 3
+land having a 1 in 100 or greater annual probability of river
+flooding; or land having a 1 in 200 or greater annual probability of
+sea flooding
+Flow spreader
+device used to spread flow from a pipe or channel to a sheet flow
+Impermeable liner
+impermeable membrane, often butyl, used to prevent movement
+of water into or out of pond surfaces
+Infiltration basin
+a basin designed to alow infiltration
+Land drainage authority
+an organisation with a role in respect of land drainage and
+flooding
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 56
+======================================================================
+CD 532 Version 0.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Manning's equation
+A = nQ/S0.5 R0.67
+where A is the cross-sectional area of the flow (m2); Q is the flow
+rate (m3/s); n is the Manning roughness coefficient; and S is the
+longitudinal gradient of the ditch (m/m)
+The hydraulic radius R is defined by: R = A/P
+where P is the wetted perimeter; that is the perimeter of the
+channel in contact with the water flow
+Marginal species
+plants that live at the margin of water bodies
+Orifice
+a small opening in a pipe or plate designed to limit the flow of
+water
+Precipitation
+deposition of soluble substance in an insoluble form (such as an
+oxide, or carbonate)
+Pollution control device
+device or system designed to reduce the risk of pollution
+Receiving water body
+the surface watercourse or groundwater body that receives runoff
+Remobilisation
+(of metals); change to soluble form, or displacement as ionic
+form, from cation exchange sites on clay minerals or organic
+materials
+Residence time
+the time spent by water in a treatment system
+Retention pond
+a pond designed primarily to attentuate highway runoff
+Retention time
+the time spent by water in an attenuation system
+Rhizome
+an underground plant stem which produces roots and shoots
+Rill
+small shallow channel with flowing water
+Riparian owner
+owner of the land adjacent to a watercourse
+Rip-rap
+stone used to reduce scour or erosion
+Saturated zone
+the layer of underlying ground that is saturated with groundwater
+Semiaquatic species
+plants which are capable of living in both water and on wet land
+Source protection zone
+a body of groundwater designated as sensitive by the EPA
+Statutory environmental
+consultee
+a statutory body responsible for managing the quality of the
+natural environment
+Substratum
+subsurface material providing support for plants and/or filtering
+function and main pathway for water flow (usually soil or gravel)
+Suspended solids
+small solid particles held in suspension (in water)
+Sward
+an expanse of evenly cut grass
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 56
+======================================================================
+CD 532 Version 0.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Treatment efficiency
+the performance of a treatment system in reducing the pollutant
+in runoff
+NOTE: expressed as a percentage reduction
+Volatilisation
+changing of liquid to gaseous phase
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 56
+======================================================================
+CD 532 Version 0.2.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements, advice and design methodologies within this document shall apply to the design of
+vegetated drainage systems to convey, store and treat the runoff from motorways and all purpose trunk
+roads.
+NOTE 1
+The requirements and advice for the design of non-vegetated drainage systems to convey, store and
+treat runoff are given in CG 501 [Ref 1.N].
+NOTE 2
+The requirements and advice for the design of grassed surface water channels are given in CD 521
+[Ref 7.I].
+NOTE 3
+The requirements and advice for the design of soakaways are given in CD 530 [Ref 4.I].
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving vegetated drainage systems on
+the Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 56
+======================================================================
+CD 532 Version 0.2.0
+2. Selection of vegetated drainage systems
+2.
+Selection of vegetated drainage systems
+2.1
+Where vegetated drainage systems are implemented, they shall be used as components of a drainage
+network to convey, store and treat water running off motorways and all-purpose trunk roads, before it
+outfalls to the receiving waters.
+2.1.1
+Vegetated drainage systems may be designed to supplement or replace conventional drainage
+systems.
+2.1.2
+A landscape assessment, combined with a hydrological study, an ecological survey and an
+archaeological investigation, may be used to influence the nature, scale and location of a vegetated
+drainage system.
+NOTE 1
+Vegetated drainage systems are a type of sustainable drainage.
+NOTE 2
+Descriptions of vegetated drainage systems are given in Appendix B.
+NOTE 3
+A landscape assessment, combined with a hydrological study and an ecological survey can help to
+secure a well-integrated system within its site context; protecting existing landscape features (natural or
+man-made) wherever desirable, reflecting the character of the surrounding landscape. Further
+information can be found in LA 108 [Ref 1.I] and LD 117 [Ref 8.I].
+NOTE 4
+Guidance on the character of the surrounding landscape is often available from the statutory
+environmental consultees.
+2.2
+Vegetated drainage systems shall be designed to mimic the characteristics of the existing local
+hydrology of the area.
+NOTE
+Mimicking the characteristics of the existing local hydrology can ensure the systems do not increase
+flood risk within the local catchment.
+2.3
+Where the vegetated drainage system offers the opportunity to deliver other environmental benefits
+these shall be identified at the beginning of the design process.
+2.4
+In providing for other environmental benefits, the design shall not adversely affect the primary function
+of a vegetated drainage system to convey, store and treat water running off motorways and all-purpose
+trunk roads.
+NOTE
+Other environmental benefits can include, but are not limited to, improved biodiversity, enhanced
+groundwater recharge, improved amenity and reduced use of energy.
+2.5
+A review of the planning context shall be carried out to establish the presence of any international,
+national or local designations within, adjacent to or in the vicinity of the proposed site area that can be
+affected.
+2.5.1
+Where designated sites that can be affected are identified, vegetated drainage systems can be
+particularly appropriate and the acquisition of any additional land required for them may be justified on
+account of the environmental benefits they can bring.
+2.5.2
+Where designated sites that can be affected are identified, the use of more than one vegetated
+drainage system may be justified.
+NOTE 1
+References to wildlife legislation, designated sites and areas of potential nature conservation interest
+are given in table 3.24 in LA 108 [Ref 1.I].
+NOTE 2
+A review of the planning context can indicate the relative importance of the landscape and ecology of
+the area, and whether it is likely that environmental mitigation will be a significant part of a road scheme.
+Treatment of highway runoff
+2.6
+The level of treatment of highway runoff shall be determined by the assessment of the potential impact
+on the receiving water body.
+NOTE
+Methods for assessing highway runoff are described in LA 113 [Ref 7.N].
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 56
+======================================================================
+CD 532 Version 0.2.0
+2. Selection of vegetated drainage systems
+2.7
+A vegetated drainage system shall be designed to treat all runoff from the design rainfall event.
+2.7.1
+Where it is not possible to treat all the water in a rainfall event, the systems should be designed to treat
+the first flush separately.
+NOTE 1
+The intensity of highway runoff can be influenced by the climate. Areas in the south-east of the UK,
+although having the lowest annual rainfall, experience the most intense storms.
+NOTE 2
+When intense rainfall events follow long dry periods, the build-up of pollutants on the road surface is
+washed off first. The highway runoff from the first part of a rainfall event is usually the most seriously
+polluted, and referred to as the 'first flush' effect of a storm.
+NOTE 3
+Discharges from short intense storms with long antecedent dry periods pose a higher pollution threat
+than discharges from longer rainfall events, which provide higher dilution.
+NOTE 4
+Loadings of heavy metals and organic compounds (especially aromatic hydrocarbons) and sometimes
+suspended solids, tend to be of greatest concern.
+NOTE 5
+A high proportion of highway pollutants are found to be adsorbed to the fine silt fraction of the
+suspended solids. By collecting, filtering and treating the fine sediment which is subsequently removed,
+the system is dealing with a significant part of the runoff pollution.
+Other factors affecting the selection of systems
+Land availability
+2.8
+To inform decisions about land acquisition, the purpose of the vegetated drainage system shall be
+clearly defined early in the design process.
+2.8.1
+This land may need to be acquired, or rights of access obtained for maintenance, which could impose
+their own constraints on the landscape.
+2.8.2
+For improvement schemes, where land availability can be limited, it may be necessary to acquire extra
+land where it is necessary to achieve an efficient design.
+2.8.3
+Installation of infiltration trenches and long linear ponds may be feasible if designed to tie in with
+existing features.
+2.8.4
+Where existing ponds are available, it may be possible for these to be adapted, provided that their use
+for attenuation or treatment is ecologically acceptable.
+NOTE 1
+Whilst the designs described in this document represent an ideal to be aimed at, in sites where land
+availability is limited, a compromise solution is preferable to a design without any vegetated drainage
+system.
+NOTE 2
+By making landowners aware of the benefits of using vegetated drainage systems, it can often be
+possible to obtain the necessary land by agreement.
+Soil permeability
+2.9
+When selecting vegetated drainage systems for use in permeable areas, the design must be in
+accordance with the requirements of the 2000/60/EC [Ref 5.I] to avoid pollution of the saturated zone
+by hazardous substances.
+2.9.1
+On permeable soils, where swales (see Section 3 and Appendix B), grassed channels, infiltration
+basins and trenches are potentially effective solutions, the design should mitigate the effects of the
+possible transmission of pollutants to the underlying subsoil, particularly where vegetated drainage
+systems are situated above aquifers.
+2.10
+Where proposed sites for vegetated drainage systems are situated above aquifers, the vulnerability of
+the groundwater shall be identified by reference to the groundwater vulnerability maps, information on
+abstraction source protection zones and by consultation with the EPA.
+2.11
+When designing vegetated drainage systems to protect discharges to groundwater bodies, they shall
+be designed to mitigate the risks assessed using the method in Appendix C in LA 113 [Ref 7.N].
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 56
+======================================================================
+CD 532 Version 0.2.0
+2. Selection of vegetated drainage systems
+2.11.1
+Where reliable information is available on the attenuating properties of the subsoil in respect of
+pollutants routinely found in highway runoff, this may be used as an alternative to the method in
+Appendix C in LA 113 [Ref 7.N] for determining the need to mitigate the risks to groundwater bodies.
+NOTE 1
+Where the risk of groundwater pollution from highway runoff is unacceptable (using assessment
+methods described in LA 113 [Ref 7.N]), an impermeable membrane to prevent seepage from the
+vegetated drainage system can provide a solution.
+NOTE 2
+Impermeable membranes can prevent contamination or flooding of the drainage system by the
+surrounding groundwater.
+NOTE 3
+In areas of impermeable soils, swales are less effective and wetlands and ponds are generally more
+suitable. Ponds tend to retain water, and basins designed to allow infiltration have to be constructed
+above the impermeable soil, using suitable granular materials.
+2.12
+Where an impermeable liner is designed for vegetated drainage systems, its depth and location shall be
+clearly identified on drawings to reduce the risk of accidental damage during maintenance operations.
+2.13
+Where vegetated drainage systems are to be designed in areas with erosion-susceptible soils, such as
+sands or silts, the maximum design velocity of the highway runoff shall be low enough to prevent
+erosion.
+2.14
+Where it is not possible to minimise the design velocity of the water flowing through a vegetated
+drainage system, rip-rap, flow spreaders or concrete aprons shall be designed to reduce velocities and
+prevent scour.
+Topography
+2.15
+The surrounding topography shall be used to integrate the vegetated drainage system into the
+landscape.
+NOTE 1
+In areas with little or no gradients, larger systems such as wetlands, basins or ponds are possible if
+sufficient water is available to prevent wetlands and ponds from drying out.
+NOTE 2
+In undulating countryside, treatment and attenuation systems can be smaller and more frequent to
+blend into the landscape.
+NOTE 3
+In undulating countryside, ponds and basins are possible, but swales, which require gentle even
+slopes, are harder to design sympathetically.
+NOTE 4
+Figures 2.15N4a and 2.15N4b show indicative sections of vegetated drainage systems in undulating
+and flat landscapes.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 56
+======================================================================
+CD 532 Version 0.2.0
+2. Selection of vegetated drainage systems
+Figure 2.15N4a Indicative section of vegetated drainage system in undulating landscape
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 56
+======================================================================
+CD 532 Version 0.2.0
+2. Selection of vegetated drainage systems
+Figure 2.15N4b Indicative section of vegetated drainage system in flat landscape
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 56
+======================================================================
+CD 532 Version 0.2.0
+2. Selection of vegetated drainage systems
+Spillage risk
+2.16
+Where a vegetated drainage system is chosen, it shall include a method to control the discharge of any
+spillage, regardless of whether designated containment provision is made.
+NOTE
+It can only take one spillage incident to cause considerable damage to the receiving water body.
+2.17
+The selection of mitigation measures such as spillage containment and control facilities shall be
+determined to mitigate the risks assessed using LA 113 [Ref 7.N] and the guidance in CG 501 [Ref 1.N].
+NOTE 1
+Information on the need for mitigation can be obtained from the EPA.
+NOTE 2
+Exceptionally sensitive locations at high risk of spillage can require dual containment measures.
+NOTE 3
+The risk of accidental spillage can influence the choice of vegetated drainage system.
+2.17.1
+Where the estimated probability of a major spillage is assessed at less than 1% annually,
+non-mechanical methods of pollution control should be used.
+NOTE
+Non-mechanical methods of pollution control such as check dams, booms or notch weirs, requiring little
+maintenance, are more suitable than mechanical devices such as penstocks or gate valves, which are
+more susceptible to vandalism and can become ineffective through lack of use.
+2.18
+Pollution control devices shall be simple to find, readily accessible from the highway and capable of
+being operated easily and quickly.
+NOTE
+Details of signs to be used to locate pollution control devices are given in CG 501 [Ref 1.N].
+2.19
+Vegetated drainage systems shall be designed so as not to increase the risk of pollution to downstream
+water bodies.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+3.
+Design of vegetated drainage systems
+General
+3.1
+Vegetated drainage systems shall be integrated into the surrounding landscape.
+3.1.1
+The design of vegetated drainage systems should enhance and complement the surrounding
+landscape beyond the immediate limits of the selected vegetated drainage system.
+3.1.2
+Features to enhance and complement the surrounding landscape may include:
+1)
+hedgerows – new hedges and hedgerow trees to link with and enhance existing wildlife corridors;
+2)
+woodland areas – new native woodland areas to reflect the surrounding landscape character and
+provide new habitats;
+3)
+shrubs/woodland edge – new habitats and enhancement of the surrounding area;
+4)
+specimen/landmark trees – individual or small groups of trees to provide features within the
+landscape; and,
+5)
+grassland/wildflowers – landscape enhancement and habitat creation.
+3.1.3
+Where adjacent development proposals are identified, the design of vegetated drainage systems
+should exploit opportunities to integrate solutions for restoring or enhancing existing habitats, or
+creating new habitats, particularly marginal and wetland habitats and woodland planting.
+3.1.4
+To assist integration with existing landscape character, local materials and soils should be used for
+engineering features and boundary treatments.
+NOTE 1
+Where abrupt changes in level are required within more confined areas, the sensitive use of stepped
+gabions filled with local stone can be very effective.
+NOTE 2
+Stone-filled gabions can be quickly vegetated by spreading soil on top of them and then seeding.
+NOTE 3
+The use of appropriate local stone within the gabions can reflect the character of the area.
+3.2
+Access roads to the vegetated drainage systems shall be designed to accommodate the size and
+weight of the relevant maintenance equipment.
+3.3
+Access roads to the vegetated drainage systems shall be sensitively located to fit with the flow and
+pattern of the surrounding landscape.
+3.4
+Where vegetated drainage systems are to be constructed adjacent to an existing watercourse, a
+margin shall be provided to allow for maintenance and access by the riparian owner and land drainage
+authority.
+NOTE
+A margin of up to 8 metres can be required to allow for maintenance and access by the riparian owner
+and land drainage authority.
+3.4.1
+Discussions should be held with the riparian owner and land drainage authority, as this can result in a
+reduced margin being permitted.
+3.5
+The design of vegetated drainage systems shall not prejudice the stability of embankments, cuttings or
+other highway structures, by ensuring that the systems contain the water flowing through them.
+3.6
+The design of vegetated drainage systems shall account for the timing and phasing of seasonal
+operations and location of possible storage areas.
+Health and safety in design
+3.7
+Where open bodies of water are proposed to manage runoff, a risk assessment shall be undertaken to
+identify all hazards and risks.
+3.8
+Where a risk assessment identifies a threat to life or serious injury associated with a proposed body of
+open water safety, warning signage or other controls shall be provided.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+3.9
+All warning signage deployed adjacent to open bodies of water must comply with The Health and
+Safety (Safety Signs and Signals Regulations) 1996 UKSI 1996/341 [Ref 8.N].
+3.10
+A record of the implementation of safety/warning signage shall be entered into the Overseeing
+Organisation's drainage data management system, in accordance with the requirements of CD 535
+[Ref 2.N].
+3.11
+Where, exceptionally, public access to a vegetated treatment system is allowed for the purposes of
+amenity or recreational use, water levels adjacent to the pond edge shall be shallow and the slopes
+gently graded.
+3.12
+Access routes for authorised personnel shall deliver a safe working environment.
+3.13
+Where there is a risk of unauthorised entry to a vegetated drainage system, the design shall
+incorporate appropriate security fencing and secured access.
+NOTE
+Secured access can be provided using retractable and lockable metal bollards concreted into the
+entrance.
+3.13.1
+Fencing around vegetated drainage systems should be designed to prevent public access.
+3.13.2
+Public access to vegetated drainage systems that can contain standing water should be avoided
+because of their role in the treatment and control of highway runoff.
+3.13.3
+The use of thorny plants, surrounding the vegetated drainage system, combined with low fences or
+walls and a planted narrow fringe, may be used as a boundary deterrent.
+3.13.4
+Security fencing should be designed to be unobtrusive and child-proof, and facilitate movement of
+wildlife.
+3.14
+Where ponds are proposed to be raised above existing land, they must comply with the requirements of
+the UKPGA 1975/23 [Ref 6.N].
+Swales
+3.15
+Swales shall be designed for a 5-year, 24-hour event, and checked against a 10-year event.
+NOTE 1
+A description of a swale and its characteristics is given in Appendix B.
+NOTE 2
+Swales represent an effective pollution control measure which, even if insufficient for all the treatment
+requirements in themselves, can provide significant primary treatment prior to secondary systems such
+as ponds or wetlands.
+NOTE 3
+The potential that swales have to trap suspended solids can reduce the frequency of major
+maintenance on downstream systems.
+3.16
+The velocity of flow in swales shall not exceed 0.25 m/sec for the 5-year, 24-hour event.
+NOTE
+Swales provide the most effective water treatment when residence times are long and flow is slow.
+3.17
+The longitudinal slope of a swale shall not exceed 6.25% (1 in 16).
+3.17.1
+The longitudinal slope should be less than 2% (1 in 50).
+NOTE 1
+Residence time is best extended by increasing flow width and length but can also be increased through
+the incorporation of check dams and depressions.
+NOTE 2
+For pollutant removal, longer swales are beneficial, although wider swales can compensate for lack of
+depth.
+3.18
+Swales shall be designed without any abrupt changes in vertical or horizontal direction.
+NOTE
+Gentle changes in shape and form create more attractive features that are easier to maintain.
+3.18.1
+Swales should be located as close to the road as possible, where flow rates are slowest.
+NOTE
+Swales are well suited to areas where drainage from the road flows over the edge.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+3.18.2
+Where it is necessary to channel water from a piped flow to a swale, a flow spreader should be used.
+NOTE
+The use of a flow spreader reduces the risk of rivulets or channels occurring, as these can reduce the
+treatment effectiveness of the swale.
+3.19
+Where ground conditions allow, the design shall include a vertical component to the flow to enhance
+rates of settlement and infiltration.
+NOTE 1
+A vertical component to the flow, allowing discharge to ground, is possible in cases where subsoils are
+permeable.
+NOTE 2
+Although the majority of swales have a gradient unsuited to containing a major spillage, designing the
+lowest part of the swale with a shallower gradient and a surrounding berm can improve a swale's
+capacity to contain a spillage event.
+3.20
+Swales shall be integrated into the general landscape of the highway, incorporating existing and
+proposed landscape elements such as trees or hedges.
+NOTE
+Swales can be incorporated in the design of an interchange or in a road realignment, so that the water
+from the carriageway flows into swales.
+3.21
+The design of swales shall incorporate a dense and even grass sward consisting of species with a
+combination of rapid establishment and recovery, some salt tolerance and tolerance of wet conditions
+and periodic inundation.
+3.21.1
+The grass in swales should be recommended species such as perennial rye grass (Lolium perenne)
+and creeping bent (Agrostis stolonifera).
+3.21.2
+Where salt tolerant species are required, salt tolerant cultivars of fescue species (Festuca spp.) or rush
+species (e.g. Juncus spp.) may be used.
+3.22
+The grass height of the swale shall be at least twice the depth of water to be treated in a 5-year,
+24-hour event and between 100 mm and 200 mm.
+NOTE
+Grass shorter than 100 mm cannot treat flows from a 5-year, 24-hour event and grass taller than 200
+mm has a tendency to be flattened.
+3.23
+Seeding to establish vegetation of the swale shall be uniform and carried out early in the construction
+process as soon as soils are ready, and in the late summer/autumn (August to November).
+3.23.1
+Where quick establishment is required, turf laying may be used in the design to prevent the creation of
+rills in swales.
+3.23.2
+Geotextiles may be employed to prevent erosion of swales in early stages or as temporary measures in
+advance of seeding, but are not to be relied on in the long term as they can degrade.
+Ditches
+3.24
+Ditches shall consist of earth channels lined with a native grass species (or combination of species), in
+order to provide resilience to flow erosion.
+NOTE 1
+Possible locations for ditches are along the edge of the road, along the top of cuttings or at the toe of
+embankments.
+NOTE 2
+A typical section of a ditch is shown in Figure 3.24N2.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+Figure 3.24N2 Ditch section
+3.25
+Ditches shall have a minimum of 35 mm of topsoil.
+3.26
+The value of X shown in Figure 3.24N2 shall not exceed 1.
+3.27
+The dimension l2 shown on Figure 3.24N2 shall be at least 500 mm.
+3.28
+The dimensions l1 and l3 shown on Figure 3.24N2 shall be at least 300 mm.
+3.28.1
+Where ditches are located alongside the road, they may be designed to convey the runoff from the
+carriageway as well as that from any adjacent cutting slope.
+3.28.2
+Ditches should be located where they can fully intercept the flow from the natural catchments adjacent
+to the road.
+3.29
+Surface water runoff from adjacent land shall be managed in accordance with the requirements given in
+CD 522 [Ref 3.N].
+3.30
+Ditches shall be positioned so that surface water does not contribute to slope instability.
+3.30.1
+Ditches may be located at the top of the cuttings to avoid potential erosion of the slope by surface water.
+NOTE
+Suitable measures to reduce the risk of slope instability can include geotechnical stabilisation of the
+slope or locating the ditch at road level.
+3.31
+Ditches shall be sized for conditions at their locality.
+NOTE
+The size of ditches can be calculated using Manning's equation.
+3.31.1
+A check on the design of the ditch should be carried out at intermediate locations.
+3.32
+Where intermediate conditions are checked and the size of ditch is found to be inadequate, the
+gradients shall be adjusted accordingly.
+NOTE
+Intermediate locations in ditches can include lengths where flow rates are smaller and gradients are
+flatter.
+3.32.1
+Where conditions in a ditch are found to vary along its length, the required size of ditch may vary
+accordingly.
+3.33
+Where Manning's equation is used for the design of new ditches and where a maintenance programme
+is to be put in place, a value of 0.050 for the Manning's roughness coefficient, n, shall be used.
+3.34
+The minimum design gradient for ditches shall be 0.2% (1/500) to ensure flow conveyance in flat areas.
+3.35
+To achieve stability and high flow capacity, the cross-sectional shape of ditches shall be trapezoidal.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+3.36
+Where space allows, existing ditches shall be widened, their slopes slackened and emergent reed-type
+vegetation introduced to create a linear system, resembling a natural stream.
+NOTE
+Where pools and areas of reed can be incorporated, that can have added treatment benefit.
+3.36.1
+A section of piped drain may be replaced with an open ditch or swale, particularly if a form of spillage
+containment is to be introduced.
+3.37
+When designing ditches, the long-term drainage characteristics of environmentally sensitive soils, such
+as peat bogs, shall be preserved.
+NOTE
+Ditches located in certain environmentally sensitive soils can lead to environmental and ecological
+impacts beyond the immediate vicinity of the ditch.
+3.38
+Where retrofitting of vegetated drainage systems is proposed, the hydraulic performance of the whole
+drainage system shall not increase the risk of flooding.
+Basins
+3.39
+The size of a basin shall be determined by the catchment area draining to it.
+NOTE 1
+A description of a basin and its characteristics is given in Appendix B and a typical plan is shown in
+Figure 3.39N1.
+Figure 3.39N1 Plan view of a basin (reproduced from CIRIA)
+NOTE 2
+Figure 3.39N1 is reproduced from CIRIA C753 [Ref 9.N].
+3.40
+The basin shall be designed to accept the first 10 mm of a storm without over-topping.
+3.40.1
+The catchment draining to any one basin should be between two and ten hectares.
+3.40.2
+A narrow trench-like basin may be used for smaller catchments.
+3.40.3
+More than one basin may be used for larger catchments.
+3.41
+The basin shall be designed to empty within 72 hours from all events with an annual exceedence
+probability of more than 1%, plus an allowance for climate change effects.
+3.42
+Where the basin is designed to allow infiltration, it shall have a level base, sited at least 1.2 m above
+the highest recorded groundwater level.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+NOTE 1
+A basin designed to allow infiltration is known as an infiltration basin.
+NOTE 2
+A separation of at least 1.2 m between the base of the basin and the highest recorded groundwater
+level is necessary to ensure that the filter layer is not saturated and that water percolates through at a
+reasonable speed.
+NOTE 3
+A basin that is designed to prevent infiltration is known as a detention basin.
+3.43
+The basin inlet shall be designed to prevent scouring of the basin.
+3.43.1
+Rip rap or flow spreaders may be included to prevent scouring of the basin.
+3.44
+Where space permits, the first flush shall be isolated in a smaller basin and a second basin used for
+attenuation.
+NOTE
+Without any control to capture the sediment, basins can act as sources of pollutants rather than sinks
+where subsequent storms cause scouring of suspended solids, which are then released by
+over-topping to the receiving waters.
+3.45
+Where the basin is designed to allow infiltration, the design shall allow for easy access for removal and
+replacement of the filter material, either at predetermined major maintenance intervals or following an
+accidental spillage.
+3.46
+Where the basin is designed to allow infiltration and the risk of accidental spillage requires containment,
+the highway runoff shall be passed through a containment area prior to discharge into the basin.
+3.47
+The design of the basin shall utilise the layout and form of the surrounding environment to minimise
+materials use and visual impact.
+3.48
+Where existing basins have a negative visual impact on the landscape they shall be remediated.
+NOTE
+The construction of carefully designed low mounds in conjunction with strategic planting can provide
+screening for passing road users.
+3.48.1
+The grass in basins should be recommended species such as perennial ryegrass (Lolium perenne) and
+creeping bent (Agrostis stolonifera).
+3.48.2
+Where salt tolerant species are required, salt tolerant cultivars of fescue species (Festuca spp.) or rush
+species (e.g. Juncus spp.) may be used.
+Ponds
+3.49
+The size of a pond shall be determined by the catchment area draining to it.
+3.49.1
+The pond depth should be between 0.5 m and 2 m with a permanent water depth of at least 0.5 m.
+NOTE 1
+A description of a pond and its characteristics is given in Appendix B and a typical plan is shown in
+Figure 3.49N1.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+Figure 3.49.1N1 Plan view and profile of typical pond (reproduced from CIRIA C753)
+NOTE 2
+Figure 3.49N1 is reproduced from CIRIA C753 [Ref 9.N].
+NOTE 3
+For a given volume of storage, shallow ponds are better than deep ones in terms of pollutant removal
+efficiency.
+Requirements for attenuation of highway runoff
+3.50
+Where a pond is designed to attenuate highway runoff, it shall have sufficient capacity to retain the
+runoff from all events with an annual exceedence probability of more than 1%, plus an allowance for
+climate change effects.
+NOTE 1
+A pond designed primarily to attenuate highway runoff is known as a retention pond.
+NOTE 2
+For guidance on climate change allowances see LA 113 [Ref 7.N].
+3.51
+Where a pond is designed to attenuate highway runoff, it shall be located outside flood zone 3.
+NOTE 1
+Advice on flood zones can be obtained from the local land drainage authority, who can advise on any
+history of local flooding and whether the relevant EPA is to be consulted.
+NOTE 2
+Advice on the risks of damage to habitats and species associated with an increased rate of surface
+runoff from the road into sensitive receiving waters can be obtained from the relevant EPA.
+3.52
+The local land drainage authority shall be consulted about both pond capacities and discharge rates,
+and agreement reached with them.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+3.53
+Any requirements that arise as part of the agreement with the local land drainage authority shall be
+integrated into the drainage design.
+NOTE 1
+Land drainage authorities are able, if they wish, to stipulate maximum discharge rates as a condition of
+the consent needed for the construction of the outfall, provided that the requirement is reasonable.
+NOTE 2
+Consents from land drainage authorities cannot be unreasonably withheld as highway authorities have
+powers to drain highways as described in Section 100 of the UKPGA 1980/66 [Ref 4.N].
+3.54
+The rate of discharge from the pond shall be managed to ensure that the water has a slow flow-path
+with a generous retention time.
+3.54.1
+The rate of of discharge from a pond may be achieved by means of a small diameter pipe, an orifice or
+a flow control device.
+Requirements for treatment of highway runoff
+3.55
+Where the highway runoff is assessed as having a high risk of pollution and requiring mitigation, ponds
+shall be designed to treat runoff.
+NOTE 1
+A pond designed primarily to treat highway runoff is known as a sedimentation pond.
+NOTE 2
+The primary treatment function of a pond is to allow suspended solids to settle out of the highway runoff
+prior to its discharge into the receiving watercourse.
+NOTE 3
+By retaining the highway runoff and only permitting a controlled discharge, the available dilution by the
+receiving water body can be increased, thereby reducing the pollutant concentrations in the receiving
+water body.
+3.55.1
+Where the available land is limited, incorporation of by-pass facilities may still allow the first 10 mm of
+runoff to be fully treated through settlement.
+3.56
+For optimum treatment performance the design of the pond shall create a long, slow, flow path,
+providing a generous residence time, but avoiding stagnant areas.
+NOTE
+Long ponds, with the inlet at the opposite end from the outlet can provide a generous residence time.
+3.56.1
+Where space for ponds is restricted, baffles close to the inlet or outlet, or islands, or long or irregular
+shorelines should be designed to increase the flow path from inlet to outlet of the pond.
+3.56.2
+Direct pathways or channels between the inlet and outlet of the pond should be avoided.
+3.56.3
+The design of the pond should not cause the flow speed to increase in localised areas, as this reduces
+the treatment effectiveness of the pond, by increasing the risk that resuspension of particles can occur
+during intense storms.
+3.57
+The design of the inlet shall allow water to enter without scouring the pond surface.
+3.58
+Where ponds are designed to act as a form of spillage containment, the outlet control system shall be
+easily accessible and safely maintainable.
+3.58.1
+Where risk of spillage is not high (annual probabilities less than 1%), low maintenance control systems
+such as sandbags or a notched weir should be incorporated into the design.
+NOTE 1
+In emergencies, the quicker control devices can be used, the lower the risk of pollution.
+NOTE 2
+There is a risk that devices such as penstocks can be more susceptible to vandalism and deteriorate
+over time due to prolonged periods without use.
+Requirements for pond integration into the landscape
+3.59
+New pond land-forms shall reflect the overall character shape and scale of the prevailing topography.
+3.60
+Geometric shapes and steep uniform banks shall be avoided.
+NOTE
+Curvilinear or indented pond shapes that 'marry in' smoothly with adjoining contours, create more
+interesting and attractive features, as shown in Figure 3.60N.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+Figure 3.60N Pond integrated into existing landform
+3.61
+Side slopes of ponds shall be between 33% (1 in 3) and 10% (1 in 10) to allow for ease of maintenance
+as well as ensuring a safe environment.
+3.62
+Side slopes of ponds shall be top dressed with soil, as shown in Figure 3.62.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+Figure 3.62 Typical planted pond edge details (reproduced from CIRIA)
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+NOTE
+Figure 3.62 is reproduced from CIRIA C753 [Ref 9.N].
+Vegetation for ponds
+3.63
+Gently sloping shelves shall be incorporated within ponds to provide conditions for emergent and
+marginal vegetation.
+3.63.1
+Vegetation may be planted close to the inlet of the pond to promote sedimentation.
+NOTE 1
+A vegetation band installed across the entire width of a pond can enhance retention and residence
+times.
+NOTE 2
+A submerged berm in a pond for the vegetation to grow on can mitigate any risk of failure of the
+vegetation due to low water levels.
+NOTE 3
+Allowing margins to develop with vegetation where land meets water can create an area for wildlife.
+3.64
+Plants selected for ponds shall be appropriate for the climate, water depth and variations in depth of
+water.
+3.64.1
+Where planting in ponds is proposed, species should be selected from those given in Table 3.64.1.
+Table 3.64.1 Water level and supply requirements of vegetation species for ponds
+Species tolerant of
+fluctuating water levels
+and duration
+Species requiring shallow
+(less than 0.5 m) standing
+water at all times
+Species requiring moderate to
+deep standing water (more
+than 0.5 m) at all times
+Phragmites australis
+(common reed)
+Sparganium erectum (branched
+bur-reed)
+Schoenoplectus lacustris
+(common club-rush)
+Phalaris arundinacea (reed
+canary grass)
+Glyceria fluitans (flote-grass)
+Myriophyllum spicatum (spiked
+water-milfoil)
+Persicaria amphibia
+(amphibious bistort)
+Typha latifolia (reed mace)
+Potamogeton species (pond
+weeds)
+3.65
+Rhizome cuttings of reed mace, common reed and bur-reed shall be used for establishment of the
+species in Table 3.64.1.
+NOTE 1
+The aquatic species in Table 3.64.1 can perform a limited role in uptake of soluble metals, but
+importantly can contribute to oxygenation of the water and enhance the processes of precipitation and
+biodegradation of organic material.
+NOTE 2
+The species in Table 3.64.1 can be established in biodegradable pots/bags containing a suitable media
+to allow rooting into the pond sediments.
+Wetlands
+3.66
+Wetlands shall be located on ground with a slope no greater than 1%.
+NOTE
+A description of wetlands and their characteristics is given in Appendix B.
+3.67
+The area of a wetland shall be between 0.5% to 5% of the catchment area which drains into them.
+3.68
+Wetlands shall be designed to treat the first flush without over-topping.
+3.69
+Where berms are required to ensure containment of water in a wetland, these shall have a slope of
+20% (1 in 5) or less and be at least 0.5m above the permanent water level.
+3.70
+The depth of permanent water in a wetland shall be between 0.15 and 0.3 m.
+NOTE
+A variation in depth can assist in creating a range of habitats to improve treatment potential.
+3.71
+The inlet of a wetland shall be designed to produce an even flow to minimise the risk of scour.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 56
+======================================================================
+CD 532 Version 0.2.0
+3. Design of vegetated drainage systems
+NOTE
+A flow spreader can assist in producing an even flow, as can the use of stone pitching to stabilise the
+entry channel.
+3.71.1
+Where groundwater levels are high, groundwater flows may be utilised to keep the wetland moist,
+provided that arrangements for introducing the groundwater prevent any possibility of contamination of
+the aquifer by pollutants from the wetland.
+3.72
+Where a wetland is designed to act as a spillage containment facility, the outfall shall be designed so
+that spills can be contained, either mechanically, by a penstock or similar, or by emergency personnel
+using sandbags or booms to block a suitable channel.
+NOTE
+Although the wetland can need to be thoroughly renovated following a serious spillage, this is
+considered acceptable for events where the estimated probability is less than 1% annually, or where
+the wetland is used as the secondary containment system where dual containment has to be provided.
+3.73
+When designing a catchment spillage containment system the implication of providing a separate
+containment system shall be weighed against the need to renovate a wetland following a spillage
+event, and the vulnerability of the receiving water body to such a pollution event.
+3.74
+Establishment of vegetation species in wetlands shall be from planted rhizome/root stock in the spring.
+3.74.1
+Vegetation species for wetlands should be selected from those given in Table 3.64.1.
+3.75
+The design of vegetation planting in wetlands shall be such as to deliver a band of vegetation across
+the entire flow path.
+3.75.1
+Where there is a reliance on vegetation-related removal of metal pollutants, the removal rates given in
+Table 3.75.1 may be used to estimate the minimum size of vegetation in wetlands.
+Table 3.75.1 Metal removal rates in wetlands
+Metal
+Removal rate of metal (g/day/m2)
+Total zinc
+0.04
+Soluble copper
+0.05
+Combination of systems
+3.76
+Where required to maximise the treatment of the highway runoff, and space is restricted, vegetated
+drainage systems shall be designed and built as a combination of two or more systems.
+NOTE
+An example of one such combination of vegetated drainage systems is a system containing a wetland
+and a retention pond.
+3.77
+When designing a combination of vegetated drainage systems the benefits of each constituent system
+shall be preserved.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 56
+======================================================================
+CD 532 Version 0.2.0
+4. Normative references
+4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 2.N
+National Highways. CD 535, 'Drainage asset data and risk management'
+Ref 3.N
+National Highways. CD 522, 'Drainage of runoff from natural catchments'
+Ref 4.N
+National Archives. UKPGA 1980/66, 'Highways Act'
+Ref 5.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+National Archives. UKPGA 1975/23, 'Reservoirs Act and various Reservoirs Act
+(Amendment) Regulations'
+Ref 7.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 8.N
+National Archive. UKSI 1996/341, 'The Health and Safety (Safety Signs and Signals)
+Regulations'
+Ref 9.N
+Construction Industries Research and Information Association, London.
+Woods-Ballard,B, Wilson,S, Udale Clark,H, Illman,S, Scott,T, Ashley,R, Kellagher,R..
+CIRIA C753, 'The SuDS Manual'
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 56
+======================================================================
+CD 532 Version 0.2.0
+5. Informative references
+5.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. LA 108, 'Biodiversity'
+Ref 2.I
+The science of the Total Environment, 218: 161-174 1998. Norrstrom AC & Jack G.
+Norrstrom & Jack 1998, 'Concentration and fractionation of heavy metals in roadside
+soils receiving deicing salts'
+Ref 3.I
+Water Science & Technology, 38: 223-230 1998. Novotney V, Muehring D, Zitmer D
+H, Smith D W & Facey R. Novotney et al 1998, 'Cyanide and metal pollution by urban
+snowmelt: impact of deicing compounds'
+Ref 4.I
+National Highways. CD 530, 'Design of soakaways'
+Ref 5.I
+Europa.eu. 2000/60/EC, 'Directive 2000/60/EC of the European Parliament and of
+the Council of 23 October 2000 establishing a framework for Community action in the
+field of water policy'
+Ref 6.I
+US Department of Transportation: Federal Highway Administration. Young G K, Stein
+S, Cole P, Kammer T, Graziano F & Bank F. FHWA-PD-96-032, 'Evaluation and
+management of highway runoff water quality'
+Ref 7.I
+National Highways. CD 521, 'Hydraulic design of road edge surface water channels
+and outlets'
+Ref 8.I
+National Highways. LD 117, 'Landscape design'
+Ref 9.I
+Industry report 98/7 Co-operative Research Centre for Catchment Hydrology. Wong
+THF et al. RCHR 98/7, 'Managing urban stormwater using constructed wetlands'
+Ref 10.I
+5th International Minewater Congress, Nottingham 1994. Humphries R N & Walker A.
+Humphries & Walker 1994, 'Modelling the filtration of surface mineral extraction waste
+water by reed bed treatment systems, pp 691 – 701'
+Ref 11.I
+US Department of Transportation: National Technical Information Service (NTIS).
+Dorman M E, George T S, Hartigan J P & Quasebarth T F. FHWA-RD-96-095 Volume
+I, 'Retention, detention and overland flow for pollutant removal from highway
+stormwater runoff'
+Ref 12.I
+Europa.eu. 2007/60/EC, 'The Assessment and Management of Flood Risks Directive'
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 56
+======================================================================
+CD 532 Version 0.2.0
+Appendix A. Runoff constituents and treatment processes
+Appendix A. Runoff constituents and treatment processes
+A1
+Suspended solids
+Suspended solids are the principal road runoff constituents requiring treatment because of the harmful
+physical effect they can have on aquatic habitats. Many of the other potentially harmful constituents of
+runoff (heavy metals, organic compounds) are in particulate form or attached to particles which can
+accumulate in the water course, leading to chronic pollution. Research FHWA-RD-96-095 Volume I [Ref
+11.I] and FHWA-PD-96-032 [Ref 6.I] indicates that typically more than 50% of both metal and organic
+contaminants associated with suspended particles are contained within the fraction finer than 63 µ m.
+The main removal mechanisms of solids by vegetated systems are due to enhanced settlement through
+reduced flow velocities and filtering effects as described in research Humphries & Walker 1994 [Ref
+10.I]. Settlement is the main process in very slowly flowing standing water as in ponds and contained
+types of inundated wetland. It is not, however, a significant process in swales, infiltration basins and
+those wetlands without standing surface water, where there is a through flow and short residence time.
+Settlement will be most effective in systems where there is a long residence time or where there are
+structures that induce particulate collisions and arrest the flow thereby promoting settlement. 24 hours
+is the recommended minimum duration and this should be exceeded where possible. The filtering
+process will only take place where there is a significant flow through vegetation, as in swales and
+grassed channels, infiltration basins, and open types of wetland without standing surface water.
+A2
+Heavy metals
+As much of the metal content of the runoff is particulate, the principal removal processes within
+vegetated systems are the same as for the suspended solids (settlement and filtering). Precipitation
+and formation of metal hydroxides and other insoluble compounds can also occur in certain
+oxidation/reduction conditions. Vegetated drainage systems such as swales and grassed channels,
+wetlands and infiltration basins, and ponds with a vegetation cover will remove heavy metals in the
+particulate form either by filtration and/or by settlement. Settlement column studies indicate that, for
+runoff from a single storm event, the majority of heavy metal pollutant removal occurs within the first 6
+hours. Removal of copper and zinc, the two metals most likely to be present in significant
+concentrations, improves if there is up to 24 hours residence time.
+Adsorption of metals to soil and vegetation, and assimilation by microbes and plant uptake of soluble
+metals, also take place in vegetated systems, but are considered to be of less significance than the
+physical processes and are reliant on a relatively long residence time. Plant uptake is dependent on
+active vegetative growth and microbial activity on temperature; both are likely to be significantly lower in
+the late autumn-winter period and metals may be released on decomposition.
+Precipitation of metal oxide solids is a secondary process that removes metals from the runoff water.
+Insoluble metal oxides typically form under aerobic conditions in retention systems such as ponds, and
+are then precipitated. Aeration of water is therefore an important part of standing/flowing water systems
+such as ponds. Precipitation as a removal mechanism may be less in soft water.
+There is substantial research evidence Norrstrom & Jack 1998 [Ref 2.I] and Novotney et al 1998 [Ref
+3.I] that remobilisation of metals may occur especially with high inputs of sodium chloride into sandy
+non-calcareous substrates, due to displacement of the metals by sodium ions. This is caused by the
+use of salt as a deicing agent.
+A3
+Organic constituents
+This group contains a wide range of chemicals. Adsorption to suspended solids and subsequent
+settlement is a significant removal process for oils and grease. Lighter aromatic fuel additives may
+volatilise prior to degradation, in which case prolonged exposure of runoff to the air is beneficial. Other
+aromatic compounds such as PCBs (Polychlorinated biphenyls) and PAHs (Polynuclear aromatic
+hydrocarbons) are toxic and may be more persistent, but have a tendency to adsorb to suspended
+solids.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 56
+======================================================================
+CD 532 Version 0.2.0
+Appendix A. Runoff constituents and treatment processes
+As much of the organic content of the runoff is associated with particles, the principal removal
+processes within vegetated systems are the same as for suspended solids (settlement and filtering).
+Significant amounts may therefore be removed by settlement processes. Vegetated drainage systems
+such as swales and channels, wetlands and infiltration basins, and ponds with a vegetation cover will
+remove it in the particulate form.
+Biological degradation of oils and grease is relatively slow, taking several days even in ideal conditions.
+The biodegradation process is therefore considered to be of less significance in the removal of organic
+constituents from runoff than settlement. The process is likely to be of significance, however, in the in
+situ degradation of accumulating material. Ponds and wetlands are probably the best systems for such
+in situ transformation as they are more likely to support the requisite aerobic microbes.
+A4
+Nutrients
+Nitrogen and phosphorus are usually the primary nutrients of concern to the EPAs, but are not normally
+present in significant concentrations in highway runoff, and are therefore not a major consideration for
+treatment. Where significant concentrations occur, uptake by vegetation and microbes in vegetated
+systems are likely to reduce these concentrations, but only in the growing season. Vegetated systems
+sometimes contribute to higher nutrient discharges than are normally associated with road runoff owing
+to accumulation and degradation of plant material, but this should be significantly less than other
+sources, particularly agriculture.
+A5
+Sodium chloride and other dissolved constituents
+Other than heavy metals and nutrients, the significant dissolved constituent of highway runoff in the UK
+is sodium chloride (NaCl), applied as deicing salt. Vegetated systems are unable to reduce
+concentrations of common salt to any significant extent. Sodium chloride can cause damage to
+vegetation, and can potentially trigger the release of accumulated nutrients and heavy metals adsorbed
+to the suspended solids into solution. Where use of deicing salt is likely to be very frequent and the
+dilution of runoff by receiving waters is low, either the 'first flush' should be diverted to infiltration
+facilities with groundwater protection or only ponds should be used.
+A6
+The importance of residence time and loading
+Residence time (sometimes referred to as retention time, Rt, where Rt = V/Q where Q is the outflow
+and V is volume of the system) is the period during which the runoff is retained within the drainage
+system. It is probably the overall key design parameter for all treatment systems that depend on the
+settlement process (such as ponds and wetlands) for removal of sediment, metals and hydrocarbons.
+Permanent pool storage capacity (min 10-15%), hydraulic gradient <1%, length-width ratios >3:1,
+uniform cross-section, flow path (zig-zag), flow arrest structures (submerged islands/weirs, vegetation
+across flow), and outfall structures are often cited (see RCHR 98/7 [Ref 9.I]) as important design and
+influencing features. Where appropriate, these apply to separate, hybrid or combination systems.
+Hydraulic loading has also become recognised as an important factor, where the efficiency of the
+treatment systems declines with increased loading. Flow rates under storm conditions are also
+significant in remobilisation of sediment and bypass structures are frequently recommended.
+A7
+Treatment processes
+Table A.1 summarises the principal treatment processes in each system.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 56
+======================================================================
+CD 532 Version 0.2.0
+Appendix A. Runoff constituents and treatment processes
+Table A.1 Principal treatment processes in vegetative drainage systems
+Runoff constituent
+Swales / ditches
+Basins
+Wetlands
+Retention ponds
+Sedimentation ponds
+Suspended solids
+Filtering
+Filtering
+Settlement
+Filtering
+Settlement
+Settlement
+Settlement
+Heavy metals
+Filtering
+Adsorption
+Filtering
+Settlement
+Adsorption
+Precipitation
+Plant uptake
+Filtering
+Settlement
+Adsorption
+Plant uptake
+Settlement
+Adsorption
+Settlement
+Adsorption
+Plant uptake
+Precipitation
+Organic compounds
+Filtering
+Adsorption
+Filtering
+Settlement
+Adsorption
+Bio-degradation
+Volatilisation
+Filtering
+Settlement
+Adsorption
+Bio-degradation
+Volatilisation
+Settlement
+Adsorption
+Bio-degradation
+Volatilisation
+Settlement
+Adsorption
+Bio-degradation
+Volatilisation
+Nutrients
+Plant uptake
+Plant uptake
+Plant uptake
+Plant uptake
+Plant uptake
+Oil and grease
+Filtering
+Adsorption
+Filtering
+Adsorption
+Settlement
+Biodegradation
+Filtering
+Adsorption
+Settlement
+Biodegradation
+Adsorption
+Settlement
+Biodegradation
+Adsorption
+Settlement
+Biodegradation
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 56
+======================================================================
+CD 532 Version 0.2.0
+Appendix B. Description of vegetated drainage systems
+Appendix B. Description of vegetated drainage systems
+Table B.1 gives a description of vegetated drainage systems.
+Table B.1 Description of vegetated drainage systems
+Name of
+vegetated
+system
+Description
+Treatment functions
+Swale
+Shallow grassed open channel;
+deeper and wider than grassed surface
+water channel;
+well-suited to areas where the road is
+on a gently sloping embankment as the
+embankment slopes can be designed
+to be part of the swale.
+Primary function: Slow the flow of
+water to provide filtration.
+Additional functions: conveyance and
+water storage.
+Particularly effective in controlling
+pollution when there is a degree of
+infiltration to the subgrade, or where
+residence times are long and flow
+velocities are low.
+Can be used to reduce spillage risk by
+the addition of check dams, which can
+also attenuate flow.
+Can operate as the first form of
+attenuation and treatment in a drainage
+system.
+Ditch
+Open trench, normally with battered
+side slopes.
+Lined or unlined.
+Usually parallel to carriageway at the
+back of the verge or remote when
+associated with the earthwork.
+Also Intercepts and conveys surface
+water runoff from the carriageway,
+earthworks and/or adjacent land.
+Settlement of suspended solids and
+filtration (less effective than swales).
+Unlined ditches can allow infiltration of
+runoff through soil and vegetation,
+particularly where residence times are
+long.
+Lined ditches can act as containment
+basins if located between the road
+drain and receiving watercourses.
+Where unlined ditches are located
+above permeable strata, there is a risk
+that highway runoff will infiltrate and
+potentially contaminate any underlying
+aquifer. There is also the possibility
+that high groundwater levels will fill the
+ditch.
+Detention basin
+Shallow depression that detains storm
+water flows as temporary storage
+before the water is directed to a
+surface water outfall;
+Does not allow infiltration to ground
+and can be lined to prevent this.
+Allows suspended solids to settle out of
+the runoff prior to its discharge into the
+receiving surface watercourse or
+groundwater;
+Can be used to receive the first flush
+flows and to hold and treat these, with
+the rest of the flow bypassing the basin
+to other systems;
+Stores and treats water, and can
+therefore provide a degree of risk
+reduction for both flooding and pollution
+downstream.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 56
+======================================================================
+CD 532 Version 0.2.0
+Appendix B. Description of vegetated drainage systems
+Table B.1 Description of vegetated drainage systems (continued)
+Name of
+vegetated
+system
+Description
+Treatment functions
+Infiltration basin
+Shallow depression that detains storm
+water flows as temporary storage and
+allows water to percolate through a
+permeable base, often comprising a
+filter layer, such as gravel.
+The water may be directed to a surface
+water outfall, or it may continue to
+percolate through to groundwater.
+Allows suspended solids to settle out of
+the runoff prior to its discharge into the
+receiving surface watercourse or
+groundwater;
+Can be used to receive the first flush
+flows and to hold and treat these, with
+the rest of the flow bypassing the basin
+to other systems;
+Store and treats water, and can
+therefore provide a degree of risk
+reduction for both flooding and pollution
+downstream;
+Not suitable for retaining accidental
+spillages, because of the difficulty in
+cleaning them, and should be sited
+downstream of an appropriate spill
+containment device, unless this risk is
+perceived to be low.
+Wetland
+Shallow depression or low lying level
+ground that is permanently saturated
+by surface water or groundwater so
+that it is able to support aquatic and/or
+semi-aquatic (emergent) vegetation
+such as reed swamps, marshes, or
+bogs, depending on the degree of
+saturation and inundation.
+Primary flow is across or close to the
+surface of the growing medium and
+through the above ground parts of the
+plants.
+Effective in the removal of suspended
+solids and associated heavy metals
+through the physical processes of
+settlement and filtration;
+Provided there is a relatively long
+residence time (24 hours or more),
+adsorption and microbial degradation
+and biological uptake of metals and
+nutrients can occur;
+Well-suited to treatment of highway
+runoff as it is able to deal with the high
+suspended solid loads in highway
+runoff. However it needs to be
+designed so that it remains sufficiently
+wet in the summer months.
+Retention pond
+Pond that generally retains some water
+at all times.
+Can have permeable base or banks.
+Primarily designed to attenuate flows
+by accepting large inflows, but
+discharging slowly.
+Can also treat water by allowing
+suspended solids to settle out.
+Sedimentation
+pond
+Pond that generally retains some water
+at all times.
+Usually has an impermeable base.
+Designed primarily to treat water by
+allowing suspended solids to settle out.
+Will also attenuate flows by accepting
+large inflows, but discharging slowly.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 56
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 56
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 532
+England National Application Annex to CD 532
+Vegetated drainage systems for highway
+runoff
+(formerly HA 103/06)
+Revision 0
+Summary
+There are no specific requirements for Highways England supplementary or alternative to those
+given in CD 532.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 56
+======================================================================
+CD 532 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 56
+======================================================================
+CD 532 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532
+0.0.0
+March 2020
+Not available
+Not available
+Highways England National Application Annex to CD 532.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 56
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 56
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 532
+Northern Ireland National Application Annex to
+CD 532 Vegetated drainage systems for
+highway runoff
+(formerly HA 103/06)
+Revision 0
+Summary
+There are no specific requirements for Department for Infrastructure Northern Ireland
+supplementary or alternative to those given in CD 532.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 56
+======================================================================
+CD 532 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 56
+======================================================================
+CD 532 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532
+0.0.0
+March 2020
+Not available
+Not available
+Department for Infrastructure Northern Ireland National Application Annex to CD 532.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 56
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 56
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 532 - SNAA
+Scotland National Application Annex for
+Vegetated drainage systems for highway
+runoff
+Version 0.0.1
+Summary
+This National Application Annex gives Transport Scotland-specific requirements for vegetated
+drainage systems for highway runoff.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 56
+======================================================================
+CD 532 - SNAA Version 0.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Applicability of clause 3.14, CD 532
+5
+S/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 56
+======================================================================
+CD 532 - SNAA Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532 -
+SNAA
+0.0.1
+September 2025
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+Transport Scotland National Application Annex to CD 532. No substantive change from last version published.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532
+0.0.0
+March 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 56
+======================================================================
+CD 532 - SNAA Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+This document supersedes HA 103/06, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 56
+======================================================================
+CD 532 - SNAA Version 0.0.1
+Introduction
+Introduction
+Background
+This National Application Annex contains Transport Scotland-specific requirements for vegetated
+drainage systems for highway runoff.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 56
+======================================================================
+CD 532 - SNAA Version 0.0.1
+S/1. Applicability of clause 3.14, CD 532
+S/1.
+Applicability of clause 3.14, CD 532
+S/1.1
+Clause 3.14 of CD 532 shall not apply in Scotland.
+S/1.2
+Where ponds are proposed to be raised above existing land, they must be in accordance with the
+requirements of the Reservoirs (Scotland) Act 2011 ( ASP 2011/09 [Ref 2.N]) .
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 56
+======================================================================
+CD 532 - SNAA Version 0.0.1
+S/2. Normative references
+S/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Archives. ASP 2011/09, 'Reservoirs (Scotland) Act'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 56
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 56
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 532
+Wales National Application Annex to CD 532
+Vegetated drainage systems for highway
+runoff
+(formerly HA 103/06)
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 532.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 56
+======================================================================
+CD 532 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 56
+======================================================================
+CD 532 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 532
+0.0.0
+March 2020
+Not available
+Not available
+Welsh Government National Application Annex to CD 532.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 56
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 532 Version 0.2.0, published: 30-Sep-2025
+
+
