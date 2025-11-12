@@ -1,0 +1,349 @@
+======================================================================
+PAGE 1 of 12
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Appraisal
+TA 101
+Traffic signalling systems
+(formerly TA 12/07, TA 16/07, TA 56/87, TA 82/99, TA 84/06, TD 07/07, TD 24/97, TD 35/06)
+Version 0.0.1
+Summary
+This document contains appraisal requirements for traffic signalling systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 2 of 12
+======================================================================
+TA 101 Version 0.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of the document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Appraisal
+8
+Appraisal report
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Site conditions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3. Normative references
+10
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 3 of 12
+======================================================================
+TA 101 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 101
+0.0.1
+August 2022
+Core document
+Incremental change to
+notes and editorial
+updates
+National Highways brand change. TSRGD references updated.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TA 101
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 4 of 12
+======================================================================
+TA 101 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TA 12/07, TA 16/07, TA 56/87, TA 82/99, TA 84/06, TD 07/07, TD 24/97, TD
+35/06, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 5 of 12
+======================================================================
+TA 101 Version 0.0.1
+Introduction
+Introduction
+Background
+This document contains appraisal requirements for traffic signalling installations.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 6 of 12
+======================================================================
+TA 101 Version 0.0.1
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+VMS
+Variable message signs
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 7 of 12
+======================================================================
+TA 101 Version 0.0.1
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Appraisal report
+A detailed evaluation on the outcomes of the whole scheme and its
+options including benefits and impacts.
+Appraisal team
+A group of specialist leads covering all aspects of the scheme.
+Design file
+A file of basic information and certification for a scheme produced
+during the design process to provide a record of the development of
+the scheme, the decisions made and the safety considerations.
+Technical note
+A short document which records, when deemed necessary, the
+detailed technical issues linked to the recommendations made within
+the appraisal report.
+Traffic control equipment
+Equipment used in connection with the signals (including the content
+of all instructions stored in, or executable by, that equipment).
+NOTE: Examples of associated equipment can include
+communication devices.
+Traffic signalling installations
+Permanent traffic signalling equipment at prescribed locations as
+defined in the Traffic Signs Regulations and General Directions
+SI 2016/362 (TSRGD) [Ref 2.N] for England, Wales and Scotland on
+all-purpose trunk roads, and Traffic Signs Regulations (Northern
+Ireland) 1997, SRNI 1997/386 [Ref 3.N] for Northern Ireland.
+NOTE: Examples of locations include junctions, emergency vehicle
+stations, level crossings, airports, tunnels, swing/movable bridges
+and signalised crossings.
+Traffic signalling systems
+The combination of traffic signalling equipment and/or traffic control
+equipment, associated software, hardware and data.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 8 of 12
+======================================================================
+TA 101 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document outlines traffic signalling installation appraisal requirements that shall be implemented
+on new or modifications to traffic signalling installations.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving traffic signalling installations on
+the Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 1.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 1.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 9 of 12
+======================================================================
+TA 101 Version 0.0.1
+2. Appraisal
+2.
+Appraisal
+Appraisal report
+2.1
+An appraisal report shall be produced prior to the commencement of the preferred traffic signalling
+installation design(s).
+2.1.1
+An experienced person with traffic signalling knowledge should be included within the appraisal team
+and a decision for their inclusion recorded in the appraisal report.
+NOTE
+The level of experience and knowledge of the experienced person with traffic signalling knowledge has
+no definition, but the level of competency can be assessed through previous experience and CV.
+2.1.2
+The appraisal team should comprise of those with relevant knowledge on other elements of the traffic
+signalling installation(s) and a decision for their inclusion recorded in the appraisal report.
+NOTE
+Relevant knowledge depends on the scope of the traffic signalling installation(s) and can include
+transport planning/modelling elements of the installation(s).
+2.1.3
+Where technical aspects of the traffic signalling installation(s) require clarification, a technical note
+should be produced to support the appraisal report.
+Data collection
+2.2
+The design file shall include site-specific data relevant to the traffic signalling installation(s).
+2.2.1
+Site-specific data relevant to traffic signalling installation(s) may include speed data, statutory
+undertakers searches, accident data, traffic and walking, cycling and horse-riding demand flows,
+inspection reports, and incident reports (near misses and known health and safety issues).
+NOTE
+The list of site-specific data for traffic signalling installation(s) is not exhaustive and other relevant data
+can be used to obtain appropriate information.
+2.2.2
+The site-specific data obtained for the traffic signalling installation(s) should be used to inform the
+design stage.
+NOTE
+Existing traffic signalling installation configuration data can be a source of site-specific data if
+modification is part of the work to be carried out.
+Site conditions
+2.3
+Site conditions shall be assessed prior to commencement of traffic signalling installation design and
+recorded in the design file.
+2.3.1
+Site conditions may be assessed by desktop study (reviewing previous reports), video surveys, site
+visit, ecological surveys, interview surveys, walking, cycling & horse-riding assessment and review,
+traffic counts and speed surveys.
+2.3.2
+An assessment of the surrounding environment should be performed to ensure the sensitivity of the
+landscape, heritage and local community are not detrimentally affected by the traffic signalling
+installation design.
+NOTE 1
+An assessment of the surrounding environment can be achieved through a desktop study of the area
+and a risk assessment.
+NOTE 2
+A video survey to review traffic and other user behaviours is an example of an assessment of the
+surrounding environment.
+2.3.3
+The compatibility of traffic control equipment with existing traffic signal installations that are being
+modified should be determined.
+NOTE
+Associated traffic signals equipment can include bus priority systems, CCTV and variable message
+signs (VMS).
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 10 of 12
+======================================================================
+TA 101 Version 0.0.1
+2. Appraisal
+2.3.4
+For design modifications to existing traffic signalling installations, records of junction history, previous
+assessments and any known issues should be reviewed.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 11 of 12
+======================================================================
+TA 101 Version 0.0.1
+3. Normative references
+3.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+The National Archives. legislation.gov.uk. SI 2016/362 (TSRGD), 'The Traffic Signs
+Regulations and General Directions 2016'
+Ref 3.N
+The National Archives. legislation.gov.uk. SRNI 1997/386, 'Traffic Signs Regulations
+(Northern Ireland) 1997'
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
+
+======================================================================
+PAGE 12 of 12
+======================================================================
+© Crown copyright 2022.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TA 101 Version 0.0.1, published: 30-Aug-2022
+
+
