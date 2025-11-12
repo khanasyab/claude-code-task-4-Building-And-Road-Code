@@ -1,0 +1,4303 @@
+======================================================================
+PAGE 1 of 83
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 356
+Design of highway structures for hydraulic
+action
+(formerly BA 59/94)
+Revision 1
+Summary
+This document provides information on the hydraulic aspects of the design of structures in or over
+rivers, estuaries and flood plains, including the studies required to support these design aspects.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 2 of 83
+======================================================================
+CD 356 Revision 1
+Contents
+Contents
+Release notes
+4
+Foreword
+5
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Contractual and legal considerations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Introduction
+6
+Background
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Assumptions made in the preparation of the document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Abbreviations
+7
+Symbols
+8
+Terms and definitions
+9
+1. Scope
+13
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+2. Design process
+14
+3. Design principles
+17
+Design objectives
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Conceptual representation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Site investigations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Structure opening
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+4. Design criteria
+21
+Design working life . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Climate change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Largest flood event for design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Check event
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Design fluvial flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Design tidal flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Combinations of fluvial and tidal flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Wave action . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Design water level . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Freeboard allowance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Floating debris . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Ice . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Ship impact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Dredging
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+5. Scour assessment
+28
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Scour risk management strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Methodology for scour assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Natural scour . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+General scour
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Contraction scour
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Local scour . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Bridge piers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Bridge abutments and training walls
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Local scour at other structures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 3 of 83
+======================================================================
+CD 356 Revision 1
+Contents
+Scour caused by other mechanisms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+6. Scour protection design
+37
+Principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Scour protection methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Stone mattresses (rip rap) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Other forms of scour protection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+7. Structure design
+40
+Structural and geotechnical basis of design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Classification of actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Design values of actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Representative values of actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Design situations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Effect of scour protection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+High water level design situation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Low water level design situation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Extreme high water level design situation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Debris impact design situation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Ship impact design situation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Construction / repair design situation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Hydrostatic actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Hydrodynamic actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Drag and lift . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Drag on trapped debris
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Drag and lift on piers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+Drag and lift on superstructures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Impact force from debris . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Actions due to ice
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Actions due to ship impact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+8. Structure elements
+56
+Bridge piers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Bridge foundations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Stability of channel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Foundation design assumptions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Spread footings on soil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Spread footings on rock . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+Spread footings on weathered or potentially erodible rock . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Piled foundations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Bridge abutments
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+59
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+Bridge superstructures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+9. Normative references
+62
+10. Informative references
+63
+Appendix A. Sample methods for scour assessment
+65
+A1 General scour . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+A2 Contraction scour . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+A3 Local scour at bridge piers in non-cohesive soils
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 4 of 83
+======================================================================
+CD 356 Revision 1
+Contents
+Appendix B. Methods for deriving input parameters
+67
+B1 Fluvial flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+B1.1 Flood flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+B1.2 Normal flow conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+B1.3 Low flow conditions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+B1.4 Tidal flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+B1.5 Simplified approach to estimate tidal flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+B2 Water levels and flow depths
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+70
+B2.1 Calculation of water levels or discharge in rivers and channels
+. . . . . . . . . . . . . . . . . . .
+70
+B3 Estimation of flow velocity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+73
+B4 Assessment of the effects of the structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+74
+B4.1 Estimation of afflux . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+75
+Appendix C. Site investigation
+76
+C1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+C2 Scope of investigations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+C3 Sources of information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+C3.1 Site walkovers and field surveys
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+78
+C3.2 Topographic and channel survey . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+80
+C3.3 Bed material and ground investigation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+80
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 5 of 83
+======================================================================
+CD 356 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Mar 2020
+Revision 1 (March 2020) Revision to update references only. Revision 0
+(September 2019) CD 356 replaces BA 59/94. The full document has been
+re-written to make it compliant with the new Highways England drafting rules.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 6 of 83
+======================================================================
+CD 356 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BA 59/94, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 7 of 83
+======================================================================
+CD 356 Revision 1
+Introduction
+Introduction
+Background
+Scour and flooding are a leading cause of bridge failures in the UK and worldwide. Examples include
+the flooding in December 2015 which caused collapse of bridges in Cumbria ( ICE 1700009 [Ref 18.I])
+and North Yorkshire. Other studies of failure records indicate the risk of structural failure during flooding
+(ICE JFE 1300013 [Ref 21.I]). A study of US bridge failures between 1980 and 2012 found that
+approximately 50% were attributable to scour and flooding, see: Technical Report MCEER-13-0008
+[Ref 1.I]
+With storms in the UK expected to become both more severe and more frequent as a consequence of
+climate change, there are potentially increased structural risks to highway bridges and other highway
+structures, due to severe weather events, such as:
+1) scour in non-tidal rivers, tidal rivers and estuaries;
+2) very large horizontal forces on bridge piers and uplift on bridge decks during extremely high river
+flow rates; and
+3) ocean storm surges and coastal wave action.
+The design of bridges across watercourses requires a multi-disciplinary approach, involving structural,
+geotechnical as well as specialist hydrological and hydraulics expertise.
+The need to cross a watercourse can be the reason for construction of a highway bridge. It is essential
+that sufficient attention is paid to the prevention of failure due to scour and flooding when designing
+bridges over rivers, estuaries or flood plains. Hydraulic actions and scour need to be considered early
+in the design process.
+Hydraulic actions need to be considered in the design of the structure. The structural Eurocodes do not
+define hydraulic actions in detail, therefore supplementary requirements applicable to the UK are
+provided.
+The presence of the bridge and approaches can have an impact on the watercourse. Environmental
+legislation emphasises the importance of minimising the impact on the water environment.
+A variety of approaches are available for modelling flows in the watercourse and for estimating scour. It
+is not always possible to offer a single, best method or equation for a particular calculation and there
+can be a wide range of answers produced by alternative methods. There is a need for a competent
+practitioner to select an appropriate methodology.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 8 of 83
+======================================================================
+CD 356 Revision 1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ALARP
+As Low As Reasonably Practicable
+BGS
+British Geological Survey
+CFD
+Computational Fluid Dynamics
+FEH
+Flood Estimation Handbook
+H++
+The upper limit of climate projections that are considered plausible
+HAT
+Highest Astronomical Tide
+HOST
+Hydrology of Soil Types
+LIDAR
+Light Detecting and Ranging, a remote aerial survey technique
+MF
+Mean flow
+OS
+Ordnance Survey
+PE
+Potential evaporation
+ReFH2
+Revitalised Flood Hydrograph method (v2)
+SAAR
+Standard annual average rainfall
+SEPA
+Scottish Environmental Protection Agency
+UKCP09
+UK Climate Projections produced in 2009
+UKCP18
+UK Climate Projections due to be published in 2018
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 9 of 83
+======================================================================
+CD 356 Revision 1
+Symbols
+Symbols
+Symbols
+Symbol
+Definition
+A
+Accidental action
+Ab
+Blocked area (portion of the cross-sectional area of flow through the opening
+which is blocked by debris)
+Ad
+Design value of an accidental action
+AF
+Reference area
+Au
+Unblocked area (portion of the cross-sectional area of flow through the opening
+which is not blocked by debris)
+BR
+Blockage Ratio
+CD
+Drag coefficient
+CL
+Lift coefficient
+Fk
+Characteristic value of drag (or lift) force
+ˆk
+Effective contact stiffness
+m
+Single-item debris mass
+Q
+Variable action
+Qcombination
+Combination value of a variable action
+Qfrequent
+Frequent value of a variable action
+Qk
+Characteristic value of a variable action
+Qquasi-permanent
+Quasi-permanent value of a variable action
+UTC
+Critical threshold velocity for the surface bed material
+V
+Water reference velocity
+YS
+Equilibrium depth of local scour
+ψ
+Factor applied in combinations of actions
+ψ0
+Factor applied to obtain the combination value of a variable action
+ψ1
+Factor applied to obtain the frequent value of a variable action
+ψ2
+Factor applied to obtain the quasi-permanent value of a variable action
+γQ
+Partial factor applied to a variable action
+ρ
+Water density
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 10 of 83
+======================================================================
+CD 356 Revision 1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Afflux
+The increase in water level upstream of a bridge over that
+which would have occurred if the bridge were absent.
+Aggradation
+A natural increase in bed levels due to sediment
+deposition, tending to oppose the effects of natural scour
+and potentially occurring as a result of transport of
+natural scour products from upstream.
+Angle of attack
+Angle between the longitudinal axis of a pier and the
+direction of flow.
+Annual probability of exceedance
+The probability of a certain flood event being exceeded
+each and every year.
+NOTE: For example a flood event with an annual
+probability of exceedance of 0.5% has a 0.5% (or 1 in 20
+0) of being exceeded each and every year. The
+equivalent return period is the inverse of the annual
+probability of exceedance. For this example, the
+equivalent return period is 200 years (the 1 in 200 year
+return period event).
+Armouring
+The process of progressive removal of finer sediment
+from the bed which leaves a layer of coarser sediment
+lying on the bed.
+Backwater length
+The distance upstream where water depth is raised
+above normal depth conditions due to a downstream
+hydraulic control (for subcritical flow conditions).
+Baseflow index
+A flow statistic which characterises the proportion of river
+runoff which is derived from stored sources.
+NOTE: It is a measure often used in flow estimation
+techniques.
+Bend scour
+Bend scour occurs at a bend in a watercourse, typically
+on the outside of the bend.
+Channel pattern
+The plan form of a river.
+Check event
+The largest event that should be used for additional
+design checks, taken as the larger of:
+1) the design flood check event, including normal climate
+change allowance; and
+2) the largest flood event for design, with a higher climate
+change allowance.
+Confluence scour
+Natural scour that occurs where watercourses meet.
+Contraction scour
+Contraction scour occurs in a confined section of a
+watercourse and results in a lowering of the bed level
+across the width of the watercourse.
+Degradation
+Reduction in bed levels with time.
+Design flood check event
+The largest flood event (fluvial, tidal or combined) that
+should be used for additional design checks.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 11 of 83
+======================================================================
+CD 356 Revision 1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Design working life
+Assumed period for which a structure or part of it is to be
+used for its intended purpose with anticipated
+maintenance but without major repair being necessary.
+Design event
+The event which gives the largest value of the parameter
+under consideration for the events up to:
+1) the largest fluvial flood event for design;
+2) the largest tidal event for design;
+3) the largest combined fluvial and tidal event for design;
+4) other, more frequent, event for assessing natural
+scour.
+Dredging
+The removal of sediment from the bed of the river.
+NOTE: This can reduce bed levels both upstream and
+downstream of the location of dredging.
+Equilibrium depth
+Under a give steady flow the depth of scour will increase
+until an equilibrium is reached. After that time no further
+increase in scour depth takes place
+Flood plain constriction
+Where embankments are used to cross a flood plain the
+flow over the flood plain may be constricted leading to
+increased flow velocities and scour.
+Freeboard
+Vertical distance between water surface and the soffit of
+a bridge or top of embankment.
+Froude number
+A non-dimensional flow parameter which expresses
+whether flow in an open channel is sub-critical, critical or
+super-critical.
+General scour
+Scour which affects the whole width of the river but is still
+confined to the reach adjacent to the structure. It is
+commonly caused by a channel constriction at the bridge
+site (such as by bridge approach embankments
+encroaching onto the floodplain and/or into the main
+channel) or a change in downstream control of the water
+surface elevation or flow
+Hydrodynamic action
+The force exerted on a pier or abutment by the flow of
+water around it.
+NOTE: This can include buoyancy forces. There are
+similarities with the drag and lift forces acting on an
+aerofoil.
+Hydrostatic action
+The force exerted by the pressure due to depth of water
+on an object in the water.
+Invert protection
+Protection of the river-bed under the bridge to prevent
+scour.
+Impact loading
+The loading applied to the bridge structure by the
+collision of debris carried by the flow or by a ship.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 12 of 83
+======================================================================
+CD 356 Revision 1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Largest combined fluvial and tidal event
+for design
+The largest combined event with a joint annual
+exceedance probability equivalent to the largest flood
+event for design.
+Largest flood event for design
+The largest flood event (fluvial or tidal) that should be
+used for the design.
+Largest fluvial flood event for design
+The largest fluvial flood event that should be used for the
+design with an annual exceedance probability equivalent
+to the largest flood event for design.
+Largest tidal event for design
+The largest tidal flood (surge) event that should be used
+for the design with an annual exceedance probability
+equivalent to the largest flood event for design.
+Local scour
+Scour caused by an acceleration of flow and its resulting
+vortices around an obstruction such as a pier or
+abutment.
+NOTE: Such scour only occurs in the immediate vicinity
+of the obstruction.
+Lowest fluvial flow (Q95)
+The lowest flow rate expected in a watercourse.
+NOTE 1: A Q95 flow is that which is exceeded 95% of
+the time.
+NOTE 2: For gauged sites the flow rate is typically
+derived from daily mean average flows.
+NOTE 3: The flow can also be estimated for ungauged
+catchments.
+Mean flow
+The average daily flow in a watercourse (calculated from
+gauge records as the mean average of the daily mean
+average flows).
+NOTE 1: The mean flow can also be estimated for
+ungauged catchments.
+NOTE 2: Typically, the annual mean flow is used
+although seasonal mean flows can be used where
+appropriate.
+Mean spring tidal range
+The range of water levels between the mean high spring
+tide and the mean low spring tide.
+NOTE: Spring tides are those in which the difference
+between high and low tide is greatest.
+Natural scour
+Long-term river bed elevation changes due to natural or
+man-induced causes within the reach of the river on
+which the structure is located.
+Regime
+Conditions under which a hydraulic process is occurring.
+Relative flow depth
+The ratio of obstruction size to flow depth. If this is large
+then local scour may be inhibited.
+Rip-rap
+Stone placed to prevent scour.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 13 of 83
+======================================================================
+CD 356 Revision 1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Scour
+The removal of sediment and hence reduction in
+river-bed level by flowing water.
+NOTE: It can be divided into components including:
+1) natural scour (progressive aggradation / degradation);
+2) general scour;
+3) contraction scour; and
+4) local scour.
+Scour holes
+The bed features caused by the reduction in bed level
+due to local scour.
+Section mean velocity
+The mean average flow velocity at a particular
+watercourse section.
+Sub-critical flow
+Flow conditions where the Froude number is greater than
+1.
+Surge event
+The abnormal rise in sea water level during a storm over
+the sea, measured as the height of the sea water above
+the normal predicted astronomical tide.
+NOTE 1: The storm surge is caused primarily by a
+storm's very strong winds blowing over the surface of the
+sea, pushing sea water towards the coastline.
+NOTE 2: The height of the storm surge at any given
+location can depend on:
+1) the angle of storm impact on the coast;
+2) the intensity, size, and speed of the storm; and
+3) the local sea bed profile.
+Watercourse
+A natural or artificial channel through which water flows,
+including a river, canal, estuary.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 14 of 83
+======================================================================
+CD 356 Revision 1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be applicable to all new structures in or over rivers, estuaries and flood-plains.
+NOTE 1
+The assessment of existing structures for scour is covered by DMRB document BD 97 [Ref 11.N].
+NOTE 2
+Structures include bridges, piers, abutments, retaining walls, foundations, associated protection works,
+and new structural elements to existing structures, such as re-decking.
+NOTE 3
+Specific requirements for environmental, hydraulic, scour and structural designs of culverts are outside
+the scope of this document. See CD 529 [Ref 2.N] for culverts.
+1.2
+This document shall be applicable to permanent and temporary structures.
+1.3
+This document shall be applicable to the hydraulic aspects of the design and the studies required to
+support these design aspects.
+NOTE 1
+Hydraulic aspects of design include scour assessment, design of scour protection and hydraulic actions
+on structures.
+NOTE 2
+This document supplements the requirements for other aspects of structure design that are provided
+elsewhere in DMRB.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving the design or construction of
+structures in or over rivers, estuaries and flood-plains on the Overseeing Organisations' motorway and
+all-purpose trunk roads according to the implementation requirements of GG 101 [Ref 6.N].
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 15 of 83
+======================================================================
+CD 356 Revision 1
+2. Design process
+2.
+Design process
+2.1
+The design procedure shall include:
+1) establishment of design principles (see Section 3);
+2) determination of design criteria (see Section 4);
+3) assessment of scour risk (see Section 5);
+4) design of scour protection, where required (see Section 6);
+5) calculation of hydraulic actions and checks of the structure under the effect of these actions (see
+Section 7);
+6) design of specific elements of the structure (see Section 8).
+NOTE 1
+Design for hydraulic actions requires coordination between many different design and environmental
+disciplines.
+NOTE 2
+Figure 2.1N2 summarises the main considerations of the design procedure. Iteration between steps
+can be needed to achieve a satisfactory design, but for clarity, such iteration is not shown on the
+flowchart.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 16 of 83
+======================================================================
+CD 356 Revision 1
+2. Design process
+Figure 2.1N2 Summary of design procedure
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 17 of 83
+======================================================================
+CD 356 Revision 1
+2. Design process
+2.1.1
+Requirements for site investigation and geotechnical design should be specified to provide the
+information which will be needed to undertake the scour assessment and potentially the design of scour
+protection.
+NOTE
+For example, information on bed material is needed to undertake the scour assessment, in addition to
+the usual geotechnical requirements to establish conditions for structural foundations.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 18 of 83
+======================================================================
+CD 356 Revision 1
+3. Design principles
+3.
+Design principles
+Design objectives
+3.1
+The hydraulic design of structures shall include:
+1) an assessment of the hydraulic actions on the structure; and
+2) an assessment of the effects of the structure on the water environment.
+NOTE
+Effects of the structure on the water environment include navigation, watercourse and coastal
+management and maintenance, water quality, flood risk, aquatic and riparian habitat and
+geomorphology including erosion and deposition processes. Specific requirements are provided later in
+this document.
+3.1.1
+The assessment of the effects on the structure and the effects of the structure on the water
+environment should be commenced at the outset of the design process (for example, from the initial
+planning / concept design stage).
+NOTE
+The findings of the assessment of the structure and water environment can affect the location and form
+of the structure.
+3.2
+The hydraulic design of structures shall have the following design objectives:
+1) to reduce risks of structural failure and other adverse effects on the structure to as low as
+reasonably practicable (ALARP) under the effects of water flows and scour, for the design working
+life of the structure;
+2) to minimise the adverse effects of constructing the structure on the existing water regime and to
+enhance this where realistic opportunities exist;
+3) to maintain navigation access (where applicable);
+4) to minimise adverse effects on flood risk.
+3.2.1
+The design objectives may be achieved through measures including the following:
+1) allowing for natural channel movement, especially in mobile environments such as estuaries;
+2) avoiding a need to realign the watercourse or channel through design of the road and structure
+alignment, unless this would improve the existing water environment;
+3) minimising obstructions to flood flows from approach embankments, abutments and piers;
+4) setting back abutments from the channel, preferably located outside the floodplain, and aligned with
+the natural flow direction;
+5) using relief openings (to allow for flood flows and reduce afflux), guide banks and river training works
+to reduce adverse flow conditions at abutments (noting that over provision of flood relief openings
+can add excessive unnecessary cost to a scheme);
+6) avoiding or reducing the number of piers across the channel;
+7) aligning piers with the direction of flow and using streamlined pier shapes to decrease scour and
+reduce potential build up of debris;
+8) positioning structure soffit levels above the general level of the approach roadways to reduce
+hydraulic forces acting on the structure in the event of overtopping;
+9) using a smaller number of large openings rather than a larger number of smaller openings (for a
+given cross-sectional area of an opening, the greater the wetted perimeter, the greater the afflux);
+10) considering the use of softer engineering for scour and erosion protection that allows for some
+continued channel movement, ecological habitat and water treatment, where appropriate and
+practical.
+NOTE
+The SEPA River crossings [Ref 6.I] guide for river crossings can be referred to for further guidance. LA
+113 [Ref 10.N] also references additional sources of information.
+3.2.2
+The design should both inform and be informed by relevant assessments for the scheme including:
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 19 of 83
+======================================================================
+CD 356 Revision 1
+3. Design principles
+1) environmental impact assessment LA 101 [Ref 5.N], including navigation;
+2) water framework directive compliance assessment (see LA 113 [Ref 10.N]);
+3) flood risk assessment (see LA 113 [Ref 10.N]).
+3.2.3
+Consultation should be undertaken with the relevant river or maritime authority, and other relevant
+authorities, commencing from the start of the design process.
+NOTE
+Approvals and consents from relevant authorities can be required.
+3.2.4
+The design should aim to reduce the need for hard engineered solutions and consider alternative
+designs that avoid or reduce the need for protection.
+3.3
+The design shall achieve any specific required mitigation that is identified in the environmental impact
+assessment, water framework directive compliance assessment or flood risk assessment for the
+scheme.
+Conceptual representation
+3.4
+The effect of the structure on the water environment shall be understood through development of an
+appropriate conceptual representation of the behaviour of the watercourse.
+3.4.1
+The zone of assessment covered by the conceptual representation should encompass the zone
+required for the scour assessment and for an understanding of the effect of the structure on the
+watercourse and of the hydraulic actions on the structure.
+3.4.2
+Appropriate conceptual representations may include any or all of the following approaches, depending
+on the complexity of the situation:
+1) simple hand calculations and sketch plans;
+2) 1- and/or 2-dimensional computational hydraulic models;
+3) 3-dimensional computational fluid dynamics (CFD) or flow models;
+4) sediment transport models;
+5) physical hydraulic models.
+NOTE 1
+The simpler approaches (items 1-2 above) are likely to be adequate in normal cases where there is no
+undue complexity.
+NOTE 2
+Computational or physical modelling can be preferred in more complex situations, where simple hand
+calculations are unlikely to be accurate, or to refine the design. Examples of situations where
+computational or physical models can be more valuable include:
+1) where flow patterns are complex such as at river confluences, large floodplains or urban
+environments;
+2) where floodplains provide potential for significant storage and attenuation of flood flows;
+3) in areas subject to both fluvial and tidal flows, where critical combinations can be difficult to define;
+4) where there is a need to assess several different design scenarios and/or where conditions can
+change during an event, for example if a defence breach is a possibility;
+5) where there is a need to demonstrate the effectiveness of proposed mitigation and protection
+features.
+NOTE 3
+In many cases 1- and/or 2-dimensional computational hydraulic models will be developed to inform the
+flood risk assessment for the scheme and can provide parameters to inform the structure design.
+These include information on flood extents and flow routes, water levels, afflux and flow velocities,
+which will generally be more accurate than obtained through simple calculations.
+NOTE 4
+A variety of computational hydraulic model packages exist that can provide more detailed assessment
+of flows around structures, sediment movement and scour. Computational hydraulic model packages
+can be useful where it is important to understand channel or sediment movement patterns either to
+inform the structure design or for environmental reasons; or where simpler models are not appropriate
+for the situation, for example at complex structures and large estuaries.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 20 of 83
+======================================================================
+CD 356 Revision 1
+3. Design principles
+NOTE 5
+The more sophisticated modelling techniques can produce additional information which can assist the
+development of the design.
+NOTE 6
+Geomorphological studies can supplement the other approaches.
+NOTE 7
+Specialist geomorphologists can provide advice in respect of river processes and channel movement,
+particularly in especially mobile or complex environments.
+NOTE 8
+Physical models can also be used where preferred or where computational models are not sufficient to
+represent the channel or sediment movement processes. Physical models can however be more costly
+to develop and use than computational models, particularly if multiple scenarios need to be assessed.
+3.4.3
+The conceptual representation of the behaviour of the watercourse should produce the following
+outputs for the applicable scenarios:
+1) water levels;
+2) flow velocities;
+3) flow directions;
+4) an assessment of the stability of the channel including natural scour (change over time including
+upstream and downstream of the proposed crossing).
+3.5
+The scenarios that shall be considered in the design are summarised in Table 3.5.
+Table 3.5 Scenarios used for design
+Scenario
+Description
+Typical values
+Design
+event
+The event which gives the largest value of
+the parameter under consideration for the
+events up to:
+1) the largest fluvial flood event for design;
+2) the largest tidal event for design;
+3) the largest combined fluvial and tidal
+event for design;
+4) other, more frequent, event for
+assessing natural scour.
+1,2,3 - 0.5% annual exceedance
+probability, including normal climate
+change allowances;
+4 - as determined from conceptual
+representation.
+Check
+event
+The event which gives the largest value of
+the parameter under consideration for the
+events up to the check event (more
+extreme than the design event). This can
+be a fluvial, tidal or combined event.
+The larger of:
+1) 0.1% annual exceedance probability
+event, including normal climate change
+allowances;
+2) 0.5% annual exceedance probability
+event, including higher climate change
+allowances.
+Low
+water
+level
+As determined for the lowest fluvial flow
+and lowest astronomical tide
+Q95 (fluvial flow)
+Normal
+flow/level
+Representative of normal conditions
+Mean fluvial flow;
+Water levels within the mean spring tidal
+range.
+NOTE
+Requirements and guidance on the scenarios used for design are provided in Section 4.
+Site investigations
+3.6
+The information to be obtained from desk studies and site investigations shall include:
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 21 of 83
+======================================================================
+CD 356 Revision 1
+3. Design principles
+1) geotechnical data to inform the structure foundation design;
+2) bed level and bed material data to inform the scour assessment;
+3) watercourse and floodplain geometry;
+4) an understanding of the channel morphology and stability, water levels and flows, and flood
+behaviour to inform the conceptual representation.
+NOTE 1
+Further guidance is provided in Appendix C to this document.
+NOTE 2
+Desk studies and site investigations can also determine:
+1) expected type and size of floating debris (see Section 4);
+2) evidence of scour (see Section 5).
+Structure opening
+3.7
+The structure opening size(s) shall be determined.
+NOTE 1
+The structure opening size can be influenced by multiple factors including:
+1) design flow capacity;
+2) effect on flood risk;
+3) sensitivity to flood events larger than the design event;
+4) navigation requirements;
+5) effects on ecology and the water environment (including scour);
+6) susceptibility to blockage by debris;
+7) design of structural elements.
+NOTE 2
+Determining the structure opening size can require an iterative process involving consultation with
+relevant authorities.
+3.8
+The minimum design flow capacity for the structure shall be agreed with the relevant authority and to
+meet any specific requirements identified in the environmental impact assessment, water framework
+directive compliance assessment or flood risk assessment for the scheme.
+NOTE 1
+The acceptable afflux at the structure will likely be dictated by potential for increased flooding upstream
+of the structure.
+NOTE 2
+The flow capacity of the structure can be dictated by other design factors. For example, a larger flow
+capacity can be provided to achieve navigation or to reduce scour and hydraulic loads on the structure.
+NOTE 3
+Flood flows do not always follow the alignment of the river channel and can require separate openings
+to be provided.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 22 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+4.
+Design criteria
+Design working life
+4.1
+The minimum design working life shall be as detailed in Table 4.1.
+Table 4.1 Design working life
+Element
+Design life
+Structures (including associated
+substructures)
+As required in CD 350 [Ref 13.N]
+Scour protection
+The same as the applicable structure or lower as
+determined in the scour risk management strategy
+4.1.1
+Where a structure is temporary or has a design life less than that indicated in Table 4.1, then
+relaxations on the design criteria specified in this section may be agreed with the Overseeing
+Organisation and recorded in the Approval in Principle.
+NOTE
+Relaxations can be applied, as examples, to:
+1) omit or reduce climate change allowance;
+2) amend navigation requirements;
+3) increase the value of annual probability of exceedance of the largest design event;
+4) accept damage to the structure for some events, depending on the use of the structure.
+4.1.2
+Where relaxations on design criteria are applied, the selection of appropriate relaxed design criteria
+and the structure design should be informed by the environmental impact assessment, water
+framework directive compliance assessment and flood risk assessment for the scheme.
+NOTE
+Even if relaxations are applied for the structure, temporary or short-term adverse effects on the
+watercourse and surroundings can still need to be avoided or reduced.
+Climate change
+4.2
+The assessment of design events and check events shall include appropriate climate change
+allowances for the lifetime of the structure.
+4.2.1
+The relevant authority should be consulted for advice on current climate change allowances.
+NOTE
+Climate change research is ongoing and climate change allowances can change over time. At the time
+of writing current allowances are largely based on UKCP 09 Report [Ref 29.I] research but this has
+recently been replaced by UKCP18 [Ref 11.I]. Derived products, such as increases in peak river flows,
+can be published separately. The climate change scenarios used to derive published allowances can
+also change over time.
+4.2.2
+Climate change allowances applied to fluvial flows should be based on the 90th percentile estimate
+when these have been derived from a range of low to high emissions scenarios.
+NOTE
+Allowances for Upper End increases in peak river flows for river basins in England are available on the
+Gov-UK site. FRA CCA [Ref 8.I]
+4.2.3
+Climate change (sea level rise) allowances applied to tide levels should be based on the 50th
+percentile when these have been derived for a high emissions scenario.
+4.2.4
+Where directed by the Overseeing Organisation, a higher climate change allowance should be applied
+as a check event.
+NOTE
+For example, the H++ scenario in UKCP 09 Report [Ref 29.I] represents the upper limit of climate
+projections that are considered plausible and can be specified for critical infrastructure or overall
+resilience.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 23 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+4.2.5
+Climate change allowances should be applied to all parameters which are expected to have an
+influence on the design.
+4.2.6
+The climate change allowances for other parameters (that is, parameters other than changes in peak
+river flow and sea level rise) may be based on different emissions scenarios and/or probability
+percentile in consultation with the relevant authority.
+NOTE 1
+These other climate change allowances can include changes in rainfall intensity (which can be more
+applicable to small rivers), storm surge, wind speed and wave height in addition to peak river flows and
+sea level rise.
+NOTE 2
+Published climate change allowances for these other parameters are not necessarily updated in line
+with updates to peak river flow and sea level rise, and can be based on different underlying
+assumptions.
+4.3
+Where evidence supports an adjustment to the recommended climate change allowances given in this
+section this shall be agreed with the Overseeing Organisation, in consultation with the relevant
+authority.
+Largest flood event for design
+4.4
+The largest flood event for design (that is, the lower limiting value of annual probability of exceedance)
+shall be taken as 0.5% annual probability of exceedance unless otherwise agreed with the Overseeing
+Organisation.
+NOTE 1
+The largest flood event for design can be different to that required in the flood risk assessment. The
+flood risk assessment can often need to consider larger events than the 0.5% annual probability event.
+NOTE 2
+Situations in which a more extreme flood event can be required by the Overseeing Organisation
+include:
+1) strategic crossings such as large estuary crossings;
+2) structures where the diversion route is exceptionally lengthy;
+3) routes where disruption would have extreme consequences, for example due to high traffic volumes;
+4) disproportionate effects resulting from failure of the structure, such as increased flooding or failure of
+major utilities.
+NOTE 3
+The return period of the flood event is distinct from the design working life of the structure and implies a
+certain probability of exceedance over the design working life of the structure. For example, a 0.5%
+annual probability fluvial event (200 year return period event) has an approximate 45% chance of
+occurring in a 120-year time period, compared with an approximate 11% chance for the 0.1% annual
+probability event (1000 year return period event). It is equally likely that a given flood event occurs in
+the first year of the life of the structure, compared with any other year.
+Check event
+4.5
+The design flood check event (that is, the lower limiting value of annual probability of exceedance) shall
+be taken as the 0.1% annual probability of exceedance unless otherwise agreed with the Overseeing
+Organisation.
+NOTE
+The check event is used to check for any unacceptable adverse effects on the structure for an extreme
+event.
+4.6
+Where a higher climate change allowance is established for the design, the check event shall be taken
+as the larger of:
+1) the design flood check event above in clause 4.4, using the normal climate change allowance; or
+2) the largest flood event for design, combined with the higher climate change allowance.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 24 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+Design fluvial flows
+4.7
+The design calculations shall be based on a range of events, up to and including the largest flood event
+for design and the check event, to assess which events produce the worst effects considering different
+flow velocities and depths.
+NOTE
+The reason for this is that in many rivers velocities can be high when flows are just within banks, and
+scour can be worse under these conditions than at higher flood discharge rates.
+4.7.1
+Fluvial flood flows should be estimated in accordance with current best practice, which includes:
+1) FEH [Ref 7.I] statistical method and Science Report SC050050 [Ref 14.I];
+2) ReFH2 method ( ReFH 2.2: Technical Guidance [Ref 28.I]).
+NOTE
+Guidance on applying these approaches can be updated frequently. The relevant authority can be
+consulted for guidance on current best practice.
+4.8
+Representative normal conditions shall be established.
+4.8.1
+Representative normal conditions may be taken as mean fluvial flow and water levels within the mean
+spring tidal range (where applicable).
+NOTE 1
+A broader understanding of representative normal conditions can be established by:
+1) survey information;
+2) analysis of river gauge data;
+3) analysis of gauge data for similar catchments;
+4) flow measurements at the site.
+NOTE 2
+Further guidance can be found in Appendix B.
+Design tidal flows
+4.9
+The design calculations shall be based on a range of events, up to and including the largest flood event
+for design and check event, to assess which events produce the worst effects considering different flow
+velocities and depths.
+NOTE 1
+The largest tidal event can include astronomical and surge effects. Surge events can produce the
+highest water levels. However, astronomical tides can sometimes produce higher flows.
+NOTE 2
+In tidal situations the flow velocities can depend on the speed of incoming (flood) and outgoing (ebb)
+tides. The tidal flows can vary depending on the volume of the tidal prism, peak tide level and tidal
+range.
+NOTE 3
+The reduced atmospheric pressure in the eye of the storm, combined with high wind speed over the
+sea blowing towards the coast, could form large and fast propagating ocean storm surges which are
+able to inundate inland areas near the coast and cause severe damage to structures at or near to the
+coast. An example of such an extreme weather event occurred on Tues 04 / Wed 05 February 2014 at
+Dawlish on the south Devon coast.
+4.9.1
+Tidal flows may be estimated using the simplified method provided in Appendix B.
+NOTE 1
+The simplified method is unlikely to be suitable in large estuaries or where tidal flows are significant in
+comparison to fluvial flows at the site.
+NOTE 2
+Within estuaries, funnelling and surge effects can have a significant effect on tidal flows and levels
+which can have a significant effect on the accuracy of simple calculation methods. Hydraulic modelling
+can provide more accurate estimates to inform design.
+4.9.2
+Where there is any doubt over the suitability of the simplified method specialist advice should be
+obtained.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 25 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+Combinations of fluvial and tidal flows
+4.10
+The assessment shall combine fluvial and tidal events where applicable.
+NOTE 1
+Depending on the structure location and structural element being assessed, the worst case conditions
+can occur for fluvial events, tidal events, or a combination of the two.
+NOTE 2
+It can be unduly onerous in the design of the structure to take the extreme events for both tide and
+fluvial flood simultaneously.
+4.10.1
+The assessment should include worst-case events for flows in upstream and downstream directions.
+4.10.2
+Where tidal flow effects are small in comparison to fluvial flow effects, or the overall flow is not
+significant in the design of the structure and associated works such as scour protection, then the
+following approach may be used:
+1) for the downstream direction, add the maximum tidal flow to the maximum fluvial flow;
+2) for the upstream direction, use the maximum upstream tidal flow.
+NOTE
+Tidal flows can be considered small in comparison with fluvial flows if they lie well within the uncertainty
+range of the fluvial flow estimates. As a guide, tidal flows which do not exceed 10 - 20% of the fluvial
+flow will usually fall within the range of uncertainty.
+4.10.3
+Where tidal flow effects are significant compared to fluvial flow effects, and the overall flow is significant
+in the design of the structure and associated works, then a joint probability assessment should be
+undertaken to determine combinations of fluvial and tidal events with an annual probability of
+exceedance equivalent to the design event.
+NOTE
+DEFRA report FD2308/TR2 [Ref 16.I] includes guidance on joint probability assessment for fluvial and
+tidal flood events.
+Wave action
+4.11
+Appropriate parameters for the assessment of wave action on the structure shall be determined where
+applicable.
+4.11.1
+Where wave effects are significant the assessment approach should be agreed with the Overseeing
+Organisation.
+NOTE 1
+The assessment of wave action is outside the scope of this document.
+NOTE 2
+If wave effects are significant then other guidance can be referred to such as BS 6349-1-2 [Ref 7.N].
+Design water level
+4.12
+The design water level(s) shall be determined for the scenario under assessment.
+4.12.1
+The design water level may be obtained using a hydraulic model or manually using appropriate
+hydraulic calculation methods.
+NOTE 1
+Appendix B provides further information on the estimation of water levels and flow depths which can
+apply in simple situations.
+NOTE 2
+Hydraulic models are likely to be preferred where an iterative calculation approach is necessary or in
+more complex situations. Examples of such situations include: changing flow conditions through the
+study reach, multiple flow routes or structure openings which need to be assessed, where the effects of
+storage and flow attenuation are significant, and where varying flows need to be considered.
+4.13
+Where applicable, tidal levels shall be established for the highest and lowest astronomical tides and for
+surge events equivalent to the design event and check event.
+4.13.1
+Astronomical tidal levels should be taken from the current Admiralty tide data, with appropriate
+corrections for the site location.
+4.13.2
+The relevant authority should be consulted regarding design tide levels and the estimation of tidal flows.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 26 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+NOTE
+Data about surge tide levels can be updated as new research is completed. The availability and source
+of this information can change over time as individual national environmental agencies or coastal
+authorities complete their own studies.
+4.13.3
+The water level should be appropriate for the check being undertaken.
+NOTE 1
+Water levels can vary rapidly through the structure due to energy losses. Water levels are often lower
+through the structure with higher levels upstream and downstream.
+NOTE 2
+Hydraulic modelling software packages can vary as to which water level is reported.
+NOTE 3
+Typically, calculated water levels will be for the approach to the structure, rather than beneath the
+structure. This is likely to be suitable for design in most cases, however further analysis can be
+necessary to calculate the water level acting on individual structural elements.
+4.14
+Where a known water level at the site is higher than obtained for the design event or check event, then
+this water level shall be used in the design in the place of the calculated water level.
+4.15
+Where low water level conditions are significant in the performance of the structure, then the water
+level equivalent to the lowest fluvial flow (Q95) and the lowest astronomical tide, where applicable, shall
+be established.
+NOTE 1
+Low water level conditions can be significant in the following cases:
+1) exposure of scour protection;
+2) where wave actions are significant and breaking waves occur in shallower water;
+3) where the design relies on the presence of water to provide stability.
+NOTE 2
+Further guidance on the estimation of low flows can be found in Appendix B.
+Freeboard allowance
+4.16
+A minimum freeboard allowance of 600mm shall be provided above the maximum water level, either
+known or as calculated for the largest flood event for design.
+4.16.1
+Freeboard allowances should be calculated for the water levels immediately upstream or downstream
+of the structure (whichever results in the smallest freeboard), ignoring any draw-down effects on flows
+through the structure, and including an allowance for afflux caused by the structure.
+4.16.2
+Where wave effects are significant, then either:
+1) the freeboard allowance should be increased; or
+2) the structure should be designed for the load effects of waves on the structure.
+4.17
+Where a freeboard allowance greater than 600mm is proposed, then the freeboard allowance shall be
+agreed with the Overseeing Organisation and recorded in the Approval in Principle.
+4.17.1
+The relevant river, maritime and navigation authorities should be consulted to determine any greater
+requirements for freeboard allowances.
+NOTE 1
+The requirements of the environmental impact assessment or flood risk assessment can often dictate
+the minimum freeboard allowances and soffit height.
+NOTE 2
+A larger freeboard can be required to manage the effects on the structure and/or the effects of the
+structure as described in relation to determining the structure opening size (see Section 3).
+Floating debris
+4.18
+The expected type and size of floating debris at the structure site shall be determined.
+NOTE 1
+Debris can lodge and accumulate against structural elements situated in flood water flows. Debris can
+include vegetation such as trees and wood remains, but also household items and, in extreme events,
+vehicles. Debris can include vessels, for example, boats loosened from moorings.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 27 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+NOTE 2
+Floating debris can be carried by rivers for some distance during flood conditions. Debris can also be
+picked up from the wider floodplain.
+4.18.1
+The investigation may be a simple desk-based assessment of OS maps, aerial and street-level imagery
+to review the size and characteristics of the river and catchment and the area through which it flows.
+4.18.2
+The investigation may include a site walkover to assess and verify the assumed debris loads.
+4.19
+The reduction in opening area through the structure due to trapped debris shall be included in the
+calculation of water level, flow, velocity and scour.
+NOTE
+Debris can cause a blockage in the opening area below the structure. The restriction in the opening
+area can result in an increase in water levels upstream of the structure and increased velocities through
+the structure opening. In turn this can lead to increased scour.
+4.20
+The size of debris mat shall be determined in order to establish effects on the structure.
+4.20.1
+The size of debris mat should be based on a design log length.
+4.20.2
+The design log length should be taken as the lowest of:
+1) the width of the channel upstream of the site;
+2) 9m plus one quarter of the width of the channel upstream;
+3) the maximum length of sturdy logs.
+4.20.3
+The maximum length of sturdy logs in the UK may be taken as 24m.
+4.20.4
+The design log length may alternatively be determined by field observations.
+4.21
+A minimum single-item debris mass of m=3000 kg shall be used to check for debris impact on the
+structure.
+4.21.1
+A greater value of single-item debris mass may be required depending on the results of the
+investigation.
+Ice
+4.22
+The effects of ice shall not be included in design unless specified by the Overseeing Organisation for
+the particular project.
+4.23
+Where the effects of ice are to be assessed, the appropriate design criteria shall be agreed with the
+Overseeing Organisation.
+NOTE
+It is unusual for ice loading to be a significant problem in the UK.
+Ship impact
+4.24
+Where applicable, the ship impact design criteria shall be agreed with the Overseeing Organisation,
+after discussions with the relevant navigation authority, and assessment of appropriate design criteria.
+4.24.1
+The ship impact design criteria should include:
+1) the mass, speed and type of critical ship;
+2) flow conditions and water levels;
+3) design approach to be followed.
+4.25
+Where applicable, the water levels, flows and speeds shall be checked separately for the case with a
+vessel passing through the structure opening under normal flow conditions.
+NOTE 1
+Where a vessel travels against the flow and causes significant blockage of the opening, then there can
+be significant increases in water velocity and depth as the water flows around the vessel, which can
+increase the forces on the structure and the risk of scour.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 28 of 83
+======================================================================
+CD 356 Revision 1
+4. Design criteria
+NOTE 2
+The forces on the structure and risk of scour due to passage of ships can be less onerous than during
+the flood event. Passage of ships is not considered to coexist with the flood event.
+Dredging
+4.26
+Where applicable the effect of dredging on bed levels and flows to be included for in the design shall be
+agreed with the Overseeing Organisation, after discussions with the relevant navigation authority.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 29 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+5.
+Scour assessment
+General
+5.1
+An assessment of the risk of scour shall be undertaken for all proposed structural elements that are:
+1) in a watercourse;
+2) near the banks of a watercourse.
+NOTE 1
+In or near the banks of a watercourse includes structures that rely on support or protection from the
+river bank, and those structures that are on land that could be subject to frequent inundation.
+NOTE 2
+Scour can include natural, general, contraction and local scour.
+NOTE 3
+Structural elements can include:
+1) foundations including piers and abutments,
+2) associated structures such as wing walls and revetments, and
+3) flood relief openings.
+NOTE 4
+The assessment of existing structures for scour is covered by BD 97 [Ref 11.N].
+5.1.1
+The assessment of the risk of scour should be undertaken using the conceptual river model developed
+using guidance given in Section 3.
+5.2
+Where the risk of scour is identified, the magnitude and extent of scour shall be quantified.
+Scour risk management strategy
+5.3
+A scour risk management strategy shall be prepared.
+NOTE 1
+The Overseeing Organisation can include the strategy in technical assurance processes.
+NOTE 2
+The scour risk management strategy is a document aimed at introducing the consideration of risk
+assessment and mitigation for scour within the design process.
+NOTE 3
+The scour risk management strategy is initially a design decisions document rather than an operational
+management document. However, it can be updated during the life of the structure to reflect
+management and maintenance changes.
+NOTE 4
+Production of the scour risk management strategy can support and simplify the future maintenance of
+the structure and the application of BD 97 [Ref 11.N] and CIRIA C742 [Ref 19.I].
+NOTE 5
+Guidance on preparation of a scour risk management strategy can be obtained from the CIRIA C742
+[Ref 19.I].
+5.3.1
+The scour risk management strategy should define plans to anticipate, assess and mitigate the
+consequences of scour.
+NOTE
+Anticipation is about identifying assets at risk of scour. Assessment is about quantifying the risk.
+Mitigation is about developing strategies to reduce the risk.
+5.3.2
+The strategy should identify structural elements that could be at risk of scour and scour hazards that
+could arise due to changes to the structure or watercourse.
+5.3.3
+The strategy should include an assessment of:
+1) the importance of the structure;
+2) consequences of failure, including the risk to public safety and infrastructure;
+3) ease of monitoring, inspection and repair;
+4) where a less onerous design event is selected for the design of training, scour protection or impact
+protection works, the implications of the chosen design event; and
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 30 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+5) the environmental impact of the recommended scour mitigation measure.
+5.3.4
+The strategy should include the outcome of the scour risk assessment, including:
+1) a description of the methodology used to undertake the scour risk assessment;
+2) the scour parameters to be used in the structural design;
+3) justification for the selection of these parameters;
+4) the uncertainty associated with the parameters.
+5.3.5
+The strategy may be used as a means of recording a low risk of scour and the reasons why no further
+action is needed.
+5.3.6
+The strategy should set out the proposed method for mitigating against the effects of scour at each
+structural element, including the justification for the choice.
+5.3.7
+The choice of scour mitigation method may be one of the following:
+1) design for the predicted scour depth, such as by deepening the foundation;
+2) include measures to reduce scour:
+a) relief openings within the embankment;
+b) abutments set back from the channel;
+c) structural alignment with the natural flow direction;
+d) streamlining of pier and abutment shapes to reduce local turbulence;
+e) use of inclined spill-through abutments rather than vertical wall abutments;
+3) include scour protection measures;
+4) exceptionally, operational measures such as planned interventions or more frequent inspections.
+5.3.8
+The strategy should identify vulnerable structural elements which need to have scour protection.
+5.3.9
+The strategy may be used as a means of recording residual risks of scour and any operational
+requirements to mitigate them.
+NOTE
+Operational measures are non preferred and are considered to be a last resort for new designs.
+Methodology for scour assessment
+5.4
+The design event used for the assessment of natural scour shall be defined as part of development of
+the conceptual model in order to allow for the characteristics of the river.
+NOTE 1
+Natural scour depends on the overall characteristics of the river rather than on effects local to the
+structure.
+NOTE 2
+Natural scour tends to be governed by more frequent events and can be better assessed using higher
+annual probability events, that is, a different event compared to those used for general and local scour.
+5.5
+The scour assessment shall include an evaluation of the risk of natural, general, contraction and local
+scour.
+5.5.1
+The scour assessment methodology should be appropriate to the scale, complexity and consequences
+of failure of the structure.
+NOTE 1
+Many scour assessment methodologies, particularly simplistic approaches, can have limitations on use.
+NOTE 2
+Different approaches to scour assessment can produce significantly different results for the same case.
+5.5.2
+Where numerical or physical modelling is used for scour assessment, then specialist advice should be
+obtained.
+5.5.3
+The scour assessment should be verified using evidence of scour from field measurements and historic
+evidence, unless the effort to obtain the evidence is disproportionate to the effect on the design.
+NOTE
+Evidence of scour can be obtained, as examples, from:
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 31 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+1) historic maps indicating changes to the river over time;
+2) river surveys;
+3) historic evidence at an existing structure in the vicinity of the new structure;
+4) monitoring of scour at large temporary works such as cofferdams.
+5.5.4
+Historic and desk-study evidence should be reviewed for indications of irregularities.
+NOTE
+Irregularities such as obstructions or small promontories can influence flow conditions or bed levels at
+the structure site.
+5.6
+The assessment of general, contraction and local scour shall be carried out at a range of events up to
+the design event and check event as defined in Section 3.
+5.6.1
+The design event and check event for scour at a structural element should be taken as the event which
+is determined to give the highest velocity at that structural element.
+NOTE
+Scour is typically governed by velocity rather than depth. The velocity can vary across the width of the
+watercourse, hence can be different for different structural elements. Different design events can be
+critical for different structural elements, depending on the nature of the channel flow and floodplain
+during different return period events.
+5.6.2
+A less onerous design event than the event chosen for the structure may be selected for the design of
+river training, scour and impact protection works, provided that:
+1) the principal structural elements, such as the structure foundation, piers and abutments, are not
+compromised;
+2) the selection of a less onerous design event is described in the scour risk management strategy.
+5.7
+The zone of assessment shall be defined for the scour assessment.
+5.7.1
+The zone of assessment should be appropriate for the scour assessment methodology used.
+5.7.2
+The scour assessment should include the wider implications of the structure on the up and downstream
+reaches of the river including the likelihood of scour or sediment deposition.
+5.8
+Where the risk of natural, general, contraction, or local scour is identified, and the magnitude and
+extent of total scour is required to inform the proposed scour mitigation measures, the magnitude and
+extent of total scour shall be quantified at each structural element.
+5.8.1
+Local and contraction scour should be superimposed on general and natural scour in order to determine
+total scour as shown below unless there is clear justification why these effects are not coincident.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 32 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+Figure 5.8.1 Relationship between natural, general, contraction, local and total
+scour
+5.8.2
+The long-term equilibrium depth for scour may conservatively be used in design.
+NOTE 1
+Scour develops over time and the equilibrium depth represents the long-term case which is the greatest
+value and hence the most onerous.
+NOTE 2
+The rate of scour is different for various bed materials and the time to reach the equilibrium scour depth
+can be:
+1) for non-cohesive materials in hours;
+2) for cohesive or cemented bed materials in days;
+3) for glacial tills, sandstones and shales in months;
+4) for limestones in years;
+5) for dense rock formations in centuries.
+5.8.3
+Where the duration of the design event for scour is short compared with the duration taken to develop
+the full scour depth, then a more detailed evaluation of scour development over time may be
+undertaken.
+NOTE
+Scenarios where an evaluation of scour development over time can be appropriate include tidal
+locations, scour in cohesive sediment and rivers subject to flash-floods.
+Natural scour
+5.9
+The risk of natural scour shall be assessed.
+NOTE
+Natural scour can be caused, for example, by degradation, bend scour, confluence scour and channel
+migration. Aggradation can increase the bed levels by sediment deposition and hence counteract the
+effects of natural scour.
+5.9.1
+The risk of natural scour should be assessed with the conceptual model of the river, developed as
+described in Section 3.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 33 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+5.9.2
+The assessment of the risk of natural scour should account for whether the watercourse is stable or in
+an unstable state.
+NOTE
+An unstable river is one that is undergoing natural change.
+5.9.3
+The natural scour expected over the design life of the structure may be quantified as part of a
+geomorphological study of the river.
+General scour
+5.10
+The risk of general scour shall be assessed.
+NOTE
+General scour can occur during high flows and relates to an overall change in bed levels within the
+watercourse, irrespective of the presence of a structure.
+5.10.1
+The risk of general scour should be assessed with the conceptual model of the watercourse, developed
+as described in Section 3.
+5.11
+Where there is a risk of general scour, the depth and extent shall be quantified.
+NOTE
+Guidance on quantifying the risk of general scour is provided in Appendix A.
+Contraction scour
+5.12
+The risk of contraction scour shall be assessed.
+NOTE
+Contraction scour occurs in a confined section of a watercourse and results in a lowering of the bed
+level across the width of the watercourse.
+5.12.1
+The output of the assessment of contraction scour should be the depth of scour and likely extent.
+NOTE 1
+There are many available methods for quantifying contraction scour.
+NOTE 2
+An example methodology suitable for simple cases is given in Appendix C.
+Local scour
+5.13
+The risk of local scour shall be assessed.
+NOTE
+Local scour can be caused by short-term scour at a structural element during the largest flood event for
+design, the largest tidal event for design and combinations of flood and tidal events where relevant.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 34 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+Figure 5.13N Steps to calculate local scour
+5.14
+The risk of other mechanisms that can vary the depth or distribution of local scour or its evolution over
+time shall be assessed.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 35 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+NOTE
+Other mechanisms which can cause variations in local scour are:
+1) ice accumulation;
+2) debris accumulation;
+3) vessel scour.
+Bridge piers
+5.15
+Where there is risk or evidence of local scour at a bridge pier, the depth of local scour shall be
+quantified.
+5.15.1
+The assessment of local scour depth due to flow at bridge piers should be determined with
+consideration of the following parameters:
+1) pier shape, size and structural arrangement;
+2) pier orientation to flow;
+3) flow characteristics including water depth and velocity;
+4) geotechnical conditions.
+NOTE
+To estimate the scour where debris accumulation is a problem, groups of columns can be designed as
+though they were solid piers.
+5.15.2
+The assessment of local scour depth should take into account any changes in foundation shape and
+size that occur as the scour hole is formed.
+NOTE
+The exposure of buried structural elements such as pile-caps that are larger than the pier can increase
+the risk of scour.
+5.15.3
+The output of the local scour depth assessment at bridge piers should include:
+1) maximum scour depth at the face of the pier;
+2) extent and shape of scour hole at the pier.
+5.15.4
+The method for assessing scour should be appropriate for the geotechnical conditions at the site.
+5.15.5
+In non-cohesive soils, the following procedure may be used to calculate the depth of local scour,
+following the procedure given in the CIRIA C742 [Ref 19.I]:
+1) determine the depth-averaged critical threshold velocity for the surface bed material, UT C ;
+2) for the design event, determine whether live-bed or clear water scour will occur;
+3) calculate the equilibrium depth of local scour, Ys .
+5.15.6
+In non-cohesive soils, the dimensions of the scour hole may be obtained by assuming:
+1) the upstream slope of the scour hole is equal to the natural angle of repose of the bed material;
+2) the downstream slope is equal to half the angle of repose;
+3) where the pier is circular or elliptical, the equilibrium scour depth occurs at the midpoint of the
+upstream face of the structure;
+4) where the pier is polygonal, the equilibrium scour depth occurs at the corner furthest upstream;
+5) where the pier is rectangular, the equilibrium scour depth occurs at the midpoint of the upstream
+face where this is perpendicular to the flow or the corner furthest upstream where it is not.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 36 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+Figure 5.15.6 Typical upstream and downstream slopes of a scour hole in
+non-cohesive soil
+5.15.7
+In cohesive soils and weathered rock, an estimate of equilibrium scour depth may be obtained using
+the method for non-cohesive soils, as outlined in Appendix A.
+NOTE 1
+The results of these methods are approximate. Scour in cohesive materials typically progresses more
+slowly than in non-cohesive materials, so it possible that the equilibrium scour depth is not reached
+during a flood or even over the life of the bridge.
+NOTE 2
+The shape of a scour hole in cohesive soil will differ to the shape in non-cohesive soil. The location of
+maximum scour depth will vary depending on soil properties (cohesiveness and degree of saturation)
+and shape. Typically scour in cohesive soils is more pronounced at the sides of a pier than it is for
+scour in non-cohesive soils.
+5.15.8
+Where a more refined estimate of scour depth is needed or the size of the scour hole needs to be
+established, then specialist guidance should be sought for scour in cohesive soils and weathered rock.
+NOTE
+Guidance for determining the depth of scour in cohesive soils and weathered rock can be obtained
+from the Manual HEC 18 - FHWA-HIF-12-003 [Ref 10.I].
+5.15.9
+The risk of overlapping local scour should be considered in the scour assessment.
+NOTE
+Local scour at pier, e.g. groups of piles, can overlap one another in some instances, which can
+increase total scour.
+Bridge abutments and training walls
+5.16
+Where the risk of local scour at a bridge abutment has been identified, the scour depth shall be
+quantified.
+5.16.1
+The assessment of local scour depth at bridge abutments should be determined with consideration of
+the following parameters:
+1) abutment length;
+2) abutment shape;
+3) geotechnical conditions;
+4) flow characteristics including water level and velocity.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 37 of 83
+======================================================================
+CD 356 Revision 1
+5. Scour assessment
+5.16.2
+The methods for assessing local scour depth at bridge abutments may be used to determine the local
+scour depth at training walls.
+5.16.3
+The output of the local scour depth assessment at bridge abutments should include:
+1) maximum scour depth at the face of the abutment;
+2) extent and location of scour holes.
+NOTE
+Guidance on the extent and location of scour holes can be obtained from CIRIA C742 [Ref 19.I].
+5.16.4
+In non-cohesive soils, the following procedure may be used to calculate the equilibrium depth of local
+scour, following the procedure given in the CIRIA C742 [Ref 19.I], considering the abutment as a
+half-pier:
+1) determine the depth-averaged critical threshold velocity for the surface bed material UT C ;
+2) for the design event, determine whether live bed or clear water scour will occur;
+3) calculate the equilibrium depth of local scour, Ys .
+5.16.5
+Local scour in cohesive bed material and rock should be determined as for bridge piers.
+5.16.6
+The risk of overlapping scour should be considered in the scour assessment.
+NOTE
+Local scour at an abutment can overlap with local scour at a pier, depending on proximity. Overlapping
+local scour can increase total scour.
+Local scour at other structures
+5.17
+Local scour due to flow or other mechanisms shall be evaluated at all other structures associated with
+the highway structures, including training and protection works, pipeline crossings, rigid aprons and
+temporary structures.
+NOTE
+Local scour assessment methods given in the CIRIA C742 [Ref 19.I] can be used to calculate scour
+depth at such structures.
+Scour caused by other mechanisms
+5.18
+The risk of scour caused by mechanisms shall be assessed.
+NOTE
+Other causes of scour can include:
+1) vessel scour;
+2) debris flow.
+5.19
+Where additional causes of scour are found to be likely, the resulting scour depth for each cause shall
+be quantified and added to total scour due to fluvial and tidal action unless it can be clearly justified why
+this is unnecessary.
+5.19.1
+Vessel scour may be quantified using guidance given by BAW CoP 2010 [Ref 3.I].
+5.19.2
+Where scour due to debris flow (very high sediment concentration) is significant, then it should be
+quantified using specialist guidance.
+NOTE
+Debris flows are known as 'mud flows' when the sediment is fine material. These events can occur due
+to failures in saturated soils in steep river banks after periods of prolonged rainfall, although in the UK
+the volumes involved are rarely sufficient to cause a problem.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 38 of 83
+======================================================================
+CD 356 Revision 1
+6. Scour protection design
+6.
+Scour protection design
+Principles
+6.1
+Where the scour risk management strategy specifies scour protection as the mitigation method for
+scour, then scour protection shall be designed in accordance with this section.
+NOTE 1
+The following methods can be used to protect against possible scour:
+1) rigid methods:
+a) paved inverts;
+b) enlargements or plinths to piers and abutments;
+c) sheet piling;
+d) gabion and grouted mattresses;
+2) flexible methods:
+a) stone mattresses (rip rap);
+b) grout bags;
+c) articulated concrete mattresses;
+d) grass mats;
+e) geotextiles;
+f) willow mats and similar products.
+NOTE 2
+'Flexible' scour protection, which accommodates bed movement, can be more environmentally
+beneficial than rigid methods.
+6.2
+The scour protection shall be designed for the design events defined for scour protection in the scour
+risk management strategy.
+NOTE
+The scour risk management strategy can define a different probability of exceedance for the design of
+the scour protection compared to the the probability of exceedance for the design of the overall
+structure.
+6.3
+The scour protection shall be designed to prevent degradation of the scour protection under the effects
+of:
+1) debris accumulation;
+2) vessel scour, where this is a risk.
+NOTE
+The methods for calculation of the effects of these scour mechanisms on scour protection are available
+in the references given for scour assessment in Section 5.
+6.4
+Scour protection shall protect the at-risk structural elements from the effects of scour.
+NOTE
+The scour risk management strategy (see Section 5) identifies vulnerable structural elements which
+need to have scour protection.
+6.4.1
+The extent of scour protection should be sufficient to prevent lowering of the bed level that would have
+an effect on foundation stability.
+NOTE 1
+Some bed lowering is acceptable if it is proven that there is no effect on foundation stability.
+NOTE 2
+Guidance on the minimum extent of scour protection is given in CIRIA C742 [Ref 19.I].
+6.4.2
+The extent of scour protection should be sufficient to prevent degradation of the river bed at the
+structure element due to the effects of:
+1) natural scour;
+2) general scour;
+3) contraction scour;
+4) local scour;
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 39 of 83
+======================================================================
+CD 356 Revision 1
+6. Scour protection design
+5) debris accumulation;
+6) vessel scour.
+6.4.3
+The scour protection should be designed to prevent loss of the bed material beneath itself.
+NOTE
+Bed material can be lost through the scour protection if there are insufficient measures for retention.
+6.4.4
+The scour protection should be designed to prevent undermining and failure at its edges.
+6.5
+The choice and alignment of scour protection shall be designed to encourage smooth flow transitions
+around the structural elements and scour protection itself.
+6.6
+The elevation of the scour protection design shall allow for natural, general and contraction scour.
+6.6.1
+The top of scour protection should be placed below the level of natural, general and contraction scour.
+This includes bed-forms, such as dunes, which can be naturally present on the river bed.
+6.6.2
+Where it is not possible to place scour protection below the level of natural, general and contraction
+scour, the design of scour protection should allow for the predicted bed movement with the scour
+protection in place.
+Scour protection methods
+6.7
+The choice of scour protection method(s) shall be stated in the scour risk management strategy.
+6.7.1
+The choice of scour protection method for a structural element should be based on an assessment of
+the following site specific factors:
+1) flow during the design event(s);
+2) environmental considerations that may limit certain forms of construction;
+3) natural scour, especially channel stability, which may promote the need for flexible options;
+4) access constraints, including if construction is in the dry;
+5) safety of construction and maintenance;
+6) availability of materials; and
+7) cost of construction and maintenance.
+NOTE 1
+Stone mattresses (rip rap) are a commonly used form of scour protection. The suitability of this solution
+for a particular project depends on consideration of the factors listed above.
+NOTE 2
+Design considerations for stone mattresses are given below. Design guidance for alternative scour
+protection methods is given in CIRIA C742 [Ref 19.I] and in the clauses below.
+6.7.2
+The requirements for scour protection should be included in the contract-specific requirements for the
+structure.
+Stone mattresses (rip rap)
+6.8
+Stone mattresses shall be designed to be statically stable for the design events specified for scour
+protection.
+NOTE
+Some degree of movement can be allowed under larger events if defined within the scour risk
+management strategy.
+6.8.1
+The size of armour stone should be chosen based on an assessment of the following parameters:
+1) stability under the flow velocity and conditions (degree of turbulence) at the proposed location of the
+scour protection;
+2) the location of the scour protection (bed or bank);
+3) the properties of the armour stone, especially density and shape.
+NOTE 1
+Guidance on the calculation of the main armour material size for a stone mattress at a pier or an
+abutment is available in CIRIA C742 [Ref 19.I].
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 40 of 83
+======================================================================
+CD 356 Revision 1
+6. Scour protection design
+NOTE 2
+Standard gradings are given in BS EN 13383 [Ref 26.I].
+6.9
+The stone mattress system shall be designed to retain the riverbed material beneath it.
+6.9.1
+Where direct retention of the underlying bed material by the main armour is not possible, granular filter
+layers and/or geotextile filters should be introduced.
+6.10
+Stone mattresses shall be designed to resist edge scour.
+6.10.1
+The edges of stone mattresses should be embedded or incorporate a falling toe in order to resist the
+effects of edge scour.
+6.11
+The material chosen for the main armour layer shall be durable, resistant to breakage and resistant to
+freeze/thaw effects where this material will be exposed at low water levels (including river banks).
+NOTE
+Guidance on suitable specifications are given in BS EN 13383 [Ref 26.I].
+Other forms of scour protection
+6.12
+Rigid scour protection methods such as reinforced concrete plinths and sheet piling shall be designed
+in accordance with CD 350 [Ref 13.N] supplemented by the overall requirements of Section 6.
+6.13
+Where flexible methods are proprietary products, then the design shall be undertaken in accordance
+with the manufacturer's requirements and recommendations.
+6.14
+Where flexible methods are not proprietary products, then the design shall be undertaken in
+accordance with methods appropriate for the protection method.
+6.14.1
+The design of flexible methods may be based on case studies.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 41 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+7.
+Structure design
+Structural and geotechnical basis of design
+7.1
+Structures subject to hydraulic actions shall be designed in accordance with CD 350 [Ref 13.N]
+supplemented by the requirements of this section.
+NOTE
+CD 350 [Ref 13.N] requires that Eurocodes are used for the design of new highway structures.The
+Eurocodes do not adequately define hydraulic actions on structures for UK conditions.
+7.2
+Structures subject to hydraulic actions shall be designed for the following actions which supplement
+those specified in Eurocodes:
+1) water actions:
+a) hydrostatic forces;
+b) hydrodynamic forces: drag and lift on submerged structural elements;
+c) hydrodynamic forces: drag on trapped debris;
+2) impact forces due to debris;
+3) where instructed, impact forces due to ship traffic.
+7.3
+Other permanent actions and other variable actions such as traffic, wind, temperature, shall be applied
+in combinations in accordance with BS EN 1990 [Ref 4.N].
+Classification of actions
+7.4
+Water actions shall be applied as a variable action, Q, other than for the extreme high water design
+situation.
+NOTE
+Different values of the water action, Q, are needed in the different design situations.
+7.4.1
+Water actions should be applied as the leading or accompanying variable action in combination with
+other variable actions such as traffic, wind, and temperature, in order to generate the most onerous
+load effects on each structural element.
+7.5
+Water actions corresponding to the check event at the extreme high water design situation shall be
+applied as an accidental action, A.
+7.6
+Where a quasi-permanent value of water action is used, then the water action shall be assessed
+directly based on the mean annual flow and the mean tidal level.
+7.7
+Impact forces due to debris impact and ship impact shall be applied as an accidental action, A.
+Design values of actions
+7.8
+Partial factors shall be applied in accordance with Table 7.8.
+Table 7.8 Design values of actions
+Ultimate limit state
+EQU (Set A)
+STR/GEO (Set B)
+STR/GEO (Set C)
+Supplementary to UK
+National Annex to
+BS EN 1990 [Ref 4.N]
+Table NA.A2.4(A)
+Table NA.A2.4(B)
+Table NA.A2.4(C)
+Water actions
+γQ = 1.50
+γQ = 1.50
+γQ = 1.30
+Representative values of actions
+7.9
+Representative values of the variable actions shall be applied in combinations of actions in accordance
+with BS EN 1990 [Ref 4.N].
+7.9.1
+Values of ψ factors should be taken in accordance with Table 7.9.1.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 42 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Table 7.9.1 Values of psi factors
+ψ0
+ψ1
+ψ2
+Water actions
+0.8
+(or directly determine
+the action as Qcombination)
+0.8
+(or directly determine
+the action as Qfrequent)
+ψ2 is not defined,
+use Qquasi-permanent(see Note)
+NOTE: The quasi-permanent value of water action is directly assessed, in accordance with the
+clauses above about classification of actions. The mean value of water action cannot be computed
+using a ψ factor from the design event water action.
+7.9.2
+Values of Qcombination and Qfrequent may be directly determined by considering a water event with an
+appropriate probability of exceedance, instead of factoring the characteristic value Qk by ψ0 or ψ1 .
+NOTE
+Direct determination of the values of actions involves additional calculations since more scenarios need
+to be considered using different probabilities of exceedance. However, direct determination is likely to
+result in lower values of actions, since the values of 0.8 given in Table 7.9.1 are intended to be
+conservative but easy-to-apply values.
+7.9.3
+Where values of Qcombination and Qfrequent are directly determined, then appropriate probabilities of
+exceedence for the water event should be agreed with the Overseeing Organisation.
+Design situations
+7.10
+The following design situations shall be verified:
+1) high water levels with scour and trapped debris;
+2) low water levels with scour;
+3) extreme high water levels (check event) with associated scour;
+4) debris impact at high flow velocity;
+5) where instructed, ship impact;
+6) construction and repair.
+NOTE 1
+The same design situations apply to temporary structures, for which a reduced return period design
+event can be specified in accordance with Section 3.
+NOTE 2
+A summary of the design situations is provided in Table 7.10N2. Full details are provided in the
+requirements and advice below.
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 43 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Table 7.10N2 Summary of design situations
+Design
+situation
+Classification of
+design situation
+Water as variable action Qk
+Accidental action Ad
+Scour
+Trapped
+debris
+Limit
+state
+checks
+High water
+level
+Persistent
+Water level and flow based
+on design event
+N/A
+Scour applicable to design
+event including trapped
+debris
+Yes
+ULS and
+SLS
+Low water
+level
+Persistent
+Omit or determine directly
+based on low water level
+N/A
+As for high water level
+No
+ULS and
+SLS
+Extreme high
+water level
+Accidental
+Treat water as accidental
+action
+Water level and flow
+based on the check
+event
+Scour applicable to check
+event
+No
+ULS
+Debris impact
+Accidental
+Level and flow based on
+design event (maximum
+velocity). Apply as leading
+variable action using the
+frequent value
+Debris impact force
+As for high water level
+No
+ULS
+Ship impact
+Accidental
+Normal water level/flow.
+Apply as leading variable
+action.
+Ship impact force
+As for high water level
+No
+ULS
+Construction /
+repair
+Transient
+Water level and flow based
+on design event (option for
+reduced return period)
+N/A
+Dependent on the
+obstruction to flow present in
+the design situation
+Yes (option to
+justify
+omission)
+ULS and
+SLS
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 44 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Figure 7.10N2a High water level design situation
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 45 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Figure 7.10N2b Low water level design situation
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 46 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Figure 7.10N2c Extreme high water level design situation
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 47 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Figure 7.10N2d Debris impact design situation
+Figure 7.10N2e Ship impact design situation
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 48 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Figure 7.10N2f Construction or repair design situation
+Effect of scour protection
+7.11
+The effect of scour protection on the scour depth shall be determined in the scour risk management
+strategy.
+7.11.1
+Where scour protection is provided and is designed to the same return period and design life as the
+structure, then the maximum scour depth may be taken as the depth of the scour protection.
+7.11.2
+Where scour protection is provided, and either a reduced return period is used for the design of the
+protection, or the design life of the protection is less than the design life of the structure, then:
+1) an assessment should be undertaken of the scour depth in the event that the scour protection fails;
+2) the design situations should include the scour depth associated with failure of the scour protection.
+High water level design situation
+7.12
+High water level shall be treated as a persistent design situation.
+7.13
+The water action, Qk, at the high water level design situation shall be calculated based on the water
+level and water flow velocity for the design event.
+7.14
+A scour depth applicable to the design event and including adjustment for the obstruction due to
+trapped debris shall be included in the design situation.
+7.15
+Trapped debris shall be assumed to be present simultaneously at any two adjacent piers or any one
+span.
+Low water level design situation
+7.16
+Low water level shall be treated as a persistent design situation.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 49 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+NOTE
+The low water level design situation is unlikely to govern the design. It is included to avoid a design
+falsely considering only the maximum water level and force and neglecting the potential for lower forces
+or water levels.
+7.17
+The water action, Qk, at the low water level design situation shall either:
+1) be directly calculated based on a low water level; or
+2) be omitted (take Qk = 0).
+7.18
+Where a partial factor γQ or a ψ factor is applied to water actions at the low water level design situation,
+then the reciprocal of each factor shall be applied to the water action.
+NOTE
+The reciprocal is applied in order to factor the variation from the mean level. In the low water level
+design situation it is assumed that a lower water level is more onerous.
+7.19
+The scour depth shall be taken as the same as for the high water level design situation.
+NOTE
+Scour can be generated during a flood event but can remain present once water levels reduce.
+7.20
+Forces due to trapped debris shall not be included in the low water design situation.
+Extreme high water level design situation
+7.21
+Extreme high water level shall be treated as an accidental design situation.
+NOTE 1
+The extreme high water level design situation is included to check the sensitivity of the structure to a
+higher return period event with increased water levels and flows.
+NOTE 2
+Where the water level increases significantly at the extreme high water level design situation, it can be
+beneficial to raise the soffit level of the structure to avoid having to design the superstructure for drag
+forces.
+7.22
+The water action, Ad, at the extreme high water level design situation shall be calculated based on the
+water level and water flow velocity for the check event.
+7.23
+A scour depth applicable to the check event shall be included in the design situation.
+7.24
+Forces due to trapped debris shall not be included.
+Debris impact design situation
+7.25
+Debris impact shall be treated as an accidental design situation.
+NOTE
+The debris impact design situation is intended to check for robustness of local elements.
+7.26
+Drag forces due to trapped debris shall not be applied coincident with the debris impact force.
+NOTE
+Trapped debris can act as a buffer and hence can provide protection to the structure from an impact
+force.
+7.27
+The water action, Qk, shall be calculated based on the water level and water flow velocity for the design
+event.
+NOTE 1
+The most onerous impact force is likely to be generated by the maximum flow velocity. In some
+circumstances the maximum flow velocity can be generated where the flow is just within the banks,
+rather than at a higher water level where the water covers a wider flood plain.
+NOTE 2
+The value of water action, Qk, can be different to that used at the high water level design situation,
+since trapped debris is not included. Using the same value of water action is conservative, if it is
+desired to avoid recalculation of the value of the water action.
+7.28
+The water action shall be applied as the leading variable action using the ψ1 factor.
+NOTE
+For physical reasons, the debris impact design situation can only apply with water as the leading
+variable action. Other variable actions, such as traffic, need not be applied as the leading variable
+action in this design situation.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 50 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+7.29
+The scour depth shall be taken as the same as for the high water level design situation.
+Ship impact design situation
+7.30
+Ship impact shall be treated as an accidental design situation.
+7.31
+Where the water action is applied as the leading variable action, then the water action at the ship
+impact design situation shall be applied as the frequent value, either:
+1) using the ψ1 factor as a factor on the same value of Qk as for the debris impact design situation; or
+2) using a directly assessed value of Qfrequent corresponding to the water levels and flows
+corresponding to the ship impact design criteria, as defined in Section 3.
+NOTE
+The water action can also be applied as an accompanying variable action using the quasi-permanent
+value.
+7.32
+The scour depth shall be taken as the same as for the high water level design situation.
+NOTE
+Scour can be generated during a flood event but can remain present once water levels reduce.
+7.33
+Forces due to trapped debris shall not be included in this design situation.
+Construction / repair design situation
+7.34
+Construction / repair shall be treated as a transient design situation.
+7.35
+The water action, Qk, shall be calculated based on the water level and water flow velocity for a return
+period appropriate for the duration of construction or repair.
+7.35.1
+The same water levels and flows as for the high water level design situation may conservatively be
+applied to construction and repair situations.
+7.35.2
+A reduced return period may be selected.
+NOTE
+Guidance on the relationship between duration of a design situation and return period is provided in BS
+EN 1991-1-6 [Ref 1.N].
+7.36
+A scour depth shall be included in the design situation.
+7.36.1
+Where the construction or repair operation introduces an obstruction in the watercourse, then the scour
+depth should be calculated based on the restricted flow width.
+NOTE
+Obstructions in the watercourse can include, for example, a cofferdam or other temporary dewatering
+arrangement.
+7.36.2
+Where there is no additional obstruction in the watercourse, then the scour depth may be taken as the
+same as for the high water level design situation.
+7.36.3
+A reduced scour depth may be used in the construction / repair design situation subject to justification
+in the scour risk management strategy.
+7.37
+Trapped debris shall be assumed to be present, unless physical reasons render this impossible.
+Hydrostatic actions
+7.38
+Hydrostatic pressure of water shall be applied to structural elements in water.
+7.38.1
+Specific checks should be carried out where structural elements are subject to unequal hydrostatic
+forces, including:
+1) where there is a significant difference in water level across the element;
+2) abutments and walls exposed to water on one side only.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 51 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Hydrodynamic actions
+Drag and lift
+7.39
+Drag forces acting in the direction of flow of the water shall be applied to the submerged parts of a
+structure.
+NOTE
+Drag can act:
+1) on piers and abutments;
+2) on superstructure if submerged;
+3) on debris trapped against piers or superstructure.
+7.40
+Lift forces acting normal to the direction of flow of the water shall be applied to the submerged parts of
+a structure.
+NOTE
+Lift can act:
+1) transversely on piers which are at an angle to the flow;
+2) vertically on superstructure if submerged.
+Figure 7.40N Drag and lift forces on a pier
+7.41
+The characteristic values of drag and lift forces shall be calculated from the equation 7.41:
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 52 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Equation 7.41 Generic drag and lift equation
+Fk = AF · CD ·
+(
+ρ · V 2
+2
+)
+where:
+Fk
+is the characteristic value of drag (or lift) force (N)
+CD
+is the drag coefficient (dimensionless)
+CL (substituting CL for CD)
+is the lift coefficient (dimensionless)
+ρ
+is the water density (kg/m3)
+V
+is the water reference velocity (m/s)
+AF
+is the reference area (m2)
+7.41.1
+The drag coefficient and water reference velocity should be selected to be compatible with each other.
+NOTE
+Many sources provide drag coefficients which are calibrated against the mean speed of the water
+velocity on the approach to the structural element, averaged over the depth.
+7.41.2
+Where drag coefficients are obtained from the literature or from test results, then the applicability of the
+coefficients to the case being studied should be verified.
+NOTE
+Coefficients for the same shape of element can vary considerably depending on the Reynolds and
+Froude numbers.
+7.41.3
+The water density ρ may be taken as:
+1) 1000 kg/m3 for fresh water; and
+2) 1025 kg/m3 for salt water.
+7.41.4
+Where the flow includes significant quantities of sediment, then an appropriate increased value of water
+density ρ should be selected.
+Drag on trapped debris
+7.42
+The trapped debris drag force shall be applied to all substructure elements (including piers and
+abutments) within the plan extent of water.
+7.43
+Where the water level at the design event exceeds the soffit level, then drag forces due to trapped
+debris shall be applied to the superstructure.
+NOTE
+If the minimum freeboard allowance set out in Section 3 has been provided, then the water level at the
+design event will not exceed the soffit level and hence drag forces due to debris trapped by the
+superstructure do not need to be applied.
+7.44
+The trapped debris drag force shall be applied as a point load at the most onerous location on the
+relevant element of the structure.
+7.45
+The drag force on trapped debris shall be calculated using Equation 7.41.
+7.45.1
+The extent of debris accumulation should be determined from the Table 7.45.1, based on the design log
+length established in Section 3.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 53 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Table 7.45.1 Extent of debris accumulation
+Accumulation type
+Debris
+width
+Debris height
+Pier and abutment
+Design
+log length
+Flow depth (up to 3 m), debris extending
+from water surface downwards
+Superstructure
+Span
+length
+Vertical height of superstructure plus 1.2m
+below superstructure
+Low opening (design log length greater
+than height between soffit and bed level)
+Width of
+gap
+Height of gap (height between soffit and
+bed level)
+Narrow opening (design log length greater
+than width between supports)
+Width of
+gap
+Smaller of height of gap (see above) or
+flow depth
+7.45.2
+The reference area AF for trapped debris should be taken as the wetted area of the accumulated debris
+normal to the approach flow.
+7.45.3
+The drag coefficient CD for water acting on trapped debris may be taken conservatively as 1.9.
+7.45.4
+A more refined value for the drag coefficient CD may be obtained using the method presented in CIRIA
+C742 [Ref 19.I], taking into account the blockage ratio and Froude number.
+7.45.5
+The water reference velocity, V, should be taken as the mean velocity in the restricted section, including
+for the increase in velocity due to the restriction caused by the trapped debris.
+7.45.6
+Where the blockage ratio is less than 30%, then the mean velocity in the restricted section may be
+approximated by the mean approach velocity.
+7.45.7
+Where required, the blockage ratio, BR, should be calculated using equation 7.45.7:
+Equation 7.45.7 Blockage ratio (BR)
+BR =
+Ab
+Ab + Au
+where:
+Ab
+is the portion of the cross-sectional area of flow through the opening which is blocked by
+debris
+Au
+is the portion of the cross-sectional area of flow through the opening which is not blocked
+by debris
+NOTE 1
+0 ≤BR ≤1 with BR=0 for no debris and BR=1 for full obstruction.
+NOTE 2
+At high values of blockage ratio, the flow can reduce through the structure but the water level upstream
+can increase, leading to an increase in differential hydrostatic pressure across the structure and
+potential overtopping of the structure or approaches.
+Drag and lift on piers
+7.46
+Drag and lift forces on piers shall be calculated using Equation 7.41.
+7.46.1
+For piers the drag coefficient CD should be determined from Table 7.46.1.
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 54 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Table 7.46.1 Drag coefficient CD for piers
+Pier shape
+Drag coefficient CD
+Square ended pier
+1.44
+Semi-circular ended pier
+0.7
+NOTE
+The values of drag coefficient for piers shown in the figures in CIRIA C742 [Ref 19.I] are given based
+on a reference area for the length, rather than the width, of the pier. This is not particularly clear in the
+figure or the text and the values have the potential to appear misleadingly low.
+7.46.2
+The reference area AF used for drag should be taken as the projected area of the pier in the direction of
+flow.
+7.46.3
+For piers the lift coefficient CL should be determined from Table 7.46.3.
+Table 7.46.3 Lift coefficient for piers
+Angle between direction of the flow
+and the centreline of the pier
+Lift coefficient CL for piers
+Circular pier
+Apply drag in the direction of flow
+< 30 degrees
+0.9
+≥30 degrees
+1.0
+7.46.4
+The reference area AF used for lift in conjunction with the coefficients in Table 7.46.3 should be taken
+as the area of the pier submergence times the length of a rectangular pier, or the diameter of a
+cylindrical pier.
+7.46.5
+Drag and lift coefficients and forces may be determined by other methods including:
+1) appropriate literature;
+2) model testing;
+3) computational fluid dynamics models.
+7.46.6
+The possibility of variation in flow angle in relation to pier orientation should be included in the
+determination of drag and lift coefficients.
+NOTE 1
+The coefficients provided in Table 7.46.3 include for variation in the flow angle.
+NOTE 2
+Lift forces on plate-type piers can increase rapidly as the angle of incidence increases from zero.
+7.46.7
+The possibility for increased forces due to vortex shedding should be included in the determination of
+drag and lift coefficients.
+NOTE
+Vortex shedding can be significant especially for small diameter piers.
+Drag and lift on superstructures
+7.47
+Where the water level exceeds the soffit level, then drag and lift forces on the superstructure shall be
+applied.
+NOTE
+If the minimum freeboard allowance set out in Section 3 has been provided, then the water level at the
+design event will not exceed the soffit level and hence drag and lift forces on the superstructure do not
+need to be applied at the design event. A check is required at the extreme high water level design
+situation.
+7.47.1
+Drag and lift forces on the superstructure should be calculated taking account of:
+1) whether the superstructure is partially or fully submerged;
+2) relative depth of the projected superstructure area compared with the depth from the superstructure
+to the river bed;
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 55 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+3) superelevation of the deck;
+4) shape of the cross section.
+NOTE
+Guidance on calculating drag and lift forces on the superstructure is provided in:
+1) Australian bridge design standard AS5100.2 [Ref 2.I];
+2) Hydrodynamic Forces on Inundated Bridge Decks, Publication no. FHWA-HRT-09-028 [Ref 13.I];
+3) American bridge design standard AASHTO LRFD [Ref 4.I].
+7.47.2
+Forces on the superstructure should include calculation of the following components:
+1) horizontal drag;
+2) vertical lift due to water flow;
+3) where the structure is partially submerged, vertical lift due to hydrostatic pressure;
+4) moment component, accounting for centroid of application of drag and lift forces.
+NOTE
+The vertical lift can act upwards or downwards depending on the configuration of the structure.
+Impact force from debris
+7.48
+The debris impact force shall be applied to all substructure elements (including piers and abutments)
+within the plan extent of water.
+7.49
+Where the water level exceeds the soffit level, then the debris impact force shall be applied to the
+superstructure.
+NOTE
+If the minimum freeboard allowance set out in Section 3 has been provided, then the water level at the
+design event will not exceed the soffit level and hence the debris impact force on the superstructure
+does not need to be applied.
+7.50
+The debris impact force shall be applied as a point load at the most onerous location on the relevant
+element of the structure.
+7.51
+The design value of the debris impact force shall be derived using Equation 7.51:
+Equation 7.51 Debris impact force
+Ad = V
+√
+ˆkm
+where:
+Ad
+is the impact force (N)
+V
+is the debris velocity (m/s)
+ˆk
+is the effective contact stiffness (N/m)
+m
+is the single-item debris mass (kg)
+7.51.1
+The debris velocity, V, should be taken as the mean approach flow velocity.
+7.51.2
+The design event should be selected in order to generate the maximum velocity.
+7.51.3
+The effective contact stiffness, ˆk , should be taken as 2.4 · 106 N/m.
+NOTE
+This value is based on an impact between a log and a rigid structure.
+7.52
+The single-item debris mass, m, shall be established in accordance with Section 3.
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 56 of 83
+======================================================================
+CD 356 Revision 1
+7. Structure design
+Actions due to ice
+7.53
+Where the Overseeing Organisation has specified that ice loading is included for the particular project,
+then specific actions due to ice, design situations and combinations shall be agreed with the
+Overseeing Organisation.
+Actions due to ship impact
+7.54
+Where the Overseeing Organisation has specified that ship impact is included for the particular project,
+then specific actions due to ship impact shall be agreed with the Overseeing Organisation.
+7.54.1
+The actions due to ship impact may be based on BS EN 1991-1-7 [Ref 3.N] using the ship impact
+design criteria defined in Section 3.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 57 of 83
+======================================================================
+CD 356 Revision 1
+8. Structure elements
+8.
+Structure elements
+Bridge piers
+General
+8.1
+The shape, size and arrangement of piers shall be determined.
+NOTE
+Constraints and effects which can influence the selection of a shape of pier include:
+1) general aesthetic considerations (see CD 351 [Ref 12.N]);
+2) structural resistance;
+3) resistance to flow, including streamlining and alignment with flow direction;
+4) the depth of the local scour;
+5) the built-up of debris;
+6) blockage of the watercourse area.
+8.1.1
+Where practically feasible, bridge piers should be designed to be located outside rather than within the
+watercourse.
+8.2
+Where ship impact is included for a particular project, then the impact shall be resisted either:
+1) by the bridge piers; or
+2) by protection measures.
+NOTE
+Protection measures against a ship impact can include:
+1) safety barriers;
+2) protective bollards;
+3) arresting cables;
+4) protective buffers.
+Bridge foundations
+Stability of channel
+8.3
+Where there is a likelihood of channel movement over the life of the structure, then the foundation
+design shall accommodate foreseeable variations.
+NOTE
+Channel movement can include:
+1) movement of a watercourse into a floodplain;
+2) change in position of main flow channel(s) moves within a watercourse or estuary.
+8.3.1
+Foundations within the extent of potential channel movement should be positioned at the same level as
+the foundations currently within or adjacent to the channel.
+8.3.2
+The stability check of the foundations should be performed after assessing the possible changes of the
+channel pattern with time.
+8.3.3
+Sensitivity to transition cases, such as a pier half in a channel, should be checked.
+Foundation design assumptions
+8.4
+Bridge foundations shall be designed on the basis that all bed material within the scour hole above the
+total scour depth will have been removed and is not available to provide bearing or lateral support.
+8.4.1
+Conservative results may be obtained by assuming a prismatic shaped scour hole.
+8.4.2
+Benefit may be taken from the remaining material assuming a cone-shaped scour hole.
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 58 of 83
+======================================================================
+CD 356 Revision 1
+8. Structure elements
+Spread footings on soil
+8.5
+The footing shall not be undermined by scour.
+8.5.1
+The top of the footing should be located at least below the total scour depth.
+NOTE
+Placing the top of the footing above the scour depth, can result in a greater obstruction to the flow and
+lead to an increased scour depth due to the increased flow velocity.
+Figure 8.5.1N Spread footing on soil
+8.5.2
+Risk of undermining may be reduced by positioning the bottom of the footing not less than 2 metres
+below the existing bed level and below the total scour depth.
+8.6
+The footing shall be checked for the effects of differential scour.
+NOTE 1
+Scour holes tend to form eccentrically around the structural element, leading to a risk of differential
+scour.
+NOTE 2
+Shallow foundations can be more susceptible to settlement, lateral movement, or overturning due to
+the development of the lateral earth pressures from differential scour.
+8.6.1
+Spread footings on soil should be checked against circular slip failure.
+NOTE
+Circular slip failure can occur along a formed concave surface due to differential scour.
+Spread footings on rock
+8.7
+Where the underlying rock is scour-resistant, then the form and proposed construction method of the
+spread footing shall maintain the integrity of the supporting rock.
+8.8
+Embedments or keys which require blasting shall not be specified.
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 59 of 83
+======================================================================
+CD 356 Revision 1
+8. Structure elements
+NOTE 1
+The formation of the surface finishing of the rock where small embedments or keys are provided at the
+bottom of the foundation, can require local excavation with the use of blasting.
+NOTE 2
+Blasting can damage the rock surface and result in over-break and fracturing of the sound rock below
+the bearing elevation.
+NOTE 3
+Overbreak and fracturing can result the reduction of the scour resistance within the zone of these
+defects.
+8.8.1
+Steel anchors or dowels may be drilled and grouted into the founding rock to provide lateral restraint for
+footings on smooth rock surfaces.
+Figure 8.8.1 Spread footing on rock
+Spread footings on weathered or potentially erodible rock
+8.9
+The potential for degradation and/or erosion of weathered or potentially erodible rock formations under
+the effects of scour shall be established.
+NOTE 1
+The strength and condition of weathered or potentially erodible rock formations can be affected by
+scour over the life of the structure.
+NOTE 2
+Land-based foundations on weathered rock could be subject to scour in future due to channel
+movement.
+8.10
+Where excavation into eroded rock is required, this shall be made with care to minimise the extent of
+overbreak beneath the footing level.
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 60 of 83
+======================================================================
+CD 356 Revision 1
+8. Structure elements
+Piled foundations
+8.11
+Piled foundations shall be resistant to the effects of scour.
+Figure 8.11 Piled foundation
+NOTE
+A lesser amount of long piles instead of a larger amount of short piles can provide a greater factor of
+safety against pile failure due to scour, given the inherent uncertainties in the scour calculation.
+8.11.1
+The top surface of the pile cap may be placed below the total scour depth to minimise the local scour
+due to the obstruction.
+NOTE
+Where the pile cap is situated below the scour depth, a downward current that can result in local scour
+at the pier can be interrupted.
+8.12
+Where the depth of total scour exceeds the depth of pile cap and the piles are exposed, then the piles
+shall be checked as columns with reduced lateral restraint appropriate to the remaining bed level.
+NOTE
+An increased unrestrained length of a pile due to exposure from scour will result in increased bending
+moments within the piles.
+8.13
+Where the piles are exposed due to scour, the pile capacity shall be checked with the reduced skin
+friction due to removal of surrounding bed material.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 61 of 83
+======================================================================
+CD 356 Revision 1
+8. Structure elements
+Bridge abutments
+General
+8.14
+The extent and nature of scour protection, if any, at bridge abutments shall be determined.
+NOTE
+Scour protection measures can negate the need to compute the abutment scour. There are fewer
+methods available in the literature for calculating scour at abutments compared with piers.
+8.14.1
+Where significant built-up due to debris is anticipated, bridge abutments should be placed back from
+the channel banks.
+8.15
+Where spill-through abutments are provided, then the abutment and embankment material shall be
+designed to prevent loss of material particularly at the toe of the embankment.
+NOTE
+Scour at spill-through abutments can be less than at vertical abutments, but loss of spill-through
+material can occur.
+Bridge superstructures
+General
+8.16
+Bridge superstructures shall be designed for the main component of the minimum forces for robustness
+given for bridges over roads in the National Annex NA to BS EN 1991-1-7 [Ref 14.N], acting in the
+direction of the water flow.
+8.17
+Where the superstructure is subject to water actions, then the superstructure shall be designed to resist
+the water actions.
+NOTE 1
+Increasing the freeboard can avoid the need to design the superstructure to resist water actions.
+NOTE 2
+The use of a streamlined cross-section for the superstructure can be used to reduce the resistance to
+the flow and hence the water actions.
+8.18
+Load path(s) shall be provided to transfer forces applied to the superstructure to the foundations.
+8.18.1
+Restraint should be provided to prevent the superstructure becoming dislodged from its supports.
+NOTE 1
+The design forces calculated where bearings are provided can be subject to uncertainty. Bearings can
+be subject to forces higher than calculated such as in exceptional flood events.
+NOTE 2
+The provision of shear keys adjacent to the bearings is encouraged to provide restraint against large
+lateral displacements.
+8.19
+Where the watercourse is used by ship traffic, then the navigation requirements shall be provided.
+NOTE
+Navigation requirements can include minimum vertical and horizontal clearances (see structure
+opening size in section 3), navigation lights, signage, and impact protection.
+8.20
+The likelihood of submergence of the superstructure shall be established.
+NOTE
+Submergence could occur during the design event, the check event, or where the structure is close to
+the water and there is uncertainty on the water levels at the design or check event.
+8.20.1
+Where the superstructure could become submerged, then the bridge deck should be designed with
+resilience to the water unless the costs of doing so are disproportionate to the likelihood of this cause.
+NOTE
+Resilience measures can include:
+1) an intended replacement strategy for services which could be affected by water;
+2) use of stainless steel or galvanised steel for elements or components which could become
+submerged.
+8.21
+The superstructure shall allow for drainage of all elements, including:
+1) voids in the structure;
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 62 of 83
+======================================================================
+CD 356 Revision 1
+8. Structure elements
+2) service bays;
+3) deck.
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 63 of 83
+======================================================================
+CD 356 Revision 1
+9. Normative references
+9.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+BSI. BS EN 1991-1-6, 'Actions on structures. General actions. Actions during
+execution.'
+Ref 2.N
+Highways England. CD 529, 'Design of outfall and culvert details'
+Ref 3.N
+BSI. BS EN 1991-1-7, 'Eurocode 1 - Actions on structures - Part 1-7 General actions -
+Accidental actions'
+Ref 4.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 5.N
+Highways England. LA 101, 'Introduction to environmental assessment'
+Ref 6.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+BSI. Committee CB/502/-/PI. BS 6349-1-2, 'Maritime works. General. Code of
+practice for assessment of actions (May 2016)'
+Ref 8.N
+BSI. BS 3680-10C, 'Measurement of liquid flow in open channels. Sediment
+transport. Guide to methods of sampling of sand-bed and cohesive-bed materials''
+Ref 9.N
+BSI. BS 3680-10E, 'Measurement of liquid flow in open channels. Sediment
+transport. Sampling and analysis of gravel bed material'
+Ref 10.N
+Highways England. LA 113, 'Road drainage and the water environment'
+Ref 11.N
+Highways England. BD 97, 'The Assessment of Scour and Other Hydraulic Actions at
+Highway Structures'
+Ref 12.N
+Highways England. CD 351, 'The design and appearance of highway structures'
+Ref 13.N
+Highways England. CD 350, 'The design of highway structures'
+Ref 14.N
+BSI. NA to BS EN 1991-1-7, 'UK National Annex to Eurocode 1 - Actions on
+structures - Part 1-7 General actions - Accidental actions'
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 64 of 83
+======================================================================
+CD 356 Revision 1
+10. Informative references
+10.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+MCEER. Lee, Mohan et al. Technical Report MCEER-13-0008, 'A study of U.S.
+bridge failures (1980-2012)'
+Ref 2.I
+Standards Australia. Committee BD-090 - Bridge Design. AS5100.2, 'Australian
+Standard - Bridge design - Part 2: Design loads'
+Ref 3.I
+Bundesanstatt fuer Wasserbau (Karlsruhe Germany). Abromeit, U. et al.. BAW CoP
+2010, 'BAW Code of Practice, "Principles for the Design of Bottom and Bank
+Protection for Inland Waterways (GBB)" issue 2010.'
+Ref 4.I
+American Association of State Highway and Transportation Officials. AASHTO LRFD,
+'Design Specifications'
+Ref 5.I
+Macmillan. EM Wilson. Wilson 1990, 'Engineering Hydrology'
+Ref 6.I
+SEPA / Natural Scotland. SEPA River crossings, 'Engineering in the water
+environment good practice guide: River crossings'
+Ref 7.I
+Wallingford HydroSolutions. FEH, 'Flood Estimation Handbook'
+Ref 8.I
+Gov.UK. Environment Agency. FRA CCA, 'Flood risk assessments: climate change
+allowances'
+Ref 9.I
+British Geological Society. BGS, 'Geoshore Index'
+Ref 10.I
+US Department of Transportation, Federal Highways Administration. Arneson, LA et
+al. HEC 18 - FHWA-HIF-12-003, 'HEC (Hydraulic Engineering Circular) No. 18
+'Evaluating Scour at Bridges' 5th edition, 2012'
+Ref 11.I
+UK Met Office. UKCP18 , 'https://www.metoffice.gov.uk'
+Ref 12.I
+US Federal Highway Administration. USBPR, 'Hydraulics of Bridge Waterways'
+Ref 13.I
+US Department of Transportation - Federal Highway Administrartion. Kerenyi, Sofu,
+Guo. FHWA-HRT-09-028, 'Hydrodynamic Forces on Inundated Bridge Decks'
+Ref 14.I
+Environment Agency. Defra / Environment Agency. SC050050, 'Improving the FEH
+statistical procedures for flood frequency estimation'
+Ref 15.I
+HR Wallingford. IH 126, 'Insitutue of Hydrology IH126 report'
+Ref 16.I
+Dept. of Environment, Food & Rural Affairs (DEFRA), Flood Management Div., with
+Environment Agency. Hawkes, Peter J (HR Wallingford). FD2308/TR2, 'Joint
+probability: Dependence mapping and best practice - R&D Technical Report March
+2006'
+Ref 17.I
+Cranfield University. NSRI, CEH, James Hutton Institute. LandIS, 'LandIS Land
+Information System'
+Ref 18.I
+ICE proceedings, journal of Forensic Engineering. Mathews and Hardman. ICE
+1700009, 'Lessons learnt from the December 2015 flood event in Cumbria, UK'
+Ref 19.I
+CIRIA. Kirby, Roca, Kitchen et al. CIRIA C742, 'Manual on scour at bridges and other
+hydraulic structures, 2nd edition'
+Ref 20.I
+Ven Te Chow. Chow 1959, 'Open Channel Hydraulics'
+Ref 21.I
+ICE proceedings, journal of Forensic Engineering. Benn, J. JFE 1300013, 'Railway
+bridge failure during flooding in the UK and Ireland'
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 65 of 83
+======================================================================
+CD 356 Revision 1
+10. Informative references
+Ref 22.I
+Institutue of Hydrology - National Environment Research Council. Gustard, A et al. IH
+108, 'Report No. 108 'Low flow estimation in the United Kingdom''
+Ref 23.I
+HR Wallingford. HRW SR 182, 'Report SR182. Afflux at Arch Bridges'
+Ref 24.I
+Environment Agency - Gov UK. LIT531, 'Research and analysis: Coastal flood
+boundary conditions for UK mainland and islands|: design sea levels'
+Ref 25.I
+Centre for Ecology & Hydrology - Natural Environment Research Council. Wallingford
+Hydro Solutions Ltd. ReFH 2.2, 'Revitalised Flood Hydrograph Model (ReFH 2.2):
+Technical Guidance (2016)'
+Ref 26.I
+BSI. Committee B/502. BS EN 13383, 'Rock. Armourstone. BS EN 13383 Parts 1 & 2'
+Ref 27.I
+Soil Survey of England and Wales. Soils, 'Soils of England and Wales'
+Ref 28.I
+Wallingford HydroSolutions Ltd 2016. Centre for Ecology & Hydrology. ReFH 2.2:
+Technical Guidance, 'The Revitalised Flood Hydrograph Model'
+Ref 29.I
+Met Office. Jenkins, G. J., Murphy, J. M., Sexton, D. M. H., Lowe, J. A., Jones, P. and
+Kilsby, C. G.. UKCP 09 Report, 'UK Climate Projections: Briefing report.'
+Ref 30.I
+Centre for Ecology & Hydrology (CEH). National river flow archive ,
+'www.nrfa.ceh.ac.uk'
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 66 of 83
+======================================================================
+CD 356 Revision 1
+Appendix A. Sample methods for scour assessment
+Appendix A. Sample methods for scour assessment
+A1
+General scour
+General scour is defined as the short-term scour that will occur during the design flood event. A
+number of methods are available. The type of calculation will be depend on the level of complexity of
+the problem:
+1) Morphological modelling - developed through the use of numerical models;
+2) Extension of regime theory - typically a 'hand' calculation;
+3) Threshold methods - these assume that scour will proceed until threshold conditions (see definition
+of the depth-averaged critical threshold velocity for non-cohesive surface bed material, UT C , below).
+The details of these methods are available in CIRIA C742 [Ref 19.I].
+A2
+Contraction scour
+An approximation of the depth of Contraction Scour may be obtained by modelling the geometry
+upstream and under the bridge as long rectangular contractions and estimating an equilibrium scour
+depth on this basis. A method to estimate contraction scour given in CIRIA C742 [Ref 19.I] may be
+calculated using the method below
+A3
+Local scour at bridge piers in non-cohesive soils
+Local scour at bridge piers can be calculated using the following steps:
+1) Determine the depth-averaged critical threshold velocity for the surface bed material. This may be
+done using a modified Shields (1936) equation outlined in CIRIA C742 [Ref 19.I].
+Equation A.1 Depth-averaged critical threshold velocity
+UTC
+U·
+= −
+√
+32log10
+( ks
+12yo
++ 0.22 ν
+yoU·
+)
+where:
+UT C
+is the critical threshold velocity (m/s)
+U
+is the shear velocity of the flow (m/s)
+ks
+is the effective roughness of the sediment bed = d for uniformly graded sediment or
+approximately 2 x the mean particle size (d50) for graded material
+yo
+is the local flow depth at the point being considered (m)
+ν
+is the kinematic viscosity of water (=1.4 x 10-6 m2/s at 15oC)
+2) For the design flow, determine whether live bed or clear water scour will occur.
+Live bed or clear water scour influences the behaviour of the scour hole. In live bed scour, the scour
+hole increases to an equilibrium scour depth, where the rate of material entering the hole equals the
+rate of material existing the hole. This is often accompanied by bedforms which cause the scour depth
+to fluctuate about the equilibrium depth. Clear water scour is a gradual increase to a maximum
+(equilibrium) scour depth. This step is useful for understanding the speed at which the maximum
+(equilibrium) scour depth will develop.
+3) Calculate the equilibrium scour depth, Ys
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 67 of 83
+======================================================================
+CD 356 Revision 1
+Appendix A. Sample methods for scour assessment
+Equation A.2 Determination of depth of local scour
+Ys
+Bs
+= ΦShape.ΦDepth.ΦV elocity.ΦAng
+where:
+Bs
+is the width of the structure measured normal to the longitudinal axis of the flow
+ϕ
+are factors which are dependent on the flow conditions and geometry of the pier.
+Guidance on appropriate values can be found in CIRIA C742 [Ref 19.I]
+.
+The depth of local scour, Ys, may be calculated using the following equation originally developed by
+Breusers et al (1977) and modified by subsequent researchers, as described in CIRIA C742 [Ref 19.I]:
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 68 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+Appendix B. Methods for deriving input parameters
+B1
+Fluvial flows
+B1.1
+Flood flows
+In the UK, the Flood Estimation Handbook methods are usually preferred for the estimation of flood
+flows, as detailed in the FEH [Ref 7.I] and subsequent updates. In accordance with current best
+practice the FEH Statistical method SC050050 [Ref 14.I] and/or ReFH 2.2 [Ref 25.I] methods should
+generally be adopted. A detailed description of the application of these methods is outside the scope of
+this document. Appropriate specialist advice should be sought and the current best practice guidance
+available from the relevant authorities followed as to the application of these methods. Alternative flood
+flow estimation methods may be more applicable for some catchments such as highly permeable
+catchments or very heavily urbanised catchments. Appropriate specialist advice should be sought in
+these instances.
+B1.2
+Normal flow conditions
+Flow rates representative of normal conditions may be established by:
+1) estimation of flow rate from survey data, defining the cross-sectional shape and the longitudinal
+gradient, and known (or assumed) water level. A simplified approach to calculate discharge is
+described in Section 4;
+2) analysis of records from flow gauging stations upstream or downstream of the site. The record may
+need to be adjusted for changes in flows between the site and the gauge location. The average of
+daily mean flow for the period of record can be used to approximate the mean flow. Where
+applicable for design, seasonal mean flows can also be estimated;
+3) analysis of records from flow gauging stations in adjacent catchments or those with similar
+characteristics. Appropriate adjustments to reflect differences between the study site and the
+gauged site will be required, for example to reflect differences in catchment area;
+4) estimation of mean flow using established methods for ungauged catchments (clause B1.2.1).
+These are typically based on a relationship between rainfall and evaporation estimates;
+5) direct flow measurements at the site using current meters and level gauges or other flow gauging
+techniques. Guidance on how to measure flow rates is given in a number of British and European
+Standards.
+In most instances it is likely that flood flows will provide the worst case conditions for design and
+therefore, in the absence of better data, method 1 is likely to be appropriate to inform other design
+checks provided the water level(s) used in the assessment are representative of normal or design flow
+conditions. For larger or higher risk schemes, where suitable flow records are not available, it is
+recommended that more than one method is used to check that estimates obtained are consistent and
+realistic.
+Analysis of gauge data should include an assessment of changes to a river catchment or gauge site
+that may affect the flow record over time.
+Gauge records covering short periods of time should be used with caution as the record period may not
+be typical of long-term conditions, although this is likely to be less of a problem for estimation of "normal
+flows" than for extreme high or low flows. Comparison of the record with that for a nearby gauge with a
+longer record may help to determine if the recorded flows are representative of long term behaviour.
+Details of existing flow gauges, and flow data, can be found on the National River Flow Archive
+National river flow archive [Ref 30.I]. The relevant authority may need to be contacted for additional
+data or information regarding a gauge. There may also be river level gauges in the vicinity of the site
+that could be used in the assessment, provided a suitable flow-level relationship can be determined.
+B1.2.1
+Estimation of Mean Flow for ungauged catchments
+The IH 108 [Ref 22.I] report includes a regression equation to estimate mean flow for ungauged
+catchments as detailed below. It should be noted however that the report was published in 1992, and
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 69 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+uses gauged records and parameters published earlier than this date. The resultant estimate may not
+therefore reflect current conditions and climatic trends and more up to date methods included in
+commercial software may be preferred. However, it is likely to be sufficient to inform initial estimates,
+secondary design checks or for comparison with other estimates. Further information on the basis of
+the approach can be found in the report. A more sophisticated catchment water balance approach is
+also presented in the report.
+Equation B.1 IH108 Mean flow for ungauged catchment
+MF = 2.70 × 10−7 × AREA1.02 × SAAR1.82 × PE−0.284
+where:
+MF
+is the mean flow (m3/s)
+AREA
+is the catchment area (km2)
+SAAR
+is the standard annual average rainfall 1941-70 (mm), available from various sources
+PE
+is potential evaporation (mm), available from the MET office
+B1.3
+Low flow conditions
+Minimum flow rates (e.g. Q95) may be estimated from analysis of gauge data where suitable records
+exist. Records of daily mean flow can be used to derive a 'flow duration curve' at a site, from which
+flows for different exceedance probabilities can be estimated. The records can be heavily influenced by
+the period of record, and seasonality, and this should be considered in the assessment.
+As described in section clause B1.2, records for gauges upstream or downstream of the site, or in
+adjacent or similar catchments may be used to estimate flows at the site. The importance of artificial
+influences such as abstractions and discharges should be assessed as these can have a significant
+impact on low flows in certain rivers.
+The IH 108 [Ref 22.I] report includes methods for estimating Q95 and deriving a flow duration curve for
+ungauged catchments. The method requires an assessment of the appropriate HOST (Hydrology of
+Soil Types) classification for the catchment and provides estimates of Q95 as a proportion of mean
+flow. Flow estimates for alternative probabilities can also be derived. HOST classification data can be
+obtained from the Land Information System web service LandIS [Ref 17.I] or from published soil maps
+Soils [Ref 27.I] used in conjunction with the HOST report IH 126 [Ref 15.I]. Similar methods are also
+described in Wilson 1990 [Ref 5.I] (using Baseflow index for the catchment). The Baseflow index can
+be obtained from gauged data or the FEH web service FEH [Ref 7.I] Commercial software is available
+which can also provide low flow estimates.
+B1.4
+Tidal flows
+Where structures are subject to tidal flows the design flows can be made of three components:
+1) a fluvial flow corresponding to the design event in the upstream catchment;
+2) a tidal component produced by astronomical tides;
+3) a surge component caused by low atmospheric pressure or onshore winds raising sea levels and
+pushing additional water inland.
+The relative importance of these components depends on the size of the river, the magnitude of the
+tidal range and the distance of the site from the upstream tidal limit.
+Where a scheme is subject to significant tidal flows it is usually necessary to carry out a detailed study
+and hydraulic modelling to quantify the respective flows and to assess the probabilities of fluvial and
+tidal events occurring simultaneously. Specialist advice should be sought in such instances. Defra
+report FD2308/TR2 [Ref 16.I] provides guidance on the assessment of joint probabilities of fluvial and
+tidal events.
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 70 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+In many instances, particularly where the tidal component is less important, the highest flows and worst
+case conditions will occur for a fluvial flow coinciding with an outgoing (ebb) tide. However there may
+still be a requirement to assess incoming tidal flows, particularly if it is necessary to complete separate
+design checks for the downstream (seaward) side of the bridge structure.
+Tidal surge events will typically result in the highest tide levels however the tidal range, and therefore
+the maximum flow rate, may be larger for astronomical tides. It is therefore recommended that a range
+of scenarios are assessed to determine the worst case conditions.
+B1.5
+Simplified approach to estimate tidal flows
+A simplified method for estimating tidal flows is provided here. It is recommended that this is checked
+for both a surge event corresponding with the largest tidal flood event for design (and the check event)
+and for the highest astronomical tide (HAT).
+Within estuaries, funnelling and surge effects can have a significant effect on tidal flows. This means
+that tide levels obtained for ports or coastal locations may not be representative of the bridge site.
+There is no known simple method of assessing these affects as it is highly dependent on the shape and
+size of the estuary. These effects are likely to be significant where there are more rapid changes in the
+size or depth of the estuary.
+Where there is any doubt in the suitability of the simplified method it is recommended that specialist
+advice is sought and an appropriate detailed study completed.
+A simplified method for estimating the peak tidal flow is as follows:
+Equation B.2 Peak tidal flow estimation
+Qtide = πVtide
+Ttide
+where:
+Qtide
+is the peak tidal flow (m3/s)
+Vtide
+is the volume of the tidal prism, calculated from the area upstream of the bridge that is
+subject to inundation at high tide multiplied by the tidal range (m3)
+Ttide
+is the tidal period (s)
+B1.5.1
+Case 1 - Highest astronomical tide
+Tidal periods and ranges at standard ports are published in the Admiralty tide data and values for other
+locations may be interpolated as appropriate.
+Qtide(HAT) should be calculated for the tidal range between the highest and lowest astronomical tides,
+using the highest astronomical tide level to determine the area of tidal inundation upstream of the
+bridge.
+B1.5.2
+Case 2 - Largest tidal flood event for design / Check event
+The surge event tidal range may be calculated by superimposing the appropriate surge shape onto the
+astronomical tidal curve, and fitting the resultant curve to the appropriate surge flood level. It is
+recommended the astronomical tidal curve is based on the mean high water spring, with the peak of
+the surge event coinciding with the peak of the mean high water spring tide. Various commercial tidal
+prediction software exists to produce the astronomical tidal curve.
+Tidal periods and ranges are published in the Admiralty tide data. The relevant authority should be
+contacted to obtain current estimates of flood levels for a range of tidal surge events, alongside
+recommended surge shapes.
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 71 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+At the time of writing coastal flood levels at 2m intervals around the coast of England, Wales and
+Scotland, alongside standard surge shapes, are freely available on Gov-UK datashare LIT531 [Ref
+24.I]. However these may be replaced in time. The advice of the relevant authority should be sought to
+confirm the best data to use at the time of the assessment.
+Qtide(surge) should be calculated for the largest tidal range throughout the duration of the surge event,
+using the corresponding high tide level to determine the area of tidal inundation upstream of the bridge.
+B1.5.3
+Incoming peak tidal flow estimation
+In an estuary the tidal rise during the incoming tide can be much more rapid than the ebb tide. Peak
+incoming tidal flows should therefore be taken as:
+Equation B.3 Peak incoming tidal flow
+Qtide−max = 4.5
+π Qtide
+where:
+Qtide−max
+is the peak incoming tidal flow (m3/s)
+Qtide
+is the peak tidal flow (m3/s)
+B2
+Water levels and flow depths
+As described in CIRIA C742 [Ref 19.I] design water levels may be estimated through:
+1. analysis of historical data on water levels, if these are available from readings at gauge boards or
+gauging stations close to the site;
+2. use of tide data and predicted tidal surge levels in estuary or coastal areas;
+3. hydraulic calculations or hydraulic models using flow estimates in conjunction with maps and survey
+data defining the cross section geometry and longitudinal gradient of the watercourse;
+4. anecdotal / informal information provided by local people on typical water levels or observed water
+levels for past floods (for example trash marks or heights reached on the walls of buildings);
+5. assessment of water levels at the site as shown on topographical or channel surveys, noting these
+will only represent a single point in time and may not therefore be representative of design conditions.
+It is important to check and compare data for any information obtained. Information may be based on
+different topographical surveys or datums. In particular tide levels will often be related to chart datum
+and will need to be adjusted to the national datum used for topographical surveys at the site. Anecdotal
+information may not always be reliable.
+It is unlikely that design fluvial flood conditions will have been recorded at the site and therefore method
+3 is usually necessary to estimate water levels for design flood conditions.
+B2.1
+Calculation of water levels or discharge in rivers and channels
+A method to estimate water levels at the site (for a given flow rate) or flow rate (for a given water level)
+is provided here, based on the Manning's flow equation.
+This method will usually provide reasonable estimates for a reasonably straight and uniform reach of
+channel. The method assumes normal depth flow conditions apply, with flow rates and water levels
+controlled by the conveyance capacity and frictional resistance of the channel and no other significant
+hydraulic influences. Examples of where the approach may not be suitable include:
+1. where channel geometry, gradient, or other characteristics (such as vegetation cover or bed
+material) vary significantly through the study reach;
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 72 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+2. where there is another hydraulic control in the vicinity (either upstream or downstream) such as a
+weir, culvert or other form of flow constriction;
+3. close to a junction with a major tributary;
+4. where storage and attenuation of flows may be significant. In these cases it may still be applicable to
+apply the Manning's equation at the site, but an assessment of the flow rate to be used will need to take
+account of these effects;
+5. at sites with a large or complex floodplain, where the assumption of uni-directional flow and constant
+water level across the section is not valid.
+It may be necessary to use backwater flow calculations, alternative hydraulic calculation methods
+and/or hydraulic models in these instances. It is recommended that specialist advice is sought to
+determine the most appropriate method. Hydraulic models will often be developed for the purposes of
+flood risk assessment in any case and these can be used to provide estimates at the site.
+Theoretically, the Manning's equation can be applied or the assessment of flood flows, normal flow
+conditions and low flow conditions. However it should be noted that during low flow conditions minor
+variations in the channel, low flow channel meanders and bed material will have more of an influence
+on flow and normal depth flow conditions may not apply. For these flows, estimates of water levels and
+depths may be better made by close examination of the channel at the site.
+The Manning's equation approach detailed in this section does not take account of any constriction to
+flow created by the proposed structure(s). Reference should be made to sub-section B5 for
+assessment of these effects.
+B2.1.1
+Application of Manning's equation
+The Manning's equation is as follows:
+Equation B.4 Manning's equation
+Q = 1
+n
+A
+5
+3
+P
+2
+3 S
+1
+2e
+where:
+Q
+is the flow rate (m3/s)
+n
+is the Manning's roughness coefficient
+A
+is the cross-sectional area of flow (m2) normal to the direction of flow (note that in flood
+conditions this may not follow the channel alignment)
+P
+is the wetted perimeter (m) corresponding to the water level Z (m above datum), see
+Figure B.1
+Se
+is the energy gradient through the channel reach. In normal flow conditions this can be
+assumed to be approximately equal to the longitudinal bed gradient
+Estimates of Manning's roughness coefficient may be obtained from standard textbooks (e.g. Chow
+1959 [Ref 20.I]). The calculation of water level, Z, or maximum water depth across the section, Ymax, for
+a known flow rate can be completed by rearranging equation B4. An iterative process may be required
+to solve the equation.
+71
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 73 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+Figure B.1 Typical channel cross section
+B2.1.2
+Compound channels and varying channel cross section
+For multi-stage channels or where out of bank flow occurs it may be necessary to determine how the
+flow is distributed between the main channel and shallower areas or floodplains.
+Figure B.2 shows a typical compound channel. It is assumed that flow direction in the shallower or
+floodplain areas remains parallel to the main channel flows and the water level is the same across the
+full width.
+Figure B.2 Compound Channel
+The total flow can be calculated as:
+Equation B.5 Total flow for compound channels
+QT = Q1 + Q2 + Q3
+with the flow for each section calculated using the Manning's equation, for example:
+72
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 74 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+Equation B.6 Manning's equation for compound channels
+Q1 = 1
+n1
+A
+5
+3
+1
+P
+5
+3
+1
+S
+1
+2
+e1
+where:
+n1
+is the Manning's roughness coefficient for channel section 1
+A1
+is the flow area up to the water level in section 1 (between the dashed lines)
+P1
+is the wetted perimeter for section 1. It is recommended the water boundaries indicated by
+the dashed lines are included in the calculation for section 1 only, to account for drag
+resistance between the main channel and slower moving flows in sections 2 and 3
+Se1
+is the energy gradient, typically assumed to be approximately equal to the bed gradient.
+For meandering channels the path length followed by floodplain flows is shorter than for
+the main channel, and therefore the gradient may differ. However it is generally
+recommended to adopt the same gradient value for all sections, based on the main
+channel length, to account for additional energy losses in floodplains caused by the
+meanders
+The same approach can be applied to varying channel sections where variations in flow depth and
+velocity may be experienced across the section. The channel cross section should be divided into a
+suitable number of sections, of reasonably uniform flow depth and velocity, and the Manning's equation
+applied to each section. In most cases the drag force between sections can be ignored (so do not
+include the water boundary in the wetted perimeter), unless more significant changes in velocity
+between sections are expected such as might occur in multi-stage channels. In this instance the water
+boundary should be included in the wetted perimeter for the faster flowing section.
+B2.1.3
+Estimation of water levels in tidal situations
+In estuaries or tidally influenced rivers the estimation of water levels may need to take account of tidal
+flows and/or downstream tide levels. The following approach can be followed for a simple assessment.
+It is recommended the water level is calculated for two alternative scenarios:
+1. The Manning's equation may be applied for the combined fluvial and maximum tidal flow rate,
+assuming the fluvial flow coincides with the outgoing (ebb) tide.
+2. The fluvial flow rate, assuming a constant downstream tide level. Unless another tide level is
+assessed to be appropriate it is recommended this is based on the largest tidal event for design or
+check event. The tide level should be compared with the channel section at the site and the area below
+this level excluded from the flow area used in the calculations.
+It is stressed that this may present an overly conservative scenario and neither method will properly
+account for the complex flow regime where tidal and fluvial flows interact. Where the tidal influence is
+significant specialist advice should be sought and a detailed assessment completed.
+B3
+Estimation of flow velocity
+Flow velocities may be estimated from measured data at the site but as described in section B1 it is
+unlikely these are available for design flood conditions. However they can still be useful to inform an
+assessment of how flow velocity varies across the channel. Measurements taken in the main channel
+at or near bank-full conditions may also provide an indication of flow velocities during flood conditions
+as these often do not increase substantially.
+Where channels are reasonably uniform a single estimate of velocity may be suitable for scour
+assessment and input to the design. In most cases separate flow velocities will need to be calculated
+for any out of bank flows. The section mean velocity is given by equation B.7.
+73
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 75 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+Equation B.7 Section mean velocity
+V = Q
+A
+where:
+V
+is the average velocity (m/s)
+Q
+is the flow rate (m3/s), either across the whole section or for the sub-section as
+appropriate
+A
+is the flow area (m2), either across the whole section or the sub-section as appropriate
+Where the flow velocity varies across the section then for design purposes it is likely to be necessary to
+estimate the local velocity U at the relevant structural element. For a simple assessment this can be
+achieved by:
+1. applying equation B7 to the relevant sub-section of the channel section; and/or
+2. applying a multiplication factor to the section mean velocity value.
+For method 2 the multiplication factors may be derived from field measurements relating the local
+velocity to the section mean value, provided sufficient measurements are taken across the width of the
+channel.
+Alternatively CIRIA C742 [Ref 19.I] provides guidance on assumed factors, as summarised in Table B.1.
+Table B.1 Local velocity factors
+Location
+Recommended
+factor
+Comment
+Maximum across the
+section
+1.25
+Applicable to fairly straight lengths of channel,
+higher values may occur around bends or at
+constrictions
+Toe of revetment
+0.7
+Straight channels
+Toe of revetment
+1.35
+Outside of bends
+Isolated structures, such as bridge piers, can cause a local acceleration of flow. The velocity around
+the structure can be taken as twice that immediately upstream, i.e. Us = 2U . However depending on
+the scour depth calculation method used this acceleration should already be included in that calculation
+and the upstream velocity would typically be used as the input value to the scour depth calculation.
+Where there is uncertainty it is recommended that both methods are assessed and an appropriate
+range of values considered for design.
+The flow velocities obtained as above are depth-averaged values. In most instances this
+depth-average value is appropriate for design however values for a specific depth can be obtained.
+CIRIA C742 [Ref 19.I] contains further guidance. If necessary, more sophisticated 2-D and 3-D
+hydraulic models can be used to obtain more accurate flow velocities.
+B4
+Assessment of the effects of the structure
+Where the structure does not span the full width of the floodplain the constriction may cause an
+increase in water level upstream of the structure and increased flow velocities through the structure.
+For a simple assessment, the flow depth, water level and average flow velocity through the structure
+may be calculated by applying the Manning's equation to the bridge section, assuming that all flow is
+channelled through the structure opening(s). Figure B.3 illustrates the approach. The floodplain flows
+74
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 76 of 83
+======================================================================
+CD 356 Revision 1
+Appendix B. Methods for deriving input parameters
+(sections 2 and 5) are assumed to be diverted through sections 3, 1 and 4. For a simple assessment
+no account is taken of any effect of the structure in attenuating flows.
+Figure B.3 Manning's application to proposed structure
+Where there are multiple openings an iterative approach may be needed to determine the flow
+distribution between each opening that gives a constant water level across the section.
+The size of the structure opening should be adjusted to account for blockage scenarios as required. If
+the calculated water level reaches the bridge soffit level the hydraulic flow regime would change and
+the Manning's approach is no longer valid. Appropriate specialist advice should be sought regarding
+alternative assessment methods. It should be noted that this method does not explicitly account for
+additional energy losses at the structure and associated afflux as described in section B4.1.
+B4.1
+Estimation of afflux
+Constriction of flow causes a loss of energy which results in an increase in water level upstream of the
+structure. Afflux is the difference between the upstream water level without the structure and with the
+structure in place. The upstream water level used for design should generally include the afflux.
+The US Bureau of Public Roads method ( USBPR [Ref 12.I]) is widely used to calculate afflux at bridge
+structures and is suitable for bridges with flat decks. Other methods are available if required which are
+more suitable for other types of structure such as arch bridges ( HRW SR 182 [Ref 23.I]).
+The calculation of afflux can be reasonably complex involving an iterative process. The calculation
+methods are generally embedded in hydraulic models which may be developed for the purposes of
+flood risk assessment in any case. It is recommended that appropriate specialist advice is obtained as
+regards the approach to afflux estimation.
+75
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 77 of 83
+======================================================================
+CD 356 Revision 1
+Appendix C. Site investigation
+Appendix C. Site investigation
+C1
+Introduction
+The objectives of the site investigation are as follows:
+1) to record the present condition of the river to inform the conceptual representation and site-specific
+design criteria;
+2) to identify conditions that are indicative of potential problems with scour and stream stability for
+further review and evaluation;
+3) to obtain site data to use in the design.
+The investigation(s) should be commenced at a sufficiently early stage to inform the initial
+planning/concept design stage and to coordinate with other surveys and site investigations, for
+example topographical / channel surveys and ground investigations.
+The investigation needs to recognise and understand the relationship between the bridge, the
+watercourse and the floodplain. Typically, a bridge spans the main channel of a watercourse and
+perhaps a section of the floodplain. The highway approaches to the bridge are typically on
+embankments which can obstruct flow along the floodplain. Any out of channel flood flow will therefore
+return to the watercourse at the bridge site or overtop the roadways. Zones of turbulence are
+established where out of bank flow returns to the main channel and again where flow expands back
+onto the floodplain downstream of the bridge and scour may occur at the approach embankment and
+around the bridge abutments. In addition, piers and abutments may present obstacles to flows in the
+main channel, creating conditions for local scour caused by turbulence around the foundations.
+C2
+Scope of investigations
+Every bridge site subject to hydraulic action should be reviewed in order to establish its potential
+vulnerability to damage by hydraulic actions and the potential effect of the structure on the water
+environment.
+The scope of the investigations should cover the following aspects. Appropriate specialist advice
+should be sought where necessary:
+1) channel stability and morphological conditions;
+2) flood behaviour;
+3) debris potential;
+4) bed material;
+5) sub-surface material and properties;
+6) geometry of the watercourse and floodplain in the vicinity of the site;
+7) range of water levels, flows and velocities expected at the site.
+C3
+Sources of information
+Table C.1 provides guidance on data sets that can inform the investigation, particularly initial desk
+studies.
+Table C.1 Sources of information
+Dataset
+Typical use
+Comment
+Old Ordnance Survey maps
+Channel stability/
+morphology
+Scale of at least 1:10,000 preferred for
+plotting changes to channel plan form for
+most UK rivers
+Aerial photographs
+Channel stability/
+morphology
+76
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 78 of 83
+======================================================================
+CD 356 Revision 1
+Appendix C. Site investigation
+Table C.1 Sources of information (continued)
+Dataset
+Typical use
+Comment
+River habitat survey reports
+Channel stability/
+morphology
+These reports can include observations
+of bed and bank material, channel form
+and signs of erosion or channel
+movement
+Satellite imagery
+Channel stability/
+morphology,
+watercourse
+geometry,
+debris potential
+Current Ordnance Survey maps
+Watercourse
+geometry,
+debris potential
+1:1250 or 1:2500 scale maps can
+provide an initial indication of channel
+size when checked against other data
+sets
+Digital terrain data
+Watercourse
+geometry,
+flood behaviour
+LIDAR data is freely available for most
+watercourses in the UK from the various
+UK government data sharing web
+portals. LIDAR can provide an initial
+indication of channel size and gradient,
+flood plain extent and flood flow routes
+Flood maps
+Flood behaviour,
+debris potential
+Flood maps are typically available online
+and can be used to assess flood flow
+routes and extents. Some maps can
+provide enhanced information such as
+depths and speed of floodwaters.
+Existing channel surveys/
+topographical surveys
+Watercourse
+geometry,
+water levels,
+bed material.
+Channel and/or topographic surveys
+may be already available at a site from
+previous studies, such as for flood
+mapping, or earlier phases of the
+scheme.
+Channel surveys can provide an
+indication of bed and bank material
+Hydrological and/or hydraulic
+models and assessments
+Watercourse
+geometry
+flood behaviour,
+water levels, flows
+and velocities
+These may be already available at a site
+from previous studies, such as for flood
+mapping, or be developed specifically for
+the scheme, for example to support a
+Flood Risk Assessment
+Flow and level gauge records
+Water levels & flows
+River level gauges and gauge boards
+can supplement the flow gauges
+included in the National River Flow
+Archive National river flow archive [Ref
+30.I]
+77
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 79 of 83
+======================================================================
+CD 356 Revision 1
+Appendix C. Site investigation
+Table C.1 Sources of information (continued)
+Dataset
+Typical use
+Comment
+Anecdotal observations, flood
+records and flood level markers
+Flood behaviour,
+water levels & flows
+Local reports, newspaper articles,
+notable flood markers can provide
+information although they may not reflect
+design conditions.
+Local residents can provide information
+on the typical watercourse regime.
+Anecdotal records and observations
+should be used with caution as they may
+be unverified
+Geology and soil maps and
+borehole records
+Channel stability/
+morphology,
+flood behaviour,
+bed material,
+sub-surface material
+properties.
+BGS maps BGS [Ref 9.I] and borehole
+records can provide an initial indication
+of the material at the site. The presence
+of river alluvium deposits can indicate
+potential floodplain extents and channel
+movement
+Site walkover and field survey
+Channel stability/
+morphology,
+flood behaviour,
+watercourse
+geometry,
+bed material,
+debris potential,
+water levels and
+flows
+Refer to guidance in sub-section C3.1
+Topographic and channel survey
+Watercourse
+geometry
+water levels
+Refer to guidance in sub-section C3.2
+Ground investigations
+Bed material,
+sub-surface material
+properties
+Refer to guidance in section C3.3
+C3.1
+Site walkovers and field surveys
+Site walkovers and field surveys can be valuable to supplement desktop studies and inform the
+conceptual representation of the watercourse at the site. The investigation should be performed by
+staff with experience of the design of new watercourse crossings. There can be significant overlap with
+the requirements of field surveys to support Water Framework Directive, environmental impact and
+flood risk assessments for the scheme and therefore joint surveys may be worthwhile. The proposed
+scheme may provide opportunities to improve the existing water environment.
+It is beneficial for the engineer to have an understanding of the proposed scheme, design criteria and
+requirements, potential specification and construction methods. However it should be noted that the
+purpose of the investigation is to inform the design and should take place before the design is too far
+progressed.
+The following sections provide guidance on factors to be observed and considered when evaluating a
+proposed bridge site. Observations should be made upstream and downstream as well as at the site
+itself.
+Banks:
+1) Stable: Natural vegetation, trees, existing bank stabilisation measures such as riprap, paving,
+gabions, channel stabilisation measures such as dikes and groynes;
+78
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 80 of 83
+======================================================================
+CD 356 Revision 1
+Appendix C. Site investigation
+2) Unstable: Undermining of banks, evidence of lateral movement, damage to river stabilisation works
+etc.
+Main Channel:
+1) Type of channel: straight, meandering or braided; presence of low-flow channels; single or
+multi-stage channels;
+2) Channel gradient: Steep, shallow, varying?;
+3) Orientation of the main channel relative to proposed structure openings;
+4) Existence of islands, bars, debris, cattle guards, fences that may affect flows;
+5) Aggrading or degrading bed;
+6) Bed material: General observations of the nature of the bed material, grain size, cohesive /
+non-cohesive etc; depth of soft bed material - a survey staff or pole driven through the soft bed
+material can determine hard and soft bed levels and help to identify areas of deposition or hidden
+scour pockets;
+7) Evidence of watercourse movement with respect to the bridge site, or movement of flow channel(s)
+within the main watercourse channel;
+8) Geometry: initial estimates can be obtained from site observations and measurements;
+9) Evidence of scour or erosion.
+Floodplain:
+1) Size of floodplain;
+2) Floodplain flow patterns - will flow overtop the road or return to the main channel? once out of
+channel will flood flows follow the watercourse alignment or follow a different route?;
+3) Downstream: is the channel clear and open so that contracted flow at the site can return smoothly to
+the floodplain, or is it restricted and blocked by dikes, developments, trees, debris or other
+obstructions
+4) Size of any flood relief openings;
+5) Extent of floodplain development and any obstruction of flow towards the bridge and its approaches;
+6) Evidence of scour or erosion.
+Debris:
+1) Extent of debris in upstream channel;
+2) Type of debris that may be carried in flood: bankside and floodplain vegetation, presence of urban
+debris;
+3) Existing structures that may prevent debris reaching the site.
+Other features:
+1) Existence of upstream tributaries, bridges, dams, weirs or other features that may affect flow
+conditions at the site;
+2) Presence of drainage outfalls etc in the vicinity of the site;
+3) Downstream dams, structures, or confluence with larger watercourses which may cause variable
+water levels downstream of the proposed structure. This may create conditions for higher velocity
+through the bridge and/or higher water levels at the bridge;
+4) Water level influenced by tides. This may create conditions for higher velocity through the bridge
+and/or higher water levels at the bridge;
+5) Evidence of engineering works, such as dredging, which could affect flows and bed levels at the
+bridge;
+6) Environmental constraints that may influence the design.
+79
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 81 of 83
+======================================================================
+CD 356 Revision 1
+Appendix C. Site investigation
+Field measurements of velocity at the site can be useful, particularly where flow velocity varies
+considerably across the width of the channel. The values can be used to help define the relationship
+between local and section mean velocities. Velocities in the main channel of a river with floodplains
+tend not to increase substantially in flood conditions therefore measurements taken at or near to
+bank-full can provide an indication of velocities in flood conditions.
+C3.2
+Topographic and channel survey
+A cross section survey of the channel can be undertaken to inform the assessment and design. This
+should include at least five cross sections: one at each face, at the centre line and upstream and
+downstream of the contraction and expansion reaches. The channel survey should be at sufficient
+resolution to provide an accurate profile of the channel bed. Standard topographic surveys which
+simply show top and bottom of bank levels, and may not extend into the centre of the channel, are
+unlikely to be sufficient. Hard and soft bed levels should be identified on the survey.
+The spacing of channel sections should be sufficient to identify changes in channel geometry and
+gradient. For most UK rivers a spacing of 50m in the vicinity of the site is appropriate for the purposes
+of hydraulic modelling, although closer spacing, or a full bathymetric survey, may be needed for greater
+accuracy at the crossing location.
+Where backwater calculations or hydraulic models are developed the survey should extend a sufficient
+distance upstream and downstream of the site to ensure that boundary assumptions do not unduly
+affect the results at the site. As a general rule the downstream extent should be greater than the
+backwater length, which can be estimated from equation C.1.
+Equation C.1 Backwater Length
+L = 0.7D
+S
+where:
+L
+is the backwater length
+D
+is the flow depth
+S
+is the channel gradient
+C3.3
+Bed material and ground investigation
+Geotechnical data will be required at the site to inform the foundation design and the scour
+assessment. The requirements of the scour assessment and design should be considered in the
+specification of ground investigations at the site. The bed material should be characterised to inform
+the scour assessment and protection design. CIRIA C742 [Ref 19.I] provides further advice.
+Where the bed material is mainly non-cohesive (for example alluvial and gravel rivers) the sediment
+characteristics are normally obtained by sieve samples and grading. Samples should be taken from
+several locations to identify any significant spatial variations. The dry density or specific gravity of the
+particles is also required. The assessment of scour depth typically uses the mean particle size d50 .
+The investigation should include assessment and analysis of the bed material under the top armour
+layer, as this coarser material which can develop may be washed away in a flood, leaving more
+erodible material behind. Bed samples should be taken from a depth around 0.5m below the surface to
+be representative of the underlying material. Initial investigations, reliant on visual observations, should
+look for signs of armouring and not assume the surface layer is representative of the underlying
+material.
+Where material is believed to vary with depth samples should extend below the maximum expected
+scour depth. It should be noted that locations which are significant for scour assessment may not
+coincide with the sample locations needed for foundation design; additional samples may be required.
+80
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 82 of 83
+======================================================================
+CD 356 Revision 1
+Appendix C. Site investigation
+Where the bed material comprises coarse gravels or boulders, direct measurement rather than sieve
+sampling, may be needed. Care should be taken to measure a representative sample of sizes. Further
+guidance is provided in BS 3680-10E [Ref 9.N].
+In estuaries or lower lying rivers the bed material often comprises a mixture of cohesive and
+non-cohesive material. The resistance of such materials to scour can vary significantly with depth and
+the level of consolidation which has occurred over time. Bed samples should be analysed for their
+density and moisture content and settling velocity of smaller particles rather than sieve sampling may
+be used to characterise the sediment and erosion potential. Further guidance is provided in BS
+3680-10C [Ref 8.N].
+81
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
+
+======================================================================
+PAGE 83 of 83
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 356, published: Mar-2020
+
+
