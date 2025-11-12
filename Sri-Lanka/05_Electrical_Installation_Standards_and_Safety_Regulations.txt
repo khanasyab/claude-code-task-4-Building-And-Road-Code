@@ -1,0 +1,793 @@
+======================================================================
+SRI LANKA ELECTRICAL INSTALLATION STANDARDS
+WIRING REGULATIONS AND SAFETY REQUIREMENTS
+======================================================================
+
+REGULATORY FRAMEWORK
+--------------------
+Primary Authority: Ceylon Electricity Board (CEB)
+Alternative Authority: Lanka Electricity Company (LECO) - within service area
+Standards Body: Sri Lanka Standards Institution (SLSI)
+Legal Basis: Electricity Act No. 20 of 2009, Ceylon Electricity Board Act No. 17 of 1969
+Website: www.ceb.lk, www.leco.lk
+Regulatory Oversight: Public Utilities Commission of Sri Lanka (PUCSL)
+
+======================================================================
+CHAPTER 1: OVERVIEW OF ELECTRICAL REGULATIONS
+======================================================================
+
+1.1 LEGAL AND REGULATORY FRAMEWORK
+
+ELECTRICITY LEGISLATION:
+
+Historical Development:
+- Electricity Act No. 19 of 1950: Original legislation
+- Ceylon Electricity Board Act No. 17 of 1969: Established CEB
+- Electricity Act No. 20 of 2009: Current primary legislation
+- Regulations under Section 54 by Minister of Power and Energy
+
+Regulatory Bodies:
+- Public Utilities Commission of Sri Lanka (PUCSL): Economic and technical regulation
+- Ceylon Electricity Board (CEB): Generation, transmission, distribution (bulk of country)
+- Lanka Electricity Company (LECO): Distribution in Colombo and surrounding areas
+- Sri Lanka Sustainable Energy Authority (SLSEA): Renewable energy promotion
+
+1.2 APPLICABLE STANDARDS AND CODES
+
+WIRING STANDARDS:
+
+Primary Standards:
+- IEE Wiring Regulations: Regulations of the Institution of Electrical Engineers,
+  London, for Electrical Installations (historical reference)
+- BS 7671:2008 (17th Edition): British Standard Requirements for Electrical
+  Installations (widely referenced)
+- BS 7671:2018+A2:2022 (18th Edition): Updated British Standard (latest)
+- SLS 703:1985: Sri Lanka Standard Code of Practice for Electrical Installations
+
+Application:
+All electrical installations in Sri Lanka must comply with the IEE Wiring
+Regulations and/or BS 7671. Internal wiring shall be completed in accordance
+with standard rules and regulations (updated BS 7671).
+
+ADDITIONAL STANDARDS:
+
+Equipment and Materials:
+- IEC Standards: International Electrotechnical Commission standards
+- Sri Lanka Standards (SLS): For cables, switches, accessories
+- British Standards (BS): Where SLS not available
+
+Safety Standards:
+- Electricity (Safety, Quality and Continuity) Regulations published by CEB
+- Occupational safety standards
+- Fire safety electrical requirements
+
+1.3 ELECTRICITY SUPPLY IN SRI LANKA
+
+SUPPLY CHARACTERISTICS:
+
+Voltage and Frequency:
+- Standard frequency: 50 Hz
+- Domestic supply: 230 V (single-phase), 400 V (three-phase)
+- Low voltage (LV): Up to 1 kV
+- Medium voltage (MV): 11 kV, 33 kV
+- High voltage (HV): 132 kV, 220 kV (transmission)
+
+Supply Types:
+- Single-phase: 230 V (for residential and small commercial)
+- Three-phase: 400 V (for commercial, industrial, and large residential)
+- High voltage: For large industrial consumers
+
+Service Connection Capacity:
+- Single-phase: Up to 10-12 kVA (approximately 42-50 A)
+- Three-phase: 12 kVA to several MVA
+
+SUPPLY QUALITY STANDARDS:
+
+Voltage Tolerance:
+- Nominal voltage: 230 V ± 6% (216-244 V acceptable range)
+- Three-phase: 400 V ± 6%
+
+Frequency Tolerance:
+- 50 Hz ± 1% (49.5-50.5 Hz)
+
+Power Quality:
+- Voltage harmonics: Limited per IEC 61000 standards
+- Voltage imbalance: < 2% for three-phase
+- Interruptions: Minimize duration and frequency
+
+Reliability:
+- System Average Interruption Duration Index (SAIDI)
+- System Average Interruption Frequency Index (SAIFI)
+- Continuous monitoring and improvement
+
+======================================================================
+CHAPTER 2: ELECTRICAL SERVICE CONNECTION REQUIREMENTS
+======================================================================
+
+2.1 APPLICATION FOR ELECTRICITY CONNECTION
+
+CONNECTION PROCESS:
+
+Step 1: Application Submission
+Documents required:
+- Application form (from CEB/LECO)
+- Proof of ownership or tenancy agreement
+- Copy of National Identity Card
+- Detailed site plan showing location
+- Building approval from local authority
+- Wiring certificate from licensed electrical contractor (for new installations)
+
+Step 2: Site Inspection
+- CEB/LECO inspects premises
+- Determines connection point and requirements
+- Estimates cost of connection
+
+Step 3: Payment and Agreement
+- Connection charges payment
+- Security deposit (refundable)
+- Supply agreement execution
+
+Step 4: Wiring Inspection
+- Internal wiring by licensed contractor
+- Inspection and approval by CEB/LECO
+- Wiring test certificate submission
+
+Step 5: Meter Installation and Energization
+- Meter installation by CEB/LECO
+- Service connection
+- Supply energization
+
+TIMELINES:
+- Single-phase domestic (within existing infrastructure): 7-14 days
+- Three-phase or requiring infrastructure extension: 30-90 days
+- Delays possible if line extensions or transformer upgrades required
+
+2.2 WIRING CERTIFICATE REQUIREMENTS
+
+LICENSED ELECTRICAL CONTRACTORS:
+
+Qualifications:
+- Registered with CEB/LECO
+- Trained and certified electricians
+- Knowledge of wiring regulations
+- Insurance and bonding
+
+Responsibilities:
+- Design and installation of internal wiring
+- Compliance with standards and regulations
+- Testing and certification
+- Maintenance and repairs
+
+WIRING CERTIFICATE:
+
+Content:
+- Details of installation (building address, type, capacity)
+- Description of wiring system
+- Cable sizes and types
+- Protection devices (MCBs, RCCBs, etc.)
+- Earthing system details
+- Test results (insulation resistance, earth continuity)
+- Declaration of compliance with regulations
+- Contractor's signature and license number
+
+Testing Requirements:
+- Insulation resistance test: Minimum 1 MΩ (megohm) at 500 V DC
+- Continuity test: Earthing and bonding conductors
+- Polarity test: Correct phase and neutral connections
+- RCD/RCCB operation test
+
+Validity:
+- Certificate valid for connection application
+- Re-inspection if installation modified
+
+2.3 INTERNAL WIRING STANDARDS
+
+CONDUCTOR SIZING:
+
+Current Carrying Capacity:
+Based on:
+- Load current
+- Installation method (conduit, surface, buried)
+- Ambient temperature
+- Grouping of cables
+- Diversity factor
+
+Voltage Drop:
+- Maximum voltage drop: 2.5% of nominal voltage (for lighting), 5% (total from supply point)
+- Voltage drop = (mV/A/m) × Current (A) × Length (m) / 1000
+
+Typical Cable Sizes for Single-Phase Domestic Installation:
+- Main incoming: 10 mm² or 16 mm² (based on load)
+- Lighting circuits: 1.5 mm²
+- Power socket circuits: 2.5 mm²
+- Air conditioner: 4 mm² to 10 mm² (based on capacity)
+- Water heater: 4 mm² to 6 mm²
+- Cooker/oven: 6 mm² to 10 mm²
+
+CABLE TYPES:
+
+Common Cables in Sri Lanka:
+
+PVC Insulated Cables:
+- Single-core or multicore
+- 600/1000 V grade
+- Suitable for general wiring
+- Most economical
+
+PVC/PVC Cables:
+- PVC insulation and PVC sheath
+- For conduit or surface installation
+- Common sizes: 1.5, 2.5, 4, 6, 10, 16, 25, 35, 50 mm²
+
+Aluminum Service Main Wire:
+- For overhead service connection
+- From meter to CEB distribution line
+- Insulated aluminum conductor
+- Sizes: 16, 25, 35, 50 mm²
+
+Armored Cables:
+- Steel wire armored (SWA) for mechanical protection
+- Underground or outdoor installation
+- Single-core or multicore
+
+Flexible Cables:
+- For portable appliances and equipment
+- Three-core flex (phase, neutral, earth)
+
+Color Coding (per BS 7671):
+- Phase (Live): Brown (single-phase), Brown/Black/Grey (three-phase)
+- Neutral: Blue
+- Earth: Green/Yellow stripe
+
+Old Color Coding (still encountered in old installations):
+- Phase: Red (or Red/Yellow/Blue for three-phase)
+- Neutral: Black
+- Earth: Green or bare copper
+
+INSTALLATION METHODS:
+
+Conduit System:
+- PVC conduits (most common)
+- Concealed in walls or floor
+- Surface mounted where required
+- Conduit sizes: 16, 20, 25, 32, 40, 50 mm
+- Maximum cable fill: 40-45% of conduit area
+
+Surface Wiring:
+- Cables in surface-mounted conduits or trunking
+- Supported by cleats or clips at regular intervals
+- Mainly for industrial or temporary installations
+
+Concealed Wiring:
+- Conduits embedded in walls during construction
+- Cables drawn through after plastering
+- Preferred method for residential and commercial
+
+Underground Cables:
+- Armored cables or cables in ducts
+- Minimum depth: 450-600 mm
+- Warning tape above cables
+- Sand bedding and protection
+
+Overhead Wiring:
+- Service mains from pole to building
+- Minimum height: 3.5 m (over pedestrian areas), 5.5 m (over vehicle areas)
+- Adequate support and tensioning
+
+======================================================================
+CHAPTER 3: EARTHING AND PROTECTION SYSTEMS
+======================================================================
+
+3.1 EARTHING REQUIREMENTS
+
+PURPOSE OF EARTHING:
+
+Safety Functions:
+- Protect against electric shock
+- Provide path for fault currents
+- Enable operation of protective devices
+- Protect against lightning
+
+Types of Earth Electrodes:
+
+Plate Electrode:
+- Copper or GI plate (600 mm × 600 mm × 3 mm minimum)
+- Buried vertically at minimum 2.5 m depth
+- Common in Sri Lankan residential installations
+
+Pipe/Rod Electrode:
+- GI pipe (38-50 mm diameter) or copper rod
+- Length: 2.0-2.5 m minimum
+- Driven vertically into ground
+- Multiple rods bonded together if required
+
+Strip Electrode:
+- Copper or GI strip buried around building
+- For large installations or poor soil resistivity areas
+
+Earth Resistance:
+- Target earth resistance: < 5 Ω (ohms) for domestic installations
+- < 1 Ω for sensitive equipment and data centers
+- Measured using earth tester
+- Improved by parallel electrodes, chemical treatment of soil, longer electrodes
+
+EARTHING SYSTEM CONFIGURATION:
+
+Main Earth Terminal (MET):
+- Central earthing point in installation
+- Located near main switchboard
+- All protective conductors connected to MET
+- MET connected to earth electrode
+
+Protective Conductors:
+- Connect all exposed metallic parts to MET
+- Green/Yellow insulated cable
+- Size based on associated phase conductor
+- Minimum size: 1.5 mm² for fixed wiring, 2.5 mm² (often used)
+
+Bonding:
+- Main bonding: Metallic services (water pipes, gas pipes) bonded to MET
+- Supplementary bonding: In bathrooms and wet areas
+- Bond conductor sizes: Minimum 6 mm² (main bonding), 2.5-4 mm² (supplementary)
+
+Earthing of Equipment:
+- All Class I appliances and equipment earthed
+- Socket outlets with earth pin
+- Fixed equipment earthing connection
+
+3.2 PROTECTION AGAINST ELECTRIC SHOCK
+
+BASIC PROTECTION (Direct Contact):
+
+Insulation:
+- Live parts fully insulated
+- Insulation integrity maintained
+- Regular inspection and testing
+
+Barriers and Enclosures:
+- Electrical equipment in proper enclosures
+- IP rating appropriate for environment
+- Covers secured (tools required to open)
+
+Placing Out of Reach:
+- High voltage equipment at safe height
+- Restricted access to electrical rooms
+
+FAULT PROTECTION (Indirect Contact):
+
+Automatic Disconnection of Supply:
+- Most common method in Sri Lanka
+- Circuit breaker or fuse operates on fault
+- Disconnection time: < 0.4 seconds (final circuits), < 5 seconds (distribution)
+
+Earth Fault Loop Impedance:
+- Low impedance path from fault point through earth to supply
+- Ensures sufficient fault current to operate protective device
+- Calculated and verified: Zs × Ia ≥ Uo (where Zs = loop impedance, Ia = operating current,
+  Uo = nominal voltage to earth)
+
+Residual Current Devices (RCDs):
+
+RCCB (Residual Current Circuit Breaker):
+- Detects imbalance between phase and neutral currents
+- Trips when residual current exceeds rated sensitivity
+- Common ratings: 30 mA (socket outlets, wet areas), 100 mA, 300 mA (larger circuits)
+- Tripping time: < 30 ms at 5 × rated current
+
+RCBO (Residual Current Breaker with Overcurrent Protection):
+- Combines RCD and MCB functions
+- Protects against earth faults, overload, and short circuits
+- Saves space in distribution board
+
+Application:
+- 30 mA RCD mandatory for socket outlets likely to supply portable equipment outdoors
+- RCD protection for bathroom circuits
+- RCD protection for all socket outlets (best practice)
+
+3.3 OVERCURRENT AND SHORT CIRCUIT PROTECTION
+
+MINIATURE CIRCUIT BREAKERS (MCBs):
+
+Characteristics:
+- Thermal element: Overload protection (slow response)
+- Magnetic element: Short circuit protection (fast response)
+- Breaking capacity: 6 kA, 10 kA (domestic/commercial), higher for industrial
+
+MCB Types (Trip Curves):
+- Type B: 3-5 × rated current (general purpose, residential)
+- Type C: 5-10 × rated current (motors, transformers)
+- Type D: 10-20 × rated current (heavy inductive loads)
+
+Common Ratings:
+- Lighting circuits: 6 A, 10 A
+- Socket circuits: 16 A, 20 A
+- Air conditioners: 16 A, 20 A, 32 A (based on capacity)
+- Main incomer: 32 A, 40 A, 63 A, 80 A (single-phase domestic)
+
+FUSES (Less Common in New Installations):
+
+Types:
+- Rewirable fuses (very old installations, being replaced)
+- Cartridge fuses (HRC - High Rupturing Capacity)
+
+Application:
+- Main service fuse (sealed by CEB/LECO)
+- Some industrial applications
+
+DISTRIBUTION BOARDS:
+
+Main Distribution Board (MDB):
+- Receives supply from meter
+- Main switch or MCCB
+- RCDs and outgoing circuit breakers
+- Suitable for current rating of installation
+
+Sub-Distribution Boards (SDBs):
+- Distribute power to specific areas/floors
+- Fed from main DB through sub-main cables
+- Local isolation and protection
+
+Enclosure:
+- Metal or insulated material
+- IP rating: IP30 minimum (indoor), IP54+ (outdoor/wet areas)
+- Proper labeling of circuits
+- Circuit schedule displayed
+
+======================================================================
+CHAPTER 4: SPECIAL INSTALLATIONS AND LOCATIONS
+======================================================================
+
+4.1 BATHROOMS AND WET AREAS
+
+ZONING SYSTEM:
+
+Zone 0: Interior of bathtub or shower basin
+- No electrical equipment except: Low voltage (max 12 V) suitable equipment
+- IPX7 rating minimum
+
+Zone 1: Above bathtub/shower to 2.25 m height
+- Water heaters (if suitable)
+- Instantaneous water heaters rated IPX4 minimum
+- No switches or socket outlets
+
+Zone 2: Area extending 0.6 m beyond Zone 1, up to 2.25 m height
+- Luminaires and extractors (IPX4 minimum)
+- Shaver supply units (isolating transformer)
+- No socket outlets (except shaver socket)
+
+Outside Zones (beyond Zone 2):
+- Normal installation rules apply
+- RCD protection mandatory
+
+SUPPLEMENTARY BONDING:
+
+Requirements:
+- Bond all metallic pipes, taps, bath/shower trays to earth
+- Bond to equipotential bonding conductor
+- Conductor size: Minimum 4 mm²
+- May be omitted if all circuits RCD protected (30 mA) and other conditions met
+
+4.2 SWIMMING POOLS AND FOUNTAINS
+
+ZONING FOR POOLS:
+
+Zone 0: Inside pool basin
+- No equipment except SELV (< 12 V AC) pool equipment
+
+Zone 1: Above and around pool to 2 m from edge, up to 2.5 m height
+- Only pool equipment rated for Zone 1
+- SELV or equipment rated IPX4/IPX5 minimum
+
+Zone 2: 1.5 m beyond Zone 1 boundary
+- Socket outlets via RCD (30 mA) and isolating transformer
+- Equipment rated IPX4 minimum
+
+All metallic parts bonded together and earthed.
+
+4.3 EXTERNAL LIGHTING AND OUTDOOR INSTALLATIONS
+
+Requirements:
+- Cables suitable for outdoor use (UV resistant, armored)
+- Equipment with appropriate IP rating (IP44 minimum, IP65 for exposed)
+- RCD protection mandatory
+- Adequate earthing
+- Lamp posts with internal earth
+- Buried cables at minimum 450 mm depth with marking tape
+
+4.4 SOLAR PV INSTALLATIONS
+
+REGULATIONS:
+
+Net Metering and Net Accounting:
+- Regulations by PUCSL for grid-connected PV systems
+- System capacity limits for different consumer categories
+- Approval process through CEB/LECO
+
+System Components:
+- PV panels (modules)
+- Inverter (grid-tie or hybrid)
+- Mounting structure
+- DC and AC cabling
+- Protection devices
+- Net meter or bidirectional meter
+
+Safety Requirements:
+- DC side isolation
+- AC side protection (MCB, surge protection)
+- Anti-islanding protection
+- Earthing of panels and structure
+- Fire safety compliance
+
+Standards:
+- IEC 61215: PV module qualification
+- IEC 61730: PV module safety
+- IEC 62116: Inverter anti-islanding
+- SLS standards (where available)
+
+Installation:
+- By licensed electrical contractor with PV experience
+- Approval from CEB/LECO before connection
+- Inspection before energization
+- Commissioning tests
+
+======================================================================
+CHAPTER 5: ELECTRICAL SAFETY REGULATIONS
+======================================================================
+
+5.1 ELECTRICAL SAFETY IN BUILDINGS
+
+GENERAL SAFETY REQUIREMENTS:
+
+Accessibility:
+- Electrical equipment accessible for operation and maintenance
+- Adequate working space around switchboards (minimum 1 m clearance)
+- Lighting in electrical rooms
+- Warning signs and labels
+
+Isolation:
+- Means of isolation for every circuit
+- Lockable main switch
+- Local isolation for fixed equipment
+- Visible break (or indicator) required
+
+Emergency Switching:
+- Emergency stop for machinery
+- Easily accessible and identifiable
+- Red color, mushroom type
+
+Fire Safety:
+- Fire-resistant cables where required (escape routes, high-rise buildings)
+- Proper cable sizing to prevent overheating
+- Cables not exceeding current carrying capacity
+- Use of fire barriers and seals in cable penetrations
+
+Electrical Rooms and Substations:
+- Dedicated rooms for electrical equipment (buildings > certain size)
+- Adequate ventilation
+- Fire extinguishers (CO₂ or dry powder, not water)
+- Restricted access (authorized personnel only)
+- Safety signage
+
+5.2 SAFETY DURING ELECTRICAL WORK
+
+PERMIT TO WORK SYSTEM:
+
+For High Voltage and Critical Installations:
+- Formal written permission before work
+- Isolation verified
+- Earthing applied where necessary
+- Clear communication between control and site
+
+LIVE WORKING:
+- Avoided wherever possible
+- Only by trained and authorized personnel
+- Proper tools and equipment
+- Insulated tools and gloves
+- Second person present
+
+LOCKOUT/TAGOUT (LOTO):
+- Isolate supply before work
+- Lock isolation device in open position
+- Tag indicating work in progress
+- Key held by person doing work
+
+PERSONAL PROTECTIVE EQUIPMENT (PPE):
+
+For Electrical Work:
+- Insulated gloves (rated for voltage)
+- Safety shoes (electrical hazard rated)
+- Safety glasses or face shield
+- Insulated tools
+- Flame-resistant clothing (for high-energy work)
+
+5.3 ELECTRICAL INSPECTIONS AND TESTING
+
+PERIODIC INSPECTION AND TESTING:
+
+Frequency:
+- New installations: Before energization
+- Existing installations: Every 5 years (domestic), 3 years (commercial),
+  annually (industrial)
+- After alterations or additions
+- Following fault or incident
+
+Inspection:
+- Visual examination of installation
+- Compliance with regulations
+- Condition of equipment and cables
+- Correct labeling and identification
+- Earthing and bonding integrity
+
+Testing:
+- Continuity of protective conductors
+- Insulation resistance (minimum 1 MΩ)
+- Earth fault loop impedance
+- RCD operation and tripping time
+- Polarity verification
+- Voltage and phase sequence (three-phase)
+
+Test Certificate:
+- Results recorded on standard form
+- Deviations and remedial work noted
+- Certificate retained for record
+
+THERMAL IMAGING:
+- Detect hot spots in connections
+- Preventive maintenance tool
+- Identify loose connections, overloading
+
+======================================================================
+CHAPTER 6: ENERGY EFFICIENCY AND CONSERVATION
+======================================================================
+
+6.1 ENERGY EFFICIENT ELECTRICAL DESIGN
+
+LIGHTING:
+
+Efficient Lamp Types:
+- LED lamps: Highest efficiency (80-120 lumens/watt), long life
+- CFL lamps: Moderate efficiency (50-70 lumens/watt)
+- T5 fluorescent tubes: Good for commercial
+- Avoid incandescent lamps (low efficiency, 10-15 lumens/watt)
+
+Lighting Controls:
+- Motion sensors for corridors, stairs, toilets
+- Daylight sensors for areas with natural light
+- Timers for outdoor and security lighting
+- Dimmers where appropriate
+- Zone control for large spaces
+
+Lighting Design:
+- Task lighting rather than general high levels
+- Utilize natural daylight
+- Light-colored walls and ceilings (better reflectance)
+- Lux levels appropriate for task
+
+AIR CONDITIONING:
+
+Efficient Systems:
+- Inverter technology air conditioners (energy efficiency rating A or higher)
+- Variable Refrigerant Flow (VRF) systems for commercial buildings
+- Proper sizing (avoid oversizing)
+- Regular maintenance (cleaning filters, coils)
+
+Controls:
+- Programmable thermostats
+- Temperature setpoint: 24-25°C (avoid excessive cooling)
+- Time controls (switch off when unoccupied)
+- Zone control
+
+Design Considerations:
+- Building envelope insulation
+- Solar shading and orientation
+- Natural ventilation where feasible
+- Minimize heat gains (efficient lighting, insulated roofs, low-E glass)
+
+MOTORS AND DRIVES:
+
+Efficiency:
+- High-efficiency motors (IE2, IE3 class)
+- Variable Speed Drives (VSDs) for varying loads
+- Proper motor sizing
+- Power factor correction
+
+APPLIANCES AND EQUIPMENT:
+
+Selection:
+- Energy-efficient models (check energy labels)
+- Right size for need
+- Quality brands with proven performance
+
+Usage Practices:
+- Switch off when not in use
+- Avoid standby power consumption
+- Regular maintenance
+
+6.2 POWER FACTOR CORRECTION
+
+POWER FACTOR:
+
+Definition:
+- Power factor (PF) = Real power / Apparent power
+- Low PF (< 0.85) indicates reactive power consumption
+- Causes: Inductive loads (motors, transformers, discharge lamps)
+
+Issues with Low Power Factor:
+- Higher current for same real power
+- Increased losses in cables and transformers
+- Penalties from CEB/LECO (for industrial/commercial)
+- Reduced system capacity
+
+Improvement:
+- Capacitor banks (parallel compensation)
+- Automatic power factor correction (APFC) panels
+- Individual correction at equipment (motor capacitors)
+- Target PF: > 0.9 (ideally 0.95-0.98)
+
+Benefits:
+- Reduced electricity cost (avoided penalties, reduced demand charges)
+- Improved voltage regulation
+- Increased capacity in existing installation
+
+6.3 RENEWABLE ENERGY INTEGRATION
+
+SOLAR PHOTOVOLTAIC (PV):
+
+Rooftop Solar:
+- Most common renewable energy in Sri Lanka
+- Grid-connected systems with net metering/net accounting
+- System sizes: 1-10 kW (residential), 10-1000+ kW (commercial/industrial)
+
+Battery Storage:
+- Hybrid systems with battery backup
+- Energy storage for time-shifting and backup
+- Lithium-ion or advanced lead-acid batteries
+
+WIND ENERGY:
+- Limited to suitable locations with good wind resource
+- Small wind turbines for individual buildings (rare)
+- Larger utility-scale wind farms
+
+MICRO-HYDRO:
+- Small hydroelectric systems in hilly areas
+- Run-of-river or small storage
+- Local off-grid or grid-connected
+
+BIOGAS:
+- Organic waste to biogas
+- Gas engines for electricity generation
+- Combined heat and power (CHP)
+
+======================================================================
+DOCUMENT INFORMATION
+======================================================================
+
+This comprehensive document covers electrical installation standards, wiring
+regulations, and safety requirements for Sri Lanka.
+
+Information compiled from:
+- Ceylon Electricity Board (CEB) regulations and guidelines
+- Electricity Act No. 20 of 2009
+- BS 7671:2018 (18th Edition) IEE Wiring Regulations
+- SLS 703:1985 Code of Practice for Electrical Installations
+- IEC international standards
+- Professional practice and industry standards
+
+For electricity connections and technical information, contact:
+Ceylon Electricity Board
+No. 50, Sir Chittampalam A Gardiner Mawatha
+Colombo 02, Sri Lanka
+Hot Line: 1987
+Website: www.ceb.lk
+
+Lanka Electricity Company (LECO)
+No. 591, Baseline Road, Colombo 09, Sri Lanka
+Hot Line: 1988
+Website: www.leco.lk
+
+Last Updated: 2024
+Compiled for reference and educational purposes.
+
+======================================================================
+END OF DOCUMENT
+======================================================================
