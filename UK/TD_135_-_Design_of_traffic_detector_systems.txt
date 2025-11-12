@@ -1,0 +1,926 @@
+======================================================================
+PAGE 1 of 22
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 135
+Design of traffic detector systems
+Version 1.0.0
+Summary
+A DMRB document to be used for the design of traffic detector systems
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 22
+======================================================================
+TD 135 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. General requirements for traffic detector systems for roadside technology and communications
+9
+Design of supports and foundations for traffic detectors for roadside technology and communications
+. . .
+9
+Design of gantries for traffic detectors for roadside technology and communications
+. . . . . . . . . . . . .
+9
+Design of road restraint systems for traffic detectors for roadside technology and communications
+. . . . .
+9
+Outputs from the design of traffic detectors for roadside technology and communications
+. . . . . . . . . .
+9
+Traffic detection systems for roadside technology and communications . . . . . . . . . . . . . . . . . . . . .
+10
+Siting of traffic detectors for traffic detection for roadside technology and communications . . . . . . . . . .
+10
+Testing requirements (non loops) for traffic detectors for roadside technology and communications . . . . .
+10
+3. Detectors for motorway incident detection and automatic signalling for roadside technology and com-
+munications
+11
+Siting detectors for motorway incident detection and automatic signalling for roadside technology and com-
+munications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4. Stopped vehicle detection for roadside technology and communications
+16
+Provision of stopped vehicle detection for roadside technology and communications . . . . . . . . . . . . .
+16
+Siting of stopped vehicle detection for roadside technology and communications . . . . . . . . . . . . . . .
+17
+5. Traffic counting detectors for roadside technology and communications
+18
+Provision of traffic counting detectors for roadside technology and communications . . . . . . . . . . . . . .
+18
+6. Normative references
+19
+7. Informative references
+20
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 22
+======================================================================
+TD 135 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 135
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+New document derived from Section split from TD 131, with updated amendments.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 22
+======================================================================
+TD 135 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 v0.1.0, Section 8.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 22
+======================================================================
+TD 135 Version 1.0.0
+Introduction
+Introduction
+Background
+Traffic detection is an operational function that provides input data to systems, which process the data
+to deliver particular outputs. Traffic detection systems are used to support:
+1)
+Safety - early and accurate detection of incidents that triggers appropriate operational responses;
+2)
+User satisfaction - early detection of events, enabling communication of issues affecting network
+performance to customers, with appropriate alternative advice; and
+3)
+The smooth flow of traffic - incident resolution and network availability is enhanced by early and
+accurate incident detection.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 22
+======================================================================
+TD 135 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+MIDAS
+Motorway incident detection and automatic signalling
+MSA
+Motorway service area
+NSSH
+New short section of hard shoulder
+PRS
+Place of relative safety
+SVD
+Stopped vehicle detection
+VMSL
+Variable mandatory speed limits
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 22
+======================================================================
+TD 135 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Connector road
+As defined in CD 122 [Ref 4.N]
+Downstream
+As defined in CD 122 [Ref 4.N]
+Information model
+As defined in GG 184 [Ref 11.N]
+Intra-junction
+As defined in CD 122 [Ref 4.N]
+Mainline
+As defined in CD 127 [Ref 1.N]
+Motorway incident detection and automatic
+signalling (MIDAS)
+MIDAS can perform three basic functions:
+1) queue protection
+2) congestion monitoring
+3) traffic data collection
+MIDAS sets signals and message signs
+automatically when certain abnormal traffic
+conditions occur and clears them automatically
+when traffic conditions return to normal.
+Motorway incorporating variable mandatory
+speed limits
+All forms of motorway which have variable
+mandatory speed limits, including those with a hard
+shoulder and where the hard shoulder has been
+converted into a running lane, either permanently or
+dynamically operated.
+NOTE: In England this is also termed as Smart
+Motorway.
+New short section of hard shoulder (NSSH)
+As defined in England National Application Annex in
+GD 301 [Ref 10.N]
+Nose
+As defined in CD 122 [Ref 4.N].
+Place of relative safety (PRS)
+As defined in England National Application Annex in
+GD 301 [Ref 10.N]
+Primary
+Primary sites (e.g. for detectors) are the first to be
+located when designing a scheme. When the
+primary sites have been identified, other sites can
+be located in relation to the primary sites in
+accordance with spacing requirements.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 22
+======================================================================
+TD 135 Version 1.0.0
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Stopped vehicle
+One or more vehicles which have stopped as part of
+a single event on a mainline running lane or within
+an emergency area
+NOTE: A stopped vehicle excludes queuing vehicles
+which have stopped due to congestion or an
+incident.
+Stopped vehicle detection (SVD) coverage
+area
+All mainline carriageway running lanes to the outside
+of the edge markings; all mainline emergency areas
+and mainline sections of hard shoulder which meet
+the definition of a place of relative safety.
+NOTE: An NSSH situated on a diverge connector
+road is not included within SVD coverage area.
+Upstream
+As defined in CD 122 [Ref 4.N].
+Variable mandatory speed limits (VMSL)
+As defined in England National Application Annex in
+GD 301 [Ref 10.N]
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 22
+======================================================================
+TD 135 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the provision, siting, coverage and design of traffic detection system
+installations for roadside technology and communications on motorways and all-purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 7.N], GG
+104 [Ref 9.N], GD 304 [Ref 3.N]and with all other DMRB documents relevant to the design of the
+particular works to be undertaken.
+1.2
+This document shall not be used for the design of traffic detectors for traffic signalling systems.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving traffic detection systems on the
+Overseeing Organisations' motorways and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 22
+======================================================================
+TD 135 Version 1.0.0
+2. General requirements for traffic detector sys...
+2.
+General requirements for traffic detector systems for roadside
+technology and communications
+Design of supports and foundations for traffic detectors for roadside
+technology and communications
+2.1
+The design of supports and foundations for traffic detectors for roadside technology shall be in
+accordance with CD 354 [Ref 2.N].
+Design of gantries for traffic detectors for roadside technology and
+communications
+2.2
+The design of gantries and gantry mounting arrangements for traffic detectors for roadside technology
+and communications shall be in accordance with CD 365 [Ref 6.N].
+Design of road restraint systems for traffic detectors for roadside technology
+and communications
+2.3
+The design of road restraint systems for traffic detectors for roadside technology and communications
+shall be in accordance with CD 377 [Ref 8.N].
+Outputs from the design of traffic detectors for roadside technology and
+communications
+2.4
+The outputs from the design of traffic detectors for roadside technology and communications shall
+include all details for the construction of the supporting infrastructure and the installation of traffic
+detectors.
+2.4.1
+For each traffic detector installation for roadside technology and communications the design outputs
+should include:
+1)
+the detector type and outstation equipment
+2)
+the installation location, using a formal location referencing system;
+3)
+mounting arrangement;
+4)
+support structures: posts, gantries, and methods of fixing to support structures;
+5)
+foundations for support structures;
+6)
+design coverage and visibility splay drawings for stopped vehicle detection systems;
+7)
+the installation technique for the loops if the slots are to be cut after resurfacing;
+8)
+the number of turns for detector loops;
+9)
+termination locations for detectors;
+10)
+the installation requirements for below ground detector systems that are not loops;
+11)
+the site acceptance testing and commissioning requirements for other non loops detectors;
+12)
+test certificate format for other non loop systems
+13)
+electrical and telecommunications installations, including cables, chambers and ducting; housings
+and enclosures; housing lock types; numbers of keys for locks; and switchgear and wiring;
+14)
+road restraint systems; and
+15)
+position and orientation of all components of the proposed installation relative to other items of
+existing and proposed road infrastructure, including the edge of the carriageway, so that the
+following can be identified:
+a)
+the environment in which the installation is to take place;
+b)
+the factors that can influence the construction methodology and scheduling of the proposed
+installation; and
+c)
+the factors that can affect the operational performance of the proposed installation in the
+future.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 22
+======================================================================
+TD 135 Version 1.0.0
+2. General requirements for traffic detector sys...
+2.5
+Information models shall be produced to define the details and dimensions of each traffic detector
+installation for roadside technology and communications.
+2.5.1
+Drawings and non-graphical information should be produced to provide any additional details or views
+needed for the construction of each traffic detector installation for roadside technology and
+communications.
+Traffic detection systems for roadside technology and communications
+2.6
+Traffic detector equipment for roadside technology and communications shall provide inputs for
+operational system functions.
+2.6.1
+Existing traffic detection systems or equipment for roadside technology and communications that
+operate with particular detectors may be modified, subject to approval by the Overseeing Organisation,
+to accommodate alternative detectors.
+2.6.2
+MCH 2664 [Ref 1.I]should be used as guidance on the application of Motorway incident detection and
+automatic signalling (MIDAS) radar for roadside technology and communications.
+Siting of traffic detectors for traffic detection for roadside technology and
+communications
+2.7
+Detectors for roadside technology and communications shall be sited to meet the needs of the system
+functions they are supporting.
+2.7.1
+The performance characteristics of different detector types for roadside technology and
+communications should be assessed in relation to highway infrastructure.
+NOTE
+The proximity of some items of highway infrastructure can affect the performance of some detector
+types. For example, obstruction of line of sight of the radar.
+Testing requirements (non loops) for traffic detectors for roadside technology
+and communications
+2.8
+The site acceptance testing requirements (non loops) for traffic detectors for roadside technology and
+communications shall be determined with the manufacturer and Overseeing Organisation.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 22
+======================================================================
+TD 135 Version 1.0.0
+3. Detectors for motorway incident detection and...
+3.
+Detectors for motorway incident detection and automatic
+signalling for roadside technology and communications
+Siting detectors for motorway incident detection and automatic signalling for
+roadside technology and communications
+3.1
+Primary detector siting for motorway incident detection and automatic signalling (MIDAS) for roadside
+technology and communications shall be established to meet the needs of operational system functions
+within highway design constraints in accordance with Tables 3.1Na-c.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 22
+======================================================================
+TD 135 Version 1.0.0
+3. Detectors for motorway incident detection and...
+Table 3.1a Primary detector locations for MIDAS-based incident detection on motorways. For each highway type, the table identifies
+preferred locations, and the limits for placing detectors within these locations.
+Detection location limits
+Highway type
+Preferred detection location
+Upstream limit
+Downstream limit
+Main line
+10 m upstream of reference signal
+50 m upstream of reference signal
+10 m downstream of reference signal
+Motorway to motorway links
+None
+100 m downstream of the diverge nose
+tip
+100 m upstream of the merge nose tip
+Diverge connector road with
+one lane running
+10 m upstream of exit slip signals (or 10
+m upstream of route confirmatory sign if
+there are no exit signals)
+2 m upstream of the preferred detector
+location or 50 m upstream of the
+adjacent main line detection point
+(whichever is closest to the preferred
+detection location)
+2 m downstream of the preferred
+detector location or 50 m upstream of
+the adjacent main line detection point
+(whichever is closest to the preferred
+detection location)
+Diverge connector road with 2
+or 3 running lanes
+Adjacent main line detection location
+20 m downstream of diverge-tip of nose
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+location)
+50 m downstream of diverge-tip of nose
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+location)
+Diverge connector road with 4
+or more running lanes
+Adjacent main line detection position
+10 m upstream of confirmatory gantry
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to (and upstream of) the
+preferred detection location)
+50 m downstream of diverge-tip of nose
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+location)
+Merge connector road
+Adjacent main line detection position
+Entry slip signal location or 50 m
+upstream of the adjacent main line
+detection point (whichever is closest to,
+and upstream of, the preferred
+detection position)
+50 m downstream of the adjacent main
+line detection point, or at the final lane
+gain or merge information sign, or 100
+m from merge tip of nose (whichever is
+closest to, and downstream of, the
+preferred detection position)
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 22
+======================================================================
+TD 135 Version 1.0.0
+3. Detectors for motorway incident detection and...
+Table 3.1b Primary detector locations for MIDAS-based incident detection on motorways with variable mandatory speed limits. For
+each highway type, the table identifies preferred locations, and the limits for placing detectors within these locations.
+Detection location limits
+Highway type
+Preferred detection location
+Upstream limit
+Downstream limit
+Main line
+10 m upstream of reference
+signal
+50 m upstream of reference signal
+10 m downstream of reference signal
+Motorway to motorway links
+None
+100 m downstream of the diverge nose tip
+100 m upstream of the merge nose tip
+Merge connector road
+None
+Entry signal location
+100 m upstream of merge tip of nose, and
+upstream of the final lane gain or merge
+information signs
+Diverge connector road (without
+diverge connector signals)
+100 m downstream of the
+diverge tip of nose
+50 m downstream of the diverge tip of
+nose
+100 m upstream of the end of the diverge
+connector road
+Diverge connector road (with
+diverge connector signals)
+Diverge connector signal
+10 m upstream of diverge connector signal
+location and 50m downstream of the
+diverge tip of the nose
+10 m downstream of diverge connector
+signal location
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 22
+======================================================================
+TD 135 Version 1.0.0
+3. Detectors for motorway incident detection and...
+Table 3.1c Primary detector locations for MIDAS-based incident detection on all-purpose trunk roads. For each highway type, the
+table identifies preferred locations, and the limits for placing detectors within these locations.
+Detection location limits
+Highway type
+Preferred detection location
+Upstream limit
+Downstream limit
+Main line
+10 m upstream of reference signal
+10 m upstream of reference signal
+10 m downstream of reference signal
+Diverge connector road with
+one running lane
+10 m upstream of exit slip signals (or 10
+m upstream of route confirmatory sign if
+there are no exit signals)
+2 m upstream of the preferred detector
+location or 50 m upstream of the
+adjacent main line detection point
+(whichever is closest to the preferred
+detection location)
+2 m downstream of the preferred
+detector location or 50 m upstream of
+the adjacent main line detection point
+(whichever is closest to the preferred
+detection location)
+Diverge connector road with 2
+or 3 running lanes
+Adjacent main line detection position
+20 m downstream of diverge-tip of nose
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+location)
+50 m downstream of diverge-tip of nose
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+location)
+Diverge connector road with 4
+or more running lanes
+Adjacent main line detection position
+10 m upstream of confirmatory gantry
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+position)
+50 m downstream of diverge-tip of nose
+or 50 m upstream of the adjacent main
+line detection point (whichever is
+closest to the preferred detection
+location)
+Merge connector road
+Adjacent main line detection position
+Entry slip signal location or 50 m
+upstream of the adjacent main line
+detection point (whichever is closest to
+the preferred detection location)
+50 m downstream of the adjacent main
+line detection point, or at the final lane
+gain or merge information sign or 100
+m from merge tip of nose (whichever is
+closest to the preferred detection
+location)
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 22
+======================================================================
+TD 135 Version 1.0.0
+3. Detectors for motorway incident detection and...
+NOTE
+Primary sites for detectors are the first to be sited when designing a scheme. When the primary sites
+have been identified, other sites can be located in relation to the primary sites in accordance with
+spacing requirements.
+3.2
+Where detection functions for roadside technology and communications require multiple detector sites,
+the spacing of detectors between primary sites shall meet operational requirements for detection
+resolution.
+NOTE
+MIDAS-based incident detection uses a detection resolution of 500 m +100/-200 m for all types of
+highway, with a scheme average tolerance of +50/-100 m.
+3.3
+One set of loop-based detectors for MIDAS detection equipment for roadside technology and
+communications shall be used on both carriageways mid-link, when the majority of detectors to be
+installed on the link are non-loop detectors.
+NOTE 1
+These non-loop detectors include (but are not limited to) side-fire radars and magnetometers.
+NOTE 2
+The midpoint loops-based MIDAS site are to be used as a reference point for the calibration of all other
+types of detectors on the link.
+3.4
+A gap in traffic detection provision for roadside technology and communications shall not be created
+between existing traffic detection locations or diverge connector roads adjacent to the scheme.
+NOTE
+For MIDAS-based incident detection, a gap of less than four signal sites creates a discontinuity in the
+network detection provision.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 22
+======================================================================
+TD 135 Version 1.0.0
+4. Stopped vehicle detection for roadside techno...
+4.
+Stopped vehicle detection for roadside technology and
+communications
+Provision of stopped vehicle detection for roadside technology and
+communications
+4.1
+On all links comprising a motorway incorporating variable mandatory speed limits (VMSL) without a
+hard shoulder, i.e. all lane running, stopped vehicle detection (SVD) for roadside technology and
+communications shall be provided to meet the operational requirements of the Overseeing
+Organisation.
+NOTE 1
+An all lane running carriageway link could have SVD provided throughout the length of that carriageway
+link in accordance with these requirements, even if there were some sections of hard shoulder within
+that link.
+NOTE 2
+A controlled motorway carriageway link could not have any SVD provision, in accordance with these
+requirements, even if that link contained some sections without a hard shoulder.
+NOTE 3
+The operational regime and resultant SVD provision is determined separately for each carriageway.
+4.2
+On all intra-junction sections that are within the scheme extents of a motorway incorporating VMSL
+without a hard shoulder, i.e. all lane running, SVD for roadside technology and communications shall
+be provided to meet the operational requirements of the Overseeing Organisation.
+NOTE
+An intra-junction section in an all lane running scheme which retains hard shoulders would have SVD
+provision in accordance with these requirements.
+4.3
+SVD for roadside technology and communications shall provide at least 95% coverage of mainline
+running lanes per link per carriageway.
+4.4
+SVD for roadside technology and communications shall provide at least 95% coverage of each
+mainline emergency area within the SVD coverage area.
+4.5
+SVD for roadside technology and communications shall provide at least 95% coverage of each
+mainline place of relative safety within the coverage area.
+NOTE
+All safety benefits of SVD are only realised where there is traffic camera coverage of the SVD coverage
+area.
+4.6
+SVD coverage on merge connector roads for roadside technology and communications shall
+commence from the back of the merge connector road nose and extend downstream.
+4.7
+SVD coverage on diverge connector roads for roadside technology and communications shall extend
+from the mainline to the back of the diverge connector road nose.
+4.7.1
+SVD coverage on the diverge connector road for roadside technology and communications may be
+extended downstream of the back of the diverge connector road nose where;
+1)
+there is a location-specific safety hazard relating to stopped vehicles on a diverge connector
+road, and
+2)
+where supported by a safety risk assessment that identifies SVD as a proportionate control
+measure.
+4.8
+Connector roads with restricted access within a link which has VMSL without a hard shoulder, i.e. all
+lane running, shall have SVD coverage in accordance with this section for roadside technology and
+communications.
+NOTE
+Connector roads with restricted access include provision for depots, works units and turnaround points.
+Both merge and diverge connector roads are included.
+4.8.1
+SVD coverage on a connector road with restricted access for roadside technology and communications
+may be extended downstream of the back of the diverge connector nose or upstream of the merge
+connector nose where:
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 22
+======================================================================
+TD 135 Version 1.0.0
+4. Stopped vehicle detection for roadside techno...
+1)
+there is a location-specific safety hazard relating to stopped vehicles on a connector road with
+restricted access; and,
+2)
+where supported by a safety risk assessment that identifies SVD as a proportionate control
+measure.
+NOTE
+The activity being taken into account in the safety risk assessment is the associated hazards and risks
+with road users using connector roads with restricted access as stopping places.
+4.9
+Any gap in SVD coverage of greater than 5 m in length for roadside technology and communications,
+and which extends across more than half a lane's width, shall be subject to a safety risk assessment
+with measures to mitigate risks associated with a stopped vehicle incorporated, to demonstrate that
+risks have been reduced so far as is reasonably practicable.
+NOTE 1
+SVD coverage levels and gaps are set to meet the reasonable expectation that a stopped vehicle could
+be detectable.
+NOTE 2
+SVD is only one component in a range of potential measures to mitigate the risks associated with
+stopped vehicles.
+Siting of stopped vehicle detection for roadside technology and
+communications
+4.10
+SVD detectors for roadside technology and communications shall be sited and mounted to enable
+detection at all times.
+4.11
+SVD detectors for roadside technology and communications shall be sited and mounted to enable
+differentiation between vehicles stopped in mainline live lanes and vehicles stopped in mainline places
+of relative safety.
+4.12
+SVD detectors for roadside technology and communications shall be sited and mounted in
+consideration of the wider highway and roadside technology design, such that they continuously
+provide the required coverage throughout the scheme's design life.
+NOTE
+Reasonably foreseeable impediments to continuously providing the required coverage could include
+future vegetation growth or a planned change to the roadside assets or layout which could affect
+detection reach or accuracy.
+4.12.1
+SVD detectors and associated roadside equipment for roadside technology and communications
+should be co-located with other roadside technology equipment for efficient construction and ongoing
+maintenance.
+4.12.2
+SVD detectors for roadside technology and communications may be standalone or attached to gantry
+legs using brackets.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 22
+======================================================================
+TD 135 Version 1.0.0
+5. Traffic counting detectors for roadside techn...
+5.
+Traffic counting detectors for roadside technology and
+communications
+Provision of traffic counting detectors for roadside technology and
+communications
+5.1
+Traffic counting detectors for roadside technology and communications shall be provided where traffic
+monitoring capabilities are required.
+NOTE
+Traffic counting detectors are provided to monitor traffic flows, vehicle speeds and vehicle classification.
+5.1.1
+The Overseeing Organisation should be consulted to confirm the need for traffic monitoring for roadside
+technology and communications.
+NOTE
+Typically, one traffic counting site per link is provided that is aligned across all lanes on both
+carriageways. Other configurations can be applied for traffic counting sites on, for example, link roads.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 22
+======================================================================
+TD 135 Version 1.0.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 127, 'Cross-sections and headrooms'
+Ref 2.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 3.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 4.N
+National Highways. CD 122, 'Geometric design of grade separated junctions'
+Ref 5.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+National Highways. CD 365, 'Portal and cantilever signs/signals gantries'
+Ref 7.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 8.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 9.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 10.N
+National Highways. GD 301, 'Smart motorways'
+Ref 11.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 22
+======================================================================
+TD 135 Version 1.0.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. OTSL. MCH 2664, 'MIDAS Radar Installation Guide'
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 22
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 135 Version 1.0.0, published: 30-Sep-2025
+
+
