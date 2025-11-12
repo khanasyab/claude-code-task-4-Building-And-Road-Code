@@ -1,0 +1,588 @@
+======================================================================
+PAGE 1 of 15
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 360
+Use of compressive membrane action in
+bridge decks
+(formerly BD 81/02)
+Revision 2
+Summary
+This document provides requirements and advice for the use of compressive membrane action
+in the design and assessment of reinforced concrete bridge deck slabs.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 2 of 15
+======================================================================
+CD 360 Revision 2
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Symbols
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Design
+8
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Serviceability limit state
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Minimum area of reinforcement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3. Assessment
+9
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+4. Calculation of local capacity of bridge deck slabs
+10
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Limitations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Procedure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+5. Normative references
+12
+6. Informative references
+13
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 3 of 15
+======================================================================
+CD 360 Revision 2
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+2
+Mar 2020
+Revision 2 (March 2020) Revision to update references only. Revision 1
+(October 2018) This revision reflects a minor change to a typographical error in
+clause 4.2. Clause 4.2 now reads as a requirement with 11 sub points and two
+corresponding notes. Revision 0 (June 2018) CD 360 replaces BD 81/02. This
+full document has been re-written to be compliant with the new Highways
+England drafting rules.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 4 of 15
+======================================================================
+CD 360 Revision 2
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BD 81/02, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 5 of 15
+======================================================================
+CD 360 Revision 2
+Introduction
+Introduction
+Background
+This document provides requirements and advice for the use of the compressive membrane action in
+the design and assessment of reinforced concrete bridge deck slabs.
+Flexure of unrestrained slabs is associated with in-plane movements at the supports which are
+compatible with the vertical deflections of the slab. However, if these movements are restrained
+effectively, a system of compressive forces can be established which carries the load in an arching
+action. This behaviour is known as compressive membrane action and can significantly increase the
+load capacity of the slab.
+Several studies have shown the beneficial effects of the compressive membrane action to the strength
+of reinforced concrete deck slabs where sufficient restraints exist. Many of the criteria given in this
+document are based on experimental evidence, which has been conservatively interpreted for use in
+the design and assessment. A summary of the most recent research and testing can be found in 'A
+review of arching and compressive membrane action in concrete bridges' Collings & Sagaseta [Ref 1.I].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 6 of 15
+======================================================================
+CD 360 Revision 2
+Symbols
+Symbols
+Symbols
+Symbol
+Definition
+d
+Average effective depth to the tensile reinforcement (mm)
+εc
+Plastic strain of an idealised elastoplastic concrete (non-dimensional)
+fc
+Concrete compressive cylinder strength (N/mm2)
+fck,cube
+Characteristic compressive cube strength as defined in BS EN 1992-1-1 [Ref 4.N]
+(N/mm2)
+fcu
+Characteristic or worst credible concrete cube strength as defined in CS 455 [Ref 6.N]
+(N/mm2)
+h
+Overall slab depth (mm). For precast concrete participating formwork panels h is
+taken as the overall depth minus 10 mm, in order to allow for the reduced depth at
+panel joints.
+k
+Arching moment coefficient (non-dimensional)
+Lr
+Half span of slab strip with boundary restraint (mm)
+Ppd
+Ultimate predicted load (axle loading)
+Pps
+Ultimate predicted load (per wheel)
+R
+Arching moment of resistance (non-dimensional)
+γc
+Partial factor for concrete (non-dimensional) in accordance with BS EN 1992-1-1 [Ref
+4.N]
+γm
+Partial safety factor for strength (non-dimensional) in accordance with CS 455 [Ref
+6.N]
+φ
+Diameter of loaded area (mm)
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 7 of 15
+======================================================================
+CD 360 Revision 2
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Boundary restraint
+Restraint generated around the boundary of a deck slab by adjacent members
+and which can be assumed to limit the in-plane expansion of a deck member.
+Span of slab strip
+Primary span. This is taken as:
+1. clear span in slabs monolithic with beams; or
+2. distance between beam web centre lines in slabs supported on steel or
+concrete girders.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 8 of 15
+======================================================================
+CD 360 Revision 2
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used in conjunction with the of DMRB document CS 455 [Ref 6.N] and BS EN
+1992-2 [Ref 3.N] except where otherwise required by this document.
+1.2
+This document shall be used for the design and assessment of reinforced concrete bridge deck slabs
+subject to single wheel and axle loading.
+1.3
+During the design and assessment of reinforced concrete bridge deck slabs, the slab shall be checked
+under both global and local loading cases.
+1.3.1
+Flexural action should be assumed in analysing slabs.
+1.4
+Bridge deck slabs shall be restrained along all four boundaries, as defined in clause 4.2, in order for
+compressive membrane action to be reliably mobilised.
+1.5
+This document shall be used for steel and concrete beam and slab type bridge decks, including those
+with participating precast concrete deck slab formwork.
+1.6
+This document shall not be used for cantilever overhangs nor deck slabs with insufficient restraint,
+which shall be designed or assessed in accordance with BS EN 1992-2 [Ref 3.N] and CS 455 [Ref 6.N].
+1.7
+Loadings shall be in accordance with DMRB document CS 454 [Ref 1.N] for assessment and BS EN
+1991-2 [Ref 2.N] for design.
+Implementation
+1.8
+This document shall be implemented forthwith on all schemes involving the use of compressive
+membrane action for design and assessment in bridge decks with sufficient restraint on the Overseeing
+Organisations' motorway and all-purpose trunk roads according to the implementation requirements of
+GG 101 [Ref 5.N].
+Use of GG 101
+1.9
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 9 of 15
+======================================================================
+CD 360 Revision 2
+2. Design
+2.
+Design
+General
+2.1
+Reinforced concrete bridge deck slabs shall be designed in accordance with BS EN 1992-2 [Ref 3.N]
+and this document.
+2.2
+Individual primary and secondary elements shall be designed to resist the loading which produces the
+most adverse effects due to combined global and local effects, where they coexist, in addition to the
+loading directly applied to them.
+2.3
+Analysis of the structure shall be carried out by separate analyses for global and local effects.
+Serviceability limit state
+2.4
+In order to allow for the effects of compressive membrane action on the global load distribution, two
+separate analyses shall be carried out using the flexural stiffness constants (second moment of area)
+for sections of discrete members or unit widths of slab elements as follows:
+1) Design of members spanning in the direction of compressive membrane action (i.e. the deck slab in
+beam and slab construction): the entire member cross-section, ignoring the reinforcement, for all
+members.
+2) Design of members spanning in the other direction (i.e. the longitudinal beams in beam and slab
+construction): half of the member cross-sectional width, ignoring the reinforcement, for the member
+subject to compressive membrane action (i.e. the deck slab), and the full member cross-sectional
+width, ignoring the reinforcement, for the other members (i.e. longitudinal beams).
+2.4.1
+The deck slab may be designed for twice the moment given by analysis 2 above, in order to avoid the
+need to undertake two separate analyses.
+2.5
+For reinforced concrete bridge deck slab panels restrained as defined in 4.2, the crack width due to
+global effect only shall be determined in accordance with BS EN 1992-2 [Ref 3.N].
+Ultimate limit state
+2.6
+Elastic method shall be used to determine the distribution of forces, as stated in 2.4.
+2.7
+Where the slabs comply with all the limitations of 4.2, the empirical method given in 4.3 to 4.12 shall be
+used for local analysis.
+2.8
+Where reinforced concrete bridge deck slabs are restrained as defined in 4.2, the deck slab
+reinforcement shall be derived on the basis of global effects only, in accordance with BS EN 1992-2
+[Ref 3.N].
+2.9
+The resistance to local effects shall be derived from the formulae in clauses 4.3 to 4.12.
+NOTE
+Punching shear is taken account of through the procedures presented in this document.
+Minimum area of reinforcement
+2.10
+The minimum steel area provided in the deck slab in each face in each direction shall be 0.3% of the
+gross concrete section.
+2.11
+The spacing of the bars shall be not greater than 250 mm.
+2.12
+The reinforcement in both faces in the direction of the primary slab span shall not be less than 750 mm2
+/m.
+2.13
+Where longitudinal reinforcement is required to resist global effects (e.g. in continuous bridges), the
+nominal steel required by clause 2.10 shall be provided in addition to the steel required to resist global
+effects.
+2.14
+Not less than 30% of the steel required for global effects shall be placed in the bottom face of the slab.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 10 of 15
+======================================================================
+CD 360 Revision 2
+3. Assessment
+3.
+Assessment
+General
+3.1
+Reinforced concrete bridge deck slabs shall be assessed in accordance with DMRB document CS 455
+[Ref 6.N] and this document.
+3.2
+Individual primary and secondary elements shall be designed to resist the loading that produces the
+most adverse effects due to combined global and local effects, where they coexist, in addition to the
+loading directly applied to them.
+3.3
+Analysis of the structure shall be carried out by separate analyses for global and local effects.
+3.4
+The assessed local capacity of the deck shall not exceed the load carrying capacity of adjacent
+supporting members.
+Ultimate limit state
+3.5
+In order to allow for the effects of compressive membrane action on the global load distribution, two
+separate analyses shall be carried out using the flexural stiffness constants (second moment of area)
+for sections of discrete members or unit widths of slab elements as follows:
+1) Assessment of members spanning in the direction of compressive membrane action (i.e. the deck
+slab in beam and slab construction): the entire member cross-section, ignoring the reinforcement,
+for all members.
+2) Assessment of members spanning in the other direction (i.e. the longitudinal beams in beam and
+slab construction): half of the member cross-sectional width, ignoring the reinforcement, for the
+member subject to compressive membrane action (i.e. the deck slab), and the full member
+cross-sectional width, ignoring the reinforcement, for the other members (i.e. longitudinal beams).
+3.5.1
+The deck slab may be assessed for twice the moment given by analysis 2 above, in order to avoid the
+need to undertake two separate analyses.
+3.6
+Where the slabs comply with all the limitations of 4.2, the empirical method given in clauses 4.3 to 4.12
+shall be used for local analysis.
+3.7
+Where in addition to complying with all the limitations of clause 4.2 the slab is at least 160 mm and has
+a characteristic or worst credible concrete cube strength ( fcu ) of 40 N/mm2, a HB loading of up to 45
+units shall be assumed for local analysis.
+3.8
+Where reinforced concrete bridge deck slabs are restrained as defined in 4.2, the global resistance
+shall be derived from all of the member reinforcement, in accordance with CS 455 [Ref 6.N].
+3.9
+The resistance to local effects shall be derived from 4.3 to 4.12.
+NOTE
+Punching shear is taken account of through the procedures presented in this document.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 11 of 15
+======================================================================
+CD 360 Revision 2
+4. Calculation of local capacity of bridge deck ...
+4.
+Calculation of local capacity of bridge deck slabs
+General
+4.1
+The following method shall be used to calculate the ultimate local capacity of laterally restrained deck
+slabs for design and assessment.
+NOTE
+This method assumes that the slab reinforcement makes no contribution to the local load carrying
+capacity.
+Limitations
+4.2
+The procedures given in clauses 4.3 to 4.12 shall only be used for design and assessment of bridge
+deck slabs that comply with the following limitations:
+1) The transverse (primary) span length of a slab panel perpendicular to the direction of traffic does not
+exceed 3.7 m.
+2) The slab extends at least 1.0 m beyond the centre line of the external longitudinal supports of a
+panel.
+3) The span length to thickness ratio of the slab does not exceed 15.
+4) In skew slabs, the skew span length to thickness ratio does not exceed 15.
+5) For skew angles greater than 20°, the end portion of the deck is designed or assessed in
+accordance with BS EN 1992-2 [Ref 3.N] or CS 455 [Ref 6.N] respectively.
+6) Transverse edges at the ends of the bridge and at intermediate points where the continuity of the
+slab is broken are both supported by diaphragms or other suitable means and are designed for the
+full effects of the wheel loads.
+7) Cross frames or diaphragms are present at the support lines of all bridges.
+8) Bridges with steel beams also have cross frames or diaphragms at centres not exceeding 8 m or
+half of the span of the bridge.
+9) Bridges with concrete beams, other than prestressed beams complying with the serviceability
+imitations of BS EN 1992-2 [Ref 3.N] for design and CS 455 [Ref 6.N] for assessment, have at least
+one intermediate diaphragm in each span.
+10) All the cross frames or diaphragms extend throughout the width of the bridge between external
+girders and extend from the top to the bottom flange, or in case of T section beams with no distinct
+bottom flange, from the slab over at least 75% of the depth of the web.
+11) Edge beams are present for all slabs having main reinforcement parallel to traffic.
+NOTE 1
+Where in an external panel the combined cross-sectional area of slab and kerb, beyond the centre line
+of the external girder, is not less than the cross-sectional area of one metre length of deck slab,
+(referred to in item 2 in the list above) a kerb or string course integral with the slab can be used instead
+of the 1.0 m overhang.
+NOTE 2
+An edge beam (referred to in item 11 in the list above) can consist of a slab section reinforced to carry
+the full effect of wheel loads, a beam integral with and deeper than the slab, an integral reinforced
+section of slab and kerb, or a continuous parapet or barrier to stiffen the edge of the slab.
+Procedure
+4.3
+The concrete compressive cube strength shall be expressed as the equivalent cylinder strength
+fc
+(
+N/mm2)
+given by Equation 4.3a for assessment and Equation 4.3b for design.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 12 of 15
+======================================================================
+CD 360 Revision 2
+4. Calculation of local capacity of bridge deck ...
+Equation 4.3a Assessment
+fc =0.8fcu
+γm
+Equation 4.3b Design
+fc =0.8fck,cube
+γc
+4.4
+The plastic strain of an idealised elastic-plastic concrete, εc , shall be taken as:
+Equation 4.4
+εc =
+(
+−400 + 60fc−0.33f 2
+c
+)
+10−6
+4.5
+The non-dimensional parameter for arching moment of resistance, R , shall be taken as:
+Equation 4.5
+R = εcL2
+r
+h2
+4.6
+Where R is less than 0.26, the deck slab shall be treated as restrained.
+4.7
+Where R is higher than 0.26, the deck slab shall be treated as unrestrained.
+4.8
+Where R is higher than 0.26, benefit from compressive membrane action to enhance the load capacity
+of the slab shall not be assumed.
+4.9
+The non-dimensional arching moment co-efficient, k , shall be taken as:
+Equation 4.9
+k = 0.0525
+(
+4.3 −16.1
+√
+3.3 × 10−4 + 0.1243R
+)
+4.10
+The effective reinforcement ratio, ρe , shall be taken as:
+Equation 4.10
+ρe = k
+[ fc
+240
+][h
+d
+]2
+4.11
+The ultimate predicted load for a single wheel, Pps(N) , shall be taken as:
+Equation 4.11
+Pps = 1.52(φ + d)d
+√
+fc(100ρe)0.25
+4.12
+Where a deck is subject to axle loading, either two wheels on one slab or two wheels on adjacent axles,
+the ultimate predicted wheel load, Ppd(N) , shall be taken as:
+Equation 4.12
+Ppd = 0.65Pps
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 13 of 15
+======================================================================
+CD 360 Revision 2
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CS 454, 'Assessment of highway bridges and structures'
+Ref 2.N
+BSI. BS EN 1991-2, 'Eurocode 1. Actions on structures. Traffic loads on bridges'
+Ref 3.N
+BSI. BS EN 1992-2, 'Eurocode 2. Design of concrete structures. Part 2: Concrete
+bridges. Design and detailing rules'
+Ref 4.N
+BSI. BS EN 1992-1-1, 'Eurocode 2: Design of concrete structures. General rules and
+rules for buildings'
+Ref 5.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+Highways England. CS 455, 'The assessment of concrete highway bridges and
+structures'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 14 of 15
+======================================================================
+CD 360 Revision 2
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Proceedings of the Institution of Civil Engineers Bridge Engineering 169(4):271-284.
+Collings, D. and Sagaseta, J. Collings & Sagaseta, 'A review of arching and
+compressive membrane action in concrete bridges'
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
+
+======================================================================
+PAGE 15 of 15
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 360, published: Mar-2020
+
+
