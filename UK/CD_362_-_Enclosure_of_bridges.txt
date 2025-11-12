@@ -1,0 +1,1271 @@
+======================================================================
+PAGE 1 of 27
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 362
+Enclosure of bridges
+(formerly BD 67/96, BA 67/96)
+Revision 1
+Summary
+This document describes the requirements for the implementation of an enclosure as a means of
+bridge protection. This document gives the methods of evaluating and the design requirements.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 2 of 27
+======================================================================
+CD 362 Revision 1
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Evaluation
+9
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Cost of enclosure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Changes in the cost of the bridge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Inspection and maintenance costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Road user delay costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Railway/waterway possessions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Other safe access requirements
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Performance criteria
+12
+Durability
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Fire safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Enclosure components, supports and fixings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Headroom and accidental damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Clearance within the enclosure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Inspection and maintenance requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Enclosure panels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Drainage
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Vandalism or unauthorised access . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Aesthetics and appearance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+4. Properties of enclosure materials and components
+18
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Enclosure material properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Enclosure component properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Testing of enclosure materials and components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+5. Design of structural elements
+19
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Method of analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Dead loads and superimposed dead loads
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Live loads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Wind loads
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Temperature loading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 3 of 27
+======================================================================
+CD 362 Revision 1
+Contents
+Deflection criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Aerodynamic effect . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Partial factor (safety or serviceability)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+6. Normative references
+22
+7. Informative references
+23
+Appendix A. General assessment of a bridge enclosure
+24
+A1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+A1.1 Type of bridge structure under consideration
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+A1.2 Expected maintenance on new or existing bridges
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+A1.3 Accessibility for bridge inspection and maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . .
+24
+A1.4 Bridge environment. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+A1.5 New or existing structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Appendix B. Enclosure live loading
+25
+B1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B1.1 Category A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B1.2 Category B . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+B1.3 Category C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 4 of 27
+======================================================================
+CD 362 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Mar 2020
+Revision 1 (March 2020) Update of references only. Revision 0 (May 2019) CD
+362 replaces BD 67/96. This full document has been re-written to make it
+compliant with the new Highways England drafting rules. It also includes
+relevant information from BA 67/96 which is withdrawn.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 5 of 27
+======================================================================
+CD 362 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BD 67/96 and BA 67/96, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 6 of 27
+======================================================================
+CD 362 Revision 1
+Introduction
+Introduction
+Background
+This document contains the requirements for the evaluation and design of a bridge enclosure to form a
+protection against corrosion.
+The traditional method for the protection of bridge superstructures against corrosion is a protective
+coating, particularly in the case of steel. Periodic maintenance of the protective coating is necessary
+which is costly and frequently results in traffic delays.
+In 1980, the Transport Research Laboratory (TRL) put forward the concept that steel structures which
+are enclosed against contaminants in the environment, could be rendered maintenance free for periods
+of at least thirty years.
+Trials on bridges at Iden (1979), Exceat (1981) and Queenhill (1984) confirmed the principle of
+enclosure to protect steel bridges against corrosion. Hence an alternative to the traditional method of
+providing long-life multi-coat systems to bridge steelwork is to provide an enclosure. The research
+reports, TRL SR621 [Ref 1.I], TRL RR293 [Ref 2.I] and TRL RR83 [Ref 3.I] discuss the principle of
+bridge enclosures in detail and provide further information on the concept.
+An enclosure around bridge deck support steelwork provides an additional method of protecting the
+steel against corrosion. An environment of low corrosivity is produced which reduces the rate of
+breakdown of the protective coatings to the steelwork. A less costly initial protection system can be
+used within an enclosure on a new bridge. The reduced rate of corrosion of the steel and a reduced
+requirement for cosmetic repair give greater flexibility to maintenance strategies for bridges with
+enclosures.
+An enclosure also provides access for inspection and maintenance of the bridge.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 12.N] apply to this document.
+References in this document to BS EN document include their UK National Annexes and all relevant
+Published Documents (PDs).
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 12.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 7 of 27
+======================================================================
+CD 362 Revision 1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+TAA
+Technical Approval Authority
+TRL
+Transport Research Laboratory
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 8 of 27
+======================================================================
+CD 362 Revision 1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Category A
+Area designation within the enclosure designed to carry live loading due
+to inspection and maintenance activities.
+Category B
+Area designation within the enclosure designed to carry live loading due
+to inspection activities only.
+Category C
+Area designation within the enclosure not intended for personnel access
+(including side panels).
+Enclosure
+The complete unit which forms a boundary around the primary steelwork
+of a bridge below deck level enclosing the steelwork in a protective
+environment.
+Enclosure components
+Enclosure panels, support members, fixings and fasteners.
+Enclosure internals
+Access ways, permanent services and equipment and non-structural
+elements and items such as cabling, service pipes (including contents),
+lighting and ventilation plant within the enclosure.
+Enclosure panels
+The structural panels forming the outer shell of an enclosure.
+Fasteners
+Typically bolts, nuts, washers, rivets, pins and screws.
+Fixings
+An assembly of fasteners, brackets and other items that are used to
+attach either an enclosure panel or support member to the structure or
+an enclosure panel to a support member.
+Support member
+A member to which the enclosure panel is affixed for support.
+NOTE: Members can be designed as separate items for individual
+installation or attached to the enclosure panel during manufacture.
+Unconventional materials
+Materials whose properties are not given in European Standards,
+European Technical Approvals, British Standards.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 9 of 27
+======================================================================
+CD 362 Revision 1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements in this document shall apply to the evaluation and design of enclosures of the
+structural steel elements below deck level of the bridge.
+1.2
+The requirements in this document shall not apply to the enclosure of elements above deck level.
+1.3
+The requirements in this document shall apply to enclosures for existing bridges and new bridges.
+1.4
+The requirements in this document shall only apply to enclosures acting non-compositely with the
+bridge superstructure.
+1.5
+The procedures for design approvals by the TAA on behalf of the Overseeing Organisation in
+accordance with the requirements in CG 300 [Ref 14.N] shall apply.
+Implementation
+1.6
+This document shall be implemented forthwith on all schemes involving the design and installation of
+bridge enclosures on the Overseeing Organisations' motorway and all-purpose trunk roads according
+to the implementation requirements of GG 101 [Ref 12.N].
+Use of GG 101
+1.7
+The requirements contained in GG 101 [Ref 12.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 10 of 27
+======================================================================
+CD 362 Revision 1
+2. Evaluation
+2.
+Evaluation
+General
+2.1
+The whole life costs of the bridge with and without an enclosure shall be evaluated and compared.
+2.2
+The following costs of the bridge with an enclosure shall be evaluated for the comparison:
+1) the cost of the enclosure itself and its maintenance;
+2) any change in the cost of the bridge and associated works as a consequence of attaching the
+enclosure to it;
+3) the cost of permanent access provisions for inspection and maintenance;
+4) the costs of using temporary access facilities during inspection and maintenance where it is
+impractical to provide access facilities within an enclosure;
+5) inspection and maintenance costs of the bridge;
+6) road user delay costs or railway/waterway possession costs during installation of the enclosure; and,
+7) road user delay costs or railway/waterway possession costs during inspection and maintenance of
+the enclosure and the bridge.
+2.3
+The following costs of the bridge without an enclosure shall be evaluated for the comparison:
+1) the cost of permanent or temporary access provisions for inspection and maintenance;
+2) inspection and maintenance costs of the bridge; and,
+3) road user delay costs or railway/waterway possession costs during inspection and maintenance of
+the bridge.
+2.3.1
+The whole life costs of the bridge with and without an enclosure should be compared on the basis of
+their present value evaluated for a 40-year appraisal period.
+NOTE 1
+The appraisal of highway structures considers a 40-year period after which the power of discounting is
+such that the net present value of subsequent costs has very little effect on a life cycle cost analysis.
+NOTE 2
+The 40-year period used for appraisal of highway structures significantly reduces the amount of
+conjecture that could be required for a 120-year appraisal period.
+NOTE 3
+The 40-year period used for appraisal of highway structures falls within the 25-40 year period that is
+commonly used when carrying out life cycle costs appraisals of highway pavements.
+2.4
+Where the whole life cost of the bridge with an enclosure are similar to, or less than that of the bridge
+without an enclosure, the provision of an enclosure shall be further investigated through a detailed
+benefits assessment of all the factors which influence the inclusion of an enclosure.
+2.5
+A general assessment of the benefits of providing an enclosure shall be carried out prior to evaluating
+detailed life cycle costs.
+NOTE
+Appendix A gives a method for carrying out a general assessment for the application of an enclosure.
+Cost of enclosure
+2.6
+An outline design of the enclosure shall be carried out to obtain an estimate of the cost.
+2.6.1
+Where previous experience of an enclosure of similar size and form is available, this may be used to
+assist the estimation of the cost of the enclosure being considered.
+Changes in the cost of the bridge
+2.7
+Where an enclosure is being considered, the change in the cost of the bridge as a consequence of
+attaching the enclosure shall be quantified by comparing the additional costs to the bridge with the
+reduction in costs.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 11 of 27
+======================================================================
+CD 362 Revision 1
+2. Evaluation
+2.7.1
+Additional costs to the bridge as a consequence of attaching an enclosure should be evaluated for the
+purpose of comparison from:
+1) additional structural material in the bridge required to carry the additional loads (dead, superimposed
+dead, live and wind loads and transferred impact loads) associated with the enclosure;
+2) any strengthening works to an existing bridge to carry the additional loads associated with the
+enclosure;
+3) special details required for the attachment of the enclosure;
+4) special measures needed to counter any adverse aerodynamic effect due to the enclosure; and,
+5) cost to the bridge and approach roads associated with raising the level of the bridge soffit in order to
+maintain the accepted minimum headroom clearance below the enclosure.
+2.7.2
+Reduction in costs to the bridge as a consequence of attaching an enclosure should be evaluated for
+the purpose of comparison from:
+1) a less costly paint system applicable to internal surfaces;
+2) a reduction in concrete cover to the reinforcement of an enclosed concrete slab on a composite
+bridge;
+3) the benefits of reduced wind loads where the enclosure improves the aerodynamic characteristics of
+the bridge;
+4) savings associated with the avoidance of the need for special arrangement like access platforms
+under the bridge; and,
+5) savings in formwork and falsework costs where the enclosure can be used to provide either support
+or access during construction and maintenance.
+Inspection and maintenance costs
+2.8
+Inspection and maintenance costs shall be evaluated for the bridge, with and without an enclosure, and
+compared over the whole life of the structure.
+2.9
+Maintenance costs for the main structural elements shall be calculated, with and without enclosure, and
+compared using documents CD 355 [Ref 16.N].
+2.9.1
+The comparison of inspection and maintenance costs may be simplified by ignoring the elements of the
+bridge which are common to both with and without enclosure.
+Road user delay costs
+2.10
+Traffic delays due to lane closure below an overbridge and on the deck of the bridge for access
+purpose, during inspection and maintenance shall be costed.
+2.10.1
+Traffic delays caused by lane closure due to plant or temporary access requirements should be
+included in the delay costs.
+2.10.2
+Traffic delays due to installation of the enclosure should be included in the delay costs.
+2.10.3
+Road user delay costs should be evaluated using a methodology agreed with the Overseeing
+Organisation and discounted using the methods described in document CD 355 [Ref 16.N].
+Railway/waterway possessions
+2.11
+The whole-life cost of railway or waterway possessions for the construction, inspection and
+maintenance of the bridge, with or without enclosure, shall be evaluated.
+2.11.1
+The additional costs of working during railway and waterway possessions due to enforced restrictions
+should be included in the evaluation.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 12 of 27
+======================================================================
+CD 362 Revision 1
+2. Evaluation
+Other safe access requirements
+2.12
+Whole-life costs for the provision of all other safe access requirements such as safety boats when
+working on a waterway shall be evaluated for the comparison of costs for the bridge with and without an
+enclosure.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 13 of 27
+======================================================================
+CD 362 Revision 1
+3. Performance criteria
+3.
+Performance criteria
+Durability
+3.1
+The enclosure shall be designed as a permanent feature of the bridge structure.
+3.2
+The enclosure together with the components and internals shall have a design life of at least 40 years
+with a life to first maintenance of at least 20 years.
+3.3
+The required frequency for maintenance work on the enclosure components and internals shall be the
+same as, or less than, the required frequency for maintenance work on the enclosed bridge deck
+support steelwork.
+3.4
+Items of the enclosure which are designed to require regular replacement, such as seals, shall be
+designed for ease of access without disruption to traffic.
+3.5
+Where materials of different electrochemical potential are connected together, either within the
+enclosure or in attaching the enclosure to the bridge, they shall be isolated to prevent bi metallic
+corrosion.
+3.6
+Items of the enclosure which are particularly vulnerable to corrosion due to design detailing or their
+position shall be identified to ensure that the corrosion protection is as effective as on the surrounding
+structure.
+NOTE 1
+The enclosure can cause condensation to form on internal surfaces and collect on its floor, along with
+dust and debris arising from inspection and maintenance activities.
+NOTE 2
+The control of corrosion can be achieved by preventing significant air movement. However, the need
+for safe inspection and maintenance has to be considered.
+NOTE 3
+Prevention of corrosion by forced ventilation is not viable in a potentially corrosive environment.
+3.7
+For new steelwork within the enclosure, the minimum corrosion protective system shall be Type II,
+Table 19/2B in MCHW NG [Ref 13.N], unless environmental conditions mean that a more robust
+approach is required to meet the Overseeing Organisation's site specific requirements.
+3.8
+For existing steelwork to be incorporated within an enclosure, the protective coating shall be treated in
+accordance with the maintenance specification requirements for the site agreed with the Technical
+Approval Authority (TAA) on behalf of the Overseeing Organisation.
+Safety
+3.9
+The enclosure shall be designed to provide safe access for inspection and maintenance of all parts of
+the bridge it encloses.
+3.10
+Ventilation shall be provided during inspection and maintenance activities.
+3.10.1
+Safety measures should be designed where panels are temporarily removed for ventilation purposes
+during inspection and maintenance operations.
+3.10.2
+Provision for ventilation and safe methods for dust and fume extraction during inspection and
+maintenance should be included in the design.
+3.11
+Forced ventilation within the enclosure shall be used where natural ventilation is inadequate for dust
+and fume extraction.
+3.12
+The enclosure shall be designed to carry live loading according the following functions:
+1) category A - areas designed for both inspection and maintenance activities;
+2) category B - areas designed for inspection only; and,
+3) category C - areas not intended for personnel access (including side panels).
+3.13
+All the areas for designated live loads category A, B or C shall be:
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 14 of 27
+======================================================================
+CD 362 Revision 1
+3. Performance criteria
+1) shown on the record/maintenance drawings; and,
+2) clearly marked out within the enclosure.
+3.14
+Emergency access and exit routes within the enclosure shall be designed to category A or B.
+3.15
+Enclosure access shall be provided for safe entry points and emergency exits for personnel and
+equipment.
+3.15.1
+The dimensions of access openings should permit entry and exit for personnel and equipment in an
+emergency.
+3.15.2
+Enclosure access should be vandal resistant and fitted with locks which can be released from the
+inside without the use of a key.
+3.15.3
+Entry points should be placed so as to give access to all parts of the main superstructure elements
+without interfering with the traffic.
+3.15.4
+Access to the enclosure should be from underneath the bridge.
+3.16
+All entry points and emergency exits shall be designed so that a casualty on a stretcher can be
+evacuated.
+3.17
+Notices shall be provided at all entrances stating the safe loads that can be imposed upon the
+enclosure.
+3.18
+All walking surfaces within the enclosure shall be non-slip, self-draining and hazard free.
+3.19
+Permanent access ladders and guardrails shall be provided on access ways at changes in level within
+the enclosure.
+3.20
+Emergency routes and exits from within the enclosure shall be indicated by signs.
+3.21
+Where the enclosure access ways are long or complex, lighting shall be provided.
+3.22
+Emergency routes and exits shall be provided with emergency lighting of minimum intensity of 0.2 lux.
+3.23
+Where the operation of mains power boards, valves or other major equipment affect personnel safety,
+warning notices and signs shall be provided.
+Fire safety
+3.24
+Fire resistance of the enclosure shall be in accordance with the classification of spread of flame - Test
+Class 2 when tested to BS 476-7 [Ref 10.N].
+3.25
+Category A or category B areas within the enclosure which are designated to support inspection and
+maintenance activities shall maintain their structural integrity at the point of fire source for at least 10
+minutes when tested to BS 476-21 [Ref 9.N].
+3.26
+Drainage pipes which pass through the enclosure shall be able to contain burning liquids without
+leakage at all times.
+3.27
+In the event of a fire occurring within the enclosure, fire safety provisions shall be such that personnel
+can safely exit the enclosure and reach a place of safety within 2.5 minutes.
+3.28
+Where the enclosure is long or has a complex interior, and escape time to a point of safety is increased,
+an alternative approach shall be investigated to develop a fire safety plan to meet the fire safety
+requirements.
+NOTE
+A fire safety plan can be devised to take account of complexities within the enclosure which inhibit
+escape or cause smoke build up, and advice for this can be sought from specialist fire consultants.
+Enclosure components, supports and fixings
+3.29
+The enclosure, panels, supports and fixings shall be designed for ease of installation, inspection and
+replacement.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 15 of 27
+======================================================================
+CD 362 Revision 1
+3. Performance criteria
+3.30
+Fixings and joints shall be designed to allow for construction tolerances in both the bridge and the
+enclosure.
+3.31
+Allowance shall be made within the enclosure supports and fixings for relative movement between
+enclosure and bridge structure due to live loading of the bridge and enclosure.
+3.32
+The enclosure and its supports shall be designed to withstand movements of the bridge superstructure,
+including vibrations of the bridge deck.
+3.33
+Limits of stress or displacement due to the action of the enclosure supports on the bridge structure
+shall be detailed and recorded.
+3.34
+Enclosure supports, such as hangers, shall be designed to be replaceable during service without
+disruption to traffic.
+3.35
+Enclosure supports and fixings shall be adjustable to accommodate the requirements of the permanent
+structure and be designed to facilitate a method of installation which does not overstress the
+components.
+Headroom and accidental damage
+3.36
+The minimum headroom of a bridge with an enclosure shall be measured to the soffit of the enclosure
+and as given in document CD 127 [Ref 3.N] with allowance made for the provision of maintenance and
+future resurfacing of the road below.
+3.36.1
+Where necessary the headroom provision should be agreed between the TAA for the Overseeing
+Organisation and any other private or public body whose asset is affected.
+3.37
+Bridges with enclosures shall be designed to withstand vehicle impact loads, calculated using
+document BS EN 1991-1-7 [Ref 5.N].
+3.38
+For existing bridges vehicle impact loading shall be calculated as follows:
+1) where the headroom to the soffit of the enclosure is equal to or greater than 5.70 metres, neither the
+bridge superstructure nor enclosure need be designed to withstand the effects of vehicle impact
+loads; or,
+2) where the headroom to the soffit of the enclosure is less than 5.70 metres, the bridge superstructure
+is to be assessed only to withstand those effects of vehicle impact loads which are transferred from
+the enclosure.
+3.39
+For new bridges, vehicle impact loading shall be calculated as follows:
+1) where the headroom to the soffit of the enclosure is equal to or greater than 5.70 metres, neither the
+bridge superstructure nor enclosure need be designed to withstand those effects of vehicle impact
+loads;
+2) where the bridge superstructure has a headroom equal to or greater than 5.70 metres but the
+headroom to the soffit of the enclosure is less than 5.70 metres, the bridge is to be designed so that
+it can withstand those effects of vehicle impact loads which are transferred from the enclosure; or,
+3) where the headroom to the soffit of the enclosure and the bridge superstructure are each less than
+5.70 metres, the bridge superstructure is to be designed to withstand those effects of direct vehicle
+impact loads on the bridge superstructure and those loads which are transferred from the enclosure.
+3.40
+Where the headroom of the enclosure is less than 5.70 metres, the enclosure shall be designed such
+that:
+1) there is no general loss of support due to lateral displacement of the enclosure under impact;
+2) local damage in one area does not cause progressive collapse; and,
+3) damaged parts of the enclosure are readily identified and replaced.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 16 of 27
+======================================================================
+CD 362 Revision 1
+3. Performance criteria
+Clearance within the enclosure
+3.41
+Internal clearance within the enclosure shall be provided to allow access to all bridge parts requiring
+inspection and maintenance without removal of enclosure panels.
+NOTE
+Too small an enclosure can result in areas which are difficult or impossible to maintain.
+3.42
+The maximum headroom within the enclosure shall be agreed with the TAA on behalf of the
+Overseeing Organisation.
+3.43
+Expansion joints and bearings shall be replaceable while working within the enclosure.
+3.44
+The enclosure shall be designed to accommodate movement during the jacking procedure required to
+replace expansion joints and bearings.
+3.44.1
+Where replacement of expansion joints or bearings is not possible from within the enclosure, a
+maintenance procedure should be prepared which can include removal of panels in a safe manner with
+minimum disruption to traffic.
+3.44.2
+A clear gap of minimum 200mm should be maintained between the enclosure panels and the bridge
+steelwork soffit.
+3.45
+Clearance for personnel shall be maintained along the sides of the enclosure for access and
+maintenance of bridge edge beams.
+3.46
+Where clearances between steelwork and the enclosure are critical, specialised inspection techniques
+shall be devised to access confined spaces.
+3.47
+Additional surface protection shall be applied where access to steelwork within the enclosure is limited.
+Inspection and maintenance requirements
+3.48
+The enclosure shall be designed to facilitate future inspection and maintenance of the bridge and
+enclosure.
+3.49
+The enclosure shall be inspected as an integral part of the structure during its design life in accordance
+with the requirements of CS 450 [Ref 11.N].
+3.50
+All the records relevant for the execution of inspection and maintenance activities including access
+provisions shall be captured, stored and updated to ensure effective whole life management in
+accordance with CG 302 [Ref 1.N].
+Services
+3.51
+Provision shall be made for services within the enclosure for use during inspection and maintenance.
+3.51.1
+Provision should be made for temporary services within the enclosure where all parts of the enclosure
+requiring maintenance are accessible using temporary equipment for supply.
+3.51.2
+Permanent services should be designed within the enclosure where temporary provision is not practical.
+3.51.3
+Permanent services should be designed to withstand the conditions within the enclosure over the life
+span of the bridge.
+3.51.4
+Permanent services should be provided for:
+1) electrical power supply and equipment to provide a minimum lighting level of 150 lux within the
+enclosure;
+2) water supply;
+3) compressed air supply; and,
+4) a protected communication system for use in an emergency where the enclosure size or complexity
+inhibits personal communication.
+NOTE
+When not in use, drainage of water supply pipes is generally more effective than lagging and
+overcomes the need to design the enclosure for pipe failure.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 17 of 27
+======================================================================
+CD 362 Revision 1
+3. Performance criteria
+Enclosure panels
+3.52
+The enclosure panels shall be resistant to fungal attack, road deicing salts and airborne chemical
+pollutants.
+3.53
+Enclosure panel surfaces shall not reflect light in a manner to distract motorists or be a traffic hazard.
+3.54
+Individual enclosure panels shall be easily replaceable in the event of damage.
+3.54.1
+Provision of spare enclosure panels with long procurement periods should be included in the
+maintenance strategy.
+3.54.2
+Replacement of enclosure panels should be made from within the enclosure with a minimum use of
+external works.
+3.54.3
+Enclosure panels should be arranged to be removable individually without major disruption to
+surrounding areas.
+3.55
+The enclosure and its attachment to the bridge shall prevent significant movement of air through the
+enclosed space.
+3.56
+Panel joints shall be detailed so as to prevent solid objects from passing between them.
+3.57
+Panel joints shall accommodate differential movements of adjacent panels due to flexure or thermal
+action.
+3.58
+Flashing and sealing at the corners between enclosure panels and at joints between the enclosure and
+the primary bridge structure shall be designed to prevent the ingress of moisture and pollutants.
+NOTE 1
+It has been found that in a polluted environment the levels of airborne particulate contaminants within
+an enclosure with controlled ventilation are much lower than the levels outside.
+NOTE 2
+The concentration of gaseous pollutants within the enclosure can be at the same levels as outside, but
+the effect is less due to reduced air flow and different periods of wetness inside the enclosure.
+Drainage
+3.59
+Drainage shall be provided to prevent water accumulating inside the enclosure from any source.
+3.60
+Drainage shall be provided to disperse leakage from service pipes or during maintenance activities.
+3.61
+Drainage shall be provided to prevent water gathering at areas that are vulnerable to corrosion, such as
+fasteners and stiffener positions on the enclosure floor.
+Vandalism or unauthorised access
+3.62
+The design shall include mitigation measures to reduce damage and prevent unauthorised access.
+3.62.1
+Areas of the enclosure which are accessible to the general public should be designed to limit
+vandalism, or to reduce the consequences of vandalism.
+3.62.2
+Design against vandalism and unauthorised access should not compromise the safety of the inspection
+and maintenance personnel.
+3.62.3
+The enclosure material should be such that graffiti can be removed from it without undue difficulty or
+damage.
+Aesthetics and appearance
+3.63
+The overall appearance of the bridge with enclosure shall be attractive in appearance and aesthetically
+pleasing in relation to the road and the surrounding area.
+NOTE 1
+Guidelines on the factors to consider in the design process with respect to the appearance of bridges
+are provided in CD 351 [Ref 15.N].
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 18 of 27
+======================================================================
+CD 362 Revision 1
+3. Performance criteria
+NOTE 2
+Early involvement of architects and planners is beneficial so that the enclosure and bridge are
+harmonious, particularly where the structure is in a visually prominent or environmentally sensitive area.
+3.64
+The enclosure surface shall not deteriorate visually during the life span of the bridge.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 19 of 27
+======================================================================
+CD 362 Revision 1
+4. Properties of enclosure materials and compone...
+4.
+Properties of enclosure materials and components
+General
+4.1
+The enclosure component materials shall be chosen so that:
+1) their properties satisfy the safety, strength and rigidity requirements at serviceability limit state and
+ultimate limit state;
+2) their properties satisfy durability and fatigue requirements for the life span of the bridge;
+3) they are resistant to the environmental conditions during the life span of the bridge; and,
+4) where unconventional materials are specified that are not in common use, the manufacturing
+process and quality assurance are feasible and practical.
+Enclosure material properties
+4.2
+Where unconventional materials are proposed, the design values shall be established by testing.
+4.2.1
+Previously published test data from an independent accredited testing organisation may be used to
+assist the establishment of design strengths of enclosure components.
+NOTE
+Manufacturers test data that has been independently verified by an accredited organisation can be
+used.
+Enclosure component properties
+4.3
+Testing to establish the strength of enclosure components shall be specified where the components or
+the design configuration is unconventional or unique.
+4.3.1
+The design strength of enclosure components should be derived from full-scale testing.
+4.3.2
+Testing of the support members, fixings and fasteners should include the resistance to vibration and
+fatigue over the life span of the bridge.
+4.3.3
+Previously published test data from the manufacturer or an independent accredited testing organisation
+may be used to assist the establishment of design strengths of enclosure components.
+Testing of enclosure materials and components
+4.4
+Testing houses that are used to establish the design strength of enclosure materials and components
+shall be accredited in accordance with relevant European standards.
+4.4.1
+Design values of unconventional enclosure materials and components that are established by testing
+should be derived according to BS EN 1990 [Ref 8.N].
+NOTE
+Section 4.2 and Section 5.2 of BS EN 1990 [Ref 8.N] give general methodology of testing and analysis
+of results in order to achieve a reliability that is compatible with conventional materials.
+4.4.2
+Testing of enclosure materials and components should be representative of the loading on the bridge
+structure at ultimate limit state and serviceability limit state.
+4.4.3
+Tests to establish design values of unconventional enclosure materials and components should include
+the effects of ageing and environmental influence.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 20 of 27
+======================================================================
+CD 362 Revision 1
+5. Design of structural elements
+5.
+Design of structural elements
+General
+5.1
+The enclosure components shall be designed using limit state principles in accordance with BS EN
+1990 [Ref 8.N].
+5.2
+The design values for the enclosure components shall be calculated by the global and local analysis of
+the bridge structure at ultimate limit state and serviceability limit state.
+5.3
+In addition to structural design the enclosure components shall be designed against fire, vibration,
+fatigue and environmental damage.
+5.4
+Where the enclosure is designed for an existing bridge, the bridge shall be assessed to CS 454 [Ref
+2.N] taking into account the full effects of the enclosure.
+Method of analysis
+5.5
+The method of analysis shall be agreed with the TAA for the Overseeing Organisation as part of the CG
+300 [Ref 14.N] process.
+5.6
+In general, global analysis shall be either by elastic methods (linear or non-linear) or plastic methods
+appropriate to the limit state being considered and materials used.
+5.7
+Plastic methods of analysis shall only be used for materials which exhibit sufficient ductile behaviour to
+cater for large strains and deflections.
+Dead loads and superimposed dead loads
+5.8
+Nominal values for dead loads of enclosure components and superimposed dead loads of enclosure
+internals shall be calculated from the densities of the materials given in BS EN 1991-1-1 [Ref 4.N].
+5.8.1
+Where enclosure materials are not included in BS EN 1991-1-1 [Ref 4.N], values for dead load
+calculation may be obtained from the manufacturer.
+Live loads
+5.9
+Components of the enclosure shall be designed to withstand live loading within the designated areas
+for each category A, B and C.
+NOTE
+Explanation of enclosure live loads is given in Appendix B.
+5.10
+Category A areas shall be designed to withstand the following:
+1) a vertically downward uniformly distributed load (UDL) of 2.5 kN/m² over a total area of 10 m² of any
+shape, which can be continuous or divided to give the most adverse effect, together with a uniformly
+distributed load of 0.75 kN/m² elsewhere; and,
+2) in addition to the loading given in (1), a single-point load of nominal value 1.25 kN applied to an area
+150 mm square in any direction on all surfaces of the enclosure, including side panels.
+5.11
+Category A areas shall be checked for two point-loads of nominal value 2.5 kN at 0.7-metre centres
+applied to an area 150 mm square in conjunction with a uniformly distributed load of 0.75 kN/m²
+elsewhere.
+5.12
+Any part of the live load which causes a relieving effect on the element being assessed shall be omitted.
+5.13
+Where heavy equipment is to be used inside the enclosure, or where the enclosure is required to
+temporarily support superstructure loads such as from the construction of the deck, these additional
+loads shall be applied explicitly.
+5.14
+Category B areas within the enclosure shall be designed to withstand the following:
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 21 of 27
+======================================================================
+CD 362 Revision 1
+5. Design of structural elements
+1) a uniformly distributed load of 1.5 kN/m² over a total area of 10 m² of any shape, which can be
+continuous or divided to give the most adverse effect, together with a uniformly distributed load of
+0.75 kN/m² elsewhere; and,
+2) where the depth of the structure is such that additional scaffolds and ladders are required to provide
+inspection access, category A loading will apply.
+5.15
+Category C areas shall be designed to withstand a live load uniformly distributed load of 1.0 kN on any
+300- mm square area.
+Wind loads
+5.16
+Local wind loading on the enclosure components and the overall wind loading on the bridge as
+modified by the enclosure shall be evaluated using BS EN 1991-1-4 [Ref 6.N].
+NOTE
+Enclosure components can be subject to pressure peaks due to local effects from wind action and air
+flow caused by traffic movement acting in combination with all other live and dead loads.
+5.16.1
+Specialist guidance to evaluate the air pressures on enclosure panels caused by traffic flow may be
+required.
+Temperature loading
+5.17
+The maximum and minimum effective bridge temperatures specified in BS EN 1991-1-5 [Ref 7.N] shall
+be used unaltered by the presence of an enclosure.
+5.17.1
+The design should allow for the temperature of the enclosure panels to be 15°C greater than, or 5°C
+less than, the bridge structure.
+5.17.2
+The enclosure support members should be taken as the same temperature of either the enclosure
+panels or the bridge structure, whichever gives the more onerous conditions.
+5.17.3
+A detailed assessment may be carried out in order to establish a more accurate temperature range.
+NOTE 1
+Temperature difference between bridge and enclosure depend on such factors as the thermal inertia of
+the enclosure material, colour and aspect to the sun.
+NOTE 2
+The temperature difference given in BS EN 1991-1-5 [Ref 7.N] is conservative for an enclosure in the
+shade of a bridge.
+Deflection criteria
+5.18
+The deflection criteria for serviceability limit state shall be as shown in Table 5.18.
+Table 5.18 Deflection criteria for serviceability limit state
+Loaded areas
+Deflection criteria
+Category A and B
+The deflection under the specified single point load is less than 15 mm.
+Category A and B
+The deflection under the specified uniformly distributed loads does not exceed
+1/100 span between support members, or 50 mm whichever is the lesser.
+Category C
+The deflection under the specified patch load does not obstruct the function
+and operation of the bridge.
+5.19
+The elastic strain at the surface of the enclosure panel shall be limited to that which cannot affect the
+durability of the panel materials.
+Aerodynamic effect
+5.20
+The bridge with the enclosure shall be evaluated using BS EN 1991-1-4 [Ref 6.N] to ensure that it is
+aerodynamically stable.
+NOTE
+The addition of an enclosure to a bridge changes its aerodynamic behaviour.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 22 of 27
+======================================================================
+CD 362 Revision 1
+5. Design of structural elements
+Partial factor (safety or serviceability)
+5.21
+For the design of the enclosure, the values of the partial factors shall be taken from BS EN 1990 [Ref
+8.N] for dead loads, superimposed dead loads, temperature loading and wind loading.
+5.22
+Where the partial factors of an unconventional enclosure material are not given in BS EN 1990 [Ref
+8.N], the values shall be derived from first principles and approved by the TAA.
+5.22.1
+The partial factors of an unconventional material should be derived from the expected variability of the
+material properties, manufacturer's tolerances and dimensional tolerances.
+5.22.2
+The partial factors of an unconventional material should be derived with the same level of safety and
+reliability to be compatible with the standard.
+5.22.3
+The partial factors of an unconventional material may be derived by calibration against a material of
+comparable properties where the partial load factor is established and verified.
+5.23
+For the design of the enclosure, the values of the partial factor for live loads shall be taken as 1.0 for
+serviceability limit state and 1.5 for ultimate limit state for all load combinations considered.
+5.24
+Load combinations as defined in BS EN 1990 [Ref 8.N] shall be used.
+NOTE
+The value of partial factor is not reduced when applying combinations of loading for wind and live load.
+5.25
+For design and assessment of the bridge and enclosure, including for evaluating the effects of the
+enclosure on the bridge, the partial factors for the design of the enclosure shall be used.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 23 of 27
+======================================================================
+CD 362 Revision 1
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CG 302, 'As-built, operational and maintenance records for
+highway structures'
+Ref 2.N
+Highways England. CS 454, 'Assessment of highway bridges and structures'
+Ref 3.N
+Highways England. CD 127, 'Cross-sections and headrooms'
+Ref 4.N
+BSI. BS EN 1991-1-1, 'Eurocode 1 - Actions on Structures - Part 1-1: General
+actions- Densities, self weight, imposed loads for buildings'
+Ref 5.N
+BSI. BS EN 1991-1-7, 'Eurocode 1 - Actions on structures - Part 1-7 General actions -
+Accidental actions'
+Ref 6.N
+BSI. BS EN 1991-1-4, 'Eurocode 1: Actions on structures. Part 1-4: General actions
+– Wind actions'
+Ref 7.N
+BSI. BS EN 1991-1-5, 'Eurocode 1: Actions on structures. Part 1-5: General actions
+– Thermal actions'
+Ref 8.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 9.N
+BSI. BS 476-21, 'Fire tests on building materials and structures. Part 21: Methods for
+determination of the fire resistance of loadbearing elements of construction'
+Ref 10.N
+BSI. BS 476-7, 'Fire tests on building materials and structures. Part 7: Method of test
+to determine the classification of the surface spread of flame of products'
+Ref 11.N
+Highways England. CS 450, 'Inspection of highway structures'
+Ref 12.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 13.N
+Highways England. MCHW NG, 'Manual of Contract Documents for Highway Works
+Volume 2: Notes for Guidance on the Specification for Highway Works'
+Ref 14.N
+Highways England. CG 300, 'Technical approval of highway structures'
+Ref 15.N
+Highways England. CD 351, 'The design and appearance of highway structures'
+Ref 16.N
+Highways England. CD 355, 'The design for highway structures'
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 24 of 27
+======================================================================
+CD 362 Revision 1
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Transport Research Laboratory. Bishop, R. R. TRL SR621, 'An alternative to bridge
+painting'
+Ref 2.I
+Transport Research Laboratory. McKenzie, M. TRL RR293, 'Corrosion Protection -
+The environment created by bridge enclosure.'
+Ref 3.I
+Transport Research Laboratory. Bishop, R. R. TRL RR83, 'Enclosure - an Alternative
+to bridge painting.'
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 25 of 27
+======================================================================
+CD 362 Revision 1
+Appendix A. General assessment of a bridge enclosure
+Appendix A. General assessment of a bridge enclosure
+A1
+General
+Before proceeding with the cost evaluation and comparison of the bridge with and without an
+enclosure, the following factors should be considered as having a decisive influence on the evaluation.
+A1.1
+Type of bridge structure under consideration
+Enclosures suit bridges with concrete decks supported on plate girders. A minimum headroom within
+the enclosure of 1m will usually provide personnel access benefits for inspection and maintenance.
+A1.2
+Expected maintenance on new or existing bridges
+Enclosures are beneficial on bridges where major disruption can take place to traffic during inspection
+and maintenance. Advantage can be taken by adding enclosures to existing bridges during major
+works for maintenance or upgrade. Outstanding life expectancy of an existing bridge can also influence
+the effectiveness, either to extend a lifespan or conversely be uneconomic over a short remaining life.
+A1.3
+Accessibility for bridge inspection and maintenance
+Bridges which are difficult to access for inspection and maintenance can benefit by the addition of an
+enclosure more than those which are easily accessible.
+Examples of difficult to access bridges may include high bridges, bridges over water or rail, and
+motorway bridges, where a maintenance gantry could cause disruption to traffic flow.
+A1.4
+Bridge environment.
+The harshness of the surrounding environment of the bridge site can influence the choice of coating
+and the maintenance costs. Enclosures can be more beneficial in harsher environments.
+A1.5
+New or existing structures
+Enclosures on new structures benefit from easier design considerations whereas an existing bridge can
+require more costly designs which involve complications due to access during construction and
+infringement of headroom.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 26 of 27
+======================================================================
+CD 362 Revision 1
+Appendix B. Enclosure live loading
+Appendix B. Enclosure live loading
+B1
+General
+Three categories of design load are given for live loading within the enclosure.
+B1.1
+Category A
+Category A loading is required wherever maintenance work is to be carried out directly from the
+enclosure. This is most likely to be appropriate where the enclosure is being added to an existing
+structure which is in need of major refurbishment.
+In addition to personnel loading, the loading is intended to account for live load resulting from:
+1) working platforms erected within the enclosure for maintenance purposes;
+2) temporary ladders;
+3) storage of materials and equipment necessary for the maintenance of the bridge structure;
+4) concentrated loads imposed by the bases of supporting platforms and ladders; and,
+5) impact loading resulting from mishandling of materials and equipment within the enclosure.
+B1.2
+Category B
+Category B loading is the most likely category to be appropriate to a new structure where the use of the
+enclosure should be restricted to inspection access and major maintenance works are not anticipated.
+B1.3
+Category C
+Category C loading can be appropriate to large structures where it is uneconomic to provide Category
+A & B loading throughout the enclosure. For such cases it is envisaged to provide main walkway areas
+and use these to install additional working platforms over the particular part of the structure that is
+being inspected or where maintenance activity is expected. The remainder of the enclosure need only
+provide the function of a safety net with respect to personnel loading.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
+
+======================================================================
+PAGE 27 of 27
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 362, published: Mar-2020
+
+
