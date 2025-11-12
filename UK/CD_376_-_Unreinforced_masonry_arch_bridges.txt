@@ -1,0 +1,1825 @@
+======================================================================
+PAGE 1 of 48
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 376
+Unreinforced masonry arch bridges
+Version 0.0.1
+Summary
+This document covers the design of new unreinforced masonry arch bridges.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 48
+======================================================================
+CD 376 Version 0.0.1
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+7
+1. Scope
+9
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2. Design principles and objectives
+10
+Basis of design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Design outputs for masonry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Limit states . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Design value of an action . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Design effects of actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Design resistance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Verification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Actions
+13
+Permanent actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Scour and hydraulic actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Thermal actions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Wind actions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Traffic actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Longitudinal loading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Accidental vehicle loading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Footway and cycletrack loading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Accidental impact loads on bridge supports and superstructures
+. . . . . . . . . . . . . . . . . . . . .
+18
+4. Design and resistances
+19
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Materials
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Masonry strength and properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Arch ring - ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Direct stresses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Shear . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Arch ring - serviceability limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Spandrel walls, wing walls and abutments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Piers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Serviceability limit state
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Foundations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Parapets
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+5. Normative references
+23
+6. Informative references
+24
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 48
+======================================================================
+CD 376 Version 0.0.1
+Contents
+Appendix A. Partial factors for actions
+25
+A1 Partial factors for actions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 48
+======================================================================
+CD 376 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376
+0.0.1
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+Version: 0.0.1: Reference updated, mutual recognition clause and reference to Appendix B removed.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 48
+======================================================================
+CD 376 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes BD 91/04 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 48
+======================================================================
+CD 376 Version 0.0.1
+Introduction
+Introduction
+Background
+Experience has shown that arch bridges are very durable structures and should require less
+maintenance in comparison to other bridge forms. Prior to the publication of BD 91/04, there had not
+been a standard covering the design of new unreinforced arch bridges.
+BD 91/04 considered research into the behaviour of arch bridges that has been undertaken by a
+number of organisations including Transport Research Laboratory, British Rail Research and a number
+of universities. In BD 91/04, consideration was given to the results of most of this work. This research
+included Melbourne & Gilbert 1995 [Ref 5.I], Mair 1995 [Ref 1.I], Choo & Hogg 1995 [Ref 3.I], Cox &
+Halsall 1996 [Ref 2.I] and Owen, Peric, Petrinic, Brookes and James ( Owen et al 1998 [Ref 4.I]).
+Maintenance requirements have significant effects on whole life costs. The financial benefits arising
+from reduced maintenance requirements for unreinforced arch bridges should be considered when
+comparing the whole life costs of arch bridges with other types of bridges.
+This document states the design requirements for arch bridges. It complements the masonry and
+associated work requirements for unreinforced masonry arch bridges, referred to hereafter as 'arch
+bridges', in CC 491 [Ref 2.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 15.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 48
+======================================================================
+CD 376 Version 0.0.1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+AIP
+Approval in principle
+AW vehicles
+Vehicles based on Authorised Weight (AW) or C&U Regulations
+SLS
+Serviceability limit state
+SV vehicles
+Vehicles complying with The Road Vehicles (Authorisation of Special Types)
+General Order (STGO Regulation).
+ULS
+Ultimate limit state
+Symbols
+Symbol
+Definition
+b
+width of the arch ring under consideration
+e
+eccentricity of the centre of compression in the arch ring
+fk
+characteristic compressive strength of masonry
+h
+overall thickness of the arch ring
+Ed
+design load effects
+Fd
+design value of an action
+Fk
+characteristic value of an action
+P
+axial force in arch ring
+Rd
+design value of resistance
+S
+length loaded with SV vehicle
+V
+shear force
+γF
+partial factor for actions
+γG,sup
+partial factor for permanent load in calculating upper design value
+γG,inf
+partial factor for permanent load in calculating lower design value
+γM
+partial factor for material
+ψ
+combination factor
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 48
+======================================================================
+CD 376 Version 0.0.1
+Terms and definitions
+Terms and definitions
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 48
+======================================================================
+CD 376 Version 0.0.1
+Terms and definitions
+Terms
+Term
+Definition
+Abutment
+The part of a bridge which provides resistance to horizontal and vertical
+forces from an arch ring.
+Arch ring
+A curved course of masonry, or series of masonry courses, which
+supports loads principally in compression.
+Extrados
+The convex surface of an arch ring.
+Fill
+The material placed above the extrados, which can include a pavement
+sub-base.
+Foundation
+That part of the structure in direct contact with and transmitting loads to
+the ground.
+Intrados
+The concave surface of an arch ring.
+Limit states
+States beyond which the structure no longer fulfils the relevant design
+criteria.
+Masonry
+An assemblage of structural units usually laid in-situ in which the
+structural units, usually clay bricks, concrete blocks or stones, are
+bonded and solidly put together with mortar.
+Parapet base slab
+The foundation which supports the bridge parapet.
+Pavement
+The bound material forming footpath/verge or carriageway and includes
+surfacing and roadbase as appropriate, but excludes sub-base.
+Pier
+An intermediate support between adjoining arch spans.
+Rise
+The vertical height from the springing level to the crown of the intrados.
+Serviceability limit states
+States that correspond to conditions beyond which specified service
+requirements for a structure or structural member are no longer met.
+Skewback
+The surface of an inclined springing.
+Span
+The clear distance between the faces of the abutments or piers.
+Spandrel wall
+The wall carried on the arch extrados, which retains the fill.
+Springing
+The plane from which an arch ring springs.
+String course
+A moulded course that projects from a wall.
+Ultimate limit states
+States associated with collapse or with other similar forms of structural
+failure.
+Unreinforced masonry
+Masonry which does not include steel or other reinforcement which is
+considered in the determination of its strength.
+Voussoir
+A wedge shaped masonry unit in an arch.
+Wing wall
+A wall at the abutment which extends beyond the spandrel walls to retain
+the earth behind the abutment.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 48
+======================================================================
+CD 376 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for arch bridges consisting of:
+1)
+single or multiple spans;
+2)
+square or skewed bridges;
+3)
+with a span/rise ratio of between 2 and 10; and,
+4)
+spans not exceeding 40m.
+NOTE 1
+Open spandrel arch bridges and arch bridges carrying railway loading are not covered by this
+document.
+NOTE 2
+Unreinforced concrete arch bridges are not covered by this document. However the principles
+contained in this document can be applied to unreinforced concrete arches.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving unreinforced masonry arch
+bridges on the Overseeing Organisations' motorway and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 15.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 15.N] shall be followed in respect of activities covered by
+this document.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 48
+======================================================================
+CD 376 Version 0.0.1
+2. Design principles and objectives
+2.
+Design principles and objectives
+Basis of design
+2.1
+The design of an unreinforced arch bridge shall be carried out using the partial factor method in
+accordance with BS EN 1990 [Ref 13.N], in which a structure is shown to be safe by the application of
+partial factors to actions ( γF ) and to material strengths ( γM ).
+NOTE
+The various features of an arch bridge are shown in Figures 2.1Na and 2.1Nb.
+Figure 2.1Na Features of an arch bridge – elevation
+Figure 2.1Nb Features of an arch bridge - section
+2.2
+The design life of an unreinforced arch bridge shall be 120 years.
+2.3
+Each structure and each part of a structure shall, during construction and throughout its design life, fulfil
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 48
+======================================================================
+CD 376 Version 0.0.1
+2. Design principles and objectives
+basic requirements and limit states as defined in BS EN 1990 [Ref 13.N].
+Design outputs for masonry
+2.4
+The design outputs for masonry shall be provided in accordance with CD 350 [Ref 18.N], for use with
+CC 491 [Ref 2.N].
+Limit states
+2.5
+The structure and associated earthworks, including the fill and foundations shall be designed for both
+the ultimate and serviceability limit states.
+NOTE 1
+Requirements for the ultimate and serviceability limit states are given in Section 4.
+NOTE 2
+The ULS for an arch includes the condition at which a collapse mechanism forms in the structure or
+when movements of any part of the structure lead to severe structural damage in other parts of the
+structure or services.
+NOTE 3
+SLS includes the condition beyond which there is a loss of utility including the following;
+1)
+deformation of the structure causing a loss of utility or adversely affecting its appearance to a
+point where public concern could be expected; and
+2)
+cracks become of such magnitude as to lead to a reduction in structural integrity.
+Design value of an action
+2.6
+The design value of an action, Fd shall be determined according to Equations 2.5a and 2.5b for
+permanent actions and variable actions respectively.
+Equation 2.6a Design value of a permanent action
+Fd = γF · Fk
+Equation 2.6b Design value of a variable action
+Fd = γF · ψ · Fk
+where:
+γF
+is a partial factor for actions as given
+in Appendix A
+ψ
+is a factor to account for the reduced
+probability of multiple variable actions
+reaching their characteristic values
+simultaneously, defined in BS EN
+1990 [Ref 13.N]
+Fk
+is the characteristic value of the
+action as given in Section 3
+Design effects of actions
+2.7
+The design effects of actions, Ed , shall be obtained from the design values of actions, the design
+geometry, and the design material and product properties, in accordance with BS EN 1990 [Ref 13.N].
+2.8
+Analysis shall be undertaken to ascertain the effects of actions for each of the most severe conditions
+appropriate to the element under consideration.
+2.9
+The method of analysis shall meet the requirements of BS EN 1990 [Ref 13.N].
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 48
+======================================================================
+CD 376 Version 0.0.1
+2. Design principles and objectives
+2.9.1
+Analysis of the arch ring should include the following;
+1)
+elastic shortening;
+2)
+loss of stiffness due to cracking;
+3)
+loss of stiffness due to creep; and,
+4)
+other predictable deformations that could modify the effects of actions.
+NOTE
+An indication of when allowance for these movements and deformations is likely is given in Section 4.
+2.10
+The effects of estimated displacements and rotations over a period of 120 years shall be included.
+NOTE
+The arch ring is sensitive to the effects of foundation movements.
+Design resistance
+2.11
+The design resistance, Rd , shall be defined as in Equation 2.10.
+Equation 2.11 Design resistance
+Rd = function of (Xk, γM, ad)
+where:
+Xk
+are the characteristic material and product properties
+γM
+are the partial factors for the material and product properties
+ad
+are the design values for the geometry
+NOTE
+The value of γM for masonry is given in Section 4.
+2.12
+The design resistance of the sub-soil and fill shall be verified in accordance with BS EN 1997-1 [Ref
+12.N].
+Verification
+2.13
+Equation 2.12 shall be satisfied for each limit state:
+Equation 2.13 Limit state requirements
+Rd ≥Ed
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 48
+======================================================================
+CD 376 Version 0.0.1
+3. Actions
+3.
+Actions
+Permanent actions
+3.1
+Permanent actions shall be determined from the characteristic values in BS EN 1991-1-1 [Ref 7.N]
+multiplied by the partial factors in Appendix A.
+Scour and hydraulic actions
+3.2
+Scour and hydraulic actions shall be determined in accordance with CD 356 [Ref 4.N].
+Thermal actions
+3.3
+The reasons to include or omit thermal actions shall be recorded in the AIP.
+3.3.1
+Thermal actions may be omitted in arches with a span/rise ratio less than 6.
+3.4
+Where thermal actions are included, they shall be determined in accordance with BS EN 1991-1-5 [Ref
+9.N].
+NOTE
+The National Annex to BS EN 1991-1-5 [Ref 9.N] includes content specifically relating to masonry arch
+bridges.
+3.4.1
+Changes in uniform (effective) bridge temperature may be ignored when the total depth of pavement
+and fill above the extrados is 1.5 metres or greater.
+3.4.2
+For the purpose of establishing temperature differences, the depth of fill should be included in the depth
+of slab ( h ).
+3.4.3
+Heating (positive) temperature differences may be ignored when the total depth of pavement and fill
+above the extrados exceeds 500 mm.
+3.4.4
+Cooling (negative) temperature differences on the extrados may be ignored when the total depth of
+pavement and fill above the extrados exceeds 500 mm.
+3.4.5
+The coefficient of thermal expansion of the masonry to be used should be established by testing, or
+taken from Table 3.4.5.
+Table 3.4.5 Coefficient of thermal expansion for masonry
+Type of masonry
+Coefficient of thermal expansion
+Masonry with concrete units
+10 x 10-6/°C
+Masonry with clay units
+6 x 10-6/°C
+Masonry with reconstituted stone units
+5 to 13 x 10-6/°C
+Masonry with natural stone units
+determined for the rock type to be used in the construction
+Wind actions
+3.5
+The reasons to include or omit wind actions shall be recorded in the AIP.
+NOTE
+Wind actions are not usually critical for masonry arch bridges.
+3.6
+Where wind actions are included, they shall be determined in accordance with BS EN 1991-1-4 [Ref
+10.N].
+Traffic actions
+3.7
+The traffic actions on masonry arches carrying roads shall be determined directly for:
+1)
+individual vehicles; or,
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 48
+======================================================================
+CD 376 Version 0.0.1
+3. Actions
+2)
+combinations of vehicles.
+3.7.1
+Where the analytical model used does not model dispersal effects through the fill and surfacing, traffic
+loads may be dispersed through the pavement and fill to the extrados at a spread to depth ratio of 1
+horizontally to 2 vertically.
+3.8
+Characteristic traffic actions shall be multiplied by the load factors γF in Appendix A to obtain design
+traffic actions.
+3.9
+For normal traffic based on authorised weight (AW) or C&U Regulations, the characteristic traffic
+actions shall be determined using assessment live loading (ALL) model 1 given in CS 454 [Ref 1.N]
+multiplied by a contingency factor of 1.1.
+NOTE 1
+The LM1 and LM2 load models in BS EN 1991-2 [Ref 8.N] do not satisfactorily model the effect of
+normal vehicles on masonry arches.
+NOTE 2
+The contingency factor accounts for future increases in traffic loads of up to 10%.
+3.10
+The requirements for abnormal traffic loading shall be recorded in the AIP.
+NOTE
+Recommendations for abnormal loads for different types of highway are given in CD 350 [Ref 18.N].
+3.11
+Where abnormal traffic loads are required, characteristic actions shall be determined in accordance
+with load model LM3 in BS EN 1991-2 [Ref 8.N].
+3.12
+Normal traffic associated with the LM3 load models shall be represented by AW vehicle loading in
+accordance with ALL model 1 given in CS 454 [Ref 1.N] multiplied by a contingency factor of 1.1.
+3.13
+The impact factor shall be taken as 1.0 for the normal traffic in any lane occupied or straddled by the
+SV or SOV load model.
+3.14
+Only one SV load model shall be applied on any one superstructure.
+3.15
+SV load models shall be applied in their entirety and not truncated.
+3.16
+The SV load model shall be placed at any transverse position on the carriageway, with its side parallel
+to the kerb at the most unfavourable position to produce the most severe overall effect, either:
+1)
+wholly within one notional lane; or,
+2)
+straddling between two adjacent lanes.
+NOTE
+Typical examples of application of SV load model and AW vehicle loading are shown in Figures 3.16Na
+and 3.16Nb. Figure 3.16Na shows the case of the SV load model fitting in one lane and Figure 3.16Nb
+shows the case where it straddles lanes.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 48
+======================================================================
+CD 376 Version 0.0.1
+3. Actions
+Figure 3.16Na Application of SV load model and AW vehicle loading (case where SV
+vehicle fits in a lane)
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 48
+======================================================================
+CD 376 Version 0.0.1
+3. Actions
+Figure 3.16Nb Application of SV load model and AW vehicles loading (cases where
+SV vehicle straddles lanes)
+Longitudinal loading
+3.17
+The reasons for including or omitting longitudinal traffic loads shall be recorded in the AIP.
+3.17.1
+Longitudinal loads may be omitted for single span structures.
+3.17.2
+Longitudinal loads may be omitted at SLS.
+3.18
+Where longitudinal loads are included, the load shall be applied at the road surface and parallel to it in
+one notional lane only.
+3.19
+Characteristic longitudinal loads shall be multiplied by the load factor γF of 1.35 to obtain the design
+longitudinal load.
+3.20
+Characteristic longitudinal loads associated with normal traffic loading shall be taken as 0.6 times the
+total vertical load in the heaviest loaded lane, subject to a maximum of 900kN.
+3.21
+Characteristic longitudinal loads associated with SV load models shall be taken from Table 3.21
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 48
+======================================================================
+CD 376 Version 0.0.1
+3. Actions
+Table 3.21 Characteristic longitudinal load for SV Vehicles
+Characteristic longitudinal load (kN)
+Length loaded (S)
+(m)
+SV196
+SV100
+SV80
+S < 1.2
+129
+118
+93
+1.2 ≤S < 1.6
+236
+236
+186
+1.6 ≤S < 2.4
+257
+236
+186
+2.4 ≤S < 3.6
+327
+327
+257
+3.6 ≤S < 4.8
+363
+363
+286
+4.8 ≤S < 6.0
+408
+408
+322
+6.0 ≤S < 7.2
+436
+7.2 ≤S < 8.4
+445
+8.4 ≤S < 9.6
+472
+9.6 ≤S < 12.8
+490
+12.8 ≤S < 13.6
+500
+13.6 ≤S < 14.0
+504
+14.0 ≤S < 19.6
+508
+S ≥19.6
+535
+436 (for S ≥6.0)
+343 (for S ≥6.0)
+3.22
+The longitudinal loading corresponding to SV load models shall not be applied together with
+longitudinal AW vehicle loading.
+Accidental vehicle loading
+3.23
+The elements of structure not supporting the carriageway shall be designed for accidental vehicle loads.
+NOTE
+Elements of structure not supporting the carriageway can include:
+1)
+outer verges;
+2)
+footways;
+3)
+central reserves; and,
+4)
+cycletracks.
+3.23.1
+For normal traffic, the characteristic accidental vehicle loading should be taken as ALL model 1 from
+CS 454 [Ref 1.N] multiplied by the 1.1 contingency factor.
+3.23.2
+No other traffic load, except those loads due to changes in speed or direction of the vehicle traffic, e.g.
+longitudinal and skidding loads, should be applied in combination with accidental vehicle loading.
+3.24
+Characteristic accidental vehicle loads shall be multiplied by the load factor γF of 1.65 to obtain the
+design accidental vehicle loads at ULS.
+3.25
+Characteristic accidental vehicle loads shall be multiplied by the load factor γF of 1.2 to obtain the
+design accidental vehicle loads at SLS.
+Footway and cycletrack loading
+3.26
+Characteristic footway or cycletrack loading shall be taken as a uniformly distributed load of 5kN/m2.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 48
+======================================================================
+CD 376 Version 0.0.1
+3. Actions
+3.26.1
+Footway and cycletrack loading should be applied to the loaded length that gives the most onerous
+effect.
+NOTE
+The critical loaded length is not normally the full length of the span.
+3.27
+Partial factors for footway or cycletrack loading shall be obtained from BS EN 1990 [Ref 13.N].
+Accidental impact loads on bridge supports and superstructures
+3.28
+The bridge support and superstructure shall be designed for accidental impact loads in accordance
+with BS EN 1991-1-7 [Ref 6.N].
+3.29
+The headroom clearance shall be in accordance with CD 127 [Ref 3.N].
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 48
+======================================================================
+CD 376 Version 0.0.1
+4. Design and resistances
+4.
+Design and resistances
+General
+4.1
+The design of the arch bridge and its components shall be verified for the effects of the following:
+1)
+permanent actions;
+2)
+all possible combinations of variable actions; and,
+3)
+accidental actions.
+4.1.1
+The structure may be analysed using any appropriate analytical model or computer program that
+captures the critical behaviours and failure modes for the arch structure.
+NOTE
+It has been shown by Melbourne & Gilbert 1995 [Ref 5.I]that ring separation can significantly reduce
+strength. However, in some cases, notably in skew arches, bonding the rings together can be difficult
+and significantly increase costs.
+4.2
+For bridges with a span/rise ratio greater than 6, the analytical model shall consider the flexibility of the
+arch ring and supports (abutments and piers) together with the effects of creep, shrinkage and
+temperature.
+Materials
+Masonry strength and properties
+4.3
+The characteristic compressive strength of masonry fk shall be determined in accordance with BS EN
+1996 [Ref 11.N].
+4.3.1
+In the absence of more accurate determination, the short term elastic modulus of masonry may be
+taken as 900 · fk .
+4.3.2
+In the absence of more accurate determination, the creep factor and shrinkage strain may be taken
+from Table 4.3.2.
+Table 4.3.2 Creep and shrinkage
+Type of Unit
+Creep coefficient
+Shrinkage strain
+Clay
+1.5
+0
+Stone
+1.0
+0
+Concrete
+3.0
+500x10-6
+Reconstituted Stone
+3.0
+500x10-6
+NOTE
+The creep coefficient is the ratio of creep strain to short term elastic strain.
+Arch ring - ultimate limit state
+General
+4.4
+The arch ring shall be verified for structural failure modes using ULS design actions.
+NOTE
+The arch ring failure modes can include:
+1)
+buckling;
+2)
+instability; and,
+3)
+rupture.
+Direct stresses
+4.5
+The tensile strength of masonry shall be ignored in the analysis.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 48
+======================================================================
+CD 376 Version 0.0.1
+4. Design and resistances
+4.6
+Where the moment at a section is such as to cause the centre of compression to be outside the middle
+third, the section shall be assumed to be cracked with a reduced area resisting compressive forces.
+4.7
+The maximum compressive stress in the ring shall not be taken as greater than 0.6 fk
+γM , with γM taken
+as 1.5.
+4.7.1
+The maximum compressive stress limitation may be verified using Equation 4.7.1.
+Equation 4.7.1 Compressive stress in the arch ring or masonry element
+P ≤0.4 · b · fk·(h −2 · e)
+where:
+P
+is the compressive force in the masonry due to ultimate design load effects
+b
+is the width of the arch ring under consideration
+fk
+is the characteristic compressive strength of masonry
+h
+is the overall thickness of the arch ring or masonry element
+e
+is the eccentricity of the centre of
+compression in the arch ring or masonry element
+NOTE
+Equation 4.7.1 includes an allowance for γM .
+Shear
+4.8
+Shear forces on a radial plane through the arch ring shall be verified at all positions on the arch ring in
+accordance with Equation 4.8.
+Equation 4.8 Shear forces in the arch ring
+V ≤0.4 · P
+where:
+P
+is the compressive force in the arch ring due to ultimate design load effects
+V
+is the shear force due to ultimate design load effects
+Arch ring - serviceability limit state
+4.9
+The methodology and criteria for designing the arch ring at SLS, or the reason to not explicitly carry out
+verifications at the SLS, shall be recorded in the AIP.
+4.9.1
+Where SLS verifications are needed, they may be carried out by either:
+1)
+carrying out a rigorous analysis according to a methodology and criteria agreed with the
+Overseeing Organisation and recorded in the AIP; or,
+2)
+satisfying both Equations 4.9.1a and b.
+Equation 4.9.1a SLS eccentricity limit
+e ≤0.25h
+where:
+e
+is the eccentricity of the centre of compression
+h
+is the overall thickness of the arch
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 48
+======================================================================
+CD 376 Version 0.0.1
+4. Design and resistances
+Equation 4.9.1b SLS stress limit
+σ ≤0.4fk
+where:
+σ
+is the compressive stress
+fk
+is the characteristic compressive strength of masonry
+4.9.2
+Where the span/rise ratio is less than 6, SLS verifications may be omitted if the structure is designed at
+the ULS using the higher values of the partial factors for traffic loading given in Appendix A.
+4.9.3
+Bridges with a span/rise ratio greater than 6 should include SLS verifications.
+Spandrel walls, wing walls and abutments
+4.10
+Spandrel walls, wing walls and abutments shall be designed in accordance with the requirements of
+this section and PD 6694-1 [Ref 16.N].
+4.11
+The stability of wall elements shall be verified at the ULS for:
+1)
+overturning;
+2)
+sliding; and,
+3)
+bearing (where appropriate).
+4.11.1
+The earth pressures to be used for stability verifications should be based on:
+1)
+concrete or foamed concrete fill - hydrostatic pressure of wet concrete;
+2)
+class 6N, 6P, 7A or 7B fill - active earth pressure.
+NOTE
+Class 6N, 6P, 7A and 7B fill is specified in CC 601 [Ref 5.N].
+4.12
+The structural design of wall elements shall be verified at the ULS and the SLS.
+4.12.1
+The earth pressures to be used for the wall structural design should be based on:
+1)
+concrete or foamed concrete fill - hydrostatic pressure of wet concrete;
+2)
+class 6N, 6P, 7A or 7B fill - at rest earth pressure.
+NOTE
+Class 6N, 6P, 7A and 7B fill is specified in CC 601 [Ref 5.N].
+4.13
+When fill comprises earthworks materials, the effects of live load induced earth pressures shall be
+taken into account.
+4.13.1
+The horizontal effects on retaining walls of live load on carriageways and footpaths may be taken to be
+zero when the fill is concrete or foamed concrete.
+4.14
+Spandrel walls, wing walls and abutments shall be designed for actions arising from vehicle collision
+with parapets.
+4.15
+The effect of actions acting on the arch ring from the spandrel wall shall be derived, including
+longitudinal spanning behaviours.
+NOTE
+The deepest section of the spandrel wall adjacent to the pier or abutment wall can tend to span
+longitudinally to the abutment pier or to the ring in the next span.
+4.16
+Cracking shall be avoided by the provision of expansion joints or by designing the walls to be flexible
+enough to accommodate design movements without cracking.
+NOTE
+Lime mortar construction can provide flexibility for the spandrel walls and wing walls.
+4.16.1
+Where spandrel walls and wing walls extend for 15m or more, expansion joints at centres not
+exceeding 10m should be provided.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 48
+======================================================================
+CD 376 Version 0.0.1
+4. Design and resistances
+Piers
+Ultimate limit state
+4.17
+The tensile strength of masonry shall be ignored at the ULS.
+4.18
+Where the moment at a section is such as to cause the centre of compression to be outside the middle
+third, the section shall be assumed to be cracked with a reduced area resisting compressive forces.
+4.19
+The maximum compressive stress in the masonry shall not be taken as greater than 0.6 fk
+γM , with the
+material partial factor γM taken as 1.5.
+4.19.1
+The maximum compression stress limitation may be verified using Equation 4.7.1.
+4.20
+Shear forces on a plane through the masonry element shall be verified at all positions on the element
+such that Equation 4.8 is satisfied.
+4.21
+Where the height of a pier exceeds 12 times its thickness, the effect of displacements shall be
+evaluated.
+NOTE
+The limiting stress state at the base of piers is often governed by the foundations.
+Serviceability limit state
+4.22
+The methodology and criteria for designing the piers at SLS, or the reason to not explicitly carry out
+verifications at the SLS, shall be recorded in the AIP.
+4.22.1
+Where SLS verifications are needed, they should be carried out by either:
+1)
+carrying out a rigorous analysis according to a methodology and criteria agreed with the
+Overseeing Organisation; or,
+2)
+satisfying both Equations 4.9.1a and b.
+4.22.2
+SLS verifications may be omitted if the structure is designed at the ULS using the higher values of the
+partial factors for traffic loading given in Appendix A, and the pier is not slender.
+4.22.3
+A pier should be assumed to be slender if the SLS line of thrust is such as to cause the centre of
+compression to be outside the middle third.
+Foundations
+4.23
+The design bearing capacity shall be verified using the design parameters for the soil or fill material in
+accordance with BS EN 1997-1 [Ref 12.N] and PD 6694-1 [Ref 16.N].
+4.24
+Foundation displacements and rotations shall be limited so as not to cause serviceability or ultimate
+limit state failures of the arch ring.
+4.25
+Where the structure is subject to hydraulic actions, the foundations shall be designed in accordance
+with CD 356 [Ref 4.N].
+Parapets
+4.26
+Parapets shall be designed in accordance with CD 377 [Ref 17.N].
+4.26.1
+Masonry parapets should not be used to restrain errant vehicles.
+4.27
+Parapets shall be supported on an independent foundation with the following properties:
+1)
+capable of resisting the actions acting on it; and,
+2)
+not bear directly on the spandrel walls or wing walls.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 48
+======================================================================
+CD 376 Version 0.0.1
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CS 454, 'Assessment of highway bridges and structures'
+Ref 2.N
+National Highways. CC 491, 'Brickwork, Blockwork and Stonework'
+Ref 3.N
+National Highways. CD 127, 'Cross-sections and headrooms'
+Ref 4.N
+National Highways. CD 356, 'Design of highway structures for hydraulic action'
+Ref 5.N
+National Highways. CC 601, 'Earthworks'
+Ref 6.N
+BSI. BS EN 1991-1-7, 'Eurocode 1 - Actions on structures. General actions -
+Accidental actions'
+Ref 7.N
+BSI. BS EN 1991-1-1, 'Eurocode 1 - Actions on Structures: General actions-
+Densities, self weight, imposed loads for buildings'
+Ref 8.N
+BSI. BS EN 1991-2, 'Eurocode 1. Actions on structures. Traffic loads on bridges'
+Ref 9.N
+BSI. BS EN 1991-1-5, 'Eurocode 1: Actions on structures: General actions – Thermal
+actions'
+Ref 10.N
+BSI. BS EN 1991-1-4, 'Eurocode 1: Actions on structures: General actions – Wind
+actions'
+Ref 11.N
+BSI. BS EN 1996, 'Eurocode 6: Design of masonry structures'
+Ref 12.N
+BSI. BS EN 1997-1, 'Eurocode 7. Geotechnical design. General rules'
+Ref 13.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 14.N
+BSI. BS EN 1991, 'Eurocode 1: Actions on structures' , 2002
+Ref 15.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 16.N
+BSI. PD 6694-1, 'Recommendations for the design of structures subject to trafﬁc
+loading to BS EN 1997-1:2004'
+Ref 17.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 18.N
+National Highways. CD 350, 'The design of highway structures'
+Ref 19.N
+BSI. NA to BS EN 1991-2, 'UK National Annex to Eurocode 1: Actions on structures:
+Traffic loads on bridges'
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 48
+======================================================================
+CD 376 Version 0.0.1
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Paper presented at First International Conference on Arch Bridges, Bolton, 3-6
+September 1995, but not included in published proceedings. Mair, A.J. Mair 1995, 'A
+New UK Design Standard for Unreinforced Arch Bridges'
+Ref 2.I
+The Brick Development Association 1996. Cox, D. and Halsall, R. Cox & Halsall
+1996, 'Brickwork Arch Bridges'
+Ref 3.I
+Arch bridges. Melbourne C Ed. Thomas Telford. 1995. pp 529-536. Choo, B.S. and
+Hogg, V. Choo & Hogg 1995, 'Determination of the serviceability limit state in arches'
+Ref 4.I
+Second International Arch Bridge Conference, Venice, Italy, October 1998. Owen,
+D.R.J., Peric, D., Petrinic, N., Brookes, C.L. and James, P.J. Owen et al 1998,
+'Finite/Discrete Element Models for Assessment and Repair of Masonry Structures'
+Ref 5.I
+Melbourne, C and Gilbert, M. Melbourne & Gilbert 1995, 'The behaviour of multi-ring
+brickwork arch bridges, The Structural Engineer Vol 73, No 3, pp39-47, 1995'
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 48
+======================================================================
+CD 376 Version 0.0.1
+Appendix A. Partial factors for actions
+Appendix A. Partial factors for actions
+A1
+Partial factors for actions
+Table A.1 Partial factors for actions
+Limit states
+STR, GEO
+Actions
+Load model
+Design
+Approach 1[1]
+Combination 1
+Design
+Approach 1[1]
+Combination
+2
+EQU[4]
+SLS
+Permanent actions
+Concrete, stone or
+masonry
+Dead load
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+1.0
+Foamed concrete
+fill
+Superimposed
+dead load
+1.35 (Adverse,
+γG,sup )
+0.95 (Relieving,
+γG,inf )
+1.00
+1.05
+1.0
+Other Fill
+Superimposed
+dead load
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+1.0
+Surfacing
+Superimposed
+dead load
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+1.0
+Variable actions
+Normal traffic[2]
+(including traffic
+surcharge effects)
+ALL model 1
+with contingency
+factor
+1.65 with SLS
+verification
+2.0 with no SLS
+verification[5]
+1.41 with SLS
+verification
+1.71 with no
+SLS
+verification[5]
+1.65 with SLS
+verification
+2.0 with no
+SLS
+verification[5]
+1.0
+Abnormal traffic and
+accompanying
+normal traffic
+(including traffic
+surcharge effects)
+LM3 as defined
+in NA to BS EN
+1991-2 [Ref
+19.N]
+1.35 with SLS
+verification
+1.7 with no SLS
+verification[5]
+1.15 with SLS
+verification
+1.45 with no
+SLS
+verification[5]
+1.35 with SLS
+verification
+1.7 with no
+SLS
+verification.[5]
+1.0
+Other actions
+As defined in the
+relevant parts of
+BS EN 1991
+2002 [Ref 14.N].
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+As defined in
+BS EN 1990
+[Ref 13.N]
+1.0
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 48
+======================================================================
+CD 376 Version 0.0.1
+Appendix A. Partial factors for actions
+Table A.1 Partial factors for actions (continued)
+Note 1: In BS EN 1997-1 [Ref 12.N] Design Approach 1, partial factors are applied to actions and to
+ground strength parameters in two combinations, denoted Combination 1 and Combination 2.
+Combination 1 and Combination 2 can be critical for different aspects of the same verification.
+Note 2: The effect of the overload factor is already accounted for in the values of the partial factors.
+Note 3: The set of partial factors from BS EN 1990 [Ref 13.N] for Combination 1 or Combination 2 is
+defined in BS EN 1997-1 [Ref 12.N] Design Approach 1. Further guidance is provided in PD 6694-1
+[Ref 16.N].
+Note 4: The set of partial factors for the EQU limit state is defined in BS EN 1990 [Ref 13.N].
+Note 5: See Section 4 - If an SLS verification is not undertaken the greater partial factors are
+applicable.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 48
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 48
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 376
+England National Application Annex to CD 376
+Unreinforced masonry arch bridges
+(formerly BD 91/04)
+Revision 0
+Summary
+There are no specific requirements for Highways England supplementary or alternative to those
+given in CD 376.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 48
+======================================================================
+CD 376 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 48
+======================================================================
+CD 376 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376
+0
+March 2020
+Not available
+Not available
+Highways England National Application Annex to CD 376.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 48
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 48
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 376 - NINAA
+Northern Ireland National Application Annex
+for Unreinforced masonry arch bridges
+Version 0.0.1
+Summary
+This National Application Annex contains Department for Infrastructure Northern Ireland specific
+requirements for unreinforced masonry arch bridges.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 48
+======================================================================
+CD 376 - NINAA Version 0.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Parapets
+5
+NI/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 48
+======================================================================
+CD 376 - NINAA Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376 -
+NINAA
+0.0.1
+September 2025
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+Department for Infrastructure Northern Ireland National Application Annex to CD 376.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376
+0
+March 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 48
+======================================================================
+CD 376 - NINAA Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 48
+======================================================================
+CD 376 - NINAA Version 0.0.1
+Introduction
+Introduction
+Background
+This document states additional design requirements and advice for arch bridges not on motorway and
+all-purpose trunk roads. It complements the masonry and associated work requirements for
+unreinforced masonry arch bridges, referred to hereafter as 'arch bridges', in CC 491 [Ref 1.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 48
+======================================================================
+CD 376 - NINAA Version 0.0.1
+NI/1. Parapets
+NI/1.
+Parapets
+NI/1.1
+Parapets shall be designed in accordance with CD 377 [Ref 3.N].
+NI/1.1.1
+Masonry parapets should not be used to restrain errant vehicles on motorway and all-purpose trunk
+roads.
+NI/1.1.2
+For structures not on motorway and all-purpose trunk roads unreinforced masonry parapets may be
+used at the discretion of the Overseeing Organisation.
+NI/1.2
+Parapets shall be supported on an independent foundation with the following properties:
+1)
+capable of resisting the actions acting on it; and,
+2)
+not bear directly on the spandrel walls or wing walls.
+NI/1.2.1
+For structures not on motorway and all-purpose trunk roads unreinforced masonry parapets may be
+formed as extensions to spandrel walls at the discretion of the Overseeing Organisation.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 48
+======================================================================
+CD 376 - NINAA Version 0.0.1
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CC 491, 'Brickwork, Blockwork and Stonework'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 48
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 48
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 376
+Scotland National Application Annex to CD
+376 Unreinforced masonry arch bridges
+(formerly BD 91/04)
+Revision 0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CD 376.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 48
+======================================================================
+CD 376 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 48
+======================================================================
+CD 376 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376
+0
+March 2020
+Not available
+Not available
+Transport Scotland National Application Annex to CD 376.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 48
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 48
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 376
+Wales National Application Annex to CD 376
+Unreinforced masonry arch bridges
+(formerly BD 91/04)
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 376.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 48
+======================================================================
+CD 376 Revision 0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 48
+======================================================================
+CD 376 Revision 0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 376
+0
+March 2020
+Not available
+Not available
+Welsh Government National Application Annex to CD 376.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 48
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 376 Version 0.0.1, published: 30-Sep-2025
+
+
