@@ -1,0 +1,1558 @@
+======================================================================
+MASTER INDEX: BUILDINGS - BUILDING SERVICES (MEP)
+MECHANICAL, ELECTRICAL, AND PLUMBING SYSTEMS
+======================================================================
+
+Document Version: BNR 2025
+Last Updated: November 2025
+Classification: Technical Standards and Building Services
+Scope: Comprehensive MEP systems requirements for building construction
+
+======================================================================
+SECTION 1: OVERVIEW AND SCOPE
+======================================================================
+
+1.1 PURPOSE AND OBJECTIVES
+---------------------------
+This master index provides comprehensive guidance on Mechanical,
+Electrical, and Plumbing (MEP) systems for buildings, encompassing:
+
+- Building services installations and requirements
+- Mechanical systems (HVAC, ventilation, refrigeration)
+- Electrical systems (power distribution, lighting, emergency power)
+- Plumbing systems (water supply, drainage, fixtures)
+- Fire protection systems
+- Vertical transportation systems
+- Energy efficiency and sustainability ⭐
+- Smart building integration ⭐
+- Renewable energy systems ⭐
+
+1.2 APPLICABLE CODES AND STANDARDS
+-----------------------------------
+
+BANGLADESH NATIONAL CODES:
+- BNBC 2020 Part 8: Building Services
+  * Chapter 1: Electrical Installations
+  * Chapter 2: Fire Detection and Alarm Systems
+  * Chapter 3: Fire Suppression Systems
+  * Chapter 4: Emergency Power Systems
+  * Chapter 5: Lightning Protection Systems
+
+- BNBC 2020 Part 9: Plumbing Services
+  * Water supply systems
+  * Sanitary drainage and sewerage
+  * Storm water drainage
+  * Fixtures and fittings
+  * Water conservation measures
+
+- BNBC 2020 Part 10: Mechanical Services
+  * HVAC system design
+  * Ventilation requirements
+  * Energy efficiency standards
+  * Indoor air quality
+
+USA INTERNATIONAL CODES:
+- IBC 2024 Chapter 27: Electrical Systems
+- IBC 2024 Chapter 28: Mechanical Systems
+- IBC 2024 Chapter 29: Plumbing Systems
+- IBC 2024 Chapter 30: Elevators and Conveying Systems
+- IMC 2024: International Mechanical Code
+- IPC 2024: International Plumbing Code
+
+BANGLADESH REGULATORY AUTHORITIES:
+- Bangladesh Energy Regulatory Commission (BERC)
+- Electricity Grid Code 2019
+- Dhaka WASA Act 1996
+- Fire Service and Civil Defence (FSCD)
+
+INTERNATIONAL STANDARDS:
+- IEC (International Electrotechnical Commission)
+- ISO 50001: Energy Management System
+- NFPA (National Fire Protection Association)
+- ASHRAE (American Society of Heating, Refrigerating and Air-Conditioning Engineers)
+
+======================================================================
+SECTION 2: BNBC 2020 PART 8 - BUILDING SERVICES
+======================================================================
+
+2.1 ELECTRICAL INSTALLATIONS (BNBC PART 8, CHAPTER 1)
+------------------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/Bangladesh/10_Electrical_Installations_and_Energy_Code_Standards.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_029_chapter_27_electrical.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_029_chapter_27_electrical.txt
+
+2.1.1 SCOPE AND APPLICATION
+- Residential buildings (single-family, multistoried apartments)
+- Commercial buildings and offices
+- Industrial facilities (factories, warehouses, yards)
+- Transportation facilities (rail stations, airports)
+- Institutional buildings
+- Special occupancies
+
+2.1.2 ELECTRICAL SUPPLY SYSTEMS
+- Utility supply characteristics: 220/230V single phase, 380/400V three phase, 50 Hz
+- Service connection types and procedures
+- Metering requirements (single phase, three phase, smart meters ⭐)
+- Substation requirements (11KV/0.4KV) for loads exceeding 50KW
+- Distribution companies: DESCO, DPDC, DESA, WZPDCL, NESCO, PBS
+
+2.1.3 ELECTRICAL DESIGN AND INSTALLATION
+- Load calculation methods (connected load, demand factors)
+  * Residential: 20-30 W/m² lighting, 5-10 W/m² power outlets
+  * Commercial offices: 15-25 W/m² lighting, 20-30 W/m² power outlets
+  * HVAC loads: 40-80 W/m² (office), 60-100 W/m² (shopping malls)
+- Distribution system design (MDB, SDB, FDB)
+- Wiring systems and methods (conduit, trunking, cable tray)
+- Conductor types and sizing (copper, aluminum, PVC, XLPE)
+- Voltage drop limits: 3% lighting, 5% power, 5% total maximum
+
+2.1.4 CIRCUIT PROTECTION
+- Overcurrent protection (MCB, MCCB, ACB)
+- MCB types: Type B (residential), Type C (commercial), Type D (industrial)
+- Earth fault protection (RCD, RCCB, RCBO)
+- Surge protection devices (SPD) Types 1, 2, and 3 ⭐
+- Discrimination and coordination
+
+2.1.5 EARTHING AND BONDING
+- Earthing system design (TN-S, TN-C-S)
+- Earth electrode types (rod, plate, strip, foundation)
+- Earth resistance requirements: Target <5 ohms, Maximum 10 ohms
+- Main earthing terminal and equipotential bonding
+- Supplementary bonding for wet areas
+
+2.1.6 LIGHTING DESIGN
+- Illumination levels by occupancy type
+  * Residential: 100-300 lux
+  * Commercial offices: 300-500 lux
+  * Educational: 300-500 lux
+  * Industrial: 200-1000 lux
+- LED technology implementation ⭐
+- Lighting controls (occupancy sensors, daylight sensors, dimmers) ⭐
+- Emergency lighting and exit signage
+- Energy-efficient lighting design ⭐
+
+2.1.7 POWER DISTRIBUTION
+- Socket outlet types and installation (13A, 15A, 16-20A for AC)
+- Heights and spacing requirements
+- RCD protection requirements
+- Dedicated circuits for major appliances
+- Data and communication cabling (Cat 5e/6/6a, fiber optic) ⭐
+
+2.1.8 SPECIAL SYSTEMS
+- Elevator electrical systems
+- Fire alarm systems (power supply, wiring, backup)
+- Pump and motor installations
+- HVAC electrical systems
+- Lightning protection systems (IEC 62305)
+
+2.1.9 EMERGENCY AND STANDBY POWER
+- Emergency power requirements by system type
+- Diesel generator installations
+  * Sizing and capacity determination
+  * Generator room requirements
+  * Fuel storage (3-6 hours minimum)
+  * Automatic transfer switches (ATS)
+- UPS systems (off-line, line-interactive, on-line) ⭐
+- Solar power systems (grid-tied, off-grid, hybrid) ⭐
+- Battery energy storage systems ⭐
+
+2.1.10 ENERGY EFFICIENCY AND CONSERVATION
+- Building envelope requirements
+- HVAC efficiency standards
+- Maximum lighting power density
+- ISO 50001 Energy Management System ⭐
+- Building Management System (BMS) integration ⭐
+- Energy audit and monitoring ⭐
+
+2.1.11 SAFETY REQUIREMENTS
+- Working space clearances (1.0m front, 0.75m sides, 2.0m height)
+- Electric shock prevention (earthing, RCD, double insulation)
+- Arc flash protection
+- Fire hazard prevention
+- Safe work practices and lockout/tagout procedures
+
+2.1.12 ELECTRICITY GRID CODE 2019
+- BERC regulations and compliance
+- Voltage levels: 400 kV, 230 kV, 132 kV, 33 kV, 11 kV, 400 V
+- Power quality requirements
+  * Voltage variations: ±5% (132kV+), ±6% (33/11kV), ±10% (400V)
+  * Frequency: 49.5-50.5 Hz normal, 49.0-51.0 Hz acceptable
+- Harmonics and THD limits
+- Power factor requirements (>0.85 or 0.9)
+- Demand side management and load control
+
+2.1.13 TESTING, COMMISSIONING, AND MAINTENANCE
+- Pre-commissioning tests (insulation resistance, continuity, polarity, earth resistance)
+- Functional testing (protection devices, controls, metering)
+- Commissioning documentation requirements
+- Routine maintenance schedules (monthly, quarterly, annual)
+- Record keeping and incident reporting
+
+2.1.14 PROFESSIONAL REQUIREMENTS
+- Licensed electrical engineers (IEB members)
+- Licensed electricians and contractors
+- Inspection authorities (utility, building, regulatory)
+- Design certifications and approvals
+
+======================================================================
+SECTION 3: USA IBC/IPC/IMC - MECHANICAL, PLUMBING, ELECTRICAL
+======================================================================
+
+3.1 USA IBC CHAPTER 27 - ELECTRICAL SYSTEMS
+--------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_029_chapter_27_electrical.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_029_chapter_27_electrical.txt
+
+- Scope and general requirements
+- Electrical equipment and wiring standards
+- Emergency and standby power systems
+- Reference to NFPA 70 (National Electrical Code)
+- Electrical service and distribution
+- Branch circuits and feeders
+- Overcurrent protection requirements
+- Grounding and bonding systems
+
+3.2 USA IBC CHAPTER 28 - MECHANICAL SYSTEMS
+--------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_030_chapter_28_mechanical_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_030_chapter_28_mechanical_systems.txt
+
+- Scope and applicability
+- Mechanical system design requirements
+- Ventilation and indoor air quality
+- Reference to IMC (International Mechanical Code)
+- Equipment rooms and installations
+- Special occupancy requirements
+- Exhaust systems and duct design
+
+3.3 USA IBC CHAPTER 29 - PLUMBING SYSTEMS
+------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_031_chapter_29_plumbing_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_031_chapter_29_plumbing_systems.txt
+
+- Scope and general provisions
+- Minimum plumbing facilities by occupancy (Table 2902.1)
+- Fixture count requirements by building use
+  * Assembly occupancies (theaters, restaurants, places of worship)
+  * Business occupancies (offices, banks, clinics)
+  * Educational facilities
+  * Residential buildings
+  * Mercantile and industrial
+- Installation of fixtures
+- Reference to IPC (International Plumbing Code)
+- Toilet and bathing room requirements
+- Private sewage disposal systems
+
+3.4 USA IBC CHAPTER 30 - ELEVATORS AND CONVEYING SYSTEMS
+---------------------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_032_chapter_30_elevators_and_conveying_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_032_chapter_30_elevators_and_conveying_systems.txt
+
+See detailed coverage in Section 7 of this index.
+
+3.5 USA INTERNATIONAL MECHANICAL CODE (IMC) 2024
+-------------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Mechanical Code (IMC)/imc_001_copyright.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Mechanical Code (IMC)/imc_002_preface.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Mechanical Code (IMC)/imc_003_chapter_1_scope_and_administration.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Mechanical Code (IMC)/imc_004_chapter_2_definitions.txt
+
+CODE ORGANIZATION:
+- Chapter 1: Scope and Administration
+- Chapter 2: Definitions
+- Chapter 3: General Regulations
+- Chapter 4: Ventilation
+- Chapter 5: Exhaust Systems
+- Chapter 6: Duct Systems
+- Chapter 7: Combustion Air
+- Chapter 8: Chimneys and Vents
+- Chapter 9: Specific Appliances, Fireplaces and Solid Fuel-Burning Equipment
+- Chapter 10: Boilers, Water Heaters and Pressure Vessels
+- Chapter 11: Refrigeration
+- Chapter 12: Hydronic Piping
+- Chapter 13: Fuel Oil Piping and Storage
+- Chapter 14: Solar Thermal Systems ⭐
+- Chapter 15: Referenced Standards
+
+3.6 USA INTERNATIONAL PLUMBING CODE (IPC) 2024
+-----------------------------------------------
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_001_copyright.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_002_preface.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_003_chapter_1_scope_and_administration.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_004_chapter_2_definitions.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_005_chapter_3_general_regulations.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_006_chapter_4_fixtures__faucets_and_fixture_fittings.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_007_chapter_5_water_heaters.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_008_chapter_6_water_supply_and_distribution.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_009_chapter_7_sanitary_drainage.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_010_chapter_8_indirect_special_waste.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_011_chapter_9_vents.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_012_chapter_10_traps__interceptors_and_separators.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_013_chapter_11_storm_drainage.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_014_chapter_12_special_piping_and_storage_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_015_chapter_13_nonpotable_water_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_016_chapter_14_subsurface_graywater_soil_absorption_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_017_chapter_15_referenced_standards.txt
+
+CODE ORGANIZATION:
+- Chapter 1: Scope and Administration
+- Chapter 2: Definitions
+- Chapter 3: General Regulations
+- Chapter 4: Fixtures, Faucets and Fixture Fittings
+- Chapter 5: Water Heaters
+- Chapter 6: Water Supply and Distribution
+- Chapter 7: Sanitary Drainage
+- Chapter 8: Indirect/Special Waste
+- Chapter 9: Vents
+- Chapter 10: Traps, Interceptors and Separators
+- Chapter 11: Storm Drainage
+- Chapter 12: Special Piping and Storage Systems
+- Chapter 13: Nonpotable Water Systems ⭐
+- Chapter 14: Subsurface Graywater Soil Absorption Systems ⭐
+- Chapter 15: Referenced Standards
+- Appendices: Fee schedules, rainfall rates, structural safety, sizing calculations
+
+======================================================================
+SECTION 4: HVAC SYSTEMS (HEATING, VENTILATION, AIR CONDITIONING)
+======================================================================
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/Bangladesh/10_Electrical_Installations_and_Energy_Code_Standards.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_030_chapter_28_mechanical_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_030_chapter_28_mechanical_systems.txt
+
+4.1 HVAC SYSTEM DESIGN PRINCIPLES
+----------------------------------
+- Load calculation methods (cooling and heating loads)
+- Psychrometric analysis
+- System selection criteria
+- Energy efficiency considerations ⭐
+- Indoor air quality requirements
+- Thermal comfort standards
+- Climate considerations for Bangladesh
+
+4.2 HVAC SYSTEM TYPES
+----------------------
+
+4.2.1 CENTRAL AIR CONDITIONING SYSTEMS
+- Chilled water systems
+- Variable air volume (VAV) systems ⭐
+- Constant air volume (CAV) systems
+- All-air systems
+- Air-water systems
+- Central plant equipment (chillers, cooling towers, pumps)
+
+4.2.2 DECENTRALIZED SYSTEMS
+- Split air conditioning systems
+- Variable refrigerant flow (VRF) systems ⭐
+- Packaged terminal air conditioners (PTAC)
+- Window units (small applications)
+- Heat pumps ⭐
+
+4.2.3 SPECIALIZED SYSTEMS
+- Computer room air conditioning (CRAC) ⭐
+- Clean room HVAC systems
+- Hospital and laboratory ventilation
+- Industrial ventilation
+- Kitchen exhaust systems
+
+4.3 VENTILATION REQUIREMENTS
+-----------------------------
+- Natural ventilation design
+- Mechanical ventilation rates
+- Minimum outdoor air requirements
+- ASHRAE Standard 62.1 compliance ⭐
+- Indoor air quality standards
+- CO2 monitoring and control ⭐
+- Air filtration requirements (MERV ratings) ⭐
+
+4.4 DUCT SYSTEMS
+----------------
+- Duct design methods (equal friction, static regain)
+- Duct materials (galvanized steel, aluminum, flexible)
+- Duct insulation requirements
+- Duct sizing and pressure drop calculations
+- Fire dampers and smoke dampers
+- Access doors and inspection openings
+- Duct cleaning and maintenance provisions
+
+4.5 HVAC CONTROLS AND AUTOMATION
+---------------------------------
+- Temperature and humidity controls
+- Building Automation System (BAS) ⭐
+- Direct Digital Controls (DDC) ⭐
+- Variable frequency drives (VFD) for energy savings ⭐
+- Zoning and scheduling
+- Demand-controlled ventilation ⭐
+- Integration with BMS ⭐
+
+4.6 EQUIPMENT SPECIFICATIONS
+----------------------------
+- Chillers (air-cooled, water-cooled, absorption) ⭐
+- Air handling units (AHU)
+- Fan coil units (FCU)
+- Pumps (centrifugal, end suction)
+- Cooling towers
+- Boilers (where applicable)
+- Heat recovery systems ⭐
+
+4.7 ENERGY EFFICIENCY MEASURES
+-------------------------------
+- High-efficiency equipment selection (EER, SEER ratings) ⭐
+- Variable speed drives ⭐
+- Heat recovery and energy recovery ventilators (ERV) ⭐
+- Economizer cycles ⭐
+- Thermal energy storage ⭐
+- Free cooling strategies ⭐
+- Solar cooling technologies ⭐
+
+4.8 REFRIGERATION SYSTEMS
+--------------------------
+- Commercial refrigeration
+- Industrial cold storage
+- Refrigerant types and environmental considerations ⭐
+- Refrigerant leak detection ⭐
+- Safety requirements
+- IMC Chapter 11 compliance
+
+4.9 HVAC ELECTRICAL REQUIREMENTS
+---------------------------------
+- Dedicated electrical circuits
+- Appropriate protection and isolation
+- Emergency power provisions
+- Starter and control panel specifications
+- Electrical load calculations
+- Integration with emergency power systems
+
+4.10 INSTALLATION AND COMMISSIONING
+------------------------------------
+- Equipment installation standards
+- Ductwork installation and testing
+- Piping installation and pressure testing
+- System balancing (air and water)
+- Commissioning procedures ⭐
+- Performance testing and verification
+- As-built documentation
+
+4.11 MAINTENANCE AND OPERATION
+-------------------------------
+- Preventive maintenance schedules
+- Filter replacement schedules
+- Coil cleaning procedures
+- Equipment lubrication and inspection
+- Water treatment for chilled water systems
+- Refrigerant charge monitoring
+- Energy monitoring and optimization ⭐
+
+======================================================================
+SECTION 5: PLUMBING AND DRAINAGE SYSTEMS
+======================================================================
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/Bangladesh/08_Water_Supply_Drainage_and_Sewerage_Standards_WASA.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_031_chapter_29_plumbing_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_031_chapter_29_plumbing_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_008_chapter_6_water_supply_and_distribution.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Plumbing Code (IPC)/ipc_009_chapter_7_sanitary_drainage.txt
+
+5.1 WATER SUPPLY SYSTEMS
+-------------------------
+
+5.1.1 WATER SUPPLY AUTHORITIES
+- DWASA (Dhaka Water Supply and Sewerage Authority)
+- CWASA (Chittagong WASA)
+- KWASA (Khulna WASA)
+- District Metered Area (DMA) system
+- Connection procedures and requirements
+
+5.1.2 WATER DEMAND ESTIMATION
+- Per capita consumption rates
+  * Apartments: 150-200 liters/person/day
+  * Single-family houses: 200-250 liters/person/day
+  * Offices: 50-75 liters/person/day
+  * Hotels: 200-300 liters/guest/day
+  * Hospitals: 300-450 liters/bed/day
+- Peak demand factors (1.5-2.5 times average)
+- Storage tank sizing (24-hour minimum, 1-2 day recommended)
+
+5.1.3 WATER SUPPLY SYSTEM DESIGN
+- Direct supply systems (limited application)
+- Indirect supply systems (most common in Bangladesh)
+  * Underground water tank (UWT) design
+  * Pumping systems (submersible, surface, duty/standby)
+  * Overhead water tank (OWT) design
+  * Distribution piping network
+- Pressure requirements: Minimum 100 kPa at highest fixture
+- Booster pump systems for high-rise buildings
+
+5.1.4 PIPE MATERIALS AND SIZING
+- GI (Galvanized Iron) pipes - traditional
+- UPVC (Unplasticized PVC) - increasingly popular
+- HDPE (High-Density Polyethylene) - underground
+- PPR (Polypropylene Random) - hot and cold water ⭐
+- CPVC (Chlorinated PVC) - hot water applications
+- Copper pipes - premium installations
+- Fixture unit method for pipe sizing
+- Velocity limits: 0.6-2.5 m/s
+
+5.1.5 FIXTURES AND FITTINGS
+- Water closets (flush tank, dual flush ⭐)
+- Lavatories (pedestal, wall-hung, counter-mounted)
+- Kitchen sinks and dishwashers
+- Bathtubs and showers
+- Floor drains and trap requirements
+- Sensor faucets and touchless fixtures ⭐
+- Low-flow fixtures for water conservation ⭐
+
+5.1.6 HOT WATER SYSTEMS
+- Individual electric heaters (storage, instant)
+- Central hot water systems for large buildings
+- Solar water heating systems ⭐
+- Heat pump water heaters ⭐
+- Temperature control and safety (anti-scalding devices) ⭐
+- Circulation pumps and insulation
+- IPC Chapter 5: Water Heaters
+
+5.1.7 WATER CONSERVATION MEASURES
+- Low-flow fixtures (shower heads 6-9 L/min)
+- Dual flush toilets (3/6 liters)
+- Sensor faucets and automatic shut-off valves
+- Rainwater harvesting systems ⭐
+- Greywater reuse systems ⭐
+- Leak detection and monitoring ⭐
+- Water-efficient landscaping
+
+5.1.8 BACKFLOW PREVENTION
+- Air gap separation
+- Check valves
+- Backflow preventers (double check, RPZ devices)
+- Applications: Building supply, irrigation, industrial connections
+- Testing and maintenance requirements
+
+5.2 SANITARY DRAINAGE SYSTEMS
+------------------------------
+
+5.2.1 DRAINAGE SYSTEM COMPONENTS
+- Building drain (horizontal, lowest pipe)
+- Building sewer (to public sewer or treatment)
+- Soil stack (vertical, includes WC discharge)
+- Waste stack (vertical, excludes WC discharge)
+- Branch drains (horizontal collectors)
+- Stack vents and vent pipes
+
+5.2.2 DRAINAGE PIPE MATERIALS
+- Cast iron (CI) - durable and quiet
+- UPVC - most common, lightweight, corrosion resistant
+- Vitrified clay - underground drains
+- Concrete pipes - large diameter sewers
+- PVC Schedule 40/80 specifications
+
+5.2.3 PIPE SIZING AND SLOPES
+- Drainage fixture unit (DFU) method
+  * Water closet: 4-6 DFU
+  * Lavatory: 1 DFU
+  * Bathtub/shower: 2 DFU
+  * Kitchen sink: 2 DFU
+- Minimum slopes by pipe size:
+  * 50mm: 2%
+  * 75mm: 1.5%
+  * 100mm: 1%
+  * 150mm: 0.7%
+  * 200mm+: 0.5%
+- Self-cleansing velocity: Minimum 0.6 m/s
+
+5.2.4 TRAPS AND TRAP SEALS
+- Trap seal requirements (50-100mm depth)
+- P-trap (horizontal outlet)
+- S-trap (vertical outlet - discouraged)
+- Bottle trap (compact, aesthetic)
+- Floor drain traps
+- Trap seal maintenance and venting
+
+5.2.5 VENTING SYSTEMS
+- Stack vent (extension of soil/waste stack)
+- Vent stack (separate vertical vent)
+- Branch vents and individual vents
+- Common vents and loop vents
+- Vent termination (150mm above roof minimum)
+- Air admittance valves (AAV) where permitted ⭐
+- IPC Chapter 9: Vents
+
+5.2.6 CLEANOUTS AND ACCESS
+- Cleanout locations (base of stacks, direction changes, 30m intervals)
+- Cleanout sizing (same as pipe up to 100mm)
+- Access provisions for maintenance
+- Rodding eyes and inspection chambers
+
+5.2.7 GREASE INTERCEPTORS AND SEPARATORS
+- Commercial kitchen grease traps
+- Oil separators for parking areas
+- Sizing based on fixture units and flow rates
+- Maintenance and cleaning schedules
+- IPC Chapter 10: Traps, Interceptors and Separators
+
+5.3 STORM WATER DRAINAGE
+-------------------------
+
+5.3.1 SYSTEM REQUIREMENTS
+- Separate storm and sanitary systems (mandatory)
+- Design rainfall intensity (150-250 mm/hour for Bangladesh)
+- Return period: 10-25 years
+- No cross-connections between systems
+
+5.3.2 ROOF DRAINAGE DESIGN
+- Roof outlets and sizing (minimum 75mm)
+- Conductor pipes (downpipes) - 75-100mm typical
+- Roof gutters and slope requirements (1% minimum)
+- Overflow provisions and emergency drains
+- IPC Chapter 11: Storm Drainage
+
+5.3.3 SURFACE AND AREA DRAINAGE
+- Balcony and terrace drains (trapped)
+- Basement drainage and sump pumps
+- Parking area drainage
+- Catch basins and area drains
+- Grading and surface water management
+
+5.3.4 STORM SEWER CONNECTION
+- WASA approval requirements
+- Inspection chambers at property line
+- Discharge to public storm sewers
+- Alternative: Discharge to natural drainage (with environmental approval)
+- Detention and retention systems for large sites ⭐
+
+5.4 SEWAGE TREATMENT
+--------------------
+
+5.4.1 PUBLIC SEWERAGE SYSTEM
+- WASA sewerage network coverage
+- Connection requirements and procedures
+- Inspection chambers and design
+- Payment of connection fees
+- Compliance with discharge standards
+
+5.4.2 ON-SITE SEWAGE TREATMENT
+- Septic tank systems
+  * Capacity: 3-5 days retention
+  * Minimum 2 chambers with baffles
+  * Sizing: 1 m³ per 5-6 persons, 2.5 m³ minimum
+  * Construction: Reinforced concrete or brick masonry
+- Soak pits and drain fields
+  * Percolation rate testing
+  * Sizing based on soil conditions
+  * Minimum 1.5m from water table
+- Desludging requirements (every 2-3 years)
+
+5.4.3 PACKAGE TREATMENT PLANTS
+- Extended aeration systems
+- Moving Bed Biofilm Reactor (MBBR) ⭐
+- Sequencing Batch Reactor (SBR) ⭐
+- Membrane Bioreactor (MBR) ⭐
+- Application for larger developments
+- Regular maintenance and monitoring requirements
+
+5.4.4 EFFLUENT QUALITY STANDARDS
+- Discharge to public sewer:
+  * pH: 6.0-9.0
+  * BOD: Maximum 250 mg/L
+  * COD: Maximum 400 mg/L
+  * Suspended Solids: Maximum 500 mg/L
+- Discharge to natural water bodies:
+  * pH: 6.5-9.0
+  * BOD: Maximum 50 mg/L
+  * COD: Maximum 200 mg/L
+  * Suspended Solids: Maximum 150 mg/L
+- Environmental Conservation Rules 1997 compliance
+
+5.5 INSTALLATION AND TESTING
+-----------------------------
+- Licensed plumber requirements
+- Pressure testing (1.5 times working pressure, 2 hours)
+- Drainage testing (water test or air test)
+- Rough-in inspection (before concealing)
+- Final inspection and WASA approval
+- As-built drawings and documentation
+
+======================================================================
+SECTION 6: ELECTRICAL INSTALLATIONS AND POWER SYSTEMS
+======================================================================
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/Bangladesh/10_Electrical_Installations_and_Energy_Code_Standards.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_029_chapter_27_electrical.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_029_chapter_27_electrical.txt
+
+6.1 ELECTRICAL SUPPLY AND DISTRIBUTION
+---------------------------------------
+[See comprehensive coverage in Section 2.1 above]
+
+Key topics include:
+- Service connection and metering
+- Substation design (11KV/0.4KV)
+- Main distribution board (MDB) design
+- Sub-distribution boards (SDB) and final distribution boards (FDB)
+- Three-phase and single-phase distribution
+- Voltage regulation and power factor correction
+
+6.2 LOW VOLTAGE SYSTEMS
+------------------------
+
+6.2.1 DATA AND COMMUNICATIONS
+- Structured cabling systems (Cat 5e/6/6a) ⭐
+- Fiber optic backbone systems ⭐
+- Wireless infrastructure integration ⭐
+- Telephone systems
+- TV/Satellite distribution
+- Intercom and public address systems
+- Access control systems ⭐
+- CCTV and security systems ⭐
+
+6.2.2 FIRE ALARM AND DETECTION
+- Addressable fire alarm systems ⭐
+- Smoke and heat detectors
+- Manual pull stations
+- Audible and visual notification devices
+- Fire alarm control panel (FACP)
+- Monitoring and communication to fire service
+- Power supply (primary and backup)
+- 24-hour standby, 15-minute alarm operation capacity
+
+6.2.3 BUILDING AUTOMATION SYSTEMS
+- Building Management System (BMS) integration ⭐
+- HVAC control and monitoring ⭐
+- Lighting control systems ⭐
+- Energy management systems ⭐
+- Security integration ⭐
+- Remote monitoring and control ⭐
+- IoT integration for smart buildings ⭐
+
+6.3 LIGHTING SYSTEMS
+--------------------
+[See comprehensive coverage in Section 2.1.6 above]
+
+Key considerations:
+- LED technology implementation
+- Automatic controls (occupancy, daylight, scheduling)
+- Emergency lighting and exit signs
+- Architectural and decorative lighting
+- Exterior and landscape lighting
+- Sports and specialty lighting
+
+6.4 SOLAR PHOTOVOLTAIC SYSTEMS
+-------------------------------
+
+6.4.1 GRID-TIED SYSTEMS ⭐
+- Solar panel (PV array) design and sizing
+- Inverter selection (string, micro, central)
+- Net metering requirements
+- Grid connection approval from utility (BERC regulations)
+- Synchronization and protection
+- Performance monitoring systems
+
+6.4.2 OFF-GRID SYSTEMS ⭐
+- Standalone power systems
+- Battery storage sizing (lithium-ion, lead-acid) ⭐
+- Charge controllers (MPPT, PWM)
+- Backup generator integration
+- Load management
+
+6.4.3 HYBRID SYSTEMS ⭐
+- Grid + Solar + Battery storage
+- Load prioritization and optimization
+- Peak shaving and demand management
+- Resilience and backup power capability
+
+6.4.4 DESIGN CONSIDERATIONS
+- Roof orientation and tilt angle
+- Shading analysis and mitigation
+- System sizing and energy yield calculations
+- Financial analysis and payback period
+- BERC regulations and incentives
+- IEC standards compliance
+
+======================================================================
+SECTION 7: ELEVATORS AND VERTICAL TRANSPORTATION
+======================================================================
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_032_chapter_30_elevators_and_conveying_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc2024_032_chapter_30_elevators_and_conveying_systems.txt
+→ /home/user/claude-code-task-4-Building-And-Road-Code/Bangladesh/10_Electrical_Installations_and_Energy_Code_Standards.txt (Section 6.1)
+
+7.1 ELEVATOR TYPES AND SYSTEMS
+-------------------------------
+
+7.1.1 TRACTION ELEVATORS
+- Geared traction systems
+- Gearless traction systems (high-rise) ⭐
+- Machine room vs. machine room-less (MRL) ⭐
+- Speed ranges: 1.0-10+ m/s
+- Applications: Mid-rise to high-rise buildings
+
+7.1.2 HYDRAULIC ELEVATORS
+- Direct hydraulic systems
+- Indirect (roped hydraulic) systems
+- Speed: Typically up to 1.0 m/s
+- Applications: Low-rise buildings (2-8 floors)
+
+7.1.3 ESCALATORS AND MOVING WALKS
+- Commercial escalators
+- Heavy-duty escalators (transit applications)
+- Moving walkways (horizontal/inclined)
+- Speed and capacity requirements
+
+7.1.4 SPECIALIZED SYSTEMS
+- Dumbwaiters and service lifts
+- Platform lifts for accessibility
+- Stair lifts and wheelchair lifts
+- Car lifts and freight elevators
+
+7.2 ELEVATOR DESIGN REQUIREMENTS
+---------------------------------
+
+7.2.1 CAPACITY AND TRAFFIC ANALYSIS
+- Passenger capacity (kg and persons)
+- Traffic analysis and calculation
+  * 5-minute handling capacity
+  * Average waiting time
+  * Interval between cars
+- Number of elevators required
+- Zoning strategies for high-rise buildings ⭐
+
+7.2.2 ELEVATOR MACHINE ROOM
+- Location requirements (top of shaft, bottom, or MRL)
+- Space requirements and dimensions
+- Ventilation and temperature control
+- Access and safety provisions
+- Equipment layout and maintenance access
+
+7.2.3 ELEVATOR SHAFTS AND HOISTWAYS
+- Fire-resistant construction requirements
+- Hoistway dimensions and clearances
+- Ventilation provisions
+- Lighting requirements
+- Machine room-less (MRL) design considerations ⭐
+
+7.2.4 ELEVATOR LOBBIES AND DOORS
+- Lobby size and clearances
+- Door types (swing, slide, telescopic)
+- Door widths for accessibility
+- Vision panels and safety glazing
+- Finishes and protective guards
+
+7.3 ELECTRICAL SYSTEMS FOR ELEVATORS
+-------------------------------------
+
+7.3.1 POWER SUPPLY REQUIREMENTS
+- Dedicated feeder from main distribution
+- Three-phase power supply (typically)
+- Motor sizes and starting current considerations
+- Voltage regulation requirements
+- Emergency power provisions (see Section 8)
+
+7.3.2 ELEVATOR CONTROL SYSTEMS
+- Relay control (older systems)
+- Microprocessor-based controls ⭐
+- Variable Voltage Variable Frequency (VVVF) drives ⭐
+- Destination dispatch systems ⭐
+- Group control and optimization ⭐
+
+7.3.3 ELEVATOR LIGHTING AND SIGNALS
+- Car lighting (normal and emergency)
+- Shaft lighting at intervals
+- Floor position indicators
+- Car operating panel (COP) and hall call buttons
+- Emergency communication systems
+- Audio and visual signals
+
+7.4 SAFETY SYSTEMS AND CODES
+-----------------------------
+
+7.4.1 SAFETY REQUIREMENTS
+- Overspeed governors
+- Safety brakes and buffers
+- Door interlocks and safety edges
+- Car and counterweight safeties
+- Emergency stop buttons
+- Alarm systems and communication
+
+7.4.2 FIRE SAFETY PROVISIONS
+- Fire-rated shaft enclosures
+- Elevator recall (Phase I and II operation)
+- Firefighter service elevators ⭐
+- Smoke detection in lobbies and machine rooms
+- Pressurization systems where required
+- Waterproofing of elevator pits
+
+7.4.3 ACCESSIBILITY REQUIREMENTS
+- Minimum car size for wheelchair access
+- Braille and tactile signage
+- Audible announcements ⭐
+- Appropriate door timing
+- Handrails and grab bars
+- Compliance with accessibility codes
+
+7.4.4 STANDARDS AND CODES
+- ASME A17.1: Safety Code for Elevators and Escalators
+- ASME A17.2: Inspection Requirements
+- EN 81 series (European standards)
+- IBC Chapter 30 compliance
+- Local building code requirements
+
+7.5 INSTALLATION AND COMMISSIONING
+-----------------------------------
+- Manufacturer installation supervision
+- Load testing (125% of rated capacity)
+- Speed and leveling accuracy tests
+- Safety device testing
+- Fire service operation testing
+- Emergency power operation testing
+- Certification and inspection approvals
+
+7.6 MODERNIZATION AND UPGRADES
+-------------------------------
+- Controller modernization ⭐
+- VVVF drive retrofits for energy savings ⭐
+- Destination dispatch upgrades ⭐
+- Machine room-less conversions where feasible ⭐
+- Energy regeneration systems ⭐
+- IoT and predictive maintenance integration ⭐
+
+7.7 MAINTENANCE AND INSPECTION
+-------------------------------
+- Routine maintenance schedules (monthly/quarterly)
+- Annual comprehensive inspections
+- Five-year load testing
+- Maintenance contracts and service providers
+- Record keeping and documentation
+- Emergency repair procedures
+
+7.8 ENERGY EFFICIENCY
+---------------------
+- LED lighting in cars and shafts ⭐
+- Sleep mode during idle periods ⭐
+- Regenerative drives ⭐
+- Efficient motor technologies ⭐
+- Smart dispatching to reduce energy consumption ⭐
+- Energy monitoring and reporting ⭐
+
+======================================================================
+SECTION 8: EMERGENCY POWER SYSTEMS
+======================================================================
+
+FILE REFERENCES:
+→ /home/user/claude-code-task-4-Building-And-Road-Code/Bangladesh/10_Electrical_Installations_and_Energy_Code_Standards.txt (Chapter 7)
+→ /home/user/claude-code-task-4-Building-And-Road-Code/USA/2024 International Building Code (IBC)/ibc_029_chapter_27_electrical.txt
+
+8.1 EMERGENCY POWER REQUIREMENTS
+---------------------------------
+
+8.1.1 CRITICAL SYSTEMS REQUIRING EMERGENCY POWER
+- Fire alarm systems
+- Emergency lighting and exit signs
+- Fire pumps (mandatory emergency power)
+- Smoke extraction and pressurization systems
+- Emergency elevators (high-rise buildings)
+- Communication systems (intercom, public address)
+- Security systems (access control, CCTV)
+- Medical equipment (hospitals and healthcare facilities)
+- Data centers and critical IT infrastructure ⭐
+
+8.1.2 DURATION REQUIREMENTS
+- Emergency lighting: Minimum 90 minutes
+- High-rise buildings: 4 hours minimum
+- Hospitals (life safety systems): Continuous operation capability
+- Data centers: Varies by criticality (N, N+1, 2N redundancy) ⭐
+
+8.2 GENERATOR SYSTEMS
+----------------------
+
+8.2.1 GENERATOR TYPES
+- Diesel generators (most common)
+- Natural gas generators
+- Dual fuel generators (diesel + natural gas) ⭐
+- Gasoline generators (small, portable applications)
+
+8.2.2 GENERATOR SIZING
+- Essential load calculation (with diversity)
+- Starting current considerations (motor starting)
+- Voltage regulation requirements (±5%)
+- Continuous rating vs. standby rating
+- Future expansion allowance
+
+8.2.3 GENERATOR ROOM REQUIREMENTS
+- Separate, dedicated room with fire-rated walls
+- Adequate ventilation for cooling (natural or mechanical)
+- Combustion air supply provisions
+- Exhaust system design (silencers, discharge to exterior)
+- Noise attenuation measures (acoustic treatment, barriers)
+- Vibration isolation (spring isolators, inertia bases)
+- Lighting and electrical outlets
+- Fire detection and suppression
+- Emergency access and egress
+
+8.2.4 FUEL STORAGE
+- Diesel fuel storage tanks (3-6 hours minimum, 24-48 hours recommended)
+- Day tank and main storage tank configurations
+- Fuel transfer pumps
+- Tank materials (steel, double-wall, with containment)
+- Venting and overflow provisions
+- Fire safety and environmental compliance
+- Access for fuel delivery
+
+8.2.5 AUTOMATIC TRANSFER SWITCHES (ATS)
+- Transfer switch ratings and types
+- Transfer time: Typically 10-15 seconds
+- Automatic operation sequence:
+  1. Power failure detection
+  2. Generator start signal
+  3. Generator warm-up and stabilization
+  4. Transfer to generator power
+  5. Utility restoration detection
+  6. Transfer back to normal power
+  7. Generator cool-down and shutdown
+- Open transition vs. closed transition ⭐
+- Bypass isolation provisions for maintenance
+- Manual override capability
+
+8.2.6 GENERATOR CONTROLS AND MONITORING
+- Automatic start/stop controls
+- Remote monitoring and control ⭐
+- Battery charger for starting batteries
+- Engine parameters monitoring (temperature, pressure, speed)
+- Alarm systems (local and remote)
+- Load bank testing provisions
+- Synchronizing and paralleling controls (multiple generators) ⭐
+
+8.3 UNINTERRUPTIBLE POWER SUPPLY (UPS) SYSTEMS
+-----------------------------------------------
+
+8.3.1 UPS TYPES
+- Off-line (Standby) UPS: Basic protection, 5-10ms transfer time
+- Line-Interactive UPS: AVR, better voltage regulation
+- On-line (Double Conversion) UPS: Continuous protection, 0ms transfer ⭐
+
+8.3.2 UPS APPLICATIONS
+- Computer systems and servers
+- Data centers (Tier I-IV) ⭐
+- Critical control systems (BMS, fire alarm, security)
+- Medical equipment (imaging, life support)
+- Telecommunications equipment
+- Laboratory instruments
+
+8.3.3 UPS SIZING AND CONFIGURATION
+- kVA rating and power factor considerations
+- Battery backup duration (5-15 minutes typical, expandable)
+- Redundancy configurations:
+  * N: Single UPS, no redundancy
+  * N+1: Redundant UPS module ⭐
+  * 2N: Fully redundant dual systems ⭐
+- Scalability and modular designs ⭐
+
+8.3.4 UPS BATTERY SYSTEMS
+- Valve-Regulated Lead-Acid (VRLA) batteries
+- Lithium-Ion batteries (increasing adoption) ⭐
+- Battery sizing calculations
+- Battery room requirements (ventilation, temperature control)
+- Battery monitoring systems ⭐
+- Replacement schedules (5-10 years typical)
+
+8.3.5 UPS INSTALLATION REQUIREMENTS
+- Dedicated electrical room or data center
+- Adequate ventilation and cooling
+- Load separation (critical vs. non-critical)
+- Bypass provisions for maintenance
+- Input and output isolation
+- Monitoring and alarm integration
+
+8.4 BATTERY ENERGY STORAGE SYSTEMS (BESS)
+------------------------------------------
+
+8.4.1 BESS APPLICATIONS ⭐
+- Peak shaving and demand charge reduction
+- Load leveling and time-of-use optimization
+- Renewable energy integration (solar + storage)
+- Grid services (frequency regulation, spinning reserve)
+- Microgrid and islanding capability
+- Emergency backup power
+
+8.4.2 BESS TECHNOLOGIES ⭐
+- Lithium-Ion batteries (most common)
+- Flow batteries (long duration storage)
+- Lead-acid batteries (legacy systems)
+- Energy capacity (kWh) and power rating (kW)
+
+8.4.3 BESS DESIGN CONSIDERATIONS ⭐
+- Battery Management System (BMS)
+- Thermal management and cooling
+- Fire suppression and safety (NFPA 855)
+- Room and enclosure requirements
+- Monitoring and control systems
+- Grid connection and power electronics
+
+8.5 EMERGENCY LIGHTING SYSTEMS
+-------------------------------
+
+8.5.1 EMERGENCY LIGHTING REQUIREMENTS
+- Exit routes and stairwells
+- Corridors and common areas
+- Large spaces and assembly areas
+- Minimum illumination: 5 lux
+- Duration: 90 minutes minimum
+- Automatic activation on power failure
+
+8.5.2 EMERGENCY LIGHTING TYPES
+- Central battery system (distributed lighting)
+- Self-contained emergency luminaires (individual battery)
+- Generator-powered emergency lighting
+- LED emergency lighting (energy efficient) ⭐
+
+8.5.3 EXIT SIGNS
+- Illuminated or self-luminous
+- Clearly visible from exit access
+- Battery backup (90 minutes minimum)
+- LED exit signs (low power consumption) ⭐
+- Photoluminescent exit signs (no power required) ⭐
+
+8.6 TESTING AND MAINTENANCE
+----------------------------
+
+8.6.1 GENERATOR TESTING
+- Weekly automatic start test (no load)
+- Monthly load test (30-50% load, 30 minutes)
+- Annual comprehensive test (full load, 4 hours)
+- Transfer switch testing
+- Fuel quality testing and polishing
+- Battery load testing
+
+8.6.2 UPS TESTING
+- Initial commissioning and load bank testing
+- Battery discharge testing (annually)
+- Transfer testing (bypass to UPS to bypass)
+- Preventive maintenance (quarterly/semi-annually)
+- Battery replacement as needed
+
+8.6.3 EMERGENCY LIGHTING TESTING
+- Monthly functionality test (30 seconds)
+- Annual full discharge test (90 minutes)
+- Record keeping and documentation
+- Lamp and battery replacement
+
+8.7 CODES AND STANDARDS
+------------------------
+- NFPA 110: Emergency and Standby Power Systems
+- NFPA 111: Stored Electrical Energy Emergency and Standby Power Systems
+- NFPA 70: National Electrical Code (Article 700, 701, 702)
+- NFPA 855: Installation of Stationary Energy Storage Systems ⭐
+- IBC Chapter 27: Electrical requirements
+- IEEE Standards for UPS and generator systems
+- BNBC Part 8, Chapter 4: Emergency Power Systems
+
+======================================================================
+SECTION 9: MODERN SYSTEM REQUIREMENTS AND EMERGING TECHNOLOGIES
+======================================================================
+
+9.1 SMART BUILDING INTEGRATION ⭐
+----------------------------------
+- Internet of Things (IoT) sensors and devices
+- Integrated building systems (HVAC, lighting, security)
+- Real-time monitoring and analytics
+- Predictive maintenance using AI/ML
+- Mobile apps for building management
+- Cloud-based building management platforms
+
+9.2 ENERGY MANAGEMENT SYSTEMS ⭐
+---------------------------------
+- Energy monitoring and sub-metering
+- Real-time energy consumption dashboards
+- Demand response and load shedding
+- Peak demand management
+- Energy benchmarking and reporting
+- ISO 50001 Energy Management System certification
+- Integration with utility smart meters
+
+9.3 SUSTAINABLE MEP DESIGN ⭐
+------------------------------
+- Net-zero energy building design
+- Passive design strategies
+- High-efficiency equipment and systems
+- Renewable energy integration (solar, wind)
+- Water conservation and recycling
+- Green building certifications (LEED, BREEAM)
+- Life cycle cost analysis
+- Carbon footprint reduction
+
+9.4 ADVANCED HVAC TECHNOLOGIES ⭐
+----------------------------------
+- Variable Refrigerant Flow (VRF) systems
+- Displacement ventilation
+- Radiant heating and cooling
+- Desiccant dehumidification
+- Energy recovery ventilators (ERV)
+- Geothermal heat pumps
+- Chilled beams and radiant panels
+- Magnetic bearing chillers
+
+9.5 WATER TECHNOLOGIES ⭐
+--------------------------
+- Rainwater harvesting systems
+- Greywater treatment and reuse
+- Blackwater treatment (MBR, SBR)
+- Water quality monitoring sensors
+- Smart irrigation systems
+- Leak detection systems
+- Water-efficient fixtures and appliances
+
+9.6 ELECTRICAL INNOVATIONS ⭐
+------------------------------
+- LED lighting systems with smart controls
+- Daylight and occupancy sensors
+- Power over Ethernet (PoE) lighting
+- DC microgrids
+- Wireless power transmission
+- Energy storage systems (batteries)
+- Electric vehicle (EV) charging infrastructure
+- Solar photovoltaic integration
+
+9.7 DIGITAL TWINS AND BIM ⭐
+-----------------------------
+- Building Information Modeling (BIM) for MEP design
+- Digital twin for operations and maintenance
+- 3D coordination and clash detection
+- Virtual commissioning
+- Facility management integration
+- As-built model maintenance
+
+9.8 CYBERSECURITY FOR BUILDING SYSTEMS ⭐
+------------------------------------------
+- Network segmentation for building systems
+- Firewalls and intrusion detection
+- Secure remote access
+- Regular security updates and patches
+- Access control and authentication
+- Backup and disaster recovery plans
+
+9.9 RESILIENCE AND DISASTER PREPAREDNESS ⭐
+--------------------------------------------
+- Redundant systems and backup power
+- Flood-resistant design (pumps, backflow prevention)
+- Seismic design for MEP systems
+- Hurricane and wind-resistant installations
+- Emergency shutdown procedures
+- Business continuity planning
+
+======================================================================
+SECTION 10: PROFESSIONAL REQUIREMENTS AND CERTIFICATIONS
+======================================================================
+
+10.1 BANGLADESH PROFESSIONAL REQUIREMENTS
+------------------------------------------
+- IEB (Institution of Engineers, Bangladesh) membership
+- Licensed electrical engineers for design
+- Licensed electricians for installation
+- Licensed plumbers (WASA registration)
+- RAJUK registered professionals
+- Professional indemnity insurance
+
+10.2 INTERNATIONAL CERTIFICATIONS
+----------------------------------
+- PE (Professional Engineer) license
+- LEED AP (Leadership in Energy and Environmental Design)
+- CEM (Certified Energy Manager)
+- ASHRAE certifications
+- NICET (Fire alarm, HVAC technician certifications)
+- Master plumber/electrician licenses
+
+10.3 DESIGN PROFESSIONAL RESPONSIBILITIES
+------------------------------------------
+- Code compliance and design certification
+- Load calculations and system sizing
+- Equipment specifications
+- Construction drawings and documentation
+- Construction administration and inspection
+- Commissioning oversight
+
+======================================================================
+SECTION 11: INSPECTION, TESTING, AND COMMISSIONING
+======================================================================
+
+11.1 INSPECTION REQUIREMENTS
+-----------------------------
+- Rough-in inspections (before concealment)
+- Progress inspections during installation
+- Final inspections before occupancy
+- WASA inspections (plumbing)
+- Utility inspections (electrical connection)
+- Fire department inspections (fire alarm, sprinklers)
+- Elevator inspections (ASME certified inspectors)
+
+11.2 TESTING PROTOCOLS
+----------------------
+- Pressure testing (water supply, hydronic systems)
+- Drainage testing (water test, air test)
+- Insulation resistance testing (electrical)
+- Earth resistance testing
+- Duct leakage testing ⭐
+- Air and water balancing ⭐
+- Fire alarm functional testing
+- Emergency power system testing
+- Elevator load and safety testing
+
+11.3 COMMISSIONING PROCESS ⭐
+------------------------------
+- Pre-design and design phase commissioning
+- Construction phase commissioning
+- Functional performance testing
+- System integration testing
+- Training of operations staff
+- Documentation and O&M manuals
+- Warranty period monitoring
+- Ongoing commissioning (retro-commissioning) ⭐
+
+======================================================================
+SECTION 12: OPERATIONS, MAINTENANCE, AND FACILITY MANAGEMENT
+======================================================================
+
+12.1 PREVENTIVE MAINTENANCE
+----------------------------
+- Scheduled maintenance programs
+- Manufacturer's recommended schedules
+- Inspection checklists and procedures
+- Lubrication and cleaning
+- Filter replacement
+- Calibration and adjustment
+- Parts replacement and inventory
+
+12.2 CORRECTIVE MAINTENANCE
+----------------------------
+- Emergency response procedures
+- Troubleshooting and diagnostics
+- Repair or replacement decisions
+- Documentation of failures and repairs
+- Root cause analysis
+- Preventive action to avoid recurrence
+
+12.3 COMPUTERIZED MAINTENANCE MANAGEMENT SYSTEMS (CMMS) ⭐
+-----------------------------------------------------------
+- Work order management
+- Preventive maintenance scheduling
+- Asset inventory and tracking
+- Maintenance history and records
+- Parts and materials management
+- Cost tracking and budgeting
+- Performance reporting and analytics
+
+12.4 FACILITY MANAGEMENT BEST PRACTICES
+----------------------------------------
+- Standard operating procedures (SOPs)
+- Energy management and optimization
+- Sustainability initiatives
+- Occupant comfort and satisfaction
+- Emergency preparedness and response
+- Continuous improvement programs
+- Benchmarking and performance metrics ⭐
+
+======================================================================
+SECTION 13: CONTACT INFORMATION AND RESOURCES
+======================================================================
+
+13.1 BANGLADESH AUTHORITIES
+----------------------------
+BANGLADESH ENERGY REGULATORY COMMISSION (BERC)
+IEB Bhaban (6th & 7th Floor), Ramna, Dhaka-1000
+Phone: +880-2-9121002
+Website: www.berc.org.bd
+
+BANGLADESH POWER DEVELOPMENT BOARD (BPDB)
+WAPDA Bhaban, Motijheel C/A, Dhaka-1000
+Phone: +880-2-9563100
+Website: www.bpdb.gov.bd
+
+DHAKA WATER SUPPLY AND SEWERAGE AUTHORITY (DWASA)
+WASA Bhaban, 98, Kazi Nazrul Islam Avenue, Dhaka-1215
+Phone: 02-55040330
+Emergency/Hotline: 16162 (24 hours)
+Website: www.dwasa.org.bd
+
+INSTITUTION OF ENGINEERS, BANGLADESH (IEB)
+IEB Bhaban, Ramna, Dhaka-1000
+Phone: +880-2-9665650
+Website: www.iebbd.org
+
+FIRE SERVICE AND CIVIL DEFENCE (FSCD)
+Fire Service Headquarters, Dhaka
+Emergency: 199 or 102
+Website: www.fireservice.gov.bd
+
+RAJUK (RAJDHANI UNNAYAN KARTRIPAKKHA)
+Rajdhani Unnayan Bhaban, Agargaon, Dhaka-1207
+Website: www.rajukdhaka.gov.bd
+
+13.2 INTERNATIONAL CODE ORGANIZATIONS
+--------------------------------------
+INTERNATIONAL CODE COUNCIL (ICC)
+Website: www.iccsafe.org
+I-Codes: IBC, IMC, IPC, IECC, IFC
+
+NATIONAL FIRE PROTECTION ASSOCIATION (NFPA)
+Website: www.nfpa.org
+NFPA 70 (NEC), NFPA 13 (Sprinklers), NFPA 72 (Fire Alarm)
+
+AMERICAN SOCIETY OF HEATING, REFRIGERATING AND
+AIR-CONDITIONING ENGINEERS (ASHRAE)
+Website: www.ashrae.org
+
+AMERICAN SOCIETY OF MECHANICAL ENGINEERS (ASME)
+Website: www.asme.org
+A17.1 (Elevators), BPVC (Boilers and Pressure Vessels)
+
+13.3 STANDARDS ORGANIZATIONS
+----------------------------
+INTERNATIONAL ELECTROTECHNICAL COMMISSION (IEC)
+Website: www.iec.ch
+
+INTERNATIONAL ORGANIZATION FOR STANDARDIZATION (ISO)
+Website: www.iso.org
+
+BANGLADESH STANDARDS AND TESTING INSTITUTION (BSTI)
+116/A, Tejgaon Industrial Area, Dhaka-1208
+Website: www.bsti.gov.bd
+
+======================================================================
+SECTION 14: ABBREVIATIONS AND ACRONYMS
+======================================================================
+
+AC      - Air Conditioning
+ACB     - Air Circuit Breaker
+AHU     - Air Handling Unit
+ASHRAE  - American Society of Heating, Refrigerating and
+          Air-Conditioning Engineers
+ATS     - Automatic Transfer Switch
+AVR     - Automatic Voltage Regulator
+BAS     - Building Automation System
+BERC    - Bangladesh Energy Regulatory Commission
+BESS    - Battery Energy Storage System
+BIM     - Building Information Modeling
+BMS     - Building Management System
+BNBC    - Bangladesh National Building Code
+BOD     - Biochemical Oxygen Demand
+BPDB    - Bangladesh Power Development Board
+BTS     - Bangladesh Standards
+CAV     - Constant Air Volume
+CCTV    - Closed-Circuit Television
+CEM     - Certified Energy Manager
+CI      - Cast Iron
+CMMS    - Computerized Maintenance Management System
+COD     - Chemical Oxygen Demand
+COP     - Coefficient of Performance / Car Operating Panel
+CPVC    - Chlorinated Polyvinyl Chloride
+CRAC    - Computer Room Air Conditioning
+CWASA   - Chittagong Water Supply and Sewerage Authority
+DC      - Direct Current
+DDC     - Direct Digital Control
+DESCO   - Dhaka Electric Supply Company
+DFU     - Drainage Fixture Unit
+DMA     - District Metered Area
+DPDC    - Dhaka Power Distribution Company
+DWASA   - Dhaka Water Supply and Sewerage Authority
+EER     - Energy Efficiency Ratio
+ERV     - Energy Recovery Ventilator
+EV      - Electric Vehicle
+FACP    - Fire Alarm Control Panel
+FCU     - Fan Coil Unit
+FDB     - Final Distribution Board
+FSCD    - Fire Service and Civil Defence
+GI      - Galvanized Iron
+HDPE    - High-Density Polyethylene
+HVAC    - Heating, Ventilation, and Air Conditioning
+IBC     - International Building Code
+IEC     - International Electrotechnical Commission
+IECC    - International Energy Conservation Code
+IFC     - International Fire Code
+IMC     - International Mechanical Code
+IoT     - Internet of Things
+IPC     - International Plumbing Code
+ISO     - International Organization for Standardization
+kVA     - Kilovolt-Ampere
+kW      - Kilowatt
+kWh     - Kilowatt-hour
+KWASA   - Khulna Water Supply and Sewerage Authority
+LEED    - Leadership in Energy and Environmental Design
+MBBR    - Moving Bed Biofilm Reactor
+MBR     - Membrane Bioreactor
+MCCB    - Molded Case Circuit Breaker
+MCB     - Miniature Circuit Breaker
+MDB     - Main Distribution Board
+MEP     - Mechanical, Electrical, and Plumbing
+MERV    - Minimum Efficiency Reporting Value
+MRL     - Machine Room-Less
+NFPA    - National Fire Protection Association
+OWT     - Overhead Water Tank
+PE      - Professional Engineer / Polyethylene
+PoE     - Power over Ethernet
+PPR     - Polypropylene Random
+PV      - Photovoltaic
+PVC     - Polyvinyl Chloride
+RAJUK   - Rajdhani Unnayan Kartripakkha
+RCBO    - Residual Current Circuit Breaker with Overcurrent
+RCCB    - Residual Current Circuit Breaker
+RCD     - Residual Current Device
+RPZ     - Reduced Pressure Zone
+SBR     - Sequencing Batch Reactor
+SDB     - Sub-Distribution Board
+SEER    - Seasonal Energy Efficiency Ratio
+SOP     - Standard Operating Procedure
+SPD     - Surge Protection Device
+THD     - Total Harmonic Distortion
+UPS     - Uninterruptible Power Supply
+UPVC    - Unplasticized Polyvinyl Chloride
+UWT     - Underground Water Tank
+VAV     - Variable Air Volume
+VFD     - Variable Frequency Drive
+VRLA    - Valve-Regulated Lead-Acid
+VRF     - Variable Refrigerant Flow
+VVVF    - Variable Voltage Variable Frequency
+WASA    - Water Supply and Sewerage Authority
+WC      - Water Closet
+WSFU    - Water Supply Fixture Unit
+XLPE    - Cross-Linked Polyethylene
+
+======================================================================
+DOCUMENT CONTROL
+======================================================================
+
+Document Title: Master Index - Buildings: Building Services (MEP)
+File Name: 05_Buildings_Building_Services_MEP.txt
+Version: 1.0
+Date Created: November 2025
+Created By: BNR 2025 Documentation Project
+Last Modified: November 2025
+Classification: Technical Reference
+Status: Active
+
+REVISION HISTORY:
+Version 1.0 - November 2025 - Initial creation
+
+NOTES:
+⭐ = Modern system requirements and emerging technologies
+This master index provides comprehensive cross-references to detailed
+technical documents in the repository. For specific implementation
+details, refer to the individual referenced files.
+
+======================================================================
+END OF DOCUMENT
+======================================================================
