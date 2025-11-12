@@ -1,0 +1,1917 @@
+======================================================================
+PAGE 1 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 132
+Design of electrical and telecommunication
+systems for roadside technology and
+communications
+Version 1.0.0
+Summary
+This document contains design requirements for electrical and telecommunication systems for
+roadside technology and communications and communications.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 54
+======================================================================
+TD 132 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. General requirements for electrical and telecommunication systems
+9
+Outputs from the design of electrical and telecommunication systems for roadside technology and commu-
+nications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3. Electrical installations for roadside technology and communications
+11
+Electricity supplies for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Electrical distribution for roadside technology equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Isolation for roadside technology equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Lightning protection for roadside technology equipment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Earthing and bonding for roadside technology equipment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+4. Telecommunication services
+14
+Provision of telecommunication services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Service Delivery Point . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Existing telecommunications services
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Interface between cabinets and TSP equipment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+5. Cables for roadside technology and communications
+16
+Provision of cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Protection of cables for roadside technology and communications
+. . . . . . . . . . . . . . . . . . . . . . .
+16
+Cable management for roadside technology on gantries . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Separation of cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . .
+16
+Armoured cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Trenches for direct-buried armoured cables for roadside technology and communications . . . . . . .
+17
+Cables in cable trough for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . .
+17
+Cable installation in transmission stations for roadside technology and communications . . . . . . . . . . .
+17
+Power cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Communications cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . .
+17
+Cable joints for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Cable continuity for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Modification to existing cables for roadside technology and communications . . . . . . . . . . . . . . . . . .
+18
+Testing of cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+6. Normative references
+19
+7. Informative references
+20
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 54
+======================================================================
+TD 132 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 132
+1.0.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+New document derived from Section split from TD 131, with updated amendments.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 54
+======================================================================
+TD 132 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 v0.1.0, Section 5, Section 6 and in part Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 54
+======================================================================
+TD 132 Version 1.0.0
+Introduction
+Introduction
+Background
+Electrical and telecommunication systems are used to provide the necessary connectivity to roadside
+technology equipment, which supports operational services that monitor, inform and direct customers,
+to enable safe and reliable journeys.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 54
+======================================================================
+TD 132 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+CSA
+Cross-sectional area
+DNO
+Distribution Network Operator
+EI
+Electricity Interface
+OO
+Overseeing Organisation
+SDP
+Service Delivery Point
+STI
+Service Type Instance
+TSP
+Telecommunications Service Provider
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 54
+======================================================================
+TD 132 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Asset owner
+The team or part of the Overseeing Organisation which has
+responsibility for the management, operation and
+maintenance of the roadside technology equipment.
+Cabinets
+As defined in TD 133 [Ref 2.N].
+Cabinets at the boundary
+As defined in TD 133 [Ref 2.N].
+Chamber
+As defined in TD 133 [Ref 2.N].
+Communications
+Transmission system to roadside technology equipment and
+between local links.
+NOTE: This can include cable or wireless technology.
+Communications cabinet
+As defined in TD 133 [Ref 2.N].
+Dual feeds
+Separate incoming DNO electricity supply feeds from two
+different primary sub stations.
+Duct
+As defined in TD 133 [Ref 2.N].
+Electricity Interface (EI) cabinet
+As defined in TD 133 [Ref 2.N].
+Elexon charge codes
+As defined in TG 411 [Ref 4.N].
+Information model
+As defined in GG 184 [Ref 17.N].
+Local power cabinet
+As defined in TD 133 [Ref 2.N].
+Main distribution board
+The Overseeing Organisation's assembly containing
+switching, protective devices and/or isolators (e.g. fuses,
+circuit-breakers, residual current operated devices, main
+switch isolator) associated with one or more outgoing
+circuits feeding sub-distribution boards, together with
+terminals for the live, neutral and circuit protective
+conductors, colocated in the Electricity Interface cabinet
+with the DNO cutout.
+Power cabinet
+As defined in TD 133 [Ref 2.N].
+Renewable energy
+Energy derived from a source that is naturally replenished
+when used, such as by wind, solar, hydro, geothermal, tidal,
+etc.
+NOTE: definition taken from TA 401 [Ref 11.N].
+Roadside technology equipment
+As defined in TD 131 [Ref 16.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 54
+======================================================================
+TD 132 Version 1.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Service Delivery Point (SDP)
+The logical and physical location of the interface between
+the Service Type Instance and the roadside technology,
+application or system
+NOTE: A number of Service Type Instances can be served
+by a single SDP.
+Service Type Instance (STI)
+A telecommunications service with defined transmission
+characteristics and associated performance requirements
+Shared telecommunications power
+supply
+Where the Overseeing Organisation provides power for the
+Telecommunications Service Provider (TSP) equipment.
+NOTE: This does not allow for sharing of power supplies
+between roadside technology equipment, lighting or traffic
+signalling systems.
+Sub-distribution board
+An assembly supplied by a sub-main distribution circuit
+connected to the main distribution board coming from the
+origin of an installation, and containing switching, protective
+devices and/or isolators (such as fuses, circuit-breakers,
+residual current operated devices, double pole isolators),
+which provides final connections and point of isolation local
+to roadside technology equipment sites.
+Telecommunications service
+A set of information transfer capabilities delivered by a
+Telecommunications Service Provider according to an
+agreed set of technical specifications and performance
+levels.
+Telecommunications Service Provider
+(TSP)
+The TSP provides a 'service capability' for conveying voice,
+video and data signals that link roadside devices to control
+rooms and on to third party operational stakeholders.The
+TSP can be a third party contracted to provide
+telecommunications services directly to the Overseeing
+Organisation.
+Transmission cabinet
+As defined in TD 133 [Ref 2.N].
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 54
+======================================================================
+TD 132 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of electrical and telecommunication system installations for
+roadside technology and communications on motorways and all purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 10.N], GG
+104 [Ref 13.N], GD 304 [Ref 3.N] and with all other DMRB documents relevant to the design of the
+particular works to be undertaken.
+1.2
+This document provides the design requirements for electricity supply provision that shall be followed
+for connections originating from Electricity Interface (EI) cabinets.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving electrical and
+telecommunication systems for roadside technology and communications on the Overseeing
+Organisations' motorway and the all-purpose trunk roads according to the implementations of GG 101
+[Ref 6.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 54
+======================================================================
+TD 132 Version 1.0.0
+2. General requirements for electrical and telec...
+2.
+General requirements for electrical and telecommunication
+systems
+Outputs from the design of electrical and telecommunication systems for
+roadside technology and communications
+2.1
+The output from the design of electrical and telecommunication systems for roadside technology and
+communications shall include all details for the installation of the electrical and telecommunication
+systems.
+2.1.1
+The outputs from the design of electrical installations for roadside technology and communications
+should include details for each electrical installation such as:
+1)
+the installation location, using a formal location referencing system;
+2)
+electricity supply arrangements;
+a)
+total load;
+b)
+DNO requirements;
+c)
+number of phases;
+d)
+earthing arrangements;
+e)
+renewable energy system;
+f)
+responsibility for initial verification inspection and testing of electrical installations of sole
+TSP supplies.
+3)
+power cabinet and internal wiring arrangements;
+4)
+electrical protective device, switchgear and distribution device arrangements;
+5)
+power supplies on gantries testing arrangements;
+6)
+electrical isolation arrangements for cabinets, minor structures and gantries;
+7)
+lightning protection arrangements;
+8)
+earthing and bonding arrangements.
+2.1.2
+The outputs from the design of telecommunication services for roadside technology and
+communications should include details for each telecommunication installation such as:
+1)
+the installation location, using a formal location referencing system;
+2)
+Telecommunications Service Provider (TSP) power supply requirements and scheme interface
+requirements;
+3)
+Telecommunications work notice periods;
+4)
+Telecommunications responsibility matrix;
+5)
+Service Delivery Point (SDP) arrangements;
+6)
+interface arrangements to existing TSP network.
+2.1.3
+The outputs from the design of cables for roadside technology and communications should include
+details for each cable installation such as:
+1)
+the installation location, using a formal location referencing system;
+2)
+cable length tolerances;
+3)
+order of installation of cables;
+4)
+cable performance characteristics;
+5)
+method of protection for cables against environmental and mechanical damage;
+a)
+gantry cable tray dimensions;
+b)
+cable tray covers or alternative continuous protection for gantries.
+6)
+cable separation dimensions;
+7)
+armoured cable type, installation dimensions and cabinet termination arrangements;
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 54
+======================================================================
+TD 132 Version 1.0.0
+2. General requirements for electrical and telec...
+8)
+direct buried cable trench dimensions, backfill and reinstatement arrangements;
+a)
+sacrificial duct arrangements;
+b)
+cable pulling pit arrangements.
+9)
+cables in cable trough arrangements and installation techniques;
+a)
+sub-duct arrangements;
+10)
+cable installation arrangements for transmission stations or transmission cabinets, not to be
+undertaken by the TSP;
+11)
+power cable size and arrangements;
+12)
+communication cable size and arrangements;
+13)
+cable joint arrangements;
+14)
+cable continuity arrangements;
+15)
+modification to existing cable arrangements:
+a)
+trial hole locations;
+b)
+excavation techniques;
+c)
+cable removal and reinstatement techniques.
+16)
+cable testing arrangements.
+2.2
+Information models shall be produced to define the details and dimensions of each electrical and
+telecommunication system for roadside technology and communications to be installed.
+2.2.1
+Drawings and non-graphical information should be produced to provide any additional details of views
+needed for the construction of each electrical and telecommunication system for roadside technology
+and communications.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 54
+======================================================================
+TD 132 Version 1.0.0
+3. Electrical installations for roadside technol...
+3.
+Electrical installations for roadside technology and
+communications
+3.1
+All electrical design for roadside technology and communications must be in accordance with The
+Electricity at Work Regulations UKSI 1989/635 [Ref 18.N].
+3.2
+All electrical design for roadside technology and communications shall be in accordance with
+Requirements for Electrical Installations, IET Wiring Regulations BS 7671 [Ref 12.N].
+NOTE
+MCE 2651 [Ref 5.I] provides guidance on safeguarding the highways communications power network.
+Electricity supplies for roadside technology and communications
+3.3
+Electricity supplies for roadside technology and communications shall satisfy one of the following
+options:
+1)
+Option 1: Distribution Network Operator (DNO);
+2)
+Option 2: Renewable Energy System.
+3.3.1
+Option 1 should be applied for new roadside technology and communications installations.
+3.3.2
+Option 2 may be applied where an appraisal has been conducted and a recommendation accepted by
+the Overseeing Organisation in accordance with TA 401 [Ref 11.N].
+3.3.3
+Provision of electricity supplies should be agreed with the DNO as early as possible during the design
+stage in accordance with TG 411 [Ref 4.N].
+NOTE
+Provision of electricity supplies can involve lengthy lead times.
+3.3.4
+Existing roadside technology DNO electricity supplies should be utilised if suitably located from the
+equipment.
+3.4
+Infrastructure for the DNO to install electricity supplies for roadside technology and communications
+shall be included in the design.
+3.5
+The specific requirements of the DNO for electricity supplies for roadside technology and
+communications shall be incorporated.
+NOTE
+The DNO will specify earthing arrangements needed for each type of electricity supply.
+3.6
+Power design calculations for roadside technology and communications shall be based upon current
+data obtained from the TSP and the equipment manufacturers.
+NOTE
+Equipment power consumption values are found in equipment specification and Elexon charge codes.
+3.7
+Spare capacity shall be allowed, provided this does not result in the total load exceeding the maximum
+capacity on a single phase supplied by the DNO for electricitiy supplies for roadside technology and
+communications.
+NOTE
+The deployment of future roadside technology equipment can be facilitated by providing spare capacity
+in the loading calculations at a site.
+3.8
+Capacity of electricity supplies for roadside technology and communications shall be capable of
+meeting the largest load to be experienced under normal operating conditions.
+3.8.1
+Total load information for both metered and unmetered exit points for roadside technology and
+communications should be provided to the DNO.
+3.8.2
+The need for dual-feed electricity supplies for roadside technology and communications should be
+assessed and justified.
+NOTE
+Dual feeds involve separate incoming feeds from two different primary sub-stations in order to provide
+a more secure electricity supply.
+3.9
+Where DNOs provide a 3-phase supply for roadside technology and communications, total loads on
+each phase shall be balanced.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 54
+======================================================================
+TD 132 Version 1.0.0
+3. Electrical installations for roadside technol...
+3.9.1
+Single phase supplies for roadside technology and communications should be requested from the DNO
+due to the difficulty in balancing 3-phase supplies provided for roadside technology equipment.
+3.10
+When electricity supplies for roadside technology and communications are used solely by the TSP, the
+responsibility for initial verification inspection and testing of the electricity supply shall be determined by
+liaison with the TSP.
+NOTE
+Electricity supplies for transmission stations, for example, are used solely by the TSP.
+Electrical distribution for roadside technology equipment
+3.11
+The DNO cutout and main distribution board for roadside technology equipment shall be housed within
+Electricity Interface (EI) cabinets.
+NOTE 1
+Typical internal electrical configuration arrangements for EI cabinets are illustrated in MCX 0164 [Ref
+2.I].
+NOTE 2
+MCE 2651 [Ref 5.I]provides information on the type and variants of EI cabinets.
+3.12
+The sub-distribution board at roadside technology equipment sites shall be housed within local power
+cabinets.
+NOTE 1
+Typical internal electrical configuration arrangements for local power cabinets are illustrated in MCX
+0165 [Ref 4.I], MCX 0170 [Ref 3.I] and MCX 8001 [Ref 1.I].
+NOTE 2
+Local power cabinets are described as either rural or gantry power cabinets.
+NOTE 3
+MCE 2651 [Ref 5.I] provides guidance for the selection of local power cabinets.
+3.13
+The power distribution unit at roadside technology equipment sites shall be housed within
+communications cabinets.
+3.14
+Surge protective devices for roadside technology equipment shall be provided for any new or modified
+electrical installations in accordance with BS 7671 [Ref 12.N].
+3.15
+The same electricity supply on the same phase shall be used to feed ADS lighting and roadside
+technology equipment co-located on a gantry.
+3.16
+ADS lighting power supplies and roadside technology power supplies co-located on a gantry shall have
+separate circuits from the local power cabinet and be clearly labelled.
+3.16.1
+Testing requirements should be provided for gantries that have both lighting and roadside technology
+power supplies.
+Isolation for roadside technology equipment
+3.17
+A means of local electrical isolation for roadside technology equipment shall be provided to isolate all
+outgoing circuits from a sub-distribution board or power distribution unit.
+3.18
+The electrical supply isolation system shall be designed so that when an item of roadside technology
+equipment is isolated, those responsible for maintenance are not exposed to hazards from associated
+equipment, such as infra-red radiation.
+3.19
+Each type of electrical equipment on a gantry for roadside technology equipment shall be capable of
+being isolated independently from all other electrical circuits for maintenance purposes.
+3.20
+All electrical equipment and circuits on a gantry for roadside technology equipment shall be capable of
+being fully isolated from the verge adjacent to the gantry, to de-energise the whole gantry.
+3.21
+Electrical equipment and circuits on a super-span portal gantry for roadside technology equipment shall
+be capable of being fully isolated from either carriageway.
+NOTE
+Options for electrical power isolation of super-span gantries are given in MCE 2651 [Ref 5.I].
+3.22
+Protection methods for roadside technology equipment shall be used to automatically disconnect and
+isolate electrical equipment at risk of vehicle impact.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 54
+======================================================================
+TD 132 Version 1.0.0
+3. Electrical installations for roadside technol...
+NOTE
+For example, inertial switches are used as a protection method for entry slip signals.
+Lightning protection for roadside technology equipment
+3.23
+Lightning protection for roadside technology equipment electrical installations shall be in accordance
+with BS EN 62305-4 [Ref 7.N].
+NOTE
+This includes the protection of roadside technology equipment from internal damage caused by
+lightning current and its associated magnetic field.
+3.24
+The earth electrode system at gantries for roadside technology equipment shall be compliant with BS
+EN 62305-3 [Ref 9.N].
+3.24.1
+The lightning protection system should be designed to limit the induced voltage levels to be within the
+'impulse withstand levels' for each item of electrical roadside technology equipment on the gantry, mast
+or pole.
+NOTE
+BS EN 62305-1 [Ref 8.N] provides details on how to design a lightning protection system.
+3.25
+The lightning protection requirements for roadside technology equipment shall include the requirements
+of the TSP.
+Earthing and bonding for roadside technology equipment
+3.26
+Protective earthing of roadside technology equipment electrical installations shall be in accordance with
+BS 7430 [Ref 1.N].
+3.27
+The protective earthing of roadside technology equipment electrical installations shall include the
+requirements of the TSP.
+3.28
+The earthing and bonding design for roadside technology equipment shall specify the connections
+required to meet BS 7671 [Ref 12.N].
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 54
+======================================================================
+TD 132 Version 1.0.0
+4. Telecommunication services
+4.
+Telecommunication services
+Provision of telecommunication services
+4.1
+The telecommunications supporting infrastructure shall be provided for the TSP network and agreed
+with the TSP.
+4.1.1
+The telecommunications supporting infrastructure may include a duct network, chambers, cable
+management, cabinets and provision for wireless infrastructure.
+4.1.2
+The boundaries and responsibilities for the telecommunications supporting infrastructure should be
+defined and agreed with the TSP.
+NOTE
+The boundaries and responsibilities for supporting infrastructure relate to both longitudinal and local
+networks.
+4.2
+The asset owner and the TSP shall be consulted throughout the telecommunications service design
+process.
+4.3
+The interface between the TSP network and public telecommunications network shall be housed within
+cabinets at the boundary.
+4.4
+Cabling of roadside technology equipment shall be provided up to the SDP on the TSP's network
+except in the case of repair or maintenance replacement of an individual item.
+4.5
+The TSP's power supply requirements shall be determined by liaison with the TSP.
+4.5.1
+The TSP's power supply requirements should include the number of consumer unit modules needed in
+communications cabinets.
+4.6
+The TSP shall be consulted to determine the list of the interface requirements to be included in the
+interface agreement between the scheme and the TSP.
+NOTE
+A list of standard interfaces for the interface agreement is provided in TC 131 [Ref 15.N].
+4.7
+The TSP and Overseeing Organisation shall be consulted to determine the required notice periods for
+the works.
+NOTE
+A list of standard notice periods are provided in TC 131 [Ref 15.N].
+4.8
+A matrix shall be provided defining the responsibilities for the construction, testing and commissioning
+of the roadside technology equipment.
+NOTE
+An example of a responsibility matrix can be found in TLT/RGD/TSP/0420 [Ref 6.I].
+Service Delivery Point
+4.9
+The layout and physical form of the SDP shall be based on information available from the TSP and any
+specific constraints identified by the TSP.
+4.9.1
+The TSP may identify specific constraints on its ability to install and operate SDPs at complex locations
+such as tunnels and bridges.
+NOTE
+Local cables beyond the SDP (that is, from the SDP to the roadside technology equipment) will be
+designed and installed by the scheme.
+Existing telecommunications services
+4.10
+The interface between the existing TSP network and the proposed works shall be defined.
+Interface between cabinets and TSP equipment
+4.11
+Where the TSP's communications network design requires the use of third-party communications
+services at the roadside, the physical interface between the third-party provider's cable infrastructure
+and the TSP's cable infrastructure shall be housed within cabinets at the boundary.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 54
+======================================================================
+TD 132 Version 1.0.0
+4. Telecommunication services
+NOTE
+Advice on cabinet requirements can be obtained from the TSP such that the enclosure, access and
+maintenance needs of the third-party provider and the TSP are both satisfactorily accommodated.
+4.12
+Supporting infrastructure shall be provided to facilitate the installation of the TSP's local cabling
+between the cabinet in the boundary fence and the communications cabinet that contains the TSP's
+SDP.
+NOTE
+The removal and relocation of transmission cabinets can be complex and expensive. They can only be
+performed in a number of stages that require consultation with the Overseeing Organisation or TSP
+because services can be affected that wholly rely on the transmission cabinet or transmission station.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 54
+======================================================================
+TD 132 Version 1.0.0
+5. Cables for roadside technology and communicat...
+5.
+Cables for roadside technology and communications
+Provision of cables for roadside technology and communications
+5.1
+Power and communications cabling shall be provided to support the operational requirements of
+roadside technology and communications.
+5.2
+Cables for roadside technology and communications shall be positioned such that installation
+techniques do not impact on the performance of the cable.
+NOTE
+Larger cables are often installed before smaller cables to prevent damage.
+5.3
+The performance characteristics for power and communication cables for roadside technology and
+communications shall be in accordance with TC 131 [Ref 15.N].
+5.3.1
+Performance characteristics of cables for roadside technology and communications in addition to TC
+131 [Ref 15.N] should be stated.
+Protection of cables for roadside technology and communications
+5.4
+Cables for roadside technology and communications shall be protected against environmental and
+mechanical damage.
+5.4.1
+Cables for roadside technology and communications that are not described as UV stable may require
+additional protection.
+Cable management for roadside technology on gantries
+5.5
+Mechanical protection shall be specified for all non-armoured cables for roadside technology and
+communications installed on gantries.
+NOTE
+Mechanical protection provides protection both from physical damage and from the effects of weather,
+including UV protection.
+5.6
+Cable trays shall be sized to allow a single layer of cables to be installed, with the minimum internal
+width of 225 mm.
+5.7
+The cable tray shall be sized to take into account cables to be installed by the TSP.
+5.8
+All cabling installed on gantries shall be provided with a covered cable tray or alternative continuous
+protection to protect against mechanical damage, theft or vandalism up to a minimum point of 3.5 m
+above ground level.
+NOTE
+A minimum of 3.5 m above ground level is considered a suitable height to mitigate against the potential
+of mechanical damage, theft or vandalism.
+5.9
+The bend radius of cable management systems installed on gantry structures shall be no less than the
+minimum bend radius of the cables to be held.
+Separation of cables for roadside technology and communications
+5.10
+The minimum separation between cables for roadside technology and communications to prevent
+interference shall be compliant with BS EN 50174-3 [Ref 5.N].
+5.11
+The separation between cables for roadside technology and communications and lighting power cables
+shall be in accordance with TD 501 [Ref 14.N].
+5.12
+The minimum separation between cables for roadside technology and communications shall not impair
+the functionality of the cables.
+5.13
+The Overseeing Organisation's and TSP cables in a cable trench for armoured cables for roadside
+technology and communications shall be given a minimum separation of 300 mm to lower the risk of
+accidental damage during maintenance.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 54
+======================================================================
+TD 132 Version 1.0.0
+5. Cables for roadside technology and communicat...
+Armoured cables for roadside technology and communications
+5.14
+There are no United Kingdom-wide requirements and the national requirements for armoured cables for
+roadside technology and communications set out in the National Application Annexes shall be followed.
+Trenches for direct-buried armoured cables for roadside technology and communications
+5.15
+There are no United Kingdom-wide requirements and the national requirements for trenches for
+direct-buried armoured cables for roadside technology and communications set out in the National
+Application Annexes shall be followed.
+Cables in cable trough for roadside technology and communications
+5.16
+Cable troughs shall not be used where alternative methods of cable protection can be achieved.
+5.17
+Armoured cable or sub-ducted non-armoured cable for roadside technology and communications shall
+be used within a cable trough.
+5.18
+Cables for roadside technology and communications shall be protected at the transition between the
+cable trough and the duct or trench.
+Cable installation in transmission stations for roadside technology and
+communications
+5.19
+Cable installation in transmission stations for roadside technology and communications shall be
+determined by the TSP.
+5.20
+The cables in transmission stations for roadside technology and communications not to be installed by
+the TSP, shall be agreed with the TSP.
+Power cables for roadside technology and communications
+5.21
+The cross sectional area (CSA) of power cables for roadside technology and communications shall be
+determined as per BS 7671 [Ref 12.N].
+5.21.1
+Standard power cables sizes for roadside technology and communications should be used that are
+specified by the Overseeing Organisation.
+NOTE
+Equipment loads and lengths of cables are used to determine the CSA of power cables.
+5.22
+The maximum CSA of power cables for roadside technology and communications that are terminated
+into cabinets shall be determined by the cabinet design.
+NOTE 1
+Most cabinets limit the termination of power cables to a CSA no greater than 25 mm2.
+NOTE 2
+Power cable reduction joints are used to step down the CSA of power cables larger than 25 mm2 to
+allow termination into cabinets.
+Communications cables for roadside technology and communications
+5.23
+The communications cables between the roadside technology equipment and the TSP's Service
+Delivery Point shall be a direct connection without the use of media converters.
+5.24
+The maximum length of multi-pair copper communication cable for roadside technology and
+communications (when measured along the actual length of the cable) shall be 1000 m.
+5.25
+The maximum length of fibre optic communication cable for roadside technology and communications
+(when measured along the actual length of the cable) shall be 2000 m.
+5.26
+Communications cable lengths connecting roadside technology equipment shall not exceed 75% of the
+maximum cable length for the service supported.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 54
+======================================================================
+TD 132 Version 1.0.0
+5. Cables for roadside technology and communicat...
+Cable joints for roadside technology and communications
+5.27
+Cable joints for communications and power cables for roadside technology and communications shall
+not be situated in a duct or trough.
+5.27.1
+Cable joints for roadside technology and communications should be located in suitable enclosures
+above or below ground.
+5.28
+Cable joint enclosures and power cable joints below ground for roadside technology and
+communications shall be located in chambers.
+5.28.1
+Type A chambers for cable joint enclosures and power cable joints should be used where site
+conditions allow.
+5.29
+Type A chambers shall be used where power cables for roadside technology and communications
+greater than 70 mm2 CSA are to be installed.
+5.30
+Power cable joints for cables for roadside technology and communications of a CSA greater than 50
+mm2 shall be located in chambers separate to those containing longitudinal cable below ground cable
+joints.
+5.31
+Power cable reduction joints for roadside technology and communications within a ducted cable
+network shall be located in the chamber adjacent to the terminating cabinet.
+5.32
+Where the TSP's cable joints are to be located in a shared joint chamber with power cable reduction
+joints for roadside technology and communications, the requirements of the TSP shall be followed.
+Cable continuity for roadside technology and communications
+5.33
+Cable continuity for roadside technology and communications for cable screens and protective
+conductors shall be in accordance with BS 7671 [Ref 12.N].
+5.33.1
+Points where cable continuity for roadside technology and communications is not to be applied should
+be clearly identified.
+Modification to existing cables for roadside technology and communications
+5.34
+An existing cable for roadside technology and communications shall be replaced in its entirety when the
+cable integrity is impacted.
+5.35
+The removal and re-siting of existing cables for roadside technology and communications shall not
+impact the operation of the network.
+5.35.1
+Trial holes may be necessary to determine the location of existing cables for roadside technology and
+communications.
+NOTE
+Hand or vacuum excavation can protect cables against damage.
+5.35.2
+The number of and type of cables for roadside technology and communications in a trench should
+determine the technique used for the removal of cables.
+Testing of cables for roadside technology and communications
+5.36
+Specific cable testing for roadside technology and communications that is required either instead of, or
+in addition to, the standard test specifications described in TC 131 [Ref 15.N] shall be determined.
+5.37
+The testing requirements for the cable management for roadside technology on gantries containing
+cables managed by the TSP, shall be determined by liaison with the TSP.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 54
+======================================================================
+TD 132 Version 1.0.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS 7430, 'Code of practice for protective earthing of electrical installations'
+Ref 2.N
+National Highways. TD 133, 'Design of cabinets, ducts and chambers for roadside
+technology and communications'
+Ref 3.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 4.N
+National Highways. TG 411, 'Electricity supply connections'
+Ref 5.N
+BSI. BS EN 50174-3, 'Information technology Cabling installation. Installation
+planning and practices outside buildings'
+Ref 6.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+BSI. BS EN 62305-4, 'Protection against lightning. Electrical and electronic systems
+within structures'
+Ref 8.N
+BSI. BS EN 62305-1, 'Protection against lightning. General principles '
+Ref 9.N
+BSI. BS EN 62305-3, 'Protection against lightning. Physical damage to structures and
+life hazard'
+Ref 10.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 11.N
+National Highways. TA 401, 'Renewable energy systems appraisal'
+Ref 12.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 13.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 14.N
+National Highways. TD 501, 'Road lighting design'
+Ref 15.N
+National Highways. TC 131, 'Roadside technology and communications'
+Ref 16.N
+National Highways. TD 131, 'Roadside technology and communications'
+Ref 17.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+Ref 18.N
+National Archives. UKSI 1989/635, 'The Electricity at Work Regulations'
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 54
+======================================================================
+TD 132 Version 1.0.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. OTSL. MCX 8001, 'Cabinet Type 640 Power Distribution &
+Isolation'
+Ref 2.I
+National Highways. OTSL. MCX 0164, 'DNO Interface cabinet layout'
+Ref 3.I
+National Highways. OTSL. MCX 0170, 'Gantry Power Cabinet Layouts'
+Ref 4.I
+National Highways. OTSL. MCX 0165, 'Power Cabinet Layouts'
+Ref 5.I
+National Highways. OTSL. MCE 2651, 'Specification for Safeguarding the Highway
+Communications Power Network'
+Ref 6.I
+National Highways. Telent. TLT/RGD/TSP/0420, 'Working with Telent – A Design
+Guide'
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 54
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 132 - ENAA
+England National Application Annex for Design
+of electrical and telecommunication systems
+for roadside technology and communications
+Version 1.0.0
+Summary
+This National Application Annex sets out the National Highways specific requirements on cables.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 54
+======================================================================
+TD 132 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+E/1. Cables for roadside technology and communications
+5
+Armoured cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Existing armoured cable installations for roadside technology and communications not maintained by
+TSP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Trenches for direct-buried armoured cables for roadside technology and communications . . . . . . .
+5
+E/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 54
+======================================================================
+TD 132 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 132 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+New document necessitated by requirement for a Scotland NAA to TD 132
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 54
+======================================================================
+TD 132 - ENAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 [v0.1.0], in part Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 54
+======================================================================
+TD 132 - ENAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the National Highways-specific requirements for electrical and
+telecommunication systems for roadside technology and communications.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 54
+======================================================================
+TD 132 - ENAA Version 1.0.0
+E/1. Cables for roadside technology and communicat...
+E/1.
+Cables for roadside technology and communications
+Armoured cables for roadside technology and communications
+E/1.1
+The use of direct-buried armoured cables for roadside technology and communications shall be
+approved by the asset owner of the cable.
+E/1.2
+The design shall state the installation requirements for armoured cables for roadside technology and
+communications.
+E/1.2.1
+Sacrificial ducting may be used to facilitate the installation of armoured cables for roadside technology
+and communications.
+E/1.2.2
+Armoured cables for roadside technology and communications should allow a minimum of 3 m length
+for buried loops adjacent to each cabinet, taking into account the minimum bend radius of the cable.
+E/1.3
+The design shall state the requirement for terminating the armoured cable for roadside technology and
+communications into the equipment cabinets.
+Existing armoured cable installations for roadside technology and communications not
+maintained by TSP
+E/1.4
+Existing armoured cable installations for roadside technology and communications not maintained by
+the TSP shall be replaced with armoured cables, when in comparison it is not cost-effective to replace
+them with a non-armoured cable in a ducted system.
+E/1.4.1
+The selection of cable system for roadside technology and communications should take the existing
+infrastructure and whole-life costs into account.
+E/1.4.2
+Direct burial of armoured cables for roadside technology and communications is no longer standard
+practice for the installation of cables; however, it may be permitted in exceptional circumstances such
+as replacing a length of existing direct-buried armoured cable.
+NOTE
+A consistent type of cabling avoids piecemeal sections of armoured and non-armoured cable.
+Trenches for direct-buried armoured cables for roadside technology and communications
+E/1.5
+The depth of excavation for directly buried cables for roadside technology and communications laid
+under verges, footways or open ground shall have a minimum cover of 500 mm and 750 mm under
+carriageways or 300 mm below formation, whichever is greater in depth.
+E/1.6
+When cables for roadside technology and communications are laid in a cable trench on an
+embankment or a cutting, the depth of fill and materials used to backfill the trench shall be such that the
+embankment or cutting does not collapse or subside.
+E/1.6.1
+Backfill of a cable trench for roadside technology and communications should be as shown in TC 131
+[Ref 2.N] unless the site conditions require an alternative construction.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 54
+======================================================================
+TD 132 - ENAA Version 1.0.0
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Highways. TC 131, 'Roadside technology and communications'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 54
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 132 - NINAA
+Northern Ireland National Application Annex
+for Design of electrical and telecommunication
+systems for roadside technology and
+communications
+Version 1.0.0
+Summary
+This National Application Annex sets out the Department for Infrastructure Northern Ireland
+specific requirements on cables.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 54
+======================================================================
+TD 132 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Cables for roadside technology and communications
+5
+Armoured cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+NI/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 54
+======================================================================
+TD 132 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 132 -
+NINAA
+1.0.0
+September 2025
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+Northern Ireland NAA necessitated by creation of new 'core' document derived from TS 131 and creation of SNAA
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 54
+======================================================================
+TD 132 - NINAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+This document supersedes TD 131 [v0.1.0], in part Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 54
+======================================================================
+TD 132 - NINAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Department for Infrastructure, Northern Ireland-specific
+requirements for electrical and telecommunication systems for roadside technology and
+communications.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 54
+======================================================================
+TD 132 - NINAA Version 1.0.0
+NI/1. Cables for roadside technology and communicat...
+NI/1.
+Cables for roadside technology and communications
+Armoured cables for roadside technology and communications
+NI/1.1
+Direct-buried cables for roadside technology and communications shall not be permitted.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 54
+======================================================================
+TD 132 - NINAA Version 1.0.0
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 54
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 132 - SNAA
+Scotland National Application Annex for
+Design of electrical and telecommunication
+systems for roadside technology and
+communications
+Version 1.0.0
+Summary
+This National Application Annex sets out the Transport Scotland specific requirements on cables.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 54
+======================================================================
+TD 132 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Cables for roadside technology and communications
+5
+Armoured cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Cable joints for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Power cable reduction joints in chambers shared with TSP cable joints for roadside technology and
+communications
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+S/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 54
+======================================================================
+TD 132 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 132 -
+SNAA
+1.0.0
+September 2025
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+New document necessitated by the transfer of content from TD 131 and the requirement for Scotland-specific
+requirements.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 54
+======================================================================
+TD 132 - SNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+This document supersedes TD 131 [Ref 3.N] v0.1.0, in part Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 54
+======================================================================
+TD 132 - SNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Transport Scotland-specific requirements for electrical and
+telecommunication systems for roadside technology and communications.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 54
+======================================================================
+TD 132 - SNAA Version 1.0.0
+S/1. Cables for roadside technology and communicat...
+S/1.
+Cables for roadside technology and communications
+Armoured cables for roadside technology and communications
+S/1.1
+Longitudinal communications and power cables for roadside technology and communications shall be
+armoured.
+S/1.2
+Direct-buried cables for roadside technology and communications shall not be used.
+S/1.3
+Design of armoured cables into equipment cabinets for roadside technology and communications shall
+be in accordance with NDX drawings.
+NOTE
+NDX drawings are available on request from the Overseeing Organisation.
+Cable joints for roadside technology and communications
+Power cable reduction joints in chambers shared with TSP cable joints for roadside technology
+and communications
+S/1.4
+TD 132 [Ref 1.N], 5.32 shall not apply in Scotland.
+S/1.5
+Power cable reduction joints for roadside technology and communications shall be located in a
+separate chamber to TSP cable joints.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 54
+======================================================================
+TD 132 - SNAA Version 1.0.0
+S/2. Normative references
+S/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. TD 132, 'Design of electrical and telecommunication systems for
+roadside technology and communications'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+National Highways. TD 131, 'Roadside technology and communications'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 54
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 54
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 132 - WNAA
+Wales National Application Annex for Design
+of electrical and telecommunication systems
+for roadside technology and communications
+Version 1.0.0
+Summary
+This National Application Annex sets out the Welsh Government specific requirements on cables.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 54
+======================================================================
+TD 132 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+W/1. Cables for roadside technology and communications
+5
+Armoured cables for roadside technology and communications . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Existing armoured cable installations for roadside technology and communications not maintained by
+TSP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Trenches for direct buried armoured cables for roadside technology and communications
+. . . . . . .
+5
+W/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 54
+======================================================================
+TD 132 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 132 -
+WNAA
+1.0.0
+September 2025
+Wales NAA
+Change to policy, major
+revision, new document
+development
+New document necessitated by split from DMRB TD 131and SNAA for Scotland-specific requirements.
+[Publication: TBC]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 54
+======================================================================
+TD 132 - WNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Welsh Government.
+This document supersedes TD 131 [v0.1.0], in part Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 54
+======================================================================
+TD 132 - WNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Welsh Government-specific requirements for electrical and
+telecommunication systems for roadside technology and communications.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 54
+======================================================================
+TD 132 - WNAA Version 1.0.0
+W/1. Cables for roadside technology and communicat...
+W/1.
+Cables for roadside technology and communications
+Armoured cables for roadside technology and communications
+W/1.1
+The use of direct buried armoured cables for roadside technology and communications shall be
+approved by the asset owner of the cable.
+W/1.2
+The design shall state the installation requirements for armoured cables for roadside technology and
+communications.
+W/1.2.1
+Sacrificial ducting may be used to facilitate the installation of armoured cables for roadside technology
+and communications.
+W/1.2.2
+Armoured cables for roadside technology and communications should allow a minimum of 3 m length
+for buried loops adjacent to each cabinet, taking into account the minimum bend radius of the cable.
+W/1.3
+The design shall state the requirement for terminating the armoured cable for roadside technology and
+communications into the equipment cabinets.
+Existing armoured cable installations for roadside technology and communications not
+maintained by TSP
+W/1.4
+Existing armoured cable installations for roadside technology and communications not maintained by
+the TSP shall be replaced with armoured cables, when in comparison it is not cost effective to replace
+them with a non-armoured cable in a ducted system.
+W/1.4.1
+The selection of cable system for roadside technology and communications should take the existing
+infrastructure and whole-life costs into account.
+W/1.4.2
+Direct burial of armoured cables for roadside technology and communications is no longer standard
+practice for the installation of cables; however, it may be permitted in exceptional circumstances such
+as replacing a length of existing direct buried armoured cable.
+NOTE
+A consistent type of cabling avoids piecemeal sections of armoured and non-armoured cable.
+Trenches for direct buried armoured cables for roadside technology and communications
+W/1.5
+The depth of excavation for directly buried cables for roadside technology and communications laid
+under verges, footways or open ground shall have a minimum cover of 500 mm and 750 mm under
+carriageways or 300 mm below formation, whichever is greater in depth.
+W/1.6
+When cables for roadside technology and communications are laid in a cable trench on an
+embankment or a cutting, the depth of fill and materials used to backfill the trench shall be such that the
+embankment or cutting does not collapse or subside.
+W/1.6.1
+Backfill of a cable trench for roadside technology and communications should be as shown in TC 131
+[Ref 2.N] unless the site conditions require an alternative construction.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 54
+======================================================================
+TD 132 - WNAA Version 1.0.0
+W/2. Normative references
+W/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Highways. TC 131, 'Roadside technology and communications'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 54
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 132 Version 1.0.0, published: 30-Sep-2025
+
+
