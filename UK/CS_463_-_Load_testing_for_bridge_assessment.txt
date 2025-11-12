@@ -1,0 +1,510 @@
+======================================================================
+PAGE 1 of 16
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 463
+Load testing for bridge assessment
+(formerly BA 54/94)
+Revision 0
+Summary
+This document describes the requirements for load tests to be used to assist in the strength
+assessment of bridges.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 2 of 16
+======================================================================
+CS 463 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. Application of load testing
+8
+Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Applicability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Constraints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Types of load tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3. Supplementary load tests
+9
+Objectives of supplementary tests
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Test loads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Management of supplementary tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Analysis and assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+4. Proving load tests
+11
+Objectives of proving load tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Test loads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Management of proving load tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Analysis and assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+5. Normative References
+12
+6. Informative References
+13
+Appendix A. Example of supplementary load test requirements
+14
+A1 Typical supplementary load test instructions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 3 of 16
+======================================================================
+CS 463 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Jun 2019
+CS 463 replaces BA 54/94. The full document has been re-written to make it
+compliant with the new Highways England drafting rules.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 4 of 16
+======================================================================
+CS 463 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BA 54/94, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 5 of 16
+======================================================================
+CS 463 Revision 0
+Introduction
+Introduction
+Background
+Bridges can fail assessment calculation even when they seem to be carrying normal traffic satisfactorily
+without any undue signs of distress. Load tests can provide additional information which can justify
+increasing the assessed capacity.
+This document explains the rationale behind load testing of bridges.
+This document was derived from BA 54/94. It has been edited to reduce ambiguity and repetition, to
+clarify distinctions between requirements and background information and to improve ease of use by
+simplifying the text and by rearranging the document in a more logical order.
+Additional emphasis has been placed on the need to appropriately manage health and safety issues
+which may be different for different types of test; including the need to recognise that bridge collapse is
+an unavoidable risk during proving load tests but cannot be entirely discounted during supplementary
+tests.
+The technical content is otherwise unchanged.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 6 of 16
+======================================================================
+CS 463 Revision 0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ALL
+Assessment Live Load
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 7 of 16
+======================================================================
+CS 463 Revision 0
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Assessment live load
+Theoretical live load model employed for assessment of existing bridges.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 8 of 16
+======================================================================
+CS 463 Revision 0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+Load tests described by this document shall be used to assist in the strength assessment of bridges.
+1.2
+Load testing described by this document shall not be undertaken for masonry arch bridges.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving load testing for bridge
+assessment purposes on the Overseeing Organisations' motorway and all-purpose trunk roads
+according to the implementation requirements of GG 101 [Ref 2.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 2.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 9 of 16
+======================================================================
+CS 463 Revision 0
+2. Application of load testing
+2.
+Application of load testing
+Purpose
+2.1
+Load testing of a bridge shall only be undertaken after calculated assessments using the best available
+methods and information (such as results of material tests, recorded information on similar bridges and
+materials, maintenance and strengthening records) fail to show it to comply with the assessment
+standards.
+2.1.1
+Load tests may be employed to provide information to supplement reliability analysis.
+Applicability
+2.2
+Load testing shall only be used if analysis shows that there is a realistic possibility of improving the
+assessed capacity to a level which can satisfy the assessment standards.
+2.2.1
+Load testing may assist in bridge assessment to bridge types which contain features where hidden
+strength reserves can be found, or where it is expected to identify additional sources of strength not
+normally taken into account in the calculations.
+2.2.2
+Although not intended to be exhaustive, the following is a list of bridge types for which load testing may
+be usefully employed:
+1) small span bridges where either a single-axle or a two-axle bogie could simulate assessment
+loading;
+2) older bridges, of construction types now mainly unused, for which structural idealisation is
+particularly difficult;
+3) in general, bridges without internal structural complexities such as transverse girders (although such
+complexities by themselves do not mean that all types of tests are pointless);
+4) in general, bridges which, at least theoretically, can be termed as simply-supported;
+5) bridges where the strength of constituent parts is uncertain owing to lack of design data or
+knowledge of physical condition.
+Constraints
+2.3
+Where bridges are suspected of having inadequate shear capacity, additional caution shall be used in
+tests.
+NOTE
+Particular requirements for such tests are provided within the parts of this document that describe the
+different types of load tests.
+2.4
+Load test procedures shall be devised individually for each bridge assessment.
+Types of load tests
+2.5
+Bridge load tests described in this document shall either be classified as supplementary load tests or as
+proving load tests.
+NOTE 1
+Supplementary load tests are intended to be used as an adjunct to theoretical calculations.
+NOTE 2
+Proving load tests are intended to be used as a complete assessment in place of a theoretical
+assessment when the assessing engineer suspects that the theoretical assessment has
+underestimated the actual load capacity of a bridge.
+Management
+2.6
+Testing shall be carried out under the supervision of a Chartered Engineer with specialist expertise in
+bridge strength assessment or design.
+2.7
+Testing shall be undertaken by a competent organisation in possession of the necessary equipment.
+2.8
+Specialist expertise shall be employed in devising a load test, during the test itself and in the
+subsequent assessment, especially in deciding the reduction factors relating to earlier collapse tests.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 10 of 16
+======================================================================
+CS 463 Revision 0
+3. Supplementary load tests
+3.
+Supplementary load tests
+Objectives of supplementary tests
+3.1
+In a supplementary load test, vehicle axle loads or patch loads, or combinations thereof, shall be
+placed on a bridge to determine individual aspects of its behaviour so that assumptions made in the
+theoretical assessment can be made more pertinent to the individual structure.
+NOTE 1
+Appendix A summarises a typical supplementary test procedure.
+NOTE 2
+Detailed guidelines for conducting supplementary load tests have been published: e.g. Guidelines for
+the supplementary load testing of bridges [Ref 1.I].
+Test loads
+3.2
+Load tests shall not cause damage to the bridge.
+3.3
+Estimates of day to day loading shall be obtained from records or surveys.
+3.4
+The loads applied in the tests shall not cause effects which exceed those caused by the loads carried
+by the bridge on a day to day basis.
+3.4.1
+It is recommended that the test load effects on older bridges should not exceed the original design
+working load.
+3.5
+Test load effects in composite bridges shall not exceed 60% of the unfactored serviceability limit state
+load effects.
+NOTE
+This limit is to minimise the probability of accidentally damaging the shear connection between
+concrete and steel elements.
+3.6
+Test load effects on other bridges shall not exceed 90% of the unfactored serviceability limit state load
+effects.
+3.7
+Load effects in bending tests shall be kept well within the elastic range of the bridge flexural behaviour.
+3.8
+Load levels in shear tests shall be limited to below the predicted lowest theoretical strength because
+shear failure can be relatively sudden.
+Management of supplementary tests
+3.9
+Where there is a risk of sudden failure including inadequacy in respect of shear strength, load testing
+shall only be undertaken if:
+1) load levels are kept sufficiently low to ensure that the risk of sudden failure is effectively removed;
+2) the load test does not take place over an open route or place;
+3) structural failure would not endanger staff engaged in undertaking the test or any other persons.
+3.10
+The possibility that the bridge will suffer severe damage or collapse is a potential hazard during any
+test, and the consequential risk to personnel shall be mitigated in accordance with health and safety
+regulations.
+NOTE
+Excessive shear loading can lead to a brittle and therefore relatively unsafe failure mode.
+3.11
+A test vehicle shall not be deliberately mounted on any element (such as the footway) which was not
+originally designed to such loads.
+Analysis and assessment
+3.12
+Extrapolation to the behaviour at the ultimate limit state from the results of tests carried out with levels
+of loading lower than or equal to the serviceability limit state shall only be undertaken if two conditions
+are satisfied, as follows:
+1) the materials and their interconnections are determinable;
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 11 of 16
+======================================================================
+CS 463 Revision 0
+3. Supplementary load tests
+2) earlier collapse tests have been carried out on bridges with similar materials and details so that
+some pattern of load carrying behaviour has been established.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 12 of 16
+======================================================================
+CS 463 Revision 0
+4. Proving load tests
+4.
+Proving load tests
+Objectives of proving load tests
+4.1
+A proving load test shall be used as a complete assessment by itself in place of the theoretical
+assessment.
+NOTE
+A proving load test is not intended to improve assumptions employed in bridge assessment.
+4.2
+Proving load tests shall be limited to bridges which, on the basis of their assessments, could have been
+closed to traffic and could otherwise require to be demolished.
+Test loads
+4.3
+Proving tests shall not be employed if the relationship between a test load and a subsequently
+permissible service loading cannot be determined.
+4.4
+A test load representing the ultimate limit state level of the assessment live load (ALL), or a reduced
+proportion of it, shall be applied to a bridge.
+4.5
+The test load shall be applied in increments until either the entire load is reached or until the load
+deflection behaviour becomes non-linear.
+NOTE
+The test load is not likely to be sufficient to develop non-linear behaviour where the failure mode is
+brittle in nature (e.g. in a shear load test). Therefore, in such cases, the second criterion listed above
+will not be applicable.
+Management of proving load tests
+4.6
+The possibility that the bridge will suffer severe damage or collapse is a significant and unavoidable
+hazard during a proving test, and the consequential risk to personnel shall be mitigated in accordance
+with health and safety regulations.
+4.7
+The bridge and any area beneath the bridge which can be affected in the event of bridge collapse shall
+be closed to all persons while a proving load test is taking place.
+Analysis and assessment
+4.8
+In order to obtain the allowable load, the maximum achieved test load shall be divided first by a factor
+to allow for the fact that a simplified model load is used to represent the complete ALL and, secondly,
+by the partial safety factor for the ALL appropriate at the ultimate limit state to obtain the nominal
+assessment load level.
+4.9
+Appropriate partial safety factors shall be obtained by referring to CS 454 [Ref 1.N].
+4.10
+Weight restriction levels, if any, shall be decided from the allowable load detailed in this section and in
+accordance with CS 454 [Ref 1.N].
+4.11
+Bridges that have been subjected to proving load tests shall be thoroughly inspected and reassessed at
+frequent intervals after the test because any structural damage incurred during proving load tests can
+initially be concealed.
+NOTE
+Any internal damage can lead to rapidly accelerated subsequent deterioration of the structure and can
+cause sudden collapse under permitted traffic.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 13 of 16
+======================================================================
+CS 463 Revision 0
+5. Normative References
+5.
+Normative References
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CS 454, 'Assessment of highway bridges and structures'
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 14 of 16
+======================================================================
+CS 463 Revision 0
+6. Informative References
+6.
+Informative References
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Institution of Civil Engineers. National steering committee for the load testing of
+bridges. 'Guidelines for the supplementary load testing of bridges'
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 15 of 16
+======================================================================
+CS 463 Revision 0
+Appendix A. Example of supplementary load test requiremen...
+Appendix A. Example of supplementary load test requirements
+A1
+Typical supplementary load test instructions
+One or more test loads may be placed at various positions on the bridge.
+The test load may comprise an axle or a bogie or a vehicle load, or it can comprise some form of ballast
+(e.g. water tank load).
+The test load is designed to generate particular live load effects (for example, the bending moments
+produced by the assessment live loading).
+The loading is to be applied in increments.
+The observed strains and deflections can then be compared with corresponding theoretical values.
+When this comparison indicates hidden reserve capacity in the bridge, each possible source of the
+hidden strength such as end fixity, better transverse distribution and composite action can be examined
+using knowledge gained in earlier collapse tests on similar bridges, where available.
+When the hidden strength indicated by the test or a proportion of it can be accounted for and is justified
+then:
+1) the theoretical model can be modified;
+2) the assessment calculations can be carried out using the revised model.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
+
+======================================================================
+PAGE 16 of 16
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 463, published: Jun-2019
+
+
