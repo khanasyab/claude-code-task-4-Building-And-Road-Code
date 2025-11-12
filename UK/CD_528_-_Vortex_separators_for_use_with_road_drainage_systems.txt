@@ -1,0 +1,507 @@
+======================================================================
+PAGE 1 of 15
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 528
+Vortex separators for use with road drainage
+systems
+(formerly HD 220/18 )
+Version 0.1.0
+Summary
+This document provides the requirements and advice for including vortex separators within road
+drainage systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 15
+======================================================================
+CD 528 Version 0.1.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions in the preparation of this document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Terms and definitions
+5
+1. Scope
+6
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Health and safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+2. Design requirements
+7
+Hydraulic inflow and outflow design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Designing for maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Information to be provided to Overseeing Organisation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+3. Operation and maintenance
+9
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Vortex separator asset data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Commissioning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+4. Safety issues
+10
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Placard
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+5. Normative references
+11
+6. Informative references
+12
+Appendix A. Generic details
+13
+A1 Drainage design philosophy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+A2 Vortex separators operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 15
+======================================================================
+CD 528 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 528
+0.1.0
+September 2025
+Core document
+Incremental change to
+requirements
+Minor changes to correct out-of-date references and new statement to align with CC 500.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 528
+0
+February 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 15
+======================================================================
+CD 528 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 528 version 0, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 15
+======================================================================
+CD 528 Version 0.1.0
+Introduction
+Introduction
+Background
+The principle operation of the vortex separator is to use tangential flow into the chamber to induce
+rotational motion in the fluid where a combination of gravity and boundary layer effects separate solids
+from the liquid.
+The hydraulic design ensures that the action of the circulating flow exerts a much greater tangential
+force on the solids than the friction resulting from the centrifugal force generated by the rotating flow.
+Differential velocities and the low energy of the vortex allow the denser sediment and grit material to
+settle in the chamber while oil and floatables are retained in circulating flow on the surface. The
+hydraulic characteristic of the core shape ensures the settled sediments are retained within the base of
+the device irrespective of the velocities of the flow through the device.
+This document provides requirements and advice used to develop the design outputs required to
+deliver the works in accordance with CC 500 [Ref 3.N].
+Assumptions in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+A vortex separator is assumed to have no minimum flow velocity at which it operates.
+Vortex separators are assumed to operate at all velocities of flow; even below the design limit.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 15
+======================================================================
+CD 528 Version 0.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Hydrodynamic vortex grit
+separator
+Referred to as a vortex separator they are proprietary products
+designed to remove sediments in suspension and floatable debris
+in the flow of highway surface runoff.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 15
+======================================================================
+CD 528 Version 0.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements in this document shall be used to identify the locations, the principal function,
+operation and maintenance of the vortex separator device.
+NOTE
+Vortex separators are proprietary products. This document contains no requirements for the hydraulic
+design of the vortex separator device.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the use of vortex separators on
+the Overseeing Organisation's motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+Health and safety
+1.4
+Safety risk mitigation measures shall follow the ERIC hierarchy - eliminate, reduce, isolate and control
+for each identified safety risk.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 15
+======================================================================
+CD 528 Version 0.1.0
+2. Design requirements
+2.
+Design requirements
+Hydraulic inflow and outflow design
+2.1
+Where the drainage system design in accordance with CG 501 [Ref 1.N] utilises a vortex separator, the
+system's pipe design shall be compatible with the requirements of a (or range of) vortex separator(s).
+2.2
+Where the drainage system design includes a vortex separator, the design shall assume that the inflow
+to the vortex separator is via a central core or an external annulus.
+2.3
+Where the inlet pipe to the vortex separator is submerged it shall maintain a positive hydraulic gradient.
+2.3.1
+The inlet pipe into the vortex separator may be required to be submerged, in accordance with
+manufacturer's instructions.
+2.4
+Where a submerged inlet pipe is required, the outlet pipe from the vortex separator shall have a lower
+invert level than the inlet pipe's upstream invert level.
+2.5
+Contributing pipelines shall be connected to a chamber upstream of the vortex separator.
+2.5.1
+The upstream chamber should be a manhole rather than a catchpit to minimise turbulence and
+maintain stable flow conditions in the inlet pipe to the vortex separator.
+2.6
+Only one inlet pipe and one outlet pipe shall be connected to the vortex separator.
+2.7
+The drainage system design shall minimise turbulence and maintain stable flow conditions in the pipe
+upstream of the vortex separator.
+2.7.1
+A vortex separator should be designed within the drainage system to remove sediment and debris as
+close to the source as possible.
+2.7.2
+Some vortex separators may include an upstream meshed basket to aid in the removal of coarse
+debris.
+NOTE
+Locating vortex separators immediately upstream of the point of discharge does not give the greatest
+hydraulic benefit to the drainage system.
+2.8
+The location and design of the vortex separator shall include geotechnical design aspects, including
+ground stability and flotation calculations.
+Designing for maintenance
+2.9
+In designing for maintenance, the location of the vortex separator and vehicle access and egress
+routes shall not interfere with other roadside features.
+2.10
+In designing for maintenance, access to the central core and annulus shall be provided via a
+rectangular opening in a vortex separator's cover slab.
+NOTE
+Locating vortex separators remotely from the outfall can be beneficial where the outfall or topography
+precludes access for maintenance.
+Information to be provided to Overseeing Organisation
+2.11
+On completion of the drainage system design, a record of the following information on vortex
+separators shall be provided:
+1)
+maximum and minimum discharge rates into the vortex separator;
+2)
+the calculation of sediment load in accordance with CD 523 [Ref 2.N]; and
+3)
+the routine maintenance period.
+2.12
+The treatment capacity of the vortex separator shall be calculated by the manufacturer.
+2.12.1
+The calculation of treatment capacity may be based on the calculation of sediment load in accordance
+with CD 523 [Ref 2.N] and the routine maintenance period.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 15
+======================================================================
+CD 528 Version 0.1.0
+2. Design requirements
+2.13
+The treatment capacity of the vortex separator shall be used to determine the peak flow capacity limit.
+NOTE
+The treatment capacity of the vortex separator is not the hydraulic capacity.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 15
+======================================================================
+CD 528 Version 0.1.0
+3. Operation and maintenance
+3.
+Operation and maintenance
+General
+3.1
+The design shall facilitate safe access to the vortex separator for operational and maintenance staff
+and vehicles.
+3.1.1
+The vortex separator should be positioned to be clear of the carriageway and to facilitate safe access
+and manoeuvring, minimising the requirement for traffic management.
+NOTE
+Access for maintenance vehicles, especially larger vehicles such as a vacuum tanker, can require
+construction of an adjacent hard-standing designed to withstand the expected loadings.
+3.1.2
+On roads with all lane running or without a hard shoulder, closing lanes and even minimal traffic
+management is potentially not achievable and other access solutions should be sought.
+3.2
+The drainage system design shall allow space to maintain the vortex separator including inspections,
+emptying retained sediment and cleaning in accordance with manufacturer's requirements.
+3.2.1
+A vortex separator may be used to retain surface water when there is an emergency spillage which
+could cause a pollution incident.
+Vortex separator asset data
+3.3
+Vortex separators shall be recorded, on all new and existing drainage systems, as a point asset in the
+Overseeing Organisation's asset management system.
+3.3.1
+Where the vortex separator forms part of a continuous asset it should be connected as a point asset at
+each end, with one point defined as upstream and the other as downstream.
+Commissioning
+3.4
+The commissioning phase of the vortex separator shall evidence that the vortex separator is operating
+with the level of removal of sediments and debris as designed, whilst maximising maintenance intervals.
+3.4.1
+The commissioning phase of the vortex separator may increase or decrease the maintenance intervals
+(i.e. emptying) specified at the design stage due to site conditions.
+3.5
+A record of the vortex separator's requirements for operation, inspection, emptying and cleaning as a
+result of the design and commissioning phase shall be provided.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 15
+======================================================================
+CD 528 Version 0.1.0
+4. Safety issues
+4.
+Safety issues
+General
+4.1
+The design of vortex separators shall include lockable covers that can be locked when not being
+accessed for maintenance purposes.
+Placard
+4.2
+The vortex separator's cover shall be marked 'VORTEX SEPARATOR' with a permanent tamper-proof
+marking.
+4.3
+The vortex separator access hatch must have a prohibition sign (P001) that complies with UKSI
+1996/341 [Ref 6.N] permanently affixed.
+4.4
+The vortex separator access hatch shall have a prohibition sign (P001) that complies with BS EN ISO
+7010 [Ref 4.N].
+4.4.1
+Warning text notices should include:
+1)
+warning confined space;
+2)
+no unauthorised entry; and,
+3)
+keep locked.
+4.5
+A permanent warning sign fixed in a prominent visible location on the vortex separator's chamber
+opening shall warn against accessing the chamber.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 15
+======================================================================
+CD 528 Version 0.1.0
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 2.N
+National Highways. CD 523, 'Determination of pipe roughness and assessment of
+sediment deposition to aid pipeline design'
+Ref 3.N
+National Highways. CC 500, 'Drainage'
+Ref 4.N
+BSI. BS EN ISO 7010, 'Graphical symbols. Safety colours and safety signs.
+Registered safety signs '
+Ref 5.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+National Archive. UKSI 1996/341, 'The Health and Safety (Safety Signs and Signals)
+Regulations'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 15
+======================================================================
+CD 528 Version 0.1.0
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CD 527, 'Sumpless gullies'
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 15
+======================================================================
+CD 528 Version 0.1.0
+Appendix A. Generic details
+Appendix A. Generic details
+A1
+Drainage design philosophy
+Following the introduction of CD 527 [Ref 1.I] the drainage philosophy is to reduce maintenance where
+practical and improve the quality of surface water runoff discharging from the carriageway. The
+elimination of the gully sump may lead to an improvement in water quality. However, this can potentially
+increase the amount of sediment entering the drainage system. CD 523 [Ref 2.N] provides guidance on
+the design of the pipeline to transport sediment and the assessment of the volumes of sediment that a
+road might generate. There is scope to further reduce maintenance activity by reducing the number or
+frequency of catchpits and instead trap sediment at more centralised locations, remote from the
+carriageway.
+At remote locations sediment can be removed without recourse to major traffic management associated
+with lane closures. The vortex separator with its comparatively small footprint would enable these aims
+to be achieved. To further this, National Highways undertook a full scale trial by installing a vortex
+separator during M25 widening works. An 18- month long trial monitored the volume of sediment
+retained and the contaminants present in both the sediment and the water. The trial has indicated that,
+when properly maintained, vortex separators offer an effective additional treatment option in any
+treatment train approach, for example when used in conjunction with isolating devices and other
+propriety devices. This is particularly important when the quality of runoff discharging from a highway
+requires significant improvement before entering to a receiving water body.
+A2
+Vortex separators operation
+Some versions of the vortex separator contain internal filters to remove more of the suspended solids in
+the runoff, including smaller sized particles. Alternatively filters can be installed in a chamber
+immediately downstream of the vortex separator. Filters can be manufactured to remove soluble
+pollutants such as toxic metals, as well as suspended solids. The inclusion of a filter offers a higher
+level of environment protection, but at the expense of a reduced hydraulic capacity of the vortex
+separator, as filters are more effective when treating significantly lower flows than vortex separator
+capacity.
+Applications where low flows from sub-annual rainfall events pass through both the vortex separator
+and an additional chamber containing a filter, may be the ideal system where the receiving water
+environment is vulnerable. Although a bifurcation arrangement, with a downstream filter chamber
+which can be bypassed, would allow the higher flows from the less frequent rainfall events to be treated
+by the vortex separator only and then bypass the filter chamber.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 15
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 528 Version 0.1.0, published: 30-Sep-2025
+
+
