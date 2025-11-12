@@ -1,0 +1,781 @@
+======================================================================
+PAGE 1 of 19
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 138
+Design of permanent traffic enforcement
+systems
+(formerly None)
+Version 1.0.0
+Summary
+This document contains design requirements for permanent traffic enforcement systems
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 19
+======================================================================
+TD 138 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. General requirements for permanent traffic enforcement systems
+9
+Principles to be applied to the design of permanent traffic enforcement systems . . . . . . . . . . . . . . . .
+9
+Design of supports and foundations for permanent traffic enforcement systems . . . . . . . . . . . . .
+9
+Design of gantries for permanent traffic enforcement systems . . . . . . . . . . . . . . . . . . . . . . .
+9
+Design of road restraint systems for permanent traffic enforcement systems . . . . . . . . . . . . . . .
+9
+Outputs from the design of permanent traffic enforcement systems . . . . . . . . . . . . . . . . . . . . . . .
+9
+3. Design requirements for permanent traffic enforcement systems
+11
+Design of permanent traffic enforcement systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4. Commissioning, calibration and verification requirements for non-HADECS permanent traffic enforce-
+ment systems
+12
+Commissioning and calibration plan for non-HADECS permanent traffic enforcement systems
+. . . . . . .
+12
+Inspection, measurement and testing plan for non-HADECS permanent traffic enforcement systems . . . .
+12
+5. Normative references
+16
+6. Informative references
+17
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 19
+======================================================================
+TD 138 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 138
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+TD 138 is a new document for the design of permanent traffic enforcement systems.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 19
+======================================================================
+TD 138 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 19
+======================================================================
+TD 138 Version 1.0.0
+Introduction
+Introduction
+Background
+Permanent traffic enforcement systems provide enforcement authorities with data and information to
+promote and support:
+1)
+road and traffic safety;
+2)
+the prevention and detection of crime; and
+3)
+the prosecution of road traffic offences.
+This is a new document for the design of permanent traffic enforcement systems which supplements
+the requirements in TD 131 [Ref 11.N] and identifies the design outputs required to deliver such
+systems in accordance with TC 131 [Ref 10.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 4.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 19
+======================================================================
+TD 138 Version 1.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviation
+Definition
+EA
+Enforcement authority
+HADECS
+Highways Agency Digital Enforcement Camera System
+HOTA
+Home Office Type Approval
+VMSL
+Variable mandatory speed limit
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 19
+======================================================================
+TD 138 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Construction phase design
+Design activities that are undertaken during a
+scheme's construction phase.
+Enforcement authority
+The individual or organisation that is responsible
+for the enforcement of one or more aspects of law.
+Highways Agency Digital Enforcement Camera
+System (HADECS)
+The permanent traffic enforcement system
+originally developed by the Highways Agency. The
+'3X' variant of HADECS can be used for the
+enforcement of variable mandatory speed limits
+and lane closures depicted by red 'X' traffic signs.
+Home Office Type Approval (HOTA)
+A testing and certification process that a device is
+to pass before evidence from the device can be
+admissible in court. HOTA covers the device itself
+along with any installation limitations placed upon
+the device (e.g. nearside detection only).
+Information model
+As defined in GG 184 [Ref 12.N].
+Instation
+The off-road parts of a permanent traffic
+enforcement system that are used for the storage
+and retrieval of the data and information that is
+produced by the system.
+Operational need
+An operational safety, security or traffic
+management issue for which deployment of a
+permanent traffic enforcement system has been
+justified by means of a business case, study or
+other assessment that has been accepted by the
+Overseeing Organisation.
+Permanent traffic enforcement system
+A complete system, including roadside technology
+devices, infrastructure and instation facilities, to
+provide enforcement authorities with data and
+information to promote and support:
+1) road and traffic safety;
+2) the prevention and detection of crime; and
+3) the prosecution of road traffic offences.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 19
+======================================================================
+TD 138 Version 1.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Red 'X' traffic sign
+In England, Scotland and Wales, the traffic sign
+shown in diagrams 6031.1 and 6031.2 of The
+Traffic Signs Regulations and General Directions 2
+016 ( UKSI 2016/362 [Ref 14.N]).
+In Northern Ireland, the traffic sign shown in
+diagram 6031.1 of the Traffic Signs Regulations
+(Northern Ireland) 1997 ( NISR 1997/386 (TSRNI)
+[Ref 15.N]).
+Variable mandatory speed limit (VMSL)
+Automatically or manually set variable mandatory
+speed limits displayed on signals or variable
+message signs.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 19
+======================================================================
+TD 138 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of permanent traffic enforcement systems on motorways
+and all-purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 6.N], GG
+104 [Ref 9.N], GD 304 [Ref 2.N], and with all other DMRB documents relevant to the design of the
+works to be undertaken.
+1.2
+This document shall not be used for the design of temporary traffic enforcement systems.
+NOTE
+CD 133 [Ref 1.I]provides requirements and advice for the design of temporary automatic speed
+cameras at road works (TASCAR).
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving permanent traffic enforcement
+systems on the Overseeing Organisations' motorways and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 4.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 4.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 19
+======================================================================
+TD 138 Version 1.0.0
+2. General requirements for permanent traffic en...
+2.
+General requirements for permanent traffic enforcement systems
+Principles to be applied to the design of permanent traffic enforcement systems
+2.1
+Permanent traffic enforcement systems shall be designed:
+1)
+for operation 24 hours per day, 7 days per week;
+2)
+so that the enforcement authority (EA), for which the permanent traffic enforcement system is
+being provided, can access and process the data and information outputs from the system from
+its premises;
+3)
+so that all equipment and infrastructure that forms part of a permanent traffic enforcement system
+is secured to prevent unauthorised access and tampering.
+2.2
+Where a permanent traffic enforcement system is to be installed for the purposes of providing evidence
+for the prosecution of road traffic offences, the permanent traffic enforcement system shall have Home
+Office Type Approval (HOTA).
+2.3
+All permanent traffic enforcement system installation locations shall be agreed with the EA for which
+the permanent traffic enforcement system is being provided.
+2.4
+Agreements reached with the EA for which the permanent traffic enforcement system is being provided
+shall be recorded and copies of the records supplied to the Overseeing Organisation.
+Design of supports and foundations for permanent traffic enforcement systems
+2.5
+Where a permanent traffic enforcement system is to be mounted on a structure other than a gantry, the
+design of the supports, foundations and mounting arrangements shall be carried out using CD 354 [Ref
+1.N].
+Design of gantries for permanent traffic enforcement systems
+2.6
+Where a permanent traffic enforcement system is to be mounted on a gantry, the design of the gantry,
+foundations and mounting arrangements shall be carried out using CD 365 [Ref 5.N].
+Design of road restraint systems for permanent traffic enforcement systems
+2.7
+The design of road restraint systems for permanent traffic enforcement systems shall be carried out
+using CD 377 [Ref 8.N].
+Outputs from the design of permanent traffic enforcement systems
+2.8
+The outputs from the design of each permanent traffic enforcement system shall include all details for
+the construction of the supporting infrastructure and the installation of the permanent traffic
+enforcement system.
+2.8.1
+For each permanent traffic enforcement system, the design outputs should include details of:
+1)
+type and variant of the system to be installed;
+2)
+the installation location(s), using a formal location referencing system, including:
+a)
+on the road; and
+b)
+in the premises of the EA(s);
+3)
+the position and orientation of all components of the proposed installation relative to other items
+of existing and proposed road infrastructure, including the edge of the carriageway, so that the
+following can be identified:
+a)
+the environment in which the installation is to take place;
+b)
+the factors that can influence the construction methodology and scheduling of the proposed
+installation;
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 19
+======================================================================
+TD 138 Version 1.0.0
+2. General requirements for permanent traffic en...
+c)
+any traffic signs upon which the operation of the permanent traffic enforcement system is
+reliant; and
+d)
+the factors that can affect the operational performance of the proposed installation in the
+future.
+4)
+electrical installations, including switchgear and wiring;
+5)
+telecommunications installations;
+6)
+housings, enclosures, lock types and keys;
+7)
+cable ducting, cable chambers and cabling;
+8)
+support structures, including:
+a)
+sub-structures and foundations; and
+b)
+equipment mounting arrangements;
+9)
+hardstandings or other arrangements for maintenance access;
+10)
+road restraint systems;
+11)
+commissioning and calibration requirements; and
+12)
+inspection, measurement and test requirements.
+2.9
+Information models shall be produced to define the details and dimensions of each permanent traffic
+enforcement system to be installed.
+2.9.1
+Drawings and non-graphical information should be produced to provide any additional details or views
+needed for the construction or installation of each permanent traffic enforcement system.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 19
+======================================================================
+TD 138 Version 1.0.0
+3. Design requirements for permanent traffic enf...
+3.
+Design requirements for permanent traffic enforcement systems
+Design of permanent traffic enforcement systems
+3.1
+Where an operational need has been established, a permanent traffic enforcement system shall be
+used.
+NOTE 1
+HADECS permanent traffic enforcement systems can be used for the enforcement of:
+1)
+variable mandatory speed limits; and
+2)
+lane closures which are depicted by red 'X' traffic signs.
+NOTE 2
+The use of HADECS permanent traffic enforcement systems relies on the provision of variable
+message signs and signals that can display variable mandatory speed limits and red 'X' traffic signs,
+and that are listed on the HOTA schedule for the selected HADECS product.
+NOTE 3
+TRH 2487 [Ref 3.N]provides guidance on the design of the infrastructure for HADECS permanent traffic
+enforcement systems.
+NOTE 4
+Non-HADECS permanent traffic enforcement systems can include:
+1)
+HOTA systems which are intended to provide evidence for the prosecution of road traffic offences
+- e.g. an average speed camera system for the enforcement of fixed speed limits; and
+2)
+systems which are not intended to provide evidence for the prosecution of road traffic offences
+- e.g. a non-HOTA automatic number plate recognition (ANPR) system that provides data and
+information to support the prevention and detection of crime.
+NOTE 5
+An EA can request the installation of a non-HADECS permanent traffic enforcement system to help it
+meet its operational needs.
+3.2
+Where a permanent traffic enforcement system is to be installed for the purposes of providing evidence
+for the prosecution of road traffic offences, the installation shall be designed:
+1)
+so that the system satisfies the requirements of its HOTA; and
+2)
+in accordance with any constraints in the legislation that defines the road traffic regulation(s)
+being enforced.
+NOTE
+Constraints in the legislation that defines the road traffic regulation(s) being enforced can include, for
+example:
+1)
+defined locations for the start and end of a particular speed limit; and
+2)
+display of regulations or prohibitions using traffic signs that are of the size, colour and type
+prescribed in traffic signs legislation.
+3.3
+The design details for each permanent traffic enforcement system to be installed shall be agreed with
+the Overseeing Organisation.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 19
+======================================================================
+TD 138 Version 1.0.0
+4. Commissioning, calibration and verification r...
+4.
+Commissioning, calibration and verification requirements for
+non-HADECS permanent traffic enforcement systems
+Commissioning and calibration plan for non-HADECS permanent traffic
+enforcement systems
+4.1
+A commissioning and calibration plan shall be produced for each non-HADECS permanent traffic
+enforcement system to be installed.
+4.1.1
+The production of the commissioning and calibration plan for each non-HADECS permanent traffic
+enforcement system in accordance with this section of this document may be made a construction
+phase design item.
+4.2
+The commissioning and calibration plan for each non-HADECS permanent traffic enforcement system
+shall provide the methodology to be used for the commissioning and calibration of the system,
+including:
+1)
+how each EA is to be kept informed throughout the commissioning and calibration process;
+2)
+the commissioning and calibration activities to be carried out;
+3)
+the acceptance criteria for each of the commissioning and calibration activities to be carried out;
+4)
+the production of an as-installed location plan for all on-road equipment, including location datum
+points for enforcement purposes in the form of latitude and longitude;
+5)
+the production of electrical installation certificate(s), including schedules of electrical inspections
+and test results, in accordance with BS 7671 [Ref 7.N];
+6)
+the production of a system commissioning report which is signed and dated by the person
+responsible for its preparation; and
+7)
+the production of a system calibration certificate which is signed and dated by the person
+responsible for its preparation.
+Inspection, measurement and testing plan for non-HADECS permanent traffic
+enforcement systems
+4.3
+An inspection, measurement and testing plan shall be produced for each non-HADECS permanent
+traffic enforcement system to be installed.
+4.3.1
+The production of the inspection, measurement and testing plan for each non-HADECS permanent
+traffic enforcement system in accordance with this section of this document may be made a
+construction phase design item.
+4.4
+The inspection, measurement and testing plan for each non-HADECS permanent traffic enforcement
+system shall provide the methodology to be used for the verification of the system following
+commissioning and calibration, including the inspection, measurement and testing of the following
+aspects, to the extent that they are applicable, against the acceptance criteria in Table 4.4:
+1)
+installation dimensions and parameters;
+2)
+the accuracy and reliability of vehicle speed measurements made by the system;
+3)
+the accuracy and reliability of baseline link length measurements used by the system;
+4)
+the accuracy and reliability of traffic light and prohibited lane violation records;
+5)
+the quality of images produced by the system;
+6)
+the background radio field strength; and
+7)
+the functionality of the instation.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 19
+======================================================================
+TD 138 Version 1.0.0
+4. Commissioning, calibration and verification r...
+Table 4.4 Inspection, measurement and test acceptance criteria for permanent traffic enforcement systems
+Item
+Inspection, measurement or test
+Applicability
+Acceptance criteria
+1
+Installation dimensions and parameters
+All non-HADECS permanent traffic
+enforcement systems
+The installation dimensions and parameters do
+not deviate from:
+1) the installation dimensions and parameters
+mandated in the HOTA for the selected
+product; or
+2) where HOTA does not apply, the installation
+dimensions and parameters defined in the
+design of the system.
+2
+All non-HADECS permanent traffic
+enforcement systems incorporating speed
+measurement devices
+Measurements of vehicle speed are reliably within
+the measuring accuracy specified in The
+Speedmeter, Traffic Light and Prohibited Lane
+Enforcement Camera Handbook ( SM v2.0 [Ref
+13.N]).
+3
+Accuracy and reliability of vehicle speed
+measurements
+All spot-speed, non-HADECS permanent traffic
+enforcement systems
+Secondary check measurements of vehicle speed
+are reliably within ±10% of the vehicle's actual
+speed.
+4
+Accuracy and reliability of baseline link length
+measurements
+All average speed, non-HADECS permanent
+traffic enforcement systems
+The baseline link length measurements entered in
+the system are measured to an accuracy of ±1m.
+5
+Accuracy and reliability of traffic light and
+prohibited lane violation records
+All traffic light or prohibited lane non-HADECS
+permanent traffic enforcement systems
+Traffic light and prohibited lane violations are
+accurately and reliably captured.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 19
+======================================================================
+TD 138 Version 1.0.0
+4. Commissioning, calibration and verification r...
+Table 4.4 Inspection, measurement and test acceptance criteria for permanent traffic enforcement systems (continued)
+6
+Quality of images
+All non-HADECS permanent traffic
+enforcement systems
+For images captured by the system:
+1) The make and model of each vehicle can be
+identified for images captured during daylight.
+2) The make and model of each vehicle can be
+identified for images captured during the
+hours of darkness.
+3) The registration number of each vehicle is
+legible.
+4) Any reference marks that are used by the
+permanent traffic enforcement system are
+visible.
+5) Any traffic signs that are required to be
+included in images captured by the system
+are visible and legible.
+7
+Background radio field strength
+All non-HADECS permanent traffic
+enforcement systems where HOTA applies
+The background radio field strength at each
+on-road equipment location is no greater than that
+specified in The Speedmeter, Traffic Light and
+Prohibited Lane Enforcement Camera Handbook
+( SM v2.0 [Ref 13.N]).
+8
+Instation system functionality
+All non-HADECS permanent traffic
+enforcement systems
+All aspects of the instation system function
+correctly and reliably.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 19
+======================================================================
+TD 138 Version 1.0.0
+4. Commissioning, calibration and verification r...
+4.4.1
+Drive-through tests with a reference vehicle, which is equipped with a calibrated speed measurement
+and location tracking device, should be used for the inspection, measurement and testing of:
+1)
+the accuracy and reliability of vehicle speed measurements;
+2)
+the accuracy and reliability of baseline link length measurements;
+3)
+the accuracy and reliability of traffic light and prohibited lane violation records; and
+4)
+the quality of images produced by the system.
+4.4.2
+For the purposes of carrying out measurements and tests of the accuracy and reliability of an
+installation's speed measurements using a reference vehicle, the speed threshold used by the system
+to establish when an offence has occurred may be temporarily lowered so that the reference vehicle
+does not have to exceed the speed limit that applies to the road and can travel at the prevailing traffic
+speed.
+4.5
+The inspection, measurement and testing plan for each non-HADECS permanent traffic enforcement
+system shall include the methodology to be used for:
+1)
+keeping each EA informed throughout the implementation of the inspection, measurement and
+testing plan;
+2)
+calibrating the inspection, measurement and testing devices used in the inspection,
+measurement and testing of each system;
+3)
+producing calibration certificates for the inspection, measurement and testing devices used in the
+inspection, measurement and testing of each system which are signed and dated by the
+person(s) responsible for their preparation;
+4)
+producing records of all inspections, measurements and tests which are signed and dated by the
+person(s) responsible for their preparation; and
+5)
+producing a certificate which confirms compliance of the each installed system with its HOTA
+(where applicable); the applicable inspection, measurement and testing acceptance criteria; and
+the accuracy of the inspection, measurement and testing documentation, and is signed and dated
+by the person responsible for its preparation.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 19
+======================================================================
+TD 138 Version 1.0.0
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 2.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 3.N
+National Highways. OTSL. TRH 2487, 'Highways England Digital Enforcement and
+Compliance System Version 3X (HADECS3X) Infrastructure Design Guide'
+Ref 4.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 5.N
+National Highways. CD 365, 'Portal and cantilever signs/signals gantries'
+Ref 6.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 7.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 8.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 9.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 10.N
+National Highways. TC 131, 'Roadside technology and communications'
+Ref 11.N
+National Highways. TD 131, 'Roadside technology and communications'
+Ref 12.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+Ref 13.N
+Home Office. SM v2.0, 'The Speedmeter, Traffic Light and Prohibited Lane
+Enforcement Camera Handbook v2.0 (19 Dec 2022)'
+Ref 14.N
+National Archive. UKSI 2016/362, 'The Traffic Signs Regulations and General
+Directions'
+Ref 15.N
+National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland)'
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 19
+======================================================================
+TD 138 Version 1.0.0
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CD 133, 'Design of temporary automatic speed camera systems
+(TASCAR)'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 19
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 138 Version 1.0.0, published: 30-Sep-2025
+
+
