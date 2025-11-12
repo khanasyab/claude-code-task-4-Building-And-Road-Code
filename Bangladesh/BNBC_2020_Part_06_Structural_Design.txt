@@ -1,0 +1,1454 @@
+======================================================================
+BANGLADESH NATIONAL BUILDING CODE (BNBC) 2020
+PART 6: STRUCTURAL DESIGN
+======================================================================
+
+VOLUME 2 - PART 6
+Published by Housing and Building Research Institute (HBRI)
+Ministry of Housing and Public Works
+Government of the People's Republic of Bangladesh
+Gazetted: February 2021
+
+PART 6 CONTAINS 13 CHAPTERS COVERING ALL STRUCTURAL DESIGN ASPECTS
+
+======================================================================
+CHAPTER 1: DEFINITIONS AND GENERAL REQUIREMENTS
+======================================================================
+
+1.1 SCOPE
+Part 6 establishes minimum requirements for structural design and construction
+of buildings and structures in Bangladesh to ensure:
+- Structural safety and stability
+- Protection against collapse
+- Resistance to dead loads, live loads, wind, earthquake, and other forces
+- Durability throughout intended service life
+- Public safety and property protection
+
+1.2 GENERAL DESIGN PHILOSOPHY
+1.2.1 Design Methods
+Structures shall be designed using:
+a) Load and Resistance Factor Design (LRFD) - Preferred method
+b) Allowable Stress Design (ASD) - Alternative method
+c) Limit State Design (LSD) - As per specific material codes
+
+1.2.2 Design Objectives
+- Ultimate Limit State (ULS): Prevent collapse
+- Serviceability Limit State (SLS): Maintain functionality
+- Durability: Withstand environmental conditions over design life
+
+1.3 KEY DEFINITIONS
+
+DEAD LOAD: Permanent gravity loads including weight of all structural and
+non-structural building components, fixed equipment, and built-in features.
+
+LIVE LOAD: Transient or movable loads from building occupancy and use,
+including people, furniture, movable equipment, and stored materials.
+
+WIND LOAD: Lateral and uplift forces on building from wind pressure and suction.
+
+EARTHQUAKE LOAD (SEISMIC LOAD): Lateral forces from ground motion during earthquakes.
+
+LOAD COMBINATIONS: Mathematical combinations of various loads for design,
+accounting for probability of simultaneous occurrence.
+
+FACTOR OF SAFETY: Ratio of ultimate strength to allowable working stress,
+accounting for uncertainties in loading and material properties.
+
+STRUCTURAL SYSTEM: Complete assembly of structural elements (beams, columns,
+slabs, walls, foundation) that work together to resist loads.
+
+DUCTILITY: Ability of structure to deform beyond elastic limit without sudden
+failure, critical for earthquake resistance.
+
+SERVICEABILITY: Structure's ability to maintain appearance and functionality
+under normal service loads.
+
+1.4 DESIGN RESPONSIBILITY
+1.4.1 Qualified Professionals
+Structural design shall be performed by registered Professional Engineers:
+- Registered with Institution of Engineers, Bangladesh (IEB)
+- Minimum Bachelor's degree in Civil/Structural Engineering
+- Demonstrated competence in structural design
+- Professional liability insurance recommended
+
+1.4.2 Design Documentation
+Complete design documents shall include:
+a) Design basis and criteria
+b) Load calculations
+c) Structural analysis
+d) Member design calculations
+e) Connection design
+f) Construction drawings with details
+g) Specifications for materials and construction
+h) Special inspection requirements
+i) Professional engineer's seal and signature
+
+1.5 REFERENCED STANDARDS
+BNBC Part 6 incorporates by reference:
+- ASCE 7: Minimum Design Loads for Buildings and Other Structures
+- ACI 318: Building Code Requirements for Structural Concrete
+- AISC: Steel Construction Manual
+- NDS: National Design Specification for Wood Construction
+- AISI: Cold-Formed Steel Design Manual
+- Relevant BDS (Bangladesh Standards) and BSTI standards
+
+======================================================================
+CHAPTER 2: LOADS ON BUILDINGS AND STRUCTURES
+======================================================================
+
+2.1 GENERAL LOAD REQUIREMENTS
+2.1.1 Load Types
+All structures shall be designed for:
+a) Dead Loads (D)
+b) Live Loads (L, Lr - roof live, S - snow)
+c) Wind Loads (W)
+d) Earthquake Loads (E)
+e) Rain Loads (R)
+f) Soil Pressure (H)
+g) Flood Loads (Fa)
+h) Impact Loads (I) where applicable
+i) Temperature Effects (T)
+j) Settlement Effects (when significant)
+
+2.2 DEAD LOADS
+2.2.1 Calculation
+Dead load includes weight of:
+- Structural elements (beams, columns, slabs, walls)
+- Permanent architectural finishes (floor finishes, ceiling, partitions)
+- Fixed building services (HVAC, plumbing, electrical)
+- Permanent equipment
+
+2.2.2 Unit Weights of Materials (kN/m³)
+
+Concrete:
+- Plain concrete: 22-23 kN/m³
+- Reinforced concrete: 24-25 kN/m³
+- Lightweight concrete: 16-19 kN/m³
+
+Masonry:
+- Brick masonry: 18-20 kN/m³
+- Hollow concrete block: 13-16 kN/m³
+- Stone masonry: 20-26 kN/m³
+
+Steel:
+- Structural steel: 77 kN/m³
+- Reinforcing steel: 77 kN/m³
+
+Wood:
+- Hardwood: 6-11 kN/m³
+- Softwood: 4-8 kN/m³
+
+Other Materials:
+- Soil (compacted): 17-20 kN/m³
+- Water: 9.81 kN/m³
+- Glass: 25 kN/m³
+- Aluminum: 27 kN/m³
+
+2.2.3 Finish Loads (kPa)
+Floor finishes:
+- Ceramic tile on mortar bed: 1.2-1.5 kPa
+- Terrazzo finish: 1.0 kPa
+- Marble slabs: 0.6 kPa
+- Vinyl/wood flooring: 0.2-0.3 kPa
+
+Ceiling loads:
+- Suspended ceiling with services: 0.5-1.0 kPa
+- Plastered ceiling: 0.3 kPa
+
+Partition loads:
+- Movable partitions: 1.0 kPa (minimum uniform load on floors)
+
+Roofing:
+- Corrugated metal sheet: 0.1-0.15 kPa
+- Clay/concrete tiles: 0.5-1.0 kPa
+- Waterproofing membrane: 0.05-0.1 kPa
+
+2.3 LIVE LOADS
+2.3.1 Uniform Floor Live Loads (kPa)
+
+Residential:
+- Dwelling units (apartments, houses): 2.0 kPa
+- Hotel guest rooms: 2.0 kPa
+- Corridors and public areas: 4.0 kPa
+- Balconies (same as room): 2.0 kPa (minimum 1.5 kN concentrated)
+
+Educational:
+- Classrooms: 3.0 kPa
+- Corridors and stairs: 4.0 kPa
+- Assembly areas: 5.0 kPa
+- Laboratories: 4.0 kPa
+
+Commercial/Office:
+- Office areas: 2.5-3.0 kPa
+- Lobbies and corridors: 4.0 kPa
+- Computer rooms: 5.0 kPa
+- Banking areas: 5.0 kPa
+
+Retail/Mercantile:
+- Retail ground floor: 5.0 kPa
+- Upper floors: 4.0 kPa
+- Storage areas: 6.0-12.0 kPa (depending on use)
+
+Assembly:
+- Fixed seating areas: 3.0 kPa
+- Movable seating: 5.0 kPa
+- Stages and platforms: 5.0 kPa
+- Corridors and exit ways: 5.0 kPa
+
+Garages and Parking:
+- Light vehicles (cars): 2.5 kPa
+- Heavy vehicles (trucks): 12.0 kPa minimum
+
+Industrial:
+- Light manufacturing: 6.0 kPa
+- Heavy manufacturing: 12.0 kPa (minimum, may be higher)
+- Warehouses: 6.0-12.0 kPa
+
+Hospitals:
+- Patient rooms: 2.0 kPa
+- Operating rooms: 3.0 kPa
+- Corridors: 4.0 kPa
+- Laboratories: 5.0 kPa
+
+2.3.2 Roof Live Loads
+Flat or low-slope roofs:
+- Non-accessible roofs: 1.0 kPa (minimum for maintenance)
+- Roofs used for assembly: 5.0 kPa
+- Roof gardens: 5.0 kPa (plus soil and planting loads)
+
+Sloped roofs:
+- Slope less than 20 degrees: 0.6 kPa minimum
+- Slope 20-70 degrees: 0.3-0.6 kPa (reducing with steeper slope)
+- Slope over 70 degrees: No live load (consider wind)
+
+2.3.3 Concentrated Loads
+In addition to uniform loads, consider concentrated loads:
+- Office floors: 9.0 kN on 750x750mm area
+- Corridors and exits: 4.5 kN on 750x750mm area
+- Parking garages: Wheel loads per vehicle specifications
+- Stairs: 1.5 kN on 300x300mm area on each tread
+
+2.3.4 Live Load Reduction
+For large areas and multiple floors, live load may be reduced:
+- Permitted for members supporting large tributary areas
+- Reduction factor based on tributary area
+- Not applicable to assembly areas, parking garages, roof loads
+- Maximum reduction: 40-50% depending on occupancy
+
+Reduction formula (ASCE 7):
+L = Lo [0.25 + 15/√(KLL AT)]
+Where:
+L = Reduced design live load per unit area
+Lo = Unreduced design live load per unit area
+KLL = Live load element factor
+AT = Tributary area in m²
+
+2.4 WIND LOADS
+2.4.1 Design Wind Speed
+Bangladesh experiences severe tropical cyclones, especially coastal areas.
+
+Basic Wind Speed (3-second gust at 10m height):
+Zone I (Coastal): 65 m/s (234 km/h)
+- Cox's Bazar, Chittagong coast, Khulna coast, Patuakhali, Barisal coast
+
+Zone II (Near Coast): 55 m/s (198 km/h)
+- Areas within 50 km of coast
+- Chittagong, Khulna, Barisal cities
+
+Zone III (Interior): 50 m/s (180 km/h)
+- Dhaka, Comilla, Sylhet, Rajshahi
+
+Zone IV (Northern): 44 m/s (158 km/h)
+- Rangpur, Dinajpur, northern districts
+
+2.4.2 Wind Pressure Calculation
+Basic equation:
+p = 0.613 × Kz × Kzt × Kd × V² × I
+Where:
+p = Design wind pressure (N/m²)
+Kz = Velocity pressure exposure coefficient (height and terrain)
+Kzt = Topographic factor (hills, escarpments)
+Kd = Wind directionality factor
+V = Basic wind speed (m/s)
+I = Importance factor
+
+2.4.3 Exposure Categories
+Category A (Urban/City Center):
+- Dense buildings over 20m high
+- Surface roughness: High
+- Kz increases with height above 10m
+
+Category B (Suburban/Town):
+- Mixed residential and commercial
+- Buildings mostly under 10m
+- Moderate surface roughness
+
+Category C (Open Terrain):
+- Flat, open country
+- Agricultural areas
+- Low surface roughness
+
+Category D (Coastal):
+- Ocean, bay, or large lake (>5 km fetch)
+- Flat coastal areas
+- Lowest surface roughness, highest wind speeds
+
+2.4.4 Wind Load Application
+Structures designed for:
+- Main wind force-resisting system (overall building)
+- Components and cladding (windows, wall panels, roofing)
+
+Wind direction:
+- Four principal directions
+- Critical load combinations determined
+
+Wind effects:
+- Lateral pressure on windward side
+- Suction on leeward side
+- Suction on roof surfaces
+- Uplift forces
+- Torsional effects on asymmetric buildings
+
+2.4.5 Special Considerations
+High-rise buildings:
+- Dynamic effects considered above 60m height
+- Vortex shedding analysis
+- Building motion and occupant comfort
+
+Flexible structures:
+- Natural period calculation
+- Resonance effects
+- Damping considerations
+
+2.5 EARTHQUAKE LOADS
+2.5.1 Seismic Zones of Bangladesh
+Bangladesh divided into seismic zones based on earthquake risk:
+
+ZONE 1 (Highest Risk):
+- Peak Ground Acceleration (PGA): 0.36g
+- Seismic Zone Factor: Z = 0.36
+- Districts: Sylhet, Sunamganj, Netrokona, Mymensingh, Sherpur, Kishoreganj
+- Near plate boundary, severe shaking expected
+
+ZONE 2 (High Risk):
+- Peak Ground Acceleration (PGA): 0.28g
+- Seismic Zone Factor: Z = 0.28
+- Districts: Chittagong, Cox's Bazar, Rangamati, Bandarban, Khagrachari,
+  Feni, Noakhali, Comilla
+- Active fault zones, strong shaking possible
+
+ZONE 3 (Moderate Risk):
+- Peak Ground Acceleration (PGA): 0.20g
+- Seismic Zone Factor: Z = 0.20
+- Districts: Dhaka, Narayanganj, Gazipur, Tangail, Jamalpur, Brahmanbaria,
+  Habiganj, Maulvibazar, Chandpur
+- Moderate earthquake hazard
+
+ZONE 4 (Lower Risk):
+- Peak Ground Acceleration (PGA): 0.12g
+- Seismic Zone Factor: Z = 0.12
+- Districts: Rajshahi, Rangpur, Dinajpur, Khulna, Jessore, Kushtia, Bogra,
+  Pabna, Faridpur, Barisal
+- Lower but not negligible earthquake risk
+
+2.5.2 Seismic Design Category
+Based on seismic zone and building importance:
+
+Importance Categories:
+I. Low importance: Agricultural, temporary structures (I = 1.0)
+II. Normal importance: Residential, commercial, office (I = 1.0)
+III. Essential facilities: Hospitals, fire stations, emergency centers (I = 1.5)
+IV. Critical facilities: Nuclear power, major dams (I = 1.75)
+
+Seismic Design Categories (A through D):
+- Category A: Lowest requirements (Zone 4, Importance I-II)
+- Category B: Moderate requirements (Zone 3-4, all; Zone 2, Importance I-II)
+- Category C: Enhanced requirements (Zone 2, Importance III-IV; Zone 1, Importance I-II)
+- Category D: Highest requirements (Zone 1, Importance III-IV)
+
+2.5.3 Seismic Base Shear Calculation
+Equivalent lateral force method:
+V = Cs × W
+
+Where:
+V = Seismic base shear
+Cs = Seismic response coefficient
+W = Effective seismic weight (dead load + applicable live load)
+
+Seismic response coefficient:
+Cs = (S × I) / (R × g)
+
+Where:
+S = Spectral acceleration (function of soil type and zone)
+I = Importance factor
+R = Response modification factor (ductility factor)
+g = Acceleration due to gravity (9.81 m/s²)
+
+2.5.4 Response Modification Factor (R)
+Depends on structural system:
+
+High Ductility Systems:
+- Special moment-resisting frame (concrete): R = 8
+- Special moment-resisting frame (steel): R = 8
+- Dual system with special moment frame: R = 8
+
+Intermediate Ductility:
+- Intermediate moment frame (concrete): R = 5
+- Ordinary moment frame (steel): R = 4.5
+- Shear walls (special): R = 6
+
+Low Ductility:
+- Ordinary moment frame (concrete): R = 3
+- Bearing wall system: R = 4
+- Unreinforced masonry: R = 1.5 (limited use)
+
+2.5.5 Soil Classification
+Site soil conditions significantly affect seismic response:
+
+SOIL TYPE A (Hard Rock):
+- Shear wave velocity > 1500 m/s
+- Very stiff material
+- Amplification factor: Lowest
+
+SOIL TYPE B (Rock):
+- Shear wave velocity 760-1500 m/s
+- Competent rock
+- Amplification: Low
+
+SOIL TYPE C (Very Dense Soil/Soft Rock):
+- Shear wave velocity 360-760 m/s
+- Dense sand, gravel, or soft rock
+- Amplification: Moderate
+- Most common in Bangladesh
+
+SOIL TYPE D (Stiff Soil):
+- Shear wave velocity 180-360 m/s
+- Medium dense to stiff clay and sand
+- Amplification: Moderate to high
+- Common in Dhaka, Chittagong
+
+SOIL TYPE E (Soft Clay):
+- Shear wave velocity < 180 m/s
+- Soft to medium clay
+- Amplification: High
+- Found in some coastal and riverine areas
+
+SOIL TYPE F (Special Soils):
+- Liquefiable soils
+- Quick or collapsible soils
+- Highly organic soils
+- Very soft clays (over 12m thick)
+- Site-specific analysis required
+
+2.5.6 Seismic Design Requirements
+All buildings in Bangladesh must be designed for earthquake resistance.
+
+Essential Features:
+- Continuous load path from roof to foundation
+- Proper connections and anchorage
+- Diaphragm action of floors and roof
+- Ductile detailing of reinforced concrete
+- Confinement of columns and beams
+- Proper lap lengths and development of reinforcement
+- Avoidance of soft storey and short column effects
+- Regular structural configuration preferred
+- Irregularities identified and addressed
+
+2.6 OTHER LOADS
+2.6.1 Flood Loads
+For flood-prone areas (as defined by Bangladesh Water Development Board):
+- Hydrostatic loads on submerged walls
+- Hydrodynamic loads from flowing water
+- Wave action loads in coastal areas
+- Debris impact loads
+- Flotation (buoyancy) forces
+- Erosion and scour considerations
+
+Design flood elevation: 100-year return period or as specified by authority.
+
+2.6.2 Rain Loads
+Heavy monsoon rainfall in Bangladesh requires proper roof drainage design:
+- Minimum roof slope for drainage
+- Adequately sized drainage systems
+- Blocked drain scenarios (roof ponding)
+- Parapet and scupper design
+- Prevention of progressive ponding
+
+Rainfall intensity: 200-300 mm/hour for design in Dhaka region.
+
+2.6.3 Temperature Effects
+Thermal expansion and contraction:
+- Long structures require expansion joints
+- Thermal coefficient for concrete: 10 × 10⁻⁶ per °C
+- Temperature range: 15°C to 45°C in Bangladesh
+- Special consideration for exposed structures
+
+2.6.4 Impact Loads
+Where applicable:
+- Elevator machinery: 2 × dead load
+- Crane loads: Vertical impact 25%, lateral surge 10%
+- Parking garages: Vehicle impact on barriers
+- Handrails and guards: 0.75 kN/m minimum
+
+2.7 LOAD COMBINATIONS
+2.7.1 Ultimate Strength Design (LRFD Method)
+Maximum effects from following combinations:
+
+1. 1.4D
+2. 1.2D + 1.6L + 0.5Lr
+3. 1.2D + 1.6Lr + (0.5L or 0.5S)
+4. 1.2D + 1.6S + (0.5L or 0.5Lr)
+5. 1.2D + 1.0W + 0.5L + 0.5Lr
+6. 1.2D + 1.0E + 0.5L
+7. 0.9D + 1.0W
+8. 0.9D + 1.0E
+
+Where:
+D = Dead load
+L = Live load
+Lr = Roof live load
+S = Snow load (negligible in Bangladesh)
+W = Wind load
+E = Earthquake load
+
+2.7.2 Service Load (Allowable Stress Design)
+1. D + L
+2. D + L + W
+3. D + L + E
+4. D + L + 0.5W
+5. D + L + 0.7E
+
+2.7.3 Special Combinations
+For foundations and retaining structures:
+- Include lateral earth pressure (H)
+- Consider uplift and flotation
+- Flood loads where applicable
+
+======================================================================
+CHAPTER 3: SOILS AND FOUNDATIONS
+======================================================================
+
+3.1 GEOTECHNICAL INVESTIGATION
+3.1.1 General Requirements
+Site investigation mandatory for all buildings except:
+- Single-storey residential (area < 90 m²)
+- Temporary structures
+- Buildings on proven satisfactory soil
+
+3.1.2 Investigation Extent
+Minimum requirements:
+
+Small Buildings (< 4 storeys, < 500 m²):
+- Minimum 1 borehole at center
+- Depth: 2× foundation width or 6m, whichever greater
+- SPT testing at 1.5m intervals
+
+Medium Buildings (4-10 storeys or 500-2000 m²):
+- Minimum 3 boreholes
+- Depth: 1.5× building width or 20m depth
+- SPT testing at 1.5m intervals
+- Laboratory testing of samples
+
+Large Buildings (> 10 storeys or > 2000 m²):
+- Minimum 4 boreholes (1 per 1000 m² approximately)
+- Depth: To competent bearing stratum, minimum 25m
+- Comprehensive SPT testing
+- Undisturbed sampling and laboratory testing
+- Groundwater level determination
+- Soil classification and properties
+
+3.1.3 Investigation Methods
+Field Tests:
+- Standard Penetration Test (SPT) - ASTM D1586
+- Cone Penetration Test (CPT)
+- Plate load test for important structures
+- Groundwater observation
+
+Laboratory Tests:
+- Moisture content
+- Atterberg limits (liquid limit, plastic limit)
+- Grain size distribution
+- Unconfined compression test
+- Consolidation test
+- Direct shear or triaxial shear test
+- Chemical analysis (for sulfate, chloride content)
+
+3.1.4 Soil Classification
+According to Unified Soil Classification System (USCS):
+
+Coarse-Grained Soils:
+- GW: Well-graded gravel
+- GP: Poorly-graded gravel
+- GM: Silty gravel
+- GC: Clayey gravel
+- SW: Well-graded sand
+- SP: Poorly-graded sand
+- SM: Silty sand
+- SC: Clayey sand
+
+Fine-Grained Soils:
+- ML: Low plasticity silt
+- CL: Low plasticity clay
+- OL: Organic silt/clay (low plasticity)
+- MH: High plasticity silt
+- CH: High plasticity clay
+- OH: Organic clay (high plasticity)
+
+3.2 SHALLOW FOUNDATIONS
+3.2.1 Types
+- Isolated footings (individual columns)
+- Combined footings (two or more columns)
+- Strip footings (continuous under walls)
+- Mat/raft foundations (entire building area)
+
+3.2.2 Bearing Capacity
+Safe bearing capacity from soil testing:
+
+Presumptive Bearing Capacity (kPa) - When testing not done:
+- Hard rock: 3000 kPa
+- Medium rock: 1500 kPa
+- Soft rock: 600 kPa
+- Very dense sand/gravel: 450 kPa
+- Dense sand/gravel: 300 kPa
+- Medium dense sand: 200 kPa
+- Loose sand: 100 kPa
+- Very stiff clay: 300 kPa
+- Stiff clay: 200 kPa
+- Medium clay: 100 kPa
+- Soft clay: 75 kPa (requires improvement or piling)
+
+Actual bearing capacity from SPT N-values:
+For cohesionless soils (sand):
+qa = 12 × N × (B + 0.3)² / B² × Df/B kPa
+
+For cohesive soils (clay):
+qa = Nc × Cu
+
+Where:
+qa = Allowable bearing capacity
+N = SPT N-value (corrected)
+B = Footing width (m)
+Df = Depth of foundation (m)
+Nc = Bearing capacity factor (typically 5.7)
+Cu = Undrained shear strength
+
+3.2.3 Minimum Depth
+- Below frost penetration: Not applicable in Bangladesh
+- Below seasonal moisture variation: 1.0m minimum
+- Below topsoil and organic matter: 0.5m minimum below finished grade
+- Deep enough for adequate bearing capacity
+- Protection from erosion and scour
+
+3.2.4 Settlement
+Total settlement must be limited:
+- Maximum total settlement: 65mm (isolated footing)
+- Maximum differential settlement: 40mm between columns
+- Angular distortion: 1/300 maximum (1/500 for rigid structures)
+- Tilt: 1/250 maximum
+
+Settlement calculation:
+- Immediate settlement from elastic compression
+- Primary consolidation (fine-grained soils)
+- Secondary compression (organic soils)
+
+3.3 DEEP FOUNDATIONS (PILES)
+3.3.1 When Required
+Deep foundations necessary when:
+- Adequate shallow foundation bearing capacity not available
+- Soft compressible soils near surface
+- High water table problems
+- Large loads requiring high capacity
+- Control of settlement critical
+
+3.3.2 Pile Types Used in Bangladesh
+Driven Piles:
+- Precast concrete piles (square, circular)
+- Prestressed concrete piles (high capacity)
+- Steel H-piles
+- Steel pipe piles
+
+Bored Piles (Drilled Shafts):
+- Cast-in-place concrete
+- Larger diameter (600-3000mm)
+- Higher capacity per pile
+- Suitable for weak to medium soils
+
+Micro-piles:
+- Small diameter (100-300mm)
+- Underpinning existing buildings
+- Difficult access situations
+- Grouted for capacity
+
+3.3.3 Pile Capacity
+End-bearing capacity:
+Qb = Ab × qb
+Where:
+Ab = Pile base area
+qb = Unit end-bearing resistance
+
+Skin friction capacity:
+Qs = As × fs
+Where:
+As = Pile shaft surface area
+fs = Unit skin friction
+
+Total pile capacity:
+Qu = Qb + Qs (Ultimate capacity)
+Qa = Qu / FOS (Allowable capacity)
+
+Factor of Safety (FOS):
+- Based on static analysis: FOS = 2.5-3.0
+- Verified by load test: FOS = 2.0
+
+3.3.4 Pile Load Testing
+Required for major projects:
+
+Initial Test Piles:
+- Minimum 1% of working piles (at least 2)
+- Load to 2× design load
+- Maintained for 24 hours
+- Settlement monitored
+
+Routine Test Piles:
+- 2% of working piles
+- Load to 1.5× design load
+- Verify design assumptions
+
+Methods:
+- Static load test (maintained load test)
+- Rapid load test
+- Dynamic load test (PDA)
+
+3.3.5 Pile Groups
+Piles often installed in groups under column footings:
+
+Spacing:
+- Minimum 2.5× pile diameter
+- Typical 3× diameter
+- Closer spacing reduces group efficiency
+
+Group efficiency:
+- Efficiency factor < 1.0 for friction piles in clay
+- Efficiency ≈ 1.0 for end-bearing piles
+- Calculate group settlement separately from individual pile
+
+Pile cap design:
+- Reinforced concrete
+- Distribute column load to piles
+- Adequate embedment of piles
+- Minimum 300mm above pile cutoff
+
+3.4 RETAINING STRUCTURES
+3.4.1 Lateral Earth Pressure
+Active pressure (Ka):
+- Used for design of retaining walls
+- Soil pushing against wall
+- Rankine or Coulomb theory
+
+Passive pressure (Kp):
+- Soil resisting lateral movement
+- Used for embedded structures
+- Higher magnitude than active
+
+At-rest pressure (Ko):
+- For non-yielding structures
+- Basement walls, rigid structures
+
+3.4.2 Retaining Wall Types
+Gravity walls:
+- Concrete or masonry
+- Resistance from self-weight
+- Height limited to 3-4m
+
+Cantilever walls:
+- Reinforced concrete
+- L-shaped or T-shaped
+- Economic for heights up to 8m
+
+Counterfort walls:
+- For greater heights (over 8m)
+- Vertical triangular supports
+
+Sheet pile walls:
+- Steel or concrete driven piles
+- Anchored or cantilevered
+- Temporary or permanent
+
+3.4.3 Design Requirements
+Stability checks:
+- Overturning stability: FOS ≥ 2.0
+- Sliding stability: FOS ≥ 1.5
+- Bearing capacity: FOS ≥ 3.0
+- Overall stability of slope
+
+Structural design:
+- Reinforced concrete design for stem
+- Base slab design
+- Heel and toe structural adequacy
+
+Drainage:
+- Weep holes at 1-2m spacing
+- Drainage layer behind wall
+- Prevention of hydrostatic pressure
+
+3.5 SPECIAL FOUNDATION CONDITIONS
+3.5.1 Expansive Soils
+If highly plastic clays (CH) present:
+- Provide stiffened grade beams
+- Isolated footings with void beneath
+- Deep foundations through expansive layer
+- Moisture control measures
+
+3.5.2 Collapsible Soils
+Loose silts and sandy silts:
+- Prone to collapse when wetted
+- Densification by compaction
+- Chemical stabilization
+- Deep foundations through zone
+
+3.5.3 Liquefiable Soils
+Loose saturated sands:
+- Susceptible to liquefaction in earthquakes
+- Densification by vibro-compaction
+- Stone columns for densification
+- Deep foundations to non-liquefiable stratum
+- Consider lateral spreading effects
+
+3.5.4 High Water Table
+Coastal and riverine areas:
+- Dewatering during construction
+- Waterproofing of basement
+- Buoyancy calculations
+- Uplift resistance of foundations
+- Permanent dewatering system if needed
+
+3.5.5 Foundations in Flood-Prone Areas
+Special considerations:
+- Elevated foundations above design flood level
+- Scour protection around piles
+- Erosion-resistant materials
+- Breakaway walls below flood level (if used)
+- Flood openings in foundation walls
+
+======================================================================
+CHAPTER 4: BAMBOO STRUCTURES
+======================================================================
+
+4.1 GENERAL PROVISIONS
+4.1.1 Scope and Applicability
+Bamboo recognized as sustainable construction material for:
+- Low-cost housing
+- Temporary structures
+- Rural construction
+- Light roofing and scaffolding
+- Traditional architecture
+
+4.1.2 Species and Selection
+Common bamboo species in Bangladesh:
+- Muli bamboo (Melocanna baccifera)
+- Borak bamboo (Bambusa balcooa)
+- Tama bamboo (Dendrocalamus strictus)
+- Ora bamboo (Bambusa arundinacea)
+
+Selection criteria:
+- Age: 3-4 years minimum
+- Harvested in dry season
+- No cracks, insect damage, or fungal attack
+- Straight culms preferred
+- Appropriate diameter for application
+
+4.1.3 Treatment and Preservation
+Required treatments:
+- Borax-boric acid solution (1:1.5 ratio)
+- Copper-chrome-boron preservative
+- Soaking method: 2 weeks minimum
+- Boucherie method for whole culms
+- Protection from moisture and soil contact
+
+4.2 DESIGN PROPERTIES
+4.2.1 Allowable Stresses (Working Stress Design)
+Based on species and treatment:
+
+Bending stress: 8-15 MPa
+Tension parallel to fibers: 10-20 MPa
+Compression parallel to fibers: 8-15 MPa
+Shear parallel to fibers: 1.0-2.0 MPa
+Modulus of elasticity: 10,000-20,000 MPa
+
+Reduce by 50% for connections and joints.
+
+4.2.2 Load Factors
+Safety factors:
+- Dead load: Standard values
+- Live load: Reduced (1.5 kPa for bamboo roof structures)
+- Wind load: Full design values apply
+- Earthquake: Same as conventional structures
+
+4.3 STRUCTURAL SYSTEMS
+4.3.1 Post and Beam Construction
+- Bamboo posts as columns (embedded or with foundation)
+- Bamboo beams and purlins
+- Connections with pins, bolts, or lashings
+- Bracing for lateral stability
+
+4.3.2 Truss Systems
+- Triangulated bamboo trusses for roof
+- Span up to 12m possible
+- Proper connection design critical
+- Wind bracing required
+
+4.3.3 Foundations for Bamboo
+- Prevent soil contact (decay)
+- Concrete pedestals preferred
+- Embed in concrete with bitumen protection
+- Minimum 300mm above ground level
+
+4.4 CONNECTIONS
+4.4.1 Types
+- Lashed connections (traditional)
+- Bolted connections
+- Pinned connections
+- Fish-mouth connections (cut to fit)
+- Concrete-filled nodes (increased strength)
+
+4.4.2 Design Principles
+- Avoid splitting of culm walls
+- Reinforce with wrapping at connection zones
+- Load parallel to fibers preferred
+- Multiple fasteners for redundancy
+
+4.5 LIMITATIONS
+- Building height: Maximum 2 storeys
+- Permanent residential: With proper treatment and maintenance
+- Not permitted in high seismic zones without engineering
+- Regular inspection and maintenance required
+- Expected service life: 10-15 years with treatment
+
+======================================================================
+CHAPTER 5: CONCRETE MATERIALS
+======================================================================
+
+5.1 CONCRETE SPECIFICATIONS
+5.1.1 Concrete Strength Classes
+Specified compressive strength (f'c) at 28 days:
+
+Low Strength:
+- M15 (15 MPa): Plain concrete, leveling courses
+- M20 (20 MPa): Minimum for reinforced concrete
+
+Standard Strength:
+- M25 (25 MPa): Residential and commercial buildings
+- M30 (30 MPa): Multi-storey buildings, beams, columns
+
+High Strength:
+- M35 (35 MPa): High-rise buildings
+- M40 (40 MPa): Special structures, long spans
+- M50+ (≥50 MPa): High-performance applications
+
+5.1.2 Cement
+Types conforming to BDS/BSTI standards:
+
+Ordinary Portland Cement (OPC):
+- BDS EN 197-1, Type I
+- Most common, general use
+- Compressive strength ≥ 33 MPa (7 days)
+
+Portland Pozzolana Cement (PPC):
+- Contains fly ash or pozzolanic materials
+- Better durability, lower heat
+- Suitable for mass concrete
+
+Portland Blast Furnace Cement (PSC):
+- Contains ground granulated blast furnace slag
+- High durability
+- Suitable for marine and sulfate environments
+
+Sulfate Resisting Cement:
+- For foundations in sulfate-bearing soils
+- Coastal and some inland areas
+- Lower C3A content
+
+5.1.3 Aggregates
+Fine Aggregate (Sand):
+- River sand or crushed stone sand
+- Clean, free from silt, clay, organic matter
+- Grading: BDS ISO 13055
+- Fineness modulus: 2.3-3.1
+- Deleterious materials < 3%
+
+Coarse Aggregate:
+- Crushed stone or natural gravel
+- Angular shape preferred for strength
+- Maximum size: 20mm (standard), 40mm (mass concrete)
+- Minimum size: 4.75mm
+- Grading: BDS standards
+- Deleterious materials < 2%
+
+Special Aggregates:
+- Lightweight aggregates (expanded clay, shale)
+- High-density aggregates (special applications)
+
+5.1.4 Water
+Mixing water requirements:
+- Conform to BDS ISO 12439:2011
+- Potable water generally acceptable
+- Sea water not permitted for reinforced concrete
+- Recycled wash water: Limits on solids and chemicals
+- pH 6-8 acceptable
+
+5.1.5 Admixtures
+Permitted admixtures:
+- Water reducing admixtures (plasticizers)
+- High-range water reducers (superplasticizers)
+- Air-entraining agents (not common in Bangladesh)
+- Set retarders (hot weather concreting)
+- Set accelerators (cold weather, rapid construction)
+- Fly ash (ASTM C618 Class F or C)
+- Silica fume (high-strength concrete)
+
+All admixtures must conform to ASTM or equivalent standards.
+
+5.2 CONCRETE MIX DESIGN
+5.2.1 Design Methods
+- DOE (UK) method
+- ACI 211 method
+- Trial mix method
+
+5.2.2 Mix Proportions
+Typical mixes (cement:sand:coarse aggregate by volume):
+
+M15: 1:2:4 (or designed mix)
+M20: 1:1.5:3
+M25: 1:1:2
+M30: Designed mix required
+
+Water-cement ratio:
+- Maximum 0.50 for normal exposure
+- Maximum 0.45 for severe exposure (coastal, sulfate)
+- Maximum 0.40 for very severe exposure
+
+Cement content:
+- Minimum 300 kg/m³ for M20
+- Minimum 320 kg/m³ for M25
+- Minimum 350 kg/m³ for M30
+
+5.2.3 Workability
+Slump test (ASTM C143):
+- Very low: 0-25mm (roads, mass concrete)
+- Low: 25-50mm (foundations, slabs)
+- Medium: 50-100mm (beams, columns, walls)
+- High: 100-175mm (high workability requirements, with superplasticizer)
+
+5.3 CONCRETE PRODUCTION
+5.3.1 Batching
+- Weigh batching preferred (accurate)
+- Volume batching acceptable for small work
+- Batch tolerances:
+  * Cement: ±1%
+  * Aggregates: ±2%
+  * Water: ±1%
+  * Admixtures: ±3%
+
+5.3.2 Mixing
+Types:
+- Machine mixing (preferred, required for large projects)
+- Hand mixing (only for very small quantity)
+
+Machine mixing time:
+- Minimum 1.5 minutes after all materials charged
+- Add 15 seconds per additional cubic meter capacity
+
+5.3.3 Transportation
+- Transport time: Use within 30 minutes of mixing (90 minutes with retarder)
+- Transit mixers (concrete trucks) for ready-mixed concrete
+- Prevent segregation and loss of workability
+- No water added after mixing (except approved admixtures)
+
+5.3.4 Placement
+- Clean formwork and reinforcement
+- Dampen formwork and existing concrete
+- Place continuously (no cold joints)
+- Avoid segregation
+- Maximum free drop: 1.5m
+- Vibrate adequately but not excessively
+- Special considerations for hot/cold weather
+
+5.3.5 Consolidation
+- Internal vibration (preferred)
+- Vibrator spacing: 450mm maximum
+- Insert vertically, withdraw slowly
+- Vibrate until surface smooth, no large air bubbles
+- Do not over-vibrate (segregation risk)
+
+5.3.6 Curing
+Critical for strength development:
+
+Duration:
+- Minimum 7 days for OPC concrete
+- Minimum 10 days for PPC concrete
+- Longer in hot weather
+- Mass concrete: 14-21 days
+
+Methods:
+- Water ponding on slabs
+- Wet burlap or gunny bags
+- Plastic sheeting
+- Curing compounds (sprayed membranes)
+- Steam curing (precast elements)
+
+5.4 QUALITY CONTROL
+5.4.1 Concrete Testing
+Compression Test:
+- Cube specimens: 150mm × 150mm × 150mm
+- Cylinder specimens: 150mm diameter × 300mm height (if specified)
+- Curing: 28 days in water at 27±2°C
+- Testing: ASTM C39 or equivalent
+
+Sampling frequency:
+- Minimum 1 set (3 cubes) per 100 m³
+- Minimum 1 set per day of concreting
+- Minimum 1 set per 500 m² of floor area
+
+Acceptance criteria:
+- Average of 3 cubes ≥ f'c + 0.825×S (S = standard deviation)
+- No individual cube < 0.85 × f'c
+
+Other Tests:
+- Slump test: Every load or every 50 m³
+- Water absorption (durability)
+- Permeability (water tightness)
+- Chloride content (reinforcement corrosion)
+
+5.4.2 Non-Destructive Testing
+- Rebound hammer (surface hardness)
+- Ultrasonic pulse velocity (quality and cracks)
+- Core extraction (doubtful strength)
+
+======================================================================
+CHAPTER 6: STRENGTH DESIGN OF REINFORCED CONCRETE
+======================================================================
+
+6.1 DESIGN PHILOSOPHY (ULTIMATE LIMIT STATE)
+Based on ACI 318 (adapted for Bangladesh conditions).
+
+6.1.1 Design Principles
+- Ultimate strength method (Load and Resistance Factor Design)
+- Factored loads applied
+- Reduced strength (capacity reduction factors)
+- Ductile failure mode ensured
+- Strain compatibility analysis
+
+6.1.2 Load Factors (as per Chapter 2 load combinations)
+Standard factors:
+- Dead load: 1.2 or 1.4
+- Live load: 1.6
+- Wind load: 1.0
+- Earthquake load: 1.0
+
+6.1.3 Strength Reduction Factors (φ)
+- Flexure (bending): φ = 0.90
+- Axial tension: φ = 0.90
+- Axial compression (tied columns): φ = 0.65
+- Axial compression (spiral columns): φ = 0.75
+- Shear and torsion: φ = 0.75
+- Bearing on concrete: φ = 0.65
+
+6.2 REINFORCING STEEL
+6.2.1 Types and Grades
+Deformed bars (ribbed):
+- Grade 40 (Fe 280): fy = 280 MPa (not common now)
+- Grade 60 (Fe 415): fy = 415 MPa (most common)
+- Grade 75 (Fe 500): fy = 500 MPa (high-strength applications)
+
+Conform to:
+- ASTM A615/A615M (billet steel)
+- ASTM A706/A706M (seismic applications, preferred in Zone 1-2)
+- BDS ISO 6935-2 (Bangladeshi standard)
+
+6.2.2 Bar Sizes
+Standard bar designations:
+#10: 10mm diameter
+#12: 12mm diameter
+#16: 16mm diameter
+#20: 20mm diameter
+#25: 25mm diameter
+#32: 32mm diameter
+
+6.2.3 Properties
+Modulus of elasticity: Es = 200,000 MPa
+Maximum strain: 0.005 (typical)
+Ductility requirements for seismic design
+
+6.3 FLEXURAL DESIGN (BEAMS AND SLABS)
+6.3.1 Design Moment Capacity
+Mn = As × fy × (d - a/2)
+
+Where:
+As = Area of tension steel
+fy = Yield strength of steel
+d = Effective depth
+a = Depth of equivalent stress block = (As × fy) / (0.85 × f'c × b)
+b = Width of beam
+
+Design requirement: φMn ≥ Mu
+Where Mu = factored moment
+
+6.3.2 Reinforcement Limits
+Minimum reinforcement:
+As,min = (0.25√f'c / fy) × b × d ≥ (1.4/fy) × b × d
+
+Maximum reinforcement (ductility):
+As,max corresponds to net tensile strain ≥ 0.004
+Balanced steel ratio: ρb = 0.85β1(f'c/fy)(600/(600+fy))
+Maximum ρ = 0.75ρb
+
+6.3.3 Beam Detailing
+Concrete cover:
+- Exposure to weather: 40mm minimum
+- Not exposed: 25mm (beams), 20mm (slabs)
+- Footings: 75mm minimum
+
+Bar spacing:
+- Clear spacing ≥ 25mm
+- Clear spacing ≥ bar diameter
+- Clear spacing ≥ 1.33 × maximum aggregate size
+
+Development length:
+- Tension bars: ld = (fy × ψt × ψe × ψs) / (1.1λ√f'c) × db
+- Compression bars: ldc = 0.24fy × db / (λ√f'c) ≥ 0.043fy × db
+
+Lap splices:
+- Tension: 1.3 × ld (Class B) for seismic regions
+- Compression: ldc
+- Stagger splices, not all at same location
+
+6.4 SHEAR DESIGN
+6.4.1 Shear Strength
+Concrete shear capacity:
+Vc = 0.17λ√f'c × bw × d
+
+Steel shear capacity (stirrups):
+Vs = (Av × fy × d) / s
+
+Total shear capacity:
+Vn = Vc + Vs
+
+Design requirement: φVn ≥ Vu
+
+6.4.2 Stirrup Requirements
+When Vu > φVc/2, provide stirrups:
+
+Minimum stirrups:
+Av,min = 0.062√f'c × (bw × s) / fy ≥ 0.35(bw × s) / fy
+
+Maximum spacing:
+- When Vs ≤ 0.33√f'c × bw × d: s ≤ d/2 ≤ 600mm
+- When Vs > 0.33√f'c × bw × d: s ≤ d/4 ≤ 300mm
+
+Stirrup sizes:
+- #10 bars: Common for beams up to 300mm deep
+- #12 bars: Deeper beams
+
+6.5 COLUMN DESIGN
+6.5.1 Types
+- Tied columns (rectangular or square)
+- Spiral columns (circular)
+
+6.5.2 Load Capacity
+Axial load capacity:
+Po = 0.85f'c(Ag - Ast) + fy × Ast
+
+Design strength:
+φPn,max = 0.80φPo (tied) or 0.85φPo (spiral)
+
+Combined axial and flexure:
+Use interaction diagrams or calculations
+
+6.5.3 Reinforcement Limits
+Minimum steel: As,min = 0.01Ag
+Maximum steel: As,max = 0.08Ag (0.04Ag preferred for congestion)
+
+Minimum number of bars:
+- Rectangular ties: 4 bars
+- Circular spiral: 6 bars minimum
+
+6.5.4 Tie and Spiral Requirements
+Tie specifications:
+- Minimum #10 bars for #25 or smaller longitudinal bars
+- Minimum #12 bars for larger longitudinal bars
+- Spacing: ≤ 16× longitudinal bar diameter, ≤ 48× tie diameter, ≤ least column dimension
+- Arrangement: Support all longitudinal bars
+
+Spiral specifications:
+- Minimum 10mm diameter
+- Clear spacing: 25-75mm
+- Volumetric ratio: ρs ≥ 0.45(Ag/Ach - 1)(f'c/fy)
+
+6.6 SLAB DESIGN
+6.6.1 One-Way Slabs
+Behavior: Span primarily in one direction (long/short > 2)
+
+Minimum thickness (to limit deflections):
+- Simply supported: L/20
+- One end continuous: L/24
+- Both ends continuous: L/28
+- Cantilever: L/10
+
+Reinforcement:
+- Main steel: Based on moment design
+- Distribution steel (perpendicular): 0.0018×Ag (Grade 60)
+
+6.6.2 Two-Way Slabs
+Methods:
+- Direct design method (for regular layouts)
+- Equivalent frame method
+- Finite element method
+
+Minimum thickness:
+Depends on support conditions and span ratio.
+
+6.7 SERVICEABILITY
+6.7.1 Deflection Control
+Limits on computed deflections:
+- Immediate deflection
+- Long-term deflection (creep and shrinkage)
+
+Maximum permissible deflections:
+- Roof/floor not supporting non-structural elements: L/180
+- Floor supporting partitions: L/480 (incremental)
+- Cantilever: L/180
+
+6.7.2 Crack Control
+Spacing of reinforcement to control cracking:
+Maximum bar spacing in tension zone:
+s ≤ 15(40/fs) - 2.5cc ≤ 12(40/fs)
+
+Where:
+fs = Service level stress in steel ≈ 0.6fy
+cc = Clear cover to reinforcement
+
+6.7.3 Durability
+Provisions:
+- Adequate concrete cover
+- Quality concrete (low permeability)
+- Proper water-cement ratio
+- Good curing
+- Consider environmental exposure classification
+
+======================================================================
+CONTINUED IN NEXT SECTION...
+======================================================================
+
+Note: Chapters 7-13 of Part 6 cover Masonry, Detailing, Prestressed Concrete,
+Steel, Timber, Ferrocement, and Composite Structures. Due to length constraints,
+key points are summarized here.
+
+======================================================================
+CHAPTER 7: MASONRY STRUCTURES (Summary)
+======================================================================
+
+7.1 Masonry Units: Bricks (BDS standards), concrete blocks, stone
+7.2 Mortar: Cement-sand mortar, mix proportions
+7.3 Design Methods: Allowable stress design, empirical design
+7.4 Reinforced Masonry: Vertical and horizontal reinforcement
+7.5 Seismic Design: Enhanced detailing for earthquake resistance
+7.6 Quality Control: Testing of units and mortar
+
+======================================================================
+CHAPTER 8: DETAILING OF REINFORCEMENT (Summary)
+======================================================================
+
+8.1 Bar Bending Schedule: Preparation of cutting and bending lists
+8.2 Beam Detailing: Longitudinal and stirrup details
+8.3 Column Detailing: Confinement, lap splice locations
+8.4 Slab Detailing: Distribution of reinforcement
+8.5 Seismic Detailing: Special requirements for ductility
+8.6 Splicing and Anchorage: Development lengths, hooks
+8.7 Congestion Avoidance: Proper bar placement
+
+======================================================================
+CHAPTER 9: PRESTRESSED CONCRETE (Summary)
+======================================================================
+
+9.1 Principles: Pre-tensioning and post-tensioning
+9.2 Materials: High-strength concrete, prestressing steel
+9.3 Design Approach: Service load design, ultimate strength check
+9.4 Losses: Elastic shortening, creep, shrinkage, friction
+9.5 Applications: Long-span beams, girders, slabs
+9.6 Construction: Stressing procedures, grouting
+
+======================================================================
+CHAPTER 10: STEEL STRUCTURES (Summary)
+======================================================================
+
+10.1 Steel Grades: Fe 250, Fe 410, Fe 540 (yield strength in MPa)
+10.2 Design Methods: Allowable stress design, plastic design, LRFD
+10.3 Tension Members: Net area, effective area, capacity
+10.4 Compression Members: Slenderness, buckling, column curves
+10.5 Beams: Bending, shear, deflection, lateral-torsional buckling
+10.6 Connections: Bolted, welded, design procedures
+10.7 Seismic Design: Moment frames, braced frames, ductile detailing
+10.8 Corrosion Protection: Painting, galvanizing (humid Bangladesh climate)
+
+======================================================================
+CHAPTER 11: TIMBER STRUCTURES (Summary)
+======================================================================
+
+11.1 Timber Species: Tropical hardwoods available in Bangladesh
+11.2 Allowable Stresses: Based on species and grade
+11.3 Design of Members: Beams, columns, tension members
+11.4 Connections: Nailed, bolted, timber connectors
+11.5 Protection: Preservative treatment required (termites, decay)
+11.6 Applications: Residential construction, roofing, scaffolding
+
+======================================================================
+CHAPTER 12: FERROCEMENT STRUCTURES (Summary)
+======================================================================
+
+12.1 Materials: Cement mortar, wire mesh, skeletal steel
+12.2 Properties: Thin sections, high tensile strength, crack resistance
+12.3 Design: Empirical methods, limited to specific applications
+12.4 Applications: Water tanks, boats, roofing, low-cost housing
+12.5 Construction: Plastering technique, curing
+12.6 Limitations: Specialized construction, quality control critical
+
+======================================================================
+CHAPTER 13: STEEL-CONCRETE COMPOSITE STRUCTURES (Summary)
+======================================================================
+
+13.1 Principles: Steel beams act compositely with concrete slab
+13.2 Shear Connectors: Studs welded to steel beam
+13.3 Design: Transformed section, effective width
+13.4 Applications: Multi-storey buildings, bridges, long spans
+13.5 Advantages: Reduced beam depth, faster construction
+13.6 Construction: Propping during concrete placement
+
+======================================================================
+END OF PART 6: STRUCTURAL DESIGN
+======================================================================
+
+For complete building code requirements and detailed provisions for all 13
+chapters, refer to official BNBC 2020 Volume 2 publication.
+
+Document Information:
+- Total Pages in Part 6: Approximately 900 pages in original publication
+- Published by: Housing and Building Research Institute (HBRI)
+- Technical Committee: BUET Faculty, Practicing Engineers, IEB
+- Address: Mirpur, Dhaka-1216, Bangladesh
+- Website: www.hbri.gov.bd
+- Effective Date: February 2021
+
+Standards Referenced:
+- ASCE 7: Loads on buildings
+- ACI 318: Concrete structures
+- AISC: Steel construction
+- BNBC Parts 1-5: General provisions
+- Various ASTM, BSTI, BDS standards
+
+This is a summary document covering key provisions. For complete structural
+design requirements, detailed equations, design aids, and comprehensive
+provisions, obtain official BNBC 2020 publications from HBRI or authorized
+distributors.
+
+PROFESSIONAL RESPONSIBILITY: All structural designs must be prepared, signed,
+and sealed by licensed Professional Engineers registered with IEB.
