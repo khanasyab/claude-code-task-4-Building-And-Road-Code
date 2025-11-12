@@ -1,0 +1,2446 @@
+======================================================================
+PAGE 1 of 67
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 111
+Noise and vibration
+(formerly HD 213/11, IAN 185/15)
+Revision 2
+Summary
+This document sets out the requirements for assessing and reporting the effects of highways
+noise and vibration from construction, operation and maintenance projects. The document has
+been updated to correct time periods in Tables 3.12 and 3.49.1, update the references for speed
+pivoting requirements in Appendix A2, and to clarify other requirements following feedback
+received.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 2 of 67
+======================================================================
+LA 111 Revision 2
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+9
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2. Principles and purpose
+10
+Baseline scenario
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Assessment methodology
+11
+Construction noise assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Scoping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Study areas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Baseline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Determining significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Design and mitigation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Construction vibration assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Scoping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Study area
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Baseline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Determining significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Design and mitigation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Operational noise assessment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Scoping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Study area
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Baseline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Determining significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Operational noise management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+4. Monitoring and evaluation
+28
+Construction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Operation phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+5. Normative references
+29
+6. Informative references
+30
+Appendix A. Operation noise calculations
+31
+A1 BNL Calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A2 CRTN Modifications
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+A3 Speed pivoting process
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 3 of 67
+======================================================================
+LA 111 Revision 2
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+2
+May 2020
+Revison 2 (May 2020) The document has been updated to correct time periods
+in Tables 3.12 and 3.49.1, update the references for speed pivoting
+requirements in Appendix A2, and to clarify other requirements following
+feedback received. Revision 1 (February 2020) Update to Wales National
+Application Annex. Revision 0 (November 2019) LA 111 replaces HD 213/11
+and IAN 185/15. This full document has been re-written to make it compliant
+with the new Highways England drafting rules.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 4 of 67
+======================================================================
+LA 111 Revision 2
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes HD 213/11, which is withdrawn. This document supersedes the noise
+advice within IAN 185/15 on the assessment of link speeds and generation of vehicle data into
+'speed-bands'.
+This document also makes provision for requirements outlined within EU Directive 2011/92/EU as
+amended by 2014/52/EU [Ref 1.N].
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 5 of 67
+======================================================================
+LA 111 Revision 2
+Introduction
+Introduction
+Background
+The construction, operation and maintenance of highway projects can lead to changes in noise and
+vibration levels in the surrounding environment.
+Environmental assessment provides a framework for assessing and managing the noise and vibration
+effects associated with construction, improvement, use and maintenance of motorways and all purpose
+trunk roads.
+This document aligns with Directive 2011/92/EU as amended by 2014/52/EU [Ref 1.N].
+This document sets out the requirements for noise and vibration assessments from road projects,
+applying a proportionate and consistent approach using best practice and ensuring compliance with
+relevant legislation.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 15.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 6 of 67
+======================================================================
+LA 111 Revision 2
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+BNL
+Basic noise level
+CRTN
+Calculation of road traffic noise
+DMFY
+Do-minimum future year scenario
+DMOY
+Do-minimum opening year scenario
+DSFY
+Do-something future year scenario
+DSOY
+Do-something opening year scenario
+EMP
+Environmental management plan
+END
+Environmental Noise Directive
+HDV
+Heavy duty vehicles
+HGV
+Heavy goods vehicles
+km/h
+Kilometres per hour
+LOAEL
+Lowest observed adverse effect level
+m
+Metres
+m/s
+Metres per second
+PPV
+Peak particle velocity
+RSI
+Road surface influence
+SOAEL
+Significant observed adverse effect level
+Symbols
+Symbol
+Definition
+dB
+Decibels
+dB(A)
+A-weighted noise levels
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 7 of 67
+======================================================================
+LA 111 Revision 2
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Absorptive noise barrier
+A noise barrier that has an absorptive lining.
+Ambient noise
+Ambient noise is the total sound in a given situation at a given
+time usually composed of sound from many sources, near
+and far.
+A-weighting
+In addition to its non-linear amplitude response, the human
+ear has a non-linear frequency response; it is less sensitive at
+low and high frequencies and most sensitive in the mid range
+frequencies.
+NOTE 1: The A-weighting is applied to measured sound
+pressure levels so that these levels correspond more closely
+to the subjective response.
+NOTE 2: A-weighted noise levels are often expressed in
+dB(A).
+Baseline scenario
+A description of the state of the environment without
+implementation of the project.
+Basic noise level
+The basic noise level (BNL) is a measure of source noise as
+defined in Appendix A.
+Calculation of road traffic noise
+The technical memorandum that describes the procedures for
+calculating noise from road traffic CRTN [Ref 3.N].
+Construction noise assessment
+An assessment which compares predicted noise levels from
+construction tasks to ambient noise levels at nearby noise
+sensitive receptors.
+Construction vibration assessment
+An assessment of magnitude of predicted vibration from
+construction activities.
+Decibel
+The unit of measurement used for sound pressure levels and
+noise levels quoted in decibels (dB).
+NOTE 1: The decibel scale is logarithmic rather than linear;
+the threshold of hearing is zero decibels while, at the other
+extreme, the threshold of pain is about 130 decibels.
+NOTE 2: These limits are seldom experienced and typical
+levels lie within the range of 30 dB(A) (a quiet night time level
+in a bedroom) to 90 dB(A) (at the kerbside of a busy road).
+Diversion route
+A set of approved routes to follow in case of closure of
+motorway / major A-roads.
+Do-minimum
+Scenario without the project.
+Do-something
+Scenario with the project.
+Environmental Noise Directive quiet
+area
+A location formally designated as an 2002/49/EC [Ref 10.N]
+(END) quiet area.
+Facade sound level
+Sound level that is determined 1 metre (m) in front of a
+window or door in a facade.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 8 of 67
+======================================================================
+LA 111 Revision 2
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Free-field sound level
+The sound level which is measured or calculated, in the open,
+without any reflections from nearby surfaces except the
+ground.
+Future year
+The 15th year after opening.
+Insertion loss
+A measure of the effectiveness of noise control devices such
+as silencers and enclosures.
+NOTE: The insertion loss of a device is the difference,
+in dB, between the noise level with and without the device
+present.
+LA10
+The A-weighted sound level, in dB, that is exceeded 10% of
+the measurement period.
+NOTE: This is the standard index used within the UK to
+describe traffic noise.
+LA10,18hr
+The noise level, in dB, that is exceeded 10% of the time
+between 0600 and 2400.
+LAeq
+The equivalent continuous sound level (LAeq) is the level of a
+notional steady sound, which at a given position and over a
+defined period of time, would have the same A-weighted
+acoustic energy as the fluctuating noise.
+LAmax
+The maximum A-weighted level measured during a given time
+period.
+Lnight
+A facade noise index derived from the LA10,18hr using the TRL
+conversion method TRL PR/SE/451/02 [Ref 7.N].
+Lnight,outside
+For the purpose of night-time noise assessment, the Lnight,outsid
+e is the equivalent continuous sound level LAeq,8hr for the
+period 23:00 to 07:00 hours assessed outside a dwelling and
+is free-field.
+Long-term
+Noise change based on the +15 year assessment (for
+example Do-minimum opening year scenario (DMOY) against
+Do-minimum future year scenario (DMFY) and DMOY against
+Do-something future year scenario (DSFY)).
+Lowest observed adverse effect
+level
+Level above which adverse effects on health and quality of life
+can be detected.
+Noise
+Unwanted sound.
+Noise mapping
+The production of computer software generated maps
+showing how the predicted levels of outdoor noise vary with
+location.
+Noise modelling
+Software to predict noise levels.
+NOTE: This can be undertaken either by specialist software to
+provide a 3D representation of the project and nearby noise
+sensitive receptors or a simple spreadsheet.
+Noise monitoring
+Measurement of noise levels.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 9 of 67
+======================================================================
+LA 111 Revision 2
+Terms and definitions
+Terms and definitions (continued)
+Term
+Definition
+Noise sensitive receptor
+Receptors which are potentially sensitive to noise.
+NOTE: Examples include dwellings, hospitals, healthcare
+facilities, education facilities, community facilities, END quiet
+areas or potential END quiet areas, international and national
+or statutorily designated sites, public rights of way and cultural
+heritage assets.
+Non-project noise change
+Noise change based on the DMOY against DMFY scenario,
+with no project implementation.
+Point source attenuation
+A source of noise/sound that radiates from a single point,
+decreasing by 6dB every time the distance between the
+source and receiver is doubled.
+Sensitive buildings
+Dwellings, including those that are listed, hospitals, healthcare
+facilities, education facilities or other buildings where noise or
+vibration can cause disturbance to people using the buildings.
+Opening year
+The first year of operation.
+Operational noise assessment
+An assessment to determine the operational noise impacts
+and effects of a road project.
+Potential END quiet area
+A location with potential to be formally designated as a END
+quiet area, but not officially designated as such.
+Reflective noise barrier
+A noise barrier that reflects noise.
+Short-term
+Noise change based on parallel assessment year (for
+example DMOY against Do-something opening year scenario
+(DSOY)).
+Significant observed adverse effect
+level
+The level above which significant adverse effects on health
+and quality of life occur.
+Vibration
+A to-and-fro motion which oscillates about a fixed equilibrium
+position.
+Vibration sensitive receptor
+Receptors which are potentially sensitive to vibration.
+NOTE: Examples include dwellings, hospitals, healthcare
+facilities, education facilities, community facilities, buildings
+containing vibration sensitive equipment and cultural heritage
+assets.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 10 of 67
+======================================================================
+LA 111 Revision 2
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements in this document shall be applied to the assessment, reporting and management of
+environmental effects, specifically changes in noise and vibration emissions, from the delivery of
+projects.
+1.2
+Environmental assessments shall describe the effects of changes in noise and vibration emissions in
+accordance with the wider requirements and advice provided in:
+1) LA 101 [Ref 14.N] Introduction to environmental assessment;
+2) LA 102 [Ref 19.N] Screening projects for Environmental Impact Assessment;
+3) LA 103 [Ref 18.N] Scoping projects for environmental assessment; and
+4) LA 104 [Ref 12.N] Environmental assessment and monitoring
+1.3
+The environmental assessment must, in line with the 2014/52/EU [Ref 1.N] describe the likely significant
+effects of proposed projects on the environment resulting from the emissions of noise and vibration.
+1.4
+Environmental assessment of noise and vibration emissions shall include likely significant effects from:
+1) construction noise;
+2) construction vibration; and
+3) operational noise.
+NOTE
+Operational vibration is scoped out of the assessment methodology as a maintained road surface will
+be free of irregularities as part of project design and under general maintenance, so operational
+vibration will not have the potential to lead to significant adverse effects.
+1.5
+The assessment of noise and vibration shall inform the assessment of other environmental factors,
+where appropriate.
+Implementation
+1.6
+This document shall be implemented forthwith on all projects involving construction, improvement and
+maintenance of motorways and all purpose trunk roads on the Overseeing Organisations' motorway
+and all-purpose trunk roads according to the implementation requirements of GG 101 [Ref 15.N].
+Use of GG 101
+1.7
+The requirements contained in GG 101 [ GG 101 [Ref 15.N] shall be followed in respect of activities
+covered by this document.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 11 of 67
+======================================================================
+LA 111 Revision 2
+2. Principles and purpose
+2.
+Principles and purpose
+2.1
+During options identification, the level of detail of a noise and vibration assessment shall be
+proportionate to the quality of data available and the risk of likely significant effects occurring.
+NOTE
+Scoping assessments can identify and focus the assessment on the risk of likely significant
+environmental effects occurring for route options.
+2.2
+The assessment shall determine and report likely significant effects on sensitive buildings within the
+relevant study areas.
+2.2.1
+For cultural heritage resources, the impact of noise and or vibration on the people living in buildings
+should be included within the noise and vibration assessment.
+2.3
+The assessment of whether noise and/or vibration levels generated by the project gives rise to, or
+contributes to, a likely significant effect shall be undertaken and reported within the following
+documents:
+1) LA 108 [Ref 2.N] for receptors containing biodiversity resources;
+2) LA 107 [Ref 16.N] for receptors containing landscape resources;
+3) LA 106 [Ref 8.N] for receptors containing cultural heritage resources;
+4) LA 112 [Ref 17.N] for receptors containing community recreational facilities.
+2.3.1
+For cultural heritage resources the impact of noise and vibration on the building itself, or its setting,
+should be included within the cultural heritage assessment - see LA 106 [Ref 8.N].
+Baseline scenario
+2.4
+The baseline scenario shall be defined and described in accordance with LA 104 [Ref 12.N].
+2.5
+The assessment shall predict:
+1) construction noise levels and comparison with the baseline at noise sensitive receptors within the
+construction noise study area;
+2) construction vibration levels and comparison with the baseline at vibration sensitive receptors within
+the construction vibration study area;
+3) operational noise levels and changes from the baseline at noise sensitive receptors within the
+operational noise study area.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 12 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+3.
+Assessment methodology
+Construction noise assessment
+Scoping
+3.1
+The scoping assessment shall report on the following questions to gain an understanding of the need to
+undertake further assessment:
+1) does construction noise generated by the project have the potential to adversely affect any noise
+sensitive receptors?;
+2) are there any noise receptors where there would be a reasonable stakeholder expectation that a
+construction noise assessment would be undertaken?
+NOTE
+An example of reasonable stakeholder expectation that a construction noise assessment would be
+required is where works are not noisy enough to give rise to adverse effects at the noise sensitive
+receptors, but will be visible from the receptor and/or last for many weeks.
+3.2
+Scoping assessments shall be based on existing available information.
+3.3
+Where the response to one or more of the scoping assessment questions is 'yes', further assessment
+shall be undertaken.
+3.4
+The scoping assessment shall follow the process illustrated in Figure 3.4N.
+NOTE
+The flow diagram in Figure 3.4N illustrates the scoping process for construction noise.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 13 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Figure 3.4N Scoping process for construction noise
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 14 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Study areas
+3.5
+A construction noise study area shall be defined, where the need for further assessment has been
+established to include all noise sensitive receptors:
+1) that are potentially affected by construction noise;
+2) in areas where there is a reasonable stakeholder expectation that a construction noise assessment
+will be undertaken.
+NOTE 1
+A study area of 300m from the closest construction activity is normally sufficient to encompass noise
+sensitive receptors.
+NOTE 2
+Variations in the study area can be defined for individual projects.
+3.6
+A diversion route study area shall be defined where a project requires full carriageway closures during
+the night (23:00-07:00) to enable construction works to take place.
+3.7
+A diversion route study area shall be defined to include a 25m width from the kerb line of the diversion
+route.
+NOTE 1
+When full carriageway closures are implemented at night on major roads, traffic using those roads is
+diverted onto local roads that normally experience lower traffic levels at night.
+NOTE 2
+The sudden change of traffic levels on diversion routes, as a result of night time closures, is highly likely
+to cause disturbance to receptors next to (within 25m of) the road.
+NOTE 3
+It is possible to calculate changes in noise levels due to diversion routes, but it is not a proportionate
+approach, as it would require significant work in additional traffic modelling and noise calculations that
+would be highly likely to confirm that disturbance would occur.
+3.8
+A construction traffic study area shall be defined to include a 50m width from the kerb line of public
+roads with the potential for a increase in baseline noise level (BNL) of 1 dB(A) or more as a result of the
+addition of construction traffic to existing traffic levels.
+Baseline
+3.9
+Construction noise baseline shall be determined via one or more of the following methods:
+1) noise measurements, based upon actual survey data;
+2) predicted noise levels (noise model outputs);
+3) existing noise mapping undertaken by public bodies or as part of other developments.
+3.10
+The scope of the assessment of the extent and quality of data required to determine the baseline noise
+environment shall be proportionate and include:
+1) the risk of a likely significant effect occurring;
+2) the stage of development of the project;
+3) the availability of previously collected data.
+3.10.1
+Noise monitoring, specifically for the purposes of construction noise baseline data collection, should
+only be undertaken where data from other sources is not sufficient to enable production of a
+proportionate construction noise assessment.
+NOTE
+Additional methodology on predicting construction noise can be found in BS 5228-1 [Ref 5.N].
+Determining significance
+3.11
+Lowest observable adverse effect level (LOAEL) and significant observable adverse effect level
+(SOAEL) shall be established and reported within the environmental assessment for all noise sensitive
+receptors within the construction activity study area, with reference to baseline noise levels.
+3.12
+The LOAEL and SOAEL shall be established in accordance with Table 3.12:
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 15 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Table 3.12 Construction time period - LOAEL and SOAEL
+Time period
+LOAEL
+SOAEL
+Day (0700-1900
+weekday
+and 0700-1300
+Saturdays)
+Baseline noise
+levels LAeq,T
+Threshold level determined as per BS 5228-1 [Ref
+5.N] Section E3.2 and Table E.1 BS 5228-1 [Ref
+5.N]
+Night (2300-0700)
+Baseline noise
+levels LAeq,T
+Threshold level determined as per BS 5228-1 [Ref
+5.N] Section E3.2 and Table E.1 BS 5228-1 [Ref
+5.N]
+Evening and weekends
+(time periods not
+covered above)
+Baseline noise
+levels LAeq,T
+Threshold level determined as per
+BS 5228-1 [Ref 5.N]
+Section E3.2 and Table E.1 BS 5228-1 [Ref 5.N]
+NOTE
+Where specific local circumstances mean that an alternative method of setting LOAEL and SOAEL for
+noise sensitive receptors is more appropriate, the alternative method can be submitted as a departure
+from standards to the Overseeing Organisation for approval.
+3.13
+Construction noise levels shall be calculated at selected locations which are representative of all noise
+sensitive receptors in the study area.
+3.13.1
+Calculations may be undertaken at a selection of noise sensitive receptors, or at varying distances from
+each activity, to represent all receptors in the study area.
+3.14
+The calculation of construction noise levels shall follow the methodology in BS 5228-1 [Ref 5.N] and
+include the following sources where they are present:
+1) construction plant in use on the project;
+2) construction compounds;
+3) traffic on haul roads not part of the public highway;
+3.15
+Construction traffic BNL increases shall be calculated for roads within the construction traffic study area.
+3.16
+Magnitude of impact of construction noise, shall be determined in accordance with Table 3.16:
+Table 3.16 Magnitude of impact and construction noise descriptions
+Magnitude of impact
+Construction noise level
+Major
+Above or equal to SOAEL +5dB
+Moderate
+Above or equal to SOAEL and below SOAEL +5dB
+Minor
+Above or equal to LOAEL and below SOAEL
+Negligible
+Below LOAEL
+3.17
+Magnitude of impact at noise sensitive receptors of construction traffic shall be determined in
+accordance with Table 3.17.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 16 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Table 3.17 Magnitude of impact at receptors
+Magnitude of impact
+Increase in BNL of closest public road used for construction traffic
+(dB)
+Major
+Greater than or equal to 5.0
+Moderate
+Greater than or equal to 3.0 and less than 5.0
+Minor
+Greater than or equal to 1.0 and less than 3.0
+Negligible
+Less than 1.0
+3.18
+For diversion routes used at night, a major magnitude of impact for construction noise impact shall be
+determined at any noise sensitive receptors within the diversion route study area.
+3.19
+Construction noise and construction traffic noise shall constitute a significant effect where it is
+determined that a major or moderate magnitude of impact will occur for a duration exceeding:
+1) 10 or more days or nights in any 15 consecutive days or nights;
+2) a total number of days exceeding 40 in any 6 consecutive months.
+NOTE 1
+It is more appropriate to use the specified timescales for highway construction, which are taken from
+BS 5228-1 [Ref 5.N] section E.4, rather than the '1 month or more' timescale included within E.3.3 of
+BS 5228-1 [Ref 5.N] due to the transient nature of most highway construction work.
+NOTE 2
+Where specific local circumstances mean that an alternative method for determining significance is
+more appropriate, the alternative method can be submitted as a departure from standards to the
+Overseeing Organisation for approval.
+3.20
+The following shall be reported in the environmental assessment:
+1) data sources used;
+2) assumptions applied during use of data;
+3) the risk of any inaccuracies or errors within the data, or any modifications or assumptions made,
+leading to the assessment drawing incorrect conclusion;.
+4) locations of noise sources and noise sensitive receptors.
+NOTE
+Instruction on allowing for uncertainty in Environmental Impact Assessment is provided in LA 104 [Ref
+12.N].
+Design and mitigation
+3.21
+Two types of construction noise mitigation shall be incorporated into the design of the construction of
+the project as follows:
+1) best practice noise mitigation techniques to minimise the generation and impact of noise applied to
+all construction activities;
+2) specific noise mitigation measures to reduce the noise impact from activities which result in
+moderate or major magnitude of effect.
+3.21.1
+Best practice noise mitigation techniques should include the following measures:
+1) training of site personnel to raise awareness of noise and nearby noise sensitive receptors;
+2) provision of information to the public on expected construction noise, including duration, especially
+to those likely to be exposed to moderate and major magnitude of effect.
+NOTE
+Examples of best practice construction noise techniques are presented in the following references:
+1) best practicable means as defined in BS 5228-1 [Ref 5.N];
+2) guidance presented in BS 5228-1 [Ref 5.N];
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 17 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+3) information within industry specific schemes such as: Considerate Constructors Scheme Best
+Practice Hub Considerate Contractor (Website) [Ref 1.I].
+3.22
+The implications of the use of specific mitigation measures on cost and construction timescales shall be
+determined and reported to the Overseeing Organisation.
+3.22.1
+Specific noise mitigation measures for sources other than diversion routes may include:
+1) specification of the use of noise reduction construction methods, for example: specifying the use of
+rotary rather than driven piling;
+2) provision of measures to reduce the noise reaching noise sensitive receptors, for example:
+installation of temporary barriers;
+3) restriction of some activities to less sensitive times, for example: restricting piling activity to the
+daytime only;
+4) providing noise insulation to houses, or temporarily rehousing local residents.
+3.22.2
+Specific noise mitigation measures for diversion routes may include:
+1) use of more than one diversion route for different closures, to reduce the exposure of individual
+noise sensitive receptors;
+2) providing noise insulation to residents along the diversion routes.
+3.23
+Specific noise mitigation measures shall only be included within the project if they are practicable as
+defined in BS 5228-1 [Ref 5.N].
+NOTE
+Advice relating to the practicability of specific mitigation measures can be sought from project sponsors
+and or those responsible for determining the construction methodology for the project.
+3.24
+Where a specific noise mitigation measure is not practicable, as defined in BS 5228-1 [Ref 5.N], the
+measure shall not be included within the project design for the purposes of the construction noise
+assessment.
+3.25
+Specific noise mitigation measures included within the project shall be listed in the assessment and
+included within the construction stage of the environment management plan for the project.
+Construction vibration assessment
+Scoping
+3.26
+The scoping assessment shall report on the following scoping assessment questions to gain an
+understanding of the need to undertake further assessment:
+1) does vibration from construction have the potential to adversely affect any vibration sensitive
+receptors?;
+2) does the scale of the development or type of construction mean that there will be a reasonable
+stakeholder expectation that a construction vibration assessment would be undertaken at any
+vibration sensitive receptors?
+NOTE
+An example of reasonable stakeholder expectation that a construction vibration assessment would be
+required is where works are unlikely to generate enough vibration to give rise to adverse effects at the
+vibration sensitive receptors, but be visible and/or audible from the receptor and/or last for many weeks.
+3.27
+Where the response to one or more of the scoping assessment questions is 'yes', the scoping
+assessment shall make a recommendation on the scope of further assessment.
+3.28
+Scoping assessments shall be based on reasonably available information.
+NOTE
+The flow diagram in Figure 3.28N illustrates the scoping process for construction vibration.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 18 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Figure 3.28N Scoping process for construction vibration
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 19 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Study area
+3.29
+Where the need for further assessment has been established, a vibration study area shall be defined to
+include all:
+1) vibration sensitive receptors that are potentially affected by construction vibration;
+2) vibration sensitive receptors in areas where there is a reasonable stakeholder expectation that a
+construction vibration assessment will be undertaken.
+NOTE 1
+A study area of 100m from the closest construction activity with the potential to generate vibration is
+normally sufficient to encompass vibration sensitive receptors.
+NOTE 2
+Variations in the study area can be defined for individual projects.
+Baseline
+3.30
+The construction vibration baseline shall be assumed to be zero due to the absence of construction
+work prior to project commencement.
+Determining significance
+3.31
+Where the need for further assessment has been established, the LOAEL and SOAEL for construction
+vibration shall be set as follows:
+Table 3.31 Construction vibration LOAELs and SOAELs for all receptors
+Time period
+LOAEL
+SOAEL
+All time periods
+0.3mm/s PPV
+1.0mm/s PPV
+NOTE
+Where specific local circumstances mean that an alternative method of setting LOAEL and SOAEL for
+vibration sensitive receptors is more appropriate,the alternative method can be submitted as a
+departure from standards to the Overseeing Organisation for approval.
+3.32
+Where the need for further assessment has been established, the prediction methodology presented in
+BS 5228-2 [Ref 6.N] shall be used to to calculate construction vibration levels for all activities with the
+potential to adversely affect vibration sensitive receptors.
+3.33
+Magnitude of impact shall be determined in accordance with Table 3.33:
+Table 3.33 Vibration level - magnitude of impact
+Magnitude
+Vibration level
+Major
+Above or equal to 10 mm/s PPV
+Moderate
+Above or equal to SOAEL and below 10 mm/s PPV
+Minor
+Above or equal to LOAEL and below SOAEL
+Negligible
+Below LOAEL
+3.34
+Construction vibration shall constitute a likely significant effect where it is determined that a major or
+moderate magnitude of impact will occur for a duration exceeding:
+1) 10 or more days or nights in any 15 consecutive days or nights; or
+2) a total number of days exceeding 40 in any 6 consecutive months.
+NOTE
+The duration timescales are used to retain consistency with those used in the construction noise
+assessment.
+3.35
+The following shall be reported in the environmental assessment:
+1) data sources used;
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 20 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+2) assumptions applied during use of data;
+3) vibration levels at source - in line with the methodology provided in BS 5228-2 [Ref 6.N];
+4) the risk of any inaccuracies or errors within the data, or any modifications or assumptions made,
+leading to the assessment drawing incorrect conclusions;
+5) locations of vibration sources and vibration sensitive receptors;
+6) the risk of structural damage due to construction vibration, with reference to criteria set out in BS
+7385-2 [Ref 13.N].
+NOTE 1
+Instruction on allowing for uncertainty in Environmental Impact Assessment is provided in LA 104 [Ref
+12.N].
+NOTE 2
+Human response to vibration occurs at much lower vibration levels than would be required to cause
+damage to buildings.
+Design and mitigation
+3.36
+Two types of construction vibration mitigation shall be incorporated into the design of the construction
+of the project as follows:
+1) best practice vibration mitigation techniques to minimise the generation and impact of vibration
+applied to all construction activities;
+2) specific vibration mitigation measures to reduce the vibration impact from activities which result in
+major or moderate impacts.
+3.36.1
+Best practice should include the following measures:
+1) selection of construction method and plant to minimise vibration generated;
+2) training of site personnel to raise awareness of vibration and nearby vibration sensitive receptors;
+3) provision of information to the public on expected construction vibration, including duration,
+especially to those likely to be exposed to moderate and major impacts.
+NOTE
+Examples of best practice construction vibration techniques are presented in the following references:
+1) best practicable means as defined in BS 5228-2 [Ref 6.N];
+2) guidance presented in BS 5228-2 [Ref 6.N];
+3) information within industry specific schemes such as Considerate Constructors Scheme Best
+Practice Hub Considerate Contractor (Website) [Ref 1.I].
+3.37
+The implications of the use of specific mitigation measures on cost and construction timescales shall be
+determined and provided to the Overseeing Organisation.
+3.37.1
+Specific vibration mitigation measures may include:
+1) restrictions on construction method to reduce vibration;
+2) restrictions of some activities to less sensitive times, for example, restricting piling activity to the
+daytime only;
+3) temporarily rehousing local residents.
+3.38
+Specific vibration mitigation measures shall only be included within the project if they are practicable as
+defined in BS 5228-2 [Ref 6.N].
+3.39
+Where a specific mitigation measure is not practicable as defined in BS 5228-2 [Ref 6.N], the measure
+shall not be included within the project design for the purposes of the construction vibration
+assessment.
+NOTE
+Advice relating to the practicality of specific mitigation measures can be sought from project sponsors
+and or those responsible for determining the construction methodology for the project.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 21 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+3.40
+Specific vibration mitigation measures shall be listed in the assessment and included within the
+construction part of the environmental management plan (EMP) for the project.
+Operational noise assessment
+Scoping
+3.41
+The scoping assessment shall report on the following scoping assessment questions to gain an
+understanding of the need to undertake a further noise assessment:
+1) is the project likely to cause a change in the BNL of 1dB LA10,18hr in the do-minimum opening year
+(DMOY) compared to the do-something opening year (DSOY)?;
+2) is the project likely to cause a change in the BNL of 3dB LA10,18hr in the do-something future year
+(DSFY) compared to the DMOY?;
+3) does the project involve the construction of new road links within 600m of noise sensitive receptors?;
+4) would there be a reasonable stakeholder expectation that an assessment would be undertaken?
+NOTE
+An example of reasonable stakeholder expectation that an operational noise assessment would be
+required is where works involve changes to infrastructure but are not expected to give rise to significant
+environment effect, such as smart motorway projects.
+3.42
+Where the response to one or more of the scoping assessment questions is 'yes', the scoping
+assessment shall make a recommendation on the scope of further assessment.
+3.43
+Scoping assessments shall be based on available information.
+Study area
+3.44
+Where the need for further assessment has been established, an operational study area shall be
+defined within the scoping assessment to include:
+1) noise sensitive receptors that are potentially affected by operational noise changes generated by the
+project, either on the route of the project or other roads not physically changed by the project;
+2) noise sensitive receptors in areas where there is a reasonable stakeholder expectation that noise
+assessment is undertaken.
+NOTE 1
+An operational study area defined as the following can be sufficient for most projects, but it can be
+reduced or extended to ensure it is proportionate to the risk of likely significant effects:
+1) the area within 600m of new road links or road links physically changed or bypassed by the project;
+2) the area within 50m of other road links with potential to experience a short term BNL change of more
+than 1.0dB(A) as a result of the project.
+NOTE 2
+Variations in the study area can be defined for individual projects.
+Baseline
+3.45
+The operational noise baseline shall be determined from do-minimum noise levels in each assessment
+year.
+3.45.1
+Noise monitoring should be used to inform baseline noise modelling results and to provide data for
+public consultation purposes.
+NOTE
+Validation of baseline can be undertaken by comparing modelled noise levels to measured noise
+levels, using corrections to take account of expected changes in traffic levels between the date of
+monitoring and the date of the baseline.
+3.46
+Where noise monitoring is undertaken, it shall follow the procedures set out in BS 7445-1 [Ref 9.N].
+3.47
+Noise monitoring data shall only be valid when it is undertaken during periods when:
+1) wind speed is less than 5m/s;
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 22 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+2) there is no precipitation and road surfaces are dry.
+3.48
+Noise equipment used for monitoring shall be class 1 following the specification in IEC 61672 [Ref
+11.N].
+Determining significance
+3.49
+LOAELs and SOAELs shall be set for all noise sensitive receptors within the study area, for time
+periods when they are in use.
+NOTE
+For example, schools are typically not in use at night when they are closed, so only daytime LOAELs
+and SOAELs are required to be set for typical schools.
+3.49.1
+LOAELs and SOAELs should be set out in accordance with Table 3.49.1 for all noise sensitive
+receptors:
+Table 3.49.1 Operational noise LOAELs and SOAELs for all receptors
+Time Period
+LOAEL
+SOAEL
+Day (06:00-24:00)
+55dB LA10,18hr facade
+68dB LA10,18hr facade
+Night (23:00-07:00)
+40dB Lnight, outside (free-field)
+55dB Lnight, outside (free-field)
+3.50
+LOAELs and SOAELs shall be modified where it is proportionate and merited by local circumstances
+which can include, but are not limited to:
+1) noise sensitive receptors that have reduced sensitivity to noise or vibration e.g., sensitivity to noise
+is reduced if receptors have good noise insulation;
+2) noise sensitive receptors that have an increased sensitivity to noise or vibration e.g., if a building is
+regularly used by people with hearing impairments, it is likely to be more sensitive to the users, as
+noise affects speech intelligibility at lower levels than it would for those with non-impaired hearing.
+NOTE 1
+Modification can be proportionate where it has the potential to change the assessment of likely
+significant effects.
+NOTE 2
+Examples of receptors with good noise insulation can include properties that have been included within
+Highway Authority insulation schemes, or newer properties that have noise insulation to reduce road
+noise incorporated into their design (evidence to support the latter can be found in planning application
+documents for developments).
+3.51
+Noise change due to the project shall be determined at noise sensitive receptors within the study area,
+during the periods for which LOAELs and SOAELs have been set, for:
+1) Short term: DMOY compared against the DSOY;
+2) Long-term: DMOY compared against the DSFY;
+3) Non-project noise change: do-minimum future year (DMFY) compared against the DMOY.
+3.51.1
+Noise level changes may be determined through:
+1) calculation of noise levels at each individual noise sensitive receptor; or
+2) calculation of noise levels at a sample of noise sensitive receptors representative of all noise
+sensitive receptors.
+3.51.2
+Noise level changes may be determined by:
+1) comparing noise levels calculated at noise sensitive receptors using CRTN [Ref 3.N] calculations as
+modified by Appendix A;
+2) Comparing of BNL change of road links using the methodology in Appendix A.
+NOTE 1
+CRTN [Ref 3.N] calculations of noise levels change at noise sensitive receptors are likely to be required
+within 600m of new road links or roads physically changed by the project.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 23 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+NOTE 2
+Calculations of BNL change are likely to be required for noise sensitive receptors not covered by
+calculations of noise level change, and within 50m of road links where noise levels change by 1dB(A) in
+the short term or 3dB(A) in the long term.
+NOTE 3
+Where BNL changes show likely significant effects for noise sensitive receptors along road links, it can
+be appropriate to extend CRTN [Ref 3.N] calculations to include these road links.
+3.52
+Traffic data used for noise calculations shall be subject to the speed pivoting process set out in
+Appendix A.
+NOTE
+The speed pivoting process is normally undertaken by traffic engineers who are responsible for
+preparing traffic models for road projects.
+3.53
+Where the noise sensitive receptor is a building, the facade used to calculate noise change shall be
+chosen as follows:
+1) the facade with the greatest magnitude of noise change;
+2) where the greatest magnitude of noise change is equal on more than one facade, the facade
+experiencing the greatest magnitude of noise change and highest do-something noise level.
+NOTE
+The greatest magnitude of change is likely to occur on the facade facing the new or changed stretch of
+road, or facades facing road links leading directly to major junctions, but this is not always the case,
+particularly at buildings close to junctions.
+3.54
+The magnitude of change shall be defined in accordance with Table 3.54a for short term and Table
+3.54b for long term:
+Table 3.54a Magnitude of change - short term
+Short term magnitude
+Short term noise change (dB LA10,18hr or Lnight)
+Major
+Greater than or equal to 5.0
+Moderate
+3.0 to 4.9
+Minor
+1.0 to 2.9
+Negligible
+less than 1.0
+Table 3.54b Magnitude of change - long term
+Long term magnitude
+Long term noise change (dB LA10,18hr or Lnight)
+Major
+Greater than or equal to 10.0
+Moderate
+5.0 to 9.9
+Minor
+3.0 to 4.9
+Negligible
+less than 3.0
+3.55
+A summary of noise level changes shall be presented as Table 3.55a and 3.55b.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 24 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Table 3.55a Operational noise reporting table for noise assessment - short-term
+Project:
+Scenario/Comparison:
+Daytime
+Night-time
+Change in noise level dB(A)
+Number of
+dwellings
+Number of
+other noise
+sensitive
+receptors
+Number of
+dwellings
+Number of
+other noise
+sensitive
+receptors
+<1.0
+1.0 - 2.9
+3 - 4.9
+Increase in noise level dB
+LA10,18hr / Lnight
+>5
+No Change
+0
+<1.0
+1.0 - 2.9
+3 - 4.9
+Decrease in noise level
+dB LA10,18hr / Lnight
+>5
+Table 3.55b Operational noise reporting table for noise assessment - long-term
+Project:
+Scenario/Comparison:
+Daytime
+Night-time
+Change in noise level
+Number of
+dwellings
+Number of
+other noise
+sensitive
+receptors
+Number of
+dwellings
+Number of
+other noise
+sensitive
+receptors
+<3
+3.0 - 4.9
+5 - 9.9
+Increase in noise level
+dB LA10,18hr / Lnight
+>10+
+No Change
+0
+<3
+3.0 - 4.9
+5 - 9.9
+Decrease in noise level
+dB LA10,18hr / Lnight
+>10+
+3.56
+Noise level changes at each noise sensitive receptor within the study area (including any BNL
+calculations) shall be reported.
+3.56.1
+Noise level changes should be reported using one or more of the following methods:
+1) tables of results;
+2) noise contour maps;
+3) other mapping methods, for example, assigning colours to noise sensitive receptors.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 25 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+3.57
+It shall be determined whether the operational noise changes constitute a likely significant effect on
+noise sensitive buildings as defined by the 2014/52/EU [Ref 1.N].
+3.58
+The initial assessment of likely significant effect on noise sensitive buildings shall be determined using
+Table 3.58.
+Table 3.58 Initial assessment of operational noise significance
+Significance
+Short term magnitude of change
+Significant
+Major
+Significant
+Moderate
+Not significant
+Minor
+Not significant
+Negligible
+3.59
+Where the magnitude of change in the short term is negligible at noise sensitive buildings, it shall be
+concluded that the noise change will not cause changes to behaviour or response to noise and as
+such, will not give rise to a likely significant effect.
+3.60
+For noise sensitive receptors where the magnitude of change in the short term is minor, moderate or
+major at noise sensitive buildings, Table 3.60 shall be used, together with the output of Table 3.58 to
+determine final significance.
+Table 3.60 Determining final operational significance on noise sensitive buildngs
+Local circumstance
+Influence on significance judgement
+Noise level change (is the magnitude of change
+close to the minor/moderate boundary?)
+1) Noise level changes within 1 dB of the top of
+the 'minor' range can indicate that it is more
+appropriate to determine a likely significant
+effect. Noise level changes within 1 dB of the
+bottom of a 'moderate' range can indicate
+that it is more appropriate to consider a
+change is not a likely significant effect.
+Differing magnitude of impact in the long term to
+magnitude of impact in the short term
+1) Where the long term impact is predicted to be
+greater than the short term impact, it can be
+appropriate to conclude that a minor change
+in the short term is a likely significant effect.
+Where the long term impact is predicted to be
+less than the short term it can be appropriate
+to conclude that a moderate or major change
+in the short term is not significant.
+2) A similar change in the long term and
+non-project noise change can indicate that
+the change is not due to the project and not
+an indication of a likely significant effect.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 26 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+Table 3.60 Determining final operational significance on noise sensitive buildngs (continued)
+Local circumstance
+Influence on significance judgement
+Absolute noise level with reference to LOAEL
+and SOAEL (by design this includes sensitivity of
+receptor)
+1) A noise change where all do-something
+absolute noise levels are below SOAEL
+requires no modification of the initial
+assessment.
+2) Where any do-something absolute noise
+levels are above the SOAEL, a noise change
+in the short term of 1.0dB or over results in a
+likely significant effect.
+Location of noise sensitive parts of a receptor
+1) If the sensitive parts of a receptor are
+protected from the noise source, it can be
+appropriate to conclude a moderate or major
+magnitude change in the short term and/or
+long term is not a likely significant effect.
+2) Conversely, if the sensitive parts of the
+receptor are exposed to the noise source, it
+can be more appropriate to conclude a minor
+change in the short term and/or long term is a
+likely significant effect.
+3) It is only necessary to look in detail at
+individual receptors in terms of this
+circumstance where the decision on whether
+the noise change gives rise to a significant
+environmental effect is marginal.
+Acoustic context
+1) If a project changes the acoustic character of
+an area, it can be appropriate to conclude a
+minor magnitude of change in the short term
+and/or long term is a likely significant effect.
+Likely perception of change by residents
+1) If the project results in obvious changes to the
+landscape or setting of a receptor, it is likely
+that noise level changes will be more acutely
+perceived by the noise sensitive receptors. In
+these cases it can be appropriate to conclude
+that a minor change in the short term and/or
+long term is a likely significant effect.
+2) Conversely, if the project results in no
+obvious changes for the landscape,
+particularly if the road is not visible from the
+receptor, it can be appropriate to conclude
+that a moderate change in the short term
+and/or long term is not a likely significant
+effect.
+NOTE 1
+In relation to the location of sensitive parts of the receptor, an example of a situation where sensitive
+parts of a receptor would be protected from the noise source would include a house with no, or very
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 27 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+few, windows of sensitive rooms facing the road, and its outdoor spaces are protected from the road by
+buildings.
+NOTE 2
+In relation to the location of sensitive parts of the receptor, an example of a situation where sensitive
+parts of a receptor would be exposed to the noise source would include a house with most windows of
+sensitive rooms facing the road, and/or outdoor spaces facing the road.
+3.61
+The number of properties affected shall not be used to justify change between the initial operational
+significance and the final operational significance.
+3.62
+The following shall be reported in the assessment:
+1) data sources used;
+2) assumptions applied during use of data;
+3) the risk of any inaccuracies or errors within the data, or any modifications or assumptions made,
+leading to the assessment drawing incorrect conclusions; and
+4) locations of noise sources and noise sensitive receptors.
+3.63
+The assessment report shall include justification for determination of significance for each noise
+sensitive receptor in the study area.
+3.63.1
+Presentation of the conclusions to determine likely significant effects on noise sensitive receptors
+should:
+1) be succinct;
+2) be grouped to aid presentation; and,
+3) present clear justification if likely significant effect exists.
+NOTE
+There are many options for grouping noise sensitive receptors to aid presentation, these can include
+location, setting, similarity of noise change or other criteria.
+Operational noise management
+3.64
+Any mitigation measure that has the potential to mitigate or manage existing operational noise, and/or
+operational noise generated by a project, within a project area, shall be identified and reported within
+the assessment.
+3.64.1
+Measures to mitigate and manage operational noise may include, but are not limited to:
+1) vertical or horizontal alignment of the road;
+2) earth bunds to act as a noise barrier;
+3) noise barriers;
+4) low noise road surfacing;
+5) speed limits;
+6) restrictions on noisy vehicle types.
+NOTE
+Speed limits or restrictions on noisy vehicle types are not normally practical for use on motorways and
+all purpose trunk roads, as they can encourage drivers to take alternative routes, which can be less
+safe and result in higher noise levels for populations along the alternative routes.
+3.65
+The suitability of each potential mitigation measure for use within the project area shall be determined
+based on the following criteria:
+1) for residential noise receptors only, a comparison of the monetised noise benefit of a mitigation
+measure against the cost of the measure over the anticipated design life of the project;
+2) the likely perceived benefit of the measure at any noise sensitive receptors;
+3) the benefit of a measure in terms of elimination of likely significant effects;
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 28 of 67
+======================================================================
+LA 111 Revision 2
+3. Assessment methodology
+4) practicality of the measure, for example, in terms of safety considerations and engineering
+constraints;
+5) the impact of the measure across other environmental factors, for example the visual impact of a
+noise barrier.
+NOTE
+Information received at project consultation events can help to determine the likely perceived benefit of
+a potential mitigation measure.
+3.65.1
+The cost of mitigation measures should be determined with reference to previously installed similar
+measures, and include costs of installation and maintenance through its life.
+3.65.2
+Where the life of a mitigation measure is shorter than the assessment period, costs for replacement at
+the relevant intervals should be included.
+3.65.3
+Detailed analysis of all of the criteria should only be undertaken where it is considered that that a
+mitigation measure has the potential to be suitable based on all of the criteria.
+NOTE
+For example, where it was determined at the outset that a barrier would not be practical as there was
+insufficient space, there would be no requirement to undertake detailed analysis on other criteria such
+as value for money.
+3.66
+Mitigation measures that are deemed suitable for use shall be included within the project design.
+3.67
+The insertion loss for each noise barrier included within the project shall be reported.
+3.68
+Individual noise barriers included within the project shall be designated as either:
+1) reflective, where there is no potential for increased noise levels at any noise sensitive receptors due
+to reflections of noise from the road facing surfaces of the barrier; or
+2) absorptive, where there is potential for increased noise levels at any noise sensitive receptors due to
+reflections of noise from the road facing surfaces of the barrier.
+3.69
+Where barriers included within the project are required to be absorptive, each of the absorptive barriers
+shall be designated as either:
+1) a single barrier, where there are barriers on one side of the road; or
+2) a parallel barrier, where there are barriers on both sides of the road.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 29 of 67
+======================================================================
+LA 111 Revision 2
+4. Monitoring and evaluation
+4.
+Monitoring and evaluation
+Construction
+4.1
+Likely significant environmental effects from noise and/or vibration during construction shall be
+monitored.
+4.1.1
+Monitoring of likely significant effects should include one or more of the following:
+1) verification that specific noise and vibration mitigation measures are in place for activities where
+there is potential for likely significant effects to occur in their absence;
+2) measurement of noise and/or vibration;
+3) checking that noise and vibration management procedures and practices are sufficient to ensure
+that adverse effects are no worse than set out in the assessment report.
+Operation phase
+4.2
+Likely significant environmental effects from noise during operation shall be monitored and include:
+1) ensuring mitigation measures included with the project design are incorporated with the as-built
+project. Where they are not included, ensuring resultant noise levels, taking account of any
+additional mitigation installed but not included in the assessed design, are no higher than set out in
+the project assessment;
+2) ensuring specifications of noise mitigation measures, including barriers and low noise surfaces,
+meet design specifications.
+NOTE
+Post construction noise monitoring cannot provide a reliable gauge for whether the predicted
+magnitude and extent of operational adverse impacts are greater or less than those predicted in the
+assessment, this is due to the following reasons:
+1) the assessment is based on annual average conditions with and without the project to ensure a
+like-for-like comparison, which is not possible to replicate through monitoring within a reasonable
+timescales;
+2) monitoring in the absence of the project would need to be completed before the start of the
+construction works, and would therefore be a number of years before the with-scheme monitoring
+and the assessment completed for the environmental statement is based on calculated road traffic
+noise levels, whereas ambient noise monitoring can be affected by other noise sources such as
+people, agricultural activities, military activities, aircraft etc.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 30 of 67
+======================================================================
+LA 111 Revision 2
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+2014/52/EU, 'Assessment of the effects of certain public and private projects on the
+environment'
+Ref 2.N
+Highways England. LA 108, 'Biodiversity'
+Ref 3.N
+HMSO. Department of Transport and Welsh Office. CRTN, 'Calculation of Road
+Traffic Noise '
+Ref 4.N
+Transport Research Laboratory. Abbott, P.G. TRL PR/SE/611/99, 'Calculation of road
+traffic noise - Extending the range of propagation.'
+Ref 5.N
+BSI. BS 5228-1, 'Code of practice for noise and vibration control on construction and
+open sites - Part 1: Noise'
+Ref 6.N
+BSI. BS 5228-2, 'Code of practice for noise and vibration control on construction and
+open sites. Vibration '
+Ref 7.N
+Transport Research Laboratory. P G Abbott and P M Nelson. TRL PR/SE/451/02,
+'Converting the UK traffic noise index LA10,18h to EU noise indices for noise
+mapping'
+Ref 8.N
+Highways England. LA 106, 'Cultural heritage assessment'
+Ref 9.N
+BSI. BS 7445-1, 'Description and measurement of environmental noise. Guide to
+quantities and procedures'
+Ref 10.N
+2002/49/EC, 'Directive 2002/49/EC of the European Parliament and of the Council of
+25 June 2002 relating to the assessment and management of environmental noise -
+Declaration by the Commission in the Conciliation Committee on the Directive relating
+to the assessment and management of environmental noise'
+Ref 11.N
+International Electrotechnical Commission . International Electrotechnical
+Commission. IEC 61672, 'Electroacoustics - Sound level meters - Part 1:
+Specifications'
+Ref 12.N
+Highways England. LA 104, 'Environmental assessment and monitoring'
+Ref 13.N
+BSI. BS 7385-2, 'Evaluation and measurement for vibration in buildings' - Part 2:
+Guide to damage levels from groundborne vibration'
+Ref 14.N
+Highways England. LA 101, 'Introduction to environmental assessment'
+Ref 15.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 16.N
+Highways England. LA 107, 'Landscape and visual effects'
+Ref 17.N
+Highways England. LA 112, 'Population and human health'
+Ref 18.N
+Highways England. LA 103, 'Scoping projects for environmental assessment'
+Ref 19.N
+Highways England. LA 102, 'Screening projects for Environmental Impact
+Assessment'
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 31 of 67
+======================================================================
+LA 111 Revision 2
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Considerate Constructors Scheme. Considerate Contractor (Website), 'Considerate
+Constructors Scheme Best Practice Hub ccsbestpractice.org.uk'
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 32 of 67
+======================================================================
+LA 111 Revision 2
+Appendix A. Operation noise calculations
+Appendix A. Operation noise calculations
+A1
+BNL Calculations
+BNL calculations are undertaken by using traffic flow, speed and HGV percentage to calculate a
+reference noise emission from the road link, as set out in CRTN [Ref 3.N].
+A2
+CRTN Modifications
+Modifications to CRTN [Ref 3.N] methodology are listed as follows:
+1) adopt dual source lines for all dual carriageways;
+2) include reflection and screening of barriers located in the central reservation within the noise model
+if they equal to or more than 1.5m in height;
+3) classify all vehicles with an unladen weight of less than 3.5 tonnes as light vehicles, and all vehicles
+with an unladen weight of greater than 3.5 tonnes as heavy vehicles;
+4) use pivoted speeds, as defined below, for road links within the noise model.
+5) for thin surfacing with speeds of greater than 75km/h, adopt a surface correction of the RSI, or if RSI
+data is not available assume an upper limit correction of -3.5dB;
+6) Where speed changes from below or equal to 75km/h to above 75km/h (or vice versa) do not occur:
+a) for hot rolled asphalt surfaces, a correction of -0.5dB should be used for speeds greater than
+75km/h;
+b) for brushed concrete surfacing, with speeds greater than 75km/h adopt a surface correction of:
++3.5dB;
+c) for all roads with speeds of less than or equal to 75 km/h, adopt a surface correction of -1.0 dB
+for all surfaces;
+7) Where speed changes from below or equal to 75km/h to above 75km/h (or vice versa) do occur:
+a) where the speed change is less than 15 km/h, adopt surface correction set out in modification 8
+based on the DM speed in both scenarios;
+b) where the speed change is more than 15km/h, adopt the surface correction set out in
+modification 8 based on the speed for each scenario;
+8) for roads with mixed surfaces, apply the surface correction applicable to the surface type covering
+the largest proportion of the road, or if two surface types cover equal proportions of the road, apply
+the surface correction that results in the highest magnitude of change;
+9) use the equations set out in Charts 7 and 8 of CRTN [Ref 3.N] to calculate noise to a distance of
+600m TRL PR/SE/611/99 [Ref 4.N] from the road. Assume distance attenuation of 3dB per doubling
+of distance for distances in excess of 600m;
+10) where purpose built noise barriers are classed as absorptive, a reflection correction is not needed;
+11) apply correction for reflection effects from opposite facades when the horizontal distance between
+the calculation point and the nearside kerb (d) and the horizontal distance between the source line
+and the opposite facade (D) meet either of the following conditions, with reference to the limits of
+application set out in CRTN paragraph 26.2:
+a) d < 12m and D <= 20m;
+b) 12m<d<=300m and D<=10(0.825+0.4log(d+3.5)).
+Best available information should be used to determine where existing barriers are absorptive or
+reflective for the purposes of CRTN calculations.
+TRL research TRL PR/SE/451/02 [Ref 7.N] provides methods to convert LA10,18hr to other indices.
+'Method 1' requires hourly traffic flows but gives reliable results. TRL 'Method 2' has been shown in
+some circumstances to give large step changes and thus unreliable results.
+TRL 'Method 3' provides reliable results for most UK roads. Exceptions to this can include roads where
+the proportion of night time traffic to day time traffic is atypical, which can occur on roads serving
+facilities that operate 24 hours per day, for example airports or ports.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 33 of 67
+======================================================================
+LA 111 Revision 2
+Appendix A. Operation noise calculations
+If TRL Method 3 is used with do-something traffic data on congestion relief projects, it has the potential
+to over predict increases in night-time traffic.
+A3
+Speed pivoting process
+Speed pivoting ensures that modelled speeds from the the traffic model are consistent with observed
+speeds. The process can be applicable to all roads within the operational noise study area, and is
+implemented by the project's traffic modelling team.
+The implementation of speed pivoting process should be proportionate to the stage of the assessment,
+e.g. it is not necessary to undertake the full speed pivoting process at early stages of a scheme,
+particularly where the traffic models are likely to be updated.
+The speed pivoting process is set out as follows:
+1) observed vehicle speeds at a link level are obtained for the traffic model base year from data sets
+such as TrafficMaster, GPS, mobile phone data, etc;
+2) the observed speed is divided by the modelled speeds for the time period(s) considered by the noise
+assessment, to generate the speed pivot factor.
+3) modelled link speeds in each assessment scenario are multiplied by the speed pivot factor;
+4) apply pivot factor.
+Where observed speeds are not available for individual links and/or particular time periods, the speed
+pivot factor can be estimated using the following information: the speed pivoting performance on
+adjacent links, the speed pivoting performance on roads with similar characteristics either in the local
+area or across the study area e.g. motorways, urban centre roads, single carriageways, rural roads.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 34 of 67
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 35 of 67
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 111
+England National Application Annex to LA 111
+Noise and vibration
+(formerly HD 213/11, IAN 185/15)
+Revision 0
+Summary
+This National Application Annex sets out the Highways England specific requirements for noise
+and vibration.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 36 of 67
+======================================================================
+LA 111 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+E/1. English noise policy
+7
+E/2. Noise Insulation Regulations
+10
+E/3. Normative references
+11
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 37 of 67
+======================================================================
+LA 111 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Nov 2019
+Highways England National Application Annex to LA 111.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 38 of 67
+======================================================================
+LA 111 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes HD 213/11 and IAN 185/15, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 39 of 67
+======================================================================
+LA 111 Revision 0
+Introduction
+Introduction
+This National Application Annex sets out the Highways England specific requirements relating to the
+compliance with the National Networks National Policy Statement NN NPS 2014 [Ref 3.N] and the
+Noise Insulation Regulations [Ref 5.N] which are reported as part of the environmental assessment of
+noise and vibration.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 40 of 67
+======================================================================
+LA 111 Revision 0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+LOAEL
+Lowest observed adverse effect level
+NN-NPS
+National Policy Statement for National Networks
+NPPF
+National Planning Policy Framework
+NPSE
+Noise Policy Statement for England
+SOAEL
+Significant observed adverse effect level
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 41 of 67
+======================================================================
+LA 111 Revision 0
+Terms and definitions
+Terms and definitions
+Terms and defintions
+Term
+Definition
+Indicative forecast eligibility
+Dwellings where changes in noise levels due to a project are
+forecast to result in eligibility under the Noise Insulation
+Regulations [Ref 5.N], that apply 1 year after the opening of a
+project.
+Lowest observed adverse effect
+level
+Level above which adverse effects on health and quality of
+life can be detected.
+Noise Important Areas
+Important Areas identified in the NAP(Roads) [Ref 4.N] as at
+risk of experiencing a significant adverse impact to health and
+quality of life as a result of their exposure to road traffic noise.
+Significant observed adverse effect
+level
+The level above which significant adverse effects on health
+and quality of life occur.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 42 of 67
+======================================================================
+LA 111 Revision 0
+E/1. English noise policy
+E/1.
+English noise policy
+E/1.1
+The requirements within this National Application Annex shall apply to all projects, irrespective of the
+planning route.
+E/1.2
+The environmental assessment shall determine compliance with the relevant sections of the Noise
+Policy Statement for England (NPSE) NPS(E) [Ref 6.N], National Planning Policy Framework (NPPF)
+NPPF [Ref 1.N] and the Government's associated planning guidance on noise.
+E/1.3
+The environmental assessment shall report against the three aims within the National Policy Statement
+for National Networks (NN-NPS) NN NPS 2014 [Ref 3.N] (presented in the Table E/1.3), and
+demonstrate the actions taken to support delivery of each aim.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 43 of 67
+======================================================================
+LA 111 Revision 0
+E/1. English noise policy
+Table E/1.3 NN-NPS Aims and associated actions
+NN-NPS Aim
+Action
+Action applicable to all three aims
+Aim 1: Avoid significant adverse impacts on health
+and quality of life from noise as a result of the new
+development.
+NOTE: Significant adverse noise effects occur
+when noise levels are above SOAEL.
+1) For each receptor or group of receptors, set
+out the mitigation measures used to reduce
+noise exposure to below SOAEL;
+2) Where project noise levels are not predicted to
+be below the SOAEL, report the reasons why
+noise levels could not be reduced below the
+SOAEL, in terms of Government policy on
+sustainable development.
+Aim 2: Mitigate and minimise other adverse
+impacts on health and quality of life from noise
+from the new development.
+NOTE: Other adverse impacts occur when noise
+levels are between LOAEL and SOAEL.
+1) Set out measures used to mitigate and
+minimise other adverse impacts for all
+receptors or groups of receptors where project
+noise levels are above LOAEL;
+2) Where project noise levels are not predicted to
+be below the LOAEL, report the reasons why
+noise levels could not be reduced below the
+LOAEL, in terms of Government policy on
+sustainable development.
+Aim 3: Contribute to improvements to health and
+quality of life through the effective management
+and control of noise, where possible.
+NOTE: Applies to all noise levels.
+1) Set out mitigation measures used to improve
+the noise environment.
+2) Where it has not been possible to contribute to
+improvements to health and quality of life
+through management of project noise levels,
+report the reasons why it is not possible in
+terms of Government policy on sustainable
+development.
+Mitigation measures include the following:
+1) measures incorporated into a project to reduce
+overall environmental impact, which can
+include, but are not limited to: project
+alignment, project design; and,
+2) measures used solely to mitigate noise, which
+can include, but are not limited to, noise
+barriers, restrictions on the use of plant during
+the construction phase, or quieter road
+surfaces.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 44 of 67
+======================================================================
+LA 111 Revision 0
+E/1. English noise policy
+NOTE 1
+It is not normally possible to contribute to improvements to health and quality of life during a
+construction phase.
+NOTE 2
+NN-NPS states that the Secretary of State "....should not grant development consent unless satisfied
+that the proposals will meet the three aims [set out in requirement E/1.1], within the context of
+Government policy on sustainable development".
+E/1.4
+The environmental assessment report shall include a list of noise mitigation that the project will deliver
+in Noise Important Areas.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 45 of 67
+======================================================================
+LA 111 Revision 0
+E/2. Noise Insulation Regulations
+E/2.
+Noise Insulation Regulations
+E/2.1
+The environmental assessment shall report on the properties which are forecast to be eligible for
+insulation under the Noise Insulation Regulations [Ref 5.N].
+E/2.1.1
+An assessment of indicative forecast eligibility may be undertaken at options identification stage where
+routes pass through urban areas.
+NOTE
+The assessment of indicative forecast eligibility sets out which buildings are forecast to be eligible for
+either statutory or discretionary noise insulation, and in urban areas it can be appropriate to complete
+this at an early project stage to estimate costs of insulation, if there is potential for it to be required for
+large numbers of dwellings.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 46 of 67
+======================================================================
+LA 111 Revision 0
+E/3. Normative references
+E/3.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Department of Housing. NPPF, 'Communities and Local Government: National
+Planning Policy Framework'
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+NN NPS, 'National Networks National Policy Statement (NN NPS)' , 2014
+Ref 4.N
+Defra. NAP(Roads), 'Noise Action Plan: Roads'
+Ref 5.N
+Noise Insulation Regulations, 'Noise Insulation Regulations 1975, as amended 1988'
+Ref 6.N
+Defra. NPS(E), 'Noise Policy Statement for England'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 47 of 67
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 48 of 67
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 111
+Northern Ireland National Application Annex to
+LA 111 Noise and vibration
+(formerly HD 213/11, IAN 185/15)
+Revision 0
+Summary
+There are no specific requirements for Department for Infrastructure, Northern Ireland
+supplementary or alternative to those given in LA 111.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 49 of 67
+======================================================================
+LA 111 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 50 of 67
+======================================================================
+LA 111 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Nov 2019
+Department for Infrastructure Northern Ireland National Application Annex to
+LA 111.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 51 of 67
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 52 of 67
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 111
+Scotland National Application Annex to LA
+111 Noise and vibration
+(formerly HD 213/11 and IAN 185/15)
+Revision 0
+Summary
+This National Application Annex sets out Transport Scotland specific requirements for noise and
+vibration.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 53 of 67
+======================================================================
+LA 111 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Applicability of this document
+5
+S/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 54 of 67
+======================================================================
+LA 111 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Nov 2019
+Transport Scotland National Application Annex to LA 111.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 55 of 67
+======================================================================
+LA 111 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England on behalf of Transport Scotland.
+This document supersedes HD 213/11 and IAN 185/15, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 56 of 67
+======================================================================
+LA 111 Revision 0
+Introduction
+Introduction
+Background
+This National Application Annex sets out Transport Scotland specific requirements for noise and
+vibration.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 57 of 67
+======================================================================
+LA 111 Revision 0
+S/1. Applicability of this document
+S/1.
+Applicability of this document
+S/1.1
+Transport Scotland shall be contacted for the application of LA 111 in Scotland.
+NOTE
+The email address is:TSStandardsBranch@transport.gov.scot.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 58 of 67
+======================================================================
+LA 111 Revision 0
+S/2. Normative references
+S/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 59 of 67
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 60 of 67
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 111
+Wales National Application Annex to LA 111
+Noise and vibration
+(formerly HD 213/11, IAN 185/15)
+Revision 1
+Summary
+This National Application Annex contains the Welsh Government specific requirements related to
+noise and vibration.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 61 of 67
+======================================================================
+LA 111 Revision 1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+W/1. Applicability of this document
+5
+W/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 62 of 67
+======================================================================
+LA 111 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Feb 2020
+Revision 1 (February 2020) Creation of clause W/1.1 to contact Welsh 
+Government for requirements related to noise and vibration. Revision 0
+(November 2019) Welsh Government National Application Annex to LA 111.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 63 of 67
+======================================================================
+LA 111 Revision 1
+Foreword
+Foreword
+This document is published by Highways England on behalf of the Welsh Government.
+This document supersedes HD 213/11 and IAN 185/15, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 64 of 67
+======================================================================
+LA 111 Revision 1
+Introduction
+Introduction
+Background
+This National Application Annex sets out Welsh Government specific requirements for noise and
+vibration.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 65 of 67
+======================================================================
+LA 111 Revision 1
+W/1. Applicability of this document
+W/1.
+Applicability of this document
+W/1.1
+Welsh Government shall be contacted for the application of LA 111 in Wales.
+NOTE
+The email address is: standards_feedback_and_enquiries@gov.wales
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 66 of 67
+======================================================================
+LA 111 Revision 1
+W/2. Normative references
+W/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
+
+======================================================================
+PAGE 67 of 67
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 111, published: 27-May-2020
+
+
