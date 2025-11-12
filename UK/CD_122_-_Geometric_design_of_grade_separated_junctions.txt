@@ -1,0 +1,3145 @@
+======================================================================
+PAGE 1 of 96
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 122
+Geometric design of grade separated junctions
+(formerly TD 22/06, TD 39/94, TD 40/94)
+Version 1.1.1
+Summary
+This document provides requirements for the geometric design of grade separated junctions.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 2 of 96
+======================================================================
+CD 122 Version 1.1.1
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. Selection of grade separated junction form
+11
+Full grade separated junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Compact grade separated junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+3. Full grade separated: merges and diverges
+12
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Datum points . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Ghost island width . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Merges and diverges traffic flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Merge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Merge layout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Merge visibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Diverge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Diverge layout
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Diverge visibility
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Successive diverges and merges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+Forks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+4. Full grade separated: weaving and spacing
+37
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Weaving section length
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Measurement of weaving sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Minimum length of weaving sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Weaving section lanes calculation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+5. Connector roads
+46
+Full grade separated connector road geometry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+Design speed, horizontal and vertical geometry and superelevation . . . . . . . . . . . . . . . . . . . .
+46
+Stopping sight distance/visibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Cross-sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Compact connector road geometry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Design speed, horizontal and vertical geometry and superelevation . . . . . . . . . . . . . . . . . . . .
+50
+Stopping sight distance/visibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Cross-section and widening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+6. Normative references
+55
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 3 of 96
+======================================================================
+CD 122 Version 1.1.1
+Contents
+7. Informative references
+56
+Appendix A. Examples of full grade separated junction layouts
+57
+A1 Diamond
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+A2 Half-cloverleaf
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+A3 Dumbbell roundabout
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+59
+A4 Two-bridge roundabout
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+A5 Interchanges
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+A5.1 4-way, 3-level interchange . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+A5.2 4-way, 2-level 'cyclic' interchange . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+A5.3 4-way, 4-level interchange . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+63
+A5.4 4-way, 2-level interchange . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+A5.5 3-way interchanges
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 4 of 96
+======================================================================
+CD 122 Version 1.1.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 122
+1.1.1
+January 2022
+Core document
+Incremental change to
+notes and editorial
+updates
+Minor editorial changes to correct alignments in Tables 3.21 and 3.32
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 122
+1.1.0
+November 2021
+Core document,
+England NAA
+Incremental change to
+requirements
+CD 122
+1
+January 2020
+CD 122
+0
+August 2019
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 5 of 96
+======================================================================
+CD 122 Version 1.1.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 22/06 and TD 39/94. In combination with CD 123 [Ref 2.N] , this
+document also supersedes TD 40/94.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 6 of 96
+======================================================================
+CD 122 Version 1.1.1
+Introduction
+Introduction
+Background
+This document provides requirements and advice on the geometrical design of grade separated
+junctions. It merges and rationalises the content of TD 22/06 and TD 39/94 and incorporates the
+connector road elements of compact grade separated junctions, which were previously covered by TD
+40/94.
+With the incorporation of the requirements and advice of TD 39/94, this document covers the
+geometrical design of grade separated junctions with up to three lanes joining or leaving the mainline.
+Notable changes from the previous documents listed above include:
+1) merge layout referencing has been updated to better reflect the progression in capacity provision
+through the types; for example Layout D in TD 22/06 is now Layout A Option 2 in this document.
+The associated flow diagram references have therefore been updated to reflect this;
+2) 3-lane merge and diverge layouts from TD 39/94 have been reviewed and amended to ensure that
+only those layouts that reflect the safe design ethos of the more contemporary TD 22/06 are
+included;
+3) merge and diverge datum points that were originally included only in Interim Advice Note 149/17 for
+existing motorways have been included; and,
+4) simplification of the curve widening requirements and advice relating to compact connector roads.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 4.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 7 of 96
+======================================================================
+CD 122 Version 1.1.1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+AADT
+Annual average daily traffic
+HGV
+Heavy goods vehicle
+kph
+Kilometres per hour (km/h)
+SSD
+Stopping sight distance
+vph
+Vehicles per hour
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 8 of 96
+======================================================================
+CD 122 Version 1.1.1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Auxiliary lane
+an additional lane parallel to the mainline carriageway to provide
+increased merge or diverge opportunity or additional space for
+weaving traffic
+Compact connector road
+a two-way connector road between a major and a minor road
+designed as part of a compact grade separated junction
+Compact grade separated
+junction
+a grade separated junction designed with a two-way
+unsegregated link road between the major and minor road. The
+connector road joins the major road via a priority junction
+designed to CD 123 [Ref 2.N] .
+Connector road
+a collective term for interchange links, link roads, slip roads and
+loops designed as part of a full grade separated junction. A
+connector road starts/ends at the back of a diverge/merge nose.
+Datum points
+defined points at merges and diverges used for the purposes of
+locating features such as signs and signals and measuring
+weaving lengths
+Direct access
+a connection to an all-purpose trunk road providing access to only
+one of the following, which does not provide a through route:
+1) a single dwelling;
+2) a single field;
+3) a single use public utilities site (such as an electric substation)
+where access is needed for maintenance of that specific site only;
+or,
+4) a single use highway maintenance site (such as an attenuation
+pond) where access is needed for maintenance of that specific
+site only
+Downstream
+that part of the carriageway(s) where the traffic is flowing away
+from the section in question
+Fork
+an at-grade junction of two roads, usually within an interchange,
+which diverge from the approach road at similar angles
+NOTE: Usually both diverging roads have equal status.
+Full grade separated junction
+a grade separated junction designed with free-flowing merges
+and/or diverges in accordance with this document
+Ghost island
+an area of the carriageway marked to separate lanes of traffic
+travelling in the same direction on merge and diverge layouts
+NOTE 1: The purpose of the ghost island at a merge is to
+separate the points of entry of two slip road traffic lanes.
+NOTE 2: The purpose of the ghost island at a diverge is to
+separate the points of exit to a slip road.
+Grade separated junction
+A grade separated junction has at least two carriageway links at
+different levels, and usually involves the provision of a structure to
+accommodate carriageways crossing.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 9 of 96
+======================================================================
+CD 122 Version 1.1.1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Interchange
+a grade separated junction that provides free flow from one
+mainline to another
+Interchange link
+a connector road carrying free-flowing traffic within an interchange
+between one level and/or direction and another
+Intrajunction
+the section of mainline within a junction, between a diverge and
+merge.
+Lane drop
+a layout where a lane or lanes of the upstream carriageway
+becomes a lane or lanes of the diverging connector road
+Lane gain
+a layout where a lane or lanes of the merging connector road
+becomes a lane or lanes of the mainline carriageway
+Link road
+In the context of junctions, a link road is one-way connector road
+adjacent to but separate from the mainline carriageway carrying
+traffic in the same direction. It is used to connect the mainline
+carriageway to the local highway network where successive direct
+connections cannot be provided to an adequate standard because
+the junction spacing is too close.
+Loop
+a connector road, one- or two-way that is made up of the
+elements of the loops shown in Figure 5.10N (this document) and
+which passes through an angle in the range of approximately 180
+to 270 degrees
+NOTE: The loop is considered to extend to the end of the near
+straight length of road contiguous with the back of the diverge or
+merge nose.
+Mainline
+the major route within a junction that typically is a higher road
+classification and/or carries greater traffic volumes
+Near straight
+a length of connector road with a radius no less than the desirable
+minimum radius with superelevation of 5% as detailed in CD 109
+[Ref 3.N] for the mainline design speed
+Nose
+a paved area, approximately triangular in shape, situated between
+merging or diverging lanes and the mainline. The nose includes
+hatched road markings to discourage drivers from crossing it.
+Nose ratio
+Nose ratio is the ratio of the back of nose width and the nose
+length.
+Parallel merge/diverge
+a merge or diverge layout where an auxiliary lane is provided
+alongside the mainline carriageway
+Priority junction
+a junction controlled by a 'Give Way' or 'Stop' arrangement.
+NOTE 1: Stop arrangements are only used where there are
+severe visibility restrictions.
+NOTE 2: Direct accesses can operate in a similar manner but are
+not classed as priority junctions.
+NOTE 3: A priority junction can include a merge taper where the
+formal 'Give Way' road marking is replaced by an edge of
+carriageway road marking.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 10 of 96
+======================================================================
+CD 122 Version 1.1.1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Rural road
+an all-purpose road or motorway that is generally not subjected to
+a local speed limit
+Slip road
+a connector road between a mainline carriageway and another
+road
+NOTE: At the end of a slip road, traffic usually encounters a
+priority junction, a roundabout or traffic signals.
+Stopping sight distance
+as defined in CD 109 [Ref 3.N]
+Taper merge / diverge
+a merge or diverge layout where merging or diverging traffic joins
+or leaves the mainline carriageway through an area forming a
+funnel to or flare from the mainline carriageway
+Through route
+a road that is for public use, which provides a connection to the
+wider road network
+NOTE: A road that does not form part of a through route requires
+a road user to access and leave a site through the same junction.
+Transition curves
+Transition curves have a changing radius to provide a smooth
+transition between two different radius curves, or a curve and a
+straight.
+Upstream
+that part of the carriageway(s) where traffic is flowing towards the
+section in question
+Urban road - motorway
+a motorway with a speed limit of 60 mph or less within a built--up
+area.
+Urban road - all-purpose roads
+an all-purpose road within a built-up area, either a single
+carriageway with a speed limit of 40 mph or less, or a dual
+carriageway with a speed limit of 60 mph or less
+Weaving section
+the length of the carriageway between a successive merge or
+lane gain and diverge or lane drop, where vehicles leaving the
+mainline at the diverge or lane drop have to cross the paths of
+vehicles that have joined the mainline at the merge or lane gain
+Weaving section lanes
+calculation
+The weaving section lanes calculations determine the
+requirements for overall carriageway width based on the traffic
+flows and the length of the weaving section.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 11 of 96
+======================================================================
+CD 122 Version 1.1.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the geometric design of grade separated junctions, including merges,
+diverges, forks and connector roads.
+NOTE 1
+This document is applicable to both new and improved junctions.
+NOTE 2
+This document does not cover the general provision of walking, cycling and horse riding facilities at
+grade separated junctions. Requirements and advice relating to this are provided in CD 143 [Ref 2.I]
+and CD 195 [Ref 1.I] .
+1.2
+This document shall be used for the geometric design of the compact connector road element of a
+compact grade separated junction.
+NOTE
+Requirements and advice for the geometric design of the priority junction element of a compact grade
+separated junction are provided in CD 123 [Ref 2.N] .
+1.3
+The relaxations prescribed by CD 109 [Ref 3.N] shall not be applied to this document.
+NOTE
+CD 109 [Ref 3.N] provides the base geometric parameters for a number of elements covered by this
+document; however, the relaxations prescribed by CD 109 [Ref 3.N] do not apply.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving geometric design of grade
+separated junctions on the Overseeing Organisations' motorway and all-purpose trunk roads according
+to the implementation requirements of GG 101 [Ref 4.N] .
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 4.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 12 of 96
+======================================================================
+CD 122 Version 1.1.1
+2. Selection of grade separated junction form
+2.
+Selection of grade separated junction form
+Full grade separated junctions
+2.1
+Full grade separated junctions shall only be used on dual carriageways and motorways.
+NOTE 1
+Appendix A provides examples of typical full grade separated junction layouts.
+NOTE 2
+The transition between a dual carriageway and a single carriageway can be formed using a merge and
+diverge as illustrated in Figure 2.1N2.
+Figure 2.1N2 Dual carriageway to single carriageway transition
+2.2
+Where transitions between dual carriageway and single carriageways are at lane gain/lane drop grade
+separated junctions (as illustrated in Figure 2.1N2), there shall be a minimum distance of 400 metres
+between the end of the physical central reserve and the back of the merge nose.
+NOTE
+A distance of 400 metres allows for an appropriate sequence of lane gain warning traffic signs to be
+accommodated prior to the merge.
+2.3
+The transitional section between a dual carriageway and a single carriageway at lane gain/lane drop
+grade separated junctions shall include hard strips.
+2.3.1
+A merge forming part of a grade separated junction should not be located within 500 metres upstream
+of a transition from a dual carriageway to a single carriageway, measured from the end of the merge
+taper to the start of the lane reduction hatching.
+2.3.2
+Interchanges may be provided at the intersection of motorways and/or dual carriageways to provide
+one or more free flow links to accommodate traffic flows that would normally exceed the capacity of
+priority junctions, roundabouts and signal-controlled junctions.
+NOTE
+Appendix A provides examples of typical interchange layouts.
+Compact grade separated junctions
+2.4
+Compact grade separated junctions shall not be used on motorways.
+2.4.1
+Compact grade separated junctions should not be used on dual- and single-carriageway roads when
+mainline flows are above 30,000 AADT.
+2.5
+On single carriageways, compact grade separated junctions shall only be used where the junction
+layout includes a section of physical central reserve on the mainline to prevent right turn movements.
+NOTE
+Compact grade separated junctions consist of left-in left-out priority junction(s), between the mainline
+and connector road, designed in accordance with CD 123 [Ref 2.N] , and connector roads designed in
+accordance with this document.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 13 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+3.
+Full grade separated: merges and diverges
+General
+3.1
+Offside merges and diverges shall not be provided at full grade separated junctions.
+NOTE
+Offside diverges do not include forks.
+3.1.1
+At a diverge, or as part of an interchange, the principal signed or through route should continue ahead
+as the secondary route diverges on the left.
+3.2
+Reduction in the number of lanes (excluding climbing lanes) shall not take place on the intra-junction
+link.
+3.3
+At lane drop/lane gain junctions with 3 lanes upstream of the diverge and 3 lanes downstream of the
+merge, the intrajunction carriageway shall be the width of 3 lanes (plus hard shoulder if a motorway),
+with the nearside pavement adjacent to the 2 running lanes hatched out to leave a normal width of hard
+strip (or hard shoulder if a motorway) as shown in Figure 3.3.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 14 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.3 Lane drop to two lanes and subsequent lane gain showing hatched
+pavement for maintenance and traffic management
+NOTE
+Maintaining a 3-lane width intrajunction provides the necessary space for maintenance and traffic
+management purposes.
+3.4
+At lane drop/lane gain junctions with 3 lanes upstream of the diverge and 3 lanes downstream of the
+merge, the diverge and merge areas shall allow for the future conversion of the junction from a lane
+drop/lane gain to a taper diverge and merge with 3 lanes intrajunction.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 15 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Datum points
+3.5
+Merge datum points for the purposes of locating signs and signals, and for measuring weaving lengths
+for certain layouts, shall be as defined in Table 3.5 and illustrated on Figures 3.14a to 3.14k.
+Table 3.5 Merge datum points
+Merge layout
+Entry datum
+A Options 1 & 2, B, C, and E Option 2
+end of downstream taper
+D
+tip of nose
+E Option 1, F, G Option 1 & 2, and H
+downstream tip of ghost island tail
+3.6
+Diverge datum points for the purposes of locating signs and signals, and measuring weaving lengths
+for certain layouts, shall be as defined in Table 3.6a and illustrated on Figures 3.30a to 3.30k.
+Table 3.6a Diverge datum points
+Exit datum
+Diverge layout
+Motorways
+All-purpose roads
+A Options 1 & 2, B Options 1 &
+2, C Option 2 and D Option 2
+Start of upstream taper
+D Layout 1, F and G
+200 metres upstream of
+the tip of ghost island head
+A distance as given in Table 3.6b
+upstream of the tip of ghost island
+head
+C Option 1 and E
+200 metres upstream of
+the tip of nose
+A distance as given in Table 3.6b
+upstream of the tip of nose
+Table 3.6b All-purpose roads datum distances
+Mainline design speed (kph)
+Distance (metres)
+120
+200
+100
+170
+85
+145
+70
+120
+60
+100
+50
+85
+Ghost island width
+3.7
+The minimum width of a ghost island shall be 1.2 metres at a distance of 50 metres from the tip of the
+ghost island head or tail.
+NOTE 1
+Ghost islands less than 1.2 metres in width cannot be marked with a chevron, and therefore 50 metres
+keeps the unmarked section to a minimum.
+NOTE 2
+Ghost island layouts can require significant length and this needs to be reflected in land requirements.
+Merges and diverges traffic flows
+3.8
+The mainline maximum vehicles per hour (vph) per lane shall be taken as:
+1) 1,800 for motorways; and,
+2) 1,600 for all-purpose roads.
+NOTE
+The flows for maximum vph per lane do not represent the maximum hourly throughputs that are
+possible, but greater flows often results in decreasing levels of service and safety.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 16 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+3.9
+Where there is an uphill gradient and a presence of HGVs the hourly design flows for the mainline and
+merges shall be adjusted in accordance with Table 3.9a and 3.9b.
+Table 3.9a Adjustment factors for uphill gradients and for the presence of large goods vehicles
+on the mainline
+Mainline gradient
+% HGVs
+on mainline
+<2%
+≥2%
+5
+none
+1.10
+10
+none
+1.15
+15
+none
+1.20
+20
+1.05
+1.25
+Table 3.9b Adjustment factors for uphill gradients and for the presence of large goods vehicles
+on merge connector roads
+Merge connector gradient
+% HGVs
+on merge
+connector
+<2%
+2% to 4%
+>4%
+5
+-
+1.15
+1.30
+10
+-
+1.20
+1.35
+15
+1.05
+1.25
+1.40
+20
+1.10
+1.30
+1.45
+NOTE
+Adjustments are not made to diverge flows.
+3.10
+The mainline gradient used to calculate the adjusted hourly design flows shall be the average gradient
+over a distance 0.5 km either side of the merge or diverge nose tip.
+3.11
+The merge connector road gradient used to calculate the adjusted hourly design flows shall be the
+average of the 0.5 km section before the nose tip.
+Merge
+Merge layout
+3.12
+For up to 2 lane merges onto the main carriageway, the adjusted hourly design flows for the worst case
+peak flow (see Section 3, sub-section "Merge and diverge traffic flows") shall be inserted into Figure
+3.12a for all-purpose roads and Figure 3.12b motorways to determine the minimum merge layout to be
+provided.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 17 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.12a All-purpose road merging diagram
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 18 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.12b Motorway merging diagram
+NOTE 1
+As an example of how to use Figures 3.12a and 3.12b, if the merge flow is 2000 vph and the upstream
+mainline flow is 4000 vph, this would give a Type E layout with 3 lanes upstream and 4 lanes
+downstream.
+NOTE 2
+On Figures 3.12a and 3.12b, the # symbol indicates areas of uncertainty and the choice depends on the
+upstream and downstream provision and the ability for the mainline to accept the flows from the merge.
+NOTE 3
+On Figures 3.12a and 3.12b, the ! symbol indicates that the minimum layout to be provided is:
+1) Layout C for rural roads; or,
+2) Layout A Option 2 for urban roads.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 19 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+3.12.1
+Where the flows are in the region indicated by the * symbol in Figure 3.12b and Layout E option 2 is to
+be used, an extended auxiliary lane should be provided instead of a taper merge.
+3.12.2
+A merge layout that offers a higher level of capacity than the worst case peak flow may be provided, for
+example Layout C instead of Layout A.
+NOTE
+A merge layout that offers less capacity than the worst case peak flow cannot be used, such as a
+Layout C instead of Layout F.
+3.13
+For 3-lane merges onto the main carriageway, Layout G or H (see Figures 3.14i to 3.14k) shall be used
+based on the number of downstream lanes to be provided.
+3.14
+Merge layouts shall be as shown in Figures 3.14a to 3.14k below.
+Figure 3.14a Layout A option 1 - taper merge
+Figure 3.14b Layout A option 2 - 2 lane taper
+Figure 3.14c Layout B - parallel merge
+Figure 3.14d Layout C - ghost island merge
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 20 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.14e Layout D - lane gain
+Figure 3.14f Layout E Option 1 - lane gain with ghost island offside merge
+Figure 3.14g Layout E Option 2 - lane gain with ghost island nearside merge
+Figure 3.14h Layout F - 2 lane gain with ghost island
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 21 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.14i Layout G Option 1 - mainline lane gain and double ghost island merge
+Figure 3.14j Layout G Option 2 - mainline lane gain and single ghost island merge
+Figure 3.14k Layout H - mainline 2 lane gain and ghost island merge
+3.14.1
+Layout C should only be used where there are 3 lanes or more on the mainline.
+3.14.2
+Layout E option 2 should only be used where physical constraints on existing roads prevent Layout E
+option 1 from being feasible.
+NOTE
+Layout E option 1 has a larger footprint than Layout E option 2; however it requires potentially slower
+moving vehicles such as HGVs to merge into a lane carrying potentially faster moving traffic.
+3.14.3
+Layout G option 2 should only be used where the merging flow is less than 3 lanes capacity but there is
+a need to maintain continuity with the number of upstream lanes (on the slip road).
+3.15
+Parallel merges (Layout B) shall be used instead of taper merges (Layout A) if one or more of the
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 22 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+following apply:
+1) the mainline horizontal radius is less than desirable minimum in a left hand curve direction;
+2) the mainline is on an uphill or downhill gradient of 3% or steeper for longer than 1.5 km prior to the
+start of the taper;
+3) the connector road entering a merge is on an uphill gradient of 3% or steeper for longer than 400
+metres before the back of nose.
+3.16
+Ghost island merge layouts shall not be used on urban roads.
+3.16.1
+For new slip roads on urban roads where a Layout A merge is required, Layout A option 2 may be
+provided.
+3.17
+For new slip roads on rural roads where a Layout A merge is to be provided, Layout A option 1 shall be
+used.
+3.18
+Where a single lane Layout A option 1 or Layout B merge is to be provided from an existing 2 -ane slip
+road, the slip road shall be reduced to a single lane prior to the nose in accordance with Layout A
+option 2.
+3.19
+The reduction taper in Layout A option 2 and Layout G option 2 shall be in accordance with Table 7-4 of
+TSM Chapter 5 [Ref 5.N] .
+NOTE
+For Layout G option 2, the lane reduction followed by the merge are successive merges and therefore
+the 3.75v spacing requirements apply (see Section 3, "Successive diverges and merges").
+3.20
+An overlap of 50 metres shall be provided on Layouts C, E, F, G option 1 and 2 and H.
+3.21
+The geometric design parameters for a merge layout shall be in accordance with Table 3.21.
+Table 3.21 Merge layouts geometric parameters
+Road
+class
+Length of
+entry taper
+(metres)
+Minimum
+nose
+ratio
+Nose
+length
+(metres)
+Minimum
+auxiliary lane
+length (metres)
+Length of
+auxiliary lane
+taper (metres)
+Length of
+ghost island
+tail (metres)
+Rural motorway
+Mainline
+205
+1:40
+115
+230
+75
+180
+Within
+Inter-
+change
+130
+1:25
+75
+160
+55
+150
+Rural all-purpose design speed
+120 kph
+150
+1:30
+85
+190
+55
+150
+100A
+kph or
+less
+130
+1:25
+75
+160
+55
+150
+Urban road speed limit
+60 mph
+95
+1:15
+50
+125
+40
+n/a
+50 mph
+or less
+75
+1:12
+40
+100
+40
+n/a
+NOTE 1
+The nose ratio is the relationship between the width of the back of the nose and the nose length. The
+minimum ratio gives the minimum angle to be provided at the tip of the nose.
+NOTE 2
+The maximum permitted width of the hatched road marking that forms the nose (TSRGD diagram 1042
+- Schedule 9 Part 6 Item 22) is 8 metres SI 2016 No.362 (TSRGD) [Ref 4.I] .
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 23 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+NOTE 3
+The merge layout lengths are measured along the projected nearside edge of the mainline
+carriageway, with the exception of the overlap, reduction taper and the 50 metres and 3.75V
+separations (Layouts A Option 2 and G Option 2 respectively), which are measured along the nearside
+edge of the connector road.
+3.21.1
+On rural motorway mainlines, auxiliary lane lengths should be extended to 370 metres or greater where
+merge and mainline traffic flows are both forecast to reach or exceed 85% of the maximum design
+capacities given in Figure 3.12b for more than 1,000 hours per year.
+3.21.2
+On uphill gradients in excess of 2% and where the proportion of HGVs is greater than 10%, the
+minimum auxiliary lane lengths given in Table 3.21 should be extended to allow merging traffic to match
+mainline traffic speed.
+NOTE
+An extended auxiliary lane on a gradient in excess of 2% where there is a higher proportion of HGVs
+can provide increased opportunity for merging vehicles to match their speed with mainline traffic.
+3.22
+For extended auxiliary lanes, or auxiliary lanes on crests, at least one sign indicating that the number of
+traffic lanes reduces ahead shall be provided.
+3.22.1
+For extended auxiliary lanes, or auxiliary lanes on crests, more than one sign indicating that the number
+of traffic lanes reduces ahead should be provided suitable to the length of auxiliary to be provided.
+NOTE
+Signs indicating that the number of traffic lanes reduces ahead are useful to drivers merging on
+extended auxiliary lanes as they can mistake them for lane gains, and on crests because the end of the
+auxiliary lane might not be be obvious.
+Merge visibility
+3.23
+The connector road stopping sight distance (SSD) shall be provided along the length of the connector
+road up to the back of nose with the SSD being available at any point along this length.
+3.24
+The mainline SSD shall be provided from the back of nose.
+3.25
+Obstructions to visibility between the connector road and mainline shall not occur along the full length
+of the merge nose.
+NOTE
+Visibility across the merge nose is necessary to allow merging drivers to see vehicles on the mainline in
+advance of merging.
+Diverge
+Diverge layout
+3.26
+For up to 2 lane diverges from the main carriageway, the adjusted hourly design flows for the worse
+case peak flow (see Section 3, sub-section "Merge and diverge traffic flows") shall be inserted into
+Figure 3.26a and Figure 3.26b to determine the minimum diverge layout to be provided.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 24 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.26a All-purpose road diverging diagram
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 25 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.26b Motorway diverging diagram
+NOTE
+As an example of how to use Figures 3.24a and 3.24b, if the diverge flow is 2000 vph and the
+downstream mainline flow is 4000 vph, this would give a Type D layout with 3 lanes downstream and 4
+lanes upstream.
+3.26.1
+Where the flows are in the region indicated by the * symbol in Figures 3.25b and Layout D option 2 is to
+be used, an extended auxiliary lane should be provided instead of a taper diverge.
+3.26.2
+A diverge layout that offers a higher level of capacity than the worst case peak flow may be provided,
+for example Layout C instead of Layout A.
+NOTE
+A diverge layout that offers less capacity than the worst case peak flow cannot be used, such as a
+Layout C instead of Layout E.
+3.27
+For 3-lane diverges from the main carriageway, Layout F or G shall be used based on the number of
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 26 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+upstream lanes to be provided.
+3.28
+A parallel diverge (Layout A option 2) shall be used instead of a taper diverge (Layout A option 1) if one
+or more of the following apply:
+1) the mainline horizontal radius is less than the desirable minimum in a right hand curve direction;
+2) the mainline is on an uphill or downhill gradient of 3% or steeper for longer than 1.5 km prior to the
+start of the taper.
+3.29
+Diverge Layouts B option 2 and D option 2 shall only be used when modifying an existing diverge.
+NOTE
+For the construction of new junctions and new slip roads at existing junctions, Layouts B option 2 and D
+option 2 are not used.
+3.30
+Diverge layouts shall be as shown in Figures 3.30a to 3.30k.
+Figure 3.30a Layout A option 1 - taper diverge
+Figure 3.30b Layout A option 2 - Single lane auxiliary diverge
+Figure 3.30c Layout B option 1 - ghost island diverge
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 27 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.30d Layout B option 2 - Two-lane auxiliary diverge
+Figure 3.30e Layout C Option 1 - lane drop with 1-lane connector road
+Figure 3.30f Layout C Option 2 - lane drop with 2-lane connector road
+Figure 3.30g Layout D option 1 - ghost island lane drop
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 28 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.30h Layout D option 2 - auxiliary lane lane drop
+Figure 3.30i Layout E - 2-lane drop
+Figure 3.30j Layout F - mainline lane drop and ghost island diverge
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 29 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.30k Layout G - mainline 2-lane drop and ghost island diverge
+NOTE
+The use of Layout C Option 1 or Layout C Option 2 depends on the required connector road cross
+section (refer to Section 5 of this document).
+3.31
+The overlap dimension on Layouts B option 1, D option 1, F and G shall be 50 metres.
+3.32
+The geometric design parameters for a diverge shall be as shown in Table 3.32.
+Table 3.32 Diverge layouts geometric parameters
+Length of exit
+taper
+(metres)
+Road class
+1
+lane
+2
+lane
+Minimum
+nose ratio
+Nose
+length
+(metres)
+Minimum
+auxiliary lane
+length (metres)
+Length of
+auxiliary
+lane taper
+(metres)
+Length of
+ghost island
+head
+(metres)
+Rural motorway
+Mainline
+170
+185
+1:15
+80
+200
+75
+180
+Within
+Inter-
+change
+130
+130
+1:15
+70
+150
+55
+n/a
+Rural all-purpose design speed
+120 kph
+150
+150
+1:15
+70
+170
+55
+160
+100A kph
+or less
+130
+130
+1:15
+70
+150
+55
+140
+Urban road speed limit
+60 mph
+95
+110
+1:15
+50
+125
+40
+100
+50 mph or
+less
+75
+90
+1:12
+40
+100
+40
+80
+NOTE 1
+The nose ratio is the relationship between the width of the back of the nose and the nose length. The
+minimum ratio gives the minimum angle to be provided at the tip of the nose.
+NOTE 2
+The maximum permitted width of the hatched road marking that forms the nose (TSRGD diagram 1042
+- Schedule 9 Part 6 Item 22) is 8 metres SI 2016 No.362 (TSRGD) [Ref 4.I] .
+NOTE 3
+The diverge layout lengths are measured along the projected nearside edge of the mainline
+carriageway, with the exception of the overlap, which is measured along the nearside edge of the
+connector road.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 30 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+3.32.1
+For diverges, the layout of the edge line should incorporate radii of approximately 1,000 metres at the
+corners, as illustrated in Figure 3.32.1.
+Figure 3.32.1 Example of a 1,000 metres radius edge line corner at a diverge
+3.33
+Countdown markers indicating the distance in hundreds of yards shall be provided on the approaches
+to all diverges, except where the diverge includes a lane drop.
+Diverge visibility
+3.34
+On diverges, mainline SSD shall be provided:
+1) along the diverge and into the connector road up until the back of the nose, where the length of the
+connector road is greater than the mainline SSD, as illustrated in Figure 3.34a; or,
+2) to a 0.26 metre object height at the 'give way' line or 'stop' line from a distance equal to the mainline
+SSD, where the length of the connector road is equal to or less than the mainline SSD, as illustrated
+in Figure 3.34b.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 31 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.34a Application of mainline SSD where the length of connector road is
+greater than the mainline SSD
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 32 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.34b Application of mainline SSD where the length of connector road is less
+or equal to the mainline SSD
+NOTE
+The mainline SSD needs to be available at any point along the diverge up to the back of the nose.
+3.35
+On diverges, connector road SSD shall be provided from any point downstream of the back of the
+nose, except where the connector road SSD would extend beyond the give way or stop line, in which
+case the SSD needs only to extend to the give way or stop line.
+NOTE
+Instantaneously at the back of nose where the connector road and mainline SSD are both provided, the
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 33 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+mainline SSD is the more onerous. However, beyond the back of nose, when continuation of the
+mainline SSD is not required, the connector road SSD becomes the more onerous, as illustrated on
+Figure 3.35N. As an example, where the mainline SSD is 295 m and the connector road SSD is 160 m,
+at a point 135 m behind the back of nose the connector road SSD starts to govern the design instead of
+the mainline SSD.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 34 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.35N Example of transition between mainline and connector road SSD
+governing design
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 35 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Successive diverges and merges
+3.36
+The minimum spacing between the tips of the noses of successive merges, successive diverges or a
+diverge followed by a merge shall be 3.75V metres, where V is the design speed of the mainline or
+connector road (see Figure 3.36).
+Figure 3.36 Example of successive merges/diverges
+NOTE
+Spacing between a merge and a diverge is determined by weaving lengths.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 36 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+3.36.1
+Spacing greater than the minimum between successive merges and diverges may be provided to
+accommodate signing and motorway signalling.
+3.36.2
+Diverges for left and right turning traffic at interchanges should be combined so that all turning traffic
+leaves the mainline at one diverge, instead of multiple successive diverges from the mainline.
+NOTE
+Combining both diverging flows results in less complex layout that is easier to sign and reduces the
+number of route choice made on the mainline.
+Forks
+3.37
+Forks shall only be used on interchange links with a design speed of 70 kph or 85 kph.
+3.38
+At a fork, the taper shall be developed as shown in Table 3.38 and Figures 3.38a and 3.38b.
+Table 3.38 Geometric design parameters for a fork within an interchange link
+Length of taper (metres)
+Interchange link design speed
+1 lane
+2 lanes
+Nose ratio
+Nose length (metres)
+70/85 kph
+75
+90
+1:12
+40
+Figure 3.38a Development of taper at a single lane fork
+Figure 3.38b Development of taper at a two-lane fork
+3.39
+On forks where a single lane passes to the right, the offside verge shall be hardened and hatched out
+using road markings opposite the nose and for a length before and after as illustrated on Figure 3.39.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 37 of 96
+======================================================================
+CD 122 Version 1.1.1
+3. Full grade separated: merges and diverges
+Figure 3.39 Hardened verge at single lane fork
+NOTE
+The hardened verge can accommodate a broken down vehicle and allow other road users to pass.
+3.39.1
+The hardened verge should be capable of withstanding the weight of traffic.
+3.40
+The maximum width of the offside hardened verge shall be that of the nearside hard shoulder.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 38 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+4.
+Full grade separated: weaving and spacing
+General
+4.1
+For all-purpose roads, the minimum length between a full grade separated junction and an at-grade
+junction, service area and lay-by shall be:
+1) 1 km for rural roads; and,
+2) the minimum weaving section length as derived for urban roads.
+NOTE
+At-grade junctions include priority junctions, signal controlled junctions, roundabouts and direct
+accesses.
+4.2
+A weaving section shall be assessed using the weaving section lanes calculation where successive full
+grade separated junctions are spaced less than:
+1) 3 km for rural motorways; and,
+2) 2 km for rural all-purpose roads.
+NOTE 1
+An assessment of weaving is only required between closely spaced (less than 3 km for rural motorways
+and 2 km for rural all-purpose roads) successive junctions where a merge is followed by a diverge.
+NOTE 2
+On motorways up to 5 lanes wide, merges and diverges tend not to interact where they are spaced
+over 3 km apart.
+NOTE 3
+On all-purpose roads up to 3 lanes wide, merges and diverges tend not to interact where they are
+spaced over 2 km apart.
+NOTE 4
+Weaving section lanes calculation is provided in Equation 4.7.
+4.3
+Motorway service areas accesses shall be treated as a junction for the purpose of weaving
+assessments.
+Weaving section length
+Measurement of weaving sections
+4.4
+Weaving sections shall be measured to/from the points detailed in Tables 4.4a and 4.4b.
+Table 4.4a Weaving section measurement points - merges
+Merge type
+Measurement point
+Layouts A1, A2 and D
+Entry datum point
+Layout B
+As defined in Figure 4.4a
+Layout C
+As defined in Figure 4.4b
+Layouts E1, E2, G2 and H
+As defined in Figure 4.4c
+Layout F
+As defined in Figure 4.4d
+Layout G1
+As defined in Figure 4.4e
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 39 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Table 4.4b Weaving section measurement points - diverges
+Diverg e type
+Measurement point
+Layout A1
+Exit datum point
+Layouts A2 and B2
+As defined in Figure 4.4f
+Layout B1
+As defined in Figure 4.4g
+≥100kph design
+speeds
+100 metres upstream of the tip of the nose or ghost
+island head, as defined in Figure 4.4h
+Layouts C1, C2, D2
+and E
+≤85kph design
+speeds
+50 metres upstream of the tip of the nose or ghost
+island head, as defined in Figure 4.4h
+Layouts D1, F and G
+As defined in Figure 4.4i
+Figure 4.4a Auxiliary lane merge weaving section
+Figure 4.4b Ghost island merge weaving section
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 40 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Figure 4.4c Ghost island and lane gain merge weaving section
+Figure 4.4d Ghost island and two lane gain merge weaving section
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 41 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Figure 4.4e Double ghost island and lane gain merge weaving section
+Figure 4.4f Auxiliary lane diverge weaving section
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 42 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Figure 4.4g Ghost Island and direct taper diverge weaving section
+Figure 4.4h Lane drop diverge weaving section
+Figure 4.4i Lane drop diverge with ghost island weaving section
+NOTE 1
+The notional merge taper shown in Figure 4.4a equates to the length of entry taper given in Table 3.21
+for the appropriate road class.
+NOTE 2
+The notional diverge taper shown in Figure 4.4f equates to the length of exit taper given in Table 3.32
+for the appropriate road class.
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 43 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Minimum length of weaving sections
+4.5
+For rural roads, the minimum weaving section length shall be:
+1) 2 km for motorways; and,
+2) 1 km for all-purpose roads.
+NOTE
+Where the minimum weaving section length cannot be provided between two closely spaced grade
+separated junctions, the need for a weaving section can be eliminated by the inclusion of link roads
+between the junctions, as illustrated in Figure 4.5N.
+Figure 4.5N Indicative link road layout
+4.6
+For urban roads, the minimum weaving section length shall be the greater of:
+1) the minimum weaving section length from Figure 4.6a based on the design speed; and,
+2) the minimum weaving section length from Figure 4.6b based on the design flows.
+Figure 4.6a Minimum weaving length for urban roads based on design speed
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 44 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Figure 4.6b Minimum weaving section length for urban roads based on design flows
+NOTE 1
+In Figure 4.6b, D is the maximum mainline flow (based on 1,800 vph per lane for motorways or 1,600
+vph per lane for all-purpose roads) and V is the design speed of the mainline upstream of the weaving
+section.
+NOTE 2
+For urban roads, the design flows are adjusted for uphill gradients and the presence of HGVs by using
+Table 3.9a.
+NOTE 3
+Refer to Fig 4.7N5 for calculating QW1 + QW2.
+NOTE 4
+When determining the appropriate spacing between successive merges and diverges, it is necessary to
+consider whether the spacing is sufficient to accommodate the necessary advance directional signage.
+Weaving section lanes calculation
+4.7
+The number of lanes to be provided within a weaving section shall be calculated using Equation 4.7.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 45 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+Equation 4.7 Number of traffic lanes required for weaving
+N = 1
+D
+(
+Qnw + Qw1 + Qw2
+(
+2Lmin
+L
++ 1
+))
+where:
+N
+Number of traffic lanes
+Q nw
+Total non-weaving flow in vph
+Q w1
+Major weaving flow in vph
+Q w2
+Minor weaving flow in vph
+D
+Maximum capacity of a single mainline lane:
+1) 1,800 vph for motorways
+2) 1,600 vph for all-purpose roads
+L min
+Minimum weaving length for the road class
+L
+Actual (measured) weaving length available
+NOTE 1
+The principle of the weaving section lanes calculation is that the weaving length is fixed based on road
+type and the carriageway width is calculated from the lane formula. The purpose of this is to establish
+the need for the addition of one or two auxiliary lanes.
+NOTE 2
+For the purpose of the calculation the 'available weaving length' is never less than the 'minimum
+weaving length'.
+NOTE 3
+The purpose of calculating lanes for weaving sections is to determine whether any additional lanes are
+needed over and above those provided for in Figures 3.12a, 3.12b. 3.26a and 3.26b.
+NOTE 4
+For weaving sections on motorways and dual carriageway roads, design flows are calculated as
+indicated in Section 3.
+NOTE 5
+The flows Q nw , Q w1 and Q w2 are formed as indicated in Figure 4.7N5.
+Figure 4.7N5 Flow terms used in weaving
+4.7.1
+Where the calculation of the number of traffic lanes required results in a fractional number of lanes, the
+number of lanes should be rounded up where the fractional part is 0.5 or greater.
+4.7.2
+Where the calculation of the number of traffic lanes required results in a fractional number of lanes, the
+number or lanes should be rounded up or down where the fractional part is less than 0.5 based on:
+1) the number of lanes required on the merge or diverge connector roads;
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 46 of 96
+======================================================================
+CD 122 Version 1.1.1
+4. Full grade separated: weaving and spacing
+2) whether the route is likely to be used by a high proportion of drivers who can be unfamiliar with the
+layout and therefore weave less efficiently, such as routes associated with tourist destinations;
+3) the potential for future growth and the need for greater provision at a later date; and/or,
+4) environmental constraints.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 47 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+5.
+Connector roads
+Full grade separated connector road geometry
+5.1
+Two-way slip roads shall be in the form of a dual carriageway with opposing traffic separated by a
+physical central reserve with vehicle restraint system.
+5.2
+Direct accesses and priority junctions shall not be provided on connector roads.
+5.3
+Single-lane interchange links shall only be provided:
+1) where their length does not exceed 1 km and they are on an average uphill gradient of up to 3%, are
+level or on a downhill gradient; and,
+2) where their length does not exceed 0.5 km and they are on an average uphill gradient of 3% or
+steeper.
+Design speed, horizontal and vertical geometry and superelevation
+5.4
+The minimum design speeds for connector roads shall be in accordance with Table 5.4.
+Table 5.4 Connector road design speed
+Mainline design speed
+Urban 100
+kph
+Urban 85
+kph
+Rural 120 kph
+Rural 100A
+kph
+Interchange
+link
+70
+70
+85
+85
+Slip road
+60
+60
+70
+70
+Link road
+100 or 85,
+see 5.4.1
+85 or 70,
+see 5.4.1
+120 or 100A,
+see 5.4.1
+100A or 85,
+see 5.4.1
+Connector road design
+speed (kph)
+Dumb-bell
+link road
+70
+70
+70
+70
+NOTE
+CD 109 [Ref 3.N] provides the base geometric parameters for the design speeds.
+5.4.1
+On link roads the lower design speed in Table 5.4 should only be used where an appropriate mandatory
+or advisory speed limit is signed.
+5.5
+A slip road longer than 0.75 km shall be designed as an interchange link.
+5.6
+Any transition curves at locations where the design speed changes shall be designed to the higher
+design speed value.
+5.7
+On connector roads linking to motorways the longitudinal gradient shall not exceed 6%.
+5.7.1
+Diverge and merge slip roads should be on uphill and downhill gradients respectively.
+NOTE
+Uphill diverges help diverging traffic reduce their speeds on the approach to the end of the slip road
+and downhill merges help merging traffic accelerate to the mainline speed.
+5.8
+Connector roads shall include a near straight at the back of nose, at least equal in length to the nose.
+NOTE 1
+Nose lengths are given in Table 3.21 and Table 3.31 for merges and diverges, respectively.
+NOTE 2
+Near straights allow drivers to better match their speed to the mainline when merging, and assist
+drivers to comprehend the layout ahead and adjust their speed accordingly.
+5.9
+Connector road loops shall only be provided where they connect to the start/end of the near straight, as
+illustrated in Figure 5.10N.
+5.10
+The minimum radii that shall be provided for connector road loops are:
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 48 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+1) 75 metres for loops on to or off a motorway;
+2) 30 metres for loops on to an all-purpose carriageway; and,
+3) 50 metres for loops off an all-purpose carriageway.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 49 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+Figure 5.10 Loop layouts (extent of loops indicated by arrows)
+5.11
+On connector road loops, successively reducing radii of the same direction shall not be used.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 50 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+5.12
+On connector road loops, superelevation shall not exceed 10%.
+5.12.1
+On connector road loops, superelevation should not exceed 7% where there is a risk of prolonged icy
+conditions.
+NOTE
+Further requirements and guidance on superelevation are provided in CD 109 [Ref 3.N] .
+Stopping sight distance/visibility
+5.13
+Minimum SSD shall be provided in accordance with the connector road design speed.
+NOTE
+The minimum connector road SSD is determined by the SSD requirements on the merge or diverge as
+outlined in Section 3.
+5.14
+For loops there shall be no obstruction to sight lines across the full extent of loops, including where they
+connect to the main carriageway, except where a vehicle restraint system obstructs the view to the 0.26
+metre object height
+NOTE
+A clear view across the extent of the loop ensures that drivers are able to perceive the whole of the
+loop layout on their approach to it and adjust their speed accordingly.
+5.15
+For loops, where a vehicle restraint system obstructs the view to the 0.26 metre object height, a low
+object height of 1.05 m shall be used.
+5.16
+At a dumb-bell junction, where the distance between the two roundabouts is less than the desirable
+minimum SSD for the design speed of the connecting link road, a low (0.26-metre) object at the give
+way line of the next roundabout shall be visible from a vehicle as it leaves the circulatory carriageway of
+the previous roundabout.
+Cross-sections
+5.17
+The minimum connector road cross section based on the design traffic flow ranges shall be in
+accordance with Tables 5.17a and 5.17b.
+Table 5.17a Cross-sections for connector roads to/from mainline all-purpose roads
+Adjusted connector road flow (vph)
+0-800
+801-1200
+1201-2400
+2401-3200
+Merge (rural)
+MG1C
+MG2E
+Merge (urban)
+MG1D
+MG2F
+Diverge (rural)
+DG1C
+DG2E
+Diverge (urban)
+DG1D
+DG2F
+Interchange link/loop (rural)
+IL1C or IL2C (see clause 5.3)
+IL2C
+Interchange link/loop (urban)
+IL1D or IL2D (see clause 5.3)
+IL2D
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 51 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+Table 5.17b Cross-sections for connector roads to/from mainline motorways
+Adjusted connector road flow (vph)
+0-900
+901-1350
+1351-2700
+2701-3600
+Merge (rural)
+MG1A
+MG2C
+Merge (urban)
+MG1B
+MG2D
+Diverge (rural)
+DG1A
+DG2A
+DG2C
+Diverge (urban)
+DG1B
+DG2B
+DG2D
+Interchange link/loop (rural)
+IL1A or IL2A (see clause 5.3)
+IL2A
+Interchange link/loop (urban)
+IL1B or IL2B (see clause 5.3)
+IL2B
+NOTE 1
+Cross sectional layouts are given in CD 127 [Ref 1.N] for each connector road type.
+NOTE 2
+Design flow (vehicles per hour) are adjusted for gradients and HGVs (see Section 3).
+5.18
+Lane widening on curves shall be applied to connector road curves with radii of 400 metres or less.
+NOTE 1
+Lane widening on curves requirements for radii greater than 100 metres up to 400 metres are given in
+CD 109 [Ref 3.N] .
+NOTE 2
+Lane widening on requirements for radii of 100 metres or less are given in CD 123 [Ref 2.N] .
+Compact connector road geometry
+Design speed, horizontal and vertical geometry and superelevation
+5.19
+The design of compact connector roads shall meet or exceed the minimum geometrical parameter
+values given in Table 5.19.
+Table 5.19 Compact connector road geometrical parameters
+Parameter
+Minimum value
+Horizontal curvature
+32 metres
+Crest curve (k)
+2.3
+Sag curve (k) with road lighting
+2.3
+Sag curve (k) without road lighting
+3.2
+NOTE
+The geometrical parameters for compact connector road broadly align with a design speed of 30 kph.
+5.19.1
+The minimum horizontal curvature of a compact connector road should be 40 metres.
+5.19.2
+The minimum crest curve (k) of a compact connector road should be 3.3.
+5.20
+The maximum vertical gradient of a compact connector road shall be 10%.
+5.20.1
+The maximum vertical gradient of a compact connector road should be 8%.
+5.20.2
+Where cyclists are being catered for, the maximum vertical gradient of a compact connector road
+should be 5%.
+5.21
+A minimum 20 metres straight section shall be provided at the start and end of compact connector
+roads prior to formation of the priority junctions, as illustrated in Figure 5.21.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 52 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+Figure 5.21 Compact connector road start and end straight sections
+5.22
+Straight sections longer than the 100m within the compact connector road shall not be used, except
+where they form the connector road linking two minor roads across the mainline (as illustrated on
+Figure 5.24.1Nb).
+NOTE
+The inclusion of long straight sections can lead to increased speed of vehicles through the compact
+connector road.
+5.22.1
+Transition curves may be omitted on compact connector roads due to their low speed nature.
+5.22.2
+The design of a compact grade separated junction should avoid rapid changes in crossfall (through the
+combined effect of the gradient and superelevation), as this can result in sudden shifts in high loads.
+NOTE
+The geometric layout of the compact connector road requires successive application and removal of
+the superelevation between the connector road and the junction mouths.
+5.23
+The maximum superelevation on a compact connector road shall be 5%.
+Stopping sight distance/visibility
+5.24
+The minimum SSD that shall be provided on a compact connector road is:
+1) 50 metres on a compact connector road linking the mainline and minor road; or,
+2) 26 metres on a compact connector road linking two minor roads.
+5.24.1
+The minimum SSD that should be provided on a compact connector road is:
+1) 70 metres on a compact connector road linking the mainline and minor road; or,
+2) 33 metres on a compact connector road linking two minor roads.
+NOTE
+The extents of a compact connector road linking the mainline and minor road is illustrated in Figure
+5.24.1Na, and the extents of a compact connector road linking two minor roads is illustrated in Figure
+5.24.1Nb.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 53 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+Figure 5.24.1Na Compact connector road linking the mainline and minor road
+(extent of compact connector roads illustrated by arrows)
+Figure 5.24.1Nb Compact connector road linking two minor roads (extent of
+compact connector road illustrated by arrows)
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 54 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+Cross-section and widening
+5.25
+Compact connector roads lane widths, excluding any carriageway widening, shall be in accordance
+with Table 5.25 based on the minor carriageway width.
+Table 5.25 Compact connector lane widths
+Minor road lane widths (metres)
+Compact connector road lane widths (metres)
+3.0 or less
+3.0
+Between 3.0 and 3.65
+3.3
+3.65 or greater
+3.65
+NOTE
+Carriageway widths for the compact connector road provide a change in standards from the major
+carriageway width to the minor carriageway width.
+5.26
+Where 2-way compact connector roads have a horizontal radius they shall include a minimum 0.6
+metre central hatching. (This is in addition to the lane widths given in Table 5.25).
+5.27
+Widening of compact connector roads shall be applied within central hatching as illustrated in Figure
+5.27.
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 55 of 96
+======================================================================
+CD 122 Version 1.1.1
+5. Connector roads
+Figure 5.27 Central hatching curve widening
+5.27.1
+Compact connector roads should be widened in accordance with CD 123 [Ref 2.N] lane widening on
+curves , with the widening applied within the central hatching (as illustrated in Figure 5.27).
+5.28
+Hard strips shall not be provided within a compact connector road.
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 56 of 96
+======================================================================
+CD 122 Version 1.1.1
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CD 127, 'Cross-sections and headrooms'
+Ref 2.N
+National Highways. CD 123, 'Geometric design of at-grade priority and
+signal-controlled junctions'
+Ref 3.N
+Highways England. CD 109, 'Highway link design'
+Ref 4.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 5.N
+TSO. Department for Transport. TSM Chapter 5, 'Traffic Signs Manual Chapter 5 -
+Road Markings'
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 57 of 96
+======================================================================
+CD 122 Version 1.1.1
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Highways England. CD 195, 'Designing for cycle traffic'
+Ref 2.I
+Highways England. CD 143, 'Designing for walking, cycling and horse riding
+(vulnerable users)'
+Ref 3.I
+Highways England. CD 116, 'Geometric design of roundabouts'
+Ref 4.I
+The National Archives. legislation.gov.uk. SI 2016 No.362 (TSRGD), 'The Traffic
+Signs Regulations and General Directions 2016'
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 58 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Appendix A. Examples of full grade separated junction layouts
+A1
+Diamond
+A diamond layout includes slip roads leading to/from two staggered priority junctions. The advantages
+of this layout are minimised land from certain quadrants of the junction, conventional slip roads (rather
+than loops, which are necessary with half-cloverleaf layouts) and the requirement for only one bridge.
+The disadvantage is that there are a number of conflict points on the minor road resulting from the
+staggered junctions. It is also necessary to evaluate the risk of road users turning into an off-slip from
+the minor road when considering a diamond layout.
+Due to the staggered priority junctions, diamond layouts are unsuitable to cater for high mainline
+merging and diverging flows and can also be unsuitable where there are high ahead flows on the minor
+road.
+Figure A.1 and Figure A.2 illustrate a diamond layout and a half-diamond layout and the traffic flow
+movements they cater for.
+Figure A.1 Typical layouts of grade separated junctions - diamond
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 59 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.2 Typical layouts of grade separated junctions - half diamond
+A2
+Half-cloverleaf
+A half-cloverleaf layout includes 2-way slip roads leading to/from two priority junctions on the minor
+road. They can be useful at locations where it is not practical to provide slip roads in all four quadrants
+of the junction.
+An advantage of a half-cloverleaf layout is that they include less conflict points compared to a diamond
+layout; however, a higher concentration of the turning movements occurring at the same point. A
+disadvantage of half-cloverleaf layouts is that they necessitate greater slip road curvature and loops
+compared to diamond layouts.
+A half-cloverleaf layout caters for similar flow levels to a diamond layout and they are therefore
+unsuitable for high mainline merging and diverging flows. They can also be unsuitable where there are
+high ahead flows on the minor road.
+Figure A.3 and Figure A.4 illustrate half-cloverleaf layouts with the slip roads provided in alternative
+quadrants and the traffic flow movements they cater for.
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 60 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.3 Typical layout of grade separated junction - half-cloverleaf quadrants 1
+and 3
+Figure A.4 Typical layout of grade separated junction - half-cloverleaf quadrants 2
+and 3
+A3
+Dumbbell roundabout
+A dumbbell roundabout layout includes slip roads leading to/from two roundabouts. In relation to traffic
+flow capacity, a dumbbell roundabout layout can be considered an intermediate between the
+diamond/half-cloverleaf and the two bridge roundabout layouts.
+The dumb-bell roundabout has the advantage of requiring less land than both the diamond and the two
+bridge roundabout layouts. It also requires only one bridge.
+It is important to ensure that the link road between the two roundabouts can provide queuing storage
+capacity otherwise queuing could extend back onto the roundabouts.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 61 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Requirements and advice on the geometric design of the roundabout elements of this layout are
+provided in CD 116 [Ref 3.I] .
+Figure A.5 illustrates a dumbbell roundabout layout.
+Figure A.5 Roundabout - dumbbell configuration (one bridge & two roundabouts)
+A4
+Two-bridge roundabout
+The most common grade separated junction layout is the the two-bridge roundabout. They provide
+greater traffic flow capacity than the dumbbell roundabout layout and are less complex from a road user
+perspective. They do however require two bridges and have a greater footprint.
+Requirements and advice on the geometric design of the roundabout elements of this layout are
+provided in CD 116 [Ref 3.I] .
+Figure A.6 illustrates a two bridge roundabout layout.
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 62 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.6 Roundabout - 2-bridge configuration
+A5
+Interchanges
+A5.1
+4-way, 3-level interchange
+Where two major roads cross, a 3-level arrangement with a roundabout can be provided as an
+alternative to a full interchange where volumes of turning traffic allow. Its advantages are that both the
+overall land take and the carriageway area are reduced when compared to a full interchange with
+entirely free flow link roads.
+The disadvantages are that this layout requires a relatively high number of structures and if the turning
+movements exceed capacity, operational problems such as queuing on the roundabout entries can
+occur. If queuing does become a problem, segregated left-turn lanes and restricted circulatory
+carriageway width could be provided, or signalisation if the aforementioned would not suffice.
+Figure A.7 illustrates a 4-way, 3-level interchange layout
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 63 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.7 3-level roundabout
+A5.2
+4-way, 2-level 'cyclic' interchange
+A 2-level 'cyclic' interchange utilises reverse curves. The land take is extensive however and it requires
+a relatively high number of structures. One particular disadvantage is that it requires separate diverge
+points for left and right movements from both mainlines, which can be complex to sign. The illustration
+in Figure A.8 shows two successive diverges off and one merge on to the mainline. A variant of this
+uses one diverge and two merges but the distance between the merges needs to be as great as
+possible to avoid potential conflicts. One principal connection on the mainline for the diverge, and one
+for the merge, is the preferred option with the final route selection occurring on the slip road as this
+reduces weaving on the mainline.
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 64 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.8 4-way, 2-level cyclic interchange
+A5.3
+4-way, 4-level interchange
+A 4 level interchange layout has the advantages of reduced land take, absence of loops and a low
+number of structures; however, it can be visually intrusive due to its overall height.
+Figure A.9 illustrates a 4-way, 4-level interchange layout.
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 65 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.9 4-way, 4-level interchange layout
+A5.4
+4-way, 2-level interchange
+A 4-way, 2-level interchange layout, as illustrated in Figure A.10, is an alternative to the 4-level option
+shown in Figure A.8. It is less visually intrusive, but has a larger land take and larger carriageway area.
+Another disadvantage is that it includes loops.
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 66 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.10 4-way restricted height interchange
+A5.5
+3-way interchanges
+A5.5.1
+3-way, 2-level 'trumpet'
+A 3-way, 2-level 'trumpet' interchange has 2-way slip roads. It is not suitable for motorway-to-motorway
+links or generally high-speed approaches to the loop from the minor road. As the minor road could be of
+a lesser standard to the major road, careful consideration is needed in relation to signing and preventing
+unauthorised users (in the case of the major road being a motorway) from entering the major road.
+A 3-way, 2-level 'trumpet' is illustrated in Figure A.11.
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 67 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.11 3-way, 2 -evel 'Trumpet' interchange
+A5.5.2
+3 way, 2 level restricted movement 'trumpet'
+Figure A.12 shows a 3-way, 2-level 'trumpet' interchange with restricted movement. It has one-way slip
+roads and enables higher vehicle speeds to be maintained with low land take. With the correct
+horizontal curvature and merge/diverge arrangement this can be suitable for motorway to motorway
+links.
+Figure A.12 3-way, 2-level restricted movement 'Trumpet' interchange
+A5.5.3
+3-way, 2-level unrestricted 'T'
+The 3-way, 2-level unrestricted 'T' layout, as illustrated in Figure A.13 caters for all movements in
+free-flow conditions.
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 68 of 96
+======================================================================
+CD 122 Version 1.1.1
+Appendix A. Examples of full grade separated junction lay...
+Figure A.13 3-way free-flow 'T' layout
+A5.5.4
+3 leg 'Y' interchange with link roads
+Figure A.1 4 illustrates a potential solution for an interchange where the roads join at a acute angle and
+there is a need to incorporate link roads.
+Figure A.14 3-leg 'Y' interchange of 2 motorways with mainline motorway and link
+roads
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 69 of 96
+======================================================================
+© Crown copyright 2022.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 70 of 96
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 122
+England National Application Annex to CD 122
+Geometric design of grade separated junctions
+(formerly IAN 149/17, IAN 161/15 and IAN 198/17)
+Version 0.1.0
+Summary
+This National Application Annex sets out the National Highways-specific requirements for the
+geometric design of grade separated junctions.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 71 of 96
+======================================================================
+CD 122 Version 0.1.0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+E/1. Modifying existing motorways
+7
+Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Geometric parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Merge layouts (CD 122 3.12 and 3.21) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Merge datum points (CD 122 3.5) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Diverge layouts (CD 122 3.26 and 3.31) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Stopping sight distance (CD 122 3.23, 3.24, 3.25, 3.33, 3.34, 5.13 and 5.14)
+. . . . . . . . . . . . . .
+7
+Near straights (CD 122 5.8) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Weaving lengths (CD 122 4.2, 4.3 and 4.5)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+E/2. Modifying existing dual carriageways
+9
+Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Geometric parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Merge layouts (CD 122 3.12 and 3.21) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Merge datum points (CD 122 3.5) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Diverge layouts (CD 122 3.26 and 3.31) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Stopping sight distances (CD 122 3.23, 3.24, 3.25, 3.33, 3.34, 5.13 and 5.14) . . . . . . . . . . . . . .
+10
+Near straights (CD 122 5.8) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Weaving lengths (CD 122 4.2, 4.3 and 4.5)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+E/3. Smart motorways
+11
+Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Geometric parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Merge layout (CD 122 3.12 and 3.21)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Merge datum points (CD 122 3.5) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Merge overrun
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Diverge layout (CD 122 3.26 and 3.31) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Stopping sight distance (CD 122 3.23, 3.24, 3.25, 3.33, 3.34, 5.13 and 5.14)
+. . . . . . . . . . . . . .
+12
+Near straights (CD 122 5.8) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Weaving lengths (CD 122 4.2, 4.3 and 4.5)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+E/4. Normative references
+13
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 72 of 96
+======================================================================
+CD 122 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 122
+0.1.0
+November 2021
+Core document,
+England NAA
+Incremental change to
+requirements
+3-lane diverges section deleted as a result of diverge Layout G moving to the main body of CD 122, plus minor
+wording improvements/corrections.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 122
+0
+August 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 73 of 96
+======================================================================
+CD 122 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes those parts of IAN 149/17, IAN 161/15 and IAN 198/17 relating to the
+geometric design of grade separated junctions.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 74 of 96
+======================================================================
+CD 122 Version 0.1.0
+Introduction
+Introduction
+Background
+This National Application Annex (NAA) gives the National Highways-specific requirements and
+additional relaxations relating to the geometric design of grade separated junctions for:
+1) modifying existing motorways where motorway regulations apply (herein referred to as 'existing
+motorways');
+2) modifying existing all-purpose dual carriageways; and,
+3) smart motorways.
+The additional relaxations included in this NAA allow greater flexibility when dealing with the constraints
+associated with enhancing elements of existing motorways and all-purpose dual carriageways in
+England.
+This National Application Annex is to be used in conjunction with CD 122 [Ref 1.N] and GD 301 [Ref
+3.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 75 of 96
+======================================================================
+CD 122 Version 0.1.0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+SM
+Smart motorway
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 76 of 96
+======================================================================
+CD 122 Version 0.1.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Expressway
+A high speed dual carriageway that has at least two lanes in each direction, grade
+separated junctions and uses technology to support operational regimes.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 77 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/1. Modifying existing motorways
+E/1.
+Modifying existing motorways
+Scope
+E/1.1
+The requirements and advice in section E/1 shall only be used when modifying existing motorways,
+with the exception of smart motorway and expressway schemes.
+E/1.1.1
+The parameters in section E/1 should only be used where it is not practicable to comply with the
+requirements of CD 122 [Ref 1.N].
+E/1.2
+The parameters in section E/1 shall not be used for new motorway elements, e.g. the construction of a
+new slip road.
+Geometric parameters
+Merge layouts (CD 122 3.12 and 3.21)
+E/1.3
+CD 122 3.12 shall be used to derive the appropriate merge layout; however, for existing motorways, the
+derived merge layout can be amended by only one of the following options:
+1) the road class in CD 122 Table 3.21 can be relaxed to 'rural all-purpose 120kph'; or,
+2) the CD 122 layout can be substituted as described below:
+a) Layout D can be used instead of Layout E1 and E2;
+b) Layout B, A1 or A2 can be used instead of Layout C; and,
+c) Layout A1 or A2 can be used instead of Layout B; or,
+3) where no lane gains are to be introduced the CD 122 layout can be substituted as described below:
+a) Layout B can be used instead of Layout D; and,
+b) Layout C or Layout E3 (see Figure E/1.3) can be used instead of Layout E1 and E2.
+Figure E/1.3 Layout E Option 3 - ghost island merge with auxiliary lane
+NOTE
+The combination of a reduction in road class and a substitute layout is not permitted.
+E/1.3.1
+Where the road class is reduced, the design parameters may be a combination of 'rural all-purpose
+120kph' and 'rural motorway' standard to maximise the capacity of the merge layout.
+Merge datum points (CD 122 3.5)
+E/1.4
+The merge datum point for Layout E option 3 shall be the end of the downstream taper, as illustrated in
+Figure E/1.3.
+Diverge layouts (CD 122 3.26 and 3.31)
+E/1.5
+CD 122 3.26 shall be used to derive the appropriate diverge layout; however, for existing motorways,
+the derived diverge layout can be amended by relaxing the road class in CD 122 Table 3.31 to 'rural
+all-purpose 120kph'.
+E/1.5.1
+Where the road class is reduced, the design parameters may be a combination of 'rural all-purpose
+120kph' and 'rural motorway' standard to maximise the capacity of the diverge layout.
+Stopping sight distance (CD 122 3.23, 3.24, 3.25, 3.33, 3.34, 5.13 and 5.14)
+E/1.6
+The minimum stopping sight distance to be provided on existing motorway connector roads shall be
+equal to or greater than the existing provision.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 78 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/1. Modifying existing motorways
+E/1.6.1
+The stopping sight distance to be provided on existing motorway connector roads should be as close
+as practicable to the requirements of CD 122.
+E/1.6.2
+Where the stopping sight distance on an existing motorway connector road is less than the minimum
+required for that class of road, the existing provision should only be retained if a review of the
+operational performance does not highlight a problem with it.
+Near straights (CD 122 5.8)
+E/1.7
+The near straight length to be provided at an existing motorway slip road shall be equal to or greater
+than the existing provision.
+NOTE
+The existing near straight provision could be no near straight at all.
+E/1.7.1
+Adjoining near straight and nose lengths to be provided at an existing motorway slip road may be
+different.
+E/1.7.2
+The near straight length to be provided at an existing motorway slip road should be as close as
+practicable to the requirements of CD 122.
+E/1.7.3
+Where the length of near straight at an existing motorway slip road is less than the minimum required
+for that class of road, the existing provision should only be retained if a review of the operational
+performance does not highlight a problem with it.
+Weaving lengths (CD 122 4.2, 4.3 and 4.5)
+E/1.8
+The minimum weaving length to be provided on an existing motorway shall be equal to or greater than
+the existing provision.
+E/1.8.1
+The weaving length to be provided on an existing motorway should be as close as practicable to the
+requirements of CD 122.
+E/1.8.2
+Where the weaving length on an existing motorway is less than the length derived from CD 122 Figure
+4.6b, options for reducing or eliminating weaving should be assessed and implemented where
+practicable.
+NOTE
+The need for a weaving section can be eliminated through the use of link roads.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 79 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/2. Modifying existing dual carriageways
+E/2.
+Modifying existing dual carriageways
+Scope
+E/2.1
+The requirements and advice in section E/2 shall only be used when modifying existing all-purpose
+dual carriageways, with the exception of expressways.
+E/2.1.1
+The parameters in section E/2 should only be used where it is not practicable to comply with the
+requirements of CD 122.
+E/2.2
+The parameters in section E/2 shall not be used for new all-purpose dual carriageway elements, e.g.
+the construction of a new slip road.
+Geometric parameters
+Merge layouts (CD 122 3.12 and 3.21)
+E/2.3
+CD 122 3.12 shall be used to derive the appropriate merge layout; however, for existing dual
+carriageways, the derived merge layout can be amended by only one of the following options:
+1) the road class in CD 122 Table 3.21 can be relaxed to 'urban road speed limit 60 mph'; or,
+2) the CD 122 layout can be substituted as described below:
+a) Layout D can be used instead of Layout E1 and E2;
+b) Layout B, A1 or A2 can be used instead of Layout C;
+c) Layout A1 or A2 can be used instead of Layout B; or
+3) where no lane gains are to be introduced, the CD 122 layout can be substituted as described below:
+a) Layout B can be used instead of Layout D;
+b) Layout C or Layout E3 can be used instead of Layout E1 and E2.
+Figure E/2.3 Layout E option 3 - ghost island merge with auxiliary lane
+NOTE
+The combination of a reduction in road class and a substitute layout is not permitted.
+E/2.4
+When reducing the merge parameters from 'rural all-purpose' to those of 'urban road speed limit 60
+mph', only the auxiliary lane length, entry taper and nose length dimensions shall be reduced.
+E/2.5
+When reducing the merge parameters from 'rural all-purpose' to those of 'urban road speed limit 60
+mph', the auxiliary lane length shall be reduced first before reducing the lengths of entry taper and nose
+length.
+E/2.5.1
+Where the road class is reduced, the design parameters may be a combination of 'urban road speed
+limit 60 mph' and 'rural all-purpose' standard to maximise the capacity of the merge layout.
+Merge datum points (CD 122 3.5)
+E/2.6
+The merge datum point for Layout E option 3 shall be the end of the downstream taper, as illustrated in
+Figure E/2.3.
+Diverge layouts (CD 122 3.26 and 3.31)
+E/2.7
+CD 122 3.26 shall be used to derive the appropriate diverge layout; however, for existing dual
+carriageways, the derived diverge layout can be amended by relaxing the road class in CD 122 Table
+3.31 to 'Urban Road Speed Limit 60mph'.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 80 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/2. Modifying existing dual carriageways
+E/2.8
+When reducing the diverge parameters from 'rural all-purpose' to those of 'urban road speed limit 60
+mph', the length of ghost island head shall be reduced first before reducing the lengths of the other
+parameters in the following order:
+1) length of exit taper 1-lane and 2-lane;
+2) length of auxiliary lane taper;
+3) minimum auxiliary lane length; and,
+4) nose length.
+E/2.8.1
+Where the road class is relaxed the design parameters may be a combination of 'urban road speed limit
+60mph' and 'rural all-purpose' standard to maximise the capacity of the diverge layout.
+Stopping sight distances (CD 122 3.23, 3.24, 3.25, 3.33, 3.34, 5.13 and 5.14)
+E/2.9
+The minimum stopping sight distance to be provided on existing dual carriageway connector roads
+shall be equal to or greater than the existing provision.
+E/2.9.1
+The stopping sight distance to be provided on existing dual carriageway connector roads should be as
+close as practicable to the requirements of CD 122.
+E/2.9.2
+Where the stopping sight distance on an existing dual carriageway connector road is less than the
+minimum required for that class of road, the existing provision should only be retained if a review of the
+operational performance does not highlight a problem with it.
+Near straights (CD 122 5.8)
+E/2.10
+The near straight to be provided at an existing dual carriageway slip road shall be equal to or greater
+than the existing provision.
+NOTE
+The existing near straight provision could be no near straight at all.
+E/2.10.1
+Adjoining near straight and nose lengths to be provided at an existing dual carriageway slip road may
+be different.
+E/2.10.2
+The near straight length to be provided at an existing dual carriageway slip road should be as close as
+practicable to the requirements of CD 122.
+E/2.10.3
+Where the length of near straight at an existing dual carriageway slip road is less than the minimum
+required for that class of road, the existing provision should only be retained if a review of the
+operational performance does not highlight a problem with it.
+Weaving lengths (CD 122 4.2, 4.3 and 4.5)
+E/2.11
+The minimum weaving length provided on an existing dual carriageway shall be equal to or greater
+than the existing provision.
+E/2.11.1
+The weaving length to be provided on an existing dual carriageway should be as close as practicable to
+the requirements of CD 122.
+E/2.11.2
+Where the weaving length on an existing dual carriageway is less than the length derived from CD 122
+Figure 4.6b, options for reducing or eliminating weaving should be assessed, and implemented where
+practicable.
+NOTE
+The need for a weaving section can be eliminated through the use of link roads.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 81 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/3. Smart motorways
+E/3.
+Smart motorways
+Scope
+E/3.1
+The requirements and advice contained in section E/3 shall only be used to upgrade an existing
+motorway to a smart motorway (SM).
+E/3.2
+Where a new junction is proposed as part of the upgrade of an existing motorway to a SM, the
+parameters in section E/3 shall not be used to design the new elements of that junction, e.g. the slip
+roads, with the exception of the E/3 merge overrun section.
+Geometric parameters
+Merge layout (CD 122 3.12 and 3.21)
+E/3.3
+CD 122 3.12 shall be used to derive the appropriate merge layout; however, for SM schemes, the
+derived merge layout can be amended by only one of the following options:
+1) the road class in CD 122 Table 3.21 can be relaxed to 'rural all-purpose 120kph'; or
+2) the CD 122 layout can be substituted as described below:
+a) Layout D or E3 can be used instead of Layout E1 and E2; or,
+b) Layout B, A1 or A2 can be used instead of Layout C; or,
+c) Layout A1 or A2 can be used instead of Layout B;
+3) where no lane gains are to be introduced, the CD 122 layout can be substituted as described below:
+a) Layout B can be used instead of Layout D.
+b) Layout C or Layout E3 (see Figure E/3.3) can be used instead of Layout E1 and E2.
+Figure E/3.3 Layout E option 3 - ghost island merge with auxiliary lane
+NOTE
+The combination of a reduction in road class and a substitute layout is not permitted.
+E/3.3.1
+Where the road class is reduced, the design parameters may be a combination of 'rural all-purpose
+120kph' and 'rural motorway' standard to maximise the capacity of the merge layout.
+E/3.4
+The merge nose width must accommodate the hatched road marking to SI 2016 No.362 (TSRGD) [Ref
+4.N] diagram 1042 (Schedule 9 Part 6 Item 22); however, a ratio that differs from that defined in CD 122
+Table 3.21 is permissible.
+Merge datum points (CD 122 3.5)
+E/3.5
+The merge datum point for Layout E option 3 shall be the end of the downstream taper, as illustrated in
+Figure E/3.3.
+Merge overrun
+E/3.6
+Where non-lane gain merges are to be provided, the need for merge overrun shall be assessed.
+E/3.6.1
+The merge overrun assessment should include monitoring of the existing non-lane gain merge (where
+applicable) and consultation with the relevant regional operations team to determine if there are any
+known merging issues with the existing layout.
+E/3.6.2
+Where the merge overrun assessment indicates the need for overrun provision, this should be provided.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 82 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/3. Smart motorways
+Diverge layout (CD 122 3.26 and 3.31)
+E/3.7
+CD 122 3.26 shall be used to derive the appropriate diverge layout; however, for SM schemes, the
+derived diverge layout can be amended by either of the following methods:
+1) the road class in CD 122 Table 3.31 can be relaxed to the 'Rural All-Purpose 120kph'; or,
+2) the CD 122 layout can be substituted for any other layout, with the exception of:
+a) Layout A, B or C cannot be used instead of Layout E; and,
+b) Layout A cannot be used instead of Layout D.
+NOTE
+The combination of a reduction in road class and a substitute layout is not permitted.
+E/3.7.1
+Where the road class is reduced, the design parameters may be a combination of 'rural all-purpose
+120kph' and 'rural motorway' standard to maximise the capacity of the merge layout.
+E/3.8
+The diverge nose width must accommodate the hatched road marking to SI 2016 No.362 (TSRGD)
+[Ref 4.N] diagram 1042 (Schedule 9 Part 6 Item 22); however, a ratio that differs from that defined in
+CD 122 Table 3.31 is permissible.
+Stopping sight distance (CD 122 3.23, 3.24, 3.25, 3.33, 3.34, 5.13 and 5.14)
+E/3.9
+The minimum stopping sight distance to be provided on a SM scheme connector road shall be equal to
+or greater than the existing provision.
+E/3.9.1
+The stopping sight distance to be provided on a SM scheme connector road should be as close as
+practicable to the requirements of CD 122.
+E/3.9.2
+Where the stopping sight distance on a SM scheme connector road is less than required for that class
+of road, the existing provision should only be retained if a review of the operational performance does
+not highlight a problem with it.
+Near straights (CD 122 5.8)
+E/3.10
+The near straight length to be provided at a SM scheme slip road shall be equal to or greater than the
+existing provision.
+NOTE
+The existing near straight provision could be no near straight at all.
+E/3.10.1
+Adjoining near straight and nose lengths to be provided at an existing motorway slip road may be
+different.
+E/3.10.2
+The near straight length to be provided at a SM scheme motorway slip road should be as close as
+practicable to the requirements of CD 122.
+E/3.10.3
+Where the length of near straight at an existing motorway slip road is less than the minimum required
+for that class of road, the existing provision should only be retained if a review of the operational
+performance does not highlight a problem with it.
+Weaving lengths (CD 122 4.2, 4.3 and 4.5)
+E/3.11
+The minimum weaving length provided on a SM scheme shall be equal to or greater than the existing
+provision.
+E/3.11.1
+The weaving length to be provided on an SM scheme should be as close as practicable to the
+requirements of CD 122.
+E/3.11.2
+Where the weaving length on a SM scheme is less than the length derived from CD 122 Figure 4.6b,
+options for reducing or eliminating weaving should be assessed and implemented where practicable.
+NOTE
+The need for a weaving section can be eliminated through the use of link roads.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 83 of 96
+======================================================================
+CD 122 Version 0.1.0
+E/4. Normative references
+E/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+National Highways. CD 122, 'Geometric design of grade separated junctions'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+Highways England. GD 301, 'Smart motorways'
+Ref 4.N
+The National Archives. legislation.gov.uk. SI 2016 No.362 (TSRGD), 'The Traffic
+Signs Regulations and General Directions 2016'
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 84 of 96
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 85 of 96
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 122
+Northern Ireland National Application Annex to
+CD 122 Geometric design of grade separated
+junctions
+Revision 0
+Summary
+There are no specific requirements for Department for Infrastructure Northern Ireland
+supplementary or alternative to those given in CD 122.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 86 of 96
+======================================================================
+CD 122 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 87 of 96
+======================================================================
+CD 122 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Aug 2019
+Department for Infrastructure Northern Ireland National Application Annex to
+CD 122.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 88 of 96
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 89 of 96
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 122
+Scotland National Application Annex to CD
+122 Geometric design of grade separated
+junctions
+Revision 0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CD 122.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 90 of 96
+======================================================================
+CD 122 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 91 of 96
+======================================================================
+CD 122 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Aug 2019
+Transport Scotland National Application Annex to CD 122.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 92 of 96
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 93 of 96
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 122
+Wales National Application Annex to CD 122
+Geometric design of grade separated junctions
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CD 122.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+CustomerHelp@wales.gsi.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 94 of 96
+======================================================================
+CD 122 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 95 of 96
+======================================================================
+CD 122 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Aug 2019
+Welsh Government National Application Annex to CD 122.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
+
+======================================================================
+PAGE 96 of 96
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 122 Version 1.1.1, published: 31-Jan-2022
+
+
