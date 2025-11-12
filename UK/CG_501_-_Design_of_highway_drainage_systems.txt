@@ -1,0 +1,3644 @@
+======================================================================
+PAGE 1 of 89
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+General Information
+CG 501
+Design of highway drainage systems
+Version 2.2.0
+Summary
+This document contains the over-arching requirements for drainage design on highways.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 89
+======================================================================
+CG 501 Version 2.2.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+11
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+2. Design principles
+12
+Background of drainage design principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Destinations for road runoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+General requirements of drainage design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+3. Road drainage design selection
+16
+Surface water drainage design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Kerb and gully drainage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Combined drainage
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Sub-surface drainage design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Embankments and cuttings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Groundwater . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+4. Climate change allowances for the design of carriageway drainage
+27
+5. Storm flows and flood risk
+28
+6. Drainage from adjacent land
+29
+Drainage from adjacent land
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+New and existing connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Management of land drainage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+7. Road geometry
+30
+Drainage of superelevated carriageways . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Drainage of wide carriageways . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Drainage flow paths
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Effect of carriageway edge markings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Crossfalls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+8. Pollution and flow control design
+38
+Principles of pollution and flow control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Selection of pollution and flow control measures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Signage of pollution control devices
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+9. Normative references
+44
+10. Informative references
+46
+Appendix A. Drainage option advantages and disadvantages
+47
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 89
+======================================================================
+CG 501 Version 2.2.0
+Contents
+Appendix B. Pollution control components
+54
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 89
+======================================================================
+CG 501 Version 2.2.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CG 501
+2.2.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+requirements
+Section on climate change updated and NAAs introduced to facilitate nation-specific requirements with regard to
+climate change predictions.
+Clarification that local highway authority developments are also considered third party developments.
+Clarification on calculating the combined treatment efficiency of treatment-trains.
+New recommendation added regarding pollution control devices for spillages.
+Other minor editorials and clarifications of wording.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CG 501
+2.1.0
+August 2022
+Core document
+Incremental change to
+requirements
+CG 501
+2.0.0
+March 2020
+CG 501
+1
+December 2019
+CG 501
+0
+October 2019
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 89
+======================================================================
+CG 501 Version 2.2.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CG 501 revision 2.1.0.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 89
+======================================================================
+CG 501 Version 2.2.0
+Introduction
+Introduction
+Background
+This document, and others in the drainage series of DMRB, now accommodate design-related text
+extracted from MCHW Series 500 during its update to CC 500 [Ref 10.N]. Drawings and details from
+the Highway Construction Details B-Series (Edge of Pavement Details) and F-Series (Drainage) have
+also been accommodated within the DMRB drainage series.
+This document sets out requirements and provides recommendations on the design of drainage for the
+UK motorway and all-purpose trunk roads. It describes the various alternative drainage solutions that
+are available, including their potential to control pollution and flooding, as well as detailed design
+factors to be taken into account.
+Road drainage can be broadly split into two categories: surface and sub-surface drainage. Generally
+speaking, road surfacing materials are effectively impermeable, and rainfall which does not permeate
+the carriageway surface is shed towards the edges of the pavement and into surface water drainage
+systems. Surface water can also infiltrate into road foundations, earthworks or structures through any
+surface which is not completely impermeable, and as such sub-surface drainage is utilised to allow
+such water to drain through underlying pavement layers and away from the formation.
+The types of drainage discussed in this standard are one element of road drainage. Other elements
+include:
+1)
+outfalls and culverts - see CD 529 [Ref 6.N];
+2)
+soakaways - see CD 530 [Ref 7.N];
+3)
+reservoir pavements - see CD 531 [Ref 19.N];
+4)
+gullies - see CD 527 [Ref 24.N];
+5)
+chamber tops and gully tops - see CD 534 [Ref 1.N];
+6)
+certification of drainage design - see CG 502 [Ref 25.N]; and
+7)
+chambers for drainage pipes - see CD 536 [Ref 2.N].
+Surface drainage is achieved through collection of surface water runoff from the pavement (and
+potentially adjacent land) through formal (such as through kerbs and gullies) or informal (over the edge)
+drainage, discharging into longitudinal surface channels or piped systems.
+Sub-surface drainage is achieved by installation of longitudinal sub-surface drains situated in verges
+and/or central reserves at the low edges of road pavements. These drain the pavement layers and the
+pavement foundation (pavement and capping layers are contiguous with the side of the trench) and
+prevent ingress of water from verge areas adjacent to the pavement.
+Drainage designs may utilise combined systems (where both surface water and subsurface water are
+collected in the same pipe) or separate systems (where subsurface water is collected in a separate
+drainage conduit from the one that is used for collection of surface water).
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 18.N] apply to this document.
+Mutual Recognition
+Where there is a requirement for compliance with any part of a "British Standard" or other technical
+specification, that requirement may be met by compliance with the Mutual Recognition clause in GG
+101 [Ref 18.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 89
+======================================================================
+CG 501 Version 2.2.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+F
+Fin drain
+GSWC
+Grassed surface water channel
+NF
+Narrow filter drain
+PCD
+Pollution control device
+PCS
+Pollution control sign
+SuDS
+Sustainable drainage systems
+SW
+Surface water channel
+VRS
+Vehicle restraint system
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 89
+======================================================================
+CG 501 Version 2.2.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Catchpit
+small chamber that road runoff passes through,
+incorporating sediment collection sump
+Combined kerb and drainage channel
+kerb units with inlets to an enclosed internal drainage
+channel
+Combined channel and pipe drain
+open concrete channel with an integral enclosed drainage
+channel or pipe below it
+Combined surface and sub-surface drain
+system of filter drainage that comprises a perforated,
+porous or open-jointed carrier pipe, bedded in granular
+material, in a trench that is then backfilled with a granular
+filter material.
+Crossfall
+the slope on the road at right angles to the direction of
+travel
+Crown line
+the line on the road where the crossfall changes
+Detention basin
+landscaped depression that is normally dry except during
+and following rainfall events, designed to temporarily
+store water to attenuate flows and, where vegetated,
+provide treatment of pollution
+Fin drain
+a planar geocomposite arrangement designed to remove
+subsurface moisture from beneath the pavement.
+NOTE: This can solely comprise a core surrounded by
+textile, or incorporate a pipe within the geotextile wrap.
+First flush
+the runoff from the first part of a rainfall event.
+NOTE: This usually is the most polluted runoff, especially
+when there is intense rainfall after long dry periods during
+which pollutants can accumulate on the road.
+Flood plain
+any land with a 1 in 100 or greater annual probability of
+river flooding, or a 1 in 200 or greater annual probability of
+sea flooding
+Flow path
+the route taken by rainfall runoff from the point at which it
+falls on the carriageway surface to the carriageway edge
+Flow path gradient
+the overall net gradient produced from a combination of
+the longitudinal gradient and crossfall gradient (when
+changing from a superelevated carriageway to
+non-superelevated carriageway)
+Grassed surface water channel
+grassed triangular or trapezoidal surface water channel
+that is installed at the pavement edge to collect and
+convey rainfall runoff from the road surface
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 89
+======================================================================
+CG 501 Version 2.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Groundwater
+all water that is below the surface of the ground in the
+saturation zone (below the watertable) and in direct
+contact with the ground or subsoil
+Handstop
+flat plate, fitted to a pair of guide slots on a headwall or
+chamber wall, which can be raised and lowered manually
+(rather than screw thread as per penstocks)
+Hard shoulder
+a nearside lane adjacent to a carriageway, for emergency
+use
+Hazardous substance
+substances or groups of substances that are toxic,
+persistent and liable to bioaccumulate, and other
+substances or groups of substances that give rise to an
+equivalent level of concern.
+NOTE: In accordance with the 2000/60/EC [Ref 1.I].
+High watertable level
+maximum permitted level of the groundwater table
+beneath the road sub-formation
+Infiltration basin
+dry basin designed to promote infiltration of surface water
+into the ground
+Over the edge drain
+an arrangement where surface water flows off the
+carriageway and across the verge to a drainage system,
+usually a ditch
+Kerb and gully drainage
+system of drainage whereby surface water is directed by
+edge of pavement kerbs into gullies that are connected to
+a longitudinal carrier drain or pipe set within the road
+verge
+Linear drainage channel
+closed profile hydraulic conduit with slots or holes located
+in the top
+Narrow filter drain
+edge-of-pavement subsurface drain that comprises filter
+material and a carrier pipe, which can be wrapped in a
+geotextile
+Penstock
+flat plate, fitted to a pair of guide slots on a headwall or
+chamber wall, which can be raised and lowered using a
+screw thread operated by a wheel, in order to control
+spillages
+Pollution
+direct or indirect introduction, as a result of human activity,
+of substances or heat into the air, water or land that can
+be harmful to human health or the quality of aquatic
+ecosystems (or terrestrial ecosystems directly depending
+on aquatic ecosystems), which result in damage to
+material property, or which impair or interfere with
+amenities and other legitimate uses of the environment.
+NOTE: In accordance with the 2000/60/EC [Ref 1.I].
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 89
+======================================================================
+CG 501 Version 2.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Pervious asphalt
+asphalt material used to make pavement layers pervious
+with open voids to allow water to pass through.
+Reasonably practicable
+Something that is achievable without disproportionate
+level of complexity or having an impact on other design
+elements or construction, installation or maintenance of
+those elements.
+NOTE: Issues for consideration can include sewer
+capacity, maintenance responsibilities, capital and
+maintenance costs .
+Reservoir pavement
+pavement where rainfall percolates through the pervious
+road surfacing, or runoff is diverted via gullies, edge
+drains and pipes into a porous subbase material
+(reservoir).
+NOTE: Here, rain water accumulates before it slowly
+percolates into the soil subgrade or discharges through
+drains into the main surface water drainage system.
+Retention pond
+pond that generally retains some water at all times. Can
+have permeable base or banks. Primarily designed to
+attenuate flows by accepting large inflows, but
+discharging slowly. Can also treat water by allowing
+suspended solids to settle out.
+Roll-over lengths
+lengths of carriageway where the crossfall is varied for
+the provision/purpose of superelevation
+Sedimentation tank
+Contained structure that allows suspended particles to
+settle out of water as it flows slowly through the tank,
+providing a degree of purification.
+NOTE: A layer of accumulated sludge collects at the base
+of the tank and needs periodic removal.
+Soakaway
+subsurface structure into which surface water is conveyed
+and which aids infiltration
+Source protection zone
+zones designated around public water supply
+abstractions and other sensitive receptors that show the
+risk of contamination from any activities that can cause
+pollution in the area
+Superelevated carriageway
+carriageway with a curved horizontal alignment where the
+crossfall slopes towards the inside of the bend
+Surface water body
+inland waters (except groundwater), transitional waters
+and coastal waters.
+NOTE: In accordance with the 2000/60/EC [Ref 1.I].
+Surface water channel (including
+channel blocks)
+triangular, trapezoidal or rectangular cross-section
+channel, formed from asphalt or concrete, located near
+the edge of the carriageway, used to collect and convey
+surface water from the road
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 89
+======================================================================
+CG 501 Version 2.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Swale
+wide shallow grassed channel, normally located adjacent
+to a carriageway but often separated by a section of verge
+Wetland
+a pond with a high proportion of shallow zones that
+promote the growth of bottom-rooted plants, and which
+can be used for treatment of pollution
+Wide carriageway
+Wide carriageways have layouts with dual, 4-lane
+carriageways. For 2- and 3-lane carriageways, junction
+areas and changes of superelevation are wide
+carriageways.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 89
+======================================================================
+CG 501 Version 2.2.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The methods and design requirements in this document shall be applied where the design of new
+drainage is undertaken.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving design of drainage on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 18.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 18.N] shall be followed in respect of activities covered by
+this document.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 89
+======================================================================
+CG 501 Version 2.2.0
+2. Design principles
+2.
+Design principles
+Background of drainage design principles
+2.1
+The design of surface and sub-surface drainage in UK motorway and all-purpose trunk roads shall:
+1)
+remove surface water from the carriageway as quickly as possible to provide safety and minimum
+nuisance to the road users;
+2)
+maximise longevity of the pavement and its associated earthworks;
+3)
+minimise the impact of the runoff on the receiving environment in terms of flood risk and water
+quality; and,
+4)
+manage water flows from earthworks and structures associated with the roads.
+2.2
+Designs must be undertaken in accordance with the Construction (Design and Management)
+Regulations UKSI 2015/51 [Ref 26.N].
+2.3
+Drainage design shall be integrated such that drainage of the road, water quality and flood risk
+simultaneously meet the requirements given in the remainder of the Design Manual for Roads and
+Bridges (DMRB).
+NOTE 1
+The process of integrated drainage design is illustrated in Figure 2.3.N1.
+Figure 2.3N1 Integrated design approach
+NOTE 2
+Requirements for the design of highway drainage are presented in:
+1)
+this document;
+2)
+CD 521 [Ref 17.N] Hydraulic design of road edge surface water channels and outlets;
+3)
+CD 522 [Ref 12.N]; Drainage of runoff from natural catchments
+4)
+CD 523 [Ref 9.N] Determination of pipe roughness and assessment of sediment deposition to aid
+pipeline design;
+5)
+CD 524 [Ref 14.N] Edge of pavement details;
+6)
+CD 525 [Ref 5.N] Design of combined surface and sub-surface drains and management of stone
+scatter;
+7)
+CD 526 [Ref 22.N]Spacing of road gullies;
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 89
+======================================================================
+CG 501 Version 2.2.0
+2. Design principles
+8)
+CD 527 [Ref 24.N]Gullies;
+9)
+CD 528 [Ref 29.N]Vortex separators for use with road drainage systems;
+10)
+CD 529 [Ref 6.N]Design of outfall and culvert details;
+11)
+CD 530 [Ref 7.N]Design of soakaways;
+12)
+CD 531 [Ref 19.N]Reservoir pavements for drainage attenuation;
+13)
+CD 532 [Ref 28.N]Vegetated drainage systems for highway runoff;
+14)
+CD 533 [Ref 8.N] Determination of pipe and bedding combinations for drainage works;
+15)
+CD 534 [Ref 1.N]Chamber tops and gully tops for road drainage and services;
+16)
+CD 535 [Ref 11.N]Drainage asset data and risk management;
+17)
+CD 536 [Ref 2.N]Chambers for drainage pipes.
+18)
+CG 502 [Ref 25.N]The certification of drainage design;
+19)
+CS 551 [Ref 13.N]Drainage surveys; and
+20)
+LA 113 [Ref 20.N]Road drainage and the water environment.
+Destinations for road runoff
+2.4
+Road drainage shall be discharged to the following destinations in order of preference:
+1)
+ground;
+2)
+surface water body;
+3)
+surface water sewer; and,
+4)
+combined sewer.
+2.5
+The decision process that shall be followed when determining the destination for road drainage is
+presented in Figure 2.5.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 89
+======================================================================
+CG 501 Version 2.2.0
+2. Design principles
+Figure 2.5 Destination of road runoff - decision flowchart
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 89
+======================================================================
+CG 501 Version 2.2.0
+2. Design principles
+NOTE 1
+Groundwater quality standards can vary over time and between the various environmental protection
+bodies.
+NOTE 2
+The acceptability of different risks varies according to geographic location, and is site specific.
+2.6
+Road drainage shall only be discharged into lakes, ponds, canals or reservoirs where a site-specific
+risk assessment produced in compliance with LA 113 [Ref 20.N] demonstrates that this represents no
+or minimal risk to the lake, pond, canal or reservoir.
+2.6.1
+Discharge of road drainage to ground within a groundwater source protection zone 1 (SPZ 1) should be
+avoided. (See Environment Agency LIT 7660 [Ref 5.I]) .
+NOTE
+Guidance on discharge of road drainage to ground within a SPZ 1 is given within LA 113 [Ref 20.N].
+2.6.2
+Discharge of road drainage to ground within a groundwater Source protection zone 2 (SPZ 2) should
+be avoided (see LIT 7660 [Ref 5.I]) though the acceptance of such is likely to require less justification
+than within a SPZ 1.
+2.7
+Discharge of road drainage shall not be to a foul sewer.
+2.8
+Where the rate of surface water runoff is greater than the rate at which water is able to infiltrate into the
+ground, discharge to the ground shall be utilised to drain water within the capacity of the ground
+conditions.
+2.9
+Discharge to the ground shall not create an unacceptable risk of groundwater flooding, ground
+instability or groundwater contamination.
+2.10
+Where the rate of surface water runoff is greater than the rate at which water is able to infiltrate into the
+ground, the excess runoff shall be drained to surface water or sewer options in accordance with Figure
+2.5.
+2.10.1
+When using the decision flowchart in Figure 2.5 the potential to use mitigation measures (such as flow
+attenuation or SuDS) should be evaluated.
+General requirements of drainage design
+2.11
+A document describing the technical basis of the drainage design shall be prepared and submitted to
+the Overseeing Organisation in accordance with CG 502 [Ref 25.N].
+NOTE
+Factors associated with baseline environment are site-specific and include catchment size, drained
+areas, runoff destination, space, topography, groundwater, soil permeability, existing drainage and
+sensitive receptors.
+2.12
+The use of the decision flowchart in Figure 2.5, together with the justification for the outcomes of it,
+shall be recorded in the document describing the technical basis of the drainage design.
+2.12.1
+The drainage design should be carried out early in the design process for a project.
+2.13
+All drainage designs shall incorporate safety measures as required by CD 521 [Ref 17.N], CD 524 [Ref
+14.N], CD 525 [Ref 5.N] and CD 532 [Ref 28.N].
+NOTE
+CD 532 [Ref 28.N] includes details of safety risk assessments and mitigation measures for open bodies
+of water.
+2.14
+Assessment of effects of road drainage on the water environment shall be carried out in accordance
+with LA 113 [Ref 20.N].
+2.15
+All documentation shall be managed in accordance with CD 535 [Ref 11.N].
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+3.
+Road drainage design selection
+3.1
+Detailed design of carriageway drainage shall identify the range of options and recommend the most
+suitable option based on site-specific constraints.
+NOTE
+Table 3.4 presents guidance on the suitability of different types of road drainage in different scenarios
+and references the documents that contain detailed design advice and standards.
+3.2
+The design process shall determine:
+1)
+the destination of road runoff (see Figure 2.5);
+2)
+the design storms to be used in the design of the drainage elements within the catchment under
+consideration;
+3)
+the flows from the design storms at each drainage element within the catchment, incorporating
+the necessary allowances for climate change;
+4)
+the hydraulic adequacy of each drainage element within the catchment;
+5)
+where required, the structural loadings upon drainage conduits, and verification that each conduit
+can withstand the loading placed upon it;
+6)
+the location and levels of associated outfalls and/or soakaways; and,
+7)
+where required, the incorporation of pollution and flood risk control measures.
+3.3
+Where excavation is required, the design of drainage systems shall include management of the
+excavated material to minimise waste and minimise risk to human health or the environment.
+3.4
+Justification shall be given for the system selected for drainage, based upon the requirements stated
+within this document.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Table 3.4 Surface, combined and sub-surface drainage types
+Drainage collector detail
+Urban applications
+Rural applications
+Scenarios not suitable
+Reference
+documents
+for detailed design
+requirements
+Combined channel
+and pipe drain
+1) not generally
+applicable.
+1) high- speed roads;
+2) embankments where verge
+space is limited.
+1) areas subject to equestrian
+use;
+2) in front of a vehicle restraint
+system (VRS) if the flow
+depth is greater than 150
+mm;
+3) within the working width
+behind a VRS if the flow
+depth is greater than 200
+mm.
+CD 521 [Ref 17.N]
+Surface
+drainage
+Combined kerb and
+drainage channel
+1) areas of congested
+public utility
+services;
+2) shallow outlets;
+3) flat long gradients;
+4) roundabouts.
+1) flat long gradients where
+footways are within highway
+verge;
+2) roundabouts.
+1) junction or stretch of road
+where maintenance could
+require road closure or
+complex traffic management
+requirements;
+2) areas with leaf litter or
+where overhanging/dense
+vegetation is present.
+CD 524 [Ref 14.N]
+CD 127 [Ref 3.N]
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Table 3.4 Surface, combined and sub-surface drainage types (continued)
+Drainage collector detail
+Urban applications
+Rural applications
+Scenarios not suitable
+Reference
+documents
+for detailed design
+requirements
+Grassed surface
+water
+channels/swales
+1) not generally
+applicable.
+1) in verges for grassed
+surface-water channels;
+2) on gently sloping
+embankments for swales;
+3) on areas where there is
+over-the-edge drainage.
+1) on central reserve if located
+at the pavement edge;
+2) where the height of an
+embankment exceeds the
+width of a proposed channel
+(due to the risk of
+percolation destabilising the
+embankment slope);
+3) within a groundwater SPZ
+(unless unacceptable risk of
+groundwater pollution);
+4) in front of a VRS if the flow
+depth is greater than 200
+mm;
+5) within the working width
+behind VRS if the flow depth
+is greater than 200 mm.
+CD 521 [Ref 17.N]
+Surface
+drainage
+Over the edge
+drainage
+1) not generally
+applicable.
+1) in verges;
+2) embankments (but only
+where there is an open ditch
+or watercourse at the base
+of the embankment).
+1) locations where footways or
+segregated cycleways abut
+carriageways;
+2) on structures;
+3) embankments constructed
+of clayey or silty soil or of
+depth greater than 1.0 m
+and slope steeper than 1:3 (
+33%).
+CD 521 [Ref 17.N]
+CD 524 [Ref 14.N]
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Table 3.4 Surface, combined and sub-surface drainage types (continued)
+Drainage collector detail
+Urban applications
+Rural applications
+Scenarios not suitable
+Reference
+documents
+for detailed design
+requirements
+Kerbs and gullies
+1) general usage;
+2) embankments.
+1) footways within highway
+verge, such as in laybys;
+2) roundabouts.
+1) not recommended for rural
+roads unless footways are
+located within the verge,
+safety barriers or parapets
+are required, or continual
+surface and sub-surface
+drains are present;
+2) where they can pose a
+hazard to pedestrian, cycle
+or equestrian crossings.
+CD 127 [Ref 3.N] CD
+524 [Ref 14.N]
+CD 526 [Ref 22.N]
+Surface
+drainage
+Linear drainage
+channels
+1) car park areas;
+2) adjacent to vertical
+concrete barriers;
+3) nosings of
+interchanges.
+1) nosings of interchanges.
+1) in front of a VRS (when
+located in the verge or
+central reserve);
+2) locations where frequent
+maintenance interventions
+are required;
+3) areas subject to pedestrian
+and cyclist use (risk
+associated with slotted
+drains only);
+4) areas with leaf litter or
+where overhanging/ dense
+vegetation is present;
+5) areas subject to high
+sediment input.
+CD 524 [Ref 14.N]
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Table 3.4 Surface, combined and sub-surface drainage types (continued)
+Drainage collector detail
+Urban applications
+Rural applications
+Scenarios not suitable
+Reference
+documents
+for detailed design
+requirements
+Surface
+drainage
+Surface water
+channels (including
+channel blocks)
+1) not generally
+applicable.
+1) high-speed roads;
+2) embankments;
+3) cuttings.
+1) edge drains contiguous with
+hard shoulders, hardstrips
+or carriageways (channel
+blocks);
+2) areas subject to equestrian
+use;
+3) in front of a VRS if the flow
+depth is greater than 150
+mm;
+4) within the working width
+behind VRS if the flow depth
+is greater than 200 mm.
+CD 521 [Ref 17.N]
+CD 524 [Ref 14.N]
+Combined
+Combined surface
+and sub-surface
+drains
+1) not generally
+applicable.
+1) along edge of cuttings or
+within central reserve where
+groundwater levels have the
+potential to interfere with
+operation of a surface water
+drainage system or there is
+limited verge width;
+2) roads with long lengths of
+zero longitudinal gradient.
+1) central reserves in order to
+reduce health and safety
+risks during maintenance;
+2) in narrow verges subject to
+use by equestrians.
+CD 524 [Ref 14.N] CD
+533 [Ref 8.N]
+CD 525 [Ref 5.N]
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Table 3.4 Surface, combined and sub-surface drainage types (continued)
+Drainage collector detail
+Urban applications
+Rural applications
+Scenarios not suitable
+Reference
+documents
+for detailed design
+requirements
+Fin drain
+1) not generally
+applicable.
+CD 524 [Ref 14.N]
+Sub-
+surface
+drainage
+Narrow filter drain
+1) not generally
+applicable.
+1) edge of pavement where
+groundwater ingress is not
+expected to be large.
+1) roads comprising rigid or
+flexible carriageways with
+over the edge drainage;
+2) roads with free draining
+subgrade;
+3) areas where significant
+groundwater ingress is
+expected.
+CD 524 [Ref 14.N]
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+NOTE 1
+Additional details on the advantages and disadvantages of these drainage types are presented in
+Appendix A. Tables 3.5.1 and 3.5.2 provide details of edge of pavement and central reserve drainage
+design options.
+NOTE 2
+The general principle of highway drainage is that surface water and sub-surface water are kept
+separate as far as practically possible until the sub-surface water discharges to a chamber that
+connects to the carrier pipe. This is in order to prevent large amounts of water being introduced to the
+road pavement foundation, however the use of combined drainage is preferable in certain
+circumstances (see Combined drainage (below) and Table 3.4).
+3.5
+Edge of pavement drains shall be included on all roads except the following, in accordance with CD
+524 [Ref 14.N]:
+1)
+roads with combined surface and sub-surface drains;
+2)
+roads comprising rigid or flexible carriageways with over-the-edge drainage; and,
+3)
+roads with free draining subgrade.
+3.5.1
+The decision processes presented in Table 3.5.1 may be used to determine the most appropriate edge
+of pavement drainage design.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Table 3.5.1 Recommended design selections for verge-side edge drainage
+Kerbs (with gullies) necessary because of:
+a) footway within highway verge;
+b) urban conditions; or,
+c) other site-specific considerations?
+Yes - kerbs (with gullies) required
+No - kerbs (with gullies) not required
+Location
+Road in cutting
+Road on
+embankment
+Road in cutting
+Road on
+embankment
+Constraints
+Groundwater
+problems
+No groundwater
+problems
+-
+Groundwater
+problems
+No groundwater
+problems
+No verge
+restrictions
+Verge
+restrictions
+Low
+embank-
+ment
+of granular
+material
+Primary
+design
+solution
+Combined
+surface
+and sub-surface
+drain
+NF drain with
+long, sealed,
+carrier drain
+NF or F drains
+with
+separate gully
+connections
+Combined
+surface
+and
+sub-surface
+drain
+SW channel
+with F or NF
+drain
+SW channel
+with F or NF
+drain
+SW channel
+with F or NF
+drain
+Over-the-
+edge
+drain
+Alternative
+design
+solution
+GSWC
+GSWC
+-
+GSWC
+GSWC
+-
+-
+GSWC
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+NOTE
+NF – narrow filter drain; F – fin drain; SW – surface water channel; GSWC - grassed surface water
+channel.
+3.5.2
+The decision processes presented in Table 3.5.2 may be used to determine the most appropriate
+central reserve drainage design.
+Table 3.5.2 Recommended design selections for central reserve drainage
+Location
+Balanced carriageway
+Superelevated carriageway
+Central reserve
+Paved
+Unpaved
+Paved
+Unpaved
+Design solution
+F or NF drain
+SW channel and F or NF drain
+Alternative design
+solution
+-
+-
+-
+Combined surface and
+sub-surface drain
+NOTE
+NF – narrow filter drain; F – fin drain; SW – surface water channel.
+3.6
+Where a pavement overlay is being installed over an existing pavement, the design of the overlay shall
+not compromise operation of existing pavement edge drainage.
+3.7
+The levels of gully grating and filter media on kerb and gully drains or combined surface and
+sub-surface drains shall be raised to match the new pavement level.
+3.7.1
+The edge of the overlay may be shaped to tie in with the top of surface water channels if it can be
+achieved without compromising the structural integrity of the pavement.
+3.7.2
+As an alternative to shaping the edge of the overlay, the existing drainage channel may be broken out
+and replaced at a higher level.
+Surface water drainage design
+3.8
+Where surface water edge of pavement drainage is used it shall be designed in accordance with the
+requirements of these documents: CD 521 [Ref 17.N], CD 524 [Ref 14.N], CD 525 [Ref 5.N] and LA
+113 [Ref 20.N].
+Kerb and gully drainage
+3.9
+Kerb and gully drainage systems located within the nosing sections of junction merge and diverge
+tapers shall be designed to withstand trafficking of the hard shoulder.
+NOTE
+Locations such as the nosing sections of junction merge and diverge tapers commonly have low points
+in cross-section due to the direction of crossfalls.
+3.10
+Where kerb and gully drainage is designed in combination with fin drains, it shall not have an adverse
+effect on fin drain operation.
+NOTE 1
+Functioning of kerb and gully systems is dependent upon the build-up of a flow of water in front of the
+kerb.
+NOTE 2
+Flows of water against the kerb face generally increase in the direction of longitudinal gradient until the
+flow is intercepted by a road gully.
+NOTE 3
+Build-up of widths of water flow, which have the potential to intrude into the hard shoulder, hardstrip or
+carriageway of the highway present a hazard to vehicles.
+3.11
+Gully spacing shall be designed in accordance with CD 526 [Ref 22.N] .
+NOTE
+Details of acceptable flow widths are presented in CD 526 [Ref 22.N].
+3.11.1
+For low embankments with toe ditches, gullies may discharge directly to the toe ditches via discrete
+outlets.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Combined drainage
+3.12
+Where combined surface and sub-surface drainage is used it shall be designed in accordance with the
+requirements of this document and CD 525 [Ref 5.N].
+NOTE
+The requirements and advice on pipe and bedding combinations in combined surface and sub-surface
+drains is presented in CD 533 [Ref 8.N].
+3.13
+Surface treatment or stabilisation of combined surface and sub-surface drains shall be included in the
+design at locations where the risk of stone scatter occurring is greatest (refer to CD 525 [Ref 5.N]).
+NOTE
+Potential risks associated with combined surface and sub-surface drains include surface failure of
+embankments and pavement failures.
+3.13.1
+To minimise surface water input at trench base level, the design of combined drainage for cuttings may
+include pipes with sealed joints and with perforations or slots laid uppermost.
+3.13.2
+Lining of trench bottoms with impermeable membranes up to pipe soffit level may be used to prevent
+infiltration of water from the drainage system into surrounding dry sub-soil or from polluting an
+underlying aquifer.
+3.13.3
+Separate design estimates for groundwater flow may not be needed when designing combined surface
+and sub-surface drainage for a cutting.
+Sub-surface drainage design
+3.14
+Where sub-surface drainage is used it shall be designed in accordance with CD 524 [Ref 14.N].
+3.15
+The design of sub-surface drainage shall include shaping of the formation and sub-formation such that
+sub-surface water drains to longitudinal sub-surface drains.
+3.16
+Sub-surface water shall not be retained within the subbase or capping layer.
+3.17
+The minimum depth of installation of fin and narrow filter drains shall be as shown in CD 524 [Ref 14.N]
+relative to formation level, or sub-formation level.
+3.18
+Where there is no capping layer, fin and narrow filter drains shall be laid to the lower of either formation
+or sub-formation level.
+3.19
+Drains shall maintain the water table level at least 300 mm below the road sub-formation level.
+NOTE 1
+High groundwater levels have the potential to interfere with the operation of surface water drainage
+systems.
+NOTE 2
+In situations where large volumes of groundwater are anticipated, filter drains can provide a better
+solution than fin or narrow filter drains.
+3.20
+The design of sub-surface drainage shall not contain any low spots where water can accumulate.
+3.20.1
+Use of 100 mm-diameter pipes within narrow filter drains, rather than pipes of smaller diameter, may
+reduce future maintenance costs.
+3.21
+The subbase shall be drained unless the underlying materials (capping or subgrade) are more
+permeable than the subbase, and the water table is never within 300 mm of the underside of the
+foundation (in accordance with CD 225 [Ref 4.N]).
+Embankments and cuttings
+3.22
+Subsurface drainage in cuttings shall lower groundwater to a depth such that it does not have the
+potential to interfere with the operation of a surface water drainage system (in accordance with CD 525
+[Ref 5.N]).
+3.22.1
+Circumstances in which subsurface drainage may be omitted are described in CD 524 [Ref 14.N].
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 89
+======================================================================
+CG 501 Version 2.2.0
+3. Road drainage design selection
+Groundwater
+3.23
+Subsurface drainage shall function regardless of variations in groundwater level.
+NOTE 1
+Water moves partly by gravity and partly by capillary action, and these movements are susceptible to
+control by subsoil drainage.
+NOTE 2
+Groundwater is subject to seasonal variations consequential to rainfall conditions, geology and soil
+permeability.
+3.23.1
+Ground investigations undertaken to inform a drainage design should provide groundwater level data
+representative of worst case conditions.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 89
+======================================================================
+CG 501 Version 2.2.0
+4. Climate change allowances for the design of c...
+4.
+Climate change allowances for the design of carriageway drainage
+4.1
+The design of carriageway drainage shall apply the latest climate change allowances for peak rainfall
+intensity in accordance with the requirements set out in the relevant National Application Annex.
+NOTE
+This section of CG 501 (Section 4) addresses how the effects of climate change are dealt with as part
+of carriageway drainage design only. For the design of features to minimise flood risk, refer to LA 113
+[Ref 20.N]
+4.2
+Where climate change allowances are not stated in the relevant National Application Annex, a 20 %
+uplift in peak rainfall intensity shall be applied and documented within the report on the drainage design
+described in CG 502 [Ref 25.N].
+4.3
+Where climate change allowances are not stated in the relevant National Application Annex, a
+sensitivity test to 40 % uplift in peak rainfall intensity shall be undertaken and documented within the
+report on the drainage design described in CG 502 [Ref 25.N].
+NOTE
+The difference between the 20 % and 40 % scenarios enables understanding of the range of impact
+between climate change risk scenarios.
+4.4
+Where climate change allowances are not stated in the relevant National Application Annex, use of an
+increase in peak rainfall intensity of greater than 20 % in carriageway drainage design shall be subject
+to approval by the Overseeing Organisation.
+4.5
+Justification for the value of peak rainfall intensity chosen for the carriageway drainage design shall be
+given within the report on the drainage design described in CG 502 [Ref 25.N].
+4.6
+Drainage designs shall be developed on the basis that all new carriageway drainage has a minimum
+design life of 60 years, unless otherwise instructed by the Overseeing Organisation.
+4.7
+In schemes that use existing outfalls current discharge rates shall not be exceeded.
+4.8
+All pavement edge drainage for collection of surface runoff plus the carrier pipes/conduits that convey
+that runoff shall be designed based on the rainfall experienced by the catchment in which the road is
+located.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 89
+======================================================================
+CG 501 Version 2.2.0
+5. Storm flows and flood risk
+5.
+Storm flows and flood risk
+5.1
+For road runoff within drainage systems the following overall design criteria shall apply:
+1)
+1 in 1 year – no surcharge of the drainage system; and,
+2)
+1 in 5 years – no flooding from the drainage system.
+NOTE
+This requirement applies to all types of road drainage.
+5.2
+The requirements for various types of drainage, relating to 1-in-1 and 1-in-5 year storm events, as
+outlined in Table 5.2, shall be adhered to.
+Table 5.2 Storm event requirements
+Location/
+drainage type
+1-in-1 year storm requirements
+1-in-5 year storm requirements
+Carrier drains
+Drain to accommodate flows in bore
+without surcharge over the crown of
+the pipe
+Flows not to cause chamber surcharge
+levels to rise above the soffit of the
+chamber cover
+Combined
+surface and
+subsurface
+drains
+Drain to accommodate flows in bore
+without surcharge
+Flows not to cause chamber surcharge
+levels to rise above the formation level,
+or subformation level where a capping
+layer is present
+Surface water
+channels
+Flows to be contained within the
+channel. no surcharge to take place
+Surcharge not to encroach into the
+running lane
+Verges
+Surcharges for storms up to 1-in-5 year return period limited to a width of 1.5 m in
+the case of hard shoulder and 1.0 m in the case of hardstrip
+Central reserve
+Surcharges for storms up to 1-in-5 year return period not to encroach the
+carriageway. Flooding within non-pavement width of the central reserve
+permissible providing there is safeguard against flows from the surcharged
+channel overtopping the central reserve and flowing into the opposing
+carriageway
+NOTE
+For combined surface and sub-surface drains, 1-in-5 year storm requirements are based on the
+assumption that pipes are sealed and that flow between pipes and filter material does not take place.
+5.3
+All drainage systems shall be designed so that highway surface water flooding does not extend beyond
+the highway boundary up to the 1-in-100 year rainfall event, including an allowance for climate change.
+5.3.1
+The risks associated with events that exceed the capacity of the drainage system should be evaluated
+and documented within the report on the drainage design described in CG 502 [Ref 25.N].
+5.3.2
+The design of the site and the drainage system should cope with events that exceed the design
+capacity of the system, so that excess water can be safely stored on or conveyed from the site without
+adverse impacts.
+NOTE
+The level of events that need assessment depends upon site-specific conditions and the consequences
+of such an event occurring. For further advice see CIRIA C753 [Ref 6.I] and CIRIA C688 [Ref 3.I].
+5.3.3
+Analytical tools (for example software) utilised to calculate runoff flows from roads should model
+particular storm intensities and permit analysis of the system under surcharged conditions.
+5.4
+The assessment of flood risk both to a project and resulting from a scheme shall be undertaken in
+accordance with LA 113 [Ref 20.N].
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 89
+======================================================================
+CG 501 Version 2.2.0
+6. Drainage from adjacent land
+6.
+Drainage from adjacent land
+Drainage from adjacent land
+6.1
+Assessment of existing land drainage and runoff from catchments adjacent to the road pavement shall
+be included in the design of highway drainage in accordance with CD 522 [Ref 12.N].
+NOTE
+Runoff can be derived from land both within the overall highways boundary or external to it.
+New and existing connections
+6.2
+In order to ensure the integrity of road drainage systems, no new runoff that arises due to any change
+of use of land within the surface water catchment of the road shall be accepted into the drainage
+systems of motorways and all-purpose trunk roads.
+6.3
+No new connections from drainage systems of third party developments shall be permitted to enter the
+drainage systems of motorways and all-purpose trunk roads (see DfT Circular 01/22 [Ref 23.N]).
+NOTE
+Third parties include local highway authorities.
+6.3.1
+Where there is an existing connection of external drainage to the road drainage, either historical or by
+agreement, the right of connection may be permitted by the Overseeing Organisation to continue
+provided that the input from the contributing catchment to the connection remains unaltered (see DfT
+Circular 01/22 [Ref 23.N]).
+6.3.2
+Existing surface water flows from local highway authority roads may continue where there is no
+alternative outfall, subject to agreement by the Overseeing Organisation.
+Management of land drainage
+6.4
+Where it is not possible to avoid surface water and subsurface water from adjoining land flowing
+towards a road, that land drainage shall be managed in accordance with CD 522 [Ref 12.N].
+6.4.1
+Selection of the most appropriate edge of pavement drainage design may be undertaken using the
+decision process presented in Table 3.4.
+6.4.2
+During the choice of drainage system the potential for contaminated ground or groundwater to exist at
+or adjacent to the road should be assessed.
+NOTE
+Installation of drainage early in the construction process allows management of land drainage during
+construction.
+6.5
+The potential effect of proposed drainage ditches on embankment or cutting slope stability shall be
+subject to geotechnical assessment.
+6.5.1
+In rural areas, ditches may be used to provide a more effective and efficient option than formal drains.
+NOTE 1
+Offsetting of toe ditches from the base of slopes can aid maintenance of slope stability.
+NOTE 2
+Assessment of slope stability early in the design process can assist in identification of land acquisition
+requirements for the project.
+NOTE 3
+Offsetting of toe ditches could also have implications for the:
+1)
+choice of drainage solution;
+2)
+management of adjacent land; and,
+3)
+landscape design.
+6.6
+Where a road crosses an existing watercourse or ditch, the drainage design shall fulfil the requirements
+of LA 113 [Ref 20.N], CD 522 [Ref 12.N] and CD 529 [Ref 6.N].
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+7.
+Road geometry
+7.1
+The design of road geometry shall enable the drainage of surface water runoff for any given length of
+carriageway.
+7.2
+The design of road geometry shall allow the discharge of subgrade drainage at levels above the design
+flood level for any given length of carriageway.
+7.2.1
+A coordinated analysis of the horizontal and vertical alignments with reference to surface water
+drainage should be carried out before alignments are fixed.
+NOTE
+The need to provide appropriate drainage can be a factor in the design height of embankments and
+design depth of cuttings.
+7.3
+The construction tolerances permissible for road levels shall be assessed when producing a road
+surface design that can shed water as effectively as possible.
+Drainage of superelevated carriageways
+7.4
+Superelevated carriageways shall be designed to adequately drain water from the carriageway.
+7.4.1
+A flow path gradient of at least 0.5 % may be used to facilitate drainage from superelevated
+carriageways (see CD 109 [Ref 16.N]).
+NOTE 1
+Where superelevation is applied or removed, the crossfall of a carriageway can be insufficient for
+drainage purposes without assistance from the longitudinal gradient of the road.
+NOTE 2
+The flow path gradient of superelevated carriageways includes the effects of the application of
+superelevation acting against the gradient where superelevation is applied to a downhill gradient or
+removed on an uphill gradient.
+7.4.2
+The superelevation area may be moved to a different location by revision of the horizontal alignment,
+increasing the variation in grade of the edge profile or applying a rolling crown ( CD 109 [Ref 16.N]).
+NOTE
+Further advice on shedding of water from superelevated carriageways is provided in CD 109 [Ref 16.N]
+and CD 116 [Ref 4.I].
+Drainage of wide carriageways
+Drainage flow paths
+7.5
+Wide carriageways shall be designed in accordance with the drainage design principles set out in
+Section 2.
+NOTE
+The requirements for drainage of carriageways and adjacent paved areas in storm events are given in
+Table 5.2.
+7.5.1
+For lengths of carriageway with consistent geometry, the combinations of longitudinal gradient and
+crossfall that fall below the curves given in Figure 7.5.1 should be avoided.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+Figure 7.5.1 Effect of geometric design on drainage
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+7.5.2
+For lengths of carriageway with varying width and geometry, contoured plans of the carriageway
+surface should be generated in order to calculate local flow path lengths and gradients.
+NOTE
+The flow path length is calculated from the edge of the paved area being assessed.
+7.5.3
+Flow path lengths and gradients may be checked by referring to Figures 7.5.3N2a and 7.5.3N2b.
+NOTE 1
+Flow path lengths can increase rapidly at low crossfalls.
+NOTE 2
+Roll-over lengths between superelevation areas are where low crossfalls occur and flow path lengths
+can be long.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+Figure 7.5.3N2a Flow path lengths (4 no. 3.65 m lanes)
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+Figure 7.5.3N2b Flow path gradients
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+7.5.4
+For lengths of carriageway with areas of varying width and geometry the combinations of localised flow
+path lengths and gradients shown below the curve on Figure 7.5.4 should be avoided.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+Figure 7.5.4 Effect of flow path length and flow path geometry on drainage
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 89
+======================================================================
+CG 501 Version 2.2.0
+7. Road geometry
+Effect of carriageway edge markings
+7.6
+Continuous carriageway edge markings shall not exceed a thickness of 3 mm at the drainage exits to
+superelevation roll-over areas with sections having a crossfall less than 0.67 % (1 in 150).
+NOTE 1
+Carriageway surface drainage has the potential to be affected by continuous edge markings,
+particularly where raised rib markings are used.
+NOTE 2
+A continuous carriageway edge marking thickness of less than 3 mm allows water to drain over the line
+during storms.
+7.7
+Where the longitudinal gradient on any section of road is less than 0.67 % (1 in 150) drainage gaps
+shall be provided in carriageway edge markings in accordance with TSM Chapter 5 [Ref 27.N].
+7.8
+Where renewal of markings is being undertaken, existing lines shall be removed at the drainage exit to
+a superelevation roll-over area, where the longitudinal gradient is less than 0.67 % (1 in 150).
+Crossfalls
+7.9
+Crossfalls shall be incorporated into the design to adequately drain water from the carriageway.
+7.9.1
+Where carriageway crown lines are used, crossfalls should be reduced from the standard 2.5 % (1 in
+40) to 2 % (1 in 50) for one lane width either side of the crown, to limit the change of angle to 4 % (1 in
+25).
+NOTE 1
+In DMRB CD 109 [Ref 16.N] guidance is given on how to assess both the drainage and appearance of
+the road when applying superelevation.
+NOTE 2
+Crown lines are more easily introduced between hard shoulders and superelevated carriageways, and
+at merges and diverges where lane gains and lane drops occur.
+NOTE 3
+Rolling crowns (crowns that run diagonally) can be applied where surface drainage cannot otherwise
+be achieved.
+7.9.2
+Carriageway crossfalls may be increased from the standard 2.5 % (1 in 40) to 2.85 % (1 in 35) on
+lengths of carriageway that are straight or have radii well in excess of those requiring elimination of
+adverse camber.
+NOTE
+Applying an increased crossfall on the additional nearside lanes of a widened carriageway does not
+significantly reduce the depth of water at the edge of the carriageway but can increase the capacity of
+the road edge channel where kerbs are used.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 89
+======================================================================
+CG 501 Version 2.2.0
+8. Pollution and flow control design
+8.
+Pollution and flow control design
+Principles of pollution and flow control
+8.1
+Assessment of effects of road drainage on the water environment shall be carried out in accordance
+with LA 113 [Ref 20.N].
+8.2
+LA 113 [Ref 20.N] shall be used to identify the need for pollution and flow control measures within a
+drainage design.
+8.3
+Pollution control measures shall be designed in compliance with LA 113 [Ref 20.N].
+NOTE
+A number of the pollution control measures discussed within this document also provide a degree of
+flow control.
+8.3.1
+Pollution control measures should be designed to treat the 'first flush'.
+NOTE
+Discharges from short intense storms with long antecedent dry periods pose a higher pollution threat
+than discharges from longer rainfall events, which provide higher dilution.
+8.3.2
+A degree of bypass may be acceptable for the larger storm events, where runoff volumes can be higher
+and therefore there can be a greater degree of dilution.
+NOTE 1
+Further information on design of pollution control measures in drainage is published in CIRIA C753 [Ref
+6.I] and the DMRB documents referenced in Table 8.3.2N1
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 89
+======================================================================
+CG 501 Version 2.2.0
+8. Pollution and flow control design
+Table 8.3.2N1 Pollution and flow control measures options
+Indicative treatment efficiencies
+Category of measure
+Name of measure
+Vegetated
+systems
+Spillage
+control
+Flow
+control
+Other
+pollution
+control
+mechanisms
+Design
+standard
+reference
+documents
+Suspended
+solids (%
+removal)
+Dissolved
+copper (%
+removal)
+Dissolved
+zinc (%
+removal)
+Optimum
+spillage risk
+reduction factor
+RF
+Baffles
+Yes
+Yes
+0
+0
+0
+Combined kerb and
+drainage channel
+Yes
+0
+0
+0
+Combined kerb
+and gully
+Yes
+Sediment
+removal
+See Note 7
+Combined surface
+and sub-surface
+drains/filter drain
+Yes
+Yes
+Pollutant
+removal
+CD 525 [Ref
+5.N]
+60
+0
+45
+0.6
+Ditch (vegetated)
+Yes
+Yes - lined
+Yes
+- lined/
+unlined
+Sediment/
+pollutant
+removal
+(unlined)
+CD 532 [Ref
+28.N](vegetated) 25
+15
+15
+0.7
+Dry/detention basin
+Yes
+Yes
+Pollutant
+removal
+CD 532 [Ref
+28.N]
+50
+0
+0
+0.6
+Infiltration
+basin/soakaway
+Yes
+Yes
+Pollutant
+removal
+CD 532 [Ref
+28.N]
+CD 530 [Ref
+7.N]
+Infiltration of water facilitates the removal
+of dissolved metals and solids.
+0.6 (infiltration
+basin)
+Notched weir
+Yes
+Yes
+0
+0
+0
+0.6
+Penstock/valve
+Yes
+Yes
+0
+0
+0
+0.4
+Piped systems
+Yes
+0
+0
+0
+Ponds
+Yes
+Yes
+Pollutant
+removal
+CD 532 [Ref
+28.N]
+60
+40
+30
+0.5
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 89
+======================================================================
+CG 501 Version 2.2.0
+8. Pollution and flow control design
+Table 8.3.2N1 Pollution and flow control measures options (continued)
+Indicative treatment efficiencies
+Category of measure
+Name of measure
+Vegetated
+systems
+Spillage
+control
+Flow
+control
+Other
+pollution
+control
+mechanisms
+Design
+standard
+reference
+documents
+Suspended
+solids (%
+removal)
+Dissolved
+copper (%
+removal)
+Dissolved
+zinc (%
+removal)
+Optimum
+spillage risk
+reduction factor
+RF
+Reservoir
+pavement/pervious
+asphalt
+Yes
+Sediment
+removal
+CD 531 [Ref
+19.N]
+50
+0
+0
+Sedimentation tank
+Yes
+Sediment
+removal
+40
+0
+0
+Sediment trap
+(catchpit)
+Sediment
+removal
+See Note 7
+0.6
+Surface water
+channel
+Yes
+CD 521 [Ref
+17.N]
+See Note 7
+Swale/grassed
+channel
+Yes
+Yes
+Yes
+Pollutant
+removal
+CD 532 [Ref
+28.N]
+CD 521 [Ref
+17.N]
+80
+50
+50
+0.6
+Vortex chamber for
+flow control
+Yes
+0
+0
+0
+Vortex grit
+separator
+Yes
+Sediment/
+pollutant
+removal
+CD 528 [Ref
+29.N]
+40
+0
+15
+Wetland (surface
+flow)
+Yes
+Yes
+Pollutant
+removal
+CD 532 [Ref
+28.N]
+60
+30
+50
+0.5
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 89
+======================================================================
+CG 501 Version 2.2.0
+8. Pollution and flow control design
+NOTE 2
+Table 8.3.2N1 presents potential treatment efficiencies for the various pollution control measure types
+for different contaminants.
+NOTE 3
+Types of treatment other than those listed in Table 8.3.2N1 are available.
+NOTE 4
+While Table 8.3.2N1 gives a singular treatment efficiency value for each type of treatment system it is a
+simplified representation of values reported in literature. Individual treatment systems of the same type
+will perform differently due to variables including:
+1)
+variation in influent quality;
+2)
+climate and season – particularly affecting the performance of vegetated treatment systems;
+3)
+hydraulic loading – treatment systems perform differently depending on the frequency, duration,
+run-off rate and volume of each rainfall event;
+4)
+variation in design of the treatment system, e.g. residence time, dimensions, plant species used;
+and,
+5)
+frequency and extent of maintenance.
+NOTE 5
+While Table 8.3.2N1 gives a simplified representation of the treatment performance, it is not a
+substitute for informed and site-specific selection of treatment systems.
+NOTE 6
+The spillage risk reduction factors in Table 8.3.2N1 represent what is considered achievable. Actual
+risk reduction factors are site-specific and potentially higher (representing a lower risk reduction)
+depending on factors such as size of treatment system and retention time.
+NOTE 7
+Removal of pollutants likely to occur but insufficient evidence available to quote indicative treatment
+efficiency.
+NOTE 8
+To calculate the combined efficiency of multiple components in a treatment train, the pollutant reduction
+factor of each component is multiplied together. For example, where a filter drain removing 60% of
+suspended solids (a reduction factor of 0.4) is followed by a vegetated ditch removing 25% of
+suspended solids (a reduction factor of 0.75), the combined reduction factor is 0.4 x 0.75 = 0.3 or an
+overall efficiency of 70%.
+8.4
+Where the design of pollution control measures includes infiltration into ground, the risk to groundwater
+shall be assessed and mitigation measures, where that assessment identifies the need, implemented in
+accordance with LA 113 [Ref 20.N].
+8.5
+The design of pollution control measures shall include safe means of access for operation (where
+relevant), emergency response and maintenance.
+8.5.1
+Pollution control measures should be located above the level of the flood plain wherever possible.
+NOTE
+Storm water inundation can compromise the operation of pollution control devices.
+Selection of pollution and flow control measures
+8.6
+The selection and design of pollution and flow control measures shall follow the process presented
+below:
+1)
+complete assessment in accordance with LA 113 [Ref 20.N];
+2)
+if mitigation is required, identify viable options/combinations of measures, taking account of:
+a)
+road drainage hierarchy in this document;
+b)
+site constraints;
+c)
+storm flow and flood risk requirements;
+d)
+climate change allowances; and,
+e)
+road geometry.
+3)
+review short list of options against construction and maintenance requirements;
+4)
+confirm measures fulfil mitigation requirements identified from LA 113 [Ref 20.N] assessment;
+and,
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 89
+======================================================================
+CG 501 Version 2.2.0
+8. Pollution and flow control design
+5)
+incorporate mitigation measures into overall drainage design.
+8.6.1
+Pollution control measures may be used to intercept pollution close to its source, treat it, manage
+sediment mobilisation or reduce the risks from spillages.
+NOTE 1
+The selection and design of systems depends on the pollution load, the risk of spillage or flood. and the
+site conditions, particularly if protected habitats, species or sites can be affected.
+NOTE 2
+Guidance on the design of pipelines for reduced sediment deposition is contained in CD 523 [Ref 9.N].
+NOTE 3
+Measures to control flooding generally include limiting (attenuating) peak outflows and providing an
+appropriate volume of water storage in the system to accommodate large or critical storm events.
+8.6.2
+Drainage designs for roads may include the following general categories of pollution control measures:
+1)
+vegetated systems;
+2)
+spillage control;
+3)
+flow control; and,
+4)
+other pollution control mechanisms such as removal/separation of sediments or oils.
+8.6.3
+Where site conditions allow the use of vegetated systems their use should be prioritised over other
+forms of treatment.
+NOTE
+Further detail on the design of vegetated systems can be found in CD 532 [Ref 28.N].
+8.6.4
+Where verge space restricts the use of vegetated systems, the use of conventional drainage systems,
+either independently or in combination with vegetated systems should be reviewed.
+NOTE 1
+The advantages and disadvantages of a selection of pollution control measures are presented in
+Appendix B.
+NOTE 2
+A high proportion of highway pollutants are found to be adsorbed to the fine silt fraction of the
+suspended solids. By collecting, filtering and treating the fine sediment that is subsequently removed,
+the system deals with a significant part of the runoff pollution.
+8.6.5
+Where the estimated probability of a major spillage is assessed at less than 1% annually (using LA 113
+[Ref 20.N]), non-mechanical methods of pollution control should be used.
+NOTE
+Non-mechanical methods of pollution control such as check dams, booms or notch weirs, requiring little
+maintenance, are more suitable than mechanical devices such as penstocks or gate valves, which are
+more susceptible to vandalism and can become ineffective through lack of use.
+8.7
+Oil separators shall not be used.
+8.7.1
+Existing oil separators should be replaced by an alternative solution for mitigating the potential impacts
+of road runoff.
+NOTE 1
+Oil separators are designed to mitigate oils and cannot be relied upon to treat suspended solids or
+dissolved metals.
+NOTE 2
+Oil separators require regular maintenance to function effectively.
+Signage of pollution control devices
+8.8
+Signs marking the location of pollution control devices are labelled as PCD (pollution control device)
+and shall be designed in accordance with BS EN 12899-1 2007 [Ref 15.N].
+8.9
+The faces of pollution control signs (PCS) used shall be one of the options shown in Figure 8.9 and
+meet the requirements shown in Table 8.9.
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 89
+======================================================================
+CG 501 Version 2.2.0
+8. Pollution and flow control design
+Figure 8.9 Pollution control sign design options
+Table 8.9 Required attributes of pollution control signs
+Attribute
+PCD1
+PCD2
+PCD3
+PCD4
+Legend
+white
+white
+white
+white
+Background
+light green
+light green
+light green
+light green
+Border
+yellow
+yellow
+yellow
+yellow
+Font
+transport
+medium
+transport
+medium
+transport
+medium
+transport
+medium
+Material
+class 1
+class 1
+class 1
+class 1
+X-height (mm)
+50
+50
+50
+50
+Width (mm)
+320
+320
+320
+320
+Height (mm)
+190
+310
+410
+410
+Area (m2)
+0.06
+0.1
+0.13
+0.13
+NOTE 1
+Class 1 - material that is retroreflective Class 1 material in accordance with BS EN 1463-1 [Ref 21.N].
+NOTE 2
+Illumination of pollution control signs is not required.
+8.10
+The location of PCSs other than at the edge of the carriageway shall not be permitted without approval
+of the Overseeing Organisation.
+8.11
+PCSs shall be visible from the running lanes of the carriageway.
+8.11.1
+The location of PCSs should be at least 600 mm from the edge of a single carriageway and 1500 mm
+from the edge of high-speed dual carriageway or motorway.
+8.11.2
+The mounting height of PCSs should be at least 900 mm above the highest point of the carriageway
+immediately adjacent to the sign.
+8.11.3
+The mounting height of PCSs may be increased up to 1500 mm where excessive spray is likely to
+occur around the sign.
+8.11.4
+PCSs should specify the distance and direction to the device.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 89
+======================================================================
+CG 501 Version 2.2.0
+9. Normative references
+9.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 534, 'Chamber tops and gully tops for road drainage and
+services'
+Ref 2.N
+National Highways. CD 536, 'Chambers for drainage pipes'
+Ref 3.N
+National Highways. CD 127, 'Cross-sections and headrooms'
+Ref 4.N
+National Highways. CD 225, 'Design for new pavement foundations'
+Ref 5.N
+National Highways. CD 525, 'Design of combined surface and sub-surface drains and
+management of stone scatter'
+Ref 6.N
+National Highways. CD 529, 'Design of outfall and culvert details'
+Ref 7.N
+National Highways. CD 530, 'Design of soakaways'
+Ref 8.N
+National Highways. CD 533, 'Determination of pipe and bedding combinations for
+drainage works'
+Ref 9.N
+National Highways. CD 523, 'Determination of pipe roughness and assessment of
+sediment deposition to aid pipeline design'
+Ref 10.N
+National Highways. CC 500, 'Drainage'
+Ref 11.N
+National Highways. CD 535, 'Drainage asset data and risk management'
+Ref 12.N
+National Highways. CD 522, 'Drainage of runoff from natural catchments'
+Ref 13.N
+National Highways. CS 551, 'Drainage surveys'
+Ref 14.N
+National Highways. CD 524, 'Edge of pavement details'
+Ref 15.N
+BSI. BS EN 12899-1, 'Fixed, vertical road traffic signs. Fixed signs (Designated
+Standard - CPR)' , 2007
+Ref 16.N
+National Highways. CD 109, 'Highway link design'
+Ref 17.N
+National Highways. CD 521, 'Hydraulic design of road edge surface water channels
+and outlets'
+Ref 18.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 19.N
+National Highways. CD 531, 'Reservoir pavements for drainage attenuation'
+Ref 20.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 21.N
+BSI. BS EN 1463-1, 'Road marking materials – Retroreflecting road studs – Initial
+performance Requirements (Designated Standard - CPR)'
+Ref 22.N
+National Highways. CD 526, 'Spacing of road gullies'
+Ref 23.N
+National Archives. Department for Transport and National Highways. DfT Circular
+01/22, 'Strategic road network and the delivery of sustainable development'
+Ref 24.N
+National Highways. CD 527, 'Sumpless gullies'
+Ref 25.N
+National Highways. CG 502, 'The certification of drainage design'
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 89
+======================================================================
+CG 501 Version 2.2.0
+9. Normative references
+Ref 26.N
+National Archives. UKSI 2015/51, 'The Construction (Design and Management)
+Regulations'
+Ref 27.N
+TSO. TSM Chapter 5, 'Traffic Signs Manual Chapter 5 - Road Markings'
+Ref 28.N
+National Highways. CD 532, 'Vegetated drainage systems for highway runoff'
+Ref 29.N
+National Highways. CD 528, 'Vortex separators for use with road drainage systems'
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 89
+======================================================================
+CG 501 Version 2.2.0
+10. Informative references
+10.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Europa.eu. 2000/60/EC, 'Directive 2000/60/EC of the European Parliament and of
+the Council of 23 October 2000 establishing a framework for Community action in the
+field of water policy'
+Ref 2.I
+National Archives. UKSI 2016/1154, 'Environmental Permitting (England and Wales)
+Regulations'
+Ref 3.I
+Construction Industries Research and Information Association, London. McBain W.,
+Wilkes D. and Retter M.. CIRIA C688, 'Flood Resilience and Resistance for Critical
+Infrastructure'
+Ref 4.I
+National Highways. CD 116, 'Geometric design of roundabouts'
+Ref 5.I
+The Environment Agency. Environment Agency and DEFRA. LIT 7660, 'The
+Environment Agency's approach to groundwater protection'
+Ref 6.I
+Construction Industries Research and Information Association, London.
+Woods-Ballard,B, Wilson,S, Udale Clark,H, Illman,S, Scott,T, Ashley,R, Kellagher,R..
+CIRIA C753, 'The SuDS Manual'
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 lists the types of drainage discussed in this document, and details potential advantages and
+disadvantages of each drainage type.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 Advantages and disadvantages of drainage options
+Drainage collector detail
+Advantages
+Disadvantages
+Combined channel and
+pipe drains
+1) provide extra flow capacity than for a channel of
+the same width, reducing the number of outlets
+from the system and reducing, or even
+eliminating, the need for a separate carrier pipe;
+2) where space is limited (for example, in road
+widening schemes) they allow a narrower
+channel to be built than would otherwise be
+possible;
+3) suited to in situ construction in concrete using
+slip forming techniques;
+4) they can remove the need for a separate carrier
+drain in the verge and can enable flow to be
+carried longer distances between outlets.
+1) pipes follow the gradient of the road and
+consequently can be quite flat allowing build-up
+of sediment;
+2) slots (where present) can become blocked with
+sediment restricting inflow;
+3) slots (where present) reduce the efficiency of any
+jetting to clear sediment.
+Surface drainage
+Combined kerb
+and drainage system
+1) their use at roundabouts removes the need for
+any 'false' crowning of road-edge channels;
+2) they may be economic in rock cuttings, as a
+cheaper option compared to carrier drain
+installation;
+3) useful on roads with relatively flat gradients (see
+DMRB CD 525 [Ref 5.N]);
+4) useful in urban areas where there is a high
+incidence of utility services because they do not
+need as great a depth of excavation as piped
+system (see CD 524 [Ref 14.N]).
+1) prone to the build-up of sediment and debris
+which can impede flow into and within the system
+(see CD 524 [Ref 14.N]);
+2) less robust than solid kerbs of equivalent
+dimensions (see CD 524 [Ref 14.N]);
+3) require linear maintenance procedures taking
+longer and requiring additional traffic
+management and lane closure than the point
+maintenance of gully sucking;
+4) at roundabouts their maintenance requires
+complex lane closure with traffic management.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 Advantages and disadvantages of drainage options (continued)
+Drainage collector detail
+Advantages
+Disadvantages
+Grassed surface
+water channels
+1) ability to treat pollution (see CD 521 [Ref 17.N]);
+2) peak discharge flow rate to a receiving
+watercourse will be less from the grassed
+channel, (see CD 521 [Ref 17.N]).
+1) prone to rutting resulting from vehicular over
+running;
+2) require regular maintenance (grass cutting),
+which involves potential risk to operatives.
+Informal drainage
+(over the edge)
+1) cost effective and easily maintained solution in
+rural settings
+1) can cause soil erosion, topsoil slippage,
+softening of the side slopes and embankment
+instability (see CD 524 [Ref 14.N]);
+2) uncontrolled growth on verges can inhibit free
+drainage;
+3) inappropriate for usage in locations where
+footways or segregated cycleways abut
+carriageways;
+4) only suitable for embankments < 1 m high (see
+CD 524 [Ref 14.N]).
+Surface drainage
+Kerbs and gullies
+1) a longitudinal gradient to carry road surface
+runoff to outlet is not dependent upon the
+longitudinal gradient of the road itself and can be
+formed instead within a longitudinal carrier pipe;
+2) different types of gully are available that provide
+for varying degrees of entrapment of detritus;
+3) kerbs provide some structural support during
+pavement laying and protect footpaths and
+verges from vehicular overrun.
+1) gullies can become blocked due to lack of
+maintenance;
+2) side-entry gullies are inefficient;
+3) the permitted width of channel flow may
+significantly reduce the spacing between gullies
+when used on high speed roads.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 Advantages and disadvantages of drainage options (continued)
+Drainage collector detail
+Advantages
+Disadvantages
+Linear drainage
+channels
+1) may be used in both verges and central reserves
+on motorways; (see CD 524 [Ref 14.N]).
+1) linear drainage channels built on relatively flat
+gradients are prone to the build-up of sediment
+and debris (see CD 524 [Ref 14.N]).
+Surface drainage
+Surface water
+channels
+1) relatively easy maintenance;
+2) long lengths can be constructed quickly and fairly
+inexpensively;
+3) it may be possible to locate channel outlets at
+appreciable spacings, and possibly coincident
+with watercourses;
+4) the risk to vehicles and occupants impinging on
+surface water channels is lower than for other
+types of surface drainage;
+5) suited to in-situ construction in concrete using
+slip forming techniques (not blocks).
+1) carriageways with flat longitudinal gradients may
+necessitate discharge of channels fairly
+frequently into outlets or parallel longitudinal
+carrier pipes in order to minimise the size of the
+channels;
+2) presence of features such as safety fences,
+services, lighting columns and signs may restrict
+ability to use;
+3) ability to install long channel lengths may be
+prevented by discontinuities in the verge/central
+reserve such as piers, abutments, slip roads,
+junctions, laybys, central reserve crossover
+points, emergency crossing points or changes in
+superelevation.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 Advantages and disadvantages of drainage options (continued)
+Drainage collector detail
+Advantages
+Disadvantages
+Surface drainage
+Surface water
+channels with channel
+blocks
+1) It may be possible to locate channel outlets at
+appreciable spacings and possibly coincident
+with watercourses;
+2) suited to use on steep embankments (Types D, E
+and F) (see CD 524 [Ref 14.N]);
+3) suitable where positive drainage is desirable for
+dealing with small volumes of flow that would not
+justify use of the larger surface water channel.
+(Types A and B) (see CD 524 [Ref 14.N]).
+1) effectiveness of drainage channel blocks is
+reduced by settlement of adjacent unpaved
+surfaces;
+2) drainage channel blocks are prone to the
+build-up of sediment and debris in flat areas;
+3) presence of drainage channel blocks may reduce
+ability to undertake mechanical grass cutting;
+4) should be avoided in verges subject to frequent
+usage by equestrians or other vulnerable users;
+5) presence of features such as safety fences,
+services, lighting columns and signs may restrict
+ability to use;
+6) ability to install long channel lengths may be
+prevented by discontinuities in the verge/central
+reserve such as piers, abutments, slip roads,
+junctions, laybys, central reserve crossover
+points, emergency crossing points or changes in
+superelevation.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 Advantages and disadvantages of drainage options (continued)
+Drainage collector detail
+Advantages
+Disadvantages
+Combined
+surface
+and
+subsurface
+drainage
+Combined surface
+and subsurface drains
+(filter drains)
+1) can be installed early in the construction phase
+and be used to manage drainage during
+construction (with appropriate maintenance);
+2) they remove groundwater to a greater depth
+beneath pavement level than fin or narrow filter
+drains;
+3) easier to construct than a solution with both
+surface and sub-surface drainage constructed
+separately;
+4) easier inspection and maintenance than fin or
+narrow filter drains;
+5) allow collection of water from drainage systems
+installed separately in the side-slopes of cuttings;
+6) enable rapid removal of runoff from the road and
+verge surface (see CD 524 [Ref 14.N]);
+7) can manage a wide range of flows (see CD 524
+[Ref 14.N]);
+8) particularly suited to dealing with subsurface
+water flows, which can vary as the water table
+fluctuates (see CD 524 [Ref 14.N]);
+9) generally have an exceptionally large
+groundwater capacity which can extend as a
+cut-off below the capping layer (see CD 524 [Ref
+14.N]);
+10) removes sediment and attached pollutants
+providing a degree of water quality treatment.
+1) surface failure of embankments and pavement
+failures;
+2) risk of stone scatter where subject to vehicular
+over run.
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix A. Drainage option advantages and disadvantages
+Table A.1 Advantages and disadvantages of drainage options (continued)
+Drainage collector detail
+Advantages
+Disadvantages
+Fin drain
+1) can be installed at the edge of the unbound
+pavement construction allowing a range of edge
+collection systems to be constructed above.
+1) can be unsuitable for dealing with high
+groundwater flows or where a longitudinal carrier
+drain is necessary to transport surface-water
+runoff from the carriageways. (See CD 524 [Ref
+14.N]);
+2) ground stability issues are possible during
+excavation of and working within the narrow
+trenches needed for Types 5, 6 and 7 (See CD
+524 [Ref 14.N]).
+Sub-surface
+drainage
+Narrow filter drain
+1) can be installed at the edge of the unbound
+pavement construction allowing a range of edge
+collection systems to be constructed above.
+1) can be unsuitable for dealing with high
+groundwater flows or where a longitudinal carrier
+drain is necessary to transport surface-water
+runoff from the carriageways. (see CD 524 [Ref
+14.N]).
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix B. Pollution control components
+Appendix B. Pollution control components
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix B. Pollution control components
+Table B.1 Advantages and disadvantages of pollution control components
+Drainage component
+Advantages
+Disadvantages
+Design notes
+Combined kerb and
+drainage channels
+1) they can attenuate flow due to the
+high storage capacity of their design;
+2) their use can reduce the size of
+attenuation storage or retention ponds
+where utilised in combination with
+each other.
+1) sediment drop out can occur at inlets
+resulting in road-edge debris requiring
+additional road sweeping
+maintenance;
+2) standard jetting operations result in
+large loss of water from the kerb units.
+This may increase time on site and
+vehicle movements as well as
+resulting in debris spreading across
+the carriageway and thus additional
+road sweeping maintenance.
+1) Check catchment sediment load and
+gradients of drainage to confirm they
+have suitable load carrying capacity.
+Combined surface and
+subsurface drains
+1) They can provide spillage
+containment if adequate downstream
+control, such as a penstock or
+handstop, is provided;
+2) The filter media can adsorb
+suspended solid pollutants and heavy
+hydrocarbons, reducing downstream
+pollution risk from routine runoff;
+3) Inclusion of an over-sized carrier
+drain can provide flow control.
+1) Where routine runoff causes a
+build-up of pollutant in the filter media,
+maintenance requirements may be
+increased (see CD 525 [Ref 5.N]);
+2) Maintenance or replacement of filter
+media may be needed if contaminated
+by a serious accidental spillage;
+3) Risk of stone scatter where subject to
+vehicular over run.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix B. Pollution control components
+Table B.1 Advantages and disadvantages of pollution control components (continued)
+Drainage component
+Advantages
+Disadvantages
+Design notes
+Ditches
+1) Unlined ditches can allow infiltration
+of runoff through soil and vegetation,
+particularly where residence times are
+long.
+2) Lined ditches can act as containment
+basins if located between the road
+drain and receiving watercourses.
+1) Scientifically robust information on
+their treatment performance is limited.
+2) Ditches with concrete or similar facing
+do not have the same treatment
+potential as unlined ditches, but can
+be adapted to contain spillages.
+3) Where unlined ditches are located
+above permeable strata, there is a
+risk that highway runoff will infiltrate
+and potentially contaminate any
+underlying aquifer.
+4) Unlined ditches encourage vegetation
+growth that can hamper access and
+operational ability as well as giving an
+increased maintenance requirement.
+1) The direct input of a pollutant to
+groundwater without percolation
+through soil or subsoil is an offence
+under Section 12(1) of the
+Environmental Permitting Regulations
+UKSI 2016/1154 [Ref 2.I];
+2) Ditches with shallow side slopes have
+similar properties to swales.
+3) Where lined ditches are used as
+containment basins they should have
+a minimum of 25 m3 capacity and
+have a downstream control that can
+be shut or blocked in the event of
+accidental spillage of pollutants on the
+road.
+Over the edge drainage
+1) It can provide, in some
+circumstances, a degree of pollution
+control as highway runoff is allowed to
+filter through vegetation on the slope.
+2) Pollution control is possible with over
+the edge drainage, using a
+downstream control.
+1) Where over the edge drainage is used
+above permeable strata, there is a
+risk that highway runoff will infiltrate
+and potentially contaminate any
+underlying aquifer.
+1) Toe ditches associated with over the
+edge drainage can be lined to prevent
+percolation through the soil or subsoil.
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix B. Pollution control components
+Table B.1 Advantages and disadvantages of pollution control components (continued)
+Drainage component
+Advantages
+Disadvantages
+Design notes
+Kerbs and gullies
+1) ability to capture potentially
+contaminated sediments during
+normal rainfall events prior to
+discharge into a receiving
+watercourse;
+2) provide initial stage of interception of
+spillages.
+1) less effective at trapping finer grained
+sediment than coarser grained
+sediment;
+2) high inflow rates can cause
+resuspension of sediments and
+mixing of oils with the water in the
+gully pot;
+3) contaminated water can discharge
+from the gully pot into the receiving
+drainage network or watercourse.
+1) resuspension or mixing of oils can be
+avoided by ensuring that the gradient
+of the pipe leading to the gully is as
+shallow as possible whilst still
+providing adequate hydraulic
+performance;
+2) sumpless gullies should be
+considered where this is not possible.
+Penstocks and
+handstops
+1) They can provide spillage
+containment if they are closed in time.
+1) Failure to open penstock after a
+spillage incident (or closure of
+penstock due to vandalism or
+equipment failure etc) could result in
+flooding or scouring following breach
+of the headwall or ditch.
+2) regular maintenance needed;
+3) handstops not appropriate for larger
+systems.
+1) The size of handstops should be such
+that the plate can be lifted manually.
+Piped systems
+1) They can provide spillage
+containment if adequate downstream
+control such as penstock or handstop
+is provided.
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix B. Pollution control components
+Table B.1 Advantages and disadvantages of pollution control components (continued)
+Drainage component
+Advantages
+Disadvantages
+Design notes
+Reservoir pavements
+1) They can allow full infiltration of
+surface water into the subgrade or
+partial infiltration combined with
+capture for controlled release
+elsewhere;
+2) can provide economical drainage
+solution.
+1) only permitted in locations outside the
+main trafficked lanes (see CD 531
+[Ref 19.N]).
+1) Use in main trafficked lanes requires
+departure from standard.
+Sedimentation tanks
+1) They are not reliable for the removal
+of dissolved copper and zinc.
+1) Efficiency of sediment removal
+depends on factors such as inflow
+velocity, separator size, retention
+time, maintenance frequency and
+settlement time of individual particles.
+2) not be relied upon to remove
+dissolved copper and zinc.
+Surface water channels
+Surface water channels
+with channel blocks
+1) Where channels are not
+self-cleansing, deposition of gross
+pollutants and sediments is likely to
+occur;
+2) Ponding of water behind such
+deposited material can cause safety
+threat to road users.
+1) To avoid sediment build up, designs
+to ensure that surface water channels
+are self-cleansing and sediments
+deposited in a downstream system;
+2) channels designed so that emergency
+response kits can be used in them
+and can act as a pollution control
+measure for spillages.
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 89
+======================================================================
+CG 501 Version 2.2.0
+Appendix B. Pollution control components
+Table B.1 Advantages and disadvantages of pollution control components (continued)
+Drainage component
+Advantages
+Disadvantages
+Design notes
+Weirs and baffles
+1) They can act as both pollution and
+flood control devices.
+2) Baffles can be placed in both open
+channels and ditches.
+1) Where weirs are used for spillage
+control, they should be designed with
+a notch or orifice that can readily be
+blocked by a sandbag in an
+emergency;
+2) Where baffles are used for spillage
+control, they should be designed so
+that they can readily be blocked in an
+emergency.
+3) Where baffles are used for spillage
+control, the design should include at
+least 25 m3 of containment.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 89
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 89
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+General Information
+CG 501 - ENAA
+England National Application Annex for
+Design of highway drainage systems
+Version 1.0.0
+Summary
+This National Application Annex sets out the National Highways specific requirements on the
+design of highways drainage systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Terms and definitions
+5
+E/1. Climate Change
+6
+Climate change allowances . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+E/2. Normative references
+7
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CG 501 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+New National Application Annex created to allow for England-specific requirements related to climate change.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex has been published by National Highways to provide England-specific
+requirements related to the design of highway drainage.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Environment Agency
+A non-departmental public body, sponsored by Department for
+Environment, Food and Rural Affairs (DEFRA), with responsibilities
+relating to the protection and enhancement of the environment in England.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+E/1. Climate Change
+E/1.
+Climate Change
+Climate change allowances
+E/1.1
+For the design of carriageway drainage of drained areas up to 5 km2, the 'central' climate change
+allowance for peak rainfall intensity for the 3.3% annual exceedance probability events for the 2070s
+epoch shall be used, determined by the Environment Agency's management catchment most relevant
+to the carriageway location, as given in the Environment Agency's climate change allowances guidance
+CCA(E) [Ref 1.N].
+E/1.2
+A sensitivity test shall be undertaken, using the 'upper end' climate change allowance for peak rainfall
+intensity for the 3.3% annual exceedance probability events for the 2070s epoch, determined by the
+Environment Agency's management catchment most relevant to the carriageway location, as given in
+the Environment Agency's climate change allowances guidance CCA(E) [Ref 1.N].
+E/1.3
+For the design and sensitivity test of carriageway drainage for drained areas greater than 5 km2, the
+climate change allowances for peak river flows identified in the CCA(E) [Ref 1.N]shall be used.
+E/1.4
+For the design of drainage assets which affect the flow, morphology or discharge to a waterbody, the
+climate change allowance applied shall be in accordance with the requirements of LA 113 [Ref 3.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 89
+======================================================================
+CG 501 - ENAA Version 1.0.0
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+https://www.gov.uk/guidance/flood-risk-assessments-climate-change-allowances.
+Environment Agency.. CCA(E), 'Climate change allowances for England'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+National Highways. LA 113, 'Road drainage and the water environment'
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 89
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 89
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+General Information
+CG 501 - NINAA
+Northern Ireland National Application Annex
+for Design of highway drainage systems
+Version 1.0.0
+Summary
+This National Application Annex sets out the Department for Infrastructure, Northern Ireland
+specific requirements on CG 501
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 89
+======================================================================
+CG 501 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Normative references
+5
+NI/2. Climate change
+6
+Climate change allowances . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 73 of 89
+======================================================================
+CG 501 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CG 501 -
+NINAA
+1.0.0
+September 2025
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+Northern Ireland specific requirements for climate change allowances.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 74 of 89
+======================================================================
+CG 501 - NINAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 75 of 89
+======================================================================
+CG 501 - NINAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex outlines the Department for Infrastructure, Northern Ireland-specific
+requirements related to the design of highway drainage systems.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 76 of 89
+======================================================================
+CG 501 - NINAA Version 1.0.0
+NI/1. Normative references
+NI/1.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 77 of 89
+======================================================================
+CG 501 - NINAA Version 1.0.0
+NI/2. Climate change
+NI/2.
+Climate change
+Climate change allowances
+NI/2.1
+Different climate change allowances apply in Northern Ireland. Department for Infrastructure, Northern
+Ireland shall be contacted for the application of CG 501, Section 4. The email address is:
+RoadsEngineeringServices@infrastructure-ni.gov.uk
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 78 of 89
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 79 of 89
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+General Information
+CG 501 - SNAA
+Scotland National Application Annex for
+Design of highway drainage systems
+Version 1.0.0
+Summary
+This National Application Annex sets out the Transport Scotland specific requirements for design
+of highway drainage systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 80 of 89
+======================================================================
+CG 501 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Climate change allowances for the design of carriageway drainage
+5
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 81 of 89
+======================================================================
+CG 501 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CG 501 -
+SNAA
+1.0.0
+September 2025
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+New Scotland NAA introduced due to new England NAA for CG 501.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 82 of 89
+======================================================================
+CG 501 - SNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 83 of 89
+======================================================================
+CG 501 - SNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Transport Scotland-specific requirements related to the
+design of highway drainage.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 84 of 89
+======================================================================
+CG 501 - SNAA Version 1.0.0
+S/1. Climate change allowances for the design of c...
+S/1.
+Climate change allowances for the design of carriageway drainage
+S/1.1
+Transport Scotland shall be contacted for the application of CG 501 Section 4, at the email address
+TSStandardsBranch@transport.gov.scot.
+NOTE
+Climate change allowances in Scotland vary from those across the rest of the UK.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 85 of 89
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 86 of 89
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+General Information
+CG 501 - WNAA
+Wales National Application Annex for Design
+of highway drainage systems
+Version 1.0.0
+Summary
+There are no specific requirements for the Welsh Government supplementary or alternative to
+those given in CG 501.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 87 of 89
+======================================================================
+CG 501 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 88 of 89
+======================================================================
+CG 501 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CG 501 -
+WNAA
+1.0.0
+September 2025
+Wales NAA
+Change to policy, major
+revision, new document
+development
+New Wales NAA due to new England NAA being introduced.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 89 of 89
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CG 501 Version 2.2.0, published: 30-Sep-2025
+
+
