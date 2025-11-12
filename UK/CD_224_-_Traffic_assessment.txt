@@ -1,0 +1,1739 @@
+======================================================================
+PAGE 1 of 47
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 224
+Traffic assessment
+(formerly CD 224 (rev. 0 inc. HD 24/06))
+Version 0.1.0
+Summary
+This document sets out the method for calculating traffic loading for the design of road
+pavements to new or existing road schemes.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 47
+======================================================================
+CD 224 Version 0.1.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Calculation of design traffic for traffic assessments
+9
+Commercial vehicle flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+New road schemes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Existing road schemes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Design period . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Growth factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Future traffic
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Past traffic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Current year flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Wear factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Percentage of commercial vehicles in the heaviest loaded lane . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Percentage of commercial vehicles in other lanes
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Design traffic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+3. Normative references
+16
+4. Informative references
+17
+Appendix A. Design traffic calculations proforma
+18
+Appendix B. Design traffic calculation examples
+19
+B1 Example traffic calculation for a new road scheme
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+B2 Example traffic calculations for existing road schemes . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+B2.1 Past traffic for an existing road scheme
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+B2.2 Future traffic for existing road schemes
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 47
+======================================================================
+CD 224 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 224
+0.1.0
+September 2025
+Core document,
+Scotland NAA
+Incremental change to
+requirements
+Incremental changes to requirements, based on 3 years experience of using CD 224 and cyclic review.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 224
+0
+March 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 47
+======================================================================
+CD 224 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes HD 24/06, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 47
+======================================================================
+CD 224 Version 0.1.0
+Introduction
+Introduction
+Background
+This document covers the calculation of design traffic (i.e. commercial vehicle pavement loading over
+the design period) for new trunk roads, including motorway schemes and for the maintenance of
+existing trunk roads, including motorways.
+In the UK, pavement designs for particular materials are intrinsically related to the road pavement
+structural wear resulting from traffic (i.e. fatigue cracking within the bound pavement layers and/or
+excessive subgrade deformation). Pavement designs for flexible and rigid pavements are presented in
+CD 226 [Ref 2.N].
+Road pavement structural wear in the UK is calculated using wear factors based on axle loads. Wear
+factors have been calculated for commercial vehicle axle loads from measurements made using
+weigh-in-motion (WIM) sensors installed on the road network. The background to the method is given
+in TRL Report ( TRL PPR 66 [Ref 2.I])
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 47
+======================================================================
+CD 224 Version 0.1.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviation
+Definition
+AADF
+Annual average daily flow (1-way traffic)
+AADT
+Annual average daily traffic (2-way traffic)
+COBA
+Cost benefit analysis [program]
+cv
+Commercial vehicles (over 3.5 tonnes maximum gross vehicle weight)
+GDP
+Gross domestic product
+msa
+Million standard axles
+OGV
+Other goods vehicles (over 3.5 tonnes maximum gross vehicle weight). Where no
+other data are available, it can be assumed that vehicles over 6.6m long are
+OGVs.
+OGV1
+Other goods vehicles 1 (2 and 3-axle rigid vehicles)
+OGV2
+Other goods vehicles 2 (4-axle rigid vehicles and articulated vehicles with any
+number of axles)
+PSV
+Public service vehicles
+WebTAG
+Web-based transport analysis guidance
+Symbol
+Definition
+F
+Commercial vehicle flow (AADF)
+Fi
+Traffic flow after i years
+G
+Growth factor
+P
+Percentage of vehicles in the heaviest loaded lane
+R
+Annual growth rate
+T
+Design traffic
+Tc
+Weighted annual traffic for vehicle category c
+W
+Wear factor
+WM
+Wear factor for maintenance road schemes
+WN
+Wear factors for new road schemes
+Y
+Design period (years)
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 47
+======================================================================
+CD 224 Version 0.1.0
+Terms and definitions
+Terms and definitions
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 47
+======================================================================
+CD 224 Version 0.1.0
+Terms and definitions
+Term
+Definition
+Design traffic
+The commercial vehicle loading over the design period of a
+pavement. It is expressed as the number of equivalent 80kN
+standard axles.
+Existing road schemes
+Existing road maintenance schemes, including full reconstruction,
+partial reconstruction, overlay, plane off and inlay, surface
+treatment, or narrow widening, where there is greater certainty
+about traffic flows, based on the existing road traffic counts.
+Full reconstruction
+Maintenance treatment that involves replacement of all the bound
+layers and extends into the foundation.
+Narrow widening
+Area of pavement widening 1.2 m or less.
+New carriageway
+A new road or carriageway (as opposed to an existing lane or one
+or more new lanes abutting an existing pavement).
+New road schemes
+New design schemes, including new carriageway, on-line
+widening or upgrading of an existing pavement, where there is
+greater uncertainty about traffic flows.
+On-line widening
+Where additional carriageway is constructed abutting the existing
+carriageway.
+Overlay
+Maintenance treatment that involves adding a new base course
+and/or binder course and/or surface course to an existing road
+surface.
+Partial reconstruction
+Maintenance treatment that involves replacement of all the bound
+layers.
+Plane off and inlay
+Maintenance treatment that involves replacement of some of the
+bound layers.
+Re-alignment
+Where there is a change in the arrangement of one or more lanes.
+Standard axle
+An axle exerting or applying a force of 80kN.
+Strengthening treatment
+A deeper treatment that strengthens the pavement as defined in
+CD 227 [Ref 3.N].
+Surface treatment
+Maintenance treatment that involves the application of a material
+to or mechanical reworking of an existing road surface to improve
+characteristics such as skid resistance, macrotexture, noise and
+service life.
+Upgrading of an existing
+pavement
+Upgrading of an existing pavement includes conversion of a hard
+shoulder to a running lane and incorporation of an existing
+pavement into new construction.
+Wear factor
+The structural wear factor associated with each passing vehicle
+increases with increasing axle load. Although alternative methods
+are available, structural wear for pavement design in the UK is
+taken as being proportional to the 4th power of the axle load.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 47
+======================================================================
+CD 224 Version 0.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document defines the method that shall be used to calculate traffic loading for the design of road
+pavements.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the construction, improvement
+and maintenance of pavements on the Overseeing Organisations' motorway and all-purpose trunk
+roads according to the implementation requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+2.
+Calculation of design traffic for traffic assessments
+2.1
+The following factors shall be used to calculate the design traffic (T):
+1)
+commercial vehicle flow (F);
+2)
+design period (Y);
+3)
+growth factor (G);
+4)
+wear factor (W); and
+5)
+percentage of vehicles in the heaviest loaded lane (P).
+Commercial vehicle flow
+2.2
+The annual average daily flow (AADF) data shall be used to calculate the commercial vehicle flow (F),
+grouped by commercial vehicle class or category, either at the year of opening for a new road scheme
+or at the current year for an existing road scheme.
+NOTE
+The AADF is the flow measured in one direction (1-way flow).
+2.3
+Annual average daily traffic (AADT) shall be converted into AADF assuming a 50:50 directional split,
+unless traffic counts or studies show a directional bias.
+NOTE
+The AADT is the sum traffic measured in both directions.
+2.4
+Table 2.4 shows the commercial vehicle classes and categories that shall be used in the calculation of
+design traffic, as given in DVSA Simplified Guide [Ref 1.N].
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+Table 2.4 Commercial vehicle classes and categories
+Commercial vehicle (cv)
+cv class*
+cv category
+Buses and coaches
+PSV
+2-axle rigid
+3-axle rigid
+OGV1
+3-axle articulated
+4-axle rigid
+4-axle articulated
+5-axle articulated
+6 (or more) axle articulated
+OGV2
+*classed by axles in contact with the road
+PSV = Public service vehicles
+OGV = Other goods vehicles
+New road schemes
+2.5
+For new road schemes, the commercial vehicle flows, either by class or by category, shall be
+determined from traffic transport analysis using the principles described in the Department for
+Transport's TAG Unit M3.1 [Ref 8.N].
+2.6
+The flow of other goods vehicles 2 (OGV2) as a percentage of all commercial vehicles shall be
+obtained by calculation or modelling.
+2.7
+The resulting percentage of OGV2 vehicles for new road schemes shall not be less than 70 percent.
+2.8
+For on-line widening or upgrading of an existing pavement, where an existing lane is included within the
+new wheel track zone, the calculation of past traffic for that lane shall proceed as for existing road
+schemes.
+2.9
+For on-line widening or upgrading of an existing pavement, where there is greater certainty about future
+traffic flows, based on the existing road traffic counts, the calculation of future traffic shall proceed as
+for existing road schemes.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+NOTE
+There can be greater certainty about future traffic flows, based on the existing road traffic counts, for
+example, when the new road scheme does not notably add capacity and/or improve efficiency of the
+traffic flow that might otherwise attract an uncertain (higher) future traffic flow.
+Existing road schemes
+2.10
+Where there are existing AADF data for the scheme, they shall be used to determine the commercial
+vehicle flow.
+2.11
+Existing data sources shall include:
+1)
+Traffic Count Database [Ref 6.N], to obtain yearly estimated, manual count or automatic counter
+AADF data via the interactive map. This AADF data for the site number(s) applicable to the
+scheme can be downloaded by direction of travel as a .csv file to extract the cv count data by
+class or category; and,
+2)
+National Highways Traffic Information System ( WebTRIS [Ref 4.N]) . Click on the count site icon,
+to obtain yearly count AADF data via the interactive map. This AADF data for the site ID(s)
+applicable to the scheme can be downloaded by direction of travel as a .csv file to extract the total
+AADF and percentage of cv (shown as '%>6.6 m') to provide a count for all commercial vehicles.
+2.12
+Where there are no existing AADF data, a classified traffic count shall be carried out and converted to
+AADF using the principles given in the COBA Manual ( COBA [Ref 7.N]).
+NOTE
+A classified traffic count can be carried out by a trained enumerator, to count traffic by commercial
+vehicle class over a 12 hour period (7am to 7pm) on a neutral weekday. A neutral weekday is taken to
+be between March and October, excluding public holidays, school holidays and any other days where
+the traffic flow is not expected to be typical e.g. due to local traffic management.
+2.13
+For existing road schemes, where there is greater uncertainty about future traffic flows, based on the
+existing road traffic counts, the calculation of future traffic shall proceed as for new road schemes.
+NOTE
+There can be greater uncertainty about future traffic flows, based on the existing road traffic counts, for
+example, when the existing road scheme notably improves the efficiency of the traffic flow such that it
+could attract an uncertain (higher) future traffic flow.
+Design period
+2.14
+For new road schemes, the design period (Y) is the number of years over which traffic is to be
+assessed (future traffic), and shall be defined according to the design life given in CD 226 [Ref 2.N].
+2.15
+For existing road schemes, the design period (Y) shall be the number of years since opening or the last
+strengthening treatment of the carriageway up to the current year (past traffic), plus the minimum
+structural life required after treatment given in CD 227 [Ref 3.N] (future traffic).
+Growth factor
+Future traffic
+2.16
+The growth factors given in Table 2.16 shall be used to calculate the future traffic.
+Table 2.16 Growth factors (G) for future traffic
+Design period (years)
+5
+10
+15
+20
+25
+30
+35
+40
+OGV1 + PSV
+1.02
+1.05
+1.08
+1.11
+1.14
+1.17
+1.21
+1.24
+OGV2
+1.04
+1.10
+1.16
+1.23
+1.30
+1.37
+1.46
+1.54
+All commercial vehicles
+n/a
+1.45
+NOTE 1
+The growth factor (G) represents the difference between the average annual cv flow over the future
+traffic design period, and the annual cv flow at either the year of opening for a new road scheme or the
+current year for an existing road scheme.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+NOTE 2
+The growth factors (G) are based on the 'high growth GDP' scenario 5 of the road traffic forecasts 2015
+( RTF 2015 [Ref 3.I]). The equivalent annual growth rates (R) are 1.07% for OGV1 + PSV, 2.10% for
+OGV2 and 1.54% for all commercial vehicles.
+NOTE 3
+Compared with RTF 2015, the growth factors based on 'high growth GDP' scenario 2 of the road traffic
+forecasts 2018 ( RTF 2018 [Ref 4.I]) indicate a reduced future traffic volume, that partly recovers based
+on the 'high economy' [high growth GDP] scenario of the road traffic forecasts 2022 ( RTF 2022 [Ref
+1.I]). With continued economic uncertainty in the wake of Brexit, and continued uncertainty regarding
+the coronavirus effects on future work travel behaviours, the RTF 2015 growth factors are retained.
+2.17
+Where no information on commercial vehicle classes and categories is available, a 40 year design
+period (Y) and a growth factor (G) of 1.45 shall be used.
+2.18
+Where there is a requirement to calculate the traffic flow after i years (for example, to calculate the
+current year flow for an existing road scheme from the most recent historical classified traffic count
+data, or when calculating the polished stone value and aggregate abrasion value at the end of the
+anticipated life of the surface course), the annual growth rate (R) shall be used as in Equation 2.18.
+Equation 2.18 Traffic flow
+Fi = F ×
+(
+(1 + R)i)
+where:
+F
+is commercial vehicle flow (AADF)
+Fi
+is traffic flow after i years
+R
+is the Annual growth rate
+NOTE 1
+For example, for an existing road, where the most recent historical classified traffic count data provides
+AADF that is 2 years old, then the current year 'all commercial vehicles' flow (AADF), for R = 1.54%,
+becomes (1.0154)2 = 1.03 times higher.
+NOTE 2
+For example, after 10 years the OGV2 flow (R = 2.10%) becomes 1.02110 = 1.23 times the current year
+flow (F). This is larger than the equivalent growth factor (G) for a 10 year design period (shown as 1.10
+in Table 2.16) as it is the flow in year 10 rather than the average across the 10 years.
+Past traffic
+2.19
+Where historical classified traffic counts are available, carried out and converted to AADF using the
+principles given in the COBA Manual ( COBA [Ref 7.N]), they shall be used to calculate the traffic flow
+that has been carried by that existing road scheme for that year.
+NOTE 1
+A historical classified traffic count can include that carried out by a trained enumerator for a previous
+maintenance design or re-alignment.
+NOTE 2
+A historical classified traffic count can include Traffic Count Database [Ref 6.N]data based on a manual
+count or an automatic counter.
+NOTE 3
+Where historical classified traffic counts are not available for a particular year, Traffic Count Database
+[Ref 6.N]data based on an estimated count, or National Highways Traffic Information System (
+WebTRIS [Ref 4.N]) data, can be used.
+2.20
+For those years where data is not available, the AADF shall be the same as that for the next, later, year
+where data is available.
+Current year flow
+2.21
+For an existing road scheme, the current year flow (AADF) shall be determined from the most recent
+historical classified traffic count data.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+NOTE
+Where historical classified traffic counts are not available, Traffic Count Database [Ref 6.N]data based
+on an estimated count, or National Highways Traffic Information System ( WebTRIS [Ref 4.N]) data,
+can be used.
+2.22
+Where the most recent historical classified traffic count data is not available for the current year, then
+the current year flow (AADF) shall be calculated in accordance with Equation 2.18.
+NOTE
+An example calculation is provided in Appendix B.
+Wear factor
+2.23
+The wear factors given in Table 2.23 shall be used to calculate design traffic.
+Table 2.23 Wear factors for commercial vehicle classes and categories
+Commercial vehicles (cv)
+New WN
+Maintenance WM
+Buses and coaches
+3.9
+2.6
+2-axle rigid
+0.6
+0.4
+3-axle rigid
+3.4
+2.3
+4-axle rigid
+4.6
+3.0
+3 and 4-axle articulated
+2.5
+1.7
+5-axle articulated
+4.4
+2.9
+cv class
+6-axle articulated
+5.6
+3.7
+OGV1 + PSV
+1.9
+1.3
+cv category
+OGV2
+4.9
+3.2
+All commercial vehicles
+4.0
+2.7
+2.24
+The wear factors for new road schemes, WN, shall be used to calculate the design traffic for all new
+road construction, including new carriageway, on-line widening or upgrading of an existing pavement
+where there is greater uncertainty about the future traffic flow.
+NOTE
+Where the capacity of an existing carriageway is improved, this can attract a higher traffic flow or a
+different flow composition compared with the past traffic flow.
+2.25
+The wear factors for maintenance, WM, shall be used to calculate the design traffic for all existing road
+schemes where there is greater certainty about the future traffic flow based on the past traffic flow.
+NOTE
+For example, for a scheme comprising on-line narrow widening, with subsequent re-alignment of an
+existing lane, then WM can be applied where there remains certainty of the future traffic flow based on
+the past traffic.
+Percentage of commercial vehicles in the heaviest loaded lane
+2.26
+For carriageways with 2 or more lanes in one direction, the proportion of vehicles in the most heavily
+loaded lane (P) shall be calculated using Table 2.26.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+Table 2.26 Assumed proportion of commercial vehicles in the heaviest loaded lane
+Number of lanes (in one direction)
+Flow (F) (cv/day)
+P (%)
+Up to 5,000
+P = 100 - (0.0036 x F)
+Over 5,000 up to 25,000
+P = 89 - (0.0014 x F)
+2 or 3
+Over 25,000
+P = 54
+Up to 10,500
+P = 100 - (0.0036 x F)
+Over 10,500 up to 25,000
+P = 75 - (0.0012 x F)
+4 or more
+Over 25,000
+P = 45
+Percentage of commercial vehicles in other lanes
+2.27
+Where required for maintenance purposes, the traffic in the other lanes shall be based on the
+assumptions in Table 2.27.
+Table 2.27 Assumed distribution of commercial vehicles in other lanes
+2-lanes
+All traffic not in the heaviest loaded lane is in the other lane.
+3-lanes
+All commercial vehicle traffic is in lanes 1 and 2 - traffic not in the heaviest
+loaded lane is in the other lane.
+4 or more lanes
+Classified traffic count data are needed to confirm the distribution of traffic
+across each lane. No commercial vehicle traffic is in the right hand lane.
+Design traffic
+2.28
+The future cumulative design traffic, in terms of million standard axles (msa), for each commercial
+vehicle class or category c shall be calculated according to Equations 2.28a and 2.28b.
+Equation 2.28a Weighted annual traffic
+Tc = 365 × F × G × W × 10−6msa
+Equation 2.28b Design traffic (T) in the heaviest loaded lane
+T =
+∑
+Tc × Y × P
+where:
+Tc
+is the weighted annual traffic for commercial vehicle class or category c
+F
+is the commercial vehicle flow (AADF)
+G
+= Growth factor
+W
+= Wear factor (WM for maintenance or WN for new design)
+Y
+= Design period (years)
+P
+= Percentage of commercial vehicles in the heaviest loaded lane
+T
+= Design traffic
+2.29
+Detailed design traffic calculations shall be recorded as required by Section 7 of CD 226 [Ref 2.N].
+2.29.1
+Design traffic calculations may be made using the proforma given in Appendix A.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 47
+======================================================================
+CD 224 Version 0.1.0
+2. Calculation of design traffic for traffic ass...
+NOTE
+Example calculations are provided in Appendix B.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 47
+======================================================================
+CD 224 Version 0.1.0
+3. Normative references
+3.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+Driver and Vehicle Standards Agency. Department for Transport. DVSA Simplified
+Guide, 'A Simplified Guide to Lorry Types and Weights'
+Ref 2.N
+National Highways. CD 226, 'Design for new pavement construction'
+Ref 3.N
+National Highways. CD 227, 'Design for pavement maintenance'
+Ref 4.N
+National Highways. WebTRIS, 'https://webtris.nationalhighways.co.uk'
+Ref 5.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+Department for Transport (UK). https://roadtraffic.dft.gov.uk/. Traffic Count Database,
+'Road traffic statistics '
+Ref 7.N
+Mott MacDonald. COBA, 'The COBA User Manual'
+Ref 8.N
+Department for Transport (UK). TAG Unit M3.1, 'Transport Appraisal Guidance Unit
+M3.1 Highway Assignment Modelling'
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 47
+======================================================================
+CD 224 Version 0.1.0
+4. Informative references
+4.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Department for Transport. RTF 2022, 'National Road Traffic Projections 2022'
+Ref 2.I
+Transport Research Laboratory. VM Atkinson, D Merrill and N Thom. TRL PPR 66,
+'Pavement wear factors'
+Ref 3.I
+Department for Transport. RTF 2015, 'Road Traffic Forecasts 2015'
+Ref 4.I
+Department for Transport. RTF 2018, 'Road Traffic Forecasts 2018'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 47
+======================================================================
+CD 224 Version 0.1.0
+Appendix A. Design traffic calculations proforma
+Appendix A. Design traffic calculations proforma
+Table A.1 Table for the calculation of design traffic
+Wear factor
+(W)
+Commercial vehicle class
+or category
+AADF
+(F)
+Growth factor
+(G)
+WM or WN
+Weighted annual
+traffic
+(Tc)
+Either by class
+Buses and coaches
+2 axle rigid
+3 axle rigid
+4 axle rigid
+3 and 4 axle articulated
+5 axle articulated
+6 axle articulated
+Or by category
+OGV1 + PSV
+OGV2
+Total daily flow (cv/day)
+Total weighted annual traffic (∑Tc)
+Percentage of vehicles in
+heaviest loaded lane (P)
+Design period (Y)
+Design traffic (T)
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 47
+======================================================================
+CD 224 Version 0.1.0
+Appendix B. Design traffic calculation examples
+Appendix B. Design traffic calculation examples
+B1
+Example traffic calculation for a new road scheme
+An example calculation for a new road scheme where the minimum 70% OGV2 applies (by cv
+category), for a 40 year design period, is given in Table B.1.
+Table B.1 Future traffic calculation for a new road scheme (by cv category)
+Wear factor
+(W)
+Commercial vehicle
+category
+AADF
+(F)
+Growth factor
+(G)
+(40 years)
+WN
+Weighted
+annual
+traffic (Tc)
+OGV1 + PSV
+OGV2
+360
+840
+1.24
+1.54
+1.9
+4.9
+0.31
+2.31
+Total daily flow (cv/day)
+1,200
+Total weighted annual traffic (∑Tc)
+2.62 msa
+Percentage of vehicles in
+heaviest loaded lane (P)
+95.7%
+Design period (Y)
+40 years
+Design traffic (T)
+100 msa
+B2
+Example traffic calculations for existing road schemes
+B2.1
+Past traffic for an existing road scheme
+An example 15 year past traffic calculation for an existing road scheme is given in Table B.2.
+For this example, historical classified traffic count DfT data (by cv class) Traffic Count Database [Ref
+6.N] is available for the year 2021 only, and WebTRIS data (by all commercial vehicles) WebTRIS [Ref
+4.N] is available for the years 2013, 2018, 2021 and 2022 only. The last major structural maintenance
+of this example carriageway was 2010; and the current year is 2024.
+Calculation Steps:
+1)
+Populate Table B.2 with AADF for each year that data is available; and calculate life (msa) = F x
+WM x P x 365 x 10-6.
+2)
+Project the most recent data (by cv Class) to give the AADT for the current year.
+3)
+For those years where there is no AADF data, use the same life (msa) as that for the next year
+where data is available.
+4)
+Sum the msa calculated for each year, to determine the Past Traffic.
+Table B.2 Past traffic calculation for an existing road scheme
+Year
+Data source
+AADF (F)
+Wear Factor (WM
+)
+% cv in
+heaviest
+loaded lane (P)
+Life
+(msa)
+2010
+No data, so AADF (and msa) as for the next later year where data is available
+1.83
+2011
+No data, so AADF (and msa) as for the next later year where data is available
+1.83
+2012
+No data, so AADF (and msa) as for the next later year where data is available
+1.83
+2013
+webTRIS data (by all cv)
+2000
+2.7
+92.8%
+1.83
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 47
+======================================================================
+CD 224 Version 0.1.0
+Appendix B. Design traffic calculation examples
+Table B.2 Past traffic calculation for an existing road scheme (continued)
+2014
+No data, so AADF (and msa) as for the next later year where data is available
+2.16
+2015
+No data, so AADF (and msa) as for the next later year where data is available
+2.16
+2016
+No data, so AADF (and msa) as for the next later year where data is available
+2.16
+2017
+No data, so AADF (and msa) as for the next later year where data is available
+2.16
+2018
+webTRIS data (by all cv)
+2400
+2.7
+91.4%
+2.16
+2019
+No data, so AADF (and msa) as for the next later year where data is available
+1.99
+2020
+No data, so AADF (and msa) as for the next later year where data is available
+1.99
+webTRIS data (by all cv)
+ignore this lower quality data as
+historical classified count available (see below)
+-
+DfT data (by cv Class)
+AADF (F)
+Wear Factor (WM)
+% cv in heaviest
+loaded lane (P)
+Life (msa)
+Buses and coaches (PSV)
+75
+2.6
+as below
+(0.06)
+2-axle rigid (OGV1)
+885
+0.4
+as below
+(0.12)
+3-axle rigid (OGV1)
+57
+2.3
+as below
+(0.04)
+4-axle rigid (OGV2)
+50
+3
+as below
+(0.05)
+3 and 4-axle articulated (OG
+V2)
+284
+1.7
+as below
+(0.16)
+5-axle articulated (OGV2)
+959
+2.9
+as below
+(0.91)
+6-axle articulated (OGV2)
+539
+3.7
+as below
+(0.65)
+2021
+Sum
+2849
+89.7%
+1.99
+2022
+webTRIS data (by all cv)
+2900
+2.7
+89.6%
+2.56
+2023
+No data, so AADF (and msa) as for the next later year where data is available
+2.10
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 47
+======================================================================
+CD 224 Version 0.1.0
+Appendix B. Design traffic calculation examples
+Table B.2 Past traffic calculation for an existing road scheme (continued)
+DfT data (by cv Class)
+AADF2021
+(1+R)i
+AADF2024
+Life (msa)
+Buses and coaches (PSV)
+75
+(1+1.07%)3
+77
+(0.07)
+2-axle rigid (OGV1)
+885
+(1+1.07%)3
+914
+(0.12)
+3-axle rigid (OGV1)
+57
+(1+1.07%)3
+59
+(0.04)
+4-axle rigid (OGV2)
+50
+(1+2.10%)3
+53
+(0.05)
+3 and 4-axle articulated (OG
+V2)
+284
+(1+2.10%)3
+302
+(0.17)
+5-axle articulated (OGV2)
+959
+(1+2.10%)3
+1021
+(0.96)
+6-axle articulated (OGV2)
+539
+(1+2.10%)3
+574
+(0.69)
+2024
+Sum
+2849
+3000
+2.10
+2010 to 2024 (15 years) Past Traffic = sum of the above msa
+30.87
+B2.2
+Future traffic for existing road schemes
+An example of the future traffic calculation for an existing road scheme (by cv class), for a minimum
+structural life of 20 years after maintenance treatment, is given in Table B.3.
+Table B.3 Future traffic calculation for an existing road scheme (by cv class)
+Wear factor
+(W)
+Commercial vehicle
+class
+AADF
+(F)
+Growth factor
+(G)
+(20 years)
+WM
+Weighted annual
+traffic (Tc)
+Buses and coaches
+77
+1.11
+2.6
+0.08
+2 axle rigid
+3 axle rigid
+914
+59
+1.11
+1.11
+0.4
+2.3
+0.15
+0.05
+4 axle rigid
+3 and 4 axle articulated
+5 axle articulated
+6 axle articulated
+53
+302
+1,021
+574
+1.23
+1.23
+1.23
+1.23
+3.0
+1.7
+2.9
+3.7
+0.07
+0.23
+1.33
+0.93
+Total daily flow (cv/day)
+3,000
+Total weighted annual traffic (∑Tc)
+2.87 msa
+Percentage of vehicles in
+heaviest loaded lane (P)
+89.2%
+Design period (Y)
+20 years
+Design traffic (T)
+51 msa
+Where there is no information on cv class or cv categories, an example of the future traffic calculation
+for an existing road scheme, for a structural life of 40 years after reconstruction treatment, is given in
+Table B.4.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 47
+======================================================================
+CD 224 Version 0.1.0
+Appendix B. Design traffic calculation examples
+Table B.4 Future traffic calculation for an existing road scheme (by all commercial vehicles)
+Wear factor
+(W)
+Commercial vehicle
+category
+AADF
+(F)
+Growth factor
+(G)
+WM
+Weighted annual
+traffic (Tc)
+Total daily flow
+(cv/day)
+2,000
+1.45
+2.7
+2.86 msa
+Percentage of vehicles in heaviest
+loaded lane (P)
+92.8%
+Design period (Y)
+40 years
+Design traffic (T)
+106 msa
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 47
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 47
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 224 - ENAA
+England National Application Annex for Traffic
+assessment
+(formerly HD 24/06)
+Version 1.0.0
+Summary
+There is no specific requirements for England supplementary or alternative to those given in CD
+224.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 47
+======================================================================
+CD 224 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 47
+======================================================================
+CD 224 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 224 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+No change in this ENAA.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 47
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 47
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 224 - NINAA
+Northern Ireland National Application Annex
+for Traffic assessment
+(formerly HD 24/06)
+Version 1.0.0
+Summary
+There is no specific requirements for Northern Ireland supplementary or alternative to those
+given in CD 224.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 47
+======================================================================
+CD 224 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 47
+======================================================================
+CD 224 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 224 -
+NINAA
+1.0.0
+September 2025
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+No change this version.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 47
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 47
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 224 - SNAA
+Scotland National Application Annex for Traffic
+assessment
+(formerly CD 224 (rev. 0 inc. HD 24/06))
+Version 1.0.0
+Summary
+There are specific Scotland requirements on design traffic calculations for new road schemes
+alternative to those given in CD 224.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+S/1. Calculation of design traffic for traffic assessments [CD 224, 2.]
+7
+Commercial vehicle flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+New road schemes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+S/2. Normative references
+8
+S/3. Informative references
+9
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 224 -
+SNAA
+1.0.0
+September 2025
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+This NAA has been developed to include specific Scotland requirements on design traffic calculations for new
+road schemes alternative to those given in CD 224.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Transport Scotland.
+This document supersedes HD 24/06, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This document covers the calculation of design traffic (i.e. commercial vehicle pavement loading over
+the design period) for new trunk roads, including motorway schemes and for the maintenance of
+existing trunk roads, including motorways.
+In the UK, pavement designs for particular materials are intrinsically related to the road pavement
+structural wear resulting from traffic (i.e. fatigue cracking within the bound pavement layers and/or
+excessive subgrade deformation). Pavement designs for flexible and rigid pavements are presented in
+CD 226 [Ref 1.N].
+Road pavement structural wear in the UK is calculated using wear factors based on axle loads. Wear
+factors have been calculated for commercial vehicle axle loads from measurements made using
+weigh-in-motion (WIM) sensors installed on the road network. The background to the method is given
+in TRL Report ( TRL PPR 66 [Ref 1.I])
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviation
+Definition
+AADF
+Annual average daily flow (1-way traffic)
+cv
+Commercial vehicles (over 3.5 tonnes maximum gross vehicle weight)
+OGV2
+Other goods vehicles 2 (4-axle rigid vehicles and articulated vehicles with any
+number of axles)
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Design traffic
+The commercial vehicle loading over the design period of a pavement. It is
+expressed as the number of equivalent 80 kN standard axles.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+S/1. Calculation of design traffic for traffic ass...
+S/1.
+Calculation of design traffic for traffic assessments [CD 224, 2.]
+Commercial vehicle flow
+New road schemes
+S/1.1
+The flow of other goods vehicles 2 (OGV2) as a percentage of all commercial vehicles shall be
+obtained by calculation or modelling.
+S/1.2
+The resulting percentage of OGV2 vehicles for new road schemes shall not be less than the
+percentage given in Figure S/1.2.
+Figure S/1.2 Minimum percentage of commercial vehicles category OGV2 for new
+road schemes
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+S/2. Normative references
+S/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 226, 'Design for new pavement construction'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 47
+======================================================================
+CD 224 - SNAA Version 1.0.0
+S/3. Informative references
+S/3.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Transport Research Laboratory. VM Atkinson, D Merrill and N Thom. TRL PPR 66,
+'Pavement wear factors'
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 47
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 47
+======================================================================
+Design Manual for Roads and Bridges
+Pavement
+Design
+CD 224 - WNAA
+Wales National Application Annex for Traffic
+assessment
+(formerly HD 24/06)
+Version 1.0.0
+Summary
+There is no specific requirements for Wales supplementary or alternative to those given in CD
+224.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 47
+======================================================================
+CD 224 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 47
+======================================================================
+CD 224 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 224 -
+WNAA
+1.0.0
+September 2025
+Wales NAA
+Change to policy, major
+revision, new document
+development
+No change from last published.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 47
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 224 Version 0.1.0, published: 30-Sep-2025
+
+
