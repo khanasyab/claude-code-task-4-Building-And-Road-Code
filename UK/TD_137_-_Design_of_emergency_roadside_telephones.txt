@@ -1,0 +1,1309 @@
+======================================================================
+PAGE 1 of 43
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 137
+Design of emergency roadside telephones
+Version 1.0.0
+Summary
+A DMRB document to be used for the design of emergency roadside telephones
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 43
+======================================================================
+TD 137 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. General requirements for emergency roadside telephones for roadside technology and communica-
+tions
+9
+Emergency roadside telephone for roadside technology and communications site design
+. . . . . . . . . .
+9
+Ducts and chambers for ERT for roadside technology and communications sites . . . . . . . . . . . .
+9
+Foundation and mounting arrangements for ERT for roadside technology and communications sites .
+9
+Design of supports and foundations for ERTs for roadside technology and communications
+. . . . . . . . .
+10
+Design of road restraint systems for ERTs for roadside technology and communications . . . . . . . . . . .
+10
+Outputs from the design of ERTs for roadside technology and communications . . . . . . . . . . . . . . . .
+10
+3. Provision of emergency roadside telephones for roadside technology and communications
+11
+4. Communications network for emergency roadside telephones for roadside technology and communi-
+cations
+12
+Selection of communications network for emergency roadside telephones for roadside technology and com-
+munications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Overseeing Organisation's private telecommunications network for emergency roadside telephones for road-
+side technology and communications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Public mobile communications network for emergency roadside telephones for roadside technology and
+communications
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+5. Siting and spacing of emergency roadside telephones for roadside technology and communications
+13
+Emergency roadside telephone siting and spacing on motorways with a hard shoulder
+. . . . . . . . . . .
+13
+Spacing of emergency roadside telephones on motorways with a hard shoulder . . . . . . . . . . . . .
+13
+Emergency roadside telephone siting on motorways without a hard shoulder or where it is dynamically used
+as a running lane . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Emergency roadside telephone siting on all-purpose trunk roads . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Emergency roadside telephone siting in road tunnels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+6. Normative references
+16
+7. Informative references
+17
+Appendix A. Appraisal of the network service to an ERT
+18
+A1 Note 1 - Determine predicted coverage levels for each mobile operator . . . . . . . . . . . . . . . . . . .
+21
+A2 Note 2 - Determine the combined service availability for the mobile operators . . . . . . . . . . . . . . .
+21
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 43
+======================================================================
+TD 137 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 137
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+New document derived from Section split from TD 131, with updated amendments.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 43
+======================================================================
+TD 137 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 v0.1.0, Section 4, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 43
+======================================================================
+TD 137 Version 1.0.0
+Introduction
+Introduction
+Background
+The Emergency Roadside Telephone (ERT) service is provided to enable customers to contact the
+local control centre for assistance in case of emergency, breakdown or collision and for the control
+centre operator to maintain communication with the customer.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 7.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 43
+======================================================================
+TD 137 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ERT
+Emergency roadside telephone
+MSA
+Motorway service area
+SDP
+Service delivery point
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 43
+======================================================================
+TD 137 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Cross carriageway duct
+As defined in TD 133 [Ref 1.N].
+Connector road
+As defined in CD 122 [Ref 6.N]
+Delineated stopping bay markings
+Markings within an emergency area to advise drivers where to
+position their vehicle.
+Information model
+As defined in GG 184 [Ref 12.N].
+Emergency area
+A purpose-built place of relative safety which is located
+adjacent to
+the nearside of a mainline carriageway or diverge connector
+road.
+NOTE: The legislative title for an emergency area is an
+'emergency refuge area' and the regulations governing the use
+of
+a normal hard shoulder apply.
+Inter-junction
+The section of mainline between consecutive junctions.
+Intra-junction
+The section of mainline within a junction, between a diverge
+and merge.
+New short section of hard shoulder
+A purpose-built place of relative safety which is located
+adjacent to the nearside of a diverge connector road.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 43
+======================================================================
+TD 137 Version 1.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Place of relative safety
+A facility where road users can stop in an emergency. A place
+of
+relative safety only includes the following:
+1) a motorway service area (MSA) and rest area;
+2) an emergency area;
+3) an existing hard shoulder that is a minimum of 3 metres
+wide
+0ptand a minimum of 100 metres in length, located
+intra-junction
+0ptor on a diverge connector road; and,
+4) a new short section of hard shoulder located on a
+0ptdiverge connector road that is 100 metres in length and
+is a
+0ptminimum of 3 metres wide.
+Examples of features that are not a place of relative safety
+include:
+1) a maintenance hard standing;
+2) depots or turnarounds, including their connector roads;
+3) verges; and,
+4) any location outside the Overseeing Organisation's land
+0ptboundary (excluding MSAs).
+Public mobile communications
+network
+Wireless network infrastructure enabling mobile devices to
+connect for voice, data, and messaging services, accessible to
+the general public.
+Service availability
+A measure of what proportion of time users have a network
+connection in a 90 day period, that ensures a 90 second call is
+completed without interruption.
+Service delivery point
+As defined in TD 132 [Ref 2.N].
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 43
+======================================================================
+TD 137 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for determining the provision, type, siting, and design of Emergency
+Roadside Telephone (ERT) installations on motorways and all-purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 8.N], GG
+104 [Ref 10.N], GD 304 [Ref 5.N], the requirements for the supply of ERTs in MCE 2663 [Ref 11.N],
+and all other DMRB documents relevant to the design of the particular works to be undertaken.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving ERTs on the Overseeing
+Organisations' motorways and all-purpose trunk roads according to the implementation requirements of
+GG 101 [Ref 7.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 7.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 43
+======================================================================
+TD 137 Version 1.0.0
+2. General requirements for emergency roadside t...
+2.
+General requirements for emergency roadside telephones for
+roadside technology and communications
+Emergency roadside telephone for roadside technology and communications
+site design
+2.1
+Emergency roadside telephone (ERT) sites for roadside technology and communications shall be
+designed so that they provide safe access to the ERT for all users.
+NOTE 1
+Safe access to an ERT for roadside technology and communications can include provision of ramps,
+dropped kerbs, clearances and guardrails.
+NOTE 2
+Positioning ERTs at vehicle restraint system terminals can provide all users a place of relative safety
+whilst awaiting assistance.
+NOTE 3
+The requirement to provide safe access to ERTs for all users is set out by the Equality Act in the
+UKPGA 2010/15 [Ref 1.I]. This Act requires public authorities, in carrying out their functions, to have
+due regard to the need to eliminate discrimination and advance equality of opportunity between people
+who share a protected characteristic and those who do not.
+2.1.1
+The ERT for roadside technology and communications instrument should be orientated so that the user
+faces oncoming traffic.
+2.2
+Where there is a vehicle restraint system present, the ERT shall be set back a minimum of 50 mm from
+the rear of the vehicle restraint system, up to a maximum of 150 mm.
+2.2.1
+Where site conditions allow, the ERT should be set back 50 mm from the rear of the vehicle restraint
+system.
+2.3
+Where a vehicle restraint system is not present, the distance between the ERT and the edge of the
+carriageway shall be a minimum of 600 mm.
+2.4
+Where an ERT is located in a verge with a kerb, the width of the bullnose dropped kerb shall be a
+minimum of 900 mm, to allow wheelchair users access to the telephone.
+2.5
+The height of the base of the ERT instrument module above the ground level shall be between 840 mm
+and 930 mm, to allow access to the telephone for both standing and wheelchair users.
+Ducts and chambers for ERT for roadside technology and communications sites
+2.6
+A minimum 50 mm diameter duct shall be installed to an ERT which requires a cabled connection for
+roadside technology and communications.
+2.7
+A chamber shall be installed at an ERT for roadside technology and communications which requires a
+cabled connection to house a re-termination loop.
+2.7.1
+The chamber should be sited within 50 m of the ERT for roadside technology and communications.
+2.7.2
+Type B chambers should be used where existing or proposed Type A or Type B chambers are not
+provisioned or sited.
+2.8
+The design of chambers shall be in accordance with TD 133 [Ref 1.N].
+Foundation and mounting arrangements for ERT for roadside technology and communications
+sites
+2.9
+The selection of foundation for ERT for roadside technology and communications shall take into
+account site constraints, in accordance with CD 354 [Ref 3.N].
+2.10
+The type of foundation to be used for the ERT for roadside technology and communications shall be
+selected from one of the following options:
+1)
+Option 1: standard concrete plinth;
+2)
+Option 2: 600-mm cube concrete plinth;
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 43
+======================================================================
+TD 137 Version 1.0.0
+2. General requirements for emergency roadside t...
+3)
+Option 3: surface mounted.
+2.10.1
+Option 1 standard concrete plinth should be selected where site conditions allow.
+2.10.2
+Option 2 600-mm cube concrete plinth should be selected at constrained sites.
+2.10.3
+Option 3 surface mounted should be selected where neither Option 1 or Option 2 can be achieved.
+NOTE
+More information to carry out the design of the base foundation can be found in the MCX 1049 [Ref
+13.N]drawings.
+2.11
+The selection of mounting arrangement for ERT for roadside technology and communications shall be
+in accordance with MCE 2663 [Ref 11.N].
+Design of supports and foundations for ERTs for roadside technology and
+communications
+2.12
+The design of supports and foundations for ERTs for roadside technology shall be in accordance with
+CD 354 [Ref 3.N].
+Design of road restraint systems for ERTs for roadside technology and
+communications
+2.13
+The design of road restraint systems for ERTs for roadside technology and communications shall be in
+accordance with CD 377 [Ref 9.N].
+Outputs from the design of ERTs for roadside technology and communications
+2.14
+The outputs from the design of ERTs for roadside technology and communications shall include all
+details for the construction of the supporting infrastructure and the installation of ERTs.
+2.14.1
+For each ERT for roadside technology and communications installation the design outputs should
+include:
+1)
+the type of ERT;
+2)
+details of the service delivery point (SDP);
+3)
+the installation location, using a formal location referencing system;
+4)
+type of plinth;
+5)
+mounting arrangement;
+6)
+support structures: posts and methods of fixing to support structures;
+7)
+foundations for support structures;
+8)
+pedestrian hard standing; kerb profile; access ramp and handrail details;
+9)
+road restraint systems;
+10)
+electrical and telecommunications installations, including cables, chambers and ducting; housings
+and enclosures; housing lock types; numbers of keys for locks; and switchgear and wiring; and
+11)
+position and orientation of all components of the proposed installation relative to other items of
+existing and proposed road infrastructure, including the edge of the carriageway, so that the
+following can be identified:
+a)
+the environment in which the installation is to take place;
+b)
+the factors that can influence the construction methodology and scheduling of the proposed
+installation; and
+c)
+the factors that can affect the operational performance of the proposed installation in the
+future.
+2.15
+Information models shall be produced to define the details and dimensions of each ERT for roadside
+technology and communications to be installed.
+2.15.1
+Drawings and non-graphical information should be produced to provide any additional details or views
+needed for the construction of each ERT for roadside technology and communications installation.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 43
+======================================================================
+TD 137 Version 1.0.0
+3. Provision of emergency roadside telephones fo...
+3.
+Provision of emergency roadside telephones for roadside
+technology and communications
+3.1
+ERTs for roadside technology and communications shall be provided on motorways.
+3.2
+The provision of ERTs for roadside technology and communications shall be consistent with the
+relevant class of road listed below:
+1)
+motorways with a hard shoulder;
+2)
+motorways without a hard shoulder.
+3.3
+On all-purpose trunk roads, ERTs for roadside technology and communications shall be provided to
+meet the operational requirements of the Overseeing Organisation.
+3.4
+The provision of ERTs for roadside technology and communications in road tunnels shall be in
+accordance with MCE 2663 [Ref 11.N]and CD 352 [Ref 4.N].
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 43
+======================================================================
+TD 137 Version 1.0.0
+4. Communications network for emergency roadside...
+4.
+Communications network for emergency roadside telephones for
+roadside technology and communications
+Selection of communications network for emergency roadside telephones for
+roadside technology and communications
+4.1
+ERTs for roadside technology and communications shall use either the Overseeing Organisation's
+private telecommunications network or the public mobile communications network.
+4.2
+The type of ERT for roadside technology and communications for each location shall be selected
+through the appraisal of the communications network service present at that location, to include:
+1)
+the public mobile communications network coverage and service availability, as well as the
+presence of the Overseeing Organisation's private telecommunications network; and
+2)
+a comparison of the whole-life cost for the ERT where the network service is acceptable for both
+types of ERT.
+NOTE 1
+A method for undertaking the appraisal is provided in Appendix A.
+NOTE 2
+The whole-life costs are not required if there is only one option that meets the network service
+requirements for the ERT.
+4.2.1
+The whole-life cost of the ERT for roadside technology and communications provision should take into
+account the Overseeing Organisation's existing telecommunications infrastructure within the scheme
+extents.
+Overseeing Organisation's private telecommunications network for emergency
+roadside telephones for roadside technology and communications
+4.3
+When using the Overseeing Organisation's private telecommunications network a service delivery point
+(SDP) shall be located within the ERT installation to facilitate connection to the network.
+Public mobile communications network for emergency roadside telephones for
+roadside technology and communications
+4.4
+When using the public mobile communications network, the combined service availability for the
+proposed mobile operators that provide an acceptable signal level to support a single ERT shall be at
+least 99.9%.
+4.4.1
+When the combined service availability from the proposed mobile operators that provide an acceptable
+signal level to support a single ERT using the public mobile communications network cannot be
+achieved, advice may be sought from the Overseeing Organisation.
+NOTE
+The service availability for mobile operators is taken from published data and is only valid for the stated
+timescales. The future service availability for mobile operators cannot be guaranteed by the
+Overseeing Organisation.
+4.5
+When using the public mobile communications network, the minimum outdoor signal level for the
+proposed mobile operator networks shall be -100 dBm.
+4.6
+When using the public mobile communications network, the signal level for the mobile operator's
+network shall be measured on-site using calibrated receiving and antenna equipment before
+completion of the detailed design stage.
+NOTE 1
+Depending on the location of the site, different methods can be used to safely obtain signal strength
+measurements to maximise operatives' safety.
+NOTE 2
+Mobile operators and Ofcom only provide predicted coverage levels, not measured signal levels.
+4.6.1
+When using the public mobile communications network, the mobile operator's network should be
+obtained from more than one cellular mast to mitigate against the failure or downtime of a single mast.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 43
+======================================================================
+TD 137 Version 1.0.0
+5. Siting and spacing of emergency roadside tele...
+5.
+Siting and spacing of emergency roadside telephones for roadside
+technology and communications
+Emergency roadside telephone siting and spacing on motorways with a hard
+shoulder
+5.1
+ERTs shall be sited so that the ERT can be accessed without incurring any additional risks, or so that a
+telephone legend on a permanent location marker post is visible.
+NOTE
+Siting ERTs so that they can be accessed without incurring any additional risks, or so that a telephone
+legend on a permanent location marker post is visible, can mitigate the risk of crossing carriageways or
+climbing structures.
+5.2
+ERT siting shall be prioritised around junctions before other ERT locations.
+5.2.1
+ERTs should be sited in the following sequence:
+1)
+ERT locations on the main carriageway near junctions (before diverge and after merge connector
+roads);
+2)
+ERT locations near to (before and after) hard shoulder discontinuities;
+3)
+intra-junction ERT locations;
+4)
+inter-junction ERT locations;
+5)
+ERT locations on slip roads and motorway to motorway connector roads.
+5.3
+ERTs on the main carriageway near junctions shall be sited in relation to the exit and entry datum points:
+1)
+between 400 m and 300 m upstream of the exit datum point; and,
+2)
+between 300 m and 400 m downstream of the entry datum point.
+5.4
+At sections of hard shoulder discontinuities, the ERT shall be sited between 100 m and 300 m from the
+upstream and downstream tips of the discontinuity tapers.
+5.5
+When the full width hard shoulder length is between 100 m and 200 m, the ERT shall be sited at the
+midpoint of the length of full width hard shoulder.
+5.6
+Where the full width hard shoulder length is not between 100 m and 200 m, the provision of ERTs along
+highways shall be agreed in consultation with the Overseeing Organisation on a scheme-by-scheme
+basis.
+5.7
+ERTs shall be sited adjacent to an intra-junction hard shoulder at least 100 m downstream of the back
+of the diverge nose, with a minimum of 50 m of hard shoulder upstream and downstream of the ERT
+location.
+5.7.1
+Intra-junction ERTs should be sited such that they are not visible from the verge of an adjacent
+connector road.
+NOTE
+Siting Intra-junction ERTs such that they are not visible from the verge of an adjacent connector road
+can mitigate the risk of pedestrians crossing live lanes to access an ERT.
+5.8
+Sites where conditions do not allow for intra-junction ERTs to be sited so that they are not visible from
+the verge of an adjacent connector road shall be subject to a safety risk assessment.
+5.9
+The safety risk assessment for intra-junction ERTs visible from the verge of an adjacent connector road
+shall include measures to mitigate risks associated with the risk of pedestrians crossing live lanes to
+access an ERT, to demonstrate that risks have been reduced so far as is reasonably practicable.
+5.10
+Where full width hard shoulders are provided, ERT sites shall be sited in the verge.
+5.11
+Where site conditions allow, replacement ERTs shall make use of existing cross carriageway ducts.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 43
+======================================================================
+TD 137 Version 1.0.0
+5. Siting and spacing of emergency roadside tele...
+Spacing of emergency roadside telephones on motorways with a hard shoulder
+5.12
+For motorways with up to three running lanes and a hard shoulder, ERTs shall be provided at regular
+intervals of 1,500 m +/- 10%.
+5.13
+For motorways with four or more running lanes and a hard shoulder, ERTs shall be provided at regular
+intervals of 1,000 m +/- 10%.
+5.14
+For motorways with climbing lanes, ERT spacing shall be consistent with the number of lanes in the
+link, not the number of lanes at the gradient.
+5.15
+Where ERTs are to be provided on connector roads, they shall be provided at regular intervals of 1,500
+m +/- 10%.
+Emergency roadside telephone siting on motorways without a hard shoulder or
+where it is dynamically used as a running lane
+5.16
+ERTs shall be sited at each emergency area.
+5.17
+ERTs provided at an emergency area, shall be sited 2 m (+/- 1 m) downstream of the delineated
+stopping bay markings.
+5.18
+ERTs shall be provided on a diverge connector road adjacent to a hard shoulder defined as a place of
+relative safety, sited at least 100 m downstream of the back of the diverge nose with a minimum of 50 m
+of hard shoulder upstream and downstream of the ERT location.
+NOTE
+Locating an ERT downstream of the back of the diverge nose can mitigate the risk of late manoeuvres
+from the main carriageway.
+5.18.1
+ERTs on diverge connector roads should be sited such that they are not visible from an adjacent
+intra-junction verge.
+5.19
+Sites where conditions do not allow for ERTs on diverge connector roads to be sited so that they are
+not visible from an adjacent intra-junction road shall be subject to a safety risk assessment.
+5.20
+The safety risk assessment for ERTs on diverge connector roads visible from an adjacent intra-junction
+road shall include measures to mitigate risks associated with the risk of pedestrians crossing live lanes
+to access an ERT, to demonstrate that risks have been reduced so far as is reasonably practicable.
+5.21
+ERTs shall be provided at the midpoint of a new short section of hard shoulder (NSSH) on a diverge
+connector road, and be sited a minimum of 100 m downstream of the back of the diverge nose.
+NOTE
+Locating an ERT downstream of the back of the diverge nose can mitigate the risk of late manoeuvres
+from the main carriageway.
+5.22
+ERTs shall be provided adjacent to an intra-junction hard shoulder defined as a place of relative safety,
+and be sited at least 100 m downstream of the back of the diverge nose, with a minimum of 50 m of
+hard shoulder upstream and downstream of the ERT location.
+5.22.1
+Intra-junction ERTs should be sited such that they are not visible from the verge of an adjacent
+connector road.
+NOTE
+Siting Intra-junction ERTs such that they are not visible from the verge of an adjacent connector road
+can mitigate the risk of pedestrians crossing live lanes to access an ERT.
+5.23
+Sites where conditions do not allow for intra-junction ERTs to be sited so that they are not visible from
+the verge of an adjacent connector road shall be subject to a safety risk assessment.
+5.24
+The safety risk assessment for intra-junction ERTs visible from the verge of an adjacent connector road
+shall include measures to mitigate risks associated with the risk of pedestrians crossing live lanes to
+access an ERT, to demonstrate that risks have been reduced so far as is reasonably practicable.
+Emergency roadside telephone siting on all-purpose trunk roads
+5.25
+ERTs provided on all all-purpose trunk roads shall be sited at a place of relative safety.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 43
+======================================================================
+TD 137 Version 1.0.0
+5. Siting and spacing of emergency roadside tele...
+Emergency roadside telephone siting in road tunnels
+5.26
+ERTs in road tunnels shall be sited in accordance with CD 352 [Ref 4.N].
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 43
+======================================================================
+TD 137 Version 1.0.0
+6. Normative references
+6.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. TD 133, 'Design of cabinets, ducts and chambers for roadside
+technology and communications'
+Ref 2.N
+National Highways. TD 132, 'Design of electrical and telecommunication systems for
+roadside technology and communications'
+Ref 3.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 4.N
+National Highways. CD 352, 'Design of road tunnels'
+Ref 5.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 6.N
+National Highways. CD 122, 'Geometric design of grade separated junctions'
+Ref 7.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 8.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 9.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 10.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 11.N
+National Highways. OTSL. MCE 2663, 'Specification for the Supply of Emergency
+Roadside Telephones'
+Ref 12.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+Ref 13.N
+National Highways. OTSL. MCX 1049, 'Telephone 354'
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 43
+======================================================================
+TD 137 Version 1.0.0
+7. Informative references
+7.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Archive. UKPGA 2010/15, 'Equality Act'
+Ref 2.I
+OFCOM. https://checker.ofcom.org.uk/en-gb/mobile-coverage. Ofcom mobile
+coverage checker, 'Ofcom mobile coverage check website'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 43
+======================================================================
+TD 137 Version 1.0.0
+Appendix A. Appraisal of the network service to an ERT
+Appendix A. Appraisal of the network service to an ERT
+A process for the appraisal of the network service to an ERT is shown in Figure A.1 and Figure A.2.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 43
+======================================================================
+TD 137 Version 1.0.0
+Appendix A. Appraisal of the network service to an ERT
+Figure A.1 Process for the appraisal of the network service to an ERT part 1.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 43
+======================================================================
+TD 137 Version 1.0.0
+Appendix A. Appraisal of the network service to an ERT
+Figure A.2 Process for the appraisal of the network service to an ERT part 2.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 43
+======================================================================
+TD 137 Version 1.0.0
+Appendix A. Appraisal of the network service to an ERT
+A1
+Note 1 - Determine predicted coverage levels for each mobile operator
+The predicted coverage level for each mobile operator is determined using Ofcom mobile coverage
+checker [Ref 2.I].
+An acceptable predicted coverage level on the Ofcom mobile coverage checker is when the outdoor
+voice service is shown as "OK coverage".
+Online websites are available to convert national grid references into post code areas.
+A2
+Note 2 - Determine the combined service availability for the mobile operators
+The service availability for each mobile operator that provides an acceptable predicted coverage level
+is determined using the most recent data on mobile network performance.
+The combined service availability for a service that is provided by more than one mobile operator is
+determined as shown in Equation A.1.
+Equation A.1 Combined service availability provided by more than one mobile operator
+X = 1 −
+n
+∏
+i=1
+(1 −Ai)
+where:
+X is combined service availability
+Ai is service availability of mobile operator i over a minimum 90 days
+n is the number of mobile operators with an acceptable predicted coverage at that location
+i is the identifier of the mobile operator, for example A1 is the service availability of the first operator
+Equation A.1 relies on the service availability percentage figures being entered in decimal form.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 43
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 43
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 137 - ENAA
+England National Application Annex for
+Design of emergency roadside telephones
+Version 1.0.0
+Summary
+There are no specific requirements for National Highways supplementary or alternative to those
+given in TD 137
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 43
+======================================================================
+TD 137 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 43
+======================================================================
+TD 137 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 137 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+England NAA developed with no specific requirements.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 43
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 43
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 137 - NINAA
+Northern Ireland National Application Annex
+for Design of emergency roadside telephones
+Version 1.0.0
+Summary
+This National Application Annex sets out the Department for Infrastructure, Northern Ireland
+specific requirements on design of emergency roadside telephones
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 43
+======================================================================
+TD 137 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+NI/1. Siting and spacing of emergency roadside telephones for roadside technology and communications
+5
+NI/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 43
+======================================================================
+TD 137 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 137 -
+NINAA
+1.0.0
+September 2025
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+New NI NAA developed to provide Department for Infrastructure, Northern Ireland specific requirements for the
+siting and spacing of emergency roadside telephones.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 43
+======================================================================
+TD 137 - NINAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 43
+======================================================================
+TD 137 - NINAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Departure for Infrastructure, Northern Ireland specific
+requirements for design of emergency roadside telephones for roadside technology and
+communications.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 43
+======================================================================
+TD 137 - NINAA Version 1.0.0
+NI/1. Siting and spacing of emergency roadside tele...
+NI/1.
+Siting and spacing of emergency roadside telephones for roadside
+technology and communications
+NI/1.1
+Emergency roadside telephones shall be provided in pairs opposite each other.
+NOTE
+Providing emergency roadside telephones in pairs minimises the risk of a stranded motorist seeing only
+the telephone on the other carriageway and attempting to cross the carriageway.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 43
+======================================================================
+TD 137 - NINAA Version 1.0.0
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 43
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 43
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 137 - SNAA
+Scotland National Application Annex for
+Design of emergency roadside telephones
+Version 1.0.0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in TD 137
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 43
+======================================================================
+TD 137 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 43
+======================================================================
+TD 137 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 137 -
+SNAA
+1.0.0
+September 2025
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+Scotland NAA developed with no specific requirements.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 43
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 43
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 137 - WNAA
+Wales National Application Annex for Design
+of emergency roadside telephones
+Version 1.0.0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in TD 137
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 43
+======================================================================
+TD 137 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 43
+======================================================================
+TD 137 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 137 -
+WNAA
+1.0.0
+September 2025
+Wales NAA
+Change to policy, major
+revision, new document
+development
+Wales NAA developed with no specific requirements.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 43
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 137 Version 1.0.0, published: 30-Sep-2025
+
+
