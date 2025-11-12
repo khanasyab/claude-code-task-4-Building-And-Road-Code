@@ -1,0 +1,3051 @@
+======================================================================
+PAGE 1 of 75
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 101
+Traffic signalling systems (design)
+Version 2.0.0
+Summary
+This document contains design requirements for traffic signalling systems.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 75
+======================================================================
+TD 101 Version 2.0.0
+Contents
+Release notes
+4
+Foreword
+5
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Introduction
+6
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Mutual Recognition
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Abbreviations
+7
+Terms and definitions
+8
+1. Scope
+12
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+2. General requirements for traffic signalling systems
+13
+Security . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Design brief . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Control strategy
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Scheme design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Contractor design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Colour and external finish of traffic signalling systems street furniture . . . . . . . . . . . . . . . . . . .
+14
+Telecommunications Service Provider (TSP) interface . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Site naming convention
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Site conditions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Practical reserve capacity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Design for maintenance and inspection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Traffic signalling systems cabinets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Asset identification labels for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Inspection and test plan (ITP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Maintenance handover documentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Traffic signalling systems equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Traffic signal interaction with pedestrians, cyclists and horse-riders . . . . . . . . . . . . . . . . . . . . . . .
+19
+Connection to public transport systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Remote monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Structural supports and mounting arrangements for traffic signalling systems
+. . . . . . . . . . . . . . . . .
+19
+Road restraint systems and passive safety for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . .
+19
+Managing geotechnical risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Outputs from the design of traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+3. Traffic signal heads
+22
+Design outputs for traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Traffic signal head types, mounting and alignment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Types of traffic signal head
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Mounting and visibility of traffic signal heads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Traffic signal head backing boards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+4. Nearside light signals and wait indicator equipment
+23
+Design output for nearside light signals and wait indicator equipment . . . . . . . . . . . . . . . . . . . . . .
+23
+Types of nearside light signals and wait indicator equipment . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Visibility of nearside light signals and wait indicator equipment
+. . . . . . . . . . . . . . . . . . . . . . . . .
+23
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 75
+======================================================================
+TD 101 Version 2.0.0
+Contents
+5. Traffic signal detectors
+24
+Design outputs for traffic signal detectors
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Types of traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Positioning of traffic signal detectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+6. Traffic signal controllers
+25
+Design outputs for traffic signal controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+General requirements for traffic signal controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Traffic signal controller types
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Traffic signal controller general specification forms and MOVA datasets
+. . . . . . . . . . . . . . . . . . . .
+25
+7. Auxiliary equipment cabinets
+26
+Design outputs for auxiliary equipment cabinets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+General requirements for auxiliary equipment cabinets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+8. Power supply feeder pillars for traffic signalling systems
+27
+Design outputs for power supply feeder pillars
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Design output for electricity supplies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+General requirements for power supply feeder pillars . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Electricity supply . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Elements of power supply feeder pillars that are typically subject to contractor design
+. . . . . . . . . . . .
+27
+Sizing and capacity of power supply feeder pillars and internal equipment . . . . . . . . . . . . . . . .
+28
+Agreement of electrical supplies with the DNO
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+9. Cables for traffic signalling systems
+29
+Design outputs for cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+General requirements for cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Jointing of cables for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Marking and tagging of cables for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Earthing and bonding for cables for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+10. Traffic signal posts
+31
+Design outputs for traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+General requirements for traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Types of traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Sealing of base compartments of traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Foundations for traffic signal posts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+11. Chambers for traffic signalling systems
+33
+Design outputs for chambers for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+Design for chambers for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+Drainage solutions for chambers for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Measures to secure covers for chambers for traffic signalling systems . . . . . . . . . . . . . . . . . . . . .
+38
+12. Cable ducts for traffic signalling systems
+39
+Design outputs for cable ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+General requirements for cable ducts for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . .
+39
+Design of cable ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Cover depth for cable ducts for traffic signalling systems . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Quantity and size of cable ducts for traffic signalling systems
+. . . . . . . . . . . . . . . . . . . . . . .
+39
+13. Normative references
+41
+14. Informative references
+43
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 75
+======================================================================
+TD 101 Version 2.0.0
+Contents
+Appendix A. Detector loops
+44
+A1 Diamond detector loops layout
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+A2 Rectangular detector loops layout
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+A3 Chevron detector loops layout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+A4 Butterfly detector loops layout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 75
+======================================================================
+TD 101 Version 2.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101
+2.0.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+This is a major revision. The document has been updated to include General requirements for traffic signalling
+systems; Traffic signal heads; Nearside light signals and wait indicator equipment; Traffic signal detectors; Traffic
+signal controllers; Auxiliary equipment cabinets, Power supply feeder pillars for traffic signalling systems, Cables
+for traffic signalling systems, Traffic signal posts for traffic signalling systems, Chambers for traffic signalling
+systems and Cable ducts for traffic signalling systems.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101
+1.1.0
+August 2022
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+requirements
+TD 101
+1
+January 2020
+TD 101
+0
+June 2019
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 75
+======================================================================
+TD 101 Version 2.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TA 12/07, TA 16/07, TA 56/87, TA 82/99, TA 84/06, TD 07/07, TD 24/97, TD
+35/06, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 75
+======================================================================
+TD 101 Version 2.0.0
+Introduction
+Introduction
+Background
+This document contains design requirements for traffic signalling systems installations.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 14.N] apply to this document.
+It is assumed that the parties reading TD 101 are aware of additional documents to those within the
+DMRB. The Department for Transport (DfT) prepares general advice, some of which is applicable to
+motorway and all purpose trunk roads. Of these documents, the most relevant are Local Transport
+Notes (LTN), and Traffic Advisory Leaflets (TAL), which mostly cover topics that apply to local rather
+than strategic roads, but some are of general relevance.
+It is assumed that a traffic signalling engineer will be part of the review process throughout all stages of
+traffic signalling systems design.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 14.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 75
+======================================================================
+TD 101 Version 2.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+BS EN
+British Standard European Norm
+CAN
+Controller area network
+CDM
+Construction, design and management
+CSV
+Comma-separated values
+DNO
+Distribution network operator
+FAT
+Factory acceptance test
+IET
+The Institution of Engineering and Technology
+IP
+Ingress protection
+ITP
+Inspection and test plan
+MOVA
+Microprocessor optimised vehicle actuated
+NJUG
+National Joint Utilities Group
+OTU
+Outstation transmission unit
+PRC
+Practical reserve capacity
+RAM
+Random access memory
+RMS
+Remote monitoring system
+SAT
+Site acceptance test
+SCOOT
+Split, cycle, offset optimisation technique
+TOPAS
+Traffic Open Products and Specifications
+TSM
+Traffic Signs Manual
+TSP
+Telecommunications service provider
+TSRGD
+Traffic Signs Regulations and General Directions UKSI 2016/362 [Ref 29.N]
+UPS
+Uninterruptible power supply
+UTC
+Urban traffic control
+VMS
+Variable message sign
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 75
+======================================================================
+TD 101 Version 2.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Adjacent authorities
+Any organisation which has responsibility for the control
+and management of the highway.
+NOTE: Adjacent authorities can be either borough,
+county or city governance. It can also include major
+transport infrastructure locations that have a direct link
+to the highway such as airports, ports, rail and freight.
+Asset identification label
+The label affixed to traffic signalling systems equipment
+and infrastructure to support the identification of different
+assets, for example through the use of a unique
+equipment reference.
+Bar code label
+The label affixed to traffic signalling systems equipment
+for the purposes of identifying, recording and managing
+assets using an asset management system.
+Control strategy
+A system used to control the operation of traffic
+signalling system.
+NOTE 1: Control strategy includes isolated adaptive
+control, co-ordinated control (such as urban traffic
+control), cableless linking or fixed-time.
+NOTE 2: A traffic signalling system installation can be
+capable of operating more than one type, depending on
+factors such as time of day or traffic conditions.
+Countdown timers
+Light signals prescribed by diagram 4002.1A in The
+Traffic Signs Regulations and General Directions UKSI
+2016/362 [Ref 29.N], and defined as a "unit indicating to
+pedestrians the time remaining to cross the road".
+Design file
+A file of information and certification for a scheme,
+produced during the design process to provide a record
+of the development of the scheme, the decisions made
+and the safety considerations.
+Farside light signals
+Light signals viewed from across the road, prescribed by
+diagrams 4002.1, 4003.2 and 4003.5 in The Traffic
+Signs Regulations and General Directions UKSI
+2016/362 [Ref 29.N].
+Full pedestrian stage
+All pedestrian phases of a controlled crossing or junction
+run at the same time while traffic is held on a red signal.
+Hardstanding maintenance working area
+A hard-surfaced area of sufficient size and construction
+to provide a safe working area for maintenance
+purposes.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 75
+======================================================================
+TD 101 Version 2.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Ingress protection (IP)
+Defined in BS EN 60529 [Ref 4.N] as "degree of
+protection: the extent of protection provided by an
+enclosure against access to hazardous parts, against
+ingress of solid foreign objects and/or against ingress of
+water and verified by standardised test methods".
+Inspection and test plan (ITP)
+Document detailing the inspection activities and tests to
+be undertaken on an item of equipment or system to
+demonstrate that it functions in accordance with the
+relevant specifications and requirements. Prepared in
+accordance with BS ISO 10005 [Ref 3.I].
+In-station equipment
+The computer hardware located within a control room.
+Low level cycle signals
+Light signals prescribed by diagram 3000.2A in The
+Traffic Signs Regulations and General Directions UKSI
+2016/362 [Ref 29.N].
+Maintenance access point
+A suitable and safe location where authorised workers
+can park a vehicle. This includes a maintenance
+hardstanding or a parking facility off-network.
+Maintenance hardstanding
+An area where authorised workers can stop adjacent to
+the carriageway (as defined in DMRB CD 169 [Ref
+27.N]).
+Microprocessor optimised vehicle
+actuated (MOVA)
+A control strategy based on minimising stops and delays
+which maximises capacity at a single controlled junction.
+Nearside light signals and wait indicator
+equipment
+Items of traffic signalling systems equipment for use by
+pedestrians, equestrian users and cyclists.
+Partnering organisations
+Organisations and stakeholders with responsibilities or
+interests in traffic signalling systems.
+NOTE: Examples include local authorities, emergency
+services, public transport and freight groups.
+Practical reserve capacity (PRC)
+The available unused capacity of a traffic signal junction.
+NOTE 1: The practical reserve capacity that is positive
+indicates that a junction has spare capacity and may be
+able to accept more traffic.
+NOTE 2: A PRC value is calculated by the commonly
+used traffic signal modelling software.
+Roadside equipment
+All on-street hardware to direct traffic and provide
+sequencing to the road users.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 75
+======================================================================
+TD 101 Version 2.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Secret regulatory signs
+Signs defined in TOPAS 2543 [Ref 2.I] as "regulatory
+signs prescribed in TSRGD or specially authorised by
+the Secretary of State that may be placed in a signal
+head housing located according to the diagrams of
+Schedule 14 part 3 of TSRGD and which are internally
+illuminated and which signs permitted to be used in a
+part time operational mode (so called secret signs)".
+Site conditions
+Physical conditions of the proposed area of the schemes
+to be considered as part of the design stage.
+System software
+Software that controls a computer's hardware and
+provides a platform for other software.
+NOTE: An example is an operating system.
+Telecommunications service provider
+(TSP)
+The TSP provides a 'service capability' for conveying
+data signals that link traffic signalling systems
+installations to in-station equipment.
+Traffic signal controller
+Traffic control equipment and the associated cabinet.
+Traffic signal head
+An item of traffic signalling systems equipment as
+defined in BS EN 12368 [Ref 32.N].
+Traffic signalling engineer
+A person with specialist skills, knowledge and
+experience for the design and commissioning of traffic
+signalling equipment.
+Traffic signalling systems equipment
+All items of hardware installations that operate together
+and indicate to users to proceed with safety at road
+traffic junctions against relevant diagrams of The Traffic
+Signs Regulations and General Directions 2016 UKSI
+2016/362 [Ref 29.N], and associated amendments, for
+England, Wales and Scotland, and the Traffic Signs
+Regulations (Northern Ireland) NISR 1997/386 (TSRNI)
+[Ref 43.N]for Northern Ireland.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 75
+======================================================================
+TD 101 Version 2.0.0
+Terms and definitions
+(continued)
+Term
+Definition
+Traffic signalling systems installations
+Permanent traffic signalling equipment at prescribed
+locations as defined in The Traffic Signs Regulations
+and General Directions UKSI 2016/362 [Ref 29.N], and
+associated amendments, for England, Wales and
+Scotland on all-purpose trunk roads, and the Traffic
+Signs Regulations (Northern Ireland), NISR 1997/386
+(TSRNI) [Ref 43.N] for Northern Ireland. For standalone
+crossings in Northern Ireland, such as 'Pelicans' and
+'Puffins', the relevant legislation is The Zebra, Pelican
+and Puffin Pedestrian Crossings Regulations (Northern
+Ireland) 2006 NISR 2006/164 2006 [Ref 30.N].
+NOTE: Examples of locations include junctions,
+emergency vehicle stations, level crossings, airports,
+tunnels, swing/movable bridges and signalised
+crossings.
+Traffic signalling systems interfacing
+equipment
+Equipment used in connection with the signals (including
+the content of all instructions stored in, or executable by,
+that equipment).
+NOTE: Examples include bus priority systems, variable
+message signs (VMS) and urban traffic control (UTC)
+interfaces.
+Traffic signalling systems
+The combination of traffic signalling equipment and/or
+traffic control equipment, associated software, hardware
+and data.
+TSP interface
+The interface between the TSP and the traffic signalling
+system.
+NOTE: This can include the TSP's service delivery point
+or the ducted network interface; for example a
+designated interface chamber.
+Wig-wag signals
+Light signals prescribed by diagram 3014 in The Traffic
+Signs Regulations and General Directions UKSI
+2016/362 [Ref 29.N], and defined as "light signals for the
+control of road traffic at level crossings, swing or lifting
+bridges, airfields or in the vicinity of premises used
+regularly by fire and rescue authority, Scottish Fire and
+Rescue Service, police or ambulance vehicles".
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 75
+======================================================================
+TD 101 Version 2.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document outlines traffic signalling systems installation design requirements that shall be
+implemented on all new or modified traffic signalling systems installations.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving traffic signalling systems
+installations on the Overseeing Organisations' motorways and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 14.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 14.N] shall be followed in respect of activities covered by
+this document.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+2.
+General requirements for traffic signalling systems
+2.1
+All electrical work must comply with The Electricity at Work Regulations 1989 UKSI 1989/635 [Ref
+28.N].
+2.2
+All electrical work on traffic signalling systems shall comply with the Requirements for Electrical
+Installations. IET Wiring Regulations, BS 7671 [Ref 20.N].
+Security
+2.3
+Security threats to traffic signalling systems shall be assessed, documented, mitigated and managed in
+accordance with the Overseeing Organisation's security procedure.
+NOTE
+Examples of security threats to traffic signalling systems can include compromised roadside
+equipment, in-station equipment and system software, and metal theft.
+2.4
+Risk to the existing communications infrastructure by the introduction of new traffic signalling systems
+equipment shall be avoided.
+Design brief
+2.5
+The applicable provisions of the Construction (Design and Management) Regulations UKSI 2015/51
+[Ref 25.N] must be complied with throughout the life-cycle of the scheme.
+2.6
+In order to identify and confirm the expected outcomes of the traffic signalling systems installation(s), a
+consultation shall be arranged with the Overseeing Organisation.
+2.6.1
+As part of the consultation, the overall objectives and benefits from carrying out the traffic signalling
+systems installation should be defined.
+NOTE
+Example objectives and benefits of a traffic signalling systems installation can include improved journey
+times, customer experience, improved safety, and accessibility.
+2.7
+The extent of the brief for the traffic signalling systems installation(s) to be undertaken shall be
+approved with the Overseeing Organisation and recorded.
+2.8
+A design file for the traffic signalling systems installation shall be held by the Overseeing Organisation
+and shared with partnering organisations.
+NOTE
+The responsibilities for ownership of the design file are in line with Construction, Design and
+Management (CDM) regulations UKSI 2015/51 [Ref 25.N], or in Northern Ireland The Construction
+(Design and Management) Regulations (Northern Ireland) NISR 2016/146 [Ref 26.N] throughout the
+life-cycle of the scheme.
+2.8.1
+All aspects associated with the design and implementation process of traffic signalling systems
+installation(s) should be agreed with the Overseeing Organisation.
+NOTE
+Agreeing the extent of the brief with the Overseeing Organisation ensures effective planning.
+2.9
+Consultation with the adjacent highway authorities and partnering organisations for the traffic signalling
+systems installation(s) shall be carried out.
+2.9.1
+The consultation with the adjacent highway authorities and partnering organisations for the traffic
+signalling systems installation(s) should agree on the following points:
+1)
+the need for the scheme;
+2)
+impact on the users and the community;
+3)
+benefits to the users and the community;
+4)
+alternative options/solutions;
+5)
+programme timescales;
+6)
+temporary works, including diversions;
+7)
+expected outcomes;
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+8)
+planning consent;
+9)
+any links to the wider strategy; and,
+10)
+environmental impact.
+NOTE
+Consultation with the adjacent highway authorities and partnering organisations for the traffic signalling
+systems installation can help to achieve design and installation acceptance.
+Control strategy
+2.10
+The traffic signalling systems installation design shall define a control strategy.
+2.10.1
+To determine the optimal control strategy, the following items should be assessed by undertaking
+appropriate modelling:
+1)
+location of the site;
+2)
+other existing signals;
+3)
+road speed; and
+4)
+junction type.
+2.10.2
+Determination of the optimal control strategy should be discussed with the Overseeing Organisation.
+2.10.3
+The chosen control strategy should take into account the compatibility with existing traffic signalling
+systems equipment in order to optimise functionality and performance.
+Scheme design
+2.11
+The design of the traffic signalling systems must meet the requirements of the UKSI 2016/362 [Ref
+29.N].
+2.12
+This document shall be read in conjunction with the Traffic Signs Manual (TSM).
+2.12.1
+The guidance and principles set out in the Traffic Signs Manual should be followed in the design of
+traffic signalling systems.
+NOTE
+The Traffic Signs Manual comprises eight chapters:
+1)
+Chapter 1: Introduction ( TSM Chapter 1 [Ref 35.N]);
+2)
+Chapter 2: Primary route destinations in England by region ( TSM Chapter 2 [Ref 36.N]);
+3)
+Chapter 3: Regulatory signs ( TSM Chapter 3 [Ref 37.N]);
+4)
+Chapter 4: Warning signs ( TSM Chapter 4 [Ref 38.N]);
+5)
+Chapter 5: Road markings ( TSM Chapter 5 [Ref 39.N]);
+6)
+Chapter 6: Traffic control ( TSM Chapter 6 [Ref 40.N]);
+7)
+Chapter 7: The design of traffic signs ( TSM Chapter 7 [Ref 41.N]);
+8)
+Chapter 8: Traffic safety measures and signs for road works and temporary situations ( TSM
+Chapter 8 [Ref 42.N]).
+2.13
+When applying the requirements of this document, all design decision justifications shall be recorded
+as per GG 101 [Ref 14.N].
+Contractor design
+2.14
+Elements listed in Table 1.5 of TC 101 [Ref 34.N] that are to be altered shall be identified at the design
+stage.
+Colour and external finish of traffic signalling systems street furniture
+2.15
+The Overseeing Organisation or their local representative shall be consulted for local requirements for
+the colour and external finish of traffic signalling systems street furniture.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+NOTE
+Acceptable colours for some traffic signalling systems equipment and street furniture are defined in
+UKSI 2016/362 [Ref 29.N].
+Telecommunications Service Provider (TSP) interface
+2.16
+The TSP(s) for the scheme shall be agreed at the design stage with the Overseeing Organisation or
+their local representative.
+2.17
+The TSP shall be consulted to confirm the TSP rules and regulations for interfaces with the TSP.
+2.17.1
+The interfaces with the TSP may include the TSP's service delivery point and also the passive
+infrastructure interface.
+NOTE
+An example of a passive infrastructure interface is an interface chamber between traffic signal duct and
+TSP duct network.
+2.18
+Connectivity solutions shall be agreed with the Overseeing Organisation and the TSP.
+2.18.1
+Where wireless is the proposed means of communication, wireless coverage for the site should be
+confirmed with the TSP.
+Site naming convention
+2.19
+The Overseeing Organisation or their local representative shall be consulted for any requirements for
+the naming convention to be used for the site name.
+Site conditions
+2.20
+Site conditions shall be assessed prior to commencement of the design of the traffic signalling systems
+installation and recorded in the design file.
+2.20.1
+Site conditions may be assessed by desktop study (reviewing previous reports), video surveys, site
+visit, ecological surveys, interview surveys, walking, cycling & horse-riding assessment and review,
+collision data, traffic counts and speed surveys.
+2.20.2
+An assessment of the surrounding environment should be performed to ensure the sensitivity of the
+landscape, heritage and local community are not detrimentally affected by the design of the traffic
+signalling systems installation.
+NOTE
+Environmental assessment is covered in LA 101 [Ref 13.N].
+2.20.3
+The compatibility of traffic signalling systems interfacing equipment with existing traffic signalling
+systems installations that are being modified should be determined.
+NOTE
+Traffic signalling systems interfacing equipment can include bus priority systems and variable message
+signs (VMS).
+2.20.4
+Modifications to existing traffic signalling installations, records of junction history, previous assessments
+and any known issues should be reviewed.
+Practical reserve capacity
+2.21
+The staging and operation strategy shall be selected to help maximise the overall junction practical
+reserve capacity (PRC) that accommodates future additional use.
+2.21.1
+The PRC provided in the chosen staging and operation strategy should be based upon local knowledge
+at the design stage.
+NOTE
+Known and planned future developments and improvement schemes can impact on the PRC.
+Design for maintenance and inspection
+2.22
+The traffic signalling systems installation design shall promote and enable safe site maintenance and
+inspection.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+NOTE 1
+The regimes of equipment manufacturers can be used to inform the design of the traffic signalling
+systems installation.
+NOTE 2
+Safe site maintenance and safe inspection of traffic signalling systems can be improved through:
+1)
+including maintainer parking at the maintenance access point;
+2)
+providing access routes from the maintenance access point to the equipment;
+3)
+the position of the equipment relative to the carriageway and any vehicle restraint system;
+4)
+types and frequency of maintenance activities; and
+5)
+whole life cost of providing a maintenance access point and/or access routes to the equipment
+versus benefits of reduced temporary traffic management deployments.
+2.23
+The Overseeing Organisation or their local representative shall be consulted for local maintenance
+requirements.
+2.24
+Traffic signalling systems equipment, maintenance hardstandings and hardstanding maintenance
+working areas shall be positioned to enable the maintainer to work safely and unencumbered.
+NOTE 1
+More sustainable options for maintenance hardstandings are available, for example cellular paving
+options.
+NOTE 2
+Refer to CD 226 [Ref 1.I] for the design of maintenance hardstandings.
+NOTE 3
+Refer to CD 239 [Ref 9.N] for footway and cycleway pavement design.
+2.24.1
+Maintenance hardstandings and traffic signal controllers should be located on the same side of the
+carriageway and connected by a footway.
+2.24.2
+Traffic signalling systems cabinets and posts should be positioned to:
+1)
+minimise the risk of maintainers being hit by an errant vehicle; and
+2)
+provide visibility of approaching traffic whilst accessing equipment inside the compartment.
+2.24.3
+Traffic signalling systems cabinets should be positioned to provide maintainers with maximum visibility
+of the traffic signal installation when working at the cabinet.
+NOTE
+Traffic signalling systems cabinets include traffic signal controller cabinets, auxiliary equipment
+cabinets and power supply feeder pillars.
+2.24.4
+A 1 m wide hardstanding maintenance working area should be provided in front of all opening faces of
+traffic signalling systems cabinets as a suitable safe working area for maintenance purposes.
+2.24.5
+Hardstanding maintenance working areas at traffic signal posts may be needed to provide a firm base
+for maintenance activities.
+2.24.6
+A 250 mm wide hardstanding maintenance working area should be provided around traffic signal posts
+to provide clearance to any vegetation.
+2.24.7
+Hardstanding maintenance working areas around traffic signal posts should enable safe working on all
+types of traffic signal posts.
+2.25
+Traffic signal posts and co-located traffic signalling equipment shall be numbered sequentially
+clockwise, in plan view, around the junction from the traffic signal controller.
+Traffic signalling systems cabinets
+2.26
+The traffic signalling systems cabinet base shall be compatible with the traffic signalling systems
+cabinet.
+NOTE
+Traffic signalling systems cabinet base and seal can include:
+1)
+a chamber base with cable gland plate;
+2)
+a cabinet root, sealed with sand and resin or unsealed; or
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+3)
+a ventilated base.
+Asset identification labels for traffic signalling systems
+2.27
+Asset identification labels shall support identification of traffic signalling systems products for
+maintenance.
+2.27.1
+The following traffic signalling systems products should be labelled with an asset identification label:
+1)
+traffic signal posts;
+2)
+traffic signal controllers;
+3)
+power supply feeder pillars; and
+4)
+auxiliary equipment cabinets.
+NOTE
+The use of asset identification labels for traffic signalling systems products can depend on local
+maintenance requirements for the scheme.
+2.28
+Local maintenance requirements for the layout, format, sizing and position of asset identification labels
+for traffic signalling system product shall be identified.
+2.29
+The Overseeing Organisation or their local representative shall be consulted for any local requirements
+for asset identification labels.
+Inspection and test plan (ITP)
+2.30
+Any scheme-specific requirements for the inspection and testing of each traffic signalling system
+installation, to be addressed in the ITP, shall be identified.
+NOTE 1
+The ITP details the inspection activities and tests to be undertaken to provide evidence of conformity
+with the Overseeing Organisations' requirements for traffic signalling systems, including factory
+acceptance tests (FATs) and site acceptance tests (SATs).
+NOTE 2
+The ITP is prepared in accordance with BS ISO 10005 [Ref 3.I].
+Maintenance handover documentation
+2.31
+In addition to the requirements of GG 182 [Ref 15.N], the scheme maintenance handover document for
+traffic signalling systems shall include the items listed in Table 2.30.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+Table 2.31 Traffic signalling systems scheme maintenance handover documentation
+Scheme maintenance handover document
+item number
+Scheme maintenance handover document
+description
+1
+Traffic signal controller specification
+2
+Traffic signal controller configuration files
+3
+Traffic signal software configuration files
+4
+Traffic signal detector configuration files
+5
+Traffic signal cable test certificates, including cable
+schematic and cable core schedule
+6
+Traffic signal detector test certificates
+7
+Photographic evidence of internal wiring of traffic
+signal controller, power supply feeder pillar and
+auxiliary equipment cabinets
+8
+Photographic evidence that the asset identification
+labels and bar code labels have been affixed in
+accordance with the requirements of this document
+9
+Traffic signalling systems asset list with the
+associated asset identification bar code label
+information
+NOTE 1
+Examples of traffic signal controller specification include MCH 1827 [Ref 4.I] forms or equivalent.
+NOTE 2
+Examples of traffic signal controller configuration files include traffic signal controller software
+configuration files and RAM data sheet.
+NOTE 3
+Examples of traffic signal software configuration files include remote monitoring system (RMS)
+configuration data, outstation transmission unit (OTU) comma-separated values (CSV) files,
+microprocessor optimised vehicle actuated (MOVA) dataset and urban traffic control (UTC) data files.
+NOTE 4
+Examples of traffic signal detector configuration files include above-ground detector configuration files.
+2.32
+Any scheme-specific document requirements and document submission timescales for each scheme
+maintenance handover document shall be identified.
+NOTE
+Document requirements can include the document file format.
+2.33
+Any scheme-specific information that is required to be recorded on the as-built drawings shall be
+identified.
+NOTE 1
+A list of the required information to be included on the as-built drawings and schedules is shown in TC
+101 [Ref 34.N].
+NOTE 2
+Examples of scheme-specific information include SCOOT (split, cycle, offset optimisation technique)
+node and link diagrams.
+2.34
+The Overseeing Organisation or their local representative shall be consulted for local scheme
+maintenance handover document requirements.
+Traffic signalling systems equipment
+2.35
+Traffic signalling systems equipment shall be in accordance with TOPAS [Ref 33.N].
+NOTE
+Traffic signal displays, road markings and variable message signs, in legal terms, are 'traffic signs' and
+subject to the UKSI 2016/362 [Ref 29.N].
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+2.36
+Traffic signalling systems equipment shall be selected to maintain performance, in accordance with
+equipment specifications, throughout its life-cycle.
+2.36.1
+Maintenance schedules should be assessed to ensure the performance of the traffic signalling systems
+equipment is suitable for the environment in which it is installed.
+2.37
+The components of the traffic signalling systems equipment shall be compatible with the traffic control
+equipment for each installation.
+2.37.1
+For modifications to existing installations, new traffic signalling systems equipment should be
+compatible with the existing installation.
+Traffic signal interaction with pedestrians, cyclists and horse-riders
+2.38
+Traffic signalling systems installations with pedestrian facilities must be designed to make provision for
+disabilities and specific age groups (elderly and children) in accordance with the Public Sector Equality
+Duty in the UKPGA 2010/15 [Ref 7.N]Clause 149. In Northern Ireland the equivalent legislation is
+Section 75 (Statutory duty on public authorities) of Part VII (Equality of opportunity) of the Northern
+Ireland Act 1998 UKPGA 1998/47 [Ref 17.N].
+NOTE
+Traffic signalling systems installation measures to make provision for disabilities and specific age
+groups can include tactile and audible equipment for wait indicator equipment, dropped kerbs and
+tactile paving.
+2.39
+Walking, cycling and horse-riding assessments and reviews shall be undertaken in accordance with
+GG 142 [Ref 44.N].
+Connection to public transport systems
+2.40
+Public transport system providers and adjacent authorities shall be consulted to:
+1)
+identify public transport systems that have an impact, or can be impacted, by the traffic signalling
+systems installation; and
+2)
+agree integration solutions, including any priority measures, to mitigate, remove or negate the
+impact.
+Remote monitoring
+2.41
+All traffic signalling systems installations shall be compatible with the existing method of remote
+monitoring.
+2.42
+The traffic signalling systems installations shall enable the Overseeing Organisation to remotely
+monitor the status of the installation.
+2.43
+The chosen method of remote monitoring the traffic signalling systems installation shall allow
+operational and fault reporting to be achieved.
+NOTE
+Operational and fault reporting of the traffic signalling systems installation can be achieved via mobile
+or fixed communication connection.
+Structural supports and mounting arrangements for traffic signalling systems
+2.44
+The placement of and mounting arrangements for traffic signalling systems shall accommodate the
+additional swept path, width and height requirements of abnormal load vehicles where the traffic
+signalling system is located on a designated abnormal load route.
+NOTE
+Refer to TD 101 [Ref 5.I]Section 10 for the design of traffic signal posts.
+2.45
+The design of gantries and gantry mounting arrangements for traffic signalling systems shall be in
+accordance with CD 365 [Ref 19.N] 'Portal and cantilever signs/signal gantries'.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+Road restraint systems and passive safety for traffic signalling systems
+2.46
+The design of road restraint systems for traffic signalling systems shall be in accordance with CD 377
+[Ref 21.N]'Requirements for road restraint systems'.
+2.47
+The design of passive safety elements within the traffic signalling installation, including any electrical
+isolation system, shall be in accordance with CD 377 [Ref 21.N]'Requirements for road restraint
+systems'.
+2.47.1
+The risk factor for passive safety elements, based on severity and likelihood, should take into account
+the traffic signalling installation aspect arrangements, the wind speed for the area and provision of
+pedestrian, cycle and equestrian facilities.
+Managing geotechnical risk
+2.48
+Any asset designed for on and below ground shall be subject to certification and approval by the
+Overseeing Organisation in accordance with CD 622 [Ref 16.N].
+NOTE
+Certification and approval of assets on and below ground can safeguard against, for example:
+1)
+defects that are a direct result of poor workmanship/supervision of site works;
+2)
+ducting/chambers feeding water directly into slopes;
+3)
+drains on an existing slope blocked by installed cables; and
+4)
+inadequate design of small retaining walls at the toes of slopes to create working space.
+Outputs from the design of traffic signalling systems
+2.49
+The outputs from the design of traffic signalling systems shall include all details necessary for the
+construction and installation of the traffic signalling system.
+2.50
+The outputs from the general requirements for the design of traffic signalling systems shall include the
+following details:
+1)
+any alterations to any contractor-designed elements;
+2)
+the colour and external finish of traffic signalling systems street furniture;
+3)
+TSP details, including rules and regulations, TSP connection interfaces and TSP contact details;
+4)
+location and layout of maintenance hardstandings and hardstanding maintenance working areas;
+5)
+the asset identification label details, including the layout, sizing, colour and position, and any
+alterations to the list of traffic signalling systems products to be labelled with an asset
+identification label;
+6)
+any requirements for inspections and tests to be captured in the ITP;
+7)
+scheme maintenance handover document requirements and document submission timescales;
+and
+8)
+scheme-specific information to be recorded on the as-built drawings and schedules.
+2.51
+Traffic signalling systems drawings and models shall detail all equipment and supporting infrastructure
+for traffic signalling systems.
+2.52
+The following information shall be included on the drawings and models for traffic signalling systems:
+1)
+cable ducts for traffic signalling systems: location, quantity and size;
+2)
+chambers for traffic signalling systems: location, size, incoming and outgoing cable ducts;
+3)
+traffic signal controllers: position and type;
+4)
+power supply feeder pillars for traffic signalling systems: location;
+5)
+auxiliary equipment cabinets for traffic signalling systems: location;
+6)
+traffic signal posts: location and type;
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 75
+======================================================================
+TD 101 Version 2.0.0
+2. General requirements for traffic signalling s...
+7)
+traffic signal heads: location, type and orientation;
+8)
+nearside light units and wait indicator equipment: location, type and orientation;
+9)
+traffic signal detectors: location and type;
+10)
+equipment references; and
+11)
+phasing and staging diagram.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 75
+======================================================================
+TD 101 Version 2.0.0
+3. Traffic signal heads
+3.
+Traffic signal heads
+Design outputs for traffic signal heads
+3.1
+For traffic signal heads, the design outputs shall include:
+1)
+traffic signal head type;
+2)
+mounting height to underside of traffic signal head;
+3)
+horizontal clearance from kerb edge to outside edge of traffic signal head assembly;
+4)
+instructions for traffic signal head alignment; and
+5)
+additional scheme-specific requirements.
+3.1.1
+Additional scheme-specific requirements for traffic signal heads may include the provision of tunnel and
+cutaway tunnel hoods, louvres and site-specific brackets.
+Traffic signal head types, mounting and alignment
+Types of traffic signal head
+3.2
+The traffic signal head type shall be determined for each traffic signal head.
+NOTE 1
+Traffic signal head arrangements, including farside light signals, low level cycle signals, countdown
+timers, wig-wag signals, regulatory signs and secret regulatory signs, are prescribed in UKSI 2016/362
+[Ref 29.N].
+NOTE 2
+Traffic signal head type includes whether the traffic signal head is primary or secondary.
+NOTE 3
+Refer to Section 4 for nearside light signals.
+Mounting and visibility of traffic signal heads
+3.3
+Traffic signal heads shall be mounted at a height to provide vertical clearance for all road users.
+NOTE 1
+Vertical clearances for traffic signal heads are prescribed in UKSI 2016/362 [Ref 29.N].
+NOTE 2
+Refer to TSM Chapter 6 [Ref 40.N] for additional guidance on vertical clearances.
+3.4
+Traffic signal heads shall be positioned to provide horizontal clearance from the carriageway.
+NOTE 1
+Refer to TSM Chapter 6 [Ref 40.N] for additional guidance on horizontal clearances.
+NOTE 2
+Refer to TD 101 [Ref 5.I] Section 2 for abnormal load route requirements.
+3.5
+The visibility of traffic signal heads shall be in accordance with CD 123 [Ref 10.N] and CD 116 [Ref
+11.N].
+NOTE 1
+Refer to TSM Chapter 6 [Ref 40.N] for additional guidance on the visibility of traffic signal heads.
+NOTE 2
+Alignment of traffic signal heads to provide the required visibility is verified on site during the SAT.
+NOTE 3
+The traffic signal head can be side-mounted to improve visibility, to achieve the required horizontal
+clearance from the carriageway or to minimise obscuration of other traffic signalling systems equipment.
+Traffic signal head backing boards
+3.6
+Traffic signal head backing boards shall be installed on all traffic signal heads.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 75
+======================================================================
+TD 101 Version 2.0.0
+4. Nearside light signals and wait indicator equ...
+4.
+Nearside light signals and wait indicator equipment
+Design output for nearside light signals and wait indicator equipment
+4.1
+For nearside light signals and wait indicator equipment, the design outputs shall include:
+1)
+the type of nearside light signal or wait indicator equipment;
+2)
+whether audible and/or tactile equipment is required;
+3)
+the mounting height to underside of unit;
+4)
+the horizontal angle from kerb face, edge of carriageway or edge of tactile paving; and
+5)
+whether narrow field of view is required for nearside light signals.
+Types of nearside light signals and wait indicator equipment
+4.2
+The type of nearside light signal and wait indicator equipment shall be compatible with the user groups
+expected to use the nearside light signal and wait indicator equipment.
+NOTE 1
+Wait indicator equipment can either be supplied as a standalone unit or as a combined nearside light
+signals and wait indicator equipment unit.
+NOTE 2
+Combined nearside light signals and wait indicator equipment units can be pedestrian, equestrian or
+combined pedestrian and cycle.
+NOTE 3
+Standalone wait indicator equipment units can be a standalone push button unit.
+4.3
+Wait indicator equipment units shall be provided with tactile equipment on all units that are used by
+pedestrians.
+4.3.1
+Wait indicator equipment units should include audible equipment for visually impaired road users.
+4.3.2
+The use of audible equipment for wait indicator equipment should consider the potential noise impact
+on local residents.
+4.3.3
+Where multiple controlled crossings are located at a junction, audible equipment for wait indicator
+equipment should only be used where a full pedestrian stage is used.
+Visibility of nearside light signals and wait indicator equipment
+4.4
+Nearside light signals and wait indicator equipment shall be visible for all road users waiting to cross, on
+the side of the carriageway which the nearside light signals and wait indicator equipment are mounted.
+NOTE 1
+The following factors can affect the visibility of nearside light signals and wait indicator equipment:
+1)
+mounting height;
+2)
+horizontal angle from kerb face, edge of carriageway or edge of tactile paving; and
+3)
+high user group densities.
+NOTE 2
+Alignment of nearside light signals and wait indicator equipment to provide the required visibility is
+verified on site during the SAT.
+NOTE 3
+High level repeater nearside light signals can be used to mitigate the impact of reduced visibility due to
+high user group densities.
+NOTE 4
+Narrow field of view on nearside light signals can be used to reduce the risk relating to road users
+confusing green nearside light signals at a different waiting area.
+4.5
+Nearside light signals and wait indicator equipment shall be provided at all islands incorporating waiting
+areas for controlled crossings.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 75
+======================================================================
+TD 101 Version 2.0.0
+5. Traffic signal detectors
+5.
+Traffic signal detectors
+Design outputs for traffic signal detectors
+5.1
+For traffic signal detectors, the design outputs shall include:
+1)
+the traffic signal detector type;
+2)
+the traffic signal detector mounting arrangement (if applicable);
+3)
+the distance to the stop line (if applicable); and
+4)
+the carriageway and lanes the traffic signal detector is required to cover.
+Types of traffic signal detectors
+5.2
+The type of traffic signal detector shall be compatible with the user groups expected to be travelling
+through or using the crossing.
+NOTE 1
+For types of traffic signal detectors, including above- and below-ground vehicle detectors, pedestrian
+on-crossing detectors and kerbside detectors, refer to TOPAS [Ref 33.N].
+NOTE 2
+The accessibility of the site and the chosen detection method can have an impact on the safety of the
+maintenance operatives.
+Positioning of traffic signal detectors
+5.3
+The positioning and configuration of traffic signal detectors shall be compatible with the control strategy
+of the junction in which the detectors will be operating.
+NOTE
+Positioning and configuration of traffic signal detectors can include distance to stop line and detection
+zones (the carriageway and lanes or waiting/crossing areas the traffic signal detector is required to
+cover).
+5.3.1
+Where detector loops are used, they should be cut for each individual lane.
+5.3.2
+Where detector loops are used, the Overseeing Organisation or their local representative should be
+consulted to agree programming requirements in relation to any pavement resurfacing works.
+5.3.3
+The length of carriageway slots for detector loops, between the detector loop and the cable duct
+network in the verge, should be minimised.
+NOTE 1
+Example layouts of detector loops can be seen in Appendix A.
+NOTE 2
+The location of parked vehicles can influence the position of detector loops for detecting queuing traffic.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 75
+======================================================================
+TD 101 Version 2.0.0
+6. Traffic signal controllers
+6.
+Traffic signal controllers
+Design outputs for traffic signal controllers
+6.1
+For traffic signal controllers, the design outputs shall include:
+1)
+the traffic signal controller type;
+2)
+the traffic signal controller cabinet type, size and orientation;
+3)
+the traffic signal controller base type and seal;
+4)
+the asset identification label legend;
+5)
+the traffic signal controller compatibility category and associated additional equipment;
+6)
+the traffic signal controller general specification forms and MOVA datasets (where required) for
+each traffic signal controller;
+7)
+UTC system link and node diagram (where required); and
+8)
+additional scheme specific traffic signal controller requirements.
+NOTE 1
+Additional scheme-specific traffic signal controller requirements can include additional requirements for
+interfacing traffic signalling systems equipment, traffic signal controller specifications forms, MOVA
+datasets, RMS configuration data and UTC system configuration data.
+NOTE 2
+UTC systems can be fixed time or adaptive control.
+General requirements for traffic signal controllers
+6.2
+Traffic signal controllers shall be compatible with the chosen external control strategies.
+NOTE
+Traffic signal controller compatibility categories for compatibility with UTC and MOVA are specified in
+TOPAS 2500 [Ref 23.N].
+Traffic signal controller types
+6.3
+All interfacing traffic signalling systems equipment shall be compatible with traffic signal controllers.
+NOTE 1
+TOPAS 2523 [Ref 31.N] specifies the interfaces for traffic signalling systems equipment.
+NOTE 2
+Traffic signalling systems equipment interfacing with the traffic signal controller can include:
+1)
+OTUs (for interfacing with UTC);
+2)
+MOVA units;
+3)
+RMS units; and
+4)
+photo cells.
+6.4
+The Overseeing Organisation or their local representative shall be consulted for any local requirements
+for traffic signal controllers and the interfacing traffic signalling systems equipment, including the traffic
+signal controller type.
+6.5
+Photo cells shall be provided to enable dimming of traffic signal heads.
+Traffic signal controller general specification forms and MOVA datasets
+6.6
+Traffic signal controller general specification forms shall be completed for each traffic signal controller.
+NOTE
+TOPAS 2500 [Ref 23.N] and the traffic signal controller manufacturer instructions provide information to
+support preparation of traffic signal controller specification forms.
+6.7
+Where traffic signal controllers interface with MOVA, MOVA datasets shall be generated.
+NOTE
+TRL AG 44 [Ref 1.N] and TRL AG 45 [Ref 2.N]provide guidance on the design and implementation of
+MOVA, including the data needed to configure MOVA for control of a particular junction or crossing.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 75
+======================================================================
+TD 101 Version 2.0.0
+7. Auxiliary equipment cabinets
+7.
+Auxiliary equipment cabinets
+Design outputs for auxiliary equipment cabinets
+7.1
+For auxiliary equipment cabinets for traffic signalling systems, the design outputs shall include:
+1)
+the purpose for installation of the auxiliary equipment cabinet;
+2)
+the internal equipment to be installed;
+3)
+the cabinet size and orientation;
+4)
+the cabinet base type and seal; and
+5)
+the asset identification label legend.
+General requirements for auxiliary equipment cabinets
+7.2
+Auxiliary equipment cabinets shall provide additional capacity for cable termination and traffic signalling
+systems equipment.
+NOTE
+Examples of uses of auxiliary equipment cabinets are:
+1)
+traffic signal cable terminations;
+2)
+electrical isolation equipment;
+3)
+uninterruptible power supplies (UPS);
+4)
+telecommunications equipment; and
+5)
+additional traffic signal detector equipment.
+7.3
+The Overseeing Organisation or their local representative shall be consulted for any local additional
+requirements for auxiliary equipment cabinets.
+7.4
+The provision of UPS shall be agreed with the Overseeing Organisation.
+7.4.1
+UPS may be beneficial at the following sites:
+1)
+'Throughabout' type junctions;
+2)
+complex or strategically important junctions;
+3)
+sites where there are known issues with the stability of the incoming power supply; and
+4)
+sites where the failure of the incoming power supply would present serious risk.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 75
+======================================================================
+TD 101 Version 2.0.0
+8. Power supply feeder pillars for traffic signa...
+8.
+Power supply feeder pillars for traffic signalling systems
+Design outputs for power supply feeder pillars
+8.1
+For power supply feeder pillars for traffic signalling systems, the design outputs shall include:
+1)
+the power supply feeder pillar plywood backboard minimum thickness, if not 12 mm;
+2)
+the type of locks to be installed;
+3)
+the power supply feeder pillar size and orientation;
+4)
+the power supply feeder pillar feeder pillar base type and seal;
+5)
+the asset identification label legend;
+6)
+switchgear, power distribution device and protective device details for power supply feeder pillars;
+and
+7)
+the internal wiring and earthing for power supply feeder pillars.
+Design output for electricity supplies
+8.2
+For electricity supplies for traffic signalling systems, the design outputs shall include:
+1)
+whether the power supply feeder pillar is primary or secondary;
+2)
+the DNO supply earthing arrangement and cut-out fuse rating (if applicable); and
+3)
+the DNO requirements for any supply connections.
+NOTE
+Primary power supply feeder pillars interface with the DNO connection. Secondary power supply
+feeder pillars provide a local electrical isolation point between the primary power supply feeder pillar
+and the traffic signalling systems equipment.
+General requirements for power supply feeder pillars
+8.3
+Power supply feeder pillars for traffic signalling systems shall enable the electricity supply connection
+from the Distribution Network Operator (DNO) to the traffic signalling system.
+8.4
+The Overseeing Organisation or their local representative shall be consulted for any local additional
+requirements for power supply feeder pillars.
+NOTE
+Local requirements for power supply feeder pillars can include:
+1)
+power supply feeder pillar plywood backboard minimum thickness;
+2)
+type of locks to be installed;
+3)
+switchgear, power distribution device and protective device details;
+4)
+internal wiring; and
+5)
+earthing arrangements.
+8.5
+A power supply feeder pillar shall be provided within 5 m of the traffic signal controller.
+Electricity supply
+8.6
+Electricity supplies shall be obtained either from a new supply provided by the DNO, or from an existing
+dedicated traffic signalling systems supply.
+8.7
+The requirements of the DNO for supply connections shall be complied with.
+NOTE
+The DNO will specify earthing arrangements needed for each type of supply connection.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 75
+======================================================================
+TD 101 Version 2.0.0
+8. Power supply feeder pillars for traffic signa...
+Elements of power supply feeder pillars that are typically subject to contractor
+design
+Sizing and capacity of power supply feeder pillars and internal equipment
+8.8
+The sizing and capacity of power supply feeder pillars, including the foundation, and internal equipment
+shall be determined to accommodate the traffic signalling system being deployed.
+NOTE
+Internal equipment of power supply feeder pillars includes
+1)
+switchgear, including cut-outs, isolators and fuses;
+2)
+power distribution devices; and
+3)
+electrical protective devices.
+8.9
+The Overseeing Organisation or their local representative shall be consulted for any local requirements
+for power supply feeder pillars.
+Agreement of electrical supplies with the DNO
+8.10
+Electricity supplies shall be obtained either from a new supply provided by the DNO, or from an existing
+dedicated traffic signalling systems supply.
+8.10.1
+Provision of electricity supplies should be agreed with the DNO as early as possible in accordance with
+TG 411 [Ref 6.N].
+NOTE
+Provision of electricity supplies can involve lengthy lead times.
+8.11
+The requirements of the DNO for supply connections shall be complied with.
+NOTE
+The DNO will specify earthing arrangements needed for each type of supply connection.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 75
+======================================================================
+TD 101 Version 2.0.0
+9. Cables for traffic signalling systems
+9.
+Cables for traffic signalling systems
+Design outputs for cables for traffic signalling systems
+9.1
+For cables for traffic signalling systems, the design outputs shall include:
+1)
+the sheathing of cables for traffic signalling systems (steel wire armouring or unarmoured);
+2)
+where cables for traffic signalling systems are not individually cabled from the traffic signal post to
+the traffic signal controller or cable termination cabinet;
+3)
+where cable joints for traffic signalling systems are used for cables other than traffic signal
+detector loop cables; and
+4)
+the layout, format and size of markings and tags on cables for traffic signalling systems.
+General requirements for cables for traffic signalling systems
+9.2
+The type of cable for traffic signalling systems shall be compatible with the traffic signalling systems
+equipment the cables interface with.
+NOTE
+Cables for traffic signalling systems include:
+1)
+traffic signal cables; and
+2)
+power cables for traffic signalling systems.
+9.2.1
+Traffic signal cables should be individually cabled from the traffic signal post to the traffic signal
+controller or cable termination cabinet, unless the traffic signalling system being deployed specifies
+otherwise.
+9.3
+Cables for traffic signalling systems within the traffic signal controller and traffic signal installation shall
+be sized and rated so as to avoid voltage drop deleterious to the operation of the traffic signals or other
+connected equipment.
+9.4
+For multi-core traffic signal cables, a minimum of four spare cores or 25 % capacity (whichever is
+greater) shall be provided between each traffic signal post and the traffic signal controller, unless the
+traffic signalling system incorporates a controller area network (CAN) distributed cabling system.
+9.5
+Low voltage and extra low voltage traffic signal cables shall not be mixed in the same multi-core cable.
+9.6
+Low voltage and extra low voltage traffic signal cables shall not be routed through the same cable duct
+or chamber.
+9.7
+Traffic signal cables shall only share cable ducts and chambers with other traffic signal cables.
+9.8
+Power cables for traffic signalling systems shall only share cable ducts and chambers with other power
+cables for traffic signalling systems.
+Jointing of cables for traffic signalling systems
+9.9
+Cable joints for traffic signalling systems shall only be used for traffic signal detector loop cables, unless
+agreement is obtained from the Overseeing Organisation to use cable joints when interfacing with
+existing cables.
+9.10
+Cable joints for traffic signal detector loop cables shall be in accordance with MCH 1540 [Ref 22.N].
+9.11
+The Overseeing Organisation or their local representative shall be consulted for any local additional
+requirements for jointing of cables for traffic signalling systems.
+9.12
+Cable joints for traffic signalling systems shall not be installed in the carriageway.
+Marking and tagging of cables for traffic signalling systems
+9.13
+The Overseeing Organisation or their local representative shall be consulted for any local requirements
+for the layout, format, colour and size of the markings and tags for cables for traffic signalling systems.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 75
+======================================================================
+TD 101 Version 2.0.0
+9. Cables for traffic signalling systems
+Earthing and bonding for cables for traffic signalling systems
+9.14
+Protective earthing of electrical installations shall be in accordance with BS 7671 [Ref 20.N] and BS
+7430 [Ref 3.N].
+9.14.1
+The use of steel wire armouring as a circuit protective conductor should be avoided.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 75
+======================================================================
+TD 101 Version 2.0.0
+10. Traffic signal posts
+10.
+Traffic signal posts
+Design outputs for traffic signal posts
+10.1
+For traffic signal posts, the design outputs shall include:
+1)
+the type of traffic signal post;
+2)
+the height of the traffic signal post;
+3)
+whether the traffic signal post requires a ventilated pole cap;
+4)
+the asset identification label text;
+5)
+the structural requirements for traffic signal posts, in accordance with BS EN 12899-1 [Ref 8.N];
+6)
+the passive safety rating of the traffic signal post, in accordance with BS EN 12767 [Ref 18.N];
+7)
+the position of the traffic signal post in terms of its distance to the stop line, kerb face and nearest
+edge of tactile paving;
+8)
+if the traffic signal posts is hinged, which direction the post folds down;
+9)
+the minimum ingress protection (IP) rating for base compartments for traffic signal posts, where
+greater than IP3x in accordance with BS EN 60529 [Ref 4.N];
+10)
+the orientation of base compartments for traffic signal posts;
+11)
+the type of foundation for the traffic signal post; and
+12)
+the foundation design and cable ducting arrangement drawings.
+General requirements for traffic signal posts
+10.2
+The following structural requirements for traffic signal posts shall be determined in accordance with BS
+EN 12899-1 [Ref 8.N]:
+1)
+wind pressure;
+2)
+point load;
+3)
+dynamic snow load;
+4)
+temporary deflection traffic signal heads: bending class and torsion class;
+5)
+piercing of traffic signal head sign face;
+6)
+edges of traffic signal head sign plates; and
+7)
+corrosion protection.
+NOTE 1
+BS EN 12899-1 [Ref 8.N] Table NA.2 provides recommended classes or values for physical
+performance most suitable for UK practice.
+NOTE 2
+For the calculation of deflection of traffic signal posts, refer to BS EN 12368 [Ref 32.N], clause 4.4.
+10.3
+The Overseeing Organisation or their local representative shall be consulted for any local additional
+requirements for traffic signal posts.
+NOTE
+Local additional requirements include the frequency of use of snow blowers or snow ploughs at the
+scheme location, provision of ventilated pole caps, the foundation type, and the minimum IP rating in
+accordance with BS EN 60529 [Ref 4.N] for access doors and base compartments for traffic signal
+posts.
+Types of traffic signal posts
+10.4
+The type of traffic signal post shall be selected to maintain the operation of the traffic signalling systems
+equipment it is supporting.
+NOTE 1
+Traffic signal posts include straight, swan neck and mast arm posts.
+NOTE 2
+Traffic signal posts can include a hinge to allow the posts to fold down for maintenance work.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 75
+======================================================================
+TD 101 Version 2.0.0
+10. Traffic signal posts
+NOTE 3
+The type of traffic signal post can affect the maximum load that can be supported by the traffic signal
+post.
+10.4.1
+Traffic signal posts should provide access from ground level for maintenance of electrical equipment
+connected to the traffic signal post to minimise working at height.
+NOTE
+For traffic signal posts greater than 2 m high, ground level access can be achieved through provision of
+a low level access door and base compartment in the traffic signal post.
+10.4.2
+Hinged traffic signal posts should be positioned so that:
+1)
+the maintainer remains safe whilst accessing equipment inside the post when folded;
+2)
+the fold down operation of the traffic signal posts does not affect road users, other roadside
+equipment or street furniture.
+Sealing of base compartments of traffic signal posts
+10.5
+Base compartments for electrical equipment housed in traffic signal posts shall be sealed to IP3x in
+accordance with BS EN 60529 [Ref 4.N], unless the local site conditions or local maintenance
+requirements require a higher IP rating.
+NOTE
+The design for maintenance requirements and advice in Section 2 of TD 101 [Ref 5.I] can be used to
+inform the orientation of base compartments of traffic signal posts.
+Foundations for traffic signal posts
+10.6
+CD 354 [Ref 5.N] 'Design of minor structures' shall be used for the design of supports and foundations
+for traffic signal posts.
+NOTE
+CD 354 [Ref 5.N] includes requirements for the approval of alternative forms of foundation, including
+those which incorporate retention sockets.
+10.7
+The cable ducting arrangement into the base of the traffic signal post shall be compatible with the type
+of foundation.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 75
+======================================================================
+TD 101 Version 2.0.0
+11. Chambers for traffic signalling systems
+11.
+Chambers for traffic signalling systems
+Design outputs for chambers for traffic signalling systems
+11.1
+For chambers for traffic signalling systems, the design outputs shall include:
+1)
+the traffic signal chamber type and size;
+2)
+the traffic signal chamber cover loading class;
+3)
+the concrete requirement for cast in situ base slabs for chambers for traffic signalling systems, if
+not GEN 3 concrete;
+4)
+requirements for concrete cover slabs, when they are not to be installed on all four sides
+surrounding the top of chambers for traffic signalling systems;
+5)
+the drainage solution for the traffic signal chambers; and
+6)
+the securing method for traffic signal chamber covers.
+Design for chambers for traffic signalling systems
+11.2
+Chambers for traffic signalling systems shall be used as access points to the ducted cable network for
+the traffic signalling system.
+NOTE 1
+There are two types of chambers for traffic signalling systems: traffic signal chamber, traffic signal
+carriageway loop box.
+NOTE 2
+Traffic signal carriageway loop boxes for detector loops cables can be used for interfacing between
+detector loop slots and the ducted network.
+11.3
+Chambers for traffic signalling systems shall only contain cables for traffic signalling systems.
+11.4
+Traffic signal carriageway loop boxes shall have a maximum internal width and length, not in excess of
+200 mm.
+11.5
+The grade of chamber lid of chambers for traffic signalling systems and the construction details for
+each chamber shall be selected from the following options, based on the classifications of chamber
+covers in accordance with BS EN 124-1 [Ref 12.N]:
+1)
+B125;
+2)
+C250;
+3)
+D400; and
+4)
+E600.
+11.5.1
+Concrete chambers for traffic signalling systems should use type GEN 3 concrete for ancillary purposes
+unless ground conditions or loading requires otherwise.
+11.6
+Concrete cover slabs shall be installed surrounding the top of traffic signal chambers to provide support
+for the traffic signal chamber covers.
+11.6.1
+Concrete cover slabs should be installed on all four sides surrounding the top of the traffic signal
+chamber.
+NOTE
+Restricted space or other adjacent surfaces (such as the footway) can prevent concrete cover slabs
+being installed on all four sides of the top of the traffic signal chamber.
+11.6.2
+Concrete cover slabs should extend a minimum of 150 mm horizontally from the edge of the chamber
+frame.
+11.6.3
+Concrete cover slabs should use type GEN 3 concrete for ancillary purposes unless ground conditions
+or loading requires otherwise.
+11.7
+The size of chambers for traffic signalling systems shall accommodate the ducts and cables using the
+chamber.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 75
+======================================================================
+TD 101 Version 2.0.0
+11. Chambers for traffic signalling systems
+11.8
+Cable ducting into chambers for traffic signalling systems shall not affect the structural integrity of the
+chamber.
+NOTE 1
+The cable ducting into traffic signal carriageway loop boxes can enter through the base of the loop box.
+An example cross section layout of the cable duct entry through the base of a traffic signal carriageway
+loop box is shown in Figure 11.8N1.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 75
+======================================================================
+TD 101 Version 2.0.0
+11. Chambers for traffic signalling systems
+Figure 11.8N1 Cable duct entry through the base of the traffic signal carriageway loop box.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 75
+======================================================================
+TD 101 Version 2.0.0
+11. Chambers for traffic signalling systems
+NOTE 2
+The cable ducting into traffic signal carriageway loop boxes can enter through the side wall of the loop
+box. An example cross section layout of the cable duct entry through the side wall of a traffic signal
+carriageway loop box is shown in Figure 11.8N2.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 75
+======================================================================
+TD 101 Version 2.0.0
+11. Chambers for traffic signalling systems
+Figure 11.8N2 Cable duct entry through the side wall of the traffic signal carriageway loop box.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 75
+======================================================================
+TD 101 Version 2.0.0
+11. Chambers for traffic signalling systems
+11.9
+The minimum distance L1 between the kerb face and the outside wall of the traffic signal carriageway
+loop box shall be 250 mm.
+Drainage solutions for chambers for traffic signalling systems
+11.10
+The selected drainage solution for each chamber for traffic signalling systems shall expel any excess
+water from the chamber to enable the traffic signalling systems installation to remain operational at all
+times.
+11.10.1
+Selection of the drainage solution for chambers for traffic signalling systems should include assessment
+of the local ground conditions.
+Measures to secure covers for chambers for traffic signalling systems
+11.11
+Chamber covers for traffic signalling systems shall be secured to mitigate:
+1)
+slips, trips and falls in relation to the chamber covers; and
+2)
+obstructions caused by lifted traffic signal carriageway loop box covers in the carriageway.
+11.12
+The Overseeing Organisation or their local representative shall be consulted for local requirements for
+measures to secure covers for chambers for traffic signalling systems.
+NOTE
+Local requirements for measures to secure covers for chambers for traffic signalling systems can
+include measures to prevent unauthorised access to chambers.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 75
+======================================================================
+TD 101 Version 2.0.0
+12. Cable ducts for traffic signalling systems
+12.
+Cable ducts for traffic signalling systems
+Design outputs for cable ducts for traffic signalling systems
+12.1
+For cable ducts for traffic signalling systems, the design outputs shall include:
+1)
+the number of traffic signal cable ducts required for each cable duct route;
+2)
+the traffic signal cable duct internal diameter;
+3)
+the traffic signal cable duct cover depth at the start and end of the cable duct route;
+4)
+the minimum depth of the traffic signal cable duct over the full cable duct route;
+5)
+whether the traffic signal cable duct crosses a carriageway;
+6)
+the sealing of traffic signal cable ducts;
+7)
+sub-duct installation requirements;
+8)
+the legend marked on marker tape for power cable ducts for traffic signalling systems;
+9)
+the marker tape depth when applied to traffic signal cable ducts below 150 mm; and
+10)
+any requirements for the proving of cable ducts for traffic signalling systems.
+General requirements for cable ducts for traffic signalling systems
+12.2
+Traffic signal cable ducts shall be coloured orange in accordance with NJUG 1 [Ref 24.N].
+NOTE
+Refer to the TSP's rules and regulations for the colour of TSP cable ducts.
+12.3
+Power cable ducts for traffic signalling systems shall be coloured black.
+12.4
+The Overseeing Organisation or their local representative shall be consulted for any local additional
+requirements relating to marker tape legends for power cable ducts for traffic signalling systems.
+Design of cable ducts for traffic signalling systems
+12.5
+Cable ducts for traffic signalling systems shall provide a continuous duct route between chambers for
+traffic signalling systems, traffic signalling systems cabinets and traffic signal posts.
+12.5.1
+Cable ducts for traffic signalling systems may be extended to a TSP interface.
+12.5.2
+New or existing cable ducts for traffic signalling systems may be sub-ducted to provide managed cable
+installation and to increase the integrity of the duct network.
+12.6
+The Overseeing Organisation or their local representative shall be consulted for any local requirements
+for cable ducts for traffic signalling systems, including:
+1)
+installation of cable ducts for traffic signalling systems laid across a carriageway;
+2)
+sealing of cable ducts for traffic signalling systems; and
+3)
+proving of cable ducts for traffic signalling systems.
+12.7
+Cable ducts for traffic signalling systems shall only contain cables for traffic signalling systems.
+Cover depth for cable ducts for traffic signalling systems
+12.8
+The minimum cover depth for cable ducts for traffic signalling systems crossing the carriageway shall
+be in accordance with NJUG 1 [Ref 24.N].
+12.9
+The minimum cover depth for cable ducts for traffic signalling systems in the verge or footway shall be
+in accordance with NJUG 1 [Ref 24.N].
+12.10
+The minimum cover depth and solution for cable ducts for traffic signalling systems routed through
+structures shall be agreed with the Overseeing Organisation or their local representative.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 75
+======================================================================
+TD 101 Version 2.0.0
+12. Cable ducts for traffic signalling systems
+Quantity and size of cable ducts for traffic signalling systems
+12.11
+The quantity and size of cable ducts for traffic signalling systems shall be determined to accommodate
+the cables being installed.
+NOTE
+The quantity and size of cables being installed can depend on the traffic signalling system deployed.
+12.11.1
+Spare duct capacity should be provided to accommodate future cable installation.
+12.11.2
+All traffic signal cable ducts except those between traffic signal chambers and under kerbs/carriageway
+loop boxes should be a minimum of 100 mm internal diameter.
+12.11.3
+Traffic signal cable ducts between traffic signal chambers and under kerbs/carriageway loop boxes
+should be a minimum of 50 mm internal diameter.
+12.11.4
+Power cable ducts for traffic signalling systems should be a minimum of 50 mm internal diameter.
+12.12
+The Overseeing Organisation or their local representative shall be consulted for any requirements for
+the provision of spare duct capacity.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 75
+======================================================================
+TD 101 Version 2.0.0
+13. Normative references
+13.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+Transport Research Laboratory. TRL AG 44, 'Application Guide 44 – MOVA Traffic
+Control Manual'
+Ref 2.N
+Transport Research Laboratory. TRL AG 45, 'Application Guide 45 – Guide to MOVA
+Data Set-Up and Use'
+Ref 3.N
+BSI. BS 7430, 'Code of practice for protective earthing of electrical installations'
+Ref 4.N
+BSI. BS EN 60529, 'Degrees of protection provided by enclosures (IP code).
+(Designated Standard - LVD)'
+Ref 5.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 6.N
+National Highways. TG 411, 'Electricity supply connections'
+Ref 7.N
+National Archive. UKPGA 2010/15, 'Equality Act'
+Ref 8.N
+BSI. BS EN 12899-1, 'Fixed, vertical road traffic signs. Fixed signs (Designated
+Standard - CPR)'
+Ref 9.N
+National Highways. CD 239, 'Footway and cycleway pavement design'
+Ref 10.N
+National Highways. CD 123, 'Geometric design of at-grade priority and
+signal-controlled junctions'
+Ref 11.N
+National Highways. CD 116, 'Geometric design of roundabouts'
+Ref 12.N
+BSI. BS EN 124-1, 'Gully tops and manhole tops for vehicular and pedestrian areas.
+Definitions, classification, general principles of design, performance requirements and
+test methods'
+Ref 13.N
+National Highways. LA 101, 'Introduction to environmental assessment'
+Ref 14.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 15.N
+National Highways. GG 182, 'Major schemes: Enabling handover into operation and
+maintenance'
+Ref 16.N
+National Highways. CD 622, 'Managing geotechnical risk'
+Ref 17.N
+National Archives. UKPGA 1998/47, 'Northern Ireland Act'
+Ref 18.N
+BSI. BS EN 12767, 'Passive safety of support structures for road equipment.
+Requirements, classification and test methods.'
+Ref 19.N
+National Highways. CD 365, 'Portal and cantilever signs/signals gantries'
+Ref 20.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 21.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 22.N
+National Highways. OTSL. MCH 1540, 'Specification for the Installation of Detector
+Loops on Motorways and All Purpose Trunk Roads'
+Ref 23.N
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2500, 'Specification
+for Traffic Signal Controller'
+Ref 24.N
+National Joint Utilities Group . NJUG 1, 'Street Works UK Guidance on the
+Positioning and Colour Coding of Underground Utilities' Apparatus'
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 75
+======================================================================
+TD 101 Version 2.0.0
+13. Normative references
+Ref 25.N
+National Archives. UKSI 2015/51, 'The Construction (Design and Management)
+Regulations'
+Ref 26.N
+National Archives. NISR 2016/146, 'The Construction (Design and Management)
+Regulations (Northern Ireland) 2016'
+Ref 27.N
+National Highways. CD 169, 'The design of lay-bys, maintenance hardstandings, rest
+areas, service areas and observation platforms'
+Ref 28.N
+National Archives. UKSI 1989/635, 'The Electricity at Work Regulations'
+Ref 29.N
+National Archive. UKSI 2016/362, 'The Traffic Signs Regulations and General
+Directions'
+Ref 30.N
+National Archives. NISR 2006/164, 'The Zebra, Pelican and Puffin Pedestrian
+Crossings Regulations (Northern Ireland) 2006' , 2006
+Ref 31.N
+Traffic Open Products and Specifications (TOPAS) Ltd. TOPAS 2523, 'Traffic Control
+Equipment Interfacing Specification'
+Ref 32.N
+BSI. BS EN 12368, 'Traffic control equipment. Signal heads (Designated Standard -
+CPR)'
+Ref 33.N
+Traffic Products and Open Specifications (TOPAS) Ltd. www.topasgroup.org.uk.
+TOPAS, 'Traffic Open Products and Specifications'
+Ref 34.N
+National Highways. TC 101, 'Traffic signalling systems'
+Ref 35.N
+TSO. TSM Chapter 1, 'Traffic Signs Manual Chapter 1 - Introduction'
+Ref 36.N
+TSO. TSM Chapter 2, 'Traffic Signs Manual Chapter 2 - Primary route destinations in
+England by region'
+Ref 37.N
+TSO. TSM Chapter 3, 'Traffic Signs Manual Chapter 3 - Regulatory Signs'
+Ref 38.N
+TSO. TSM Chapter 4, 'Traffic Signs Manual Chapter 4 - Warning Signs'
+Ref 39.N
+TSO. TSM Chapter 5, 'Traffic Signs Manual Chapter 5 - Road Markings'
+Ref 40.N
+TSO. TSM Chapter 6, 'Traffic Signs Manual Chapter 6 - Traffic Control'
+Ref 41.N
+TSO. TSM Chapter 7, 'Traffic Signs Manual Chapter 7 - The Design of Traffic Signs'
+Ref 42.N
+TSO. TSM Chapter 8, 'Traffic Signs Manual Chapter 8 - Traffic Safety Measures and
+Signs for Road Works and Temporary Situations'
+Ref 43.N
+National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland)'
+Ref 44.N
+National Highways. GG 142, 'Walking, cycling and horse-riding assessment and
+review'
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 75
+======================================================================
+TD 101 Version 2.0.0
+14. Informative references
+14.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CD 226, 'Design for new pavement construction'
+Ref 2.I
+Traffic Products and Open Specifications (TOPAS) Ltd. TOPAS 2543, 'Performance
+Specification for Signal Heads'
+Ref 3.I
+BSI. BS ISO 10005, 'Quality management. Guidelines for quality plans'
+Ref 4.I
+National Highways. OTSL. MCH 1827, 'Traffic Signal Controller - Work Specification
+and Configuration Forms'
+Ref 5.I
+National Highways. TD 101, 'Traffic signalling systems (design)'
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 75
+======================================================================
+TD 101 Version 2.0.0
+Appendix A. Detector loops
+Appendix A. Detector loops
+A1
+Diamond detector loops layout
+An example layout of diamond detector loops can be seen in Figure A.1.
+Figure A.1 Diamond detector loops layout
+A2
+Rectangular detector loops layout
+An example layout of rectangular detector loops with uni-directional loop dimensions can be seen in
+Figure A.2. Uni-directional loops can be used at locations where bi-directional traffic is expected to be
+travelling over the detector loops.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 75
+======================================================================
+TD 101 Version 2.0.0
+Appendix A. Detector loops
+Figure A.2 Rectangular detector loops layout
+A3
+Chevron detector loops layout
+An example layout of chevron detector loops can be seen in Figure A.3.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 75
+======================================================================
+TD 101 Version 2.0.0
+Appendix A. Detector loops
+Figure A.3 Chevron detector loops layout
+A4
+Butterfly detector loops layout
+An example layout of butterfly detector loops can be seen in Figure A.4.
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 75
+======================================================================
+TD 101 Version 2.0.0
+Appendix A. Detector loops
+Figure A.4 Butterfly detector loops layout
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 75
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 75
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 101 - ENAA
+England National Application Annex for Traffic
+signalling systems (design)
+Version 1.0.0
+Summary
+This NAA includes National Highways requirements for bar code labels for traffic signalling
+equipment (additional to TD 101, 2.30)
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 75
+======================================================================
+TD 101 - ENAA Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+E/1. Bar code labels for traffic signalling equipment (additional to TD 101, 2.30)
+5
+E/2. Normative references
+6
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 75
+======================================================================
+TD 101 - ENAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101 -
+ENAA
+1.0.0
+September 2025
+England NAA
+Change to policy, major
+revision, new document
+development
+ENAA includes NH requirements for traffic signalling equipment bar code labels.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101 -
+ENAA
+0.0.1
+August 2022
+England NAA
+Incremental change to
+notes and editorial
+updates
+TD 101
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 75
+======================================================================
+TD 101 - ENAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TA 12/07, TA 16/07, TA 56/87, TA 82/99, TA 84/06, TD 07/07, TD 24/97, TD
+35/06, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 75
+======================================================================
+TD 101 - ENAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the National Highways-specific requirements for the design of
+traffic signalling systems installations.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 1.N]apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 1.N].
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 75
+======================================================================
+TD 101 - ENAA Version 1.0.0
+E/1. Bar code labels for traffic signalling equipm...
+E/1.
+Bar code labels for traffic signalling equipment (additional to TD
+101, 2.30)
+E/1.1
+Bar code labels shall be affixed on traffic signalling system products, with the position determined by
+the type of traffic signalling system products.
+E/1.2
+The application and position of bar code labels for traffic signalling system products not covered by PL
+1166 [Ref 2.N] shall be in accordance with local maintenance requirements.
+NOTE
+The installation of bar code labels for general technology assets are covered in PL 1166 [Ref 2.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 75
+======================================================================
+TD 101 - ENAA Version 1.0.0
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Highways. OTSL. PL 1166, 'Process for Installing Asset Bar Code Labels'
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 75
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 75
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 101 - NINAA
+Northern Ireland National Application Annex
+for Traffic signalling systems (design)
+Version 0.1.0
+Summary
+This National Application Annex contains the Department for Infrastructure Northern Ireland
+specific requirements for the design of traffic signalling systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+NI/1. Traffic Signs Regulations Northern Ireland (additional to TD 101)
+7
+NI/2. Normative references
+8
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101 -
+NINAA
+0.1.0
+September 2025
+Northern Ireland NAA
+Incremental change to
+requirements
+Change of publisher branding. Definitions added for Northern Ireland-specific legislation and terminology.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101 -
+NINAA
+0.0.1
+August 2022
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+TD 101
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of the Department for Infrastructure,
+Northern Ireland.
+This document supersedes TA 12/07, TA 16/07, TA 56/87, TA 82/99, TA 84/06, TD 07/07, TD 24/97, TD
+35/06, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+Introduction
+Introduction
+Background
+This National Application Annex gives the Department for Infrastructure, Northern Ireland-specific
+requirements for the design of traffic signalling systems installations.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+TSRGD
+Traffic Signs Regulations and General Directions
+TSRNI
+Traffic Signs Regulations Northern Ireland
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Traffic signalling systems
+installations
+Permanent traffic signalling systems equipment at prescribed
+locations as defined in Traffic Signs Regulations (Northern
+Ireland) NISR 1997/386 (TSRNI) [Ref 4.N]. For standalone
+crossings in Northern Ireland, such as 'Pelicans' and 'Puffins',
+the relevant legislation is The Zebra, Pelican and Puffin
+Pedestrian Crossings Regulations (Northern Ireland) NISR
+2006/164 [Ref 3.N].
+NOTE: Examples of locations include junctions, emergency
+vehicle stations, level crossings, airports, tunnels,
+swing/movable bridges and signalised crossings.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+NI/1. Traffic Signs Regulations Northern Ireland (a...
+NI/1.
+Traffic Signs Regulations Northern Ireland (additional to TD 101)
+NI/1.1
+The Traffic Signs Regulations Northern Ireland ( NISR 1997/386 (TSRNI) [Ref 4.N]) must be applied in
+Northern Ireland.
+NI/1.2
+Where a clause in TD 101 refers to the Traffic Signs Regulations and General Directions ( UKSI
+2016/362 [Ref 2.N]), the reference shall be replaced by the NISR 1997/386 (TSRNI) [Ref 4.N].
+NI/1.3
+The Department for Infrastructure Northern Ireland shall be contacted for advice on the sign diagram
+numbers and regulations equivalent to UKSI 2016/362 [Ref 2.N].
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 75
+======================================================================
+TD 101 - NINAA Version 0.1.0
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Archive. UKSI 2016/362, 'The Traffic Signs Regulations and General
+Directions'
+Ref 3.N
+National Archives. NISR 2006/164, 'The Zebra, Pelican and Puffin Pedestrian
+Crossings Regulations (Northern Ireland) 2006'
+Ref 4.N
+National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland)'
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 75
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 75
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 101 - SNAA
+Scotland National Application Annex for Traffic
+signalling systems (design)
+Version 0.0.1
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in TD 101.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 75
+======================================================================
+TD 101 - SNAA Version 0.0.1
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 75
+======================================================================
+TD 101 - SNAA Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101 -
+SNAA
+0.0.1
+August 2022
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+Transport Scotland National Application Annex for TD 101.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 75
+======================================================================
+© Crown copyright 2022.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 75
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 101 - WNAA
+Wales National Application Annex for Traffic
+signalling systems (design)
+Version 0.0.1
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in TD 101.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 73 of 75
+======================================================================
+TD 101 - WNAA Version 0.0.1
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 74 of 75
+======================================================================
+TD 101 - WNAA Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101 -
+WNAA
+0.0.1
+August 2022
+Wales NAA
+Incremental change to
+notes and editorial
+updates
+Welsh Government National Application Annex to TD 101.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 101
+0
+June 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 75 of 75
+======================================================================
+© Crown copyright 2022.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 101 Version 2.0.0, published: 30-Sep-2025
+
+
