@@ -1,0 +1,2592 @@
+======================================================================
+SOURCE PDF: IRC_108_2014_Guidelines_for_Traffic_Forecast_on_Highways_(First_Revision).pdf
+TOTAL PAGES: 37
+======================================================================
+
+
+======================================================================
+PAGE 2 of 37
+======================================================================
+
+IRC:108-2015
+Guidelines
+For
+Traffic  Forecast
+on  Highways
+(First Revision)
+Published by:
+INDIAN ROADS CONGRESS
+Kama Koti Marg,
+Sector-6, R.K. Puram,
+New Delhi-110 022
+January, 2015
+Price : ` 400/-
+(Plus Packing & Postage)
+
+
+
+======================================================================
+PAGE 3 of 37
+======================================================================
+IRC:108-2015
+First Published	
+:	
+November, 1996
+Reprinted		
+	
+:	
+September, 2003
+Reprinted		
+	
+:	
+April, 2007
+First Revision	
+:	
+January, 2015
+(All Rights Reserved. No part of this publication shall be reproduced,
+translated or transmitted in any form or by any means without the
+permission of the Indian Roads Congress)
+Printed by India Offset Press, Delhi-110 064
+1000 Copies
+
+
+
+======================================================================
+PAGE 4 of 37
+======================================================================
+
+IRC:108-2015
+Contents
+S.No.	
+Description
+Page No.
+	
+Personnel of the Highways Specifications and Standards Committee	
+i - ii
+	
+Introduction	
+	
+1
+Section : A	
+Basic Concepts and Overview of Forecasting Process	
+3
+A.1	
+Need for Traffic Forecasting	
+3
+A.2	
+Basic Terminologies	
+3
+A.3	
+Design Period	
+	
+5
+A.4	
+Stage Construction	
+5
+A.5	
+Mid-Block and Intersections	
+6
+A.6	
+Components of Traffic Forecast	
+6
+A.7	
+Impact of Toll on Traffic Volume	
+7
+A.8	
+Highways Passing through Urban Areas	
+7
+A.9	
+Traffic Forecasting Process and Steps	
+7
+Section : B	
+Methodology	
+13
+B.1	
+Analysis of Base Year Travel	
+13
+B.2	
+Forecast of Travel Demand	
+14
+Section : C	
+Application		
+23
+C.1	
+AADT from ADT and Seasonal Variation	
+23
+C.2	
+Traffic Growth Factor using Transport Demand Elasticity Model	
+23
+C.3	
+Weighted Traffic Growth Rates using Growth Rates at Origin and 	
+25
+	
+Destination Zones
+C.4	
+Growth Factor Estimation for Highways passing through Urban Areas	
+25
+C.5	
+Updating Traffic Volume at Coverage Count Station Based on Data of 	
+27
+	
+Control Count Station
+C.6	
+Traffic Forecasting using Moving Average Technique and Single	
+27
+	
+Exponential Smoothening Technique
+C.7	
+Application of ARIMA Model for Forecasting Future Traffic Growth Rate	
+28
+C.8	
+Estimation of Diverted Traffic using Logit Model	
+30
+C.9	
+Estimation of Diverted Traffic using Diversion Curves	
+31
+
+
+
+======================================================================
+PAGE 6 of 37
+======================================================================
+
+IRC:108-2015
+i
+PERSONNEL OF THE Highways Specifications 
+and Standards Committee 
+(As on 9th August, 2014)
+1.	
+Das, S.N.	
+Director General (Road Development), Ministry of Road
+	
+(Convenor)	
+Transport & Highways, New Delhi
+2.	
+Varkeyachan, K.C.	
+Addl. Director General, Ministry of Road
+     	
+(Co-Convenor)	
+Transport & Highways, New Delhi
+3.	
+Chief Engineer (R) S,R&T	
+(Rep. by Shri S.K. Nirmal), Ministry of Road
+	
+(Member-Secretary)	
+Transport & Highways, New Delhi
+Members
+4. 	
+Basu, S.B.	
+Chief Engineer (Retd.), MORTH, New Delhi
+5.	
+Bongirwar, P.L.	
+Advisor, L & T, Mumbai
+6.	
+Bose, Dr. Sunil	
+Head, FPC Divn. CRRI (Retd.), Faridabad
+7.	
+Duhsaka, Vanlal	
+Chief Engineer, PWD (Highways), Aizwal (Mizoram)
+8.	
+Gangopadhyay, Dr. S.	
+Director, Central Road Research Institute, New Delhi
+9.	
+Gupta, D.P.	
+DG (RD) & AS (Retd.), MORTH, New Delhi
+10.	
+Jain, R.K.	
+Chief Engineer (Retd.), Haryana PWD, Sonipat
+11.	
+Jain, N.S.	
+Chief Engineer (Retd.), MORTH, New Delhi
+12.	
+Jain, Dr. S.S.	
+Professor & Coordinator, Centre of Transportation
+	
+	
+Engg., Dept. of Civil Engg., IIT Roorke, Roorkee
+13.	
+Kadiyali, Dr. L.R.	
+Chief Executive, L.R. Kadiyali & Associates, New Delhi
+14.	
+Kumar, Ashok	
+Chief Engineer (Retd.), MORTH, New Delhi
+15.	
+Kurian, Jose	
+Chief Engineer, DTTDC Ltd., New Delhi
+16.	
+Kumar, Mahesh	
+Engineer-in-Chief, Haryana PWD, Chandigarh
+17.	
+Kumar, Satander	
+Ex-Scientist, CRRI, New Delhi
+18.	
+Lal, Chaman	
+Director (Projects-III), NRRDA (Ministry of Rural
+	
+	
+Development), New Delhi
+19.	
+Manchanda, R.K.	
+Consultant, Intercontinental Consultants and
+	
+	
+Technocrats Pvt. Ltd., New Delhi
+20.	
+Marwah, S.K. 	
+Addl. Director General (Retd.), MORTH, New Delhi
+21.	
+Pandey, R.K.	
+Chief Engineer (Planning), MORTH, New Delhi
+22.	
+Pateriya, Dr. I.K.	
+Director (Tech.), NRRDA, (Ministry of Rural
+	
+	
+Development), New Delhi
+23.	
+Pradhan, B.C.	
+Chief Engineer, National Highways, PWD, Bhubaneshwar
+24.	
+Prasad, D.N.	
+Chief Engineer (NH), RCD, Patna
+25.	
+Rao, P.J.	
+Consulting Engineer, H.No. 399, Sector-19, Faridabad
+
+
+
+======================================================================
+PAGE 7 of 37
+======================================================================
+IRC:108-2015
+ii
+26.	
+Raju, Dr. G.V.S. 	
+Engineer-in-Chief (R&B), Rural Roads, Director
+	
+	
+Research and Consultancy, Hyderabad, Andhra Pradesh
+27.	
+Representative of BRO	
+(Shri B.B. Lal) ADGBR, HQ DGBR, New Delhi
+28.	
+Sarkar, Dr. P.K.	
+Professor, Deptt. of Transport Planning, School of
+	
+	
+Planning & Architecture, New Delhi
+29.	
+Sharma, Arun Kumar	
+CEO (Highways), GMR Highways Limited, Bangalore
+30.	
+Sharma, M.P.	
+Member (Technical), NHAI, New Delhi
+31.	
+Sharma, S.C.	
+DG (RD) & AS (Retd.), MORTH, New Delhi
+32.	
+Sinha, A.V.	
+DG (RD) & SS (Retd.), MORTH, New Delhi
+33.	
+Singh, B.N.	
+Member (Projects), NHAI, New Delhi
+34.	
+Singh, Nirmal Jit	
+DG (RD) & SS (Retd.), MORTH, New Delhi
+35.	
+Vasava, S.B.	
+Chief Engineer & Addl. Secretary (Panchayat) Roads
+	
+	
+& Building Dept., Gandhinagar
+36.	
+Yadav, Dr. V.K.	
+Addl. Director General (Retd.), DGBR, New Delhi
+37.	
+The Chief Engineer (Mech.)	
+(Shri Kaushik Basu), MORTH, New Delhi
+Corresponding Members
+1. 	
+Bhattacharya, C.C.	
+DG (RD) & AS (Retd.), MORTH, New Delhi
+2.	
+Das, Dr. Animesh	
+Professor, IIT, Kanpur
+3.	
+Justo, Dr. C.E.G.	
+Emeritus Fellow, 334, 14th Main, 25th Cross,
+	
+	
+Banashankari 2nd Stage, Bangalore
+4.	
+Momin, S.S.	
+Former Secretary, PWD Maharashtra, Mumbai
+5.	
+Pandey, Prof. B.B.	
+Advisor, IIT Kharagpur, Kharagpur
+Ex-Officio Members
+1.	
+President,	
+(Bhowmik, Sunil), Engineer-in-Chief,
+	
+Indian Roads Congress	
+PWD (R&B), Govt. of Tripura
+2.	
+Honorary Treasurer,	
+(Das, S.N.), Director General (Road Development),
+	
+Indian Roads Congress	
+Ministry of Road Transport & Highways
+3.	
+Secretary General, 
+	
+Indian Roads Congress
+
+
+
+======================================================================
+PAGE 8 of 37
+======================================================================
+
+IRC:108-2015
+1
+Guidelines for Traffic Forecast on Highways
+1 Introduction
+This guideline is intended for use by traffic engineers/planners to forecast traffic on highways 
+and inter-urban roads. This document is structured in Three Sections. Section A describes 
+the basic concepts and gives a brief overview of the forecasting process. Section B highlights 
+the methodological aspects related to traffic forecasting on inter-urban roads/highways. In 
+Section C, several example problems are provided to help traffic engineers/planners to carry 
+out project specific calculations in a similar manner.
+The revised draft Guidelines for Traffic Forecast on Highways, IRC:108-2014 was prepared 
+by the Sub-group comprising Dr. Bhargab Maitra, Dr. M.R. Tagore, Dr. S. Velmurugan and 
+Dr. P.K. Sarkar. The Committee deliberated on the draft revision in a series of meetings. The 
+Transport Planning and Traffic Engineering Committee (H-1) approved the draft revision in 
+its meeting held on 26.07.2014 for placing before the Highways Specifications & Standards 
+Committee (HSS).
+The composition of the H-1 Committee is as given below: 
+	
+Gangopadhyay, Dr. S.	
+--------	
+Convenor
+	
+Marwah, S.K.	
+--------	
+Co-Convenor
+	
+Velmurugan, Dr. S.	
+--------	
+Member Secretary
+Members
+	
+Bahadur, A.P.	
+	
+Sarkar, Dr. P.K.
+	
+Blah, W.	
+	
+Sethi, H.C.
+	
+Chand, Subhash	
+	
+Sharma, S.C.
+	
+Chandra, Dr. Satish	
+	
+Sikdar, Prof. P.K.
+	
+Gupta, D.P.	
+	
+Singh, Amandeep
+	
+Kadiyali, Dr. L.R.	
+	
+Singh, Nirmaljit
+	
+Kumar, Sudhir	
+	
+Singh, Pawan Kumar
+	
+Maitra, Dr. Bhargab	
+	
+Singh, R.K.
+	
+Mohan, Surinder	
+	
+Tagore, Dr. M.R.
+	
+Mohapatra, D.K.	
+	
+Tiwari, Dr. Geetam
+	
+Pal, Nimisha	
+	
+The AIG Police (Traffic & Highways),
+	
+Popli, Sudershan K.	
+	
+Haryana
+	
+Sanyal, D.	
+	
+The Director, UTTIPEC
+	
+	
+	
+The Joint CP (Traffic), New Delhi
+LIST OF ABBREVIATIONS
+ADT	
+:	 Average Daily Traffic
+AADT	
+:	 Annual Average Daily Traffic
+ARMA	
+:	 Autoregressive Moving Average Model
+ARIMA	
+:	 Autoregressive Integrated Moving Average Model
+
+
+
+======================================================================
+PAGE 9 of 37
+======================================================================
+IRC:108-2015
+2
+DMA	
+:	 Double Moving Average
+GDP	
+:	 Gross Domestic Product
+IRC	
+:	 Indian Roads Congress
+LCV	
+:	 Light Commercial Vehicle
+LOS	
+:	 Level of Service
+MADT	
+:	 Monthly Average Daily Traffic
+MAV	
+:	 Multi-Axle Vehicle
+MNL	
+:	 Multinomial Logit
+MoRT&H	 :	 Ministry of Road Transport and Highways
+NDDP	
+:	 Net District Domestic Product
+NHAI	
+:	 National Highways Authority of India
+NL	
+:	 Nested Logit
+NSDP	
+:	 Net State Domestic Product
+O–D	
+:	 Origin – Destination
+PCI	
+:	 Per Capita Income
+PCU	
+:	 Passenger Car Unit
+PHF	
+:	 Peak Hour Factor
+PIA	
+:	 Project Influence Area
+PWD	
+:	 Public Works Department
+RP	
+:	 Revealed Preference
+TC	
+:	 Travel Cost
+TT	
+:	 Travel Time
+2T-HCV	
+:	 2 Axle Heavy Commercial Vehicles
+Corresponding Members
+	
+Justo, Dr. C.E.G	
+	
+Reddy, Dr. T.S.
+Singh, Gyanendra
+Co-opted Member
+Jacob George
+Ex-Officio Members
+	
+President,	
+	
+(Bhowmik, Sunil), Engineer-in-Chief,
+	
+Indian Roads Congress	
+	
+PWD (R&B), Govt. of Tripura
+	
+Honorary Treasurer,	
+	
+(Das, S.N.), Director General 
+	
+Indian Roads Congress	
+	
+(Road Development), Ministry of 
+	
+	
+	
+Road Transport & Highways
+	
+Secretary General,
+	
+Indian Roads Congress
+The HSS Committee approved the draft revision in its meeting held on 9th August, 2014. The 
+Executive Committee in its meeting held on 18th August, 2014 approved the draft revision 
+for placing it before the Council. The IRC Council in its 203rd meeting held at New Delhi on 
+19th and 20th August, 2014 approved the draft revision of IRC:108 “Guidelines for Traffic 
+Forecast on Highways” for publishing.
+
+
+
+======================================================================
+PAGE 10 of 37
+======================================================================
+
+IRC:108-2015
+3
+Section : A 
+Basic Concepts and Overview of Forecasting Process
+A.1 
+Need for Traffic Forecasting
+All projects relating to roads and highways need the fundamental input of traffic volume to 
+be catered for by the facility. This is true for any present day analysis or assessment of the 
+facility in future date. Therefore, it is imperative that a traffic forecast is necessary to evaluate 
+the case on a future date.
+Any forecast will be as good as the data that are used as input to the forecasting method and 
+process. Thus, forecast cannot be considered to be totally accurate and forecasts for longer 
+horizons need to be reviewed and revised with the progression of time using the available 
+data progressively. Also, this is a function of the method used and disaggregation used in the 
+forecasting process.
+Therefore, all designs, analysis and evaluation related to roads and highways shall require 
+traffic forecasts as input. So much so, the economic and financial viability of projects are 
+largely ruled by the traffic forecast.
+A.2	
+Basic Terminologies
+In the context of traffic forecast on highways, several terminologies are used. These 
+terminologies are defined below:
+Average Daily Traffic (ADT): The total volume of traffic passing a point or segment of a 
+roadway during a given time period (more than a day and less than a year) divided by the 
+number of days in that time period.
+Annual Average Daily Traffic (AADT): The total volume of traffic passing a point or segment 
+of a roadway during one full year divided by the number of days in the year.
+Base Year: It is the year when all primary traffic surveys are carried out. Base year is also 
+that year beyond which traffic projections are carried out.
+Capacity: The maximum sustainable hourly flow rate at which persons or vehicles reasonably 
+can be expected to traverse a point or a uniform section of a lane or roadway under prevailing 
+roadway, environmental, traffic and control conditions.
+Control Count Stations: Control count stations are selected representative locations where 
+classified volume counts are carried out over the complete survey period to measure and 
+quantify variation of traffic volume patterns.
+Coverage Count Stations: Coverage count stations are those locations where classified 
+volume counts are carried out only for a part of the complete survey period. Each coverage 
+count station shall have a representative control count station to establish variation in traffic 
+volume pattern over the complete study period.
+Design Hourly Volume (DHV): It is that hourly volume in a year which is used to judge the 
+capacity requirement. DHV is normally taken as 30th highest hourly volume, which means 
+that only for 29 hours in a year the traffic volume can exceed the design volume.
+Design Period: The period in future for which the road is designed.
+
+
+
+======================================================================
+PAGE 11 of 37
+======================================================================
+IRC:108-2015
+4
+Directional Distribution: A characteristic of traffic, that the volume may be greater in one 
+direction than in the other during any period on a highway. Directional distribution indicates 
+the percentage distribution of total traffic in two directions of travel. This is more relevant for 
+undivided roads and an important input for capacity analysis and pavement design.
+Forecast Period: The total length of time span covered by the traffic forecast. It is equal to 
+the difference between the end year of the design period and the base year.
+Horizon Year: The future years to which a planning activity is directed, which may be more 
+than one. The traffic volume forecast is also done for each horizon year.
+Level of Service (LOS): A quantitative stratification of a performance measure or measure 
+that represents quality of service, measured on an A to F scale, with LOS-A representing the 
+best operating conditions from the traveler’s perspective and LOS-F the worst.
+Peak Hour Factor (PHF): The hourly volume during the analysis hour divided by the 
+4 x peak 15-minute flow rate within the analysis hour. The PHF is also considered as a 
+measure to estimate traffic demand fluctuations within the peak hour. (The use of PHF is 
+remote in case of highway traffic analysis, unless intersections are considered).
+Peak Hour Proportion (PHP): The volume of traffic during the peak hour (highest hourly 
+volume in a 24 hour day) expressed as percentage of total 24 hour traffic volume in a day. 
+This is normally used for reverse calculation of daily traffic volume from peak hour volume 
+estimated from traffic survey for a shorter duration than 24 hours.
+Project Influence Area (PIA): The geographical area where the impact of the upcoming 
+proposed highway development will be predominant. Alternatively, it is also the geographical 
+area the development of which will influence the traffic of the specific highway project. The 
+socio-economic profile of the PIA is expected to have influence on the traffic volume of the 
+project corridor.
+Seasonal Factor: Seasonal Factors consider variation of travel demand during different 
+months or seasons in a year. Generally, these factors are estimated based on data from 
+permanent traffic count stations. But, in absence of such data, secondary data like petrol and 
+diesel sales data along the project corridor may be used to formulate the seasonal factors.
+Service Flow Rate: The maximum directional rate of flow that can be sustained in a given 
+segment under prevailing roadway, traffic, and control conditions.
+Traffic Analysis Zone (TAZ): The basic geographic unit for inventorying demographic data 
+and land use within a study area. The size and shape of TAZs can influence model results. 
+Highway trip loadings and the percent of intra-zonal trips are directly impacted by study area 
+zonal detail and the size of the zone. 
+A.3	
+Design Period
+The design period may vary from one project to another. In majority of road projects, the 
+design period may be taken as 15 or 20 years. It is important to specify the design period, 
+since traffic volume forecasts are required from the starting year to the end-year of the 
+design period. The growth of traffic may not be uniform throughout the design period due to 
+various reasons. A common practice of dividing the design period into suitable time spans 
+
+
+
+======================================================================
+PAGE 12 of 37
+======================================================================
+
+IRC:108-2015
+5
+(with intermediate horizons) and estimation of the growth factors for each time span may 
+be adopted, and the traffic volume forecast at the end of each time span be reported. For 
+example, if the base year for a project is 2013, and the design period is 20 years, and if 
+the road is expected to be opened to traffic in 2017, then traffic forecast is necessary up 
+to horizon year 2037. If the design period is divided into four equal time span, then traffic 
+forecast may be reported for horizon years like 2019, 2024, 2029, 2034 and 2039. Thus, the 
+growth factors may be reported for different time span so that it is possible to calculate the 
+traffic volumes even at intermediate years.
+A.4	
+Stage Construction
+As the traffic volume continues to grow over years, the capacity requirement to maintain a 
+minimum LOS may vary during the design period. If the variation of capacity requirement 
+is equivalent to that of additional traffic lane(s), then a stage construction may be planned 
+to optimize the utilization of financial resources. For example, traffic volume forecast for an 
+existing 2-lane road may indicate a requirement of 4-lane dual carriageway in 2019 and a 
+6-lane dual carriageway in 2029. In such a situation, a stage-wise construction plan may be 
+developed as per the requirements.
+A.5	
+Mid-Blocks and Intersections
+For highways, the mid-block traffic volumes govern the capacity requirement, pavement 
+design, etc. Highways also include intersections and hence the appropriate design of these 
+intersections is essential for safe and efficient movement of traffic. This implies that the, 
+highway projects shall require traffic studies for mid-blocks as well as intersections. Intersection 
+traffic volumes can also be used for deciding the nature of control (say, uncontrolled, rotary, 
+grade separated, etc.) required at the intersection.
+A.6 
+Components of Traffic Forecast
+For forecasting of traffic in the future, it may be necessary to estimate separately various 
+components of traffic namely normal traffic, generated traffic and developmental traffic.
+Normal Traffic: Normal traffic is the estimated traffic on a roadway facility due to increase 
+in population, natural change in land-use and normal socio-economic development in the 
+region or PIA. The normal growth should be estimated based on the past and envisaged 
+future growth trend of traffic on the project corridor or in the influence area. Normal traffic 
+growths are expected to be higher for uncongested operations but the growth rate declines 
+with increase in congestion level, reaching a self-limiting equilibrium.
+Generated Traffic: Road improvements may attract trips from other routes, modes and 
+encourage longer and more frequent travel. The additional traffic volumes likely to be 
+generated on project corridor due to road improvements are termed as generated traffic. 
+Generated traffic may be classified further as diverted traffic and induced traffic.
+Diverted Traffic: It is that component of generated traffic which is the result of shift in route 
+and change of mode. Diverted traffic could be both positive and negative.
+Induced Traffic: It may be defined as an increase in total vehicle-kilometers of travel due 
+to roadway improvements, which may be due to increase in vehicle-trip frequency and 
+
+
+
+======================================================================
+PAGE 13 of 37
+======================================================================
+IRC:108-2015
+6
+distance, but exclude trips/traffic shifted from other routes. It is like release of latent demand 
+for travel.
+Generated traffic reflects the economic “law of demand,” which states that consumption of 
+goods increase as the price declines. Roadway improvements, that alleviate congestion 
+and reduce generalized cost of travel, encourage more travel/vehicle use. Depending upon 
+the road network and socio-economic profile of the PIA, generated traffic may constitute a 
+significant part of the total future traffic volume.
+Developmental Traffic: In some cases, there may be large scale developments in the PIA 
+of the proposed project corridor. Such developments may be industrial, commercial or even 
+residential, and they may generate a substantial amount of additional traffic and contribute 
+significantly to the future traffic volumes on the project corridor. Developmental traffic may 
+not be relevant in all projects. Wherever it is relevant, the traffic engineer/planner should 
+consider this component for obtaining a realistic forecast of total traffic.
+In principle, total traffic forecast for the horizon year should be inclusive of all components of 
+traffic, i.e., normal traffic, generated (diverted plus induced) traffic and developmental traffic. 
+In all road projects (say, two-lane to four-lane or four-lane to six-lane) normal traffic forecast 
+is mandatory. However, generated and developmental traffic are project specific and should 
+be considered for total traffic forecast when they are contextual. For example, if there is 
+a competing road or rail corridor then the traffic forecast on the project corridor cannot be 
+done without considering the influence of the competing corridor and in such cases it will be 
+necessary to duly consider the component of generated traffic. Similarly, if a new township 
+or settlement is planned in the PIA then it would be necessary to estimate the developmental 
+traffic while forecasting the total traffic on the project corridor. The traffic engineer/planner 
+may estimate generated and/or developmental traffic, if these are found to be relevant and 
+significant for the project. If generated and/or developmental traffic are excluded, the traffic 
+engineer/planner should justify the reasons for exclusion.
+A.7 
+Impact of Toll on Traffic Volume
+In India, over the last decade, many highways have been developed as toll roads on the 
+principle of “user pays” to meet the cost of the road construction and maintenance through 
+toll revenues. While road development is likely to have positive impacts on traffic growth, 
+the toll charges is likely to have a deterrent effect on the traffic growth. Traffic volume on the 
+proposed project corridor is likely to be lower than normal case when the corridor is operated 
+as a toll road, when there are competing routes. Hence, it is necessary to duly consider the 
+effect of toll on various components of traffic forecast in order to have a realistic assessment 
+of traffic volumes. It may also be noted that accurate traffic volume forecast is of critical 
+importance as the forecast influences the financial viability of toll road projects.
+A.8	
+Highways Passing through Urban Areas
+Whenever highway passes through urban/suburban area, the section of highway 
+experiences the movements of local as well as regional and through traffic. Local or Urban 
+Traffic is that component of traffic which is internal in nature (i.e. Internal-Internal). Regional 
+traffic constitutes the traffic which is internal-external and external-internal in nature. Through 
+
+
+
+======================================================================
+PAGE 14 of 37
+======================================================================
+
+IRC:108-2015
+7
+traffic constitute vehicles having both origin and destination outside the study area or the 
+core PIA and is therefore, external-external in nature. Generally, the growths of these types 
+of traffic are different from each other. Therefore, when a significant length of highway is 
+passing through urban/suburban area and a separate forecast is necessary for the section of 
+the highway, it is necessary to appreciate the nature and magnitude of these types of traffic 
+and work out separate growth factors for each type of traffic to forecast the overall growth of 
+traffic. The contribution of various types of traffic in the ADT may be obtained from the O-D 
+data.
+A.9 
+Traffic Forecasting Process and Steps
+The steps in traffic forecasting process for rural highways are shown in a flowchart given in 
+Fig. A.1. There are three major stages that should be considered in traffic forecasting on rural 
+highways. Stage-1 (may be called as preparatory works) includes activities pertaining to the 
+preliminary understanding about the proposed project corridor and its role in the influence 
+area or regional development. Stage-1 also provides significant assistance in carrying out 
+various tasks in Stage-2 (may be called as analysis of base year travel) and Stage-3 (may be 
+called as forecasting of travel). Stage-2 includes detailed understanding of the travel along 
+the project corridor in the base year. It consists of the field data collection and analysis of 
+base year data. Secondary data (socio-economic data) pertaining to factors which usually 
+influence the overall travel scenario of the PIA should also be collected and analyzed at this 
+stage. Stage-2 also involves the estimation of base year traffic to be used in forecasts for 
+horizon years. In Stage-3,the growth rates are to be determined with possible disaggregation 
+of base year data and duly considering various factors which influence the growth of traffic 
+in the project corridor. The details of the steps, to be followed in various stages are shown in 
+Fig. A.1 and explained in the succeeding section.
+A.9.1	
+Study of the Base Year Transport Network
+It is necessary to study the transport network map in the proposed project corridor, which will 
+highlight the different components of transport network, viz. roadway network, railway network 
+and shipping infrastructures if any, within the PIA. Functional and operational classification 
+of the transport links should also be presented categorically. Carriageway configuration of 
+different road links should be highlighted in the map. It should also consider the existence of 
+the human settlements. The study of the transport network would give an understanding about 
+role of the proposed project corridor in the PIA. Alternate routes and/or alternate transport 
+facilities should also be identified in this step.
+A.9.2	
+Reconnaissance Survey
+Reconnaissance survey needs to be conducted to understand the base year travel, land-
+use along the corridor; and identify the major intersections which act as points of diversion/
+feeders for the highway traffic. A basic understanding of the travel pattern of passenger and 
+goods traffic needs to be obtained at this stage. The influence of the local traffic also needs 
+to be observed along the corridor to decide judiciously the primary survey locations and 
+formation of TAZs.
+
+
+
+======================================================================
+PAGE 15 of 37
+======================================================================
+IRC:108-2015
+8
+Fig. A.1  Traffic Forecasting Process
+
+
+
+======================================================================
+PAGE 16 of 37
+======================================================================
+
+IRC:108-2015
+9
+A.9.3	
+Identification of the PIA and TAZs
+Demarcation of the PIA is vital for forming the TAZs. Major settlements and land uses along 
+and in the influence area of the project corridor should be identified. A preliminary Origin and 
+Destination (O-D) survey may also be carried out to understand the zones of influence of 
+the vehicles (i.e. travel between O-D pairs) using the project corridor. This O-D survey is for 
+identification of PIA and TAZs only. A more detailed O-D survey should be carried out in the 
+later stages as described in Section A.9.5.
+In forming the TAZs, care should be taken to identify the zones with distinct land-use pattern 
+(viz. mines, quarry, industrial units, tourist spots, district headquarters etc.). The PIA should 
+be divided into several TAZs, with proper road connectivity to the project corridor. Minor 
+restructuring of TAZs may also become necessary after conducting the primary traffic 
+surveys.
+A.9.4	
+Identification of the Homogenous Traffic Sections
+Homogenous traffic sections are the stretches of the project corridor where traffic volumes 
+and/or composition are likely to be the same. Homogenous traffic sections should generally 
+be identified based on the major points of diversion along the proposed project corridor (e.g. 
+major intersections). The effect of the local traffic and travel pattern of the passenger and 
+goods traffic should also be considered while identifying homogeneous sections.
+A.9.5	
+Identification of Primary Traffic Surveys and their Locations
+Primary traffic surveys are intended to understand the base year travel. These surveys 
+include:
+	
+●	
+Mid-block classified traffic volume count survey,
+	
+●	
+Classified turning movement count survey at intersections,
+	
+●	
+Origin-Destination, Occupancy and trip characteristics survey,
+	
+●	
+Commodity survey,
+	
+●	
+Travel behavior survey and
+	
+●	
+Speed and Delay survey
+For each identified homogenous section, at least one survey location should be selected 
+for mid-block classified traffic volume counts. In order to have a reasonable estimate of the 
+through traffic on the highway, it is necessary to select survey locations with negligible share 
+of local traffic. It is generally done for 3 days or 7 days continuously. Turning movement 
+count survey should be conducted at major intersections which may act as the major points 
+of diversion for the traffic on the project corridor. It is generally carried out for 16 or 24 hours 
+depending on the type of road section.
+Origin-Destination and trip characteristics survey should be carried out on a sample basis along 
+with the mid-block classified traffic volume count survey for a specified duration (generally 
+24 hours or 48 hours). On the road corridors where the traffic during night time is significant, 
+the O-D survey should also cover night traffic. Trip characteristics data such as origin and 
+destination of trip, trip frequency, purpose of the trip, etc. should also be collected.
+Commodity survey should also be carried out through the O-D survey questionnaire on 
+sample basis to understand the pattern of commodity movements on the project corridor.
+
+
+
+======================================================================
+PAGE 17 of 37
+======================================================================
+IRC:108-2015
+10
+Travel behavior survey may also be conducted at specific cases, such as toll roads or the 
+project road where significant level of generated traffic are anticipated in horizon years. The 
+survey is to be conducted through interviews of the road-users along the corridor, especially 
+at dhabas, service centres, laybys, rest areas, parking areas, etc.
+Travel time-delay surveys on the project corridor and the potential alternate routes would be 
+helpful in assessing the diversion of traffic from/to the project highway, due to the improvement 
+and also levying of toll on the project highway.
+A.9.6	
+Identification of the Secondary Data and their Sources
+Secondary data may consist of the following:
+	
+●	
+Population
+	
+●	
+Fuel-sales data along the project highway
+	
+●	
+Agricultural and/or industrial output in the influence area of project highway
+	
+●	
+Socio-economic data of the PIA, including economic parameters (Net District 
+Domestic Product/Net State Domestic Product, Per capita Income) in the 
+PIA.
+	
+●	
+Past traffic data on proposed project corridor and/or surrounding road 
+network
+	
+●	
+Vehicle registration data (mode-wise/vehicle category wise)
+	
+●	
+Land-use development plans viz. upcoming township, industrial unit/SEZ 
+etc.
+	
+●	
+Transport network/link development/improvement plan within the PIA.
+Several other secondary data may be required for traffic forecasting and the secondary data 
+requirements may also vary for different projects. The sources of various secondary data 
+should also be identified and verified for authenticity and accuracy.
+A.9.7	
+Primary Traffic Surveys
+Primary traffic surveys are vital for collecting traffic data for the proposed project corridor 
+operating under prevailing condition. The data collection shall meet the requirements 
+as specified in A.9.5. This data shall provide the understanding of the base year travel 
+demand/pattern on the project corridor.
+A.9.8	
+Collection of Secondary Data
+Based on the requirements of the project, the secondary data is required to be collected 
+from different sources, which are normally the Census, State Economics and Statistics 
+Department, Industries/Tourism/Ports Department, Regional Development Authority, State 
+Planning Department, NHAI/MoRTH and State PWD, etc. The sources must be authentic and 
+should be referred while preparing the final report on traffic forecast for the project corridor.
+A.9.9	
+Base Year Traffic Analysis
+In base year traffic analysis, the data collected from traffic surveys should be processed 
+and representative ADT for each homogeneous traffic section should be estimated. If the 
+computed/estimated ADTs on adjacent homogenous sections are similar, then the number 
+of homogeneous sections may be reduced (by merging two or more homogeneous sections) 
+with adequate justifications related to implications on capacity and design requirements. 
+Generally traffic volume on highways or non-urban roads varies during different months or 
+seasons in a year due to several factors. It is important to understand the reasons for such 
+
+
+
+======================================================================
+PAGE 18 of 37
+======================================================================
+
+IRC:108-2015
+11
+variations in the project context from local enquiries. Also, to account for such variations of 
+traffic volumes during different months or seasons, it is necessary to estimate AADT from the 
+measured ADT and secondary data reflecting seasonal variation.
+A.9.10	
+Estimation of Growth Factors for Normal Traffic
+This step includes estimation of traffic growth factors for projecting the normal traffic to horizon 
+years. Normally, several approaches are adopted to compute and understand the growth rate 
+of traffic on the proposed project corridor or in the PIA. These approaches include; i) Growth 
+factors based on past traffic trend data on study corridor; ii) Growth factors based on past 
+trends of vehicle population (registered motor vehicles) in the PIA; iii) Growth factors based 
+on elasticity of transport demand; and (iv) Growth factors based on time series analysis. While 
+estimating growth factors based on registered vehicle data, it should be kept in mind that the 
+vehicle population may not be exactly equal to the number of registered motor vehicles as old 
+vehicles are discarded as per the prevailing Government policies. Due to the unavailability of 
+data, all the methods may not be suitable and applicable in all project contexts. Finally, the 
+growth rates (factors) adopted for the horizon years should be by giving due and judicious 
+consideration to realistic assessments of the past traffic growth, envisaged economic growth 
+in the PIA, etc. The traffic engineer/planner may recommend growth rates, which are different 
+from the growth trend observed in the past. However, the reasons for such recommendations 
+are expected to be mentioned in the report.
+A.9.11	
+Horizon Year Transport Network
+The transport network for the PIA may be updated for different horizon years on the basis 
+of the available information. This may be necessary to understand the likely change in the 
+travel pattern, if any, and the effect on future traffic on the project corridor. The horizon year 
+transport network is of critical importance in understanding the relevance and estimation of 
+diverted traffic.
+A.9.12	
+Normal Traffic Forecast
+The normal traffic forecast at each horizon year is to be estimated by applying the 
+recommended traffic growth rates/factors on the base year AADT.
+A.9.13	
+Developmental Traffic Forecast
+The estimation of developmental traffic, if relevant, should be carried out based on information 
+obtained from local or regional development authorities. Developmental traffic should be 
+estimated separately for each horizon year.
+A.9.14	
+Generated Traffic Forecast
+Generated traffic should be estimated separately for each horizon year. As generated 
+traffic includes both diverted traffic and induced traffic, it is necessary to estimate these two 
+components separately. If the generated traffic is ignored in the forecast of future traffic for 
+the project corridor, necessary justifications should be provided for the same.
+A.9.15	
+Total Traffic Forecast
+Forecast of total traffic along the proposed project corridor at horizon years may be obtained 
+by the compilation of the forecast of normal traffic, developmental traffic and generated 
+traffic.
+
+
+
+======================================================================
+PAGE 19 of 37
+======================================================================
+IRC:108-2015
+12
+Section : B
+Methodology
+B.1	
+Analysis of Base Year Travel
+Analysis of base year travel scenario involves conducting primary traffic surveys, collection 
+of secondary data, and then analysis of all data to understand the base year travel and 
+establish the base year traffic estimates for the project corridor.
+B.1.1	
+Primary Traffic Surveys
+Primary traffic surveys involve classified volume counts at selected mid-blocks and 
+intersections along the project corridor and surrounding network, Origin-Destination of travel 
+in PIA, type of commodity movements, etc. While carrying out classified vehicle counts, 
+appropriate vehicle classification should be adopted as per relevant guidelines of IRC keeping 
+in mind the presence of different vehicle categories operating on the project highway. The 
+primary traffic surveys should be conducted as per the recommended procedures provided 
+in IRC:SP:19-2001 “Manual for Survey, Investigation and Preparation of Road Projects” or 
+its updated version. The equivalent Passenger Car Unit (PCU) values shall be used as per 
+relevant IRC guidelines.
+Mid-Block Classified Volume Counts
+The midblock volume counts are representative of the through traffic on the project stretch 
+and should be used for forecasting the future traffic volume on the project corridor. Therefore, 
+it is recommended to carry out midblock traffic counts away from the intersections to avoid 
+the effect of local traffic.
+The classified volume counts should be carried out in both directions for successive 
+15 minute periods, for a minimum of 24 hours. Normally, for traffic forecasting on highways, 
+it is necessary to carry out classified volume counts for a period of one week in order to 
+account for the daily variation of demand which is predominant on such roads. There should 
+be at least one survey location for each homogeneous traffic section as a control count 
+station where classified volume counts should be carried out for one week. Depending on the 
+length of the homogenous section and observed variation of traffic flows, additional classified 
+volume counts may be carried out for shorter period (i.e. less than one week) at coverage 
+count stations on project highway and on surrounding network. The average weekly traffic 
+volume at each coverage station may be estimated using the survey data and the pattern of 
+daily variation may be established.
+Traffic volume surveys may be carried out using different methods such as manual count 
+method (using paper-pencil or mechanical hand-counters), portable automatic count method 
+(using pneumatic road tubes), permanent count station method (using loop detectors infrared 
+system), satellite based system, video recording system, etc. Considering the cost of 
+available technology and its suitability in mixed traffic operations with lack of lane discipline, 
+manual count technique is acceptable in India for the purpose of traffic forecast. However, 
+the practical constraints of suitable manpower required for the manual count method must 
+
+
+
+======================================================================
+PAGE 20 of 37
+======================================================================
+
+IRC:108-2015
+13
+be taken into account through proper design of field survey formats, training of enumerators, 
+deployment of adequate number of enumerators and supervisors, etc.
+As there is no scope of validation of data collected using manual method, it is desirable 
+to record vehicular movements using videography and extract data using manual/semi-
+automatic methods. Other methods such as loop detector may also be used, if such methods 
+have been established to produce reasonably accurate estimates under prevailing roadway, 
+traffic and operating conditions.
+Intersection Turning Movement Counts
+The Intersection Turning Movement Counts are necessary to understand the traffic movements 
+at intersections and also for design of intersections as per the local requirements. Apart 
+from major intersections (which act as major points of diversion along the project highway), 
+intersections having turning movements predominantly of the non-motorized vehicular modes 
+and/or pedestrian movements (which substantially affect the operation of highway traffic 
+during peak hours) should also be included in the primary traffic survey.
+The intersection turning movement count survey should be carried out for successive 
+15 minute period, for a minimum of 24 hours on a working day. Turning vehicles from each 
+approach of the intersection should be counted with classification of vehicles and recorded 
+separately, as per respective turning direction of individual vehicle (viz. through movement, 
+left and right turning movements).
+Origin-Destination, Occupancy and Trip Characteristics Survey
+The primary objective of the Origin-Destination and trip characteristics survey (normally 
+termed as O-D survey) is to collect the travel related information for both the goods and 
+passenger traffic moving on the project highway. O-D survey should be carried out along with 
+the mid-block traffic volume count survey at specified locations for a minimum period of 24 
+hours. The survey may be carried out using roadside interview method. The vehicles should 
+be intercepted on sample basis with the assistance of local police and trained enumerators 
+should interview the drivers to obtain the required data. During the survey, the vehicle 
+occupancy and information pertaining to origin and destination of the trip, duration of the trip, 
+trip length and trip purpose as applicable for various vehicle modes should be collected and 
+recorded. Sampling strategy and sample size for O-D survey should be justified.
+Commodity Survey
+Commodity surveys are to be carried out along with the O-D survey. The survey should 
+focus on collecting information regarding the type and value of commodity (including the 
+tonnage), carried by different category of goods vehicles such as local pick-up vehicles, 
+2-axle trucks, 3-axle trucks, multi axle vehicles, etc. moving along the corridor. The sample 
+size for commodity survey should also be justified.
+B.1.2	
+Base Year Traffic Analysis
+Data collected through primary surveys and secondary sources are to be used for the base 
+year traffic analysis. The various vehicle categories having different sizes and characteristics 
+
+
+
+======================================================================
+PAGE 21 of 37
+======================================================================
+IRC:108-2015
+14
+are to be converted into standard PCU value. PCU values may be taken as per 
+IRC:64-1990 “Guidelines for Capacity of Roads in Rural Areas” or its updated version.
+B.1.2.1	
+Average Daily Traffic (ADT)
+Traffic volume count data for 7 days at each of the mid-block locations need to be averaged 
+to determine Average Daily Traffic (ADT). The ADT should be expressed in PCUs using 
+appropriate PCU values as per IRC: 64-1990 or its updated version. The peak hour and peak 
+hour proportion of daily traffic should also be reported.
+Composition of Traffic
+The composition of traffic by vehicle category is to be worked out from the classified volume 
+count data. The share of motorized and non-motorized traffic and the share of different 
+vehicle categories such as bus, truck, LCV, etc. within the motorized traffic stream should 
+be reported. A sample format for composition of traffic is shown in Fig. B.1. Suitable vehicle 
+classification maybe adopted by the traffic engineer/planner depending on the project corridor 
+and the context.
+Station 
+No.
+Chainage 
+(km)
+Car & 
+Jeep/Van
+Three 
+Wheeler
+Two 
+Wheeler
+Mini 
+Bus
+Bus
+LCV
+Truck
+Tractor
+Tractor 
+with 
+Trailer
+Non-
+Motorized 
+Vehicles
+Total
+2 
+Axle
+3 
+Axle
+Multi 
+Axle
+1
+100
+2
+100
+Fig. B.1  Sample Format for Representing the Traffic Composition (in Percentage)
+Hourly Variation of Traffic
+The hourly variation of traffic volume should be reported and the observed pattern should 
+also be explained. This may be computed using the ADT data, i.e. based on average daily 
+traffic obtained from 7-day count data.
+Daily Variation of Traffic
+The daily variation of traffic should be studied and explained based on the 7-day count 
+data.
+A representative ADT should be indicated for each homogeneous traffic section. Vehicle 
+composition, peak hour, hourly and daily variation of traffic should be reported for each 
+survey station. Variation across different stations, if any, should be properly explained and 
+accounted for. Also, any unusual pattern in terms of traffic volume and composition, etc. 
+should be explained.
+B.1.2.2	
+Rearrangement of homogeneous sections
+Based on the representative ADT values, if it is observed that there is little or no variation 
+(say, within 10%) in traffic volume and pattern for two or more consecutive homogeneous 
+sections, they may be merged and considered as a single homogeneous traffic section.
+
+
+
+======================================================================
+PAGE 22 of 37
+======================================================================
+
+IRC:108-2015
+15
+B.1.2.3	
+Annual Average Daily Traffic (AADT)
+Traffic volume on highways usually varies during different months or seasons in a year. 
+Seasonal variation in traffic movement is expected mainly on account of variation in 
+movement of agriculture produce and industrial products. The reasons for seasonal variation 
+of traffic volume on a project stretch should be understood based on local queries and 
+ground knowledge. Also, suitable secondary data to be collected to represent the variation of 
+traffic volume during different seasons. Finally, the measured ADT should be converted into 
+Annual Average Daily Traffic (AADT) using appropriate seasonal factors. Typically, a year 
+may be split into three to four weather periods designated as seasons. But, the distribution of 
+12 months in a year to various seasons may depend on the geographic location of the project 
+highway. Attempt should be made to derive separate seasonal factors for different vehicle 
+categories, say, passenger and goods vehicles. Seasonal factors may be developed using 
+secondary data such as monthly fuel sale data for at least three years, authentic vehicle 
+category wise traffic data from any nearby toll plaza, or data from any permanent traffic count 
+station in the area, etc.
+B.1.2.4	
+Analysis of turning movement count data	
+The turning movement count data needs to be analyzed to represent daily traffic movement, 
+share of non-motorized and motorized vehicles, peak periods, peak hour, peak hour 
+proportion, etc. The result of the analysis should also be reported in the form of turning 
+movement diagrams.
+B.1.2.5	
+Analysis of O-D and commodity survey data
+The sample O-D data collected from each survey station should be compiled for the base year, 
+using the zoning system adopted for the study. Initially, the survey data may be compiled to 
+develop vehicle category wise O-D matrices for one station. These O-D matrices then need to 
+be expanded to develop O-D matrices for the population using appropriate expansion factors 
+developed using the classified volume count data. Some of the zones may be combined at 
+this stage if the contribution of those zones are found to be insignificant.
+Occupancy
+Passenger occupancy data collected during O-D surveys may be compiled to present the 
+occupancy distribution and report the average occupancy value for each vehicle group.
+Trip Purpose
+The trip purpose information collected during O-D surveys (for passenger vehicles) may be 
+compiled to represent distribution of trips by purpose.
+Commodity Groups
+The commodity data collected during primary surveys (along with O-D survey) should be 
+analyzed and presented in suitable formats. Due consideration need to be given to include 
+all possible commodities and to categorize them into homogeneous groups.
+
+
+
+======================================================================
+PAGE 23 of 37
+======================================================================
+IRC:108-2015
+16
+Load Analysis
+The commodity data need to be used to understand the distribution of load carried by goods 
+vehicles. The load carried by different categories of goods carrying vehicles viz. LCVs, two 
+axle trucks, three axle trucks and multi axle vehicles are to be distributed in weight ranges.
+Lead Analysis
+The O-D survey data should be analyzed to obtain the average lead and lead ranges for 
+various vehicle types. Different categories of vehicles viz. car, jeep, bus, mini bus, LCV, 2 
+axle truck, 3 axle truck, and multi axle vehicles shall be grouped and distributed on the basis 
+of trip lengths or lead ranges.
+B.2	
+Forecast of Travel Demand
+The traffic forecast for each horizon year should be estimated considering three components: 
+(i) normal traffic, (ii) generated traffic, and (iii) developmental traffic.
+B.2.1	
+Forecast of Normal Traffic
+Forecasting of normal traffic involves understanding the past traffic trend using different direct 
+and indirect methods, which should be account for making realistic assessments of the traffic 
+growth and envisaged economic growth in the PIA, which would allow estimation of AADT 
+for horizon years.
+B.2.1.1	
+Data requirements
+The data requirements for estimation of growth rates are functions of the methods applied for 
+estimating them. The following data should be compiled, when available and applicable for 
+determining traffic growth rates:
+	
+a)	
+Historical traffic count data (previous 5 to 10 years of traffic volumes)
+	
+b)	
+Registered motor vehicle data in the zones of influence
+	
+c)	
+Growth of different economic indicators in previous 5 to 10 years, such as 
+population, per capita income, GDP, NSDP, NDDP, etc., in the PIA.
+Based on the methodology adopted to determine growth rates, additional data such as fuel 
+sales records, land use data/maps, etc. may also be required.
+B.2.1.2	
+Establishing traffic growth trends
+An understanding of the past traffic growth is necessary before establishing traffic growth 
+rates for the horizon years. Different methods may be used to understand the past traffic 
+growth and several approaches need to be explored to realistically assess and quantify the 
+past traffic growth trends. Some of the approaches have been recommended in the following 
+paragraphs. Other rational approaches may also be adopted with proper justification for 
+analyzing the past traffic growth.
+1. 
+Growth factors based on past traffic data on study corridor
+Plot historical ADT or AADT at a convenient scale with traffic volume on y-axis and year of 
+count on x-axis.Use regression analysis combined with graphical representation for obtaining 
+
+
+
+======================================================================
+PAGE 24 of 37
+======================================================================
+
+IRC:108-2015
+17
+traffic growth trend. The graphical representation may show different growth rates for different 
+periods within the available data, which may suggest appropriate considerations.
+Attempts should be made to obtain growth factors separately for different vehicle categories. 
+If data is not available at the required disaggregate level, then some of the vehicle categories 
+may be combined logically to create lesser number of vehicle categories and obtain growth 
+factor for each category separately. In situations where only the aggregate data (say, total 
+PCU) is available, the growth factor may be obtained for the complete traffic stream. However, 
+in this situation, it is necessary to derive growth factor according to vehicle category using 
+other rational approaches. The overall growth of traffic obtained from different approaches 
+can be used for comparison purpose.
+It is worthwhile to mention that the past traffic data obtained from secondary sources may 
+be inconsistent due to several reasons (such as presence of outliers). A few data points 
+(showing extreme variation) may be excluded from the analysis to obtain rational trends in 
+traffic growth. The inconsistency in the past traffic data obtained from secondary sources 
+could be attributed to one or more of the following reasons:
+	
+a)	
+Inaccuracy of the data collected: The traffic data is collected normally 
+by manual method and there could be errors during collection of data and 
+its processing. As the data has been collected manually, it is impossible to 
+check the accuracy of that data at a later stage.
+	
+b)	
+Poor road conditions: Till recently, not much attention was paid and very 
+little resources were deployed for proper maintenance of highways. As a 
+result, some roads may be experiencing very poor operating conditions. 
+Poor road conditions severely affect the LOS and the maximum service 
+volumes could be much lesser than the normal or that of similar road section 
+under ideal condition. Such road conditions normally make the road less 
+attractive for traffic movements and the vehicle volume data collected under 
+such situations may not reflect the normal traffic level. In addition, the natural 
+calamities, weather condition, ongoing road maintenance works etc. also 
+may influence traffic volume on a corridor temporarily.
+	
+c)	
+Policy measures and other influences: In practice, there could be an 
+unexpected increase or decrease in traffic volumes due to number of policy 
+measures. Several policies at the Government level such as change in 
+cost of new vehicles, cost of fuel, taxes on several commodities etc. may 
+influence traffic volumes. In fact, the fluctuating developing economy may 
+result into a wide variety of situations, which may directly or indirectly affect 
+the movement of traffic on a road.
+It is because of all the aforesaid reasons, the past growth rates cannot be used directly for 
+estimating future traffic on the project corridor. Any substantial change in policy (e.g., fare, 
+travel time, loading and unloading of goods, etc.) and infrastructure (e.g. Improvement of 
+existing rail services, new railway line, etc.) may also affect the traffic volume on the project 
+corridor.
+
+
+
+======================================================================
+PAGE 25 of 37
+======================================================================
+IRC:108-2015
+18
+2.	
+Growth factors based on registered vehicle data
+The category wise registered motor vehicle data in each zone of PIA may be collected and 
+analyzed to estimate growth factors. Plot historical registered motor vehicle data by vehicle 
+category at a convenient scale with number of registered vehicles on y-axis and year of traffic 
+count on x-axis. One can use regression analysis combined with graphical representation for 
+obtaining growth factors for registered vehicles. It may also be possible that there is more 
+than one trend in the period of data collected, which may be duly accounted in recommended 
+growth rates.
+For every vehicle category, the growth rate at different zones, along with the observed O-D 
+pattern for the same vehicle category can be used to obtain the growth rate of that vehicle 
+category for the travel in the particular O-D pair or group of O-D pairs. The basic assumption 
+of this approach is that the growth of a vehicle category on a project highway is proportional 
+to the growth of that vehicle category using the project road from the O-D zones of their travel 
+in the influence area.
+The traffic engineer/planner involved in the forecast needs to be careful that several state 
+governments have their own policies to scrap old vehicles. In such cases, care should be 
+taken to review the local/regional policies and consider the number of old vehicles that will be 
+scrapped during the forecast period while adopting final growth rates.
+3.	
+Growth factors based on elasticity of transport demand
+As the growth of vehicle population can also be related to other influences, an attempt 
+may be made to relate vehicle population with one or more logically derived independent 
+variables for deriving elasticity of transport demand. Elasticity of transport (traffic) demand, in 
+the present context, is defined as the ratio of percentage change in traffic to the percentage 
+change in socio-economic parameters. The concept of developing regression equation to 
+relate the dependent variable in terms of one or more independent variable is widely used 
+in transportation engineering for variety of purposes. The preferred dependent variable is 
+past traffic on the project corridor. However, if the past traffic data is not consistent, number 
+of registered motor vehicles in the zone of influence (Town/District/State) may be taken as 
+dependent variable. The independent variables are socio-economic parameters. The choice 
+of independent variables depends on vehicle type under consideration. It is logical to relate 
+growth in traffic with NSDP/NDDP, PCI and population.
+It is normally required to predict independently the socio-economic variables such as 
+population, PCI, NSDP/NDDP, etc. for future years for assessing the future traffic growth 
+rates using transport demand elasticity values. The traffic growth rates, by vehicle types, may 
+be obtained by using simple regression and fitting the regression equation with prospective 
+values of independent variables. The selection of variables and model is also a function of 
+availability of data and model goodness of fit statistics (e.g. R2, t-value, etc.).
+4.	
+Growth factors based on time series analysis
+Wherever traffic volume data is available in time series (say, from an existing toll booth), 
+the trend of traffic growth or the future traffic volume may be estimated using time series 
+
+
+
+======================================================================
+PAGE 26 of 37
+======================================================================
+
+IRC:108-2015
+19
+analysis. It comprises methods for analyzing time series data in order to extract meaningful 
+statistics and other characteristics of the data. In special scenarios where past trends about 
+independent variables affecting traffic growth such as population, PCI etc. are not available, 
+time series analysis may be helpful for assessing future traffic volumes.
+Time series analysis may be carried out using (a) Smoothening techniques, such as Single 
+Moving Average (SMA), Double Moving Average (DMA), Single Exponential Smoothening 
+(SES), etc., (b) Auto Regressive Moving Average (ARMA) Model, and (c) Auto Regressive 
+Integrated Moving Average (ARIMA) model. If the data is limited, then ARMA or ARIMA  model 
+fit may not be good. In such cases time series based smoothening could be very effective.
+It may be mentioned that in majority of projects involving four laning of existing two lane 
+highways, it may not be possible to carry out time series analysis due to unavailability of data. 
+In such cases, the growth rates should be investigated using other methods, as discussed 
+above. On the contrary, where time series data are available from toll booths or from any 
+other source, attempt should be made to make use of the available data, carry out time series 
+analysis and compare the growth factor with those obtained from other methods.
+B.2.1.3	
+Comparison of growth factors
+Wherever possible, the growth rates estimated from different approaches should be compared 
+in order to understand the degree of similarity or dissimilarity. Certain degrees of uncertainties 
+are associated with growth rates obtained by each method and therefore the selection of 
+growth rate plays a vital role in this regard. The analyst (traffic engineer/planner) may select 
+one growth rate or an average of two or more growth rates by omitting the extreme results, or 
+perform any other selection procedure. However, the selection of growth rates must be done 
+with proper scientific justification.
+B.2.1.4	
+Recommendation of future growth factors
+The growth rates finally selected in Section B.2.1.3 may be considered as realistic growth 
+estimates of different categories of vehicles derived from the past trends. The knowledge 
+of these growth rates is essential as a basis for suggesting future traffic growth rates for 
+the project road. The traffic engineer/planner may modify the growth rates obtained from 
+Section B.2.1.3 considering the influencing factors and uncertainties, which may affect the 
+future traffic levels on the project road and suggest future growth rates.
+Normally, for a congested road (with high volume to capacity ratio) the traffic growth is 
+expected to be lower. So, in most cases, lower growths may be reasonable till the capacity 
+augmentation is done. Even after capacity augmentation, traffic growths are unlikely to 
+be uniform during the entire design period. The growths are expected to be higher in the 
+initial periods after road widening/improvement, and will become lower thereafter because 
+of increasing traffic volume and reduced attractiveness of the road (i.e. more volume, less 
+freedom of movement, more congestion, more travel time, etc.). Accordingly, separate sets 
+of growth rates which are realistic for the context, may be evolved for obtaining traffic volume 
+forecast for different horizon years.
+
+
+
+======================================================================
+PAGE 27 of 37
+======================================================================
+IRC:108-2015
+20
+B.2.1.5	
+Forecast AADT for horizon years
+The AADT for different horizon years may be estimated using the base year AADT and 
+recommended growth rates for each period.
+B.2.2	
+Estimation of Generated Traffic
+Estimation of generated traffic is a challenging task. Adequate investigations have not been 
+carried out in Indian context to provide readily usable models or charts for the estimation of 
+generated traffic. However, attempts should be made to estimate this component of future 
+traffic volume in a realistic manner, especially for projects where the share of generated 
+traffic is expected to be significant due to competing routes, modal shift, etc.
+Several scientific techniques are available for the estimation of generated traffic. For the 
+estimation of the two components of generated traffic (namely, diverted traffic and induced 
+traffic), it is necessary to use behavioral data and suitable analysis technique to develop route 
+choice and/or mode choice models. The broad steps involved in the development of mode 
+choice or route choice model include, (i) design of travel behavior survey, (ii) collection of 
+behavioral data, and (iii) analysis of the database by developing suitable econometric models. 
+Two types of behavioral data may be necessary for such works namely Stated Preference 
+(SP) data and Revealed Preference (RP) data. SP data are effective for valuation purpose 
+or estimation of willingness-to-pay values, while use of RP data is desirable for demand 
+estimation purpose. In some cases, it may be required to develop a joint RP-SP based model 
+for demand estimation purpose. Different econometric modeling techniques may include 
+Multinomial Logit (MNL), Nested Logit (NL) and Random Parameter Logit (RPL), etc.
+Diverted traffic may also be projected using diversion curves. Diversion curves are empirically 
+derived relationships for developing a logical estimate of the proportion of traffic that is likely to 
+be diverted on the newly developed project corridor. The development of the diversion curve 
+is based on the data collected from the road usage pattern in the past. The model may be 
+based on the savings of travel time, savings of travel distance, travel time ratio, travel distance 
+ratio, distance and speed ratio, travel cost ratio, toll rates, etc. Derivation of diversion curves 
+should be based on alternative scenarios and variations in the above mentioned parameters 
+for different vehicle categories. The established diversion curve may be used to calculate the 
+diverted traffic for different categories of vehicle on the project corridor.
+A different kind of analysis of SP data (other than Willingness-to-Pay survey) may be 
+required in some contexts, where the primary effect is due to change in trip rate or 
+vehicle-km travel. In such cases, Structural Equation Modelling (SEM) technique or any 
+other established approach may be used. Any published work which may be relevant to 
+the project context may also be referred and used as a basis for estimating the generated 
+traffic with proper scientific justification. In cases where the generated traffic is anticipated 
+to have very little or no significance, this step may be omitted for estimation of total traffic 
+forecast for horizon years. However, such omissions should always be supported with proper 
+justification.
+
+
+
+======================================================================
+PAGE 28 of 37
+======================================================================
+
+IRC:108-2015
+21
+B.2.3	
+Estimation of Developmental Traffic
+In order to cater to the additional trips resulting from land use changes (like residential, 
+commercial or industrial, etc.) in the influence area of the proposed road development, it is 
+necessary to develop trip rate based projections for the horizon years. The trip rates may 
+be obtained from secondary sources (say, previous studies which established trip rates 
+for similar land use and comparable conditions) or established from primary surveys. The 
+procedure may be similar to what is followed normally as a part of traffic impact studies. The 
+output from this work is the additional daily traffic and peak hour traffic on the project road 
+due to significant change in land use in the zones of influence. This component of traffic 
+estimate may also be omitted with justification, if no significant development is expected in 
+the zone of influence.
+B.2.4	
+Estimation of Forecast for Total Traffic
+The total traffic forecast for different horizon years should be obtained by combining the 
+normal traffic forecast of AADT, the generated traffic and the developmental traffic volumes 
+for each horizon year. The generated traffic and developmental traffic are case specific and 
+may be omitted for some project corridors with proper justification.
+B.2.5	
+Impact of Toll on Travel Demand
+Quantifying the impact of toll on traffic volume forecast is again a complex but necessary 
+task for toll roads. Toll is a negative externality (with deterrent effect) and may impact travel in 
+several ways. First, it may result in a shift of route or mode of travel and thereby impacting the 
+overall traffic volume on the project road. Secondly, the toll may also impact the trip rate or 
+vehicle-km of travel. Therefore, methods as discussed in Section B.2.2 for the estimation of 
+generated traffic may be used to develop model to estimate impacts of toll on traffic volumes. 
+The amount of toll may be included as a part of direct cost while developing such models.
+It may be noted that the impact of toll on travel demand of passenger and goods vehicles 
+are expected to be distinctly different. Person trips (and thereby passenger vehicles) are 
+expected to be more sensitive to toll. Therefore, it is meaningful to attempt to develop model 
+and assess the impact of toll on passenger vehicles, as far as possible, in a rational manner. 
+There may be limited scope for shift of mode (say, road to rail) for goods. The choice of route 
+(say, use of local road instead of the project highway with toll) may also be restricted using 
+policy and traffic management measures. All these aspects should be duly considered while 
+assessing the impact of toll on passenger and goods traffic.
+It may also be mentioned that there are added complexities associated with forecast of traffic 
+on toll roads. As the concept of toll road is relatively new in India, there is little scope to analyze 
+traffic growth on such roads based on observed data. It is therefore, necessary to update the 
+forecast based on observed traffic volumes from time to time on the project corridor.
+
+
+
+======================================================================
+PAGE 29 of 37
+======================================================================
+IRC:108-2015
+22
+Section : C
+Application
+This section comprises of several example problems illustrating different methods that a traffic 
+engineer/planner may adopt while carrying out traffic forecast. It may, however, be mentioned 
+that the values and/or equations that have been used for solving the example problems 
+are purely hypothetical. The traffic engineer/planner should develop realistic models and/or 
+equations based on the project corridor for which forecast is being made.
+C.1	
+AADT from ADT and Seasonal Variation
+Problem Statement: The traffic volume data for a vehicle category say, two axle heavy 
+commercial vehicles during different seasons are summarized in Table C.1. The observed 
+ADT for the vehicle category in 2014 is 1482 and the traffic volumes are measured during 
+June-July. Estimate the corresponding AADT in 2013.
+Table C.1  Traffic Volume Data of Two Axle Heavy Commercial Vehicles (2T-HCV)
+Year
+Number of 2T-HCV During
+Winter
+(Nov.-Feb)
+Summer
+(Mar.-June)
+Monsoon
+(July-Oct.)
+2010
+2011
+2012
+1389
+1600
+1703
+1325
+1430
+1362
+1480
+951
+1182
+Average
+1564
+1372
+1204
+Seasonal Index
+100
+88
+77
+Solution: If the seasonal index for the peak season (i.e. winter as per the present example) 
+is considered as 100, then the seasonal index for summer is 100*(1372/1564) or 87.72 and 
+the seasonal index for monsoon is 100*(1204/1564) or 76.98.
+The average seasonal index is (100*4+87.72*4+76.98*4)/12 = 88.23
+The seasonal index during June-July may be considered as (87.72+76.98)/2 = 82.35
+Therefore, the seasonal factor to convert the ADT counts during June-July to AADT is 
+88.23/82.35 or 1.07. Accordingly, the estimated AADT of 2T-HCV during 2014 is 1482*1.07 
+or 1586.
+C.2 
+Traffic Growth Factor using Transport Demand Elasticity Model
+Problem Statement: The time series data on Traffic Volume at a certain location and the 
+corresponding data on GDP of the region are given in Table C.2. The GDP is expected to 
+grow at a rate of 6 percent during 2005-2014. Determine the possible rate of growth of traffic 
+during 2005-2014.
+
+
+
+======================================================================
+PAGE 30 of 37
+======================================================================
+
+IRC:108-2015
+23
+Table C.2  Time Series Data on Traffic Volume and GDP
+Year
+Traffic (PCUs/day)
+GDP at constant Price 
+(Rs. Crores)
+2005
+6,250
+49,500
+2006
+6,550
+51,200
+2007
+7,000
+52,850
+2008
+7,250
+54,275
+2009
+7,650
+56,000
+2010
+8,000
+57,500
+2011
+8,500
+59,450
+2012
+8,850
+61,000
+2013
+9,350
+64,000
+2014
+9,900
+65,300
+Solution: The data in Table C.2 is re-tabulated in Table C.2A to develop a linear regression 
+model.
+Table C.2A  Table for Developing Linear Regression Model
+Year
+Traffic (P)
+Ln P
+GDP
+Ln GDP
+2005
+10,000
+9.21034
+49,500
+10.80973
+2006
+10,590
+9.26767
+51,200
+10.84349
+2007
+11,210
+9.32456
+52,850
+10.87521
+2008
+11,920
+9.38597
+54,275
+10.90182
+2009
+12,640
+9.44462
+56,000
+10.93311
+2010
+13,380
+9.50152
+57,500
+10.95954
+2011
+14,200
+9.56100
+59,450
+10.99289
+2012
+15,020
+9.61714
+61,000
+11.01863
+2013
+15,980
+9.67909
+64,000
+11.06664
+2014
+16,900
+9.73507
+65,300
+11.08675
+The data in columns representing Ln P and Ln GDP are now analyzed to develop a linear 
+regression model which is as follows:
+	
+Ln P = -11.304 + 1.8976 Ln GDP
+The R2 value (0.9977) of the regression model is high, the coefficients estimated (-32.2 and 
+59.2) are statistically significant at 95 percent confidence level and the signs of the coefficient 
+estimated are logical. Therefore the model may be accepted.
+The traffic demand elasticity coefficient is 1.8976. Therefore, if the growth of GDP is 6 percent 
+for the year 2005-2014, then the estimated growth of traffic during the same period is 1.8976 
+x 6 percent or 11.39 percent as per the transport demand elasticity model.
+
+
+
+======================================================================
+PAGE 31 of 37
+======================================================================
+IRC:108-2015
+24
+C.3 
+Weighted Traffic Growth Rates using Growth Rates at Origin and 
+Destination Zones
+Problem Statement: The O-D survey on a National Highway reveals the following 
+distributions of commercial vehicle movements: 30 percent between State-A and State-B, 
+20 percent between State-B and State-C, 25 percent between State-A and State-C and the 
+rest 25 percent are distributed (in terms of both origin and destination) among other States 
+in India. The growths of commercial vehicles are 7 percent, 6.0 percent, and 6.5 percent for 
+State-A, State-B and State-C respectively. The growth of commercial vehicles at national 
+level is estimated as 7.5 percent. What is the expected growth of commercial vehicles on the 
+project highway?
+Solution: For the vehicles moving between State-A and State-B, the growth of commercial 
+vehicle is (7 percent + 6 percent)/2 or 6.5 percent.
+Similarly, for vehicles moving between State-B and State-C, the growth of commercial vehicle 
+is (6 percent + 6.5 percent)/2 or 6.25 percent. and between State-A and State-C, the growth 
+of commercial vehicle is (7 percent + 6.5 percent)/2 or 6.75 percent.
+The remaining States may be represented as a zone and the commercial vehicle growth of 
+that zone may be assumed same as the national average i.e. 7.5 percent.
+Therefore, the expected overall commercial traffic growth on the project highway is (30*6.5 + 
+20*6.25 + 25*6.75 + 25*7.5)/100 percent or 6.76 percent.
+C.4	
+Growth Factor Estimation for Highways Passing through Urban Areas
+Problem Statement: A section of the project corridor is passing through a dense urban area. 
+Based on the nature and magnitude of traffic movement derived from O-D survey for the 
+section of the project corridor, the shares of different types of traffic (in ADT and %) for urban, 
+regional and through traffic are presented in Table C.4. Use appropriate analysis to obtain 
+growth rate for the different types of traffic.
+Table C.4  Different Types of Traffic Movement on the Project Road
+Type of 
+Traffic
+Vehicle Volume (in ADT and %)
+Cars
+Bus
+Two-Wheeler
+2 Axle Heavy Commercial 
+Vehicles (2T-HCV)
+MAV
+LCV
+A
+5768
+476
+4655
+2540
+343
+2445
+B1
+2035
+430
+129
+1609
+508
+894
+B2
+2165
+830
+133
+1950
+603
+907
+C
+2670
+1271
+25
+3317
+1391
+265
+Total
+12635
+3007
+4942
+9416
+2845
+4511
+A%
+45.7
+15.8
+94.2
+27
+12.1
+54.2
+B1%
+16.1
+14.3
+2.6
+17.1
+17.9
+19.8
+B2%
+17.1
+27.6
+2.7
+20.7
+21.2
+20.1
+C%
+21.1
+32.3
+0.5
+35.2
+48.8
+5.9
+
+
+
+======================================================================
+PAGE 32 of 37
+======================================================================
+
+IRC:108-2015
+25
+Note to Symbols Used:
+	
+A: Zones 1-12 (Urban) (Internal - Internal), B1: Zones 1-12 to zones 13-20 (Regional) 
+(Internal - External), B2: Zones 13-20 to Zones 1-12 (Regional) (External - Internal), C: Zones 
+13-20 (Through) to 13-20 (External - External)
+Solution: For the purpose of traffic projections for different horizons years, it is necessary to 
+develop relationship between traffic flow and other socio-economic variables. The data on 
+vehicle registration can be considered to be useful in developing the econometric model.
+For urban traffic, mode-wise vehicle registration data was regressed with various economic 
+parameters and results are presented in table below. Only R2 values along with 95 percent 
+confidence limit are indicated as a part of goodness of fit in Table C.4A.
+Table C.4A  Results of Regression Analysis and Traffic Growth Rates for Urban Traffic
+Vehicle 
+Type
+Electricity 
+Value
+R2 Value
+Exponential 
+Growth of 
+Population 
+(%)-(P)
+Per Capita 
+Income 
+Growth 
+(%)-(R)
+NSDP 
+Growth 
+(%)-(N)
+Combined 
+Rate 
+Growth 
+Factor (C)
+Expression 
+for 
+Traffic 
+Growth Rate
+Traffic 
+Growth 
+Rate (%)
+Cars
+2.0
+ 0.873
+1.51
+2.84
+-
+4.39
+E*C
+8.79
+Bus
+1.9
+0.758
+1.51
+2.84
+-
+-
+E*P
+2.87
+2-WH
+2.9
+0.923
+1.51
+2.84
+-
+4.39
+E*C
+12.74
+Trucks
+1.7
+0.892
+1.51
+2.84
+4.68
+-
+E*N
+7.96
+For regional traffic, the following parameters are used to estimate the growth factors. The 
+results of elasticity of regional traffic are presented in Table C.4B.
+Table C.4B  Results of Regression Analysis and Traffic Growth Rates for Regional Traffic
+Vehicle 
+Type
+Electricity 
+Value
+R2 Value
+Exponential
+Growth of
+Population 
+(%)-(P)
+Per Capita 
+Income 
+Growth 
+(%)
+NSDP 
+Growth 
+(%)-(N)
+Combined 
+Rate 
+Growth 
+Factor (C)
+Expression 
+for
+Traffic 
+Growth Rate
+Traffic 
+Growth 
+Rate (%)
+Cars
+2.9
+0.943
+2.12
+2.58
+-
+4.39
+E*C
+12.74
+Bus
+1.6
+0.887
+2.12
+2.58
+-
+4.39
+E*C
+7.03
+2-WH
+2.6
+0.972
+2.12
+2.58
+-
+4.39
+E*C
+11.42
+Truck
+1.4
+0.925
+2.12
+2.58
+4.68
+4.39
+E*C
+7.09
+For through traffic, the GDP growth is taken into account to determine the growth of through 
+traffic. The result of elasticity of through traffic is presented in Table C.4C.
+Table C.4C  Results of Regression Analysis and Traffic Growth Rates for Through Traffic
+Vehicle 
+Type
+Electricity 
+Value
+R2 Value
+GDP Growth (G) (in 
+%)
+Expression 
+for Traffic 
+Growth Rate
+Traffic Growth 
+Rate (%)
+Cars
+1.6
+0.98
+5.45
+E*G
+8.72
+Bus
+0.97
+0.745
+5.45
+E*G
+5.29
+Trucks
+1.9
+0.823
+5.45
+E*G
+10.36
+
+
+
+======================================================================
+PAGE 33 of 37
+======================================================================
+IRC:108-2015
+26
+C.5 
+Updating Traffic Volume at Coverage Count Station Based on Data of Control 
+Count Station
+Problem Statement: A seven day 24-hr traffic volume studies were carried out at a control 
+count station and the daily traffic volumes (in PCUs) from Monday to Sunday were measured 
+as 21000, 23000, 23500, 24000, 20000, 18000 and 16000. The traffic volume at a coverage 
+count station in the influence area of the control count station was measured as 14000 PCU 
+based on a 24 hour volume survey on Thursday of the same week. Calculate the adjusted 
+ADT (i.e. weekly average) for the coverage count station.
+Solution: The weekly average daily traffic volume at the control station is 20786 PCU.
+The weekly average is 20786/24000 or 0.866 times the daily traffic on Thursday. As the traffic 
+pattern at the coverage count station is assumed to be similar to that of the control count 
+station, the adjusted ADT for the coverage count station (i.e. average of weekly count) is 
+estimated as 14000*0.866 or 12124 PCUs.
+C.6 
+Traffic Forecasting using Moving Average Technique and Single Exponential 
+Smoothening Technique
+Problem Statement: The Observed Monthly ADT (MADT) of commercial vehicles for 
+consecutive 19 months on a toll booth is provided in column 2 of Table C.6.
+	
+a)	
+Calculate a three month moving average for months one to nineteen. 
+What would be the forecast for the commercial vehicle on that toll booth in 
+20th month?
+	
+b)	
+Apply exponential smoothing to forecast the volume of commercial vehicles 
+in the twentieth month.
+	
+c)	
+Which of these two forecast techniques should be preferred in practice and 
+why? Give proper justification
+Solution:
+	
+a)	
+There are different moving average techniques used for forecasting purpose, 
+such as two-month, three-month, four-month average and so on. In this case, 
+three-month moving average technique is used for the analysis.
+	
+	
+The three-month moving average MADT for Month-3 is calculated as 
+(852+861+958)/3 or 890. In the similar manner, the values are calculated 
+for other months and reported in column 3 of Table C.6. The forecast for 
+month 20 is just the moving average for the month before that i.e. the moving 
+average for month 19 = 1286.
+	
+b)	
+Single Exponential Smoothening Technique follows the following formula to 
+smoothen the dataset.
+	
+	
+	
+St = αyt + (1-α)S(t-1)
+Where,
+St is the predicted smoothened data point, yt is the observed data point, S(t-1) is the previous 
+smoothened data point and α is the smoothening factor. The value of α ranges from 0 to 1 
+and may be selected by minimizing the SSE (Sum of squared errors) over the period for 
+which yt is known (in the given example, that period is 19 months). For the purpose of this 
+example, the value of α is considered as 0.1.
+
+
+
+======================================================================
+PAGE 34 of 37
+======================================================================
+
+IRC:108-2015
+27
+The single exponential smoothened MADT for Month-3 is calculated as (0.1*861) + (0.9*852) 
+or 853. In the similar manner, the values are calculated for other months and reported in 
+column 4 of Table C.6. The forecast for month 20 is just the single exponential smoothened 
+MADT for Month-19 = 1237.
+	
+c)	
+To compare the two forecasts, the Mean Squared Deviation (MSD) is 
+calculated.
+	
+	
+For the moving average technique,
+	
+MSD Moving Average = [(890-1037)2 + (952-1045)2….. + (1225-1349)2]/16 = 16225
+	
+MSD Single Exponential Smoothening = [(852-958)2 + (853-1037)2….. + (1174-1349)2]/17 = 27739.
+Overall it can be concluded that the three-month moving average appears to give a better one-
+month ahead forecast as it has a lower MSD. Hence, the forecast of 1286 will be considered 
+as the Monthly ADT in terms of commercial vehicle in that toll booth in the twentieth month.
+Table C.6  Example of Moving Average and Single Exponential Smoothening
+Month
+Original 
+MADT
+Moving Average 
+MADT
+Forecast 
+MADT (Moving 
+Average)
+Single Exponential 
+Smoothened MADT
+Forecast MADT 
+(Single Exponential 
+Smoothened)
+Month-1
+852
+Month-2
+861
+852
+Month-3
+958
+890
+853
+852
+Month-4
+1037
+952
+890
+871
+853
+Month-5
+1045
+1013
+952
+966
+871
+Month-6
+1109
+1064
+1013
+1038
+966
+Month-7
+1117
+1090
+1064
+1051
+1038
+Month-8
+1134
+1120
+1090
+1110
+1051
+Month-9
+1236
+1162
+1120
+1119
+1110
+Month-10
+1077
+1149
+1162
+1144
+1119
+Month-11
+868
+1060
+1149
+1220
+1144
+Month-12
+997
+981
+1060
+1056
+1220
+Month-13
+962
+942
+981
+881
+1056
+Month-14
+907
+955
+942
+994
+881
+Month-15
+1098
+989
+955
+957
+994
+Month-16
+1167
+1057
+989
+926
+957
+Month-17
+1232
+1166
+1057
+1105
+926
+Month-18
+1277
+1225
+1166
+1174
+1105
+Month-19
+1349
+1286
+1225
+1237
+1174
+Month-20
+1286
+1237
+C.7 
+Application of ARIMA Model for Forecasting Future Traffic Growth Rate
+Problem Statement: The growth rate of two wheelers in a medium-sized Indian city for the 
+past 34 years (1979-2012) is collected and tabulated in Table C.7A. Predict the future growth 
+rates of two-wheelers in the city for another 15 years (2013-2028) using ARIMA model.
+
+
+
+======================================================================
+PAGE 35 of 37
+======================================================================
+IRC:108-2015
+28
+Table C.7A  Two Wheeler Growth Rates (1979 - 2012)
+Year
+2W Growth 
+Rate (in %)
+Year
+2W Growth 
+Rate (in %)
+Year
+2W Growth 
+Rate (in %)
+Year
+2W Growth 
+Rate (in %)
+Year
+2W Growth 
+Rate (in %)
+Year
+2W Growth 
+Rate (in %)
+1979
+3.65
+1985
+4.36
+1991
+4.65
+1997
+5.85
+2003
+7.38
+2009
+8.16
+1980
+3.73
+1986
+4.34
+1992
+4.81
+1998
+6.06
+2004
+7.34
+2010
+8.38
+1981
+3.93
+1987
+4.31
+1993
+5.02
+1999
+6.14
+2005
+7.65
+2011
+7.92
+1982
+4.02
+1988
+4.38
+1994
+5.27
+2000
+6.48
+2006
+7.77
+2012
+8.07
+1983
+3.86
+1989
+4.39
+1995
+5.53
+2001
+6.79
+2007
+7.96
+ 
+ 
+1984
+4.12
+1990
+4.43
+1996
+5.62
+2002
+7.22
+2008
+8.18
+ 
+ 
+Solution: The model is generally referred to as an ARIMA (p,d,q) model where p, d and q are 
+non-negative integers that refer to the order of the auto regressive, integrated and moving 
+average parts of the model respectively. Here, using ARIMA model, the growth of vehicles for 
+future forecast is provided and step wise procedure is briefly demonstrated.
+Model Identification: To fit an ARIMA model of dataset, it is necessary to find out whether 
+dataset is time series data and also if it is univariate or multivariate. To observe time series 
+trends, the dataset is plotted according to time. Then ACF and PACF parameters are 
+estimated to define the order of series. The ACF plots represent Auto Correlation and PACF 
+plots represent Partial Auto Correlation of data sets against lags of themselves. In this given 
+problem based on ACF and PACF plot of an ARIMA (1, 1, 0) model has been applied on the 
+case dataset for the future prediction which is presented in Fig. C.7.
+Diagnostic Checking of the Model: Ljung-Box test is used for examining the null hypothesis 
+of independence in a given time series. The model statistic shows that the p-value for the 
+Ljung–Box test is 0.822, well above 0.05, indicating “non-significance” and this can be taken 
+as desirable result.
+Prediction of ARIMA–Models: Once a model has been identified and found statistically 
+significant, future values can be estimated using the model. The growth rates of two wheelers 
+are estimated up to 2028 using the specified ARIMA model and the future trend is shown 
+graphically in Fig. C.7. The forecast growth rate along with the observed growth rate is 
+reported in Table C.7B, shows a less steeper but increasing trend of growth rate for two-
+wheelers in the city up to 2028.
+Fig. C.7  Observed Growth Rate and Forecast for Two-Wheelers
+
+
+
+======================================================================
+PAGE 36 of 37
+======================================================================
+
+IRC:108-2015
+29
+Table C.7B  Forecast of Two-Wheeler Growth Rate (in %)
+Year
+2-Wheeler 
+Growth Rate 
+Observed 
+(in %)
+2-Wheeler 
+Growth Rate 
+Forecast with 
+ARIMA (in %)
+Year
+2-Wheeler 
+Growth Rate 
+Observed 
+(in %)
+2-Wheeler 
+Growth Rate 
+Forecast with 
+ARIMA (in %)
+Year
+2-Wheeler 
+Growth Rate 
+Forecast with 
+ARIMA (in %)
+1979
+3.65
+ 
+1996
+5.62
+5.66
+2013
+8.21
+1980
+3.73
+3.78
+1997
+5.85
+5.75
+2014
+8.36
+1981
+3.93
+3.86
+1998
+6.06
+5.98
+2015
+8.5
+1982
+4.02
+4.06
+1999
+6.13
+6.2
+2016
+8.64
+1983
+3.86
+4.15
+2000
+6.48
+6.28
+2017
+8.79
+1984
+4.12
+3.99
+2001
+6.79
+6.62
+2018
+8.93
+1985
+4.36
+4.25
+2002
+7.22
+6.93
+2019
+9.08
+1986
+4.34
+4.49
+2003
+7.38
+7.36
+2020
+9.22
+1987
+4.31
+4.47
+2004
+7.34
+7.52
+2021
+9.37
+1988
+4.38
+4.44
+2005
+7.65
+7.48
+2022
+9.51
+1989
+4.39
+4.51
+2006
+7.77
+7.79
+2023
+9.66
+1990
+4.43
+4.52
+2007
+7.96
+7.91
+2024
+9.81
+1991
+4.65
+4.56
+2008
+8.18
+8.1
+2025
+9.96
+1992
+4.81
+4.78
+2009
+8.16
+8.32
+2026
+10.11
+1993
+5.02
+4.94
+2010
+8.38
+8.3
+2027
+10.26
+1994
+5.27
+5.15
+2011
+7.92
+8.52
+2028
+10.41
+1995
+5.53
+5.4
+2012
+8.07
+8.06
+ 
+ 
+C.8 
+Estimation of Diverted Traffic using Logit Model
+Problem Statement: An existing road connects two cities A and B. The length of existing route 
+is 12 km. A new highway is planned to connect the two cities. The length of the new highway 
+alignment is 18 km. During peak hour, Travel Time (TT) and Travel Vost (TC) along the existing 
+route are 25 minutes and Rs.4 per kilometer respectively. For the new highway facility, TT and 
+TC during peak hour has been estimated as 15 minutes and Rs.3.5 per kilometer respectively. 
+Based on travel behavior studies, a utility function has been developed to estimate the shift of 
+passenger car from the existing route to the proposed highway as U = -0.21* TT - 0.178*TC 
+- 0.464. Alternative specific constant for existing highway is -0.464. Observed peak hour traffic 
+volume of passenger cars along the existing route is 4000. Estimate the shift of passenger 
+cars to the proposed highway during the peak hour.
+Solution: Using the given utility function,
+Utility of the existing route,		
+U1 = -0.21* 25 - 0.178*4*12 – 0.464 = -14.258
+Utility of the proposed route,	
+U2 = -0.21* 15 - 0.178*3.5*18 = - 14.364
+Hence, the percentage shift of passenger car to the proposed route as per bi-nomial logit 
+model
+	
+=	 exp(U2)/{exp(U1) + exp(U2)}*100 = 47.35%
+Therefore, the estimated shift of passenger car to the proposed highway during peak hour
+	
+=	 4000*47.35% = 1894 cars
+
+
+
+======================================================================
+PAGE 37 of 37
+======================================================================
+IRC:108-2015
+30
+C.9 
+Estimation of Diverted Traffic using Diversion Curves
+Problem Statement: A new Expressway is proposed to be developed which will act as a 
+competing route to an already existing National Highway. Classified volume count on the 
+existing National Highway is 1500 cars/hour, 100 buses/hour and 400 trucks/hour. Use the 
+diversion curves provided in Table C.9 to estimate vehicle category wise diverted traffic to 
+the newly developed Expressway. The Travel Cost Ratio (Expressway : National Highway) 
+for cars, buses and trucks have been estimated as 0.816, 0.913 and 0.776 respectively.
+Table C.9  Diversion Curve Equations
+Item
+Cost Ratio Interval
+Equations
+Cars
+< 0.634 
+% Div = 98.750 - (CR/0.634)*8.125
+0.634 < = CR < = 1.465 
+% Div = 90.625 - ((CR-0.634)/0.831)*84.375
+1.465 < = CR < = 2.00
+% Div = 06.250 - (CR-1.465)/0.535)*5.25
+Buses & Trucks
+< = 0.750 
+% Div = 100-(CR/0.75)*0.5
+0.750 < = CR < = 1.250
+% Div = 95 - ((CR-0.75)/0.5)*90
+1.250 < = CR < = 2.00
+% Div = ((2-CR)/0.75)*5
+Source: Project Report on Indian National Expressway Network, MORTH (2009)
+Solution: The Percentage Diversion of Cars, Buses and Trucks are as follows:
+Cars	
+(CR = 0.816)	
+% Div	= 90.625-((0.816-0.634)/0.831)*84.375	 = 72.15%
+Buses	
+(CR = 0.913)	
+% Div	= 95-((CR-0.75)/0.5)*90	
+	
+	
+= 65.66%
+Trucks	
+(CR = 0.776)	
+% Div	= 95-((CR-0.75)/0.5)*90	
+	
+	
+= 90.32%
+Therefore, the mode-wise diverted traffic to the newly developed Expressway is as follows:
+Cars:	
+72.15% * 1500	 	
+= 1082 Cars/hour
+Buses:	
+65.66% * 100	
+	
+= 66 Buses/hour
+Trucks:	
+90.32% * 400	
+	
+= 361 Trucks/hour
+____________
+
+
