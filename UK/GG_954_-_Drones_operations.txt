@@ -1,0 +1,1878 @@
+======================================================================
+PAGE 1 of 55
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 954
+Drones operations
+(formerly CHE 471/20)
+Version 1.0.1
+Summary
+This document details requirements that govern the use of Unmanned Aerial Systems,
+commonly referred to as 'drones', for or on behalf of the Overseeing Organisation.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 2 of 55
+======================================================================
+GG 954 Version 1.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Organisation and roles
+9
+Definition of roles and responsibilities
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Project roles
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Activity Manager . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Operational roles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+UAS Operator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Remote pilot
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Unmanned aircraft observer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Safety governance roles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Health and safety team: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Statutory bodies
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Civil Aviation Authority (CAA) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Air Accidents Investigation Branch (AAIB) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Managing safety risk
+11
+4. Permissions and restrictions
+12
+Statutory
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Remote pilots
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Information to be supplied . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Working on construction sites . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Operating locations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Third-party agreements and access
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Lone working . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+5. UAS equipment
+14
+Selecting equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+6. UAS incidents
+15
+Incident reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Operating restrictions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+7. Privacy
+16
+8. Normative references
+17
+9. Informative references
+18
+Appendix A. CAA operating requirements
+19
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 3 of 55
+======================================================================
+GG 954 Version 1.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954
+1.0.1
+September 2023
+Core document,
+England NAA
+Incremental change to
+notes and editorial
+updates
+To resolve a publication error to version 1.0.0 where only part of the England National Application Annex was
+published. Version 1.0.1 shows the correct and approved clauses in the England NAA that were missing from
+version 1.0.0. The image for Figure E/4.2 was missing as were clauses E/4.3.1 through to E/4.8 NOTE and
+sections E/5, E/6, E/7, E/8 and E/9 respectively.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954
+1.0.0
+February 2023
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Change to policy, major
+revision, new document
+development
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 4 of 55
+======================================================================
+GG 954 Version 1.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+Legislation and guidance applicable to drone platform operation and management are still rapidly
+evolving. While every effort has been made to ensure that this document is correct, users are reminded
+to always check that they are complying with the most recent legislation and working to the latest
+guidance.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 5 of 55
+======================================================================
+GG 954 Version 1.0.1
+Introduction
+Introduction
+Background
+This document details requirements that govern the use of unmanned aerial systems, commonly
+referred to as drones, for / on behalf of the Overseeing Organisation.
+The Overseeing Organisations recognise the benefits that using drone platforms can offer, allowing
+work to be undertaken in safer, smarter, and more efficient ways. With drones being more accessible
+and widely used throughout the highways (and related) industries, it is critical to ensure their use is safe
+for everyone.
+Uncontrolled drones have the potential to damage infrastructure assets, distract road users, and disrupt
+other safety-critical airborne and ground-based activities. Whilst all risks associated with their use
+cannot be eliminated, these should be recognised, assessed, and mitigations and protections planned
+and implemented.
+Accordingly, this document contains requirements that apply to the use of drones, over and above
+those defined by the regulator, the Civil Aviation Authority.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 4.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 6 of 55
+======================================================================
+GG 954 Version 1.0.1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+AAIB
+Air Accidents Investigation Branch
+ANO
+Air Navigation Order, a legal document established as a United Kingdom (UK)
+Statutory Instrument (SI) that is made for the purposes of regulating air
+navigation within the UK. UKSI 2016/765 [Ref 1.N]
+BVLOS
+Beyond visual line of sight
+CAA
+Civil Aviation Authority; the controlling authority for the UK
+CDM
+Construction (Design & Management) Regulations 2015 UKSI 2015/51 (CDM
+Regs) [Ref 6.N]
+ECCAIRS
+European Co-ordination Centre for Accident and Incident Reporting System
+EVLOS
+Extended visual line of sight
+FRZ
+Flight restriction zone, a protected aerodrome, or within any Restricted,
+Prohibited or Danger Area as defined by the controlling authority
+GDPR
+General Data Protection Regulation 2016/679/EU GDPR [Ref 2.N]
+GVC
+General Visual Line of Sight Certificate
+MOR
+Mandatory Occurrence Report
+MoU
+Memorandum of understanding
+NQE
+CAA National Qualified Entity
+PDRA
+Pre-determined risk assessment
+PfCO
+Permission for Commercial Operation
+SCRG
+Safety Control Review Group
+SRA
+Safety risk assessment
+UA
+Unmanned aircraft operating or designed to operate autonomously or to be
+piloted remotely without a pilot on board. (See Terms and definitions "Aircraft")
+UAS
+Unmanned aerial system: an unmanned aircraft and the equipment to control it
+remotely. (See Terms and definitions "Drone")
+UKAB
+UK Airprox Board
+VLOS
+Visual line of sight
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 7 of 55
+======================================================================
+GG 954 Version 1.0.1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Airprox
+A situation in which, in the opinion of a pilot or air traffic services
+personnel, the distance between aircraft as well as their relative
+positions and speed have been such that the safety of the aircraft
+involved may have been compromised.
+Aircraft
+As per CAA's definition; any machine that can derive support in the
+atmosphere from the reactions of the air other than reactions of the
+air against the earth's surface. Therefore, excludes paper aeroplane,
+hand-launched gliders, frisbees, darts, other thrown toys.
+Beyond visual line of site
+Those activities where direct, unaided, visual observation of the
+drone is not maintained by the Remote Pilot and/or the Unmanned
+Aircraft Observer(s)
+CAP 722
+Unmanned Aircraft System Operations in UK Airspace – Guidance
+and Policy, CAA CAP 722 [Ref 8.N]
+Drone
+Common term used for a UAS
+Extended visual line of sight
+Those activities where direct unaided visual observation is
+maintained by the remote pilot or the unmanned aircraft observer at
+all times, where operations do not exceed 1500 m from the the
+remote pilot or 500 m from an unmanned aircraft observer.
+Flight
+Drone flight as defined within the scope of CAA oversight is: 'the time
+between the aircraft is ready to move with the purpose of flight until
+such time it comes to rest at the end of the flight and the primary
+propulsion system is shut down.'
+Operational Authorisation
+The operational authorisation document sets out the privileges and
+limits of the operation. Given the name of the category, each
+operational authorisation is specific to the named UAS operator and
+is dependent on the risk assessment and evidence supplied to the
+CAA by that operator
+Operations manual
+Document that details how the drone flight will be conducted,
+including the standard operating procedure
+Safety baseline
+Level of safety against which the safety objectives are set and
+measured
+Segregated airspace
+A block of airspace that is reserved for specific users, which may
+include unmanned aircraft
+UAS Operator
+Any person, or an organisation, who owns the drone(s) or rents the
+drone.
+Unsegregated airspace
+Airspace not classed as segregated
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 8 of 55
+======================================================================
+GG 954 Version 1.0.1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Visual line of sight
+Those activities where direct unaided visual observation is
+maintained by the remote pilot at all times, where operations do not
+exceed 500 m from the remote pilot.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 9 of 55
+======================================================================
+GG 954 Version 1.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be applied to the planning and undertaking of all drone activity for / on behalf of the
+Overseeing Organisation or using Overseeing Organisation property for take off or landing.
+NOTE
+A 'drone activity' is any operation that employs a UAS as defined by CAA ANO 2016 UKSI 2016/765
+[Ref 1.N]Schedule 1.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the use of UAS on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 4.N].
+1.2.1
+Drone operations are frequently associated with a broad range of highways-related activities, including
+construction, operation/maintenance, surveying, incident management, and traffic management.
+Accordingly, the requirements, controls, and processes that apply to those specific activities should be
+acknowledged by users of this document.
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 4.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 10 of 55
+======================================================================
+GG 954 Version 1.0.1
+2. Organisation and roles
+2.
+Organisation and roles
+Definition of roles and responsibilities
+2.1
+Roles and responsibilities shall be agreed for each project, including identification of those responsible
+and accountable for each activity corresponding to the requirements within this document.
+2.1.1
+Where present, this should include identification of those responsible and accountable for any
+additional requirements that apply to the Overseeing Organisation.
+Project roles
+Activity Manager
+2.2
+For each implementation of this document, an Activity Manager shall be appointed, acting as the
+representative of the Overseeing Organisation.
+2.3
+The Activity Manager shall be responsible for the coordination of the drone activity, including:
+1)
+the application of this standard in the planning, management, and coordinating of any drone
+activity;
+2)
+collating the information required by this document, so as to evidence safe and legal drone
+operations; and,
+3)
+facilitating the Overseeing Organisation's risk management processes.
+Operational roles
+UAS Operator
+2.4
+For each drone activity, the UAS Operator shall be identified.
+2.5
+The UAS Operator shall be the individual/organisation responsible for the operation (or intended
+operation) of one or more UAS.
+2.6
+The UAS Operator shall provide evidence of the necessary certification, operational approval, and
+experience/competency to the Activity Manager - as per the requirements within this document
+(Sections 3 & 4).
+NOTE
+Regarding UAS Operator role; the Activity Manager is responsible for checking that the certification and
+experience of the individual or company is current and appropriate to the activity.
+Remote pilot
+2.7
+For each drone activity, the UAS Operator shall identify one or more remote pilots.
+2.8
+Remote pilots shall be named within the UAS Operator's operations manual.
+2.9
+Remote pilots shall be responsible for safely conducting the flight of an unmanned aircraft by operating
+its flight controls, either manually or, when the aircraft flies automatically, by monitoring its course and
+remaining able to intervene and change the course at any time.
+2.10
+Remote pilots shall demonstrate that they are qualified for the drone activity, in accordance with CAA
+regulations through CAP 722 [Ref 8.N].
+Unmanned aircraft observer
+2.11
+For each remote pilot undertaking drone operation activity, one or more unmanned aircraft observer(s)
+shall be identified and assigned to them.
+2.11.1
+Additional unmanned aircraft observers should be used, as made necessary by the context of the
+drone operation and layout of the operational area, such as where distance and occlusion require more
+than one observer to maintain visibility of the drone.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 11 of 55
+======================================================================
+GG 954 Version 1.0.1
+2. Organisation and roles
+2.12
+The unmanned aircraft observer shall be responsible for assisting the remote pilot in safely conducting
+all drone activities including:
+1)
+identification of hazards and issues related to the UAS; and,
+2)
+identification of hazards of issues that may affect the remote pilot, while they are occupied
+piloting the UAS.
+2.13
+The unmanned aircraft observer shall maintain unaided visual observation of the UAS that is in the
+control of their respective remote pilot.
+2.14
+The unmanned aircraft observer(s) shall be positioned according to the type of drone operation as
+follows:
+1)
+for VLOS operations, they will be positioned in close proximity to the remote pilot, within verbal
+communication range;
+2)
+for EVLOS operations, in addition to an unmanned aircraft observer positioned in proximity to the
+remote pilot, additional unmanned aircraft observers can be positioned according to the activity
+needs, but will maintain communication with the remote pilot and (where used) other unmanned
+aircraft observers using suitable remote communications (such as radio).
+Safety governance roles
+Health and safety team:
+2.15
+The Overseeing Organisation's group accountable for incident investigations shall be informed and
+engaged in the event of a near miss or incident (in accordance with GG 128 [Ref 5.N]).
+Statutory bodies
+Civil Aviation Authority (CAA)
+2.16
+The CAA acts as the UK's aviation regulator that controls permissions, exemptions, and authorisations
+for operators to use drones commercially; accordingly, all CAA regulations must be adhered to during
+the undertaking of drone operations.
+2.16.1
+The CAA provides a body of guidance and advice supporting the safe use of drones, which should be
+referred to by all parties undertaking drone operations.
+NOTE
+The CAA has, by agreement, the role of the Health and Safety Executive in relation to drone flights,
+where a 'flight' is: 'the time between the aircraft is ready to move with the purpose of flight until such
+time it comes to rest at the end of the flight and the primary propulsion system is shut down.'
+Air Accidents Investigation Branch (AAIB)
+2.17
+The AAIB manages and investigates civil aircraft accidents and serious incidents within the UK, and
+shall be notified (as per Section 6) in the event of a drone-related incident.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 12 of 55
+======================================================================
+GG 954 Version 1.0.1
+3. Managing safety risk
+3.
+Managing safety risk
+3.1
+For each drone activity planned and undertaken, the Overseeing Organisation's safety risk processes
+shall be followed.
+3.2
+For each drone activity, an SRA shall be undertaken, in accordance with the Overseeing Organisation's
+safety risk processes.
+3.3
+The SRA shall evaluate risks specific to the drone activity being undertaken.
+3.3.1
+The SRA should include, but is not limited to:
+1)
+identifications of risks;
+2)
+identification of affected populations; and,
+3)
+assessment of baseline safety risk (i.e. undertaking the activity by conventional means) versus
+drone activity safety risk.
+3.4
+No drone activity shall be undertaken without a complete and accepted SRA, in accordance with the
+Overseeing Organisation's safety risk processes.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 13 of 55
+======================================================================
+GG 954 Version 1.0.1
+4. Permissions and restrictions
+4.
+Permissions and restrictions
+Statutory
+4.1
+Planning and undertaking operation of drones for / on behalf of the Overseeing Organisation must
+comply with the CAA legislation regarding regulatory compliance and Operational Authorisation in CAP
+1789A [Ref 7.N].
+NOTE 1
+This refers to the UAS Implementing Regulation, which acts as a summary of the current and
+applicable regulations across a suite of CAA documents.
+NOTE 2
+The CAA routinely publish further updates to requirements, guidance, and advice, on what is expected
+in terms of UAS Operator, remote pilot, and unmanned aircraft observer competency and associated
+permissions.
+4.2
+The UAS Operator shall provide evidence that they hold an Operational Authorisation from the CAA to
+undertake that drone activity.
+NOTE
+Operational Authorisation will vary and can include different categories of activity and classes of drone.
+Remote pilots
+4.3
+All remote pilots shall provide evidence that they are qualified to carry out the drone operations, in
+accordance with the CAA authorisation.
+4.4
+All remote pilots shall provide evidence that they either:
+1)
+possess an NQE "full recommendation" that has been obtained prior to 31 December 2020, and
+a valid "Flyer ID" that has been obtained on/after 15 December 2020; or,
+2)
+comply with one of the previously accepted 'alternative means of compliance categories (detailed
+within CAP 722 [Ref 8.N]), and possess a valid "Flyer ID" that has been obtained on or after 15
+December 2022, and can demonstrate currency within the past two years.
+NOTE
+From 1 January 2024 onward, the required CAA certification for remote pilots will update to the GVC,
+and the NQE/Alternative Means of Compliance will no longer will be valid.
+Information to be supplied
+4.5
+For all operations within the CAA 'Open' or 'Specific' categories, the UAS Operator shall provide
+evidence of CAA Operational Authorisation, including:
+1)
+UAS Operational Authorisation – Specific Category – including Operator ID;
+2)
+operations manual as in CAP 722A [Ref 9.N] – only the 'Concept of operations' element;
+3)
+proof of UK National Qualified Remote Pilot competency (Flyer ID / PfCO or GVC);
+4)
+proof of insurance that meets the requirements of CAP2041A00 [Ref 3.N]; and,
+5)
+supporting information to the SRA specific to the drone activity being undertaken.
+NOTE
+Even though a specific category operational authorisation is not required by the CAA for operating
+certain categories and classes of drone, the Overseeing Organisation's requirement is in addition to
+CAA requirements.
+Working on construction sites
+4.6
+The drone operation health and safety documentation shall comply with the construction site health and
+safety requirements.
+4.7
+The drone operations plan shall be integrated and compatible with the construction programme of
+works.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 14 of 55
+======================================================================
+GG 954 Version 1.0.1
+4. Permissions and restrictions
+Operating locations
+4.8
+Where dictated by the operating location and/or class of drone, drone activities must attain the relevant
+permission/exemption from the CAA.
+NOTE
+Examples of locations that require permission/exemption include airspace that is unsegregated, as per
+CAA regulation.
+4.9
+Where interacting with any FRZs imposed by the CAA, drone activities must attain the relevant
+permission/exemption from the CAA.
+NOTE
+Examples of FRZs include aerospace, airports, airfields, aerodromes, space sites and military facilities.
+4.10
+The UAS Operator shall identify any FRZs imposed by the CAA.
+4.11
+Evidence of all relevant permissions/exemptions shall be provided to the Activity Manager.
+Third-party agreements and access
+4.12
+Drone activities shall adhere to agreements of exclusions between the Overseeing Organisation and
+third parties, (for example exclusions over the land corridors of other infrastructure owners).
+NOTE
+Any third-party agreements or MoUs regarding operational boundary restrictions will be provided by the
+Activity Manager.
+4.13
+Access permissions from a third party or private landowner/business shall be obtained before the drone
+activity commences.
+NOTE
+The Activity Manager can liaise with the third party and private landowner/business to facilitate this
+agreement.
+4.14
+All access agreements from the third party/landowner/business giving permission shall be submitted
+before the drone activity commences.
+Lone working
+4.15
+Drone activities shall not be conducted so as to create lone working individuals. (See HSE INDG73
+[Ref 2.I]for advice).
+4.16
+Where an unmanned aircraft observer is positioned in physical proximity to the remote pilot, this pairing
+shall fulfil the requirement to prevent lone working.
+4.17
+Where remote pilot(s) and unmanned aircraft observer(s) are not positioned in physical proximity,
+additional individuals shall accompany them to prevent lone working.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 15 of 55
+======================================================================
+GG 954 Version 1.0.1
+5. UAS equipment
+5.
+UAS equipment
+Selecting equipment
+5.1
+To minimise potential disruption and safety risk, drone equipment shall be selected according to the
+following principles:
+1)
+reliability, additional safety features and redundancy are sufficient to ensure safe operation; and,
+2)
+size and weight to be minimised to limit distraction to others and potential impact should a
+collision occur.
+5.2
+Drones must display the UAS Operator registration number as required by the CAA.
+5.3
+If fitted, the ADS-B transponder shall be switched on for all drone activities.
+5.4
+Drone equipment for each use-case must comply with the legislative requirements defined by the CAA,
+specifically corresponding the drone equipment (weight, size, payload, flight type, etc.) to the
+limitations of the relevant CAA operational (sub)category.
+NOTE 1
+Selecting suitable equipment is a factor for the SRA, and ensuring that equipment is appropriate for the
+use-case will facilitate both health and safety requirements and ensure that the drone operation
+delivers its intended outcomes.
+NOTE 2
+Drones manufactured prior to December 2020 are classed as legacy drones by the CAA. Legacy
+drones can continue to operate normally until December 2023. After this date new CAA guidance will
+come into place.
+NOTE 3
+Prior to December 2022 and subject to weight and/or other variables, a drone activity can fall into the
+CAA operational subcategory A1, A2, A3 or Specific, and this will dictate the specific cases legacy
+drones operate in without an operational authorisation. From the 1st January 2023 all new drones have
+to meet a set of standards that dictate the open categories they can be flown in. Drones classed as C0
+or C1 can be flown in the A1 sub-category, C2 can be flown in the A2 sub-category, whilst C3 and C4
+can only fly in the A3 sub-category.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 16 of 55
+======================================================================
+GG 954 Version 1.0.1
+6. UAS incidents
+6.
+UAS incidents
+Incident reporting
+6.1
+All accidents and serious incidents shall be reported in accordance with GG 128 [Ref 5.N].
+6.2
+All accidents and serious incidents shall be immediately reported to:
+1)
+the Overseeing Organisation, via the Activity Manager;
+2)
+local police; and,
+3)
+Air Accidents Investigation Branch (call +44 1252 512299, 24-hour line).
+6.3
+Accidents and serious incidents must also be reported in accordance with CAA regulations, through the
+ECCAIRS system (available at www.aviationreporting.eu).
+6.4
+'Near miss' situations between aircraft where there was a risk to life from a potential collision (an
+'Airprox' event) shall be reported to UK Airprox Board (using the processes detailed at:
+http://www.airproxboard.org.uk.).
+NOTE
+CAP 382 [Ref 1.I] provides further guidance for incident reporting to the CAA.
+Operating restrictions
+6.5
+If any near miss or incident occurs during an operation, all flights related to the operation shall be
+suspended pending investigation by the Overseeing Organisation and any involved external body (as
+above).
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 17 of 55
+======================================================================
+GG 954 Version 1.0.1
+7. Privacy
+7.
+Privacy
+7.1
+Drone activities shall be planned and conducted in a manner ensuring privacy for third parties, in
+accordance with current legislation and CAA guidelines.
+7.1.1
+Unintended and unnecessary data collection that may affect the privacy of third parties should be
+avoided, particularly during the launch and landing elements of a drone flight.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 18 of 55
+======================================================================
+GG 954 Version 1.0.1
+8. Normative references
+8.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+The National Archives. UKSI 2016/765, 'Civil Aviation - The Air Navigation Order
+2016'
+Ref 2.N
+Europa.eu. 2016/679/EU GDPR, 'General Data Protection Regulation (EU) 2016'
+Ref 3.N
+CAA. CAP2041A00, 'Insurance Regulation (2004/785/EU)'
+Ref 4.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 5.N
+National Highways. GG 128, 'Requirements for reporting incidents, events and
+undesirable circumstances: health, safety, wellbeing, structural and environmental'
+Ref 6.N
+The National Archives. UKSI 2015/51 (CDM Regs), 'The Construction (Design and
+Management) Regulations 2015'
+Ref 7.N
+CAA. CAP 1789A, 'UAS Implementing Regulation (Regulation (EU) 2019/947 as
+retained (and amended in UK domestic law) under the European Union (Withdrawal)
+Act 2018)'
+Ref 8.N
+CAA. CAA. CAP 722, 'Unmanned Aircraft System Operations in UK Airspace -
+Guidance'
+Ref 9.N
+CAA. CAP 722A, 'Unmanned Aircraft System Operations in UK Airspace – Operating
+Safety Cases'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 19 of 55
+======================================================================
+GG 954 Version 1.0.1
+9. Informative references
+9.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Civil Aviation Authority. www.caa.co.uk/Our-work. CAP 382, 'Occurrence Reporting
+Scheme'
+Ref 2.I
+HSE. HSE INDG73, 'Working alone, health and safety guidance on the risks of lone
+working'
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 20 of 55
+======================================================================
+GG 954 Version 1.0.1
+Appendix A. CAA operating requirements
+Appendix A. CAA operating requirements
+Figure A.1 CAA Open A1 Regulations (approved drone less than 250 g)
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 21 of 55
+======================================================================
+GG 954 Version 1.0.1
+Appendix A. CAA operating requirements
+Figure A.2 CAA Open A2 Regulations (approved drone less than 2 kg)
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 22 of 55
+======================================================================
+GG 954 Version 1.0.1
+Appendix A. CAA operating requirements
+Figure A.3 CAA Open A3 Regulations (approved drone les than 25 kg)
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 23 of 55
+======================================================================
+GG 954 Version 1.0.1
+Appendix A. CAA operating requirements
+Figure A.4 CAA Specifc Category Regulations
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 24 of 55
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 25 of 55
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 954 - ENAA
+England National Application Annex for
+Drones operations
+(formerly CHE 471/20)
+Version 1.0.1
+Summary
+This National Application Annex gives National Highways-specific supplementary requirements
+for governing the use of Unmanned Aerial Systems, commonly referred to as drones, for or on
+behalf of the company.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 26 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+E/1. Scope
+6
+E/2. Organisation and roles
+7
+Safety governance roles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Activity Manager . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Drone Governance Hub (DGH): . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Drone Safety Control Review Group (SCRG): . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+National Safety Control Review Group (NSCRG): . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Safety Risk Requirements Team (SRRT): . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+E/3. Managing safety risk
+8
+GG 104 safety risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Submitting SRA for review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Type Category A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Type Category B . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Type Category C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+SRA feedback
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Accepted activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Rejected activities
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Pre-activity information
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Post-activity information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+E/4. Permissions and restrictions
+11
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Operating locations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Third-party agreements & access . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Third-party operation in the vicinity of the network
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Line of sight . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+E/5. UAS equipment
+13
+Restricted equipment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+E/6. UAS incidents
+14
+Incident reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Operating restrictions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+E/7. Privacy
+15
+Data retention
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+E/8. Normative references
+16
+E/9. Informative references
+17
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 27 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954 -
+ENAA
+1.0.1
+September 2023
+Core document,
+England NAA
+Incremental change to
+notes and editorial
+updates
+To resolve a publication error to version 1.0.0 where only part of the England National Application Annex was
+published. Version 1.0.1 shows the correct and approved clauses in the England NAA that were missing from
+version 1.0.0. The image for Figure E/4.2 was missing as were clauses E/4.3.1 through to E/4.8 NOTE and
+sections E/5, E/6, E/7, E/8 and E/9 respectively.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954 -
+ENAA
+1.0.0
+February 2023
+England NAA
+Change to policy, major
+revision, new document
+development
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 28 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways
+This document supersedes CHE 471/20, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 29 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+Introduction
+Introduction
+Background
+This National Application Annex gives National Highways-specific supplementary requirements for
+governing the use of unmanned aerial systems, commonly referred to as drones, for or on behalf of the
+company.
+This includes additional requirements that support the implementation of National Highways
+governance and safety processes, and control or restrict the use of certain drone equipment,
+techniques, and activities to manage the risk these represent.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+The assumptions made in GG 104 [Ref 4.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 30 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+CHE
+Chief Highway Engineer
+DGH
+Drone Governance Hub
+HS2
+High Speed 2 Project
+NSCRG
+National Safety Control Review Group
+SCRG
+Safety Control Review Group
+TfL
+Transport for London
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 31 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/1. Scope
+E/1.
+Scope
+E/1.1
+This document shall be applied to the planning and undertaking of all drone activity for or on behalf of
+National Highways or using National Highways-owned property for take-off and landing.
+E/1.2
+This document shall apply to use of unmanned aerial systems on or in relation to the National
+Highways motorways and all-purpose trunk road network commissioned directly by the National
+Highways, or by those that work on behalf of National Highways.
+E/1.3
+National Highways requires that any and all drone activities carried out on or in relation to the National
+Highways' motorways and all-purpose trunk roads network shall be managed so as to minimise safety
+and operational risks.
+E/1.4
+This document details the specific requirements that shall be applied to drone activities, over and
+above National Highways overarching risk management process, as set out by GG 104 [Ref 4.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 32 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/2. Organisation and roles
+E/2.
+Organisation and roles
+E/2.1
+The following National Highways-specific roles and responsibilities shall apply to the implementation of
+this document.
+Safety governance roles
+Activity Manager
+E/2.2
+In addition to their responsibilities defined in the core document GG 954 [Ref 1.N], the Activity Manager
+shall be the principal liaison with the DGH / SCRG / NSCRG (as per Section E/3), to facilitate the
+assessment and acceptance of drone activities.
+Drone Governance Hub (DGH):
+E/2.3
+The DGH acts as the central coordinating authority for drone activities, and shall be consulted on the
+application of this document by the Activity Manager.
+NOTE
+The DGH has the remit to promote and facilitate the safe and efficient operation of drones on the
+network, disseminate current and emerging best practice, legislation, risks, and opportunities across
+regions, work-streams and technical specialists to realise safety, user, economic and quality benefits.
+E/2.4
+The DGH shall facilitate drone-related parts of National Highways safety risk control process, as
+detailed within this document.
+Drone Safety Control Review Group (SCRG):
+E/2.5
+The Drone SCRG acts in accordance with the safety requirements contained within this document and
+within GG 104 [Ref 4.N] NSCRG & SCRG [Ref 1.I], and shall be consulted accordingly.
+NOTE
+The Drone SCRG exists as an activity-specific committee, the remit of which includes reviewing and
+advising on safety issues; the Drone SCRG consists of members from across National Highways and
+subject matter experts when and where applicable (note that there is generally some overlap in
+membership between the DGH and the Drone SCRG).
+National Safety Control Review Group (NSCRG):
+E/2.6
+The NSCRG acts in accordance with the safety requirements contained within this document and within
+GG 104 [Ref 4.N], and shall be consulted accordingly.
+NOTE
+Similar to the Drone SCRG, the NSCRG exists as a standing committee whose remit includes
+reviewing and advising on complex or unique safety issues ( NSCRG & SCRG [Ref 1.I]).
+Safety Risk Requirements Team (SRRT):
+E/2.7
+The SRRT is responsible for defining the requirements for Safety Risk Assessment (see GG 104 [Ref
+4.N]), and shall contribute to the safety review process, as per the requirements contained within this
+document.
+E/2.8
+The SRRT shall act in a supporting capacity to drone operations; agreeing upon and accepting each
+business area's governance arrangements as suitable and sufficient.
+NOTE
+The SRRT also provide safety risk management assurance, support, training, and advice to the
+business.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 33 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/3. Managing safety risk
+E/3.
+Managing safety risk
+GG 104 safety risk assessment
+E/3.1
+For each drone activity, a SRA shall first be undertaken, in accordance with GG 104 [Ref 4.N].
+E/3.1.1
+Competency assessment for those undertaking the SRA (and any associated assistance required)
+should be sought through the SRRT.
+E/3.2
+The SRA shall be completed to determine:
+1)
+categorisation of activity type;
+2)
+identification of affected populations;
+3)
+scope of the safety risk assessment;
+4)
+safety baseline and safety objective; and,
+5)
+site-specific safety risk assessment for the baseline, drone, and other options including:
+a)
+hazard identification;
+b)
+hazard analysis;
+c)
+analysis of safety risk; and,
+d)
+safety risk mitigations.
+E/3.3
+The DGH shall act as the primary point of contact regarding the completion and submission of drone
+activity SRAs.
+E/3.4
+Activity Managers shall collate and submit the SRA to the DGH.
+E/3.5
+The DGH shall maintain a repository of information on previous drone activities, to be used as a
+resource to assist in the selection of the GG 104 [Ref 4.N] categorisation type of an activity in relation to
+the extent of prior experience and measure of technical and/or technological novelty and/or innovation
+the activity involves.
+E/3.5.1
+Activity Managers should access the DGH repository of information on previous drone activities in
+support of their completion of the GG 104 [Ref 4.N] assessment for drone activity.
+NOTE 1
+A number of preliminary SRA's are available from the DGH, to inform a variety of drone activities and
+classes, to assist completion of the required GG 104 [Ref 4.N] risk assessment. These can be used as
+reference materials, but will require adapting to the drone operation as these do not evaluate the
+specific operational environment or activities to be undertaken.
+NOTE 2
+An exemplar GG 104 [Ref 4.N] SRA and example template is available from the DGH via an internal
+portal page to assist the Activity Manager in the compilation of their site-specific SRA.
+NOTE 3
+National Highways Activity Managers have access to an internal portal page providing pertinent
+reference information for drone activities.
+E/3.5.2
+Activity Managers should direct enquiries through the DGH (drones@nationalhighways.co.uk).
+E/3.6
+The Activity Manager shall maintain and update the SRA throughout the activity lifespan.
+Submitting SRA for review
+E/3.7
+The Activity Manager shall engage the following groups in an escalating sequence, according to the
+SRA type category:
+1)
+Drone Governance Hub;
+2)
+Drone Safety Control Review Group; and,
+3)
+National Safety Control Review Group
+E/3.8
+When informing the DGH about intent to undertake a drone activity, the Activity Manager shall provide
+the following information:
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 34 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/3. Managing safety risk
+1)
+a GG 104 [Ref 4.N] SRA;
+2)
+what aim or outcome the activity is serving; such as communications media, topographic
+mapping, and inspection;
+3)
+activity line of sight type (e.g. VLOS / EVLOS);
+4)
+when and at what frequency the activity is planned to be undertaken;
+5)
+where the activity will be undertaken;
+6)
+where applicable, evidence of permission from relevant landowners (that is if not taking off/landing
+on National Highways-owned property), or evidence of planning to acquire permissions;
+7)
+which UAS operator will be undertaking the activity;
+8)
+evidence that the UAS operator holds the required certification and insurances; and,
+9)
+where applicable, evidence of any permissions/exemptions related to FRZs.
+E/3.9
+The Activity Manager shall submit the requested materials to the DGH via their contact inbox
+(drones@nationalhighways.co.uk).
+Type Category A
+E/3.10
+For Type Category A activities, the Activity Manager shall liaise with the DGH; which will inform the
+Activity Manager on the method and process for activities to be logged, and entered for assessment.
+Type Category B
+E/3.11
+For Type Category B activities, the DGH shall refer to the Drone SCRG to consult, review, and accept
+or reject the activity.
+Type Category C
+E/3.12
+For Type Category C activities, the DGH shall refer to the Drone SCRG to consult, review, and accept
+or reject the activity.
+E/3.13
+Where the Drone SCRG requires further guidance to make a decision on Type Category C activities,
+they shall further refer to the NSCRG to consult, review, and accept or reject the activity.
+E/3.14
+Where the NSCRG requires further guidance to make a decision on Type Category C activities, they
+shall further refer to the Chief Highway Engineer to consult, review, and accept or reject the activity.
+SRA feedback
+Accepted activities
+E/3.15
+For all accepted activities, the accepting group shall provide information and feedback (via the DGH) to
+the Activity Manager; informing them that their activity can proceed.
+E/3.16
+No drone activity shall proceed without acceptance of the safety risk assessment by the accepting
+group.
+Rejected activities
+E/3.17
+For all rejected activities, the rejecting group shall provide information and feedback (via the DGH) to
+the Activity Manager.
+E/3.17.1
+This feedback should support the Activity Manager / UAS operator, allowing them to update their
+submission to correct minor safety issues, or alternatively prompt them to rethink their approach where
+major safety issues are found.
+E/3.18
+Feedback regarding SRA rejection shall be implemented before submission of an updated SRA and a
+second review for acceptance.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 35 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/3. Managing safety risk
+Pre-activity information
+E/3.19
+Immediately before accepted drone activities are undertaken, the Activity Manager shall inform the
+DGH, confirming the date and time of the activity.
+NOTE
+The SRA includes information on the dates and frequencies of flight (clause 3.8 item #4), however this
+typically provides a range to work within. Due to the nature of drone operations, some flexibility is
+required (such as to work around poor visibility or high winds).
+Post-activity information
+E/3.20
+Once a drone activity has been undertaken, the Activity Manager shall report back to the DGH,
+informing them of the completion and providing feedback documentation as requested.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 36 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/4. Permissions and restrictions
+E/4.
+Permissions and restrictions
+General
+E/4.1
+Drone operations in the 'certified' category (as defined by CAP 722 [Ref 3.I]) shall not be undertaken for
+nor on behalf of National Highways.
+Operating locations
+E/4.2
+Regardless of drone class, and in addition to an approved GG 104 [Ref 4.N]SRA , an approved CAA
+Operational Safety Case shall be submitted to the DGH and/or escalated for acceptance by the Drone
+SCRG/NCSRG, where the drone activity requires any of the following:
+1)
+operation within 50 m of involved persons (that is, those under the control of the Activity
+Manager) or uninvolved persons;
+2)
+operation within 50 m of National Highways property; or,
+3)
+operation above 120 m (from ground level).
+Figure E/4.2 Operating locations and associated permissions required
+NOTE 1
+Regarding list items 1 & 2 this distance can be reduced to 30 m during take-off and landing.
+NOTE 2
+Even though an Operational Safety Case is not required by the CAA for operating certain categories
+and classes of drone, the National Highways requirement E/4.2 is in addition to CAA requirements.
+Third-party agreements & access
+E/4.3
+The Activity Manager shall consult the DGH for information on existing third-party agreements and for
+assistance arranging new third-party agreements.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 37 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/4. Permissions and restrictions
+E/4.3.1
+Examples of third parties who may be consulted include HS2, TfL and Network Rail.
+E/4.4
+Where access permissions are agreed with third parties, the Activity Manager shall inform the DGH and
+submit a record of the agreement.
+Third-party operation in the vicinity of the network
+E/4.5
+Where third parties seek permission or inform National Highways of their intention to operate within the
+vicinity of the network, they shall be referred to the DGH via the Drones email Inbox
+(drones@nationalhighways.co.uk).
+E/4.6
+The DGH shall collate and store records of all reported third-party flights in the vicinity of the network.
+NOTE
+These records contribute to future agreements between National Highways and third parties to operate
+drones in the vicinity of the network, and can be referenced by the DGH, Drone SCRG and NSCRG
+during the SRA process.
+Line of sight
+E/4.7
+All drone operations shall be limited to either:
+1)
+VLOS: those where direct unaided visual observation is maintained by the remote pilot at all
+times, where operations do not exceed 500 m from the remote pilot; or,
+2)
+EVLOS: those where direct unaided visual observation is maintained by the remote pilot or the
+unmanned aircraft observer at all times, where operations do not exceed 1500 m from the the
+remote pilot or 500 m from an unmanned aircraft observer.
+E/4.8
+BVLOS drone operations, that is those where direct, unaided, visual observation of the drone is not
+maintained by the remote pilot and/or the unmanned aircraft observer(s), shall not be undertaken.
+NOTE
+Operating drones within confined spaces (such as the interior of a building, structure, or culvert) is not
+considered to be a BVLOS operation, as these operations are not within a defined airspace.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 38 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/5. UAS equipment
+E/5.
+UAS equipment
+Restricted equipment
+E/5.1
+Drone swarms (multiple drones not controlled independently of one another) shall not be used when
+undertaking activity for / on behalf of National Highways.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 39 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/6. UAS incidents
+E/6.
+UAS incidents
+Incident reporting
+E/6.1
+The DGH shall act as the point of contact for the reporting of all accidents and serious incidents to
+National Highways.
+E/6.2
+The DGH shall maintain a log of drone-related incidents.
+E/6.3
+Activity Managers shall liaise with the DGH to access and update this log.
+E/6.4
+All incidents and near misses shall be reported to National Highways via HART in accordance with
+DMRB. GG 128 [Ref 3.N]. and in addition also notified directly to DGH within one day of the incident
+occurring.
+Operating restrictions
+E/6.5
+Where drone operations are halted or restricted in relation to an incident, the SRA shall be reassessed
+to establish approval to proceed.
+E/6.5.1
+National Highways may implement additional restrictions on approving SRAs and/or revoke existing
+SRAs for drone activity, in response to an incident. This can include:
+1)
+restrictions on using certain equipment (e.g. types, models, or specific manufacturer's drones);
+2)
+restrictions on specific individuals undertaking operational roles; and,
+3)
+restrictions on specific organisations such as UAS Operators or their representatives undertaking
+drone activities for / on behalf of National Highways.
+NOTE
+Restrictions are generally intended to be temporary, and can be lifted once any incident and subsequent
+investigation is resolved - e.g. when sufficient evidence is provided to assure National Highways (and
+the wider industry) that the cause of the incident in question does not represent an ongoing risk.
+E/6.6
+The Activity Manager shall be the point of contact to initiate the reassessment process.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 40 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/7. Privacy
+E/7.
+Privacy
+Data retention
+E/7.1
+All planning and undertaking of drone activities shall take account of and comply with National
+Highways data retention policies.
+NOTE
+Refer to National Highways Records retention & disposal schedule NHRR [Ref 2.I] for information.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 41 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/8. Normative references
+E/8.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 954, 'Drone operations'
+Ref 2.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+National Highways. GG 128, 'Requirements for reporting incidents, events and
+undesirable circumstances: health, safety, wellbeing, structural and environmental'
+Ref 4.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 42 of 55
+======================================================================
+GG 954 - ENAA Version 1.0.1
+E/9. Informative references
+E/9.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. Goulding, J. NSCRG & SCRG, 'Management arrangement for
+safety risk for National Highways activities'
+Ref 2.I
+National Highways. NHRR, 'Records retention & disposal schedule'
+Ref 3.I
+CAA. CAA. CAP 722, 'Unmanned Aircraft System Operations in UK Airspace -
+Guidance'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 43 of 55
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 44 of 55
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 954 - NINAA
+Northern Ireland National Application Annex
+for Drones operations
+(formerly None)
+Version 1.0.0
+Summary
+There are no specific requirements for the Department for Infrastructure, Northern Ireland
+supplementary or alternative to those given in GG 954.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 45 of 55
+======================================================================
+GG 954 - NINAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 46 of 55
+======================================================================
+GG 954 - NINAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954 -
+NINAA
+1.0.0
+February 2023
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+New document (February 2023) Northern Ireland National Application Annex to GG 954.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 47 of 55
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 48 of 55
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 954 - SNAA
+Scotland National Application Annex for
+Drones operations
+(formerly None)
+Version 1.0.0
+Summary
+For all enquiries regarding the operation of drones on the motorways and all-purpose trunk roads
+network of Scotland, please contact Transport Scotland on
+TSStandardsBranch@transport.gov.scot.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 49 of 55
+======================================================================
+GG 954 - SNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 50 of 55
+======================================================================
+GG 954 - SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954 -
+SNAA
+1.0.0
+February 2023
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+(Pub. Feb. 2023) Scotland National Application Annex to new document GG 954 Drones operation, with
+enquiries contact only.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 51 of 55
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 52 of 55
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 954 - WNAA
+Wales National Application Annex for Drones
+operations
+Version 1.0.0
+Summary
+Please direct all enquiries regarding the operation of drones on the motorways and all-purpose
+trunk roads network of Wales, please contact the Welsh Assembly on Drones@gov.wales
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 53 of 55
+======================================================================
+GG 954 - WNAA Version 1.0.0
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 54 of 55
+======================================================================
+GG 954 - WNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 954 -
+WNAA
+1.0.0
+February 2023
+Wales NAA
+Change to policy, major
+revision, new document
+development
+New document (February 2023). Welsh National Application Annex to GG 954.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
+
+======================================================================
+PAGE 55 of 55
+======================================================================
+© Crown copyright 2023.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 954 Version 1.0.1, published: 30-Sep-2023
+
+
