@@ -1,0 +1,1282 @@
+======================================================================
+PAGE 1 of 29
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 468
+Assessment of Freyssinet concrete hinges in
+highway structures
+(formerly BE 5/75)
+Revision 1
+Summary
+This document sets out the requirements for the assessment of Freyssinet concrete hinges used
+in highway structures. It also provides advice on the inspection and management of Freyssinet
+concrete hinges.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 2 of 29
+======================================================================
+CS 468 Revision 1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Symbols
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Inspection and material properties
+9
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Hinge inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Hinge geometry
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Material properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Concrete
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Assessment
+11
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Hinge analysis
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Assessment of resistance of rectangular hinges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Transverse reinforcement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Shear resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Assessment of resistance of circular hinges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Transverse reinforcement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Shear resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Collision shear resistance for circular and rectangular hinges . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+4. Normative references
+17
+5. Informative references
+18
+Appendix A. Typical illustrations of hinge features
+19
+Appendix B. Basis for the rotation and stress distribution at the throat of hinges
+24
+B1 Rectangular hinge
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+B2 Circular hinge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 3 of 29
+======================================================================
+CS 468 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Mar 2020
+Revision 1 (March 2020) Update to references only. Revision 0 (November
+2019) CS 468 replaces BE 5/75. This full document has been re-written to
+make it compliant with the new Highways England drafting rules. BE 5/75 has
+been changed from a design to an assessment document. The design rules
+have been updated and modified such that the document is used for the
+serviceability limit state assessments of existing structures with either
+rectangular or circular unreinforced concrete hinges.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 4 of 29
+======================================================================
+CS 468 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BE 5/75, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 5 of 29
+======================================================================
+CS 468 Revision 1
+Introduction
+Introduction
+Background
+This document provides requirements and advice for the assessment of existing Freyssinet concrete
+hinges in highway structures. This document supersedes BE 5/75, which has been withdrawn.
+Concrete hinges provide release of bending moment in a member by their action which approximates
+to a pin connection. The pin action is achieved by notching the member to form a throat which
+transmits axial and shear forces while relieving the bending moments. Concrete hinges have been in
+use since the end of the nineteenth century, with different types of hinges used to transmit the member
+forces through the throat.
+Freyssinet hinges make use of the high compressive strength which is developed in the throat due to
+the tri-axial confinement of the concrete so that there is no primary structural requirement for
+reinforcement to pass through the throat. Freyssinet hinges were first used on the Chandelier Bridge in
+1923 Freyssinet 1923 [Ref 4.I].
+Design models for Freyssinet concrete hinges have been developed in Germany, Sweden, Great
+Britain, France and the Netherlands (see Proc ICE Paper 1400020 [Ref 2.I]).
+In the early 1960's, the Cement and Concrete Association (now the Concrete Society) published
+research, undertaken by Base, into Freyssinet hinges which included extensive laboratory testing, as
+reported in CCA TRA 359 [Ref 6.I] and CCA Research Report No. 17 [Ref 5.I]. Based on the
+experimental results, Sims & Bridle 1964 [Ref 7.I] developed empirical rules for the design of Freyssinet
+concrete hinges, which were later used in England for the design of some bridges on the M1 motorway
+Proc ICE Paper 1400020 [Ref 2.I]. During this period concrete hinges were also used on many other
+bridges as support members and rocker bearings.
+In 1975, the Highways Agency (now Highways England) published the technical memorandum BE
+5/75, 'Rules for the design and use of Freyssinet concrete hinges in highway structures'. BE 5/75 was
+based on the model for calculation developed by Sims & Bridle 1964 [Ref 7.I] from tests by Base CCA
+TRA 359 [Ref 6.I].
+The concrete hinge is an area of high stress concentration which is densely reinforced in the end
+blocks. The reinforcement and the highly profiled geometry of the notch create difficulty to achieve the
+required level of compaction of the concrete. The load bearing capacity strongly depends on the ability
+of the tensile reinforcement in the end blocks to resist the tensile splitting forces. Reinforcement across
+the hinge throat is not necessary under the multi-axial state of stress in the throat. Excessive
+reinforcement disturbs the state of stress in the hinge throat and can lead to shrinkage cracks as shown
+by Base in CCA TRA 359 [Ref 6.I], cited in Proc ICE Paper 1400020 [Ref 2.I].
+The existing Freyssinet concrete hinges on motorway and all purpose trunk road bridges in England
+have generally been shown to be structurally reliable to date. Concrete hinges themselves require low
+maintenance and can therefore be very durable if designed and constructed properly (see Marx &
+Schacht 2010 [Ref 1.I]).
+However, the hinge areas are vulnerable to cracking and concrete spalling which may lead to water
+ingress and subsequent corrosion of the reinforcement. Past inspections have recorded instances of
+sub-standard workmanship, difficulty to gain access for inspection, hinges being buried below ground
+level, issues related with tension in hinges, and non-compliant throat details.
+Concrete hinges are also vulnerable in lateral shear due to vehicle collision forces. The assessment
+values of collision forces as given in CS 453 [Ref 7.N] have increased significantly since the
+introduction of the concrete hinges.
+BE 5/75, which was primarily a design document, has been applied to previous assessments of
+concrete hinges via departures from standard, necessary because of the limitations of BE 5/75 which
+can be summarised as follows:
+1) BE 5/75 was written as a working stress document, prior to the introduction of limit state design;
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 6 of 29
+======================================================================
+CS 468 Revision 1
+Introduction
+2) BE 5/75 addressed a specific design configuration with a rectangular shaped throat for a limited
+range of material properties;
+3) BE 5/75 proposed a theory which is shown to be adequate for the prescribed design configuration
+but not readily adaptable to other configurations; and,
+4) the complex behaviour of the concrete within and around the hinge not being addressed in detail.
+The use of concrete hinges in new design is not permitted, unless there is absolutely no alternative
+solution, such as in situations where the articulation of an existing the bridge being widened has to be
+maintained. In such cases, the hinges are required to be designed to be accessible for inspection and
+maintenance CD 350 [Ref 8.N].
+In 1977, Crossley published design recommendations for circular hinges which included full scale
+laboratory testing Crossley 1977 [Ref 3.I]. Crossley proposed design charts based on experiments and
+compared his results by adapting the theory from BE 5/75. This update of BE 5/75 has incorporated the
+design recommendations by Crossley for use in the assessment of existing circular hinges.
+A critical review on concrete hinges was carried out by who compared the different theories in common
+use worldwide. While the theory in BE 5/75 had some limitations, it was seen to be adequate within the
+available knowledge.
+This document updates and adapts BE 5/75 for use in the assessments of concrete rectangular and
+circular hinges. The findings from research studies published after the publication of BE 5/75, as well
+as provisions from previous departures from standards relating to the assessment of concrete hinges,
+have been incorporated as appropriate.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 3.N] apply to this document.
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 "Introduction to the Design Manual for Roads and Bridges".
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 7 of 29
+======================================================================
+CS 468 Revision 1
+Symbols
+Symbols
+Symbols
+Symbol
+Definition
+Ast
+area of transverse reinforcement provided in the tensile zone (mm2)
+Astl
+area of longitudinal reinforcement provided in the tensile zone (mm2)
+a
+width of the throat (mm)
+ar
+width of shoulder (mm)
+a1
+effective width of the throat (mm)
+b
+length of the throat (mm)
+br
+length of shoulder (mm)
+b1
+effective length of the throat (mm)
+c
+length of member (or end block) (mm)
+d
+width of member (or end block) for a rectangular hinge or diameter of member (or
+end block) for a circular hinge (mm)
+d1
+effective throat diameter (mm)
+E
+modulus of elasticity (kN/mm2)
+Ecm
+short term modulus of elasticity for concrete (kN/mm2)
+fcu
+characteristic or worst credible concrete cube strength (N/mm2)
+fst
+permissible tensile strength of steel reinforcement (N/mm2)
+he
+effective height of the throat element (mm)
+N
+total axial force (normal force) on the throat (N)
+Q
+shear force on the hinge throat (N)
+Qy
+shear force on hinge throat (N) acting perpendicular to the axis of rotation
+R
+resultant force (N) of the axial and shear forces acting over the hinge
+t
+thickness of the throat (mm)
+Z1, Z2, Z3
+transverse tensile forces (N) in the faces of end blocks
+Zy
+transverse tensile stresses (N/mm2)
+β
+angle of inclination of the notch surface to the horizontal (degrees)
+γfl
+partial load factor
+γf3
+partial factor for load effects
+γm
+partial safety factor for strength
+ϕe
+equivalent rotation of hinge about the axis of rotation (rads)
+ϕp
+rotation of hinge under permanent loads (rads)
+ϕs
+rotation of hinge under variable and temperature loads (rads)
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 8 of 29
+======================================================================
+CS 468 Revision 1
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Effective throat diameter
+The diameter of the circular hinge to be used in assessment which can
+include allowance for spalling.
+Effective throat length
+The length of rectangular hinge along the axis of bending to be used in
+assessment which can include allowance for spalling.
+Effective throat width
+The width of the rectangular hinge to be used in assessment which can
+include allowance for spalling.
+End block
+The part of member adjacent to the hinge within which the stress
+distributes from the throat to a constant value across the width of the
+member.
+NOTE: For hinge assessment the tensile zones in the end block extend
+above and below the throat for a distance from the horizontal centre line
+of the throat equal to the width of the rectangular member.
+Notch
+The recesses in the member, forming the hinge throat.
+Notch profile
+The shape of the notch where it meets the throat.
+NOTE: Notch profile can be curved or straight to member axis.
+Shoulder
+The part between face of the member and edge of throat.
+NOTE: Minimum distance from face of member and edge of throat is
+taken as 75mm.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 9 of 29
+======================================================================
+CS 468 Revision 1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the assessment of existing Freyssinet concrete hinges with:
+1) rectangular or circular throat section; and,
+2) profiled notch geometry.
+NOTE
+Refer to Appendix A - Figure A.1 for typical illustrations of a rectangular hinge block and definitions of
+terminology.
+1.2
+This document shall be used for concrete hinges:
+1) with no reinforcement through the throat; or,
+2) in which the area of reinforcement through the throat of the hinge does not exceed 5% of the cross
+sectional area of the throat.
+NOTE 1
+Freyssinet concrete hinges assume that reinforcement through the throat of the hinge does not
+participate to transmit forces through the throat.
+NOTE 2
+Excessive reinforcement disturbs the state of stress in the throat and can cause shrinkage cracks in the
+hinge throat.
+1.3
+This document shall be used where the concrete cube strength is not less than 30 N/mm2 for the hinge
+throat and end blocks.
+NOTE
+A minimum concrete cube strength of 30 N/mm2 is required, based on testing, for the assumed action
+of splitting the end blocks and the development of high confined strengths at the throat.
+1.4
+Rotation of the rectangular section hinge shall be only in one plane, that is about the longitudinal axis.
+1.5
+This document shall apply to concrete hinges with:
+1) throat width within the range of 50mm - 250mm; and,
+2) throat height less than half the width, up to a maximum of 50mm.
+1.6
+This document shall not be used for the assessment of:
+1) bridge with deck hinges; or,
+2) hinges with no primary requirement to carry axial forces.
+NOTE
+The structural assessment of deck hinges is covered in CS 467 [Ref 4.N].
+Implementation
+1.7
+This document shall be implemented forthwith on all schemes involving the assessment of existing
+Freyssinet concrete hinges in highway structures on the Overseeing Organisations' motorway and
+all-purpose trunk roads according to the implementation requirements of GG 101 [Ref 3.N].
+1.8
+Where this document duplicates or covers the requirements in existing standards during a period of
+co-existence, it shall take precedence unless otherwise agreed with the Overseeing Organisation.
+Use of GG 101
+1.9
+The requirements contained in GG 101 [Ref 3.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 10 of 29
+======================================================================
+CS 468 Revision 1
+2. Inspection and material properties
+2.
+Inspection and material properties
+General
+2.1
+Inspection of highway structures which include concrete hinges shall be carried out in accordance with
+CS 450 [Ref 2.N], CS 454 [Ref 1.N] and as given in this section.
+Hinge inspection
+2.2
+Where accessible, hinge positions shall be inspected for signs of deterioration, for example due to
+water ingress and corrosion of the reinforcement.
+NOTE 1
+The throat concrete is not always visible where:
+1) the entire hinge is buried below ground; or,
+2) material used for notching the faces of the throat was left in place after construction.
+NOTE 2
+Previous inspections have noted wood and filler board used as hinge notch former on some structures.
+2.3
+The hinge positions shall be examined for:
+1) evidence of cracking across the throat;
+2) spalling of concrete in the throat; and,
+3) transverse cracking on the end blocks adjacent to the throat.
+NOTE 1
+Cracking of the concrete at the hinge is not a sign of failure of the hinge, but it is essential to limit water
+ingress to prevent corrosion of reinforcement.
+NOTE 2
+Spalling of concrete is acceptable where it is not progressive into the throat.
+NOTE 3
+Cracking generally occurs in the end blocks in areas where the tensile reinforcement provided cannot
+resist the tensile splitting forces.
+2.4
+The concrete in the throat area shall be inspected for local deformation or heave due to poor quality of
+workmanship around the hinge position.
+NOTE 1
+Tension cracking of the throat can have implications on the long term performance of concrete hinges.
+NOTE 2
+Deviations in the surface of the hinge throat are an indication of poor quality workmanship at the time of
+construction.
+NOTE 3
+The concrete in the end blocks adjacent to the hinge throat is reinforced and profiled. Heavy
+reinforcement can lead to substandard workmanship at construction due to lack of compaction,
+particularly where standard sized 20mm aggregate has been used. The recommendation was for the
+use of 10mm aggregate in the construction to ensure good compaction of the concrete.
+2.4.1
+The hinge may be assumed to have been propped prior to the application of permanent loading, unless
+otherwise stated in the construction history.
+NOTE
+Hinges had to be supported during construction from the time of casting to the completion of the
+structure incorporating the throat to prevent rotation of the throat.
+2.5
+Where the hinge positions are buried or inaccessible for inspection, the structure shall be surveyed to
+establish any sign of movement or distress which has been caused by collapse of the hinge.
+NOTE 1
+Failure of the hinge throat is likely to cause distress or displacement elsewhere on the bridge
+superstructure. As structures with these hinges were built over 30 years ago, defects of this nature are
+apparent if a failure of the hinge is occurring or has occurred. The failure mode of the throat is expected
+to be gradual.
+NOTE 2
+Signs of movement or distress caused by collapse or rotation of the hinge can include displacement of
+the bridge joint and cracking of the carriageway surfacing over the hinged support and around the joint,
+respectively.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 11 of 29
+======================================================================
+CS 468 Revision 1
+2. Inspection and material properties
+2.5.1
+Where signs of movement are detected in a buried or inaccessible hinge position, the position should
+be exposed for further inspection.
+Hinge geometry
+2.6
+Hinges covered by this document shall be rectangular or circular.
+2.7
+For rectangular hinges, where the notches of hinges have a curved profile, the effective throat width, a1
+, or , effective length, b1 , shall be taken as the actual as-built dimensions recorded for the throat width,
+a , the throat length, b , respectively a1 = a or b1 = b .
+2.8
+For circular hinges, where the notches of hinges have a curved profile, the effective diameter, d1 , shall
+be taken as the actual as-built dimension recorded for the throat diameter, d .
+2.9
+Where the notches of hinges have straight profiles, the effective throat width, a1 , effective length, b1, or
+effective diameter, d1 , shall be taken as the as-built dimension reduced by the throat height, t .
+a1 = a −t , b1 = b −t , or d1 = d −t .
+NOTE 1
+Appendix A - Figure A.3 illustrates a typical elevation showing formation of a V-notch on a circular
+hinge with a straight profiled throat.
+NOTE 2
+Full scale testing has shown that limited spalling of the concrete occurs across the width of the throat
+with a straight profile at serviceability limit state, to form a curved notch profile.
+2.10
+For rectangular hinges, the throat length shall include a minimum recess of 75mm between the throat
+and member edge at either end as shown in Appendix A - Figure A.2.
+NOTE
+Full scale testing has shown that spalling occurs along either end of the length of a rectangular throat to
+an extent of 75mm from the member edge where no recess already exists.
+2.11
+Where spalling already exists, the effective width or length shall equal the intact measured dimension.
+Material properties
+Concrete
+2.12
+The characteristic or worst credible concrete cube strength for use in the assessment shall be
+determined in accordance with CS 455 [Ref 6.N].
+2.13
+The maximum concrete cube strength for the assessment of concrete hinges shall not be greater than
+52.5 N/mm2.
+NOTE
+The assessment resistance model and rules developed from experimental results are applicable for
+hinges with a concrete cube strength up to of 52.5 N/mm2.
+2.14
+The short term elastic modulus of elasticity shall be determined in accordance with CS 455 [Ref 6.N].
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 12 of 29
+======================================================================
+CS 468 Revision 1
+3. Assessment
+3.
+Assessment
+General
+3.1
+Assessment of highway structures which include concrete hinges shall be in accordance with CS 454
+[Ref 1.N], CS 455 [Ref 6.N], CS 453 [Ref 7.N] and as given in this section.
+Hinge analysis
+3.2
+The assessment of concrete hinges shall be carried out at serviceability limit state.
+NOTE 1
+The serviceability limit state is characterised by the onset of water ingress to cause corrosion of the
+reinforcement as a result of:
+1) cracking across the throat due to tension or lift-off;
+2) progressive spalling at the throat due to concrete crushing; or
+3) transverse cracking of the end blocks due to the normal force from the hinge causing splitting.
+NOTE 2
+Experimental tests on concrete hinges have shown that ultimate failure of the concrete in the throat
+which occurs at high stresses up to 6fcu is difficult to predict due to the complex stress configurations in
+the notch area.
+NOTE 3
+The methods for the assessment of resistance for rectangular and circular hinges at serviceability limit
+state used in this section have been derived from the empirical and experimental assumptions in
+Appendix B.
+3.3
+Allowance for deterioration and condition factor for assessment of resistance shall be determined in
+accordance with CS 455 [Ref 6.N].
+3.4
+Elastic analysis of the structure shall be carried out to determine the forces in the hinge and the
+coexistent hinge rotations under the loading in accordance with CS 454 [Ref 1.N] and CS 455 [Ref 6.N].
+3.5
+The rotation per unit axial load shall be determined for each condition of loading including the most
+lightly loaded condition.
+NOTE
+The maximum value of rotation per unit axial load can occur under the most lightly loaded condition.
+3.6
+Analysis shall be carried out for load combinations in accordance with CS 454 [Ref 1.N].
+3.7
+Where existing Freyssinet concrete hinge supports are vulnerable to the effects of vehicular collision
+forces, they shall be assessed in accordance with CS 453 [Ref 7.N].
+NOTE
+Freyssinet concrete hinges were not designed for use where there is a:
+1) risk of collision with the structure causing damage or displacement of the hinge; or
+2) resultant uplift on all or part of the hinge under any loading.
+3.8
+Existing pier or superstructure protection provided to a hinge vulnerable to the effects of vehicle
+collision forces shall be assessed in accordance with CS 453 [Ref 7.N].
+3.9
+The shear resistance across the throat of a vulnerable hinge under collision loading shall meet the
+requirement for collision assessment given in Equation 3.26.
+3.9.1
+Where multi-directional shear forces are acting concurrently on the hinge throat for a load combination,
+the shear force Q across the throat may be taken as the vector sum of these forces.
+3.10
+The partial factors shall apply at serviceability limit state in accordance with CS 454 [Ref 1.N] and CS
+455 [Ref 6.N].
+NOTE
+The value of γf3 to be used at serviceability limit state is defined in CS 454 [Ref 1.N].
+3.11
+Where the bending stiffness of the hinge is included in the analysis, the bending action shall be
+represented by an effective member with the cross section of the throat and an effective height, he , of
+125mm.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 13 of 29
+======================================================================
+CS 468 Revision 1
+3. Assessment
+NOTE
+The effective member for bending stiffness does not represent stress in the hinge.
+3.12
+The effect of the reinforcement through the throat shall be ignored in the assessment of shear
+resistance of the hinge.
+3.13
+Where the minimum nominal cover to reinforcement is less than 25mm, the use of the assessment
+methods in this section shall be subject to technical approval in accordance with CG 300 [Ref 5.N].
+Assessment of resistance of rectangular hinges
+3.14
+The resistance of the hinge throat to spalling of concrete crushing shall be in accordance with Equation
+3.14:
+Equation 3.14 Compressive resistance of hinge throat
+N < 2a1b1fcu
+γm
+where:
+N
+is the axial force (N) on the throat;
+a1
+is the effective width of the throat (mm);
+b1
+is the effective length of the throat (mm);
+fcu
+is the characteristic or worst credible cube strength (N/mm2), not greater than
+52.5 N/mm2; and,
+γm
+is partial factor for material strength in accordance with CS 455 [Ref 6.N].
+3.15
+For the resistance of the throat against cracking due to uplift, the hinge rotation per unit axial load under
+all serviceability load conditions shall be in accordance with Equation 3.15:
+Equation 3.15 Resistance against cracking
+ϕe
+N <
+3he
+Ecma2
+1b1
+=
+380
+Ecma2
+1b1
+where:
+ϕe =
+(
+ϕs + ϕp
+2
+)
+is the equivalent hinge rotation about the axis of rotation (rads);
+ϕp
+is the rotation of hinge under permanent loads (rads);
+ϕs
+is the rotation of hinge under variable and temperature loads (rads);
+a1, b1
+are as previously defined;
+Ecm
+is the short term modulus of elasticity for concrete (kN/mm2); and,
+he
+is the effective height of the throat element (mm). Take 3he = 380mm with
+he ≈125mm.
+Transverse reinforcement
+3.16
+The primary tensile force acting in the direction of the width of the member together with a secondary
+force acting horizontally at right angles to it shall be resisted by mats of reinforcement in the tensile
+zone.
+NOTE 1
+The concentrated compressive force in the throat of the hinge induces transverse tensile forces in the
+adjacent members or end blocks. These forces extend over tensile zones above and below the throat
+for a distance from the horizontal centre line of the throat equal to the width of the rectangular member.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 14 of 29
+======================================================================
+CS 468 Revision 1
+3. Assessment
+NOTE 2
+All the mats in each member contained within the tensile zone with a high concentration within the half
+of the tensile zone nearest the throat.
+NOTE 3
+Typical details of the types mat reinforcement that were recommended for use are provided in Appendix
+A - Figure A.5. The capacities of the mats are given in Appendix A- Table A.1. The mat information is
+only relevant where any of the types shown have been used on the existing end block being assessed.
+3.17
+The resultant of the axial and shear forces acting on the hinge shall be given by Equation 3.17:
+Equation 3.17 Resultant force acting on hinge
+R =
+√
+N2 + Q2
+where:
+N
+is the axial force (N) on the throat;
+Q
+is the shear force (N) across the hinge throat; and,
+R
+is the resultant force (N) of the axial and shear forces acting over the hinge.
+3.18
+The resistance to cracking of the end block in the transverse direction due to the splitting action of the
+resultant hinge force shall be in accordance with Equation 3.18:
+Equation 3.18 Resistance of end block to splitting action in transverse direction
+R < 8
+3 × Ast × fst
+(
+1 −a1
+d
+)
+where:
+a1
+as previously defined;
+Ast
+is the total area of transverse reinforcement (mm2) provided in the tensile zone of each
+end block, where the tensile zone of each end block extends for a distance d (mm) from
+the horizontal centre line of the throat;
+d
+is the width of member (end block) (mm); and,
+fst
+is the stress limit (N/mm2) in transverse reinforcement in end block, to be taken as 105
+N/mm2 for mild steel reinforcement and 150 N/mm2 for high yield reinforcement.
+3.18.1
+The limiting stress for steel reinforcement shown on the as-built records may be used for fst where
+available.
+3.19
+The resistance to cracking of the end block in the longitudinal direction due to the splitting action of the
+hinge forces, shall be in accordance with in Equation 3.19:
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 15 of 29
+======================================================================
+CS 468 Revision 1
+3. Assessment
+Equation 3.19 Resistance of end block to splitting action in longitudinal direction
+R < 8 × Astl × fst
+(
+1 −b1
+c
+)
+where:
+Astl
+is the total area of longitudinal reinforcement (mm2) provided in the tensile zone of each
+end block, where the tensile zone of each end block extends for a distance d from the
+horizontal centre line of the throat;
+b1
+as previously defined; and,
+c
+is the length member (end block) (mm).
+Shear resistance
+3.20
+For the resistance to shear force across the hinge throat, the ratio of axial force to shear force for all
+load combinations excluding collision forces shall be in accordance with Equation 3.20:
+Equation 3.20 Resistance to shear
+N
+Q > 3
+where:
+N
+is the axial force (N) on the throat; and,
+Q
+is the shear force (N) across the hinge throat.
+Assessment of resistance of circular hinges
+3.21
+For the resistance of the hinge throat to spalling of concrete due to crushing, the condition given in
+Equation 3.21 shall be satisfied for all serviceability load combinations:
+Equation 3.21 Resistance of hinge
+N < (1.4 −66.67ϕe) × d2
+1fcu/γm
+where:
+d1
+is the effective throat diameter (mm);
+fcu
+is the characteristic or worst credible cube strength (N/mm2), not greater
+than 52.5 N/mm2;
+N
+is the axial force (N) on the throat;
+γm
+is partial factor for material strength in accordance with CS 455 [Ref 6.N];
+ϕe =
+(
+ϕs + ϕp
+2
+)
+is the equivalent hinge rotation about the axis of rotation (rads);
+ϕp
+is the rotation of hinge under permanent loads (rads); and,
+ϕs
+is the rotation of hinge under variable and temperature loads (rads).
+NOTE 1
+Equation 3.21 ensures the satisfactory performance of a hinge despite the development of tension over
+part of the throat areas with slight but not progressive spalling in the compression face.
+NOTE 2
+Performance of the throat is also assured in the absence of a parabolic notch throat (i.e. circular or
+straight notch throat).
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 16 of 29
+======================================================================
+CS 468 Revision 1
+3. Assessment
+NOTE 3
+Appendix B - Figure B.2 provides boundaries for the assessment load/rotation combinations which can
+be safely sustained together with the effects on the condition of the throat concrete.
+3.22
+For the resistance of hinge throat to cracking due to lift off, the rotation per unit force under all
+serviceability load combinations shall be in accordance with Equation 3.22:
+Equation 3.22 Resistance against cracking
+ϕe
+N < 3.4
+he
+Ecmd3
+1
+=
+425
+Ecmd3
+1
+where:
+Ecm
+is the short term modulus of elasticity for concrete (kN/mm2);
+he
+is the effective height of the throat element (mm) he ≈125mm; and,
+d1
+as previously defined.
+Transverse reinforcement
+3.23
+The primary tensile force on a circular end block shall be resisted by spiral reinforcement in the tensile
+zone.
+NOTE
+The concentrated compressive force in the throat of the hinge induces transverse tensile forces in the
+end blocks. These forces extend over tensile zones above and below the throat for a distance from the
+horizontal centre line of the throat equal to the diameter of the adjacent circular member. The spiral end
+block reinforcement extends over the tensile zones.
+3.24
+The resistance to cracking of the end block in the transverse direction due to the splitting action of the
+resultant hinge forces, shall be in accordance with Equation 3.24:
+Equation 3.24 Resistance to splitting action in circular end block
+R < 8
+3 ×
+Astfst
+(
+1 −0.9d1
+d
+)
+where:
+Ast
+is the total area of transverse reinforcement (mm2) provided in the tensile zone of each
+end block, where the tensile zone of each end block extends for a distance d from the
+horizontal centre line of the throat;
+d
+is the diameter of member (end block) (mm);
+d1
+effective throat diameter (mm);
+fst
+is the stress limit (N/mm2) in transverse reinforcement in end block, to be taken as 105
+N/mm2 for mild steel reinforcement and 150 N/mm2 for high yield reinforcement; and,
+R
+is the resultant force (N) of the axial and shear forces acting over the hinge.
+Shear resistance
+3.25
+The resistance to shear force across the hinge throat for all load combinations excluding collision
+forces, shall be in accordance with Equation 3.20.
+Collision shear resistance for circular and rectangular hinges
+3.26
+For resistance to shear across the throat of circular and rectangular hinges assessed for actions
+including collision forces, the minimum ratio of axial force to shear force at serviceability shall be given
+by Equation 3.26:
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 17 of 29
+======================================================================
+CS 468 Revision 1
+3. Assessment
+Equation 3.26 Limit for collision shear resistance
+N
+Q > 2
+where:
+N and Q
+are as previously defined.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 18 of 29
+======================================================================
+CS 468 Revision 1
+4. Normative references
+4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CS 454, 'Assessment of highway bridges and structures'
+Ref 2.N
+Highways England. CS 450, 'Inspection of highway structures'
+Ref 3.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 4.N
+Highways England. CS 467, 'Risk management and structural assessment of
+concrete deck hinge structures'
+Ref 5.N
+Highways England. CG 300, 'Technical approval of highway structures'
+Ref 6.N
+Highways England. CS 455, 'The assessment of concrete highway bridges and
+structures'
+Ref 7.N
+Highways England. CS 453, 'The assessment of highway bridge supports'
+Ref 8.N
+Highways England. CD 350, 'The design of highway structures'
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 19 of 29
+======================================================================
+CS 468 Revision 1
+5. Informative references
+5.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Marx, S and Schacht, G. Marx & Schacht 2010, 'Concrete hinges - Historical
+development and contemporary use 3rd fib International Congress (2010)'
+Ref 2.I
+ICE Publishing. Schacht, G and Marx, S. Proc ICE Paper 1400020, 'Concrete hinges
+in bridge engineering'
+Ref 3.I
+Ribblesdale Cement Limited:ACT Project 1976-77. Crossley, A. N. Crossley 1977,
+'Design recommendations for circular hinges'
+Ref 4.I
+Freyssinet, E. Freyssinet 1923, 'Le pont de Chandelier, Annales des ponts et
+chaussees, 1923'
+Ref 5.I
+Cement and Concrete Association. Base, G D. CCA Research Report No. 17, 'Tests
+on four prototype reinforced concrete hinges'
+Ref 6.I
+Cement and Concrete Association. Base, G D. CCA TRA 359, 'Tests on reinforced
+concrete hinge with a large design rotation'
+Ref 7.I
+Sims, F A and Bridle R J (1964). Sims & Bridle 1964, 'The design of concrete hinges'.
+Concrete and Constructional Engineering'
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 20 of 29
+======================================================================
+CS 468 Revision 1
+Appendix A. Typical illustrations of hinge features
+Appendix A. Typical illustrations of hinge features
+The figure below (Fig. A.1) uses nomenclature from Fritz Leonhardt cited in Schacht & Marx, Proc ICE
+Paper 1400020 [Ref 2.I] .
+Figure A.1 Typical rectangular concrete hinge
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 21 of 29
+======================================================================
+CS 468 Revision 1
+Appendix A. Typical illustrations of hinge features
+Figure A.2 Typical shape of a parabolic notch
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 22 of 29
+======================================================================
+CS 468 Revision 1
+Appendix A. Typical illustrations of hinge features
+Figure A.3 Typical elevation showing formation of a v-notch from a straight notched
+throat on a circular hinge
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 23 of 29
+======================================================================
+CS 468 Revision 1
+Appendix A. Typical illustrations of hinge features
+Figure A.4 Possible types of transverse mat reinforcement used on end blocks
+Examples of typical mat reinforcement which were proposed for use on end blocks and their respective
+capacities.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 24 of 29
+======================================================================
+CS 468 Revision 1
+Appendix A. Typical illustrations of hinge features
+Table A.1 Maximum cross-sectional areas and capacities of mat reinforcement
+Bar
+diameter
+(mm)
+Steel area per mat
+per metre (mm2)
+Tensile capacity per
+mat per metre (N)*
+Number of mats required for a resultant
+hinge load
+√(
+N2 + R2)
+of 1750 N/mm
+Mat type A
+10
+1570
+165000
+4.00
+12
+1810
+190000
+3.45
+16
+2410
+253000
+2.59
+20
+3140
+329000
+2.00
+Mat type B
+10
+1960
+206000
+3.19
+12
+2490
+261000
+2.51
+16
+3420
+359000
+1.83
+20
+4400
+462000
+1.42
+Mat type C
+10
+2590
+272000
+2.41
+12
+3730
+392000
+1.67
+16
+5630
+591000
+1.10
+20
+7850
+824000
+0.80
+* Based on allowable steel stress of 105 N/mm2
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 25 of 29
+======================================================================
+CS 468 Revision 1
+Appendix B. Basis for the rotation and stress distributio...
+Appendix B. Basis for the rotation and stress distribution at the throat of
+hinges
+B1
+Rectangular hinge
+Experimental work and tests supported the development of the design approach in the withdrawn
+Technical Memorandum (Bridges) Rules for the Design and Use of Freyssinet Concrete Hinges in
+Highway Structures (BE 5/75) which was published by Highways Agency. Those experimental work
+and tests are referenced herein and form the basis for the assumptions on the rotation and stress
+distribution at the hinge throat for the assessment of rectangular hinges.
+For the hinge to sustain large rotations without causing tensile stress in the throat, the width of the
+throat has to be assessed in relation to the required rotation. The experimental work showed that the
+behaviour of the concrete is elastic for short term loading and that under long term loading the creep is
+proportional to the initial stress.
+It is therefore possible to calculate from elastic considerations the rotation, ϕ which if rapidly applied,
+causes annulment of the compression on one side of the throat. See Figure B.1.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 26 of 29
+======================================================================
+CS 468 Revision 1
+Appendix B. Basis for the rotation and stress distributio...
+Figure B.1 Rotation and stress distribution at the throat
+The stress distribution across the throat for an axial compressive load is of the form shown in Figure
+B.1, the maximum stresses being at the sides of the throat.
+Tests showed that if this maximum stress is defined as
+kN
+a1b1 then the notch factor, k , may be taken to be
+1.5 for the range of tests carried out (i.e., for the throat widths up to 250 mm). This covers the range
+within which hinges have been used in highway bridges. Therefore maximum direct stress can be
+expressed as 1.5N
+a1b1
+Let σb = the extreme fibre bending stress due to a superimposed moment in the hinge; then
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 27 of 29
+======================================================================
+CS 468 Revision 1
+Appendix B. Basis for the rotation and stress distributio...
+± 2σb
+a1 = E
+R = Eϕ
+he
+or σb = ± Ea1ϕ
+2he
+For no tensile stresses in the throat the maximum direct compressive stress at the sides has to be
+greater or equal to the maximum bending stress at any time. This is expressed as
+1.5N
+a1b1 ≥± a1
+2he × ∑Eϕ
+where: ∑Eϕ represents the sum, at any time, the products of rotation and modulus of elasticity for
+each type of loading.
+It was found experimentally that he , the effective height of the throat, can be taken to be 125mm and
+hence the above expression may be rewritten as:
+∑Eϕ
+N
+≤1.5 × 2he
+a2
+1b1 ≈380
+a2
+1b1
+The value of the modulus of elasticity of the hinge for long-term rotations due to shrinkage, creep,
+elastic shortening and permanent loads is taken as being half that for temperature and variable loads.
+If Ecm = modulus of elasticity for temperature and variable loads (kN/mm2); ϕs = total rotation due to
+variable loads and temperature (rads); and, ϕp = total rotation due to shrinkage, creep, elastic
+shortening and permanent loads (rads).
+Then ∑Eϕ = Ecmϕs + Ecm
+2 ϕp
+= Ecm
+(
+ϕs + ϕp
+2
+)
+= Ecmϕe
+When the limiting value of zero tension on one side of the throat is reached it follows that the maximum
+compressive stress on the other side is 2 × 1.5
+N
+a1b1 , i.e. three times the average compressive stress
+N
+a1b1 . Testing showed that under these conditions working values of the average compressive stress
+may safely be as much as twice the 28 day cube strength of the concrete or 105 N/mm2, whichever is
+the lesser.
+B2
+Circular hinge
+The assessment of circular hinges is based on recommendations by Crossley given in Crossley 1977
+[Ref 3.I].
+Based on an assumed stress distribution, Crossley determined that for no tension to develop on a
+circular throat d1 <
+(
+3√
+1.7Nhe
+0.5Eϕ
+)
+.
+Safe load/rotation envelope was derived from the test results on circular hinges.
+The graph in Table B.1 gives load/rotation combinations on a chart of
+N
+fcud2
+1 versus ϕe by Crossley in
+Crossley 1977 [Ref 3.I].
+Table B.1 also provides guidance on the expected performance and condition of the throat in terms of
+the acceptable damage to the throat concrete for any applied axial load and corresponding hinge
+rotation.
+The chart is useful for comparing information obtained during hinge inspections with assessment
+calculation results especially where the throat is visible.
+On the basis of the test results, areas A, A1, B, and B1 are acceptable for serviceability limit state
+assessments.
+In areas C, C1 where the mean stress on the throat is less than 2fcu , there is a possibility that damage
+of the throat face can be progressive particularly under repeated loading indicating the onset of failure
+at serviceability limit state.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 28 of 29
+======================================================================
+CS 468 Revision 1
+Appendix B. Basis for the rotation and stress distributio...
+Theoretically areas A1, B1, and C1 can be extended to
+N
+fcud2
+1 = 0 but the experimental points have been
+kept to practical values of N .
+Table B.1 Chart of loading/rotation combinations with possible condition of throat concrete
+Chart of loading/rotation combinations with possible condition of throat concrete
+Area on chart
+Assessment condition and performance of concrete in throat
+A
+no damage (i.e. no spalling of compressive face and no tensile cracking)
+A1
+no spalling of compressive face, possible cracking of tensile face
+B
+slight but not progressive spalling of compressive face
+B1
+as B with possible cracking of tensile face
+C
+spalling of compressive face
+C1
+as C with possible cracking of tensile face
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
+
+======================================================================
+PAGE 29 of 29
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 468, published: Mar-2020
+
+
