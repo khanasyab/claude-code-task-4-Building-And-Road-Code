@@ -1,0 +1,3750 @@
+======================================================================
+PAGE 1 of 59
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Maintenance & Operation
+CM 430
+Maintenance of road tunnels
+(formerly BA 72/03)
+Version 0.0.1
+Summary
+This document describes procedures for the safe and effective maintenance of tunnels on the
+motorway and all-purpose trunk road network.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 59
+======================================================================
+CM 430 Version 0.0.1
+Contents
+Release notes
+5
+Foreword
+6
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Introduction
+7
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Abbreviations
+8
+Terms and definitions
+10
+1. Scope
+11
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+2. Roles and responsibilities
+12
+Tunnel operating authority . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Organisation and management of maintenance
+13
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Maintenance organisation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Maintenance staff
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Quality plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Maintenance objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Constraints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Maintenance funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Planned closures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Management of maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Maintenance standards
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Maintenance strategy
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Monitoring and testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Lane closures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Equipment settings during maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Access and safety procedures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Tunnel documentation and maintenance records . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Determining and reviewing maintenance recommendations . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Asset management software
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Maintenance planning and schedules
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Works instructions manual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Value for money
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Spares and stock control
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Corrective maintenance procedures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Tunnel users
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+4. Tunnel structure cleaning
+24
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Frequency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Asbestos
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Scheduling
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Traffic management and precautions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Cleaning processes
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Materials
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 59
+======================================================================
+CM 430 Version 0.0.1
+Contents
+5. Inspections
+27
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Safety inspections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Superficial inspections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+General inspections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Principal inspections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Special inspections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+6. Structure maintenance
+28
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Asbestos assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Routine maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Major maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+7. Ventilation system
+30
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Ventilation fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Equipment access arrangements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Service
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Fan handling equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Ductwork and dampers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Equipment access arrangements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Service
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+8. Lighting system
+34
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Base lighting luminaires . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Relamping
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Boost lighting luminaires . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Relamping
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Tunnel lighting control and monitoring system . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Emergency lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Dimming equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Photometers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Cleaning and inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Service
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+9. Drainage plant
+37
+Inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Service
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Testing
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 59
+======================================================================
+CM 430 Version 0.0.1
+Contents
+10. Fire safety equipment
+38
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Cross-bore doors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Emergency exit signage and evacuation lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Fire extinguishers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Fire hydrants and hoses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Fire mains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Service and functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+In-tunnel fixed water-based fire fighting systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Maintenance of fixed fire fighting systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Fire water storage tanks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Linear heat detection systems (LHDS) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Automatic fire protection systems – service buildings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Maintenance of sump fire protection systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+Gas detection systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+11. Traffic control, communication and information systems
+43
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Servicing
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+12. Plant monitoring and control system
+45
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Hardware maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Software maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Safety instrumented systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+13. Electrical power distribution
+47
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Power cables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Visual inspection and cleaning
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Earthing and lightning protection systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 59
+======================================================================
+CM 430 Version 0.0.1
+Contents
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+High voltage system circuit breakers and transformers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Visual inspection - switchgear . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Visual inspection - transformers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Low voltage system switchboards, switchgear and distribution panels
+. . . . . . . . . . . . . . . . . . . . .
+49
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+14. Emergency power equipment
+51
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Uninterruptible power supplies
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Standby generators
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+Functional testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+15. Tunnel services building and plant rooms
+53
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Building fabric
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Routine service and functional testing
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Building services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+General cleaning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Routine service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Security and access control systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+16. Normative references
+55
+17. Informative references
+57
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 59
+======================================================================
+CM 430 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 430
+0.0.1
+September 2025
+Core document
+Incremental change to
+notes and editorial
+updates
+Minor changes to remove references to withdrawn documents.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CM 430
+0
+March 2020
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 59
+======================================================================
+CM 430 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes BA 72/03, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 59
+======================================================================
+CM 430 Version 0.0.1
+Introduction
+Introduction
+Background
+Since the publication of BA72/03 in May 2003 a number of high profile incidents in heavily trafficked
+road tunnels across the world have involved significant loss of life and changes in provisions in tunnels
+for safe operation resulting from changes in legislation. Efficient, safe and sustainable operation of road
+tunnels relies on routine inspection and maintenance.
+This document provides requirements and guidance relevant to the maintenance of all road tunnels on
+the motorway and all-purpose trunk road network in the United Kingdom. This document reflects
+changes in technology, the availability of new systems and incorporates experience from current
+practice. The following topics are included in the document:
+1)
+Section 2 'Roles and responsibilities' describes the roles and responsibilities of the Tunnel
+Operating Authority (TOA) relating to maintenance activities;
+2)
+Section 3 'Organisation and management' of maintenance outlines the organisation of the TOA,
+and the framework and tools necessary to manage tunnel maintenance effectively;
+3)
+Section 4 'Tunnel structure cleaning' gives the requirements for cleaning of the tunnel structure;
+4)
+Section 5 'Inspections' gives categories of inspections for the tunnels and the associated systems
+and structures;
+5)
+Section 6 'Structure maintenance' describes routine maintenance, inspection, testing and repairs
+as applicable to road tunnel structures;
+6)
+Section 7 'Ventilation systems' gives the requirements and general guidance on the maintenance
+of ventilation equipment;
+7)
+Section 8 'Lighting systems' sets out the requirements and provides general guidance on the
+maintenance of lighting equipment;
+8)
+Section 9 'Drainage plant' provides the requirements and advice on the maintenance of drainage
+equipment, such as pipes, pumps and valves;
+9)
+Section 10 'Fire safety equipment' provides requirements and advice on maintenance of fire
+safety equipment including cross-passage doors, fire extinguishers, fire hydrants and hoses, fire
+mains, fire and gas detectors and automatic fire extinguishers or foam flooding systems;
+10)
+Section 11 'Traffic control communications and information systems' describes the maintenance
+of communication cables, telephones, radio systems, closed circuit televisions, traffic detection
+systems, variable message signs and supervisory control and data acquisition systems;
+11)
+Section 12 'Plant monitoring and control systems' outlines the maintenance of the plant
+monitoring and control system (PMCS);
+12)
+Section 13 'Electrical power distribution' describes the maintenance of high-voltage (HV), and
+low- voltage (LV) power cables, earthing and lightning protection systems, high-voltage
+equipment, HV transformers and switchgear, LV switchgear, and distribution and control panels;
+13)
+Section 14 'Emergency power equipment' provides requirements and advice on the maintenance
+of uninterruptible power supply (UPS) equipment and standby generators;
+14)
+Section 15 'Service buildings and plant rooms' describes the maintenance of service building and
+plant room fabric and building services.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 9.N] apply to this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 59
+======================================================================
+CM 430 Version 0.0.1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ACM
+Asbestos containing materials
+CDM
+Construction Design and Management (Regulations)
+CO
+Carbon monoxide
+CO2
+Carbon dioxide
+DC
+Direct current
+FMEA
+Failure modes and effects analysis
+FPA
+Fire Protection Association
+HIPOT
+High potential
+HV
+High-voltage (exceeding 1,000 volts AC or 1,500 volts DC between conductors, or
+600 volts AC or 900 volts DC between conductors and earth)
+HVAC
+Heating, ventilating and air conditioning
+IET
+The Institution of Engineering and Technology (formerly the IEE)
+ITCS
+Integrated tunnel control system
+ISO
+International Standards Organisations
+LED
+Light emitting diode
+LEL
+Lower explosive limit
+LHDS
+Low-heat linear detection system
+LPC
+Loss Prevention Council
+LV
+Low-voltage
+MTF
+Mean time to failure
+NDC
+Normal distribution curve
+NDD
+Network delivery and development directorate
+NFPA
+National Fire Protection Association
+NMC
+National maintenance contractor
+NO2
+Nitrogen dioxide
+O&M
+Operation and maintenance
+OMM
+Operation and maintenance manual
+PA/VA
+Public address /Voice alarm
+PLC
+Programmable logic controller
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 59
+======================================================================
+CM 430 Version 0.0.1
+Abbreviations
+Abbreviations (continued)
+Abbreviation
+Definition
+PMCS
+Plant monitoring and control system
+RMC
+Regional maintenance contractor
+RTSR
+Road Tunnel Safety Regulations
+SCADA
+Supervisory control and data acquisition
+SD
+Standards deviation
+SIS
+Safety instrumented systems
+TDSCG
+Tunnel Design and Safety Consultation Group
+TERN
+Trans-European road network
+TMMM
+Technology management and maintenance manual
+TOA
+Tunnel operating authority
+UPS
+Uninterruptible power supply
+VMS
+Variable message signs
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 59
+======================================================================
+CM 430 Version 0.0.1
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Emergency services
+All local services that can be called upon to intervene in
+the event of an accident or incident, including the police,
+fire and rescue services, ambulance services, traffic
+officers and tunnel operational staff.
+Motorway and all-purpose
+trunk road network
+Those parts of the UK highway and road network for which
+one of the Overseeing Organisations is, or acts on behalf
+of, the highway or road authority.
+Overseeing Organisation
+The authority responsible for the road tunnel. In the
+context of the Road Tunnels Safety Regulations (RTSR)
+UKSI 2007/1520 [Ref 24.N], can also be referred to as the
+Administrative Authority. This refers to the following
+organisations or their successors:
+1) Highways England;
+2) Transport Scotland;
+3) Welsh Government (Llywodraeth Cymru); and
+4) Northern Ireland the Department for Infrastructure (An
+Roinn Bonneagair - Transport NI)
+Technical approval authority
+The organisation responsible for agreeing the 'Approval in
+Principle' and acceptance of design and check
+certification.
+Trans-European Road Network
+The network of roads designated by the European
+Parliament as being strategically important for
+Europe-wide transport.
+Tunnel design and safety
+consultation group
+A consultation group made up of interested parties,
+convened for the purpose of reviewing and co-ordinating
+proposals for the design and operation of a road tunnel.
+Tunnel manager
+The individual or, in some cases, the organisation,
+responsible for management of the tunnel. Specific duties
+of the Tunnel Manager are defined in the RTSR.
+Tunnel operating authority
+The organisation responsible for day-to-day operation of
+the tunnel.
+Tunnel Safety Officer
+An independent individual responsible for monitoring and
+advising on issues relating to road tunnel safety. Specific
+duties of the Tunnel Safety Officer are defined in the
+RTSR.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 59
+======================================================================
+CM 430 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document provides requirements and advice which shall be used for the maintenance of road
+tunnels.
+NOTE 1
+This document covers general aspects of organisation and management of routine maintenance,
+detailed aspects of tunnel cleaning, inspection, servicing and testing of equipment, structure and other
+elements of road tunnels. It includes emergency maintenance works.
+NOTE 2
+This document provides guidance for the maintenance of motorway and other trunk road tunnels. It is
+intended as a tool for developing the most appropriate and sustainable maintenance approach to any
+road tunnel. It has been updated in the light of changes in technology including new systems
+introduced since the last version of the document.
+NOTE 3
+Information on general procedures, specific aspects of routine highway maintenance and management
+of health and safety are provided in this document.
+NOTE 4
+This document complements the requirements of CD 352 [Ref 2.I] 'Design of road tunnels', CS 452 [Ref
+8.N] 'Inspection and records for road tunnels' , CG 302 [Ref 1.N] 'As Built, Operational and Maintenance
+Records for Highway Structures' and CS 450 [Ref 4.I] 'Inspection of Highway Structures' containing
+information on the general and specific design and operational requirements for road tunnels. CS 452
+[Ref 8.N] provides requirements for the inspection and records for road tunnels and is to be read in
+conjunction with CS 450 [Ref 4.I] and CG 302 [Ref 1.N] which cover the structural elements.
+NOTE 5
+The frequency and nature of inspections and maintenance, is provided as an initial aid to the
+development of inspection and maintenance procedures. Each tunnel has unique conditions of traffic,
+general environment and equipment level and use.
+1.2
+The TOA shall check with the Overseeing Organisation regarding any additional documentation and
+requirements that apply to the management and maintenance of technology assets in the tunnel.
+1.3
+Inspection and maintenance procedures shall be reviewed regularly and updated based on experience
+and feedback from tunnel operation.
+1.3.1
+This document may be used as the basis for reviewing and improving current maintenance
+arrangements.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving maintenance of motorway and
+other trunk road tunnels on the Overseeing Organisations' motorway and all-purpose trunk roads
+according to the implementation requirements of GG 101 [Ref 9.N].
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 9.N] 'Introduction to the Design Manual for Roads and
+Bridges' shall be followed in respect of activities covered by this document.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 59
+======================================================================
+CM 430 Version 0.0.1
+2. Roles and responsibilities
+2.
+Roles and responsibilities
+Tunnel operating authority
+2.1
+In respect of maintenance responsibilities, the Tunnel operating authority (TOA) shall:
+1)
+prepare briefs and budgets for routine maintenance works;
+2)
+prepare and prioritise as necessary, detailed recommendations for proposed remedial,
+refurbishment or contingency expenditure;
+3)
+liaise with relevant stakeholders on future work programmes, preparing contracts, supervising
+works, etc. as required;
+4)
+instruct, monitor and supervise the work of the maintainer, checking that competent and suitably
+trained personnel are used at all times;
+5)
+undertake regular inspections and surveys, in accordance with all relevant standards, and take
+appropriate urgent action if anything which poses an immediate safety threat to road users or
+personnel involved in the maintenance and operation of the tunnel is discovered;
+6)
+carry out regular comprehensive exercises and risk assessments to identify and manage all
+possible hazards of tunnel maintenance and operation. Thereafter develop and/or maintain
+appropriate contingency arrangements, through agreements with affected parties and emergency
+services;
+7)
+liaise and maintain effective communications with the emergency services ensuring all parties
+have up to date information, relevant telephone contact numbers, etc. and regarding regular
+emergency drills and exercises, and ensure they are familiar with tunnel equipment and its
+operation. See CS 452 [Ref 8.N] for guidance on emergency exercises and drills;
+8)
+keep records of all tunnel maintenance proposals, reports, activities, certificates, etc.;
+9)
+undertake training of staff to ensure their safety and levels of competency. For appropriate staff,
+this should include maintaining currency with best international practice, new developments and
+thinking;
+10)
+co-ordinate with contractors responsible for the maintenance of the motorway communications
+system provisions within the tunnel;
+11)
+management of illegal access by pedestrians in vehicle only tunnels.
+NOTE 1
+The TOA is appointed by the Overseeing Organisation. Under some contractual arrangements the
+TOA can be part of the Overseeing Organisation. Any tunnel-specific maintenance requirements will be
+set out by the TOA.
+NOTE 2
+The TOA can carry out the role of maintainer itself, or appoint one or more specialist sub-contractors to
+undertake maintenance works, as instructed by the TOA.
+2.2
+In respect of maintenance responsibilities, the Tunnel operating authority (TOA) must:
+1)
+ensure that a complete and up-to-date set of tunnel documentation, including the Health and
+Safety File under CDM Regulations ( UKSI 2015/51 [Ref 21.N]), emergency procedures,
+operating manuals is maintained and available at all times;
+2)
+notify the Health and Safety Executive of relevant safety delegations and appointments and
+correspond as necessary to comply with CDM Regulations (see Section 3).
+2.3
+The TOA shall manage safety risks and maintain the tunnel in accordance with requirements for safety
+risk assessments applicable for the Overseeing Organisation.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+3.
+Organisation and management of maintenance
+General
+Maintenance organisation
+3.1
+The maintenance organisation shall be quality assured and accredited according to BS EN ISO 9001
+[Ref 17.N], and be competent to undertake its duties.
+NOTE 1
+Evidence of competence can be demonstrated by certification against NHSS Sector Scheme 22
+'Particular Requirements for the Application of ISO9001:2015 for the Management, Operation,
+Installation and Maintenance of Road Tunnels NHSS 22 [Ref 7.I]] .
+NOTE 2
+This sector scheme document relates to the quality management system requirements for the
+management, operation, installation and maintenance of road tunnels. It sets out to identify common
+particular requirements of BS EN ISO 9001 [Ref 17.N] for Organisations and Certification Bodies
+engaged in the sector, and the minimum qualifications that an assessor/auditor requires. The
+document is complementary to and is to be read in conjunction with BS EN ISO 9001 [Ref 17.N].
+NOTE 3
+The organisation of maintenance of an individual tunnel can depend on whether it is manned or
+unmanned.
+NOTE 4
+Manned tunnels can have their own dedicated management structure and resources who take
+responsibility for traffic surveillance and the safe operation of the tunnel, including response to
+incidents and emergencies. This structure can include dedicated maintenance staff.
+NOTE 5
+Unmanned tunnels can be equipped with automatic detection facilities and does not have permanent
+operating and monitoring staff at the tunnel. They have arrangements for rapid response in the event of
+equipment failure or other emergencies. Responsibility for initiating action in connection with tunnel
+equipment in unmanned tunnels varies and can depend on specific agreements and arrangements with
+the emergency services.
+3.2
+Whether a tunnel is manned or not, emergency cover shall be provided on a 24-hour basis, within a
+schedule of agreed operational response times, to carry out or oversee all maintenance work (including
+that contracted out).
+NOTE 1
+Road tunnels can have varied management arrangements in relation to access, control, records and
+for management of specialist sub-contractors.
+NOTE 2
+The operation of a road tunnel is sometimes carried out on a shared responsibility basis. Typically, the
+local highway authority can have responsibility for all highway maintenance and the Overseeing
+Organisation can have responsibility for the tunnel structure and its equipment.
+Maintenance staff
+3.3
+The staff concerned with inspection, operation and maintenance of road tunnels shall be competent
+and have the necessary skills, qualifications, knowledge and experience to carry out their duties and
+responsibilities effectively.
+3.4
+Staff shall cover the spectrum of management, technical, maintenance and operational skills needed
+for effective maintenance of road tunnels and be capable of specific communication with tunnel
+stakeholders.
+3.4.1
+Senior tunnel operational and maintenance staff should be appointed at an early stage in the design of
+a new tunnel, to be available for consultation during the planning, design and construction processes.
+3.4.2
+Where tunnel maintenance staff carry out other functions such as routine traffic management and
+emergency response, their availability for maintenance tasks should not be compromised by their other
+duties.
+3.5
+Staff shall not be assigned to specific tunnel duties unless they have received the appropriate training
+and have been formally assessed for competence.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+3.6
+A continuous and specific tunnel training programme, including refresher courses, shall be developed
+to ensure that tunnel staff are knowledgeable and proficient in all aspects of the tunnel engineering and
+control systems.
+3.7
+Records shall be kept of the tunnel-specific training received by staff, and regular reviews undertaken
+to identify future training needs.
+3.8
+The tunnel maintenance team shall include those with qualifications and authorisation to comply with
+statutory safety procedures such as 'permit to work' systems relating to high voltage equipment,
+confined spaces and working at height.
+Quality plan
+3.9
+A quality plan shall be developed and submitted in accordance with GG 102 [Ref 16.N].
+3.9.1
+The quality plan should contain a tunnel-specific management strategy that sets clear and sustainable
+performance objectives, delegates responsibility and establishes lines of communication with tunnel
+stakeholders.
+3.9.2
+The quality plan should explain how:
+1)
+tunnel project briefs can be established/clarified and periodically reviewed and communicated;
+2)
+appropriate tunnel-specific resources and tools are to be identified, allocated and managed and
+how suppliers are to be assessed and approved for use;
+3)
+audit trails can be generated and made readily accessible through a controlled filing and
+archiving system;
+4)
+the training and development needs of staff are to be identified and delivered.
+3.9.3
+Regular meetings should be held with the Overseeing Organisation, TOA and other parties, to review
+the tunnel specific quality plan and renew the key objectives.
+Maintenance objectives
+3.10
+The following maintenance objectives shall apply to all tunnels:
+1)
+tunnel is open and safe;
+2)
+ensure safety of road users, tunnel operational staff and other roadworkers;
+3)
+understand the needs of road users and neighbours;
+4)
+maintain tunnel assets in a safe and serviceable condition;
+5)
+obtain value for money through a whole-life cost approach;
+6)
+continuity of tunnel system operation;
+7)
+minimise time scale of an emergency from initial assessment to completion of repairs;
+8)
+understand the potential effects of equipment failures on safety and traffic flow through the tunnel;
+9)
+whether the tunnel can remain operational while the fault or failure is rectified;
+10)
+knowledge of the location of equipment to be maintained;
+11)
+understand and minimise environmental impact;
+12)
+be sustainable; and,
+13)
+ensure resilience in tunnel operation.
+3.11
+A risk management approach shall be adopted in planning maintenance (see 'Determining and
+reviewing maintenance recommendations subsection of this section.
+3.11.1
+The TOA should consult with the Overseeing Organisation regarding the appropriate safety risk
+assessment requirements to be adopted.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+Constraints
+3.12
+The maintenance framework shall be developed within the constraints of relevant legislation, financial
+rules of the Overseeing Organisation and tunnel-specific requirements.
+3.12.1
+As part of the maintenance framework workplace hazards within the tunnel, associated service
+buildings, workshops and work compounds should be identified.
+3.13
+The TOA and the tunnel maintenance organisation and other suppliers must comply with the
+'Construction (Design and Management) Regulations 2015' UKSI 2015/51 [Ref 21.N].
+NOTE 1
+The Construction (Design and Management) Regulations 2015 UKSI 2015/51 [Ref 21.N] apply to the
+majority of tunnel maintenance activities, according to regulations 2(1)a and 2(1)e. Where not specified
+in the contract, advice can be sought from the Overseeing Organisation in designating the 'Client' under
+these regulations. CDM Regulations include the appointment of a Principal Designer and Principal
+Contractor, provision of information, preparation of a construction phase plan, assessment of
+competence, allocation of resources and the completion and maintenance of a health and safety file.
+NOTE 2
+Identification of workplace hazards within compounds. This is of direct relevance to tunnel operators'
+compounds and workshops, and its principles can be applied to hazards in control rooms, service
+buildings and in the tunnel.
+Maintenance funding
+3.14
+Funding of future maintenance for new or refurbished tunnels shall be planned and based on inspection
+information and the recommended service life of components and equipment.
+3.14.1
+Opportunities should be taken to implement efficiencies and to coordinate maintenance activities
+around planned tunnel closures, and where appropriate to bulk change equipment in order to ensure
+continued safe operation.
+3.15
+For an operational tunnel an evidence-based business plan for maintenance shall be developed and
+linked to the inspection cycle (see CS 452 [Ref 8.N]) to support the case for future funding over a rolling
+3-year programme.
+3.15.1
+The business plan should identify what is to be achieved, the evidence, alternative options, risks
+addressed, method, timing and quality.
+3.15.2
+The plan should include funding provisions to deal with emergencies, contingencies and capital
+replacement items.
+3.15.3
+Costs in the business plan may be grouped under the following headings:
+1)
+staffing;
+2)
+planned maintenance;
+3)
+emergency maintenance or contingency;
+4)
+overheads such as vehicles and buildings; and,
+5)
+capital replacement.
+Planned closures
+3.16
+The primary constraints shall be the demand to keep the tunnel open to traffic as much as possible,
+and to be safe for road users and tunnel operational staff.
+NOTE
+Local conditions influence the nature, timing and frequency of planned tunnel maintenance activities.
+3.17
+Closures shall be planned and activities prioritised to achieve the maximum amount of maintenance
+work per planned closure.
+3.17.1
+Set-up times, contingencies, and safety checks before re-opening should be assessed.
+3.17.2
+Planned closures should, wherever practical, avoid periods of peak day, holiday and local event traffic.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+NOTE
+Closures tend to be limited to periods of low traffic flows, for example late evening through to early
+morning and/or during weekends.
+3.18
+Closures shall be agreed with the Overseeing Organisation in advance.
+3.18.1
+Other organisations affected by the closure should be consulted in the planning process.
+3.18.2
+Road users and neighbours affected by the planned closure should be provided with information about
+the closure and, where appropriate and necessary, alternative traffic routeing.
+Management of maintenance
+Maintenance standards
+3.19
+Maintenance requirements and associated activities shall be consistent with, and not compromise, the
+basic design assumptions of the tunnel as listed in CD 352 [Ref 2.I] and the tunnel OMM.
+NOTE
+Maintenance and performance levels and ongoing requirements are developed in consultation with the
+TDSCG and the prospective TOA during the tunnel design process.
+3.19.1
+Tunnel-specific maintenance requirements or levels should typically be reviewed at intervals of not less
+than 3 years, after principal inspections, and with additional reviews when specific maintenance issues
+are identified.
+Maintenance strategy
+3.20
+A tunnel specific maintenance strategy shall be developed by the TOA to ensure delivery of effective
+maintenance over the lifetime of the tunnel.
+3.20.1
+In developing a maintenance strategy, safety levels for users, fault levels, costs of contractor call-out,
+and disruption due to unplanned tunnel closures should be assessed.
+NOTE 1
+Typically major tunnel refurbishment can be needed every 15 years, but the timing can depend on
+safety structure and equipment performance, and can require extensive planning.
+NOTE 2
+The following documents are relevant to the development of a maintenance strategy:
+1)
+tunnel operation and maintenance manual (OMM) and tunnel inspection and maintenance
+records;
+2)
+Overseeing Organisation's documents for the management and maintenance of technology
+assets;
+3)
+Well-managed Highway Infrastructure – A Code of Practice (UK Roads Liaison Group) UKRLG
+WMHI [Ref 11.I].
+3.20.2
+The tunnel maintenance strategy should aim to avoid unplanned tunnel closures through prudent
+preventative maintenance and optimisation of tunnel closures, as well as use of reliable equipment.
+3.20.3
+Tunnel service levels and the need for equipment replacement should be assessed when planning and
+costing a maintenance strategy, and determining the timing and intervals between closures.
+3.20.4
+The maintenance strategy should anticipate the extent of maintenance requirements, lane closure
+times available, noise and light pollution restraints, identification of any weak and vulnerable links in the
+system, the need for contingency planning, availability of funding, relationships with manufacturers and
+term contractors, and the emergency services.
+3.20.5
+The maintenance strategy should include the need for flexibility to deal with unplanned events and
+make changes in the light of experience.
+NOTE 1
+There can be advantages into dividing work into:
+1)
+tunnel zones;
+2)
+specialist trades;
+3)
+expected times to complete each task;
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+4)
+breaking down large tasks into smaller ones on a logical basis;
+5)
+concentration on repeated or extensive faults and their elimination;
+6)
+switching of items in-service to even out wear and tear.
+NOTE 2
+Other factors to be included in the maintenance strategy:
+1)
+equipment and component service life expectancy;
+2)
+obsolescence and spares availability;
+3)
+ease of maintenance;
+4)
+specialist tools and equipment;
+5)
+specialist access equipment;
+6)
+communications;
+7)
+inspections;
+8)
+feedback from incidents;
+9)
+traffic management.
+3.21
+A whole-life cost approach shall be adopted for developing the maintenance strategy.
+NOTE 1
+Newer equipment can be cheaper to install and more reliable than existing provisions, even if the older
+equipment is still functioning. The older equipmentcan be difficult to maintain, if spares and product
+support are unavailable.
+NOTE 2
+It can prove cost effective to replace complex equipment with equipment that is simpler with fewer
+points of failure or is fail-safe.
+3.22
+Once the maintenance strategy is established, maintenance planning objectives for the short, medium
+and long term shall be used to assist in the decisions as to which items of equipment can be
+maintained on a daily, weekly, monthly, yearly, urgent or routine basis.
+NOTE
+Road tunnel maintenance and inspection activities can generally fall into one of the following four
+categories:
+1)
+inspection;
+2)
+corrective maintenance;
+3)
+planned and preventative maintenance;
+4)
+major overhaul and refurbishment of the tunnel equipment and tunnel fabric.
+Monitoring and testing
+3.23
+In addition to the planned inspections of the tunnel structure and M&E equipment, a monitoring regime
+shall be undertaken which includes regular quantitative measurements of light outputs from tunnel
+luminaires, vibration of rotating machinery and performance measurements of other equipment.
+NOTE
+Details of inspection types and reporting records are given in CS 452 [Ref 8.N].
+3.23.1
+The monitoring should be logged and failure rates against hours run established.
+3.23.2
+Periodically the monitoring logs should be reviewed, and assessed to assist decisions around future
+maintenance work to determine the need for increased frequency of monitoring, repair or replacement.
+NOTE
+Inspection, monitoring and testing plans are required to ensure that all M&E equipment and associated
+controls can be examined, taking account of:
+1)
+focus on known faults;
+2)
+where there are large numbers of identical equipment;
+3)
+where equipment is not easily accessible such as behind secondary cladding panels;
+4)
+equipment to be prioritised as it approaches its predicted end of serviceable life;
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+5)
+ensuring that all equipment is inspected.
+Lane closures
+3.24
+Lane, bore or full tunnel closures shall be implemented to protect the workforce from both highway and
+works traffic when maintenance and inspection works are within a tunnel.
+3.25
+Planned tunnel maintenance works shall assess, mitigate and allow for:
+1)
+traffic within a tunnel, that can produce noise levels in excess of 95dB(A);
+2)
+traffic that can produce turbulent air conditions, greater than in open air, with positive and
+negative (suction) pressures which could effect those on foot or working at height;
+3)
+air quality;
+4)
+projections from vehicles that can hit workers or unbalance working platforms etc.
+3.25.1
+Physical barriers, signage and other measures such as impact protection vehicles should be used to
+protect the workforce from errant vehicles in accordance with TSM Chapter 8 [Ref 9.I].
+Equipment settings during maintenance
+3.26
+Planned tunnel maintenance shall include the status of safety systems and the appropriate mitigation
+measures.
+3.27
+Where safety systems are temporarily out of operation during maintenance works the risks shall be
+assessed and mitigation measures developed for replacement safe systems.
+3.27.1
+During maintenance activities the tunnel and approach lighting and tunnel ventilation may need to be
+enhanced so that staff can work in safety and efficiently.
+3.28
+Pollution levels can be higher during tunnel maintenance work and shall be continuously monitored.
+3.29
+Maintenance activities shall be planned so that pollution levels are restricted to levels to ensure that
+staff can work in safety and efficiently.
+3.30
+During tunnel maintenance operations the switching of luminaires shall be arranged to give continuity
+of lighting throughout the length of the tunnel.
+Access and safety procedures
+3.31
+All tunnel staff, maintenance personnel and contractors involved with entering the tunnel shall:
+1)
+be familiar with the tunnel site layout;
+2)
+be issued with procedures of tunnel operations, including lane and tunnel closures, and signed
+for;
+3)
+follow the designated working route for personnel in the tunnel;
+4)
+notify tunnel operator and be recorded on entry and exit from the tunnel and associated buildings;
+and,
+5)
+avoid lone working.
+3.32
+The tunnel operator shall be provided with details of any works that can adversely affect the traffic or
+tunnel services.
+3.33
+Before tunnel maintenance personnel and other roadworkers enter a tunnel, the environmental
+conditions shall be assessed for safe working conditions.
+3.34
+Tunnels with mechanical ventilation shall have their bores purged of vehicle pollution by manual
+operation of the fans prior to any work commencing.
+3.35
+Tunnels with only natural ventilation shall be allowed sufficient time for vehicle pollution to clear and
+readings of CO, NO2 and other pollutants to be taken prior to entry to the tunnel.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+NOTE
+Service building entry doors are normally protected by intruder alarm systems. The alarm system can
+be switched off by maintenance staff on entering the building and reactivated on leaving.
+3.36
+Some service building rooms are protected by fixed fire suppression systems and there are procedures
+that shall be followed such as switch-off before entry and engage after exit.
+Tunnel documentation and maintenance records
+3.37
+Tunnel documentation and maintenance records shall be retained and kept up to date by the TOA.
+NOTE
+Tunnel documentation and maintenance records are essential for the safe operation and effective
+maintenance of the tunnel assets.
+3.38
+The tunnel documentation shall include details of the requirements to maintain the asset base including
+the following:
+1)
+corrective/emergency maintenance assessment and maintenance requirements;
+2)
+routine/planned maintenance requirements;
+3)
+knowledge of failure modes and effects analysis on an asset (FMEA);
+4)
+appropriate holding of spares and consumables to support an asset throughout its expected life;
+5)
+maintenance logistics to support each asset;
+6)
+commissioning and testing records.
+3.39
+Tunnel operation and maintenance manuals shall be reviewed.
+3.40
+Records of tunnel inspections and maintenance shall be in accordance with CS 452 [Ref 8.N] for M&E
+systems and CG 302 [Ref 1.N] for structures.
+3.41
+The tunnel documentation shall include detailed procedures and methods for tunnel operation,
+maintenance, inspection and emergency response.
+NOTE 1
+Tunnel maintenance records provide information on past performance upon which future decisions can
+be made, evidence that acceptable standards are achieved and information for future budgeting.
+Periodic statistical, logistical and financial analysis of the records can enable the performance of
+engineering assets to be assessed.
+NOTE 2
+On a scheme-specific basis, records can indicate significant trends in performance, which can be
+related to changes in operational and maintenance strategies, or they identify the potential for, and
+timing of, equipment failures.
+3.42
+Tunnel records shall be collated and archived so that they remain secure, accessible and retrievable.
+NOTE
+Accurate records of inventory, condition and operation are essential for future management of the
+tunnel and to deal with customer enquiries and claims.
+3.43
+Summary operational records for individual tunnels shall be submitted to Overseeing Organisations in
+accordance with CS 452 [Ref 8.N] for M&E installations and CG 302 [Ref 1.N] for structures, to assist
+future research needs, policy reviews, benchmarking and value for money assessments.
+Determining and reviewing maintenance recommendations
+3.44
+Tunnel maintenance recommendations and performance shall be regularly reviewed in accordance
+with the Overseeing Organisation requirements in this document.
+3.44.1
+Proposed tunnel maintenance recommended actions should be reviewed at least annually.
+3.44.2
+The equipment manufacturers' recommendations should be taken as a starting point for scheduling
+equipment maintenance in tunnel documentation.
+NOTE
+Equipment manufacturers' recommendations are normally specified as time intervals based on
+maximum duty, but commonly actual use can be less. For example, fans in tunnels with uni-directional
+traffic can be used only occasionally. Conversely, the tunnel environment can be more aggressive and
+corrosive than is often assumed by manufacturers, which can act to shorten the life of equipment.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+3.45
+The reasons for any variations to the maintenance schedules in tunnel documentation shall be
+evidence based on past recorded performance, and the effects of change monitored and reviewed.
+3.46
+Inspection or maintenance intervals shall not be extended beyond those recommended by equipment
+manufacturers.
+3.46.1
+Where this is unavoidable then risks should be assessed and warranty conditions discussed with the
+manufacturer.
+3.46.2
+Where compliance with manufacturer's recommendations cannot be achieved this should be reported
+to the Overseeing Organisation.
+3.47
+An audit trail shall be maintained to detail any deviations from the OMM manual or manufacturer's
+recommendations.
+3.48
+Wherever possible, the opportunity shall be taken to use feedback from plant monitoring equipment to
+inform future maintenance planning.
+Asset management software
+3.49
+A software-based asset management system shall be implemented as agreed or instructed by the
+Overseeing Organisation.
+3.50
+All electronic data shall be in a format as required by the Overseeing Organisation.
+NOTE
+Where hand-held data capture devices are used, they can be configured to interface with the asset
+information system.
+Risk assessment
+3.51
+Tunnel operation and maintenance must comply with The Management of Health and Safety at Work
+Regulations UKSI 1999/3242 [Ref 23.N] which require regularly reviewed risk analyses to be
+undertaken.
+3.52
+The risk reviews in accordance shall include the safety of the public, highway neighbours, road workers
+and other parties.
+3.52.1
+The risk analysis process should identify all tunnel hazards, assessment of their likelihood of
+occurrence, their consequences and their management and mitigation.
+NOTE 1
+The document 'Guidance on Risk Assessment at Work: Health and Safety' 89/391/EEC [Ref 3.I]
+provides useful general information.
+NOTE 2
+Other information on safety risk assessment is available from the Overseeing Organisation.
+NOTE 3
+For straightforward tunnel operations-based applications, risk assessment can involve a review of the
+task, followed by the setting up of a risk register based on a simple risk-rating matrix. More complex
+tunnel operations can involve setting up a workshop of all interested parties (police, emergency
+services etc) to identify and assess a full range of hazards affecting the operation.
+Maintenance planning and schedules
+3.53
+Maintenance schedules forming part of the tunnel maintenance strategy shall be developed from the
+requirements and recommendations contained in the tunnel OMM.
+3.53.1
+When routine maintenance is being undertaken the opportunity should be taken to visually inspect
+adjacent equipment and components.
+3.53.2
+The planned maintenance workload should be evenly distributed throughout the year to minimise the
+number and duration of tunnel closures.
+NOTE 1
+Evenly distributing the planned maintenance workload can reduce disruption to traffic and the costs
+associated with each tunnel closure.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+NOTE 2
+Planning of maintenance tasks can be constrained by factors such as the availability of access time,
+traffic management physical access limitations, and proximity working limitations .
+NOTE 3
+A rolling programme can be used to distribute work. For example, if luminaires are to be changed at
+intervals of one year, and four tunnel closures are scheduled each year, then one quarter of the lights
+could be replaced during each closure. A rolling programme has the additional benefit that peaks of
+equipment failure can be avoided.
+NOTE 4
+Planned maintenance carried out in tunnel service buildings can be scheduled outside the tunnel
+closure programme. It is to be included into the overall maintenance schedule.
+3.53.3
+Before each tunnel closure, the planned maintenance tasks, any unplanned maintenance works and
+the availability of spares and consumables should be reviewed.
+3.54
+Programmed maintenance works and associated traffic management works shall be subject to a risk
+assessment.
+3.55
+On completion of the planned tunnel closure, the maintenance activities shall be reviewed, and
+improvements for future works noted.
+3.56
+Any faults or incipient problems not rectified shall be recorded and scheduled for future action.
+3.57
+Defects recorded and scheduled for future action shall be assigned priority for repair within planned
+programmes of work.
+Works instructions manual
+3.58
+The procedures to be followed in the implementation of the tunnel OMM and maintenance strategy
+shall be clearly set out in a tunnels works instructions manual.
+3.58.1
+The procedures to be followed in the implementation of the tunnel OMM and maintenance strategy
+should implement current best practice for fulfilling all relevant legal and contractual obligations.
+3.59
+During tunnel maintenance activities the tunnel must be defined as a temporary site in accordance with
+European Directive - Temporary or mobile construction sites 92/57/EEC [Ref 19.N].
+Value for money
+3.60
+The Overseeing Organisation's whole-life-based value management requirements shall be followed
+during the planning and design stages of major capital maintenance of existing tunnels.
+Spares and stock control
+3.61
+A stock of spares and consumables shall be maintained to enable the tunnel maintainer to undertake
+planned and emergency maintenance works.
+3.61.1
+The stock control register of equipment spares and consumables should take into account:
+1)
+the amount of stock held;
+2)
+stock location;
+3)
+availability of stock;
+4)
+stock retrieval;
+5)
+rate of use of stock;
+6)
+reorder levels;
+7)
+quantities required; and,
+8)
+lead-time for supply.
+NOTE
+Agreements with suppliers for rapid delivery of parts at short notice, consistent with operational
+requirements, can reduce expenditure and storage space.
+3.61.2
+For older equipment the possibility of spares no longer being available should be kept under review.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+3.61.3
+The review should assess whether the stock of spares is increased or obsolete equipment replaced.
+NOTE
+Where practical the store can be located within easy access to the tunnel and provide a suitable
+environment to avoid any equipment damage or deterioration. This particularly applies in the case of
+computer hardware and electronic components.
+3.62
+The store shall be maintained safe and secure in use.
+Corrective maintenance procedures
+3.63
+Effective tunnel procedures shall be developed for recording and correcting all known or suspected
+equipment failures or damage.
+3.63.1
+In developing procedures, risk assessment should be undertaken to assess the potential emergencies,
+including such factors as:
+1)
+tunnel is open and safe;
+2)
+the potential effects of equipment failures on safety and traffic flow through the tunnel;
+3)
+whether the tunnel can remain operational while the fault or failure is rectified;
+4)
+location of affected equipment, such as roof, traffic space, pavement, ducts.
+3.64
+The following general principles shall apply when developing tunnel emergency and corrective
+maintenance:
+1)
+there are clear procedures for the call-out of maintenance staff;
+2)
+defined actions to be taken in the event of faults, such as whether a lane closure or bore closure
+is required;
+3)
+guidelines are in place for the response time for each category of defect, such as those that
+require immediate attention, and those that can be left until the next working shift or the next
+routine maintenance; and,
+4)
+meeting the minimum operating requirements for the tunnel including the percentage of
+operational fans that are required to meet the design criteria for ventilation, and/or the numbers of
+luminaires that can fail before the lighting system requires emergency maintenance.
+NOTE 1
+Faults normally require direct inspection and assessment by maintenance staff available on a 24-hour
+basis. Increasingly equipment can have remote control reset and diagnostic facilities, which enable the
+operational and maintenance staff to manage emergencies from the tunnel control centre or adjacent
+tunnel service buildings.
+NOTE 2
+The purpose of planned preventative maintenance is maintaining safety, preservation of investment
+and prevention of unscheduled closures and includes:
+1)
+specialist inspection of equipment;
+2)
+performance testing of equipment;
+3)
+calibration of equipment;
+4)
+cleaning operations;
+5)
+overhauls of equipment;
+6)
+systems testing of safety critical items (including regular testing, auto diagnostics, continuous
+monitoring) such as for traffic management, programmable logic controllers (data processing),
+and communication systems.
+NOTE 3
+The purpose of major overhaul and refurbishment of the tunnel equipment and tunnel fabric is:
+1)
+to ensure long-term preservation of investment by acting on the agreed recommendations of the
+principal inspection reports;
+2)
+replacement of equipment;
+3)
+repairs of tunnel fabric.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 59
+======================================================================
+CM 430 Version 0.0.1
+3. Organisation and management of maintenance
+Tunnel users
+3.65
+When planning maintenance activities, the impact on tunnel users and neighbours shall be fully
+assessed, and measures put in place to mitigate the impact of those works and inform them in advance
+about traffic restrictions.
+NOTE
+Research Tunnel Vision [Ref 10.I] has found that users prefer that tunnels are well-maintained
+(including road surface, cleanliness and lighting) and that the environment meets high standards for
+ventilation and air quality for the safety, health and comfort of all users.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 59
+======================================================================
+CM 430 Version 0.0.1
+4. Tunnel structure cleaning
+4.
+Tunnel structure cleaning
+General
+4.1
+The cleaning of the tunnel structure shall be in accordance with:
+1)
+the tunnel OMM;
+2)
+any additional requirements described within the contract for maintenance of the tunnel.
+4.2
+The exposed surfaces of the tunnel structure, including cladding, shall be cleaned to maintain the
+required level of light reflectance from the tunnel walls.
+NOTE 1
+Maintaining the required reflectance can enhance safety and reduce the energy consumption of the
+lighting system.
+NOTE 2
+Cleaning of the structure can also reduce the risk of deterioration and fire damage through the removal
+of potentially corrosive, toxic and flammable deposits. Particular care is required with dust removal and
+checks undertaken on the nature of any contaminants in the dust.
+NOTE 3
+Cleaning can offer other operational benefits for inspection and maintenance.
+NOTE 4
+Maintaining the tunnel structure in a clean condition can also create a favourable and comforting
+impression for the road user.
+4.3
+Contaminants in dust shall be checked prior to removal, so that safe methods of removal are adopted.
+Frequency
+4.4
+Surfaces which are designed to have a high reflectance shall be cleaned at intervals to achieve the
+required luminance at all times.
+NOTE
+The high reflectance surfaces are normally the lower, lightly coloured, part of the tunnel walls,
+especially at the portals. Lighting can be managed to achieve the required luminance levels.
+4.4.1
+The exact frequency of cleaning required is tunnel specific and may depend on a number of factors
+such as season of year, highway gradient, highway geometry, traffic speed and traffic composition.
+NOTE 1
+Weather can also influence cleaning requirements, for example, a tunnel can become very dirty if
+approach roads are salted.
+NOTE 2
+The need for cleaning can also be influenced by other factors such as any leakage through and
+staining of the tunnel structure.
+NOTE 3
+Cleaning can be required before maintenance activities.
+4.4.2
+The optimum cleaning frequency for a particular tunnel structure should be established by documented
+trials.
+4.4.3
+Different cleaning frequencies may be tested in different parts of a tunnel in order to determine the
+optimum frequency.
+4.5
+Parts of a tunnel where high reflectance is not required (notably the tunnel crown) shall be cleaned
+where the build-up of deposits poses a significant risk of detritus falling onto the carriageway, a fire
+hazard, or a significant soiling risk to personnel during maintenance work.
+NOTE
+The build-up of dust or presence of oil can present a fire hazard.
+4.6
+Accumulation of silt and other material in the sumps and blockages in cross drains shall be removed at
+intervals established by operational experience.
+NOTE
+Factors such as the weather (winter salting on approach roads) and the effectiveness of gully traps to
+remove silt, influence the rate of accumulation.
+4.6.1
+Additional cleaning may be required after a spillage.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 59
+======================================================================
+CM 430 Version 0.0.1
+4. Tunnel structure cleaning
+4.7
+Where daylight screens are provided at portal structures, cleaning shall be carried out to maintain their
+effectiveness.
+NOTE
+Louvres in screens usually have slender rib construction and can be vulnerable to corrosion and other
+forms of surface deterioration.
+Asbestos
+4.8
+Asbestos assessments shall be undertaken by the TOA in accordance with GG 105 [Ref 2.N] 'Asbestos
+Management in Trunk Road Assets' regarding the presence of asbestos in the tunnel and any
+mitigation measures required, and used to safely manage risks of asbestos exposure to staff during
+tunnel cleaning operations.
+4.9
+If the assessments have not been undertaken then the assumption shall be made that asbestos can be
+present in the tunnel, and cleaning operations planned accordingly.
+NOTE
+In some tunnels, particularly those with segmental linings constructed before 1970, asbestos can be
+found in the caulking rope between segments. Asbestos cement was sometimes used to form precast
+air ducting formers. In even older tunnels, asbestos has been found in fireproofing. Small
+concentrations of asbestos dust from vehicle brake linings etc. has been found in dust layers trapped in
+false ceiling and cladding areas. All these sources of asbestos can degrade with time, permitting fibres
+to become airborne. This is particularly serious if fibres are present in the ventilation airways and ducts,
+where higher air velocities can disturb fibres more readily.
+Scheduling
+4.10
+Individual tunnel cleaning operations shall be scheduled in coordination with other in-tunnel
+maintenance operations.
+NOTE
+Many tunnels schedule tunnel cleaning as the first major activity during a maintenance closure of the
+tunnel. Other tunnel managers prefer to schedule cleaning as the last operation.
+4.11
+Cleaning shall not be carried out if freezing conditions are predicted to affect the tunnel.
+4.11.1
+Ventilation in damp conditions can cause temperatures to fall below ambient due to latent heat losses
+and allowances should be made for this phenomenon.
+Traffic management and precautions
+4.12
+Tunnel cleaning shall be carried out during planned tunnel closures.
+NOTE
+The road layout in some tunnels can facilitate partial tunnel cleaning during lane closures rather than
+full closures. In these circumstances additional safety precautions are required including the effects of
+spray on passing vehicles, and can influence the selection of cleaning methods selected.
+4.13
+Equipment such as: sensors for CO, visibility and other factors, lighting units, fans, emergency
+distribution panels shall be protected and isolated from potential water penetration and its effects.
+NOTE
+Cleaning operations can pose hazard by the noise and spray generated.
+4.13.1
+It may be necessary to exclude and protect other tunnel maintenance personnel from the immediate
+area in which cleaning operations are taking place to avoid potential hazards, due to exposure to any
+detergents or other chemicals used in the cleaning process.
+Cleaning processes
+4.14
+Cleaning methods and methodology selected shall be based on the deposits to be removed from the
+structure and the nature of the structure itself, including the lining / cladding / passive fire protection
+system and fixing materials, and any surface finishes which have been used.
+4.14.1
+Where possible, advice should be sought from manufacturers of paints and cladding on the appropriate
+cleaning techniques.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 59
+======================================================================
+CM 430 Version 0.0.1
+4. Tunnel structure cleaning
+NOTE
+Types of paint used in tunnels have been found to be vulnerable to damage by high pressure water
+jetting and cementitious based passive fire protection systems are susceptible to damage from water.
+4.14.2
+Effects of washing on electrical equipment should be checked.
+4.14.3
+A typical washing cycle may include a first pass in which a vehicle mounted spray bar is used to apply a
+detergent solution under pressure to the lining. A second pass, using vehicle mounted rotating brushes
+can be used to scrub the lining and a third pass with water under pressure to rinse the lining
+4.14.4
+The optimum process may involve a combination of pressure washing with detergents and brushing
+using vehicle-mounted systems.
+4.15
+Washing water (whether or not detergents are used) shall be disposed of in agreement with the
+Environment Agency or the appropriate wastewater authority.
+4.15.1
+Wastewater should be tested for contamination before disposal.
+NOTE
+Wastewater is usually pumped away or taken away by tanker from site.
+Materials
+4.16
+A performance specification for tunnel cleaning shall be developed and implemented.
+4.16.1
+The performance specification should include the following:
+1)
+nature of the deposits to be removed;
+2)
+the substrate;
+3)
+risk of corrosive or other long-term detrimental effects on linings, fittings and equipment;
+4)
+environmental issues;
+5)
+health and safety of the workforce;
+6)
+disposal of wash water.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 59
+======================================================================
+CM 430 Version 0.0.1
+5. Inspections
+5.
+Inspections
+General
+5.1
+Road tunnels and their associated structures, equipment and systems shall be subjected to periodic
+inspections at regular intervals to assess and record their condition and to identify any further actions
+required to maintain safety and operational availability.
+NOTE
+Categories of inspection are given in CS 452 [Ref 8.N] for road tunnels and M&E systems,
+supplemented by CS 450 [Ref 4.I] for structural elements.
+Safety inspections
+5.2
+Safety inspections shall be carried out in accordance with CS 452 [Ref 8.N] and CS 450 [Ref 4.I].
+5.3
+Safety inspections shall be undertaken in accordance with the requirements in the tunnel OMM.
+Superficial inspections
+5.4
+Superficial inspections shall be carried out in accordance with CS 452 [Ref 8.N].
+NOTE
+The definition and frequency of superficial inspections are contained in CS 452 [Ref 8.N].
+General inspections
+5.5
+General inspections shall be carried out in accordance with CS 452 [Ref 8.N] and CS 450 [Ref 4.I].
+NOTE
+General inspections are defined in CS 452 [Ref 8.N] and comprise a thorough visual inspection of all
+reasonably accessible parts of the road tunnel and its M&E equipment.
+Principal inspections
+5.6
+Principal inspections shall be carried out in accordance with CS 452 [Ref 8.N] and CS 450 [Ref 4.I].
+5.6.1
+Principal inspections are defined in CS 452 [Ref 8.N] and comprise a close and detailed examination of
+all accessible parts of the tunnel and M&E systems and equipment, and may include removal of
+cladding, casings and other equipment.
+Special inspections
+5.7
+Special inspections shall be carried out in accordance with CS 452 [Ref 8.N] and CS 450 [Ref 4.I].
+NOTE
+Special inspections are defined in CS 452 [Ref 8.N] and comprise a close examination of a specific
+area or defect of concern.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 59
+======================================================================
+CM 430 Version 0.0.1
+6. Structure maintenance
+6.
+Structure maintenance
+General
+6.1
+The maintenance of the tunnel structure shall be in accordance with:
+1)
+the tunnel OMM; and,
+2)
+any additional requirements described within the contract for maintenance of the tunnel.
+NOTE
+Other sections of this document give requirements and advice for maintenance of other items within the
+tunnel.
+Asbestos assessment
+6.2
+An assessment must be carried out as to whether asbestos containing materials (ACM) are present in
+the structure in accordance with the Regulation 4 of the Control of Asbestos Regulations UKSI
+2012/632 [Ref 22.N] and GG 105 [Ref 2.N] 'Asbestos Management in Trunk Road Assets'.
+6.2.1
+Where there is no information on the presence of ACMs it should be presumed that materials do
+contain asbestos unless there is strong evidence that they do not.
+NOTE
+In some tunnels, particularly those with segmental linings constructed before 1970, asbestos can be
+found in the caulking rope between segments. Asbestos cement was sometimes used to form precast
+air ducting formers. In even older tunnels, asbestos has been found in fireproofing. Small
+concentrations of asbestos dust from vehicle brake linings etc. has been found in dust layers trapped in
+false ceiling and cladding areas. All these sources of asbestos can degrade with time, permitting fibres
+to become airborne. This is particularly serious if fibres are present in the ventilation airways and ducts,
+where higher air velocities can disturb fibres more readily.
+6.3
+All works and tunnel staff operations shall be planned based on the results of the asbestos assessment
+reports, or presumptions that asbestos is present.
+6.4
+All contractors shall be provided with a copy of the asbestos assessment report, or presumptions that
+asbestos may be present, and works planned accordingly.
+Routine maintenance
+6.5
+Routine maintenance shall be carried out in accordance with:
+1)
+the tunnel OMM; and,
+2)
+any other additional requirements described in the contract documentation for the tunnel
+maintenance contract.
+NOTE
+Routine maintenance does not include the repair or renewal of structural elements.
+Monitoring
+6.6
+Installed instrumentation on slopes at tunnel portals, such as rock anchors, and piezometers shall be
+monitored in accordance with the tunnel OMM.
+Testing
+6.7
+Mechanical supporting systems and safety critical fixings shall be tested for support strength and
+fixation with the tunnel structure, particularly where failure represents a safety risk.
+NOTE
+Further guidance is available in 'Management of safety critical fixings' CIRIA C778 [Ref 6.I].
+6.8
+The fixings shall be tested at intervals typically of one year.
+6.8.1
+The following typical tests should be carried out on one-fifth of all items, such that all items are tested
+every five years:
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 59
+======================================================================
+CM 430 Version 0.0.1
+6. Structure maintenance
+1)
+torque testing of all screws, bolts and other fastenings;
+2)
+testing of anchors and their fixity to the structure. This should be done in accordance with
+manufacturer's recommendations, taking care not to exceed the elastic limit of the anchor or
+supporting structure;
+3)
+isolation checks on points vulnerable to bimetallic corrosion;
+4)
+testing of electrical earths.
+Major maintenance
+6.9
+Major maintenance shall be planned and undertaken based on the information obtained from
+inspections, and any subsequent structural assessments, investigations and testing.
+6.9.1
+In planning major maintenance the root causes of defects, or the reasons for failure, should be
+identified so that works can address them and reduce the risk of recurrence.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 59
+======================================================================
+CM 430 Version 0.0.1
+7. Ventilation system
+7.
+Ventilation system
+General
+7.1
+The maintenance of all tunnel ventilation systems and associated monitoring, control equipment shall
+be in accordance with:
+1)
+the tunnel OMM;
+2)
+any additional requirements described within the contract for maintenance of the tunnel;
+3)
+manufacturer's recommendations.
+7.2
+A schedule of routine maintenance activities shall be prepared for all installed ventilation equipment
+and supporting monitoring and control equipment, including inspection and cleaning.
+NOTE
+Normally in-tunnel maintenance activities such as work on ventilation fans can be undertaken during
+full tunnel or bore closures..
+7.3
+Spare fans kept in store shall be included within the maintenance regime and be inspected periodically
+for signs of damage or corrosion, and the impellers rotated to maintain lubrication and prevent
+deterioration of the motor bearings.
+7.4
+Individual fans shall be electrically isolated, isolators locked off and warning notices posted, before any
+work is commenced.
+Ventilation fans
+Equipment access arrangements
+7.5
+Method statements shall be in place covering all elements of safely accessing both tunnel-mounted
+ventilation plant and equipment, and plant and equipment installed in plant rooms.
+7.6
+Lifting platforms shall be available for operatives to access in-tunnel jet fans, jet fan mounting
+arrangements and associated control and monitoring equipment.
+7.7
+Manufacturer's recommended methods for jet fan removal or installation shall be followed.
+NOTE 1
+Removal or installation of jet fans can require the use of specialist cradles.
+NOTE 2
+Fan maintenance procedures can require the application of a 'Permit to Work' system.
+7.8
+Equipment and personnel shall be kept clear of the air stream generated by operating fans, at both the
+inlet and outlet ends.
+Visual inspection
+7.9
+A visual inspection of all ventilation plant (both in-tunnel & plant room) shall be undertaken as part of
+routine tunnel maintenance activities as detailed in the tunnel OMM.
+7.10
+A visual inspection of jet fans shall be carried out at intervals typically of 3 to 4 months during planned
+tunnel closures and in accordance with manufacturer's recommendations.
+7.10.1
+The interior and exterior of the fan assembly, including the motor, impeller and sound attenuating
+sections, should be inspected for signs of wear, deterioration, overheating or build-up of foreign matter.
+7.10.2
+Particular attention is required to cowlings, covers, cones and other externally and internally accessible
+components and their fixings which should be examined to ensure they are safe and secure.
+7.11
+Plant room mounted fans, fire dampers and sound attenuators shall be inspected for damage or
+deterioration at intervals typically of 3 months and in accordance with manufacturer's recommendations.
+7.11.1
+Where expansion bellows are employed, these should be inspected for signs of deterioration and for
+loss of fixity.
+7.12
+Anti-vibration mountings, supports, bolts, fixings, linkages and connections shall be inspected for signs
+of corrosion, mechanical damage and build-up of foreign matter.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 59
+======================================================================
+CM 430 Version 0.0.1
+7. Ventilation system
+7.13
+All fan fixings that secure a fan assembly in place shall be inspected for signs of loss of contact
+between the fan fixing plate and the tunnel fabric mounting surface.
+NOTE
+Advice about fixings is contained in 'Management of safety critical fixings in-service' CIRIA C778 [Ref
+6.I].
+7.14
+Electrical accessories (such as connectors, isolators, junction boxes, cabling and conduits) shall be
+inspected for signs of corrosion, damage, overheating or build-up of foreign matter.
+7.15
+Where plenum chambers are subject to condensation all exposed metalwork shall be monitored for
+signs of corrosion as part of the ventilation system routine maintenance activity.
+NOTE
+Under certain atmospheric conditions some plenum chambers can be subject to condensation.
+Cleaning
+7.16
+Cleaning of all in-tunnel and plant-room ventilation plant shall be undertaken as frequently as required
+to ensure ongoing safe and efficient system operation.
+7.17
+Impeller blades, and the inside and outside of the sound attenuators shall be cleaned at intervals of
+typically 3 months and in accordance with manufacturer's recommendations.
+7.17.1
+Cleaning intervals should be reviewed and adjusted as necessary to co-ordinate with opportunities for
+access, levels of system operation and the extent of fouling by dirt and dust.
+Service
+7.18
+Routine plant servicing shall be undertaken in compliance with the manufacturers' requirements with
+additional servicing undertaken when a potential fault that requires attention is identified.
+7.19
+Where greasing and lubrication of motor bearings is required, this shall be included in the routine
+servicing.
+NOTE 1
+Manufacturers typically recommend that jet fans can be removed to the factory for a complete overhaul
+including stripping and repainting, and the replacement of all anti-vibration mountings at intervals of
+approximately 5 years. However, where there is infrequent usage and low fan running hours, the
+intervals at which complete fan factory overhauls are to be undertaken can be reviewed in discussion
+with the manufacturer.
+NOTE 2
+Routine monitoring through the plant monitoring and control system can highlight equipment failures
+and can give an indication of the health of the fan, for example through changes in bearing or winding
+temperatures or load current readings.
+NOTE 3
+The maintenance requirements for motor control gear and starters are similar to those required for
+typical electrical distribution and control equipment, see Section 13 Electrical power distribution.
+Functional testing
+7.20
+System functionality testing shall be undertaken for all installed ventilation fans and associated
+equipment in compliance with the requirements of the OMM.
+NOTE
+The following system functionality testing is typically undertaken at intervals of 3 months:
+1)
+the fans run in both directions and checked for undue noise and vibration;
+2)
+motor, impeller and blade mountings, casing and silencer joint fixings and electrical terminals
+checked to ensure they are in good order and tightened or replaced as necessary;
+3)
+anti-vibration mounts, safety chain and movement proximity switches checked and the movement
+detection system checked for functionality.
+7.21
+The following system functionality testing shall be undertaken at intervals of 12 months unless
+otherwise detailed in the OMM:
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 59
+======================================================================
+CM 430 Version 0.0.1
+7. Ventilation system
+1)
+all jet fan and plant room fan fixings that secure a fan assembly in place, and impeller bolts
+(where included), checked and torque-load tested;
+2)
+measurements made of fan starting and running currents, vibration and insulation resistance;
+3)
+blade clearances checked and adjusted if necessary.
+NOTE
+Measurement of insulation resistance can also be undertaken. It is not essential but is a useful
+diagnostic tool, which can reveal deterioration due to overheating or contamination.
+Fan handling equipment
+7.22
+All fan handling equipment is subject to periodic testing and certification. Inspection, maintenance and
+functional testing of handling equipment shall be carried out in accordance with the manufacturer's
+recommendations, UKSI 1998/2307 [Ref 11.N] 'Lifting Operations and Lifting Equipment Regulations
+1998 (LOLER)' and UKSI 1992/2793 [Ref 14.N] 'The Manual Handling Operations Regulations 1992,
+as amended in 2002'.
+Ductwork and dampers
+Equipment access arrangements
+7.23
+Method statements shall be prepared to outline ventilation duct access by maintenance operatives for
+inspection, cleaning and repair, covering safe access to all installed ductwork and associated flow
+balancing mechanisms and dampers/fire dampers.
+NOTE
+Ductwork (and associated equipment) inspection, cleaning and maintenance procedures can require
+the application of a 'Permit to Work' system.
+Visual inspection
+7.24
+A visual inspection of all installed ductwork and associated flow-balancing mechanisms, dampers/fire
+dampers and actuators shall be undertaken as part of a tunnel general inspection.
+7.25
+Dampers and actuators shall be inspected for signs of wear, deterioration or build-up of foreign matter.
+7.26
+Electrical accessories (such as connectors, isolators, junction boxes, cabling and conduits) shall be
+inspected for signs of corrosion, damage, overheating or build-up of foreign matter.
+Cleaning
+7.27
+Cleaning of all installed duct-work and associated flow-balancing mechanisms and dampers/fire
+dampers shall be undertaken as frequently to ensure ongoing safe and efficient system operation.
+7.28
+The main ventilation ducts, dampers, filters and grilles shall be cleaned (particularly the registers in
+exhaust slots which can become severely restricted by dirt).
+7.28.1
+Cleaning intervals should be detailed in the OMM.
+Service
+7.29
+Routine servicing of ductwork, dampers and actuators shall be undertaken in compliance with the
+manufacturers' requirements.
+NOTE
+Where dampers are installed, it is normal to lubricate them every 6 months.
+Functional testing
+7.30
+System functionality testing shall be undertaken for all installed ductwork, dampers and actuators in
+compliance with the requirements of the OMM.
+NOTE 1
+Dampers are checked for correct operation (including remote operation if applicable and the fail-safe
+mode) at intervals of typically 6 months.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 59
+======================================================================
+CM 430 Version 0.0.1
+7. Ventilation system
+NOTE 2
+The following system functionality testing is typically undertaken as part of a tunnel principal inspection:
+1)
+supply/extract ductwork systems tested for even flow distribution to and from the traffic space;
+2)
+flow rates into the respective distributed duct system tested;
+3)
+the airflow through distributed ventilation slots and any air-balancing dampers adjusted as
+necessary to ensure the required air flow distribution is achieved.
+7.31
+The air-tightness of the ductwork system shall be regularly tested and maintained, particularly where
+the extraction system passes through potentially occupied spaces.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 59
+======================================================================
+CM 430 Version 0.0.1
+8. Lighting system
+8.
+Lighting system
+General
+8.1
+Maintenance of the following lighting systems and equipment shall be undertaken in accordance with
+the manufacturers' recommendations and the tunnel OMM:
+1)
+base lighting luminaires;
+2)
+boost lighting luminaires;
+3)
+tunnel lighting control and monitoring system;
+4)
+emergency lighting;
+5)
+dimming system (where applicable);
+6)
+photometers.
+8.1.1
+Reference should be made to Section 6 - 'Structure maintenance' for the maintenance of mechanical
+supporting systems.
+8.2
+Intense light sources such as LEDs can constitute a photobiological hazard to personnel working in
+close proximity to them, and any such risks shall be assessed and managed.
+Base lighting luminaires
+Cleaning
+8.3
+Luminaires shall be cleaned by washing and brushing at intervals determined by the rate of dirt
+accumulation and the minimum performance criteria.
+8.3.1
+In most cases, cleaning may practically be achieved by the use of manual labour on a travelling access
+platform.
+8.3.2
+The cleaning intervals for a particular tunnel should be established by experience and trials; leaving
+short sections of lighting uncleaned and assessing the accumulation of dirt.
+8.3.3
+The optimum cleaning intervals can commonly be more than the intervals between wall washing, but
+should not normally exceed 12 months.
+8.4
+Dust from cleaning shall be treated as a health and safety hazard.
+Inspection
+8.5
+Inspections from carriageway level or via plant control systems shall be carried out when all luminaires
+are on (normally during the day) at intervals of 14 days to detect lamp failures and mechanical damage,
+and an assessment made of the need for repairs, before the next scheduled tunnel closure or planned
+relamping.
+8.5.1
+Lamp failures may also be detected by analysis of lighting-circuit running currents, or by interrogating
+the lighting control system if it monitors lamp failures.
+NOTE 1
+In tunnels it is normally acceptable for a small proportion of lamps to be inoperative.
+NOTE 2
+The use of manual labour on a travelling access platform can facilitate the immediate identification and
+repair of minor defects in the systems during cleaning.
+Relamping
+8.6
+For luminaires with replaceable lamps, the intervals for bulk lamp changes shall initially be as
+recommended by the manufacturer.
+8.6.1
+Subsequent trials may be carried out to optimise the intervals, by leaving short sections of lighting
+unchanged.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 59
+======================================================================
+CM 430 Version 0.0.1
+8. Lighting system
+NOTE
+In systems that do not use dimming to adjust lamp output, it is normally possible to predict incipient
+failure because the lights tend to dim gradually rather than suddenly fail.
+8.7
+During relamping, gear-tray equipment shall be inspected and tested.
+8.7.1
+The sealing gaskets and clips should be replaced where damaged.
+NOTE
+Although manufacturers often recommend replacement of mercury fluorescent lamps at 12 monthly
+intervals, use of 'tri-phosphor' tubes for base lighting has been found to increase this period to 24
+months.
+Testing
+8.8
+Where operational checks or maintenance records suggest that low or high voltage can be a cause of
+malfunctioning of one or more luminaires, then voltages shall be monitored over a period of time to
+check whether they are within the manufacturer's guidelines.
+NOTE
+Tunnel lighting systems are normally designed to accommodate deterioration in performance of lamps
+within their lifetime, together with an allowance for loss of reflectance off tunnel surfaces between
+cleaning. Measurement of illuminance is not normally necessary unless excessive deterioration in
+performance is suspected.
+Boost lighting luminaires
+Cleaning
+8.9
+Boost lighting luminaires shall be cleaned at the same intervals as base lighting luminaires.
+Inspection
+8.10
+Inspection procedures for boost lighting luminaires shall be as for base lighting.
+Relamping
+8.11
+For luminaires with replaceable lamps, the criteria for lamp changes shall initially be in accordance with
+the tunnel OMM and in accordance with the manufacturer's recommendations.
+8.11.1
+It may be appropriate to generally replace on a breakdown-repair basis only. Thus, the relatively few
+failures can be replaced during planned maintenance closures.
+NOTE 1
+Normal experience is that luminaires run for only around 1000 hours/ year and relatively few lamps fail
+in the intervals between planned maintenance, and at little detriment to the overall system performance.
+NOTE 2
+"Hours run" data alone from the lighting control system is not sufficient to indicate when lamp change is
+required. Lamp life is affected by both hours run and frequency of switching, which depends on the
+weather, tunnel orientation, and time of year. It is therefore difficult to predict, except by experience,
+when a lamp is approaching the end of its life.
+8.11.2
+During relamping, gear-tray equipment should be inspected and tested and the sealing gaskets and
+clips replaced, if they have failed.
+Testing
+8.12
+Testing of boost lighting luminaires shall be as for base lighting.
+8.13
+An operational check, to confirm the various stages of boost lighting switch on and off, shall be carried
+out at intervals of 12 months.
+Tunnel lighting control and monitoring system
+8.14
+Lighting control and monitoring equipment shall be inspected, tested and maintained in accordance
+with the manufacturer's recommendations.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 59
+======================================================================
+CM 430 Version 0.0.1
+8. Lighting system
+8.15
+In the absence of any maintenance intervals recommended by the manufacturer, the following shall
+apply:
+1)
+visual inspection, including cleaning of hardware, inspection for damage or signs of overheating
+and replacement of serviceable parts at typically 3 monthly intervals;
+2)
+routine servicing of communication systems hardware/software at typically 6 monthly intervals;
+3)
+functional testing of the lighting control and monitoring system at typically 12 monthly intervals.
+Emergency lighting
+8.16
+Emergency lighting shall be inspected, tested and maintained in accordance with the manufacturer's
+recommendations.
+Dimming equipment
+8.17
+Dimming equipment shall be inspected, tested and maintained in accordance with the manufacturer's
+recommendations.
+8.18
+In the absence of any maintenance intervals recommended by the manufacturer, the following shall
+apply:
+1)
+visual inspection, including cleaning of hardware, inspection for damage or signs of overheating,
+checking of ventilation paths for obstructions and free circulation of air, and replacement of
+serviceable parts, at typically 3 monthly intervals;
+2)
+functional testing of the dimming equipment at typically 12 monthly intervals.
+Photometers
+8.19
+Photometers shall be inspected, tested and maintained in accordance with the manufacturer's
+recommendations.
+8.19.1
+Maintenance may be possible without a tunnel closure. If works are carried out during daylight hours, it
+needs to be borne in mind that automatic control levels for the tunnel lighting can be affected.
+Cleaning and inspection
+8.20
+The photometer windows shall be cleaned to maintain functionality at intervals determined by the rate
+of soiling which can be determined by local weather and traffic conditions.
+8.20.1
+Visual inspection of all connections, electrical earths and the unit itself should be made whenever the
+units are cleaned.
+Service
+8.21
+Washer bottles, where fitted, shall be refilled with water, cleanser and antifreeze as necessary.
+8.21.1
+When refilling washer bottles, typically during scheduled closures or every 3 months, the correct
+operation and calibration of the photometer and operation of the wiper and washer should be checked
+at the same time.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 59
+======================================================================
+CM 430 Version 0.0.1
+9. Drainage plant
+9.
+Drainage plant
+9.1
+The maintenance of all tunnel drainage including pumping systems and supporting monitoring, control
+equipment shall be undertaken in accordance with:
+1)
+the tunnel OMM;
+2)
+any additional requirements described within the contract for maintenance of the tunnel.
+9.1.1
+Reference should be made to Section 4, 'Tunnel structure cleaning', for maintenance of sumps and to
+Section 10, 'Fire safety equipment' for maintenance of fire protection systems in sumps.
+NOTE 1
+Pumping systems include: cable chamber pumps, sump pumps, draw-pit pumps, interceptor chamber
+pumps and the valves and piping which links the system together, and associated level controls, valve
+actuators and electrical control gear.
+NOTE 2
+Some procedures can require the application of a 'Permit to Work' system.
+NOTE 3
+Since the sumps are normally confined spaces an access procedure that complies with The Confined
+Spaces Regulations UKSI 1997/1713 [Ref 20.N], is necessary.
+NOTE 4
+Removal of pumps commonly requires the use of a crane or similar lifting equipment.
+Inspection
+9.2
+Inspection of all drainage equipment shall be carried out to comply with the requirements of the
+categories of inspections described in CS 452 [Ref 8.N] 'Inspections and records for road tunnels'..
+9.2.1
+At intervals typically of 3 months, visual inspection for damage, corrosion, oil levels and condition,
+connections and earths should be carried out.
+Service
+9.3
+Sump pumps shall be removed from the sump for internal inspection, service or rebuild in accordance
+with the manufacturer's recommendations.
+NOTE
+Depending on the type of pumps they require an inspection and service typically every year, and a
+rebuild every 5 years, in accordance with the manufacturer's recommendations.
+9.4
+Sump level-monitoring equipment shall be cleaned and checked in accordance with manufacturer's
+recommendations.
+9.5
+Operation of all valves shall be tested at intervals of typically 3 months.
+9.5.1
+To avoid seizure, some manufacturers may recommend more frequent operation testing than every 3
+months.
+Testing
+9.6
+During every scheduled maintenance closure a test shall be carried out to check that sump alarms and
+gas detector beacons are visible and audible, to the required level.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 59
+======================================================================
+CM 430 Version 0.0.1
+10. Fire safety equipment
+10.
+Fire safety equipment
+General
+10.1
+The maintenance of all tunnel fire safety systems and supporting monitoring and control equipment
+shall be undertaken in accordance with:
+1)
+the tunnel OMMs;
+2)
+any additional requirements described within the contract for maintenance of the tunnel.
+10.2
+A schedule of routine maintenance activities shall be prepared for all installed fire safety equipment and
+supporting monitoring and control equipment, including inspection and cleaning.
+10.2.1
+In-tunnel maintenance activities should be undertaken during full tunnel/bore closure conditions where
+possible.
+Cross-bore doors
+Maintenance
+10.3
+Maintenance procedures for the doors shall include door-opening mechanisms, emergency exit signs,
+alarms and beacons associated with cross-bore access.
+10.4
+Where cross-bore doors undergo maintenance during a single bore closure, procedures shall be in
+place to prevent maintenance personnel or materials entering the live carriageway.
+10.5
+Where opening of cross-bore doors is monitored by the plant monitoring and control system,
+procedures shall be in place for the safe cancelling of alarms during maintenance work and subsequent
+resetting.
+Visual inspection
+10.6
+The doors shall be inspected to identify damage, corrosion or other defects during every scheduled
+tunnel maintenance bore closure.
+General cleaning
+10.7
+All exposed (tunnel-facing) cross-bore door parts shall be cleaned as part of the routine tunnel wall
+washing processes.
+10.8
+The mating faces of magnetic locks shall be cleaned as part of the door cleaning to ensure that
+accumulated dirt does not impair operation or promote corrosion.
+Routine service
+10.9
+Servicing shall include periodic cleaning and lubrication of hinges, handles, bolts and closing
+mechanisms including remedial painting of doors where it is identified as necessary.
+Functional testing
+10.10
+During every scheduled maintenance closure, a test shall be carried out to check that alarms and
+beacons are visible and audible.
+10.11
+During every scheduled maintenance closure, the doors shall be opened to check that they move freely
+through their full range of opening.
+10.11.1
+The force required to open doors should be measured for compliance with the design opening forces
+as part of a principal inspection.
+10.12
+Remotely-controlled lock release systems shall be tested for correct functioning.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 59
+======================================================================
+CM 430 Version 0.0.1
+10. Fire safety equipment
+Emergency exit signage and evacuation lighting
+General cleaning
+10.13
+All signs and evacuation luminaires shall be cleaned as part of the tunnel wall washing process.
+Visual inspection
+10.14
+Emergency exit signs shall be inspected at every scheduled tunnel closure to identify signs of damage,
+corrosion or inadequate internal illumination.
+Routine service
+10.15
+Emergency exit signs shall be checked for signs of water ingress at every scheduled tunnel closure and
+the seals replaced if defective.
+10.16
+Lamps for emergency exit signs shall be replaced when there is a failure and in accordance with the
+tunnel OMM.
+Functional testing
+10.17
+All illuminated emergency exit signs and evacuation luminaires shall be tested for correct operation
+typically at 12-monthly intervals, both fed from the normal power supply and for the full required
+duration of the mains failure supply (typically two hours) with the normal power supply switched off.
+Fire extinguishers
+Maintenance
+10.18
+Where the lifting or removal of fire extinguishers is monitored by the plant monitoring and control
+system, procedures shall be in place for the safe cancelling of alarms during maintenance work and
+subsequent resetting.
+Visual inspection
+10.19
+A check that all extinguishers are in place and of the correct type, noting if any have been used or need
+to be refilled or replaced, and shall be carried out in accordance with the tunnel OMM.
+NOTE
+This work is typically undertaken during scheduled maintenance closures or at typically at 3-monthly
+intervals.
+10.20
+Used extinguishers shall be immediately replaced from spare stock.
+General cleaning
+10.21
+The extinguishers shall be cleaned as part of the servicing to ensure dials and instructions remain
+readable.
+Routine service
+10.22
+The fire extinguishers shall be serviced at intervals in accordance with the BS 5306-3 [Ref 4.N] 'Fire
+extinguishing installations and equipment on premises. Selection and positioning of portable fire
+extinguishers – Code of Practice'.
+Fire hydrants and hoses
+Maintenance
+10.23
+Where tunnel panel doors are monitored by the plant monitoring and control system, with alarms
+generated if a panel door is opened, procedures shall be in place for the safe cancelling of alarms
+during maintenance work and subsequent resetting.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 59
+======================================================================
+CM 430 Version 0.0.1
+10. Fire safety equipment
+Visual inspection
+10.24
+A check to see if any hoses are damaged or leaking shall be carried out during tunnel closures.
+10.24.1
+Evidence of damage or significant leakage from fire hydrants or hose points should be investigated and
+rectified at the earliest opportunity.
+General cleaning
+10.25
+Where valves and connectors are exposed to the tunnel environment they shall be wet-cleaned as part
+of the tunnel wall washing routine.
+Functional testing
+10.26
+Operation of the hydrants, hoses and couplers to verify functionality shall be carried out in accordance
+with the tunnel OMM.
+NOTE
+Typically operation of the hydrants, hoses and couplers is undertaken during scheduled closures or at
+3-monthly intervals.
+10.27
+Any alarms associated with the hydrants shall be tested at the same time as the hydrants, hoses and
+couplers.
+10.28
+Operation of the hydrants, hoses and couplers to verify the water delivery flow rate and pressure shall
+be carried out as part of a general inspection.
+10.29
+Operation of the hydrants shall be undertaken by the Fire and Rescue Service or by the tunnel
+maintenance staff as detailed in the tunnel OMM.
+Fire mains
+Visual inspection
+10.30
+Fire main valves shall be inspected for signs of damage and leakage at intervals in accordance with the
+tunnel OMM of three months.
+NOTE
+Typically inspection of the fire main valves is undertaken during scheduled closures or at 3-monthly
+intervals.
+10.31
+The fire main shall be inspected for damage, leaks and cracks at 12-monthly intervals.
+Service and functional testing
+10.32
+Valves shall be greased and fully operated (opened and closed at least twice) to check for seizure,
+correct seating of the valve body or any other problems at 12-monthly intervals.
+10.33
+The fire main system shall be overhauled at 5-yearly intervals.
+10.34
+The operation of pumps associated with the fire main shall be tested in accordance with the tunnel
+OMM.
+NOTE
+Typically testing the operation of pumps is undertaken during scheduled closures or at 3-monthly
+intervals.
+10.35
+The operation of trace heating, pressure switches and other devices associated with the fire main shall
+be tested at 12-monthly intervals.
+10.36
+Fire main (including hose reel and hydrant connection pipes) insulation for frost protection shall be
+inspected and repaired at 12-monthly intervals, prior to the cold weather season.
+10.37
+The incoming water mains supply pressure shall be tested for adequacy every 12-months or at times of
+known low pressure supply.
+10.37.1
+Where the fire main also provides a supply to third parties, testing can cause fine sediment to become
+disturbed. Water supply companies should be consulted to determine if flushing would affect supplies
+to third parties.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 59
+======================================================================
+CM 430 Version 0.0.1
+10. Fire safety equipment
+10.37.2
+Where sections of the fire main need to be replaced or repaired, then an invasive CCTV inspection
+should be undertaken to determine the extent of any remedial work.
+10.38
+The expansion chamber shall be pumped out at yearly intervals, and any leaks or cracks repaired.
+In-tunnel fixed water-based fire fighting systems
+Maintenance of fixed fire fighting systems
+10.39
+Cleaning and a visual inspection of pipework, spray nozzles and control valves shall be carried out
+annually, checking for signs of corrosion, physical damage and leakage.
+10.40
+Control valves shall be checked for correct operation annually.
+10.41
+A full system discharge test shall be carried out at intervals of no more than 3 years.
+10.41.1
+After each system activation, all filters and strainers should be cleaned or replaced as necessary.
+10.42
+Unless indicated otherwise in the manufacturer's recommendations, the operation of pumps, trace
+heating, pressure switches etc., associated with the fire fighting system shall be tested at 3-monthly
+intervals..
+10.43
+Insulation of fixed firefighting system pipes for frost protection shall be inspected and repaired if
+required at 12-monthly intervals, prior to the cold weather season.
+NOTE
+In the absence of detailed maintenance guidelines reference can be made to Standard for the
+Inspection, Testing and Maintenance of Water-based Fire Protection Systems ( NFPA 25 [Ref 8.I]) .
+Fire water storage tanks
+10.44
+The bacterial concentrations in water storage tanks shall be tested at 12 monthly intervals.
+NOTE
+The risk of contracting Legionella from a fire-fighting system is normally low, however if bacteria are
+present then pressure leaks and mist systems can constitute a risk to health. Further information and
+guidance can be found in the FPA LPC Rules for Automatic Sprinkler Installations LPC Rules [Ref 5.I].
+Linear heat detection systems (LHDS)
+Visual inspection
+10.45
+The sensor cable, any junction/splitter boxes and sensor control units shall be visually inspected at 12
+monthly intervals.
+General cleaning
+10.46
+Cleaning of the sensor cable, any junction/splitter boxes and sensor control units shall be completed at
+12 monthly intervals.
+Routine service
+10.47
+Servicing of the sensor cable, any junction/splitter boxes and sensor control units shall be carried at 12
+monthly intervals.
+Functional testing
+10.48
+Testing of the sensor cable, any junction/splitter boxes and sensor control units shall be carried out by
+at 12 monthly intervals.
+10.48.1
+The LHDS is typically monitored by the tunnel plant monitoring and control system, with automatic
+alarms generated under fault/alarm conditions. It may be necessary to have procedures in place for
+their safe cancelling during maintenance work.
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 59
+======================================================================
+CM 430 Version 0.0.1
+10. Fire safety equipment
+Automatic fire protection systems – service buildings
+10.49
+Control panels shall be cleaned to ensure legibility and checked to ensure they are clear of alarms, at
+typically 3 monthly intervals.
+10.50
+Checks shall be made for signs of deterioration of flexible pipework, and signs of corrosion, damage or
+overheating of all connectors and earths.
+10.51
+Gas cylinder pressures shall be recorded and all cylinders checked for security.
+10.51.1
+Dampers should be checked for correct operation.
+10.51.2
+During discharge testing, extinguishant is normally released under pressure. Precautions should be
+taken to ensure that no one is within or adjacent to the protected area when this test is conducted.
+10.51.3
+Testing may require the control system to be manually overridden.
+10.52
+Room integrity testing shall be undertaken annually and tested after any material alterations to the
+room or entry points in compliance with:
+1)
+BS 5306-3 [Ref 4.N];
+2)
+ISO 14520 [All Parts] [Ref 7.N];
+3)
+BS EN 15004-1 [Ref 5.N].
+Maintenance of sump fire protection systems
+10.53
+The panels shall be cleaned to ensure legibility and checked to ensure they are clear of alarms in
+accordance with tunnel OMM.
+NOTE
+Typically cleaning of the panels is undertaken during scheduled closures or at 3 monthly intervals.
+10.54
+Checks shall be made for signs of deterioration of flexible pipework, and signs of corrosion, damage or
+overheating of all electrical connections and protective bonding earths in accordance with tunnel OMM.
+NOTE
+Typically checks are undertaken during scheduled closures or at 3 monthly intervals.
+10.55
+Gas cylinder pressures shall be recorded and all cylinders checked for security, in accordance with
+manufacturer's recommendations.
+10.56
+Sump ventilation dampers shall be checked for correct operation in accordance with tunnel OMM.
+NOTE
+Typically checks of the sump ventilation dampers are undertaken during scheduled closures or at 3
+monthly intervals.
+10.57
+A test discharge shall be carried out together with a purging of gas or foam at 12 monthly intervals.
+10.57.1
+As extinguishant is normally released under pressure, precautions should be taken to ensure that no
+one is within or adjacent to the protected area when this test is conducted.
+Gas detection systems
+10.58
+The operation of the gas detection systems shall be tested, electrical connections checked and the
+sensors re-calibrated at 3-monthly intervals.
+10.59
+Sensors shall be replaced in accordance with manufacturer's recommendations.
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 59
+======================================================================
+CM 430 Version 0.0.1
+11. Traffic control, communication and informatio...
+11.
+Traffic control, communication and information systems
+General
+11.1
+The maintenance of all tunnel traffic control, communications and information systems shall be in
+accordance with:
+1)
+the tunnel OMM; and
+2)
+any additional requirements described within the contract for maintenance of the tunnel.
+NOTE
+The key systems are listed below:
+1)
+communication cable network;
+2)
+telephone system;
+3)
+radio relay system;
+4)
+CCTV systems;
+5)
+traffic signals and controllers;
+6)
+variable message sign systems;
+7)
+supervisory communication and data acquisition;
+8)
+traffic detection systems;
+9)
+integrated tunnel control system;
+10)
+public address; and
+11)
+barriers.
+11.2
+A schedule of routine maintenance activities shall be prepared, including inspection and cleaning, for
+all installed tunnel traffic control, communications and information systems.
+11.3
+Spares kept in store shall be maintained in accordance with the manufacturer's requirements, including:
+1)
+periodic battery replacement;
+2)
+software upgrades; and
+3)
+inspection for signs of packaging damage.
+11.4
+Equipment shall be electrically isolated, isolators locked off, and warning notices posted before any
+work is commenced.
+11.5
+Electrical safety inspections in accordance with BS 7671 [Ref 18.N] shall be performed at least every
+five years.
+Visual inspection
+11.6
+A visual inspection of all traffic control, communication and information systems shall be carried out at
+intervals not exceeding three months for computers, to ensure the integrity of computer connection and
+check cooling systems are uninhibited and 12 months for all other equipment.
+11.7
+A visual inspection of detector loops shall be carried out whenever the carriageway wearing course is
+inspected.
+11.8
+Inspection of traffic signal heads, poles and controllers shall be carried out in accordance with
+manufacturer's maintenance requirements and with 'Traffic signalling systems' TM 101 [Ref 25.N] .
+Cleaning
+11.9
+Cleaning of traffic control, communication and information systems shall be undertaken to ensure
+ongoing safe and efficient system operation.
+NOTE 1
+The default interval for cleaning CCTV camera lenses is one month on the National Network, but can
+also depend on the rate of soiling, which can be determined by local traffic and weather.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 59
+======================================================================
+CM 430 Version 0.0.1
+11. Traffic control, communication and informatio...
+NOTE 2
+The default interval for cleaning variable message signs (VMS), video analytic incident detection
+systems and RADAR systems is typically three months, but will depend on the rate of soiling, which
+can be determined by local traffic and weather conditions.
+NOTE 3
+The interval for cleaning audio filters on the audio power amplifiers to ensure cooling systems are
+uninhibited is typically three months, but can depend on the rate of soiling.
+NOTE 4
+The interval for cleaning traffic detection systems and overheight detection systems can depend on the
+rate of soiling, which can be determined by local traffic and weather, it is typically six months.
+NOTE 5
+An increase in the number of false alarms from a video analytics detection system can indicate a
+requirement to clean the associated camera lenses.
+Functional testing
+11.10
+The functionality testing of all traffic control, communication and information systems shall be
+undertaken at typical intervals as indicated, or based on manufacturer's recommendations:
+1)
+all aspects of operation of the emergency telephones (one week);
+2)
+an on-air test of radio relay systems on all channels for acceptable speech quality (one week);
+3)
+operation of CCTV camera pan, tilt and zoom mechanisms (one week);
+4)
+PA/VA systems (three months during planned closures), including:
+a)
+a check that there has not been any gradual degradation of the PAVA system;
+b)
+a check of emergency messages.
+5)
+measurement of the impedance of detector loops (6 months);
+6)
+checking for hidden damage to the detector loop cables (6 months);
+7)
+individual battery supplies to telephones (12 months);
+8)
+radio relay system (12 months), with checks of:
+a)
+frequency accuracy;
+b)
+transmitted power levels;
+c)
+receiver sensitivity and selectivity;
+d)
+transmitter output and audio levels to and from the control centre.
+9)
+ITCS (12 months):
+a)
+all aspects of operation and response;
+b)
+computer hard discs for bad sector level, capacity and fragmentation.
+10)
+all other traffic control, communications or information equipment (12 months).
+Servicing
+11.11
+The routine servicing of traffic control, communications and information systems shall be undertaken at
+intervals as follows:
+1)
+three months for back-up of software and data files, such as system logs;
+2)
+five years for solid state radar array heads;
+3)
+twelve months for all other equipment, unless the manufacturer requires a more frequent interval
+of service.
+NOTE
+Routine monitoring through the plant monitoring and control system (Section 12) can highlight
+equipment failures.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 59
+======================================================================
+CM 430 Version 0.0.1
+12. Plant monitoring and control system
+12.
+Plant monitoring and control system
+General
+12.1
+The maintenance of the following systems shall be in accordance with the manufacturer's and systems
+integrator recommendations and the tunnel OMM:
+1)
+the plant supervisory control and data acquisition (SCADA) system;
+2)
+the plant programmable logic controller (PLC) system;
+3)
+the plant communications network(s);
+4)
+field instrumentation.
+Hardware maintenance
+12.2
+Visual inspection shall be carried out typically at 3-monthly intervals, and coordinated with planned
+closures.
+12.2.1
+Plant SCADA, PLC and communication systems hardware should be cleaned and inspected for
+damage or signs of overheating and serviceable parts replaced.
+12.3
+Routine servicing of plant monitoring and control system (PMCS) equipment and general cleaning of
+field sensors shall be carried out at 6-monthly intervals.
+12.3.1
+Periods where maintenance of critical equipment is being undertaken and is, as a consequence,
+unavailable may need to be scheduled into planned tunnel closures.
+Software maintenance
+12.4
+Routine servicing of the PMCS software shall be carried out at 6-monthly intervals or in accordance with
+the manufacturer's (and/or systems integrator's) recommendations, whichever is the more frequent.
+12.4.1
+Routine servicing of PMCS software should include the following:
+1)
+review of all system logs;
+2)
+backup and secure storage of the alarm and event database;
+3)
+backup and secure storage of all data point parameters, including user defined set points;
+4)
+any required updates software packages.
+12.5
+Functional testing of the PMCS shall be carried out at 12-monthly intervals.
+12.5.1
+The following should be included in the functional testing of the PMCS:
+1)
+software control sequences;
+2)
+software interlocks and inhibits;
+3)
+hardwired control sequences;
+4)
+hardwired interlocks;
+5)
+SCADA mimic representation and control;
+6)
+alarm handling and management;
+7)
+alarm and event log recording;
+8)
+trending and data export;
+9)
+remote status and alarm enunciation; and
+10)
+time and data synchronisation.
+Safety instrumented systems
+12.6
+Maintenance of safety instrumented systems (SIS) shall be in accordance with BS EN 61508-2 [Ref
+6.N] 'Functional safety of electrical/electronic/programmable electronic safety-related systems'and with
+the relevant operation and maintenance manuals.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 59
+======================================================================
+CM 430 Version 0.0.1
+12. Plant monitoring and control system
+12.6.1
+Proof testing should be performed on any plant and equipment where a verified SIS has been installed
+to protect people, plant or the environment.
+12.6.2
+Proof testing should be performed as part of schedule periodic testing and after any maintenance
+(including routine).
+12.6.3
+Maintenance and proof testing should be performed to ensure that the required safety integrity level
+(SIL) of each SIS is maintained during operation and maintenance.
+12.6.4
+Maintenance of the SIS should include:
+1)
+maintenance of hardware and supporting systems;
+2)
+visual inspection;
+3)
+calibration of sensors;
+4)
+service of the final element;
+5)
+service of the logic solver.
+12.6.5
+Proof testing of the SIS should include:
+1)
+complete system functional testing;
+2)
+partial testing;
+3)
+end-to-end testing;
+4)
+calibration check of sensors.
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 59
+======================================================================
+CM 430 Version 0.0.1
+13. Electrical power distribution
+13.
+Electrical power distribution
+General
+13.1
+Maintenance of all parts of the following systems shall be in accordance with the manufacturer's
+recommendations and the tunnel OMM including:
+1)
+high voltage (HV), and low voltage (LV) power cables;
+2)
+earthing and lightning protection systems;
+3)
+HV equipment, transformers and switchgear;
+4)
+LV switchgear and distribution and control panels.
+13.2
+Only competent and authorised staff in accordance with BS 7671 [Ref 18.N] shall carry out
+maintenance of these items, and who have received specific training on how to safely operate and work
+on electrical systems.
+13.2.1
+Electrical systems maintenance works should be performed under a 'Permit to Work' system.
+Power cables
+Visual inspection and cleaning
+13.3
+A visual inspection of accessible cables in the tunnel bore, tunnel service buildings, sumps and
+draw-pits shall be carried out at 12-monthly intervals.
+13.3.1
+All accessible cables, cable glands and joints (where applicable) should be visually inspected for
+damage (such as mechanical or rodent), signs of overheating, signs of unauthorised interference and
+security of the support system and securing devices.
+13.4
+For cable pits designated as confined spaces an access procedure, which complies with the Confined
+Spaces Regulations UKSI 1997/1713 [Ref 20.N], shall be in place.
+NOTE
+Bore closures are normally required to access power cables within the tunnel.
+13.4.1
+Any deposits of foreign material on the surface of cables should be removed.
+Testing
+13.5
+Testing of HV and LV cables, cable glands and joints (where applicable) shall be carried out as part of
+each principal inspection BS EN 62305 [All parts] [Ref 15.N].
+NOTE
+Testing of HV and LV cables require the services of a specialist.
+13.6
+HV cables, cable glands and joints (where applicable) shall be periodically insulation tested (DC ramp
+test or HIPOT) in accordance with the manufacturer's recommendations.
+13.7
+LV cables, cable glands and joints (where applicable) shall be tested in accordance with BS 7671 [Ref
+18.N] 'Requirements for electrical installations, IET Wiring Regulations'.
+Earthing and lightning protection systems
+Visual inspection
+13.8
+At intervals of 12 months, accessible parts of the main earthing and equipotential bonding system shall
+be visually checked for any signs of loose connections or fixings, corrosion, damage (e.g. mechanical
+or rodent), signs of overheating, signs of unauthorized interference and security of the support system
+and securing devices.
+13.9
+Any defects likely to affect functionality of the earthing system shall be repaired immediately.
+13.10
+At intervals of typically of 12 months, the lightning protection systems shall be visually inspected in
+accordance with 'Protection against lightning' BS EN 62305 [All parts] [Ref 15.N].
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 59
+======================================================================
+CM 430 Version 0.0.1
+13. Electrical power distribution
+13.10.1
+Additional visual inspections should be made following known lightning strikes.
+13.11
+Any defects likely to affect functionality of the lightning protection system shall be repaired immediately.
+Testing
+13.12
+Testing of lightning protection systems shall be carried out as part of each principal inspection.
+13.13
+Earth continuity, together with resistance to the general mass of earth of all earth electrodes, shall be
+tested in accordance with BS 7671 [Ref 18.N] 'Requirements for electrical installations, IET Wiring
+Regulations' and BS 7430 [Ref 1.I] 'Code of practice for protective earthing of electrical installations'.
+13.14
+The lightning protection system (where applicable) shall be tested for compliance with the relevant
+parts of BS EN 62305 'Protection against lightning' BS EN 62305 [All parts] [Ref 15.N].
+13.15
+All mechanical supports, fixtures, fittings and electrical connections shall be checked for tightness.
+13.15.1
+All surge protection devices should be checked in accordance with the manufacturer's
+recommendations.
+High voltage system circuit breakers and transformers
+13.16
+At 3-monthly intervals the previous 3 months alarm list, for circuit breakers and transformer, shall be
+reviewed to identify instances of equipment failure.
+13.17
+Repeated failures shall initiate an immediate investigation of the failed equipment.
+Visual inspection - switchgear
+13.18
+Visual inspections shall be performed at typically 12-monthly intervals or in accordance with the tunnel
+OMM, whichever is the more frequent.
+13.18.1
+Visual inspections of HV switchgear should be completed in accordance with BS 6626 [Ref 13.N]
+'Maintenance of electrical switchgear and control gear for voltages above 1kV and up to and including
+36 kV.
+13.18.2
+All accessible parts of the switchgear should be inspected for signs of wear, deterioration, overheating
+or build-up of foreign matter.
+13.18.3
+The mounting supports, bolts, anchors, linkages and connections should be inspected for failure,
+damage or build-up of foreign matter.
+13.18.4
+Ancillary equipment should be inspected for failure, damage, overheating or build-up of foreign matter.
+Visual inspection - transformers
+13.19
+Visual inspections shall be performed at typically 12 monthly intervals or in accordance with the tunnel
+OMM, whichever is the more frequent.
+13.19.1
+The exterior of each transformer should be inspected for signs of wear, deterioration, overheating,
+leakage or build-up of foreign matter.
+13.19.2
+Visual inspections of the transformers should include checks on the following:
+1)
+condition of silica gel breather, and renewed if discoloured;
+2)
+oil level;
+3)
+confirmation of normal operating temperature;
+4)
+cable terminations and oil condition.
+13.19.3
+The mounting supports, bolts, linkages and connections should be inspected for failure, damage or
+build-up of foreign matter.
+13.19.4
+Ancillary equipment should be inspected for failure, damage, overheating or build-up of foreign matter.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 59
+======================================================================
+CM 430 Version 0.0.1
+13. Electrical power distribution
+General cleaning
+13.20
+General cleaning of HV switchgear and transformers shall be completed in accordance with BS 6626
+[Ref 13.N].
+Routine service
+13.21
+Servicing and calibration of HV switchgear and transformers (including protection relays and devices)
+shall be carried out in accordance with the manufacturer's recommendations.
+13.22
+Any corrosion and damage to HV switchgear and transformers shall be repaired.
+Functional testing
+13.23
+Functional testing of HV switchgear and transformers (including protection relays and devices) shall be
+carried out as part of each principal inspection and in accordance with BS 6626 [Ref 13.N].
+Low voltage system switchboards, switchgear and distribution panels
+Visual inspection
+13.24
+Visual inspections shall be performed at typically 12 monthly intervals or in accordance with the tunnel
+OMM, whichever is the more frequent.
+13.24.1
+Visual inspection of LV switchgear, switchboards and distribution panels should be completed in
+accordance with BS EN 61439-1 [Ref 12.N] 'Low-voltage switchgear and control-gear assemblies.
+General rules' .
+13.24.2
+All accessible parts of the switchgear, switchboards and distribution panels should be inspected for
+signs of wear, deterioration, overheating or build-up of foreign matter.
+13.24.3
+The mounting supports, bolts, anchors, linkages and connections should be inspected for failure,
+damage or build-up of foreign matter.
+13.24.4
+Ancillary equipment should be inspected for failure, damage, overheating or build-up of foreign matter.
+General cleaning
+13.25
+General cleaning of LV switchgear, switchboards and distribution panels shall be completed in
+accordance with BS EN 61439-1 [Ref 12.N] 'Low-voltage switchgear and controlgear assemblies.
+General rules'.
+Routine service
+13.26
+At 3 monthly intervals the previous 3 months alarm list, for circuit breakers and transformer, shall be
+reviewed to identify instances of equipment failure.
+13.27
+Repeated failures during this period shall initiate an immediate investigation of the failed equipment.
+13.28
+Routine servicing of LV switchgear, switchboards and distribution panels shall be completed in
+accordance with BS EN 61439-1 [Ref 12.N] 'Low-voltage switchgear and controlgear assemblies.
+General rules'.
+13.28.1
+The mechanical operation (opening and securing closed) of panel doors and any alarms should be
+tested.
+13.28.2
+Panel door hinges should be lubricated, door latches and ingress protection seals cleaned and
+replaced if damaged or worn.
+Functional testing
+13.29
+Functional testing of LV switchgear, switchboards and distribution panels (including protection relays
+and devices) shall be carried out as part of each principal inspection and in accordance with BS EN
+61439-1 [Ref 12.N] 'Low-voltage switchgear and controlgear assemblies. General rules'.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 59
+======================================================================
+CM 430 Version 0.0.1
+13. Electrical power distribution
+13.29.1
+Sufficient redundancy is normally built into the switchgear design to enable individual circuit breakers to
+be withdrawn one at a time, without detriment to the operation of the tunnel. It should be verified that
+the switchgear operates correctly, particularly under mains failure conditions.
+NOTE
+Simulating incoming supply failure does not necessarily mean switching off the incoming supply. It can,
+for instance, mean manually operating or disconnecting the relay that detects power failure. If the
+above cannot be carried out without disrupting power supplies to the tunnel, then suitable procedures
+can be developed to enable the testing to take place during planned closures.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 59
+======================================================================
+CM 430 Version 0.0.1
+14. Emergency power equipment
+14.
+Emergency power equipment
+General
+14.1
+Maintenance of all parts of the following systems shall be in accordance with the manufacturers'
+recommendations and the OMM:
+1)
+uninterruptible power supplies (UPS) and batteries; and
+2)
+standby generators, including associated fuel and exhaust systems.
+Uninterruptible power supplies
+14.2
+Measures shall be taken to maintain supplies to safety-related equipment when UPS are taken out of
+service for maintenance.
+NOTE 1
+UPS units have an internal bypass arrangement that allows maintenance of the UPS to be carried out
+without affecting the supported load. External bypass arrangements can be provided to allow for the
+UPS module to be removed from operation or site without affecting the supported load.
+NOTE 2
+When in bypass (internal or external) the load is supported by the mains only and is therefore
+vulnerable to the possibility of a mains power failure whilst a UPS is shut down for maintenance, and
+which could leave supported systems without power.
+14.2.1
+Where possible, UPS maintenance work should be carried out during tunnel closures.
+14.2.2
+UPS maintenance should not be carried out at the same time as work on other power supply or life
+safety systems.
+14.3
+Following any maintenance intervention, a check shall be made to confirm that all critical and life safety
+systems are correctly connected so as to be actively supported by UPS and not inadvertently
+supported by the normal power supply.
+Visual inspection
+14.4
+Visual inspections of UPS shall be performed at 12-monthly intervals or to accord with the OMM,
+whichever is the more frequent.
+14.4.1
+The area around the UPS system should be clear of all obstructions, particularly those that affect
+cooling.
+14.5
+The battery system shall be inspected for swelling, leaks, loose foreign objects, overheated or corroded
+cables and connectors, loose connections on batteries and appropriate product labels related to safety
+and warning hazards.
+Routine service
+14.6
+At 3-monthly intervals, the previous three months alarm list for the UPS system, shall be reviewed to
+identify any instances of equipment failure.
+14.7
+Repeated failures during this period shall initiate an immediate investigation of the failed equipment.
+NOTE
+Some UPS systems include automatic battery testing routines which simulate a mains power failure,
+without disruption to the supported load, whilst performing an on-load test of the battery. Where
+provided, this system can be used to periodically check the integrity of the UPS and battery between
+routine services.
+Functional testing
+14.8
+Functional testing of UPS systems (including a full battery discharge test) shall be carried out as part of
+each principal inspection.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 59
+======================================================================
+CM 430 Version 0.0.1
+14. Emergency power equipment
+Standby generators
+14.9
+Where a generator is taken out of service for maintenance, there is a risk of a tunnel power failure if the
+external mains supply is interrupted. For this reason, either:
+1)
+generator maintenance work shall be carried out during tunnel closures; or,
+2)
+contingency measures be put in place to mitigate the risks arising from loss of power.
+14.9.1
+Where a failure of any mains supply occurs during generator maintenance, the work should be aborted
+and the generator restored to service as quickly as possible.
+Visual inspection
+14.10
+Visual inspections of standby generators shall be performed at 12 monthly intervals or in accordance
+with with the OMM, whichever is the more frequent.
+14.10.1
+The area around the standby generator should be clear of all obstructions, particularly those that affect
+cooling.
+14.10.2
+The engine and alternator should be visually inspected for damage (whether mechanical, rodent or
+corrosion), signs of overheating, signs of unauthorised interference and the security of all mountings,
+fixtures and fittings.
+14.10.3
+Fuel tanks and associated pipework should be inspected for signs of damage or leakage.
+Routine service
+14.11
+At 3-monthly intervals the previous 3 months alarm list for the standby generator system shall be
+reviewed to identify any instances of equipment failure.
+14.11.1
+Repeated failures during the 3 month period should initiate an immediate routine service and further
+investigation of the failed equipment.
+14.11.2
+Additional servicing may be required after prolonged operation.
+Functional testing
+14.12
+Functional testing of standby generators (including a full load test) shall be carried out as part of each
+principal inspection.
+14.12.1
+Functional testing should typically test run the standby generator for one hour, using the site load
+(provided it can contribute no less than 40% of the generator rating) or a resistive load-bank at 100%
+generator output rating, and include the following checks:
+1)
+oil pressure and temperature;
+2)
+engine speed;
+3)
+exhaust temperature;
+4)
+load (or load-bank) settings;
+5)
+water temperature;
+6)
+turbo air pressure;
+7)
+alternator battery charging current and alternator output (i.e. voltage, current, power, frequency
+and power-factor);
+8)
+battery charger current and voltage prior to starting;
+9)
+operation of control panels, associated lamps and alarms; and,
+10)
+fuel polishing.
+14.12.2
+Fuel tanks should be refilled immediately on completion of each test run.
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 59
+======================================================================
+CM 430 Version 0.0.1
+15. Tunnel services building and plant rooms
+15.
+Tunnel services building and plant rooms
+General
+15.1
+The maintenance of tunnel service building and plant rooms shall be in accordance with:
+1)
+the tunnel OMM;
+2)
+any additional requirements described within the contract for maintenance of the tunnel.
+Building fabric
+Visual inspection
+15.2
+An inspection of the tunnel service building fabric shall be carried out at intervals of 12 months.
+15.2.1
+Where service buildings and associated equipment are subject to vandalism and damage, more
+frequent inspections than every 12 months may be required.
+15.3
+Working areas and floors shall be clean and free of obstructions and potential slip, trip and fall hazards.
+15.4
+The general condition and cleanliness of the following items shall be checked:
+1)
+walls and roof;
+2)
+doors and windows;
+3)
+ventilation louvres/grills, fans;
+4)
+accessible rainwater gutters and pipes;
+5)
+accessible drainage pipes;
+6)
+pedestrian foot paths;
+7)
+vehicle parking areas;
+8)
+stairs, steps, landings and hand-railing;
+9)
+paintwork and sealants;
+10)
+overgrown flora;
+11)
+inspection covers;
+12)
+security fencing and gates;
+13)
+welfare facilities (where provided);
+14)
+all internal areas of the building.
+Maintenance
+15.5
+Touching up of paintwork and maintenance of the roof shall be carried out at intervals of 12 months.
+15.6
+Clearing of any debris from the gutters and weeding shall be carried out at intervals of 12 months.
+15.7
+Defective and/or damaged items shall be repaired/replaced immediately where safety is affected.
+General cleaning
+15.8
+General cleaning of the tunnel service-building fabric shall be performed at intervals of 12 months.
+Routine service and functional testing
+15.9
+Functional testing of the following systems shall be performed at intervals of 12 months:
+1)
+all doors (including emergency) and windows checked for correct opening and closing and
+securing in the closed position;
+2)
+all water taps be checked for correct operation, drips and leaks by opening and closing the valves
+at least twice;
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 59
+======================================================================
+CM 430 Version 0.0.1
+15. Tunnel services building and plant rooms
+3)
+all toilets checked for leaks and cistern overflows and the flushing mechanism and fill sequence
+for correct operation;
+4)
+all sinks checked for leaks.
+Building services
+Visual inspection
+15.10
+A visual inspection of the tunnel service building heating, ventilating and air conditioning (HVAC),
+lighting and small power shall be performed at 3 monthly intervals.
+General cleaning
+15.11
+General cleaning of the tunnel service-building HVAC, lighting and small power shall be performed at
+12 monthly intervals.
+Routine service
+15.12
+Routine service of the tunnel service-building HVAC, lighting and small power shall be performed at 12
+monthly intervals.
+NOTE 1
+Maintenance relating to electrical earthing and lightning protection is described in Section 13 'Electrical
+power distribution'.
+NOTE 2
+Maintenance relating to the fire alarm and fire extinguishing system is described in Section 10 'Fire
+safety equipment'.
+15.13
+HVAC, lighting and small power shall be tested in accordance with the requirements of BS 7671 [Ref
+18.N] 'Requirements for electrical installations, IET Wiring Regulations' and BS 5266 [All Parts] [Ref
+3.N] (emergency lighting) as part of each principal inspection (see CS 452 [Ref 8.N].)
+Security and access control systems
+Maintenance
+15.14
+Maintenance of the security and access control systems shall be in accordance with BS 4737 [All Parts]
+[Ref 10.N].
+NOTE
+Security systems typically can incorporate proximity, vibration and passive infrared (PIR) sensors. They
+can also include access control to the service building.
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 59
+======================================================================
+CM 430 Version 0.0.1
+16. Normative references
+16.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CG 302, 'As-built, operational and maintenance records for
+highway structures'
+Ref 2.N
+National Highways. GG 105, 'Asbestos management'
+Ref 3.N
+BSI. BS 5266 [All Parts], 'Emergency escape lighting systems.'
+Ref 4.N
+BSI. BS 5306-3, 'Fire extinguishing installations and equipment on premises.
+Commissioning and maintenance of portable fire extinguishers. Code of practice '
+Ref 5.N
+BSI. BS EN 15004-1, 'Fixed firefighting systems. Gas extinguishing systems. Design,
+installation and maintenance'
+Ref 6.N
+BSI. BS EN 61508-2, 'Functional safety of electrical/electronic/ programmable
+electronic safety-related systems. Requirements for electrical/electronic/
+programmable electronic safety-related systems'
+Ref 7.N
+ISO/BSI. ISO 14520 [All Parts], 'Gaseous fire-extinguishing systems. Physical
+properties and system design.'
+Ref 8.N
+National Highways. CS 452, 'Inspection and records for road tunnel systems'
+Ref 9.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 10.N
+BSI. BS 4737 [All Parts], 'Intruder alarm systems'
+Ref 11.N
+National Archives. UKSI 1998/2307, 'Lifting Operations and Lifting Equipment
+Regulations (LOLER) '
+Ref 12.N
+BSI. BS EN 61439-1, 'Low-voltage switch gear and control gear assemblies. General
+rules. (Designated Standard - LVD)'
+Ref 13.N
+BSI. BS 6626, 'Maintenance of electrical switchgear and control gear for voltages
+above 1 kV and up to and including 36 kV. Code of practice.'
+Ref 14.N
+National Archives. UKSI 1992/2793, 'Manual Handling Operations Regulations'
+Ref 15.N
+BSI. BS EN 62305 [All parts], 'Protection against lightning'
+Ref 16.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 17.N
+BSI. BS EN ISO 9001, 'Quality management systems. Requirements [Designated
+Standard - NLF]'
+Ref 18.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 19.N
+European Agency for Safety and Health at Work (EU-OSHA). 92/57/EEC, 'Temporary
+or mobile construction sites'
+Ref 20.N
+National Archives. UKSI 1997/1713, 'The Confined Spaces Regulations'
+Ref 21.N
+National Archives. UKSI 2015/51, 'The Construction (Design and Management)
+Regulations'
+Ref 22.N
+National Archives. UKSI 2012/632, 'The Control of Asbestos Regulations'
+Ref 23.N
+National Archives. UKSI 1999/3242, 'The Management of Health and Safety at Work
+Regulations'
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 59
+======================================================================
+CM 430 Version 0.0.1
+16. Normative references
+Ref 24.N
+National Archives. UKSI 2007/1520, 'The Road Tunnel Safety Regulations'
+Ref 25.N
+National Highways. TM 101, 'Traffic signalling systems (maintenance and operation)'
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 59
+======================================================================
+CM 430 Version 0.0.1
+17. Informative references
+17.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+BSI. BS 7430, 'Code of practice for protective earthing of electrical installations'
+Ref 2.I
+National Highways. CD 352, 'Design of road tunnels'
+Ref 3.I
+EU-OSHA. 89/391/EEC, 'Guidance on Risk Assessment at Work: Health and Safety'
+Ref 4.I
+National Highways. CS 450, 'Inspection of highway structures'
+Ref 5.I
+Fire Protection Association and RISC Authority. LPC Rules, 'LPC Rules for Automatic
+Sprinkler Installations incorporating BS EN 12845'
+Ref 6.I
+Construction Industries Research and Information Association, London. CIRIA C778,
+'Management of safety critical fixings in-service. Guidance for the management and
+design of safety-critical fixings'
+Ref 7.I
+LANTRA. NHSS 22, 'National Highway Sector Scheme 22 - The Management,
+Operation, Installation and Maintenance of Road Tunnels'
+Ref 8.I
+National Fire Protection Association (NFPA). NFPA 25, 'Standard for the Inspection,
+Testing and Maintenance of Water-based Fire Protection Systems'
+Ref 9.I
+TSO. TSM Chapter 8, 'Traffic Signs Manual Chapter 8 - Traffic Safety Measures and
+Signs for Road Works and Temporary Situations'
+Ref 10.I
+Transport Focus & Highways England. Tunnel Vision, 'Tunnel Vision: road users'
+experiences and expectations of tunnels'
+Ref 11.I
+UK Roads Leadership Group. UKRLG WMHI, 'Well Managed Highway Infrastructure
+- A Code of Practice'
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 59
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CM 430 Version 0.0.1, published: 30-Sep-2025
+
+
