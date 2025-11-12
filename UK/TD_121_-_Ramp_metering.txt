@@ -1,0 +1,1473 @@
+======================================================================
+PAGE 1 of 46
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 121
+Ramp metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+This document contains design requirements for ramp metering.
+National Variation
+This document has associated National Application Annexes providing alternative or supplementary content to that
+given in the core document, which is relevant to specific Overseeing Organisations. National Application Annexes
+are adjoined at the end of this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 2 of 46
+======================================================================
+TD 121 Version 0.0.2
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. General
+8
+Legislative
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Security . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Configuration data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Design for maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Functionality of ramp metering equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Siting of ramp metering equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Ramp metering requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3. Design
+10
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Stop line and traffic signal pole positions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Presence and release detector locations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Queue override detector locations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Queue detector locations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Equipment cabinets and their associated infrastructure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Main carriageway detector selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Warning signs and road markings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+High friction surfacing (HFS)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Site configuration file . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+4. Normative references
+14
+Appendix A. Ramp metering operational strategy document
+15
+A1 Operational strategy template . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 3 of 46
+======================================================================
+TD 121 Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121
+0.0.2
+October 2024
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121
+0.0.1
+September 2024
+Core document,
+England NAA,
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+TD 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 4 of 46
+======================================================================
+TD 121 Version 0.0.2
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes IAN 103/08 and IAN 121/09, which are withdrawn.
+This document contains relevant information from MCH 2470 and MCH 2471.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 5 of 46
+======================================================================
+TD 121 Version 0.0.2
+Introduction
+Introduction
+Background
+Ramp metering is a traffic management technique which manages the number of vehicles joining a
+main carriageway at peak periods. The purpose of ramp metering is to prevent or delay the onset of
+flow breakdown on the main carriageway and assist with its recovery.
+Ramp metering systems use part-time traffic signals on the slip road which come into operation when
+traffic sensors on the main carriageway indicate heavy traffic. The detectors on the main carriageway
+along with queue detectors on the slip road enable the system to determine the required flows from the
+slip to keep the main carriageway flowing close to critical occupancy.
+A successful design of a ramp metering site relies on knowledge and understanding of motorway
+communication devices and design, traffic flows, motorway traffic behaviours and ramp metering
+control algorithms.
+Ramp metering systems aim to control the flow of vehicles joining the motorway and all-purpose trunk
+road network and are recognised as being fundamentally different to traditional traffic signalling
+systems which manage vehicle conflicts and provide safety functionality.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 6 of 46
+======================================================================
+TD 121 Version 0.0.2
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+HFS
+High friction surfacing
+MIDAS
+Motorway incident detection and automatic signalling
+RMO
+Ramp metering outstation
+TSP
+Telecommunications service provider
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 7 of 46
+======================================================================
+TD 121 Version 0.0.2
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Configuration file
+A software file which contains the settings associated with the
+site-specific infrastructure and operational calibration parameters.
+Critical occupancy
+The downstream main carriageway occupancy at which the
+maximum downstream traffic flow rate is achieved.
+Downstream
+That part of the carriageway(s) where the traffic is flowing away
+from the section in question.
+Operational strategy document
+A document which captures the traffic characteristics and road
+geometry to help a designer understand the network congestion
+and inform the site design.
+Presence detector
+Traffic detector used to determine the presence of a queue. The
+presence detector is located 2 m upstream of the ramp metering
+stop line.
+Queue detector
+Traffic detector (multiple) used to indicate the length of a queue.
+The queue detectors are located between the presence detector
+and queue override detector.
+Queue override detector
+Traffic detector used to trigger the queue override functionality.
+The queue override detector is located towards the upstream end
+of the slip road.
+Ramp metering
+A traffic management technique which manages the number of
+vehicles joining a main carriageway in peak hour periods in
+response to current traffic conditions.
+Ramp metering outstation
+The power, communications and system equipment located in a
+dedicated cabinet.
+Ramp metering site
+The slip road, main carriageway and equipment necessary to
+operate a ramp metering system.
+Release detector
+Traffic detector primarily used to measure the slip road flow rate.
+The release detector is located 2 m downstream of the ramp
+metering stop line.
+Stop line
+The solid white line which is located adjacent to the ramp metering
+signals and crosses the entry slip road.
+Traffic characteristics
+The speeds, flows, occupancy, congestion seed points and general
+behaviours of traffic in the vicinity of a ramp metering site.
+Upstream
+That part of the carriageway(s) where traffic is flowing towards the
+section in question.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 8 of 46
+======================================================================
+TD 121 Version 0.0.2
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document outlines the ramp metering design requirements that shall be implemented on all new or
+modified ramp metering sites.
+1.2
+The design of ramp metering systems shall deliver a collaborative approach across the various design
+disciplines and support functions to accommodate the design of power supplies and telecommunication
+services.
+NOTE
+Overseeing Organisation specific requirements related to the treatment of existing ramp metering sites
+can be found in the National Application Annexes.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving ramp metering on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 1.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 1.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 9 of 46
+======================================================================
+TD 121 Version 0.0.2
+2. General
+2.
+General
+Legislative
+2.1
+All electrical work must comply with The Electricity at Work Regulations UKSI 1989/635 [Ref 4.N].
+2.2
+All electrical work shall comply with Requirements for Electrical Installations, IET Wiring Regulations
+BS 7671 [Ref 2.N].
+Security
+2.3
+Potential physical security threats to the ramp metering equipment shall be assessed, documented,
+mitigated and managed in accordance with the Overseeing Organisation's security procedure.
+NOTE
+Examples of physical security threats to ramp metering equipment can include compromised roadside
+equipment and metal theft.
+2.4
+Risk to the existing ramp metering equipment by the introduction of new ramp metering equipment shall
+be avoided.
+Configuration data
+2.5
+Any site configuration data requirements of ramp metering equipment shall be recorded and
+implemented early into the design stage.
+Design for maintenance
+2.6
+The electrical supply isolation systems shall be designed so that when a piece of technology equipment
+is isolated, those responsible for maintenance are not inadvertently exposed to hazards from
+associated equipment, for example infra-red radiation.
+2.7
+Where noise fences or environmental barriers are installed between a cabinet and the carriageway,
+access shall be provided to the cabinet whilst maintaining an effective noise or environmental barrier.
+NOTE
+In the case of motorways, access to the cabinet from the carriageway will be from a vehicle parked on
+the hard shoulder or a suitable refuge, which allows maintenance vehicles to park clear of the
+carriageway, or a layby in the case of all-purpose trunk roads.
+2.8
+Pathways between maintenance access points and cabinets shall be continuous with areas of hard
+standing.
+2.9
+Access points at ground level shall facilitate the pulling of cables without the need for any access
+equipment.
+2.10
+The Overseeing Organisation's approval shall be sought for the acceptance of ramp metering
+equipment into maintenance and operation.
+Functionality of ramp metering equipment
+2.11
+The required functionality of ramp metering equipment shall be determined by the operational
+requirements.
+NOTE
+Technology equipment needs to be deployed that is consistent with local operational requirements that
+are established during early stages of scheme delivery.
+2.12
+The internal operating conditions of the cabinet shall not be adversely affected by the cabinet layout.
+Siting of ramp metering equipment
+2.13
+The co-location of cabinets, ramp metering equipment and end devices shall be implemented, where
+design allows, to minimise whole-life costs.
+2.14
+Any cabinets that are at risk from flooding shall be positioned above the determined flood level.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 10 of 46
+======================================================================
+TD 121 Version 0.0.2
+2. General
+2.15
+Existing infrastructure shall be reused, in consultation with the Telecommunications Service Provider
+(TSP), where design allows.
+Ramp metering requirements
+2.16
+The ramp metering design shall meet the requirements of TD 131 [Ref 3.N] 'Roadside Technology and
+Communications' Section 5 'Provision of electrical power'.
+2.17
+The ramp metering design shall meet the requirements of TD 131 [Ref 3.N] 'Roadside Technology and
+Communications' Section 6 'Telecommunication services'.
+2.18
+The ramp metering design shall meet the requirements of TD 131 [Ref 3.N] 'Roadside Technology and
+Communications' Section 7 'Infrastructure'.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 11 of 46
+======================================================================
+TD 121 Version 0.0.2
+3. Design
+3.
+Design
+General
+3.1
+Prior to commencing design, an operational strategy document shall be completed to assist with design
+decisions.
+NOTE 1
+The operational strategy document template is in Appendix A.
+NOTE 2
+Information is recorded in the operational strategy document to both assist with design decisions during
+detailed design of a ramp metering site and to assist with generating initial system settings used in the
+configuration file at the beginning of the site calibration process.
+3.1.1
+The operational strategy document should be completed based upon:
+1)
+the traffic characteristics and road geometry;
+2)
+an understanding of the cause and effect of congestion at the intended installation location; and,
+3)
+an understanding of ramp metering operation.
+3.1.2
+The sequence of the ramp metering site design should be:
+1)
+determine the position of the stop line and traffic signal poles;
+2)
+determine the position of presence and release detectors;
+3)
+determine the position of queue override detectors;
+4)
+determine the total number and position of queue detectors;
+5)
+determine the position of equipment cabinets and associated infrastructure;
+6)
+determine the position/select main carriageway detector sites;
+7)
+determine the position and design warning signs and road markings;
+8)
+determine the extents of high friction surfacing (HFS) provision; and,
+9)
+develop the site configuration file.
+NOTE
+Fixed warning signs and HFS design can commence once the stop line and queue override detector
+locations are known.
+3.2
+The condition of the site shall be assessed to ensure that the existing pavement is capable of
+accommodating the ramp metering infrastructure (e.g., detectors, HFS, road markings).
+3.3
+Infrastructure not protected by vehicle restraint systems shall employ passively safe functionality.
+NOTE
+Signs and signals mounted on passively safe poles typically have a minimum mounting height of 1800
+mm.
+3.4
+Following the implementation and switch on of a site, the performance shall be evaluated to ensure it
+gives the optimum benefits.
+NOTE
+On-going, periodic assessment ensures that the operational performance is maintained and that the
+site is not affecting traffic conditions negatively.
+Stop line and traffic signal pole positions
+3.5
+The position of the stop line shall be determined:
+1)
+in accordance with the operational strategy document;
+2)
+to provide a balance between sufficient acceleration distance to enable safe merging and
+sufficient storage for queuing vehicles; and,
+3)
+to provide forward visibility of the signal heads for vehicles approaching the stop line.
+3.5.1
+The main carriageway conditions adjacent to the merge should be visible from any vehicle stopped at
+the stop line.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 12 of 46
+======================================================================
+TD 121 Version 0.0.2
+3. Design
+NOTE 1
+The location of the stop line has an impact on safety and governs visibility for drivers approaching the
+signals and queue on the entry slip road.
+NOTE 2
+A stationary vehicle behind the stop line needs to accelerate to reach a suitable speed and merge
+safely with traffic travelling in lane 1 of the main carriageway during ramp metering operation
+(anticipated ramp metering switch-on speed as detailed in the operational strategy).
+NOTE 3
+The greater the distance between the ramp metering site and the downstream congestion seed point,
+the higher the main carriageway speeds are at the upstream detector.
+NOTE 4
+If the main carriageway uses variable mandatory speed limits, speeds can be controlled/reduced as a
+result of unrelated control algorithms rather than an increase in traffic density.
+NOTE 5
+The impact of an incorrect switch on speed can be:
+1)
+the ramp metering system becomes operational too late, after flow breakdown has already
+occurred and does not provide the maximum benefit possible; or
+2)
+vehicles are unable to reach the necessary speed to safely merge with lane 1 of the main
+carriageway.
+NOTE 6
+The typical distance from the back of nose to the ramp metering stop line is 40 metres +/- 20 metres.
+3.6
+The ramp metering signals must be provided in accordance with UKSI 2016/362 (TSRGD) [Ref 5.N]
+diagram 3000 and its authorised, non-prescribed variants.
+NOTE
+Authorisation for implementing ramp metering schemes incorporating light signals on motorway and all
+purpose trunk roads are described in the National Application Annexes.
+3.7
+Passively safe traffic signal poles shall be positioned 2 metres downstream of the stop line, one in the
+offside verge and one in the nearside verge.
+3.8
+The distance from each kerb for passively safe signal poles shall be 2 metres +1 metre / - 0.8 metre.
+Presence and release detector locations
+3.9
+Presence detectors shall be provided with the trailing edge of the detector being 2 metres upstream of
+the stop line.
+3.10
+Release detectors shall be provided with the leading edge of the detector being 2 metres downstream
+of the stop line.
+Queue override detector locations
+3.11
+Queue override detectors shall be positioned downstream of the adjoining network boundary to allow
+an area of road space which accommodates vehicles and avoids additional obstructions on the
+adjoining road network.
+3.11.1
+Queue override detectors should be positioned to provide a zone with minimum length of 39 metres in
+advance of the queue override detectors.
+NOTE
+The minimum length of 39 metres allows sufficient road space on the entry slip road for two heavy
+goods vehicles to approach the back of the queuing traffic (the queue override detectors) without
+obstructing the adjoining road network.
+3.12
+Queue override detectors shall be positioned to limit the maximum queuing time on the slip.
+3.13
+Queue override detectors shall be positioned no more than 300 metres from the stop line.
+Queue detector locations
+3.14
+Queue detectors shall be evenly spaced between the presence detectors and queue override detectors.
+NOTE
+The queue management algorithm operates most effectively when the detector spacing is evenly
+distributed.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 13 of 46
+======================================================================
+TD 121 Version 0.0.2
+3. Design
+3.14.1
+The queue detectors should be provided such that the distances between these detectors are as near
+to 25 metres as possible.
+3.15
+A minimum of two queue detectors per lane shall be provided on the entry slip road, with 25 metres
+between adjacent detectors.
+3.15.1
+A maximum of seven queue detectors per lane may be provided.
+3.15.2
+The spacing of the queue detectors should be as consistent as site conditions permit to allow the ramp
+metering system to operate most effectively.
+NOTE
+Where other existing detectors (for example those used for MIDAS) located on the entry slip road clash
+with the desired ramp metering queue detector locations, either the number of queue detectors can be
+reduced, or the other existing detectors can be relocated further upstream or downstream.
+Equipment cabinets and their associated infrastructure
+3.16
+Equipment cabinets shall be located in a position where safe access is permitted.
+3.16.1
+The ramp metering outstation (RMO) cabinet should be positioned to allow the signal heads to be
+observed from the cabinet position to aid commissioning and maintenance.
+NOTE
+Providing a safe area on site for validation of the ramp metering system (e.g. site acceptance testing,
+calibration and maintenance) enables the validation exercise to be carried out in a safe and convenient
+manner whilst avoiding the need for traffic management and a negative impact on vehicle behaviours.
+3.17
+Equipment cabinets shall accommodate the RMO and provide power to the site as part of a ramp
+metering system installation.
+3.17.1
+A dedicated power supply outlet on the electrical interface cabinets should be provided to avoid the
+ramp metering system tripping out the local power supply unit.
+3.18
+A dedicated duct network shall accommodate the traffic signal cable between the RMO and each traffic
+signal pole.
+Main carriageway detector selection
+3.19
+At least one downstream detector site shall be located in advance (upstream) of the area of the main
+carriageway where flow breakdown occurs.
+NOTE
+The downstream detector site is necessary to provide the RMO with an accurate measurement of lane
+occupancy in the area of the main carriageway where flow breakdown occurs. If the detector site is
+located beyond where flow breakdown occurs it can fail to detect the network congestion.
+3.20
+The upstream detector shall be located upstream of the merge with no exit slip roads between the
+detector site and the merge.
+NOTE 1
+The upstream detector site is necessary to measure the speed in lane 1 of the main carriageway prior
+to the point adjacent to the merge tip of nose. The closer the detector site is to the merge, the more
+accurate the measurement of speed on the main carriageway at the point where traffic from the entry
+slip merges.
+NOTE 2
+An existing MIDAS installation can be a source for upstream and downstream main carriageway
+detectors.
+Warning signs and road markings
+3.21
+The ramp metering site shall use warning signs and road markings to maintain lane discipline and to
+advise drivers about the hazards associated with the use of ramp metering signals and the likelihood of
+the presence of queues.
+3.22
+Where the entry slip road has multiple access points, the requirement for additional fixed signs shall be
+assessed.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 14 of 46
+======================================================================
+TD 121 Version 0.0.2
+3. Design
+3.23
+The use of signs and road marking must be in accordance with UKSI 2016/362 (TSRGD) [Ref 5.N].
+3.24
+Signs and road markings shall be located in accordance with TSM Chapter 4 [Ref 6.N] and TSM
+Chapter 5 [Ref 7.N].
+NOTE 1
+'Part-time signals' signs are described in UKSI 2016/362 (TSRGD) [Ref 5.N] diagrams 543 and 543.1.
+NOTE 2
+'Queues likely' signs are described in UKSI 2016/362 (TSRGD) [Ref 5.N] diagram 584.
+NOTE 3
+A completed operational strategy document accounts for likely queuing profiles and the movement of
+vehicles through the site on approach to the back of a variable queue length.
+3.25
+The stop line shall be 300 mm wide.
+NOTE
+The stop line is described in UKSI 2016/362 (TSRGD) [Ref 5.N] diagram 1001.
+3.26
+Lane markings and road studs shall be provided in accordance with UKSI 2016/362 (TSRGD) [Ref 5.N]
+diagrams 1004.1 and 1005.1.
+3.27
+For sites with reduced sight lines, an assessment of the use of electronic/variable message signs to
+provide advanced warning of the operation of ramp metering shall be undertaken.
+NOTE
+Experience shows that electronic/variable signs which activate only when ramp metering is in operation
+can be used effectively to provide advanced warning about likely presence of queues.
+High friction surfacing (HFS)
+3.28
+HFS shall be provided on approach to the stop line and the queue override detectors.
+3.28.1
+If the queue override detectors are installed less than 50 metres downstream of the start of the entry slip
+road, the HFS should be installed from the start of the entry slip road to the queue override detectors.
+3.28.2
+Longer lengths of HFS may be provided at sites with poor sight lines (for example due to road
+curvature) or at sites where longer stopping distances are required (for example due to a downhill entry
+slip road) to enable vehicles to stop safely.
+3.29
+The implementation of HFS shall preserve or improve the integrity of existing lane markings and road
+studs.
+Site configuration file
+3.30
+The initial software configuration necessary for the site's operation shall be defined for inclusion in the
+site configuration file.
+NOTE
+The site configuration file contains all the site-specific configuration and calibration settings to allow the
+system to operate at a specific junction/site. This includes, for example, the main carriageway and
+ramp detectors, initial algorithm variables, passwords and access levels.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 15 of 46
+======================================================================
+TD 121 Version 0.0.2
+4. Normative references
+4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 3.N
+National Highways. TD 131, 'Roadside technology and communications'
+Ref 4.N
+National Archives. UKSI 1989/635, 'The Electricity at Work Regulations'
+Ref 5.N
+National Archive. UKSI 2016/362 (TSRGD), 'The Traffic Signs Regulations and
+General Directions'
+Ref 6.N
+TSO. TSM Chapter 4, 'Traffic Signs Manual Chapter 4 - Warning Signs'
+Ref 7.N
+TSO. TSM Chapter 5, 'Traffic Signs Manual Chapter 5 - Road Markings'
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 16 of 46
+======================================================================
+TD 121 Version 0.0.2
+Appendix A. Ramp metering operational strategy document
+Appendix A. Ramp metering operational strategy document
+A1
+Operational strategy template
+Operational strategy template is shown in Table A.1.
+Table A.1 Site details
+Site Detail
+Motorway
+Motorway number
+Junction
+Junction number
+Direction
+NB, SB, EB, WB, Clockwise or Anticlockwise
+Congestion Problem
+Information to be taken from traffic data analysis and site observations
+Times when congestion present (from
+observations on site)
+Approximate hours when worst congestion is
+experienced at the site
+Downstream main carriageway flow at times of
+congestion (vehicles per hour)
+For example data generated from MIDAS system
+Entry Slip Road Flow at times of congestion
+For example data generated from MIDAS system
+Downstream point of flow breakdown (for
+example MIDAS site ID)
+Taken from MTV plots
+Brief description of congestion problem e.g. shockwave from downstream junction, weaving due to
+proximity of downstream diverge
+Geometry of Slip
+Slip entrance (free flow or signals)
+How do vehicles join the entry slip road?
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 17 of 46
+======================================================================
+TD 121 Version 0.0.2
+Appendix A. Ramp metering operational strategy document
+Table A.1 Site details (continued)
+Average platoon size (signalled junction)
+How many vehicles join the entry slip road at the
+same time?
+Up or downhill entry slip road
+Up or downhill merge
+Length on entry slip road
+Distance from merge tip of nose to boundary with
+adjoining road network
+Length of Merge
+Distance from merge tip of nose to end of merge
+area
+No of lanes on entry slip road
+Notes
+This information is obtained from a site visit
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 18 of 46
+======================================================================
+TD 121 Version 0.0.2
+Appendix A. Ramp metering operational strategy document
+Table A.2 Operational strategy
+Proposed Strategy of Operation
+Proposed switch on speed
+Estimated from understanding of the traffic
+characteristics causing flow breakdown
+Estimated required storage space on
+entry slip road
+Estimated from traffic data analysis
+Estimated minimum release rate (vehicles
+per hour)
+Minimum entry slip road flow during peak hours of
+congestion
+Estimated maximum release rate
+(vehicles per hour)
+Maximum entry slip road flow during peak hours of
+congestion
+Notes
+Proposed Site Layout
+Detailed placement of the stop line and Queue Override loops etc.
+Site Concerns
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 19 of 46
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 20 of 46
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 121 - ENAA
+England National Application Annex for Ramp
+metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+This National Application Annex contains the National Highways specific requirements related to
+ramp metering system design.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 21 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+E/1. Ramp metering signals
+7
+E/2. Normative references
+8
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 22 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+ENAA
+0.0.2
+October 2024
+England NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+ENAA
+0.0.1
+September 2024
+England NAA
+Incremental change to
+notes and editorial
+updates
+TD 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 23 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes IAN 103/08 and IAN 121/09, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 24 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+Introduction
+Introduction
+Background
+This National Application Annex contains the National Highways-specific requirements related to ramp
+metering system design.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 25 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+TSRGD
+Traffic Signs Regulations and General Directions
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 26 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Ramp metering
+A traffic management technique which manages the number of vehicles joining a
+main carriageway in peak hour periods in response to current traffic conditions.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 27 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+E/1. Ramp metering signals
+E/1.
+Ramp metering signals
+E/1.1
+The ramp metering signals must be provided in accordance with UKSI 2016/362 (TSRGD) [Ref 3.N]
+diagram 3000 and its authorised, non-prescribed variants.
+NOTE
+Document HA 26-47-46 (TS10-61) [Ref 2.N] provides authorisation for implementing ramp metering
+schemes incorporating light signals on motorway and all purpose trunk roads in England to diagram
+3000 in schedule 8 of the UKSI 2016/362 (TSRGD) [Ref 3.N].
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 28 of 46
+======================================================================
+TD 121 - ENAA Version 0.0.2
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+Highways Agency. HA 26-47-46 (TS10-61), 'Ramp Metering National Authorisation
+for a Traffic Sign Incorporating Light Signals'
+Ref 3.N
+National Archive. UKSI 2016/362 (TSRGD), 'The Traffic Signs Regulations and
+General Directions'
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 29 of 46
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 30 of 46
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 121 - NINAA
+Northern Ireland National Application Annex
+for Ramp metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+This National Application Annex contains the Department for Infrastructure Northern Ireland
+specific requirements for the design of ramp metering systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 31 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+NI/1. Ramp metering regulations Northern Ireland
+6
+NI/2. Normative references
+7
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 32 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+NINAA
+0.0.2
+October 2024
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+NINAA
+0.0.1
+September 2024
+Northern Ireland NAA
+Incremental change to
+notes and editorial
+updates
+TD 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 33 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways on behalf of Department for Infrastructure, Northern
+Ireland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 34 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+Introduction
+Introduction
+Background
+This National Application Annex contains the Department for Infrastructure, Northern Ireland-specific
+requirements related to ramp metering system design.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 35 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+TSRGD
+Traffic Signs Regulations and General Directions UKSI 2016/362 (TSRGD)
+[Ref 2.N]
+TSRNI
+Traffic Signs Regulations Northern Ireland NISR 1997/386 (TSRNI) [Ref 3.N]
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 36 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+NI/1. Ramp metering regulations Northern Ireland
+NI/1.
+Ramp metering regulations Northern Ireland
+NI/1.1
+The Traffic Signs Regulations Northern Ireland NISR 1997/386 (TSRNI) [Ref 3.N] must be applied in
+Northern Ireland.
+NI/1.2
+Where a clause in TD 121 refers to the Traffic Signs Regulations and General Directions UKSI
+2016/362 (TSRGD) [Ref 2.N], the reference shall be replaced by the NISR 1997/386 (TSRNI) [Ref 3.N].
+NI/1.3
+The Department for Infrastructure Northern Ireland shall be contacted for advice on the sign diagram
+numbers and regulations equivalent to UKSI 2016/362 (TSRGD) [Ref 2.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 37 of 46
+======================================================================
+TD 121 - NINAA Version 0.0.2
+NI/2. Normative references
+NI/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+National Archive. UKSI 2016/362 (TSRGD), 'The Traffic Signs Regulations and
+General Directions'
+Ref 3.N
+National Archives. NISR 1997/386 (TSRNI), 'Traffic Signs Regulations (Northern
+Ireland)'
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 38 of 46
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 39 of 46
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 121 - SNAA
+Scotland National Application Annex for Ramp
+metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in TD 121.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 40 of 46
+======================================================================
+TD 121 - SNAA Version 0.0.2
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 41 of 46
+======================================================================
+TD 121 - SNAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+SNAA
+0.0.2
+October 2024
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+SNAA
+0.0.1
+September 2024
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+TD 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 42 of 46
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 43 of 46
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 121 - WNAA
+Wales National Application Annex for Ramp
+metering
+(formerly IAN 103/08, IAN 121/09)
+Version 0.0.2
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in TD 121.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 44 of 46
+======================================================================
+TD 121 - WNAA Version 0.0.2
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 45 of 46
+======================================================================
+TD 121 - WNAA Version 0.0.2
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+WNAA
+0.0.2
+October 2024
+Wales NAA
+Incremental change to
+notes and editorial
+updates
+Version 0.0.2: Republication with no content change, to correct index and version numbering. [Publication
+October 2024]
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 121 -
+WNAA
+0.0.1
+September 2024
+Wales NAA
+Incremental change to
+notes and editorial
+updates
+TD 121
+0
+January 2020
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
+
+======================================================================
+PAGE 46 of 46
+======================================================================
+© Crown copyright 2024.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 121 Version 0.0.2, published: 31-Oct-2024
+
+
