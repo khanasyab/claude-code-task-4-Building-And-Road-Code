@@ -1,0 +1,1636 @@
+======================================================================
+PAGE 1 of 32
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 371
+Strengthening highway structures using
+fibre-reinforced polymers and externally
+bonded steel plates
+(formerly BD 85/08, BD 84/02)
+Version 0.0.1
+Summary
+The use of this document enables existing concrete and steel highway structures to be
+strengthened using fibre-reinforced polymers (FRPs) or externally bonded steel plates, thereby
+reducing risk and maintaining a safe and operational network.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 32
+======================================================================
+CD 371 Version 0.0.1
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of the document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+9
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+2. Applicability
+10
+Robustness against accidental damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Integrity of the interface with the structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Over-reinforced sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Effectiveness and durability of the strengthening
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+FRP with sustained loading effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Options report and economic evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Basis of design
+13
+Design life . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Limit states . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Ultimate limit states
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Fatigue
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Serviceability limit states . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Design actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Structural analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Partial factors for material properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Design verification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+4. Materials
+17
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Fibre reinforced polymers (FRPs) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Adhesive and fixings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Steel plates
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Existing structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+5. Strengthening concrete bridge decks with FRPs
+19
+Strengthening for flexure at the ultimate limit state
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Strengthening for shear at the ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+6. Strengthening concrete bridge supports with FRPs
+22
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Strengthening for flexure and axial effects at the ultimate limit state . . . . . . . . . . . . . . . . . . . . . . .
+22
+Strengthening for shear at the ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+7. Strengthening steel structures with FRPs
+24
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 32
+======================================================================
+CD 371 Version 0.0.1
+Contents
+8. Strengthening concrete structures with externally bonded steel plates
+26
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Design for anchorage and separation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Flexural resistance at the ultimate limit state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Geometry of the plates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+9. Installation, inspection and maintenance
+28
+Installation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Inspection and maintenance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+10. Normative references
+29
+11. Informative references
+30
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 32
+======================================================================
+CD 371 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 371
+0.0.1
+September 2025
+Core document
+Incremental change to
+notes and editorial
+updates
+Change of publisher branding to National Highways. One reference update. Other minor editorial changes for
+MDD compliance.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 371
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 32
+======================================================================
+CD 371 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes BD 85/08 and BD 84/02, which are withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 32
+======================================================================
+CD 371 Version 0.0.1
+Introduction
+Introduction
+Background
+This document has been developed to enable the use of Eurocode principles for basis of design when
+strengthening structures with fibre-reinforced polymers and incorporate updates in technology.
+It includes reference to methods in third party documents, particularly:
+1)
+CS TR55 [Ref 3.I];
+2)
+CIRIA C595 [Ref 9.I].
+The document also incorporates updated provisions from the withdrawn BA 30/94.
+The opportunity has been taken to incorporate requirements for strengthening structures with steel
+plate bonding and to align the requirements with those for fibre-reinforced polymers where appropriate.
+Assumptions made in the preparation of the document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 32
+======================================================================
+CD 371 Version 0.0.1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+FRP
+Fibre-reinforced polymer (or plastic) comprising high strength fibres in a resin
+matrix.
+NSM FRP
+Near-surface-mounted fibre-reinforced polymer, where the FRP is installed into
+grooves that have been cut into the concrete.
+SLS
+Serviceability limit state
+ULS
+Ultimate limit state
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 32
+======================================================================
+CD 371 Version 0.0.1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Aramid fibre
+A synthetic fibre consisting of a long-chain aromatic polyamide in
+which at least 85% of the amide linkages are attached directly to two
+aromatic rings.
+Carbon fibre
+Fibre produced from organic materials such as rayon, polyacrylonitrile
+or pitch.
+NOTE: The term is often used interchangeably with 'graphite'.
+Composite
+(or advanced composite)
+Alternative term for FRP, i.e. fibres plus resin.
+Cure
+To irreversibly change the properties of a thermosetting resin by
+chemical reaction, i.e. condensation, ring-closure, or addition.
+NOTE: Cure can be accomplished by the addition of curing agents,
+with or without catalyst, and with or without heat.
+Fabric
+Fibres woven into a fabric.
+NOTE: Fibres can be aligned in any direction, with 0°, 45° and 90°
+being the most common.
+Galvanic corrosion
+(or bimetallic corrosion)
+Corrosion where two conducting materials with different
+electropotentials are in contact
+Glass fibre
+A fibre spun from an inorganic product of fusion that has cooled to a
+rigid condition without crystallising
+Laminate
+FRP composite in the form of a plate.
+NOTE: Pultruded sections are often referred to as laminates, but the
+term is not specific to any method of production.
+Prepreg
+Fibres impregnated with resin and attached to a backing paper or
+plastic release film.
+Primer
+A low viscosity epoxy resin applied to the concrete to provide a good
+bond (normally stronger than the surface concrete) and a suitable
+surface for the FRP.
+Pultrusion
+A factory method of manufacturing FRP laminates in long lengths.
+NOTE: Sections currently available include plates, rods and profiles.
+Putty
+A filler, usually an epoxy resin in the form of a paste, used to fill holes
+and surface defects in a concrete surface
+Resin
+A resin which is used to impregnate the fibres and bind filaments,
+fibres and layers of fibre together
+Stress rupture (also known
+as creep rupture)
+Failure under sustained loads at a stress level considerably lower than
+the short term strength
+Thermoset
+A resin that cannot be melted and recycled because the polymer
+chains form a three-dimensional network.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 32
+======================================================================
+CD 371 Version 0.0.1
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Voids
+Air bubbles trapped in the resin or between the FRP and
+concrete/steel substrate
+Wet lay up
+A method of installing FRP by hand.
+NOTE: The dry FRP (fabric or tow sheet) is impregnated with resin
+immediately prior to application.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 32
+======================================================================
+CD 371 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of the strengthening of concrete and steel highway
+structures using fibre-reinforced polymers (FRPs), including:
+1)
+flexural and shear strengthening of concrete bridge decks;
+2)
+flexural, shear and axial strengthening of concrete bridge supports; and
+3)
+flexural strengthening of steel bridges.
+NOTE 1
+The viability of FRP strengthening of reinforced concrete structures has been demonstrated through
+experimental studies and numerous practical applications in the UK and elsewhere. Experience of the
+application of FRPs to steel structures is more limited in highway structures and less experimental
+verification exists.
+NOTE 2
+This document does not provide specific requirements for the strengthening of cast iron and wrought
+iron structures. Relevant guidance is provided in CIRIA C595 [Ref 9.I]. The assessment of cast iron
+and wrought iron structures is covered by CS 454 [Ref 2.I].
+NOTE 3
+This document does not provide specific requirements for the strengthening of structures for fatigue.
+1.2
+This document shall be used for the design of the strengthening of concrete structures with externally
+bonded steel plates.
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving strengthening on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 6.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 32
+======================================================================
+CD 371 Version 0.0.1
+2. Applicability
+2.
+Applicability
+2.1
+The suitability of the structure for strengthening using FRPs or externally bonded steel plates shall be
+assessed, and a viable strengthening methodology developed.
+2.2
+The assessment of suitability shall include:
+1)
+whether the strengthened structure would be robust in an accidental damage scenario;
+2)
+whether it is possible to achieve sufficient integrity of the interface between the strengthening
+materials and the structure;
+3)
+whether the structure is over-reinforced;
+4)
+whether the strengthening would be effective and durable;
+5)
+the feasibility of sustained loading or prestress in FRP strengthening; and,
+6)
+an options report and economic evaluation including alternative methods of strengthening.
+NOTE
+The requirements for each item listed can be found in the relevant sub-section.
+Robustness against accidental damage
+2.3
+Structures that are to be strengthened shall be sufficiently robust that the accidental damage or
+removal of strengthening materials not protected from accidental damage or removal does not cause
+collapse of the structure.
+2.3.1
+A structure may be strengthened using externally bonded FRPs or steel plates if it has sufficient
+robustness that its ultimate limit state resistance after removal of the strengthening can be shown to be
+at least sufficient to resist the effects of the frequent combination of actions without any partial factors
+applied.
+NOTE 1
+The frequent combination of actions is defined in BS EN 1990 [Ref 3.N].
+NOTE 2
+Verification of the unstrengthened structure using the frequent combination of actions is equivalent to
+the verification of the structure following removal of the strengthening in the accidental design situation.
+2.3.2
+Strengthening techniques where FRPs are embedded in a concrete structure, including the use of
+near-surface-mounted (NSM) bars or deep embedment bars, may be considered to be protected from
+accidental damage or removal, unless a specific risk of damage has been identified.
+2.3.3
+Where a specific risk has been identified relating to the possible damage of embedded FRP, the
+approach to verifying robustness may be the same as for externally bonded strengthening.
+2.4
+Where FRPs are applied to the top surface of slabs or beams and buried by the road surfacing, the
+FRP shall be protected from being damaged during installation and removal of surfacing.
+NOTE
+NSM FRP bars are embedded in concrete, which can provide protection to the FRP from the risk of
+damage.
+2.4.1
+Where externally-bonded FRP laminates are used, protection from damage by hot surfacing during
+installation may be provided by specifying FRP and adhesive materials which can tolerate high
+temperatures or by providing a protective layer of mortar on top of the laminates.
+2.4.2
+Where externally-bonded FRP laminates are used, protection from removal of surfacing may include
+studs with a thickness greater than that of the FRP laminates, bolted to the structure adjacent to FRP
+laminates.
+2.4.3
+Where NSM FRP bars are used, protection from damage by hot surfacing during installation may be
+provided by specifying an adhesive which can tolerate high temperatures.
+Integrity of the interface with the structure
+2.5
+The interface between the structure and externally bonded FRPs or steel plates shall be capable of
+sustaining the stresses necessary for tension to be developed in the FRP or steel plates.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 32
+======================================================================
+CD 371 Version 0.0.1
+2. Applicability
+NOTE
+The effectiveness of externally bonded strengthening is highly dependent on the integrity of the bond
+with the surface of the structure and also on the integrity of the surface material itself.
+2.6
+FRPs or steel plates shall not be bonded to a surface with a concave profile, unless justified through a
+rigorous analysis or experimental results.
+NOTE
+If strengthening materials carrying tension are bonded to a concrete surface with a concave profile, the
+likelihood of separation failure increases.
+2.7
+Externally bonded FRPs or steel plates shall not be bonded to uneven surfaces where the gap under a
+1 m long straight edge exceeds 5 mm.
+2.7.1
+Externally bonded FRPs or steel plates may be used where the gap under a 1 m straight edge is up to
+5 mm provided the depth of adhesive is varied to achieve the required straightness after installation.
+2.8
+The acceptable gap under a 1 m long straight edge held to the surface of FRPs or steel plates following
+installation shall be no greater than 3 mm.
+2.9
+NSM FRP bars and deep embedment FRP bars shall be installed straight, without being bent.
+2.10
+When considering the suitability of a structure for strengthening with FRPs or steel plates,
+investigations shall be carried out to ensure that the risk of corrosion in the existing member is low and
+to determine the soundness of the structure, including any repaired areas.
+NOTE
+For concrete structures, CS 462 [Ref 7.I] gives advice on special inspections and guidance on suitable
+tests.
+2.11
+The surface to be strengthened shall be dry, sound and undamaged prior to installation.
+2.11.1
+Where needed, remedial measures to achieve a dry, sound and undamaged surface should include:
+1)
+the stoppage of leaks and drying out of the whole depth of the member to be strengthened;
+2)
+removal of damaged material on the surface to be strengthened down to a sound base.
+2.12
+For concrete structures, the integrity of the surface concrete and its method of preparation shall be
+demonstrated by a series of pull-off tests.
+2.13
+The requirements for the pull-off testing shall be set out in the specification.
+2.14
+Externally bonded FRPs or steel plates shall not be used for strengthening concrete structures when
+the characteristic concrete tensile strength of the surface to be strengthened is less than 1.5 MPa.
+2.14.1
+The characteristic value of the concrete tensile strength may be taken as 70% of the mean of the test
+results but not greater than the minimum test result.
+Over-reinforced sections
+2.15
+When strengthening concrete structures, the sections to be strengthened shall not be over-reinforced,
+either before or after strengthening.
+NOTE
+Over-reinforced sections are those where the ultimate limit state resistance is reached without yielding
+of the steel reinforcement, for example a beam that has so much flexural reinforcement that flexural
+failure could occur in a brittle mode without yielding of the steel.
+Effectiveness and durability of the strengthening
+2.16
+Before undertaking a design, where uncertainties exist concerning the effectiveness of an FRP system
+or steel plate bonding for a particular application, experimental testing on representative specimens
+shall be undertaken to prove the technique is effective.
+NOTE
+Examples where testing might be required include the use of a material with significantly different
+properties to those used in previous studies or applications, the use of a new approach or system, or
+bonding onto an irregular, curved or deteriorated surface.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 32
+======================================================================
+CD 371 Version 0.0.1
+2. Applicability
+2.17
+Where testing is proposed to prove a strengthening technique, the requirements for, and the extent of,
+the testing shall be agreed with the Overseeing Organisation.
+2.18
+Information and test results to demonstrate the long-term performance and durability of all components
+of the strengthening system shall be sought from manufacturers and suppliers.
+2.19
+Steel plates shall be protected from corrosion.
+NOTE
+Requirements for the protection of steelwork against corrosion are given in CC 486 [Ref 7.N] with
+scheme specific requirements provided in accordance with CD 350 [Ref 8.N].
+2.20
+Protective coatings and seals shall be specified in accordance with the recommendations from
+manufacturers and suppliers to ensure the strengthening system is durable.
+2.20.1
+Protective coatings and seals may be required:
+1)
+to protect adhesives from water ingress and moisture;
+2)
+to protect FRP components from ultraviolet radiation;
+3)
+to reduce solar gain and consequence temperature rise of the FRP components;
+4)
+for protection against vandalism or accidental removal of the strengthening system; and
+5)
+for fire protection of the strengthening systems in situations where fire resistance is required.
+FRP with sustained loading effects
+2.21
+Guidance shall be sought from specialist designers and materials suppliers when a strengthening
+scheme includes the use of FRP subjected to significant, sustained loading effects.
+NOTE 1
+The efficiency of FRP strengthening can be increased by prestressing the FRP, or alternatively by
+jacking up a structure during the installation of the FRP. These approaches provide strengthening for
+permanent loads as well as variable loads, and enable a greater proportion of the FRP strength to be
+used.
+NOTE 2
+Excessive sustained stress in FRP can result in creep rupture. Requirements for the avoidance of
+creep rupture are provided in Section 3.
+NOTE 3
+For further guidance, see CS TR55 [Ref 3.I].
+Options report and economic evaluation
+2.22
+An options report and economic evaluation shall be carried out to compare the proposed strengthening
+technique with other methods for strengthening the structure in object.
+2.23
+Factors at options report stage shall include safety, cost, risks, performance history of the proposed
+techniques, construction methods, environmental factors, remaining life, inspection and maintenance.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 32
+======================================================================
+CD 371 Version 0.0.1
+3. Basis of design
+3.
+Basis of design
+Design life
+3.1
+The strengthening system shall be designed for a minimum design life of 30 years, unless otherwise
+agreed with the Overseeing Organisation.
+Limit states
+Ultimate limit states
+3.2
+The design shall include verifications at the ultimate limit state.
+NOTE
+Requirements and advice regarding specific verifications at the ultimate limit state are provided in the
+respective sections of this document.
+Fatigue
+3.3
+The strengthening system shall have sufficient fatigue resistance to achieve the design life.
+3.3.1
+The fatigue resistance of FRP strengthening components may be deemed to be satisfied.
+3.3.2
+The fatigue resistance of adhesives may be deemed to be satisfied where:
+1)
+the structure being strengthened is concrete; or
+2)
+the design stresses in the adhesive at the FRP ends due to traffic loading are less than 20% of
+the design adhesive strength.
+NOTE
+The stresses at the ends of FRP bonded to steel structures are often dominated by thermal effects,
+which occur at a relatively low frequency and are unlikely to cause fatigue problems.
+3.3.3
+The fatigue resistance of strengthening steel plates may be verified using the relevant parts of BS EN
+1993 [Ref 6.I].
+3.3.4
+The fatigue resistance of the existing structure to be strengthened may be deemed to be satisfied
+where:
+1)
+the structure has previously been assessed and there are no concerns relating to fatigue;
+2)
+the stress range in the fatigue-sensitive components of the existing structure is not expected to
+increase in the strengthened configuration with the new loading regime.
+NOTE
+Requirements and advice regarding the need for fatigue assessment calculations are provided in CS
+454 [Ref 2.I] and the associated assessment documents.
+3.4
+Where the fatigue resistance has not been deemed to be satisfied, the need and methodology for
+fatigue verifications shall be agreed with the Overseeing Organisation.
+Serviceability limit states
+3.5
+The strengthened structure shall satisfy the relevant design serviceability criteria for new structures,
+unless otherwise agreed with the Overseeing Organisation.
+3.5.1
+Serviceability verifications of the existing structural components may be deemed to be satisfied where:
+1)
+the structure has been performing satisfactorily in service without exceeding the relevant
+serviceability criteria;
+2)
+the future loading carried by the structure is not expected to increase; and
+3)
+the addition of the strengthening will not increase the stress in the existing structural components.
+3.6
+The sustained stress in the FRP shall be limited at the serviceability limit state to avoid creep rupture.
+3.6.1
+The creep rupture criteria in CS TR55 [Ref 3.I] should be applied.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 32
+======================================================================
+CD 371 Version 0.0.1
+3. Basis of design
+Design actions
+3.7
+The actions and partial factors shall be taken from the relevant parts of BS EN 1991 [Ref 4.N] and BS
+EN 1990 [Ref 3.N] respectively.
+NOTE
+The actions for strengthening bridge supports for impact are contained in BS EN 1991-1-7 [Ref 1.N].
+Structural analysis
+3.8
+The structural analysis methodology shall be selected considering the possibility of low ductility of
+strengthened elements.
+NOTE 1
+Strengthened elements that have resistance governed by criteria relating to FRP fracture or separation
+of the strengthening materials can exhibit failure modes that are brittle.
+NOTE 2
+Strengthening concrete bridge supports with FRPs can increase ductility through the provision of
+confinement.
+3.9
+Structural analysis methods that rely on redistribution of load effects shall not be used unless it can be
+robustly demonstrated that such redistribution would occur prior to failure.
+3.9.1
+Moments may be redistributed from an unstrengthened region into a strengthened region, where it can
+be demonstrated that there is sufficient rotation capacity in the unstrengthened region.
+3.10
+The existing stresses in the structure at the time of strengthening shall be taken into account in the
+design.
+3.10.1
+When there is uncertainty in the magnitude of the existing stresses, and when the design is sensitive to
+the magnitude of the existing stresses, tests should be undertaken to quantify the existing stresses in
+the structure.
+NOTE 1
+Stresses in the structure can arise from permanent actions (including support settlement) and variable
+actions (including traffic and thermal actions).
+NOTE 2
+The strengthening design of statically indeterminate structures can be sensitive to the stress in the
+structure at installation.
+3.11
+The redistribution of stresses due to creep in concrete following installation shall be considered where
+the design is sensitive to such effects and where further creep is expected.
+NOTE
+Creep in prestressed concrete structures can cause compression to be developed in the strengthening
+materials.
+Partial factors for material properties
+3.12
+Design values of material properties shall be determined using representative values of material
+properties and partial factors that are consistent with the target reliability for the strengthened structure.
+3.12.1
+Characteristic values or worst credible values of material properties should be used.
+NOTE
+A characteristic value is defined as the value below which not more than 5% of all possible test results
+can be expected to fall.
+3.12.2
+Worst credible values should be derived for concrete structures in accordance with CS 455 [Ref 10.I].
+3.12.3
+The partial factors for concrete, reinforcement and prestressing steel at the ultimate limit state should
+be taken from Table 3.12.3.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 32
+======================================================================
+CD 371 Version 0.0.1
+3. Basis of design
+Table 3.12.3 Partial factors for concrete, reinforcement and prestressing steel at the ULS.
+Design
+situations
+Material
+property
+Conc-
+rete
+Reinforcement and prestressing steel
+Characteristic
+strength
+1.5
+1.15 (can be reduced to 1.05 for grade 460 steel)
+Persistent and
+transient
+Worst credible
+strength
+1.2
+1.10 (can be reduced to 1.05 for grade 460 steel or if
+measured steel depths are used)
+Accidental
+Characteristic or
+worst credible
+strength
+1.2
+1.0
+3.12.4
+The partial factors for structural steel in the existing structure at the ultimate limit state should be taken
+from BS EN 1993-2 [Ref 2.N].
+3.12.5
+The partial factors for FRP stiffness and ultimate strain at the ultimate limit state should be taken from
+Table 3.12.5a for all design situations, and multiplied by the additional partial factor for the method of
+manufacture as given in Table 3.12.5b.
+Table 3.12.5a Partial factors for FRP at the ULS
+Material
+Partial factor to be used with
+characteristic stiffness
+Partial factor to be used with
+characteristic ultimate strain
+Carbon FRP
+1.1
+1.25
+Aramid FRP
+1.1
+1.35
+AR glass FRP
+1.6
+1.85
+E-glass FRP
+1.8
+1.95
+Basalt FRP
+1.8
+1.95
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 32
+======================================================================
+CD 371 Version 0.0.1
+3. Basis of design
+Table 3.12.5b Additional partial factors for FRP method of manufacture
+Type of System
+Additional partial factor
+Plates
+Pultruded
+1.05
+Prepreg
+1.05
+Preformed
+1.1
+Sheet or tapes
+Machine-controlled application
+1.05
+Vacuum infusion
+1.1
+Wet lay-up
+1.2
+Prefabricated (factory-made) shells
+Filament winding
+1.05
+Resin transfer moulding
+1.1
+Hand lay-up
+1.2
+Hand-held spray application
+1.5
+NOTE
+The values of the partial factors are taken from CS TR55 [Ref 3.I]. For further guidance on the
+application of the partial factors, refer to CS TR55 [Ref 3.I].
+3.12.6
+The partial factor for adhesive strength at the ultimate limit state should be taken as 4.0 or greater,
+unless otherwise agreed with the Overseeing Organisation.
+NOTE
+Guidance on the derivation of partial factors can be found in ISE Adhesives [Ref 1.I] and CIRIA C595
+[Ref 9.I].
+3.12.7
+The partial safety factors for the material properties of steel plates for strengthening should be taken
+from BS EN 1993-2 [Ref 2.N].
+3.12.8
+At the serviceability limit state, all material partial factors should be taken as 1.0.
+Design verification
+3.13
+The strengthened structure shall be designed to have sufficient design resistance for the effects of all
+design actions.
+3.14
+The design resistance shall be determined in accordance with the relevant sections of this document.
+NOTE
+Strengthening for one mode of failure can make another mode of failure critical.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 32
+======================================================================
+CD 371 Version 0.0.1
+4. Materials
+4.
+Materials
+General
+4.1
+Values for all material properties assumed in the design shall be listed within the specification.
+4.2
+Key material properties shall be noted on all drawings, specifications and relevant documents.
+Fibre reinforced polymers (FRPs)
+4.3
+Consistent properties for the FRPs shall be used in the design, specification and installation.
+4.4
+Guidance shall be sought from specialist designers and materials suppliers regarding the values for
+material properties of specific FRP systems.
+Adhesive and fixings
+4.5
+Guidance shall be obtained from specialist designers and materials suppliers regarding the
+specification of an adhesive that:
+1)
+has the required mechanical properties;
+2)
+is appropriate for the application;
+3)
+is compatible with the components to be bonded;
+4)
+has sufficient durability in the environmental conditions; and
+5)
+can be installed at the required speed of installation.
+NOTE
+Particular environmental conditions affecting the durability of adhesives include high temperatures or
+submersion in water.
+4.6
+The specification shall include any constraints affecting the curing of the adhesive during installation.
+NOTE
+If excessive vibrations are expected these can be limited by managing the traffic during installation.
+4.7
+Where mechanical fixings or anchorages are proposed, the effectiveness, reliability and durability of
+the proposed system shall be demonstrated through testing.
+NOTE
+Guidance is given in CS TR55 [Ref 3.I] where some of the potential solutions are discussed.
+4.8
+Where a fixing system is proposed that includes bolts through holes in the FRP, the design shall include
+the verification of local stress concentrations and potential failure modes in the FRP.
+Steel plates
+4.9
+Material properties for steel plates shall be obtained from BS EN 1993-2 [Ref 2.N] and BS EN 10025
+[All Parts] [Ref 5.N].
+4.9.1
+The grade of steel plates should be S275 in accordance with BS EN 10025 [All Parts] [Ref 5.N].
+NOTE
+The use of high yield steel does not generally provide benefits as the modulus of elasticity is the same
+as mild steel.
+4.10
+Stainless steels shall not be specified unless it can be demonstrated that the adhesive bond to the
+stainless steel has sufficient long-term performance.
+NOTE
+There is little published information on the effect of the composition of stainless steel on the adhesive
+bond strength, particularly with respect to long-term performance.
+4.11
+The methodology for the preparation, installation and protection of the steel plates shall be set out in
+the specification.
+Existing structure
+4.12
+Representative values of the material properties of the existing structure shall be determined and used
+in the design calculations.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 32
+======================================================================
+CD 371 Version 0.0.1
+4. Materials
+NOTE
+Guidance on the assessment of material properties is given in CS 454 [Ref 2.I].
+4.12.1
+For existing concrete structures, worst credible strengths should be derived in accordance with CS 455
+[Ref 10.I].
+4.13
+The methodology for the preparation of the surface, including any repairs, shall be set out in the
+specification.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 32
+======================================================================
+CD 371 Version 0.0.1
+5. Strengthening concrete bridge decks with FRPs
+5.
+Strengthening concrete bridge decks with FRPs
+Strengthening for flexure at the ultimate limit state
+5.1
+Where strengthening for flexure in concrete beams and slabs is required, an effective form of flexural
+strengthening shall be selected that complies with the requirements of this document.
+5.1.1
+Flexural strengthening methodologies using FRPs should be based on either:
+1)
+externally bonded FRP laminates, attached to the concrete surface; or
+2)
+near-surface-mounted (NSM) FRP bars installed into grooves that have been cut into the cover
+concrete.
+5.2
+The resistance to all failure modes that could govern the flexural resistance shall be verified, including
+failure modes where there is a loss of composite action between the FRP and the concrete, and failure
+modes where composite action is maintained.
+5.3
+Sufficient anchorage shall be provided beyond the point at which the FRP is required to be effective.
+5.4
+The force developed in the FRP anchorage shall not exceed the resistance of the anchorage.
+5.4.1
+The FRP anchorage should be designed in accordance with CS TR55 [Ref 3.I].
+NOTE
+The anchorage resistance can be improved, if required, by increasing the width of the bonded interface
+without increasing the area of FRP.
+5.4.2
+A minimum anchorage length of 500 mm should be provided when the FRP is terminated within a span.
+5.5
+Where the FRP anchorage is located in a region where the concrete is expected to be cracked at ULS,
+a detailed analysis of the anchorage shall be carried out.
+5.6
+The design resistance corresponding to the separation of the FRP from the concrete shall be
+determined.
+5.7
+The following failure modes, which relate to a loss of composite action, shall be verified:
+1)
+FRP separation induced by surface irregularity;
+2)
+FRP separation induced by shear cracking;
+3)
+FRP separation induced by longitudinal shear stress in the yield zone;
+4)
+FRP separation induced by longitudinal shear stress near the ends of FRP; and
+5)
+FRP separation due to insufficient anchorage length.
+5.7.1
+The methods and criteria of CS TR55 [Ref 3.I] should be used to verify the failure modes relating to a
+loss of composite action.
+5.7.2
+The strain in the FRP should be limited to 0.008 to limit the risk of separation failure.
+5.7.3
+The use of additional fixings to prevent loss of composite action may be considered with externally
+bonded multi-directional FRP laminates if the effectiveness of the proposed system is verified by testing
+and agreed with the Overseeing Organisation.
+5.8
+Where it is necessary to extend the FRP into an area in compression, the possibility of buckling and a
+loss of composite action shall be considered.
+5.9
+The strengthened section shall be designed to have sufficient flexural resistance based on composite
+action being maintained.
+5.10
+The flexural resistance of the strengthened section shall be determined based on the following
+principles and assumptions:
+1)
+plane sections remain plane;
+2)
+there is perfect bond;
+3)
+the strains in the section at the time of strengthening are taken into account;
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 32
+======================================================================
+CD 371 Version 0.0.1
+5. Strengthening concrete bridge decks with FRPs
+4)
+zero tensile strength in the concrete at ULS;
+5)
+the stress in the concrete compression zone is determined based on a constitutive model for
+flexural design;
+6)
+the strain in the concrete in the compression zone is limited to avoid crushing failure;
+7)
+the stress in the reinforcement and prestressing is determined based on constitutive models for
+design;
+8)
+the FRP is linear elastic in tension based on the design value of the elastic modulus;
+9)
+the strain in the FRP is limited to avoid tensile failure and separation of the FRP; and
+10)
+additional longitudinal tensile forces associated with shear effects are included in the design.
+NOTE
+Guidance on the flexural design of FRP-strengthened sections is provided in CS TR55 [Ref 3.I].
+5.10.1
+The design constitutive models for the concrete, reinforcement and prestressing should be taken from
+BS EN 1992 [Ref 5.I].
+5.11
+Pultruded FRP plates that are stacked to form a multi-layer laminate shall be limited to a thickness of
+no more than two plates when stacked in-situ.
+5.12
+Stacks of more than two pultruded FRP plates formed in factory conditions by the manufacturer shall
+only be used if their effectiveness has been verified by testing.
+NOTE 1
+Guidance on stacked pultruded FRP plates is provided in CS TR55 [Ref 3.I].
+NOTE 2
+Multi-layer laminates can be avoided where there is space to position the plates side by side.
+Strengthening for shear at the ultimate limit state
+5.13
+Where strengthening for shear is required, an effective and robust form of shear strengthening shall be
+selected that complies with the requirements of this document.
+5.13.1
+Shear strengthening methodologies using FRP may be based on either:
+1)
+externally bonded FRPs attached to the concrete surface (for example, FRP fabric wrapped
+around beams);
+2)
+deep embedment FRP bars, installed by resin fixing into holes drilled into slabs or beams; or
+3)
+near-surface-mounted (NSM) FRP reinforcement, installed into grooves that have been cut into
+the cover concrete in the webs of beams.
+5.14
+The anchorage of the FRP shall be detailed in the design.
+5.14.1
+Shear strengthening should be undertaken by wrapping FRP completely around a beam where this is
+possible.
+5.14.2
+When externally bonded FRPs are not wrapped completely around a beam, additional FRP anchorage
+systems should be considered, based on specialist advice.
+5.14.3
+Where additional FRP anchorage systems are used, the effectiveness should be demonstrated based
+on testing.
+5.15
+All failure modes that could govern the shear resistance shall be verified, including failure modes
+limited by rupture of the FRP, separation of the FRP from the concrete, and crushing of the concrete.
+5.15.1
+The significance of failure modes governed by separation of the FRP is reduced when a beam is fully
+encased in FRP, however separation should still be verified.
+5.15.2
+The shear resistance of sections strengthened with FRPs should be determined in accordance with CS
+TR55 [Ref 3.I].
+5.16
+The spacing of bars or strips of FRP for shear strengthening shall be limited to prevent shear failures
+occurring between the FRP bars or strips.
+5.16.1
+The spacing of FRP bars or strips should not exceed the criteria given in CS TR55 [Ref 3.I].
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 32
+======================================================================
+CD 371 Version 0.0.1
+5. Strengthening concrete bridge decks with FRPs
+5.17
+Longitudinal reinforcement and FRP shall be provided to resist the tensile forces that arise from the
+combined effects of shear and flexure.
+5.17.1
+Tensile forces due to combined shear and flexure should be verified according to CS TR55 [Ref 3.I].
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 32
+======================================================================
+CD 371 Version 0.0.1
+6. Strengthening concrete bridge supports with F...
+6.
+Strengthening concrete bridge supports with FRPs
+General
+6.1
+When strengthening concrete bridge supports is required, an effective form of strengthening shall be
+selected that complies with the requirements of this document.
+6.1.1
+Strengthening methodologies for concrete bridge supports using FRPs should be based on wrapping
+the support in FRP fabric with fibres that are oriented in the hoop (horizontal) direction, and, if required,
+in the axial (vertical) direction, bonded to the surface of the bridge support.
+6.1.2
+The outer layers of fibres should run in the hoop direction, to provide:
+1)
+shear reinforcement; and
+2)
+confinement effects.
+NOTE 1
+Enhancement of the concrete strength and ductility by confinement using FRPs is particularly effective
+for strengthening circular bridge supports.
+NOTE 2
+The effectiveness of the FRP confinement for non-circular sections depends on the geometry of the
+section and can be zero for rectangular sections. CS TR55 [Ref 3.I] provides guidance.
+NOTE 3
+For all sections, the stress that can be developed in the hoop FRP at failure is considerably lower than
+the tensile strength of the FRP. CS TR55 [Ref 3.I] provides guidance.
+6.2
+A minimum of two layers of FRP hoop fibres shall be provided.
+6.3
+FRPs in the hoop direction shall be installed with an effective overlap so that the FRPs act as a
+continuous hoop.
+6.3.1
+The length of the overlap should be determined in order to provide a full-strength anchorage and shall
+be no less than 200 mm.
+6.4
+Where axial and hoop FRP are applied to a column, hoop FRP shall be placed over axial FRP.
+6.5
+FRPs in the axial direction shall be anchored effectively.
+6.5.1
+Anchorage lengths should be determined in accordance with CS TR55 [Ref 3.I].
+6.6
+Where strengthening is required to a bridge support below ground level or at the connection to the
+base, a concrete collar shall be provided.
+6.6.1
+Concrete collars should extend from the base to ground level or above.
+6.7
+Where flexural strengthening is required at the top connection to the crosshead or deck, a concrete or
+steel collar shall be provided.
+6.8
+The axial FRP shall be anchored effectively into the collar.
+6.9
+Collars and their connections into the structure or base shall be designed to resist the effects of the
+actions.
+6.10
+The design shall be carried out to avoid stress concentrations on fibres where they emerge from collars.
+6.11
+Appropriate details, including the provision of drips and sealants, shall be provided to prevent the
+ingress of water into the interface between the FRP and the concrete.
+Strengthening for flexure and axial effects at the ultimate limit state
+6.12
+The flexural and axial resistance of bridge supports strengthened with FRPs shall be based on the
+following assumptions:
+1)
+plane sections remain plane;
+2)
+there is perfect bond;
+3)
+the strains in the section at the time of strengthening are taken into account;
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 32
+======================================================================
+CD 371 Version 0.0.1
+6. Strengthening concrete bridge supports with F...
+4)
+zero tensile strength in the concrete at ULS;
+5)
+the stress in the concrete compression zone is determined based on a constitutive model for
+flexural design;
+6)
+confined concrete properties only apply where sufficient effective confinement can be provided by
+the hoop FRP;
+7)
+the strain in the concrete in the compression zone is limited to avoid crushing failure;
+8)
+the stress in the reinforcement is determined based on constitutive models for design;
+9)
+the FRP is linear elastic in tension based on the design value of the elastic modulus;
+10)
+the strain in the FRP is limited to avoid tensile failure and separation of the FRP;
+11)
+the compressive strength of axial FRP is taken to be zero; and
+12)
+additional longitudinal tensile forces associated with shear effects are included in the design.
+NOTE 1
+Guidance on the flexural and axial resistance of circular and non-circular bridge supports strengthened
+with FRP is provided in CS TR55 [Ref 3.I].
+NOTE 2
+CS TR55 [Ref 3.I] provides models for determining the degree of confinement that is possible in circular
+and non-circular sections.
+6.13
+No enhancement of concrete properties due to confinement from the hoop FRP shall be included when
+the aspect ratio of the cross section of the bridge support is greater than 3:2, or when the combination
+of axial force and bending is such that the existing axial steel reinforcement yields in tension at ULS.
+Strengthening for shear at the ultimate limit state
+6.14
+All failure modes that could govern the shear resistance shall be considered, including failure modes
+limited by FRP rupture, concrete crushing and separation of FRP from the concrete.
+NOTE
+FRP separation failures are less significant for circular sections than for non-circular sections, due to
+the confining effect on the bond.
+6.14.1
+For circular sections, separation of the FRP may be deemed to be prevented if the strain in the hoop
+FRP is limited to 0.004.
+6.14.2
+The shear resistance of FRP strengthened bridge supports should be determined in accordance with
+CS TR55 [Ref 3.I].
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 32
+======================================================================
+CD 371 Version 0.0.1
+7. Strengthening steel structures with FRPs
+7.
+Strengthening steel structures with FRPs
+7.1
+When strengthening steel structures is required, an effective form of strengthening shall be selected
+that complies with the requirements of this document.
+7.1.1
+Flexural strengthening methodologies using FRPs should be based on the application of externally
+bonded FRPs attached to the steel surface.
+NOTE
+This document does not cover the shear strengthening of steel structures using FRPs.
+7.2
+The flexural resistance and stiffness of a steel section strengthened with FRPs shall be evaluated
+based on the following:
+1)
+plane sections are assumed to remain plane (except for the anchorage regions and in the
+analysis of the adhesive layer);
+2)
+the stresses in the structure when the FRP is installed are accounted for;
+3)
+differential thermal expansion of the FRP and metallic elements are taken into account; and
+4)
+FRP is assumed to be linear elastic until failure at the design tensile strain.
+7.2.1
+The strengthening design of steel structures using FRPs should be carried out using CIRIA C595 [Ref
+9.I] in conjunction with this document.
+7.3
+Where it is necessary to extend the FRP into an area in compression, the resistance to buckling and a
+loss of composite action shall be verified.
+7.4
+Resistance to all failure modes that could govern the resistance shall be verified, including failure
+modes where there is a loss of composite action between the FRP and the steel, and failure modes
+where composite action is maintained.
+7.5
+Resistance to the following modes of failure shall be verified:
+1)
+FRP rupture;
+2)
+rupture of the metallic element;
+3)
+global or local buckling of the element; and
+4)
+rupture or bond failure of the adhesive.
+NOTE
+Guidance on the verification of failure modes of steel structures strengthened with FRP is provided in
+CIRIA C595 [Ref 9.I].
+7.6
+Sufficient anchorage shall be provided beyond the point at which the FRP is required to be effective.
+7.6.1
+The anchorage should be designed using CIRIA C595 [Ref 9.I].
+7.7
+The force developed in the anchorage shall not exceed the resistance of the anchorage.
+7.8
+The design of FRP-strengthened steel structures shall include a detailed analysis of the local stresses
+in the adhesive layer, including shear and tensile (peeling) stresses and taking account of any lack of
+straightness in the FRP and yielding of the substrate.
+NOTE 1
+The behaviour of FRP-strengthened steel structures differs markedly from FRP-strengthened concrete
+structures. For example, for concrete structures the adhesive strength generally greatly exceeds the
+strength of the surface concrete, so the design is typically governed by the behaviour of the surface
+concrete. However, for steel structures the behaviour of the adhesive itself can govern the capacity of
+the strengthened member, and requires detailed consideration in the design.
+NOTE 2
+Peak local stresses typically occur in the adhesive near the ends of the FRP and at discontinuities or
+changes in thickness, due to variable actions including traffic loading and differential thermal expansion.
+NOTE 3
+The stresses in the adhesive cannot be analysed making the assumption that plane sections remain
+plane.
+7.8.1
+The analysis of the adhesive layer should be carried out using the methods of CIRIA C595 [Ref 9.I].
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 32
+======================================================================
+CD 371 Version 0.0.1
+7. Strengthening steel structures with FRPs
+7.8.2
+Stresses in the adhesive may be reduced by increasing the width of the FRPs and by tapering the
+FRPs near the end of the strengthening.
+NOTE
+As the width of pre-manufactured FRP laminates is increased, the difficulty of expelling the air under
+the laminate during installation also increases, particularly for laminates wider than 300 mm.
+7.9
+Thermal effects shall be included in the design, including differential thermal expansion between the
+FRP and the steel.
+NOTE
+The coefficient of thermal expansion of FRP can differ significantly from that of steel elements. As a
+result differential thermal expansion can lead to significant stress concentrations at the ends of
+externally bonded FRP laminates and at any other geometric discontinuities.
+7.10
+The thermal effects shall be evaluated considering the timing of the operation and the range of effective
+bridge temperatures likely to be encountered.
+7.10.1
+Thermal actions should be taken from BS EN 1991-1-5 [Ref 4.I].
+7.11
+When FRP strengthening is proposed to enhance the fatigue life, shear capacity, bearing capacity or
+buckling resistance of metallic elements or to enhance the capacity of connections, the design approach
+shall be agreed with the Overseeing Organisation based on specialist guidance and proved by testing.
+7.12
+Cracked steel structures shall not be strengthened using FRP.
+7.13
+When a carbon-fibre based system is used to strengthen a steel structure, an insulating layer shall be
+used between the carbon fibre and steel substrate to electrically isolate the FRP and prevent galvanic
+corrosion.
+7.14
+The effectiveness of the isolation system used between the carbon fibre and steel substrate to
+electrically isolate the FRP and prevent galvanic corrosion shall be verified by testing.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 32
+======================================================================
+CD 371 Version 0.0.1
+8. Strengthening concrete structures with extern...
+8.
+Strengthening concrete structures with externally bonded steel
+plates
+General
+8.1
+When strengthening of concrete structures is required, an effective strengthening methodology shall be
+selected that complies with the requirements of this document.
+8.1.1
+Flexural strengthening methodologies for concrete structures using steel plates should be based on the
+application of steel plates bonded to the concrete surface to enhance the flexural resistance.
+NOTE
+This document does not cover the strengthening for shear using steel plates.
+8.2
+The resistance to all failure modes that could govern the flexural resistance shall be verified, including
+failure modes where there is a loss of composite action between the steel plates and the concrete, and
+failure modes where composite action is maintained.
+Design for anchorage and separation
+8.3
+Sufficient anchorage shall be provided beyond the point at which the steel plates are required to be
+effective.
+8.3.1
+The effective anchorage length should not be less than 1.2 times the plate width, plus 100 mm.
+8.3.2
+Where the width to thickness ratio of the plate is less than 60, the effective anchorage length should not
+be less than 1.5 times the plate width, plus 100 mm.
+8.3.3
+Bolts should be provided within the anchorage length.
+8.3.4
+Bolts within the anchorage length should be designed to resist 3 times the ultimate limit state
+longitudinal shear stress and be adequately anchored into the concrete substrate.
+8.4
+The longitudinal shear stress at the interface shall be limited to avoid failure of the concrete or the
+adhesive, using the same methods as for FRP-strengthened concrete structures in Section 5.
+8.5
+Separation initiated by shear cracking shall be avoided using the same methods as for
+FRP-strengthened concrete structures in Section 5.
+8.6
+Where it is necessary to extend the plates into an area in compression, the possibility of buckling and a
+loss of composite action shall be included in the design.
+8.6.1
+Buckling restraint provided by the bonded interface should be ignored.
+8.6.2
+Bolts may be used to resist buckling.
+8.6.3
+The spacing of bolts to resist plate buckling should be determined by calculation, considering
+imperfections and ignoring any restraint from adhesive.
+8.6.4
+The spacing of bolts to resist plate buckling should not exceed 300 mm.
+Flexural resistance at the ultimate limit state
+8.7
+The strengthened section shall be designed to have sufficient flexural resistance based on composite
+action being maintained.
+8.8
+The flexural resistance of the strengthened section shall be determined based on the following
+principles and assumptions:
+1)
+plane sections remain plane;
+2)
+perfect bond is assumed;
+3)
+the strains in the section at the time of strengthening are taken into account;
+4)
+zero tension in the concrete at ULS;
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 32
+======================================================================
+CD 371 Version 0.0.1
+8. Strengthening concrete structures with extern...
+5)
+the stress in the concrete compression zone is determined based on a constitutive model for
+flexural design;
+6)
+the strain in the concrete in the compression zone is limited to avoid crushing failure;
+7)
+the stress in the reinforcement and prestressing is determined based on constitutive models for
+design;
+8)
+the stress in the steel plate is limited to the design yield strength;
+9)
+the loss of section which may occur during grit blasting is taken into account in the design; and
+10)
+additional longitudinal tensile forces associated with shear effects are included in the design.
+8.8.1
+The design models for the concrete, reinforcement and prestressing should be taken from BS EN 1992
+[Ref 5.I].
+8.8.2
+The steel plate should be designed in accordance with BS EN 1993 [Ref 6.I].
+8.9
+The strengthened section shall not be over-reinforced at the ultimate limit state.
+NOTE
+Over-reinforced sections are those where the ultimate limit resistance is reached without yielding of the
+steel reinforcement.
+Geometry of the plates
+8.10
+The width to thickness ratio of the plates shall not be less than 50.
+8.11
+The plate thickness shall not be less than 4 mm.
+NOTE
+The minimum plate thickness is required to avoid distortions during grit blasting and handling on site.
+8.12
+The transverse clear distance between the plates shall not be greater than twice the overall depth of
+the member less 100 mm.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 32
+======================================================================
+CD 371 Version 0.0.1
+9. Installation, inspection and maintenance
+9.
+Installation, inspection and maintenance
+Installation
+9.1
+The specification shall provide detailed requirements for the surface preparation of the structure, the
+application of the adhesive or resin, and the installation of the strengthening materials.
+NOTE 1
+The effectiveness of FRP strengthening and steel plate bonding is highly dependent upon the quality of
+installation.
+NOTE 2
+Further guidance is provided in CS TR55 [Ref 3.I] and CS TR57 [Ref 8.I] for concrete structures.
+NOTE 3
+The guidance in CS TR57 [Ref 8.I] refers to FRP strengthening but can also be relevant for steel plate
+bonding.
+Inspection and maintenance
+9.2
+A comprehensive manual of procedures for inspection and maintenance of the strengthened structure
+shall be prepared including:
+1)
+procedures for long-term monitoring and testing;
+2)
+all relevant technical literature relating to the products used;
+3)
+installation records, drawings, test findings and photographs of critical details. procedures for
+minor repairs;
+4)
+accurate drawings indicating the as-built location of all FRP components and steel plates,
+including those buried by surfacing;
+5)
+inspection methods to enable the identification of areas of debonding of externally bonded FRP
+laminates and steel plates; and
+6)
+requirements for the inspection of the strengthening system before and after the passage of a
+significant abnormal load.
+NOTE
+Debonding of FRPs and steel plates buried by surfacing can be indicated by local break-up or reflective
+cracking of the surface at the strengthening location.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 32
+======================================================================
+CD 371 Version 0.0.1
+10. Normative references
+10.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS EN 1991-1-7, 'Eurocode 1 - Actions on structures. General actions -
+Accidental actions'
+Ref 2.N
+BSI. BS EN 1993-2, 'Eurocode 3. Design of steel structures: Steel bridges'
+Ref 3.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 4.N
+BSI. BS EN 1991, 'Eurocode 1: Actions on structures'
+Ref 5.N
+BSI. BS EN 10025 [All Parts], 'Hot rolled products of structural steels (some parts
+harmonised)'
+Ref 6.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+National Highways. CC 486, 'Protection of steelwork against corrosion'
+Ref 8.N
+National Highways. CD 350, 'The design of highway structures'
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 32
+======================================================================
+CD 371 Version 0.0.1
+11. Informative references
+11.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+Institution of Structural Engineers. ISE Adhesives, 'A guide to the use of structural
+adhesives'
+Ref 2.I
+National Highways. CS 454, 'Assessment of highway bridges and structures'
+Ref 3.I
+Concrete Society. CS TR55, 'Design guidance for strengthening concrete structures
+using fibre composite materials'
+Ref 4.I
+BSI. BS EN 1991-1-5, 'Eurocode 1: Actions on structures: General actions – Thermal
+actions'
+Ref 5.I
+BSI. BS EN 1992, 'Eurocode 2. Design of concrete structures'
+Ref 6.I
+BSI. BS EN 1993 , 'Eurocode 3: Design of steel structures'
+Ref 7.I
+National Highways. CS 462, 'Repair and management of deteriorated concrete
+highway structures'
+Ref 8.I
+Concrete Society. CS TR57, 'Strengthening concrete structures with fibre composite
+materials - acceptance, inspection and monitoring'
+Ref 9.I
+Construction Industries Research and Information Association, London. CIRIA C595,
+'Strengthening Metallic Structures Using Externally Bonded FRP'
+Ref 10.I
+National Highways. CS 455, 'The assessment of concrete highway bridges and
+structures'
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 32
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 371 Version 0.0.1, published: 30-Sep-2025
+
+
