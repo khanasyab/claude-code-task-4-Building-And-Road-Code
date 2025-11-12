@@ -1,0 +1,2578 @@
+======================================================================
+PAGE 1 of 69
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 951
+General requirements for geomatical surveys
+(formerly MCHW Volume 5 section 1 Geodetic Survey: Parts 1 – 4)
+Version 1.0.0
+Summary
+This document contains the overarching requirements for the undertaking of geomatical surveys
+and provision of geomatic survey data.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 2 of 69
+======================================================================
+GG 951 Version 1.0.0
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 184 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Organisation and roles
+9
+Definition of roles and responsibilities
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+The Activity Manager . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3. Survey specification
+10
+Definition of survey specification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4. Deliverables
+11
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Survey report . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Control report . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Survey data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+5. Project requirements
+13
+Project identification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Survey purpose and scope
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+6. Survey requirements
+14
+Survey area . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Arrangements for access
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Land ownership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Third-party services
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Arrangements for access
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Restrictions to the survey . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Traffic management
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Removing obstructions to features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Other contacts
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+7. Spatial referencing systems
+17
+Planimetric and vertical referencing
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Coordinate transformation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Coordinate grids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Datum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 3 of 69
+======================================================================
+GG 951 Version 1.0.0
+Contents
+8. Survey control network
+18
+Control network implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Control markers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Physical ground markers (PGMs) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Reuse of control markers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Accuracy acceptance criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+9. Data capture
+20
+New data capture
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Use of existing reference data sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Areas in a state of change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+10. Data quality
+22
+Defining survey data quality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Quality validation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+11. Data management
+23
+Alignment with existing prime asset data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Data retention
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Statutory limitations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Data security . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+12. Methodology
+24
+Method statement
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+13. Normative references
+25
+Appendix A. Control markers
+26
+A1 Physical ground markers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 4 of 69
+======================================================================
+GG 951 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 951
+1.0.0
+August 2021
+Core document,
+England NAA
+Change to policy, major
+revision, new document
+development
+This document replaces content within MCHW Volume 5 section 1 Geodetic Survey: Parts 1 - 4, that applies to
+surveys generically. This full document has been re-written to update the survey requirements with contemporary
+best-practice. This rewrite makes the content compliant with MDD drafting rules.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 5 of 69
+======================================================================
+GG 951 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes relevant parts of MCHW Volume 5 Section 1 Geodetic Survey: Parts 1 – 4
+that apply to surveys generically, which are withdrawn.
+This document supersedes IAN 99/07, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 6 of 69
+======================================================================
+GG 951 Version 1.0.0
+Introduction
+Introduction
+Background
+This document contains overarching requirements for the undertaking of geomatical surveys and
+provision of geomatical survey data.
+Geomatics is the discipline of gathering, storing, processing, and delivering geographic or spatially
+referenced information; and is principally concerned with understanding the shape and properties of the
+physical world.
+As such, this document applies to a range of survey techniques under this discipline; and the
+requirements contained here are intended to be supplemented by survey-specific requirements,
+namely those that apply to specific techniques and associated data products.
+Such requirements are to be published in related documents that reference this document accordingly.
+Together this forms a suite of complementary documents to meet both overarching and specific survey
+needs.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 7 of 69
+======================================================================
+GG 951 Version 1.0.0
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+GNSS
+Global navigation satellite system
+LiDAR
+Light detection and ranging
+PGM
+Permanent ground marker
+PPM
+Parts per million.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 8 of 69
+======================================================================
+GG 951 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Activity Manager
+The Activity Manager coordinates the delivery of the survey by the
+survey contractor, in accordance with the survey specification.
+Datum
+A fixed starting point for scale measurements, typically used in
+reference to measuring height, that is, the location is a measured
+distance above/below a known datum level.
+Geomatics
+The discipline of gathering, storing, processing, and delivering
+geographic or spatially referenced information; principally concerned
+with understanding the shape and properties of the physical world.
+Light detection and ranging
+A remote sensing technique, that uses laser emitters to map spatial
+positions and record the reflected wavelengths and intensity of light
+from objects in the scene.
+Permanent ground marker
+A physical marker installed as part of a control framework, to act as a
+stable physical position to tie into spatial referencing systems
+Photogrammetry
+Techniques and processes used to extract information from imagery
+data. A predominant use of photogrammetry is the spatial
+positioning/measurement of objects within the image frame.
+Survey area
+The area of interest for which the survey data is required
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 9 of 69
+======================================================================
+GG 951 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be applied for the undertaking of geomatical surveys and the provision of
+geomatical survey data.
+NOTE
+The requirements in this document apply generally, regardless of the survey techniques used.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the undertaking of surveys and
+provision of survey data on the Overseeing Organisations' motorway and all-purpose trunk roads,
+according to the implementation requirements of GG 101 [Ref 2.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 2.N] shall be followed in respect of activities covered by
+this document.
+Use of GG 184
+1.4
+Where there is a requirement in this document to create, manage, or transfer geographic vector or 3D
+polyline/linestring data the requirements contained in GG 184 [Ref 4.N] shall be followed.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 10 of 69
+======================================================================
+GG 951 Version 1.0.0
+2. Organisation and roles
+2.
+Organisation and roles
+Definition of roles and responsibilities
+2.1
+Roles and responsibilities shall be agreed for each survey, including identification of those responsible
+and those accountable for each activity corresponding to the requirements within this document.
+2.1.1
+Where present, this should include identification of those responsible and accountable for any
+additional requirements from survey-specific documents that reference this document as a parent.
+The Activity Manager
+2.2
+For each implementation of this document, an Activity Manager shall be appointed.
+2.3
+The Activity Manager shall be responsible for the delivery of all products; including the survey data,
+survey report, and control report (where applicable).
+2.4
+The Activity Manager shall demonstrate the level of experience and competency necessary to carry out
+the role.
+2.4.1
+This level of experience should normally include a relevant qualification, post-qualified experience, and
+membership of a relevant professional body.
+NOTE
+Relevant professional bodies will vary with the specific survey being undertaken, accounting for the
+techniques and equipment involved. Examples of relevant professional bodies include:
+1) the Royal Institution of Chartered Surveyors (RICS);
+2) the Chartered Institution of Civil Engineering Surveyors (CICES); and,
+3) the Institution of Civil Engineers (ICE).
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 11 of 69
+======================================================================
+GG 951 Version 1.0.0
+3. Survey specification
+3.
+Survey specification
+Definition of survey specification
+3.1
+For each survey during project initialisation, a survey specification shall be defined; detailing the
+selected options or parameters of any requirements.
+NOTE
+The survey specification is based on the Overseeing Organisation's needs for the project. It is typically
+informed by the survey purpose and scope, and can include input or decisions from the customer (or
+their representative). The survey specification can define specifics for any requirements where a
+choice of options exists. Examples include:
+1) location and area of the survey;
+2) details or features to be surveyed;
+3) selection of quality requirements; and,
+4) detail of the products to be delivered.
+3.2
+The definition of the survey specification shall be undertaken and/or validated by the Activity Manager,
+so that the proposed survey fulfils the Overseeing Organisation's needs.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 12 of 69
+======================================================================
+GG 951 Version 1.0.0
+4. Deliverables
+4.
+Deliverables
+General
+4.1
+Regardless of type of geomatical survey, the following deliverables shall be provided:
+1) survey report - this reflects implementation of the survey specification, comprising detail of the
+survey undertaken, with the addition of supporting information to provide context or background;
+2) control report - required where control is used, comprising detail on the implementation and
+assurance of the control network; and,
+3) survey data - comprising the captured data and/or processed data for the specific survey, including
+metadata.
+4.2
+Survey deliverables shall be provided in accordance with the overarching requirements detailed
+throughout this document.
+4.2.1
+Survey deliverables should be supplemented by any additional requirements that apply to the specific
+survey, and are detailed in other survey-specific RADs that reference this document as their base
+requirement.
+4.3
+The survey report and control report shall be provided in digital form, consisting of a number of files and
+types representing the requirement.
+4.3.1
+The survey report and control report comprise non-survey data only, which may contain numerical or
+textual information, geographic vector and 3D polyline/linestring information, or digital copies of other
+documents.
+4.4
+Where the survey and control reports detail location or position information, this shall be provided using
+the same reference system(s) as defined for the survey data.
+4.5
+All products to be delivered shall be structured, organised, and accompanied by suitable metadata to
+facilitate their association and interpretation.
+Survey report
+4.6
+The survey report shall include information corresponding to the requirements for the following:
+1) project identification;
+2) survey scope and purpose;
+3) reference system(s) used throughout the project, for both:
+a) planimetric spatial position; and,
+b) vertical spatial position;
+4) alternative reference transformations (if applicable);
+5) survey area;
+a) spatial definition;
+b) description of conditions; and
+c) details of existing features;
+6) definition of land ownership;
+7) third-party services (if applicable);
+8) evidence of arrangements for access;
+9) survey restrictions;
+10) areas in a state of change;
+11) survey technique(s) employed;
+12) where utilised, existing data derivatives and respective metadata and accuracies;
+13) alignment with existing asset data (if applicable);
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 13 of 69
+======================================================================
+GG 951 Version 1.0.0
+4. Deliverables
+14) data retention periods; and,
+15) final method statement(s)
+Control report
+4.7
+Where a survey control network is used, the control report shall include information corresponding to
+the requirements for the following:
+1) survey control network diagram(s);
+2) individual control locations and markers;
+3) accuracy acceptance methodology;
+4) observations and adjustments; and,
+5) checks against the survey data accuracy requirement.
+Survey data
+4.8
+All survey data deliverables shall be in accordance with the survey specification, relevant to the survey
+type and the data sets required.
+NOTE
+The survey data can include both reference data sets and/or their derivatives depending on the survey
+type, the specification, the techniques used, and the desired outcome. For example LiDAR and
+photogrammetry (techniques) function differently and create distinctly different reference data sets;
+however both can be used to create similar deliverables such as point clouds, topographical data, and
+surface models.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 14 of 69
+======================================================================
+GG 951 Version 1.0.0
+5. Project requirements
+5.
+Project requirements
+Project identification
+5.1
+Project identification shall be defined, including:
+1) project name; and,
+2) project and/or contract reference number.
+5.2
+The project identification shall be used to identify and collate relevant information, documentation, data
+and files throughout the project.
+Survey purpose and scope
+5.3
+The scope of the project for which the survey is required shall be defined, including:
+1) descriptive overview of the project;
+2) purpose of the survey; and,
+3) intended use of the survey information.
+5.3.1
+It is recommended that future use-cases should be taken into account during the scope and purpose of
+the survey, as the definition can be utilised beyond the immediate needs.
+NOTE
+Any data captured can be valuable to use/reuse at any stage throughout the asset management life
+cycle.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 15 of 69
+======================================================================
+GG 951 Version 1.0.0
+6. Survey requirements
+6.
+Survey requirements
+Survey area
+6.1
+The location and extents of all areas to be surveyed shall be defined.
+6.2
+The survey area shall be recorded as geographic vector or 3D polyline/linestring data in accordance
+with the guidance within GG 184 [Ref 4.N], accompanied by any relevant metadata and notes to aid
+understanding.
+6.2.1
+Where necessary, additional information should be provided to facilitate location identification.
+NOTE
+Examples of location identification include road numbers, linear network references (sections and
+start/end chainages), junction references, and local place names.
+6.3
+During survey planning, an accompanying description of the survey area shall be recorded, including:
+1) information on the land conditions;
+2) any areas/features of special significant interest to the project, such as nature reserves and
+third-party land; and,
+3) any existing features that require special consideration for surveying, such as structures, water
+bodies, and historic monuments.
+Arrangements for access
+Land ownership
+6.4
+The location and extents of all land ownership within the survey area shall be identified.
+6.5
+Ownership boundaries shall be recorded as geographic vector or 3D polyline/linestring data in
+accordance with the guidance within GG 184 [Ref 4.N], accompanied by any relevant metadata and
+notes to aid understanding.
+Third-party services
+6.6
+Survey activities shall conform with all requirements of any third-party (private or public) service
+providers involved, as far as any activity that interacts with their assets and facilities is concerned.
+NOTE
+Survey activities do not constitute permission to disregard the legitimate interests of other statutory
+bodies or third-parties.
+6.7
+A record of any identified third-party services and supplies within the survey area shall be maintained
+throughout the project, including:
+1) service type (that is gas, electric, drainage and the like);
+2) service location; and,
+3) name and contact details for the owner.
+6.8
+Where applicable, known services shall be recorded as geographic vector or 3D polyline/linestring
+data, in accordance with the guidance within GG 184 [Ref 4.N], accompanied by any relevant metadata
+and notes to aid understanding.
+Arrangements for access
+6.9
+Where any survey activity requires access to or interferes with any third-party land, property, or
+services, arrangements shall be made with all owners/occupiers to agree with them all routes and
+means of access, including:
+1) planned details of the access/interaction, such as routes for access;
+2) dates and times of access; and,
+3) process for identification of personnel.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 16 of 69
+======================================================================
+GG 951 Version 1.0.0
+6. Survey requirements
+6.9.1
+All owners/occupiers should be contacted in writing, notifying them of the reason, stating approximate
+dates/times of the activity, and requesting their engagement to arrange routes for access.
+6.9.2
+Some services may only be accessed by the statutory undertaker responsible.
+6.10
+A record of all arrangements for access shall be maintained for the duration of the project, stating:
+1) the location(s);
+2) the owner/occupier, including contact information; and,
+3) any details of the access arrangement.
+Restrictions to the survey
+6.11
+The survey shall be planned and carried out in accordance with any restrictions identified in the list in
+clause 6.12.
+6.12
+Any restrictions to the survey shall be identified and reported to the Activity Manager, including:
+1) access routes to the whole survey area, or sections of the survey area;
+2) the days or hours of working;
+3) the overall programme or sequencing of the works;
+4) imposed by traffic management arrangements;
+5) due to other works in the area; and,
+6) due to environmental or ecological constraints.
+NOTE
+Examples of other works referred to in 5) above include other surveys, operations and maintenance
+activities, traffic management, or construction works.
+6.13
+A record of any restrictions shall be maintained for the duration of the project, including:
+1) the location(s) of the restriction;
+2) the date(s) and time(s) the restriction applies; and,
+3) other nature/details of the restriction.
+Traffic management
+6.14
+Any activities undertaken on the network shall be conducted in accordance with the relevant
+requirements for working within live traffic (see TSM Chapter 8 2020 [Ref 5.N]).
+6.15
+Processes for lane booking/network occupancy shall be undertaken in accordance with the Overseeing
+Organisation's requirements for network access, as defined within DMRB GM 702 2020 [Ref 3.N].
+6.16
+Liaison to arrange traffic management shall be undertaken with all affected highways authorities.
+Removing obstructions to features
+6.17
+Survey planning shall account for any areas/features that require clearing of obstructions (such as
+temporary objects and vegetation) to complete capture.
+6.17.1
+An ecologist should be consulted if the clearance of vegetation can impact ecological habitats, flora and
+fauna.
+6.18
+All activities to clear obstructions shall be recorded, including details of:
+1) location(s);
+2) activity time(s);
+3) where relevant, agreement with owner/occupier;
+4) any name and contact details of party responsible for the clearing activity; and,
+5) any details of the clearing activity required.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 17 of 69
+======================================================================
+GG 951 Version 1.0.0
+6. Survey requirements
+6.19
+Where clearing of obstructions involves land/property not owned by the Overseeing Organisation, this
+shall be agreed with the relevant owner/occupier as part of the "arrangements for access".
+6.20
+Any instances where need for clearing has been identified but either agreement is lacking, or
+agreement has been made to take no action, or clearance has not been authorised, shall be recorded
+under the survey restrictions.
+Other contacts
+6.21
+Any other contacts that are considered relevant to the survey activity shall be identified throughout the
+project.
+6.21.1
+Typically, other relevant contacts may be related to other authorities or asset owners, including:
+1) local police;
+2) rail authorities;
+3) highway authorities; and,
+4) river and drainage authorities.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 18 of 69
+======================================================================
+GG 951 Version 1.0.0
+7. Spatial referencing systems
+7.
+Spatial referencing systems
+Planimetric and vertical referencing
+7.1
+All survey data shall be aligned to a spatial reference system, as follows:
+1) planimetric spatial position - referenced to a specific coordinate grid system; and,
+2) vertical spatial position - referenced as orthogonal height (in metres) above/below a specific vertical
+datum.
+7.2
+A single pair of reference systems (planimetric and vertical) shall be used for any location information
+for all deliverables; that is all survey data and any supporting data for the project (such as definition of
+survey area, land ownership extents, location of restrictions, and similar).
+Coordinate transformation
+7.3
+Where relevant, any additional transformation to alternative referencing systems shall be defined.
+Coordinate grids
+7.4
+Selection of a coordinate grid shall consider the location, scale, and accuracy requirements of the
+survey, with options including:
+1) geographic coordinate system, such as global coordinate grid;
+2) projected coordinate systems, such as the national grid; and,
+3) an arbitrary local grid system, such as a local grid for a specific geographic area, or a site grid
+specific to the project.
+NOTE
+The scale and geographic location of the survey are of particular importance when selecting the
+coordinate system. When surveying a large area, and/or linking multiple data sets, geodetic coordinate
+systems - those that acknowledge the shape and curvature of the earth - can be necessary for survey
+data to meet consistent spatial quality requirements.
+Datum
+7.5
+Selection of a datum shall consider the the location, scale, and accuracy requirements of the survey.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 19 of 69
+======================================================================
+GG 951 Version 1.0.0
+8. Survey control network
+8.
+Survey control network
+Control network implementation
+8.1
+Where required to achieve the project's accuracy requirements, plan and vertical control networks shall
+be used.
+8.2
+Survey control points shall be established, to realise this control network grid on the ground, using a
+system of primary, secondary, and tertiary control points.
+NOTE
+For example, a control network can comprise:
+1) primary control points located nominally 1000 m, and no less than 500 m, apart;
+2) secondary control points located nominally 250 m, and no less than 100 m, apart;
+3) tertiary control points at a scale suitable to the detail and required accuracy of the survey; and,
+4) additional levels of control as required (as per tertiary).
+8.2.1
+Each survey control location should be positioned and selected so as to assure intervisibility to other
+points in the control network, facilitating observations and measurements between control points.
+8.3
+Physical Ground Markers (PGMs), shall be used to indicate primary control locations.
+8.3.1
+Other markers or control stations, such as temporary locations or markers, may be used to indicate
+secondary, tertiary, and lower-order control locations.
+8.4
+A control network diagram shall be provided, detailing the location and layout of the control network
+used, including:
+1) location(s);
+2) type and sub-type of control/marker such as permanent ground marker, temporary marker;
+3) date of installation and/or last validation such as new control, or validation of existing control;
+4) where possible, for constructed markers, ground surface type/marker construction type;
+5) photographs of control sites; and,
+6) any notes or annotation to provide context on the location or situation of the marker.
+8.5
+The control network diagram shall be recorded as geographic vector or 3D polyline/linestring data, in
+accordance with GG 184 [Ref 4.N], accompanied by any relevant metadata and notes to aid
+understanding.
+Control markers
+Physical ground markers (PGMs)
+8.6
+Physical ground markers shall be selected and installed as suitable for the location and context.
+NOTE
+For examples of physical control markers refer to Appendix A.
+8.6.1
+PGMs should be installed so as to ensure their long-term stability (more than five years), free from
+disturbance or other influence.
+8.7
+Where PGMs are proposed for installation on third-party land/property, the owner's permission shall be
+sought to agree installation, placement, and to ensure that the marker will be undisturbed for its
+lifespan.
+8.8
+Where installation of new control markers is required, they shall be implemented in such a way to
+promote and optimise their future reuse.
+Reuse of control markers
+8.9
+Where available, suitable, and compliant with the requirements contained within this document, existing
+control markers shall be reused.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 20 of 69
+======================================================================
+GG 951 Version 1.0.0
+8. Survey control network
+Accuracy acceptance criteria
+8.10
+Where a survey control network is established it shall be designed, observed, adjusted, and checked to
+achieve both the plan and height accuracy level(s) required for the data products.
+8.10.1
+Observations should be such that there is sufficient geometric resilience and redundancy to assess the
+control accuracy.
+8.11
+Control shall be designed, observed, calculated, adjusted, and checked so that direct distance between
+control points, calculated from adjusted coordinates, is within the error tolerances indicated below:
+Table 8.11 Adjacent control point error tolerance.
+For adjacent points 0-200 m apart
+For adjacent points 200+ m apart
+Primary control
+error less than ±2 mm
+error less than 1 in 100,000
+Secondary control
+error less than ±3 mm
+error less than 1 in 75,000
+Tertiary control
+error less than ±3 mm
+error less than 1 in 50,000
+8.12
+The height difference between any two points used as primary control points shall not be in error by
+more than ±(12√k) mm, where k is the distance in kilometres between the points being considered, or
+±3 mm, whichever is the greater.
+8.13
+The accuracy requirement for tertiary and lower order control shall be dependent on their intended use.
+8.14
+A record shall be provided detailing the process to assure control accuracy, including:
+1) accuracy acceptance methodology;
+2) observations and adjustments; and,
+3) results of checks against the data accuracy requirement.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 21 of 69
+======================================================================
+GG 951 Version 1.0.0
+9. Data capture
+9.
+Data capture
+New data capture
+9.1
+A record of all techniques used to capture survey data shall be maintained, including:
+1) the derivation, such as on-site GNSS measurements, and LiDAR imagery,
+2) platform(s) if used, such as vehicle, drone, fixed/rotary wing aircraft;
+3) the date of capture;
+4) the survey or sensor equipment used, including manufacturer, model, specification; and,
+5) any calibration certificates or maintenance records for the survey equipment.
+9.1.1
+The survey technique, equipment and platform should be chosen in order to meet the survey
+requirements.
+NOTE
+Combinations of survey technique, equipment, and platform are suitable to fulfil different survey
+specifications, depending on various factors including the selected features, scale of the survey, terrain,
+access arrangements, and other restrictions on the survey.
+Use of existing reference data sets
+9.2
+Where existing reference data is available, it shall be assessed to establish if it is relevant and accurate
+to the requirement.
+NOTE
+For some survey types, existing reference data sets could be available, providing coverage (in part or
+full) of the survey area. This facilitates the processing/derivation of the deliverables without the need for
+new data capture, potentially providing efficiencies and cost-savings to the survey project.
+9.2.1
+The existing reference data sets should be assessed for suitability, primarily regarding:
+1) the temporal relevance, that is when were the data captured and if it is still relevant; and,
+2) the data quality, that is, the completeness and accuracy of the data.
+9.2.2
+Existing reference data should be used if it is shown to meet the survey specification.
+9.3
+Where existing reference data sets are used a record shall be maintained, including:
+1) the origin of the data;
+2) the type of data, for examples LiDAR, and aerial imagery;
+3) the date of capture;
+4) owner of the data set;
+5) data quality specification; specifically, completeness and accuracy of the data;
+6) details of any post-processing or data manipulation;
+7) where possible, the survey equipment used including manufacturer, model, specification;
+8) where possible, any calibration certificates for the survey equipment; and,
+9) agreement of suitability to the survey.
+Areas in a state of change
+9.4
+Any area that is in a state of change at the time of survey, that is undergoing activity to change, update,
+or remove features, shall be recorded.
+9.5
+The extents of any area of change shall be recorded as geographic vector or 3D polyline/linestring
+data, in accordance with GG 184 [Ref 4.N], accompanied by any relevant metadata and notes to aid
+understanding.
+9.6
+For each area, details of the type of change it is undergoing shall be recorded, including;
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 22 of 69
+======================================================================
+GG 951 Version 1.0.0
+9. Data capture
+1) description of change (for example construction work); and,
+2) date at which change is expected to be complete (best-estimates if direct information is not
+available).
+9.6.1
+Where areas of significant change are known, or can can be identified during survey planning, these
+should be discussed with consideration to remove from the survey area or list in the survey restrictions.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 23 of 69
+======================================================================
+GG 951 Version 1.0.0
+10. Data quality
+10.
+Data quality
+Defining survey data quality
+10.1
+Data quality requirements shall be in accordance with the survey specification.
+10.1.1
+Typically, requirements for survey data quality should comprise:
+1) completeness - that is, does the quantum of the data cover the requested survey scope?; and,
+2) spatial accuracy - that is, do the recorded positions of data provided have accurate alignments to
+their real-world positions?
+10.2
+Data quality requirements shall be defined in accordance with survey-specific requirements.
+10.2.1
+Different survey data sets may have different parameters and levels to both define and measure quality,
+depending on the techniques and data sets required.
+10.3
+Any survey data delivered shall meet the quality requirements defined in the survey contract.
+Quality validation
+10.4
+All survey data provided shall be subject to any validation processes applied on receipt of the data
+deliverables, to ensure quality requirements are met.
+10.4.1
+The relevant validation processes should be discussed at project initialisation.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 24 of 69
+======================================================================
+GG 951 Version 1.0.0
+11. Data management
+11.
+Data management
+Alignment with existing prime asset data
+11.1
+Where relevant, any alignment of survey data sets with existing asset data sets shall be in accordance
+with the survey specification.
+NOTE
+For any specific requirements, giving detail of the data sets, systems, and processes, refer to the
+relevant National Application Annex(es) to this document.
+Data retention
+11.2
+The responsibility and period(s) for data retention shall be in accordance with the survey specification.
+11.2.1
+Different data sets may have different retention periods.
+11.3
+Data shall be retained for the period defined, in accordance with the survey specification.
+Statutory limitations
+11.4
+All data capture, handling, and retention must be undertaken in accordance with EU General Data
+Protection Regulations, GDPR 2016 [Ref 1.N].
+Data security
+11.5
+All handling, storage, and transfer of data shall be undertaken in accordance with the Overseeing
+Organisation's requirements for data security.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 25 of 69
+======================================================================
+GG 951 Version 1.0.0
+12. Methodology
+12.
+Methodology
+Method statement
+12.1
+The proposed survey methodology shall be approved by the Activity Manager, before any survey is
+undertaken.
+12.2
+The methodology shall be planned in accordance with all requirements within this document.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 26 of 69
+======================================================================
+GG 951 Version 1.0.0
+13. Normative references
+13.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Publications Office of the EU. Council of the European Union, European Parliament.
+GDPR 2016, 'General Data Protection Regulation (EU) 2016'
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+Highways England. GM 702, 'Operational requirements for network occupancy' ,
+2020
+Ref 4.N
+Highways England. GG 184, 'Specification for the use of Computer Aided Design'
+Ref 5.N
+TSO. TSM Chapter 8, 'Traffic Signs Manual Chapter 8 - Traffic Safety Measures and
+Signs for Road Works and Temporary Situations' , 2020
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 27 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix A. Control markers
+Appendix A. Control markers
+A1
+Physical ground markers
+Examples of physical ground markers, used for different surface types:
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 28 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix A. Control markers
+Figure A.1 Rivet marker - suitable for concrete or stone surfaces; cross-section (left) / plan (right).
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 29 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix A. Control markers
+Figure A.2 Type 1 marker - suitable for dense, very stable surfaces (e.g. pavements); cross-section (left) / plan (right).
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 30 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix A. Control markers
+Figure A.3 Type 2 marker - suitable for non-agricultural sites and unpaved surfaces; cross-section (left) / plan (right).
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 31 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix A. Control markers
+Figure A.4 Type 3 marker - suitable for agricultural sites; cross-section (left) / plan (right).
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 32 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix A. Control markers
+Figure A.5 Type 4 marker - suitable for soft surfaces; cross-section (left) / plan (right).
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 33 of 69
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 34 of 69
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 951
+England National Application Annex to GG
+951 General requirements for geomatical
+surveys
+(formerly IAN 99/07)
+Version 1.0.0
+Summary
+This National Application Annex contains the Highways England-specific additional requirements
+for the application and transposition of local and national grid referencing systems for England
+for delivering survey data, and the management of survey data with respect to asset data.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 35 of 69
+======================================================================
+GG 951 Version 1.0.0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Coordinate referencing systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Data management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+E/1. Scope
+7
+Background [GG 951, 1.1] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation [GG 951, 1.2] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+E/2. Local grid parameters [additional to GG 951]
+8
+Zones and projection scale factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Height bands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Conversion formulae . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Zone naming . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+E/3. Data management
+14
+Alignment with existing prime asset data [GG 951, 10.1] . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+E/4. Normative references
+15
+E/5. Informative references
+16
+Appendix E/A. Examples
+17
+E/A1 Local grid zone development and scale factor errors . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+E/A1.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+E/A1.2 Scale factor error example
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+E/A2 Site height errors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+E/A3 Worked example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 36 of 69
+======================================================================
+GG 951 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 951
+1.0.0
+August 2021
+England NAA
+Change to policy, major
+revision, new document
+development
+New Highways England National Application Annex to GG 951.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 37 of 69
+======================================================================
+GG 951 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes MCHW Vol 5 Section 1 Part 2 SD 12/96 Section 5.2.4, which is withdrawn.
+This document supersedes IAN 99/07, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 38 of 69
+======================================================================
+GG 951 Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex gives Highways England-specific supplementary requirements for the
+overarching requirements for geomatical surveys.
+Coordinate referencing systems
+This National Application Annex gives the Highways England-specific additional requirements for the
+application and transposition of local and national grid referencing systems for England for surveys
+using GG 951 or scheme-specific documents.
+This document ensures that surveys are referenced to a series of standardised local grids across
+England. This will ensure survey data can be converted between local grid and Ordnance Survey
+National Grid in a standardised way and that the method of data conversion is not lost with the survey
+report.
+In many cases, the Ordnance Survey National Grid referencing system of easting and northing
+coordinates is used with height values quoted above Ordnance Datum, Newlyn (AOD) to reference
+survey data. However, this national coordinate system for the whole of England is a mapping projection
+of the transverse Mercator type. Using a projection introduces inaccuracies when undertaking detailed
+design, and construction, which need to be considered for accuracy in terms of a local non-projected
+grid.
+Data management
+This National Application Annex gives the Highways England-specific reqrequirements for managing
+survey data, in respect to alignment with existing asset data sets held by the company.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 39 of 69
+======================================================================
+GG 951 Version 1.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviation
+Definition
+ADMM
+Highways England's Asset Data Management Manual
+AOD
+Above Ordnance Datum
+CSF
+Combined scale factor
+ESF
+Elevation scale factor
+LocalE
+Local grid easting
+LocalN
+Local grid northing
+OrgE
+Origin easting
+OrgN
+Origin northing
+OsE
+Ordnance Survey easting
+OsN
+Ordnance Survey northing
+PSF
+Projection scale factor for zone
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 40 of 69
+======================================================================
+GG 951 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Combined scale factor
+Factor used to convert Ordnance Survey grid coordinates to local
+grid coordinates.
+Elevation scale factor
+Factor used to correct for computational errors resulting from the
+curvature of the earth and the height above sea level.
+Geomatics
+The discipline of gathering, storing, processing, and delivering
+geographic or spatially referenced information; principally
+concerned with understanding the shape and properties of the
+physical world.
+Height banding
+Elevation range of a site for which a designated elevation scale
+factor is applied.
+Highways England local grid
+layout
+The layout of a standardised local grid coordinate system as
+shown in E/2.
+Local grid zone
+A zone within the Highways England local grid.
+Ordnance Datum (Newlyn)
+An industry-standard vertical datum for establishing height/altitude
+for mapping data, used by Ordnance Survey in Great Britain.
+Ordnance Survey National Grid
+Geographic grid reference system (OSGB36), used by the
+Ordnance Survey in Great Britain.
+Zone projection scale factor
+Factor used to correct for computational errors resulting from the
+curvature of the earth and horizontal curvature.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 41 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/1. Scope
+E/1.
+Scope
+Background [GG 951, 1.1]
+E/1.1
+This document shall be used to ensure all geomatical surveys are referenced to a series of
+standardised local grids across England.
+NOTE
+Employing local grid transformation(s) ensures consistent referencing throughout.
+Implementation [GG 951, 1.2]
+E/1.2
+This document shall be implemented on all geomatical surveys being carried for all projects where a
+local grid is required.
+NOTE 1
+This document is not applicable to surveys being carried out to Ordnance Survey National Grid
+coordinates.
+NOTE 2
+Applying a standardised local grid ensures consistent transformations between local and national grid
+systems, facilitating the integration of surveys from any suppliers across all schemes and ensuring
+interoperability of survey data across the Highways England motorway and all-purpose trunk roads
+network.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 42 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/2. Local grid parameters [additional to GG 951]
+E/2.
+Local grid parameters [additional to GG 951]
+Zones and projection scale factors
+E/2.1
+The appropriate local grid zone(s) used shall be selected using Table E/2.1, below:
+Table E/2.1 Local grid zones, origins, projection scale factors and height banding
+Zone
+Zone Start
+E
+Zone Start
+N
+Zone Origin
+E
+Zone Origin
+N
+Projection
+SF
+Height
+bands
+A1
+148000
+29000
+138000
+-171000
+1.000354
+1
+A2
+157000
+29000
+147000
+-171000
+1.000300
+1
+A3
+166000
+29000
+156000
+-171000
+1.000249
+1,2
+A4
+175000
+39000
+165000
+-171000
+1.000199
+1
+A5
+184000
+39000
+174000
+-171000
+1.000149
+1,2
+A6
+194000
+39000
+184000
+-171000
+1.000098
+1,2
+A7
+204000
+59000
+194000
+-171000
+1.000050
+1,2
+A8
+214000
+39000
+204000
+-171000
+1.000001
+1,2
+A9
+225000
+39000
+215000
+-171000
+0.999952
+1,2
+A10
+237000
+39000
+227000
+-171000
+0.999901
+1,2
+A11
+251000
+39000
+241000
+-171000
+0.999847
+1,2,3
+A12
+266000
+39000
+256000
+-171000
+0.999797
+1,2,3
+A13
+282000
+59000
+272000
+-171000
+0.999749
+1,2
+A14
+299000
+79000
+289000
+-171000
+0.999700
+1,2
+A15
+322000
+79000
+312000
+-171000
+0.999647
+1,2
+A16
+356000
+79000
+346000
+-171000
+0.999602
+1,2
+A17
+434000
+98000
+424000
+-171000
+0.999633
+1,2
+A18
+468000
+98000
+458000
+-171000
+0.999686
+1,2
+A19
+498000
+98000
+488000
+-171000
+0.999740
+1,2
+A20
+515000
+98000
+505000
+-171000
+0.999788
+1,2
+A21
+532000
+98000
+522000
+-171000
+0.999843
+1,2
+A22
+549000
+98000
+539000
+-171000
+0.999906
+1,2
+A23
+566000
+98000
+556000
+-171000
+0.999958
+1,2
+A24
+575000
+98000
+565000
+-171000
+1.000001
+1,2
+A25
+586000
+98000
+576000
+-171000
+1.000049
+1,2
+A26
+596000
+98000
+586000
+-171000
+1.000097
+1,2
+A27
+606000
+119000
+59600
+-171000
+1.000147
+1,2
+A28
+616000
+119000
+606000
+-171000
+1.000198
+1,2
+A29
+625000
+119000
+615000
+-171000
+1.000248
+1
+A30
+634000
+119000
+624000
+-171000
+1.000300
+1
+B15
+322000
+239000
+312000
+-211000
+0.999647
+1,2,3
+B16
+356000
+239000
+346000
+-211000
+0.999602
+1,2,3,4
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 43 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/2. Local grid parameters [additional to GG 951]
+Table E/2.1 Local grid zones, origins, projection scale factors and height banding (continued)
+Zone
+Zone Start
+E
+Zone Start
+N
+Zone Origin
+E
+Zone Origin
+N
+Projection
+SF
+Height
+bands
+B17
+434000
+239000
+424000
+-211000
+0.999633
+1,2
+B18
+468000
+239000
+458000
+-211000
+0.999686
+1,2
+B19
+498000
+239000
+488000
+-211000
+0.999740
+1
+B20
+515000
+239000
+505000
+-211000
+0.999788
+1
+B21
+532000
+239000
+522000
+-211000
+0.999843
+1
+B22
+549000
+239000
+539000
+-211000
+0.999905
+1
+B23
+566000
+239000
+556000
+-211000
+0.999958
+1
+B24
+575000
+239000
+565000
+-211000
+1.000000
+1
+B25
+586000
+239000
+576000
+-211000
+1.000049
+1
+B26
+596000
+239000
+586000
+-211000
+1.000097
+1
+B27
+606000
+239000
+596000
+-211000
+1.000147
+1
+B28
+616000
+239000
+606000
+-211000
+1.000198
+1
+B29
+625000
+239000
+615000
+-211000
+1.000247
+1
+B30
+634000
+239000
+624000
+-211000
+1.000299
+1
+B31
+643000
+278000
+633000
+-211000
+1.000353
+1
+B32
+652000
+278000
+642000
+-211000
+1.000408
+1
+C13
+282000
+498000
+272000
+-226000
+0.999748
+1
+C14
+299000
+458000
+289000
+-226000
+0.999700
+1,2,3,4
+C15
+322000
+449000
+312000
+-226000
+0.999647
+1,2,3,4,5
+C16
+356000
+449000
+346000
+-226000
+0.999602
+1,2,3,4
+C17
+434000
+449000
+424000
+-226000
+0.999633
+1,2
+C18
+468000
+449000
+458000
+-226000
+0.999686
+1,2
+C19
+498000
+449000
+488000
+-226000
+0.999740
+1,2
+NOTE 1
+The start point of each zone is the bottom left hand corner of each zone. The origin point of each local
+grid zone is the Ordnance Survey National Grid coordinates of the zero/zero point of each local grid
+zone.
+NOTE 2
+The origin coordinates have been selected to ensure the local grid values have a 6-figure easting value
+and a 5-figure northing value. Both values are therefore distinct and different to the Ordnance Survey
+National Grid.
+NOTE 3
+The local grid zone boundaries have been manipulated to fit with the motorway and all-purpose trunk
+roads network. The design minimises road crossing zones, particularly in the north/south direction.
+NOTE 4
+Local grid zones have been developed to limit scale factor errors to less than 50 mm per 1 km. Further
+information on scale factor errors and the development of local grid zones is provided in Appendix
+E/A1.1.
+NOTE 5
+A graphical representation of Highways England Local Grid Layout for England is shown below in
+Figure E/2.1N5.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 44 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/2. Local grid parameters [additional to GG 951]
+Figure E/2.1N5 Highways England Local Grid Layout for England
+NOTE 6
+The widths of the zones vary according to the location of zone within the national mapping projection of
+Great Britain.
+NOTE 7
+A digital version of Figure E/2.1N5 is available to download underneath this document on the DMRB
+website GG 953 [Ref 1.I].
+E/2.2
+Where data is recorded between zones the data shall be split at the zone boundary or may be adjusted
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 45 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/2. Local grid parameters [additional to GG 951]
+by up to 1 km from the zone boundary.
+E/2.3
+When data is recorded between zones and the split of E/2.2 would have data with negative local
+coordinates, the local origin shall be amended 1 km to the west and 1 km to the south.
+NOTE
+The local origin shifts to the west and south are to be applied together for consistency. This ensures all
+coordinates are positive.
+Height bands
+E/2.4
+The appropriate local height band value shall be selected using Table E/2.4 below.
+Table E/2.4 Local Grid Zone Height Banding Value (please refer to OD Newlyn datum for first
+three columns)
+Elevation
+Band
+Mean
+Elevation
+Elevation Scale
+Factor
+Height
+Band
+Alternative Height
+Band
+-160
+0
+-80
+1.0000125
+Band 0
+-80
+80
+0
+1.0000000
+Band 0A
+0
+160
+80
+0.9999875
+Band 1
+80
+240
+160
+0.9999750
+Band 1A
+160
+320
+240
+0.9999625
+Band 2
+240
+400
+320
+0.9999500
+Band 2A
+320
+480
+400
+0.9999375
+Band 3
+400
+560
+480
+0.9999250
+Band 3A
+480
+640
+560
+0.9999125
+Band 4
+560
+720
+640
+0.9999000
+Band 4A
+640
+800
+720
+0.9998875
+Band 5
+NOTE 1
+For example, a survey site with a mean site elevation of 55 m would be Band 1, as would a site at 155
+m.
+NOTE 2
+Appropriate data sets typically exclude data outside the site boundary which affect the mean site height.
+NOTE 3
+The elevation band values are typical values and can be deemed to include values plus or minus 8 m.
+E/2.4.1
+The height bands 0-5 should be used where possible with alternative height bands 0A-4A used only
+where appropriate and recorded.
+NOTE
+Where a scheme straddles the standard height band the alternative height band (0A-4A) can be used
+to ensure a better fit with the data.
+Conversion formulae
+E/2.5
+The combined scale factor (CSF) shall be computed using the appropriate zone projection scale factor
+(PSF) and the elevation scale factor (ESF) used by each height band in accordance with Equation
+E/2.5.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 46 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/2. Local grid parameters [additional to GG 951]
+Equation E/2.5 Combined scale factor equation
+CSF = PSF × ESF
+where:
+CSF
+is the Combined scale factor
+PSF
+is the Zone projections scale factor
+ESF
+is the Elevation scale factor
+E/2.6
+The local grid shall be computed from the Ordnance Survey National Grid using the Equation E/2.6a
+and Equation E/2.6b below.
+Equation E/2.6a Local Grid easting equation
+LocalE = OsE −OrgE
+CSF
+where:
+LocalE
+= Local grid easting
+OsE
+= Ordnance Survey easting
+OrgE
+= Origin easting
+CSF
+= Combined scale factor
+Equation E/2.6b Local Grid northing equation
+LocalN = OsN −OrgN
+CSF
+where:
+LocalN
+= Local grid northing
+OsN
+= Ordnance Survey northing
+OrgN
+= Origin northing
+CSF
+= Combined scale factor
+NOTE
+An example of the calculation of the combined scale factor is shown in Appendix E/A3.
+E/2.7
+A procedure to shift an entire drawing on the Ordnance Survey National Grid system to the local grid
+shall be performed, as below:
+1) take the spatial data to be transformed and insert a suitable Ordnance Survey permanent ground
+marker coordinate near the area (for quality control checking);
+2) shift the spatial data by the relevant Origin easting and Origin northing given in Table E/2.1 above;
+3) save this as a drawing block;
+4) open the local grid drawing/model and import the saved block;
+5) scale x and y ONLY by the reciprocal of the combined scale factor for the appropriate local grid
+zone; and,
+6) check the local grid coordinates of the control point to ensure transformation has been achieved
+correctly.
+E/2.8
+When converting from local grid to Ordnance Survey National Grid, the inverse of the procedure
+outlined above shall be performed.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 47 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/2. Local grid parameters [additional to GG 951]
+Zone naming
+E/2.9
+Each zone shall be named as the appropriate zone and height banding.
+E/2.10
+An asterix shall be applied to denote a change to the origin coordinates as described in E/2.4.
+NOTE
+For example a zone name is B16H3*.
+E/2.11
+The zone name used shall be recorded with the survey data.
+NOTE
+The recording method can be in metadata of the survey itself or a survey report.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 48 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/3. Data management
+E/3.
+Data management
+Alignment with existing prime asset data [GG 951, 10.1]
+E/3.1
+Alignment of survey data sets with prime asset data shall be in accordance with the requirements,
+processes, and procedures contained within the current version of the ADMM (current version) [Ref
+1.N].
+NOTE
+The Overseeing Organisation can hold existing prime asset data, specifically data that is the single,
+principle, source of information within the business, for the area being surveyed. Where new survey
+data potentially replicates information held in this prime data set, it is recommended that data
+comparison, validation, and update are arranged to:
+1) avoid duplicate data entering the company; and,
+2) ensure any changes/improvements are integrated into the prime data set.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 49 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/4. Normative references
+E/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. ADMM, 'Asset Data Management Manual' , (current version)
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 50 of 69
+======================================================================
+GG 951 Version 1.0.0
+E/5. Informative references
+E/5.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+www.standardsforhighways.co.uk/dmrb/. Highways England. GG 953, 'GG 953 Local
+grid layout for England digital map'
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 51 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix E/A. Examples
+Appendix E/A. Examples
+E/A1
+Local grid zone development and scale factor errors
+E/A1.1
+Background
+Measurements from Ordnance Survey National Grid coordinates, or any other national mapping
+system, contain factual errors. These are variable according to where the measurements are made
+within the mapping projection.
+The map projection represents a 3D surface on a 2D plan. In locations east and west from the tangent
+points the scale becomes greater or smaller.The reason is due to the shape of the mapping projection
+which can be seen in Figure E/A.1 below.
+Figure E/A.1 Scale distortions caused by mapping projection, cross section view
+In order to overcome the scale factor of the mapping projection the country has been split into a series
+of local grid zones. These are variable in width from some 9km wide at the east and west extremes of
+the country in East Anglia and Cornwall. However the central zone covers some 78 km as it spans the
+central meridian of the country. The diagram showing the variable widths can be seen in Figure
+E/2.1N5. All the local grid parameters and zone definitions can be found in Table E/2.1 and Table E/2.4.
+The widths of the local grid zones are such that the maximum distortion is kept below 5 cm per 1 km.
+That is to say, a distance measured between two points and their local grid coordinates will be correct
+to the ground distance to within 0.05%.
+E/A1.2
+Scale factor error example
+The true ground distance between two drainage gullies on the M25, near Junction 28, might be
+256.45m.The distance between the two gullies measured from the difference in their coordinates in the
+Ordnance Survey National Grid mapping projection at this point would be 256.39m. Therefore,
+measurements at this point in the mapping projection are too short. This is due to the scale factor of the
+mapping projection being some 0.999762 at this location.
+Using local grid zones, the true ground distance of 256.45m will be 256.45m ±0.01m in the local grid. In
+this case, the mapping projection data is scaled up in the local grid and made larger to fit the true earth.
+However, at the east/west extremities of England the mapping projection data is scaled down to fit the
+true earth, where the scale is in excess of 1.0000.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 52 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix E/A. Examples
+E/A2
+Site height errors
+In addition to the scale factors caused by the mapping projection in England, the site height also
+causes an effect. With a site at sea level, that is with a site height of 0m above Ordnance Datum
+Newlyn, any distances measured on the ground will be the same as those measured within the local
+grid; within the 0.05% accuracy explained above. However, as the site height increases, the true
+distances measured on the ground increases with respect to those measured at sea level. This effect is
+caused by the curvature of the earth and the fact that the points on the earth are slightly further apart
+the higher up the points become. An exaggerated view is shown in Figure E/A.2 below.
+Figure E/A.2 Scale distortions caused by site heights, cross section
+A series of height bands has been generated with a spacing to keep distortion due to height below
+0.05%. This ensures that the distances measured from the local grid coordinates of points are accurate
+to those measured on site, depending to the site height. The height bands can be found in Table E/2.1,
+the formulae and method of generating the combined scale factor for each zone can be seen in
+Equation E/2.5 and the section which follows Table E/2.1 and Table E/2.4.
+The site height can affect measured distances, for example a distance of 1 km measured at 100 m
+above sea level will be 2 cm shorter when reduced to sea level.
+A site with a mean site height of 100 m falls within height Band 1 and the mapping projection data is
+also scaled up by 0.9999875 to fit the true earth distance measurements at this height thereby
+restricting the distortion due to height.
+E/A3
+Worked example
+For a site at 345 m along the M62, the appropriate zone is B16 and the height band is 3.
+The Ordnance Survey National Grid coordinates of the point in the zone are, for example;
+397895 E, 414760 N, 350 AOD.
+These can be converted to the equivalent local grid values using the following steps:
+Equation E/A.1 Combined scale factor equation
+CSF = 0.999602 × 0.9999375 = 0.9995395
+Equation E/A.2 Local grid easting equation
+LocalE = 397895 −346000
+0.9995395
+= 51918.907E
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 53 of 69
+======================================================================
+GG 951 Version 1.0.0
+Appendix E/A. Examples
+Equation E/A.3 Local grid northing equation
+LocalN = 414760 + 211000
+0.9995395
+= 626048.279N
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 54 of 69
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 55 of 69
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 951
+Northern Ireland National Application Annex to
+GG 951 General requirements for geomatical
+surveys
+(formerly SD12/96)
+Version 1.0.0
+Summary
+There are no specific requirements for the Department for Infrastructure, 
+Northern Ireland supplementary or alternative to those given in GG 951.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 56 of 69
+======================================================================
+GG 951 Version 1.0.0
+Contents
+Contents
+Release notes
+2
+NI/1. Normative references
+3
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 57 of 69
+======================================================================
+GG 951 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 951
+1.0.0
+August 2021
+Northern Ireland NAA
+Change to policy, major
+revision, new document
+development
+New Northern Ireland National Application Annex to GG 951
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 58 of 69
+======================================================================
+GG 951 Version 1.0.0
+NI/1. Normative references
+NI/1.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 59 of 69
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 60 of 69
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 951
+Scotland National Application Annex to GG
+951 General requirements for geomatical
+surveys
+(formerly SP12/96)
+Version 1.0.0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in GG 951 core document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 61 of 69
+======================================================================
+GG 951 Version 1.0.0
+Contents
+Contents
+Release notes
+2
+S/1. Normative references
+3
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 62 of 69
+======================================================================
+GG 951 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 951
+1.0.0
+August 2021
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+New Scotland National Application Annex to GG 951
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 63 of 69
+======================================================================
+GG 951 Version 1.0.0
+S/1. Normative references
+S/1.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 64 of 69
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 65 of 69
+======================================================================
+Design Manual for Roads and Bridges
+General Principles & Scheme Governance
+General Information
+GG 951
+Wales National Application Annex to GG 951
+General requirements for geomatical surveys
+(formerly SP12/96)
+Version 1.0.0
+Summary
+There are no specific requirements for the Welsh Government supplementary or alternative to
+those given in GG 951 core document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 66 of 69
+======================================================================
+GG 951 Version 1.0.0
+Contents
+Contents
+Release notes
+2
+W/1. Normative references
+3
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 67 of 69
+======================================================================
+GG 951 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+GG 951
+1.0.0
+August 2021
+Wales NAA
+Change to policy, major
+revision, new document
+development
+New Wales National Application Annex to GG 951
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 68 of 69
+======================================================================
+GG 951 Version 1.0.0
+W/1. Normative references
+W/1.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
+
+======================================================================
+PAGE 69 of 69
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 951 Version 1.0.0, published: 30-Aug-2021
+
+
