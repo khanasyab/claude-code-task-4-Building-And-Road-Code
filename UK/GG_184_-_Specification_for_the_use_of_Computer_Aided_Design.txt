@@ -1,0 +1,2830 @@
+======================================================================
+PAGE 1 of 75
+======================================================================
+Design Manual for Roads and Bridges
+General Principles and Scheme Governance
+General information
+GG 184
+Specification for the use of Computer Aided
+Design
+(formerly IAN 184/16)
+Revision 0
+Summary
+This document contains specifications for the use of Computer Aided Design (CAD). It defines
+methods for managing the production, distribution and quality of construction information using
+CAD systems, through a disciplined process for collaboration and a specified naming convention.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 2 of 75
+======================================================================
+GG 184 Revision 0
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Information container and metadata
+9
+Information container and model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Delimiters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+File extension . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Metadata
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+3. Information exchange
+11
+Transmittal
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4. Model and drawing files
+12
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Named containers (file names) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Classification (layer names) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Unique identification of assets
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Standard component names
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Asset information requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Modelling rules and principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+CAD composition and presentation rules and guidance
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Drawing frame and title blocks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Scales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Revision and cloud marks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Text
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Dimensions and leaders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Line types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Line weights and colours
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Hatching and shading . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Background mapping and copyright
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+5. Associated data
+21
+6. Survey data
+22
+Survey specifications
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Topographic survey data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+7. Coordinate systems
+23
+8. Normative references
+24
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 3 of 75
+======================================================================
+GG 184 Revision 0
+Contents
+9. Informative references
+25
+Appendix A. Volume codes
+26
+Appendix B. Location code guidance
+28
+B1 Buildings
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+B2 Existing network
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+B2.1 Section or Network reference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+B2.2 Structures key
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+B2.3 Direction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+B2.4 Other asset identifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+B3 New works
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+B3.1 Location type . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+B3.2 Direction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+B3.3 Section identifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+B4 Combinations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+B4.1 Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Appendix C. Type codes
+32
+Appendix D. Role codes
+33
+Appendix E. File formats
+34
+E1 CAD file formats
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E1.1 Proprietary formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E1.2 Open formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E2 Documents formats
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E2.1 Proprietary formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E2.2 Open formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E3 Open standard general file formats
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+E4 Geographic vector data file formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+E5 Other file formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+E5.1 Point cloud file formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+E5.2 Aerial and satellite imagery file formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+E5.3 Alignment file formats
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+E5.4 Terrain data file formats . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 4 of 75
+======================================================================
+GG 184 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Feb 2020
+GG 184 replaces IAN 184/16. This full document has been re-written to make it
+compliant with the new Highways England drafting rules.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 5 of 75
+======================================================================
+GG 184 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes IAN 184/16 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 6 of 75
+======================================================================
+GG 184 Revision 0
+Introduction
+Introduction
+Background
+This document represents the Overseeing Organisations' specifications for the use of Computer Aided
+Design (CAD) in compliance with BS EN ISO 19650 [Ref 6.N]. The ISO establishes the methodology
+for organisation and digitisation of information about buildings and civil engineering works, including
+Building Information Modelling (BIM). This document defines methods for managing the production,
+distribution and quality of construction information using CAD systems, through a disciplined process
+for collaboration, naming and modelling practice.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 4.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 7 of 75
+======================================================================
+GG 184 Revision 0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+AIR
+Asset Information Requirements
+BIM
+Building Information Modelling
+BS
+British Standard
+CAD
+Computer Aided Design
+EIR
+Exchange or Employer's Information Requirements
+GIS
+Geographic Information System
+ISO
+International Organisation for Standardisation
+NBS
+National Building Specification
+OS
+Ordnance Survey
+PDF
+Portable Document Format
+XML
+eXtensible Markup Language
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 8 of 75
+======================================================================
+GG 184 Revision 0
+Terms and definitions
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Asset class
+An asset class is a categorisation of infrastructure assets for asset
+management purposes. Typical classes for highways management
+include pavement, structures, drainage, geotechnical, and
+technology.
+Asset information
+requirements
+Information requirements in relation to the operation of an asset.
+Component
+A component is a construction product.
+Computer Aided Design
+Computer Aided Design (CAD) software is used by architects,
+engineers, designers and others to create precision drawings or
+technical illustrations.
+NOTE: CAD software can be used to create two-dimensional (2-D)
+drawings or three-dimensional (3-D) models.
+Geographic Information
+System
+A Geographic Information system (GIS) is a system designed to
+capture, store, manipulate, analyse, manage, and present all types
+of spatial or geographical data.
+Information container
+Named persistent set of information retrievable from within a file,
+system or application storage hierarchy. Structured information
+containers include geometrical models, schedules and databases.
+Unstructured information containers include documentation, video
+clips and sound recordings.
+Information model
+Model comprising: documentation, non-graphical information and
+graphical information.
+Layer
+A layer is a generic grouping functionality in a CAD or GIS system.
+NOTE: Documents or maps can be organised by assigning objects
+to layers according to logical categories.
+Metadata
+Metadata are attributes assigned to each information container in
+the project's common data environment.
+Topographic survey
+A topographic survey is a survey that gathers data about the
+elevation of points on a piece of land. The purpose of a topgraphic
+survey is to collect data about the natural and man-made features
+of the land, as well as its elevations.
+Transmittal
+A brief note sent with a document to explain the contents of that
+document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 9 of 75
+======================================================================
+GG 184 Revision 0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document represents the specifications for the use of Computer Aided Design (CAD), the naming
+conventions, file formats and coding requirements for producing survey, design, construction and
+asset-related data, including geometrical and non-geometrical data and documentation, that shall be
+delivered from the options, development and construction phases of infrastructure projects.
+NOTE
+This document provides for continuity of information through stages and between parties, enabling
+efficient and effective generation of asset-related data from project inception into operation. However, it
+does not cover exchange of data into the Overseeing Organisations' asset management systems.
+1.2
+This specification shall apply to all projects irrespective of scope and size.
+1.3
+The information delivery plan shall acknowledge the specification contained herein.
+1.4
+The information delivery plan shall be issued to the Overseeing Organisation for acceptance, in
+accordance with the contractual requirements.
+1.5
+The information delivery plan shall commit to delivery of information and data in accordance with this
+document.
+Implementation
+1.6
+This document shall be implemented forthwith on all schemes on the Overseeing Organisations'
+motorway and all-purpose trunk roads according to the implementation requirements of GG 101 [Ref
+4.N].
+Use of GG 101
+1.7
+The requirements contained in GG 101 [Ref 4.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 10 of 75
+======================================================================
+GG 184 Revision 0
+2. Information container and metadata
+2.
+Information container and metadata
+Information container and model
+2.1
+All CAD derived information containers or models created, exchanged or delivered shall use the
+following naming convention in accordance with BS EN ISO 19650 [Ref 6.N].
+2.1.1
+Information containers that are not specific to the project under consideration, and which have well
+recognised naming conventions, should not follow this specification.
+NOTE
+Examples of information containers that need not follow this specification include tiled Ordnance
+Survey vector or raster mapping, files from adjacent or other infrastructure projects, or third-party
+records that are named in accordance with BS 1192 [Ref 1.N] or BS EN ISO 19650 [Ref 6.N].
+2.2
+Information containers shall be named in accordance with Figure 2.2.
+Figure 2.2 Naming convention
+2.3
+The project field shall be selected in accordance with the relevant National Application Annex.
+2.4
+The originator field shall be selected in accordance with the relevant National Application Annex.
+2.5
+The volume field shall be selected from those given in Appendix A.
+2.6
+An illustrated location strategy shall be proposed as part of the information delivery plan, for the
+approval of the Overseeing Organisation.
+2.6.1
+The field length for the location code should be as short and concise as possible and not exceed 16
+characters.
+2.6.2
+Guidance given in Appendix B should be used to define the location field.
+2.7
+A list of document types shall be proposed as part of the information delivery plan, for the approval of
+the Overseeing Organisation.
+2.7.1
+The type field representing the document type may be selected from either the fixed list in BS EN ISO
+19650 [Ref 6.N] Part 2, UK National Annex, or one of the additional codes given in Appendix C.
+2.8
+A list of document roles shall be proposed as part of the information delivery plan, for the approval of
+the Overseeing Organisation.
+2.8.1
+The role field may be either a single character from the fixed list in BS EN ISO 19650 [Ref 6.N] (Part 2,
+UK National Annex), or one of the two-character codes defined in Appendix D.
+2.9
+The number field holds no significance, but shall be selected to give a unique file name.
+2.9.1
+Each project should fix a consistent length for the number field from 4 to 6 digits, using leading zeros
+where necessary.
+2.9.2
+Blocks of numbers may be allocated or generated as needed.
+Delimiters
+2.10
+Table 2.10 lists the permitted unicode references that shall be used as delimiters.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 11 of 75
+======================================================================
+GG 184 Revision 0
+2. Information container and metadata
+Table 2.10 Unicode references
+Character name
+Unicode code point
+Hyphen Minus
+U+002D
+Underscore Low Line
+U+005F
+2.11
+Fields shall be separated by a hyphen minus.
+2.12
+Within a field, where a separator is needed, the underscore low line character shall be used.
+File extension
+2.13
+The file extension shall be determined by the relevant software.
+Metadata
+2.14
+Metadata shall be provided for all files.
+NOTE
+Metadata is a set of data that describes and gives information about other data. It can help manage a
+file, such as when it was created and revised, file type and other technical information.
+2.14.1
+Other metadata or other fields not described in this section may be used and include units, coordinate
+reference system, scale, sheet size (A1, A2, A3 etc.).
+2.15
+A drawing title shall be provided.
+2.16
+An information container / file description shall be provided to describe the contents of the file.
+2.17
+A revision code shall be provided in accordance with BS EN ISO 19650 [Ref 6.N] Part 2, UK National
+Annex.
+2.18
+A status code shall be provided in accordance with BS EN ISO 19650 [Ref 6.N] Part 2, UK National
+Annex.
+2.19
+A state code shall be given, either "Preliminary" or "Construction".
+2.20
+The date of issue shall be provided in accordance with BS ISO 8601 [Ref 2.N].
+2.21
+The project stage (or design fix) shall be provided as detailed in the National Application Annex.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 12 of 75
+======================================================================
+GG 184 Revision 0
+3. Information exchange
+3.
+Information exchange
+3.1
+Information containers / files shall be exchanged in accordance with the project's contractual
+requirements.
+3.2
+Information containers / files shall be delivered in an immutable read-only file format, and in their native
+file format, with any accompanying reference files.
+NOTE 1
+Immutable file formats are regarded as the primary deliverable in contractual situations. They are
+regarded as more secure, they are readable by a wider variety of applications on more platforms, and
+are less prone to obsolescence through withdrawal of support for software. Native files give added
+value through their ability to be reused and referenced by other disciplines. The combination of
+immutable and native file formats provides sufficient security to demonstrate that contractual
+deliverables have been met while also helping to ensure that information is reusable.
+NOTE 2
+While no file format can be deemed to be completely immutable, Portable Document Format (PDF) files
+created in accordance with ISO 32000 [Ref 3.N] can be considered sufficiently secure so as not to be
+easily changed.
+NOTE 3
+Files created in open formats can be opened with either free or paid-for software. This means they can
+be read and used by more people, they help people to share work more easily, and make it easier and
+cheaper to do business with government.
+3.3
+Files shall be delivered according to a set of commonly used formats.
+NOTE
+A set of commonly used open and proprietary file formats is found in Appendix E.
+3.4
+Where non-common file formats are proposed for use, approval shall be sought from the Overseeing
+Organisation.
+NOTE
+No limitation is imposed by this document on the software used.
+3.5
+A licence in perpetuity shall be permitted to the Overseeing Organisation to view and/or use any
+information supplied under the contract.
+3.6
+Where the native file format is less than 2 years old, approval shall be sought from the Overseeing
+Organisation to use it.
+3.7
+Software dependencies related to 3rd-party add-on products or vendors' layered products shall be
+declared in the transmittal information.
+Transmittal
+3.8
+A transmittal document shall describe all files being transmitted as part of each exchange of data.
+3.9
+The transmittal document shall tabulate at least the following file name and metadata:
+1) file name;
+2) drawing title;
+3) file description;
+4) revision code;
+5) status code;
+6) date issued;
+7) project stage;
+8) warning to open read-only if dependent software unavailable.
+3.10
+The text in the transmittal shall be machine-readable, i.e. capable of being copied as characters, not
+solely as an image.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 13 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+4.
+Model and drawing files
+Introduction
+4.1
+CAD models and drawing files shall, where appropriate, be 3D, with embedded, associated or linked
+data, and be capable of interrogation and analysis by digital processes.
+NOTE
+CAD models and drawing files are no longer intended purely for interpretation by the human eye.
+Working to this document ensures that information can be generated consistently, effectively and
+efficiently from CAD models.
+4.2
+Design management systems shall include the following key elements to enable generation of accurate
+asset-related data that can be validated and verified:
+1) named containers (file names);
+2) classification (layer names);
+3) unique identification;
+4) standard component names;
+5) asset information requirements (AIR);
+6) adherence to modelling rules and principles;
+7) adherence to CAD composition and presentation rules and guidance.
+Named containers (file names)
+4.3
+Files shall be named according to the specifications in Section 2.
+Classification (layer names)
+4.4
+Layers within CAD files shall use the naming convention given in Section 4 in accordance with BS EN
+ISO 13567 [Ref 7.N], Section 6 mandatory fields and the optional clause 7.7.
+NOTE
+The term "layer" here indicates generic grouping functionality in the chosen CAD system.
+4.5
+Layers shall be named in accordance with Figure 4.5.
+Figure 4.5 Layer convention
+4.5.1
+The terms and translations given in Table 4.5.1 should be used.
+Table 4.5.1 Terms used in ISO 13567
+Term used
+Term used in BS EN ISO 13567
+Role
+Agent (see sub-clause 6.1)
+Classification
+Element (see sub-clause 6.2)
+Presentation
+Presentation (see sub-clause 6.3)
+Description
+User Defined (see sub-clause 7.7)
+4.6
+The role field shall be either a single character from the fixed list in BS EN ISO 19650 [Ref 6.N], Part 2,
+UK National Annex, or one of the two-character codes defined in Appendix D.
+4.7
+The classification field shall be based on the Uniclass 2015 classification system from the National
+Building Specification (NBS).
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 14 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+4.7.1
+Uniclass 2015 is a dynamic classification and users should be aware of the changing nature of the
+system.
+NOTE
+Uniclass is the UK implementation of ISO 12006-2 [Ref 1.I] Building construction -- Organisation of
+information about construction works -- Part 2: Framework for classification.
+4.7.2
+For option/feasibility stages, the classification field should be taken from the tables Entities (En),
+Elements / Functions (EF) or Spaces / Locations (SL).
+4.7.3
+For development, detailed design and construction stages, the classification field should be taken from
+the tables Systems (Ss), Products (Pr) or Construction Aids (CA).
+4.7.4
+The table for CAD (Zz) in the NBS should be used to select the classification field for all drawing-related
+matters at all project stages.
+4.8
+The presentation field shall be selected from BS EN ISO 13567 [Ref 7.N].
+4.9
+The description field shall give a clear and concise explanation of the Uniclass2015 using CamelCase.
+4.9.1
+Consistency should be applied in the descriptive text used, through the use of template / seed files
+appropriate to each discipline.
+NOTE 1
+Although Uniclass permits underscores, ISO 13567-2 [Ref 8.N] sub-clause 6.2 stipulates a maximum of
+six alphanumeric characters, and the underscore and hyphens are used for other purposes. For
+purposes of this specification, therefore, underscores are not used within the classification field.
+NOTE 2
+Examples:
+1) D-Co3265-M-NaturalAreas
+2) CH-EF3060-P-Pavements
+NOTE 3
+The full text descriptions from the NBS table are often unsuitable, as these can be long and can contain
+punctuation characters.
+4.10
+Where it is necessary to distinguish between different types or configurations of items or assets that fall
+under the same classification code, an additional options field shall be appended to the description.
+4.11
+Where options are appended to the description, they shall be in the form of Figure 4.11.
+Figure 4.11 Options appended to description
+4.11.1
+Where an 'OptionName' is given with no 'OptionValue', that value should default to Boolean TRUE.
+NOTE
+Options can be interpreted by software to turn polylines into schedules, quantities, 3D models etc. This
+document does not limit or dictate how any optional information is used, but clarity is encouraged.
+Unique identification of assets
+4.12
+Unique identifiers, other than the internal identifiers of the CAD system, shall be assigned to each
+component.
+NOTE
+See the National Application Annex for specific requirements.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 15 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+Standard component names
+4.13
+Components designed for multiple use such as blocks, cells, within or across multiple projects, shall be
+named in accordance with BS 8541-1 [Ref 5.N].
+4.14
+The names of components shall adopt the convention of Figure 4.14.
+Figure 4.14 Component names
+4.15
+The component name shall use the underscore character between fields.
+4.16
+The role field shall be selected from Appendix D.
+4.17
+The classification field shall be based on Uniclass 2015.
+4.18
+The presentation field shall be either M2 or M3.
+4.19
+The source field shall be the originator field as defined in the National Application Annex.
+4.20
+The type field shall be a short CamelCase description.
+4.21
+The subtype field shall be a unique 4-digit number.
+Asset information requirements
+4.22
+The CAD models and drawing files shall contain, or be linked to databases that hold, the properties of
+the assets as required by Overseeing Organisation's AIR.
+4.23
+Each file shall contain only one asset class.
+4.23.1
+A single asset class for a project may be spread across multiple files, provided that there is no
+duplication.
+Modelling rules and principles
+4.24
+Interoperability issues shall be resolved at project outset to ensure consistent appearance of CAD
+elements (e.g. line type/styles, text, dimensions, hatching, etc.) when translating between software
+packages.
+4.24.1
+The following guidelines for AutoCAD/MicroStation should be adopted:
+1) use the native MicroStation line styles and AutoCAD line types where possible;
+2) when editing AutoCAD files in MicroStation, use the line types that import with the drawing;
+3) when editing AutoCAD files converted from MicroStation, use the line styles that import with the
+drawing;
+4) note that the AutoCAD annotative functionality does not translate to MicroStation.
+4.24.2
+The guidelines for AutoCAD/MicroStation should also apply to presentation from other systems.
+4.25
+The level of detail suitable for the project shall be proposed within the information delivery plan.
+NOTE
+The accuracy and completeness of the 3D modelling needs to be appropriate to the stage of the project
+and the intended use of the model.
+4.26
+Where both 3D and 2D representations are required, the 2D representation shall be derived
+automatically from the 3D representation.
+4.27
+Point assets shall be represented by dimensionally correct 3D components.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 16 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+4.27.1
+Point assets may be represented by 2D symbols where the true size of the component can be
+overlooked on the finished drawing.
+4.28
+The insertion point and axes of such components and symbols shall be meaningful and logical in the
+context of that object's purpose on the project.
+4.29
+Construction, reference or spine lines for each continuous asset shall be created and supplied, either
+as geographic vector file formats, or as 3D polylines / linestrings on layers that comply with the
+requirements of this document.
+NOTE
+The creation of construction, reference or spine lines for each continuous asset can support exchange
+to survey equipment for setting out.
+4.30
+Linear assets such as safety barrier beams or rails and posts, shall be represented by spatially correct
+3D components.
+4.30.1
+Linear assets may be represented by 2D line styles where the true size of the component can be
+confusing in a plan view at larger scales.
+4.30.2
+Where the approach uses line styles to depict assets such as utilities, their exclusion zones should also
+be depicted.
+4.30.3
+The "spine" line of any extrusion should be in a meaningful and logical position on the cross section.
+4.30.4
+The position of the spine should be clearly marked on an accompanying file / drawing.
+NOTE 1
+It is acceptable to model thin components as extruded profiles.
+NOTE 2
+CAD entities that bound or enclose 3D space are preferred to wire-line representations. Entities such
+as solids and "watertight" (topologically closed) meshes have intrinsic properties of volume. These,
+along with other meshes, surfaces and faces, have surface area. Some extruded shapes can have
+readily found length and cross-sectional area. Adopting these kinds of entities for the components of
+the design can facilitate time and cost modelling.
+CAD composition and presentation rules and guidance
+4.31
+Drawing rendition files shall compose the necessary reference files, frames and notes to achieve the
+required contractual deliverable.
+4.31.1
+Drawing rendition files should not contain more than one drawing (i.e. multiple tabs are not permitted),
+so that management and version control are not compromised.
+4.31.2
+Drawing sheet files should not be attached as reference files, except where the capabilities of the CAD
+system make this unavoidable, for example vertical profiles, developed elevations etc.
+4.32
+Model files shall not retain references to other model drawings used during development when shared
+or used by drawing renditions.
+4.32.1
+For convenience, otherwise empty arrangement drawings may be saved with assemblies of reference
+files such as survey tiles.
+NOTE
+The otherwise empty arrangement drawings can thus be attached in a single command.
+4.33
+Drawing rendition files shall attach model files (types M3 and M2) on dedicated layers, one for
+unclipped content and one for each clip boundary such as cut lines.
+4.34
+Model files (types M3 and M2) shall be attached in model space.
+Drawing frame and title blocks
+4.35
+Drawing frames, title and revision blocks etc. shall be attached in paper space.
+4.36
+Title blocks shall contain the minimum information shown in Table 4.36.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 17 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+Table 4.36 Title block content
+Metadata
+Description
+Client
+Name of the Overseeing Organisation
+Number
+Named container number in accordance with this
+specification
+Title
+A simple, short title for the container
+Status
+In accordance with this document
+State
+In accordance with this document
+Revision
+In accordance with this document
+Project title
+The clients given title for the project
+Originator / supplier project reference
+number
+In accordance with this document
+Originator / supplier details
+In accordance with this document
+Scale
+In accordance with this document
+Original size
+Paper size of the drawing rendition (A0, A1 etc)
+Date of issue
+Date the drawing was issued
+Project stage or design fix
+In accordance with the National Application Annex.
+4.36.1
+Title blocks should follow the example layout shown in Figure 4.36.1.
+Figure 4.36.1 Sample title block layout
+Scales
+4.37
+Plans, details, sections and elevations shall clearly indicate the scale to which they are drawn.
+4.38
+The scale field within the title block shall be populated to show the scale of drawn elements.
+4.38.1
+Scale bars should be included to assist stakeholders.
+4.38.2
+Scales should be selected from those in Table 4.38.2.
+Table 4.38.2 Permitted drawing scales
+1:1
+1:10
+1:100
+1:1,000
+1:10,000
+1:100,000
+-
+-
+1:125
+1:1,250
+1:12,500
+1:125,000
+1:2
+1:20
+1:200
+1:2,000
+1:20,000
+1:200,000
+-
+1:25
+1:250
+1:2,500
+1:25,000
+1:250,000
+1:5
+1:50
+1:500
+1:5,000
+1:50,000
+1:500,000
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 18 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+4.38.3
+Where historic maps (such as OS County Series 1:10,560) are required for illustrating a historical
+context, they should not be used on drawings of proposed works.
+4.38.4
+The number of scales used on a drawing should be kept to a minimum.
+4.38.5
+On multi-disciplinary projects, wherever practical the adopted scale should be the same for similar
+areas covered across all disciplines.
+4.39
+Where a scale is not relevant to the drawing sheet, the scale texts in Table 4.39 shall be used.
+Table 4.39 Permitted scale texts if not relevant to drawing
+Scale text
+Usage
+As shown
+Multiple scale drawings (show scale with the detail title), non‐ standard scales.
+NTS
+Not to scale. Schematic views etc.
+N/A
+Not applicable. Standard notes drawing, schedules etc.
+Revision and cloud marks
+4.40
+Changes between revisions of models and drawings shall be indicated though a reference
+accompanied by clouding and listed and described on the title blocks revision section.
+4.41
+As-built drawings shall contain no clouding.
+Text
+4.42
+Arial font shall be used for all annotation.
+4.43
+The text sizes indicated in Table 4.43 shall be adopted.
+Table 4.43 Text sizes
+Plotted height (mm) (at full size)
+Purpose
+1.8
+A4 & A3 sketches
+2.5
+General annotation, labels and dimensions
+3.5
+More prominent notes, labels, dimensions and minor headings
+5.0
+Headings, titles and grid text
+7.0
+Larger headings
+4.44
+The text width factor shall be 1.
+4.44.1
+Line spacing for interoperability should be:
+1) AutoCAD = 1.0x (default);
+2) MicroStation = 0.667.
+4.45
+Justification shall be left centre.
+4.46
+The text case adopted shall be used consistently across a project.
+4.47
+Abbreviations for SI units shall be presented using the appropriate case.
+4.47.1
+UPPER CASE is preferred and should be used for all annotation, titles and labels however sentence
+case is permitted.
+4.47.2
+Text should not obscure content.
+4.47.3
+Text should be legible when printed at reduced size (e.g. A1 to A3).
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 19 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+Dimensions and leaders
+4.48
+Filled 2.5mm arrow heads shall be used.
+4.49
+Text justification shall be above and centred (default).
+4.50
+Dimension line weight shall be set to 0.18mm.
+4.51
+Dimension text height shall be consistent with general text height.
+4.52
+Dimensions shall be created using the software application dimensioning tools.
+4.53
+Dimensions styles and text heights shall be consistent across a set of drawings.
+4.54
+Dimensions shall be legible when printed at reduced size (e.g. A1 to A3).
+4.55
+Dimensions shall be associative without dimension overrides.
+4.56
+Dimensions shall be annotative (AutoCAD) or annotation scale (MS).
+4.57
+Dimensions shall reside on one or more dedicated layers.
+4.58
+Multileaders shall be used (annotative AutoCAD).
+4.59
+All text shall be left justified.
+4.60
+Landing shall be set to the middle of the top line.
+4.61
+Filled 2.5mm arrow heads shall be used for point accuracy.
+4.62
+Filled dot 2.5 mm shall be used to indicate areas.
+Line types
+4.63
+Line types shall be defined by layer.
+4.63.1
+Standard line types and styles provided by the CAD system should be used.
+NOTE
+Where these are not suitable, additional custom line types can be defined and shared with project
+parties.
+4.64
+Element line type designation shall be determined at project outset, documented in the information
+delivery plan and used consistently across a project.
+4.65
+The line types, styles and settings in Tables 4.65a - 4.65d shall be used with the corresponding
+software.
+Table 4.65a AutoCAD line types
+ACADISO.linLine
+Type
+Continuous
+Dot
+Dot2
+Hidden
+Hidden2
+Dashed
+Dashed2
+Dashdot
+Dashdot2
+Divide
+Divide2
+Center
+Center2
+Border
+Border2
+Phantom
+Phantom2
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 20 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+Table 4.65b MicroStation Line Styles
+lstyle.rsc
+Line Style
+Description
+0
+Continuous
+1
+Dot
+2
+Medium dash
+3
+Long dash
+4
+Dot, dash
+5
+Short dash
+6
+Dash, dot, dot
+7
+Long dash, short dash
+Table 4.65c AutoCAD Line Type Settings
+LTSCALE
+PSLTSCALE
+Element
+1
+Model Space
+Finished drawing scale e.g. 500
+n/a
+Paper Space
+1
+1
+Table 4.65d MicroStation Custom Line Style Settings
+Global line style scale
+Finished drawing scale e.g. 500
+Reference: global line style scale
+Master
+References: scale line styles by reference scale
+On
+Line weights and colours
+4.66
+Plotted line widths shall be 0.05mm; 0.13mm; 0.18mm; 0.25mm; 0.35mm; 0.5mm; 0.7mm; 1.0mm;
+1.4mm; or 2.0mm.
+4.66.1
+Line weights should be set by layer rather than by element.
+4.67
+Pen widths shall be set by object line weight, not by pen table.
+4.68
+Colours 0 to 9 inclusive shall plot as black lines.
+4.69
+Colours other than 0 to 9 shall plot in monochrome or their drawn colour according to the chosen plot
+settings.
+Hatching and shading
+4.70
+Hatching and shading shall be kept to the minimum necessary to define areas and types clearly.
+4.70.1
+Only patches of the material hatch pattern sufficient to clearly show the intent of the hatching should be
+shown.
+NOTE
+Using patches of the material hatch pattern can keep CAD file sizes down.
+4.70.2
+Default patterns should be used where possible.
+4.70.3
+Custom hatch patterns may be used where necessary.
+4.71
+Hatching shall be consistent across a project for the same element designation.
+4.72
+Hatching/patterning shall be created using the relevant tools available within the software.
+4.73
+Draw order and transparency settings of filled regions shall not cover required graphical information.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 21 of 75
+======================================================================
+GG 184 Revision 0
+4. Model and drawing files
+4.74
+All hatching shall be associative and annotative.
+4.75
+All hatching shall reside on dedicated layers to allow easy control of visibility.
+4.76
+All hatching shall reside in model space / design view.
+4.77
+Each hatched area shall be defined as a single hatched entity and not grouped with other hatched
+areas.
+4.78
+For large regions of hatching and zoning, a separate model drawing shall be created to aid drawing
+update order and speed of display (e.g. landscaping, zoning and staging drawings).
+Background mapping and copyright
+4.79
+Where background mapping data products are used (Ordnance Survey or otherwise) in drawings, the
+appropriate copyright acknowledgements shall be included.
+NOTE
+For further guidance, see the information on the Ordnance Survey website OSCA [Ref 2.I].
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 22 of 75
+======================================================================
+GG 184 Revision 0
+5. Associated data
+5.
+Associated data
+5.1
+Attribute data for asset classes shall be supplied in the form of asset data files.
+NOTE
+Common file formats are given in Appendix E.
+5.2
+Attribute data for any asset shall comply with the field names, formats and domains defined in the
+National Application Annex.
+5.3
+Associated data or schedule information shall be prepared in database-ready form.
+NOTE
+Database-ready form means that properties for each component are included as single-line records.
+5.4
+The property names shall be the column titles, starting with the unique identifiers in the first column.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 23 of 75
+======================================================================
+GG 184 Revision 0
+6. Survey data
+6.
+Survey data
+Survey specifications
+6.1
+Survey specifications (including standards, grid or mapping, areas, routes, hazards, landowners
+affected, survey procedures, instrumentation, monitoring, accuracy requirements, post-processing
+requirements etc.) shall be defined in the survey requirements.
+Topographic survey data
+6.2
+Topographic surveys shall be delivered as 3D CAD model files in accordance with the provisions of this
+document.
+6.3
+Unless otherwise specified, symbols and annotation in topographic survey drawings shall be suitable
+for presentation at 1:500 scale.
+6.4
+Where the objects surveyed extend up or down from ground level, separate layers shall be provided for
+the ground level lines and the other vertical extent.
+NOTE
+For example, the tops of walls, fences, ditches will be in separate layers from their bases.
+6.5
+Features at ground level shall not cross except at a common point.
+6.6
+Features at ground level shall not be continuous across bridge decks.
+6.7
+Features at ground level shall stop and restart at the ends of the bridge deck.
+6.8
+Features that represent closed boundaries shall be geometrically closed.
+6.9
+Property information relating to point assets (spot levels, references etc.) shall be provided as linked
+attributes, not as unrelated text.
+NOTE
+Within AutoCAD the association is achieved through attributed blocks, and within Bentley MicroStation
+through tags.
+6.10
+Asset codes shall be as defined by the Overseeing Organisation.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 24 of 75
+======================================================================
+GG 184 Revision 0
+7. Coordinate systems
+7.
+Coordinate systems
+7.1
+All data shall be supplied in accordance with the requirements for units, coordinate systems,
+projections and datums as defined by the Overseeing Organisation.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 25 of 75
+======================================================================
+GG 184 Revision 0
+8. Normative references
+8.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+BSI. BS 1192, 'Collaborative production of architectural, engineering and construction
+information'
+Ref 2.N
+BSI. BS ISO 8601, 'Data elements and interchange formats. Information interchange.
+Representation of dates and times.'
+Ref 3.N
+ISO. ISO 32000, 'Document management -- Portable document format'
+Ref 4.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 5.N
+BSI. BS 8541-1, 'Library objects for architecture, engineering and construction.
+Identification and classification. Code of practice.'
+Ref 6.N
+BSI. BS EN ISO 19650, 'Organization and digitization of information about buildings
+and civil engineering works, including building information modelling (BIM) -
+Information management using building information modelling'
+Ref 7.N
+BSI. BS EN ISO 13567, 'Technical product documentation - Organization and naming
+of layers for CAD'
+Ref 8.N
+International Organization for Standardization. ISO 13567-2, 'Technical product
+documentation — Organization and naming of layers for CAD — Part 2: Concepts,
+format and codes used in construction documentation'
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 26 of 75
+======================================================================
+GG 184 Revision 0
+9. Informative references
+9.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+ISO. ISO 12006-2, 'Building construction -- Organisation of information about
+construction works -- Part 2: Framework for classification'
+Ref 2.I
+Ordanance Survey. OSCA, 'https://www.ordnancesurvey.co.uk/business-and-govern-
+ment/help-and-support/public-sector/copyright-acknowledgements.html'
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 27 of 75
+======================================================================
+GG 184 Revision 0
+Appendix A. Volume codes
+Appendix A. Volume codes
+Table A.1 contains volume codes.
+Table A.1 Volume codes
+Category
+Code
+Purpose
+General
+GEN
+Scheme-wide generic information
+GHS
+Health and Safety
+Highways
+HAC
+Highway Approvals & Consents
+HAW
+Accommodation Works
+HDG
+Drainage
+HEL
+Power / Electrical
+HFE
+Fencing
+HGT
+Geotechnical
+HGN
+General
+HKF
+Kerbs, Footways and Paved Areas
+HLG
+Road Lighting
+HMC
+Motorway Communications
+HMK
+Road Markings
+HML
+Mainline Geometric Layout
+HPV
+Road Pavements
+HRR
+Road Restraint System (Vehicle and Pedestrian)
+HSC
+Site Clearance
+HSL
+Traffic Signals
+HSN
+Traffic Signs
+HSR
+Side Roads Geometric Layout
+Structures
+SBR
+Bridges and Major Culverts
+SGN
+General
+SGT
+Geotechnical
+SGY
+Gantries
+SMA
+Masts
+SMN
+Minor Structures and Culverts
+SRW
+Retaining Walls
+SSP
+Special structures
+STU
+Tunnels
+Environment
+EAC
+Environmental Approvals & Consents
+EAQ
+Air Quality
+EBD
+Biodiversity
+EGN
+General
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 28 of 75
+======================================================================
+GG 184 Revision 0
+Appendix A. Volume codes
+Table A.1 Volume codes (continued)
+Category
+Code
+Purpose
+EGT
+Geology and Soils
+EHR
+Heritage/Historic resources
+ELS
+Landscape
+ENM
+Non-Motorised Users
+ENV
+Noise & Vibration
+ETS
+Townscape
+EWE
+Water Environment
+Survey
+VAB
+Asbestos survey
+VAS
+Accident Statistics
+VDS
+Drainage Survey
+VES
+Environmental survey
+VGN
+Survey General
+VGT
+Geotechnical Investigation
+VNR
+National Road Telecommunications Services (NRTS)
+VPS
+Pavement Systems
+VSM
+Structures management
+VSS
+Stakeholder Surveys
+VTO
+Topographical
+VTR
+Traffic Survey
+VUT
+Utilities
+Legal
+LDC
+Development Consent Order
+LLO
+Land Ownership Boundaries
+LSI
+Statutory Instruments
+Temporary
+TTM
+Traffic management
+TTW
+Temporary works
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 29 of 75
+======================================================================
+GG 184 Revision 0
+Appendix B. Location code guidance
+Appendix B. Location code guidance
+The Location field of information containers / file names is flexible in order to accommodate the variety
+of disciplines and type of project. It may indicate a specific structure on a project, or a position along
+the route.
+The general form is optional letters followed by an integer numeral.
+The order of the tables does not convey a hierarchy or preference.
+B1
+Buildings
+To be used for the asset management or construction of a building, from BS EN ISO 19650 [Ref 6.N]
+UK National Annex.
+Table B.1 Buildings
+Code
+Description
+ZZ
+multiple levels/locations
+XX
+no level/location applicable
+00
+base level
+01
+level 01
+02
+level 02
+M1
+mezzanine above level 01
+M2
+mezzanine above level 02, etc.
+B1
+basement level 1
+B2
+Existing network
+The following options should be considered when developing the volume and location strategy for work
+/ schemes on the existing network.
+B2.1
+Section or Network reference
+The following codes are examples only. An underscore '_' may replace a slash ' / ' which is present in
+the Overseeing Organisation's Network Referencing System.
+Table B.2 Network reference
+Code
+Description
+A30
+Roadnumber or Roa_number
+A308M
+Roadnumber or Roa_number
+0600A556_110
+Section Label or Sect_Label
+0600M53_156
+Section Label or Sect_Label
+B2.2
+Structures key
+There is an option to utilise the key or the number.
+Example structure key and numbers shown. An underscore '_' may replace a slash ' / ' which is present
+in the Overseeing Organisation's asset or structures management systems.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 30 of 75
+======================================================================
+GG 184 Revision 0
+Appendix B. Location code guidance
+Table B.3 Structures key or number
+Key
+Number
+Description
+32720
+A556_25.90
+Green / Accommodation Over bridge
+33039
+A556_28.6_R1
+Retaining Wall
+33620
+A556_23.7_S1
+MS4 Cantilever Gantry
+B2.3
+Direction
+Table B.4 Directions
+Code
+Description
+NB
+North bound
+SB
+South bound
+CW
+Clockwise
+EB
+East bound
+WB
+West bound
+B2.4
+Other asset identifiers
+Table B.5 Asset identifiers
+Code
+Description
+5WA21P
+Unique on-site identification label
+SJ7282_1706a
+Unique asset reference
+Examples from various asset management systems. This type of location code should only be used
+when the works specifically relate to that asset.
+B3
+New works
+The following options should be considered when developing volume and location strategy for new
+works / schemes or where the new section reference has not yet been determined.
+B3.1
+Location type
+Table B.6 Location type
+Code
+Description
+Linear asset
+ML
+Mainline
+SR
+Side or Slip Road
+Individual asset
+S
+A structure
+B
+A bridge
+G
+A gantry
+R
+A retaining wall or similar
+B3.2
+Direction
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 31 of 75
+======================================================================
+GG 184 Revision 0
+Appendix B. Location code guidance
+Table B.7 Direction
+Code
+Description
+A
+Carriageway A, typically North bound
+B
+Carriageway B, typically South bound
+C or CR
+Central Reservation
+Z or ZZ
+Entire carriageway
+J
+Carriageway A off slip
+K
+Carriageway A on slip
+L
+Carriageway B off slip
+M
+Carriageway B on slip
+B3.3
+Section identifier
+Table B.8 Section identifier
+Code
+Description
+S1
+Section 1, junction 1 to junction 2
+S2
+Section 2, junction 2 to junction n
+L1
+Link 1, chainage 0100 to chainage 1500*
+L2
+Link 2, chainage 1500 to chainage 3400*
+J1
+New junction number 1
+J2
+New junction number 2
+*Numbers are for illustrative purposes only.
+B4
+Combinations
+The options above can be used in multiple combinations with a sequential integer numeral, to suit the
+size and complexity of the project.
+Table B.9 Numeral
+Code
+Description
+01
+First
+02
+Second
+03
+Third
+04
+Forth
+etc
+10
+Tenth
+B4.1
+Examples
+The options above can be used in multiple combinations, to suit the size and complexity of the project.
+Consider the need for an underscore '_' to separate parts of the code to aide clarity, however keeping
+the field as short as possible.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 32 of 75
+======================================================================
+GG 184 Revision 0
+Appendix B. Location code guidance
+Table B.10 Example combinations
+Code
+Description
+ML01
+Type+Numeral - First Mainline reference
+SR02
+Type+Numeral - Second side road
+S03
+Type+Sequential - Third Structure
+G04
+Type+Sequential - Forth Gantry
+A308_01
+Road Number+Sequential
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 33 of 75
+======================================================================
+GG 184 Revision 0
+Appendix C. Type codes
+Appendix C. Type codes
+The type field of file names can comprise the codes listed in the following tables:
+Table C.1 Type codes for drawings and models
+Code
+Type
+Description
+AF
+Animation File
+Video file based on a model.
+CM
+Combined Model
+A series of individual / discipline models federated together to
+view an entire project as a whole.
+DE
+Detail Drawing
+Standard detail drawings and content not included in the model.
+DR
+Drawing
+Drawing rendition, created solely to be printed either to PDF or
+paper, drawing templates etc. DR should be used for any drawing
+where a drawing frame is used.
+M2
+Two dimensional
+model
+Typically used as a reference, contents are 2D only.
+M3
+Three dimensional
+model
+Typically used as a reference, contents are 3D only.
+MR
+Model Rendition
+Published 3D model file, typically consumed into the combined
+model.
+SC
+Schematic
+Model based on chainage, e.g. for communications drawings.
+SK
+Sketch
+Typically, singular plan/section, not for client approval.
+SU
+Survey
+Topographical, structural inspection, environmental,
+socio-economic, geotechnical investigation, coring investigations,
+materials investigation, condition.
+VS
+Visualisation
+Typically, a photo rendering/montage based on a model.
+Table C.2 Type codes for documents
+Code
+Type
+Description
+BQ
+Bill of Quantities
+Bill of Quantities (used by commercial function only)
+CA
+Calculation(s)
+Structural, calculations, hydraulic or similar calculations
+DT
+Document Transmittal Note
+Correspondence management
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 34 of 75
+======================================================================
+GG 184 Revision 0
+Appendix D. Role codes
+Appendix D. Role codes
+The role field can comprise the codes listed in the BS EN ISO 19650 [Ref 6.N] UK National Annex and
+if required supplement with the following table:
+Table D.1 Role codes
+Code
+Role
+AX
+Architectural – General
+CB
+Civil – Bridges and Structures
+CD
+Civil – Drainage
+CE
+Civil – Earthworks
+CH
+Civil – Highways
+CT
+Civil – Tunnels
+CU
+Civil – Utilities
+CW
+Civil – Temporary Works
+EC
+Electrical – Control Systems and Technology
+EO
+Lighting Engineer
+GI
+Geotechnical Investigation
+KK
+Client
+LA
+Landscape and Environment – Air and Noise
+LE
+Landscape and Environment – Environmentalist
+LH
+Landscape and Environment – Heritage
+LS
+Landscape and Environment - Architecture
+QS
+Quantity Surveyor
+TP
+Town Planner
+TR
+Civil – Traffic Modelling
+TS
+Traffic Signals
+VT
+Geographical/Geospatial and Land Surveyor
+WM
+Contractors – Main Contractor
+XX
+Subcontractor
+ZC
+Commercial and Cost Management
+ZH
+Stakeholder Liaison
+ZL
+Legal
+ZM
+Project Management
+ZQ
+Quality Assurance
+ZS
+Health & Safety / CDM
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 35 of 75
+======================================================================
+GG 184 Revision 0
+Appendix E. File formats
+Appendix E. File formats
+The allowable format should not constrain or prohibit the authoring organisation's ability to chose the
+appropriate tool for creating data. However methods for ongoing interoperability over the whole asset
+lifecycle should be considered when preparing files for exchange.
+E1
+CAD file formats
+E1.1
+Proprietary formats
+Typical file formats include the native file formats of vendors such as Autodesk and Bentley. Other
+vendors' systems such as Trimble (Tekla or Novapoint) are not prohibited by this specification. The
+formats proposed for use in a project should be clearly listed in the information delivery plan.
+Common formats:
+1) DGN, I.DGN (Bentley, MicroStation, Intergraph);
+2) DWG, DWF, DXF, FBX (Autodesk);
+3) NWD, NWF, NWC (Autodesk / Navisworks);
+4) RVT (AutoDesk / Revit);
+5) 3DM (Rhino).
+E1.2
+Open formats
+Model file exchange by the use of open interoperable file formats governed by International
+Organisation for Standardisation should be considered:
+1) IFC (BuildingSmart - ISO 16739);
+2) STEP (ISO 10303).
+E2
+Documents formats
+E2.1
+Proprietary formats
+This specification does not prohibit the use of other vendors' systems, such as Google, Lotus etc.
+Commonly used formats are:
+1) DOC, DOCX (Microsoft Word);
+2) XLS, XLSX (Microsoft Excel);
+3) PPT, PPTX (Microsoft Powerpoint).
+E2.2
+Open formats
+Open formats which are endorsed by UK Government Digital Services are:
+1) ODT (OpenDocument Text) for text documents;
+2) ODS (OpenDocument Spreadsheet) for spreadsheets;
+3) ODP (OpenDocument Presentation) for presentation slides.
+E3
+Open standard general file formats
+1) CSV (Comma-separated values) for datasets designed to be machine-readable;
+2) PDF (Portable document format) saved as PDF/A for fixed layout documents;
+3) XML (eXtensible Markup Language) for datasets designed to be machine-readable;
+4) JSON (JavaScript Object Notation) for datasets designed to be machine-readable;
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 36 of 75
+======================================================================
+GG 184 Revision 0
+Appendix E. File formats
+5) BCF (BuildingSmart BIM Collaboration Format);
+6) AGS (A text file format used to transfer data between organisations in the site investigation industry,
+developed by the Association of Geotechnical and Geoenvironmental Specialists).
+E4
+Geographic vector data file formats
+1) SHP (Esri shapefiles). These consist of 4 mandatory linked files:
+a) SHP contains the graphic definition of the point assets, continuous assets or area assets of a
+given type;
+b) SHX contains indexes to the shp file;
+c) DBF is a dBase-compliant file containing the non-graphic data for the same assets in the same
+order;
+d) PRJ sets the projection.
+2) GDB (Esri Geodatabase)
+3) TAB (MapInfo tables)
+4) GeoJSON (geographic JSON) for representing simple geographical features along with their
+non-spatial attributes
+E5
+Other file formats
+E5.1
+Point cloud file formats
+1) LAS (an industry-standard binary format for storing airborne LiDAR data) and associated zipped file
+format LAZ;
+2) PTS (Leica, often referred to as 3D Points File Graphics, does not retain any original scan or
+registration information);
+3) PTX (Leica, contains all of the information from the original scan plus additional registration
+information);
+4) POD (Bentley, Pointtools files);
+5) ASTM E57 (ASTM - formerly known as American Society for Testing and Materials - vendor neutral
+file format for storing point clouds, images, and metadata produced by 3D imaging systems, such as
+laser scanners);
+6) XYZ (Ascii point cloud format);
+7) PTD.
+E5.2
+Aerial and satellite imagery file formats
+1) ECW (Enhanced Compression Wavelet);
+2) GEOTIFF (Allows georeferencing information to be embedded within a TIFF file);
+3) JPEG, JPEG 2000 (Joint Photographic Experts Group);
+4) World files (Plain text data files used by GIS systems to georeference raster map images, the name
+of the world file is formed by appending the letter "w" to the end of the raster filename, alternatively
+the second letter of the three-letter filename extension is replaced with the last letter, and the third
+letter is replaced with the letter "w" - e.g. if the map file ends in JPG then the separate world file
+ends in JGW).
+E5.3
+Alignment file formats
+1) IfcAlignment 1.0;
+2) OGC (Open Geospatial Consortium) GML (Geography Markup Language) Alignment;
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 37 of 75
+======================================================================
+GG 184 Revision 0
+Appendix E. File formats
+3) LandXML 1.2 (ideally using the restricted schema of the model view definition);
+4) OGC GML 3.3 or higher.
+E5.4
+Terrain data file formats
+1) LandXML 1.2 (ideally using the restricted schema of the model view definition);
+2) MX Genio text files.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 38 of 75
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 39 of 75
+======================================================================
+Design Manual for Roads and Bridges
+General Principles and Scheme Governance
+General information
+GG 184
+England National Application Annex to GG
+184 Specification for the use of Computer
+Aided Design
+(formerly IAN 184/16)
+Revision 0
+Summary
+This National Application Annex contains the Highways England specific requirements related to
+the specification for the use of Computer Aided Design.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 40 of 75
+======================================================================
+GG 184 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+E/1. Container naming
+7
+Project field . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Originator field
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Project stage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+E/2. Asset data and non-graphic data
+8
+Asset codes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+E/3. Coordinate systems
+9
+Units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Coordinate systems and projections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Datums . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+E/4. Normative references
+10
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 41 of 75
+======================================================================
+GG 184 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Feb 2020
+Highways England National Application Annex to GG 184.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 42 of 75
+======================================================================
+GG 184 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes IAN 184/16 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 43 of 75
+======================================================================
+GG 184 Revision 0
+Introduction
+Introduction
+Background
+This document represents the specifications for naming standards, file formats and coding
+requirements for survey, design, construction and asset-related data, including geometrical and
+non-geometrical data and documentation, to be delivered to Highways England from the options,
+development and construction phases of infrastructure projects. This specification applies to all
+projects irrespective of scope and size.
+Requirements for import into the Highways England's asset management systems are contained in the
+ADMM [Ref 1.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 44 of 75
+======================================================================
+GG 184 Revision 0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+ADMM
+Asset Data Management Manual
+ODN
+Ordnance Datum Newlyn
+OS
+Ordnance Survey
+PIN
+Project identification number
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 45 of 75
+======================================================================
+GG 184 Revision 0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Portfolio Control Framework
+The Portfolio Control Framework provides a standard programme
+life-cycle and its associated stages, and describes the delivery of the
+programme of works for projects within the portfolio, for operations.
+Project Control Framework
+The Project Control Framework provides a defined life-cycle with a
+clear start and end point, broken into phases and stages structured
+around key milestones, for major projects.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 46 of 75
+======================================================================
+GG 184 Revision 0
+E/1. Container naming
+E/1.
+Container naming
+E/1.1
+The project field and originator fields of the container naming specifications for Highways England shall
+be in accordance with section E/1.
+NOTE
+The core requirements give general container naming specifications.
+Project field
+E/1.2
+Unless otherwise instructed by Highways England, the project field shall be the characters "HE"
+followed by the Highways England 6-digit project identification number (PIN).
+NOTE
+The HE Supply Chain Portal contains a lookup table of PINs.
+Originator field
+E/1.3
+The originator field shall contain a unique abbreviation for the originator of the file.
+E/1.4
+The originator field shall identify the party that has the contractual responsibility with Highways England.
+E/1.5
+Abbreviations shall be from 2 to 6 characters long.
+E/1.6
+A separate code shall be established representing any joint venture.
+E/1.7
+Abbreviations shall be proposed for approval by Highways England.
+NOTE
+The HE Supply Chain Portal contains a list of registered abbreviations and their owners.
+Project stage
+E/1.8
+The project stage shall be as defined in the Portfolio Control Framework for operations, or the Project
+Control Framework for major projects.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 47 of 75
+======================================================================
+GG 184 Revision 0
+E/2. Asset data and non-graphic data
+E/2.
+Asset data and non-graphic data
+Asset codes
+E/2.1
+Asset codes shall be as defined in the ADMM [Ref 1.N].
+NOTE
+The ADMM also defines the relationship between asset codes and Uniclass.
+E/2.2
+Attribute data for asset classes that are defined in ADMM shall be supplied in the form as defined in the
+ADMM.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 48 of 75
+======================================================================
+GG 184 Revision 0
+E/3. Coordinate systems
+E/3.
+Coordinate systems
+Units
+E/3.1
+All coordinated model files shall be in metres.
+E/3.2
+Standard detail drawings, sections and component models shall either be in metres or millimetres.
+E/3.3
+Where detail drawings, sections and component models are incorporated into coordinated models, they
+shall be scaled to metres.
+E/3.4
+Dimensions shall be displayed in either metres or millimetres in accordance with normal practice.
+Coordinate systems and projections
+E/3.5
+All coordinates shall be referenced to Ordnance Survey's National Grid.
+E/3.6
+The appropriate coordinate system and projection to be used for the activity shall be agreed with
+Highways England and in accordance with Highways England's survey requirements.
+E/3.7
+Where any local grid is used, data shall be supplied in both National Grid and local grid coordinates.
+Datums
+E/3.8
+All levels shall be relative to Ordnance Datum Newlyn (ODN).
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 49 of 75
+======================================================================
+GG 184 Revision 0
+E/4. Normative references
+E/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. ADMM, 'Asset Data Management Manual'
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 50 of 75
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 51 of 75
+======================================================================
+Design Manual for Roads and Bridges
+General Principles and Scheme Governance
+General information
+GG 184
+Northern Ireland National Application Annex to
+GG 184 Specification for the use of Computer
+Aided Design
+Revision 0
+Summary
+This National Application Annex contains the Department for Infrastructure Northern Ireland
+specific requirements related to the specification for the use of Computer Aided Design.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 52 of 75
+======================================================================
+GG 184 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+NI/1. Container naming
+6
+Project field . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Originator field
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+NI/2. Asset data and non-graphic data
+7
+NI/3. Coordinate systems
+8
+Units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Coordinate systems and projections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Datums . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+NI/4. Normative references
+9
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 53 of 75
+======================================================================
+GG 184 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Feb 2020
+Department for Infrastructure Northern Ireland National Application Annex to
+GG 184.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 54 of 75
+======================================================================
+GG 184 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England on behalf of Department for Infrastructure, Northern
+Ireland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 55 of 75
+======================================================================
+GG 184 Revision 0
+Introduction
+Introduction
+Background
+This National Application Annex represents the Department for Infrastructure Northern Ireland
+specifications for naming standards, file formats and coding requirements for survey, design,
+construction and asset-related data, including geometrical and non-geometrical data and
+documentation, to be delivered to Department for Infrastructure, Northern Ireland from the options,
+development and construction phases of infrastructure projects. This specification applies to all
+projects irrespective of scope and size.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 56 of 75
+======================================================================
+GG 184 Revision 0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+LPS
+Land and Property Services (Northern Ireland)
+LPSDB
+Land and Property Services (Northern Ireland) Datum, Belfast
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 57 of 75
+======================================================================
+GG 184 Revision 0
+NI/1. Container naming
+NI/1.
+Container naming
+NI/1.1
+The project field and originator field of those specifications for Department for Infrastructure shall be in
+accordance with section NI/1.
+NOTE
+The core requirements document gives general container naming specifications.
+Project field
+NI/1.2
+The project field shall be as directed by the Department for Infrastructure.
+Originator field
+NI/1.3
+The originator field shall be as directed by the Department for Infrastructure.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 58 of 75
+======================================================================
+GG 184 Revision 0
+NI/2. Asset data and non-graphic data
+NI/2.
+Asset data and non-graphic data
+NI/2.1
+Asset codes shall be as advised by the Department for Infrastructure.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 59 of 75
+======================================================================
+GG 184 Revision 0
+NI/3. Coordinate systems
+NI/3.
+Coordinate systems
+Units
+NI/3.1
+All coordinated model files shall be in metres.
+NI/3.1.1
+Standard detail drawings, sections and component models may be in metres or millimetres.
+NI/3.2
+Where standard detail drawings, sections and component models are incorporated into coordinated
+models they shall be scaled to metres.
+NI/3.2.1
+Dimensions may be displayed in metres or millimetres in accordance with normal practice.
+Coordinate systems and projections
+NI/3.3
+All coordinates shall be georeferenced to the Irish Grid 1975 Irish Grid [Ref 2.N].
+NI/3.4
+The appropriate coordinate system and projection to be used for the activity shall be agreed in
+accordance with the Department for Infrastructure's survey requirements.
+NI/3.5
+Where any local grid is used, data shall be supplied in both Irish Grid and local grid coordinates.
+Datums
+NI/3.6
+All levels shall be relative to Land and Property Services (Northern Ireland) Datum, Belfast.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 60 of 75
+======================================================================
+GG 184 Revision 0
+NI/4. Normative references
+NI/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 2.N
+Ordanance Survey Ireland. Irish Grid, 'The Irish Grid'
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 61 of 75
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 62 of 75
+======================================================================
+Design Manual for Roads and Bridges
+General Principles and Scheme Governance
+General information
+GG 184
+Scotland National Application Annex to GG
+184 Specification for the use of Computer
+Aided Design
+Revision 0
+Summary
+This National Application Annex contains the Transport Scotland specific requirements related to
+the specification for the use of Computer Aided Design.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 63 of 75
+======================================================================
+GG 184 Revision 0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+S/1. Container naming
+5
+Project field . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Originator field
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+S/2. Asset data and non-graphic data
+6
+S/3. Coordinate systems
+7
+Units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Coordinate systems and projections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Datums . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+S/4. Normative references
+8
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 64 of 75
+======================================================================
+GG 184 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Feb 2020
+Transport Scotland National Application Annex to GG 184.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 65 of 75
+======================================================================
+GG 184 Revision 0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England on behalf of Transport Scotland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 66 of 75
+======================================================================
+GG 184 Revision 0
+Introduction
+Introduction
+Background
+This National Application Annex represents the Transport Scotland specifications for naming
+standards, file formats and coding requirements for survey, design, construction and asset-related data,
+including geometrical and non-geometrical data and documentation, to be delivered to Transport
+Scotland from the options, development and construction phases of infrastructure projects. This
+specification applies to all projects irrespective of scope and size.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 1.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 67 of 75
+======================================================================
+GG 184 Revision 0
+S/1. Container naming
+S/1.
+Container naming
+S/1.1
+The project field and originator field of those specifications for Transport Scotland shall be in
+accordance with section S/1.
+NOTE
+The core requirements document gives general container naming specifications.
+Project field
+S/1.2
+The project field shall be as directed by Transport Scotland.
+Originator field
+S/1.3
+The originator field shall be as directed by Transport Scotland.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 68 of 75
+======================================================================
+GG 184 Revision 0
+S/2. Asset data and non-graphic data
+S/2.
+Asset data and non-graphic data
+S/2.1
+Asset codes shall be as advised by Transport Scotland.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 69 of 75
+======================================================================
+GG 184 Revision 0
+S/3. Coordinate systems
+S/3.
+Coordinate systems
+Units
+S/3.1
+All coordinated model files shall be in metres.
+S/3.1.1
+Standard detail drawings, sections and component models may be in metres or millimetres.
+S/3.2
+Where standard detail drawings, sections and component models are incorporated into coordinated
+models they shall be scaled to metres.
+S/3.2.1
+Dimensions may be displayed in metres or millimetres in accordance with normal practice.
+Coordinate systems and projections
+S/3.3
+All coordinates shall be referenced to Ordnance Survey's National Grid.
+S/3.4
+The appropriate coordinate system and projection to be used for the activity shall be agreed in
+accordance with Transport Scotland's survey requirements.
+S/3.5
+Where any local grid is used, data shall be supplied in both National Grid and local grid coordinates.
+Datums
+S/3.6
+All levels shall be relative to Ordnance Datum Newlyn (ODN).
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 70 of 75
+======================================================================
+GG 184 Revision 0
+S/4. Normative references
+S/4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 71 of 75
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 72 of 75
+======================================================================
+Design Manual for Roads and Bridges
+General Principles and Scheme Governance
+General information
+GG 184
+Wales National Application Annex to GG 184
+Specification for the use of Computer Aided
+Design
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in GG 184.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 73 of 75
+======================================================================
+GG 184 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 74 of 75
+======================================================================
+GG 184 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Feb 2020
+Welsh Government National Application Annex to GG 184.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
+
+======================================================================
+PAGE 75 of 75
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, GG 184, published: Feb-2020
+
+
