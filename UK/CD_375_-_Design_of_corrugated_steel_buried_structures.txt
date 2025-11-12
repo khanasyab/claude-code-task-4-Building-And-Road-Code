@@ -1,0 +1,2653 @@
+======================================================================
+PAGE 1 of 55
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Design
+CD 375
+Design of corrugated steel buried structures
+(formerly BD 12/01)
+Version 2.0.0
+Summary
+This document details the design requirements for corrugated steel buried structures that act
+compositely with the surrounding material to resist loading.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 55
+======================================================================
+CD 375 Version 2.0.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+9
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Environmental considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+2. Design principles for corrugated steel buried structures
+12
+Ultimate limit state for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Serviceability limit state for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Actions for corrugated steel buried structures
+13
+Permanent actions for corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Variable actions for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Construction loads for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+4. Effects of actions for corrugated steel buried structures
+16
+Compressive hoop load for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Compressive hoop stress for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Radial soil pressure for closed invert corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . .
+17
+Foundation loading for circular arch corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . .
+20
+Thrust . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Earth pressure from fill . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Vertical pressure on inside face . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Self weight
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+5. Strength parameters for corrugated steel buried structures
+24
+Constrained soil modulus for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Ground resistance parameters for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . .
+27
+Characteristic buckling strength for corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . . .
+27
+Characteristic longitudinal seam strength for corrugated steel buried structures . . . . . . . . . . . . . . . .
+29
+6. Ultimate limit state requirements for corrugated steel buried structures
+30
+Structural resistance for corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Bearing resistance for closed invert corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . .
+30
+Foundation design for circular arches of corrugated steel buried structures
+. . . . . . . . . . . . . . . . . .
+30
+7. Serviceability limit state requirements for corrugated steel buried structures
+32
+Structural deflection limits for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Limiting bearing pressure for closed invert corrugated steel buried structures . . . . . . . . . . . . . . . . .
+32
+Foundation design for circular arches of corrugated steel buried structures
+. . . . . . . . . . . . . . . . . .
+32
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 55
+======================================================================
+CD 375 Version 2.0.0
+Contents
+8. Durability of corrugated steel buried structures
+34
+General durability requirements for corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . . .
+34
+Corrosivity classification of surfaces for corrugated steel buried structures . . . . . . . . . . . . . . . . . . .
+34
+Protective coatings and sacrificial steel thickness for corrugated steel buried structures
+. . . . . . . . . . .
+37
+Invert protection for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Impact protection for corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+9. Excavation and filling for corrugated steel buried structures
+40
+Trench geometry for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Founding level for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Filling for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+10. Minimum rigidity of corrugated steel buried structures
+43
+11. Construction details for corrugated steel buried structures
+45
+Overlying reinforced concrete slab . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Invert protection for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Multiple installations of corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+End treatment for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+12. Design outputs for corrugated steel buried structures
+49
+General requirements for design outputs for corrugated steel buried structures . . . . . . . . . . . . . . . .
+49
+Design outputs for the installation of corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . .
+49
+Earthworks for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Steel components for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Coatings of steel components for corrugated steel buried structures
+. . . . . . . . . . . . . . . . . . . . . .
+50
+Invert protection for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Concrete foundations for arch-profile corrugated steel buried structures . . . . . . . . . . . . . . . . . . . .
+50
+Overlying reinforced concrete slab for corrugated steel buried structures . . . . . . . . . . . . . . . . . . . .
+50
+13. Normative references
+51
+14. Informative references
+53
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 55
+======================================================================
+CD 375 Version 2.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 375
+2.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+Updated to provide clear and consistent flow of requirements from this document to CC 605, incorporate relevant
+design requirements from the superseded MCHW Series 2501, as well as various editorial and referencing
+updates.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 375
+1
+March 2020
+CD 375
+0
+August 2018
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 55
+======================================================================
+CD 375 Version 2.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 375 Revision 1 (V. 1.0.0 March 2020) which is withdrawn..
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+Corrugated steel buried structures are proprietary manufactured structures, and the design and
+contractual procedures provided in CG 300 [Ref 23.N] are to be followed.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 55
+======================================================================
+CD 375 Version 2.0.0
+Introduction
+Introduction
+Background
+This document details the design requirements for corrugated steel buried structures that act
+compositely with the surrounding material to resist loading. It describes the procedures to be followed
+that permit the selection of a proprietary structure that meets the design requirements.
+Revision 0 (August 2018) replaced BD 12/01. The full document was re-written to make it compliant
+with the new standards drafting rules.
+Revision 1 (March 2020) provided updates to incorrectly listed references.
+Revision 2 provides clear and consistent flow of requirements from this document to CC 605 [Ref
+2.N]and associated work-specific requirements where design input is required. It also incorporates
+relevant design requirements from the superseded Manual of Contract Documents for Highway Works,
+Series 2501 and Series 2501 Notes for Guidance, as well as various editorial and referencing updates.
+Advice on the management of these structures is detailed in document CS 460 [Ref 6.I]. The
+assessment requirements of these structures are detailed in document CS 459 [Ref 9.I].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 19.N] apply to this document.
+Mutual recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 19.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 55
+======================================================================
+CD 375 Version 2.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+CSBS
+Corrugated steel buried structures
+PI
+Plasticity index
+SLS
+Serviceability limit state
+ULS
+Ultimate limit state
+Symbols
+Symbol
+Units
+Description
+Latin letters
+a
+mm2/mm
+Cross-sectional area of corrugated steel per unit length, the cross section
+being parallel to the length of the structure
+aa
+mm2/mm
+Adjusted cross-sectional area of corrugated steel per unit length based on
+the remaining wall thickness after deduction of sacrificial metal thickness
+B
+mm
+Diameter of plate used in plate load test
+C
+kN/m
+Compressive hoop load in the wall of the structure per unit length
+CT
+kN/m
+Total compressive hoop load in the wall of the circular arch structure per unit
+length acting upon the foundation
+D
+mm
+Additional trench width required when the excavation level is extended
+dc
+mm
+Depth of corrugation (from any peak to the adjacent trough)
+E
+MPa
+Modulus of elasticity of structural steel in accordance with BS EN 1993-1-1
+[Ref 11.N]
+Ee
+MPa
+Modulus of elasticity of soil
+F
+mm/N
+Flexibility factor
+Fmax
+mm/N
+Limiting value of flexibility factor
+fb
+MPa
+Characteristic buckling stress
+fs
+MPa
+Characteristic longitudinal seam strength (provided by manufacturer)
+fs,a
+MPa
+Adjusted longitudinal characteristic seam strength
+fyk
+MPa
+Characteristic yield strength of the steel
+h
+m
+Nominal height of fill above the structure
+ht
+m
+Height of fill above the crown of the structure including the thickness of any
+road construction
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 55
+======================================================================
+CD 375 Version 2.0.0
+Abbreviations and symbols
+Symbols (continued)
+Symbol
+Units
+Description
+I
+mm4/mm
+Cross-sectional moment of inertia of the corrugated steel per unit length, the
+cross-section being parallel to the length of the structure
+Ia
+mm4/mm
+Adjusted cross-sectional moment of inertia of the corrugated steel per unit
+length, the cross-section being parallel to the length of the structure
+Id
+-
+Depth correction factor for plate load test
+K
+-
+Constant used in wheel load dispersal calculations for deflection checks
+Ka
+-
+Active earth pressure coefficient
+k
+MPa/mm
+Coefficient of soil reaction
+ke
+MPa/mm
+Modified coefficient of soil reaction
+M ∗
+MPa
+Constrained soil modulus of existing soil
+M ∗
+c
+MPa
+Constrained soil modulus for calculation
+mv
+m2/MN
+Coefficient of volume compressibility
+N
+-
+Uncorrected SPT value
+P
+kPa
+Radial soil pressure on a circular closed invert structure
+Pi
+kPa
+Radial soil pressure at locations in a multi-radii structures
+PGd
+kPa
+Design vertical superimposed dead load pressure at the ultimate limit state
+PGk
+kPa
+Characteristic superimposed vertical pressure from dead loads
+PLd
+kPa
+Design vertical live load pressure at the ultimate limit state
+PLk
+kPa
+Characteristic vertical pressure from live loads
+P1
+kPa
+Overburden pressure on top of footing of circular arch
+P2
+kPa
+Lateral earth pressure on the outside face of the footing of a circular arch
+P3
+kPa
+Overburden pressure on top of footing inside circular arch
+r
+m
+Radius of circular structure
+rb
+m
+Radius at the bottom of a multi-radii structure
+rc
+m
+Radius at the corner of a multi-radii structure
+rt
+m
+Radius at the top of a multi-radii structure
+S
+m
+Span of the structure (diameter of circular structure)
+T
+µm
+Thickness of sacrificial steel for each surface
+t
+years
+Life of sacrificial thickness of steel
+Wf
+kN/m
+Self weight of foundation per unit length
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 55
+======================================================================
+CD 375 Version 2.0.0
+Abbreviations and symbols
+Symbols (continued)
+Symbol
+Units
+Description
+y
+m
+Excavation width measured from the walls of the structure
+Z1
+m
+Depth from road surface/ground level to top of foundation
+Z2
+m
+Depth from road surface/ground level to mid height of foundation
+Greek letters
+∆q
+MPa
+Change in pressure applied by the plate (plate load test)
+∆s
+mm
+Change in average settlement of the plate (plate load test)
+∆x
+m
+Increase in horizontal diameter or span
+γ
+kN/m3
+Unit weight of compacted fill
+γa
+-
+Model (adjustment) factor to be applied to effects of actions
+γG
+-
+Partial factor for a permanent action
+γm
+-
+Partial factor for material strength
+γQ
+-
+Partial factor for a variable action
+θ
+degrees
+Re-entry angle of circular arch measured between the vertical and the
+tangent to the arch wall at the top of the foundation
+ν
+-
+Poisson's ratio of structural steel in accordance with BS EN 1993-1-1 [Ref
+11.N]
+νe
+-
+Poisson's ratio of soil
+σa,d
+MPa
+Design compressive hoop stress at ULS
+σcr
+MPa
+Theoretical transverse elastic buckling stress
+ψ
+-
+Factor for the quasi-permanent value of variable actions
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 55
+======================================================================
+CD 375 Version 2.0.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Construction loads
+Loads resulting from operations and events during the
+construction of the structure
+Permanent actions
+An action that is likely to act throughout the life of a structure or
+over a significant time, and where change in magnitude and
+direction are negligible
+Serviceability limit state
+Limit state associated with the use of a structure, its appearance
+or functionality
+Corrugated steel buried
+structure
+The combination of connected parts that form the corrugated steel
+buried structure (CSBS) and the surrounding fill
+Type 1 circular arch
+A circular arch CSBS where the re-entry angle θ measured
+between the vertical and tangent to the arch wall at the top of the
+foundation is defined by 20 ≤θ ≤30 degrees
+Type 2 circular arch
+A circular arch CSBS where the re-entry angle θ measured
+between the vertical and tangent to the arch wall at the top of the
+foundation is defined by 10 ≤θ < 20 degrees
+Ultimate limit state
+Limit state associated with the safety of a structure and forms of
+failure that could result in collapse
+Variable actions
+An action with a magnitude or direction that can vary with time
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 55
+======================================================================
+CD 375 Version 2.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of corrugated steel buried structures (CSBSs), with spans
+greater than or equal to 0.9 m and up to 8.0 m, which are straight in plan and can be described as one
+of the following:
+1)
+bolted segmental construction with closed circular cross sections;
+2)
+bolted segmental construction with closed multi-radii cross section;
+3)
+bolted segmental construction with circular arch cross section; or,
+4)
+helically wound construction with closed circular cross sections.
+1.1.1
+Advice should be obtained from specialist manufacturers of the specific type of CSBS to be used.
+NOTE 1
+The data used in developing this design methodology was generally limited to structures of between
+0.9 m to 8.0 m span, which is why these limits are imposed within this document.
+NOTE 2
+The data used in developing this design methodology for arch structures was generally restricted to
+circular arches, which is why non-circular arches are not specifically included within this document.
+1.2
+The size and shape of the structure shall be within the limits set out in Table 1.2.
+Table 1.2 Structure shapes and sizes covered by this document
+Shape
+Range of sizes
+Circular structure
+0.9 m ≤S ≤8.0 m
+Multi-radii structure
+0.9 m ≤S ≤8.0 m
+The shapes conform to:
+rb
+rt < 3.5 and rc
+rt > 0.2
+Circular arch structure
+2.0 m ≤S ≤8.0 m
+The shapes conform to either:
+Type 1 arch: 20° ≤θ ≤30°
+Type 2 arch: 10° ≤θ ≤20°
+1.3
+This document shall not be used for CSBSs in the repair of other types of structure.
+NOTE
+An example where CSBSs are used in the repair of other types of structure is as a liner for brick arch
+structures.
+1.4
+In situations using types of CSBS that are not covered in this document, Technical Approval Authority
+approval shall be obtained.
+1.4.1
+Advice should be obtained from specialist manufacturers of the specific type of CSBS to be used.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 55
+======================================================================
+CD 375 Version 2.0.0
+1. Scope
+1.5
+Extensions to in-situ CSBSs shall be compatible with the existing structure and meet the requirements
+of this document.
+1.6
+The environment shall be classed as "non-aggressive" or "aggressive" as defined in Section 8.
+1.6.1
+The classification should reflect actual site conditions at the CSBS location.
+NOTE
+An environment which is classed as "very aggressive" is outside the scope of this document.
+1.7
+The CSBSs to be used shall be subject to:
+1)
+Technical Approval procedures in accordance with CG 300 [Ref 23.N]
+2)
+Certification in accordance with CD 622 [Ref 20.N]
+Implementation
+1.8
+This document shall be implemented forthwith on all schemes involving design of CSBSs on the
+Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 19.N].
+Use of GG 101
+1.9
+The requirements contained in GG 101 [Ref 19.N] shall be followed in respect of activities covered by
+this document.
+Environmental considerations
+1.10
+The Overseeing Organisation's requirements for environmental design shall be followed in designing
+CSBSs.
+NOTE
+LD 118 [Ref 2.I] gives advice on the use of underpasses by multiple species of small mammals and
+fish. It illustrates various forms of culvert design to facilitate free passage of these species. These
+considerations can be fundamental to the determination of the span, headroom, cross-section invert
+and gradient of the structure.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 55
+======================================================================
+CD 375 Version 2.0.0
+2. Design principles for corrugated steel buried...
+2.
+Design principles for corrugated steel buried structures
+2.1
+The design life of CSBSs shall be 120 years.
+NOTE
+Section 8 includes requirements for durability of CSBSs.
+2.2
+BS EN 1990 [Ref 14.N] limit state principles shall be used.
+2.3
+CSBSs shall be designed to avoid the ultimate limit state (ULS) and serviceability limit state (SLS)
+defined in this document being exceeded throughout the design life.
+Ultimate limit state for corrugated steel buried structures
+2.4
+Design action effects (Ed) at ULS shall be less than the design resistance (Rd).
+2.5
+Design actions shall be expressed as the product of the characteristic values of actions and the partial
+factors, γG , for permanent actions and, γQ ,, for variable actions.
+2.6
+Values for, γG , and, γQ , given in the NA to BS EN 1990 [Ref 27.N] shall be used.
+2.7
+Design action effects (Ed) shall be expressed as the product of the effects of design actions and the
+model factor, γa , given in Section 4.
+NOTE
+The model factor , γa
+, is applied in addition to partial factors, γG , and γQ
+, which already
+incorporate the factor, γSd , defined in BS EN 1990 [Ref 14.N].
+2.8
+Design resistance (Rd) shall be expressed based on the characteristic strength of the material divided
+by the partial factor, γm .
+NOTE
+Values of, γm , for structural resistance are provided in Section 6. For ground resistance, γm , is
+defined in the NA to BS EN 1997-1 [Ref 28.N].
+2.9
+ULS shall be represented by:
+1)
+the strength of the structure as determined by the yielding and buckling of corrugated steel buried
+structures;
+2)
+the strength of a longitudinal bolted seam as determined by tests on bolted plate assemblies;
+3)
+the strength of a wound seam as determined by tests on helically wound assemblies;
+4)
+global stability of the structure; and,
+5)
+bearing, sliding and overturning resistance of the foundation.
+2.10
+For ULS, the following load combinations shall be used:
+1)
+permanent actions together with variable traffic actions; and,
+2)
+permanent actions during execution together with construction loads.
+Serviceability limit state for corrugated steel buried structures
+2.11
+Load effects shall be less than the limits defined in Section 7 at SLS.
+2.12
+SLS shall be represented by:
+1)
+a limiting structural deflection; and,
+2)
+a limiting settlement or bearing pressure of the foundation.
+NOTE
+Verifications for SLS to be performed are given in Section 7.
+2.13
+For SLS, permanent actions shall be combined with variable actions as required for the particular
+verification.
+NOTE
+Combinations of actions to be used for particular SLS verifications are defined in Section 7.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 55
+======================================================================
+CD 375 Version 2.0.0
+3. Actions for corrugated steel buried structure...
+3.
+Actions for corrugated steel buried structures
+Permanent actions for corrugated steel buried structures
+3.1
+The self-weight of the structure shall be included in the design for the following situations:
+1)
+when temporary struts or ties are required to support the structure during execution; and,
+2)
+for end treatments, the self-weight of headwalls, ring beams and collars.
+3.1.1
+For all other situations, the self-weight of the structure may be ignored.
+NOTE 1
+Section 10 includes requirements for where the structure needs supports during execution.
+NOTE 2
+Section 11 includes requirements for when the structure needs end treatments.
+3.2
+The characteristic vertical pressure, PGk , on the structure due the superimposed dead load shall be
+taken from Equation 3.2:
+Equation 3.2 Characteristic vertical pressure
+PGk = γh
+where:
+γ
+is the unit weight of compacted fill
+h
+is the nominal height of fill above the structure, to be taken as ht + 0.25r for circular
+structures and ht + 0.25rt for multi-radii structures
+ht
+is the height of fill above the crown of the structure including the thickness of any road
+construction
+r
+is the radius of closed circular structures or arch structures
+rt
+is the radius at the top of a multi-radii structure
+NOTE
+Different values of unit weight can be adopted for different layers of fill with different properties.
+Variable actions for corrugated steel buried structures
+3.3
+The design shall include load models for normal and abnormal levels of traffic.
+3.3.1
+The traffic load models should be based on only one lane of traffic.
+NOTE
+The recommendation to consider the simplified design load model based on only one lane of traffic is a
+design simplification and does not affect the traffic management of the structure. The use of this
+simplification has been used historically and successfully in the UK for structures that carry more than
+one lane.
+3.3.2
+Normal and abnormal traffic should be assessed separately.
+3.3.3
+Braking and acceleration effects may be ignored.
+3.4
+For normal traffic a single wheel load of 57.5 kN multiplied by an overload factor of 1.5 and a dynamic
+amplification factor (DAF) of 1.4 shall be used.
+3.4.1
+On the carriageway each wheel load should be assumed to be uniformly distributed over a circular or
+square contact area based on a nominal tyre inflation pressure of 1.1 N/mm2.
+3.5
+For abnormal traffic loads the relevant special vehicle (LM3) in BS EN 1991-2 [Ref 8.N] shall be used.
+NOTE
+CD 350 [Ref 26.N] specifies the special vehicles for particular classes of road and special order
+vehicles.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 55
+======================================================================
+CD 375 Version 2.0.0
+3. Actions for corrugated steel buried structure...
+3.6
+To determine the characteristic vertical live load pressure, PLk , on the structure due to any wheel load,
+dispersion in three dimensions shall be assumed from the limits of the contact area on the carriageway
+to the level of the crown of the buried structure as shown in Figure 3.6.
+1)
+Zone 1: wheel load 1 and wheel load 2 are distributed over length L1 and L2 respectively.
+2)
+Zone 2: wheel load 1 and wheel load 2 are combined and distributed jointly over length L3.
+Figure 3.6 Dispersion of adjacent wheel loads
+3.6.1
+Dispersion in three dimensions should be assumed at a slope of 2 vertically to 1 horizontally as shown
+in Figure 3.7.
+NOTE
+Different dispersion slopes can be adopted for different layers of fill with different properties.
+3.7
+The characteristic vertical live load pressure, PLk , shall be taken to act over the whole span or part of
+the span if more onerous.
+3.8
+A wheel load not directly over the structure shall be included if its dispersion zone falls over any part of
+the structure.
+3.9
+The dispersion zones of individual wheel loads shall be combined and distributed jointly as indicated in
+Figure 3.6.
+3.10
+Where a reinforced concrete structural slab is proposed, the dispersion of the wheel loads throughout
+the slab and the soil shall be modelled in the design.
+3.10.1
+The dispersion of the wheel loads may be assumed to occur at a slope of 1 vertically to 1.5 horizontally
+throughout the depth of the structural slab, and of 2 vertically to 1 horizontally below the bottom level of
+the slab.
+3.10.2
+Alternatively, the dispersion of wheel loads may be modelled by a multi-layer elastic analysis, which
+takes into account the relative stiffness of the structural slab and the layers of material between the slab
+and the crown of the structure.
+NOTE
+Methods for load dispersion are provided in chapter 6 of "Elastic Solutions for Soil and Rock
+Mechanics" by Poulos & Davis 1974 [Ref 4.I].
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 55
+======================================================================
+CD 375 Version 2.0.0
+3. Actions for corrugated steel buried structure...
+Construction loads for corrugated steel buried structures
+3.11
+The characteristic vertical live load pressure, PLk , on the structure due to tracked construction vehicles
+or large rubber tyred earthmoving vehicles shall be based on the depth of cover of one fifth of the span
+of the structure, or 1 m, whichever is greater.
+3.11.1
+CSBSs should be designed to include loading due to construction vehicles at all stages of construction
+and maintenance.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+4.
+Effects of actions for corrugated steel buried structures
+Compressive hoop load for corrugated steel buried structures
+4.1
+The characteristic compressive hoop load shall be taken from Equation 4.1 as illustrated in Figure 4.1:
+Equation 4.1 Characteristic compressive hoop load
+C = S
+2 (PG + PL)
+where:
+S
+is the span of the structure
+PG = PGd
+and PL = PLd
+at ultimate limit state (ULS)
+PG = PGk
+and PL = PLk
+at serviceability limit state (SLS)
+Figure 4.1 Compressive hoop load
+Compressive hoop stress for corrugated steel buried structures
+4.2
+The compressive hoop stress in the wall of the structure shall be assumed to be uniform around its
+periphery.
+4.3
+The design compressive hoop stress at the ultimate limit state, shall be calculated from Equation 4.3:
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+Equation 4.3 Compressive hoop stress
+σa,d = C
+aa
+γa
+where:
+aa
+is the adjusted cross-sectional area of corrugated steel per unit length with the cross
+section being parallel to the length of the structure
+γa
+is a model factor, as defined in Table 4.3
+Table 4.3 Model factor values
+γa
+at ULS
+γa
+at ULS and SLS
+Type of structure
+Buckling
+Yield
+Seam
+Thrust on foundations
+Multi-radii and bolted circular closed invert
+1.05
+1.05
+1.05
+-
+Circular arch Type 1
+1.05
+1.40
+1.40
+1.33
+Circular arch Type 2
+1.60
+2.10
+2.10
+2.0
+Helically wound
+1.0
+1.0
+-
+-
+NOTE: The empirical values of the model factors in the table take account of previous practice, the
+influence of the relative stiffness of the particular structural form, the amount of deformation occurring
+before the various limit states are reached, and the variation of stress distribution in the particular
+type of structure.
+4.4
+Where the cross-sectional area varies along the length, the minimum value for, aa , shall be used.
+4.5
+Where the cross-sectional area varies along the length, the re-rolled ends of helically wound culvert
+lengths shall be included if they extend for more than 250 mm at the end of each length.
+Radial soil pressure for closed invert corrugated steel buried structures
+4.6
+For circular closed invert structures, the radial soil pressure shall be calculated using Equation 4.6:
+Equation 4.6 Radial soil pressure (circular closed invert structures)
+P = C
+r
+where:
+r
+is the radius of the structure
+4.7
+For multi-radii structures, the radial soil pressure shall be calculated using Equation 4.7:
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+Equation 4.7 Radial soil pressure (multi-radii structures)
+Pi = C
+ri
+where:
+Pi
+is the radial soil pressure of the relevant location of the structure (top, bottom, corner), as
+illustrated in Figure 4.7
+ri
+is the radius of the relevant location of the structure (top, bottom, corner), as illustrated in
+Figure 4.7
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+Figure 4.7 Structure radii, hoop load and radial soil pressures for multi-radii structures
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+Foundation loading for circular arch corrugated steel buried structures
+4.8
+Load effects on foundations shall be calculated based on loadings shown in Figure 4.8, and combined
+for the relevant limit state.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+Figure 4.8 Foundation loadings
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+4.8.1
+The lateral pressure acting on the inside face of the footing should be ignored.
+4.8.2
+Vertical and horizontal pressures resulting from live loading surcharge on the carriageway may be
+ignored.
+Thrust
+4.9
+The total thrust, CT , in the wall of the structure, acting upon the foundation at an inclined angle, θ , to
+the vertical shall be taken from Equation 4.9, where, C , is defined in Equation 4.1 for the relevant limit
+state.
+Equation 4.9 Total thrust
+CT = Cγa
+where:
+γa
+is a model factor, as defined in Table 4.3
+Earth pressure from fill
+4.10
+The overburden pressure, P1 , on the top of the footing shall be taken from Equations 4.10:
+Equation 4.10a Overburden pressure (SLS)
+P1 = γZ1,
+at SLS
+where:
+Z1
+is the depth from road/ground level to top of foundation
+γ
+is the unit weight of overburden
+Equation 4.10b Overburden pressure (ULS)
+P1 = γGγZ1,
+at ULS
+where:
+Z1
+is the depth from road/ground level to top of foundation
+γ
+is the unit weight of overburden
+γG
+is the partial factor for the weight of overburden as defined in BS EN 1990 [Ref 14.N]
+Equation 4.10c New Equation
+4.11
+The lateral earth pressure, P2 , acting on the outside face of the footing shall be taken from Equation
+4.11:
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 55
+======================================================================
+CD 375 Version 2.0.0
+4. Effects of actions for corrugated steel burie...
+Equation 4.11a Lateral earth pressure (SLS)
+P2 = KaγZ2,
+at SLS
+where:
+Z2
+is the depth from road/ground level to mid height of foundation
+Ka
+is the active earth pressure coefficient as determined from BS EN 1997-1 [Ref 12.N]
+γ
+is the unit weight of overburden
+Equation 4.11b Lateral earth pressure (ULS)
+P2 = γGKaγZ2,
+at ULS
+where:
+Z2
+is the depth from road/ground level to mid height of foundation;
+Ka
+is the active earth pressure coefficient as determined from BS EN 1997-1 [Ref 12.N];
+γ
+is the unit weight of overburden;
+γG
+is the partial factor for the weight of overburden as defined in BS EN 1990 [Ref 14.N]
+Vertical pressure on inside face
+4.12
+The vertical pressure on top of the footing, P3 , shall include any superimposed dead loads and traffic
+loads as applicable, determined from relevant parts of BS EN 1991-2 [Ref 8.N], BS EN 1991-1-1 [Ref
+6.N]and factored at ULS using partial factors from BS EN 1990 [Ref 14.N].
+4.12.1
+Variable actions should be ignored where their effect is beneficial.
+Self weight
+4.13
+Self-weight of concrete, Wf , shall be determined in accordance with BS EN 1991-1 [Ref 7.N].
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 55
+======================================================================
+CD 375 Version 2.0.0
+5. Strength parameters for corrugated steel buri...
+5.
+Strength parameters for corrugated steel buried structures
+Constrained soil modulus for corrugated steel buried structures
+5.1
+Where the structure is to be installed in a trench, the constrained soil modulus, M ∗, for the existing
+materials surrounding the structure shall be derived from the site-specific ground investigation via one
+of the following methods:
+1)
+plate load testing in accordance with BS EN 1997-2 [Ref 13.N];
+2)
+standard penetration tests (SPT) in accordance with BS EN ISO 22476-3 [Ref 17.N]; or,
+3)
+one-dimensional consolidation tests in accordance with BS EN 1997-2 [Ref 13.N].
+NOTE
+M ∗represents the stiffness of the existing materials surrounding the structure within a distance equal
+to the span on each side of the structure.
+5.2
+Where plate load tests are undertaken, M ∗, shall be calculated using Equation 5.2:
+Equation 5.2 Constrained soil modulus based on plate load tests
+M ∗=
+(1 −νe)Ee
+(1 + νe)(1 −2νe)
+where:
+νe
+is the Poisson's ratio of the soil, to be taken as 0.3
+Ee
+is the modulus of elasticity of the soil (determined from plate load test)
+NOTE
+Annex K of BS EN 1997-2 [Ref 13.N] gives examples of deriving the soil modulus from the results of
+plate load tests, and refers to this magnitude as plate settlement modulus.
+5.3
+For non-cohesive soils where SPTs are undertaken, M ∗, shall be calculated using Equation 5.3:
+Equation 5.3 Constrained soil modulus for non-cohesive soils based on SPTs
+M ∗= 0.39N 1.4
+γm
+where:
+N
+is the uncorrected SPT value
+γm
+is the partial factor for material strength, to be taken as 1.3
+5.4
+For cohesive soils where one-dimensional consolidation tests are undertaken, M ∗, shall be calculated
+using Equation 5.4:
+Equation 5.4 Constrained soil modulus for cohesive soils based on one-dimensional
+consolidation tests
+M ∗= 1
+mv
+where:
+mv
+is the coefficient of volume compressibility
+5.4.1
+Where one-dimensional consolidation tests are undertaken, the in-situ effective overburden pressure at
+the level of the crown of the structure should be used to provide the initial loading pressure.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 55
+======================================================================
+CD 375 Version 2.0.0
+5. Strength parameters for corrugated steel buri...
+5.5
+The value of the constrained soil modulus for use in the calculation, M ∗
+c , shall be taken from Table 5.5
+based on, M ∗, structure type, excavation dimensions and compaction requirements.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 55
+======================================================================
+CD 375 Version 2.0.0
+5. Strength parameters for corrugated steel buri...
+Table 5.5 Value of constrained soil modulus for calculation
+CLOSED INVERT STRUCTURES
+Partial or total trench
+Constrained soil modulus (M*) of
+existing soil 1 (MPa)
+Required excavation width on each side
+of the structure
+Required compaction for
+backfill materials
+Constrained soil modulus for calculation
+use Mc* (MPa)
+< 15
+Span
+Span
+85% max dry density
+90% max dry density
+20
+33 - 80 2
+≥15 but ≤33
+Minimum
+Span
+90% max dry density
+90% max dry density
+As existing soil
+33 - 80 2
+> 33
+Minimum 3
+Span
+90% max dry density
+90% max dry density
+33
+33 - 80 2
+Embankment
+-
+-
+85% max dry density
+90% max dry density
+20
+33 - 80 2
+CIRCULAR ARCH STRUCTURES
+Partial or total trench
+Constrained soil modulus (M*) of
+existing soil 1 (MPa)
+Required excavation width on each side
+of the structure
+Required compaction for
+backfill materials
+Constrained soil modulus for calculation
+use Mc* (MPa)
+≤33
+Span
+90% max dry density
+33 - 80 2
+> 33
+Minimum 3
+Span
+90% max dry density
+90% max dry density
+33
+33 - 80 2
+Embankment
+-
+-
+90% max dry density
+33 - 80 2
+NOTE 1. See clause 5.1 (constrained soil modulus).
+NOTE 2. See clause 5.6 (constrained soil modulus).
+NOTE 3. See Section 9.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 55
+======================================================================
+CD 375 Version 2.0.0
+5. Strength parameters for corrugated steel buri...
+NOTE
+The value of M ∗
+c , is taken from Table 5.5 after having evaluated M ∗, and is one of the parameters
+needed to calculate the theoretical transverse elastic buckling stress, σcr , given in this section.
+5.6
+When a value of, M ∗
+c , for calculation in excess of 33 MPa is proposed, this value shall be substantiated
+by testing the backfill during the back-filling operation, using the method given in BS EN 1997-2 [Ref
+13.N] for plate load testing.
+Ground resistance parameters for corrugated steel buried structures
+5.7
+Soil properties and parameters shall be evaluated in accordance with BS EN 1997-1 [Ref 12.N].
+Characteristic buckling strength for corrugated steel buried structures
+5.8
+The characteristic buckling strength, fb , shall be calculated using Equation 5.8:
+Equation 5.8 Characteristic buckling strength
+fb =
+fyk
+1 +
+(
+fyk
+σcr
+)
+where:
+fyk
+is the characteristic yield strength of steel
+σcr
+is the theoretical transverse elastic buckling stress (refer to Equations 5.9 and 5.10)
+NOTE
+The method or determining characteristic buckling strength, fb , is based on the work of Meyerhof &
+Baikie 1963 [Ref 8.I].
+5.9
+Where the depth of cover above the crown of the structure is greater than or equal to the span of the
+structure, σcr , shall be calculated using Equation 5.9:
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 55
+======================================================================
+CD 375 Version 2.0.0
+5. Strength parameters for corrugated steel buri...
+Equation 5.9 Theoretical transverse elastic buckling stress (where depth of cover above the
+crown of the structure is greater than or equal to the span of the structure)
+σcr = 2
+aa
+( kEIa
+1 −ν2
+)0.5
+where:
+E
+is the modulus of elasticity of structural steel in accordance with BS EN 1993-1-1
+[Ref 11.N]
+Ia
+is the adjusted cross-sectional moment of inertia of the corrugated steel per unit
+length, the cross-section being parallel to to the length of the structure (refer to
+clauses 5.11 and 5.12)
+ν
+is the Poisson's ratio of structural steel in accordance with BS EN 1993-1-1 [Ref
+11.N]
+aa
+is the adjusted cross-sectional area of corrugated steel as defined in Section 4
+k
+is the coefficient of soil reaction, to be taken as:
+1)
+1
+3
+M ∗
+c
+1000r , for circular structures
+2)
+1
+3
+M∗
+c
+1000rt , for multi-radii structures
+r
+is the radius of the structure (refer to Section 4)
+rt
+is the radius of top location of structure (refer to Section 4)
+NOTE
+Equation 5.9 is valid for a structure of span S, when
+1000S
+[
+EIa
+(1−ν2)k
+]0.25 > 4
+5.10
+Where the depth of cover above the crown of the structure is less than the span of the structure, σcr
+,
+shall be calculated using Equation 5.10:
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 55
+======================================================================
+CD 375 Version 2.0.0
+5. Strength parameters for corrugated steel buri...
+Equation 5.10 Theoretical transverse elastic buckling stress (where depth of cover above the
+crown of the structure is less than the span of the structure)
+σcr = 2
+aa
+[ keEIah
+(1 −ν2)S
+]0.5
+where:
+E
+is the modulus of elasticity of structural steel in accordance with BS EN 1993-1-1 [Ref
+11.N]
+Ia
+is the adjusted cross-sectional moment of inertia of the corrugated steel per unit
+length, the cross-section being parallel to to the length of the structure (refer to clauses
+5.11 and 5.12)
+h
+is the nominal height of fill above the structure
+S
+is the span of the structure
+ν
+is the Poisson's ratio of structural steel in accordance with BS EN 1993-1-1 [Ref 11.N]
+aa
+is the adjusted cross-sectional area of corrugated steel as defined in Section 4
+ke
+is the modified coefficient of soil reaction, to be taken as:
+1)
+[
+1 −
+(
+r
+r+h
+)2]
+k , for closed circular and circular arch structures
+2)
+[
+1 −
+(
+rt
+rt+h
+)2]
+k , for closed multi-radii structures
+r
+is the radius of the structure (refer to Section 4)
+rt
+is the radius of the top location of the structure (refer to Section 4)
+NOTE
+Equation 5.10 is valid when
+1000S
+[
+EIah
+(1−ν2)keS
+]0.25 > 4
+5.11
+Where the cross-sectional area varies along the length, the minimum value for, Ia , shall be used.
+5.12
+Where the cross-sectional area varies along the length, the re-rolled ends of helically wound structure
+lengths shall be included if they extend for more than 250 mm at the end of each length.
+5.12.1
+The effect the helix angle of helically wound structures has on, Ia , may be neglected.
+Characteristic longitudinal seam strength for corrugated steel buried structures
+5.13
+The characteristic seam strength for a particular system shall be as stated in its product acceptance
+scheme certificate.
+5.14
+An adjusted value of the the characteristic longitudinal seam strength, fs,a
+, based the residual metal
+thickness after sacrificial metal loss shall be used for structural checks.
+NOTE
+Sacrificial metal loss is covered in Section 8.
+5.14.1
+Adjusted seam strength for intermediate values of residual metal thickness should be derived by linear
+interpolation between greater and lesser values of metal thickness (in increments no greater than 0.75
+mm), and for the number of bolts.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 55
+======================================================================
+CD 375 Version 2.0.0
+6. Ultimate limit state requirements for corruga...
+6.
+Ultimate limit state requirements for corrugated steel buried
+structures
+Structural resistance for corrugated steel buried structures
+6.1
+The design compressive hoop stress, σa,d , as defined in Section 4, shall not exceed the limit given in
+Equation 6.1:
+Equation 6.1 Compressive hoop stress limit
+σa,d < min
+( fb
+γm
+, fyk
+γm
+)
+where:
+fb
+is the characteristic buckling stress of the steel
+fyk
+is the characteristic yield strength of the steel
+γm
+is the partial factor for material strength, to be taken as 1.3
+6.2
+In the case of a bolted segmental structure, σa,d
+, shall not exceed the limit given in Equation 6.2:
+Equation 6.2 Compressive hoop stress limit (bolted segmental structure)
+σa,d < fs,a
+γm
+where:
+fs,a
+is the adjusted longitudinal characteristic seam strength
+γm
+is the partial factor for material strength, to be taken as 2.0
+6.3
+In the case of a helically wound structure, σa,d
+, shall not exceed the limit given in Equation 6.3:
+Equation 6.3 Compressive hoop stress limit (helically wound structure)
+σa,d < 370
+γm
+(MPa)
+where:
+γm
+is the partial factor for material strength, to be taken as 2.0
+Bearing resistance for closed invert corrugated steel buried structures
+6.4
+The radial soil pressure, Pd and Pi,d
+, for closed invert circular structures and closed invert multi-radii
+structures respectively, shall not exceed the bearing resistance of the foundation material at ULS.
+6.4.1
+The evaluation of bearing resistance of the foundation material at the ultimate limit state should be
+performed in accordance with the section dedicated to spread foundations in PD 6694-1 [Ref 7.I].
+Foundation design for circular arches of corrugated steel buried structures
+6.5
+Foundations for circular arches shall be designed in accordance with BS EN 1997-1 [Ref 12.N].
+6.6
+The global stability, sliding resistance and overturning of foundations shall be verified in accordance
+with BS EN 1997-1 [Ref 12.N].
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 55
+======================================================================
+CD 375 Version 2.0.0
+6. Ultimate limit state requirements for corruga...
+6.7
+The bearing pressure generated beneath the foundation, calculated according to the loadings defined
+in Section 4, shall not exceed the bearing resistance of the foundation material at ULS.
+6.7.1
+The evaluation of bearing resistance of the foundation material at the ultimate limit state should be
+performed in accordance with the section dedicated to spread foundations in PD 6694-1 [Ref 7.I].
+6.8
+The design of reinforced concrete foundations shall be in accordance with BS EN 1992-2 [Ref 10.N].
+6.8.1
+Where struts are installed, the risk of damage from future maintenance activities, including removal of
+surfacing, should be allowed for in the design.
+NOTE 1
+To reduce the effects of the lateral earth pressure, P2 , and loads from the structure, struts can be
+adopted between strip foundations.
+NOTE 2
+Circular arch structures can be supported on strip foundations or on a base slab which supports both
+walls of the structure simultaneously. Piled foundations can also be used.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 55
+======================================================================
+CD 375 Version 2.0.0
+7. Serviceability limit state requirements for c...
+7.
+Serviceability limit state requirements for corrugated steel buried
+structures
+Structural deflection limits for corrugated steel buried structures
+7.1
+The design shall be based on adjusted sectional properties which allow for the loss of the thickness of
+sacrificial metal as determined in Section 8.
+7.2
+For structures with closed circular cross sections, the diameter deflection, ∆x , shall be limited at the
+characteristic combination of actions to no greater than 5% of the span, S .
+7.3
+For structures with closed multi-radii and circular arch cross sections, the diameter or span deflection,
+∆x , shall be limited at the characteristic combination of actions to no greater than 3% of the span, S .
+7.4
+The deflection, ∆x , shall be determined using Equation 7.4:
+Equation 7.4 Horizontal deflection
+∆x = 0.083(PG,k + KPL,k)S4 × 106
+8EIa +
+(
+0.02M ∗
+c S3 × 109)
+where:
+E
+is the modulus of elasticity of structural steel in accordance with BS EN 1993-1-1 [Ref
+11.N]
+Ia
+is the adjusted cross-sectional moment of inertia of the corrugated steel per unit length,
+the cross-section being parallel to to the length of the structure (refer to clauses 5.11 and
+5.12)
+PL,k
+is the characteristic vertical pressure from live loads, defined in Section 3
+PG,k
+is the characteristic superimposed vertical pressure from dead loads, defined in Section 3
+M ∗
+c
+is the constrained soil modulus, defined in Section 5
+S
+is the span of the structure
+K
+is a constant used in wheel load dispersal calculations for deflection checks, to be taken
+as:
+1) 1.4, if wheel load dispersal width at the level of the crown of the structure is less than
+S
+2) 1, in all other cases
+Limiting bearing pressure for closed invert corrugated steel buried structures
+7.5
+The radial soil pressure, P or Pi , for closed invert structures shall be limited to the limiting bearing
+pressure at SLS.
+7.5.1
+Quasi-permanent values of design actions should be used to evaluate bearing pressures, unless
+ground conditions are such that short-term loading (variable actions) could cause settlement to exceed
+SLS limits.
+NOTE 1
+The quasi-permanent combination of actions is defined in BS EN 1990 [Ref 14.N].
+NOTE 2
+Where short term loading could cause settlement to exceed SLS limits, guidance is provided in ICE
+MOGE [Ref 5.I].
+7.5.2
+The limiting bearing pressure should be determined in accordance with the section dedicated to spread
+foundations in PD 6694-1 [Ref 7.I], but no greater than 300 kPa.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 55
+======================================================================
+CD 375 Version 2.0.0
+7. Serviceability limit state requirements for c...
+Foundation design for circular arches of corrugated steel buried structures
+7.6
+The bearing pressure generated beneath the foundation, shall not exceed the limiting bearing pressure
+of the foundation at SLS.
+7.7
+Where footings are supported on piled foundations, a detailed analysis of differential settlements
+between the structure and the adjacent embankment shall be undertaken and included in the design.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 55
+======================================================================
+CD 375 Version 2.0.0
+8. Durability of corrugated steel buried structu...
+8.
+Durability of corrugated steel buried structures
+General durability requirements for corrugated steel buried structures
+8.1
+Protective coatings applied to enhance durability of the structure shall be included in the calculation of
+the design life where measures are taken to protect them.
+8.2
+The design of hot-dip galvanised coatings for all steel surfaces, including components, shall be in
+accordance with BS EN ISO 1461 [Ref 18.N].
+8.3
+The durability requirements for the design of structural concrete shall be in accordance with BS EN
+1992 [Ref 9.N].
+Corrosivity classification of surfaces for corrugated steel buried structures
+8.4
+Corrosion classification of buried and exposed surfaces shall be defined as the most aggressive of the
+following:
+1)
+the properties of the surrounding soil (buried surfaces only);
+2)
+the corrosivity of the atmosphere (exposed surfaces only);
+3)
+the effluent water carried (where relevant); or,
+4)
+the groundwater (where present).
+8.5
+The surrounding soil, invert fill, silt deposits and select fills shall be classified using the points system
+for each property as shown in Table 8.5 where the points total classifies the corrosivity as follows:
+1)
+non aggressive = 0 or more;
+2)
+aggressive = -1 to -4; and,
+3)
+very aggressive = -5 or less.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 55
+======================================================================
+CD 375 Version 2.0.0
+8. Durability of corrugated steel buried structu...
+Table 8.5 Corrosivity classification of surrounding soil
+Property
+Measured value
+Points
+The fraction passing 63 µm sieve ≤10%
+The plasticity index (PI) of the fraction passing the 425 µm
+sieve ≤6
++1
+The fraction passing the 63 µm sieve is >10%
+The PI of the fraction passing the 425 µm sieve ≤6
+0
+Any grading
+The PI of the fraction passing the 425 µm sieve is >6 but <15
+-1
+Soil type
+Organic matter >1% or material contains peat, cinder or coke
+-3
+≥10,000
++2
+<10,000 but ≥3,000
++1
+<3,000 but ≥1,000
+-1
+<1,000 but ≥100
+-3
+Resistivity
+(ohm.cm)
+<100
+-4
+6≤pH≤9
+0
+5≤pH<6
+-2
+pH of soil
+<5 or >9
+-4
+≤0.24
+0
+>0.24 but ≤0.60
+-1
+>0.60 but ≤1.20
+-2
+Water soluble sulphates
+(WS)
+(g/l as SO4)
+>1.20
+-4
+≤50
+0
+>50 but ≤250
+-1
+>250 but ≤500
+-2
+Chloride ion
+(ppm)
+>500
+-4
+≤0.05
+0
+>0.05 but ≤0.12
+-1
+>0.12 but ≤0.24
+-2
+Oxidisable sulphides (OS)
+(% as SO4)
+>0.24
+-4
+NOTE
+A pH greater than 9 indicates alkaline ground conditions and a low risk of degradation in natural
+ground. However, high pH values can indicate a contaminated land site where other factors can cause
+degradation.
+8.6
+The properties of the surrounding soil, invert fill, silt deposits and select fills shall be assessed using the
+'Standards for earthworks material tests' section of CD 601 [Ref 4.N].
+8.6.1
+Contamination with the following materials should be avoided when determining organic matter content:
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 55
+======================================================================
+CD 375 Version 2.0.0
+8. Durability of corrugated steel buried structu...
+1)
+topsoil;
+2)
+roots; and,
+3)
+overlying made ground.
+8.7
+The groundwater shall be classified according to the highest aggressivity indicated for any property, as
+shown in Table 8.7.
+Table 8.7 Corrosivity classification of groundwater, carried water and other contaminated fluids
+Properties of water or effluent
+Corrosivity
+classification
+pH
+Chloride ion (ppm)
+Water soluble sulphate (WS) (g/l as SO4)
+Non aggressive
+6≤pH≤9
+≤50
+≤0.24
+Aggressive
+5≤pH<6
+<50 but ≤250
+>0.24 but ≤0.60
+Very aggressive
+<5 or >9
+>250
+>0.60
+NOTE
+A pH greater than 9 indicates alkaline ground conditions and a low risk of degradation in natural
+ground. However, high pH values can indicate a contaminated land site where other factors can cause
+degradation.
+8.8
+The pH of ground water shall be assessed using the test method in BS 1377-3 [Ref 21.N].
+8.9
+The chloride ion and water soluble sulphate of groundwater shall be assessed using the test methods
+in BS EN 1744-1 [Ref 24.N].
+8.10
+Where the structure carries a continuous flow of water or other fluid, classification according to Table
+8.7 shall be used to classify both surfaces in the case that this fluid is more severe than the
+classification of the surrounding soil or groundwater.
+NOTE
+It is possible for effluent water and/or groundwater to penetrate through bolt holes and seams to affect
+both the internal and external surfaces.
+8.11
+For exposed surfaces, the corrosivity value shall be selected based on the classification of the
+atmospheric environment according to Table 8.11.
+Table 8.11 Classification of surfaces exposed to the atmospheric environment
+Average corrosivity value
+(acid deposition value)
+Corrosivity classification of the atmospheric environment
+≤2
+Non-aggressive
+>2 but ≤4
+Aggressive
+>4
+Very aggressive
+NOTE
+Information on the harshness of the atmospheric environment (corrosivity and acid deposition) is
+available from the APIS (website) [Ref 1.I] and further information is provided in BS EN ISO 9223 [Ref
+1.N] and BS EN ISO 9224 [Ref 3.I].
+8.12
+All surfaces shall be classified for aggressive conditions where it is possible for chloride ions from road
+salt or other chemicals in solution to come into contact with them.
+NOTE
+Chloride can persist in the water carried throughout the year including the summer months and can
+percolate through joints or bolts holes.
+8.13
+Environmental factors near the location of the structure shall be checked since this has the potential to
+override the general classification, or constitute a very aggressive environment.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 55
+======================================================================
+CD 375 Version 2.0.0
+8. Durability of corrugated steel buried structu...
+NOTE
+Examples of environmental factors are wind blown salt spray near the coast or pollution from a nearby
+industrial plant.
+8.14
+For structures constructed partly or totally in trench, the existing soil within the zone y about the
+structure shown in Figure 8.14 shall be tested for corrosivity classification purposes, where
+y(m) = 0.4 + 0.23S
+Figure 8.14 Corrosivity classification zone for external buried surfaces
+8.15
+The inner surface of the structure shall be regarded as a buried surface beneath any part that is to be
+covered.
+NOTE
+This is relevant for example when a structure is used as a vehicular underpass or has invert protection.
+Protective coatings and sacrificial steel thickness for corrugated steel buried
+structures
+8.16
+Each surface of the structure shall have a sacrificial thickness of steel that allows for the corrosivity of
+the environment, taking into account contributions to durability from galvanising and any secondary
+protective coatings.
+8.17
+Unless measures are taken to fully protect galvanised surfaces against damage from the construction
+process, the benefits of galvanising shall be ignored in calculating the steel thickness.
+8.18
+Where a secondary protective coating is specified, its protective life shall be as provided in the current
+product acceptance scheme.
+8.19
+The life of the galvanised coating shall be calculated from the rate of corrosion, which can be taken as
+4 µm/year in non-aggressive environments and 14 µm/year in aggressive environments.
+8.19.1
+The local galvanising thickness in accordance with BS EN ISO 1461 [Ref 18.N] should be used in
+calculating the life of the galvanised coating.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 55
+======================================================================
+CD 375 Version 2.0.0
+8. Durability of corrugated steel buried structu...
+NOTE
+Inadequate protection and loss of sacrificial steel thickness can cause joint separation at connections,
+which can lead to further deterioration, for example, washout of fill.
+8.20
+In the absence of a detailed evaluation of corrosion rates to BS EN ISO 9223 [Ref 1.N] for the corrosion
+classes defined in BS EN ISO 12944-2 [Ref 22.N], the sacrificial thickness of steel, T ( µm ), needed to
+provide 120 years life, excluding the life of the coatings, shall be calculated from either Equation 8.20a
+for non aggressive environments or 8.20b for aggressive environments.
+Equation 8.20a For non-aggressive environments
+T = 22.5t0.67
+where:
+t
+is the life of sacrificial thickness of steel
+Equation 8.20b For aggressive environments
+T = 40.0t0.80
+where:
+t
+is the life of sacrificial thickness of steel
+8.21
+Where plates of different thickness are being used, they shall be placed in the correct location for which
+they are intended.
+NOTE
+The calculated steel thickness can be different at different points around the circumference of the
+structure.
+Invert protection for corrugated steel buried structures
+8.22
+The invert of all structures carrying water or other fluid shall be protected from the effects of abrasion or
+erosion (and scour in the case of circular arches) by adopting one of the following protection systems:
+1)
+reinforced concrete paving;
+2)
+paving blocks or precast slabs;
+3)
+liner plates; and,
+4)
+for structures with little or no flow, a coating certified as suitable for the end use by a current
+product acceptance scheme.
+NOTE
+Section 11 includes requirements for these protection systems.
+8.22.1
+The use of liner plates should be designed to cover fluctuations of at least 200 mm above and below
+the range of water depths.
+8.23
+The product acceptance scheme or equivalent body that certified the proprietary system as suitable for
+use shall also certify its design life.
+Impact protection for corrugated steel buried structures
+8.24
+In the case of structures to be used by vehicles, protection shall be provided to the sides of the
+structure by kerbing and/or a vehicle restraint system.
+8.25
+Where impact protection is required, it shall not be connected to the sides of the structure.
+8.26
+Where structures are to be used by vehicles, headwalls or ring beams shall be designed to provide
+protection to the crown/soffit.
+8.27
+Where structures are to be used by vehicles, drivers shall be alerted to the headroom restriction
+created by means of visual and/or audible warning systems.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 55
+======================================================================
+CD 375 Version 2.0.0
+8. Durability of corrugated steel buried structu...
+8.28
+Where water carrying structures are to be used by water craft, protection against impact and abrasion
+shall be incorporated into the design.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 55
+======================================================================
+CD 375 Version 2.0.0
+9. Excavation and filling for corrugated steel b...
+9.
+Excavation and filling for corrugated steel buried structures
+Trench geometry for corrugated steel buried structures
+9.1
+The trench and partial trench geometry shall be in accordance with the dimensions shown in Figures
+9.1a and 9.1b.
+1)
+All dimensions are given in millimetres.
+2)
+Figures in brackets refer to structures of up to 3 m span.
+3)
+Where D is the additional trench width required when the foundation level is extended more than
+one tenth of the span for closed invert structures or more than 1000 mm below the top of the
+concrete foundation for circular arch structures.
+Figure 9.1a Trench geometry (minimum excavation option)
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 55
+======================================================================
+CD 375 Version 2.0.0
+9. Excavation and filling for corrugated steel b...
+Figure 9.1b Partial trench geometry (minimum excavation option)
+NOTE
+A partial trench condition occurs when the level of existing soil suitable for retention within a distance of
+a span either side of the structure lies between the crown of the structure and the foundation level.
+9.2
+Excavation length shall extend at least 300 mm beyond each end of the structure.
+Founding level for corrugated steel buried structures
+9.3
+The bearing resistance at foundation level shall meet the requirements of Sections 6 and 7.
+9.3.1
+Where the bearing resistance of the material at foundation level does not initially meet these
+requirements, the bearing resistance may be improved by enlarged concrete foundations, foundation
+material excavation and replacement or ground treatment below founding level.
+9.4
+Excavation in hard material shall extend to an additional depth below the foundation level of not less
+than 300 mm, plus 40 mm for each metre of cover in excess of 8 m above the crown, up to a maximum
+additional depth of 600 mm.
+NOTE
+Hard material can be defined as very high strength clay, very dense granular soil, or weak rock in
+accordance with BS EN ISO 14688-2 [Ref 15.N]and BS EN ISO 14689 [Ref 16.N].
+Filling for corrugated steel buried structures
+9.5
+The following fill materials shall be in accordance with CD 601 [Ref 4.N]:
+1)
+earthwork material class 6K = lower bedding (closed invert structures);
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 55
+======================================================================
+CD 375 Version 2.0.0
+9. Excavation and filling for corrugated steel b...
+2)
+earthwork material class 6L = upper bedding (closed invert structures);
+3)
+earthwork material class 6M = surround material;
+4)
+foundation fill material (for circular arches); and,
+5)
+overlying fill material.
+NOTE
+Further information about earthwork material classes for filling around corrugated steel buried
+structures is provided in CC 601 [Ref 5.N].
+9.6
+Compacted materials shall be in accordance with Table 5.5 in Section 5 of this document.
+9.7
+The lower bedding material for closed invert structures shall be shaped to fit the invert such that it
+supports 20% of the circumference of circular structures or the whole of the portion of cross section of
+radius, rb , for multi-radii structures, see Table 1.2.
+9.8
+The surround material shall be used for filling all excavations, except those in hard material where
+lower bedding material should be used, with minimum excavation.
+9.9
+The surround material shall extend to a height of not less than a fifth of the span or 650 mm whichever
+is the greater, above the crown of the structure, or to the formation level of the road if this is lower.
+9.10
+For embankments, the surround material shall be used for the minimum distance on each side of the
+structure and in the zone over the structure, as shown in Figures 9.1a and 9.1b.
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 55
+======================================================================
+CD 375 Version 2.0.0
+10. Minimum rigidity of corrugated steel buried s...
+10.
+Minimum rigidity of corrugated steel buried structures
+10.1
+The rigidity of the structure shall satisfy Equation 10.1:
+Equation 10.1 Rigidity of structure
+F ≤Fmax
+where:
+F
+is the flexibility factor, defined by F = S2 · 106
+EI
+Fmax
+is the limiting value of flexibility factor, defined by Equation 10.2 or 10.3
+S
+is the span of the structure
+E
+is the modulus of elasticity of the structural steel
+I
+is the cross sectional moment of inertia of the structural steel section
+10.2
+For all structures where, 1.3 ≥
+(
+rc
+rt
+)
+> 0.7 , the value of, Fmax , shall be calculated from Equation 10.2:
+Equation 10.2 Limiting value of flexibility factor, case 1
+Fmax = 0.290 −0.0034dc
+where:
+dc
+is the depth of corrugation, from any peak to the adjacent trough
+NOTE 1
+The resulting value of, Fmax , is valid within the range of 0.115 to 0.250 mm/N.
+NOTE 2
+The illustration of rc
+rt is given in Table 1.2
+10.3
+For multi-radii structures where, 0.7 ≥
+(
+rc
+rt
+)
+≥0.2 , the value of, Fmax , shall be calculated from
+Equation 10.3:
+Equation 10.3 Limiting value of flexibility factor, case 2
+Fmax = 0.435 −0.0051dc
+where:
+dc
+is the depth of corrugation, from any peak to the adjacent trough.
+NOTE 1
+The resulting value of, Fmax , is valid within the range of 0.173 to 0.375 mm/N.
+NOTE 2
+The illustration of rc
+rt is given in Table 1.2
+10.4
+Where the cross sectional moment of inertia, I , varies along the length of the structure, the minimum
+value shall be used.
+10.4.1
+The re-rolled ends of helically wound culvert lengths should not affect the value of I unless they extend
+for more than 250 mm at the end of each length.
+10.4.2
+The effect of the helix angle of helically wound culverts may be neglected.
+10.5
+In the case where, F > Fmax , one of the following shall be implemented:
+1)
+reduce the span;
+2)
+increase the flexural rigidity, EI ; or,
+3)
+use temporary supports.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 55
+======================================================================
+CD 375 Version 2.0.0
+10. Minimum rigidity of corrugated steel buried s...
+10.6
+Where temporary supports are used, the design shall check that there is no local overstressing or
+distortion of the structure.
+10.7
+For circular arch structures, the connection between the steel plates and the foundation shall be
+capable of transmitting loads from the steel plates into the foundation both during construction and
+whilst in service.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 55
+======================================================================
+CD 375 Version 2.0.0
+11. Construction details for corrugated steel bur...
+11.
+Construction details for corrugated steel buried structures
+Overlying reinforced concrete slab
+11.1
+The length of the reinforced concrete slab shall extend beyond each side of the structure for a distance
+of 3 m or half the span of the structure, whichever is greater.
+11.2
+There shall be a minimum of 150 mm of surround material, Class 6M, between the crown of the
+structure and any reinforced concrete slab.
+Invert protection for corrugated steel buried structures
+11.3
+Reinforced concrete paving shall have a minimum thickness of 100 mm for structures where, S ≤2m ,
+and a minimum thickness of 125 mm where, S > 2m .
+11.4
+At each end of the structure, the reinforced concrete invert protection shall be either:
+1)
+terminated with a toe that returns minimum 200 mm under the structural steel forming the
+structure, folded under the lips of the structure to suit and with a thickness of not less than that
+required for the paving; or,
+2)
+detailed to suit any headwall arrangement.
+11.5
+Paving blocks shall be 60 mm minimum thickness, bedded on a compacted Type 1 sand bed.
+11.6
+A sloped concrete fillet shall provide a transition to the sides of the structure.
+11.7
+Precast slabs or natural stone set into mass concrete shall have a minimum thickness of 300 mm.
+11.8
+Precast slabs or natural stone set into mass concrete shall be profiled to suit local requirements.
+NOTE
+Profiling of precast slabs or stone set into mass concrete to suit local requirements can be through
+inclusion of a channel to retain water under low flow conditions, shaping to simulate a natural channel
+and the provision of animal runs.
+11.8.1
+Weirs, eddy pools, or upstanding stone set into the concrete may be included within the structure to
+provide resting places for fish passing through the structure.
+11.9
+For circular structures, invert protection shall be applied to the wetted periphery of the structure for the
+winter base flow plus 200 mm on each side or 25% of the total circumference, whichever is greater.
+11.10
+For multi-radii structures, invert protection shall be applied to the wetted periphery of the structure for
+the winter base flow plus 200 mm on each side or 40% of the total circumference, whichever is greater.
+11.11
+The detail for the upstand to circular arch structures shall avoid entrapment of water on the soil side of
+the structure and, where concrete upstands are used, against the inside of the arch structure.
+NOTE
+Example of detail that can be used to avoid entrapment of water on circular arch structures is shown in
+Figure 11.11.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 55
+======================================================================
+CD 375 Version 2.0.0
+11. Construction details for corrugated steel bur...
+Figure 11.11N Typical detail of the upstand to circular arch structures
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 55
+======================================================================
+CD 375 Version 2.0.0
+11. Construction details for corrugated steel bur...
+11.12
+For circular arch structures, where the level of winter flow is above the foundation level, the invert
+paving shall be applied to the corrugated steel.
+NOTE
+The most vulnerable area of an arch structure to deterioration is at the springline, where the structural
+plate connects to the reinforced concrete upstand.
+11.13
+Where liner plates are used in structures with little flow or standing water, they shall cover fluctuations
+of at least 200 mm above and below the range of water depths.
+Multiple installations of corrugated steel buried structures
+11.14
+Adjacent structures shall be separated for mechanical equipment to operate between them for
+compaction purposes in accordance with Table 11.14.
+Table 11.14 Separation requirement for multiple installations
+Type of structure
+Span (m)
+Separation requirement
+S < 2
+Greater of: 600 mm or 1/2 S of larger structure
+Circular
+2 ≤S ≤8
+1 m
+S < 3
+Greater of: 600 mm or 1/3 S of larger structure
+Multi-radii
+3 ≤S ≤8
+1 m
+End treatment for corrugated steel buried structures
+11.15
+The requirements for end treatment shall be as described in the structure Approval In Principle
+according to CG 300 [Ref 23.N].
+11.16
+End treatment shall meet the requirements for aesthetic appearance in accordance with CD 351 [Ref
+25.N].
+11.17
+The following factors shall be included when designing end treatment:
+1)
+the effects of the construction sequence;
+2)
+loads from the corrugated steel plates being directly supported;
+3)
+other loads from the corrugated steel structure;
+4)
+the self weight of the reinforced concrete including when wet;
+5)
+earth pressures;
+6)
+the effects of ground creep and settlement;
+7)
+hydraulic loadings in accordance with CD 529 [Ref 3.N];
+8)
+prevention of the loss or washout of material; and,
+9)
+safe access during inspection and maintenance.
+11.18
+Reinforced concrete collars, headwalls, or retaining walls shall be designed to support the face edges
+of the corrugated steel in the following situations:
+1)
+where the skew angle of the corrugated steel structure exceeds 15°;
+2)
+where the bevel of square ends exceeds 2:1 (for example, where the embankment is flatter than
+1 in 2); and,
+3)
+where the cut end supports highway loading.
+11.19
+Where the corrugated steel shell is discontinuous and unable to act in ring compression normal to the
+centre line of the corrugated steel structure, reinforced concrete elements shall be designed to give
+support, in accordance with BS EN 1992-2 [Ref 10.N].
+11.20
+The design of support elements shall include the actions and effects of actions described in section 3
+and 4.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 55
+======================================================================
+CD 375 Version 2.0.0
+11. Construction details for corrugated steel bur...
+11.20.1
+Structural steel ring beams, collars and spreader beams may be utilised to provide support, together
+with ties anchored into the fill.
+11.20.2
+Temporary supports should be installed where ultimate or serviceability limit states could otherwise be
+exceeded during construction of the structure.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 55
+======================================================================
+CD 375 Version 2.0.0
+12. Design outputs for corrugated steel buried st...
+12.
+Design outputs for corrugated steel buried structures
+General requirements for design outputs for corrugated steel buried structures
+12.1
+The design outputs for corrugated steel buried structures shall be the details to enable construction of
+the structures and to fulfil all the requirements of this document, including:
+1)
+earthworks for corrugated steel buried structures;
+2)
+steel components of corrugated steel buried structures;
+3)
+coatings of steel components of corrugated steel buried structures;
+4)
+concrete foundations of arch-profile corrugated steel buried structures;
+5)
+invert protection for corrugated steel buried structures;
+6)
+overlying concrete slab of corrugated steel buried structures;
+7)
+drawings or models for the design of corrugated steel buried structures,
+8)
+site-specific constraints not shown on drawings or models; and,
+9)
+installation sequence requirements.
+12.2
+The drawings or models for the design of corrugated steel buried structure shall include location,
+general arrangement and details of the structure and its parts, including end treatment of the structure.
+12.3
+All the design outputs for corrugated steel buried structures shall state the unique structure reference
+number of the corrugated steel buried structure they apply to.
+Design outputs for the installation of corrugated steel buried structures
+12.4
+The design outputs for the installation of the corrugated steel buried structure shall include:
+1)
+deflection limits of the structure installed in accordance with Section 7, expressed in millimetres
+(mm);
+2)
+installation sequence of the structure;
+3)
+installation requirements for the foundation, invert protection and where required the overlying
+slab; and
+4)
+maximum difference in fill level on opposite sides of the structure, expressed in millimetres (mm)
+NOTE
+The default maximum difference in fill level on opposite sides of the corrugated steel buried structure is
+250 mm unless otherwise stated.
+Earthworks for corrugated steel buried structures
+12.5
+The design outputs for the earthworks for corrugated steel buried structures shall include:
+1)
+fill materials selected in accordance with Section 9
+2)
+trench and partial trench geometry, selected from either Figure 9.1a or Figure 9.1b;
+3)
+minimum excavation width on each side of the structure, expressed in millimetres (mm); and,
+4)
+compaction of backfill materials, selected from either 85 % max dry density or 90 % max dry
+density.
+Steel components for corrugated steel buried structures
+12.6
+The design outputs for helically wound systems for corrugated steel buried structures shall include:
+1)
+steel sheet nominal thickness, expressed in millimetres ( mm );
+2)
+minimum tensile strength of the seam, expressed in kilonewtons per metre (kN/m): and
+3)
+steel grade
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 55
+======================================================================
+CD 375 Version 2.0.0
+12. Design outputs for corrugated steel buried st...
+12.6.1
+The steel grade, sheet nominal thickness, bolt arrangement and seam strength should be determined
+from available corrugated steel buried structures products.
+12.7
+The design outputs for bolted segmental systems for corrugated steel buried structures shall include:
+1)
+steel sheet nominal thickness, expressed in millimetres ( mm );
+2)
+number of bolts per corrugation;
+3)
+minimum tensile strength of the seam, expressed in kilonewtons per metre ( kN/m ); and
+4)
+steel grade
+12.7.1
+The steel grade, sheet nominal thickness, bolt arrangement and seam strength should be determined
+from available corrugated-steel buried structures products.
+12.8
+Plates of a bolted segmental structure shall have a minimum lip of 45 mm beyond each end crest.
+12.9
+Bolts, nuts and washers of a bolted segmental structure shall be designed so that no damage is caused
+to metal coatings when the nuts are tightened.
+Coatings of steel components for corrugated steel buried structures
+12.10
+The design outputs for the protective coatings of steel components of corrugated steel buried
+structures shall include:
+1)
+durability of primary corrosion protection, expressed in years;
+2)
+zinc coating thickness, expressed in micrometres ( µm );
+3)
+requirement for a secondary protective coating;
+4)
+location of application of secondary protective coating (selected from either factory or site); and,
+5)
+durability of secondary protective coating, expressed in years.
+NOTE
+The secondary protective coating default minimum durability is 6 years for aggressive ground
+conditions, unless otherwise stated.
+Invert protection for corrugated steel buried structures
+12.11
+The design outputs for the invert protection for corrugated steel buried structures shall include:
+1)
+requirements for invert protection;
+2)
+concrete and concrete reinforcement requirements;
+3)
+type of joint sealant required between invert protection panels; and,
+4)
+acceptance criteria for the joint sealant required between invert protection panels.
+Concrete foundations for arch-profile corrugated steel buried structures
+12.12
+The design outputs for the concrete foundations of arch-profile corrugated steel buried structures shall
+include details of the concrete to be used for the foundation.
+Overlying reinforced concrete slab for corrugated steel buried structures
+12.13
+The design outputs for the overlying concrete slab for corrugated steel buried structures shall include
+details of the reinforced concrete to be used for the slab.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 55
+======================================================================
+CD 375 Version 2.0.0
+13. Normative references
+13.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS EN ISO 9223, 'Corrosion of metals and alloys - Corrosivity of atmospheres -
+Classification, determination and estimation'
+Ref 2.N
+National Highways. CC 605, 'Corrugated Steel Buried Structures'
+Ref 3.N
+National Highways. CD 529, 'Design of outfall and culvert details'
+Ref 4.N
+National Highways. CD 601, 'Design Outputs for Earthworks and Reinforced Soil'
+Ref 5.N
+National Highways. CC 601, 'Earthworks'
+Ref 6.N
+BSI. BS EN 1991-1-1, 'Eurocode 1 - Actions on Structures: General actions-
+Densities, self weight, imposed loads for buildings'
+Ref 7.N
+BSI. BS EN 1991-1, 'Eurocode 1- Actions on Structures'
+Ref 8.N
+BSI. BS EN 1991-2, 'Eurocode 1. Actions on structures. Traffic loads on bridges'
+Ref 9.N
+BSI. BS EN 1992, 'Eurocode 2. Design of concrete structures'
+Ref 10.N
+BSI. BS EN 1992-2, 'Eurocode 2. Design of concrete structures: Concrete bridges.
+Design and detailing rules'
+Ref 11.N
+BSI. BS EN 1993-1-1, 'Eurocode 3. 'Design of steel structures. General rules and
+rules for buildings'
+Ref 12.N
+BSI. BS EN 1997-1, 'Eurocode 7. Geotechnical design. General rules'
+Ref 13.N
+BSI. BS EN 1997-2, 'Eurocode 7. Geotechnical design. Ground investigation and
+testing'
+Ref 14.N
+BSI. BS EN 1990, 'Eurocode: Basis of structural design'
+Ref 15.N
+BSI. BS EN ISO 14688-2, 'Geotechnical investigation and testing - identification and
+classification of soil. Principles for a classification.'
+Ref 16.N
+BSI. BS EN ISO 14689 , 'Geotechnical investigation and testing – Identification,
+description and classification of rock (ISO 14689:2017)'
+Ref 17.N
+BSI. BS EN ISO 22476-3, 'Geotechnical investigation and testing. Field testing.
+Standard penetration test'
+Ref 18.N
+BSI. BS EN ISO 1461, 'Hot dip galvanized coatings on fabricated iron and steel
+articles. Specifications and test methods'
+Ref 19.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 20.N
+National Highways. CD 622, 'Managing geotechnical risk'
+Ref 21.N
+BSI. BS 1377-3, 'Methods of test for soils in civil engineering projects. Chemical and
+electro-chemical tests'
+Ref 22.N
+BSI. BS EN ISO 12944-2, 'Paints and varnishes. Corrosion protection of steel
+structures by protective paint systems. Classification of environments'
+Ref 23.N
+National Highways. CG 300, 'Technical approval of highway structures'
+Ref 24.N
+BSI. BS EN 1744-1, 'Tests for chemical products of aggregates. Chemical analysis'
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 55
+======================================================================
+CD 375 Version 2.0.0
+13. Normative references
+Ref 25.N
+National Highways. CD 351, 'The design and appearance of highway structures'
+Ref 26.N
+National Highways. CD 350, 'The design of highway structures'
+Ref 27.N
+BSI. NA to BS EN 1990, 'UK National Annex for Eurocode: Basis of structural design'
+Ref 28.N
+BSI. NA to BS EN 1997-1, 'UK National Annex to Eurocode 7: Geotechnical design -
+Part 1: General rules'
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 55
+======================================================================
+CD 375 Version 2.0.0
+14. Informative references
+14.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+UK Centre for Ecology & Hydrology (UK CEH). www.apis.ac.uk. APIS (website), 'Air
+Pollution Information System (APIS) '
+Ref 2.I
+National Highways. LD 118, 'Biodiversity design'
+Ref 3.I
+BSI. BS EN ISO 9224, 'Corrosion of metals and alloys - Corrosivity of atmospheres -
+Guiding values for the corrosivity categories'
+Ref 4.I
+Poulos, H G & Davis, E H. Poulos & Davis 1974, 'Elastic solutions for soil and rock
+mechanics'
+Ref 5.I
+Institution of Civil Engineers. ICE MOGE, 'ICE manual of geotechnical engineering'
+Ref 6.I
+National Highways. CS 460, 'Management of corrugated steel buried structures'
+Ref 7.I
+BSI. PD 6694-1, 'Recommendations for the design of structures subject to trafﬁc
+loading to BS EN 1997-1:2004'
+Ref 8.I
+Highway Research Board, 1963. Meyerhof, G G & Baikie, L D. . Meyerhof & Baikie
+1963, 'Strength of steel culvert sheets bearing against compacted sand backfill,
+Highway Research Record No. 30 '
+Ref 9.I
+National Highways. CS 459, 'The assessment of bridge substructures and retaining
+structures and buried structures'
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 55
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 375 Version 2.0.0, published: 30-Sep-2025
+
+
