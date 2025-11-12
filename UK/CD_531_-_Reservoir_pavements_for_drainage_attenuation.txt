@@ -1,0 +1,3096 @@
+======================================================================
+PAGE 1 of 62
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 531
+Reservoir pavements for drainage attenuation
+Version 0.2.0
+Summary
+This document provides requirements and guidance for the design of reservoir pavements to be
+used on motorway and all-purpose trunk roads.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 62
+======================================================================
+CD 531 Version 0.2.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual Recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Abbreviations and symbols
+7
+Terms and definitions
+8
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. Application and reservoir pavement types
+11
+Overview
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Application
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Design configurations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Reservoir pavement components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Sediment management
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Topography and slope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Use of geocellular units
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+3. Reservoir pavement type selection
+15
+4. Hydraulic design principles
+17
+Design storm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Infiltration through the surface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Subsurface storage capacity
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Discharge from reservoir layer to subgrade
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Outlets to piped drainage and outfalls to natural water courses . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Design exceedance events . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Sediment deposition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Alternative applications
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Extended reservoir pavements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+5. Structural design principles
+23
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Standard designs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Subgrade . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Geotextiles and membranes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Foundation and subbase design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Pervious asphalt and concrete layers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Layer thickness design of the standard flexible pavement with porous concrete base . . . . . . . . . .
+25
+Alternative designs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Subgrade . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Alternative subbase reservoir and foundation design . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Pervious asphalt and concrete layers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Layer thickness design of flexible pavements with HBM or asphalt bases
+. . . . . . . . . . . . . . . .
+27
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 62
+======================================================================
+CD 531 Version 0.2.0
+Contents
+6. Design for construction and maintenance
+29
+Interface with conventional pavements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Design for maintenance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+7. Normative references
+31
+8. Informative references
+33
+Appendix A. Control of flooding and pollution
+35
+A1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+A2 Flow attenuation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+A3 Pollution containment and control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+A4 Groundwater recharge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Appendix B. Reservoir pavement design configurations
+37
+Appendix C. Advantages and disadvantages of different design configurations
+43
+Appendix D. Worked example
+46
+D1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+D2 Hydraulic design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+D2.1 Design storm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+D2.2 Depth subbase (hmax)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+D2.3 Time for half-emptying . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+D2.4 Summary of hydraulic design considerations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+D3 Structural design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+D4 Comments
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+Appendix E. Pervious asphalt and concrete: terminology, classification and material properties
+57
+E1 Terminology and classification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+E2 Material properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 62
+======================================================================
+CD 531 Version 0.2.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 531
+0.2.0
+September 2025
+Core document,
+England NAA,
+Northern Ireland NAA,
+Scotland NAA, Wales NAA
+Incremental change to
+requirements
+Text on use of geocellular units clarified.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 531
+0.1.0
+November 2021
+Core document
+Incremental change to
+requirements
+CD 531
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 62
+======================================================================
+CD 531 Version 0.2.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 531 version 0.1.0, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 62
+======================================================================
+CD 531 Version 0.2.0
+Introduction
+Introduction
+Background
+Government strategy, planning policy and legislation introduced through the 2000/60/EC [Ref 4.I]
+(WFD) EU Directive 2000/60/EC reflect the implications of climate change, the associated changes to
+flood risk and the need to address both flood risk and pollution risk to surface water and groundwater.
+Impermeable surfaces such as paved roads and parking areas are often cited as one of the major
+causes of increased stormwater runoff, potentially overloading drainage systems and receiving
+waterbodies.
+In reservoir pavements, rainfall percolates through the pervious road surfacing, or (depending upon the
+design) runoff is diverted via gullies, edge drains and pipes into a porous subbase material (reservoir).
+Here, rain water accumulates before it slowly percolates into the soil subgrade or discharges through
+drains into the main surface water drainage system.
+Reservoir pavements offer alternative drainage systems with many benefits as follows:
+1)
+They reduce storm surges and the rate of runoff to drainage system outfalls.
+2)
+They provide a potential reduction in the risk of runoff contributing to flooding.
+3)
+In certain applications, they may eliminate the need for kerbing, gullies, pipework and balancing
+ponds.
+4)
+They offer reduced land-take as significant parts of the system lie beneath the road surface.
+5)
+Where pervious road surfaces are used, the use of reservoir pavements potentially reduces
+noise, glare and spray; and,
+6)
+They attenuate pollutants associated with road runoff or can be designed to filter out or trap these
+pollutants.
+The type of reservoir pavement structure adopted depends upon a range of site specific conditions,
+including:
+1)
+the topography of the ground;
+2)
+the nature, condition and permeability of the subgrade; and,
+3)
+the sensitivity of receiving waterbodies.
+Traditionally reservoir pavements have been used for lightly trafficked areas. However, for wider
+application on the road network, the provided designs of reservoir pavements may ultimately be applied
+to more heavily trafficked roads.
+Using only a thin bound road surfacing, block paving (or a similar pervious surface) or using an
+unbound granular road surfacing, reservoir pavements can also be utilised in the verge and other areas
+that are only occasionally trafficked.
+To encourage the wider adoption of reservoir pavements on motorways and all-purpose trunk roads,
+National Highways sponsored a research programme to assist the development of advice on the use of
+reservoir pavements within the strategic road network, (See TRL PPR 482 [Ref 1.I]), with specific
+attention to designs for heavy traffic. This involved reviewing existing practices and the construction of
+short trial sections of reservoir pavement using different design configurations, including sealed
+drainage systems and those draining into the underlying ground. The hydraulic and structural
+performances of these test reservoir pavements under traffic were studied to assess their potential to
+attenuate runoff and their suitability for inclusion on motorways and all-purpose trunk roads. The
+outcomes of these studies have been used to inform this document.
+This document provides requirements and advice used to develop the design outputs required to
+deliver the works in accordance with CC 500 [Ref 11.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 15.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 62
+======================================================================
+CD 531 Version 0.2.0
+Introduction
+Mutual Recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 15.N].
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 62
+======================================================================
+CD 531 Version 0.2.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+CBGM
+Cement bound granular material
+CBM
+Cement bound material
+CBR
+California bearing ratio
+CGA
+Coarse granular aggregate
+CIRIA
+Construction Industry Research and Information Association
+EPA
+Environmental protection agency
+EqIA
+Equality impact assessment
+HBM
+Hydraulically bound mixture
+HDM
+Heavy duty macadam
+MCHW
+Manual of Contract Documents for Highway Works
+msa80
+Million standard axles (in the UK a 80-kN standard axle is used)
+SuDS
+Sustainable Drainage System
+UKAS
+United Kingdom Accreditation Service
+WFD
+2000/60/EC [Ref 4.I] (EU Directive 2000/60/EC)
+Symbols
+Symbol
+Definition
+Ab
+Base area of infiltration system beneath reservoir pavement (subbase)
+Ad
+Total pavement area (m2) to be drained including any impermeable areas adjacent to
+the reservoir pavement
+D
+Rainfall duration (h)
+E
+Dynamic modulus
+ff
+Flexural strength
+i
+Rainfall intensity (depth/time expressed as mm/h or m/h depending on need)
+n
+Porosity (of subbase)
+q
+Infiltration coefficient of the subgrade from percolation tests (m/h)
+R
+Ratio of the drained area to base area of reservoir pavement, Ad/Ab
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 62
+======================================================================
+CD 531 Version 0.2.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+CBR value
+California Bearing Ratio; an empirical measure of the stiffness
+and strength of soils, used in road pavement design
+Cement bound granular mixture
+a granular hydraulically bound mixture where cement is the
+binder
+Continuously graded
+a soil or aggregate with a balanced range of particle sizes with
+significant proportions of all fractions from the maximum
+nominal size down
+Elastic modulus
+also known as Young's Modulus or stiffness modulus; the ratio
+of stress divided by strain for a particular material
+Environmental protection agency
+The relevant national body responsible for managing the
+quality of water bodies
+Geocellular tank
+a number of geocellular units joined together to form a tank that
+performs the required design function, such as sub-surface
+storage
+Geocellular unit
+plastic structure used to form geocellular tanks
+Membrane
+an impermeable plastic sheet, typically manufactured from
+polypropylene, high-density polyethylene or other geosynthetic
+material
+Geotextile
+a plastic fabric which is permeable
+Groundwater
+all water which is below the surface of the ground in the
+saturation zone (below the water table) and in direct contact
+with the ground or subsoil
+hmax
+the maximum depth of water that will occur in the reservoir
+pavement (subbase)
+Hydraulically bound mixture
+a mixture which sets and hardens by hydraulic reaction
+Infiltration
+the passage of water through a surface, either the pervious
+surface or into the underlying ground
+Open graded
+a description of the particle size distribution of a particulate
+material that is designed so that the compacted material
+contains interconnected void spaces to increase its
+permeability to water
+Permeability
+a measure of the ease with which a fluid can flow through a
+porous medium. Permeability depends on the physical
+properties of the medium; for example grain size, porosity and
+pore shape
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 62
+======================================================================
+CD 531 Version 0.2.0
+Terms and definitions
+(continued)
+Term
+Definition
+Porosity
+the percentage of the bulk volume of a rock or soil that is
+occupied by voids, whether isolated or connected
+Porous pavement
+a porous pavement allows water to infiltrate across its entire
+surface, for example porous concrete
+Permeable pavement
+a permeable pavement is formed of a material that is itself
+impermeable but that is laid to provide a void space through the
+surface to the subbase; for example, concrete block paving
+designed to allow water at the surface to penetrate through
+joints or voids between the blocks into the underlying structure)
+Pervious pavement
+any type of road surfacing that allows direct downward water
+infiltration
+Road surfacing
+the uppermost layer of a road pavement providing a wearing
+course over the underlying base
+Smart motorway
+motorways that use variable mandatory speed limits to
+increase capacity and smooth the flow of traffic
+Subbase
+an unbound or bound layer laid on top of the subgrade (or a
+capping layer) in traditional construction to provide a stable
+foundation for construction of the road pavement
+Subgrade
+the soils onto which the road pavement is constructed
+Sustainable Drainage Systems
+(SuDS)
+a sequence of management practices and control structures
+designed to drain surface water in a more sustainable fashion
+than some conventional techniques
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 62
+======================================================================
+CD 531 Version 0.2.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+For hydraulic design, this document shall be read in conjunction with descriptions of other drainage
+solutions provided in CG 501 [Ref 5.N], CD 521 [Ref 13.N], CD 524 [Ref 12.N], CD 533 [Ref 8.N], CD
+532 [Ref 27.N], CD 529 [Ref 6.N], CD 530 [Ref 7.N] and CD 523 [Ref 9.N].
+NOTE 1
+This document provides requirements and advice on reservoir pavements used for drainage
+attenuation. Reservoir pavements constitute a Sustainable Drainage System (SuDS) and form one of a
+number of possible drainage solutions identified in the suite of drainage requirements and advice
+documents shown.
+NOTE 2
+This document has been produced in collaboration with the Environment Agency. Reservoir pavements
+are outside the remit of the Reservoirs Act 1975 UKPGA 1975/23 [Ref 18.N].
+1.2
+For structural design of the road pavement, this document shall be read in conjunction with
+requirements and advice given in CD 226 [Ref 3.N], CS 228 [Ref 21.N], CS 229 [Ref 2.N], CD 236 [Ref
+23.N] and CD 225 [Ref 4.N].
+1.3
+The design of reservoir pavements cannot be prescribed, and design shall be developed individually,
+appropriate to site-specific constraints.
+NOTE
+This document provides guidance on the application, hydraulic design and structural design of reservoir
+pavements. Additional benefits for pollution control are outlined in Appendix A.
+Implementation
+1.4
+This document shall be implemented forthwith on all schemes involving the use of reservoir pavements
+on the Overseeing Organisations' motorway and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 15.N].
+NOTE 1
+In the current situation of incomplete knowledge on their design, materials, construction and
+performance, newly established reservoir pavements are to be used to acquire information and thereby
+build up confidence in their performance prior to use in other situations.
+NOTE 2
+Opportunities to incorporate reservoir pavements as full-scale trial sites are encouraged to provide
+feedback to the Overseeing Organisation leading to improvements in design advice.
+Use of GG 101
+1.5
+The requirements contained in GG 101 [Ref 15.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 62
+======================================================================
+CD 531 Version 0.2.0
+2. Application and reservoir pavement types
+2.
+Application and reservoir pavement types
+Overview
+2.1
+Prior to undertaking drainage design, an assessment of the flood and pollution risk from highway runoff
+shall be undertaken in accordance with LA 113 [Ref 19.N].
+2.2
+The design of reservoir pavements shall accommodate the need for other buried services.
+2.3
+Where a reservoir pavement is to be constructed alongside, or in the vicinity of, a conventional
+pavement measures shall be developed to prevent water from entering the conventional pavement
+from the reservoir pavement and its subsurface and associated drainage system components.
+NOTE
+Water from the reservoir pavement (including leaks from a tanked reservoir) entering the conventional
+pavement can damage its structure and weaken the subgrade.
+2.4
+Installation of reservoir pavements shall be avoided over moisture susceptible subgrades.
+NOTE
+Although reservoir pavements can be constructed on all soil types, the risk of destabilisation of the
+pavement foundation (subbase and subgrade) is reduced by their construction on non-moisture
+susceptible subgrades.
+2.4.1
+Where subgrades have been rendered non-moisture susceptible by treatments such as soil
+stabilisation, reservoir pavements may be installed.
+2.5
+The design thickness of the subbase layer shall be the larger of that determined by the hydraulic and
+structural design procedures.
+2.6
+Irrespective of other constraints, a minimum subbase thickness of 350 mm shall be used in the design
+to ensure that there is sufficient reserve water storage capacity.
+NOTE
+The CERTU design guide CERTU (Porous pavements) [Ref 8.I] recommends that a minimum thickness
+of 350 mm be used to ensure that there is sufficient reserve capacity, even for more arid areas.
+Application
+2.7
+Reservoir pavements shall only be permitted in locations outside the main trafficked lanes of motorway
+and all-purpose trunk roads.
+2.8
+Reservoir pavement systems shall be utilised only in the following locations:
+1)
+in hard shoulders of motorways;
+2)
+in central reservations, including those with concrete barriers, where moisture susceptible
+subgrades beneath adjacent conventional pavements constructed with dense (low permeability)
+materials are isolated from wetted subgrades of reservoir pavements;
+3)
+parking areas including motorway service areas;
+4)
+isolated emergency areas, and motorways emergency access and egress areas;
+5)
+laybys;
+6)
+approaches to toll booths in occasionally or lightly trafficked areas (as new build only);
+7)
+as a replacement of granular drains to avoid stone scatter;
+8)
+all occasional trafficked areas in the confines of junctions, including those areas with hatched
+road markings;
+9)
+within the confines of roundabouts; or,
+10)
+within verges, foot ways and cycleways and other non-trafficked areas.
+NOTE 1
+Reservoir pavement systems can be used where the hard shoulder is a purpose-built extension of the
+running lane but not as a retrofit to an existing hard shoulder.
+NOTE 2
+For the design of reservoir pavements, the confines of roundabouts means those areas within the
+inscribed circle and the entry flare of roundabouts (refer to CD 116 [Ref 7.I]).
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 62
+======================================================================
+CD 531 Version 0.2.0
+2. Application and reservoir pavement types
+Design configurations
+2.9
+The design of reservoir pavement systems with pervious road surfacing shall comply to one of three
+basic configurations in Table 2.9.
+Table 2.9 Design configurations
+Reservoir pavement type
+Description
+Type I (full infiltration)(equivalent to Type A
+CIRIA C753 [Ref 25.N]).
+Rainfall passes through a pervious road
+surfacing, into a porous subbase (which provides
+the reservoir layer) and then is "discharged" by
+infiltration into the subgrade beneath.
+Type II (partial infiltration)(equivalent to CIRIA
+Type B)
+The flow path is as Type I, but the subgrade has
+insufficient infiltration capacity to allow dissipation
+of all design storm events.
+Type II requires a drainage system at the
+founding level of the subbase to convey
+discharge to a receiving drainage system.
+Type III (no infiltration)(equivalent to CIRIA Type
+C)
+An impermeable flexible membrane is placed
+below and around the sides of the subbase
+preventing discharge into the subgrade.
+The subbase requires a drainage system as per
+Type II.
+NOTE 1
+In lower permeability soils, type II reservoir pavements prevent water levels in the subbase reservoir
+layer rising and causing potential stability problems in the overlying road surfacing.
+NOTE 2
+Type III reservoir pavements can be used (subject to other limitations) where the subgrade is
+unsuitable as receptor of infiltrating drainage.
+NOTE 3
+Guidance for the design of reservoir pavements can be found in the CIRIA SuDS manual, CIRIA C753
+[Ref 25.N], which identifies three basic configurations (types A to C) each with pervious road surfacing.
+NOTE 4
+Design configurations featuring pervious road surfacing are shown schematically in Appendix B Figures
+B1 to B3.
+NOTE 5
+Advantages and disadvantages of the different configurations and typical applications (with reference
+to specific site conditions) are given in Appendix C.
+2.10
+The design of reservoir pavement systems with conventional impermeable road surfacing shall comply
+to one of three basic configurations in Table 2.10:
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 62
+======================================================================
+CD 531 Version 0.2.0
+2. Application and reservoir pavement types
+Table 2.10 Design configurations
+Reservoir pavement type
+Description
+Type IV:(full infiltration)
+Road runoff enters an edge drain and is redirected
+draining by gravity into the underlying reservoir layer
+(subbase), usually via pipes set at appropriate intervals
+and then is "discharged" by infiltration into the subgrade
+beneath.
+Type V:(partial infiltration)
+Road runoff enters the edge drain and is redirected into
+the underlying subbase.
+Type V requires a drainage system at the founding level
+of the subbase to convey discharge to a receiving
+drainage system.
+Type VI: Impermeable road surfacing, no
+infiltration
+Road runoff enters the edge drain and is redirected into
+an underlying subbase around and below which is
+placed an impermeable flexible membrane, preventing
+discharge into the subgrade.
+The subbase requires a drainage system as Type V.
+NOTE 1
+The three basic configurations of reservoir pavement can be reproduced using conventional
+impermeable road surfacing (asphalt or concrete) with edge drains collecting runoff for re-injection into
+the underlying subbase (reservoir layer) from side drains.
+NOTE 2
+Design configurations are shown schematically in Appendix B, Figures B4 to B6.
+NOTE 3
+Advantages and disadvantages of the different configurations and typical applications (with reference
+to specific site conditions) are given in Appendix C.
+Reservoir pavement components
+2.11
+The design of the reservoir pavement shall include all components necessary to match the selected
+configuration.
+2.12
+All types of reservoir pavements shall include the following:
+1)
+a trimmed subgrade layer, lightly rolled to maximise infiltration;
+2)
+a subbase (reservoir layer) consisting of essentially single size coarse granular aggregate (CGA)
+with 30-40% air voids (by volume); and,
+3)
+a blinding layer consisting of a single-size aggregate about one fifth of the aggregate size used
+within the reservoir layer.
+NOTE 1
+The reservoir layer temporarily stores stormwater while it infiltrates into the subgrade or is discharged
+via pipework.
+NOTE 2
+Where the infiltration capacity of the subgrade is insufficient to drain the design storm, perforated
+drainage pipes are needed in conjunction with overflow pipes.
+NOTE 3
+A geotextile can be used instead of the blinding layer. This stabilises the surface for the paving
+construction equipment.
+2.12.1
+The selection of components for the design of the reservoir pavement may vary according to the
+chosen configuration.
+2.13
+Pervious surface reservoir pavement types (I-III) shall include open-graded asphalt and/or
+cement-bound layers with interconnecting voids of base, binder course and road surfacing.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 62
+======================================================================
+CD 531 Version 0.2.0
+2. Application and reservoir pavement types
+NOTE
+Reservoir pavement types (I-III) allow water to flow through the road surfacing into the reservoir layer
+(subase).
+2.14
+For reservoir pavement types III and VI with no infiltration to subgrade, an impermeable membrane
+shall be used on the subgrade and up the sides of the subbase to form a tank and include piped
+drainage to an outlet.
+Sediment management
+2.15
+Where edge drains are used with an impermeable surface (reservoir pavement types IV-VI), sediments
+shall be controlled and contained.
+NOTE
+Uncontrolled and uncontained sediments introduced directly into the subbase compromise the
+efficiency of the sublease reservoir.
+Topography and slope
+2.16
+Where longitudinal slopes in the subgrade and/or foundation layers exceed 5%, reservoir pavement
+systems shall be avoided.
+NOTE 1
+Site topography can restrict drainage design.
+NOTE 2
+Gradients greater than 5% with a permeable subbase can lead to water welling-up through the road
+pavement at the bottom of a slope. International research identifies that a gradient less than 5 % offers
+the most effective solution. See CERTU (Porous pavements) [Ref 8.I] NAPA Information Series 131
+[Ref 11.I].
+NOTE 3
+Where a reservoir pavement is desired at a location with a gradient steeper than 5%, impermeable
+barriers (or buffers) within the subbase layer can be used to parcel the reservoir pavement area into
+smaller sections, each with its own drainage outlet CIRIA C753 [Ref 25.N].
+NOTE 4
+The use of buffers to create smaller sections within a reservoir pavement adds considerably to the
+complexity of a design.
+2.17
+For pervious road surfacing that is designed to pass rainfall straight through their complete depth, a flat
+cross gradient shall be permitted.
+2.17.1
+On flat ground the subgrade should be shaped or the natural undulations in the ground topology used
+to provide a slight gradient of the order of 1%.
+NOTE
+Although a cross-fall is not required at the surface, experience has shown that road surfacing drains
+more efficiently and water does not stagnate when there is a slight slope (that is around 1%) in the
+subgrade. See CERTU (Porous pavements) [Ref 8.I].
+Use of geocellular units
+2.18
+If geocellular tank systems are proposed as an alternative to a porous subbase material, the use and
+location of the geocellular system shall be subject to approval by the Overseeing Organisation.
+2.19
+Where proprietary geocellular units are used these shall meet the technical requirements set out in
+CIRIA C737 [Ref 22.N].
+NOTE
+In SuDS applications geocellular tanks usually comprise built-up modular systems, including the cell
+unit(s), inspection access points, inflow/outflow pipework, interception chambers (for sediment and
+other pollutants) and flow controls. Manufacturers of these units provide full design guidance.
+2.20
+Only those systems that have been subject to testing in accordance with the requirements for strength
+and deformation as set out in CIRIA C737 [Ref 22.N] shall be accepted.
+2.21
+Where geocellular systems are used, test procedures and results shall be accredited by a United
+Kingdom Accreditation Service (UKAS) certification scheme.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 62
+======================================================================
+CD 531 Version 0.2.0
+3. Reservoir pavement type selection
+3.
+Reservoir pavement type selection
+3.1
+The design of the reservoir pavement and the chosen design configuration shall be based on site
+specific conditions, including the following factors:
+1)
+topography of the ground;
+2)
+limitations and constraints from any existing drainage systems;
+3)
+the nature of local rainfall, including rainfall volume and intensity;
+4)
+proximity, levels and vulnerability of waterbodies;
+5)
+soil characteristics (mechanical and hydraulic);
+6)
+traffic to be carried by the reservoir pavement;
+7)
+local availability of porous materials; and,
+8)
+depth of reservoir pavement layers.
+NOTE
+The flow chart in Figure 3.1N provides a series of decision steps to help establish the most suitable
+design for reservoir pavement site-specific factors .
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 62
+======================================================================
+CD 531 Version 0.2.0
+3. Reservoir pavement type selection
+Figure 3.1N Design process flow chart
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 62
+======================================================================
+CD 531 Version 0.2.0
+4. Hydraulic design principles
+4.
+Hydraulic design principles
+4.1
+The fundamental hydraulic design processes for reservoir pavements that shall be followed are:
+1)
+determination of the design storm;
+2)
+confirmation that the rate of infiltration through the pervious surface is sufficient (reservoir
+pavement types I-III only);
+3)
+determination of the internal catchment and the expected hydraulic loading;
+4)
+determination of the storage capacity required to manage the design storm;
+5)
+development of sediment management measures;
+6)
+determination of the outlet capacity and approach (either by infiltration into the soil or by provision
+of subbase drainage pipes or a combination of these methods);
+7)
+incorporation of edge collector drains, pipework, sediment management devices and other
+conventional drainage components used in the design (all reservoir pavement types); and,
+8)
+management of exceedance events.
+NOTE
+A worked example of the hydraulic design process is provided in Appendix D.
+Design storm
+4.2
+The design storm for reservoir pavement drainage systems shall be to a minimum of the 1:10 year
+storm.
+NOTE 1
+Design storms for conventional road drainage systems are identified in CG 501 [Ref 5.N] however
+these design storms are intended for positive drainage systems and are not appropriate for the design
+of reservoir pavements. Further advice is available in CIRIA C582 [Ref 15.I] and CIRIA C753 [Ref
+25.N] which also suggest at minimum a 1:10 year design storm.
+NOTE 2
+The critical storm duration for volume can differ from the critical storm duration for intensity. Both
+volume and intensity are to be included in determining the capacity of the reservoir pavement
+Infiltration through the surface
+4.3
+Where adopting a pervious road surfacing (reservoir pavements types I to III), the design of both the
+road surfacing and underlying subbase shall establish downward infiltration of the design storm rainfall.
+NOTE
+The hydraulic design of pervious asphalt, concrete or concrete block road surfacing is essentially
+identical. Although there are a number of other factors to be considered in their design, the primary
+design criteria are the amount (volume and intensity) of rainfall expected, the road surfacing
+characteristics and the underlying subgrade properties.
+4.4
+The design of the pervious road surfacing shall include for a 90% loss in surface permeability due to
+clogging of the pervious surface.
+NOTE 1
+The allowance for a loss in surface permeability follows best practice in CIRIA C582 [Ref 15.I].
+NOTE 2
+Values of infiltration rates of pervious road surfacing comprised of pervious asphalt and block paving
+given in the literature are presented in Table 4.4N2. The infiltration rates of these road surfacing are
+significantly in excess of a high 1:10 year storm intensity (of the order hundreds of mm/h).
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 62
+======================================================================
+CD 531 Version 0.2.0
+4. Hydraulic design principles
+Table 4.4N2 Rates of water infiltration through various road surfacing
+Infiltration rate (mm/hr)
+Road surfacing
+Typical (new build)
+Design 1
+Typical 1:10 year storm (mm/h)
+Reference
+Pervious asphalt
+1500 to 2000
+150 to 200
+Water 2018 [Ref 20.I]
+7000 to 9000
+700 to 900
+Knappenberger, T et al 2017 [Ref 9.I]
+10,000 to 39,0002
+1,000 to 3,900
+100
+CIRIA C582 [Ref 15.I]
+Concrete block paving
+4,000
+400
+100
+CIRIA C753 [Ref 25.N]
+1,000 to 5,000
+100 to 500
+100
+CIRIA C582 [Ref 15.I]
+Note 1: To allow for 90% loss of in surface permeability, CIRIA C582 [Ref 15.I] design values of infiltration rate are 10% of typical infiltration rates.
+Note 2: The exceptionally high infiltration rate (39,000 mm/h) is quoted in CIRIA C582 [Ref 15.I] for measurements taken in Nottingham for a pervious asphalt
+comprising 10 mm-gap graded aggregate and is a mean value after 4.5 years with no maintenance.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 62
+======================================================================
+CD 531 Version 0.2.0
+4. Hydraulic design principles
+Subsurface storage capacity
+4.5
+The storage volume required for the retention of water generated by the design storm shall be
+determined.
+NOTE 1
+The internal storage volume, and thus thickness of the subbase reservoir (which depends on the void
+ratio), is calculated from the steady state mass balance of inflow and outflow from the reservoir
+pavement (that is storage volume = volume of rainfall during storm – volume of outflow during storm).
+NOTE 2
+Temporary storage balances water inflow into the subbase reservoir and the rate of discharge out of the
+system. The need for this balance can be due to constraints from the natural infiltration rate into the
+subgrade (as identified by site-specific infiltration tests) or due to a need to limit the discharge rate into
+a receiving system, whether this flow is to an existing drainage system or a natural water course.
+4.6
+The minimum thickness of the subbase to provide storage capacity shall be determined through the
+calculation of hmax, the maximum depth of water that occurs in the subbase.
+4.6.1
+For a reservoir pavement system that allows infiltration out of the bottom of the reservoir, the method of
+determining the required storage volume for plane infiltration systems from CIRIA R156 [Ref 14.N]
+should be used, as given in Equation 4.6.1:
+Equation 4.6.1 Method of determining the required storage volume for plane infiltration systems
+hmax = (Ri −q)D
+n
+where:
+hmax
+maximum depth of water
+R
+ratio of the drained area to base area of reservoir pavement, Ad
+Ab
+Ad
+total road surface area (m2) to be drained including any impermeable areas adjacent to
+the reservoir pavement
+Ab
+base area of infiltration system beneath reservoir pavement
+i
+rainfall intensity (m/hr)
+q
+infiltration coefficient of the subgrade from percolation tests (m/h) - determined by
+following procedure in CIRIA R156 [Ref 14.N]
+D
+rainfall duration (h)
+n
+porosity of subbase material
+Equation 4.6.1 New Equation
+NOTE 1
+The calculation in Equation 4.6.1 is carried out for a range of storm durations (15 min, 30 min, 60 min,
+etc.) for the 1:10 year design storm return period to determine the maximum value of hmax.
+NOTE 2
+For piped outflows the calculation in Equation 4.6.1 is simplified to: hmax = Ri D
+n
+4.7
+When calculating the storage volumes with piped outflows, no allowance shall be made for any outflow
+during the storm.
+4.7.1
+Where it is demonstrated that a piped discharge system is able to fully drain the reservoir storage
+volume, an allowance for outfall discharges may be made in the calculation of required storage.
+NOTE 1
+For systems with a piped discharge CIRIA C582 [Ref 15.I] notes that there is insufficient information
+available to accurately model internal flow and storage properties within the subbase. This can lead to
+an overestimate of the required storage capacity.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 62
+======================================================================
+CD 531 Version 0.2.0
+4. Hydraulic design principles
+NOTE 2
+Practical experience suggests that discharge pipe systems can easily accommodate the required flow
+rate and that they need to be throttled to meet outflow discharge restrictions.
+4.8
+Water held in storage under the design storm shall empty from full capacity to 50% or less within 24
+hours, but without exceeding the prescribed discharge limits (to an outfall).
+NOTE
+The need for the system to empty to 50% or less within 24 hours is to ensure the system can
+accommodate subsequent storms.
+4.9
+Where infiltration forms the sole discharge (that is, there is no supplementary drainage), a factor of
+safety of 10 shall be included in the determination of the storage volume.
+NOTE 1
+The factor of safety is introduced by assuming a reduced infiltration rate (that is the measured
+subgrade infiltration rate used is divided by 10).
+NOTE 2
+CIRIA R156 [Ref 14.N] allocates factors of safety based on the level of confidence in the adopted
+design parameters. These include uncertainties in the field testing for determining infiltration rate as
+measured using methods described in CIRIA R156 [Ref 14.N] and the potential for infiltration rate to
+decline with time.
+NOTE 3
+The factor of safety allows for the consequences of failure, which is deemed to be significant in the
+case of road drainage.
+NOTE 4
+The factor of safety can continue to be adopted until greater experience and feedback is gained with
+the design of these systems.
+4.10
+Resistance to freezing shall be incorporated into the design thickness (and hence storage volume) of
+the subbase.
+4.11
+Following calculation of the design thickness and the application of the safety factor, the storage
+volume shall be increased by 30% to provide a resistance to freezing.
+NOTE
+Increasing the storage volume allows for any ice formed in cold conditions to expand into the free
+space without disturbing the reservoir pavement structure.
+4.11.1
+Allowance for freezing may be varied according to site-specific requirements.
+Discharge from reservoir layer to subgrade
+4.12
+Where discharge to subgrade is incorporated (reservoir pavement types I, II, IV, V), the infiltration
+capacity of the subgrade shall be determined.
+NOTE 1
+Infiltration of water into the subgrade depends on the properties of the soil. Permeability of the order of
+5x10-6 m/s or greater allows water to seep into the soil.
+NOTE 2
+For any permeability lower than 5x10-6 m/s, the discharge component from infiltration is likely to be
+insufficient and effective drainage requires the installation of under-drained and piped systems.
+NOTE 3
+CIRIA C753 [Ref 25.N] identifies suitability of pavement types to subgrade infiltration types.
+4.13
+For final design, in situ measurements of infiltration rate in accordance with CIRIA R156 [Ref 14.N]
+shall be undertaken at the proposed location.
+4.13.1
+For preliminary design, literature (such as CIRIA C753 [Ref 25.N]) values may be adopted.
+NOTE
+For preliminary design involving highly variable subgrade conditions, in situ measurement can be
+required.
+Outlets to piped drainage and outfalls to natural water courses
+4.14
+Where the reservoir is discharged via pipes to an existing piped drainage system or piped to a natural
+water course, the actual outflow rate shall be controlled as follows:
+1)
+to less than, or equal to, the original runoff rate for newly developed areas; or
+2)
+to less than the capacity of the downstream network.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 62
+======================================================================
+CD 531 Version 0.2.0
+4. Hydraulic design principles
+4.14.1
+Where the reservoir discharge is to a natural watercourse the outflow should be limited to greenfield
+runoff rates.
+4.14.2
+Other downstream discharge rates may be adopted by agreement with the relevant environmental
+protection agency (EPA).
+4.15
+To control the discharge rate a suitable throttle shall be provided, with an associated bypass or overflow.
+NOTE
+The use of robust and simple control devices is preferred, for example, throttle pipes.
+Design exceedance events
+4.16
+Additional overflows and outlets shall be provided for exceedance events.
+NOTE 1
+Exceedance events (conditions such as drainage system failure and rainfall/runoff in excess of design
+flows) can cause backing up of water within the reservoir pavement.
+NOTE 2
+Without emergency outlets, excess water can compromise the integrity of the road surfacing or, at
+worse, the entire reservoir pavement.
+4.17
+Water from emergency overflows and outlets shall be routed safely to avoid flooding the road and any
+impact upon the land of third parties adjacent to the road.
+NOTE
+Further advice on exceedance design, emergency overflows and outlets and safe water routing can be
+found in CIRIA C753 [Ref 25.N].
+Sediment deposition
+4.18
+Site selection, catchment and sediment load assessment, system design and inclusion of sediment
+management devices shall be undertaken to avoid clogging by sediments.
+NOTE
+The pores in a pervious surface can become clogged and/or sediment can be deposited within edge
+drains and channels.
+4.19
+Where a significant sediment load is likely to be washed onto the road surfacing, the use of reservoir
+pavements shall be avoided.
+NOTE
+CD 523 [Ref 9.N] provides guidance on sediment load for a section of road that takes account of
+adjacent land use, geographical location, road size (by number of lanes and profile) and whether the
+road is level, in cutting or on embankment.
+4.20
+As an intrinsic part of the design, edge-drained injected systems shall include for the development of a
+site-specific and well managed maintenance regime with sustainable maintenance intervals.
+NOTE
+With sediment control and maintenance, edge-drained injected systems can handle more significant
+sediment loads, but only if sediment can be trapped (and as importantly, removed) prior to injection of
+water into the subbase reservoir.
+4.21
+Where verges drain toward the reservoir pavement, these areas shall be well vegetated or stabilised so
+that silt and sediment mobilisation is minimised.
+NOTE
+The preferred arrangement for verges that drain toward the reservoir pavement is for grassed verges,
+landscaped ground etc. to slope away from the reservoir pavement and for soils to be at least 50 mm
+below kerbs at the edge of the reservoir pavement CIRIA C753 [Ref 25.N].
+Alternative applications
+Extended reservoir pavements
+4.22
+The use of extended reservoir pavements shall only be permitted where test data identifies that spare
+drainage storage and conveyance capacity is available in the reservoir drainage system.
+NOTE
+Extended reservoir pavements comprise systems that drain a larger area than that of the roadway
+immediately overlying the reservoir pavement.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 62
+======================================================================
+CD 531 Version 0.2.0
+4. Hydraulic design principles
+4.23
+The additional drained area of an extended reservoir pavement (that is, beyond that lying immediately
+over the reservoir) shall avoid areas that could generate large amounts of sediment, for example runoff
+from embankments or verges.
+4.24
+Where extended systems discharge to a pervious road surfacing (reservoir pavement types I to III) the
+ratio of impervious to pervious surface shall be no greater than 2:1.
+4.24.1
+Where water is injected into the underlying subbase reservoir and where separate silt/sediment control
+is available, extended reservoir pavement systems may be more suitable for reservoir pavement types
+IV-VI.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 62
+======================================================================
+CD 531 Version 0.2.0
+5. Structural design principles
+5.
+Structural design principles
+General
+5.1
+The standard structural designs adopted shall be for a flexible pavement that incorporates porous
+concrete as a subbase.
+NOTE
+The standard structural designs provided are more appropriate for roads with moderately heavy traffic,
+were derived from CD 226 [Ref 3.N] and based on the analytical design method of TRL 615 [Ref 10.N].
+5.2
+For a given (proposed) design traffic, the thickness of the concrete base shall be dictated by the quality
+of the foundation and the design traffic.
+NOTE
+The thickness of the asphalt road surfacing is solely dependent on the design traffic.
+Standard designs
+Subgrade
+5.3
+For subgrades intended to allow full and partial infiltration (reservoir pavements types I, II, IV,V),
+soaked California Bearing Ratio (CBR) tests (according to BS 1377-2 [Ref 16.N]) shall be carried out
+on soil representative of the in situ compacted condition of the subgrade.
+NOTE 1
+Current design practice uses the CBR of the underlying subgrade. For reservoir pavement design, the
+CBR of the subgrade is the value relating to the wetted condition.
+NOTE 2
+Unlike conventional pavement design where the subgrade is protected from ingress of water, full and
+partial infiltration reservoir pavement types deliberately allow water to come into contact with the
+subgrade.
+5.4
+Where full infiltration reservoir pavements are used, the subgrade shall have a minimum permeability of
+5x10-6 m/s.
+NOTE
+Further guidance on the suitability of pavement types to subgrade infiltration capacity is provided in
+CIRIA C753 [Ref 25.N].
+5.5
+Where natural vertical drainage into the subgrade is unlikely or undesirable, (no infiltration reservoir
+pavement types III and VI) conventional (that is, non-soaked) CBR tests shall be carried out on soil
+representative of the in situ compacted condition of the subgrade.
+NOTE 1
+For no infiltration reservoir pavement types III and VI, an impermeable membrane is placed on the
+surface of the subgrade, preventing the infiltration of water into the subgrade. With partial and no
+infiltration reservoir pavement types II, III, V and VI, a positive drainage system is needed to assist in
+conveying water out of the subbase. The subgrade CBR design value can be higher than the value
+used for a subgrade intended to drain infiltrating water without positive drainage.
+NOTE 2
+The permeability of the subgrade affects the decision as to whether positive drainage is required at
+some level within the reservoir pavement because a highly impermeable soil is not able to absorb a
+significant percentage of the incident rainfall.
+5.6
+The subgrade CBR design value shall be the lower of the construction CBR and the long-term CBR.
+5.6.1
+Where wetting of the subgrade by infiltrated water occurs, the determination of both construction and
+long- term CBR provided in CD 225 [Ref 4.N] should be followed.
+NOTE
+The long-term CBR value of a particular soil subgrade during the reservoir pavement's service life is
+dependent on whether, or not, the soil is regularly wetted by the infiltration of water from the subbase
+reservoir.
+Geotextiles and membranes
+5.7
+Where infiltration into the subgrade is required (reservoir pavement types I, II, IV, V) geotextiles
+(permeable membranes) placed on the subgrade shall have a permeability that is greater than that of
+the underlying subgrade.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 62
+======================================================================
+CD 531 Version 0.2.0
+5. Structural design principles
+NOTE 1
+Where the subgrade has a high silt and/or clay content and where traffic levels are significant, there is a
+risk of fines migrating between the subgrade and the porous subbase.
+NOTE 2
+The risk of fines migrating between the subgrade and the porous subbase can be avoided by placing a
+permeable geotextile between these reservoir pavement layers.
+NOTE 3
+Guidance on the use of geotextiles and membranes can be found in CIRIA C753 [Ref 25.N] and CD
+524 [Ref 12.N].
+5.8
+When infiltration of water into the subgrade is not permissible (no infiltration reservoir pavement types
+III, VI) an impermeable membrane shall be placed over the subgrade and all joints suitably overlapped
+and welded.
+5.9
+Where an impermeable membrane is used for no infiltration reservoir pavement types III and VI, it shall
+be sufficiently robust to avoid tearing under the impact of sharp stones within the subbase, principally
+during compaction of the subbase layer.
+NOTE
+CIRIA C753 [Ref 25.N] gives guidance on the use and specification of membranes.
+Foundation and subbase design
+5.10
+The road foundation shall be designed to a chosen foundation class.
+NOTE 1
+The foundation class is identified following the selection of the type of reservoir pavement and whether
+the subgrade CBR strength is to be based on a wetted state or one protected from infiltrated water.
+NOTE 2
+The road foundation (subgrade and subbase) is categorised in terms of foundation stiffness classes.
+NOTE 3
+An unbound granular material provides a foundation class no better than class 2.
+NOTE 4
+Guidance on foundation and class is given in CD 225 [Ref 4.N] with further explanation in TRL PPR
+127 [Ref 20.N].
+5.11
+The subbase shall be well compacted so that the high voids content is a result of the design grading
+and not under-compaction.
+NOTE 1
+The subbase is normally a structurally significant layer that provides a working platform on which
+materials can be transported, laid and compacted.
+NOTE 2
+In a reservoir pavement, the subbase is used to temporarily store incident rainfall or runoff and needs a
+high void content.
+NOTE 3
+In a conventional pavement, unbound granular Type 1 material is often used for the subbase. This is a
+continuously graded, dense material that has a low permeability when well compacted.
+5.11.1
+The granular subbase should contain air voids so that water can pass freely through and be stored
+without saturating the subbase layer.
+NOTE
+The void content can be achieved by removing the fine fraction from the granular subbase (open
+graded) to produce a material with air voids content in the 30 to 40% range and by building the subbase
+sufficiently thick.
+5.12
+The open-graded, unbound granular subbase of the reservoir layer shall be designed to ensure it
+provides a stable foundation to the overlying pavement.
+5.12.1
+The ratio of the maximum to minimum stone size should be greater than 3:1 in accordance with
+guidance in CERTU (Stormwater networks) [Ref 24.N].
+NOTE 1
+Cedergren, HR 1974 [Ref 5.I]proposes that the 85 percentile, aggregate size is at least 4 times the 15
+percentile size and that no more than 2% of the aggregate passes through a 2.54-mm sieve.
+NOTE 2
+When large granular materials are used in the subbase, the surface is potentially not stable or smooth
+enough to permit construction of the overlying bound base layer.
+5.12.2
+Where the surface is not stable or smooth enough to permit construction of the overlying bound base
+layer, a blinding layer of smaller sized aggregates should be raked-in and compacted.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 62
+======================================================================
+CD 531 Version 0.2.0
+5. Structural design principles
+5.12.3
+The thickness of the subbase may be adjusted to accommodate a blinding layer.
+Pervious asphalt and concrete layers
+5.13
+The road surfacing of reservoir pavements shall comprise either pervious asphalt for permeable road
+surfaces (reservoir pavement types I to III) or conventional impermeable asphalt for impervious road
+surface (reservoir pavement types IV to VI).
+NOTE
+The bound upper layers of a reservoir pavement comprises of a road surfacing, on an optional binder
+course, over a structural base.
+5.14
+The lower bound layer (base) for a reservoir pavement shall be porous concrete.
+NOTE 1
+The need for the lower bound layers to be porous concrete, applies not only to reservoir pavements
+with pervious road surfacing but also for conventional impermeable road surfacing.
+NOTE 2
+For conventional impermeable road surfacing, porous concrete provides additional reserve water
+storage (over and above that provided in the subbase) for exceedance events.
+5.15
+The air voids content of the pervious asphalt road surfacing and porous concrete base layer shall be at
+least 15%.
+NOTE
+The void content requirement is to ensure adequate permeability of these materials.
+Layer thickness design of the standard flexible pavement with porous concrete base
+5.16
+Design thickness for flexible pavements to carry between 10 and 80 msa80 shall be in accordance with
+Table 5.16.
+Table 5.16 Selected designs for a flexible pavement with porous concrete base under a dense
+(low permeability) asphalt road surfacing
+Design parameters
+Foundation class 2
+Layer thickness (mm) for:
+Porous concrete
+of strength class
+Asp-
+halt
+Aggre-
+gate
+Coefficient of
+thermal expansion
+Design traffic (million
+standard axles)
+C8/10
+C12/15
+C16/20
+Crushed
+rock
+< 10x10-6
+210
+180
+150
+180
+Gravel
+≥10x10-6
+80 msa80
+250
+210
+180
+180
+Crushed
+rock
+< 10x10-6
+200
+170
+150
+170
+Gravel
+≥10x10-6
+40 msa80
+240
+200
+170
+170
+Crushed
+rock
+< 10x10-6
+180
+150
+150
+150
+Gravel
+≥10x10-6
+20 msa80
+215
+180
+150
+150
+Crushed
+rock
+< 10x10-6
+165
+150
+150
+140
+Gravel
+≥10x10-6
+10 msa80
+200
+165
+150
+140
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 62
+======================================================================
+CD 531 Version 0.2.0
+5. Structural design principles
+NOTE
+The designs given in Table 5.16 apply to those reservoir pavement designs with an impervious surface
+(reservoir pavement types IV to VI).
+5.17
+When pervious asphalt replaces dense (low permeability) asphalt (in reservoir pavement types I to III)
+the thicknesses of the porous concrete base, in Table 5.16 shall be increased by between 5 mm for
+flexible pavements of design traffic 10 msa80, and 10 mm for flexible pavements of design traffic 80
+msa80.
+5.18
+The maximum traffic loading for reservoir pavements shall be 80 msa80.
+5.18.1
+Designs for levels of traffic loading not included in Table 5.16 may be derived using CD 226 [Ref 3.N].
+Alternative designs
+Introduction
+5.19
+Designs for reservoir pavements with other hydraulically bound materials as base, including asphalt,
+shall be based on the analytical design method in TRL 615 [Ref 10.N].
+NOTE
+Pervious asphalt base designs can incorporate pervious asphalt in the subbase only for water storage
+(with an impermeable asphalt road surfacing), or comprise pervious asphalt in both the subbase and
+the road surfacing TRL 615 [Ref 10.N].
+5.20
+Designs that use an alternative to a porous concrete on an unbound granular subbase shall be
+supported and justified by laboratory testing and in situ trials.
+NOTE 1
+Guidance for reservoir pavement designs for other hydraulically bound lower base (subbase) materials
+and for flexible pavements with a pervious asphalt lower base (subbase) are also provided within this
+document.
+NOTE 2
+The standard structural designs for a flexible pavement with a porous concrete base on an unbound
+granular subbase are derived from CD 226 [Ref 3.N]. Initially the foundation is designed for the CBR
+strength of the sub-grade.
+Subgrade
+5.21
+For all alternative design approaches, the design requirements for the subgrade shall be as described
+for the standard design.
+Alternative subbase reservoir and foundation design
+5.22
+The adopted design methodology for reservoir pavements shall be that described in TRL 615 [Ref
+10.N] for the design of flexible pavements with asphalt or hydraulically bound materials.
+NOTE 1
+The adopted design method was derived before the European terminology was derived. Appendix E
+provides a comparison of materials, classifications and performance between current European
+terminology and that used in TRL 615 [Ref 10.N].
+NOTE 2
+The road foundation (subgrade and subbase) is categorised in terms of foundation stiffness classes.
+NOTE 3
+Stiffness classes are defined in terms of the long-term, equivalent half-space stiffness of the composite
+foundation as follows:
+1)
+class 1 ≥50 MPa;
+2)
+class 2 ≥100 MPa;
+3)
+class 3 ≥200 MPa;
+4)
+class 4 ≥400 MPa.
+NOTE 4
+A class 2 foundation was designed to be equivalent to the previous standard foundation of 225
+mm-thick layer of type 1 subbase on a subgrade with a CBR of 5%.
+NOTE 5
+The class 1 foundation is applicable to construction on a capping layer. Class 3 and 4 foundations can
+involve bound subbases.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 62
+======================================================================
+CD 531 Version 0.2.0
+5. Structural design principles
+NOTE 6
+Design guidance for conventional pavement foundations is contained in CD 225 [Ref 4.N] and in TRL
+PPR 127 [Ref 20.N].
+5.22.1
+For reservoir pavements that involve subgrade infiltration and unbound granular subbases, a class 1 or
+class 2 foundation should be used.
+NOTE 1
+A foundation that consists of a subbase with about 400 mm of unbound granular material on a
+subgrade with a CBR of 2.5% can produce a class 1 or class 2 foundation, dependent on the quality of
+the unbound granular material.
+NOTE 2
+Foundation of class 3 or class 4 can be attained by stabilising the subgrade.
+NOTE 3
+Although soil stabilisation can make the subgrade less moisture susceptible, it can also make it less
+permeable.
+NOTE 4
+The balance between adequate soil strength for structural performance and sufficient infiltration
+attenuation is an integral element of the design.
+NOTE 5
+For a subbase with a lower foundation class, use of porous concrete as base can also increase the
+stiffness to foundation class 3 or class 4.
+Pervious asphalt and concrete layers
+5.23
+When used as base, hydraulically bound materials used shall be in accordance with BS EN 13108-1
+[Ref 1.N].
+5.24
+When used as base, the structural properties of hydraulically bound material at 360 days shall be
+adopted.
+NOTE 1
+This structural requirement for hydraulically bound material is in accordance with the adopted analytical
+design method of TRL 615 [Ref 10.N].
+NOTE 2
+For conventional cement-bound materials (CBMs) the 360-day compression strength of CBM is 25%
+higher than the 28-day strength (as used in earlier standards). For faster curing porous concrete this
+relationship might not apply and it can be assumed that no further strength gain occurs after 28 days.
+NOTE 3
+As shown in Appendix E, Table E2, pervious asphalt has approximately a half to a third of the stiffness
+of heavy duty macadam (HDM).
+5.25
+Porous concrete and all other hydraulically bound mixture (HBM) layers, which are expected to reach a
+compressive strength of 10 MPa at 7 days, shall have cracks induced in accordance with CC 201 [Ref
+17.N].
+5.25.1
+Where induced cracks are required in an HBM, these should be aligned (maximum 100 mm tolerance)
+with any induced cracks in the underlying construction.
+NOTE 1
+The conditions for induced cracking apply until sufficient performance data is attained for a review of
+this requirement.
+NOTE 2
+The function of the depth of asphalt road surfacing in a flexible pavement with cement bound granular
+material (CBGM) base is primarily to delay the onset of reflection cracking.
+NOTE 3
+Delatte [Ref 16.I] identifies that as there is less shrinkage with porous concrete, it is not necessary to
+construct porous concrete road surfacing with construction joints. Consequently, transverse cracks
+might not develop so readily in these road surfacings.
+Layer thickness design of flexible pavements with HBM or asphalt bases
+5.26
+The thickness of the asphalt shall be designed according to the method described in Chapter 4 of TRL
+615 [Ref 10.N].
+5.27
+Laboratory determinations of the compressive and flexural strengths of the HBM base materials shall
+be undertaken for flexible reservoir pavements designs with CBGM bases and other HBMs.
+5.28
+The estimation of the dynamic modulus for CBGM bases and other HBM bases shall be undertaken
+using the equation 5.28.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 62
+======================================================================
+CD 531 Version 0.2.0
+5. Structural design principles
+Equation 5.28 Estmation of the dynamic modulus for CBGM bases and other HBM bases
+E = log (ff) + 0.77
+0.00301
+where:
+ff
+the flexural strength (MPa)
+E
+the dynamic modulus (GPa)
+NOTE 1
+Further information on the derivation and use of Equation 5.28 and the mechanical properties of a
+range of materials are provided in Appendix E.
+NOTE 2
+The combination of stiffness and strength is crucial for design of a hydraulically bound base.
+NOTE 3
+Two different hydraulically bound materials can have the same base thicknesses for a given level of
+traffic, provided their flexural strengths compensate for any differences in their levels of stiffness.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 62
+======================================================================
+CD 531 Version 0.2.0
+6. Design for construction and maintenance
+6.
+Design for construction and maintenance
+Interface with conventional pavements
+6.1
+Where a reservoir pavement abuts a conventional pavement of traditional construction comprised of
+dense (low permeability) materials, the wetted subgrade of the reservoir pavement shall be isolated
+from the subgrade of the conventional pavement.
+NOTE 1
+An alternative to abutting reservoir and conventional pavements, but with increased landtake, is to
+separate these pavements types by a reserve whose width depends on whether, or not, a cut-off drain
+is used to reduce the extent of the wetted subgrade.
+NOTE 2
+Guidance on the potential extent of the wetted subgrade is given by Nakashima. (See Nakashima, S et
+al 2008 [Ref 18.I]).
+6.1.1
+The wetted subgrade may be isolated by a cut-off drain of depth appropriate to the expected extent of
+infiltration and/or by enclosing the reservoir using an impermeable membrane.
+NOTE 1
+Isolation of the wetted sub-grade of the reservoir pavement from the subgrade of the conventional
+pavement is not always necessary where a reservoir pavement abuts a conventional pavement, but
+where the subgrade is highly permeable, with a deep water table and strength that is not moisture
+susceptible.
+NOTE 2
+As the cut-off drain needs to have access points to inspect and clean pipework, this type of
+construction is expected to be suitable for short lengths of reservoir pavement, for example as occurs
+with laybys and emergency areas.
+NOTE 3
+Other possible solutions for isolating a reservoir pavement from a conventional pavement include
+reverse interlayer gradients compared to the reservoir pavement crossfall, substitution of dense (low
+permeability) with permeable materials and changes in layer thicknesses.
+6.2
+The reservoir pavement and drainage design shall not trap water within the conventional pavement.
+6.2.1
+Water infiltrating through conventional pavements should be drained at their low side by an edge of
+pavement drain in accordance with CD 524 [Ref 12.N].
+6.2.2
+Drainage from conventional pavements may be incorporated to discharge in an alternative manner,
+including into the reservoir pavement.
+6.3
+Where drainage from conventional pavements is received, the design storage and discharge capacity
+of the reservoir pavement shall allow for additional inflow.
+Design for maintenance
+6.4
+The design of the reservoir pavement shall include necessary components for maintenance provision
+of the road surfacing when operational.
+6.5
+The design of the reservoir pavement shall include the means for inspection and maintenance with
+respect to the management and removal of sediment.
+NOTE 1
+Sediment management and removal can include provisions for settlement and storage (such as
+chambers).
+NOTE 2
+Highway runoff contains a significant amount of particulate material. Without periodic removal these
+materials can lead to the decline in performance and eventual failure of any design of drainage system.
+Reservoir pavements are particularly susceptible to derogation of performance caused by particulates.
+6.6
+During design, an initial management plan shall be developed for the entire drainage system.
+6.6.1
+This management plan should:
+1)
+set out the objectives of the drainage systems (which can include, for example, flow and pollutant
+attenuation);
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 62
+======================================================================
+CD 531 Version 0.2.0
+6. Design for construction and maintenance
+2)
+formulate an adaptable programme of maintenance to include cleaning or replacement of
+clogged materials;
+3)
+establish procedures (including inspection) for observing and monitoring the behaviour of the
+drainage system (for example through permeability testing);
+4)
+plan for regular reviews of the maintenance scheduling, which can lead to increased or
+decreased frequency of inspections, cleaning, etc; and,
+5)
+prescribe the various maintenance operations required.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 62
+======================================================================
+CD 531 Version 0.2.0
+7. Normative references
+7.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+BSI. BS EN 13108-1, 'Bituminous mixtures – Material specifications. Asphaltic
+concrete. (Designated Standard - CPR)'
+Ref 2.N
+National Highways. CS 229, 'Data for pavement assessment'
+Ref 3.N
+National Highways. CD 226, 'Design for new pavement construction'
+Ref 4.N
+National Highways. CD 225, 'Design for new pavement foundations'
+Ref 5.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 6.N
+National Highways. CD 529, 'Design of outfall and culvert details'
+Ref 7.N
+National Highways. CD 530, 'Design of soakaways'
+Ref 8.N
+National Highways. CD 533, 'Determination of pipe and bedding combinations for
+drainage works'
+Ref 9.N
+National Highways. CD 523, 'Determination of pipe roughness and assessment of
+sediment deposition to aid pipeline design'
+Ref 10.N
+TRL. Nunn, M. TRL 615, 'Development of a more versatile approach to flexible and
+flexible-composite pavement design'
+Ref 11.N
+National Highways. CC 500, 'Drainage'
+Ref 12.N
+National Highways. CD 524, 'Edge of pavement details'
+Ref 13.N
+National Highways. CD 521, 'Hydraulic design of road edge surface water channels
+and outlets'
+Ref 14.N
+Construction Industries Research and Information Association, London. CIRIA R156 ,
+'Infiltration Drainage Manual of Good Practice'
+Ref 15.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 16.N
+BSI. BS 1377-2 , 'Methods of test for soils for civil engineering purposes.
+Classification tests'
+Ref 17.N
+National Highways. CC 201, 'Pavement foundation construction'
+Ref 18.N
+National Archives. UKPGA 1975/23, 'Reservoirs Act and various Reservoirs Act
+(Amendment) Regulations'
+Ref 19.N
+National Highways. LA 113, 'Road drainage and the water environment'
+Ref 20.N
+Transport Research Laboratory. Chaddock, B & Roberts, C. TRL PPR 127, 'Road
+foundation design for major UK highways'
+Ref 21.N
+National Highways. CS 228, 'Skidding resistance'
+Ref 22.N
+Construction Industries Research and Information Association, London. O'Brien AS,
+Hsu YS, Lile CR, and Pye SW. CIRIA C737, 'Structural and geotechnical design of
+modular geocellular drainage systems'
+Ref 23.N
+National Highways. CD 236, 'Surface course materials for construction'
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 62
+======================================================================
+CD 531 Version 0.2.0
+7. Normative references
+Ref 24.N
+Centre d'Etudes sur les Reseaux les Transport, l'Urbanisme et les constructions
+publiques. CERTU (Stormwater networks), 'Techniques alternatives aux reseaux
+d'assainissement pluvial: Element cles pour leur mise en oeuvre'
+Ref 25.N
+Construction Industries Research and Information Association, London.
+Woods-Ballard,B, Wilson,S, Udale Clark,H, Illman,S, Scott,T, Ashley,R, Kellagher,R..
+CIRIA C753, 'The SuDS Manual'
+Ref 26.N
+BSI. BS EN 14227-1, 'Unbound and hydraulically bound mixtures. Specifications.
+Cement bound granular mixtures'
+Ref 27.N
+National Highways. CD 532, 'Vegetated drainage systems for highway runoff'
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 62
+======================================================================
+CD 531 Version 0.2.0
+8. Informative references
+8.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+TRL. Chaddock B and Nunn M E (2011). TRL PPR 482, 'A pilot-scale trial of reservoir
+pavements for drainage attenuation '
+Ref 2.I
+Bulletin de Liaison des Laboratoires des Ponts et Chaussées, no 188 Nov/Dec 1993.
+Ranchet, J., Penaud, F., Le Grand, R., Constant, A., Obry, P. and Soudieu, B. LCPC
+188, 'Comparison points of view'
+Ref 3.I
+Pratt, C.J. Pratt 1999, 'Developments in permeable pavement: Further observations
+on mineral oil bio-degradation. Proc. Standing Conf. on Stormwater Source Control,
+Vol XV11. IBSN 0 905949 80 3'
+Ref 4.I
+Europa.eu. 2000/60/EC, 'Directive 2000/60/EC of the European Parliament and of
+the Council of 23 October 2000 establishing a framework for Community action in the
+field of water policy'
+Ref 5.I
+John Wiley and Sons. Cedergren HR. Cedergren, HR 1974, 'Drainage of highway
+and airfield pavements'
+Ref 6.I
+Baladés et al. Baladés et al, 'Evaluation des flux de pollution transitant dans un type
+de solution compensatoire. Conférence Novatech, Lyon. 189-190:66-75'
+Ref 7.I
+National Highways. CD 116, 'Geometric design of roundabouts'
+Ref 8.I
+CERTU (Centre d'Etudes sur les Reseaux les Transport, l'Urbanisme et les
+constructions publiques) (1999) . CERTU (Porous pavements), 'Guide Technique:
+Chaussées poreuses urbaines.'
+Ref 9.I
+Journal of Irrigation Drainage 143(8). Knappenberger, T et al. (2017).
+Knappenberger, T et al 2017, 'Monitoring porous asphalt stormwater infiltration and
+outflow'
+Ref 10.I
+Water Science and Technology 45:51-56. Newman et al . WST 45, 'Oil
+bio-degradation in permeable pavements by microbial communities'
+Ref 11.I
+National Asphalt Pavement Association (NAPA). www.hotmix.org. NAPA Information
+Series 131, 'Porous asphalt pavements for stormwater management (Revised
+November 2008)'
+Ref 12.I
+The Science of the Total Environment. 156 :1402-1757. Hogland and
+Niemczynowicz. Hogland & Niemczynowicz, 'Porous Pavement in a Cold Climate'
+Ref 13.I
+Coventry University. Puehmeir, T. Puehmeir, 'Recent studies on oil degrading porous
+pavement structures. Proc. Standing Conf. on Stormwater Source Control, Vol
+XV111, IBSN 0 905949 80 3'
+Ref 14.I
+Water Science and Technology 39 :119-125. M. Legret, M. Nicollet, P. Miloda, V.
+Colandini, G. Raimbault . Legret et al 1999, 'Simulation of heavy metal pollution from
+stormwater infiltration through a porous pavement with reservoir structure'
+Ref 15.I
+Construction Industries Research and Information Association, London. CIRIA C582,
+'Source Control Using Constructed Pervious Surfaces'
+Ref 16.I
+Washington, USA. Delatte, N. Delatte, 'Structural design of pervious concrete
+pavement. 86th Annual Meeting of TRB'
+Ref 17.I
+Croney, D. Croney 1997, 'The design and performance of road pavements '
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 62
+======================================================================
+CD 531 Version 0.2.0
+8. Informative references
+Ref 18.I
+International ISAP Symposium on Asphalt Pavements and Environment, 18th – 20th
+August 2008, Zurich, Switzerland. Nakashima, S, Tsatsumi, S and Oshita, T..
+Nakashima, S et al 2008, 'The effect of rainwater seepage on the mechanical
+properties of pavement subgrade'
+Ref 19.I
+Transport Research Laboratory . Powell, WD, Potter, JF, Mayhew, HC & Nunn, ME.
+TRL LR 1132, 'The structural design of bituminous roads'
+Ref 20.I
+MDPI. Razzaghmanesh,M. Beecham, S. Water 2018, 'Water 2018, 10, 337: A review
+of permeable pavement clogging investigations and recommended maintenance
+regimes'
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix A. Control of flooding and pollution
+Appendix A. Control of flooding and pollution
+A1
+General
+Reservoir pavements capture and attenuate road runoff allowing slow release into the environment,
+thereby reducing flood risk. In addition, they may also retain pollutants washed from the road surfacing.
+Unlike other systems that provide similar benefits (such as ponds or vegetated treatment systems),
+they require little land-take and may be fully integrated into the curtilage of the road.
+A2
+Flow attenuation
+As reservoir pavements provide storage capacity within a drainage network they may be used to
+attenuate the outward discharge to the receiving waterbodies. Spare storage capacity within a
+reservoir pavement can be used on this basis, for example by diverting runoff into the subbase
+reservoir layer, either acting as an in-line balancing facility or as a "supplementary" soakaway. This
+configuration can work well with very porous, non-moisture susceptible subgrades.
+Where the outward discharge is into a conventional conveyance system prior to discharge to an outfall,
+the outlet from the subbase reservoir layer may be throttled (through the use of small diameter pipes,
+orifice plates or other flow control systems) to reduce the rate of discharge. The combination of
+throttled discharge and subbase storage serve to control the rapid storm discharge and high peak
+hydrographs typical of runoff from paved road surfacing during high intensity storms.
+Through designing the appropriate storage, it is possible to balance input from the design storm such
+that the outflow may be reduced (for a newly developed site) to a discharge rate equivalent to that of a
+greenfield runoff rate (typically 2-5 l/sec/ha). This significantly reduces flood risk from road drainage
+outfalls.
+Measures to control and contain the movement of sediment to the reservoir from the upstream
+drainage system need to be incorporated into these balancing/attenuation systems.
+A subsurface reservoir can be used in verges or in other off-line locations to provide flow and pollutant
+attenuation in an otherwise conventional drainage system. As verge locations would not be subject to
+the same structural loadings as trafficked conventional pavements, structural design requirements
+would be site specific.
+Reservoir pavements incorporating geocellular tanks are particularly suited to these types of
+applications. Examples of such use are provided in CIRIA C753 [Ref 25.N], which provides additional
+guidance.
+A3
+Pollution containment and control
+Collaborative research carried out for National Highways and the Environment Agency (see DMRB LA
+113 [Ref 19.N]) has identified the key pollutants from road runoff as:
+1)
+sediments (and associated bound pollutants);
+2)
+metals (zinc, copper, cadmium); and,
+3)
+hydrocarbons (oil and fuel) including polycyclic aromatic hydrocarbons (PAH).
+Pollutants may also be associated with maintenance activities, such as pesticides and herbicides from
+landscape or verge maintenance. Guidance on the assessment and mitigation of these pollutant risks
+is given in LA 113 [Ref 19.N].
+The interception of runoff by reservoir pavements may be expected to limit the direct discharge of
+pollutants into waterbodies.
+There are no documented cases of the use of pervious road surfacing (and associated reservoir
+pavements) causing deterioration in the quality of receiving waterbodies (see CIRIA C582 [Ref 15.I]).
+All the evidence to date has demonstrated an improvement in water quality. Pollutants may be filtered
+from the percolating water. This may occur through entrapment (filtration), adsorption and
+biodegradation, or a combination of all three. Filtration can occur within the soil, the aggregate matrix
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix A. Control of flooding and pollution
+or on geotextile layers within the construction. Adsorption occurs when the pollutant attaches or binds
+to the surface of soil or aggregate particles. Microbial communities can become established that
+biodegrade organic pollutants such as oil or grease (see Pratt 1999 [Ref 3.I], and Puehmeir [Ref 13.I]).
+A number of research studies Baladés et al [Ref 6.I], Hogland & Niemczynowicz [Ref 12.I], Legret et al
+1999 [Ref 14.I], WST 45 [Ref 10.I], Pratt 1999 [Ref 3.I], LCPC 188 [Ref 2.I] have identified the benefits
+of pervious and reservoir pavements in attenuating pollutants in drained water. Reductions are
+recorded in, for example, suspended solids, oil, copper, lead, zinc and cadmium. Chemical oxygen
+demand (COD) was also reduced.
+There is less direct evidence for the pollutant attenuation effects of edge-drained, injected type
+reservoir pavement systems (that is, reservoir pavement types IV- VI). Many of the attenuation
+processes described above, however, will still be active when water is injected into the subbase
+reservoir as opposed to percolating down from the surface. In addition, edge-drained, injected systems
+provide the opportunity to fit pollution containment within the edge drain system itself. This design
+might include, for example, sediment or hydrocarbon traps. With an appropriate maintenance regime,
+these traps will both address pollution issues and mitigate one of the more significant disadvantages of
+reservoir systems; their potential susceptibility to clogging by washed off sediments.
+A4
+Groundwater recharge
+Where discharge to the ground is proposed, it is important to first undertake a risk assessment to
+evaluate both potential risks to groundwater (for examples shallow water tables, source protection
+zones, sensitive groundwater dependant ecosystems). Groundwater risk assessment advice is
+provided in LA 113 [Ref 19.N]. The hydraulic properties of the subgrade also need to be considered
+with respect to potential damage to road substrates. However, where infiltration to the ground is
+possible, there may be considerable environmental benefits through increased recharge to local
+aquifers. For roads over permeable soils, this effectively mimics the natural situation maintaining the
+groundwater balance.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix B. Reservoir pavement design configurations
+Appendix B. Reservoir pavement design configurations
+Figure B.1 Reservoir pavement type I
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix B. Reservoir pavement design configurations
+Figure B.2 Reservoir pavement type II
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix B. Reservoir pavement design configurations
+Figure B.3 Reservoir Pavement type III
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix B. Reservoir pavement design configurations
+Figure B.4 Reservoir pavement type IV
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix B. Reservoir pavement design configurations
+Figure B.5 Reservoir pavement type V
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix B. Reservoir pavement design configurations
+Figure B.6 Reservoir pavement type VI
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix C. Advantages and disadvantages of different de...
+Appendix C. Advantages and disadvantages of different design
+configurations
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix C. Advantages and disadvantages of different de...
+Table C.1 Advantages and disadvantages of different design configurations
+Reservoir
+pavement type
+Advantages
+Disadvantages
+Typical applications
+Reservoir pavements with pervious road surfacing
+Type I
+1) simplest, cheapest design;
+2) self-contained (no outlet drainage other
+than emergency overflows for design
+exceedance);
+3) no land requirement adjacent
+carriageway;
+4) only emergency outfall (for design
+exceedance) required.
+1) road surfacing susceptible to blockage
+from silt and other road-borne materials;
+2) require regular inspection, intervention
+and maintenance to maintain pervious
+surfacing;
+3) less durable road surfacing than Types
+IV to VI;
+4) deicing using rock salt to be avoided
+due to potential blocking of pervious
+surface;
+5) potential susceptibility to spillage
+entering directly into the reservoir;
+6) increased maintenance over
+conventional pavement and drainage
+systems.
+1) over permeable subgrade with non
+sensitive groundwater;
+2) in trafficked areas with low accretion of
+silt;
+3) non-trafficked areas such as laybys,
+footpaths and cycleways.
+Type II
+1) surplus storage may be used as an
+in-line balancing facility;
+2) minimal additional landtake (for buried
+pipework and discharge).
+1) as Type I above;
+2) additional costs/ complexity from
+pipeworks and outlets;
+3) potential difficulties in maintenance of
+buried pipe systems;
+4) requires downstream drainage system.
+1) over poorly permeable subgrade;
+2) in trafficked areas with low accretion of
+silt;
+3) non-trafficked areas such as laybys,
+footpaths and cycleways.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix C. Advantages and disadvantages of different de...
+Table C.1 Advantages and disadvantages of different design configurations (continued)
+Reservoir
+pavement type
+Advantages
+Disadvantages
+Typical applications
+Type III
+1) as Type II above;
+2) may be used over moisture-susceptible
+or contaminated soils, and sensitive
+and shallow groundwater.
+1) as above;
+2) additional costs of membranes (if
+installed);
+3) effective sealing of membranes.
+1) over barely permeable subgrade;
+2) over sensitive groundwater areas;
+3) in areas of potential contaminant
+migration;
+4) over moisture-susceptible
+soils/subgrade (e.g. low strength,
+dissolution);
+5) shallow water tables (within 1 m of
+subbase);
+6) in trafficked areas with low accretion of
+silt;
+7) non-trafficked areas such as laybys,
+footpaths and cycleways.
+Reservoir pavements with impervious road surfacing
+Type IV
+1) more durable, lower maintenance road
+surfacing (than Types I- III);
+2) allow capture of accidental spillage
+(such as by using decantation chamber
+in edge drains);
+3) self contained.
+1) increased complexity (design,
+construction) and costs over Type I due
+to additional edge drainage/ pipework);
+2) increased maintenance over
+conventional pavement and drainage
+systems.
+1) as Type I above
+Type V
+1) more durable, lower maintenance road
+surfacing (than Types I-III);
+2) allow capture of accidental spillage
+(such as by using decantation chamber
+in edge drains);
+3) may be used as an in-line balancing
+facility.
+1) as Type II with increased complexity
+and cost due to additional pipework
+1) as Type II above
+Type VI
+1) as Type V above
+2) may be used over moisture-susceptible
+or contaminated soils, and sensitive
+and shallow groundwater.
+1) as Type III with increased complexity
+and cost including additional costs of
+membranes (if installed);
+2) effective sealing of membranes
+1) as Type III above
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Appendix D. Worked example
+D1
+Background
+A dual carriageway road is to be upgraded to include provision of a hard shoulder. As a result, the
+existing drainage (primarily in filter drains) will need replacement. For a 1-km section of the road
+widening, space constraints are such that there is insufficient room to provide a conventional drainage
+system.
+An assessment carried out using LA 113 [Ref 19.N] demonstrated that there are not expected to be
+significant risks of spillage along this stretch of the road and that there are no significant risks to
+underlying groundwater.
+An assessment carried out using CD 523 [Ref 9.N] identified that the generation of sediment and silt at
+the site can be managed with simple traps incorporated into the design. Note that the design detail of
+sediment management is not included in this example.
+As the site does not overlay a sensitive groundwater body, it is intended that this 1-km stretch will be
+drained using a reservoir pavement with edge drainage "injected" (reservoir pavement type IV) into the
+subbase reservoir layer beneath the hard shoulder and then by infiltration into the underlying
+permeable subgrade.
+The hydraulic design for the reservoir pavement includes the determination of the maximum depth of
+water that will occur in the subbase reservoir layer for a design storm of 1:10 years over a range of
+storm durations (15 mins to 24 hours). The depth of the reservoir will ensure the water held in storage
+under the design storm can empty from full capacity to 50% or less within 24 hours.
+Following hydraulic design, the structural design of the subbase will be checked against the bearing
+capacity of the underlying subgrade. The ground is relatively flat with gradients of no more than 1%
+across the site. The underlying subgrade comprises well sorted sand and in situ infiltration tests have
+been carried out using the method described in CIRIA R156 [Ref 14.N] to establish the infiltration rate
+of the subgrade. The worked example in Table D.1 is shown for determining subbase design thickness
+only.
+Table D.1 The principle site features are as follows:
+Length of road section
+1000 m
+Width of drained road section including hard
+shoulder
+10.5 m
+Drained road area (Ad)
+10,500 m2
+Soil Infiltration rate (to subgrade)
+4.5 x 10-5 m/s
+Factor of safety (x 10) to be used for the soil
+infiltration to deal with the design exceedance, to
+allow for any errors in the field test results and to
+allow an element for blockage in the subbase
+reservoir layer
+It is assumed in calculations that the soil
+infiltration rate is 4.5 x 10-6 m/s
+CBR Value (sand; measured as "wetted" value)
+5%
+Porosity of the subbase material (n)
+30%
+The width of the reservoir is such that the ratio between drained area and the area of the reservoir
+pavement is greater than 2. Note, this recommendation applies primarily to those reservoir pavements
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+employing a pervious surface (reservoir pavement types I-III) to reduce the potential impact of sediment
+from the carriageway. With reservoir pavement types IV, as applied here, sediment control may be
+applied by using sumped gullies or other in-line sediment control devices.
+The design should include the preparation of maintenance regimes to ensure the reservoir itself
+remains free of sediment.
+D2
+Hydraulic design
+In line with the guidance, the design follows a number of steps:
+1)
+establish the design storm and establish rainfall (see CIRIA R156 [Ref 14.N]) intensities for the
+hydraulic region and from the drainage catchment to determine the runoff rate and volume. [Note
+that the critical storm duration for volume may differ from the critical storm duration for intensity];
+2)
+following the procedure set out in CIRIA C582 [Ref 15.I] determine the maximum depth of water
+that will occur in the subbase for the design storms and check against the minimum
+recommended (350 mm) depth for the depth of the subbase;
+3)
+check time of emptying to ensure 50% of the available storage is drained within 24 hours;
+4)
+establish structural requirements of the subbase – adopt the greater thickness of hydraulic and
+structural requirements.
+D2.1
+Design storm
+For the design storm of a 1:10 year return period, the rainfall intensity is determined by reference to the
+hydraulic region. In this example, the hydraulic region is considered with the values of the rainfall ratio (
+r ) as 0.4, by reference to Figure 3.6 in CIRIA C582 [Ref 15.I].
+Using the value of r, rainfall intensities for the 10-year storm are determined for the storm durations of
+15 minutes to 24 hours, from Table 3.3 of CIRIA C582 [Ref 15.I], interpolating as required. The values
+for the rainfall intensities are presented in Table D.2 below.
+Note that proprietary drainage software may also be used to generate design storm rainfall intensities
+for given hydraulic regions.
+Table D.2 Rainfall intensity for 10 year storm
+Storm durations
+Rainfall intensity (mm/h)
+Rainfall intensity (m/h)
+15 mins
+62.33
+0.0623
+30 mins
+39.87
+0.0399
+60 mins
+24.8
+0.0248
+120 mins
+14.95
+0.0149
+240 mins
+8.85
+0.0088
+360 mins
+6.48
+0.0065
+480 mins
+5.4
+0.0054
+600 mins
+4.32
+0.0043
+720 mins
+4.02
+0.0040
+900 mins
+3.56
+0.0036
+1080 mins
+3.11
+0.0031
+1440 mins
+2.20
+0.0022
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+D2.2
+Depth subbase (hmax)
+The worked calculations below are shown for the 15 minute duration, 1:10 year design storm. The
+maximum depth of water (hmax) that will occur in the subbase (from CIRIA C582 [Ref 15.I]) is based on:
+Equation D.1 Depth subbase (hmax)
+hmax = (Ri −q)D
+n
+where:
+R
+ratio of the drained area to base area of pervious surface
+total-paved area ( Ad )/ internal area of subbase ( Ab ) 10500/2500 = 4.2
+i
+rainfall Intensity (m/h) 0.062 m/h for 15 mins 10-year storm
+q
+infiltration rate (m/h) into subgrade/ subsoil 4.5 x 10-6 m/s (factor of safety 10 included) 0.0
+0162 m/h
+D
+rainfall duration = 15 mins = 0.25 h
+n
+porosity of subbase material = 0.3
+On this basis hmax = ((4.2 x 0.062) – 0.0162) x 0.25/0.3 = 0.205 m = 205 mm, which is less than the
+recommended 350 mm minimum depth of the subbase.
+A simple spreadsheet calculation was used to determine results for other storm durations and the
+results are shown on Table D.3.
+D2.3
+Time for half-emptying
+Based on CIRIA R156 [Ref 14.N] , pp60 - plane infiltration system), the time taken for the system to half
+empty is given by:
+Equation D.2 Time for half-emptying
+Te = nhmax
+2q
+where:
+Te
+time for half-emptying
+n
+porosity of subbase material 0.3
+hmax
+depth of water within subbase 0.205 m (for 15-mins storm)
+q
+infiltration rate 0.0162 m/h
+therefore Te = (0.3 x 0.205) /(2 x 0.0162) = 1.89 h
+The results for other storm durations are shown in Table D.3.
+Note that as above, the infiltration rate assumed in calculations is a factor of 10 less than that
+measured in infiltration testing to accommodate the recommended safety factor.
+D2.4
+Summary of hydraulic design considerations
+The summary of the key data (hmax and time to 50% empty) for a range of storms are shown in Table
+D.3 below.
+Note: where figures are negative, the infiltration capacity is in excess of the volume generated by the
+storm (that is there is no accumulated storage within the subbase reservoir layer).
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Table D.3 Summary of hmax and time to empty by 50%
+Storm durations
+hmax (mm)
+Half drain time (hours)
+15 mins
+204.7
+1.89
+30 mins
+252.1
+2.33
+60 mins
+293.2
+2.71
+120 mins
+310.6
+2.88
+240 mins
+279.6
+2.59
+360 mins
+220.3
+2.04
+480 mins
+172.8
+1.60
+600 mins
+64.8
+0.60
+720 mins
+26.9
+0.25
+900 mins
+-61.8
+-0.57
+1080 mins
+-188.6
+-1.75
+1440 mins
+-556.8
+-5.16
+For the design storm the maximum depth of reservoir required is approximately 311 mm (for the 2-hour
+storm shown above). The system easily has the capacity to drain by 50% within a 24-hour period.
+Although the calculated value of hmax is 311 mm, the current recommendation of a minimum reservoir
+thickness of 350 mm is adopted.
+D3
+Structural design
+To provide runoff attenuation capacity, the subbase is to be of an unbound granular material. On this
+basis the foundation class is considered to be no better than Foundation Class 2. Referring to CD 225
+[Ref 4.N] a CBR value of 5% would result in a layer thickness of circa 220 mm for a foundation layer
+stiffness of 150 MPa.
+This subbase layer thickness is less than the current minimum recommendation.
+D4
+Comments
+In the example provided above, both hydraulic and structural design considerations suggest a subbase
+thickness less than the currently recommended minimum of 350 mm. A case could be made to reduce
+subbase thickness to the minimum required (310 mm) to meet hydraulic requirements, although using
+the minimum recommended depth provides for a little additional storage capacity. This thickness is still
+greater than that required by structural considerations.
+Negative values for hmax on the table indicate the infiltration capacity of the subbase exceeds the
+rainfall intensity of the design storm.
+For the initial hydraulic design calculations, it is assumed that a width of 2.5 m beneath the hard
+shoulder, for the full 1000-m road length, will provide the reservoir and that this will infiltrate into the
+underlying subgrade. Iterative calculations may be carried out to achieve a compromise between the
+width and depth of the subbase reservoir layer.
+Figures D.1 and D.2 provide conceptual sketches of the installation of a reservoir pavement based on
+this worked example (plan and section respectively). Edge drainage and the means to "inject" water
+into the reservoir are not presently covered by this guidance. Methods will need to be adopted that are
+hydraulically proven and that also allow control of sediment to ensure this is not injected into the
+underlying subbase reservoir layer.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+If moisture susceptible subgrades are encountered, a cut-off drain will be needed to isolate the
+conventional pavement foundation from the discharge from the reservoir pavement. These need to
+continue functioning throughout the life of the reservoir pavement.
+Given sufficient hydraulic capacity, the reservoir may be discontinuous beneath the hard shoulder. In
+such cases, thicker reservoirs may be required to provide the necessary storage capacity.
+The design should also accommodate an overflow to cater for exceedance events. Providing a greater
+subbase thickness could potentially give greater storage capacity for more extreme storms, however
+overflow is recommended for all installations.
+Road surfacing design will be dictated by traffic requirements, not covered in this example.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Table D.4 Depth of subbase calculations: determination of hmax – all storm durations
+Storm Durations
+(mins)
+Storm Durations
+(hours)
+Avg Intensity
+(mm/h)
+i Avg
+Intensity
+(m/h)
+q Infiltration
+Rate
+(m/s)
+Factored q
+Infiltration Rate
+(m/h)
+h max (m)
+h max
+(mm)
+15
+0.25
+62.33
+0.062
+0.000045
+0.0000045
+0.0162
+0.205
+204.7
+30
+0.5
+39.87
+0.040
+0.000045
+0.0000045
+0.0162
+0.252
+252.1
+60
+1
+24.8
+0.025
+0.000045
+0.0000045
+0.0162
+0.293
+293.2
+120
+2
+14.95
+0.015
+0.000045
+0.0000045
+0.0162
+0.311
+310.6
+240
+4
+8.85
+0.009
+0.000045
+0.0000045
+0.0162
+0.280
+279.6
+360
+6
+6.48
+0.006
+0.000045
+0.0000045
+0.0162
+0.220
+220.3
+480
+8
+5.4
+0.005
+0.000045
+0.0000045
+0.0162
+0.173
+172.8
+600
+10
+4.32
+0.004
+0.000045
+0.0000045
+0.0162
+0.065
+64.8
+720
+12
+4.02
+0.004
+0.000045
+0.0000045
+0.0162
+0.027
+26.9
+900
+15
+3.56
+0.004
+0.000045
+0.0000045
+0.0162
+-0.062
+-61.8
+1080
+18
+3.11
+0.003
+0.000045
+0.0000045
+0.0162
+-0.189
+-188.6
+1440
+24
+2.2
+0.002
+0.000045
+0.0000045
+0.0162
+-0.557
+-556.8
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Table D.5 Determination of time to empty to 50% storage volume
+Rainfall (m)
+Total Paved
+Area (m2)
+Internal Storage
+Area (m2)
+Volume of
+Rainfall (m3)
+Volume of
+Outflow (m3)
+Clearance
+Time (h)
+Required Storage
+Volume (m3)
+Available
+Storage (m3)
+0.015583
+10500
+2500
+163.6163
+10.125
+1.89
+153.4913
+262.5
+0.019935
+10500
+2500
+209.3175
+20.25
+2.33
+189.0675
+262.5
+0.0248
+10500
+2500
+260.4
+40.5
+2.71
+219.9
+262.5
+0.0299
+10500
+2500
+313.95
+81
+2.88
+232.95
+262.5
+0.0354
+10500
+2500
+371.7
+162
+2.59
+209.7
+262.5
+0.03888
+10500
+2500
+408.24
+243
+2.04
+165.24
+262.5
+0.0432
+10500
+2500
+453.6
+324
+1.60
+129.6
+262.5
+0.0432
+10500
+2500
+453.6
+405
+0.60
+48.6
+262.5
+0.048206
+10500
+2500
+506.16
+486
+0.25
+20.16
+262.5
+0.053443
+10500
+2500
+561.15
+607.5
+-0.57
+-46.35
+262.5
+0.055954
+10500
+2500
+587.52
+729
+-1.75
+-141.48
+262.5
+0.0528
+10500
+2500
+554.4
+972
+-5.16
+-417.6
+262.5
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Figure D.1 Worked example - conceptual sketch (plan view)
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Notes:
+Various edge drain types might be used, including surface water channels, kerb and gully and linear
+drainage channels; Combined channel and pipe systems may also be possible. Measures for
+entrapping sediment are to be included in the design of the edge drainage before water is introduced
+into the reservoir layer.
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Figure D.2 Worked example - conceptual sketch (sectional view)
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix D. Worked example
+Notes:
+1)
+Existing foundation and pavement of dense materials.
+2)
+New pavement depth to match existing pavement.
+3)
+Porous concrete provides additional storage; thickness in accordance with Table 5.16.
+4)
+Greater thickness in the reservoir layer may be used to decrease width.
+5)
+Example not applicable in low permeability and/or moisture susceptible sub-grades, or where
+shallow groundwater is encountered.
+6)
+Permeable geotextile can be required to prevent contamination of reservoir layer by fines in the
+subgrade.
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix E. Pervious asphalt and concrete: terminology, ...
+Appendix E. Pervious asphalt and concrete: terminology, classification
+and material properties
+E1
+Terminology and classification
+The advice applied to alternative and standard designs is based on TRL 615 [Ref 10.N]. In that report,
+design stiffness values and terminology for material designations refer to the traditional UK national
+specifications used prior to 2004, applicable at the time that report was published. Since the
+methodology described in TRL 615 [Ref 10.N] was developed, the following changes have taken place:
+1)
+harmonisation of European Standards in 2006 that required changes in material composition and
+designation; and,
+2)
+revision in 2006 of DMRB HD 26 that redefined the standard UK conventional pavement
+materials.
+In the European terminology now adopted BS EN 13108-1 [Ref 1.N] requires that asphalt mix
+designation consists of four sections:
+1)
+mixture type;
+2)
+upper aggregate sieve size in mm;
+3)
+layer type; and,
+4)
+binder grade.
+For example, dense (low permeability) asphalt concrete with maximum aggregate size 20 mm for
+binder course with paving grade bitumen, grade 100/150 is designated as "AC 20 dense bin 100/150".
+This description would have been previously designated as "0/20 mm DBM 125 binder course" or "0/20
+DBM 125", or similar.
+As European specifications for hydraulically bound materials now apply, the use of the traditional
+material designations and terminology should be related to those materials under the European
+specification.
+TRL 615 [Ref 10.N] provides designs for cement-bound material bases, CBM grades: CBM3, CBM4
+and CBM5 based on the previous terminology. The use of these types of material are now covered by
+BS EN 14227-1 [Ref 26.N] and are referred to as Cement Bound Granular Material (CBGM).
+Equivalence between these two systems of characterisation, shown in Table E.1 below is described in
+Appendix E of TRL 615 [Ref 10.N]. The European specifications make no distinction between the
+thermal properties of the aggregates used in CBGM.
+These properties, however, remain an important part of the design process. Therefore, for a given
+strength class, the type of aggregate used (gravel – G and crushed rock – R) should still be declared
+for design as shown in Table E.1.
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix E. Pervious asphalt and concrete: terminology, ...
+Table E.1 Design classifications
+Traditional Material Class (after Nunn)
+CBGM Strength Class (after BS EN 13108-1)
+CMB3(G)
+C8/10(G)
+CBM3(R)
+C8/10 (R)
+CBM4(G)
+C12/15(G)
+CBM4(R)
+C12/15(R)
+CBM5(G)
+C16/20(G)
+CBM5(R)
+C16/20(R)
+E2
+Material properties
+Table E.2 provides a comparison of the stiffness values adopted prior to and following the release of
+CD 226 [Ref 3.N].
+Table E.2 Comparison of the dynamic modulus of pervious and dense (low permeability) graded
+asphalt
+Material
+Dynamic modulus (GPa)
+Standard values used in UK conventional pavement design prior to the 2006 edition of DMRB HD 26
+Dense bitumen macadam (DBM100)
+3.1
+Hot rolled asphalt (HRA50)
+3.5
+Dense bitumen macadam (DBM50)
+4.7
+Heavy duty macadam (HDM50)
+6.2
+Thin surface course system (TSCS)
+2.0
+Porous asphalt (PA)
+2.0*
+* Value in common use
+Standard values currently used in UK conventional pavement design following the 2006 edition of
+DMRB HD 26
+DBM125
+2.5
+HRA50
+3.1
+DBM50/HDM50
+4.7
+EME2
+8.0
+Guidance on the properties of grades of cement bound materials (CBMs) with gravel aggregate (G) and
+porous concrete is given in Table E.3 for an age of 28 days. Porous concrete can be seen to have a
+28-day flexural strength between 1.0 to 3.8 MPa. These values are less than the range of 5 to 7 MPa for
+conventional pavement quality concrete but encompass the flexural strengths of CBM3G, 4G and 5G.
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix E. Pervious asphalt and concrete: terminology, ...
+Table E.3 Mechanical properties of porous concrete and dense (low permeability) graded CBMs
+at 28 days
+Material
+Compressive Strength
+(MPa)
+Flexural Strength
+(MPa)
+Dynamic Modulus
+(GPa)
+CBM3G
+12.5
+1.38
+30.3
+CBM4G
+18.75
+2.06
+36.1
+CBM5G
+25
+2.75
+40.3
+Porous concrete
+(range)
+3.5 to 28*
+1.0 – 3.8*
+25 to 45**
+Porous concrete
+(typical)
+17.0*
+2.5*
+38**
+* Values given by the American National Ready Mix Concrete Association
+** Determined using equation E 1 below. All other values are standard values used in UK
+conventional pavement design
+References for typical values of dynamic modulus of porous concrete are not found in the literature,
+hence it was assumed that the dynamic modulus of this material could be calculated from its flexural
+strength. The relationship between elastic stiffness and flexural strength for concretes containing
+various aggregates are shown graphically by Croney 1997 [Ref 17.I].
+TRL 615 [Ref 10.N] represented these relationships for traditional CBMs with gravel aggregate in the
+UK conventional pavement design method of TRL LR 1132 [Ref 19.I] by the following equation:
+Equation E.1 Relationships for traditional CBMs with gravel aggregate in the UK
+E = log (ff) + 0.77
+0.00301
+where:
+ff
+the flexural strength (MPa)
+E
+the dynamic modulus (GPa)
+For porous concrete, the relationship between flexural strength and dynamic modulus may differ from
+that of traditional CBM materials and should be derived for more precise designs.
+Table E.3 suggests that a porous concrete can be designed to at least achieve the properties of
+CBM3G and that it may be possible to achieve comparability with the higher strength grades. With
+hydraulically bound road base, it is desirable to have a high flexural strength and a relatively low
+modulus, as a material with a high modulus attracts stress.
+The function of the depth of asphalt road surfacing in a flexible conventional pavement with CBGM
+base is primarily to delay the onset of reflection cracking and is dependent on the design traffic. As
+there is less shrinkage with porous concrete (see CIRIA R156 [Ref 14.N]), it is not necessary to
+construct porous concrete road surfacing with construction joints. Consequently, transverse cracks
+may not develop so readily in porous road surfacing.
+Relationships between dynamic elastic modulus and flexural strength have been developed LA 113
+[Ref 19.N] for equivalent performance and grouped into nine zones of hydraulically bound base (H1 to
+H9). These zones are shown in Figure E.1.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 62
+======================================================================
+CD 531 Version 0.2.0
+Appendix E. Pervious asphalt and concrete: terminology, ...
+Figure E.1 Classes of hydraulically bound materials
+The range of values for the flexural strength and estimated dynamic stiffness of porous concrete given
+in Table E.3, suggest that it could be characterised as a Zone H4 material for the weakest material up
+to Zone H8 material for the stronger end of the range. The mean values for porous concrete used in the
+USA (see the mid-point of the range shown in the chart and typical values from Table E.3) suggest that
+it is possibly a Zone H7 material.
+With no measurements available for the dynamic modulus of porous concrete, it is suggested that
+porous concrete should be limited to a Zone H5 material for design purposes until further experience is
+gained. In a similar way, other HBMs can be conservatively assigned a strength/stiffness zone. The
+thicknesses of the HBM bases are then derived using the process described in Appendix C of TRL 615
+[Ref 10.N]. Using the process, which is given in Figure C1 of that report, automatically accounts for the
+use of porous instead of dense (low permeability) asphalt. The assigned values are given in Chapter 3
+of TRL 615 [Ref 10.N].
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 62
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 531 Version 0.2.0, published: 30-Sep-2025
+
+
