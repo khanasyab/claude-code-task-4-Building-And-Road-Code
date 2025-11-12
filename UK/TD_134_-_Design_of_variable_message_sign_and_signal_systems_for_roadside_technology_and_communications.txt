@@ -1,0 +1,593 @@
+======================================================================
+PAGE 1 of 25
+======================================================================
+Design Manual for Roads and Bridges
+Control & Communications Technology
+Design
+TD 134
+Design of variable message sign and signal
+systems for roadside technology and
+communications
+Version 1.0.0
+Summary
+This document contains design requirements for variable message sign and signal systems.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 25
+======================================================================
+TD 134 Version 1.0.0
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations and symbols
+5
+Terms and definitions
+6
+1. Scope
+7
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2. General requirements for variable message signs and signals
+8
+Design of supports and foundations for variable message signs and signals for roadside technology and
+communications
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Design of gantries for variable message signs and signals for roadside technology and communications . .
+8
+Design of road restraint systems for variable message signs and signals for roadside technology and com-
+munications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Outputs from the design of variable message signs and signals for roadside technology and communications
+8
+3. Variable message signs and signals for roadside technology and communications
+10
+General design requirements for variable message signs and signals
+. . . . . . . . . . . . . . . . . . . . .
+10
+Variable message signs and signals on gantries for roadside technology and communications . . . . . . . .
+10
+General design requirements for post mounted signals for roadside technology and communications . . . .
+10
+Ambient light monitors for variable message signs and signals for roadside technology and communications
+10
+4. Normative references
+11
+Appendix A. Typical wiring diagrams for variable message signs and signals
+12
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 25
+======================================================================
+TD 134 Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 134
+1.0.0
+September 2025
+Core document
+Change to policy, major
+revision, new document
+development
+New document derived from Section split from TD 131, with updated amendments.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 25
+======================================================================
+TD 134 Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 131 v0.1.0, incorporating parts of Section 7.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 25
+======================================================================
+TD 134 Version 1.0.0
+Introduction
+Introduction
+Background
+Variable message signs and signals for roadside technology and communications are used to direct
+and inform drivers where there are changing traffic conditions, traffic routes and statutory provisions.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 3.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 25
+======================================================================
+TD 134 Version 1.0.0
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Definition
+AMI
+Advanced motorway indicator
+DLCB
+Data link connection box
+MS4
+Motorway signal mark 4
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 25
+======================================================================
+TD 134 Version 1.0.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Advanced motorway
+indicator
+A type of electronic light emitting signal that can display mandatory
+and advisory aspects.
+Information model
+As defined in GG 184 [Ref 10.N].
+Motorway signal mark 4
+A type of electronic light emitting variable message sign that can
+display text, pictograms and speed aspects.
+Variable message signs
+Variable message signs are technology devices, within the definition
+of Schedule 16 of the Traffic Signs Regulations and General
+Directives, capable of displaying, at different times, two or more
+defined legends or messages.
+NOTE: Variable message signs can be in the form of light emitting or
+non light emitting, electrical or electro-mechanical devices.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 25
+======================================================================
+TD 134 Version 1.0.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of electrical, telecommunications and supporting
+infrastructure for variable message signs and signal installations for roadside technology and
+communications on motorways and all-purpose trunk roads.
+1.1.1
+This document should be read in conjunction with the general requirements in GG 102 [Ref 6.N], GG
+104 [Ref 8.N], GD 304 [Ref 2.N]and with all other DMRB documents relevant to the design of the
+particular works to be undertaken.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving variable message signs and
+signals on the Overseeing Organisations' motorways and all-purpose trunk roads according to the
+implementation requirements of GG 101 [Ref 3.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 3.N] shall be followed in respect of activities covered by
+this document.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 25
+======================================================================
+TD 134 Version 1.0.0
+2. General requirements for variable message sig...
+2.
+General requirements for variable message signs and signals
+Design of supports and foundations for variable message signs and signals for
+roadside technology and communications
+2.1
+The design of supports and foundations for variable message signs and signals for roadside technology
+and communications shall be in accordance with CD 354 [Ref 1.N] design of minor structures.
+Design of gantries for variable message signs and signals for roadside
+technology and communications
+2.2
+The design of gantries and gantry mounting arrangements for variable message signs and signals for
+roadside technology and communications shall be in accordance with CD 365 [Ref 4.N] portal and
+cantilever signs/signals gantries.
+Design of road restraint systems for variable message signs and signals for
+roadside technology and communications
+2.3
+The design of road restraint systems for variable message signs and signals for roadside technology
+and communications shall be in accordance with CD 377 [Ref 7.N] requirements for road restraint
+systems.
+Outputs from the design of variable message signs and signals for roadside
+technology and communications
+2.4
+The outputs from the design of variable message signs and signals for roadside technology and
+communications shall include all details for the construction of the supporting infrastructure and the
+installation of variable message signs and signals.
+2.4.1
+Variable message signs and signals for roadside technology and communications installation design
+outputs should include:
+1)
+the variable message sign and signal type
+2)
+the installation location, using a formal location referencing system;
+3)
+the installation location of inertia switches;
+4)
+the installation location and installation requirements for DLCBs and gantry isolation switches;
+5)
+details of associated connection equipment for variable message signs and signals;
+6)
+layouts showing the location of signals, signal alignment and associated equipment on the gantry
+7)
+alignment and setting out details for each variable message sign and signal;
+8)
+tolerance of heights and angles for setting out dimensions;
+9)
+signal wiring diagrams;
+10)
+mounting arrangement;
+11)
+support structures: posts, gantries;
+12)
+foundations for support structures, and methods of fixing to support structures;
+13)
+electrical and telecommunications installations, including cables, chambers and ducting; housings
+and enclosures; housing lock types; numbers of keys for locks; and switchgear and wiring;
+14)
+road restraint systems; and
+15)
+position and orientation of all components of the proposed installation relative to other items of
+existing and proposed road infrastructure, including the edge of the carriageway, so that the
+following can be identified:
+a)
+the environment in which the installation is to take place;
+b)
+the factors that can influence the construction methodology and scheduling of the proposed
+installation; and
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 25
+======================================================================
+TD 134 Version 1.0.0
+2. General requirements for variable message sig...
+c)
+the factors that can affect the operational performance of the proposed installation in the
+future.
+2.5
+Information models shall be produced to define the details and dimensions of each variable message
+sign and signal for roadside technology and communications to be installed.
+2.5.1
+Drawings and non-graphical information should be produced to provide any additional details or views
+needed for the construction of each variable message sign and signal for roadside technology and
+communications installation.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 25
+======================================================================
+TD 134 Version 1.0.0
+3. Variable message signs and signals for roadsi...
+3.
+Variable message signs and signals for roadside technology and
+communications
+General design requirements for variable message signs and signals
+3.1
+Positioning of variable message signs and signals for roadside technology and communications shall
+be in accordance with CD 146 [Ref 5.N].
+3.2
+Variable message sign and signal alignments for roadside technology and communications shall be in
+accordance with Annex N, BS EN 12966 [Ref 9.N].
+3.3
+Cabling and cable terminations for variable message signs and signals for roadside technology and
+communications shall be sited and designed to facilitate maintenance activities.
+NOTE
+Interface boxes such as a data link connection box are used to provide connectivity to variable
+message signs and signals.
+Variable message signs and signals on gantries for roadside technology and
+communications
+3.4
+The layout of variable message signs and signals and associated equipment on a gantry for roadside
+technology and communications shall be determined by the quantity and type of variable messages
+signs and signals being positioned.
+3.4.1
+Typical layouts and wiring diagrams for variable message signs and signals installed on a gantry for
+roadside technology and communications should be based on the figures in Appendix A.
+3.5
+Where a gantry spans both carriageways, all its signals for roadside technology and communications
+shall be connected to cabinet-mounted roadside controller equipment located on the same side of the
+highway as the transmission system cabling.
+3.5.1
+Associated roadside controller equipment for roadside technology and communications may be
+mounted in the communications cabinet.
+General design requirements for post mounted signals for roadside technology
+and communications
+3.6
+Post mounted signals for roadside technology and communications shall be orientated so that the
+enclosure doors are located downstream of the signal to allow operatives to view the oncoming traffic.
+3.7
+Post mounted signals for roadside technology and communications shall allow for telecommunications
+service provider equipment.
+NOTE
+The service delivery point and associated cable joint enclosures can be in the signal post cabinet.
+3.7.1
+Typical wiring for post mounted signals for roadside technology and communications should be based
+on the figures provided in Appendix A.
+Ambient light monitors for variable message signs and signals for roadside
+technology and communications
+3.8
+Where the brightness levels of variable signs and signals for roadside technology and communications
+cannot be controlled automatically by the display device, an ambient light monitor shall be provided.
+NOTE
+Ambient light monitors can be mounted on accessible gantries or on hinged columns adjacent to
+gantries.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 25
+======================================================================
+TD 134 Version 1.0.0
+4. Normative references
+4.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 2.N
+National Highways. GD 304, 'Designing health and safety into maintenance'
+Ref 3.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 4.N
+National Highways. CD 365, 'Portal and cantilever signs/signals gantries'
+Ref 5.N
+National Highways. CD 146, 'Positioning of signalling and advance direction signs'
+Ref 6.N
+National Highways. GG 102, 'Quality management systems for highway works'
+Ref 7.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 8.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 9.N
+BSI. BS EN 12966, 'Road vertical signs. Variable message traffic signs'
+Ref 10.N
+National Highways. GG 184, 'Specification for the use of Computer Aided Design'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Appendix A. Typical wiring diagrams for variable message signs and
+signals
+Figure A.1 shows a typical wiring diagram for a matrix indicator installed on a signal post.
+Figure A.1 Matrix indicator installed on a signal post wiring diagram
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.2 Key for Figure A.1
+Figure A.2 illustrates a physical arrangement for a pair of Advanced Motorway Indicators (AMIs)
+installed on a signal post cabled in a serial manner.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.3 AMI installed on signal posts with signals cabled in a serial manner
+Figure A.3 illustrates a physical arrangement for a pair of AMIs installed on a signal post cabled in a
+parallel manner.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.4 AMI installed on signal posts with signals cabled in a parallel manner
+Figure A.4 to A.9 illustrates the physical layout of the signal, Data Link connection Box (DLCB) and
+cabling on a gantry over a different number of carriageways.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.5 Physical arrangement of a signal, a DLCB and cabling for variable message signs and signals covering a single lane.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.6 Physical arrangement of two signals, a DLCB and cabling for variable message signs and signals covering two lanes.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.7 Physical arrangement of three signals, a DLCB and cabling for variable message signs and signals covering three lanes.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.8 Physical arrangement of four signals, DLCBs and cabling for variable message signs and signals covering four lanes.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.9 Physical arrangement of five signals, DLCBs and cabling for variable message signs and signals covering five lanes.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.10 A representation of the physical layout of the signal, DLCB and cabling on a gantry over a six lane carriageway.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+NOTE An alternative arrangement can be used with the communications cable running directly from the
+cabinet to the signal without the need for a DLCB.
+Figures A.10 and A.11 illustrates two wiring options for an Motorway Signal mark 4 (MS4) installed on a
+gantry.
+Figure A.11 MS4 wiring option A.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 25
+======================================================================
+TD 134 Version 1.0.0
+Appendix A. Typical wiring diagrams for variable message ...
+Figure A.12 MS4 wiring option B.
+NOTE MS4 signs can have an integral ambient light monitor or use an external version.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 25
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 134 Version 1.0.0, published: 30-Sep-2025
+
+
