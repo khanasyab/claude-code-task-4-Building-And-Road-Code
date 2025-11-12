@@ -1,0 +1,1809 @@
+======================================================================
+PAGE 1 of 49
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 114
+Climate
+(formerly New)
+Version 0.0.1
+Summary
+This document sets out the requirements for assessing and reporting the effects of climate on
+highways (climate change resilience and adaptation), and the effect on climate of greenhouse
+gas from construction, operation and maintenance projects.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 2 of 49
+======================================================================
+LA 114 Version 0.0.1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Principles and purpose
+9
+Integration with consent procedures and planning policy . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Assessment and consultation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3. Assessment methodology
+10
+Impact of projects on climate (GHG Emissions) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Scoping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Study area
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Baseline scenario
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Significance criteria
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Design and mitigation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Vulnerability of projects to climate change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Scoping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Study area
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Baseline scenario
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Significance criteria
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Evaluation of significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Design and mitigation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+4. Monitoring
+20
+Impact of projects on climate
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Vulnerability of projects to climate change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+5. Normative references
+21
+6. Informative references
+22
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 3 of 49
+======================================================================
+LA 114 Version 0.0.1
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+LA 114
+0.0.1
+June 2021
+Core document,
+Scotland NAA
+Incremental change to
+notes and editorial
+updates
+This release is for the publication of updated requirements in the Scotland National Application Annex only.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+LA 114
+0
+October 2019
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 4 of 49
+======================================================================
+LA 114 Version 0.0.1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document makes provision for requirements outlined within EU Directive 2011/92/EU as amended
+by 2014/52/EU 2011/92/EU [Ref 1.N] (hereafter referred to as the EIA Directive) and the Climate
+Change Act 2008 SI No. 1056 CCA 2008 [Ref 10.N].
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 5 of 49
+======================================================================
+LA 114 Version 0.0.1
+Introduction
+Introduction
+Background
+The UK has made commitments to tackle the root cause of climate change by reducing emissions of
+greenhouse gases (GHG), as well as to increase the resilience of development and infrastructure to the
+changing climate.
+The Climate Change Act 2008 SI No. 1056 CCA 2008 [Ref 10.N] sets a target to reduce net GHG
+emissions by 100% from 1990 levels by the year 2050.
+The effective assessment and management of impacts on climate, as well as the effects of climate
+change on projects offers the opportunity to:
+1) improve the resilience of projects to future climate conditions, such as increased risk and severity of
+flooding, drought, heatwaves, intense rainfall events and other extreme weather events; and
+2) reduce the impact of projects on climate by minimising the magnitude of GHG emissions as far as
+possible.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 6 of 49
+======================================================================
+LA 114 Version 0.0.1
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+AADT
+Average Annual Daily Traffic
+CO2e
+Carbon dioxide equivalent
+GHG
+Greenhouse gas
+PAS2080
+Publicly Available Specification (2080): Carbon Management in Infrastructure
+tCO2e
+tonnes of Carbon dioxide equivalent
+UKCP
+United Kingdom Climate Projections
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 7 of 49
+======================================================================
+LA 114 Version 0.0.1
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Actual data
+GHG emission data derived from recorded / observed activities
+(rather than predicted)
+Adaptive management
+A process that enables uncertainty to be included in operational
+decision-making.
+Authorities likely to be
+concerned
+Authorities or organisations (statutory or non-statutory) that have
+environmental responsibilities or local and regional competences
+(as defined by the relevant consenting regime)
+Benchmarking
+Comparison of project performance against other similar projects
+using consistent metrics
+Carbon account
+The UK's net carbon emissions
+Carbon budgets
+UK GHG targets over defined periods of time
+Carbon emissions / CO2e
+Shorthand for emissions of any of the seven greenhouse gases
+(GHGs) that contribute to climate change
+NOTE 1: Definition from the Kyoto Protocol UNFCCC [Ref 7.N]
+NOTE 2: Carbon emissions are usually expressed as CO2e
+(carbon dioxide equivalent).
+Climate
+Long-term weather conditions prevailing over a region
+NOTE: Measured in terms of average precipitation, maximum and
+minimum seasonal temperatures, and other factors, throughout a
+year
+Construction GHG emissions
+GHG emissions associated with the construction phase of a project
+Decommissioning
+The act of ceasing operation of an asset to a non-active status
+Disruption: national level
+Closure/partial /obstruction of a strategic route
+restricting/preventing movement across multiple regions/counties
+Disruption: regional level
+Closure/partial/obstruction of a strategic route
+restricting/preventing movement within a region or county
+Embodied carbon
+Carbon (GHG) emissions associated with energy consumption and
+chemical processes during the extraction, transport and/or
+manufacture of construction materials or products
+NOTE: Typical embodied carbon datasets are 'cradle-to-gate' (i.e.
+all emissions to the point of delivery from the factory gate) and
+expressed in kilograms of CO2e per kilogram of product or material.
+Extreme weather
+A weather event which is significantly different from the average or
+usual weather pattern
+Future baseline
+An outline of the likely evolution of the current state of the
+environment without implementation of the project
+Greenhouse gas (GHG)
+A gaseous compound that absorbs infrared radiation and traps
+heat in the atmosphere
+NOTE: Greenhouse gases are usually expressed in terms of
+carbon dioxide equivalents (see 'carbon emissions').
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 8 of 49
+======================================================================
+LA 114 Version 0.0.1
+Terms and definitions
+(continued)
+Term
+Definition
+H++ climate scenarios
+Extreme climate change scenarios on the margins or outside of the
+10th to 90th percentile range presented in the 2009 UK Climate
+Projections: Briefing Report UK CP18 [Ref 3.N]
+Low carbon
+Activities/assets which minimise carbon footprint
+Material impact
+An event/outcome that is a key decision making consideration
+Net GHG emissions
+The difference in GHG emissions between the do minimum and do
+something scenarios taking into consideration carbon reduction
+measures (i.e. mitigation measures)
+Operational GHG emissions
+GHG emissions associated with
+1) the operation and maintenance of the asset, i.e. lighting,
+maintenance activities etc); and
+2) users of the asset (i.e vehicle emissions)
+Regional
+Geographical regions in the United Kingdom Climate Projections
+as follows:
+1) North East England;
+2) North West England;
+3) Yorkshire and the Humber;
+4) East Midlands;
+5) West Midlands;
+6) East of England;
+7) London;
+8) South East England;
+9) South West England;
+10) Wales;
+11) Scotland; and
+12) Northern Ireland.
+Resilience
+The capacity of a project (or lack thereof) to withstand the adverse
+effects of climate change
+Trans-boundary impacts
+Any adverse effect on the environment resulting from human
+activity, the physical origin of which is situated wholly or in part
+within an area under the jurisdiction of another State
+UKCP
+The name given to the UK Climate Projections
+NOTE 1: provides the future climate projections and observed
+(historical) climate data for UK regions.
+NOTE 2: This will in turn be superseded by updates such as UK
+CP18 [Ref 3.N].
+Vulnerability
+The degree to which a system/asset is exposed and resilient to
+adverse effects of climate change
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 9 of 49
+======================================================================
+LA 114 Version 0.0.1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+The requirements in this document shall be applied to the assessment, reporting and management of
+effects from projects on climate, along with the effects of climate on projects.
+1.2
+Environmental assessments must, as required by the EIA Directive 2011/92/EU [Ref 1.N], describe the
+likely significant effects of proposed projects on the environment resulting from the:
+1) impact of the project on climate (GHG emissions); and,
+2) vulnerability of the project to climate change (adaptation).
+1.3
+The assessment of effects on climate shall be informed by relevant information collated by other
+environmental factors, notably material assets and waste.
+1.4
+The assessment of effects on climate shall be used to inform other environmental factors where
+appropriate.
+1.5
+The assessment of climate effects on the project shall be used to inform the assessment of project
+vulnerability to major accidents and disasters where appropriate.
+1.6
+An overview of the vulnerability of a project to major accidents and disasters (man-made and natural)
+shall be reported in environmental assessments within the description of the project.
+1.7
+Consequential changes in the predicted effects of a project on the environment as a result of major
+accidents and disasters shall be reported in relevant environmental topics.
+Implementation
+1.8
+This document shall be implemented forthwith on all schemes requiring an assessment of climate on
+the Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 6.N].
+Use of GG 101
+1.9
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 10 of 49
+======================================================================
+LA 114 Version 0.0.1
+2. Principles and purpose
+2.
+Principles and purpose
+Integration with consent procedures and planning policy
+2.1
+Projects shall use the assessment and design process to demonstrate their contribution to reduced
+GHG emissions in line with the EIA Directive 2011/92/EU [Ref 1.N] and the Climate Change Act 2008
+SI No. 1056 CCA 2008 [Ref 10.N].
+NOTE 1
+The Climate Change Act 2008 SI No. 1056 CCA 2008 [Ref 10.N], sets out a target to reduce by 100%
+the net UK carbon account by 2050 when compared to the 1990 baseline, or the baseline of the
+relevant transposing national regulations.
+NOTE 2
+The assessment of GHG emissions early in the life cycle of a project offers the greatest potential for the
+reduction of GHGs.
+Assessment and consultation
+2.2
+The assessment and reporting shall identify the scale and nature of GHG emissions across the whole
+project life cycle, taking into account design and mitigation measures already incorporated into the
+project.
+2.2.1
+The assessment should report on construction and operational (maintenance and user) GHG
+emissions.
+2.3
+Decommissioning associated with a proposed project shall be excluded from assessment of climate
+(for both impacts on climate and vulnerability of projects to climate change) due to the length of the
+asset operational phase.
+2.3.1
+The assessment of climate should report on demolition where an existing asset requires removal prior
+to construction of a proposed asset.
+2.4
+Projects shall minimise their vulnerability against the negative effects of projected climate change
+through appropriate design and mitigation measures.
+2.5
+The assessment and reporting of the effects on climate shall be undertaken in accordance with the
+sustainability principles outlined in GG 103 [Ref 4.N].
+2.6
+The assessment and reporting of the effects on climate shall be undertaken in accordance with the
+requirements in the four over-arching environmental assessment documents:
+1) LA 101 [Ref 5.N] Introduction to environmental assessment;
+2) LA 102 [Ref 9.N] Screening projects for Environmental Impact Assessment;
+3) LA 103 [Ref 8.N] Scoping projects for environmental assessment;
+4) LA 104 [Ref 2.N] Environmental assessment & monitoring.
+2.7
+The principles of PAS 2080:2016 specification on infrastructure carbon management PAS 2080 2016
+[Ref 1.I] (with the exception of setting project level carbon reduction targets) shall be used to inform the
+assessment of projects on climate and supplement the guidance contained herein.
+2.8
+Where potential trans-boundary impacts are predicted, projects shall consult with the relevant planning
+authorities likely to be concerned.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 11 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+3.
+Assessment methodology
+Impact of projects on climate (GHG Emissions)
+Scoping
+3.1
+The scoping assessment shall report on the likely additional and avoided GHG emissions at each life
+cycle stage of the project, in comparison with current and future baseline GHG emissions.
+3.2
+The scoping assessment shall report on the nature and scale of GHG emissions (positive, neutral or
+negative) and the likelihood of significant effects.
+3.3
+The scoping assessment shall report on the following questions to gain an understanding of the need to
+undertake further assessment:
+1) are construction GHG emissions (or GHG-emitting activity), compared to the baseline scenario (i.e.
+when compared to GHG emissions and energy use associated with existing maintenance activities),
+increasing by >1%?;
+2) during operation, will roads meet or exceed any of the following criteria?
+a) a change of more than 10% in AADT;
+b) a change of more than 10% to the number of heavy duty vehicles; and
+c) a change in daily average speed of more than 20 km/hr.
+3.4
+Where the response to one or more of the scoping assessment questions is 'yes', further assessment
+shall be undertaken.
+3.5
+The scoping assessment shall report on life cycle stage or sub-stages for which the GHG emissions
+are not likely to be significant.
+3.5.1
+The scoping assessment should address the following:
+1) is there (or is there likely to be, within the timescales of the assessment) sufficient certainty on the
+availability of quantitative GHG emissions information?;
+2) will the availability of information allow the effects on climate resulting from GHG emissions to be
+assessed?
+3.6
+The scoping assessment shall identify the extent to which operational user GHG emissions are
+additional to the baseline in the absence of the project (do-minimum vs do-something), and the GHG
+emissions from traffic which are transferring from other roads in the surrounding area.
+3.7
+Where there is insufficient, reliable information for quantitative assessment for any life cycle stage of
+the project, a qualitative assessment of GHG emissions shall be completed in the early stages of
+project development.
+Study area
+3.8
+For construction and operational maintenance, the study area shall comprise GHG emissions
+associated with project construction related activities/materials and their associated transport.
+3.9
+For operational road user GHG emissions, the study area shall be consistent with the affected road
+network defined in a project's traffic model.
+Baseline scenario
+3.10
+The GHG emissions without the project shall be identified for the current and future baseline
+(do-minimum scenarios).
+3.10.1
+The boundary of the baseline GHG emissions should include current operational maintenance GHG
+emissions and operational user GHG emissions.
+3.10.2
+The baseline GHG emissions should be consistent with the study area outlined for the project.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 12 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+Data collection
+3.11
+GHG emissions shall be calculated and reported for each of the project life cycle stages as required by
+the scope of the assessment to establish the 'do something' scenario.
+3.11.1
+Table 3.11.1 outlines the project life cycle stages and potential sources of GHG emission data that
+should be obtained to inform the assessment.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 13 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+Table 3.11.1 Sources and lifecycle stages for project GHG emissions
+Main stage of project
+life cycle
+Sub-stage of life cycle
+Potential sources of
+GHG emissions
+(not exhaustive)
+Examples of activity data
+Product stage;
+including raw material
+supply, transport and
+manufacture.
+Embodied GHG
+emissions
+associated with the
+required raw
+materials.
+Materials quantities.
+Construction process
+stage; including
+transport to/from
+works site and
+construction
+/installation
+processes.
+Activities for
+organisations
+conducting
+construction work.
+Fuel/electricity
+consumption.
+Construction activity
+type/duration.
+Transportation of materials
+from point of purchase to
+site, mode/distance.
+Area of land use change.
+Construction stage
+Land use change.
+GHG emissions
+mobilised from
+vegetation or soil
+loss during
+construction.
+Type and area of land
+subject to change in usage.
+Use of the
+infrastructure by the
+end-user (road user).
+Vehicles using
+highways
+infrastructure.
+Traffic count/speed by
+vehicle type for highway
+links.
+Operation and
+maintenance
+(including repair,
+replacement and
+refurbishment).
+Energy consumption
+for infrastructure
+operation and
+activities of
+organisations
+conducting routine
+maintenance.
+Fuel/electricity consumption
+for vehicles, lighting and
+plant.
+Raw material quantities and
+transport mode/distance.
+Waste and arisings
+quantities,
+transport mode/distance
+and disposal fate.
+Operation
+('use-stage') (to
+extend 60yrs in line
+with appraisal period)
+Land use and
+forestry.
+Ongoing land use
+GHG emissions/
+sequestration each
+year.
+Type and area of land
+subject to change in usage.
+Net change in vegetation.
+Opportunities for
+reduction
+GHG emissions
+potential of recovery
+including reuse and
+recycling GHG
+emissions potential of
+benefits and loads of
+additional functions
+associated with the
+study system.
+Avoided GHG
+emissions through
+substitution
+of virgin raw
+materials with those
+from recovered
+sources.
+Waste and arisings material
+quantities and
+recycling/reuse fate.
+NOTE 1
+The first life cycle stage is 'construction', which includes GHG emissions from the construction process
+and the manufacture/transport of materials.
+NOTE 2
+The second life cycle stage is 'operation' which includes:
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 14 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+1) operation and maintenance, repair, replacement, refurbishment and land use changed (operational
+maintenance GHG emissions); and
+2) emissions from end-users (operational user GHG emissions).
+NOTE 3
+The third life cycle stage comprises opportunities to minimise production/use of GHG emissions i.e. the
+potential for reduction of GHG emissions through reuse and recycling during the construction of the
+scheme.
+3.12
+A proportionate approach shall be applied to calculating and reporting GHG emissions from changes in
+land use and forestry (i.e reporting only where there is likely to be a substantial change).
+3.13
+The GHG emissions calculation for the project life cycle shall be completed using an industry
+recognised carbon calculation tool(s) in accordance with the Overseeing Organisation requirements.
+3.14
+A proportionate approach shall be applied to capture the principal contributing factors associated with
+GHG emissions.
+3.15
+The assessment of projects on climate shall report the quantities of GHG emissions in metric tonnes of
+carbon dioxide equivalents (tCO2e).
+3.16
+An appropriate validated traffic model shall be used to estimate operational road user GHG emissions.
+3.17
+Emissions factor data for user GHG emissions shall enable assessment of the base year, opening year
+and design (future) year scenarios.
+Significance criteria
+3.18
+An assessment of project GHG emissions against UK government or Overseeing Organisation carbon
+budgets shall be undertaken and presented as follows:
+Table 3.18 Project GHG emissions against relevant carbon budgets
+Project stage
+Estimated total carbon
+over carbon budget (tC
+O2e)
+('Do something'
+Scenario)
+Net CO2 project GHG
+emissions
+(tCO2e) (Do something
+- Do minimum)
+Relevant carbon budget
+Construction
+Operation
+Total
+3.19
+Where a project stage extends over multiple carbon budget periods, the projects GHG emissions shall
+be reported against each carbon budget for each project stage.
+NOTE 1
+National policy states that "It is very unlikely that the impact of a road project will, in isolation, affect the
+ability of Government to meet its carbon reduction plan targets".
+NOTE 2
+In the context of NOTE 1, it is considered unlikely that projects will in isolation conclude significant
+effects on climate.
+3.20
+The assessment of projects on climate shall only report significant effects where increases in GHG
+emissions will have a material impact on the ability of Government to meet its carbon reduction targets.
+3.20.1
+Where assessment conclusions indicate that there is likely to be a 'material impact' on the
+Government's carbon reduction targets, evidence to support this conclusion should be submitted to the
+Overseeing Organisation.
+3.21
+Bench marking of project performance shall be undertaken by comparing GHG emissions to other
+highway projects.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 15 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+3.21.1
+In comparing highways projects, GHG emissions should be normalised to take account of differences in
+size and scale.
+Design and mitigation
+3.22
+Projects shall seek to minimise GHG emissions in all cases to contribute to the UK's target for net
+reduction in carbon emissions.
+3.22.1
+Projects should apply and develop the following options:
+1) avoid / prevent:
+a) maximise potential for re-using and/or refurbishing existing assets to reduce the extent of new
+construction required, and/or explore alternative lower carbon options to deliver the project
+objectives (i.e. shorter route options with smaller construction footprints);
+b) identify through projects and delivery programmes opportunities to influence user GHG
+emissions;
+2) reduce:
+a) apply low carbon and/or reduced resource consumption solutions (including technologies,
+materials and products) to minimise resource consumption during the construction, operation,
+and at end of life;
+3) remediate:
+a) identify, assess and integrate measures to further reduce carbon through on or off-site offsetting
+or sequestration.
+NOTE 1
+Minimising GHG emissions through design is a core principle of the Government's Infrastructure
+Carbon Review and the Specification on infrastructure carbon management PAS 2080 2016 [Ref 1.I].
+NOTE 2
+Offsetting and sequestering can include measures such as adoption of renewable energy technologies
+or the creation of new habitats or employment of technologies with the capacity to absorb carbon.
+3.23
+Where carbon offsetting/sequestration is employed to reduce GHG emissions, projects shall agree the
+long term viability of the scheme with the Overseeing Organisation.
+Vulnerability of projects to climate change
+Scoping
+3.24
+The scoping assessment shall identify whether anticipated changing climate conditions and weather
+events are likely to have significant adverse effects on the project (or elements of the project) during
+construction and operation.
+NOTE 1
+Scoping will focus on identification of any likely significant climate changes and likely project exposure
+to these changes.
+NOTE 2
+Scoping will identify vulnerable elements of a project that require further assessment.
+Study area
+3.25
+The study area for assessing a project's vulnerability to climate change shall be based on the
+construction footprint/project boundary (including compounds and temporary land take).
+Baseline scenario
+3.26
+The assessment of a project's vulnerability to climate change shall use published historical regional
+weather data to demonstrate the current climate impacts on a study area.
+NOTE
+The Met Office provides information on observed and future climate change relative to the baseline
+period of 1961-1990, based on the latest scientific understanding UK CP18 [Ref 3.N].
+3.26.1
+Recent weather patterns and extreme weather events should be identified, to provide an indication of
+how the project will account for climate change in the immediate future i.e. during construction.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 16 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+3.27
+Historical events as a result of weather patterns and extreme weather events, i.e. landslides after
+heavy rainfall, shall be identified to provide an indication of past vulnerability.
+3.28
+To identify the future changes to the climate baseline, the following factors shall be identified and used
+in the assessment:
+1) the life span of the project (including timescales for construction and operational life cycle stages);
+2) climate trends associated with the UKCP high emissions scenario (50% probability) projection (using
+the latest available projections);
+3) the environmental baseline under future projected climate conditions.
+NOTE
+UKCP provides probabilistic projections for the whole of the UK, at regional level and at local level UK
+Climate Projections.
+3.29
+The relevant climate variables shall be identified and included in the assessment.
+NOTE
+UKCP includes a range of different climate variables (e.g. mean daily temperature for summer and
+winter, mean daily maximum temperatures for summer and mean daily minimum temperatures for
+winter).
+3.30
+Assessments shall use the H++ climate scenarios to test the sensitivity of vulnerable safety critical
+features, to ensure that such features will not be affected by more radical changes to the climate
+beyond that projected in the latest set of UK climate projections.
+3.31
+The assessment of a project's vulnerability to climate change shall take the life span of the project to be
+60 years.
+3.32
+The life cycle stages being assessed shall determine the relevant period over which the projections are
+selected (e.g. short term 2030, medium term 2050, long term 2080), and the extent to which they will
+change in comparison to the baseline.
+3.33
+For projects which are expected to remain in operation beyond the last period of projections, the
+assessment shall continue to use the last available period for the remainder of the design life of the
+project.
+Data collection
+3.34
+Following identification of the future climate scenarios, the project receptors within the study area which
+are vulnerable to climate change shall be identified as below:
+1) the construction process (e.g. workforce, plant, machinery etc);
+2) the assets and their operation, maintenance and refurbishment (e.g. pavements, structures,
+earthworks and drainage, technology assets, etc);
+3) end-users (e.g. members of public, commercial operators etc).
+3.35
+The vulnerability of the project to future climate scenarios shall be identified and reported for each
+phase of the project life cycle.
+NOTE
+Examples of climate change events and associated impacts that can be assessed during construction
+and operation are presented in Table 3.35N (not exhaustive).
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 17 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+Table 3.35N Examples of potential climate impacts during construction and operation
+Climate event
+Impact
+Construction
+Increased frequency of extreme weather.
+1) Damage, delay, health and safety impacts, increased costs.
+Increased temperatures, prolonged
+periods of hot weather.
+1) Warm and dry conditions exacerbate dust generation and dispersion, health risks to
+construction workers.
+Increased precipitation, and intense
+periods of rainfall.
+1) Flooding of works and soil erosion;
+2) Increased risk of contamination of waterbodies;
+3) Disruption to supply of materials and goods;
+4) Landslides
+Operation
+Increased precipitation, especially in Winter.
+1) Flooding;
+2) Water scour causing structural damage;
+3) Weakening or wash-out of structural soils;
+4) Change in ground water level and soil moisture.
+Gales.
+1) Damage from wind borne debris;
+2) Additional or uneven loading of structures;
+3) Disruption and potential danger to crossing users (including pedestrians and cyclists);
+4) Damage to trees / landscaping.
+Temperature extremes / dry periods.
+1) Stress on structures and technology;
+2) Stress on surfaces e.g. difficulties with maintaining required texture depth during
+construction and operation;
+3) Challenges for maintenance regimes.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 18 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+Table 3.35N Examples of potential climate impacts during construction and operation (continued)
+Climate event
+Impact
+Increased sea level rise and wave height.
+1) Flooding, increased corrosion potential/impact stress of structures supporting water
+crossings.
+Increased frequency of extreme weather events.
+1) Increased requirement for maintenance and
+0pt repair, danger to road users;
+2) Increased costs.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 19 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+Significance criteria
+3.36
+Where the climate change impact on project receptors is potentially significant, a risk assessment shall
+be undertaken.
+3.37
+The risk assessment shall assess the likelihood and consequence of the impact occurring to each
+receptor, leading to evaluation of the significance of the effect.
+3.38
+The assessment of significance shall be carried out in accordance with the following steps:
+1) the identification of hazards and benefits;
+2) assessment of likelihood and consequences;
+3) evaluation of significance.
+3.39
+Once the climate change impacts (hazards and opportunities) have been identified, a risk assessment
+of those impacts on the operational phase project shall be undertaken using the following framework in
+Table 3.39a (likelihood categories) and Table 3.39b (measure of consequence).
+Table 3.39a Likelihood categories
+Likelihood category
+Description (probability and frequency of occurrence)
+Very high
+The event occurs multiple times during the lifetime of the project (60 years)
+e.g. approximately annually, typically 60 events.
+High
+The event occurs several times during the lifetime of the project (60 years)
+e.g. approximately once every five years, typically 12 events.
+Medium
+The event occurs limited times during the lifetime of the project (60 years)
+e.g. approximately once every 15 years, typically 4 events.
+Low
+The event occurs during the lifetime of the project (60 years) e.g. once in
+60 years.
+Very low
+The event can occur once during the lifetime of the project (60 years).
+Table 3.39b Measure of consequence
+Consequence of impact
+Description
+Very large adverse
+Operation - national level (or greater) disruption to strategic route(s)
+lasting more than 1 week.
+Large adverse
+Operation - national level disruption to strategic route(s) lasting more
+than 1 day but less than 1 week or regional level disruption to strategic
+route(s) lasting more than 1 week.
+Moderate adverse
+Operation - regional level disruption to strategic route(s) lasting more
+than 1 day but less than 1 week.
+Minor adverse
+Operation - regional level disruption to strategic route(s) lasting less
+than 1 day.
+Negligible
+Operation - disruption to an isolated section of a strategic route lasting
+less than 1 day.
+3.40
+For the construction phase, a qualitative description of disruption risk shall be reported.
+Evaluation of significance
+3.41
+The likelihood and consequence of each impact shall be combined in the form of a matrix to identify the
+significance of each impact as outlined in table 3.41.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 20 of 49
+======================================================================
+LA 114 Version 0.0.1
+3. Assessment methodology
+Table 3.41 Significance matrix
+Measure of likelihood
+Very low
+Low
+Medium
+High
+Very high
+Very large
+NS
+S
+S
+S
+S
+Large
+NS
+NS
+S
+S
+S
+Moderate
+NS
+NS
+S
+S
+S
+Minor
+NS
+NS
+NS
+NS
+NS
+Measure of consequence
+Negligible
+NS
+NS
+NS
+NS
+NS
+NOTE
+NS = Not significant; S = Significant.
+3.42
+Significance conclusions for each impact shall be based on and incorporate confirmed design and
+mitigation measures.
+Design and mitigation
+3.43
+The environmental assessment shall identify how the project can be adapted to protect it from future
+climate scenarios.
+NOTE
+Early engagement between design engineers and environmental assessment professionals is the most
+effective way of eliminating and reducing impacts on the project from climate, thereby reducing the
+need for additional / subsequent design and mitigation measures.
+3.44
+Where an effect has been concluded to be significant, the design and mitigation hierarchy outlined
+within LA 104 [Ref 2.N] shall be re-assessed to reduce the significance of impacts to an acceptable
+level (not significant).
+3.45
+Where residual (non-significant) climate impacts have been identified in the environmental assessment,
+measures to manage the ongoing risks shall be identified.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 21 of 49
+======================================================================
+LA 114 Version 0.0.1
+4. Monitoring
+4.
+Monitoring
+Impact of projects on climate
+4.1
+Quarterly GHG emission returns required on projects during the construction and operation stages
+shall be reported in accordance with the Overseeing Organisation's requirements.
+4.2
+Actual data provided for the GHG returns shall be evaluated to inform any ongoing monitoring of GHG
+emissions and also feed back into future assessment of projects during design development and
+planning approval.
+Vulnerability of projects to climate change
+4.3
+Once a project is operational, asset data shall be managed, maintained and monitored to ensure the
+project design is operating as intended.
+NOTE
+Asset management measures can evolve (adaptive management) once the asset is operational as an
+appropriate response to climate impacts.
+4.3.1
+Where a design issue is identified, an assessment should be made to determine if corrective action is
+required, i.e. drainage amendments to rectify a flooding hotspot that was not anticipated at design
+stage.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 22 of 49
+======================================================================
+LA 114 Version 0.0.1
+5. Normative references
+5.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+2011/92/EU, 'Assessment of the effects of certain public and private projects on the
+environment as amended by Directive 2014/52/EU of the European Parliament and of
+the Council of 16 April 2014'
+Ref 2.N
+Highways England. LA 104, 'Environmental assessment and monitoring'
+Ref 3.N
+UK Met Office. UK CP18 , 'https://www.metoffice.gov.uk'
+Ref 4.N
+Highways England. GG 103, 'Introduction and general requirements for sustainable
+development and design'
+Ref 5.N
+Highways England. LA 101, 'Introduction to environmental assessment'
+Ref 6.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 7.N
+United Nations. United Nations Framework Convention on Climate Change.
+UNFCCC, 'Kyoto Protocol'
+Ref 8.N
+Highways England. LA 103, 'Scoping projects for environmental assessment'
+Ref 9.N
+Highways England. LA 102, 'Screening projects for Environmental Impact
+Assessment'
+Ref 10.N
+The National Archives. legislation.gov.uk. SI No. 1056 CCA 2008, 'The Climate
+Change Act 2008 (2050 Target Amendment) Order 2019'
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 23 of 49
+======================================================================
+LA 114 Version 0.0.1
+6. Informative references
+6.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+HM Treasury . Construction Leadership Council. PAS 2080, 'Carbon Management in
+Infrastructure' , 2016
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 24 of 49
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 25 of 49
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 114
+England National Application Annex to LA 114
+Climate
+Revision 0
+Summary
+There are no specific requirements for Highways England supplementary or alternative to those
+given in LA 114.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 26 of 49
+======================================================================
+LA 114 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 27 of 49
+======================================================================
+LA 114 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Oct 2019
+Highways England National Application Annex to LA 114.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 28 of 49
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 29 of 49
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 114
+Northern Ireland National Application Annex to
+LA 114 Climate
+Revision 0
+Summary
+There are no specific requirements for Department for Infrastructure Northern Ireland
+supplementary or alternative to those given in LA 114.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 30 of 49
+======================================================================
+LA 114 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 31 of 49
+======================================================================
+LA 114 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Oct 2019
+Department for Infrastructure, Northern Ireland National Application Annex to
+LA 114.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 32 of 49
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 33 of 49
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 114 SNAA
+Scotland National Application Annex to LA
+114 Climate
+(formerly New)
+Version 1.0.0
+Summary
+This National Application Annex sets out Transport Scotland's specific requirements for the
+assessment and management of the impacts that road projects can have on, and experience
+from, climate change.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 34 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+Terms and definitions
+6
+S/1. The Roads (Scotland) Act 1984 (Environmental Impact Assessment) Regulations 2017 (additional to
+LA 114)
+7
+Identification, description and assessment of climate impacts . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Significance criteria
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Vulnerability of projects to climate change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+Design and mitigation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+S/2. Scottish Government climate change targets (additional to LA 114)
+9
+S/3. Normative references
+10
+S/4. Informative references
+11
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 35 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+LA 114
+SNAA
+1.0.0
+June 2021
+Scotland NAA
+Change to policy, major
+revision, new document
+development
+(June 2021) Transport Scotland requirements for LA 114 created and published.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 36 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England on behalf of Transport Scotland.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 37 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+Introduction
+Introduction
+Background
+This National Application Annex outlines the Transport Scotland-specific requirements related to the
+assessment and management of the impacts that road projects can have on, and experience from,
+climate change in the context of Directive 2014/52/EU (hereafter referred to as the EIA Directive)
+2014/52/EU [Ref 1.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 38 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+Abbreviations
+Abbreviations
+Abbrreviations
+Abbreviation
+Definition
+CAT
+Carbon account for transport
+CCRA
+Climate Change Risk Assessment for Scotland
+CMS
+Carbon Management System
+EIA
+Environmental impact assessment
+GHG
+Greenhouse gas
+UKCP
+UK climate projections
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 39 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Baseline scenario
+The baseline is the level of GHG emissions against which future
+GHG emissions are compared.
+Boundary
+The boundary determines which GHG emissions are accounted
+for and reported in relation to the project.
+Climate change adaptation
+Adapting to current and future impacts of climate change to
+reduce the negative impacts and exploit opportunities.
+Climate change mitigation
+Reducing GHG emissions in order to slow or stop global climate
+change.
+Direct GHG emissions
+These are GHG emissions that originate from sources that are
+owned or controlled by the project.
+Indirect GHG emissions
+Indirect emissions are GHG emissions that are a consequence of
+the project, but that occur at sources owned or controlled by
+another entity.
+GHG emissions
+The six main anthropogenic GHGs are carbon dioxide, methane,
+nitrous oxide, hydrofluorocarbons, perfluorocarbons and sulphur
+hexafluoride.
+Principles for sustainable land
+use
+Reflect Scottish Government's policies on the priorities which
+should influence land use choices SG/2016/6 [Ref 8.N].
+Significant effect
+A project is reported as having significant effects on climate where
+the assessment identifies increases in carbon emissions that will
+have a material impact on the ability of the Scottish Government
+to meet its carbon targets.
+Tonne of carbon dioxide
+equivalent
+This refers to one metric tonne of carbon dioxide or an amount of
+any other greenhouse gas with an equivalent global warming
+potential, as calculated in accordance with international carbon
+reporting practice.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 40 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+S/1. The Roads (Scotland) Act 1984 (Environmental ...
+S/1.
+The Roads (Scotland) Act 1984 (Environmental Impact
+Assessment) Regulations 2017 (additional to LA 114)
+Identification, description and assessment of climate impacts
+S/1.1
+The significant direct and indirect effects of the construction and operation of the proposed project on
+climate (for example the nature and magnitude of greenhouse gas (GHG) emissions) shall be identified.
+Data collection
+S/1.2
+A carbon management or measurement tool shall be agreed with Transport Scotland in advance of
+data collection.
+S/1.2.1
+Transport Scotland's Carbon Management System (CMS), which was created to support the use of
+data in Transport Scotland project appraisal and design decisions, should be used to ensure that GHG
+emissions across a project's life-cycle are assessed in a consistent manner.
+NOTE 1
+The Transport Scotland Project Carbon Tool, a component of the CMS, can be used to support the
+assessment and reporting of GHG emissions across the whole project lifecycle and recommends:
+1) a boundary for GHG emissions mapping for road projects, including with regard to embodied carbon
+(material resourcing, processing and manufacturing);
+2) transport of materials to site, transport of waste; and
+3) maintenance activities.
+NOTE 2
+The CMS:
+1) supports the identification and categorisation of emissions in relation to the 'activities' that are
+responsible for generating them;
+2) is based on established measurement protocols that allow for quantification of climate impacts using
+a carbon dioxide equivalent approach; and
+3) lists dimensions and assumptions associated with specific elements of road projects.
+S/1.3
+The climate change principles for sustainable land use introduced in the Land Use Strategy for
+Scotland SG/2016/6 [Ref 8.N] shall be applied in the assessment of projects that will have a significant
+effect on the use of land.
+NOTE 1
+The Land Use Strategy SG/2016/6 [Ref 8.N], states that 'land-use decisions can be informed by an
+understanding of the opportunities and threats brought about by the changing climate.' Greenhouse
+gas emissions associated with land use can be reduced so that land can continue to contribute to
+delivering climate change adaptation and mitigation objectives.
+NOTE 2
+The climate change effects identified in assessments can reflect the potential for decisions that affect
+land-use to create an impact, including on natural systems, many miles away.
+Significance criteria
+S/1.4
+Following the assessment of a project's GHG emissions using the criteria in LA 114 [Ref 2.I], the
+relevant carbon budget shall be assessed against the emissions envelope's within the Scottish
+Government's Climate Change Plan SG RPP3 [Ref 3.N].
+NOTE
+The Scottish Government's targets identified in the Climate Change Plan were established using the
+TIMES model with envelopes calibrated by Scottish specific data and sector intelligence.
+Vulnerability of projects to climate change
+S/1.5
+The Climate Change Risk Assessment 2017 (CCRA) ASC (2016) [Ref 9.N] and The UK Climate
+Projections (UKCP) UK CP18 [Ref 4.N] shall inform the environmental assessment's assessment of
+project vulnerability to climate change in Scotland.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 41 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+S/1. The Roads (Scotland) Act 1984 (Environmental ...
+NOTE 1
+CCRA 2017 ASC (2016) [Ref 9.N] describes, and where possible quantifies over 130 impacts from
+climate change that Scotland will experience until 2100 and it is updated every five years.
+NOTE 2
+The UK Climate Projections (UKCP) UK CP18 [Ref 4.N] is an analysis tool designed to help decision
+makers assess the risk exposure of a project to climate. The projections are updated on a 9 year basis.
+NOTE 3
+The (CCRA) 2017 ASC (2016) [Ref 9.N], provides a robust basis for understanding the impacts of
+climate change and for adaptation planning.
+Design and mitigation
+S/1.6
+Impacts of climate change to a project shall take into account the Climate Ready Scotland: Scottish
+Climate Change Adaptation Programme 2019-2024 SG/2014/83 [Ref 7.N], which sets out policies and
+proposals to prepare Scotland for the challenges that we face as our climate continues to change in the
+decades ahead.
+NOTE 1
+The Scottish Climate Change Adaptation Programme is a requirement of the Climate Change
+(Scotland) Act 2009 and addresses the risks set out in the CCRA 2017 ASC (2016) [Ref 9.N],
+published under section 56 of the UK Climate Change Act 2008 SI No. 1056 CCA 2008 [Ref 6.N].
+NOTE 2
+The Scottish Climate Change Adaptation Programme sets strategic principles that can underpin
+approaches to climate change adaptation and related measures, relating to direct and indirect effects of
+climate change impacts to road infrastructure .
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 42 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+S/2. Scottish Government climate change targets (a...
+S/2.
+Scottish Government climate change targets (additional to LA 114)
+S/2.1
+The assessment of projects on climate shall only report substantial effects where increases in GHG
+emissions will have a significant impact on the environment and the Scottish Government's ability to
+meet its carbon emission targets CCA(S) 2009 [Ref 2.N].
+S/2.2
+The GHG emission reduction targets set by Scottish Ministers, as mandated by The Climate Change
+(Scotland) Act 2009 CCA(S) 2009 [Ref 2.N] shall be taken into account with the respective contributions
+towards meeting the GHG reduction targets for the industry sector SG Climate policy [Ref 3.I].
+NOTE 1
+The significance criteria set out in LA 114 [Ref 2.I] will be used to assess project GHG emissions,
+however this will be assessed against Scottish Government sector targets set in the updated Climate
+Change Plan SG RPP3 [Ref 3.N] (due to be published).
+NOTE 2
+The Climate Change (Scotland) Act 2009 CCA(S) 2009 [Ref 2.N], which is the statutory framework for
+addressing climate change in Scotland, details a target to reduce GHG emissions to net-zero by 2045
+on the baseline (which is either 1990 or 1995 depending on the GHG) in line with that of the UK's
+Climate Change Act 2008 SI No. 1056 CCA 2008 [Ref 6.N].
+NOTE 3
+The Climate Change (Scotland) Act 2009 CCA(S) 2009 [Ref 2.N] employs the unit 'tonnes of carbon
+dioxide equivalent for measurement and calculation of GHG emissions, and reductions thereof, as
+calculated in accordance with international carbon reporting practice.
+NOTE 4
+The Carbon Account for Transport (CAT) TS CAT [Ref 1.I], which is published by Transport Scotland
+annually, outlines the contribution of Scotland's transport sector to achieving Scotland's GHG emission
+reduction target (it reports on the 'reducing emissions' strategic outcome for Scotland's National
+Transport Strategy) and can be used for comparative purposes.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 43 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+S/3. Normative references
+S/3.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+2014/52/EU, 'Assessment of the effects of certain public and private projects on the
+environment'
+Ref 2.N
+CCA(S) 2009, 'Climate Change (Scotland) Act 2009'
+Ref 3.N
+Scottish Government. https://www.gov.scot/publications/scottish-governments-
+climate-change-plan-third-report-proposals-policies-2018/. SG RPP3, 'Climate
+Change Plan: third report on proposals and policies 2018-2032 (RPP3)'
+Ref 4.N
+UK Met Office. UK CP18 , 'https://www.metoffice.gov.uk'
+Ref 5.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+The National Archives. legislation.gov.uk. SI No. 1056 CCA 2008, 'The Climate
+Change Act 2008 (2050 Target Amendment) Order 2019'
+Ref 7.N
+SG/2014/83, 'The Scottish Government (2014) Climate Ready Scotland: Scottish
+Climate Change Adaptation Programme. SG/2014/83 [laid before the Scottish
+Parliament under Section 53 of the Climate Change (Scotland) Act 2009]'
+Ref 8.N
+SG/2016/6 , 'The Scottish Government (2016) Getting the best from our land. A Land
+Use Strategy for Scotland 2016 – 2021. SG/2016/6 [in pursuance of Section 57 of the
+Climate Change (Scotland) Act 2009].'
+Ref 9.N
+Committee on Climate Change, London. Adaptation Sub-Committee. ASC (2016),
+'UK Climate Change Risk Assessment 2017, Evidence Report, Summary for Scotland'
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 44 of 49
+======================================================================
+LA 114 SNAA Version 1.0.0
+S/4. Informative references
+S/4.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Transport Scotland. https://www.transport.gov.scot/publication/carbon-account-for-
+transport-no-12-2020-edition/. TS CAT, 'Carbon Account for Transport
+(CAT)'
+Ref 2.I
+Highways England. LA 114, 'Climate'
+Ref 3.I
+Scottish Government. https://www.gov.scot/policies/climate-change/. SG Climate
+policy, 'Climate Change policy'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 45 of 49
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 46 of 49
+======================================================================
+Design Manual for Roads and Bridges
+Sustainability & Environment
+Appraisal
+LA 114
+Wales National Application Annex to LA 114
+Climate
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in LA 114.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 47 of 49
+======================================================================
+LA 114 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 48 of 49
+======================================================================
+LA 114 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Oct 2019
+Welsh Government National Application Annex to LA 114.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
+
+======================================================================
+PAGE 49 of 49
+======================================================================
+© Crown copyright 2019.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, LA 114 Version 0.0.1, published: 30-Jun-2021
+
+
