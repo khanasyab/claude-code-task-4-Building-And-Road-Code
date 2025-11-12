@@ -1,0 +1,2139 @@
+======================================================================
+PAGE 1 of 72
+======================================================================
+Design Manual for Roads and Bridges
+Drainage
+Design
+CD 524
+Edge of pavement details
+Version 0.2.0
+Summary
+This document provides guidance on the use of the various types of edge of pavement drainage
+details which are depicted in the 'B' and 'F' series of the Highway Construction Details (HCD):
+Manual of Contract Documents for Highway Works (MCHW3).
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 72
+======================================================================
+CD 524 Version 0.2.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions in the preparation of this document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and Symbols
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Health and safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Combined surface and sub-surface filter drains
+9
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Upper section of combined surface and sub-surface filter drains
+. . . . . . . . . . . . . . . . . . . . . . . .
+17
+Lower section of combined surface and sub-surface filter drains
+. . . . . . . . . . . . . . . . . . . . . . . .
+17
+Asset recording . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+3. Surface water channels
+19
+Profiles and dimensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Application
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Hydraulic design and outfalls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Asset recording . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+4. Drainage channel blocks
+32
+Type A and B drainage channel blocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+32
+Type C, D, E and F drainage channel blocks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+Design of drainage channel block systems
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+Asset recording . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+5. Kerbed edge channels
+42
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+Design of kerbed edged channels
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+6. Over-the-edge drainage
+47
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+7. Edge-of-pavement drains
+50
+Fin drain Type 5
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+Fin drain Type 6
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Fin drain Type 7
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52
+Narrow filter drain Type 8
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Narrow filter drain Type 9
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+Fin drain Type 10 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Fin drain design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+Narrow filter drain design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Geotextile design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+59
+Asset recording . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 72
+======================================================================
+CD 524 Version 0.2.0
+Contents
+8. Combined drainage and kerb systems
+61
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+Hydraulic design of combined drainage and kerb systems . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+Asset recording . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+9. Linear drainage channel systems
+63
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+63
+Hydraulic design of linear drainage channels
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+Asset recording . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+10. Normative references
+66
+11. Informative references
+67
+Appendix A. Fin drain testing
+68
+A1 Test method for the percentage contact area of drainage core . . . . . . . . . . . . . . . . . . . . . . . .
+68
+A2 Test method for determining the thickness of the fin drain core under specified normal and shear stresses 68
+A3 Determining in-plane flow under compressive loading
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+A4 Applied stresses and hydraulic gradient . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+A5 Test methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+70
+A6 Material requirements
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+70
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 72
+======================================================================
+CD 524 Version 0.2.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 524
+0.2.0
+September 2025
+Core document
+Incremental change to
+requirements
+General updates to remove references to SHW HCD B and F Series.
+Inclusion of HCD B1, B5, B15, B2, B3, B6, B7, B11, B12, B14, B18, F15, B4, B8, F16, B9, B10, B13, F18, F19,
+F20, F21, B16, B17 with requirements, advice and notes and SHW517 and NG517 information.
+Appendix A is a new appendix which includes testing for fin drains from existing SHW 514.
+New requirement: Clause 9.5 Longitudinal slotted linear drainage channel systems shall not be used.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 524
+0.1.0
+November 2021
+Core document
+Incremental change to
+requirements
+CD 524
+0
+February 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 72
+======================================================================
+CD 524 Version 0.2.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes CD 524 version 0.1.0 which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 72
+======================================================================
+CD 524 Version 0.2.0
+Introduction
+Introduction
+Background
+This document represents the combination of two former advice documents HA 39/98 'Road edge
+details' and HA 83/99 'Safety aspects of road edge drainage features'.
+The document has rationalised any duplication between the two source documents and does not
+include any information in the two source documents that is not related to road edge drainage features.
+The document includes the figures and requirements for edge of pavement drains previously shown in
+the B and F Series of HCD drawings in MCHW.
+Section 3 of the document includes requirements and advice on surface water channels. Surface water
+channels are described in further detail in document CD 521 [Ref 9.N]. In order to prevent duplication of
+information, Section 3 of this document includes several cross-references to CD 521 [Ref 9.N].
+Tables summarising scenarios for use and pros and cons of the types of drainage solution available are
+presented in CG 501 [Ref 3.N].
+This document supersedes the figures and requirements previously shown in the Highway Construction
+Details (HCD), B series (all) and F series drawings F15, F16, F18, F19, F20 and F21.
+This document provides requirements and advice used to develop the design outputs required to
+deliver the works in accordance with CC 500 [Ref 5.N].
+Assumptions in the preparation of this document
+The assumptions made in GG 101 [Ref 10.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 72
+======================================================================
+CD 524 Version 0.2.0
+Abbreviations and Symbols
+Abbreviations and Symbols
+Abbreviations
+Abbreviation
+Definition
+CBGM
+Cement bound granular mixture
+DN
+Nominal internal diameter
+VRS
+Vehicle restraint systems
+Symbols
+Symbol
+Definition
+Units
+d60/d10
+The ratio of the particle diameters D60 to D10 on the particle-size
+distribution curve, where D60 = particle diameter at which 60% of the soil
+by weight is finer, and D10 = particle diameter at which 10% of the soil by
+weight is finer.
+N/A
+O90
+Characteristic maximum pore opening size for geotextiles - 90% opening
+(pore) size of geotextile (90% of openings are smaller)
+mm or microns
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 72
+======================================================================
+CD 524 Version 0.2.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Channel
+Narrow longitudinal strip generally near the edge of the
+carriageway specially constructed to collect and lead away
+water
+Combined drainage and kerb
+system
+Kerb units with inlets to an enclosed internal drainage channel
+Combined surface and sub-surface
+drain
+System of drainage that comprises a perforated, porous or
+open jointed carrier pipe, bedded in granular material, in a
+trench that is then backfilled with a granular filter material of
+Type A, B or C as defined in CD 533 [Ref 4.N].
+Drainage channel block
+Precast concrete channel unit
+Edge channel
+Channel formed by the surface of the carriageway and a kerb
+Filter drain
+Drain constructed using permeable materials which allow the
+entry of water whilst retaining the surrounding material
+Fin drain
+A planar geocomposite arrangement designed to remove
+sub-surface moisture from beneath the pavement
+Groundwater
+All water which is below the surface of the ground in the
+saturation zone (below the water table) and in direct contact
+with the ground or subsoil
+Linear drainage channel
+A longitudinal sub-surface closed profile hydraulic conduit with
+slots located in and above the conduit
+Narrow filter drain
+A filter drain with a maximum trench width of 200 mm where
+either the filter material and pipe together or the pipe alone is
+enclosed within a layer of geotextile
+Surface water channel
+Triangular, trapezoidal or rectangular cross section channel
+Surface water
+Inland waters (except groundwater), transitional waters and
+coastal waters. See UKSI 2015/1623 [Ref 13.N]
+Uniformity coefficient
+d60/d10 (refer to symbols definition)
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 72
+======================================================================
+CD 524 Version 0.2.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the design of edge of pavement drainage details.
+NOTE
+The figures in this document depict pavement edge details dealing principally with drainage aspects of
+highway verges and central reserves.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving highway drainage on the
+Overseeing Organisation's motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 10.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 10.N] shall be followed in respect of activities covered by
+this document.
+Health and safety
+1.4
+Unless protected from direct traffic, road edge drainage features shall be capable of withstanding the
+structural loading imposed on them during normal usage and the structural loading that can be imposed
+on them during lane closures and consequent trafficking of hard shoulders.
+1.5
+Road edge drainage features shall be designed to mitigate the effects on errant vehicles leaving the
+carriageway.
+NOTE
+The road edge drainage features can present a potential hazard to errant vehicles leaving the
+carriageway.
+1.6
+The selection of road edge drainage features shall be guided by the health and safety issues
+associated with the maintenance needs of the features which is particularly important for central
+reserve drainage where difficulty of access can exacerbate maintenance interventions.
+NOTE 1
+The road edge drainage feature plays a major part in road safety by removing surface water quickly.
+NOTE 2
+A suitable road edge drainage feature prevents damage to the structural foundations of the
+carriageway. This, in turn, reduces the requirement for maintenance.
+NOTE 3
+Maintenance on motorways and other high speed roads involves a higher than normal degree of risk,
+both to road users and maintenance operatives.
+NOTE 4
+Safety issues associated with rural roads differ from those associated with urban roads.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+2.
+Combined surface and sub-surface filter drains
+General
+2.1
+Combined surface and sub-surface filter drains within verges in cuttings shall be in accordance with
+Figure 2.1.
+Figure 2.1a Combined surface and sub-surface filter drain Type 1A
+Figure 2.1b Combined surface and sub-surface filter drain Type 1B
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+Figure 2.1c Combined surface and sub-surface filter drain Type 1C
+Figure 2.1d Combined surface and sub-surface filter drain Type 1D
+NOTE 1
+For further details and alternative surface treatment options refer to Figure 2.3.
+NOTE 2
+Combined surface and sub-surface filter drains enable rapid removal of runoff from the road and verge
+surface.
+NOTE 3
+Combined surface and sub-surface filter drains in cuttings can manage a wide range of flows. They are
+particularly suited to dealing with sub-surface flows, which can vary as the water table fluctuates.
+NOTE 4
+The requirements for the pipe, bedding and trench of a combined surface and sub-surface filter drain
+are provided in CD 533 [Ref 4.N].
+2.2
+Combined surface and sub-surface filter drains within the central reserve shall be in accordance with
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+Figure 2.2.
+Figure 2.2a Combined surface and sub-surface filter drain Type 11A
+Figure 2.2b Combined surface and sub-surface filter drain Type 11B
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+Figure 2.2c Combined surface and sub-surface filter drain Type 11C
+Figure 2.2d Combined surface and sub-surface filter drain Type 11D
+NOTE 1
+For further details and alternative surface treatment options refer to Figure 2.3.
+NOTE 2
+As combined surface and sub-surface filter drains incorporate pipes with relatively large diameters they
+generally have an exceptionally large groundwater capacity which can extend as a cut-off below the
+capping layer.
+NOTE 3
+Combined surface and sub-surface filter drains are appropriate for draining roads with long lengths of
+zero longitudinal gradient.
+NOTE 4
+Guidance on the requirements for the pipe, bedding and trench of a combined surface and sub-surface
+filter drain is provided in CD 533 [Ref 4.N].
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+2.3
+Combined surface and sub-surface filter drains in verges within cuttings and the central reserve shall
+have a surface treatment Type in accordance with the alternatives in Figure 2.3.
+Figure 2.3a Combined surface and sub-surface filter drain surface Type V
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+Figure 2.3b Combined surface and sub-surface filter drain surface Type W
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+Figure 2.3c Combined surface and sub-surface filter drain surface Type X
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+Figure 2.3d Combined surface and sub-surface filter drain surface Type Y
+NOTE 1
+Combined surface and sub-surface filter drains with Type Y surfaces as shown on Figure 2.3d are more
+suitable for roads with flatter gradients where flow along the surface into catchpits is less assured.
+NOTE 2
+Combined surface and sub-surface filter drains with Type W surfaces as shown on Figure 2.3b have a
+greater fall towards the centre of the drain because the reduced permeability of the thick surface layer
+can result in greater flows along the surface.
+NOTE 3
+Guidance on the requirements for the pipe, bedding and trench of a combined surface and sub-surface
+filter drain is provided in CD 533 [Ref 4.N].
+2.3.1
+The use of surface and sub-surface filter drains in central reserves should be avoided in order to
+reduce health and safety risks during maintenance interventions.
+2.3.2
+Where combined surface and sub-surface filter drains are used in cuttings they may serve as carrier
+drains.
+NOTE
+Separate fin or narrow filter drains are not required where combined surface and sub-surface filter
+drains in cuttings function as carrier drains.
+2.4
+Filter, sub-base and topsoil materials for combined surface and sub-surface filter drains shall be
+extended to the edge of the pavement layer.
+2.5
+The surface treatment to the combined surface and sub-surface filter drain shall be either topsoil or
+sub-base.
+2.6
+The geotextile shown in Figure 2.3a shall be fixed in a pavement layer to provide required topsoil
+thickness.
+2.7
+Where the filter drain utilises Type B filter media, a geotextile membrane shall be provided between the
+filter drain and overlaying layers for drain Types W, X and Y.
+2.8
+The combined surface and sub-surface filter drains shall not result in saturated downstream conditions.
+2.8.1
+The diameter of combined surface and sub-surface filter drains should be limited to 300mm.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+2.9
+Combined surface and sub-surface drains shall not be used in narrow verges subject to use by
+equestrians.
+Upper section of combined surface and sub-surface filter drains
+2.10
+The upper section of combined surface and sub-surface filter drains shall be designed to mitigate the
+risk of stone scatter.
+NOTE 1
+Managing risks associated with stone scatter is described in DMRB CD 525 [Ref 1.I].
+NOTE 2
+The treatment options depicted in Figure 2.3 incorporate measures to reduce stone scatter.
+2.10.1
+Where possible, more then one type of upper section should be specified in the contract with the final
+choice being left to the contractor.
+2.11
+A lip shall be provided between the edge of carriageway and the top of the combined surface and
+sub-surface filter drain.
+NOTE
+The purpose of the lip is to enable continuous over the edge drainage to be maintained and to reduce
+the effect of build-up of vegetation.
+2.12
+The depth of the lip between the edge of carriageway and the top of the combined surface and
+sub-surface filter drain depends on the the upper section type selected and shall be as shown in Figure
+2.3.
+2.12.1
+Where Type 7 chambers as shown in CD 536 [Ref 1.N]are used to collect surface flows from combined
+surface and sub-surface filter drains the chamber top should be set as dimensioned below the depth of
+the lip.
+2.13
+The top surface of a combined surface and sub-surface filter drain shall be dished to allow high flows to
+be channelled along the surface and into catchpits.
+2.13.1
+Catchpit grating levels should be calculated to suit the falls toward the centre of the drain.
+Lower section of combined surface and sub-surface filter drains
+2.14
+The lower section of combined surface and sub-surface filter drains shall be designed as filter drains
+and generally in accordance with the drawings in DMRB CD 533 [Ref 4.N].
+2.14.1
+Where possible, more than one type of lower section should be specified in the contract with the final
+choice being left to the contractor.
+NOTE
+The lower section of combined surface and sub-surface filter drains are generally formed with Type B
+material.
+2.14.2
+To avoid migration of fine sands and silts into the filter material, the lower section of combined surface
+and sub-surface drains laid in fine sands and silts should be Type J or K as shown in DMRB CD 533
+[Ref 4.N].
+2.14.3
+Lightweight aggregate may be used as the filter material for combined surface and sub-surface filter
+drains Type G, H and I as shown in DMRB CD 533 [Ref 4.N].
+2.15
+To prolong the life of the combined surface and sub-surface filter drain, a geotextile membrane shall be
+placed between the upper and lower sections of the drain for drains Type G, H and I as detailed in
+DMRB CD 533 [Ref 4.N].
+NOTE
+The upper and lower sections of the drain are terms that approximate to the upper and lower half of the
+drain, and do not refer to the point where the filter material (or concrete) changes from one Type to
+another.
+Asset recording
+2.16
+Combined surface and sub-surface filter drains shall be recorded as continuous assets as detailed in
+DMRB CD 535 [Ref 6.N].
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 72
+======================================================================
+CD 524 Version 0.2.0
+2. Combined surface and sub-surface filter drain...
+2.16.1
+The combined surface and sub-surface filter drain asset record should include all the attributes for
+continuous assets as detailed in DMRB CD 535 [Ref 6.N].
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+3.
+Surface water channels
+Profiles and dimensions
+3.1
+The cross-sectional profiles of surface water channels shall be triangular, trapezoidal or rectangular.
+3.2
+Surface water channels with rectangular cross sections shall be as described in DMRB CD 521 [Ref
+9.N].
+3.3
+Triangular or trapezoidal surface water channels for rigid carriageways within verges in cuttings shall
+be in accordance with Figure 3.3.
+Figure 3.3a Surface water channel Type 2A
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.3b Surface water channel Type 2B
+Figure 3.3c Surface water channel Type 2C
+3.4
+Triangular or trapezoidal surface water channels for flexible carriageways within verges in cuttings shall
+be in accordance with Figure 3.4.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.4a Surface water channel Type 3A
+Figure 3.4b Surface water channel Type 3B
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.4c Surface water channel Type 3C
+3.5
+Triangular or trapezoidal surface water channels for rigid carriageways within the central reserve shall
+be in accordance with Figure 3.5.
+Figure 3.5a Surface water channel Type 12A
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.5b Surface water channel Type 12B
+Figure 3.5c Surface water channel Type 12C
+3.6
+Triangular or trapezoidal surface water channels for flexible carriageways within the central reserve
+shall be in accordance with Figure 3.6.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.6a Surface water channel Type 13A
+Figure 3.6b Surface water channel Type 13B
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.6c Surface water channel Type 13C
+3.7
+Triangular or trapezoidal surface water channels for rigid carriageways within the verge on
+embankment shall be in accordance with Figure 3.7.
+Figure 3.7a Surface water channel Type 22A
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.7b Surface water channel Type 22B
+Figure 3.7c Surface water channel Type 22C
+3.8
+Triangular or trapezoidal surface water channels for flexible carriageways within the verge on
+embankment shall be in accordance with Figure 3.8.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.8a Surface water channel Type 23A
+Figure 3.8b Surface water channel Type 23B
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.8c Surface water channel Type 23C
+3.9
+The cross section of the concrete surface water channel shall be in accordance with Figure 3.9.
+Figure 3.9a Concrete surface water channel Type A
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Figure 3.9b Concrete surface water channel Type B
+NOTE 1
+The 40mm flat shown on the edge of the Type A channel is intended to minimise damage during
+compaction of adjacent pavement layers.
+NOTE 2
+Type A and B channels indicate profiles of triangular surface water channels in solid lines. Broken lines
+of width T at crossfall 1:40 denote base profile of trapezoidal surface water channel.
+NOTE 3
+Guidance on the requirements for dimensions W, V, l2 is provided in DMRB CD 521 [Ref 9.N].
+3.9.1
+Dimension h1 in Figure 3.9a should be a minimum of 200 mm in order to provide a robust section
+capable of withstanding occasional vehicle overrun.
+NOTE 1
+In rigid carriageway construction, dimension h1 can be lower than 200 mm where the channel and slab
+are slipformed together. See Type B as depicted in Figure 3.9b.
+NOTE 2
+Depending on the pavement alternative chosen, the value of dimension h1 can be increased to found it
+on a convenient pavement layer.
+3.9.2
+Where the surface water channel is on an embankment, dimension Y in Figure 3.9 may be set so that
+flooding is avoided by allowing excess water to flow onto the verge and down the embankment slope.
+NOTE
+Dimension Y is the difference in level between the back edge of the channel and the level of the
+carriageway, hardshoulder or hardstrip adjacent to the channel.
+3.9.3
+This optimum value of Y may vary with road geometry and discharge volumes for each outfall.
+NOTE
+For uniformity of channel cross section over the scheme, dimension Y can be set at the level required
+for the most vulnerable flood section.
+3.9.4
+The angle α of the edge of channel should be between 0 and 5 degrees.
+3.9.5
+Where carriageway levels differ appreciably, the channel and central reserve profile should be modified
+from that shown in Figures 3.5 and 3.6.
+Application
+3.10
+Channel Type B shall be used be when the carriageway and channel are slipformed simultaneously.
+3.11
+Channel Type B shall be deemed to be a continuation of the carriageway slab and reinforced
+accordingly.
+3.12
+The concrete for Type B channel shall be as specified for the concrete slab.
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+3.13
+With rigid carriageway construction, a tie bar shall be included to limit differential movement between
+the channel and pavement.
+3.14
+A drainage path between the pavement layers that terminate above the formation level of the channel
+and the sub-surface drain shall be provided as shown in Figure 7.15.
+3.15
+The details shown in Figures 3.3, 3.5 and 3.7 shall also apply to rigid composite carriageways with any
+necessary modifications.
+3.16
+The details shown in Figures 3.4, 3.6 and 3.8 shall also apply to flexible composite carriageways with
+any necessary modifications.
+3.17
+When used in conjunction with thin surfacing, the surface water channel shall include the complete
+under drainage layer as shown in Figure 7.15.
+3.18
+Cross-sectional details for surface water channels and the location of such channels relative to the
+position of safety fences shall be determined with due consideration to safety.
+3.18.1
+Where a channel depth exceeds 150mm safety barrier protection should be provided.
+3.18.2
+If the channel cross fall exceeds 1:4 safety barrier protection should be provided.
+NOTE
+Guidance on safety issues associated with the design of surface water channels is included in DMRB
+CD 521 [Ref 9.N].
+3.19
+Surface water channels requiring safety barrier protection shall be in accordance with Figure 3.19.
+Figure 3.19 Surface water channel requiring safety barrier
+3.20
+The design of road restraint systems shall be as described in DMRB CD 377 [Ref 11.N].
+3.21
+The post and concrete post foundation for a safety barrier shall not be coincident with the sub-surface
+drainage system.
+Hydraulic design and outfalls
+3.22
+The hydraulic design of surface water channels shall be as detailed in DMRB CD 521 [Ref 9.N].
+3.23
+Surface water channel outfalls shall be as detailed in DMRB CD 521 [Ref 9.N].
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 72
+======================================================================
+CD 524 Version 0.2.0
+3. Surface water channels
+Asset recording
+3.24
+Surface water channels shall be recorded as continuous assets as detailed in DMRB CD 535 [Ref 6.N].
+3.24.1
+The surface water channel asset record should include all the attributes for continuous assets as
+detailed in DMRB CD 535 [Ref 6.N].
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+4.
+Drainage channel blocks
+Type A and B drainage channel blocks
+4.1
+Type A and B drainage channel blocks shall be in accordance with Figure 4.1.
+Figure 4.1a Drainage channel block Type A
+Figure 4.1b Drainage channel block Type B
+4.2
+Drainage channel blocks Type A and B within cuttings shall be in accordance with Figure 4.2.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+Figure 4.2a Drainage channel blocks within cuttings Type 4A
+Figure 4.2b Drainage channel blocks within cuttings Type 4B
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+Figure 4.2c Drainage channel blocks within cuttings Type 4C
+Figure 4.2d Drainage channel blocks within cuttings Type 4D
+NOTE
+Drainage channel block Types A and B are intended as a relatively inexpensive solution in situations
+where positive drainage is desirable for dealing with smaller volumes of flow and which would not justify
+the use of the larger surface water channel.
+4.2.1
+The use of Type A and B drainage channel blocks in cuttings should only be necessary where the
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+cutting surface has low permeability.
+NOTE
+Surfaces with runoff coefficients of 0.21 or greater can be considered as having low permeability.
+4.3
+The distance from the edge of the carriageway, hardstrip of hardshoulder to Type A and B channels in
+cuttings shall be 1.0 m or greater (see dimension l1 in Figure 4.2).
+4.4
+Type A and B drainage channel blocks as depicted in Figure 4.1, 4.2 shall not be used as edge drains
+contiguous with hard shoulders, hardstrips, or carriageways.
+4.5
+Type A and B drainage channel blocks as depicted in Figure 4.1, 4.2 shall not be used in verges
+subject to frequent equestrian use.
+4.6
+Drainage channel blocks within the central reserve shall be in accordance with Figure 4.3.
+Figure 4.6a Drainage channel blocks within the central reserve Type 14
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+Figure 4.6b Drainage in the central reserve Type 15
+Figure 4.6c Drainage in the central reserve Type 16
+NOTE
+Flexible carriageway construction is shown. Variations for other construction types to be as shown on
+Figure 4.3.
+4.6.1
+The cross falls within the central reserve as depicted in Figure 4.3a and 4.3b may be increased to
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+provide additional waterway area.
+4.7
+The distance from the edge of the carriageway or hardstrip to Type A and B channels in central
+reserves shall be 1.0 m or greater (see dimension l1 in Figure 4.3a).
+4.8
+The hydraulic capacity of the channel shall be based on a 1 in 1 year storm with flow contained within
+the drainage channel block cross section.
+4.9
+In hard shoulders and hard strips, the maximum flooding width under a 1 in 5 year storm shall be 1.5 m
+and 1.0 m respectively.
+4.10
+In central reserves, flooding shall not encroach into the offside lane under a 1 in 5 year storm.
+4.11
+Where the central reserve is grassed and surface water is to flow over the edge of the carriageway, the
+surface of the central reserve shall be set 40mm below the adjacent carriageway.
+NOTE
+Where drainage channel blocks are used in central reserves the distance between outlets will be
+limited.
+Type C, D, E and F drainage channel blocks
+4.12
+Type C, D, E and F drainage channel blocks shall be in accordance with Figure 4.12.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 39 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+Figure 4.12a Drainage channel block Type C
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 40 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+Figure 4.12b Drainage channel block Type D
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 41 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+Figure 4.12c Drainage channel block Type E and F
+NOTE 1
+Figure 4.12c gives typical dimensions for Type E and F drainage channel blocks.
+NOTE 2
+Type E and F drainage channel blocks in combination with Type C drainage channel blocks are
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 42 of 72
+======================================================================
+CD 524 Version 0.2.0
+4. Drainage channel blocks
+intended as an alternative to gullies on embankments where kerbs are used. They have a distinct
+advantage on high embankments, avoiding the difficulty of construction of long gully connections down
+the embankment slope.
+NOTE 3
+Type D drainage channel blocks are articulated and are particularly suited to use on steep embankment
+slopes where settlement is expected.
+NOTE 4
+Type D drainage channel blocks are suitable for use as outfalls for surface water channels and for
+Types E and F drainage channel blocks.
+NOTE 5
+Safety aspects of rectangular channel blocks are considered in DMRB CD 521 [Ref 9.N].
+4.13
+Type D drainage channel block units shall be designed with anchorage at the top and bottom and with
+bedding support.
+Design of drainage channel block systems
+4.14
+The hydraulic design of drainage channel block systems shall be as detailed in this document and
+DMRB CG 501 [Ref 3.N].
+4.15
+The design of drainage channel block systems shall assess the likelihood of the following factors when
+deciding whether to use them:
+1)
+settlement of adjacent unpaved surfaces, which could reduce their effectiveness;
+2)
+rapid build-up of silt and debris in flat areas;
+3)
+grass cutting operations by mechanical plant.
+NOTE
+There are potential maintenance difficulties associated with the use of drainage channel blocks from
+the above factors.
+Asset recording
+4.16
+Drainage channel blocks shall be recorded as continuous assets as detailed in DMRB CD 535 [Ref
+6.N].
+4.16.1
+The asset record for drainage channel blocks should include all the attributes for continuous assets as
+detailed in CD 535 [Ref 6.N].
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 43 of 72
+======================================================================
+CD 524 Version 0.2.0
+5. Kerbed edge channels
+5.
+Kerbed edge channels
+General
+5.1
+Kerbed edge channels draining to gullies shall be in accordance with Figure 5.1 except as qualified in
+the advice and notes related to this clause.
+Figure 5.1a Kerbed edge channels Type 21A
+Figure 5.1b Kerbed edge channels Type 21B
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 44 of 72
+======================================================================
+CD 524 Version 0.2.0
+5. Kerbed edge channels
+Figure 5.1c Kerbed edge channels Type 21C
+Figure 5.1d Kerbed edge channels Type 21D
+5.1.1
+Pipework connecting gullies to carrier pipes may pass through the sub-surface fin or narrow filter drain.
+5.1.2
+The use of drain Type 5 in Figure 7.10 may not be possible where pipework connecting gullies passes
+through the sub-surface drain.
+NOTE 1
+The short interruption resulting from gully connection pipework that pass through of drain Types 6, 7, 8
+and 9 as shown in Section 7 will not generally affect the performance of the filter.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 45 of 72
+======================================================================
+CD 524 Version 0.2.0
+5. Kerbed edge channels
+NOTE 2
+The kerbs depicted in Figure 5.1 are of the extruded type, bedded on to the carriageway surface; it is
+not intended to exclude the range of kerb/bedding combinations permitted.
+5.2
+Kerbed edge channels draining to drainage channel blocks shall be in accordance with Figure 5.2,
+except as qualified in the note related to this clause.
+Figure 5.2a External kerbs and drainage channel blocks Type 21E
+Figure 5.2b External kerbs and drainage channel blocks Type 21F
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 46 of 72
+======================================================================
+CD 524 Version 0.2.0
+5. Kerbed edge channels
+Figure 5.2c External kerbs and drainage channel blocks Type 21G
+Figure 5.2d External kerbs and drainage channel blocks Type 21H
+NOTE 1
+The kerbs depicted in Figure 5.2 are of the extruded type, bedded onto the carriageway surface; it is
+not intended to exclude the range of kerb/bedding combinations permitted.
+NOTE 2
+For details of drainage channel blocks refer to Section 4 of this document.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 47 of 72
+======================================================================
+CD 524 Version 0.2.0
+5. Kerbed edge channels
+Design of kerbed edged channels
+5.3
+Hydraulic design of kerbed edge drainage shall be in accordance with DMRB CG 501 [Ref 3.N].
+5.4
+Outlet channel block spacing for kerbed edge drainage shall be in accordance with DMRB CD 526 [Ref
+12.N] .
+5.5
+The use and placement of kerbs shall be in accordance with DMRB CD 127 [Ref 2.N].
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 48 of 72
+======================================================================
+CD 524 Version 0.2.0
+6. Over-the-edge drainage
+6.
+Over-the-edge drainage
+General
+6.1
+Over the edge drainage on an embankment shall be in accordance with Figure 6.1.
+Figure 6.1a Over the edge drainage Type 24A
+Figure 6.1b Over the edge drainage Type 24B
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 49 of 72
+======================================================================
+CD 524 Version 0.2.0
+6. Over-the-edge drainage
+Figure 6.1c Over the edge drainage Type 24C
+Figure 6.1d Over the edge drainage Type 24D
+6.2
+Embankments shall be designed to preclude topsoil instability.
+6.2.1
+Use of over-the-edge drainage should be confined to areas where there is a low risk of topsoil instability.
+NOTE
+Over-the-edge drainage can cause soil erosion, topsoil slippage, softening of the side slopes and
+embankment instability.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 50 of 72
+======================================================================
+CD 524 Version 0.2.0
+6. Over-the-edge drainage
+6.2.2
+Drainage of verges and carriageway over the edge of embankments should only be used where there
+is an open ditch at the base of the embankment.
+6.3
+Where footways abut the carriageway or on structures, over-the-edge drainage shall not be used.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 51 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+7.
+Edge-of-pavement drains
+7.1
+Edge-of-pavement drains shall be included on all roads except the following:
+1)
+roads with combined surface and sub-surface drains;
+2)
+roads comprising rigid or flexible carriageways with over-the-edge drainage; nor,
+3)
+roads with free draining sub-grade.
+NOTE
+The purpose of edge-of-pavement drainage is to provide sub-surface drainage for the pavement layers,
+sub-base and capping (if permeable). Sub-surface drainage ensures that the road does not fail
+prematurely through water-related deterioration.
+7.2
+Edge-of-pavement drains shall be formed with fin drains or narrow filter drains.
+NOTE 1
+Typical fin drain and filter drain types are included within this section.
+NOTE 2
+The edge-of-pavement details are included within the figures in this document.
+7.3
+The fin drain and narrow filter drain installation details shall be modified according to the relevant edge
+of pavement detail shown in this document.
+7.3.1
+The selection of a fin drain or filter drain system to drain pavement layers of a road in a cutting should be
+influenced by considerations of possible groundwater, drainage during construction and whether or not
+a longitudinal carrier drain facility is necessary to transport surface water runoff from the carriageways.
+NOTE
+Fin drains and narrow filter drains can be unsuitable for dealing with high groundwater flows or where a
+longitudinal carrier drain is necessary to transport surface water runoff from the carriageways.
+7.3.2
+Where the subbase comprises cement bound granular mixture (CBGM) or where cement or lime
+stabilisation is proposed, the drain selected should be less vulnerable to the build-up of calcium-based
+deposits.
+7.4
+Narrow filter drains shall always be included on the low side of carriageways on embankments.
+7.4.1
+Drainage design should allow as wide a range of edge-of-pavement drain types as possible in order to
+deliver the most effective solution.
+7.5
+Fin drains and narrow filter drains which form part of the permanent works shall not be used for the
+disposal of surface water runoff during construction.
+7.6
+Fin drains and narrow filter drains shall be a minimum of 75mm from the edge of the surface water
+channel.
+7.7
+Fin drains shall have one geotextile face in contact with the side of the excavation.
+7.8
+Narrow filter drains shall have one face in contact with the pavement construction.
+7.9
+The side of the fin drain with the greater permeability shall be facing towards and be in contact with the
+pavement construction.
+Fin drain Type 5
+7.10
+Type 5 fin drains shall be in accordance with Figure 7.10.
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 52 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Figure 7.10a Fin drain Type 5
+Figure 7.10b Fin drain Type 5 installation
+Fin drain Type 6
+7.11
+Type 6 fin drains shall be in accordance with Figure 7.11.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 53 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Figure 7.11a Fin drain Type 6
+Figure 7.11b Fin drain Type 6 installation
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 54 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Fin drain Type 7
+7.12
+Type 7 fin drains shall be in accordance with Figure 7.12.
+Figure 7.12a Fin drain Type 7
+Figure 7.12b Fin drain Type 7 installation
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 55 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Narrow filter drain Type 8
+7.13
+Type 8 narrow filter drains shall be in accordance with Figure 7.13.
+Figure 7.13a Narrow filter drain Type 8
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 56 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Figure 7.13b Narrow filter drain Type 8 installation
+Narrow filter drain Type 9
+7.14
+Type 8 narrow filter drains shall be in accordance with Figure 7.14.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 57 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Figure 7.14a Narrow filter drain Type 9
+Figure 7.14b Narrow filter drain Type 9 installation
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 58 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Fin drain Type 10
+7.15
+Type 10 fin drains shall be in accordance with Figure 7.15.
+Figure 7.15 Fin drain Type 10
+7.15.1
+Type 10 fin drains should either have an impermeable side or be covered by an impermeable
+membrane unless no significant blocking of the core will occur during the slip-forming of the drainage
+channel.
+7.15.2
+Edge-of-pavement drains under channel drainage layers should be Type 10 drains as depicted in
+Figure 7.15 provided that their use is possible.
+NOTE 1
+The width of the Type 10 fin drain = h1 (200mm min) + l1 (varies) + h2 (varies).
+NOTE 2
+The purpose of the under channel drain is to intercept any water which percolates through the road
+surface or edge of carriageway seal into the pavement layers and sub-base.
+NOTE 3
+The under channel drainage layer depicted in Figure 7.15 is shown for use with rigid carriageways but it
+can also be used in conjunction with flexible carriageways.
+NOTE 4
+Where it is impractical to use the detail in Figure 7.15, proven alternative drainage methods (for
+example, a layer of free draining granular material) below the channel can be used in order to to
+provide a pathway to the sub-surface drain.
+NOTE 5
+Further applications of the Type 10 fin drain are shown in figures within this document.
+Fin drain design
+7.16
+The design outputs for fin drains shall be:
+1)
+fin drain type;
+2)
+fin drain thickness;
+3)
+offset distance from edge of carriageway;
+4)
+upstream and downstream chamber/ headwall reference;
+5)
+upstream and downstream invert level;
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 59 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+6)
+maximum drain slope angle to the vertical;
+7)
+the long term in-plane flow - near vertical downward flow;
+8)
+the long term in-plane flow - along the drain parallel to the road edge (Type 5 only);
+9)
+fin drain internal pipe diameter (Types 6 and 7 only).
+10)
+pipe surround material (Types 6 and 7 only);
+11)
+trench backfill material (Types 6 and 7 only).
+7.16.1
+Drainage capacities should be designed for the gradients at which fin drains are to be installed and
+outfall lengths determined accordingly.
+7.16.2
+For drain Type 5 the flow rates should be the capacity required linearly extrapolated to the standard
+gradients in Appendix A4.
+7.16.3
+The maximum drain slope angle should be a maximum 15% from the vertical.
+NOTE
+Where fin drains utilise a pipe, capacities can be obtained from hydraulic tables and the required
+diameter specified.
+7.17
+Where fin drains are designed for lateral entry of water from one side only, the flow rate requirements
+shall apply to the face or plane designed to admit or transmit water.
+7.17.1
+The in-plane flow design capacity should allow for infiltration through the pavement and verges and any
+other source of ground water ingress.
+7.17.2
+A value not less than the mean intensity of a one year 2 hour rainfall should be assumed for the
+in-plane flow design capacity.
+7.17.3
+The fin drain Type 5 acts both as a filter drain and a carrier pipe and therefore in-plane flow should be
+specified for flow both along the drain parallel to the road edge and near-vertically down the drain.
+7.17.4
+For all other fin drain types, only near-vertical downward flow should be specified.
+7.18
+Fin drain joints transverse to the direction of flow shall have values of in-plane flow rates not less than
+that required in clause 7.16 of this document.
+7.19
+Fin drain joints parallel to the direction of flow and any exposed edges shall be protected from the
+ingress of soil by a geotextile wrapping with a minimum overlap of 150mm.
+Narrow filter drain design
+7.20
+The design outputs for narrow filter drains shall be:
+1)
+narrow filter drain drain type;
+2)
+narrow filter drain pipe diameter;
+3)
+offset distance from edge of carriageway;
+4)
+upstream and downstream chamber/ headwall reference;
+5)
+upstream and downstream invert level;
+6)
+maximum drain slope angle to the vertical;
+7)
+category for tolerances at mid-size sieves for the granular material within the narrow filter drain;
+8)
+minimum permeability of granular material within the narrow filter drain.
+7.20.1
+The design on narrow filter drains should integrate the adjacent soil or construction layer.
+7.20.2
+The maximum drain slope angle should be a maximum 15% from the vertical.
+7.20.3
+The granular material for narrow filter drains should have a minimum permeability of 1 x 10-4 m/s which
+is similar to that obtained by a clean coarse sand may be assumed.
+7.20.4
+For the Type 8 drain, pore sizes for the sock material should be designed to retain the finer soil
+particles outside the trench.
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 60 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+Geotextile design
+7.21
+Where a filtration/ separation geotextile is required in accordance with BS EN 13252 [Ref 7.N], the
+following performance characteristics shall be specified:
+1)
+tensile strength;
+2)
+elongation at maximum load;
+3)
+resistance to static puncture;
+4)
+dynamic perforation resistance;
+5)
+characteristic maximum opening size (O90);
+6)
+water permeability normal to the plane;
+7)
+durability.
+7.21.1
+The pore size for the geotextile should be selected using filtration criteria to be compatible with the
+adjacent soil or construction layer in order to prevent the occurrence of piping.
+7.21.2
+The following soil retention criteria may be used in determining O90.
+Table 7.21.2 Uniformity Coefficient of d60/d10 Soil Woven and Meltbonded Geotextiles
+Needle-punched Geotextiles
+Uniformity Coefficient of d60/d10
+Soil
+Woven and meltbonded
+geotextiles
+needle-punched geotextiles
+1 to 5
+O90/d50 = 1
+to
+O90/d50 = 3
+O90/d50 = 4
+to
+O90/d50 = 6
+> 5
+O90/d90 < 1
+or
+O90/d50 < 3
+O90/d90 < 1.8
+or
+O90/d50 < 6
+NOTE 1
+dn = n% size in base soil (n% is finer).
+NOTE 2
+O90 = 90% opening (pore) size of geotextile (90% of openings are smaller).
+NOTE 3
+In general, it will be sufficient to specify only the maximum value of O90 that will satisfactorily retain the
+adjacent soil particles as the minimum O90 size will be governed by the permeability requirements.
+7.21.3
+The finest O90 relevant to the various soil deposits likely to be encountered should be specified.
+7.21.4
+An O90 value of 1 mm should be considered as the upper limit even with large grained soils.
+7.21.5
+A maximum O90 value of 250 microns should be used for cohesive fine grained soils such as clays.
+NOTE
+In such cases the cohesion of the soil particles themselves is relied upon to prevent piping.
+7.21.6
+An O90 value of less than 250 microns should be considered with dispersive silts.
+NOTE
+Geotextile with small pore sizes can become clogged with fine particles and hence render the drain
+unserviceable and also hinder the temporary removal of the filter material during on-site cleaning.
+7.21.7
+The specified flow rate normal to the geotextile wrapping should incorporate a margin of safety to allow
+for the following:
+1)
+the impeded flow due to the adjacent core of the fin drain (or the filter material in a narrow filter
+drain) as described in Appendix A1;
+2)
+the reduction of flow with time due to clogging.
+7.21.8
+A minimum flow rate normal to the plane of 10 litres/m2/sec should be used against the unbound
+mixture for subbase and capping.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 61 of 72
+======================================================================
+CD 524 Version 0.2.0
+7. Edge-of-pavement drains
+7.21.9
+Smaller values should be considered for soils and backfills other than coarse gravels.
+Asset recording
+7.22
+Edge of pavement drains shall be recorded as continuous assets as detailed in DMRB CD 535 [Ref
+6.N].
+7.22.1
+The edge of pavement drain asset record should include all the attributes for continuous assets as
+detailed in CD 535 [Ref 6.N].
+NOTE
+Pipework that forms part of the edge-of-pavement drain is not recorded as a separate asset, but is
+considered an integral component of the drain.
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 62 of 72
+======================================================================
+CD 524 Version 0.2.0
+8. Combined drainage and kerb systems
+8.
+Combined drainage and kerb systems
+General
+8.1
+Combined drainage and kerb systems shall be in accordance with Figure 8.1.
+Figure 8.1a Combined drainage and kerb block Type 25A
+Figure 8.1b Combined drainage and kerb block Type 25B
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 63 of 72
+======================================================================
+CD 524 Version 0.2.0
+8. Combined drainage and kerb systems
+NOTE 1
+Although combined drainage and kerb systems are useful on roads with relatively flat gradients, they
+are prone to the build-up of sediment and debris which can impede flow into and within the system.
+NOTE 2
+Combined drainage and kerb systems are useful in urban areas where there is a high incidence of
+utility services because they do not need as great a depth of excavation as piped systems.
+NOTE 3
+The dual function of combined drainage and kerb systems can offer cost savings in certain
+circumstances.
+8.1.1
+Where a capping layer is not present, the bedding concrete may be placed on fill, existing ground or the
+sub-base.
+8.1.2
+Where the bedding concrete is placed on fill, existing ground or the sub-base, the contract documents
+should indicate the position of the edge-of-pavement drain if present.
+8.2
+Figure 8.1 shall also apply to flexible composite and rigid composite carriageway with necessary
+modification.
+8.3
+Rigid composite carriageways shall be as per Type 25B but with bituminous surfacing laid up to front
+face of combined drainage and kerb system and not include the sealing strip.
+8.4
+Flexible composite carriageways shall be as per Type 25A down to top surface of base, lower layers as
+per Type 25B.
+8.5
+When used in conjunction with thin surfacing the surface water channel shall include the complete
+under drainage layer as shown in Figure 7.15.
+8.6
+Combined drainage and kerb features shall be designed both for accidental loading and impact.
+NOTE
+Combined drainage and kerb systems are, by their very nature, hollow. Consequently they can be less
+robust than solid kerbs equivalents of same general dimensions.
+8.7
+Placement of kerbs shall be in accordance with the provisions of DMRB CD 127 [Ref 2.N].
+8.8
+Combined kerb and drainage systems located in motorways and all-purpose trunk roads that are not
+protected from direct traffic load shall be a minimum of Class D400 systems.
+8.9
+Combined kerb and channel drainage systems located in motorways and all-purpose trunk roads that
+are protected from direct traffic load shall be a minimum of Class C250 systems.
+8.10
+Where the AADT LGV for a carriageway exceeds 1500 in each direction Class E600 combined kerb
+drainage units shall be used.
+8.11
+The combined kerb and drainage system shall incorporate measures to enable rodding of the outfall
+pipework.
+8.12
+The combined kerb and drainage system shall provide access for jetting by water jetting equipment into
+the system.
+8.13
+The location of accesses, silt traps, outfall and end units shall be identified in the contract documents.
+8.14
+The location of movement joints shall be identified in the contract documents.
+Hydraulic design of combined drainage and kerb systems
+8.15
+Hydraulic design of combined drainage and kerb systems shall be in accordance with DMRB CG 501
+[Ref 3.N].
+Asset recording
+8.16
+Combined drainage and kerb systems shall be recorded as continuous assets as detailed in DMRB CD
+535 [Ref 6.N].
+8.16.1
+The combined drainage and kerb system asset record should include all the attributes for continuous
+assets as detailed in CD 535 [Ref 6.N].
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 64 of 72
+======================================================================
+CD 524 Version 0.2.0
+9. Linear drainage channel systems
+9.
+Linear drainage channel systems
+General
+9.1
+The design of linear drainage channel systems with concrete safety barrier within the central reserve
+shall be in accordance with Figure 9.1.
+Figure 9.1a Linear drainage channel system Type A1
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 65 of 72
+======================================================================
+CD 524 Version 0.2.0
+9. Linear drainage channel systems
+Figure 9.1b Linear drainage channel system Type A2
+NOTE
+Type A (proprietary precast) systems are applicable to flexible, flexible composite, rigid or rigid
+composite carriageway with any necessary modifications.
+9.1.1
+Where a capping layer is not present, the bedding concrete may be placed on fill, existing ground or the
+sub-base.
+9.1.2
+Where the bedding concrete is placed on fill, existing ground or the sub-base, the contract documents
+should indicate the position of the sub-surface drainage.
+9.1.3
+The geotextile drainage layer and drain in Figure 9.1 may be omitted if there is no drainage
+discontinuity in the pavement and capping layers.
+9.1.4
+Linear drainage channel systems may be used in both verges and central reserves on motorways.
+9.1.5
+Linear drainage channel systems in all-purpose trunk road verges and central reserves should be
+placed behind VRS fencing or immediately in front of vertical concrete barriers.
+9.1.6
+The impact of maintenance should be assessed for linear drainage systems.
+NOTE
+Linear drainage systems can increase the burden on maintenance.
+9.1.7
+The use of linear drainage systems in locations where frequent maintenance interventions are required
+should be avoided.
+NOTE
+Linear drainage channel systems which are used on roads with relatively flat gradients are prone to the
+build-up of sediment and debris which can impede flow into and within the system.
+9.2
+When used in conjunction with thin surfacing the linear drainage channel system shall include the
+complete under drainage layer as shown in Figure 7.15.
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 66 of 72
+======================================================================
+CD 524 Version 0.2.0
+9. Linear drainage channel systems
+9.3
+Linear drainage channel systems located in motorways and all-purpose trunk roads that are not
+protected from direct traffic load shall be Class D400 systems.
+9.4
+Linear drainage channel systems located in motorways and all-purpose trunk roads that are protected
+from direct traffic loading shall be either Class D400 or Class C250.
+9.5
+Longitudinal slotted linear drainage channel systems shall not be used.
+9.6
+Slotted linear drainage systems shall not be used in areas subject to pedestrian and cyclist use.
+9.7
+Precast channel type linear drainage systems used in areas subject to pedestrian or cyclist use shall
+have mesh gratings.
+9.8
+All linear drainage channel system gratings and covers shall be of a type that is integral with the
+drainage channel.
+9.9
+Linear drainage systems shall not be used in areas subject to trafficking by high-speed heavy goods
+vehicles.
+9.10
+The combined kerb and drainage system shall provide access for jetting by water jetting equipment into
+the system.
+9.11
+The location of accesses, silt traps, outfall and end units shall be identified.
+9.12
+Joints between units comprising the system and between the system and adjacent construction shall
+be designed to avoid leakage of surface water.
+9.13
+The bed and backing concrete for the proprietary precast systems shall be in accordance with the
+manufacturers requirements.
+Hydraulic design of linear drainage channels
+9.14
+Hydraulic design of linear drainage channels shall be in accordance with DMRB CG 501 [Ref 3.N].
+9.15
+The design flows shall be accommodated without surcharge and beneath the underside of any inlet
+grating system.
+Asset recording
+9.16
+Linear drainage channel systems shall be recorded as continuous assets as detailed in DMRB CD 535
+[Ref 6.N].
+9.16.1
+The asset records for linear drainage channel systems should include all the attributes for continuous
+assets as detailed in CD 535 [Ref 6.N].
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 67 of 72
+======================================================================
+CD 524 Version 0.2.0
+10. Normative references
+10.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. CD 536, 'Chambers for drainage pipes'
+Ref 2.N
+National Highways. CD 127, 'Cross-sections and headrooms'
+Ref 3.N
+National Highways. CG 501, 'Design of highway drainage systems'
+Ref 4.N
+National Highways. CD 533, 'Determination of pipe and bedding combinations for
+drainage works'
+Ref 5.N
+National Highways. CC 500, 'Drainage'
+Ref 6.N
+National Highways. CD 535, 'Drainage asset data and risk management'
+Ref 7.N
+BSI. BS EN 13252, 'Geotextiles and geotextile-related products. Characteristics
+required for use in drainage systems (Designated Standard - CPR)'
+Ref 8.N
+BSI. BS EN ISO 12958, 'Geotextiles and geotextile-related products. Determination
+of water flow capacity in their plane'
+Ref 9.N
+National Highways. CD 521, 'Hydraulic design of road edge surface water channels
+and outlets'
+Ref 10.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 11.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 12.N
+National Highways. CD 526, 'Spacing of road gullies'
+Ref 13.N
+National Archives. UKSI 2015/1623, 'The Water Environment (Water Framework
+Directive) (England and Wales) (Amendment) Regulations'
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 68 of 72
+======================================================================
+CD 524 Version 0.2.0
+11. Informative references
+11.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+National Highways. CD 525, 'Design of combined surface and sub-surface drains and
+management of stone scatter'
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 69 of 72
+======================================================================
+CD 524 Version 0.2.0
+Appendix A. Fin drain testing
+Appendix A. Fin drain testing
+A1
+Test method for the percentage contact area of drainage core
+The test determines the area of one face of a drainage core which will be in contact with a geotextile
+filter as a percentage
+The apparatus required is to be as follows:
+1)
+loading device able to apply a compressive load of at least 2kN and having a flat steel base;
+2)
+flat steel loading plate 200 mm x 200 mm;
+3)
+printers ink and roller (or pad);
+4)
+sheet of thin compressible rubber; and,
+5)
+planimeter.
+The test procedure is to be as follows:
+1)
+cut three representative test specimens 200 mm x 200 mm (±2 mm);
+2)
+apply ink to one 200 mm x 200 mm face of a specimen and cover with a sheet of plain paper and
+a thin compressible rubber sheet;
+3)
+place the prepared specimen in to the loading device and gradually apply the load of 2 kN and
+maintain for 5 minutes;
+4)
+release the load and remove the specimen and separate it from the paper;
+5)
+using the planimeter find the total area of the paper which has received an imprint;
+6)
+repeat for all specimens.
+The percentage contact area = (total area of imprint/area of test specimen) x 100
+The report is to include:
+1)
+a reference to this method;
+2)
+sample identification details;
+3)
+individual and mean percentage contact areas; and,
+4)
+details of any deviation from the specified test procedure.
+Alternative methods of determining the percentage contact area may be employed with the prior
+approval of the Overseeing Organisation.
+A2
+Test method for determining the thickness of the fin drain core under specified
+normal and shear stresses
+The test determines the thickness of the fin drain under sustained normal and shear stresses. A long
+term thickness (at 100,000 hours) is calculated by extrapolation and a short term equivalent normal
+load which produces the long term thickness is determined.
+The apparatus required is as follows:
+1)
+a suitable compression testing machine, which is to have a vertical travel at least the nominal
+thickness of the specimen. It is to be capable of sustaining the necessary loads to within 1%
+accuracy for the duration of the test;
+2)
+the compression testing apparatus, which is to include a fixed base plate and parallel moveable
+top plate with flat steel surface with sufficient friction to permit the development of the required
+shear forces;
+3)
+a means of measuring the mean thickness of the specimen to an accuracy of 0.01mm.
+As an alternative to 1) and 2) above, an appropriate inclined plane and kentledge system can be
+employed to produce the normal and shear loads.
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 70 of 72
+======================================================================
+CD 524 Version 0.2.0
+Appendix A. Fin drain testing
+The test procedure is to be as follows:
+1)
+cut six representative specimens of minimum size 100mm x 100mm symmetrically about the core
+design. Three specimens are to be tested in accordance with 3) below and three in accordance
+with 4) below;
+2)
+the test specimen is to be placed symmetrically on the base plate and covered by the top plate.
+The means of measuring thickness is to be attached and the initial thickness measured;
+3)
+apply the load smoothly and as quickly as possible to the top plate. The full load (normal and
+shear) is to be applied in less than 20 seconds and sustained for at least 1000 hours. The applied
+stresses are to be those given in Clause A4. At least four measurements of thickness are to be
+made during each unit of logarithmic time after the first minute. Determine the long term
+thickness of the specimen as the thickness of the specimen at 1000 hours reduced by 2T where
+T is the difference in thicknesses of the specimen thickness recorded at 100 hours and 1000
+hours. Repeat the test on the two other specimens.The test specimens are to be maintained at a
+constant temperature of 20°C ± 2°C throughout the test period.
+4)
+apply increasing increments of normal load to the specimen. Determine the short term equivalent
+load which is the load which when applied for a period of 20±5 minutes produces a specimen
+thickness equal (within an accuracy of ±0.05mm) to the long term thickness of the specimen
+obtained at 3) above. Repeat the test on the other two specimens.
+5)
+the report is to include the following listed in table A.1
+Table A.1 To include in the report
+1
+a reference to this method
+2
+sample identification details;
+3
+the initial thickness of the sample
+4
+the applied load
+5
+the thickness of each sample at 100 and 1000 hours and the mean of the three results
+6
+a plot of percentage reduction in thickness against logarithmic time
+7
+the mean long term thickness
+8
+the mean short term equivalent load
+9
+any deviations from the specified test procedure
+A3
+Determining in-plane flow under compressive loading
+In-plane flow is to be determined in accordance with BS EN ISO 12958 [Ref 8.N]except that the
+following conditions are to apply:
+1)
+the applied normal stress is to be the greater of the value given in Table A.2 (Clause A3) or the
+mean short term equivalent stress as determined in Clause A2 (item 4 of the test procedure);
+2)
+the sample is to be tested such that the measured flow (or flows) is in the same direction as the
+principal flow (or flows) when the fin drain is in service;
+3)
+the foam rubber option of the test procedure is to be used (details of the foam rubber to be used
+may be obtained from the Overseeing Organisation); and,
+4)
+the hydraulic transmissivity is to be reported for each of the hydraulic gradients employed.
+A4
+Applied stresses and hydraulic gradient
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 71 of 72
+======================================================================
+CD 524 Version 0.2.0
+Appendix A. Fin drain testing
+Table A.2 Applied stresses and hydraulic gradient
+Drain type
+5
+6
+7
+10
+Clause A2
+Normal stress (kN/m2)
+Shear stress (kN/m2)
+50
+10
+50
+10
+50
+10
+100
+10
+Clause A3
+Normal Stress (kN/m2)
+100
+100
+100
+100
+Clause A3
+Hydraulic
+gradient
+0.1
+1.0
+1.0
+1.0
+0.1
+1.0
+A5
+Test methods
+Notwithstanding the requirements of A1, A2 and A3, variations in the test methods specified therein are
+to be made where deemed necessary by the British Board of Agrément (or equivalent) following
+consultation with the manufacturer. All such variations are to be recorded in the report.
+A6
+Material requirements
+The materials of which the drain is made are to be treated so that they are protected from the
+deleterious effects of short term exposure to ultraviolet light, and are to be resistant to degradation by
+acids, alkalis, common chemicals, bacteria, fungi and moulds occurring in soils and highway
+construction materials.
+Fin drains are to be capable of being jointed longitudinally or laterally into pipe systems or chambers for
+inflow and outflow purposes and be self jointing either directly or through purpose made attachment
+pieces for forming continuous drain lengths
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 72 of 72
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 524 Version 0.2.0, published: 30-Sep-2025
+
+
