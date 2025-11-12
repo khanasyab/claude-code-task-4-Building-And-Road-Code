@@ -1,0 +1,1033 @@
+======================================================================
+SRI LANKA SEISMIC DESIGN AND STRUCTURAL ENGINEERING STANDARDS
+EARTHQUAKE RESISTANT CONSTRUCTION AND DESIGN CODES
+======================================================================
+
+REGULATORY FRAMEWORK
+--------------------
+Standards Development: Society of Structural Engineers Sri Lanka (SSESL)
+Technical Support: National Building Research Organisation (NBRO)
+Design Codes: British Standards, Eurocodes, Australian Standards, Indian Standards
+Professional Body: Institution of Engineers Sri Lanka (IESL)
+Guidelines: "Earthquake Resistant Detailing for Buildings in Sri Lanka" (SSESL)
+
+======================================================================
+CHAPTER 1: SEISMIC HAZARD ASSESSMENT FOR SRI LANKA
+======================================================================
+
+1.1 SEISMIC RISK CLASSIFICATION
+
+HISTORICAL PERSPECTIVE:
+
+Traditional View:
+- Sri Lanka has long been considered a country safe from seismic threats
+- Located away from major tectonic plate boundaries
+- Very few recorded significant earthquakes in historical records
+- Structural designs traditionally did not include seismic provisions
+
+Current Understanding:
+- Recent seismic events in and around the island have changed this perception
+- 2004 Indian Ocean Earthquake (magnitude 9.1) - Though epicenter far away,
+  affected Sri Lanka with tsunami and some ground shaking
+- Other regional seismic activities have prompted reconsideration
+- Sri Lanka can no longer be considered completely safe from seismic threats
+
+SEISMIC HAZARD CLASSIFICATION:
+
+International Classification:
+- Sri Lanka is classified as a VERY LOW seismic hazard zone
+- Less than 2% chance of potentially damaging earthquake shaking in next 50 years
+
+Peak Ground Acceleration (PGA):
+- PGA < 0.1g (where g = acceleration due to gravity)
+- Among the lowest seismic zones globally
+
+Comparison:
+- Much lower seismic risk than countries like Japan, Chile, Turkey, Nepal, Iran
+- Lower than many parts of India, especially Himalayan region
+- Similar to parts of Australia, Africa, and stable continental interiors
+
+IMPLICATION FOR DESIGN:
+
+RDA Bridge Design:
+- Bridges in Sri Lanka do not need to be designed for effects due to earthquakes
+- Sri Lanka not in a zone significantly affected by earthquakes
+- However, recent guidelines suggest considering basic seismic principles for
+  critical infrastructure
+
+Building Design:
+- No comprehensive seismic design guidelines mandatory
+- Not part of standard building code requirements
+- Important and critical structures may voluntarily include seismic provisions
+- Growing awareness leading to gradual adoption
+
+1.2 SEISMIC SOURCES AND POTENTIAL SCENARIOS
+
+REGIONAL TECTONIC SETTING:
+
+Distant Sources:
+- Sumatra subduction zone (west) - 1,000+ km away
+- Andaman-Nicobar region
+- Myanmar (Burma) region
+- Can generate large earthquakes but ground shaking attenuates significantly
+  over distance
+
+Local/Regional Faults:
+- Some faults identified in Sri Lanka (Mahiyangana fault, Balangoda fault, etc.)
+- Generally considered inactive or very low activity
+- Potential for small to moderate earthquakes (M < 6.0)
+
+Induced Seismicity:
+- Large reservoir-induced seismicity (rare, low magnitude)
+- Mining-induced seismicity (localized, minimal impact)
+
+SCENARIO EARTHQUAKES:
+
+Potential Scenarios for Design Consideration:
+
+Scenario 1 - Distant Large Earthquake:
+- Magnitude 8.5-9.0 in Sumatra region
+- Long duration shaking (several minutes)
+- Low intensity at Sri Lanka (PGA ~ 0.02-0.05g)
+- Long period ground motion
+
+Scenario 2 - Moderate Regional Earthquake:
+- Magnitude 6.0-6.5 within Sri Lanka or near coast
+- Short duration shaking (tens of seconds)
+- Moderate intensity locally (PGA ~ 0.1-0.15g)
+- Could cause localized damage
+
+Design Approach:
+- Consider Scenario 2 for important structures
+- Focus on ductility and robustness rather than high design forces
+
+======================================================================
+CHAPTER 2: SEISMIC DESIGN CODES AND STANDARDS
+======================================================================
+
+2.1 ABSENCE OF SRI LANKA SPECIFIC SEISMIC CODE
+
+CURRENT STATUS:
+
+No Comprehensive National Seismic Code:
+- No comprehensive studies to develop seismic analysis and design guidelines
+  specifically for Sri Lankan conditions
+- No mandatory seismic design requirements in building regulations
+- Only available document: "Earthquake Resistant Detailing for Buildings in
+  Sri Lanka" published by Society of Structural Engineers Sri Lanka (brief guidelines)
+
+Implications:
+- Engineers use international codes adapted to local context
+- Inconsistency in approach among different projects
+- Uncertainty in selection of seismic parameters
+
+INTERNATIONAL CODES COMMONLY USED:
+
+When seismic design is undertaken (for important structures), engineers in
+Sri Lanka commonly consider three codes of practice:
+
+1. Euro Code 8 (EN 1998-1:2004):
+   - Design of Structures for Earthquake Resistance
+   - Part 1: General rules, seismic actions, and rules for buildings
+   - European standard widely adopted
+
+2. Indian Standard (IS 1893 Part 1:2002 or IS 1893:2016):
+   - Criteria for Earthquake Resistant Design of Structures
+   - Geographically close, similar construction practices
+   - Zone II (lowest seismic zone) parameters sometimes used
+
+3. Australian Standard (AS 1170.4-2007):
+   - Structural Design Actions - Part 4: Earthquake actions
+   - Modern code with good provisions for low seismicity areas
+
+Selection Rationale:
+- Euro Code 8 selected for many projects as it allows national choices in defining
+  seismic characteristics (PGA, response spectra, etc.)
+- Can adapt parameters to Sri Lankan conditions
+- IS code familiar to many Sri Lankan engineers trained in India
+
+2.2 TRANSITION FROM BRITISH STANDARDS TO EUROCODES
+
+HISTORICAL PRACTICE:
+
+British Standards:
+- Structural engineers in Sri Lanka traditionally used British Standards (BS) for design
+- BS 8110 for concrete structures
+- BS 5950 for steel structures
+- Familiar and well-established
+
+Withdrawal of British Standards:
+- British Standards Institution decided to withdraw and make no further updates to
+  BS structural codes in 2010
+- Transition to Eurocodes (EN standards) in UK and many former Commonwealth countries
+
+ADOPTION OF EUROCODES IN SRI LANKA:
+
+Gradual Transition:
+- Sri Lankan engineers increasingly adopting Eurocodes
+- EN 1990: Basis of Structural Design
+- EN 1991: Actions on Structures (loads)
+- EN 1992: Design of Concrete Structures
+- EN 1993: Design of Steel Structures
+- EN 1994: Design of Composite Steel and Concrete Structures
+- EN 1995: Design of Timber Structures
+- EN 1996: Design of Masonry Structures
+- EN 1997: Geotechnical Design
+- EN 1998: Design of Structures for Earthquake Resistance
+- EN 1999: Design of Aluminium Structures
+
+Advantages:
+- Modern codes with latest research and developments
+- Comprehensive coverage
+- Seismic design provisions (EN 1998)
+- International acceptance
+
+Challenges:
+- Learning curve for engineers
+- Different format and philosophy (Limit State Design)
+- Availability of National Annexes (Sri Lanka does not have official Annexes, so
+  default values or engineering judgment used)
+
+2.3 SEISMIC DESIGN PHILOSOPHY
+
+PRINCIPLES OF SEISMIC DESIGN:
+
+Life Safety:
+- Primary goal: Prevent collapse and loss of life during earthquake
+- Structure may sustain damage but should not collapse
+- Acceptable performance philosophy
+
+Performance Levels:
+
+Serviceability Limit State (Frequent/Minor Earthquake):
+- No structural damage
+- Minimal non-structural damage
+- Building remains operational
+- Return period: 50-100 years
+
+Ultimate Limit State (Design Earthquake):
+- Some structural damage acceptable (repairable)
+- Significant non-structural damage possible
+- No collapse, life safety ensured
+- Return period: 475-500 years
+
+Collapse Prevention (Maximum Credible Earthquake):
+- Major structural damage
+- Building on verge of collapse but doesn't collapse
+- Life safety marginally ensured
+- Return period: 2,500 years
+
+For Sri Lanka's Low Seismicity:
+- Focus on robustness and good detailing
+- Modest seismic forces
+- Ductility and capacity design principles
+
+KEY CONCEPTS:
+
+Ductility:
+- Ability of structure to deform beyond elastic range without failure
+- Achieved through proper detailing of reinforcement
+- Confinement of concrete in critical regions
+- Energy dissipation through inelastic deformation
+
+Regularity:
+- Regular building configuration (plan and elevation)
+- Symmetry and uniform distribution of mass and stiffness
+- Avoid torsional irregularities
+- Irregular buildings require more rigorous analysis
+
+Redundancy:
+- Multiple load paths
+- Avoid single point of failure
+- Distributed resistance
+
+Strong Column - Weak Beam:
+- Columns should be stronger than beams at joints
+- Ensures plastic hinges form in beams, not columns
+- Prevents soft-story mechanism
+
+Diaphragm Action:
+- Floor slabs act as rigid diaphragms
+- Transfer lateral loads to vertical resisting elements (shear walls, frames)
+
+======================================================================
+CHAPTER 3: SEISMIC DESIGN PROCEDURES FOR BUILDINGS
+======================================================================
+
+3.1 SEISMIC ACTIONS AND PARAMETERS
+
+DEFINING SEISMIC ACTION FOR SRI LANKA:
+
+Peak Ground Acceleration (PGA):
+- Proposed for Sri Lanka: 0.05g to 0.10g
+- Varies slightly by location (higher near potential fault zones)
+- Conservative value: 0.10g for important structures
+
+Seismic Zone Factor:
+- If using IS code: Zone II (lowest zone), Z = 0.10
+
+Response Spectrum:
+- Defines earthquake ground motion for design
+- Depends on PGA, soil type, and structural period
+- Type 1 or Type 2 spectrum (Euro Code)
+- For low seismicity: Type 1 with low PGA
+
+Soil Classification:
+
+Soil Types (Euro Code):
+- Soil Class A: Rock or very stiff soil (Vs > 800 m/s)
+- Soil Class B: Very dense sand/gravel or stiff clay (Vs 360-800 m/s)
+- Soil Class C: Dense sand/gravel or firm clay (Vs 180-360 m/s)
+- Soil Class D: Loose to medium sand/gravel or soft clay (Vs < 180 m/s)
+- Soil Class E: Very soft soil (special analysis required)
+
+Where Vs = shear wave velocity
+
+Sri Lanka:
+- Varies by location
+- Coastal areas: Often Soil Class C or D
+- Hill country with rock: Class A or B
+- Site-specific geotechnical investigation recommended
+
+Importance Factor:
+- Accounts for building importance and occupancy
+- Hospitals, fire stations, emergency facilities: γI = 1.2-1.4
+- Normal buildings: γI = 1.0
+- Agricultural or temporary: γI = 0.8
+
+3.2 ANALYSIS METHODS
+
+LEVEL OF ANALYSIS BASED ON BUILDING:
+
+Simplified/Prescriptive Method:
+- For low-rise regular buildings (up to 3-4 stories)
+- Simple rules and detailing provisions
+- No rigorous analysis required in very low seismicity areas
+
+Equivalent Lateral Force Method:
+- For regular buildings up to 40-50 m height
+- Simplified static analysis
+- Lateral forces applied at each floor level
+- Suitable for most buildings in Sri Lanka
+
+Modal Response Spectrum Analysis:
+- For taller or irregular buildings
+- Dynamic analysis considering multiple vibration modes
+- More accurate than equivalent static method
+
+Time-History Analysis:
+- Most rigorous, for very important or complex buildings
+- Uses acceleration time histories of earthquakes
+- Nonlinear analysis possible
+- Rarely required in Sri Lanka's low seismicity context
+
+Recommended for Sri Lanka:
+- Equivalent Lateral Force Method sufficient for most buildings
+- Good detailing practices more important than rigorous analysis
+- Modal analysis for tall buildings (> 15-20 stories) or irregular buildings
+
+3.3 EQUIVALENT LATERAL FORCE METHOD
+
+PROCEDURE:
+
+Step 1: Determine Seismic Weight
+- Dead load of structure
+- Quasi-permanent live load (partial live load for long-term presence)
+- W = Dead load + ψ × Live load (where ψ = 0.3-0.6 depending on occupancy)
+
+Step 2: Calculate Fundamental Period
+- T = 0.075 × H^0.75 (for concrete moment frames, approximate formula)
+- T = 0.050 × H^0.75 (for concrete shear wall buildings)
+- Where H = building height in meters
+- More accurate methods available (Rayleigh method, software modeling)
+
+Step 3: Determine Design Spectral Acceleration
+- From response spectrum, obtain Sd(T) at the fundamental period T
+- Sd(T) depends on PGA, soil type, and period
+
+Step 4: Calculate Base Shear
+- Vb = Sd(T) × W × λ
+- Where λ = correction factor (usually 0.85 for buildings with 3+ stories)
+
+Step 5: Distribute Base Shear Vertically
+- Fi = Vb × (Wi × Hi) / Σ(Wj × Hj)
+- Where Fi = lateral force at level i, Wi = seismic weight at level i,
+  Hi = height of level i above base
+
+Step 6: Apply Loads and Analyze Structure
+- Apply lateral forces at each floor level
+- Analyze using structural analysis software or manual methods
+- Check member forces, drifts, stresses
+
+Step 7: Design and Detail Members
+- Reinforced concrete members with ductile detailing
+- Capacity design principles
+- Connections and joints
+
+WORKED EXAMPLE FOR SRI LANKA CONTEXT:
+
+Given:
+- 10-story residential building in Colombo
+- Height H = 30 m
+- Seismic weight W = 1,500 tonnes (15,000 kN)
+- Concrete moment frame structure
+- Soil Class C
+
+Parameters:
+- PGA = 0.10g (conservative for Sri Lanka)
+- Response spectrum for Soil C, PGA 0.10g
+- Importance factor γI = 1.0 (normal occupancy)
+
+Calculations:
+
+Fundamental Period:
+T = 0.075 × H^0.75 = 0.075 × (30)^0.75 = 0.075 × 13.16 = 0.99 seconds
+
+Design Spectral Acceleration:
+From response spectrum at T = 0.99 s, Sd(T) ≈ 0.05g = 0.49 m/s²
+
+Base Shear:
+Vb = Sd(T) × W × λ = 0.49 × 15,000 × 0.85 = 6,247 kN
+
+Base Shear Coefficient:
+Vb/W = 6,247/15,000 = 0.42, or 4.2% of building weight
+(Quite modest due to low seismicity)
+
+Force Distribution:
+Distributed to each floor based on height and mass
+(Detailed distribution omitted for brevity)
+
+Conclusion:
+Seismic forces are relatively low compared to high seismicity zones (where base
+shear may be 10-20% of weight). Good detailing and structural integrity are
+primary concerns.
+
+3.4 DRIFT AND DEFORMATION LIMITS
+
+INTER-STORY DRIFT:
+
+Definition:
+- Relative horizontal displacement between consecutive floors
+- Expressed as drift ratio (drift/story height)
+
+Limits:
+- Damage limitation (serviceability): Drift ≤ 0.5-0.7% of story height
+- Ultimate limit state: Drift ≤ 2.0-2.5% of story height
+
+P-Delta Effects:
+- Additional moments due to vertical loads acting on deformed structure
+- Stability coefficient θ = (Σ P × Δ) / (V × h) < 0.10
+- Where P = axial load, Δ = drift, V = story shear, h = story height
+- If θ > 0.10, significant P-Delta effects, need special consideration
+
+======================================================================
+CHAPTER 4: DUCTILE DETAILING OF REINFORCED CONCRETE
+======================================================================
+
+4.1 IMPORTANCE OF DETAILING
+
+IN LOW SEISMICITY AREAS:
+
+Good Detailing More Important Than Analysis:
+- Seismic forces are low (4-5% of weight in Sri Lanka vs. 15-20% in high seismicity)
+- Achieving ductility and robustness through proper detailing is critical
+- Poor detailing can lead to brittle failure even under low seismic loads
+
+Ductile vs. Brittle Failure:
+- Ductile: Large deformations, warning signs, gradual failure
+- Brittle: Sudden failure without warning (concrete crushing, shear failure,
+  bond failure)
+- Detailing ensures ductile behavior
+
+4.2 DUCTILE DETAILING FOR BEAMS
+
+LONGITUDINAL REINFORCEMENT:
+
+Minimum Reinforcement:
+- Minimum As = 0.26 × (fctm/fyk) × b × d ≥ 0.0013 × b × d
+- Where fctm = mean tensile strength of concrete, fyk = yield strength of steel,
+  b = width, d = effective depth
+- Ensures minimum flexural capacity
+
+Maximum Reinforcement:
+- Maximum reinforcement ratio ≤ 4% of gross cross-section
+- Ensures ductility and adequate space for concrete placement
+
+Top and Bottom Reinforcement:
+- Continuous top and bottom bars
+- At least 2 bars on each face
+- Provides redundancy and capacity for moment reversal
+
+Curtailment:
+- Careful curtailment of bars
+- Adequate anchorage length
+- No abrupt cut-off at high moment regions
+
+TRANSVERSE REINFORCEMENT (STIRRUPS):
+
+Purpose:
+- Shear resistance
+- Confinement of concrete
+- Lateral support to longitudinal bars (prevent buckling)
+
+Stirrup Configuration:
+- Closed stirrups (rectangular or circular hoops)
+- 135° hooks at ends (seismic hooks)
+- Overlapping alternate bars
+
+Spacing:
+- Critical regions (near columns): Closer spacing (d/4, 8 × diameter of longitudinal bar, 24 × diameter of stirrup, or 300 mm, whichever is smallest)
+- Mid-span: Normal shear design spacing
+
+Critical Regions:
+- Length = 2 × beam depth from face of support
+- Increased shear demand due to plastic hinge formation
+
+4.3 DUCTILE DETAILING FOR COLUMNS
+
+LONGITUDINAL REINFORCEMENT:
+
+Reinforcement Ratio:
+- Minimum 1% of gross cross-section
+- Maximum 4% (6% at laps)
+- Adequate to provide flexural capacity
+
+Number of Bars:
+- Minimum 4 bars in rectangular columns
+- Minimum 6 bars in circular columns
+- Uniform distribution around perimeter
+
+Lap Splices:
+- Avoid lap splices in critical regions (plastic hinge zones)
+- If unavoidable, use increased lap length and confining reinforcement
+
+TRANSVERSE REINFORCEMENT (TIES/HOOPS):
+
+Confinement:
+- Essential for ductility
+- Prevents spalling of cover concrete
+- Confines core concrete (increases strength and ductility)
+
+Tie Configuration:
+- Rectangular hoops with 135° hooks
+- Overlapping hooks at alternate corners
+- Intermediate cross-ties as needed (for large columns)
+
+Spacing in Critical Regions:
+- s ≤ min (b/3, 6 × dbl, 125 mm)
+- Where b = minimum column dimension, dbl = diameter of longitudinal bar
+
+Critical Region Length:
+- Greater of (1.5 × column depth, 1/6 of clear column height, 600 mm)
+- From face of beam or slab
+
+Strong Column - Weak Beam Check:
+- ΣMRc ≥ 1.3 × ΣMRb
+- Sum of column moment capacities ≥ 1.3 times sum of beam moment capacities at joint
+- Ensures plastic hinges form in beams, not columns
+
+4.4 BEAM-COLUMN JOINTS
+
+JOINT BEHAVIOR:
+
+Critical Zone:
+- Beam-column joints subject to high shear stresses
+- Complex stress state
+- Potential for joint shear failure (brittle)
+
+Joint Shear Force:
+- Due to moment reversal in beams
+- Must be resisted by joint
+
+JOINT REINFORCEMENT:
+
+Transverse Reinforcement Through Joint:
+- Continue column ties through joint (may relax spacing slightly if beam
+  stirrups provide confinement)
+- Minimum area of horizontal reinforcement
+
+Anchorage of Beam Bars:
+- Adequate anchorage into joint and beyond
+- Straight anchorage or hooks (90° or 180°)
+- Anchorage length calculated per code
+
+4.5 SHEAR WALLS
+
+DUCTILE SHEAR WALLS:
+
+Purpose:
+- Provide lateral resistance
+- Stiffness to control drifts
+- Common in medium to high-rise buildings
+
+Reinforcement:
+- Vertical and horizontal reinforcement (mesh)
+- Minimum 0.25% in each direction (0.4% for high seismicity, less for Sri Lanka)
+
+Boundary Elements:
+- At edges of wall
+- Heavily reinforced and confined
+- Similar to column detailing
+- Required if wall in compression zone under high stress
+
+Coupling Beams:
+- Connect shear walls
+- Ductile detailing with diagonal reinforcement (where applicable)
+
+======================================================================
+CHAPTER 5: MASONRY STRUCTURES AND SEISMIC RESISTANCE
+======================================================================
+
+5.1 MASONRY CONSTRUCTION IN SRI LANKA
+
+COMMON PRACTICE:
+
+Unreinforced Masonry (URM):
+- Brick or block walls with cement mortar
+- No reinforcement
+- Most common for low-rise residential buildings
+- Vulnerable to earthquake damage
+
+Confined Masonry:
+- Masonry walls surrounded by reinforced concrete tie-columns and beams
+- Confining elements provide integrity
+- Better seismic performance than URM
+
+Reinforced Masonry:
+- Vertical and horizontal reinforcement in walls
+- Grouted cells in hollow blocks
+- Rare in Sri Lanka, more common in high seismicity countries
+
+5.2 SEISMIC DESIGN OF MASONRY BUILDINGS
+
+METHODOLOGY:
+
+Euro Code 6 and Australian Seismic Code:
+- Methodology for masonry buildings based on Eurocode 6 and AS 1170.4
+- Adapted for Sri Lankan conditions
+
+Design Approach:
+- Simple rules for low-rise regular buildings
+- Tie columns and beams at regular intervals (confined masonry)
+- Adequate wall density (ratio of wall length to floor area)
+- Proper connection between walls, floors, and roof
+
+CONFINED MASONRY PROVISIONS:
+
+Tie Columns:
+- RC columns at corners, T-junctions, and at regular intervals (max 3-4 m)
+- Minimum size: 150 mm × 150 mm
+- Reinforcement: 4 bars of 12 mm diameter minimum
+- Ties: 6 mm @ 200 mm c/c
+
+Tie Beams:
+- RC beams at floor levels and roof level
+- Continuous around perimeter and at intervals
+- Minimum size: 150 mm × 150 mm
+- Reinforcement: 4 bars of 12 mm diameter minimum
+
+Lintel Beams:
+- RC lintels over all openings
+- Extend at least 300 mm beyond opening on each side
+
+Wall Construction:
+- Good quality bricks/blocks and mortar
+- Proper bonding
+- Vertical joints filled
+
+CONNECTION:
+
+Wall to Tie Column:
+- Toothed or keyed connection
+- Dowels from tie column into wall
+
+Floor/Roof to Wall:
+- Anchor bolts or starter bars
+- Ensure diaphragm action
+
+5.3 TRADITIONAL CONSTRUCTION AND RETROFITTING
+
+TRADITIONAL PRACTICES:
+
+Wattle and Daub:
+- Traditional in rural areas
+- Timber frame with mud or plaster infill
+- Flexible, lightweight (good for seismic resistance if maintained)
+- Deterioration and lack of maintenance issues
+
+Stone Masonry:
+- Common in hilly areas
+- Thick walls, heavy
+- Vulnerable if not well-built
+
+RETROFITTING:
+
+Existing Buildings:
+- Many existing buildings not designed for seismic resistance
+- Retrofitting options:
+  * Add RC jacketing to columns
+  * Add shear walls
+  * Strengthen beam-column joints
+  * Provide confining elements to masonry
+  * Improve foundations
+
+Heritage Buildings:
+- Special techniques preserving character
+- Fiber-reinforced polymers (FRP)
+- Post-tensioning
+- Base isolation (very expensive, rare)
+
+======================================================================
+CHAPTER 6: FOUNDATIONS AND GEOTECHNICAL CONSIDERATIONS
+======================================================================
+
+6.1 FOUNDATION DESIGN FOR SEISMIC LOADS
+
+SOIL-STRUCTURE INTERACTION:
+
+Seismic Loads on Foundations:
+- Vertical loads (gravity)
+- Horizontal loads (base shear)
+- Overturning moments
+
+Foundation Design:
+- Adequate bearing capacity
+- Resistance to overturning (factor of safety ≥ 1.5-2.0)
+- Resistance to sliding (factor of safety ≥ 1.5)
+- Settlement within limits
+
+FOUNDATION TYPES:
+
+Shallow Foundations:
+- Pad footings, strip footings, raft
+- Suitable for good soil conditions
+- Tie beams connecting footings (important for seismic resistance)
+
+Deep Foundations:
+- Piles (driven or bored)
+- For poor soil conditions or tall buildings
+- Pile cap design for lateral loads
+
+TIE BEAMS:
+
+Purpose:
+- Connect individual footings
+- Prevent differential movement
+- Distribute loads
+- Confine soil (passive resistance)
+
+Detailing:
+- Minimum size: 200 mm × 300 mm
+- Reinforcement: Top and bottom bars, stirrups
+- Continuous at foundation level
+
+6.2 LIQUEFACTION
+
+PHENOMENON:
+
+Liquefaction:
+- Loss of strength in saturated loose sandy soils during earthquake
+- Soil behaves like liquid
+- Structures settle or tilt
+- Major cause of earthquake damage in certain conditions
+
+Conditions for Liquefaction:
+- Saturated loose sand
+- Shallow groundwater table
+- Earthquake shaking
+
+Sri Lankan Context:
+- Coastal areas with loose sandy soils and shallow groundwater potentially
+  susceptible
+- Very low seismicity reduces likelihood
+- Assessment recommended for important structures in vulnerable soils
+
+Assessment:
+- SPT blow counts
+- CPT data
+- Liquefaction potential index
+
+Mitigation:
+- Ground improvement (densification, stone columns, etc.)
+- Deep foundations through liquefiable layer to firm stratum
+- Raft foundations distributing loads
+
+======================================================================
+CHAPTER 7: NON-STRUCTURAL ELEMENTS
+======================================================================
+
+7.1 IMPORTANCE OF NON-STRUCTURAL ELEMENTS
+
+DEFINITION:
+
+Non-Structural Elements:
+- Building components not part of load-carrying structure
+- Architectural elements: Partitions, cladding, ceilings, facades
+- Mechanical/Electrical/Plumbing (MEP) systems
+- Contents: Furniture, equipment, storage racks
+
+SIGNIFICANCE:
+
+Life Safety:
+- Falling ceilings, light fixtures, or cladding can cause injuries/fatalities
+- Blocked egress routes
+
+Economic Loss:
+- Non-structural damage often exceeds structural damage cost
+- Business interruption
+
+Functionality:
+- Hospitals, fire stations need to remain functional after earthquake
+- MEP systems critical
+
+7.2 SECURING NON-STRUCTURAL ELEMENTS
+
+PARTITIONS:
+
+Connection:
+- Top and bottom tracks secured to structure
+- Seismic gaps at slab edges (allow movement without damage)
+- Bracing for tall or heavy partitions
+
+CLADDING AND FACADES:
+
+Flexible Connections:
+- Allow relative movement between structure and cladding
+- Prevents damage during drift
+
+Panel-to-Panel Joints:
+- Accommodate movements
+
+CEILINGS:
+
+Suspension Systems:
+- Bracing of suspended ceilings (diagonal braces, compression posts)
+- Secure fixings
+- Separation from walls (seismic gap)
+
+Heavy Items:
+- Light fixtures, HVAC diffusers: Secure to ceiling grid and structure above
+
+MEP SYSTEMS:
+
+Piping and Ductwork:
+- Flexible connections at equipment
+- Adequate supports and bracing
+- Avoid rigid connections that concentrate stress
+
+Equipment:
+- Anchor to structure (chillers, pumps, boilers, electrical panels)
+- Vibration isolators (flexible)
+- Snubbers for seismic restraint
+
+CONTENTS:
+
+Storage Racks and Shelving:
+- Anchor to floor or wall
+- Cross-bracing
+
+Heavy Equipment:
+- Computers, servers, medical equipment: Secure to prevent sliding or overturning
+
+======================================================================
+CHAPTER 8: SPECIAL STRUCTURES AND CONSIDERATIONS
+======================================================================
+
+8.1 TALL BUILDINGS
+
+DEFINITION:
+
+Tall Building:
+- No precise definition, generally > 15-20 stories (> 50-60 m height)
+- Significant in Sri Lanka's urban context (Colombo, other cities)
+
+ADDITIONAL CONSIDERATIONS:
+
+Dynamic Response:
+- Modal analysis required
+- Higher modes significant
+- Wind loads may govern over seismic in Sri Lanka (due to low seismicity)
+
+Lateral Load Resisting Systems:
+- Shear walls, cores
+- Outrigger systems
+- Braced frames
+
+Foundations:
+- Piled raft or pile foundations
+- Significant overturning moments
+
+Construction:
+- Tolerances critical (tall buildings amplify errors)
+- Quality control essential
+
+8.2 BRIDGES
+
+SEISMIC DESIGN OF BRIDGES:
+
+As noted in RDA Bridge Design Manual:
+- Bridges in Sri Lanka do not need to be designed for earthquake effects
+- However, modern practice for important bridges may include basic provisions
+
+Basic Provisions:
+- Ductile detailing of piers
+- Adequate seat length at supports (prevent span falling off)
+- Restrainers or links between spans
+- Flexible bearings to accommodate small movements
+
+8.3 INDUSTRIAL STRUCTURES
+
+SPECIAL FEATURES:
+
+Heavy Equipment and Machinery:
+- Large vibrating equipment
+- Anchor to foundation
+- Seismic restraint
+
+Storage Tanks and Vessels:
+- Liquid sloshing
+- Hold-down bolts or straps (prevent overturning)
+
+Piping and Utilities:
+- Flexible connections
+- Supports and bracing
+
+8.4 HERITAGE AND HISTORIC BUILDINGS
+
+CHALLENGES:
+
+Old Construction:
+- Unreinforced masonry, weak mortar
+- Deterioration over time
+- No seismic provisions
+
+Preservation:
+- Maintain historical character
+- Minimal intervention
+
+RETROFITTING APPROACHES:
+
+Strengthening:
+- Grouting of cracks and voids
+- Tying walls together (through-bolts, ties)
+- FRP wrapping (discreet)
+- Base isolation (expensive, rarely done)
+
+Non-Invasive:
+- Improving maintenance
+- Reducing loads (remove heavy additions)
+- Limiting occupancy
+
+======================================================================
+CHAPTER 9: CURRENT STATUS AND FUTURE DIRECTIONS
+======================================================================
+
+9.1 CURRENT PRACTICE IN SRI LANKA
+
+ADOPTION OF SEISMIC DESIGN:
+
+Voluntary and Limited:
+- No mandatory seismic design for most buildings
+- Important and critical structures increasingly include provisions voluntarily
+- Government buildings, hospitals, tall buildings
+- International projects (donor-funded) typically require seismic design
+
+Inconsistency:
+- Varied approaches among engineers
+- Lack of uniform standards and parameters
+
+Detailing Standards:
+- "Earthquake Resistant Detailing for Buildings in Sri Lanka" (SSESL) provides
+  basic guidance
+- Not comprehensive, needs expansion
+
+9.2 NEED FOR NATIONAL SEISMIC CODE
+
+ARGUMENTS FOR DEVELOPMENT:
+
+Risk Mitigation:
+- Even low probability events can have significant consequences
+- Preparedness and resilience
+
+Good Practice:
+- Modern engineering includes seismic considerations even in low seismicity areas
+- Ductile detailing improves structural performance for all loads (not just seismic)
+
+International Standards:
+- Alignment with global best practices
+- Facilitates international collaboration
+
+PROPOSED ACTIONS:
+
+Develop National Seismic Code:
+- Comprehensive guidelines adapted to Sri Lankan conditions
+- Define seismic parameters (PGA, response spectra, etc.) for different regions
+- Simplified provisions for common building types
+- Mandatory for important structures
+
+Training and Capacity Building:
+- Education of engineers, designers, builders
+- Continuing professional development
+
+Public Awareness:
+- Community education on earthquake safety
+- Emergency preparedness
+
+Research:
+- Detailed seismic hazard studies
+- Microzonation of urban areas
+- Testing of local materials and construction systems
+
+Enforcement:
+- Incorporation into building regulations
+- Inspection and compliance
+
+9.3 ROLE OF PROFESSIONAL BODIES AND ACADEMIA
+
+IESL, SSESL, UNIVERSITIES:
+
+Contributions:
+- Development of guidelines and standards
+- Research and publications
+- Training programs and seminars
+- Advocacy for seismic safety
+
+Collaboration:
+- With government agencies (UDA, NBRO, RDA, etc.)
+- International partnerships
+
+======================================================================
+DOCUMENT INFORMATION
+======================================================================
+
+This comprehensive document covers seismic design and structural engineering
+standards for Sri Lanka, including earthquake resistant construction practices.
+
+Information compiled from:
+- "Earthquake Resistant Detailing for Buildings in Sri Lanka" (SSESL)
+- Research papers on seismic assessment and design for Sri Lanka
+- Euro Code 8 (EN 1998-1:2004)
+- Indian Standard IS 1893
+- Australian Standard AS 1170.4
+- RDA Bridge Design Manual
+- International seismic engineering literature
+
+For structural engineering information and professional development, contact:
+Institution of Engineers Sri Lanka (IESL)
+120/15, Wijerama Mawatha, Colombo 07
+Tel: +94-11-2698426
+Website: www.iesl.lk
+
+Society of Structural Engineers Sri Lanka (SSESL)
+
+National Building Research Organisation (NBRO)
+99/1, Jawatta Road, Colombo 05
+Tel: +94-11-2501991-4
+Website: www.nbro.gov.lk
+
+Last Updated: 2024
+Compiled for reference and educational purposes.
+
+======================================================================
+END OF DOCUMENT
+======================================================================
