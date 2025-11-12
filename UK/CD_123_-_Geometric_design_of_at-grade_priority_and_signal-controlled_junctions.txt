@@ -1,0 +1,2947 @@
+======================================================================
+PAGE 1 of 74
+======================================================================
+Design Manual for Roads and Bridges
+Road Layout
+Design
+CD 123
+Geometric design of at-grade priority and
+signal-controlled junctions
+(formerly TD 41/95, TD 42/95, TD 40/94, and those parts of TD 50/04 and TD 70/08 relating to
+priority and signal-controlled junctions.)
+Version 2.1.0
+Summary
+This document provides requirements for the geometric design of at-grade priority and
+signal-controlled junctions.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated National Highways team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 2 of 74
+======================================================================
+CD 123 Version 2.1.0
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+7
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. Junction selection
+11
+Priority junction selection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+WS2+1 roads
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Dual carriageway roads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Major road central treatment selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Ghost island central treatment
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Single lane dualling (SLD) central treatment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Permitted movements at SLD and dual-carriageway priority junctions
+. . . . . . . . . . . . . . . . . . . . .
+16
+Crossroads and staggered junctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Signal-controlled junctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Direct accesses
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+3. Visibility
+20
+Minor road approach visibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Priority junctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Direct accesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Junction visibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Measurement of visibility at minor roads and direct accesses
+. . . . . . . . . . . . . . . . . . . . . . .
+22
+Measurement of visibility in the central reserve . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+4. Geometric design of direct accesses
+27
+5. Geometric design of priority junctions
+29
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Corner radii and corner radii tapers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Carriageway widths
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Minor road traffic islands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+Diverge tapers and auxiliary lanes
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+Diverge taper and auxiliary lane widths and lengths . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+Merging tapers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+Merging tapers widths and length . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 3 of 74
+======================================================================
+CD 123 Version 2.1.0
+Contents
+6. Geometric design of major road central treatments
+38
+General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Major road central treatment formation excluding on WS2+1 roads . . . . . . . . . . . . . . . . . . . .
+38
+Major road central treatment formation on WS2+1 roads . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+Major road central treatment right turning lane length . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+Ghost islands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Through lane widths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+Island and right turning lane widths on WS2+1 roads . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Island and right turning lane widths on all roads except WS2+1 . . . . . . . . . . . . . . . . . . . . . .
+44
+SLD and dual carriageway
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Through lane widths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Island and right turning lane dimensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+Physical central reserve layout on WS2+1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Through lane widths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Central island layout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+Passing bays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+7. Geometric design of signal-controlled junctions
+51
+Junction intersection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Visibility at signal-controlled junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Visibility of signals
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Junction intervisibility zone
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53
+Entry lanes, exit lanes and storage capacity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Lane widths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+Storage length
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+Exit lane continuity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+Other geometrical elements of signal-controlled junctions . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Swept path and corner radii . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+Traffic islands (including at left-turn slips)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+Right-turning traffic movements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+Location of controller cabinets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+8. Normative references
+61
+9. Informative references
+62
+Appendix A. Examples of signal-controlled junction layouts and impact on signal operation
+63
+A1 Opposing right turns at signal-controlled junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+63
+A2 Signal-controlled T-junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+63
+A2.1 Small urban signal controlled T-junction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+63
+A2.2 Large urban or larger rural signal-controlled T-junction . . . . . . . . . . . . . . . . . . . . . . . .
+63
+A3 Signal-controlled crossroads
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+A3.1 Urban signal-controlled crossroads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+A3.2 Complex urban / rural signal-controlled crossroads . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+A4 Signal-controlled staggered junctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+A4.1 Operation of signal-controlled staggered junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+A4.2 Left/right staggers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+A4.3 Right/left staggers
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+68
+A5 Signal-controlled skew junctions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+70
+A6 Signal-controlled junctions on one-way roads . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+71
+A7 Signal-controlled junctions with more than four arms . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+72
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 4 of 74
+======================================================================
+CD 123 Version 2.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 123
+2.1.0
+November 2021
+Core document
+Incremental change to
+requirements
+Revision 2.1.0 – the scope of use for direct accesses has been expanded to include single use public utilities site
+and single use highway maintenance site; the definition of a through-route now includes 'for public use'; new
+geometrical parameters for such junctions where right turns out of the minor road are prevented have been
+included; the minimum spacing distance between the end of dual carriageway to a priority junction has been
+reduced from 1km to 500 metres (para 2.11); the way that traditional relaxation clauses are presented has been
+updated to be clearer; plus various wording improvement/corrections.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+CD 123
+2
+August 2020
+CD 123
+1
+June 2020
+CD 123
+1
+January 2020
+CD 123
+0
+August 2019
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 5 of 74
+======================================================================
+CD 123 Version 2.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways. 
+This document supersedes TD 41/95 and TD 42/95. In combination with CD 122 [Ref 4.N], this
+document supersedes TD 40/94. In combination with CD 116 [Ref 1.I], this document supersedes TD
+50/04. This document also supersedes elements of TD 70/08 that relate to priority and signal-controlled
+junctions.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 6 of 74
+======================================================================
+CD 123 Version 2.1.0
+Introduction
+Introduction
+Background
+This document provides requirements and advice on the geometrical design of at-grade priority and
+signal-controlled junctions.
+In addition to signal controlled junctions, this document provides a single point of reference for the
+geometric design of at-grade priority junctions that has been historically split across a number of
+documents. It merges and rationalises the content of TD 41/95 and TD 42/95 and incorporates the
+priority junction elements of compact grade separated junctions and wide single 2+1 lanes, which were
+previously covered by TD 40/94 and TD 70/08 respectively.
+In order to remove duplication across the various types of priority junctions defined by the previous
+documents, priority junctions are now formed of two key elements. These two elements are the priority
+junction (the layout of the minor road arm) and the major road central treatment (the layout of the major
+road aspect of the junction, e.g. a ghost island arrangement). This approach allows for flexibility of
+varying the form of the layout of the minor road and/or major road while removing the repetition and
+ambiguity resulting from the entire junction being treated as a single component in the previous
+documents.
+In order to rationalise and remove duplication between direct access layouts, the definition of a direct
+access is now only used for a single field, single dwelling, single-use public utilities site or single-use
+highway maintenance site. A priority junction is for anything greater; however, the requirements/advice
+for a priority junction differ depending on whether the road provides a through route or not (i.e. an
+entrance to a business park or development). (i.e. an entrance to a business park or development).
+Other notable changes/additions from the previous documents listed above include:
+1) advice on permitting particular movements at single lane dualling and dual carriageway priority
+junctions (predominantly relating to the right turns out of the minor road), along with new geometrical
+parameters for such junctions where right turns out of the minor road are prevented;
+2) expanded advice on the use of nearside passing bays, including recommended dimensions; and,
+3) improvements made to the way visibility splays are defined at priority junctions to ensure that a full
+splay is provided rather than just a line of visibility from the minor road set back point.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 6.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 7 of 74
+======================================================================
+CD 123 Version 2.1.0
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+AADT
+Annual average daily traffic
+ASL
+Advance stop-line
+HGV
+Heavy goods vehicle
+SLD
+Single lane dualling
+SSD
+Stopping sight distance
+S2
+Single carriageway cross-section, 1 lane each direction (see CD 127 [Ref 1.N])
+WS2
+Wide single-carriageway cross-section, 1 lane each direction (see CD 127 [Ref
+1.N])
+WS2+1
+Wide single 2+1 carriageway cross-section, 2 lanes one direction, 1 lane opposing
+direction (see CD 127 [Ref 1.N])
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 8 of 74
+======================================================================
+CD 123 Version 2.1.0
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Auxiliary lane
+An additional lane provided on the nearside of the major
+road carriageway at junctions to increase merge or diverge
+opportunity and/or provide additional space for weaving
+traffic.
+Changeover
+A carriageway layout which effects a change in the
+designated use of the middle lane of a WS2+1 road from one
+direction of traffic to the opposite direction.
+Collector road
+A road separate to the junction which collects other local
+roads and accesses into a link that connects to the minor
+road in advance of the junction.
+Compact grade separated junction
+A grade separated junction designed with a two-way
+unsegregated connector road between the major and minor
+road. The connector road joins the major road via a priority
+junction designed to this document.
+Corner taper
+A short taper following the corner radius provided to
+accommodate the swept path of larger vehicles.
+Crossroads
+For the purpose of this document, crossroad junctions are
+where the centre line of a minor road, when extended across
+the major road, fits within the carriageway of an opposing
+priority junction.
+Design vehicle
+The design vehicle for at-grade priority and signal controlled
+junctions is a 16.5 metres long articulated heavy goods
+vehicle (HGV).
+Desirable minimum stopping sight
+distance
+Desirable minimum stopping sight distance (SSD) is as
+defined in CD 109 [Ref 5.N].
+Direct access
+A connection to an all-purpose trunk road providing access
+to only one of the following, which does not provide a
+through route:
+1) a single dwelling;
+2) a single field;
+3) a single-use public utilities site (such as an electric
+substation) where access is needed for maintenance of that
+specific site only; or,
+4) a single-use highway maintenance site (such as an
+attenuation pond) where access is needed for maintenance
+of that specific site only.
+Duplicate primary signal(s)
+Where there is more than one primary signal, additional
+signals erected to the offside are duplicate primary signal(s).
+Ghost island
+A major road central treatment that uses road markings to
+create an additional lane to allow traffic waiting to turn right
+from the major road into the minor road to do so without
+impeding through traffic movement.
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 9 of 74
+======================================================================
+CD 123 Version 2.1.0
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Hatched area
+An area of road marking hatching used to discourage and/or
+channel vehicle movements.
+Intervisibility zone
+The area within a signal-controlled junction that ensures road
+users can see other road users (including pedestrians)
+between each stop line.
+Major road central treatment
+A collective term for the central treatments associated with
+ghost island, single lane dualling or dual carriageway
+junctions.
+Major road
+A road on which traffic has priority of movement over
+adjoining roads.
+Minor road
+A road on which traffic concedes priority to traffic on the
+major road.
+Overtaking sections
+Sections of two-lane single carriageway where the
+combination of horizontal and vertical alignment, visibility
+and or width is such that there are clear opportunities for
+overtaking using the opposing lane, as described in CD 109
+[Ref 5.N].
+Phase
+The sequence of conditions applied to one or more streams
+of vehicular traffic or pedestrian traffic which always receive
+identical light signal indications.
+Primary signal
+A light signal erected near the stop line.
+NOTE: Where there is more than one signal located near a
+stop line, the signal on the nearside is the primary signal.
+Priority junction
+A junction controlled by a 'Give Way' or 'Stop' arrangement.
+NOTE 1: Stop arrangements are only used where there are
+severe visibility restrictions.
+NOTE 2: Direct accesses can operate in a similar manner
+but are not classed as priority junctions.
+NOTE 3: A priority junction can include a merge taper where
+the formal 'Give Way' road marking is replaced by an edge of
+carriageway road marking.
+Reservoir length
+The length required for queuing between the opposing arms
+of a staggered junction.
+Rural roads
+Rural roads are as defined in CD 109 [Ref 5.N].
+Secondary signal
+Traffic signals located beyond the primary signal, facing the
+same direction of traffic flow.
+NOTE: The information given by a secondary signal is the
+same as that given by the primary signal with which it is
+associated, but additional information compatible with that of
+the primary can also be given.
+Signal-controlled junction
+A junction that has full or part-time signals on one or more of
+its arms.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 10 of 74
+======================================================================
+CD 123 Version 2.1.0
+Terms and definitions
+Terms (continued)
+Term
+Definition
+Simple priority junction
+A form of priority junction where there is no major road
+central treatment, such as a ghost island or single lane
+dualling, and no merging/diverging tapers or auxiliary lanes.
+Single lane dualling
+A single carriageway major road central treatment that uses
+physical traffic islands to provide space for right turning
+movements in and/or out of the minor road in order to not
+impede through traffic movement.
+Stagger distance
+The distance along the major road between the centre lines
+of the two minor roads at a staggered junction.
+Staggered junction
+A junction arrangement where the major road is continuous
+through the junction and two opposing minor roads form
+priority junctions that are offset from one another.
+NOTE: Two opposing priority junctions are not staggered
+when the layout of any central treatments do not overlap or
+the junction spacing is greater than the major road SSD.
+Storage length
+Storage length is the length over which vehicles can queue
+without causing obstruction to, or being obstructed by,
+vehicles in the adjacent lane.
+Swept path
+The swept path of a vehicle is the movement and path of
+different parts of a vehicle when that vehicle is undertaking a
+turning manoeuvre. It is the envelope swept out by the sides
+of the vehicle body, or any other part of the structure of the
+vehicle.
+Taper merge / diverge
+An area of additional carriageway that is tapered to/from the
+major road, which is provided on the nearside of the major
+road carriageway at junctions to increase merge or diverge
+opportunity.
+Through route
+A road that is for public use, which provides a connection to
+the wider road network.
+NOTE: A road that does not form part of a through route
+requires a road user to access and leave a site through the
+same junction.
+Traffic island
+A traffic island is a raised (kerbed) or marked-off area on the
+road.
+NOTE: A traffic island can be used to accommodate
+pedestrian refuges and traffic signals, and as a means of
+separating lanes of traffic or opposing traffic flows.
+Urban roads
+Urban roads are as defined in CD 109 [Ref 5.N].
+WS2+1 roads
+A wide single carriageway road with two lanes of travel in
+one direction and a single lane in the opposite direction, with
+a 1 metre hatch separating opposing traffic flows.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 11 of 74
+======================================================================
+CD 123 Version 2.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the geometric design of at-grade priority junctions and
+signal-controlled junctions.
+NOTE 1
+This document is applicable to both new and improved junctions.
+NOTE 2
+This document does not cover the general provision of walking, cycling and horse riding facilities at
+at-grade priority junctions. Requirements and advice relating to this are provided in CD 143 [Ref 3.N]
+and CD 195 [Ref 2.N].
+1.2
+This document shall be used for the geometric design of the priority junction element of a compact
+grade separated junction.
+NOTE
+Requirements for the link road element of a compact grade separated junction are provided in CD 122
+[Ref 4.N].
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving the geometric design of
+at-grade priority and/or signal controlled junctions on the Overseeing Organisations' all-purpose trunk
+roads according to the implementation requirements of GG 101 [Ref 6.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 6.N] shall be followed in respect of activities covered by
+this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 12 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+2.
+Junction selection
+Priority junction selection
+2.1
+Priority junctions shall not be used on motorways or all-purpose dual three-lane carriageways.
+2.1.1
+Priority junctions should not be located on a sharp curve on a major road.
+NOTE 1
+The placement of a priority junction on the inside of a sharp curve is particularly hazardous as this can
+restrict visibility to a much greater degree than on the outside of a curve, and is likely to create blind
+spots.
+NOTE 2
+The placement of a priority junction on the outside of a sharp curve can result in drivers on the major
+road misinterpreting the minor road as the ahead direction. Equally drivers on the minor road could
+misinterpret the layout as drivers on the mainline as having to give way.
+2.1.2
+Priority junctions should only be located on level ground or where any approach that is on a downhill
+gradient does not exceed 2% over the applicable desirable minimum stopping sight distance (SSD).
+2.1.3
+The number of priority junctions providing access to the all-purpose trunk roads should be minimised.
+NOTE
+Minimising the number of junctions on a road can be achieved by connecting side roads and accesses
+to a collector road running parallel to the main road.
+2.2
+Priority junctions that do not form a through route shall not be provided on overtaking sections.
+2.3
+Simple priority junctions shall only be used on single-carriageway roads without a climbing lane.
+2.3.1
+The selection of priority junction and major road central treatment for single carriageway roads should
+be determined based on the standard of major road and traffic flows on both the major and minor
+roads. Figure 2.3.1 illustrates approximate levels of provision for varying traffic flows.
+Figure 2.3.1 Approximate priority junction provision on single carriageway roads
+based on flows only
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 13 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+NOTE
+The 2-way AADT design year flows are used to determine the approximate level of junction provision
+prior to more detailed traffic modelling to check capacity.
+2.3.2
+At junctions where there are high seasonal variations, or short intense peaks in the traffic flows, then
+the appropriate seasonal or peak flows should be used.
+NOTE 1
+Figure 2.3.1 takes into account traffic delays, entry and turning traffic flows and collision costs.
+NOTE 2
+Seasonal or peak flows need to be extrapolated to determine revised 2-way AADT flows for use in
+Figure 2.3.1.
+2.4
+New priority junctions shall not be sited where they encroach on the visibility requirements of adjacent
+priority junctions on major roads with:
+1) a speed limit of greater than 40 mph; or,
+2) a speed limit of 40 mph or less, where the minor road forms part of a through route.
+NOTE 1
+In England and Wales, on major roads with a speed limit of 40 mph or less, decisions on priority
+junctions where the minor road does not form part of a through route, and direct accesses, are first
+dealt with by the local planning authority.
+NOTE 2
+The placement of priority junctions in relation to lay-bys is covered in CD 169 [Ref 3.I].
+WS2+1 roads
+2.5
+On WS2+1 roads, priority junctions shall only be;
+1) located at changeovers;
+2) located at WS2+1 to S2 interfaces; or,
+3) on the adjoining S2 road, at least 500 metres from the point where the road cross-section changes
+from a WS2+1 cross section.
+NOTE 1
+Priority junctions can be used to facilitate a changeover of overtaking lanes on WS2+1 roads. This is
+shown diagrammatically in Figures 2.5N1a to 2.5N1d.
+Figure 2.5N1a Priority junction layouts at changeovers - conflicting layout
+Figure 2.5N1b Priority junction layouts at changeovers - non-conflicting layout
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 14 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Figure 2.5N1c Staggered junction layouts at changeovers - conflicting layout
+Figure 2.5N1d Staggered junction layouts at changeovers - non-conflicting layout
+NOTE 2
+Priority junctions can be used at the interface between WS2+1 roads and S2 single carriageway roads.
+This is shown diagrammatically in Figures 2.5N2a to 2.5N2e.
+Figure 2.5N2a Right-turn at end of single lane section
+Figure 2.5N2b Right-turn at end of overtaking lane section
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 15 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Figure 2.5N2c Right-turn at start of single lane section
+Figure 2.5N2d Right-turn at start of overtaking lane section
+Figure 2.5N2e Staggered junction layouts at WS2+1 interface
+2.6
+Priority junctions on WS2+1 roads shall include either;
+1) a ghost island central treatment; or,
+2) a physical central reserve to prevent right turn movements.
+NOTE
+At priority junctions the middle lane is dedicated to right-turning traffic, with a single lane provided in
+each direction through the junction.
+2.7
+Left-in/left-out priority junctions shall only be provided on WS2+1 roads where they are included as part
+of a compact grade separated junction, with a physical central reserve instead of the middle lane.
+2.8
+Where there is a physical central reserve on WS2+1 carriageways, u-turns shall be prohibited at both
+ends of the central island.
+2.9
+An additional fourth lane for right turning vehicles shall not be provided on WS2+1 roads.
+Dual carriageway roads
+2.10
+At priority junctions on dual carriageways, where right turns in and/or out of the minor road are to be
+accommodated, the central reserve shall be widened to provide waiting space for vehicles turning right
+(as illustrated in Figure 2.10).
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 16 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Figure 2.10 Example of dual carriageway central reserve widening for a priority
+junction
+NOTE
+Provision of turning facilities allows vehicles of nearly all lengths turning right from the minor road into
+the major road to carry out the manoeuvre in two stages.
+2.10.1
+Priority junctions should not be provided on rural dual carriageway roads where the minor road flows
+exceed 3,000 vehicles AADT 2-way.
+2.11
+Priority junctions shall be located a minimum of 500 metres in both directions from the end of the
+physical central reserve where the carriageway changes from a single carriageway to a dual
+carriageway.
+NOTE
+Priority junctions at changes in carriageway cross section can lead to an increase in accident potential
+because of the merging manoeuvres that will be occurring on the major road at this point.
+Major road central treatment selection
+2.12
+Priority junctions shall include a major road central treatment when the minor road flow exceeds 300
+vehicles 2-way annual average daily traffic (AADT), or the major road flow exceeds 13,000 vehicles
+2-way AADT.
+NOTE 1
+Priority junctions can be designed as all movement junctions or restricted movement junctions (with
+individual movements deterred or prevented).
+NOTE 2
+Priority junctions can be used in combination with a major road central treatment and as part of a
+compact grade separated junction.
+NOTE 3
+Priority junctions with no major road central treatment are simple priority junctions.
+Ghost island central treatment
+2.13
+Ghost islands shall not be used where overtaking opportunities on adjacent links are restricted.
+2.13.1
+On new single carriageways where overtaking opportunity is limited, ghost island junctions should be
+sited on non-overtaking sections.
+2.14
+Ghost islands shall only be used where major road traffic flows allow traffic turning right out of the minor
+road to do so in one manoeuvre.
+2.14.1
+On urban roads with a speed limit of 30 mph or less, where a ghost island cannot be accommodated, a
+passing bay as illustrated in Figure 2.14.1 may be used.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 17 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Figure 2.14.1 Illustrative example of a passing bay
+NOTE
+A passing bay provides space for through vehicles to pass vehicles waiting to turn right into the minor
+road but only at low speed.
+Single lane dualling (SLD) central treatment
+2.15
+SLD shall not be used within 3 km of the tip of taper to a dual carriageway.
+2.16
+SLD shall not be used on WS2+1 or where there is a climbing lane in one direction through the junction.
+2.17
+SLD layouts shall only be used on roads with hard strips.
+2.18
+SLD shall be formed by widening the major road to provide a central reservation that includes waiting
+space for vehicles turning right.
+2.18.1
+SLD should be used in preference to ghost islands where overtaking opportunities on adjacent links are
+restricted, and/or where traffic turning right out of the minor road would need to make this manoeuvre in
+two stages.
+2.18.2
+On new single carriageways where overtaking opportunity is limited, SLD junctions should be sited on
+non-overtaking sections.
+NOTE
+The improved carriageway cross section can result in a tendency for drivers to speed up through the
+junction where slow moving vehicles can be crossing or turning.
+Permitted movements at SLD and dual-carriageway priority junctions
+2.19
+Where right turns in or out of a minor road at SLD junctions are restricted by traffic islands, u-turns shall
+be prohibited at both ends of the central island.
+2.19.1
+Right turning movements out of the minor road at SLD and dual-carriageway junctions should be
+restricted by traffic islands where these movements can be accommodated at a subsequent junction,
+such as a roundabout.
+NOTE 1
+Restricting right turn movements out of the minor road at SLD and dual-carriageway junctions can
+reduce collision risk by:
+1) removing interaction between vehicles turning right into the minor road and out of the minor road,
+which can cause confusion as to who has priority; and,
+2) eliminating the need for larger vehicles that cannot be fully sheltered in the central gap having to
+undertake the right turn out in one stage or overhanging the through lanes if they decide to
+undertake the movement in two stages.
+NOTE 2
+A round trip of approximately 2 km can be considered an acceptable diversion to eliminate right turn
+movements out of the minor road for private accesses, developments and little used minor or
+unclassified roads at SLD and dual-carriageways junctions.
+NOTE 3
+Illustrative examples of SLD and dual carriageway priority junctions with restricted movements are
+shown in Figures 2.19.1N3a and 2.19.1N3b.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 18 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Figure 2.19.1N3a Example of a SLD junction with the right turn out of the minor road
+prevented
+Figure 2.19.1N3b Example of a dual carriageway prority junction with right turns
+into and out of the minor road prevented
+Crossroads and staggered junctions
+2.20
+Where the centre line of a minor road, when extended across the major road, fits within an opposite
+priority junction carriageway (as illustrated on Figure 2.20) the junction shall be designed as a
+crossroads and not a staggered junction.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 19 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Figure 2.20 Crossroad layout
+2.21
+Crossroads shall only comprise two opposing simple priority junctions.
+NOTE 1
+As simple priority junctions are not permitted on dual carriageway roads, crossroads can only be used
+on single carriageway roads.
+NOTE 2
+Staggered junctions are safer than crossroads where a significant proportion of the flow on the minor
+roads is a crossing movement.
+2.22
+The stagger distance of a junction shall be measured as the distance along the major road between the
+centre lines of the two minor roads.
+2.22.1
+Where staggered junctions are provided they should be right/left staggers (where minor road traffic
+crossing the major road first turns right, proceeds along the major road and then turns left).
+NOTE
+Right/left staggers are preferred to left/right staggers because traffic turning between the minor roads is
+less likely to have to wait in the centre of the major road.
+2.23
+The minimum right/left stagger distance shall be:
+1) 50 metres for priority junctions with no major road central treatment;
+2) 50 metres for a ghost island junction;
+3) 40 metres for a SLD junction; and,
+4) 60 metres for a dual carriageway junction.
+2.24
+The minimum left/right stagger distance for a priority junction with no major road central treatment shall
+be 50 metres.
+2.25
+The minimum left/right stagger distance for a priority junction with no major road central treatments
+shall be as given in Table 2.25.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 20 of 74
+======================================================================
+CD 123 Version 2.1.0
+2. Junction selection
+Table 2.25 Minimum stagger distances for left/right staggered junctions
+Stagger distance (metres)
+Design speed (kph)
+Ghost island
+Single lane dualling
+Dual carriageway
+50
+50
+--
+60
+60
+50
+--
+60
+70
+60
+--
+60
+85
+75
+75
+75
+100
+100
+100
+100
+120
+--
+--
+130
+NOTE
+For higher design speeds, the distance is based on the sum of the two deceleration lengths lying side
+by side plus the turning lengths (and queuing lengths, if appropriate) at each end, otherwise it is based
+on the manoeuvring requirements of the design vehicle.
+2.26
+Staggered junctions shall not be used on climbing lane sections.
+Signal-controlled junctions
+2.27
+Where the 85th percentile speed on the approach roads is greater than or equal to 104 kph (65 mph), a
+signal-controlled junction shall not be provided.
+Direct accesses
+2.28
+Direct accesses shall not be used on motorways, all-purpose dual three-lane carriageways and on
+WS2+1 roads.
+2.29
+Direct accesses shall not be provided on overtaking sections.
+2.29.1
+Direct accesses should be avoided where possible.
+NOTE 1
+The primary purpose of the trunk road network is to provide for the safe and expeditious movement of
+long distance through traffic. That means strictly limiting the number of direct accesses to trunk roads.
+NOTE 2
+Direct accesses can be joined together with a link or service road before they join the main carriageway
+of the trunk road.
+2.29.2
+Direct accesses on single carriageway roads should not be positioned facing each other.
+2.30
+On dual carriageways, gaps in the central reserve to accommodate right turns in and out of a direct
+access shall not be provided.
+2.31
+Direct accesses shall not be provided at locations where the major road gradient is greater than 4%.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 21 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+3.
+Visibility
+Minor road approach visibility
+Priority junctions
+3.1
+On a minor road approach to a priority junction, there shall be unobstructed visibility of the junction from
+a distance corresponding to the desirable minimum SSD for the design speed of the minor road,
+including the 'give way' sign where present, as illustrated in Figure 3.1.
+Figure 3.1 Priority junction approach SSD visibility
+NOTE
+SSD is measured from the eye heights and to the object heights given in CD 109 [Ref 5.N].
+3.2
+An approaching road user shall be able to clearly see the junction form from a minimum distance of 15
+metres back along the centreline of the minor road, measured from the continuation of the line of the
+nearside edge of the running carriageway of the major road (as illustrated in Figure 3.2a and 3.2b).
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 22 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+Figure 3.2a Priority junction approach visibility
+Figure 3.2b Priority junction approach visibility (incorporating tapers on the
+mainline and traffic island on the minor road)
+NOTE 1
+The 15 metre measurement is from the continuation of the line of the nearside edge of the running
+carriageway not the continuation of the back of the major road hard strip if present.
+NOTE 2
+Visibility is measured from the eye heights and to the object heights using the envelope of visibility in
+CD 109 [Ref 5.N].
+Direct accesses
+3.3
+Where a direct access crosses a footway, a visibility splay shall be provided in accordance with Figure
+3.3.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 23 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+Figure 3.3 Visibility at the back of footway crossing
+Junction visibility
+Measurement of visibility at minor roads and direct accesses
+3.4
+Unobstructed visibility shall be provided at all priority junctions and direct accesses by a visibility splay
+formed between the following three points, as illustrated in Figure 3.4:
+1) a point W corresponding to the intersection point between the minor road centreline and the major
+road edge of carriageway;
+2) a point X setback along the minor road centreline measured from the continuation of the line of the
+nearside edge of the running carriageway of the major road; and,
+3) a point Y on the major road nearside edge of carriageway, corresponding to the desirable minimum
+SSD for the speed of the major road measured along the edge of the major road carriageway from
+point W.
+Figure 3.4 Priority junction visibility splays
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 24 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+NOTE 1
+Visibility is measured from the eye heights and to the object heights given in CD 109 [Ref 5.N].
+NOTE 2
+The visibility splays shown are for a junction where left and right splays are required.
+NOTE 3
+Where there are hard strips on the major road, point X is measured from the continuation of the line of
+the nearside edge of the running carriageway of the major road.
+NOTE 4
+Inappropriate positioning of lay-bys, bus stops, traffic signs and other street furniture can result in
+obstruction to visibility splay.
+NOTE 5
+Parked vehicles can obstruct visibility splays and where necessary restrictions can be introduced to
+mitigate this risk.
+3.5
+The speed of the major road for determining point Y in the visibility splay shall be based on:
+1) design speed only for direct accesses and priority junctions on new major roads;
+2) design speed only for priority junctions that form part of a through route on existing major roads; and,
+3) design speed or speed measurement for direct accesses and priority junctions that do not form part
+of a through route on existing major roads.
+NOTE
+Speed measurement of an existing major road involves calculating the 85th percentile speed of traffic.
+3.6
+A visibility splay to the right on the minor road shall be provided:
+1) at all priority junctions and direct accesses where minor road traffic can join a 2-way major road; and,
+2) at all priority junctions and direct accesses where minor road traffic can turn left to join a 1-way major
+road.
+3.6.1
+Visibility splays to the right on the minor road should also be provided at priority junctions and direct
+access where minor road traffic can turn right to join a 1-way major road and there are contraflow
+provisions (e.g. for cyclists).
+3.7
+A visibility splay to the left on the minor road shall be provided:
+1) at all priority junctions and direct accesses where minor road traffic join a 2-way single carriageway
+major road;
+2) at all priority junctions and direct accesses where minor road traffic can turn right to join a 2-way
+dual-carriageway road and the central reserve gap is not wide enough to accommodate a waiting
+design vehicle; and,
+3) at priority junctions and direct accesses where minor road traffic can turn right to join a 1-way major
+road.
+3.7.1
+Visibility splays to the left on a 1-way road should also be provided at priority junctions and direct
+access where minor road traffic can turn left to join a 1-way major road and there are contraflow
+provisions (e.g. for cyclists).
+NOTE
+Where the minor road is one way leading from the major road, no visibility splays for vehicles turning
+out of the minor road are required as these movements are not permitted.
+3.7.2
+On a 1-way major road, visibility splays may be provided in both directions for vehicles turning out of
+the minor road.
+NOTE
+Visibility splays in both directions at a 1-way major road provides a level of future proofing, and
+accommodates potential traffic management arrangements.
+3.8
+The minimum distance used to locate point X shall satisfy one of the following:
+1) for direct access:
+a) 4.5 metres; or,
+b) 2.0 metres.
+2) for simple priority junctions:
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 25 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+a) 9.0 metres; or,
+b) 2.4 metres.
+3) for all other priority junctions:
+a) 9.0 metres; or,
+b) 4.5 metres.
+3.8.1
+The minimum distance used to locate point X should be in accordance with a) for each junction/access
+type.
+3.8.2
+Where it is not feasible to locate point X fully in accordance with a), the minimum distance used to
+locate point X should be as close to a) as practicable, but no less than b).
+3.9
+Where the line between points X and Y falls partially within the major road carriageway, an additional
+area shall be added to the visibility splay formed by drawing a line from X to a point tangential to the
+nearer edge of the major road running carriageway, as illustrated in Figure 3.9.
+Figure 3.9 Additional area of visibility on the outside of a curved major road
+NOTE
+The additional area of visibility on the outside of the curve (as illustrated in Figure 3.9) applies to both
+the left and right of a priority junction/direct access.
+3.10
+Where a priority junction/direct access is located on the outside of a major road curve, an additional
+area shall be added to the visibility splay in the verge on the inside of the major road curve, formed by a
+line between the following two points, as illustrated in Figure 3.10:
+1) a point X at a set back distance of 2.4 m; and,
+2) a point V on the major road offside edge of running carriageway, corresponding to the desirable
+minimum SSD for the speed of the major road.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 26 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+Figure 3.10 Additional area of visibility on the inside of a curved major road
+NOTE 1
+The additional area of visibility on the inside of the curve (as illustrated in Figure 3.10) applies to both
+the left and right of a priority junction/direct access.
+NOTE 2
+Where there are hard strips on the major road, point V is measured to the nearside edge of the running
+carriageway not the back of the major road hard strip.
+NOTE 3
+Providing the additional visibility in the verge on the inside of a major road curve allows drivers to see
+the full extent of the carriageway and approaching vehicles for the desirable minimum SSD.
+3.11
+The desirable minimum SSD at all priority junctions shall not be available from an X distance greater
+than 9 metres.
+NOTE
+In open areas, it can be necessary to artificially restrict the visibility splay to prevent the desirable
+minimum SSD being available from an X distance of greater than 9 metres.
+Measurement of visibility in the central reserve
+3.12
+Unobstructed visibility shall be provided in the centre of the major road, on dual carriageway and SLD
+junctions where right turns are permitted, by a visibility splay formed between the following three points,
+as illustrated in Figure 3.12:
+1) the intersection point between the centre of the opening and the offside edge of major road
+carriageway;
+2) a point 2.4 metre setback along the centre of the opening measured from the continuation of the line
+of the offside edge of the running carriageway of the major road; and,
+3) a point Y on the major road offside edge of carriageway, corresponding to the desirable minimum
+SSD for the design speed of the major road measured from the 2.4 metre setback point.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 27 of 74
+======================================================================
+CD 123 Version 2.1.0
+3. Visibility
+Figure 3.12 Central reserve visibility splays
+NOTE
+Visibility is measured from the eye heights and to the object heights given in CD 109 [Ref 5.N].
+3.13
+Visibility splays in the central reserve of dual carriageways or SLD shall be provided in the following
+circumstances:
+1) visibility splay A, as illustrated in Figure 3.12, where right turn into the minor road is permitted/and/or;
+2) visibility splay B, as illustrated in Figure 3.12, where right turn out of the minor road is permitted.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 28 of 74
+======================================================================
+CD 123 Version 2.1.0
+4. Geometric design of direct accesses
+4.
+Geometric design of direct accesses
+4.1
+Direct accesses shall only be used where access is to only one of the following and that access will be
+subject to less than 50 vehicle movements per week:
+1) a single dwelling;
+2) a single field;
+3) a single-use public utilities site (such as an electric substation) where access is needed for
+maintenance of that specific site only; or,
+4) a single-use highway maintenance site (such as an attenuation pond) where access is needed for
+maintenance of that specific site only.
+4.1.1
+A direct access should not be provided on trunk roads where it is feasible to provide an alternative
+access onto the local road network.
+4.1.2
+A priority junction may be provided instead of the direct access.
+4.2
+The layout in Figure 4.2 shall be provided as the minimum level of provision for a direct access.
+Figure 4.2 Direct access layout
+NOTE
+Hardened strips can be provided at field accesses to assist in the removal of mud from tyres and
+equipment prior to entering the trunk road.
+4.2.1
+The width of a direct access for a single dwelling should be a minimum of;
+1) 3.1 metres where building regulations apply to the access width; or,
+2) 2.5 metres where building regulations do not apply to the access width.
+NOTE
+A minimum width of 3.1 metres allows access by a typical fire and rescue service vehicle as detailed in
+The Building Regulations 2010, Approved Document B - Fire Safety, Volume 1 - Dwellings [Ref. ISBN
+9781 1 914124 02 0 [Ref 2.I].
+4.2.2
+The width of a direct access for fields, public utilities sites and highway maintenance sites should be a
+minimum of 3.5 metres.
+4.2.3
+The entry splays at direct accesses should be a minimum of 1 metre by 1 metre for a single dwelling
+and 2 metre by 2 metre for fields, public utilities sites and highway maintenance sites.
+4.3
+Where entrance gates are provided across a direct access they shall be set back to accommodate one
+vehicle in the access, clear of the main running lane and footway if one is present.
+NOTE
+The vehicle to be accommodated is the largest type expected to use the access on a regular basis,
+which in the case of farm vehicles can include a trailer.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 29 of 74
+======================================================================
+CD 123 Version 2.1.0
+4. Geometric design of direct accesses
+4.3.1
+Gates for direct accesses should open away from the highway.
+4.3.2
+Where it is not possible to accommodate gates opening away from the highway, the setback should be
+increased to accommodate them being fully open without encroaching into the carriageway.
+4.4
+For direct accesses, the gradient on the approach to the trunk road shall not exceed 10% either uphill
+or downhill.
+4.5
+For direct accesses, the gradient on the access approach shall not exceed 4% over one of the following
+distances, measured from the edge of the major road carriageway:
+1) 10 metres; or,
+2) 5 metres.
+4.5.1
+The distance over which the gradient does not exceed 4% should be in accordance with 1).
+4.5.2
+Where it is not feasible to provide a distance over which the gradient does not exceed 4% fully in
+accordance with 1), the distance should be as close to 1) as practicable, but no less than 2).
+4.5.3
+For direct accesses, the gradient on the access approach should not exceed 2% immediately adjacent
+to the trunk road.
+NOTE
+Providing a relatively flat section prevents drivers having to perform a 'hill start', which reduces the risk
+of vehicles stalling or inadvertently rolling out into the major road.
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 30 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+5.
+Geometric design of priority junctions
+General
+5.1
+The road camber on the major road shall be retained through the junction with the minor road graded
+into the channel line of the major road.
+5.2
+Allowance shall be made for the swept turning paths of the worst case design vehicle which is expected
+to use the priority junction, unless:
+1) the design vehicle is expected to form only a very small percentage of the total number of vehicles
+that will use the junction; and,
+2) any swept path conflicts as a result of the design vehicle encroaching into other lanes will not occur
+on bends.
+NOTE
+In cases where hard strips are present, the design vehicle is assumed to use the additional space
+during turns and at simple junctions, the design vehicle can encroach into opposing traffic lanes.
+5.3
+For priority junctions, the maximum gradient on the minor road approach shall satisfy one of the
+following over a minimum distance of 15 metres, measured from the edge of the major road
+carriageway:
+1) 2%; or,
+2) 4%.
+5.3.1
+The maximum gradient on the minor road approach should be in accordance with 1).
+5.3.2
+Where it is not feasible to provide a maximum gradient on the minor road approach fully in accordance
+with 1), the maximum gradient should be as close to 1) as practicable, but no less than 2).
+NOTE
+Providing a relatively flat section prevents drivers having to perform a 'hill start', which reduces the risk
+of vehicles stalling or inadvertently rolling out into the major road.
+5.4
+At new priority junctions, the angle of the minor road approach, measured over 15 metres from the
+edge of the major road carriageway, shall satisfy one of the following:
+1) 90 degrees; or,
+2) a minimum of 70 degrees.
+5.4.1
+The angle of the minor road approach should be in accordance with 1).
+5.4.2
+Where it is not feasible to provide the angle of the minor road approach fully in accordance with 1), the
+angle should be as close to 1) as practicable, but no less than 2).
+NOTE
+Angles less than 70 degrees can result in drivers having to look excessively over their shoulders or the
+major road approach being in a vehicle blind spot.
+Corner radii and corner radii tapers
+5.5
+At all priority junctions, corner radii shall be provided where the edge of the carriageways or kerb lines
+of the major and minor roads intersect at each corner where turning movements need to be
+accommodated.
+5.6
+Corner radii shall be measured for simple priority junctions, and priority junctions with merge/diverge
+tapers or auxiliary lanes in accordance with Figure 5.6.
+Figure 5.6 Corner radii
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 31 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+5.6.1
+At simple priority junctions where no provision is to be made for the design vehicle, the minimum corner
+radii should be:
+1) 6 metres in urban areas; and,
+2) 10 metres in rural areas.
+5.6.2
+At simple priority junctions where provision is made for the design vehicle, the corner radii should be:
+1) 10 metres in urban areas followed by a corner taper of 1:5 over a distance of 30 metres;
+2) 15 metres in rural areas followed by a corner taper of 1:10 over a distance of 25 metres; and
+3) 15 metres followed by a corner taper of 1:8 over a distance of 32 metres, when part of a staggered
+junction arrangement.
+NOTE 1
+Merge and diverge tapers allow mainline traffic to accelerate or decelerate, whereas corner tapers
+allow for the swept path of large vehicles while turning round the corner radii.
+NOTE 2
+For the left turn into the minor road, the corner taper is provided along the minor road, and for left turns
+out of the minor road the taper is provided along the major road, as illustrated in Figure 5.6.2N2.
+Figure 5.6.2N2 Corner radius tapers at priority junctions without diverge tapers or
+auxiliary lanes
+5.6.3
+At ghost island junctions where no diverge or merge tapers are provided, the corner radii should be 15
+metres followed by a corner taper of 1:6, over a distance of 30 metres.
+5.6.4
+At ghost island junctions, where a diverge taper/auxiliary lane is provided, the corner radii should be:
+1) 15 metres followed by a corner taper of 1:6 over a distance of 30 metres at the merge;
+2) a minimum of 20 metres at the end of the diverge taper/auxiliary lane where the major road design
+speed is 85 kph; or,
+3) a minimum of 40 metres at the end of the diverge taper/auxiliary lane where the major road design
+speed is greater than 85 kph.
+5.6.5
+At SLD, dual carriageway priority junctions, and where there is a mainline physical central island on a
+single carriageway road, the diverge corner radii should be:
+1) 20 metres where no diverge taper/auxiliary lane is provided; or,
+2) a minimum of 20 metres at the end of the diverge taper/auxiliary lane where the major road design
+speed is 85 kph; or,
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 32 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+3) a minimum of 40 metres at the end of the diverge taper/auxiliary lane where the major road design
+speed is greater than 85 kph.
+NOTE
+Mainline physical central islands on the single carriageway road are used as part of a compact grade
+separated junction layout.
+5.6.6
+At SLD, dual carriageway priority junctions, and where there is a mainline physical central island on a
+single carriageway road, the merge corner radii should be:
+1) 20 metres where no merge taper/auxiliary lane is provided; or,
+2) 25 metres where the major road design speed is 85 kph and a merge taper is provided; or,
+3) 30 metres where the major road design speed is greater than 85 kph and a merge taper is provided.
+NOTE
+Mainline physical central islands on the single carriageway road are used as part of a compact grade
+separated junction layout.
+Carriageway widths
+5.7
+Where a physical traffic island is provided on the minor road, the minor road approach lanes shall be
+4.0 metres wide at the tip of the associated hatched marking.
+NOTE
+Lane widths do not include hard strips (if they are present).
+5.7.1
+Where no physical traffic island is provided on the minor road, the existing minor road lane width should
+at least continue up until the start of the corner radius, or 'give way' line if no corner radius is to be
+provided.
+5.8
+Where a physical traffic island is provided on a minor road, the width of the minor road approach lane
+adjacent to the island at its furthest point from the major road (as illustrated in Figure 5.8) shall be:
+1) 4.0 metres at simple priority and ghost junctions where there is a single lane at the 'give way' line;
+2) 4.5 metres at SLD and dual carriageway junctions where there is a single lane at the 'give way' line;
+and,
+3) 5.5 metres where the approach widens to two lanes at the 'give way' line.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 33 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+Figure 5.8 Minor road approach and exit lane widths
+5.9
+Where a physical traffic island is provided on a minor road, the width of the minor road exit lane
+adjacent to the island at its furthest point from the major road (as illustrated in Figure 5.8) shall be:
+1) 4.0 metres at simple priority junctions;
+2) 4.5 metres for ghost island junctions; and,
+3) 5.0 metres for SLD and dual carriageway junctions.
+5.10
+For curves which have a radius of 90 metres or less, minimum lane widths shall be in accordance with
+Table 5.10.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 34 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+Table 5.10 Lane widening on curves of 90 metre radius or less
+Inside curve
+radius
+(metres)
+Single lane carriageway or inside lane of two
+lane carriageway
+(metres)
+Outside lane of two lane
+carriageway
+(metres)
+10
+8.4
+6.5
+15
+7.1
+6.0
+20
+6.2
+5.6
+25
+5.7
+5.2
+30
+5.3
+5.0
+40
+4.7
+4.6
+50
+4.4
+4.3
+75
+4.0
+4.0
+90
+3.8
+3.8
+NOTE 1
+Where carriageways are taken around short radius corners added width provides the necessary space
+to cater for the swept path of larger vehicles.
+NOTE 2
+Lane widths for radii greater than 90 metres are given in CD 109 [Ref 5.N].
+5.11
+For actual curve radii that fall between two curve radius values given in Table 5.10, the minimum lane
+width shall be interpolated.
+5.12
+On single-lane sections greater than 50 metres in length, there shall be sufficient carriageway space to
+allow a broken down vehicle to be passed by other vehicles.
+5.12.1
+For curves which have a radius of 90 metres or less, hard strips that provide an additional 2.5 metres
+minimum of carriageway space should be added to the single-lane carriageway widths given in column
+2 of Table 5.10 to allow a broken down vehicle to be passed by other vehicles.
+NOTE
+The addition of 2.5 metres carriageway width does not apply to two-lane carriageways in column 2 of
+Table 5.10.
+Minor road traffic islands
+5.13
+Physical traffic islands shall have an area of at least 4.5 square metres.
+5.13.1
+Traffic islands smaller than 4.5 square metres should be defined by road markings.
+NOTE
+Traffic islands can be used to :
+a) give guidance to long vehicles carrying out turning movements;
+b) channelise intersecting or merging traffic streams to reduce collision risk from overrun;
+c) warn drivers on the minor road that a junction is ahead (this can be particularly useful at
+crossroads to highlight the need to give way and the location of the 'give way' line);
+d) provide shelter for vehicles waiting to carry out manoeuvres such as waiting to turn right;
+e) assist pedestrians and/or cyclists.
+5.13.2
+Physical traffic islands should include features to make them conspicuous, e.g. traffic bollards and
+signage.
+5.13.3
+Traffic islands on minor roads should be physical islands.
+5.14
+Physical traffic islands shall be used on the minor road where one or more turning movements are
+prohibited to prevent or deter such movements.
+5.15
+Junctions that form part of a compact grade separated junction shall include physical islands to prevent
+right turn manoeuvres in to and out of the major road.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 35 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+5.16
+Traffic islands on the minor road shall be setback a minimum of 1 metre from the edge of running
+carriageway or in-line with the back of major road hard strip if the hard strip is equal to or greater than 1
+metre wide.
+Diverge tapers and auxiliary lanes
+General
+5.17
+Nearside diverging tapers and auxiliary lanes shall not be provided:
+1) at simple junctions;
+2) where the design speed of the major road is less than 85 kph; and/or,
+3) at all other priority junctions that are on the inside of curves.
+NOTE
+Where the minor road is on the inside of a curve, the diverging lane can adversely affect visibility for
+drivers emerging from the minor road.
+5.18
+At non-simple junctions which are not on the inside of a curve, a nearside diverging taper or auxiliary
+lane shall be provided in accordance with Table 5.18a and 5.18b.
+Table 5.18a Criteria for provision of nearside diverging tapers or auxiliary lanes on A class
+major roads with a design speed of 85kph or greater
+A class major roads with a design
+speed of ≥85 kph
+Minor road
+Flow ≤7000
+AADT
+Flow > 7000
+AADT
+A and B class road
+Yes
+Yes
+left turning traffic ≥600 AADT; or,
+left turning traffic ≥450, > 20% HGV; or,
+left turning traffic ≥450, > 4% gradient.
+Yes
+Yes
+Non A or B class
+road
+left turning traffic ≥300 and < 600
+AADT; or,
+left turning traffic ≥225 and < 450, > 20
+% HGV; or,
+left turning traffic ≥225 and < 450, > 4%
+gradient.
+Optional
+Yes
+Table 5.18b Criteria for provision of nearside diverging tapers or auxiliary lanes all other major
+roads
+Major roads other than A class with a design speed
+of ≥85 kph
+Minor road
+Flow ≤7000 AADT
+Flow > 7000 AADT
+left turning traffic ≥600 AADT; or
+left turning traffic ≥450, > 20% HGV; or,
+left turning traffic ≤450, > 4% gradient.
+Yes
+Yes
+left turning traffic ≥300 and < 600 AADT;
+or,
+left turning traffic ≥225 and < 450, > 20%
+HGV; or,
+left turning traffic ≥225 and < 450, > 4%
+gradient.
+Optional
+Yes
+NOTE
+Diverging tapers and auxiliary lanes can also be provided on major roads where the design speed is 85
+kph or above, and the minor road flows are below the thresholds described in Tables 5.18a and 5.18b.
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 36 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+5.18.1
+Where the major road flow exceeds 7000 AADT, auxiliary lanes should be provided instead of tapers
+for diverging traffic.
+NOTE
+Vehicles decelerating on main carriageways can have an effect on the capacity of the through
+carriageway by impeding following drivers. The provision of an auxiliary lane allows turning traffic to
+perform the majority of its deceleration off the mainline.
+Diverge taper and auxiliary lane widths and lengths
+5.19
+Nearside diverging tapers shall be formed by an increase in width to 3.5 metres at the start of the
+corner radii into the minor road.
+5.20
+Where right turns into the minor road are permitted, a 'Give Way' line shall be provided at the end of the
+diverging taper or auxiliary lane.
+5.20.1
+Where a 'Give Way' line is provided, a traffic island should be provided to segregate the give way from
+the major road.
+5.21
+The length of a nearside diverging taper or auxiliary lane shall be measured as the distance from the
+beginning of the taper up to the "Give Way" line, as shown in Figure 5.21a and 5.21b.
+Figure 5.21a Major/minor priority junctions with nearside diverging taper
+Figure 5.21b Major/minor priority junction with nearside auxiliary lane
+5.22
+The minimum length of a nearside diverging taper or auxiliary lane shall be in accordance with Table
+5.22.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 37 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+Table 5.22 Diverge taper, auxiliary lane and right turn lane lengths for deceleration
+Diverge taper or auxiliary lane deceleration lengths (metres)
+On 'up'
+gradient
+On 'down' gradient
+over 4%
+Design
+speed
+(kph)
+0 - 4
+%
+over 4
+%
+0 - 4
+%
+Dual
+carriageways
+Single carriageway
+(including ghost islands and
+SLD locations)
+Direct
+taper
+(metres)
+50
+25
+25
+25
+25
+25
+5
+60
+25
+25
+25
+40
+25
+5
+70
+40
+25
+40
+55
+40
+15
+85
+55
+40
+55
+80
+55
+15
+100
+80
+55
+80
+110
+80
+25
+120
+110
+80
+110
+150
+110
+30
+NOTE
+The gradient is the average for a 500 metre length before the minor road.
+5.22.1
+For design speeds of 100 kph or less, auxiliary lane lengths should be a minimum of 80 metres, and
+sufficient to allow for the speed change from the major road to the turn into the minor road.
+NOTE
+The auxiliary lane length can also be influenced by any need for reservoir space for turning traffic.
+Merging tapers
+General
+5.23
+Merging tapers shall only be used where the major road is a dual carriageway.
+5.24
+Where the major road is a dual carriageway with a design speed of 85 kph or above, merging tapers
+shall be provided where:
+1) the volume of left turning traffic in the design year exceeds 600 vehicles AADT;
+2) the volume of left turning traffic in the design year exceeds 450 vehicles AADT and the percentage
+of HGVs exceeds 20%; or,
+3) the volume of left turning traffic in the design year exceeds 450 vehicles AADT and the merging
+taper is for an up-gradient of greater than 4%.
+5.24.1
+Merge tapers may be provided at dual carriageway priority junctions with lesser flows and/or lesser
+HGV percentages.
+NOTE
+Merge tapers can be particularly useful where there is expected to be a high seasonal use by large or
+slow moving vehicles.
+Merging tapers widths and length
+5.25
+Merging tapers shall be formed by a decrease in width from 3.5 metres at the end of the corner radii out
+of the minor road.
+5.25.1
+A traffic island should be provided to segregate the turning traffic from the major road prior to the
+commencement of the merging taper.
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 38 of 74
+======================================================================
+CD 123 Version 2.1.0
+5. Geometric design of priority junctions
+Figure 5.25.1 Major/minor priority junction with nearside merging taper
+5.26
+The minimum lengths of the merging tapers shall be as given in Table 5.26.
+Table 5.26 Merging taper lengths (on dual carriageways)
+Merging length (metres)
+Design speed
+(kph)
+Priority junctions where the minor road is not a through
+route.
+All other priority
+junctions
+85
+70
+90
+100
+90
+110
+120
+110
+130
+5.26.1
+On dual carriageways with a design speed of 120 kph, the merging taper should be preceded by a
+40-metres nose, which has a minimum back of nose width of 2 metres (as indicated on Figure 5.26.1).
+Figure 5.26.1 Major/minor priority junction with nearside merging taper (alternative
+for dual carriageway with a design speed of 120 kph)
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 39 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+6.
+Geometric design of major road central treatments
+General
+Major road central treatment formation excluding on WS2+1 roads
+6.1
+Carriageway widening for a central reserve treatment shall be formed using physical islands or islands
+defined by road markings.
+6.1.1
+Central treatments for SLD and ghost islands, on single carriageways, should be developed to their
+maximum width using the tapers shown in Table 6.1.1.
+Table 6.1.1 Tapers for central islands on single carriageways
+Design speed
+(kph)
+Taper for ghost island and SLD
+50
+1:20
+60
+1:20
+70
+1:20
+85
+1:25
+100
+1:30
+120
+-
+6.1.2
+The tapers given in Table 6.1.1 on single carriageway roads, should be developed:
+1) symmetrically on straight sections of road;
+2) asymmetrically towards the outside of the curve on curved sections of road; and,
+3) asymmetrically away from the climbing lane on climbing lane sections.
+6.1.3
+For SLD, the central island should be introduced by means of hatched road markings until there is
+sufficient width to safely accommodate the keep left arrow traffic sign (at an appropriate size for the
+speed of the road) on the physical island.
+6.1.4
+Central treatments for dual carriageways should be developed to their maximum width using the tapers
+shown in Table 6.1.4.
+Table 6.1.4 Tapers for central islands on dual carriageways
+Design speed (kph)
+Taper for dual carriageways
+50
+1:40
+60
+1:40
+70
+1:40
+85
+1:45
+100
+1:50
+120
+1:55
+6.1.5
+The maximum island width should continue through the junction to the tangent point of the minor road
+radius and the edge of the major road carriageway.
+Major road central treatment formation on WS2+1 roads
+6.2
+On WS2+1 roads where compact grade separation is not provided, central treatments shall be formed
+as shown in Figures 6.2a to 6.2f.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 40 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.2a Formation of conflicting central treatment layout on WS2+1 road
+Figure 6.2b Formation of WS2+1 interface central treatment layout on WS2+1 road
+Figure 6.2c Formation of right-turn at end of overtaking lane section on WS2+1 road
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 41 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.2d Formation of right-turn at end of overtaking lane section on WS2+1 road
+Figure 6.2e Formation of right-turn at start of overtaking lane section on WS2+1
+road
+Figure 6.2f Formation of right-turn at start of single lane section on WS2+1 road
+NOTE
+Where a junction is located at the interface between a WS2+1 and a single carriageway, requirements
+for the carriageway cross-section transition are provided in CD 127 [Ref 1.N].
+Major road central treatment right turning lane length
+6.3
+For all central treatments, the right turning lane shall be comprised of a turning length, deceleration
+length and direct taper length as shown in Figures 6.3a to 6.3e.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 42 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.3a Major / minor priority junction with a ghost Island on single carriageway
+Figure 6.3b Major / minor priority junction with a up-gradient ghost island on
+climbing lane
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 43 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.3c Major / minor priority junction with a down-gradient ghost island on
+climbing lane
+Figure 6.3d Major / minor priority junctions with SLD
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 44 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.3e Dual carriageway major / minor priority junction
+NOTE
+In Figures 6.3a to 6.3e the labelled dimensions are as indicated below:
+1) a is the turning length (plus the queuing length, if required);
+2) b is the deceleration length;
+3) c is the through lane width;
+4) d is the turning lane width; and,
+5) e is the direct taper length.
+6.3.1
+The deceleration lengths at left/right staggered junctions on an SLD or dual carriageway may lie side by
+side.
+6.4
+The turning length shall be a minimum of 10 metres.
+NOTE
+The turning length is provided to allow long vehicles to position themselves correctly for the right turn.
+6.5
+Where capacity calculations indicate that for significant periods of time there can be vehicles queuing to
+turn right from the major road, the turning length shall be increased to accommodate the forecast
+maximum queue length.
+6.5.1
+Where the turning length has been increased to the forecast queue length at a ghost island, physical
+islands should be provided within the hatched areas to provide greater protection to turning traffic.
+6.6
+For right turning lanes, the direct taper length and the minimum deceleration length shall be provided in
+accordance with Table 5.22.
+6.6.1
+The radii associated with the opening of the central reserve island for both SLD junctions (Figure 6.3d)
+and dual carriageway priority junctions (Figure 6.3e) should accommodate the turning movements of
+the largest vehicle type permitted to use the junction, such that overrunning of the physical islands are
+prevented.
+Ghost islands
+Through lane widths
+6.7
+At ghost island junctions on WS2+1 roads, the through lane widths in each direction shall be 3.5
+metres, exclusive of hard strips.
+6.8
+At ghost island junctions on roads other than WS2+1 roads, the through lane widths in each direction
+shall be a minimum of 3.0 metres and a maximum of 3.65 metres wide, exclusive of hard strips.
+6.8.1
+At ghost island junctions on climbing lanes, the through lane widths in each direction should be 3.5
+metres, exclusive of hard strips.
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 45 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Island and right turning lane widths on WS2+1 roads
+6.9
+The width of the right turning lanes on WS2+1 roads shall be 4.5 metres.
+NOTE
+A width of 4.5 metres is utilised to allow the 3.5 metre central lane width and 1 metre hatching to be
+continued through the junction.
+Island and right turning lane widths on all roads except WS2+1
+6.10
+The minimum widths of right turning lanes (excluding those on WS2+1 roads), shall satisfy one of the
+following:
+1) 3.5 metres; or,
+2) 3.0 metres for new junctions; or,
+3) 2.5 metres for improvements to existing junctions.
+NOTE
+A narrow right turn lane down to 2.5m wide is only for improvements to existing junctions where space
+is limited and it is not possible to widen the carriageway cross section, e.g. in urban areas where the
+carriageway is bounded by buildings.
+6.10.1
+The widths of the right turning lanes should be in accordance with 1) for both new and existing junctions.
+6.10.2
+Where it is not feasible to provide the widths of the right turning lanes fully in accordance with 1), the
+widths should be as close to 1) as practicable, but no less than 2) or 3) depending on whether the
+junction is new or existing.
+6.11
+On urban roads the width of the right turning lane shall not exceed 5.0 metres.
+NOTE
+Widths between 3.65 m and 5.0 m can be used on urban roads where it is considered necessary to
+provide a degree of shelter in the centre of the road for large goods vehicles turning out of the minor
+road to execute the turn in two separate manoeuvres.
+6.11.1
+On rural roads, with design speeds above 85 kph or where hard strips are present, the width of the right
+turning lane at new and existing junctions should not exceed 3.65 metres.
+NOTE
+Lane widths greater than 3.65m are inadvisable on higher speed rural roads because wide ghost
+islands in these situations create a sense of space that can encourage hazardous overtaking at
+junctions.
+6.12
+At left/right staggered junctions, where the deceleration lengths have the potential to overlap, the width
+of the ghost island shall not be increased to make them lie side by side.
+6.13
+At left/right staggered junctions, where the deceleration lengths have the potential to overlap, the
+starting points of the right turn lanes shall be joined by a straight road marking, as shown in Figure 6.13.
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 46 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.13 Ghost island configuration at left/right staggered junction
+NOTE
+At higher design speeds, the full width of the turning lane on the ghost island is not developed until the
+end of the diverging section (as shown in Figure 6.13).
+SLD and dual carriageway
+Through lane widths
+6.14
+At SLD junctions, the through lane in each direction shall be 4.0 metres wide exclusive of hard strips.
+NOTE
+A 4.0 metre width of the through lane with hard strips allows traffic to pass a stopped vehicle within the
+paved width.
+6.15
+At dual-carriageway junctions the through lane widths shall be the same as those either side of the
+junction.
+NOTE
+For central reserve openings on dual carriageway, the requirements for the through lane cross-sections
+are provided in CD 127 [Ref 1.N].
+Island and right turning lane dimensions
+6.16
+The width of the central reserve island (including hard strips) adjacent to the minor road (see Figure
+6.16), shall be a minimum of:
+1) 10 metres where the right turn out of the minor road is permitted; or,
+2) 8.5 metres at new junctions where the right turn out of the minor road is prevented; or,
+3) 8 metres at existing junctions where the right turn out of the minor road is prevented.
+Figure 6.16 Major / minor priority junctions with SLD
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 47 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+6.16.1
+Where use by long vehicles is expected at junctions where the right turn out of the minor road is
+permitted, the width of the central island adjacent to the minor road should be 14.0 metres or 16.5
+metres (including central reserve hard strips) to accommodate the design vehicle and drawbar trailer
+vehicle respectively.
+6.17
+The minimum width of any part of an SLD or central reserve island shall be 3.5 metres.
+NOTE
+The narrowest part of the physical island is usually located at the end of the direct taper, (shown in
+Figure 6.16).
+6.18
+The length of central reserve opening (excluding hard strips) adjacent to the minor road (see Figure
+6.16) shall be
+1) 15.0 metres where the right turn out of the minor road is permitted; or,
+2) a minimum of 8.0 metres where the right turn out of the minor road is prevented.
+6.18.1
+The length of the central reserve opening at junctions where the right turn out of the minor road is
+prevented should be increased over the minimum if site-specific swept vehicle path analysis using the
+largest vehicle permitted to use the junction indicates that this is necessary.
+NOTE
+Increasing the amount of overlap of the physical islands will further discourage road users from
+attempting to turn right out of the minor road where this movement is prevented.
+6.18.2
+Sections in the central reserve opening at SLD and dual carriageway junctions should fall towards,
+rather than away, from the minor road.
+NOTE 1
+The carriageway falling towards, rather than away, from a minor road is particularly important where
+there is super-elevation across the main carriageway.
+NOTE 2
+Where the carriageway does not fall towards the minor road at a central reserve opening, drivers can
+potentially:
+1) fail to see the full width of the furthest carriageway from their position on the minor road;
+2) not immediately appreciate the road they are joining is a dual carriageway (particularly with SLD); or,
+3) attempt to perform the right turn out of the minor road in one stage (by thinking that the width
+available in the central reserve appears insufficient to accommodate waiting vehicles).
+6.19
+Where the right turn out of the minor road is prevented, a minimum of 3 metres overlap between the
+minor road central island and the mainline central reserve (as illustrated in Figure 6.19) shall be
+provided.
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 48 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.19 Overlap between physical islands at SLD and dual carraigeway priority
+junctions where the right turn out of the minor road is prevented.
+6.20
+Where deceleration lengths at left/right staggered junctions on an SLD or dual carriageway lie side by
+side, a physical island shall be provided to separate them, as illustrated in Figures 6.20a and 6.20b.
+Figure 6.20a SLD configuration at left/right staggered junction
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 49 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.20b Dual carriageway configuration at left/right staggered junction
+Physical central reserve layout on WS2+1
+Through lane widths
+6.21
+The through lane in each direction shall be 3.5 metres wide with a 1 metre wide nearside hard strip, as
+illustrated in Figure 6.21.
+Figure 6.21 Through lane and island widths on dualled sections of WS2+1 roads
+NOTE
+The central reserve is formed by terminating the overtaking lane section prior to the junction, so that
+one 3.5 metre lane runs in each direction through the junction.
+Central island layout
+6.22
+The central island shall be introduced by means of hatched road markings over a taper of 130 metres
+as illustrated in Figure 6.22.
+48
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 50 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Figure 6.22 Introduction of dualling at grade separated junctions on WS2+1 road
+6.23
+The central island shall be 5 metres wide, made up of a 2-metre physical island and 1.5-metre hard
+strips either side.
+6.24
+The central reserve shall extend a minimum of 50 metres at each end, measured from the end of the
+nearside radius of the minor road entry lanes, to prevent right turns.
+6.24.1
+The central reserve may be extended further than 50 metres at either end to further reduce the risk of
+right turns and/or u-turns.
+Passing bays
+6.25
+Dimensions for passing bays shall be based on swept path analysis and the number and size of
+vehicles expected to be waiting to turn right at a given time.
+NOTE 1
+Passing bays allow through vehicles to pass vehicles waiting to turn right in the centre of the major
+road, albeit at a reduced speed.
+NOTE 2
+Figure 6.25N2 and Table 6.25N2 provide typical dimensions for passing bays to accommodate different
+combinations of waiting vehicles where the major and minor road are both nominally 7.3 metres wide.
+49
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 51 of 74
+======================================================================
+CD 123 Version 2.1.0
+6. Geometric design of major road central treatm...
+Table 6.25N2 Geometric parameters for a passing bay
+Dimensions (metres)
+Expected vehicles
+P1
+P2
+P3
+P4
+P5
+Car and car
+18.8
+13.0
+10.9
+5.0
+0.8
+Car and HGV
+28.7
+18.5
+15.2
+5.0
+1.35
+HGV and HGV
+30.5
+33.2
+15.2
+5.0
+2.8
+Figure 6.25N2 Passing bay dimensions
+50
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 52 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+7.
+Geometric design of signal-controlled junctions
+Junction intersection
+7.1
+At new signal controlled junctions, the minimum intersection angle of the roads (refer to Figure 7.1.2)
+shall satisfy one of the following:
+1) 90 degrees; or,
+2) a minimum of 70 degrees.
+7.1.1
+The intersection angle of the roads should be in accordance with 1).
+7.1.2
+Where it is not feasible to provide an intersection angle fully in accordance with 1), the angle should be
+as close to 1) as practicable, but no less than 2).
+Figure 7.1.2 Intersection angle of roads forming a signal controlled junction
+NOTE
+Intersection angles of less than 70 degrees can cause problems with driver comprehension of the
+junction, intervisibility, tight turning manoeuvres and turning speeds.
+Visibility at signal-controlled junctions
+Visibility of signals
+7.2
+Each traffic lane shall have clear visibility of at least one primary signal associated with its particular
+movement, from a distance equivalent to the desirable minimum SSD of the approach road.
+7.2.1
+Duplicate primary signals should be provided on approaches with a speed of 85 kph or above.
+7.3
+Visibility to the primary signal shall be in accordance with the CD 109 [Ref 5.N] visibility envelope, but
+with the high object height amended to incorporate the signal head where this exceeds 2 metres, as
+indicated in Figure 7.3.
+51
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 53 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Figure 7.3 Visibility requirements on approach to junction
+7.3.1
+Where multiple lanes are provided on the approach, a signal-controlled junction may have offside
+primary, double-headed or overhead additional signals to ensure visibility of the signals from all lanes.
+7.3.2
+A minimum of 2 signals should be visible from each approach arm and each stop-line.
+NOTE
+The 2 signals usually comprise a primary and a secondary signal.
+7.3.3
+Additional signal heads may be provided where a driver's vision of the signal head could be obscured
+(for example by a lorry in the lane adjacent to the signal).
+7.3.4
+Where separate signalling of turning movements is employed, a minimum of 2 signals should be visible
+from each approach lane associated with each of the turning movements and each associated stop-line.
+NOTE
+Where separate signalling of turning movements is employed, a signal post can then display
+information applicable to more than one turning movement.
+7.3.5
+Primary signal heads should be located a minimum of 1 metre beyond the stop-line.
+7.3.6
+Primary signal heads should be located in advance of crossing studs or marks if pedestrian facilities
+are provided.
+7.3.7
+At junctions with angled approaches, the secondary signal should be displaced a maximum angle of
+30o from the driver's line of forward sight, as indicated in Figure 7.3.7.
+Figure 7.3.7 Locating secondary signals
+7.3.8
+The distance between the stop-line and an associated secondary signal should not exceed 50 metres.
+7.3.9
+Where multi-phased signal layouts are provided, an additional secondary signal may be utilised.
+NOTE
+Multi-phased signal layouts can result in "see through" where road users (at point X) could be confused
+by the signal at the next stop-line (point Y), as indicated in Figure 7.3.9N where a displaced pedestrian
+crossing is illustrated. In these situations, an additional secondary signal can aid driver understanding.
+52
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 54 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Figure 7.3.9N Example of a small signal-controlled T-junction multi-phased signal
+layout
+7.3.10
+The desirable minimum SSD should be provided to the back of the queue.
+NOTE
+The back of the queue could be in excess of the immediate approach to the junction as defined in CD
+109 [Ref 5.N].
+Junction intervisibility zone
+7.4
+An intervisibility zone shall be provided that incorporates an area that extends across the full
+carriageway width of each arm from a distance of 2.5 metres back from each stop line, as illustrated in
+Figure 7.4.
+Figure 7.4 Junction intervisibility zone (without crossings)
+53
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 55 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+7.5
+Where an advance stop-line (ASL) is provided, the intervisibility zone shall be measured from a point
+2.5 m behind the cyclists' stop-line.
+7.5.1
+Where a staggered pedestrian crossing is provided, the section of the crossing immediately adjacent to
+the junction should be included in the junction intervisibility zone.
+NOTE
+The junction intervisibility zone does not need to be extended to incorporate a crossing facility that is
+remote from the junction and operates independently of the junction.
+7.6
+No substantial fixed obstructions shall be located within the intervisibility zone of new junctions.
+NOTE
+Details of what constitutes a substantial fixed obstruction are provided in CD 109 [Ref 5.N].
+7.6.1
+No substantial fixed obstructions should be located within the intervisibility zone of existing junctions.
+Entry lanes, exit lanes and storage capacity
+Lane widths
+7.7
+At new junctions, the minimum width of straight ahead lanes shall be 3.0 metres.
+7.8
+At existing junctions, the minimum width of straight ahead lanes shall satisfy one of the following:
+1) 3.0 metres; or,
+2) 2.5 metres where the 85th percentile approach speed exceeds 56 kph (35 mph) and/or it is
+necessary to make provision for HGVs; or,
+3) 2.25 metres where the 85th percentile approach speed does not exceed 56 kph (35 mph) and it is
+not necessary to make provision for HGVs.
+NOTE
+Existing junctions can be an existing signal-controlled junction or an existing priority junction being
+upgraded.
+7.8.1
+The minimum width of the straight ahead lanes should be in accordance with 1) for all situations.
+7.8.2
+At existing junctions, straight ahead lanes should only be reduced to 2.5m or less, if this allows the total
+number of lanes to be increased.
+7.8.3
+Straight ahead lanes should be a maximum of 3.65 metres wide at both new and existing junctions.
+7.8.4
+A minimum width of 4.0 metres should be provided between physical islands where cycle demand
+indicates a need.
+7.9
+Dedicated lanes for left or right turning traffic shall be a minimum of 3.0 metres wide.
+NOTE 1
+Junction capacity can be increased by widening the road in the vicinity of the junction to provide
+dedicated left or right turn lanes.
+NOTE 2
+Vehicles in dedicated turning lanes can often move independently to those in other lanes and therefore
+lane widths greater than 3 metres are often necessary to allow for this.
+7.10
+Dedicated lanes for left-or right-turning traffic shall be developed with tapers of 1 in 5, as illustrated in
+Figure 7.10.
+54
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 56 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Figure 7.10 Dedicated turning lane arrangement for a left-turn approach lane
+7.10.1
+On single carriageway roads, right-turn entry lanes may be accommodated by the provision of a
+hatched island, as illustrated in Figure 7.10.2.
+7.10.2
+On single carriageway roads, hatched islands for right-turn lanes should be developed symmetrically
+from the centre line of the road with a minimum taper of 1 in 10 and a direct taper of 7.5 metres, as
+illustrated in Figure 7.10.2.
+Figure 7.10.2 Right turn lane hatched island layout
+Storage length
+7.11
+The storage length shall be measured from the stop line to the furthest point upstream where the total
+number of entry lanes are at full width, as illustrated in Figure 7.10.2.
+7.11.1
+The storage length of the left- and right-turn entry lanes should be designed:
+1) to meet the capacity requirements of the junction;
+2) to accommodate the longest queue of stopped traffic (to avoid turning traffic blocking the adjacent
+lane); and,
+3) to avoid traffic being prevented from entering the left- or right-turn lane where there is a high
+proportion of straight ahead traffic queuing in the adjacent lane.
+55
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 57 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Exit lane continuity
+7.12
+Where it is necessary to reduce the numbers of lanes on an exit, this shall be carried out on either the
+nearside or the offside depending on the prevailing traffic flows on the exit arm.
+7.12.1
+Where it is necessary to reduce the number of lanes on the exit arm, a single lane should be reduced
+over a distance of 100 metres starting at or beyond the limit of the junction intervisibility zone, as
+illustrated in Figure 7.12.1.
+Figure 7.12.1 Lane continuity through junction intervisibility zone
+NOTE
+The use of lane markings within the junction intervisibility zone, can be beneficial to direct traffic
+streams and reduce conflict where entry- and exit-lane widths vary or the alignment through the
+junction is not a direct path.
+Other geometrical elements of signal-controlled junctions
+Swept path and corner radii
+7.13
+The design of a signal-controlled junction shall allow for the swept turning paths of the design vehicle
+where provision is to be made for large goods vehicles.
+7.13.1
+The design of a signal-controlled junction should incorporate turning radii to cater for the swept paths of
+the worst case vehicle that can be reasonably expected to use the junction on a frequent basis.
+NOTE
+The worst case vehicle is the vehicle that has the most onerous swept path.
+7.14
+Where provision is to be made for large goods vehicles, the values for corner radii and associated
+tapers shall be the same as for a priority junction (refer to Section 5).
+7.14.1
+Where no provision is to be made for large goods vehicles, the minimum corner radii should be the
+same as for a priority junctions (refer to Section 5).
+NOTE 1
+Where the layout of a signal controlled junction has not generally be designed to cater for large goods
+vehicles, these vehicles can have difficulty in completing a manoeuvre without encroaching into
+opposing lanes. In such situations, stop-lines (and crossings if present) can be set back to beyond
+where such a conflict would occur. This is illustrated in Figure 7.14.2N1.
+56
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 58 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Figure 7.14.1N1 Setting back stop-lines
+NOTE 2
+When offsetting stop lines as illustrated in Figure 7.14.2N, the junction intervisibility zone will need to be
+enlarged to suit.
+7.14.2
+Stop-lines on adjacent entry lanes should not be staggered.
+NOTE
+At staggered stop-lines, large goods vehicles in the nearside entry lane can prevent vehicles in the
+offside entry lane seeing the nearside primary signal or pedestrians.
+Traffic islands (including at left-turn slips)
+7.15
+The nosing of central reserves and pedestrian refuges shall be set back a minimum distance of 1.5
+metres from the edge of carriageway of the intersecting road.
+7.15.1
+Pedestrian crossings and any associated refuges should be located beyond the limits of the junction
+radii to minimise crossing distance.
+7.16
+A minimum clearance of 450 mm shall be provided between the edge of carriageway and any street
+furniture.
+NOTE
+It can be necessary to provide additional clearance between the edge of carriageway and any street
+furniture where the carriageway crossfall is greater than 2.5%
+7.17
+Traffic islands shall be provided to separate uncontrolled traffic from controlled traffic where left-turn slip
+lanes are provided.
+7.17.1
+Traffic islands may be provided to separate two independently controlled lanes of traffic on the same
+entry.
+7.17.2
+Left-turn slip lanes may be signal-controlled or uncontrolled.
+7.17.3
+A left-turn slip lane should be provided where:
+1) the left-turn traffic movement is high;
+2) left-turn manoeuvres for large goods vehicles need to be facilitated;
+3) delay for left-turn vehicles would otherwise be significant;
+57
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 59 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+4) left-turn traffic capacity requirements would extend the green time required for the straight ahead
+traffic movement phase.
+7.17.4
+A single pedestrian crossing route through a signal-controlled junction should not include a mix of
+controlled and uncontrolled crossing points.
+NOTE 1
+Pedestrian crossings at uncontrolled left-turn slip lanes can be particularly hazardous due to the
+potential for higher traffic speeds at these locations. When deciding to site crossings at uncontrolled
+left-turn slips, it is important to consider the:
+1) visibility levels between pedestrians and approaching traffic; and,
+2) availability of suitable gaps in traffic flow for pedestrians to cross.
+NOTE 2
+Further design requirements for pedestrian crossings on segregated left-turn lanes are provided in CD
+116 [Ref 1.I].
+NOTE 3
+Traffic islands can assist in providing safe crossings for pedestrians whilst improving traffic capacity by
+the incorporation of pedestrian call stages.
+NOTE 4
+Design requirements for pedestrian refuges are provided in CD 143 [Ref 3.N].
+Right-turning traffic movements
+7.18
+On roads with a design speed of 85 kph or higher, right turning lane(s) shall be separately signalled and
+segregated from the adjacent ahead-only lane(s) by a traffic island.
+NOTE
+Where opposing right turn lanes can be aligned directly opposite each other, layouts that encourage
+traffic to pass in front rather than behind each other can be used to improve traffic flow. They can also
+allow a small number of right turning vehicles to wait within the junction intervisibility zone. This is
+illustrated in Figures 7.18Na and 7.18Nb.
+Figure 7.18Na Aligned non-hooking arrangement
+58
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 60 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Figure 7.18Nb Offset non-hooking arrangement
+7.18.1
+The central reserves on the major road may be offset to encourage right turning traffic to pass in front
+rather than behind each other. This is illustrated in Figure 7.18Nb.
+NOTE
+The inclusion of a separation island as part of a right turning arrangement that encourages traffic to
+pass in front rather than behind each other can be useful to deflect traffic where the two arms are offset
+from each other. This is illustrated in Figure 7.18.1N.
+59
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 61 of 74
+======================================================================
+CD 123 Version 2.1.0
+7. Geometric design of signal-controlled junctio...
+Figure 7.18.1N Example of existing signal-controlled junction subject to design
+constraints
+7.18.2
+Where the 85th percentile approach speed is greater than 72 kph (45 mph), right-turns should be
+separately signalled.
+NOTE
+Where the 85th percentile approach speed is greater than 72 kph (45 mph), there is an increased risk
+of accidents between right-turning vehicles seeking gaps and on-coming vehicles travelling at speed.
+Location of controller cabinets
+7.19
+The controller cabinet shall not be situated such that it causes either physical or visual obstruction to
+road users and pedestrians.
+7.19.1
+The controller cabinet should be positioned to allow visibility from the controller cabinet to the signal
+head and stop-line for each junction arm.
+NOTE
+Access and parking arrangements for the servicing of the signal equipment form part of the junction
+layout design.
+60
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 62 of 74
+======================================================================
+CD 123 Version 2.1.0
+8. Normative references
+8.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CD 127, 'Cross-sections and headrooms'
+Ref 2.N
+Highways England. CD 195, 'Designing for cycle traffic'
+Ref 3.N
+Highways England. CD 143, 'Designing for walking, cycling and horse riding
+(vulnerable users)'
+Ref 4.N
+National Highways. CD 122, 'Geometric design of grade separated junctions'
+Ref 5.N
+Highways England. CD 109, 'Highway link design'
+Ref 6.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+61
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 63 of 74
+======================================================================
+CD 123 Version 2.1.0
+9. Informative references
+9.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+Highways England. CD 116, 'Geometric design of roundabouts'
+Ref 2.I
+The National Archives. HM Government. ISBN 9781 1 914124 02 0, 'The Building
+Regulations 2010, Fire Safety - Approved Document B - Volume 1 - Dwellings'
+Ref 3.I
+Highways England. CD 169, 'The design of lay-bys, maintenance hardstandings, rest
+areas, service areas and observation platforms'
+62
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 64 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Appendix A. Examples of signal-controlled junction layouts and impact on
+signal operation
+A1
+Opposing right turns at signal-controlled junctions
+Collisions at signal-controlled junctions can occur as a result of conflicts arising from right turning traffic
+movements. To mitigate this risk, opposing right turns should run separate phases or with a late start
+wherever the signal timings, junction capacity and geometric layout can facilitate this.
+A2
+Signal-controlled T-junctions
+A2.1
+Small urban signal controlled T-junction
+Figure A.1 illustrates a simple, small urban signal-controlled T-junction, typical of a situation where
+available road space is restricted and usage by large goods vehicles is expected to be low.
+For the purpose of this example, it is assumed that the low pedestrian movements combined with the
+necessity to provide a right turn from Arm C to Arm B have led to a decision not to provide a pedestrian
+crossing on Arm C.
+The following specific design features are incorporated into the example:
+1) circular corner radii without tapers (no provision for swept paths of large goods vehicles);
+2) a 'displaced' pedestrian crossing on Arm B linked to the junction signals; and
+3) an in-line pedestrian crossing on Arm A.
+Figure A.1 Example of a small signal-controlled T-junction
+63
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 65 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+A2.2
+Large urban or larger rural signal-controlled T-junction
+Figure A.2 indicates an example of a large urban or larger rural signal-controlled T-junction between
+two dual carriageways, typical of a situation where available road space is not severely restricted, and
+a significant proportion of large goods vehicles is anticipated on all arms. It is assumed that a
+pedestrian crossing cannot be provided on Arm A due to localised physical constraints.
+The following specific design features are incorporated into the example:
+1) signal-controlled left turn slip lanes and separation islands (Arm A to B and B to C);
+2) larger corner radii with tapers (provision for swept paths of large goods vehicles);
+3) all staggered pedestrian crossings are indicated in the preferred orientation; and
+4) road markings provided to channelise traffic.
+Figure A.2 Example of a large signal-controlled T-junction
+A3
+Signal-controlled crossroads
+A3.1
+Urban signal-controlled crossroads
+Figure A.3 illustrates an example of an urban signal-controlled crossroads, typical of a situation where
+available road space is restricted but there is sufficient width to provide a localised central reserve on
+the major road. The presence of large goods vehicles in significant proportions is not expected and the
+major road is an important bus route. The following design features are incorporated into the example:
+1) localised widening on the major road to facilitate a staggered pedestrian crossing facility;
+2) circular corner radii without tapers (no provision for large goods vehicles); and
+3) bus lane discontinued on approach to junction (Arm A).
+In Figure A.3, the bus lane has been terminated in advance of the junction intervisibility zone and the
+associated pedestrian crossing. In this example, the staggered pedestrian crossing, which is part of the
+junction signal operation, is not in the preferred orientation.
+64
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 66 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Figure A.3 Example of a signal-controlled crossroads with a staggered pedestrian
+crossing
+A3.2
+Complex urban / rural signal-controlled crossroads
+Figure A.4 illustrates an example of a larger, more complex urban or rural signal-controlled crossroad
+junction between two major dual carriageways. This example is intended to illustrate a situation where,
+although available road space is not generally restricted, there are some physical constraints which
+impose limitations on the turning provisions, junction intervisibility and the orientation of the staggered
+pedestrian crossings. The following design features are incorporated into the example:
+1) uncontrolled left turn slip lane (A to B);
+2) circular radius without tapers (Arm B to C);
+3) controlled left turn slip lane (C to D);
+4) left turn ban (Arm D to A);
+5) due to the constraints imposed by the separation island, the staggered pedestrian crossing on Arm
+C is not in the preferred orientation; and
+6) the staggered pedestrian crossing on Arm D is in the preferred orientation.
+In Figure A.4, the left turn from Arm D to Arm A is prohibited.
+65
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 67 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Figure A.4 Example of a large signal-controlled crossroad
+A4
+Signal-controlled staggered junctions
+A4.1
+Operation of signal-controlled staggered junctions
+A large stagger may result in the need to treat the layout as two separately signal-controlled junctions,
+whereas a small stagger, possibly with a banned turn, could allow the junction to be treated as a simple
+signal-controlled crossroad. The stagger distances will usually determine the phasing, stages and
+timing of the traffic signals.
+Where the stagger distance is greater than 250 metres the junctions are normally be considered as two
+separate independent signal-controlled T-junctions.
+Where the stagger distance is between 75 metres and 250 metres the junctions are normally treated as
+two separate, signal-controlled T-junctions with local linking of the signals to favour the major flows of
+traffic through the junction.
+66
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 68 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Where the stagger distance is below 75 metres the junction is normally considered a single
+signal-controlled staggered junction, provided there is sufficient reservoir length.
+As the stagger distance reduces below 75 metres, it becomes more difficult to provide for the inner stop
+lines, pedestrian crossing facilities and associated signals. The shortest effective reservoir length is 15
+metres. With a reservoir length below 15 metres, the junction is normally treated as a signal-controlled
+crossroad with special account being taken of longer clearance distances.
+Staggered signal-controlled junctions with short stagger distances could suffer from junction blocking
+due to a limited reservoir length between the two staggered arms.
+A4.2
+Left/right staggers
+Figure A.5 illustrates an example of an urban left/right staggered signal-controlled junction, typical of a
+situation where the stagger distance is less than 75 metres, the reservoir length is greater than 15
+metres and the presence of large goods vehicles in significant proportions is not expected. The
+following design features are incorporated in the example illustrated:
+a) two lane approach and departure on all arms;
+b) circular corner radii without tapers (no provision for large goods vehicles); and
+c) inner stop lines.
+A left/right stagger will usually have more onerous signal control due to the greater level of right turn
+traffic than a right/left stagger.
+If a left/right staggered junction with less than a 75 metre stagger is signal-controlled using a 2-stage
+control (i.e. both the staggered arms run together), there will be a conflict as the traffic emerging from
+one of the arms turns right across the path of vehicles turning right into the same arm (refer to the
+points marked "X" in Figure A.6). This could be hazardous if there is no intervisibility approaching the
+conflict point. Unless these movements are very low in volume and the length of stagger is small,
+3-stage signalling is normally used with separate stages for each of the staggered approaches.
+67
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 69 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Figure A.5 Example of a left/right staggered junction
+A4.3
+Right/left staggers
+Figure A.6 illustrates an example of an urban right/left staggered junction, typical of a situation where
+the stagger distance is less than 75 metres, the reservoir length is greater than 15 metres and the
+presence of large goods vehicles in significant proportions is not expected. The following design
+features are incorporated into the example illustrated:
+68
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 70 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+1) two lane approach and departure on all arms;
+2) circular corner radii without tapers (no provision for large goods vehicles); and
+3) inner stop-lines.
+With a stagger distance of 75 metres or greater, the inner stop-lines (marked "Y" on Figure A.6) are
+normally included to eliminate the very long clearance distances and extended inter-green periods
+which would otherwise be necessary.
+Where a significant volume of pedestrian movement is anticipated, it could be beneficial to provide
+pedestrian facilities at each stop-line as illustrated on Arms A, C and D of the lower half of Figure A.6.
+Where no pedestrian desire lines exist, and the stagger distance is not great, a reduced number of
+pedestrian crossing facilities could be justified, as indicated on Arms B and C of the upper half of Figure
+A.6.
+In Figure A.6, the left turn from Arm B to Arm C is prohibited.
+69
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 71 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Figure A.6 Example of a right/left staggered junction
+A5
+Signal-controlled skew junctions
+Figure A.7 illustrates an example of an existing urban signal-controlled skew junction between two
+single carriageways intersecting at 70 degrees, typical of a situation where available road space is
+restricted and the presence of large goods vehicles in significant proportions is not expected. The
+following specific design features are incorporated into the example:
+70
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 72 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+a) single lane approach and departure on all arms;
+b) circular corner radii without tapers (no provision for large goods vehicles);
+c) a simple left turn slip lane and priority junction (Arm D to A); and
+d) left turn movements from Arm B to C are prohibited due to the tight corner radius.
+Where the roads intersect at angles other than 90 degrees, the following problems can be encountered:
+1) priority might not be obvious to drivers;
+2) intervisibility could be adversely effected;
+3) the possibility of high speed turning movements on the obtuse angles of the junction;
+4) difficultly for drivers to turn around the acute angles of the junction (particularly those of larger
+vehicles); and
+5) difficulty in locating secondary signals.
+Turning radii can be improved by the introduction of left turn slip lanes. It may also be beneficial to set
+stop-lines back by a reasonable distance to accommodate the junction corner radii, any left turn slip
+lanes and to assist in locating secondary signals.
+In Figure A.7, the left left turn from Arm B to Arm C is prohibited.
+Figure A.7 Example of a signal-controlled skew junction
+A6
+Signal-controlled junctions on one-way roads
+Figure A.8 illustrates an example of a signal-controlled junction between two one-way roads (Arms A
+and B) and a two-way road (Arm C) incorporating a traffic island and pedestrian crossing facilities.
+71
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 73 of 74
+======================================================================
+CD 123 Version 2.1.0
+Appendix A. Examples of signal-controlled junction layout...
+Figure A.8 Example of a signal-controlled junction on one-way roads
+A7
+Signal-controlled junctions with more than four arms
+When signal-controlled junctions have more than 4 arms, efficient signalling is difficult to design. The
+banning of one or more right turns or directing traffic away from the junction will assist in alleviating
+these difficulties.
+72
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
+
+======================================================================
+PAGE 74 of 74
+======================================================================
+© Crown copyright 2021.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CD 123 Version 2.1.0, published: 29-Nov-2021
+
+
