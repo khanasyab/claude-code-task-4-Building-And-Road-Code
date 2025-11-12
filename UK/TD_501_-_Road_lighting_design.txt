@@ -1,0 +1,2257 @@
+======================================================================
+PAGE 1 of 38
+======================================================================
+Design Manual for Roads and Bridges
+Road Lighting
+Design
+TD 501
+Road lighting design
+Version 0.1.0
+Summary
+This document contains the requirements for the design of new and replacement road lighting on
+motorways and all-purpose trunk roads.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated National Highways team. The online feedback form for all enquiries and feedback
+can be accessed at: www.standardsforhighways.co.uk/feedback.
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 2 of 38
+======================================================================
+TD 501 Version 0.1.0
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Mutual recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations
+6
+Terms and definitions
+8
+1. Scope
+10
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Health and safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Competency
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2. General requirements for road lighting design
+11
+Performance requirements for road lighting design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Core principles for road lighting design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Non-quantifiable performance requirements for road lighting design
+. . . . . . . . . . . . . . . . . . . . . .
+11
+3. Decisions prior to design
+13
+Decisions prior to design for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Lighting arrangement and column location
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Selection of lighting class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Maintenance factor for road lighting design
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Extent of lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Luminaires for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+Control requirements for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Columns for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+4. Design process for road lighting
+15
+Outline design process for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Sustainability for road lighting design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Design for maintenance for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Design documentation for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Environmental impact for road lighting design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+5. Electrical design for road lighting
+16
+General requirements for electrical design for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Electricity supply for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Electrical distribution for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Motorway distribution for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Non-motorway distribution for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+General distribution for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Feeder pillars for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+Feeder pillar heating and ventilation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Feeder pillar internal lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Feeder pillar maintenance power . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Column and post electrical compartments for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Special installations for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Passive safe equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 3 of 38
+======================================================================
+TD 501 Version 0.1.0
+Contents
+Third party attachments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Isolation for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Lightening / surge protection for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Earthing and bonding for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Cables for road lighting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Protection of cables
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Separation of cables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Underground and ducted cables
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Ducting
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Trenches for direct-buried cables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Cables in cable troughs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Power cables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Terminations
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Cable joints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Cable continuity
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Modification to existing cables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+6. Design outputs for road lighting and illuminated traffic signs
+23
+Outputs from the design of road lighting and illuminated traffic signs
+. . . . . . . . . . . . . . . . . . . . . .
+23
+Design outputs for feeder pillars for road lighting and illuminated traffic signs
+. . . . . . . . . . . . . . . . .
+23
+Feeder pillar fabrication material and protective system
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Feeder pillar external colour
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Existing feeder pillars
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Design outputs for the integration into an existing central management system (CMS) for road lighting and
+illuminated traffic signs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Existing CMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Proposed CMS equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Base stations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Luminaire sockets and nodes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Design outputs for switching equipment for road lighting and illuminated traffic signs where there is no existing
+CMS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Photoelectric control units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Timers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+Design outputs for power cables for road lighting and illuminated traffic signs . . . . . . . . . . . . . . . . .
+27
+Design outputs for power cable ducting for road lighting and illuminated traffic signs
+. . . . . . . . . . . . .
+27
+Chambers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+Design outputs for switchgear for road lighting and illuminated traffic signs . . . . . . . . . . . . . . . . . . .
+28
+Design outputs for power cable joints for road lighting and illuminated traffic signs
+. . . . . . . . . . . . . .
+28
+Design outputs for luminaires for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Road lighting zones
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Luminaires for road lighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+Luminaire performance and characteristics
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+Commissioning of road lighting and illuminated traffic signs . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+7. Normative references
+32
+8. Informative references
+35
+Appendix A. Skill & care certificate
+36
+A1 Skill & care certificate
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 4 of 38
+======================================================================
+TD 501 Version 0.1.0
+Release notes
+Latest release notes
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 501
+0.1.0
+September 2025
+Core document
+Incremental change to
+requirements
+Minor updates to reflect changes in scope of TD 501. Minor updates to include a small number of additional asset
+types or attributes. Minor updates to operational reporting requirements to reflect changing business practice.
+Minor clarifications of wording.
+Previous versions
+Document
+code
+Version
+number
+Date of publication
+of relevant change
+Changes made to
+Type of change
+TD 501
+0
+March 2020
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 5 of 38
+======================================================================
+TD 501 Version 0.1.0
+Foreword
+Foreword
+Publishing information
+This document is published by National Highways.
+This document supersedes TD 501 [Ref 40.N] Revision 0 which is withdrawn.
+This document references the European Commission's Green Public Procurement Criteria for Street
+Lighting and Traffic Signals GPP [Ref 15.N] as well as EU and UK road lighting standards and national
+guidance documents.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 6 of 38
+======================================================================
+TD 501 Version 0.1.0
+Introduction
+Introduction
+Background
+This document provides the requirements for the design of the road lighting and associated electrical
+asset. It specifically addresses the high level approach for lighting and electrical requirements as well
+as the competencies of those involved in this area of the service.
+The development of this document draws on the European Commission Green Public Procurement
+Criteria for Street Lighting and Traffic Signals GPP [Ref 15.N] to inform the design process in order that
+the lighting provision takes account of the task and performance criteria throughout its operational life,
+and is designed, maintained and operated to be energy and sustainability efficient based upon a
+whole-life costing and asset condition assessment.
+This document supersedes TD 23/99, TD 34/07, TA 49/07 and IAN 167/12.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 19.N] apply to this document.
+This document is written for the competent lighting professional / practitioner in order that lighting
+installations are designed that are suitable for motorway and all-purpose trunk roads.
+Mutual recognition
+Where there is a requirement in this document for compliance with any part of a "British Standard" or
+other technical specification, that requirement may be met by compliance with the Mutual Recognition
+clause in GG 101 [Ref 19.N].
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 7 of 38
+======================================================================
+TD 501 Version 0.1.0
+Abbreviations
+Abbreviations
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 8 of 38
+======================================================================
+TD 501 Version 0.1.0
+Abbreviations
+Abbreviation
+Definition
+ANCI
+Annual energy consumption indicator W lx-1 m-2
+AOR
+Artificial optical radiation
+CCT
+Correlated colour temperature
+CEMA
+Circular economy assessment method
+CIE
+International Commission on Illumination
+CMS
+Central Management System
+CRI
+Color Rendering Index
+CSA
+Cross sectional area
+DNO
+Distribution network operator
+DSO
+Distribution system operator (historically referred to as a DNO)
+EI
+Electrical interface
+GPP
+EU Green public procurement directive GPP [Ref 15.N]
+IEng
+Incorporated Engineer
+ILP
+Institution of Lighting Professionals
+IET
+Institution of Engineering and Technology
+K
+Kelvin: a measure of Correlated colour temperature (CCT)
+MILP
+Member of the Institution of Lighting Professionals
+OPDDS (O-PEN)
+Open combined protective and neutral (PEN) conductor detection devices
+PDI
+Power Density Indicator W lx-1 m-2
+PME
+Protective multiple earth connection
+SPD
+Surge protection devices
+SP&N
+Single pole and neutral electrical supply
+SWA
+Steel wired armour
+TN-C-S
+Electrical supply combining the neutral and earth conductors in the supply
+cable and separates them within the installation.
+TN-S
+Electrical supply where separate conductors are used for neutral and earth.
+TP&N
+Tripple pole and neutral electrical supply
+TT
+Electrical supply where live and neutral connections are supplied and a local
+earth connection is required
+XLPE
+Cross-linked polyethylene cable insulation
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 9 of 38
+======================================================================
+TD 501 Version 0.1.0
+Terms and definitions
+Terms and definitions
+Term
+Definition
+Competent practitioner
+Typically qualified professionals able to work independently in
+relevant fields, who has training and experience relevant to the
+matter being addressed and an understanding of the requirements of
+the particular task being approached, who are expected to apply
+their own skill and judgement when making decisions involving the
+information that the DMRB contains.
+Conflict area
+Conflict areas are typically junctions, intersections, roundabouts and
+pedestrian crossings, where significant streams of motorised traffic
+intersect with each other or with other road users such as
+pedestrians and cyclists.
+Feeder pillar
+Defined within BS 7671 [Ref 36.N] Part 7. A door giving access to
+electrical equipment and located less than 2.50 m above ground
+level, locked with a key or requires a tool for access. This includes
+pillars and electrical compartments in street lighting equipment such
+as the base compartment of a column.
+Geometry
+Interrelated linear dimensions and characteristics of the road lighting
+system, i.e. spacing, mounting height, transverse position and
+arrangement.
+Light pollution / Obtrusive
+light
+A term that describes the release of light that serves no useful
+purpose as it falls outside the required area.
+Light source
+A component of the luminaire whose primary function is to produce
+visible or near-visible radiant energy for general illumination and
+includes LEDs and lamps.
+Mounting height
+Nominal vertical distance between the photometric centre of a road
+lighting luminaire and the surface of the road.
+OPDDS (O-PEN)
+Open combined protective and neutral (PEN) conductor detection
+devices (OPDDS) also termed Open protective earth neutral
+(O-PEN) devices Open Protective Earth Neutral device.
+Photobiological risk
+The term applied to risk associated to the eye when exposed to blue
+and short wavelength light sources.
+Road lighting
+A fixed lighting installation intended to provide good visibility to users
+of outdoor public traffic areas during the hours of darkness to support
+traffic safety, traffic flow and public security.
+Road lighting zone
+Section of the highway with a defined lighting performance criteria.
+Stopping sight distance
+Distance needed to bring a vehicle, driving at design speed, to a
+complete standstill. Stopping sight distances are given in CD 109
+[Ref 17.N] using the one step below desirable minimum distances.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 10 of 38
+======================================================================
+TD 501 Version 0.1.0
+Terms and definitions
+(continued)
+Sky glow
+The release of light into the night sky brightening the horizon, creates
+what is known as sky glow (as can been seen over most towns and
+cities) and reduces the enjoyment of the night sky, reducing the
+visibility of stars.
+Traffic flow
+Number of vehicles passing a specific point, at a specific time, in a
+stated time.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 11 of 38
+======================================================================
+TD 501 Version 0.1.0
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+Where the need for lighting has been established in TA 501 [Ref 39.N] this document shall be followed
+for the design of new and replacement road lighting and short tunnels on motorways and all-purpose
+trunk roads.
+NOTE 1
+The requirements for the assessment of the need for road lighting can be found in TA 501 [Ref 39.N].
+NOTE 2
+This document does not cover the requirements related to the design of lighting for long road tunnels
+(refer to BS 5489-2 [Ref 3.N] and CD 352 [Ref 5.I]).
+NOTE 3
+For the requirements relating to equipment specification not directly related to photometric
+performance, refer to the relevant clauses from TC 501 [Ref 10.N].
+NOTE 4
+A tunnel of length 200 m or less is a short tunnel.
+NOTE 5
+This document does not cover the design of road lighting power distribution networks.
+Implementation
+1.2
+This document shall be implemented forthwith on all schemes involving the design of road lighting on
+the Overseeing Organisations' motorway and all-purpose trunk roads according to the implementation
+requirements of GG 101 [Ref 19.N].
+Use of GG 101
+1.3
+The requirements contained in GG 101 [Ref 19.N] shall be followed in respect of activities covered by
+this document.
+Health and safety
+1.4
+To reduce the artificial optical radiation (AOR) hazard (photo-biological) risk only light sources with a
+Risk Group rating of RG0 or RG1 in accordance with BS EN 62471 [Ref 30.N]shall be used.
+Competency
+1.5
+All organisations and personnel delivering the road lighting design service shall be registered with an
+appropriate professional institution, the Engineering Council (ECUK) and hold the competencies
+relating to their discipline and role with a record made available to the Overseeing Organisation.
+1.6
+The lead in the lighting design process shall be at least Member of the Institution of Lighting
+Professionals (MILP or equivalent), Incorporated Engineer (IEng) and competent in the design and
+implementation of road lighting systems and associated infrastructure.
+NOTE
+Mutual recognition of professional qualifications is governed by UKPGA 2022/20 [Ref 34.N].
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 12 of 38
+======================================================================
+TD 501 Version 0.1.0
+2. General requirements for road lighting design
+2.
+General requirements for road lighting design
+Performance requirements for road lighting design
+2.1
+Lighting performance shall fulfil the requirements of BS 5489-1 [Ref 2.N], BS EN 13201-2 [Ref 42.N],
+PD CEN/TR 13201-1 [Ref 14.I] and the requirements set out in this document.
+2.2
+National guidance relating to road lighting design shall be followed.
+NOTE
+National guidance includes guidance notes and professional lighting guides such as those published by
+the Institution of Lighting Professionals (ILP), Society of Light & Lighting (SLL), Bat Conservation Trust
+etc.
+2.3
+Lighting on motorway and all-purpose trunk roads shall mitigate obtrusive lighting, sky glow effects and
+adverse impacts on fauna and flora in accordance with BS 5489-1 [Ref 2.N] road lighting and good
+practice.
+NOTE
+Good practice guidance includes CIE 150 [Ref 10.I] Guide on the limitation of the effects of obtrusive
+light from outdoor lighting installations, CIE 126 [Ref 11.I] Guidelines for minimising sky glow and ILP
+GN01 [Ref 7.I] ILP Guidance notes for the reduction of obtrusive light.
+2.4
+Ecological surveys to mitigate potential fauna and flora impacts shall be undertaken in accordance with
+LD 118 [Ref 1.N].
+2.5
+Luminaire design tilt shall be zero degrees achieving a optical G4 to G6 rating.
+Core principles for road lighting design
+2.6
+The development and delivery of road lighting shall follow the European Commission Green Public
+Procurement (GPP) Criteria for Street Lighting and Traffic Signals GPP [Ref 15.N].
+2.7
+The required task lighting performance and related environmental impact mitigation requirements
+relating to the road lighting shall be established.
+2.8
+Luminaire circular economy compliance shall be determined against CIBSE TM66 [Ref 5.N].
+NOTE
+The required minimal TM66 CEAM Make value can be obtained from the Overseeing Organisation.
+2.9
+The lighting design shall be developed using a life cycle assessment coupled with a whole life costing
+analysis.
+2.10
+Whole life costing shall follow BS ISO 15686-1 [Ref 1.I]based upon a study period equating to the
+fatigue design life of a column.
+2.11
+The correct lighting system shall be chosen for the intended application and the installation optimised
+for energy efficiency parameters in accordance with the requirements of this document and TA 501 [Ref
+39.N].
+NOTE
+The most sustainable lighting installation when considering whole life costing is unlikely to be the most
+cost effective to construct.
+Non-quantifiable performance requirements for road lighting design
+2.12
+Installation appearance shall be pertinent to the landscape in which it is located.
+NOTE
+Installation appearance can be influenced by the choice of light source, luminaire optics at night and
+the choice of mounting height, and style of luminaire by day.
+2.12.1
+In instances of specific fauna and flora presence, national guidance should be followed to mitigate any
+adverse effects.
+NOTE
+National guidance includes guidance notes and professional lighting guides such as those published by
+the Institution of Lighting Professionals (ILP), Society of Light & Lighting (SLL), Bat Conservation Trust
+etc.
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 13 of 38
+======================================================================
+TD 501 Version 0.1.0
+2. General requirements for road lighting design
+2.13
+In instances of historical significance, specific lighting treatments shall be required and subject to the
+agreement of the Overseeing Organisation.
+2.14
+Performance requirements for road lighting design shall be detailed in TC 501 [Ref 10.N].
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 14 of 38
+======================================================================
+TD 501 Version 0.1.0
+3. Decisions prior to design
+3.
+Decisions prior to design
+Decisions prior to design for road lighting
+3.1
+Designs of road lighting installations shall provide sustainable solutions which are are based upon
+whole-life costing for their expected lifetime, mitigate impacts on the environment and minimise the risk
+to the workforce and stakeholders.
+NOTE 1
+Road lighting installation lifetime is referenced to the fatigue life of the lighting columns.
+NOTE 2
+Environmental impact includes for energy and carbon conservation, mitigating obtrusive lighting effects
+and the effects on fauna and flora.
+3.2
+Prior to design, those undertaking the design shall contact the Overseeing Organisation to determine
+any specific requirements.
+NOTE
+It is essential to determine the Overseeing Organisation's requirements relating to, for example specific
+CMS requirements, lumainaire circularity and operational / maintenance regime procedures to inform
+the road lighting design.
+3.3
+Those undertaking the design shall satisfy themselves as to the topography of the site, other existing
+assets both above and underground, that may impact on their design decisions.
+Lighting arrangement and column location
+3.4
+The off-set distance of lighting columns from the carriageway shall be in accordance with the
+requirements for road restraint systems CD 377 [Ref 37.N] and BS 5489-1 [Ref 2.N].
+3.5
+Passively safe lighting structures shall be selected and deployed in accordance with BS EN 12767 [Ref
+29.N]and the Institution of Lighting Professional's technical report ILP TR30 [Ref 51.N].
+Selection of lighting class
+3.6
+Selection of the applicable lighting class shall be taken from BS 5489-1 [Ref 2.N] based on road
+hierarchy and traffic data from the Overseeing Organisation.
+3.7
+To maximise energy and carbon reduction, adaptive lighting and constant light output profiles shall be
+applied in accordance with BS 5489-1 [Ref 2.N].
+3.7.1
+Dynamic adaptive lighting should be considered when it demonstrates a positive cost benefit ratio over
+the application of adaptive lighting based upon static data traffic flow data.
+NOTE
+The application of dynamic adaptive lighting requires traffic monitoring and communication systems to
+the CMS. These costs are to be considered when determining the cost benefit ratio.
+Maintenance factor for road lighting design
+3.8
+Maintenance factors for road lighting designs shall be in accordance with BS 5489-1 [Ref 2.N].
+3.9
+The requirements and frequency for light source change and luminaire cleaning shall be in accordance
+with the Overseeing Organisation/Agent maintenance regime.
+Extent of lighting
+3.10
+For conflict areas of any type, the extent of the lighting shall be in accordance with BS 5489-1 [Ref 2.N]
+and ILP PLG02 [Ref 33.N].
+3.11
+There shall not be an unlit gap of less than four times the stopping sight distance between lit sections.
+NOTE
+Stopping sight distance are defined in CD 109 [Ref 17.N] using the one step below desirable minimum
+distances.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 15 of 38
+======================================================================
+TD 501 Version 0.1.0
+3. Decisions prior to design
+Luminaires for road lighting
+3.12
+Luminaires shall be in accordance with BS EN 60598-2-3 [Ref 26.N]and BS EN 60598-1 [Ref 25.N].
+3.13
+Luminaires shall meet circular economy requirements determined against CIBSE TM66 [Ref 5.N].
+NOTE
+The required minimal circular economy TM66 CEAM Make value can be obtained from the Overseeing
+Organisation.
+3.14
+Luminaires shall contain an LED light source.
+3.15
+Luminaires shall have a photobiological hazard risk grading of RG0 or RG01 in accordance with BS EN
+62471 [Ref 30.N].
+3.16
+Luminaires shall be fitted with a retention device to prevent the luminaire, or parts thereof falling in the
+event of a failure of any fixing device.
+Control requirements for road lighting
+3.17
+The lighting installation shall employ a road lighting control system that has been agreed with the
+Overseeing Organisation in accordance with the project requirements.
+NOTE
+It is important that where a CMS and an active traffic monitoring system is being deployed that any
+lighting refurbishment / new lighting uses the same equipment for compatibility.
+3.18
+Luminaire control gear shall enable adaptive lighting, intelligent and remote management and
+monitoring of the lighting installation.
+Columns for road lighting
+3.19
+Columns for road lighting shall be in accordance with CD 354 [Ref 8.N]and CC 481 [Ref 27.N].
+NOTE 1
+Specification requirements for columns for road lighting are to be stated using CC 481 [Ref 27.N] and
+its associated Work-Specific Requirements.
+NOTE 2
+Attachments include signage, traffic monitoring equipment, smart and communication technologies and
+other infrastructure mounted upon the column.
+NOTE 3
+When considering adding attachments to the minor structures, it is important to ensure that the minor
+structure can accommodate the additional loading and the provision of power and communications
+without adverse consequences. The following documents aid this consideration.
+1)
+ILP GN12 [Ref 16.N]
+2)
+ILP GN06 [Ref 9.I]
+3)
+PAS 190 [Ref 13.N]
+4)
+PAS 191 [Ref 12.I]
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 16 of 38
+======================================================================
+TD 501 Version 0.1.0
+4. Design process for road lighting
+4.
+Design process for road lighting
+Outline design process for road lighting
+4.1
+The design process within Appendix E of BS 5489-1 [Ref 2.N] shall be followed for the design of road
+lighting installations.
+Sustainability for road lighting design
+4.2
+Energy performance indicators shall be calculated in accordance with BS EN 13201-5 [Ref 43.N].
+NOTE
+This is a design assessment taking account of luminaires driver current, LED lumen packages,
+adaptive lighting, and column geometry to establish the most energy efficient lighting installation.
+Design for maintenance for road lighting
+4.3
+Road lighting installations shall be designed so that they are safe for road workers and stakeholders
+who operate on the motorway and all-purpose trunk road network, and permit coordination with other
+operational activities.
+4.4
+The geometry of adjacent lighting installations shall be adopted to facilitate a consistent maintenance
+access approach.
+4.5
+All equipment and components shall meet the requirements of British Standards and European
+Standards in accordance with GC 101 [Ref 14.N] .
+4.6
+Existing and proposed vegetation that may impact the operation of the lighting installation shall be
+identified and discussed with the Overseeing Organisation.
+Design documentation for road lighting
+4.7
+Upon completion of the design, a design skill and care certificate shall be provided to the Overseeing
+Organisation and recorded within the H&S manual.
+4.7.1
+The design skill and care certificate template in Appendix A may be used to demonstrate completion of
+the design.
+4.8
+A record of the decisions, consultations, access report and design shall be compiled in the safety file
+and retained for inspection.
+Environmental impact for road lighting design
+4.9
+Lighting and day time environmental impacts shall be mitigated as part of the design.
+4.9.1
+Lighting should be in compliance with the site environmental lighting zone as defined in ILP GN01 [Ref
+7.I] and column heights selected to be least visually obtrusive by day.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 17 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+5.
+Electrical design for road lighting
+General requirements for electrical design for road lighting
+5.1
+All electrical design must be in accordance with UKSI 1989/635 [Ref 52.N] and UKSI 2002/2665
+(ESQCR) [Ref 11.N].
+5.2
+All electrical design shall be in accordance with BS 7671 [Ref 36.N].
+5.2.1
+All electrical design should be in accordance with the IET Code of Practice for Electrical Safety
+Management in the Highway Electrical Sector IET ESM [Ref 2.I]( Nee GP03 [Ref 3.I]).
+Electricity supply for road lighting
+5.3
+Electricity supplies shall satisfy one of the following options:
+1)
+Option 1: Distribution System Operator DSO (historically referred to as a DNO); or
+2)
+Option 2: Renewable Energy System designed to TD 401 [Ref 9.N].
+5.3.1
+Option 1 Distribution System Operator DSO should be applied.
+5.3.2
+Option 2 Renewable Energy System may be applied where a viability appraisal concludes that this is
+viable.
+NOTE
+Further guidance can be obtained from TA 401 [Ref 13.I] .
+5.4
+The DSO shall be consulted prior to detailed design to advise on supply location points.
+5.4.1
+Where wayleaves are required for DSO supplies, the costs and time to arrange them should to be
+included within the programme.
+5.5
+The DSO shall be consulted prior to detailed design to determine and confirm the supply capacity for
+the installation.
+5.6
+The electrical design shall be compatible with the required supply earthing system.
+5.6.1
+A PME connection may be provided for an installation complying to the EREC G12 [Ref 12.N].
+NOTE 1
+Where a column or sign has other attachments, such as Electric Vehicle charge point, communications
+equipment etc then it cannot be offered a PME connection.
+NOTE 2
+TT systems require specific earthing requirements.
+5.7
+Electrical load assessment calculations shall be based upon data obtained from the equipment
+manufacturers.
+NOTE 1
+Further guidance can be obtained from TA 401 [Ref 13.I] and TG 411 [Ref 6.I].
+NOTE 2
+Equipment includes but is not be limited to luminaires.
+5.8
+Capacity of electricity supplies shall be capable of meeting the largest load to be experienced under
+normal operating conditions plus 20% for future capacity.
+NOTE
+The deployment of future roadside lighting and related equipment can be facilitated by providing spare
+capacity in the loading calculations at a site.
+5.9
+Where DSOs provide a 3-phase supply, the loading between phases shall be balanced.
+5.10
+Imbalances of loading between phases exceeding 5% load variations shall not be permitted.
+Electrical distribution for road lighting
+Motorway distribution for road lighting
+5.11
+On the motorway network the DSO service head and main distribution board shall be housed within
+electricity interface (EI) cabinets.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 18 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+NOTE
+EI cabinets are located in the boundary fence such that the DNO / DSO connection is outside the
+highway boundary MCE 2651 [Ref 15.I].
+5.12
+The sub-distribution boards for road lighting equipment sites shall be housed within feeder pillars.
+5.13
+Motorway feeder pillars shall be located at the boundary fence.
+Non-motorway distribution for road lighting
+5.14
+On the non-motorway network a cable network shall only be used where a DSO supply to the columns
+is not readily available.
+5.15
+Where a cable network is not used, DSO cutouts shall be housed within the column or sign post
+electrical compartment.
+5.16
+On the non-motorway network, where a private cable network is used, the DSO cutout and main
+distribution board shall be housed within the feeder pillar.
+General distribution for road lighting
+5.17
+Feeder pillars shall be located on Overseeing Organisation land.
+5.17.1
+Were it is not possible to locate feeder pillars on land owned by the Overseeing Organisation,
+consultation should take place with the Overseeing Organisation at early stages of the design to ensure
+that any land issues can be resolved or/and reviewed.
+5.18
+All feeder pillars shall be provided with a safe means of access with hard standing area in front of the
+pillar doors.
+5.18.1
+Feeder pillars should be located so as to not present an obstruction and not place operatives at risk as
+defined in GG 104 [Ref 38.N].
+NOTE
+Safe access can require the installation of steps and associated handrails.
+5.19
+Lighting and technology assets shall be kept separate.
+5.20
+With the exception of vehicle activated signs all verge signs shall be powered from the nearest lighting
+column.
+5.21
+Road lighting supplied from a feeder pillar shall be split into distributed electrical circuits.
+5.22
+Feeder pillar circuits shall be protected by correctly rated switchgear in accordance with BS EN IEC
+60947-1:2021 [Ref 22.N] and BS 7654 [Ref 48.N] with the following characteristics:
+1)
+ingress protection rating of 22 (IP22);
+2)
+pollution degree of 3;
+3)
+modular system to create a single unit;
+4)
+double-pole isolation; and
+5)
+shrouded incoming phase terminals;
+5.23
+Switchgear for road lighting and traffic signs shall be provided within the electrical design schematic
+drawing.
+Feeder pillars for road lighting
+5.24
+Feeder pillars shall be in accordance with BS EN 61439-1 [Ref 20.N] BS EN 61439-2 [Ref 21.N] BS EN
+61439-3 [Ref 24.N]and BS EN 61439-5 [Ref 23.N].
+5.25
+Where DSO service heads are within the feeder pillar the DSO required separation clearances between
+the service head and other equipment shall be provided.
+5.26
+Backboards in feeder pillars shall provide 25% spare capacity to facilitate future addition expansion.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 19 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+5.27
+Feeder pillars shall be designed with two spare outgoing circuits on a SP&N distribution board and two
+three-phase outgoing circuits on a TP&N distribution board.
+5.28
+All equipment within the feeder pillar shall permit full visual inspection.
+Feeder pillar heating and ventilation
+5.29
+Where internal condensation within new feeder pillars is considered a concern then the requirement for
+heating and/or ventilation shall be assessed.
+5.29.1
+Feeder pillars with sensitive electronic components may require heating, ventilation or
+anti-condensation measures such as:
+1)
+louvres/vents;
+2)
+heater and thermostat; or
+3)
+combination of the above.
+NOTE
+The use of heaters increases the energy consumption of an installation, therefore, the temperature
+rating and control of the heater will be assessed considering the vulnerability and sensitive nature of
+the equipment installed.
+Feeder pillar internal lighting
+5.30
+The need for internal lighting within feeder pillars shall be assessed.
+5.30.1
+In areas where ambient lighting levels are low, an internal light within the feeder pillar may help for
+maintenance-related activities.
+NOTE
+The use of an intelligent control for the internal light switching, rather than a traditional manually
+operated switch, can enable the light to automatically switch off after a period of time to reduce the risk
+of increased energy consumption.
+Feeder pillar maintenance power
+5.31
+The requirements for power for maintenance of the pillar shall be provided.
+Column and post electrical compartments for road lighting
+5.32
+Column and post located switchgear and related assemblies shall be designed to comply to BS EN
+61439-1 [Ref 20.N] BS EN 61439-5 [Ref 23.N] BS EN 61439-3 [Ref 24.N]and BS EN 61439-2 [Ref
+21.N].
+5.33
+Backboards used to affix electrical equipment shall have 25% excess capacity to facilitate future
+addition expansion.
+5.34
+Equipment located within columns and post electrical compartments shall permit full visual inspection.
+Special installations for road lighting
+Passive safe equipment
+5.35
+Where passively safe supports contain power supplies for any purpose the electrical safety of the
+installation shall be maintained at all times, and under all conditions, including in the case of vehicle
+impact.
+5.36
+An electrical isolation system shall be provided for passively safe supports containing power supplies.
+5.37
+Where a new installation is integrated into an existing passive safe installation the electrical isolation
+system shall be compatible with the existing isolation system.
+5.38
+One of two electrical isolation approaches shall be applied:
+1)
+physical disconnection of the electrical supply as advised in Section 3; or
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 20 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+2)
+timed isolation of the electrical supply as advised in Section 3.
+5.38.1
+Physical disconnection using snatch or pull-out plugs located within the base of the support, these
+should be:
+1)
+vandal resistant;
+2)
+consistent in application;
+3)
+weather, water and dust resistant (IP67) and
+4)
+comply with BS EN 60309-1 [Ref 32.N] and BS EN 60309-2 [Ref 31.N].
+5.38.2
+The circuit electrical design should disconnect the installation within 0.4 seconds.
+NOTE
+The application of impact or tilt sensors located within the base of the column, post or support that,
+upon impact, activate a disconnection circuit.
+5.38.3
+Where a passive safe disconnection system is required in accordance with ILP TR30 [Ref 51.N], the
+system should only operate when intended.
+NOTE
+Nuisance isolation/tripping can result in unnecessary and unwanted visits by maintenance teams which
+can be caused by a number of factors. Therefore the location and environmental conditions of the
+location where the system is to be installed need to be assessed.
+5.39
+Electrical safety systems shall in no way act as a tether for non and low energy absorbing columns.
+5.40
+Direct DSO services shall not be used in passive supports.
+5.41
+For each passively safe lighting column, identified through its unique 'minor structure reference', the
+electrical disconnection method shall be identified and stated on the general arrangement/schematic
+drawings.
+5.42
+For each passively safe illuminated traffic sign, identified through its unique Illuminated traffic sign
+reference, the electrical disconnection method shall be identified and stated on the general
+arrangement/schematic drawings.
+5.43
+Due to the potentially sensitive nature of the electronic equipment that could be monitoring a passive
+disconnection system, surge protection in accordance with BS 7671 [Ref 36.N] shall be installed in the
+feeder pillar and lighting columns.
+NOTE
+Additional guidance on the use of surge protection in lighting equipment can be found in ILP GN13 [Ref
+8.I].
+Third party attachments
+5.44
+Authorisation for the attachment of third party electrical equipment to columns other than illuminated
+signage shall be agreed with the Overseeing Organisation.
+5.45
+The guidance on electrical supply and structural loading connection requirements provided in PAS 190
+[Ref 13.N] PAS 191 [Ref 12.I]and ILP GN12 [Ref 16.N]shall be applied.
+5.46
+Electrical supply isolation systems shall be designed such that third party attachments can be isolated
+when the luminaire requires access, ensuring those undertaking maintenance are not exposed to
+hazards from associated equipment.
+NOTE 1
+For example where communications equipment mounted on a lighting column.
+NOTE 2
+Guidance can be obtaineded through PAS 190 [Ref 13.N] PAS 191 [Ref 12.I]and ILP GN12 [Ref 16.N].
+Isolation for road lighting
+5.47
+All outgoing circuits shall have a safe means of double-pole isolation.
+5.48
+Electrical equipment for gantries shall not be powered from the road lighting network.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 21 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+Lightening / surge protection for road lighting
+5.49
+Surge Protection Devices (SPDs) shall be located in every lighting column and illuminated sign post.
+5.50
+SPD's in columns / signage shall fail open-circuit and have a failure indicator.
+5.51
+SPDs in distribution feeder pillars shall be fitted to the potential incoming surge circuit.
+NOTE
+In feeder pillars the outgoing cables to supply the lighting are considered incoming cables with respect
+to surges caused by ground lightening strikes.
+Earthing and bonding for road lighting
+5.52
+Protective earthing of electrical installations shall be in accordance with BS 7430 [Ref 4.I].
+5.53
+The earthing and bonding design shall be in accordance with BS 7671 [Ref 36.N].
+NOTE
+It is a requirement of BS 7430 [Ref 4.I] to install and connect an earth electrode at the last or
+penultimate lighting column on the circuit where there are three or more columns on that circuit.
+5.54
+Open combined protective and neutral (PEN) conductor detection devices (OPDDS), also termed open
+protective earth neutral (O-PEN) devices, shall be in accordance with BS 7671 [Ref 36.N].
+NOTE
+Further OPDDS guidance is provided in IET 01 [Ref 28.N].
+5.55
+The use of OPDDS devices shall be agreed with the DSO, their requirements obtained and recorded.
+Cables for road lighting
+Protection of cables
+5.56
+Cables shall be protected against environmental and mechanical damage.
+5.56.1
+Power cables should be either directly buried or laid in duct.
+5.57
+Power cables shall have armoured protection for mechanical strength and a dedicated integral earth
+core.
+NOTE
+The cable armour and dedicated earthing conductor are not to be electrically connected / bonded.
+5.57.1
+Cables should be adequately protected from UV.
+5.58
+The bend radius of cable management systems shall be no less than the maximum bend radius of the
+cables being installed.
+Separation of cables
+5.59
+The minimum separation between cables to prevent interference shall be compliant with BS EN
+50174-3 [Ref 18.N].
+5.60
+The minimum separation between cables shall not impair the functionality of the cables.
+5.61
+Power cables laid in the same trench as communications cables shall be associated solely with
+roadside technology equipment.
+Underground and ducted cables
+5.62
+Cables shall have cross-linked polyethylene (XLPE) insulation and sheathing material coloured in
+accordance with NJUG 1 [Ref 49.N] .
+5.63
+The identification of conductors by colour shall be in accordance with BS 7671 [Ref 36.N]throughout
+their length.
+5.64
+The sheathing material shall be specified for the ground conditions in which the cable is laid.
+5.65
+Cables shall be 600/1000 V grade with steel wire or aluminium strip armouring to BS 5467 [Ref
+47.N]with all conductors of equal cross-sectional area.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 22 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+5.65.1
+The routing of ducts for power cables for road lighting and illuminated traffic signs should be in
+accessible land and running parallel or perpendicular to roadways, amenity areas or footpaths.
+NOTE
+Other routes can be used where compliance with the clause above is not possible and provided the
+ground is accessible for future maintenance.
+Ducting
+5.66
+Existing ducts for reuse shall be proven through a mandrel test as detailed in TC 131 [Ref 44.N].
+5.66.1
+Existing ducts should be re-used where proven, especially where the installation of new ducts could be
+obtrusive such as cross-carriageway ducts and ducts through structures.
+5.66.2
+Where existing ducts exist, but have not been proven, the design outputs should provide new ducts and
+an opportunity identified to re-use the existing ducts if they can be proven.
+5.67
+The colour and positioning of ducting for power cables for road lighting and illuminated signs shall be
+so as to allow easy identification in accordance with NJUG 1 [Ref 49.N].
+5.68
+The number of ducts for power cable containment for road lighting and illuminated traffic signs shall
+accommodate cables in accordance with the electrical design and the spare capacity required to
+accommodate further additional cables added in the future.
+5.69
+The duct construction shall be proposed for the location, the number and size of cables it needs to
+contain.
+Trenches for direct-buried cables
+5.70
+The depth of excavation for directly buried cables shall be as follows.
+1)
+500 mm when laid under verges, footways or open ground; and
+2)
+750 mm when laid under carriageways or 300 mm below formation, whichever is greater in depth
+5.70.1
+The length of armoured cable should allow for 3 m minimum buried loops adjacent to each feeder pillar
+taking into account the maximum bend radius of the cable.
+NOTE
+This allows for spare cable length in the event of the feeder pillar being damaged and requiring
+replacement and thus avoids the consideration of joints in such instances.
+5.71
+Power cables laid in trench shall not be at risk of damage or stress.
+5.72
+Cables laid in a trench shall be both bedded on and covered by lightly compacted graded sand.
+5.73
+Where cables are at risk of damage, requirements for additional protection over the yellow
+self-coloured marker tape shall be provided as a design output.
+NOTE 1
+Scenarios where cables are more vulnerable to damage include shallow depths.
+NOTE 2
+Protective modular tiles complete with integrated warning marker provide additional protection.
+5.74
+Cables shall not be laid along an embankment or a cutting.
+5.74.1
+Where it is unavoidable to lay cables along an embankment or cutting, the route of the cable should be
+designed so that the embankment or cuttings does not collapse or subside.
+5.75
+Cables shall not cross through other assets such as drainage or though retaining walls.
+Cables in cable troughs
+5.76
+Cable troughs shall not be used where cables can be directly buried.
+5.77
+Transitions between cable troughs and ducts or direct buried cables in trenches shall place no strain on
+the cables from their own weight or any abrasion .
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 23 of 38
+======================================================================
+TD 501 Version 0.1.0
+5. Electrical design for road lighting
+Power cables
+5.78
+No reduction in cable cross sectional area (CSA) to permit terminations shall be permitted.
+5.79
+Power cable reduction joints to step down the CSA of power cables larger than 25 mm2 to allow
+termination into cut outs shall not be used.
+Terminations
+5.80
+Where cable CSA and maximum cable bending radius permit cable entry into a column then looped
+terminations shall be used within columns and posts.
+5.80.1
+Alternative methods of cabling from column to column may include single phase jointed terminations
+from a multi-core three phase circuit which provide some lighting redundancy in the event that one or
+more of the phases fail.
+NOTE
+Generally the loop in, loop out method is the best method of cabling from column to column, but other
+methods could be used.
+Cable joints
+5.81
+Cable joints for power cables shall be located in joint chambers below ground.
+5.82
+Chambers shall be designed to TD 131 [Ref 45.N].
+5.83
+There shall be no more than three straight / trough joints per cable run.
+5.84
+The minimum ingress protection for a cable joint shall be IP68.
+5.85
+The use of joints shall not be permitted for repairing a newly or recently installed cable that has been
+damaged.
+5.86
+Cable networks and joint placement shall be designed such that installation of each length is possible
+by drawing through a duct or trench without stretching or damage.
+Cable continuity
+5.87
+Cable continuity for cable protective conductors shall be in accordance with BS 7671 [Ref 36.N].
+Modification to existing cables
+5.88
+Where an existing cable is proven to be fit for purpose through inspection and testing in accordance
+with TS 501 [Ref 41.N]it shall be used.
+5.89
+Defective cables shall be replaced in their entirety when the cable integrity is impacted.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 24 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+6.
+Design outputs for road lighting and illuminated traffic signs
+Outputs from the design of road lighting and illuminated traffic signs
+6.1
+The outputs from the design of road lighting and illuminated traffic signs shall include all details
+necessary for the installation of the electrical infrastructure and lighting equipment for road lighting and
+illuminated traffic signs.
+6.1.1
+The outputs from the design of road lighting and illuminated traffic signs should include the details of
+the electrical infrastructure and lighting equipment such as:
+1)
+feeder pillars;
+2)
+central management system (CMS);
+3)
+switching equipment;
+4)
+power cables;
+5)
+power cable ducting;
+6)
+switchgear;
+7)
+luminaires; and
+8)
+power cable joints.
+6.2
+The design of road lighting and illuminated traffic signs shall include the following outputs:
+1)
+road lighting design layout drawings/models (general arrangement drawings (GA);
+2)
+electrical schematic drawings/models; and
+3)
+information required to enable the population of works-specific requirements (WSR) for the road
+lighting and illuminated traffic signs.
+6.2.1
+The road lighting design layout drawing(s)/model(s) should include the following details of the road
+lighting units, traffic signs and electrical infrastructure:
+1)
+the extent and unique references for each 'Road lighting zone';
+2)
+details of central management system including communication coverage;
+3)
+power cable ducting positions and lengths;
+4)
+position of access chambers;
+5)
+position of proposed and existing feeder pillars, road lighting units;
+6)
+position of proposed and existing illuminated traffic sign units;
+7)
+position of proposed or existing power cable joints; and
+8)
+asset I.D. numbers.
+NOTE
+The road lighting zones are a method of defining areas of a road lighting installation that differ in
+lighting classification. Each zone is verified for compliance with the specified criteria once the
+luminaires have been selected.
+6.2.2
+The electrical schematic drawing(s)/model(s) should include the following details of the electrical
+design and equipment:
+1)
+source supply and characteristics;
+2)
+circuit protection;
+3)
+circuit control;
+4)
+cable details; and
+5)
+ancillary items such as heating, ventilation and lighting.
+6.3
+The outputs from the design of road lighting and illuminated traffic signs shall include details of the
+provider(s) of electricity supplies for the scheme.
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 25 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+Design outputs for feeder pillars for road lighting and illuminated traffic signs
+6.4
+Outputs from the design of feeder pillars for road lighting and illuminated traffic signs shall include its
+construction, aesthetic, mechanical and internal electrical protection characteristics.
+NOTE
+Requirements on the design of feeder pillars are provided within Section 5.
+6.5
+The electrical schematic drawings or models shall provide internal electrical details of feeder pillars to
+be installed.
+6.5.1
+The electrical schematic drawings or models should include the following key items for feeder pillars:
+1)
+incoming supply details including earthing arrangement;
+2)
+DSO meter if required;
+3)
+main isolator;
+4)
+details of switching equipment being either a timer or group controlling photocell;
+5)
+surge protection if required;
+6)
+distribution board configuration;
+7)
+circuit protection;
+8)
+power cable sizes and construction;
+9)
+details of electrical loads for road lighting and illuminated signs;
+10)
+earth rods or mats;
+11)
+heater if required;
+12)
+thermostat if required;
+13)
+details of power cable configuration; and.
+14)
+details of earth bonding including cable size.
+6.6
+For each new feeder pillar, the design outputs shall include:
+1)
+the unique feeder pillar reference;
+2)
+the location;
+3)
+drawing or model references;
+4)
+the fabrication material and protective systems;
+5)
+the external colour appearance;
+6)
+requirements for heating and/or ventilation; and
+7)
+requirements for internal lighting.
+Feeder pillar fabrication material and protective system
+6.7
+For new feeder pillars, the fabrication material shall be selected from the following:
+1)
+galvanised steel;
+2)
+painted galvanised steel;
+3)
+glass reinforced plastic; or
+4)
+stainless steel.
+6.8
+Where a steel feeder pillar is neither galvanised or stainless steel, the design outputs shall include
+requirements for corrosion protection.
+6.9
+For painted galvanised feeder pillars, where the protective system is not G2a or G2b in accordance
+with CC 486 [Ref 35.N], the design outputs shall include the requirements for the protective system.
+6.9.1
+In selecting the fabrication material and protective system, the factors to be assessed should include:
+1)
+electrical supply characteristics;
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 26 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+2)
+vandalism;
+3)
+metal theft;
+4)
+aesthetic requirements; and
+5)
+environmental constraints such as coastal locations.
+Feeder pillar external colour
+6.10
+For new feeder pillars, where surfaces are painted, the external colour shall be selected from the BS
+4800 [Ref 46.N] or Reichs-Ausschuss für Lieferbedingungen und Gütesicherung (RAL) system of
+colour selection.
+6.11
+The external colour of the feeder pillar shall be consistent with surroundings and adjacent apparatus.
+NOTE 1
+The external colour can be used to blend the feeder pillar into its surroundings, or make it stand out
+where there is a risk of maintenance personnel not being able to locate the feeder pillar e.g. in a highly
+vegetated grass verge.
+NOTE 2
+In most cases feeder pillars are finished in Light Grey 00 A 05 or Medium Grey 18 B 21.
+Existing feeder pillars
+6.12
+For each existing feeder pillar to be modified, the design outputs shall include:
+1)
+the unique existing feeder pillar reference;
+2)
+the location;
+3)
+drawing or model references; and
+4)
+a description of the required modifications.
+Design outputs for the integration into an existing central management system
+(CMS) for road lighting and illuminated traffic signs
+6.13
+Where an existing Central Management System (CMS) is present, the outputs from the design of road
+lighting and illuminated traffics signs shall include the details to allow an extension of the existing CMS
+for the proposed scheme to be integrated.
+Existing CMS
+6.14
+The Overseeing Organisation shall be contacted to establish the type, suitability, arrangement and
+specification of the current CMS provision in the area of the road lighting scheme.
+6.15
+The design outputs shall include the following details of the existing CMS to be extended:
+1)
+CMS reference;
+2)
+manufacturer and model;
+3)
+a description of the functionality and objectives of the existing CMS;
+4)
+references for the as-built documentation of the existing CMS;
+5)
+details of the existing CMS constraints that may affect integration;
+6)
+details of compatibility requirements; and
+7)
+details of any proposed modifications as part of the new scheme to the existing CMS;
+Proposed CMS equipment
+6.16
+The proposed CMS equipment shall be compatible with all aspects of the existing CMS equipment it is
+being added to.
+6.17
+The CMS shall provide at least the functionality of the existing system and integrate seamlessly into the
+current system in terms of performance, communication and capability.
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 27 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+Base stations
+6.18
+The coverage of the existing CMS for the purpose of communication with the back office control room
+shall be verified.
+6.19
+The Overseeing Organisation shall be consulted to determine if additional communication hardware is
+to be provided to extend the communication range to cover the proposed road lighting scheme.
+6.20
+Base stations to increase communication coverage for an existing CMS shall be determined and
+identified as follows by consulting the Overseeing Organisation:
+1)
+a unique base station reference;
+2)
+drawing or model references;
+3)
+mounting location;
+4)
+mounting type; and
+5)
+mounting height;
+6.21
+The location and mounting height of the base station(s) shall be determined from assessment of the
+topography of the site and the extent of the lighting installation.
+6.21.1
+The base station should be strategically placed to not only provide a link to the existing CMS but also to
+extend communication coverage for future lighting installations within the area.
+NOTE 1
+In some areas, communication could be impacted by the topography of the land or features such as
+buildings. Where the communication of a particular CMS system is constrained, additional CMS
+infrastructure could be required to mitigate communication restrictions.
+NOTE 2
+In exposed areas or locations with heavy industrial activity it could be necessary to consider the type
+and location of surge protection provided to protect sensitive electronic equipment especially when
+mounted at height.
+NOTE 3
+Advice could be sought from the CMS manufacturer on the optimum siting location and achievable
+range of the base station at its mounting height.
+Luminaire sockets and nodes
+6.22
+For each CMS node the design outputs shall include:
+1)
+a unique CMS node reference;
+2)
+drawing model references;
+3)
+luminaire for road lighting references;
+4)
+mounting height; and
+5)
+socket type;
+6.23
+The CMS node mounting height shall be the same as the luminaire mounting height except in special
+circumstances.
+NOTE
+The CMS socket and node is normally installed within the luminaire.
+6.24
+The luminaire and CMS node socket types shall be compatible.
+Design outputs for switching equipment for road lighting and illuminated traffic
+signs where there is no existing CMS
+6.25
+Where there is no existing CMS, the design outputs for road lighting and illuminated traffic signs shall
+include details of photoelectric control unit or timers including model, operational hours and any
+additional requirements.
+6.26
+The switching method for road lighting and illuminated traffic signs shall either be a photoelectric
+control unit or a timer.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 28 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+NOTE
+A timer could be more suitable where a photocell cannot accurately measure the level of light e.g.
+where it is situated in shadow.
+Photoelectric control units
+6.27
+Where photoelectric control units are required, they shall be provided as either individually switched or
+group switched.
+NOTE
+A single photoelectric control unit used in conjunction with a suitable contactor can be used to control a
+group of luminaires or can be installed within each luminaire depending upon the location and
+accessibility.
+6.28
+For group switching, the locations of the photoelectric control units shall be provided.
+6.29
+The switching regime for photoelectric control units shall be provided.
+Timers
+6.30
+Where timers are to be used, the timer requirements shall be provided, including the times that the
+circuits are activated and deactivated.
+NOTE
+Timers can be capable of dusk-until-dawn switching and have the astro calendar integrated.
+6.31
+Each timer shall be assigned a unique reference.
+Design outputs for power cables for road lighting and illuminated traffic signs
+6.32
+Outputs from the design of power cables for road lighting and illuminated traffic signs shall provide all
+details necessary to define the method of cabling for lighting columns, the installation of new power
+cables and the removal of abandoned cables.
+NOTE
+Requirements on the design of circuits is given in 'Electrical design' in Section 5.
+6.33
+For each power cable the design outputs shall include:
+1)
+a unique cable reference;
+2)
+drawing or model references;
+3)
+a description of the cable construction;
+4)
+the start and end location of the cable in the form of coordinates or a specific reference of a
+column, traffic sign or other feature such as a feeder pillar;
+5)
+the outer sheath material;
+6)
+the cable core cross-sectional area;
+7)
+the number of cores, selecting from 3 or 5;
+8)
+the installation method, selecting from direct burial or ducted; and
+9)
+the trench depth in units of mm.
+NOTE
+Requirements on the design of power cables are given in 'Electrical design' in Section 5 of this
+document.
+6.34
+Where abandoned buried cables are to be left in place, the treatment after electrical isolation and
+disconnection shall be provided.
+6.35
+Where existing buried cables are to be abandoned notes shall be provided on the general arrangement
+drawings to enable them to be made safe, disconnected and removed where practical and safe to do
+so.
+Design outputs for power cable ducting for road lighting and illuminated traffic
+signs
+6.36
+Outputs from the design of power cable ducting for road lighting and illuminated traffic signs shall
+provide all details to define the installation and sealing of new power cable ducting, the reuse of
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 29 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+existing ducting, the installation of new chambers, the modification of existing chambers and the
+requirements for marker tape.
+6.37
+For each duct for power cables the design outputs shall include:
+1)
+a unique new duct reference;
+2)
+the start and end location of the duct in the form of coordinates or a specific reference of a
+column, traffic sign or other feature such as a feeder pillar;
+3)
+the number of existing ducts to be reused;
+4)
+the details of the existing ducts that have been proven;
+5)
+the number of new ducts, their internal diameter, and their colour;
+6)
+new duct minimum depth;
+7)
+whether the new duct includes a carriageway crossing, details of the carriageway to be crossed,
+and whether trenchless techniques can be used;
+8)
+whether the new duct includes ducting through a structure, and details of the structure;
+9)
+drawing / model references; and
+10)
+number of new ducts.
+6.38
+The requirements for sealing new power cable ducting following the installation of new power cables
+shall be provided.
+6.39
+The requirements for new marker tape to be installed above new power cable ducting for road lighting
+and illuminated traffic signs, where different from Table 6.14 of TC 501 [Ref 10.N], shall be provided.
+Chambers
+6.40
+For each existing chamber for power cable ducting to be reused, the design outputs shall include:
+1)
+a unique existing chamber reference;
+2)
+drawing or model references;
+3)
+the existing chamber location;
+4)
+the existing chamber construction e.g. brick, precast concrete or plastic; and
+5)
+a description of the modifications required to the existing chamber.
+NOTE
+Chamber design is detailed in TC 131 [Ref 44.N].
+Design outputs for switchgear for road lighting and illuminated traffic signs
+6.41
+Outputs from the design of switchgear for road lighting and illuminated traffic signs shall provide all
+details to define the electrical disconnection method, circuit protection and isolation methods for
+electrical circuits.
+6.42
+The electrical schematic drawings or models shall provide design characteristics to define the electrical
+circuits.
+Design outputs for power cable joints for road lighting and illuminated traffic
+signs
+6.43
+The outputs from the design of power cable joints for road lighting and illuminated traffic signs shall
+provide all details to define the locations and types of power cable joints.
+6.44
+For each new power cable joint, the design outputs shall include:
+1)
+a unique new power cable joint reference;
+2)
+drawing or model references;
+3)
+new power cable joint type and details;
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 30 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+4)
+minimum current rating in amps; and
+5)
+minimum ingress protection where not IP68;
+NOTE
+The type and details of the new power cable joints includes the quantity, number of cores and size of
+cables to be terminated, and the joint configuration e.g. T-joint, straight-joint.
+6.45
+The locations where joints are used for the repair of existing damaged cable shall be identified.
+Design outputs for luminaires for road lighting
+6.46
+The outputs from the design of road lighting shall provide all details to facilitate the selection of
+luminaires to meet the scheme lighting design requirements.
+NOTE
+Requirements on the design of road lighting are provided in Section 4.
+Road lighting zones
+6.47
+The area of the road lighting scheme shall be subdivided into road lighting zones to define areas with
+different lighting characteristics.
+6.48
+A road lighting zone shall have the same lighting classification across its full extent.
+6.49
+Each road lighting zone shall be assigned a unique reference.
+6.50
+For each road lighting zone, the design outputs shall include:
+1)
+lighting class in accordance with BS 5489-1 [Ref 2.N];
+2)
+power density indicator in units of W lx-1 m-2;
+3)
+annual energy consumption indicator in units of W lx-1 m-2; and
+4)
+dimming profile.
+6.51
+The design outputs shall include the constraints on the selection of luminaires for each road lighting
+zone.
+6.51.1
+Constraints may include aspects such as the presence of overhead power lines and environmental or
+ecological constraints.
+Luminaires for road lighting
+6.52
+Each luminaire for road lighting shall be assigned a unique reference.
+6.53
+For each luminaire for road lighting, the design outputs shall include:
+1)
+details of how the luminaire is supported upon a structure;
+2)
+mounting height of the luminaire above adjacent ground level;
+3)
+where applicable, the unique 'Minor structure reference' of the lighting column or bracket that
+supports the luminaire;
+4)
+maximum weight of luminaires in units of kg;
+5)
+maximum windage area of luminaires in units of m2;
+6)
+design attitude (angle of displacement of the luminaire from horizontal) in units of o; and
+7)
+requirements for any shield to be fitted to the luminaire.
+6.54
+For each luminaire for road lighting, the design outputs shall define the following characteristics:
+1)
+lumen output in units of lm;
+2)
+minimum luminous intensity class, selecting from G4, G5 or G6;
+3)
+correlated colour temperature (CCT) in units of K;
+4)
+minimum Colour Rendering Index (CRI);
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 31 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+5)
+driver current in units of mA;
+6)
+maximum power output in units of W;
+7)
+whether the luminaire requires a control socket and the type of socket, selecting from NEMA or
+Zhaga;
+8)
+minimum degree of ingress protection (IP code) in accordance with BS EN 60529 [Ref 7.N];
+9)
+minimum impact protection code, where not IK08 in accordance with BS EN 62262 [Ref 6.N];
+10)
+minimum protection against electric shock, where not Class I in accordance with BS EN 60598-1
+[Ref 25.N];
+11)
+minimum photobiological hazard classification, where not RG0 in accordance with BS EN 62471
+[Ref 30.N];
+12)
+the surge protection in units of kV; and
+13)
+the minimum category of corrosivity of atmosphere, selecting from C1, C2, C3, C4, C5 and CX in
+accordance with BS EN ISO 9223 [Ref 4.N].
+NOTE 1
+Requirements on the selection or determination of characteristics for luminaires for road lighting for
+item 2 is provided in Text revised BS 5489-1 [Ref 2.N]. Guidance on the other characteristics is given in
+this document.
+NOTE 2
+The 'Minor structure reference' is assigned in accordance with CD 354 [Ref 8.N] for use in CC 481 [Ref
+27.N].
+6.55
+The luminaire maximum weight and windage areas shall be compatible with the corresponding lighting
+column and bracket specified in accordance with CD 354 [Ref 8.N].
+Luminaire performance and characteristics
+6.56
+The design outputs for road lighting shall include the requirements on LED drivers, where luminaires
+are controlled by a central management system and are not required to be compatible with Constant
+Light Output (CLO) technology or there are any additional requirements.
+6.57
+The design outputs for road lighting shall include the minimum Circular Economy Assessment Method
+(CEAM) rating of luminaires for road lighting in accordance with CIBSE TM66 [Ref 5.N].
+NOTE
+Guidance for the minimum Circular Economy Assessment Method (CEAM) rating of luminaires for road
+lighting is given in Performance requirements in Section 2 of this document.
+6.58
+The correlated colour temperature (CCT) and colour rendering index (CRI) shall be assessed based
+upon the site constraints including ecology and other sensitive receptors.
+NOTE 1
+There could be certain situations where a cooler CCT is advantageous due to its enhanced colour
+rendering characteristics, however, it is anticipated that most situations can warrant a neutral or warmer
+colour temperature to help mitigate the potential adverse effects of certain CCT's on flora and fauna.
+NOTE 2
+Achieving the minimum CRI can increase the accuracy of colour interpretation when exposed to
+artificial light.
+6.59
+Luminaire control sockets shall be compatible with the method of control employed.
+6.59.1
+There may also be a desire to future-proof the luminaire to allow additional sensors or monitoring
+equipment to be installed.
+6.60
+Where vacant sockets are provided on the luminiare a means of sealing the socket against the
+elements shall be provided.
+6.61
+The level of ingress protection provided for the luminaire chassis shall conform to the requirements for
+the area in which the luminaires are installed and be in accordance with BS EN 60529 [Ref 7.N].
+6.62
+Any sockets installed on the luminaire shall not reduce the minimum ingress protection of the luminaire
+chassis.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 32 of 38
+======================================================================
+TD 501 Version 0.1.0
+6. Design outputs for road lighting and illumina...
+6.63
+The IK rating of the selected luminaire shall conform to the area requirements in which the luminaires
+are to be installed and rated in accordance with BS EN 62262 [Ref 6.N].
+6.63.1
+In certain situations e.g. where no connection to ground is provided luminaires with an additional barrier
+against electric shock (class II - double or reinforced insulation) sshall be specified so that no live
+electrical parts can be touched. To mitigate this risk further it may be beneficial, in the right environment,
+to specify a class III luminaire which operates at an extra low voltage, typically 12 or 24volts.
+6.64
+Surge protection shall be provided in accordance with BS 7671 [Ref 36.N].
+Commissioning of road lighting and illuminated traffic signs
+6.65
+The outputs from the design of road lighting and illuminated traffic signs shall include whether
+verification of the performance of road lighting is required through testing in accordance with ILP TR28
+[Ref 50.N]and the required frequency.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 33 of 38
+======================================================================
+TD 501 Version 0.1.0
+7. Normative references
+7.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref.
+Document
+Ref 1.N
+National Highways. LD 118, 'Biodiversity design'
+Ref 2.N
+BSI. BS 5489-1, 'Code of practice for the design of road lighting: Lighting of roads
+and public amenity areas'
+Ref 3.N
+BSI. BS 5489-2, 'Code of Practice for the Design of Road Lighting: Lighting of
+Tunnels'
+Ref 4.N
+BSI. BS EN ISO 9223, 'Corrosion of metals and alloys - Corrosivity of atmospheres -
+Classification, determination and estimation'
+Ref 5.N
+Chartered Institution of Building Services Engineers (CIBSE). CIBSE TM66, 'Creating
+a circular economy in the lighting industry'
+Ref 6.N
+BSI. BS EN 62262, 'Degree of protection provided by enclosures for electrical
+equipment against external mechanical Impacts (IK code)'
+Ref 7.N
+BSI. BS EN 60529, 'Degrees of protection provided by enclosures (IP code).
+(Designated Standard - LVD)'
+Ref 8.N
+National Highways. CD 354, 'Design of minor structures'
+Ref 9.N
+National Highways. TD 401, 'Design of renewable energy systems'
+Ref 10.N
+National Highways. TC 501, 'Electrical Work for Road Lighting and Traffic Signs'
+Ref 11.N
+National Archive. UKSI 2002/2665 (ESQCR), 'Electricity Safety, Quality and
+Continuity Regulations'
+Ref 12.N
+Energy Networks Association (ENA). EREC G12, 'Engineering Recommendation
+G12. Requirements for the Application of Protective Multiple Earthing to Low Voltage
+Networks'
+Ref 13.N
+BSi. BSi. PAS 190, 'Existing lighting and CCTV columns. Assessment for
+multi-functional use. Code of practice'
+Ref 14.N
+National Highways. GC 101, 'General requirements for the Specification for Highway
+Works'
+Ref 15.N
+European Commission. GPP, 'Green public procurement criteria for street lighting
+and traffic signals'
+Ref 16.N
+Institute of Lighting Professionals. ILP GN12, 'Guidance Note 12 - The Smart Lighting
+Column'
+Ref 17.N
+National Highways. CD 109, 'Highway link design'
+Ref 18.N
+BSI. BS EN 50174-3, 'Information technology Cabling installation. Installation
+planning and practices outside buildings'
+Ref 19.N
+National Highways. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 20.N
+BSI. BS EN 61439-1, 'Low-voltage switch gear and control gear assemblies. General
+rules. (Designated Standard - LVD)'
+Ref 21.N
+BSI. BS EN 61439-2, 'Low-voltage switch gear and control gear assemblies. Power
+switch gear and control gear assemblies (Designated Standard - LVD)'
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 34 of 38
+======================================================================
+TD 501 Version 0.1.0
+7. Normative references
+Ref 22.N
+BSi. BSi. BS EN IEC 60947-1:2021, 'Low-voltage switchgear and controlgear -
+General rules'
+Ref 23.N
+BSI. BS EN 61439-5, 'Low-voltage switchgear and controlgear assemblies.
+Assemblies for power distribution in public networks [Designated Standard - LVD]'
+Ref 24.N
+BSI. BS EN 61439-3, 'Low-voltage switchgear and controlgear assemblies.
+Distribution boards intended to be operated by ordinary persons (DBO) [Designated
+standard - EMC & LVD]'
+Ref 25.N
+BSI. BS EN 60598-1, 'Luminaires. General requirements and tests [Designated
+Standard - LVD]'
+Ref 26.N
+BSI. BS EN 60598-2-3, 'Luminaires. Particular requirements. Luminaires for road and
+street lighting (Designated Standard - LVD)'
+Ref 27.N
+National Highways. CC 481, 'Minor Structures'
+Ref 28.N
+Institution of Engineering and Technology. IET 01, 'Open combined protective and
+neutral (PEN) conductor detection devices (OPDDS) '
+Ref 29.N
+BSI. BS EN 12767, 'Passive safety of support structures for road equipment.
+Requirements, classification and test methods.'
+Ref 30.N
+BSI. BS EN 62471, 'Photobiological safety of lamps and lamp systems [Designated
+Standard - LVD]'
+Ref 31.N
+BSi. BSi. BS EN 60309-2, 'Plugs, socket-outlets and couplers for industrial purposes.
+Dimensional interchangeability requirements for pin and contact-tube accessories
+[Designated Standard - LVD]'
+Ref 32.N
+BSI. BS EN 60309-1, 'Plugs, socket-outlets and couplers for industrial purposes.
+General requirements [Designated Standard - LVD]'
+Ref 33.N
+Institution of Lighting Professionals. ILP PLG02, 'Professional Lighting Guide 2 - The
+application of conflict areas on the highway'
+Ref 34.N
+National Archive. UKPGA 2022/20, 'Professional Qualifications Act '
+Ref 35.N
+National Highways. CC 486, 'Protection of steelwork against corrosion'
+Ref 36.N
+BSI. BS 7671, 'Requirements for Electrical Installations. IET Regulations'
+Ref 37.N
+National Highways. CD 377, 'Requirements for road restraint systems'
+Ref 38.N
+National Highways. GG 104, 'Requirements for safety risk assessment'
+Ref 39.N
+National Highways. TA 501, 'Road lighting appraisal'
+Ref 40.N
+National Highways. TD 501, 'Road lighting design'
+Ref 41.N
+National Highways. TS 501, 'Road lighting inspection'
+Ref 42.N
+BSI. BS EN 13201-2, 'Road lighting. Performance requirements'
+Ref 43.N
+BSI. BS EN 13201-5, 'Road Lighting; Energy performance indicators'
+Ref 44.N
+National Highways. TC 131, 'Roadside technology and communications'
+Ref 45.N
+National Highways. TD 131, 'Roadside technology and communications'
+Ref 46.N
+BSI. BS 4800, 'Schedule of paint colours for building purposes'
+Ref 47.N
+BSI. BS 5467, 'Specification for armoured electric cables having thermosetting
+insulation 600/1000 V and 1900/3300 V'
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 35 of 38
+======================================================================
+TD 501 Version 0.1.0
+7. Normative references
+Ref 48.N
+BSI. BS 7654, 'Specification for single phase street lighting fuses (cut-outs) for low
+voltage public electricity distribution systems., 25A rating for highway power supplies
+and street furniture'
+Ref 49.N
+National Joint Utilities Group . NJUG 1, 'Street Works UK Guidance on the
+Positioning and Colour Coding of Underground Utilities' Apparatus'
+Ref 50.N
+Institution of Lighting Professionals. ILP TR28 , 'Technical Report 28 - Measurement
+of road lighting performance on site'
+Ref 51.N
+Institution of Lighting Professionals. ILP TR30, 'Technical Report 30 - Guidance on
+the implementation of passive safe lighting columns and signposts'
+Ref 52.N
+National Archives. UKSI 1989/635, 'The Electricity at Work Regulations'
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 36 of 38
+======================================================================
+TD 501 Version 0.1.0
+8. Informative references
+8.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref.
+Document
+Ref 1.I
+BSI. BS ISO 15686-1, 'Buildings and constructed assets. Service life planning.
+General principles and framework'
+Ref 2.I
+Institution of Engineering and Technology. IET ESM, 'Code of Practice for Electrical
+Safety Management in the Highway Electrical Sector'
+Ref 3.I
+IET. IET / HEA. Nee GP03, 'Code of Practice for Electrical Safety Management in the
+Highway Electrical Sector'
+Ref 4.I
+BSI. BS 7430, 'Code of practice for protective earthing of electrical installations'
+Ref 5.I
+National Highways. CD 352, 'Design of road tunnels'
+Ref 6.I
+National Highways. TG 411, 'Electricity supply connections'
+Ref 7.I
+Institution of Lighting Professionals. ILP GN01, 'Guidance Note 1 - The reduction of
+obtrusive light'
+Ref 8.I
+Institution of Lighting Professionals. Institution of Lighting Professionals. ILP GN13,
+'Guidance Note 13 - Surge Protection for Exterior Lighting Installations'
+Ref 9.I
+Institute of Lighting Professionals. ILP GN06 , 'Guidance Note 6 - Retrofitting LED
+luminaires on existing lighting columns'
+Ref 10.I
+International Commission on Illumination (CIE). CIE 150, 'Guide on the limitation of
+the effects of obtrusive light from outdoor lighting installations'
+Ref 11.I
+International Commission on Illumination (CIE). CIE 126, 'Guidelines for minimising
+sky glow'
+Ref 12.I
+BSI. Department for Science, Innovation and Technology. PAS 191, 'Multifunctional
+columns. Design. Specification'
+Ref 13.I
+National Highways. TA 401, 'Renewable energy systems appraisal'
+Ref 14.I
+BSI. PD CEN/TR 13201-1, 'Road lighting: Guidelines on selection of lighting classes'
+Ref 15.I
+National Highways. OTSL. MCE 2651, 'Specification for Safeguarding the Highway
+Communications Power Network'
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 37 of 38
+======================================================================
+TD 501 Version 0.1.0
+Appendix A. Skill & care certificate
+Appendix A. Skill & care certificate
+A1
+Skill & care certificate
+To be completed at each iteration of the road lighting design.
+SKILL AND CARE CERTIFICATE
+ROAD LIGHTING DESIGN
+We certify that professional skill and care have been used in the preparation of the public lighting and
+electrical design of the scheme noted below.
+Scheme title: …………………………………………………….………………………………
+Location: …………………………………………………………………………………………
+We certify that:
+i. the design has been undertaken by competent designers as defined under TD 501 section 1 scope
+clauses 1.5 to 1.6;
+ii. that reasonable professional skill and care were used to ensure that the road lighting design has
+been carried out in accordance with the requirements of TD 501 road lighting;
+iii. that the site has been visited and buildability and maintainability checks have been undertaken;
+iv. it has been accurately translated into contract drawings, which have also been checked. The unique
+numbers of these drawings are:
+………………………………………………………………..………………………….
+………………………………………………………………..………………………….
+………………………………………………………………..………………………….
+Name of Consultant 1/ Contractor 1: …………………………...…………………..
+Name: ……………………………………… Signed:………………………………
+Lighting Design Team Leader 2
+Professional and Engineering Qualification ................................................................................
+Date: ........................................
+Notes
+1 Delete as appropriate
+2 In accordance with TD 501 Clauses 1.5 to 1.6
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
+
+======================================================================
+PAGE 38 of 38
+======================================================================
+© Crown copyright 2025.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, TD 501 Version 0.1.0, published: 30-Sep-2025
+
+
