@@ -1,0 +1,3060 @@
+======================================================================
+PAGE 1 of 76
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 467
+Risk management and structural assessment
+of concrete deck hinge structures
+(formerly BA 93/09)
+Revision 1
+Summary
+The use of this document enables the safety and serviceability of concrete hinge deck structures
+to be assessed and managed, allowing to manage risks and maintain a safe and operational
+network.
+Application by Overseeing Organisations
+Any specific requirements for Overseeing Organisations alternative or supplementary to those given in this document
+are given in National Application Annexes to this document.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 2 of 76
+======================================================================
+CS 467 Revision 1
+Contents
+Contents
+Release notes
+3
+Foreword
+4
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Introduction
+5
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+Abbreviations and symbols
+6
+Terms and definitions
+7
+1. Scope
+8
+Aspects covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Implementation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Use of GG 101 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+2. Risk management process and prioritisation
+9
+Risk management report
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Initial review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Risk assessment for structural assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+Structural review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Structural assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Risk assessment for management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Management plan
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+Prioritisation of deck hinge structures
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+3. Initial review
+13
+4. Risk assessment for structural assessment
+14
+Risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Primary risks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+Condition risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Structural risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Secondary risks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+Consequential risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Vulnerable details risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+Other risks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+5. Structural review
+17
+6. Structural assessment
+18
+Assessment processes and basis of assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Limit States . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Assessment actions and assessment action effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Assessment of resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Verification
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Methodology for structural analysis of the hinge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+18
+Assessment based on strut-and-tie analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+Allowance for Faulty Construction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+Allowance for Deterioration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+Fatigue Assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 3 of 76
+======================================================================
+CS 467 Revision 1
+Contents
+7. Risk assessment for management
+22
+Primary risks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Condition risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Structural risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+Secondary risks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+8. Management plan
+23
+Structures assessed to have sufficient capacity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Structures assessed to have sufficient capacity but with concerns . . . . . . . . . . . . . . . . . . . . . . . .
+23
+Sub-standard structures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Management measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Maintenance inspections
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+Maintenance activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Plan for interim measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Long term solutions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Interim measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Investigations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+Repair . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Strengthening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+Replacement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+9. Normative references
+28
+10. Informative references
+29
+Appendix A. Model documents
+30
+A1 Model risk management report
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+A2 Model priority list . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+31
+Appendix B. Guidance on risk assessment
+33
+B1 General . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+B2 Primary risk rating
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+B2.1 Condition risk
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+B2.2 Structural risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+B3 Secondary risks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+B3.1 Consequential risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+B3.2 Vulnerable details risk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+B3.3 Other risks
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+Appendix C. Fatigue assessment
+46
+C1 Fatigue endurance of reinforcing bars . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+C2 Local stress in scissor bar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 4 of 76
+======================================================================
+CS 467 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Apr 2020
+Revision 1 (April 2020) This revision is for minor amendments to the England
+NAA only. Please see the England NAA revision release notes for details.
+Revision 0 (March 2020) CS 467 document replaces BA 93/09. This full
+document has been re-written to make it compliant with the new Highways
+England drafting rules. This document contains updated content on the risk
+management of bridges with deck hinges and their structural assessment,
+highlighting requirements and advice for a risk management plan and clarifying
+the risk assessment methodologies, to fully align with the other associated
+DMRB documents, still retaining compatibility with the stages of the current
+management strategy and the existing requirements for structural assessment
+of deck hinge structures.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 5 of 76
+======================================================================
+CS 467 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England .
+This document supersedes BA 93/09, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 6 of 76
+======================================================================
+CS 467 Revision 1
+Introduction
+Introduction
+Background
+The use of this document enables the safety and serviceability of deck hinges to be managed and
+assessed, providing key information that is required to manage risks and maintain a safe and
+operational network.
+This document has been developed to replace BA 93/09.
+The approach for risk management of deck hinge structures has been developed based on current
+guidance towards risk management of structures from the industry, as well as GG 104 [Ref 8.N].
+The document has been developed in combination with new content in CS 455 [Ref 11.N], including
+relevant content about using strut-and-tie analysis, and effects of deterioration and detailing on hinge
+joint assessments.
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 5.N] apply to this document.
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 7 of 76
+======================================================================
+CS 467 Revision 1
+Abbreviations and symbols
+Abbreviations and symbols
+Abbreviations
+Abbreviation
+Meaning
+ALL
+Assessment live loading. Refer to CS 454 [Ref 1.N]
+SLS
+Serviceability limit state
+TAA
+Technical Approval Authority. Refer to CG 300 [Ref 10.N].
+ULS
+Ultimate limit state
+Symbols
+Symbol
+Definition
+h
+Depth of the hinge, measured as the clear depth between hinge formers
+D
+Nominal diameter of the scissor bars
+K
+Constant used in the simplified analysis for fatigue
+Rc
+Condition risk representing the likelihood of structural failure due to condition risks being
+realised
+RD
+Structural risk representing the likelihood of structural failure due to structural capacity
+risks being realised
+RD1
+The structural risk RD determined based on the as built reinforcement detailing of the
+deck hinge
+RD2
+The structural risk RD determined based on the previous structural assessment findings
+specific to the deck hinge
+RQ
+Consequential risk
+RV
+Vulnerable details risk
+RF
+Deck hinge form risk
+RO
+Other risks
+α
+Difference between the rotations of the deck on either side of the hinge
+γf3
+Partial factor defined in CS 454 [Ref 1.N]
+σs
+Axial tensile stress a tension scissor bar, assuming that all the shear force in the hinge is
+carried by the tension scissor bars
+σsb
+Stress in the scissor bar
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 8 of 76
+======================================================================
+CS 467 Revision 1
+Terms and definitions
+Terms and definitions
+Terms
+Term
+Definition
+Immediate risk structure
+Structures that are considered to represent an immediate and
+unacceptable safety risk to the public. See also CS 470 [Ref 7.N]
+Lower-bound analysis
+Lower-bound analyses are based on finding any system of internal
+forces that are everywhere in equilibrium with the applied loads and
+which nowhere exceed yield.
+Provisionally sub-standard
+Structures that are deemed to be sub-standard without an assessment
+or assessed to have sub-standard load capacity at any stage during the
+assessment process. See also CS 470 [Ref 7.N]
+Structural assessment
+The process of determining in terms of vehicle loading the load that an
+existing structure can carry with an acceptable probability without
+suffering serious damage that can endanger any persons on or near
+the structure.
+Sub-standard structures
+Structures found to be sub-standard in terms of meeting the
+carriageway loading requirements given in CS 454 [Ref 1.N] or by other
+means, or after carrying out an appropriate assessment. See also CS
+470 [Ref 7.N]
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 9 of 76
+======================================================================
+CS 467 Revision 1
+1. Scope
+1.
+Scope
+Aspects covered
+1.1
+This document shall be used for the risk management and structural assessment of bridges with
+concrete deck hinges.
+NOTE 1
+Typical deck hinge details are illustrated in Appendix B.
+NOTE 2
+Bridges with concrete deck hinges include structures with a Wichert truss detail.
+1.2
+This document shall be used to prioritise deck hinge structures for structural assessment and risk
+management.
+NOTE
+The requirements for managing sub-standard structures, including immediate risk structures, are found
+in CS 470 [Ref 7.N].
+Implementation
+1.3
+This document shall be implemented forthwith on all schemes involving the management or
+assessment of structures with concrete deck hinges on the Overseeing Organisations' motorway and
+all-purpose trunk roads according to the implementation requirements of GG 101 [Ref 5.N].
+Use of GG 101
+1.4
+The requirements contained in GG 101 [Ref 5.N] shall be followed in respect of activities covered by
+this document.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 10 of 76
+======================================================================
+CS 467 Revision 1
+2. Risk management process and prioritisation
+2.
+Risk management process and prioritisation
+2.1
+All deck hinge structures shall be managed by an ongoing process of review, risk assessment and risk
+management.
+2.1.1
+The process of review, risk assessment and risk management should include:
+1) existing priority list, where available;
+2) review triggers.
+NOTE 1
+Review triggers can include the following:
+1) structures with a change in condition that can affect the load carrying capacity;
+2) structures with deck hinges where no previous structural assessment exists;
+3) structures with deck hinges which have never had a special inspection undertaken on the deck
+hinges;
+4) structures with deck hinges where there are doubts about the validity of the previous assessment
+methodology or assumptions made;
+5) families of structures known to have deficient deck hinges;
+6) structures affected by or incorporated in new schemes;
+7) changes to the use of the structure, for example altered lane markings;
+8) structures where long term solutions have been implemented and the deck hinge detail is retained.
+NOTE 2
+Long term solutions can include repair, strengthening and replacement.
+2.1.2
+Where a deck hinge structure is currently subject to an existing deck hinge management plan, then the
+structure may continue to be managed using the existing deck hinge management plan until a new
+review trigger occurs.
+2.2
+Where a new review trigger occurs to a deck hinge structure currently subject to an existing deck hinge
+management plan, then the deck hinge structure shall be managed using the risk management process
+described in this document and added to the priority list.
+2.3
+The risk management process shall comprise the following stages, as illustrated in Figure 2.3:
+1) initial review;
+2) risk assessment for structural assessment;
+3) structural review;
+4) structural assessment;
+5) risk assessment for management;
+6) management plan.
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 11 of 76
+======================================================================
+CS 467 Revision 1
+2. Risk management process and prioritisation
+Figure 2.3 Deck hinge structures risk management process flowchart
+NOTE 1
+Each stage of the risk management process is described in Section 3 to Section 8 of this document.
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 12 of 76
+======================================================================
+CS 467 Revision 1
+2. Risk management process and prioritisation
+NOTE 2
+The structural assessment outputs refer to whether a structure is structurally assessed as being
+capable of carrying normal traffic (pass) or not (fail) in accordance with CS 454 [Ref 1.N].
+2.4
+Risk assessments shall be undertaken in accordance with GG 104 [Ref 8.N].
+2.5
+Sub-standard deck hinge structures shall be managed in accordance with CS 470 [Ref 7.N] and in
+conjunction with this document.
+2.6
+The risk management process in Figure 2.3 shall be revisited for a deck hinge structure in the following
+situations:
+1) new review triggers occur;
+2) following a new principal inspection.
+NOTE
+The purpose of revisiting the risk management process following a new principal inspection is to verify
+whether the current risk management process inputs and outputs change as a result of the findings
+from the new principal inspection.
+2.6.1
+Where the current risk management process inputs and outputs are unchanged following a new
+principal inspection, then the structure may continue to be managed using the existing deck hinge
+management plan until a new review trigger occurs.
+Risk management report
+2.7
+The risk management report shall be the means by which the key inputs, outputs, justification and
+decisions from the risk management process is recorded and agreed.
+NOTE
+A model risk management report is provided in Appendix A.
+2.8
+The risk management report shall be a live document, started during the initial review, then reviewed
+and updated at each stage of the risk management process.
+2.9
+The risk management report shall be submitted to the Overseeing Organisation for agreement at
+agreed milestones.
+2.9.1
+Milestones may be the completion of each stage of the risk management process.
+2.10
+Where managed through CS 470 [Ref 7.N], a summary of the sub-standard structure management plan
+shall be included in the risk management report.
+Initial review
+2.11
+The following shall be included in the risk management report following the initial review:
+1) the inputs informing the desk study, including review triggers;
+2) whether there is need to undertake a new inspection of the deck hinge;
+3) the findings from the desk study;
+4) recommendations for investigations to be undertaken to provide information needed to complete the
+risk assessment.
+Risk assessment for structural assessment
+2.12
+The risk management report shall record the inputs and outputs from the risk assessment for structural
+assessment stage.
+NOTE 1
+The inputs for the risk assessment for structural assessment include:
+1) primary and secondary risks used in the risk assessment;
+2) justification and evidence informing the determination of the risk ratings.
+NOTE 2
+The outputs for the risk assessment for structural assessment include:
+1) the risk rating for each primary or secondary risk;
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 13 of 76
+======================================================================
+CS 467 Revision 1
+2. Risk management process and prioritisation
+2) the primary risk rating;
+3) where applicable, the refined primary risk rating;
+4) where applicable, the secondary risk rating.
+NOTE 3
+Risks and risk ratings are described in Section 4 and Section 7 of this document.
+Structural review
+2.13
+The risk management report shall record a summary of the outputs from the CS 451 [Ref 9.N] structural
+review.
+Structural assessment
+2.14
+The risk management report shall record a summary of the findings and recommendations from the
+structural assessment.
+Risk assessment for management
+2.15
+The risk management report shall record the inputs and outputs from the risk assessment for
+management stage.
+NOTE 1
+The inputs for the risk assessment for management include:
+1) primary and secondary risks used in the risk assessment;
+2) justification and evidence informing the determination of the risk ratings.
+NOTE 2
+The outputs for the risk assessment for management include:
+1) the risk rating for each primary or secondary risk;
+2) the primary risk rating;
+3) where applicable, the refined primary risk rating;
+4) where applicable, the secondary risk rating.
+NOTE 3
+Risks and risk ratings are described in Section 4 and Section 7 of this document.
+Management plan
+2.16
+The risk management report shall include a summary of the risk management plan and recommended
+risk management measures for the structure.
+Prioritisation of deck hinge structures
+2.17
+Where the structural assessment and management of numerous deck hinge structures are required,
+they shall be prioritised based on the outputs from the risk management process.
+NOTE
+A model prioritisation list is provided in Appendix A.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 14 of 76
+======================================================================
+CS 467 Revision 1
+3. Initial review
+3.
+Initial review
+3.1
+An initial review shall be carried out as a desk study to evaluate whether the information to be used for
+the risk assessment is:
+1) sufficient to enable a risk assessment to be completed;
+2) current;
+3) valid.
+3.2
+The initial review shall be undertaken by reviewing the following record information:
+1) the most recent risk assessment;
+2) as-built drawings, construction records and other as-built information;
+3) principal, general or special inspection reports;
+4) recommendations from previous inspections and maintenance records;
+5) previous structural assessments and recommendations.
+3.2.1
+A review of any previous structural assessments should cover the following:
+1) whether a specific deck hinge assessment has been completed;
+2) the assessed load carrying capacity of the deck hinge;
+3) the availability and validity of the assessment and check certificates;
+4) the availability and validity of the assessment report.
+NOTE
+Structural assessments are not valid for the management process described in this document if they
+have not specifically assessed the capacity of the deck hinge.
+3.2.2
+Where previous inspections of the deck hinge structure are unavailable or a change in condition is
+likely since the structure was last inspected on the basis of the findings of the last available inspection,
+then an inspection of the deck hinge structure should be undertaken.
+3.2.3
+The type and extent of inspection should be targeted at obtaining the required information for the initial
+review or evaluating the change in condition.
+3.2.4
+Where additional information is needed to complete the risk assessments, a recommendation for
+investigations to be undertaken should be included in the risk management report.
+3.2.5
+The risk management report should include recommendations on the timescales for undertaking the
+investigations.
+3.3
+Where the initial review finds evidence that the deck hinge could be at immediate risk or provisionally
+sub-standard, then the structure shall be managed in accordance with CS 470 [Ref 7.N].
+NOTE
+Evidence indicating that a deck hinge can be at immediate risk can include:
+1) significantly deteriorated condition;
+2) recent event causing significant defects;
+3) signs of a failure mechanism developing.
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 15 of 76
+======================================================================
+CS 467 Revision 1
+4. Risk assessment for structural assessment
+4.
+Risk assessment for structural assessment
+Risk assessment
+4.1
+A risk assessment shall be completed to prioritise deck hinge structures for structural assessment.
+NOTE 1
+The output from the risk assessment process assigns a risk rating to each structure to enable
+prioritisation for structural assessment.
+NOTE 2
+Example risk ratings are as follows:
+1) very high;
+2) high;
+3) medium;
+4) low.
+4.2
+The following primary risks shall be included when completing a risk assessment to determine a
+primary risk rating for prioritising structural assessments:
+1) condition risk, RC ;
+2) structural risk, RD .
+NOTE 1
+The primary risks are used to assess the risk of the structural failure of the deck hinge based on the
+following:
+1) RC representing the likelihood of structural failure due to condition risks being realised;
+2) RD representing the likelihood of structural failure due to structural capacity risks being realised;
+3) the severity of the consequences at this stage is taken as being very high as it involves a deck hinge
+structure failure which can lead to collapse.
+NOTE 2
+Guidance on each of the primary risks listed and how to use them is provided in Appendix B.
+4.2.1
+The primary risk rating should be used to determine an initial priority list for the structural assessment
+of a group of deck hinge structures.
+4.2.2
+The effects from the combination of condition and structural risk should be assessed when assigning a
+risk rating for the primary risks.
+NOTE
+An example of how the risk rating of a structure changes due to effects in combination can be found in
+Appendix B.
+4.2.3
+The following secondary risks may be used to refine the primary risk rating of a deck hinge structure:
+1) consequential risk, RQ ;
+2) vulnerable details risk , RV ;
+3) deck hinge form risk, RF ;
+4) other risks, RO .
+NOTE 1
+Secondary risks can be used to either increase the primary risk rating or to prioritise between a number
+of structures with the same primary risk rating.
+NOTE 2
+Where secondary risks are used to increase the primary risk rating, this is referred to as the refined
+primary risk rating.
+NOTE 3
+Where secondary risks are used to prioritise between a number of structures with the same primary risk
+rating, this is referred to as the secondary risk rating.
+NOTE 4
+Guidance on each of the secondary risks, how to use them in combination with the primary factors is
+provided in Appendix B.
+14
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 16 of 76
+======================================================================
+CS 467 Revision 1
+4. Risk assessment for structural assessment
+Primary risks
+Condition risk
+4.3
+The risk rating for the condition risk, RC , shall be determined based upon the current condition of the
+deck hinge.
+4.4
+The current condition of the deck hinge shall be verified from photographs and information available
+within inspection information.
+4.4.1
+Conclusions made in inspection reports should be verified through reviewing the site inspection
+information.
+4.5
+The deck hinge shall be evaluated for possible combinations of defects on the structural capacity.
+NOTE
+The effects on the strength of the section from combinations of defects can be greater than the sum of
+individual defects (e.g. the interaction between poor longitudinal reinforcement anchorage and the
+provision of insufficient shear reinforcement). Individual defects can have a limited impact on the
+capacity (due to alternative load paths being formed), but for multiple defects, alternative load paths
+could no longer be available.
+Structural risk
+4.6
+The risk rating for the structural risk, RD shall be determined based upon either:
+1) the as built reinforcement detailing of the deck hinge, RD1 ; or,
+2) the previous structural assessment findings specific to the deck hinge, RD2 .
+NOTE 1
+RD1 represents the risk of structural failure based on the indicative load carrying capacity and the
+as-built reinforcement detailing, evaluated in accordance with CS 455 [Ref 11.N] and Section 6 of this
+document.
+NOTE 2
+The indicative load carrying capacity of the deck hinge can be estimated using the following
+reinforcement detailing related aspects:
+1) bar arrangement;
+2) anchorage;
+3) continuity of reinforcement;
+4) bearing stresses;
+5) arrangement of links surrounding the scissor and dowel bars.
+NOTE 3
+RD2 represents the risk of structural failure based on the assessed load carrying capacity.
+NOTE 4
+The assessed load carrying capacity can be obtained from previous assessment findings in
+assessment reports or certificates if available.
+4.6.1
+The as built reinforcement detailing may be established through review of record information such as:
+1) as-built drawings, construction records and other as-built information;
+2) previous investigation or assessment reports;
+3) previous structural assessments.
+4.6.2
+Where there is a lack of record information to determine RD , recommendation on whether
+investigations are required to determine the as built reinforcement detailing should be included in the
+risk management report.
+4.6.3
+Where there is a need to complete the risk assessment for a structure with lack of record information,
+then a higher risk rating may be adopted for RD provisionally to reflect the lack of information.
+15
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 17 of 76
+======================================================================
+CS 467 Revision 1
+4. Risk assessment for structural assessment
+Secondary risks
+Consequential risk
+4.7
+The risk rating for consequential risk RQ , shall be determined based upon the current traffic and route
+type over or under the structure.
+NOTE 1
+RQ represents the consequence of structural failure on the routes carried by or below the structure.
+NOTE 2
+Route types can include highways, railways, waterways, cycleways, bridleways, and footways.
+4.7.1
+RQ should be determined by evaluating the consequences of failure of the deck hinge in terms of the
+routes over and under the structure, including:
+1) number of people killed or seriously injured;
+2) damage to vehicles;
+3) damage to utilities and services;
+4) nature of the route over and under the structure;
+5) the viability of diversion routes in the event of structural failure;
+6) volume of traffic over and under the structure;
+7) length of time to restore normal operation;
+8) environmental pollution;
+9) political and reputational damage;
+10) financial impact.
+Vulnerable details risk
+4.8
+The risk rating for the vulnerable details risk, RV shall be determined based upon additional vulnerable
+details present on the structure.
+NOTE
+RV represents the risk of structural failure due to additional vulnerable details such as:
+1) post-tensioned elements;
+2) evidence of inadequate drainage or waterproofing system;
+3) low concrete grade;
+4) sub-standard concrete cover;
+5) presence of chlorides in concrete or grout.
+Other risks
+4.9
+The risk rating for other risks, RO shall be taken as low unless otherwise agreed with the Overseeing
+Organisation.
+4.9.1
+RO may be determined based upon other considerations that affect the risk and priority of a structure.
+NOTE 1
+RO represents a tool to include other risks and considerations that can affect the priority of a deck
+hinge structure.
+NOTE 2
+Examples of other risks and considerations that can affect the priority of a deck hinge structure can
+include:
+1) Overseeing Organisation preferences;
+2) effects on, or caused by, new schemes such as changes to loading;
+3) families of structures which have the same construction type.
+16
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 18 of 76
+======================================================================
+CS 467 Revision 1
+5. Structural review
+5.
+Structural review
+5.1
+Following the risk assessment for structural assessment, the structure shall be reviewed in accordance
+with CS 451 [Ref 9.N] to determine if a new structural assessment is required.
+5.1.1
+The structural review should be undertaken in accordance with the priority list of deck hinge structures
+resulting from the risk assessment for structural assessment, starting with the highest priority structures
+first.
+5.2
+Where the structural review finds the previous structural assessment is no longer valid then the risk
+assessment for structural assessment shall be revisited to update the priority of the structure.
+5.2.1
+Where the structural review finds the previous structural assessment is no longer valid, RD1 may be
+used in place of RD2 to update the priority of the structure.
+NOTE
+Examples of previous structural assessments that are no longer valid include the following:
+1) the previous structural assessment did not specifically assess the capacity of the deck hinge;
+2) an intrusive investigation finds reinforcement provision that does not match the as built records;
+3) a change in the condition of the structure.
+5.2.2
+Where RD1 is used in place of RD2 following the structural review, the reason behind this should be
+recorded in the risk management report.
+17
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 19 of 76
+======================================================================
+CS 467 Revision 1
+6. Structural assessment
+6.
+Structural assessment
+Assessment processes and basis of assessment
+6.1
+The assessment processes and basis of assessment for the deck hinge shall follow the requirements of
+CS 454 [Ref 1.N] and CS 455 [Ref 11.N] supplemented by the additional requirements of this section.
+Limit States
+6.2
+The assessment shall be carried out at the ultimate limit state (ULS).
+6.3
+Where an assessment of crack width at the serviceability limit state (SLS) is proposed, the
+methodology and criteria for the assessment shall be subject to technical approval in accordance with
+CG 300 [Ref 10.N].
+6.4
+A fatigue assessment shall be carried out.
+NOTE
+Requirements for fatigue assessment are provided in the corresponding sub-section of this document.
+Assessment actions and assessment action effects
+6.5
+The assessment actions and assessment action effects that are applied to the deck hinge shall be
+determined from an assessment of the structure in accordance with CS 455 [Ref 11.N] and CS 454
+[Ref 1.N].
+NOTE
+The distribution of the load effects in a hinge can be affected by the skew of the bridge, particularly
+when the angle of skew exceeds 10 degrees.
+6.5.1
+Where it is possible for longitudinal loading to be transmitted through the deck hinge, including where
+the longitudinal loading has an adverse effect, the effects of longitudinal loading should be included.
+6.5.2
+The shear and axial load effects in the hinges may be determined based on the assumption that the
+hinges behave as pinned supports.
+Assessment of resistance
+6.6
+The assessment of resistance of the deck hinge shall be carried out in accordance with CS 455 [Ref
+11.N] and the additional requirements in this document, including the effects of:
+1) loss of throat reinforcement cross-section;
+2) misplaced reinforcement;
+3) concrete spalling and debonding;
+4) loss of link reinforcement;
+5) reduced effectiveness of bond for bars with low cover or corroded bars;
+6) reinforcement with low ductility;
+7) reduced concrete resistances and bond due to internal degradation of concrete.
+Verification
+6.7
+The value of γf3 shall be obtained from CS 454 [Ref 1.N] based on the type of analysis used for the
+assessment.
+Methodology for structural analysis of the hinge
+6.8
+The methodology for the structural analysis of the hinge shall be subject to technical approval in
+accordance with CG 300 [Ref 10.N].
+6.9
+A lower-bound analysis such as a strut-and-tie analysis shall be used to quantify the assessed
+load-carrying capacity at the ULS.
+18
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 20 of 76
+======================================================================
+CS 467 Revision 1
+6. Structural assessment
+6.10
+The vertical resistance of hinges at the ULS shall not be assessed using structural analysis models that
+rely on concrete in tension as a primary load carrying component.
+Assessment based on strut-and-tie analysis
+6.11
+Where a strut-and-tie analysis is used, the assessment shall be carried out according to the
+requirements for the strut-and-tie approach to the shear resistance of beams with shear reinforcement
+in CS 455 [Ref 11.N] and the additional content in this document.
+NOTE
+The requirements in CS 455 [Ref 11.N] for the strut-and-tie approach to the shear resistance of beams
+with shear reinforcement include limits on the stresses in struts, nodes and ties.
+6.11.1
+Concrete tensile strength should not be included in the calculation of the tensile resistance of ties.
+6.11.2
+The compressive resistance of struts may be based on either:
+1) the compressive strength of concrete as set out in the section on strut-and-tie assessment in CS 455
+[Ref 11.N]; or,
+2) the compressive strength of the diagonal scissor bar passing through the hinge acting in
+compression.
+6.11.3
+The effect of post-tensioning in hinges may be modelled by applying the post-tensioning forces as
+external actions.
+6.11.4
+The strut-and-tie analysis may initially be based on the simple approach illustrated in Figure 6.11.4,
+with the diagonal scissor bars acting in tension and compression.
+Figure 6.11.4 Example strut-and-tie model using the diagonal scissor bars in
+tension and compression
+NOTE 1
+In the figures in this section, the dashed lines represent struts, while the solid lines represent ties.
+NOTE 2
+In the example strut-and-tie models illustrated in this section, the struts are provided by the concrete,
+except for the strut formed from the diagonal scissor bar, as indicated in Figure 6.11.4.
+NOTE 3
+Refer to Appendix B for typical details of a deck hinge.
+19
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 21 of 76
+======================================================================
+CS 467 Revision 1
+6. Structural assessment
+6.11.5
+Where the approach illustrated in Figure 6.11.4 does not provide sufficient resistance, a
+complementary strut-and-tie system may be superposed to provide additional resistance, for example,
+using the approach illustrated in Figure 6.11.5a or Figure 6.11.5b, or an alternative strut-and-tie model.
+Figure 6.11.5a Example strut-and-tie model with a concrete compression strut
+passing through the hinge
+Figure 6.11.5b Example strut-and-tie model using the dowel bar as a tie member
+6.12
+Where strut-and-tie systems are superposed, the forces in the struts and ties shall be verified for the
+total superposed effects.
+6.13
+The components of horizontal force passing through the hinge for each system shall sum to the total
+net horizontal force coexistent with the applied shear force.
+NOTE
+The total net horizontal force due to external forces can be:
+1) zero, for example where the bridge is articulated to prevent net axial forces;
+2) compressive, for example due to permanent actions putting the deck into compression;
+3) tensile, for example due to restraint of longitudinal traffic actions.
+20
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 22 of 76
+======================================================================
+CS 467 Revision 1
+6. Structural assessment
+Allowance for Faulty Construction
+6.14
+Allowance shall be made for construction tolerances in determining the maximum width of the concrete
+strut that can pass through the throat of the hinge.
+6.14.1
+Allowance for construction tolerances should be made by either:
+1) using direct site measurements of the hinge throat geometry; or,
+2) assuming a reduced effective hinge throat dimension equal to 90% of the value shown on record
+drawings.
+Allowance for Deterioration
+6.15
+Corroded reinforcement shall be assessed in accordance with CS 455 [Ref 11.N].
+NOTE 1
+Intrusive investigations can establish the condition of the reinforcement in a hinge joint.
+NOTE 2
+Significant corrosion of scissor bars can be present with few externally visible defects.
+6.16
+Where there is damage or deterioration of the concrete in the hinge, the hinge throat dimension shall
+be reduced based on the depth of sound concrete.
+NOTE
+The approach of Figure 6.11.4 does not rely on a concrete compressive strut through the hinge, and
+can be useful where the throat concrete is seriously damaged.
+Fatigue Assessment
+6.17
+The fatigue life of hinge bars subject to cyclic tensile stress ranges shall be assessed, based on:
+1) the stress ranges in the bars;
+2) the frequency of the cycles;
+3) the degree of corrosion in the bars.
+6.18
+The method of determining the fatigue life of hinge bars shall be subject to technical approval in
+accordance with CG 300 [Ref 10.N].
+NOTE 1
+The fatigue life of reinforcing bars can be disproportionately sensitive to corrosion losses.
+NOTE 2
+Appendix C includes a relationship between the stress range and the fatigue endurance of reinforcing
+bars, including corroded bars.
+NOTE 3
+Methodologies for assessment of fatigue in steel structures are provided in CS 456 [Ref 3.I].
+6.19
+Calculation of stress ranges in the tension hinge bars shall include:
+1) a component due to fluctuating shear across the hinge;
+2) a component due to hinge rotation.
+6.19.1
+The calculation of stress ranges should include the effect of concrete cracking and debonding of
+reinforcement in the joint.
+NOTE 1
+Under shear load, cracks can typically develop from the corners of each hinge former at a right angle to
+the adjacent tension hinge bars, accompanied by local debonding adjacent to the crack.
+NOTE 2
+When a rotation is applied to the hinge, the cracks can open and close slightly. The stress change in
+the bar at the hinge can depend on the debonded length: the longer the debonded length, the smaller
+the resulting stress change in the bar.
+NOTE 3
+Under long-term cyclic loading, as the crack system around the hinge develops, the debonded length
+tends to increase.
+NOTE 4
+A method for calculating the local stress in the scissor bars is included in Appendix C.
+21
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 23 of 76
+======================================================================
+CS 467 Revision 1
+7. Risk assessment for management
+7.
+Risk assessment for management
+7.1
+A risk assessment shall be completed to prioritise structures with deck hinges for management and
+interventions.
+7.2
+The risk assessment for management shall be completed as per Section 4 of this document, with the
+risk ratings updated where required.
+Primary risks
+Condition risk
+7.3
+The risk rating for the condition risk, RC , shall be reviewed to determine if the risk rating assigned is
+still valid.
+7.3.1
+The validity of the risk rating for RC should be verified based upon:
+1) findings from the most recent inspection;
+2) any recent structure events reported which could affect the condition, for example:
+a) spalling concrete around the deck hinge;
+b) further cracking;
+c) vehicle impact to the structure.
+7.4
+Where appropriate, RC shall be updated to reflect the current condition of the structure.
+NOTE
+Changes in the condition of a structure can affect the validity of the previous CS 451 [Ref 9.N] structural
+review and previous structural assessments.
+Structural risk
+7.5
+Where RD1 was used in the risk assessment for structural assessment to determine the structural risk
+rating, this shall be replaced by RD2 to reflect the deck hinge structural assessment findings.
+7.6
+The risk rating for the structural risk RD2 , shall be determined based upon the most recent and valid
+structural assessment findings.
+NOTE
+Where RD2 was used in the risk assessment for structural assessment and there was no new structural
+assessment required, then in the risk assessment for management, the risk rating for RD2 remains
+unchanged.
+Secondary risks
+7.7
+Where secondary risks were used in the risk assessment for structural assessment, they shall be
+reviewed to determine whether the risk ratings are still valid or whether they need to be updated in the
+risk assessment for management.
+NOTE
+Examples where the risk ratings for secondary risks need to be updated include:
+1) implementation of new schemes which can affect the structure;
+2) changes to traffic volumes;
+3) changes to diversion route viability;
+4) changes to the nature of the route.
+22
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 24 of 76
+======================================================================
+CS 467 Revision 1
+8. Management plan
+8.
+Management plan
+8.1
+The management plan for the deck hinge structure shall be developed and recorded within the risk
+management report.
+8.1.1
+The management plan should take into account the conclusions and recommendations from the
+structural assessment report.
+8.1.2
+The management plan may comprise a summary of another report or study, where various options are
+discussed and agreed.
+8.2
+The management plan shall be a live document, updated following changes to or arising from
+management measures.
+NOTE
+Changes to or arising from management measures can include:
+1) recommendations made to undertake investigations, inspections, assessments or studies;
+2) recommendations arising from investigations, inspections, structural assessments or studies for
+management measures to be implemented;
+3) updates to management plan following implementation of management measures.
+8.3
+To determine an appropriate management plan, the structures shall be categorised into the following:
+1) structures assessed to have sufficient capacity;
+2) structures assessed to have sufficient capacity but with concerns;
+3) sub-standard structures.
+NOTE 1
+Structures assessed to have sufficient capacity are structures which pass their deck hinge specific
+structural assessment specific for its current condition.
+NOTE 2
+Structures assessed to have sufficient capacity but with concerns are structures which pass their deck
+hinge specific structural assessment for its current condition, but with condition concerns which can be
+detrimental to the structural capacity over time.
+NOTE 3
+Sub-standard structures are structures that do not pass their structural assessment.
+Structures assessed to have sufficient capacity
+8.4
+A management plan shall be developed for structures assessed to have sufficient capacity.
+8.4.1
+The management plan should be targeted at maintaining or improving the current condition of the
+structure such that:
+1) the assumptions made for the structural assessment remain valid;
+2) its assessed structural capacity does not deteriorate.
+8.4.2
+The management plan for structures assessed to have sufficient capacity should include the following
+measures:
+1) maintenance inspection regime to CS 450 [Ref 3.N];
+2) recommendations for maintenance activities.
+Structures assessed to have sufficient capacity but with concerns
+8.5
+A management plan shall be developed for structures assessed to have sufficient capacity but with
+concerns.
+8.5.1
+The management plan should be targeted at maintaining or improving the current condition of the
+structure such that:
+1) the condition concerns are addressed;
+2) the assumptions made for the structural assessment remain valid;
+23
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 25 of 76
+======================================================================
+CS 467 Revision 1
+8. Management plan
+3) its assessed structural capacity does not deteriorate.
+8.5.2
+Structures assessed to have sufficient capacity but with concerns may be managed using the following
+measures:
+1) maintenance inspection regime to CS 450 [Ref 3.N];
+2) recommendations for maintenance activities;
+3) monitoring regime;
+4) plan for interim measures;
+5) long term solution.
+Sub-standard structures
+8.6
+The management plan for sub-standard deck hinge structures shall record the following:
+1) the interim measures for managing the sub-standard deck hinge structure in accordance with CS
+470 [Ref 7.N];
+2) long term management measures.
+8.6.1
+The management plan may record the interim measures by either:
+1) including references to the CS 470 [Ref 7.N] documents and records; or,
+2) including a summary of the CS 470 [Ref 7.N] interim measures.
+8.6.2
+Deck hinge structures assessed to be sub-standard may be managed using the following measures:
+1) interim measures;
+2) monitoring regime;
+3) investigations;
+4) repair;
+5) strengthen;
+6) replace;
+7) other measures.
+NOTE
+Interim measures can be found in CS 470 [Ref 7.N].
+Management measures
+Maintenance inspections
+8.7
+An appropriate inspection regime shall be developed and recorded in the management plan.
+NOTE
+The Inspection Manual for Highway Structures IMHS [Ref 1.I] provides guidance on undertaking
+inspections of highway structures in general.
+8.8
+Where special inspections in accordance with CS 450 [Ref 3.N] are proposed as an appropriate
+management measure for a deck hinge structure, the management plan shall record a summary of the
+purpose and frequency of the special inspections.
+8.8.1
+Special inspections for deck hinge structures should be carried out to determine:
+1) presence and extent of expansion joint failure and consequent leakage of water and chlorides on the
+deck hinge;
+2) presence and extent of cracking adjacent to the hinge;
+3) presence and extent of efflorescence or any corrosion deposits;
+4) presence and extent of concrete delamination or spalling;
+5) bridge temperature at the time of the special inspection.
+24
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 26 of 76
+======================================================================
+CS 467 Revision 1
+8. Management plan
+Maintenance activities
+8.9
+The recommended maintenance activities targeted at maintaining or improving the current condition of
+the deck hinge shall be recorded in the management plan.
+NOTE
+Effective maintenance activities for preventing further deterioration to a deck hinge structure can
+include:
+1) expansion joint replacement;
+2) deck waterproofing repairs or replacement;
+3) provision of effective drainage systems.
+8.10
+The timescales and intervals for the recommended maintenance activities to be implemented shall be
+recorded in the management plan.
+Monitoring
+8.11
+Where monitoring of a deck hinge structure assessed to have sufficient capacity but with concerns is
+proposed as an appropriate management measure, the management plan shall record a summary of
+the monitoring regime.
+8.11.1
+The management plan may record a summary of the monitoring regime by either:
+1) including a reference of the monitoring specification; or,
+2) including a summary of the monitoring specification such as:
+a) monitoring type;
+b) monitoring frequency;
+c) definition of trigger levels;
+d) action plan if trigger levels are exceeded.
+NOTE
+Refer to CS 470 [Ref 7.N] for requirements and guidance on monitoring.
+Plan for interim measures
+8.12
+For a structure assessed to have sufficient capacity but with concerns, the management plan shall
+record a plan for suitable interim measures to be implemented in the event the condition of the
+structure deteriorates such that it becomes sub-standard.
+NOTE
+The plan for interim measures is intended to present in advance suitable interim measures that can be
+implemented in the event the condition of the structure deteriorates such that it becomes sub-standard.
+Long term solutions
+8.13
+For a structure assessed to have sufficient capacity but with concerns, the management plan shall
+record proposed long term solutions for the structure.
+8.13.1
+Long term solutions recorded in the management plan may include:
+1) repair;
+2) strengthen;
+3) replace.
+Interim measures
+8.14
+For sub-standard structures the interim measures shall be implemented in accordance with CS 470
+[Ref 7.N].
+25
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 27 of 76
+======================================================================
+CS 467 Revision 1
+8. Management plan
+Investigations
+8.15
+Where investigations, either non-destructive testing or invasive investigations, are proposed as an
+appropriate management measure for a sub-standard deck hinge structure, a summary of the details of
+the investigation shall be recorded in the management plan.
+NOTE 1
+Investigations are useful for obtaining further information on the condition of the structure, enabling
+other management measures to be developed and targeted at addressing specific issues associated
+with the deck hinge.
+NOTE 2
+Non-destructive testing is unlikely to compromise the structural capacity of the deck hinge structure and
+is therefore preferable to invasive investigations in the first instance; however, invasive investigations to
+expose the reinforcement in the hinge, combined with non-destructive testing as appropriate, can be
+necessary in some cases.
+NOTE 3
+Examples of non-destructive testing and invasive investigations include:
+1) chloride content testing;
+2) cement content testing;
+3) half-cell measurements;
+4) impact echo testing;
+5) radiography;
+6) acoustic emission testing;
+7) thermography;
+8) borescope inspection of bars from small holes drilled to the reinforcement.
+8.16
+Invasive investigations shall be planned and implemented such that the structural integrity of the deck
+hinge structure is not compromised.
+Repair
+8.17
+Where repairs are proposed as an appropriate management measure for a sub-standard hinge
+structure, a summary of the repair details and extents shall be recorded in the management plan.
+8.17.1
+Repairs proposed as a management measure may include the following:
+1) concrete repairs;
+2) reinforcement replacement.
+8.18
+Concrete repairs shall be implemented in accordance with CD 359 [Ref 2.N].
+8.19
+Proposed repair solutions shall be targeted at reducing the risk rating for the structure.
+Strengthening
+8.20
+Where strengthening is proposed as an appropriate management measure for a sub-standard deck
+hinge structure, a summary of the strengthening proposals shall be recorded in the management plan.
+8.21
+Proposed strengthening measures shall be targeted at reducing the risk rating for the structure or
+eliminating the deck hinge detail.
+NOTE
+Possible strengthening measures for deck hinge structures include:
+1) provision of additional supports;
+2) installing additional reinforcement in the deck hinge;
+3) structurally connect the two halves of the deck to eliminate the deck hinge detail.
+8.22
+Where strengthening works have been implemented to eliminate the deck hinge detail on a structure,
+the structure shall be removed from the risk management process in this document as it is no longer a
+deck hinge structure.
+26
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 28 of 76
+======================================================================
+CS 467 Revision 1
+8. Management plan
+Replacement
+8.23
+Where replacement of the deck hinge structure is proposed as an appropriate management measure
+for a sub-standard deck hinge structure, a summary of the replacement proposals shall be recorded in
+the management plan.
+8.23.1
+Replacement of the deck hinge structure should be proposed where deck hinges have deteriorated so
+badly that it is practically and economically beyond repair or strengthening.
+NOTE
+An example of deck hinge deterioration requiring replacement can be where the corrosion of the
+reinforcement is so extensive, it cannot be effectively replaced in order to improve the structural
+capacity of the deck hinge structure.
+8.23.2
+Replacement of a deck hinge structure should be targeted at eliminating the deck hinge details.
+NOTE
+It is not always possible for a replacement structure to eliminate the deck hinge details due to site and
+operational constraints.
+8.24
+Where the deck hinge details are retained, replacement solutions shall be targeted at reducing the risk
+rating for the deck hinge structure.
+8.25
+Where replacement works have been implemented to eliminate the deck hinge detail on a structure, the
+structure shall be removed from the risk management process in this document as it is no longer a deck
+hinge structure.
+27
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 29 of 76
+======================================================================
+CS 467 Revision 1
+9. Normative references
+9.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CS 454, 'Assessment of highway bridges and structures'
+Ref 2.N
+Highways England. CD 359, 'Design requirements for permanent soffit formwork'
+Ref 3.N
+Highways England. CS 450, 'Inspection of highway structures'
+Ref 4.N
+ICE Publishing. Desnerck P, Lees JM, Valerio P, Loudon N, Morley CT. ICE (BE) 171,
+'Inspection of RC half-joint bridges in England: analysis of current practice,
+Proceedings of the Institution of Civil Engineers, Bridge Engineering 171, July 2018,
+p290-302''
+Ref 5.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 6.N
+CIRIA. CIRIA C778, 'Management of safety critical fixings in-service. Guidance for
+the management and design of safety-critical fixings'
+Ref 7.N
+Highways England. CS 470, 'Management of sub-standard highway structures'
+Ref 8.N
+Highways England. GG 104, 'Requirements for safety risk assessment'
+Ref 9.N
+Highways England. CS 451, 'Structural review and assessment of highway structures'
+Ref 10.N
+Highways England. CG 300, 'Technical approval of highway structures'
+Ref 11.N
+Highways England. CS 455, 'The assessment of concrete highway bridges and
+structures'
+28
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 30 of 76
+======================================================================
+CS 467 Revision 1
+10. Informative references
+10.
+Informative references
+The following documents are informative references for this document and provide supporting
+information.
+Ref 1.I
+TSO. IMHS, 'Inspection Manual for Highway Structures '
+Ref 2.I
+BSI. PD 6688-1-7, 'Recommendations for the design of structures to BS EN 1991-1-7'
+Ref 3.I
+Highways England. CS 456, 'The assessment of steel highway bridges and
+structures'
+29
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 31 of 76
+======================================================================
+CS 467 Revision 1
+Appendix A. Model documents
+Appendix A. Model documents
+This appendix provides models for the risk management report and priority list.
+A1
+Model risk management report
+A model risk management report is shown in Table A.1.
+Table A.1 Model risk management report
+Structure information
+This should include the following information:
+1) structure name;
+2) structure reference;
+3) structure location;
+4) brief description of the structure;
+5) form of the deck hinge;
+6) summary of the current condition of the structure.
+Initial review
+This should include the following information:
+1) inputs (reference for documents used in the initial review);
+2) findings from initial review;
+3) where applicable, reference to sub-standard structure management documents.
+Risk assessment for structural assessment
+This should include the following information:
+1) primary risks (including evidence and output);
+2) primary risk rating;
+3) secondary risks (including evidence and output);
+4) where applicable, refined primary risk rating from use of secondary risks;
+5) where applicable, secondary risk rating.
+Summary of structural review findings
+This should include a statement summarising the findings from the structural review agreed with the
+Technical Approval Authority (TAA) (e.g. whether a new structural assessment specific to the deck
+hinge is required).
+Summary of structural assessment findings
+This should include the following information:
+1) assessed capacity of the deck hinge from the assessment and check certificates accepted by the
+TAA;
+2) summary of recommendations from the structural assessment report agreed with the TAA;
+3) assessed capacity of the deck hinge from the assessment and check certificates accepted by the
+TAA;
+4) summary of recommendations from the structural assessment report agreed with the TAA.
+30
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 32 of 76
+======================================================================
+CS 467 Revision 1
+Appendix A. Model documents
+Table A.1 Model risk management report (continued)
+Risk assessment for management
+This section should include the following information, with risk ratings reviewed and updated where
+applicable:
+1) primary risks (including evidence and output);
+2) primary risk rating;
+3) secondary risks (including evidence and output);
+4) where applicable, refined primary risk rating from use of secondary risks;
+5) where applicable, secondary risk rating.
+Management plan
+This section may include the following information:
+1) management measures;
+2) recommendations from investigations, studies and reports;
+3) references to reports and relevant documents;
+4) where applicable, record of CS 470 [Ref 7.N] measures.
+A2
+Model priority list
+A model priority list for a group of structures is shown in Table A.2. This can be used for the priority for
+assessment and the priority for management.
+31
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 33 of 76
+======================================================================
+CS 467 Revision 1
+Appendix A. Model documents
+Table A.2 Model priority list
+Priority
+Structure
+name
+Structure
+reference
+Primary risk
+rating
+Primary
+risks
+Refined
+primary
+risk rating (1)
+Secondary
+risk
+Secondary risks
+rating (2)
+Risk
+management
+report
+reference
+Current
+status
+/
+comments
+1
+2
+3
+4
+5
+Note (1): Refined primary risk rating is applicable when secondary risks are used to increase the primary risk rating.
+Note (2): Secondary risk rating is applicable when secondary risks are used to prioritise between a number of structures with the same primary risk rating.
+32
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 34 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Appendix B. Guidance on risk assessment
+B1
+General
+This Appendix provides illustrative example processes that can be used for risk assessment of deck
+hinge structures, using the primary and secondary risks described in this document.
+The basis of the illustrative example risk assessment processes presented within this Appendix is as
+follow:
+1) primary risks RC and RD used to determine a primary risk rating;
+2) the severity of the consequences at this stage is taken as being very high;
+3) secondary risks RQ , RV , and RO may be used to either:
+a) increase the primary risk rating, resulting in the refined primary risk rating; or,
+b) prioritise within a group of structures with the same primary risk rating, resulting in the secondary
+risk rating.
+Where secondary risks are used to increase the primary risk rating, this is referred to as the refined
+primary risk rating. For example if bridge A and bridge B both have a high risk rating from the matrix in
+Table B.1, but bridge A is on a strategic route over a major railway (so RQ is very high), then the risk
+rating for bridge A can be increased from high to very high.
+Where secondary risks are used to prioritise between a number of structures with the same primary risk
+rating, this is referred to as the secondary risk rating. For example if bridge C and bridge D both have
+very high risk rating from the matrix in Table B.1, but bridge C is on a strategic route over a major
+railway (so RQ is very high), then bridge C can be prioritised over bridge D.
+B2
+Primary risk rating
+The primary risk rating for an individual structure can be determined from the matrix Table B.1 below
+using condition and structural risks.
+Table B.1 Matrix for determining primary risk rating of a deck hinge structure
+Structural risk RD
+RD Very high
+RD High
+RD Medium
+RD Low
+RC Very high
+Very high (1)
+Very high (1)
+High (1)
+High (1)
+RC High
+Very high (1)
+High (1)
+High (1)
+Medium (1)
+RC Medium
+High (1)
+High (1)
+Medium (1)
+Medium (1)
+Condition risk RC
+RC Low
+High (1)
+Medium (1)
+Medium (1)
+Low (1)
+Note1: The primary risk rating determined from the combination of RC and RD .
+B2.1
+Condition risk
+The condition risk rating RC can be determined using the steps below:
+1) use the latest valid inspection information to collate deck hinge defects;
+2) identify each defect using the inspection photographs and the defect decision diagram in Figure B.1
+which is adapted from ICE (BE) 171 [Ref 4.N]. Additional guidance on defect types can be found in
+IMHS [Ref 1.I];
+3) determine the damage rating for each defect. Table B.2 provides guidance and uses information
+taken from ICE (BE) 171 [Ref 4.N];
+4) when all defects are recorded, consider their combination, their location and the damage to assign a
+risk level from Table B.3.
+33
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 35 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Figure B.1 Defects decision diagram
+34
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 36 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.2 Damage rating
+Damage
+Very slight
+Slight
+Moderate
+Severe
+Very severe
+Cracks in
+prestressed
+concrete
+width<0.05 mm
+width 0.05-0.1mm
+width 0.1-0.3mm
+width 0.3-1.0mm
+width 1-3mm with some spalling
+Cracks in
+Reinforced
+concrete
+width<0.1mm
+width 0.1-0.3mm
+width 0.3-1.0mm
+width 1-3mm with
+some spalling
+width >5mm with widespread
+spalling
+Effects of
+reinforcement
+corrosion
+light rust stains
+heavy rust stains
+heavy rust stains and cracking
+along line of bar
+heavy rust stains and
+spalling along line of
+bars
+heavy rust stains and spalling
+along line of bars, in more than
+one location or for a number of
+bars.
+Joint leakage/
+water staining
+clean/clear water,
+small patches of
+dampness
+clean water seepage
+to large areas of the
+joint.
+water seepage with
+discolouration at edge
+beam/footpath locations
+30-70% of joint with
+discolouration
+gritted road/ coastal
+environment
+affecting >70% of joint with
+discolouration with signs of
+historic presence.
+gritted road/coastal environment
+Spalling/
+delamination (1
+)
+<cover
+50x50mm
+100x100mm
+area up to 150x150mm across
+area larger than 150x
+150mm
+multiple areas >250x250mm, or
+single areas more than 1000x10
+00mm
+Note (1) - The size of a concrete spall should be compared relative to the size of the deck hinge. The criteria is for guidance purposes and is not prescriptive.
+35
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 37 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.3 Condition risk
+Risk rating
+Example of risk rating
+Immediate risk(1)
+Examples include:
+1) more than a single very severe condition defect in the same zones and
+likely to work in combination such that there are not alternative load paths;
+2) more than a single very severe condition defect not in the same zone but
+which may reduce the number of load paths;
+3) single very severe condition defect, such as heavy corrosion of a scissor
+bar at the throat.
+Very high
+Examples include:
+1) more than a single severe condition defect in the same zones and likely to
+work in combination such that there are not alternative load paths;
+2) more than a single severe condition defect not in the same zone but which
+may reduce the number of available load paths;
+3) single severe condition defect.
+High
+Examples include:
+1) more than a single moderate condition defect in the same zones and likely
+to work in combination such that alternative load paths may not be
+available;
+2) more than a single moderate condition defect not in the same zone but
+which may reduce alternative load paths;
+3) single moderate condition defect.
+Medium
+Examples include:
+1) more than a single slight condition defects in the same zones or likely to
+work in combination.
+Low
+Examples include:
+1) slight or very slight condition defects or when in combination are not
+significant;
+2) single or very slight condition defect.
+Note (1) - this provides examples of situations where a deck hinge structure can be considered as an
+immediate risk structure in accordance with CS 470 [Ref 7.N]. This examples given is not an
+exhaustive list.
+An example table format for recording the information required to assign a risk rating is shown in Table
+B.4 below.
+Table B.4 Example table for recording defect information
+Defect description
+from data
+Data
+reference
+Defect
+identification
+Zone
+Damage
+rating
+Defects in
+combination
+36
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 38 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.4 Example table for recording defect information (continued)
+Where it is not possible to accurately record a defect type, for example cracked concrete with no signs
+of corrosion, then the information that is apparent from the inspection data should be recorded.
+Where it is not possible to determine the zone of the defect within the deck hinge as shown in Figure
+B.2 from the inspection data, for example where rust staining is visible to the soffit, then the location
+from where the defect is visible should be recorded and the lack of visibility should be considered when
+assigning a risk rating.
+Defective detailing can increase the impact of condition defects and thus the risk level.
+B2.2
+Structural risk
+B2.2.1
+Structural risk RD1
+The structural risk rating RD1 may be determined using the steps below:
+1) estimate from the arrangement of the reinforcement, the available load paths through the deck hinge
+evaluated in accordance with CS 455 [Ref 11.N] and Section 6 of this document;
+2) consider the following reinforcement detailing related aspects:
+a) bar arrangement;
+b) anchorage;
+c) continuity of reinforcement;
+d) bearing stresses;
+e) arrangement of links surrounding the scissor and dowel bars;
+3) use Table B.5 to assign a risk rating for detailing
+Table B.5 Risk rating for structural risk
+Detailing risk rating
+Description and illustrative examples - typical detailing
+Very high
+Detailing shows no clear load path through deck hinge or critically poor
+anchorage. It appears probable that the detailing is insufficient to prevent a
+failure mechanism from developing.
+High
+Load path through the structure affected by poor detailing/anchorage.
+Medium
+Detailing allows a single clear load path through the deck hinge with
+adequate anchorage.
+Low
+Detailing allows multiple load paths through deck hinge, through the
+combination of complementary systems of well-anchored bars.
+Note: Example load paths through deck hinges are illustrated in Section 6 with typical strut-and-tie
+models.
+The combination of effects from condition and detailing deficiencies may be considered by recording
+locations using the typical deck hinge details in Figure B.2 and the load paths through the deck hinge.
+The combination of effects can be used when assigning a primary risk rating in Table B.1.
+37
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 39 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Figure B.2 Typical deck hinge details
+B2.2.2
+Structural risk RD2
+The structural risk rating RD2 can be determined from Table B.6 using the assessed structural capacity.
+38
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 40 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.6 Risk rating for structural risk from assessed capacity
+Risk rating
+Examples of risk rating
+Very high
+Examples:
+1) structure requires propping;
+2) structure assessed to be able to carry dead load only.
+High
+Example:
+1) load restrictions required on carriageway.
+Medium
+Example:
+1) assessed capacity greater than 40t on elements supporting the carriageways but
+reduced capacities on the edge beam/ footpath.
+Low
+Example:
+1) assessed capacity greater than 40t ALL throughout the structure.
+Where there is a need to complete the risk assessment for a structure with lack of record information,
+then a higher risk rating may be adopted provisionally to reflect the lack of information.
+B3
+Secondary risks
+B3.1
+Consequential risk
+The consequential risk RQ can be determined using the method detailed below:
+1) use Table B.7 (derived from CIRIA C778 [Ref 6.N]) to select consequential risk scores;
+2) add together the risk scores to determine the total score Q for the structure;
+3) use Table B.8 for Q scoring bands to assign a consequential risk rating.
+39
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 41 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.7 Consequential risk
+Very high
+High
+Medium
+Low
+Score Q
+10
+3
+1
+0
+Number of people killed or
+seriously injured
+Potential for one or more
+people to be killed or
+seriously injured.
+Potential for slight injuries to
+five or more people.
+Potential for slight injuries to
+fewer than five people.
+No potential for injuries or
+other harm to health.
+Potential damage vehicles
+Potential for severe damage
+to one or more:
+1) road vehicles;
+2) trains; or,
+3) floating vessels.
+Potential for minor damage to
+one or more:
+1) road vehicles;
+2) trains; or,
+3) floating vessels.
+Potential for minor damage to
+single:
+1) road vehicles;
+2) trains; or,
+3) floating vessels.
+No damage sustained.
+Potential damage to
+utilities and other public or
+private services
+Any of the following:
+1) potential for any
+disruption to one or more
+nationally and regionally
+important utility services;
+2) potential for severe
+disruption to one or more
+locally important utility
+services; or,
+3) potential for moderate
+disruption to more than
+one locally important
+utility service.
+Any of the following:
+1) potential for severe
+disruption to a single
+locally important utility
+service;
+2) potential for moderate
+disruption to one or more
+locally important utility
+service; or,
+3) potential for severe
+disruption to other utility
+services.
+Any of the following:
+1) potential for moderate
+disruption to a single
+locally important utility
+service;
+2) potential for minor
+disruption to one or more
+locally important utility
+service; or,
+3) potential for moderate
+disruption to one or more
+other utility service.
+Any of the following:
+1) No potential for disruption
+to nationally and
+regionally or locally
+important utility service;
+2) potential for minor
+disruption to one or more
+other utility service;
+3) potential for moderate
+disruption to a single
+locally important utility
+service;
+4) potential for minor
+disruption to one or more
+locally important utility
+service; or,
+5) potential for moderate
+disruption to one or more
+other utility service.
+40
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 42 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.7 Consequential risk (continued)
+Nature of route
+Any of the following:
+1) strategic route;
+2) motorway;
+3) trunk road;
+4) Network Rail route
+criticality band 1 or 2;
+5) mass transit urban
+railway; or,
+6) commercial waterway.
+Any of the following:
+1) A road/principal road;
+2) city centre footpath;
+3) cycle superhighway;
+4) Network Rail route
+criticality band 3 or 4;
+5) freight only line; or,
+6) leisure waterway.
+Any of the following:
+1) B/C road;
+2) urban commuter
+cycle-path;
+3) town centre footpath; or,
+4) Network Rail route
+criticality band 5.
+Any of the following:
+1) unclassified road;
+2) accommodation road;
+3) rural cycle path;
+4) rural footpath/right of
+way/bridleway; or,
+5) other waterway.
+Diversion route
+Any of the following:
+1) no viable pedestrian or
+vehicular diversion route
+exists;
+2) no alternative route exists
+for rail, waterway or utility;
+3) rural diversion route > 10
+miles;
+4) urban diversion route 5
+miles; or, >
+5) pedestrian diversion route
+> 1 mile.
+Any of the following:
+1) one alternative rail,
+waterway or utility route
+exists;
+2) rural diversion route > 5
+miles and ≤10 miles;
+3) urban diversion route > 2
+miles and ≤5 miles; or,
+4) pedestrian diversion route
+> 0.5 miles and ≤1mile.
+Any of the following:
+1) multiple alternative rail,
+waterway or utility route
+exists;
+2) rural diversion route > 1
+mile and ≤5 miles;
+3) urban diversion route > 0.
+5 miles and ≤2 miles; or,
+4) pedestrian diversion route
+> 0.25 miles and ≤0.5
+miles.
+Any of the following:
+1) rural diversion route ≤1
+mile;
+2) urban diversion route ≤0
+.5 miles; or,
+3) pedestrian diversion route
+≤0.25 miles.
+41
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 43 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.7 Consequential risk (continued)
+Volume of traffic
+Very heavy traffic flow:
+1) highway: > 70,000
+vehicles/day;
+2) Network Rail: > 6
+trains/hour;
+3) mass transit urban rail: >
+10 trains/hour;
+4) commercial waterway: >
+10 vessels/hour;
+5) leisure waterway: > 20
+vessels/hour;
+6) pedestrian only: heavily
+used in accordance with
+PD 6688-1-7 [Ref 2.I].
+High traffic flow:
+1) highway: > 20,000 and
+≤70,000 vehicles/day;
+2) Network Rail: > 3 and ≤
+6 trains/hour;
+3) mass transit urban rail: >
+5 and ≤10 trains/hour;
+4) commercial waterway: >
+5 and ≤10 vessels/hour;
+5) leisure waterway: > 10
+and ≤20 vessels/hour;
+6) pedestrian only: generally
+used in accordance with
+PD 6688-1-7 [Ref 2.I].
+Low traffic flow:
+1) highway: > 5,000 and ≤
+20,000 vehicles/day;
+2) Network Rail: > 1 and ≤
+3 trains/hour;
+3) mass transit urban rail: >
+2 and ≤5 trains/hour;
+4) commercial waterway: >
+2 and ≤5 vessels/hour;
+5) leisure waterway: > 5
+and ≤10 vessels/hour;
+6) pedestrian only: lightly
+used in accordance with
+PD 6688-1-7 [Ref 2.I].
+Very low traffic flow:
+1) highway: ≤5,000
+vehicles/day;
+2) Network Rail: ≤1
+train/hour;
+3) mass transit urban rail: ≤
+2 trains/hour;
+4) commercial waterway: ≤
+2 vessels/hour;
+5) leisure waterway: ≤5
+vessels/hour;
+6) pedestrian only: rarely
+used in accordance with
+PD 6688-1-7 [Ref 2.I].
+Length of time to restore
+normal network operation
+> 1 month
+> 1 week and
+≤1 month
+> 1 day and ≤1week
+≤1 day
+Potential environmental
+pollution
+Major pollution incident, for
+example:
+1) widespread pollution to
+major watercourses;
+2) affects fisheries or other
+commercial activities;
+3) results in evacuation of
+premises located off site;
+4) required removal of
+contaminated land or
+other material;
+5) affects neighbouring land
+owners/occupiers.
+Moderate pollution incident,
+for example:
+1) high volume of
+contaminant contained
+within the boundaries of
+the site, eg within holding
+tanks;
+2) results in evacuation of
+the on-site premises only;
+3) does not affect
+neighbouring land
+owners/occupiers.
+Low pollution incident:
+1) localised incident that can
+be dealt with by a one or
+two man crew;
+2) does not result in
+contamination of
+watercourse
+No pollution
+Political and reputation
+damage
+Very high
+National media coverage
+High
+Regional media coverage
+Low
+Local media coverage
+Very low
+No media coverage
+42
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 44 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.7 Consequential risk (continued)
+Financial impact
+Very high
+High
+Low
+Very low
+43
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 45 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.8 Risk rating for consequential risks
+Risk
+rating
+Total score Q
+from Table B.7
+Example of risk rating
+Very high
+45 ≤Q < 100
+Examples:
+1) potential for one or more people to be killed or seriously injured;
+2) closure of route of strategic importance, no acceptable
+diversion;
+3) very heavy traffic flow etc.
+High
+15 ≤Q < 45
+Examples:
+1) potential for slight injuries to five or more people;
+2) principal or A road, high traffic flow route etc.
+Medium
+5 ≤Q < 15
+Examples:
+1) potential for slight injuries to fewer than five people;
+2) B/C road, low traffic flow, etc.
+Low
+Q < 5
+Examples:
+1) no potential for injuries or other harm to health;
+2) very low traffic flow;
+3) unclassified road etc.
+B3.2
+Vulnerable details risk
+The risk rating for the vulnerable details risk, RV can be determined using Table B.9 below:
+Table B.9 Risk rating for vulnerable details
+Risk rating
+Example of risk rating
+Very high
+Examples:
+1) single vulnerable detail with significant issues;
+2) multiple vulnerable details with defects or significant defects;
+3) no information.
+High
+Examples:
+1) single vulnerable detail with issues or defects.
+Medium
+Examples:
+1) multiple vulnerable details but without defects or issues.
+Low
+Examples:
+1) no other vulnerable details or a single other detail without defects or issues.
+B3.3
+Other risks
+The risk rating for other risks, RO can be determined based upon the Table B.10:
+44
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 46 of 76
+======================================================================
+CS 467 Revision 1
+Appendix B. Guidance on risk assessment
+Table B.10 Risk rating for other risks
+Risk rating
+Example of risk rating
+Very high
+Examples:
+1) structure is within forthcoming scheme limits;
+2) structure is part of strategic development of the highway network;
+3) structure is within a family of structures known to suffer from significant defects.
+High
+Examples:
+1) structure is near to a forthcoming scheme;
+2) structure is near a strategic development site;
+3) structure is within a family of structures known to suffer defects.
+Medium
+Examples:
+1) structure is within a family of structures that have been targeted for interventions.
+Low
+Examples:
+1) no other factors that is going to affect the risk of the structure;
+2) no other issues allow for grouping of the structure.
+45
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 47 of 76
+======================================================================
+CS 467 Revision 1
+Appendix C. Fatigue assessment
+Appendix C. Fatigue assessment
+C1
+Fatigue endurance of reinforcing bars
+The relationship between stress range and fatigue endurance given in Figure C.1 may be used, based
+on the corrosion severity categories given in Table C.1.
+Table C.1 Corrosion severity categories
+Category
+Description
+Minor corrosion
+Less than or equal to 25% section loss
+Major corrosion
+More than 25% section loss
+Note: A method for estimating the degree of section loss in corroded bars is provided in CS 455 [Ref
+11.N]
+Figure C.1 Relationship between stress range and fatigue endurance
+C2
+Local stress in scissor bar
+For a preliminary fatigue analysis, a value for the local stress in the scissor bar, σsb , may be taken from:
+1) Equation C.1 if there is no damage to the concrete hinge;
+2) Equation C.2 if there is damage to the concrete hinge, where a higher proportion of the shear is
+carried by the scissor bar and the stress due to rotation is reduced.
+46
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 48 of 76
+======================================================================
+CS 467 Revision 1
+Appendix C. Fatigue assessment
+Equation C.1 Approximate local stress in scissor bar
+σsb = 0.3 · σs + K · α · h
+D
+where:
+σsb
+is the local stress in the scissor bar due to bending of the bar and axial force in the bar
+σs
+is the axial tensile stress in the tension scissor bar, assuming that all the shear force in
+the hinge is carried by the tension scissor bars
+K
+is a constant equal to 0.3MPa
+α
+is the relative rotation at the hinge in radians
+h
+is the clear depth of the hinge throat between hinge formers
+D
+is the nominal diameter of the scissor bars
+Equation C.2 Approximate local stress in scissor bar for a damaged hinge
+σsb = 0.55 · σs + 0.2 · K · α · h
+D
+Equations C.1 and C.2 are based on stresses in the bars in a young, newly cracked structure, and are
+based on hinge geometries that are typical for common hinge types in UK bridges.
+Equations C.1 and C.2 are conservative for structures with less recent cracking, as the local stress
+decreases for longer debonded lengths.
+Equations C.1 and C.2 are based on a finite element analysis and take account of the stresses induced
+in the hinge bars due to shear and rotation following the formation of shear cracks.
+Equations C.1 and C.2 do not account for vertical cracking in the hinge throat, which can lead to high
+local stresses in the hinge reinforcement.
+Equations C.1 and C.2 do not account for stress concentrations due to corrosion in the scissor bars.
+47
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 49 of 76
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 50 of 76
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 467
+England National Annex to CS 467 Risk
+management and structural assessment of
+concrete deck hinge structures
+(formerly BA 93/09)
+Revision 1
+Summary
+This National Application Annex gives the Highways England-specific requirements which
+enable the safety and serviceability of concrete hinge deck structures to be assessed and
+managed, allowing to manage risks and maintain a safe and operational network.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Highways England team. The email address for all enquiries and feedback is:
+Standards_Enquiries@highwaysengland.co.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 51 of 76
+======================================================================
+CS 467 Revision 1
+Contents
+Contents
+Release notes
+2
+Foreword
+3
+Publishing information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Contractual and legal considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+Introduction
+4
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Assumptions made in the preparation of this document
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+Abbreviations
+5
+E/1. AMS NSP Activities
+6
+AMS NSP activities (additional to ) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+Inspection of deck hinge structures ()
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Initial visual inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Detailed inspection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Further inspection
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Structural assessment () . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Invasive inspection and non-destructive testing (additional to )
+. . . . . . . . . . . . . . . . . . . . . . . . .
+8
+Future management (additional to )
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Monitoring ()
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Monitoring management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+Interim measures ()
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Interim measures appraisal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Interim measures implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+Interim measures management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+E/2. Normative references
+11
+Appendix E/A. Links between NSP activities and deck hinge structures risk management process
+12
+E/A1 Map of NSP activities to the deck hinge risk management process (additional to )
+. . . . . . . . . . .
+12
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 52 of 76
+======================================================================
+CS 467 Revision 1
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+1
+Apr 2020
+Revision 1 (April 2020) Removal of incorrect references to BD 97 in sub
+headings in place of the correct reference, CS 467. Revision 0 (March 2020)
+Highways England National Application Annex to CS 467.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 53 of 76
+======================================================================
+CS 467 Revision 1
+Foreword
+Foreword
+Publishing information
+This document is published by Highways England.
+This document supersedes BA 93/09, which is withdrawn.
+Contractual and legal considerations
+This document forms part of the works specification. It does not purport to include all the necessary
+provisions of a contract. Users are responsible for applying all appropriate documents applicable to
+their contract.
+3
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 54 of 76
+======================================================================
+CS 467 Revision 1
+Introduction
+Introduction
+Background
+This National Application Annex (NAA) gives the Highways England specific requirements related to
+the risk management and structural assessment of deck hinge structures. This NAA describes the
+requirements for the Asset Management System (AMS) National Structures Programme (NSP)
+activities in relation to concrete deck hinge structures and how they tie into CS 467 [Ref 4.N].
+Assumptions made in the preparation of this document
+The assumptions made in GG 101 [Ref 2.N] apply to this document.
+4
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 55 of 76
+======================================================================
+CS 467 Revision 1
+Abbreviations
+Abbreviations
+Abbreviations
+Abbreviation
+Definition
+AMS
+Asset management system
+NSP
+National structures programme module of the AMS
+5
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 56 of 76
+======================================================================
+CS 467 Revision 1
+E/1. AMS NSP Activities
+E/1.
+AMS NSP Activities
+AMS NSP activities (additional to CS 467 [Ref 4.N] )
+E/1.1
+The AMS NSP module shall be used to capture data and organise a series of activities for the concrete
+deck hinge structures programme.
+NOTE 1
+The NSP activities are shown in the flowchart in Figure E/1.1N1.
+6
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 57 of 76
+======================================================================
+CS 467 Revision 1
+E/1. AMS NSP Activities
+Figure E/1.1N1 AMS NSP activities flowchart for structures with concrete deck
+hinges
+NOTE 2
+The links between the NSP activities and the deck hinge structure risk management process is shown
+7
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 58 of 76
+======================================================================
+CS 467 Revision 1
+E/1. AMS NSP Activities
+in Appendix E/A.
+NOTE 3
+The processes for interim measures are described in CS 470 [Ref 3.N].
+E/1.2
+Information related to the planning, implementation and outputs from the NSP activities shall be
+recorded in the AMS.
+Inspection of deck hinge structures ( CS 467 [Ref 4.N])
+Initial visual inspection
+E/1.3
+The initial visual inspection shall be targeted at providing an initial evaluation of the condition of the
+deck hinge structure.
+E/1.3.1
+Where previous inspections of the deck hinge structure are unavailable or a change in condition is
+likely since the structure was last inspected, then an initial visual inspection of the deck hinge should be
+undertaken, following agreement with Highways England.
+E/1.3.2
+The initial visual inspection should determine the severity and location of any defects in the vicinity of
+the deck hinge.
+E/1.3.3
+Access requirements for a detailed inspection should be determined during the initial visual inspection.
+Detailed inspection
+E/1.4
+The detailed inspection shall be targeted at providing a detailed evaluation of the condition of the deck
+hinge and quantify defects to inform the structural assessment.
+E/1.4.1
+Where previous inspections of the deck hinge structure are unavailable or a change in condition is
+likely since the structure was last inspected, then a detailed inspection of the deck hinge should be
+undertaken, following agreement with Highways England.
+E/1.4.2
+The detailed inspection may be undertaken in conjunction with the initial inspection.
+Further inspection
+E/1.5
+Further inspection of the deck hinge structure shall be undertaken where significant defects to or in the
+vicinity of the deck hinge are found.
+E/1.5.1
+The further inspection may consist of the following activities:
+1) small exposure of reinforcement;
+2) concrete testing;
+3) concrete sampling.
+NOTE 1
+Small exposure of reinforcement typically involves drilling small holes to the reinforcement and
+inspecting using a borescope.
+NOTE 2
+Concrete testing typically includes half-cell measurement, chloride content, cement content etc.
+E/1.5.2
+The further inspection may be undertaken in conjunction with the detailed inspection and/or the initial
+visual inspection.
+Structural assessment ( CS 467 [Ref 4.N])
+E/1.6
+The objectives of the deck hinge structural assessment shall include the following:
+1) to determine risks to the structural integrity of the deck hinge;
+2) to identify deterioration trigger points for feeding into the management plan;
+3) to help identify likely future risk management measures.
+8
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 59 of 76
+======================================================================
+CS 467 Revision 1
+E/1. AMS NSP Activities
+Invasive inspection and non-destructive testing (additional to CS 467 [Ref 4.N])
+E/1.7
+Where the deck hinge structural assessment recommends obtaining additional structural information on
+the deck hinge and this is agreed by Highways England, then invasive inspections and non-destructive
+testing shall be undertaken.
+Future management (additional to CS 467 [Ref 4.N])
+E/1.8
+Where the structural assessment concludes that the structure is assessed to have sufficient capacity,
+then no special actions shall be required apart from maintenance inspection and maintenance activities.
+NOTE
+Maintenance inspections are covered in CS 450 [Ref 1.N].
+Monitoring ( CS 467 [Ref 4.N])
+Monitoring
+E/1.9
+Where the deck hinge structural assessment findings recommends periodic monitoring or inspections
+and this is agreed by Highways England, then a regime of periodic monitoring and/or inspections shall
+be implemented.
+NOTE 1
+Refer to CS 470 [Ref 3.N] for requirements and guidance on monitoring.
+NOTE 2
+Pending the implementation of a long term solution, monitoring can be a suitable short term solution to
+mitigate risks for deck hinge structures with concerns about the serviceability and strength of the deck
+hinge such as:
+1) significant defects found to or in the vicinity of the deck hinge;
+2) structural assessment finds that the structural capacity is marginally greater than the assessment
+actions, but further deterioration can result in reducing the structural capacity below the assessment
+actions.
+E/1.10
+Monitoring shall be targeted at measurable critical parameters.
+E/1.10.1
+For deck hinge structures, monitoring parameters may include:
+1) horizontal movement at the joint;
+2) vertical movement at the joint;
+3) movement due to traffic actions;
+4) crack widths;
+5) deflections;
+6) strains;
+7) material deterioration.
+Monitoring management
+E/1.11
+Monitoring shall be managed to ensure that:
+1) monitoring is targeted at measurable critical parameters;
+2) monitoring trigger levels are defined prior to implementation;
+3) monitoring duration and intervals are defined prior to implementation.
+E/1.11.1
+The monitoring duration should be reviewed periodically, taking into account any changes in condition
+of the structure.
+E/1.12
+Where monitoring trigger levels are exceeded, then monitoring trigger actions in accordance with the
+monitoring specification shall be implemented.
+NOTE
+Guidance for monitoring specification is given in CS 470 [Ref 3.N].
+9
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 60 of 76
+======================================================================
+CS 467 Revision 1
+E/1. AMS NSP Activities
+E/1.13
+Where the monitoring and inspection findings results in a new review trigger for a deck hinge structure,
+the risk management process shall be revisited for that structure.
+Interim measures ( CS 467 [Ref 4.N])
+Interim measures appraisal
+E/1.14
+Where the deck hinge structural assessment concludes that the structure is sub-standard, an appraisal
+of interim measures in accordance with CS 470 [Ref 3.N] to evaluate risks, options and timescales shall
+be undertaken.
+Interim measures implementation
+E/1.15
+Once the options for interim measures have been agreed, the interim measures shall be implemented
+in accordance with CS 470 [Ref 3.N].
+E/1.16
+Confirmation of the implementation of interim measures for the structure shall be recorded in the AMS.
+Interim measures management
+E/1.17
+Interim measures shall be managed to ensure they remain effective in mitigating risks to the road
+network throughout their service life in accordance with CS 470 [Ref 3.N].
+10
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 61 of 76
+======================================================================
+CS 467 Revision 1
+E/2. Normative references
+E/2.
+Normative references
+The following documents, in whole or in part, are normative references for this document and are
+indispensable for its application. For dated references, only the edition cited applies. For undated
+references, the latest edition of the referenced document (including any amendments) applies.
+Ref 1.N
+Highways England. CS 450, 'Inspection of highway structures'
+Ref 2.N
+Highways England. GG 101, 'Introduction to the Design Manual for Roads and
+Bridges'
+Ref 3.N
+Highways England. CS 470, 'Management of sub-standard highway structures'
+Ref 4.N
+Highways England. CS 467, 'Risk management and structural assessment of
+concrete deck hinge structures'
+11
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 62 of 76
+======================================================================
+CS 467 Revision 1
+Appendix E/A. Links between NSP activities and deck hinge s...
+Appendix E/A. Links between NSP activities and deck hinge structures risk
+management process
+E/A1
+Map of NSP activities to the deck hinge risk management process (additional to
+CS 467 [Ref 4.N])
+Figure E/A.1 maps the NSP activities to the corresponding stages of the deck joint structures risk
+management process.
+12
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 63 of 76
+======================================================================
+CS 467 Revision 1
+Appendix E/A. Links between NSP activities and deck hinge s...
+Figure E/A.1 Map of NSP activities to the deck hinge structures risk management
+process
+13
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 64 of 76
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 65 of 76
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 467
+Northern Ireland National Annex to CS 467
+Risk management and structural assessment
+of concrete deck hinge structures
+(formerly BA 93/09)
+Revision 0
+Summary
+There are no specific requirements for Department for Infrastructure Northern Ireland
+supplementary or alternative to those given in CS 467.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage of
+this document to the dedicated team in the Department for Infrastructure, Northern Ireland. The email address for all
+enquiries and feedback is: dcu@infrastructure-ni.gov.uk
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 66 of 76
+======================================================================
+CS 467 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 67 of 76
+======================================================================
+CS 467 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Mar 2020
+Department for Infrastructure Northern Ireland National Application Annex to
+CS 467.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 68 of 76
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 69 of 76
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 467
+Scotland National Annex to CS 467 Risk
+management and structural assessment of
+concrete deck hinge structures
+(formerly BA 93/09)
+Revision 0
+Summary
+There are no specific requirements for Transport Scotland supplementary or alternative to those
+given in CS 467.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Transport Scotland team. The email address for all enquiries and feedback is:
+TSStandardsBranch@transport.gov.scot
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 70 of 76
+======================================================================
+CS 467 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 71 of 76
+======================================================================
+CS 467 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Mar 2020
+Transport Scotland National Application Annex to CS 467.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 72 of 76
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 73 of 76
+======================================================================
+Design Manual for Roads and Bridges
+Highway Structures & Bridges
+Inspection & Assessment
+CS 467
+Wales National Annex to CS 467 Risk
+management and structural assessment of
+concrete deck hinge structures
+(formerly BA 93/09)
+Revision 0
+Summary
+There are no specific requirements for Welsh Government supplementary or alternative to those
+given in CS 467.
+Feedback and Enquiries
+Users of this document are encouraged to raise any enquiries and/or provide feedback on the content and usage
+of this document to the dedicated Welsh Government team. The email address for all enquiries and feedback is:
+Standards_Feedback_and_Enquiries@gov.wales
+This is a controlled document.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 74 of 76
+======================================================================
+CS 467 Revision 0
+Contents
+Contents
+Release notes
+2
+1
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 75 of 76
+======================================================================
+CS 467 Revision 0
+Release notes
+Release notes
+Version
+Date
+Details of amendments
+0
+Mar 2020
+Welsh Government National Application Annex to CS 467.
+2
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
+
+======================================================================
+PAGE 76 of 76
+======================================================================
+© Crown copyright 2020.
+You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the
+Open Government Licence. To view this licence:
+visit www.nationalarchives.gov.uk/doc/open-government-licence/,
+write to the Information Policy Team, The National Archives, Kew, London TW9 4DU,
+or email psi@nationalarchives.gsi.gov.uk.
+Downloaded from https://www.standardsforhighways.co.uk on 12-Nov-2025, CS 467, published: 29-Apr-2020
+
+
