@@ -1,0 +1,706 @@
+================================================================================
+BNR 2025 - MASTER INDEX
+CHAPTER 14: BRIDGE DESIGN AND CONSTRUCTION
+================================================================================
+
+BASE SOURCES:
+- India: IRC:5-2015 - Standard Specifications and Code of Practice for Road Bridges (General Features)
+- India: IRC:6-2017 - Standard Specifications and Code of Practice for Road Bridges (Loads and Load Combinations)
+- India: IRC:21-2000 - Standard Specifications and Code of Practice for Road Bridges (Cement Concrete - Plain and Reinforced)
+- India: IRC:22-2015 - Standard Specifications and Code of Practice for Road Bridges (Steel Road Bridges)
+- India: IRC:78-2014 - Standard Specifications and Code of Practice for Road Bridges (Foundations and Substructure)
+- India: IRC:112-2020 - Code of Practice for Concrete Road Bridges
+- UK: DMRB CD 350 - Design of highway structures
+- UK: DMRB CD 351 - Design of concrete structures
+- USA: AASHTO LRFD Bridge Design Specifications 9th Edition
+
+PAKISTAN CONTEXT:
+- NHA bridges: 14,500+ structures (2023)
+- Major rivers: Indus, Jhelum, Chenab, Ravi, Sutlej (monsoon flooding, glacial melt)
+- Seismic zones: II-V (Kashmir Zone V, high seismicity)
+- 2005 Kashmir Earthquake: 130+ bridges collapsed (M 7.6)
+- 2010/2022 floods: 1,500+ bridges washed away
+- Design life: 100 years (major bridges), 75 years (minor bridges)
+- Climate: Temperature swings (-20°C to +52°C), freeze-thaw (Northern Areas)
+
+================================================================================
+SECTION 1: CLASSIFICATION OF BRIDGES
+================================================================================
+
+1.1 BY LENGTH (SPAN)
+--------------------
+CULVERTS:
+- Span: <6 m
+- Single or multi-cell box culverts, pipe culverts
+- Example: Roadway drainage structures
+
+MINOR BRIDGES:
+- Span: 6-60 m total length
+- Slab bridges, T-beam bridges, box girder
+
+MAJOR BRIDGES:
+- Span: >60 m total length
+- Complex superstructures (steel girders, cable-stayed, suspension)
+
+LONG-SPAN BRIDGES:
+- Span: >300 m (main span)
+- Examples: Kohat Tunnel approach bridge, Attock Bridge (Indus)
+
+Pakistan examples:
+- Jinnah Bridge (Indus @ Thatta): 1,067 m (17 spans, prestressed concrete)
+- Sukkur Barrage Bridge: 1,355 m (66 spans)
+- China-Pakistan Friendship Bridge (Khunjerab): 78 m (high altitude, 4,693 m)
+
+Base: IRC:5-2015 Section 101
+
+1.2 BY MATERIAL
+---------------
+REINFORCED CONCRETE (RC):
+- Common for spans <30 m
+- Slab, T-beam, box girder
+- Economical, durable
+
+PRESTRESSED CONCRETE (PSC):
+- Spans 20-60 m (pretensioned), 30-100 m (post-tensioned)
+- Box girder, I-girder
+- Higher strength, reduced dead weight
+
+STEEL:
+- Long spans (50-300 m)
+- Plate girder, truss, arch
+- Fast construction, lighter
+
+COMPOSITE (STEEL-CONCRETE):
+- Steel girders + concrete deck
+- Combines steel's strength, concrete's deck efficiency
+
+MASONRY:
+- Arch bridges (historic)
+- Limited new construction (labor-intensive)
+
+Pakistan usage:
+- 70% RC/PSC (cost-effective)
+- 25% steel (major crossings, long spans)
+- 5% masonry (rehabilitation of old bridges)
+
+Base: IRC:5-2015 Section 102
+
+1.3 BY STRUCTURAL FORM
+----------------------
+SLAB BRIDGE:
+- Solid RC slab, spans <10 m
+- Simple, economical
+- Thickness: Span/10 to Span/15
+
+T-BEAM/GIRDER BRIDGE:
+- RC or PSC beams + deck slab
+- Spans 10-30 m (RC), 20-50 m (PSC)
+- Economical for medium spans
+
+BOX GIRDER:
+- Hollow box section (torsional rigidity)
+- Single-cell or multi-cell
+- Spans 30-100 m (PSC), 50-150 m (steel)
+
+TRUSS:
+- Steel triangulated framework
+- Through truss (deck below chord) or deck truss
+- Spans 60-200 m
+
+ARCH:
+- Compression structure (stone, concrete, steel)
+- Spans 50-500 m
+- Examples: Pakistan has few major arch bridges
+
+CABLE-STAYED:
+- Towers + cables support deck
+- Spans 200-1,000 m
+- Example: Signature Bridge Rawalpindi (proposed, not built)
+
+SUSPENSION:
+- Main cables + hangers support deck
+- Spans >500 m
+- Pakistan has no major suspension bridges (yet)
+
+Base: IRC:5-2015 Section 103
+
+================================================================================
+SECTION 2: DESIGN LOADS AND LOAD COMBINATIONS
+================================================================================
+
+2.1 DEAD LOADS
+--------------
+Components:
+- Self-weight: Concrete (25 kN/m³), steel (78.5 kN/m³)
+- Superimposed dead load (SIDL): Wearing coat (80-100 mm BC, 22 kN/m³), railings, utilities
+
+Wearing coat:
+- Minimum 80 mm bituminous concrete
+- Load: 1.8 kN/m² (80 mm × 22 kN/m³)
+- Future resurfacing: Add 40 mm (0.9 kN/m²)
+
+Base: IRC:6-2017 Section 201
+
+2.2 LIVE LOADS (VEHICULAR)
+---------------------------
+STANDARD IRC LOADING (CLASS A):
+
+IRC Class A (Single Lane):
+- Tracked vehicle: 700 kN (70 tonne)
+- Wheeled vehicle: 550 kN total
+  - Drive truck: 200 kN (2 axles)
+  - Trailer: 350 kN (4 axles)
+- Contact area: 3.6 m × 0.75 m (tracked)
+
+IRC Class AA (Heavy Loading):
+- Tracked vehicle: 1,000 kN (100 tonne)
+- Wheeled: 760 kN (76 tonne)
+- Used for major highways, industrial routes
+
+IRC Class 70R (Wheeled):
+- 1,000 kN total (100 tonne truck)
+- 5 axles (200 kN per axle, rear 3 axles)
+- Bogey spacing: 1.2 m
+- Most common Pakistan design load (post-2010)
+
+IRC Class A Train:
+- Multiple Class A vehicles (congestion loading)
+- Spacing: 1.2 m minimum
+- For long-span bridges
+
+Impact factor (dynamic increment):
+- For spans <9 m: 25% (1.25 × static load)
+- For spans 9-45 m: 25% - 0.0028 × (span in m - 9)
+- For spans >45 m: 15%
+
+Pakistan practice:
+- Class 70R standard (NHA bridges post-2005)
+- Overloading common (20-30% above legal limits) - design conservatism needed
+
+Base: IRC:6-2017 Sections 204-209
+
+2.3 SEISMIC LOADS
+-----------------
+Pakistan seismic zones (IRC:6 adapted):
+
+Zone | Area (Pakistan)                  | PGA (g) | Z-factor
+II   | Karachi, Hyderabad (coastal)    | 0.10    | 0.10
+III  | Lahore, Faisalabad, Multan      | 0.16    | 0.16
+IV   | Islamabad, Peshawar, Quetta     | 0.24    | 0.24
+V    | Kashmir, Muzaffarabad, Gilgit   | 0.36    | 0.36
+
+Seismic design methodology:
+- Elastic response spectrum method (medium/major bridges)
+- Equivalent static method (minor bridges)
+
+Horizontal seismic coefficient (Ah):
+Ah = (Z / 2) × (Sa / g) / (R / I)
+
+Where:
+- Z = Zone factor (0.10 to 0.36)
+- Sa/g = Spectral acceleration coefficient (1.36 for rock, 1.67 for soft soil)
+- R = Response reduction factor (2.5 for critical, 3.0 for normal bridges)
+- I = Importance factor (1.5 for critical, 1.0 for normal)
+
+Example (Zone V, normal bridge, rock):
+Ah = (0.36 / 2) × (1.36) / (3.0 / 1.0) = 0.0816 (8.16% of dead load)
+
+2005 Kashmir Earthquake lessons:
+- Unseated girders (inadequate bearing lengths)
+- Pier collapse (shear failure, inadequate transverse reinforcement)
+- Abutment movement (soil liquefaction)
+
+Mandatory provisions (Pakistan post-2005):
+- Minimum support length: 400 mm + 10 mm per meter span + seismic displacement
+- Shear keys at bearings (prevent transverse movement)
+- Ductile detailing (confined concrete, closely-spaced stirrups)
+
+Base: IRC:6-2017 Section 219
+Pakistan Building Code Seismic Provisions 2007
+
+2.4 WIND LOADS
+--------------
+Design wind speed:
+- Basic wind speed (Vb): 39-55 m/s (Pakistan, 50-year return)
+- Design wind speed (Vd): Vb × K1 × K2 × K3
+  - K1 = Risk coefficient (1.0 for normal, 1.05 for important)
+  - K2 = Terrain category (1.0 open terrain, 0.85 urban)
+  - K3 = Topography (1.0 flat, 1.2 hills/valleys)
+
+Wind pressure:
+Pz = 0.6 × Vd² (N/m²)
+
+Example (Vd = 50 m/s):
+Pz = 0.6 × 50² = 1,500 N/m² = 1.5 kN/m²
+
+Wind force on structure:
+F = Pz × A × Cd
+- A = Projected area
+- Cd = Drag coefficient (1.5 for trusses, 2.0 for girders)
+
+Pakistan cyclone areas:
+- Coastal Sindh (Karachi, Thatta): Higher wind design (55 m/s)
+- Interior (Lahore, Multan): Moderate (47 m/s)
+- Northern Areas: High altitude winds (50-60 m/s, but lighter structures)
+
+Base: IRC:6-2017 Section 212
+
+2.5 LOAD COMBINATIONS
+----------------------
+LIMIT STATE DESIGN (LSD):
+
+Ultimate Limit State (ULS):
+- Basic: 1.35 DL + 1.5 LL
+- Seismic: 1.0 DL ± 1.5 EQ (no live load, or 0.2 LL if considered)
+- Wind: 1.0 DL + 0.9 LL + 1.5 WL
+
+Serviceability Limit State (SLS):
+- Characteristic: 1.0 DL + 1.0 LL (deflection, cracking checks)
+- Quasi-permanent: 1.0 DL + 0.3 LL (long-term deflection)
+
+Base: IRC:112-2020 Section 6.3
+
+================================================================================
+SECTION 3: BRIDGE DECK DESIGN
+================================================================================
+
+3.1 RC SLAB BRIDGES
+-------------------
+Applicable for: Spans ≤10 m
+
+Slab thickness:
+- Simply supported: Span / 10 (minimum 200 mm)
+- Continuous: Span / 12 (minimum 175 mm)
+
+Reinforcement:
+- Main steel: Bottom (positive moment), top (negative moment over supports)
+- Distribution steel: Perpendicular to main, 20-30% of main steel
+- Minimum steel: 0.12% gross area (high-strength steel), 0.15% (mild steel)
+
+Live load distribution:
+- Pigeaud's curves or Westergaard's analysis
+- Effective width method (simpler, conservative)
+
+Pakistan practice:
+- Common for culverts, minor crossings
+- Economical, low construction complexity
+
+Base: IRC:21-2000 Section 3
+IRC:112-2020 Section 16
+
+3.2 T-BEAM/GIRDER BRIDGES
+--------------------------
+Components:
+- Main girders (RC or PSC I-beams, T-beams)
+- Deck slab (RC, 200-250 mm thick)
+- Cross-beams/diaphragms (spacing: 4-6 m)
+
+Girder spacing:
+- RC T-beams: 1.5-2.5 m centers
+- PSC I-girders: 2.0-3.5 m centers
+
+Slab design:
+- One-way spanning between girders
+- Effective width for live load: Dispersion method (45° spread)
+
+Girder design:
+- Longitudinal bending (DL + LL + impact)
+- Shear (critical at supports)
+- Torsion (eccentric loading)
+
+Diaphragms:
+- End diaphragms: Mandatory (load distribution, stability)
+- Intermediate: Every 4-6 m (reduce lateral buckling)
+
+Base: IRC:21-2000 Section 4
+IRC:112-2020 Section 16
+
+3.3 BOX GIRDER BRIDGES
+-----------------------
+Advantages:
+- High torsional rigidity (ideal for curved bridges)
+- Efficient section (reduced dead weight)
+- Aesthetic
+
+Types:
+- Single-cell (narrow bridges)
+- Multi-cell (wide bridges, 2-4 cells)
+
+Construction:
+- Cast-in-place: Formwork, pour concrete (slower, flexible geometry)
+- Precast segments: Match-cast, post-tensioned (faster, quality control)
+
+Design considerations:
+- Longitudinal bending: Flexural theory
+- Transverse bending: Top slab, bottom slab (spanning between webs)
+- Shear lag: Effective flange width (not fully effective in wide boxes)
+- Torsion: St. Venant + warping torsion
+
+Pakistan examples:
+- Islamabad Expressway bridges: PSC box girders (35-50 m spans)
+- Jinnah Bridge: Multi-span continuous box girder
+
+Base: IRC:112-2020 Section 16.4
+
+================================================================================
+SECTION 4: SUBSTRUCTURE DESIGN
+================================================================================
+
+4.1 ABUTMENTS
+-------------
+Types:
+
+GRAVITY ABUTMENT:
+- Mass concrete, trapezoidal section
+- Relies on weight (stability against overturning, sliding)
+- Suitable for low heights (<6 m)
+
+CANTILEVER/RC ABUTMENT:
+- Stem wall + spread footing or piles
+- Economical for moderate heights (6-12 m)
+- Most common Pakistan
+
+COUNTERFORT ABUTMENT:
+- For high fills (>12 m)
+- Vertical slabs + horizontal counterforts
+- Reduces stem thickness
+
+INTEGRAL ABUTMENT:
+- Deck continuous with abutment (no expansion joint)
+- Reduces maintenance (no joint sealing)
+- Limited use Pakistan (thermal movements large)
+
+Loads on abutments:
+- Vertical: Dead load, live load (bearing reactions)
+- Horizontal: Earth pressure (active), braking force, seismic
+- Horizontal earth pressure: Ka × γ × H² / 2 (per m width)
+  - Ka = Active earth pressure coefficient (0.3-0.4 for granular backfill)
+  - γ = Soil unit weight (18-20 kN/m³)
+  - H = Retained height (m)
+
+Bearing area check:
+- Allowable soil bearing capacity (from geotechnical investigation)
+- Factor of safety ≥2.5 (bearing), ≥1.5 (sliding), ≥2.0 (overturning)
+
+Base: IRC:78-2014 Section 7
+
+4.2 PIERS
+---------
+Types:
+
+SOLID/WALL PIERS:
+- Rectangular or circular cross-section
+- For moderate heights (<15 m)
+
+COLUMN/BENT PIERS:
+- Single or multiple columns
+- Economical for high piers (>15 m), reduced dead weight
+- Aesthetic
+
+HAMMERHEAD PIERS:
+- Single column + flared cap (support multiple girders)
+- Common in flyovers, viaducts
+
+Design forces:
+- Vertical: Dead load + live load
+- Horizontal: Braking (20% of live load), wind, seismic
+- Moment: Eccentric loading, lateral forces
+
+Pier cap design:
+- Deep beam action (height > span/2)
+- Strut-and-tie model or sectional design
+
+Pakistan examples:
+- Karakoram Highway: Hammerhead piers (tall, up to 60 m heights)
+- Lahore Orange Line (metro): Circular piers, 12-15 m heights
+
+Base: IRC:78-2014 Section 8
+
+================================================================================
+SECTION 5: FOUNDATIONS
+================================================================================
+
+5.1 SHALLOW FOUNDATIONS (SPREAD FOOTINGS)
+------------------------------------------
+Applicable when:
+- Competent soil at shallow depth (<3 m)
+- Allowable bearing capacity ≥150 kN/m²
+- No scour risk (dry locations)
+
+Types:
+- Isolated footing (single column/pier)
+- Combined footing (two piers close together)
+- Strip footing (wall abutment)
+
+Design:
+- Base area = (Load / Allowable bearing pressure) × FS
+- Thickness: Punching shear, flexural steel requirements
+- Minimum depth below ground: 1.5 m (frost protection, scour)
+
+Pakistan practice:
+- Limited use (most bridges over rivers, scour risk)
+- Used for grade-separated interchanges (dry locations)
+
+Base: IRC:78-2014 Section 705
+
+5.2 PILE FOUNDATIONS
+--------------------
+Used when:
+- Weak surface soil (bearing capacity <100 kN/m²)
+- Deep competent strata (rock, dense sand)
+- Scour depth >3 m
+
+DRIVEN PILES:
+- Precast RC piles (square/octagonal, 250-500 mm)
+- Steel H-piles (HP sections)
+- Driven by drop hammer, diesel hammer, vibratory
+- Capacity: 500-1,500 kN per pile (typical)
+- Pakistan: Limited use (hard driving in gravelly soils)
+
+BORED CAST-IN-PLACE PILES:
+- Rotary drilling, concrete poured in drilled hole
+- Diameter: 600-2,000 mm
+- Depth: 10-50 m (typical), 80 m (maximum)
+- Capacity: 1,000-10,000 kN per pile
+- Pakistan: Most common (versatile, any soil/rock)
+
+Load tests:
+- Initial load test: 1.5 × working load (1% of piles, minimum 2 piles)
+- Routine tests: 2% of piles
+- Non-destructive: PIT (pile integrity test), CSL (crosshole sonic logging)
+
+Base: IRC:78-2014 Section 706
+
+5.3 WELL FOUNDATIONS
+--------------------
+Traditional Indian subcontinent method:
+- Open caissons (wells) sunk by excavation
+- Circular or dumbbell shape
+- Used extensively Pakistan (70% of major bridges)
+
+Components:
+- Cutting edge: Bottom, sharp edge (penetrate soil)
+- Steining: Vertical cylindrical wall (RC, 1.0-1.5 m thick)
+- Cap: Top slab (distribute load to steining)
+
+Construction:
+1. Build steining (1st lift, 3-6 m height)
+2. Excavate inside (grab, dewatering)
+3. Well sinks under self-weight
+4. Add more steining lifts
+5. Reach founding depth (rock or dense sand)
+6. Seal bottom (concrete plug)
+7. Fill well (sand or concrete)
+8. Construct cap
+
+Sinking methods:
+- Open dredging (above water, dry season)
+- Dewatering + mechanical excavation (water table <5 m below)
+- Pneumatic sinking (compressed air, deep water - rare Pakistan)
+
+Advantages:
+- Large diameter (3-8 m) - high capacity
+- Visible construction (quality control)
+- Proven technology (100+ years experience)
+
+Disadvantages:
+- Labor-intensive
+- Slow (1-2 m per day sinking rate)
+- Tilt/shift risks (requires skilled supervision)
+
+Pakistan examples:
+- Sukkur Barrage Bridge: 66 wells (6-8 m diameter)
+- Jinnah Bridge: Wells in Indus riverbed (15-20 m depth)
+
+Base: IRC:78-2014 Section 707
+
+5.4 SCOUR PROTECTION
+--------------------
+Pakistan rivers: High scour risk (monsoon floods, glacial melt surges)
+
+Design scour depth (Lacey's formula):
+Dsm = 1.34 × (Q / f)^(1/3)
+
+Where:
+- Dsm = Mean scour depth (m)
+- Q = Discharge (m³/s) - 100-year flood
+- f = Silt factor (1.76 × √d, d = median grain size mm)
+
+Maximum scour depth: 2 × Dsm (at piers, constrictions)
+
+Foundation depth:
+- Minimum: 1.5 × Maximum scour depth below riverbed
+- Rock: Minimum 2 m socketing into sound rock
+
+Scour countermeasures:
+- Riprap (stone pitching): 300-600 mm size, graded
+- Apron: Concrete or stone blocks, 10-15 m upstream/downstream
+- Guide bunds: Direct flow, reduce attack angle
+- Launching aprons: Flexible mattress (settles with scour, protects)
+
+2010/2022 flood failures:
+- Inadequate scour depth assessment (underestimated floods)
+- Poor construction (riprap washed away)
+- Maintenance neglect (aprons damaged, not repaired)
+
+Base: IRC:5-2015 Section 706
+
+================================================================================
+SECTION 6: BEARINGS
+================================================================================
+
+6.1 TYPES OF BEARINGS
+---------------------
+ELASTOMERIC BEARINGS (MOST COMMON PAKISTAN):
+- Rubber pads, reinforced with steel plates
+- Allow rotation, limited translation
+- Load range: 500-5,000 kN per bearing
+- Economical, low maintenance
+
+POT BEARINGS:
+- Steel pot + rubber pad + piston
+- Fixed or guided/free sliding
+- Load range: 2,000-50,000 kN
+- Used for long-span bridges
+
+ROCKER/ROLLER BEARINGS:
+- Steel, allow rotation + movement
+- Traditional (less common now, maintenance-intensive)
+
+SEISMIC ISOLATION BEARINGS:
+- Lead-rubber bearings (LRB): Energy dissipation
+- Friction pendulum bearings (FPB): Large displacements
+- High-seismic zones (Kashmir) - modern bridges
+
+Design requirements:
+- Thermal movement: ±ΔL = α × L × ΔT
+  - α = Coefficient of thermal expansion (10-12 × 10⁻⁶ /°C for concrete)
+  - L = Length from fixed point (m)
+  - ΔT = Temperature range (Pakistan: 60-70°C range, -10 to +50°C)
+
+Example (50 m span):
+ΔL = 12 × 10⁻⁶ × 50,000 mm × 60°C = 36 mm (each direction)
+
+- Creep and shrinkage: Additional 5-10 mm (prestressed concrete)
+
+Support length:
+- Minimum bearing length: 400 mm + 10 mm per meter span + seismic displacement
+
+Base: IRC:83 Part II-2015 (Standard Specifications for Road Bridges - Bearings, Part II - Elastomeric Bearings)
+
+================================================================================
+SECTION 7: BRIDGE CONSTRUCTION METHODS
+================================================================================
+
+7.1 CAST-IN-PLACE CONSTRUCTION
+-------------------------------
+Formwork (shuttering):
+- Timber, steel, or aluminum forms
+- Support: Scaffolding, falsework (temporary supports)
+
+Casting sequence:
+1. Substructure (foundations, piers, abutments)
+2. Bearings installation
+3. Deck formwork erection
+4. Reinforcement placing, pre-stressing ducts (if PSC)
+5. Concrete pouring (monolithic or stages)
+6. Curing (14-28 days)
+7. Post-tensioning (if applicable)
+8. Formwork removal
+9. Finishing (railings, wearing coat, expansion joints)
+
+Advantages:
+- Flexible geometry (curved, variable depth)
+- No transport limits (span, width)
+
+Disadvantages:
+- Slow (weather-dependent)
+- Traffic disruption (formwork below)
+
+Pakistan usage: 60% of bridges (small to medium spans)
+
+Base: IRC:112-2020 Chapter 18
+
+7.2 PRECAST CONSTRUCTION
+-------------------------
+I-Girders/Box girders:
+- Cast in precasting yard (quality control)
+- Transport to site (truck or rail)
+- Erect with crane
+- Cast deck slab in-situ or use precast deck panels
+
+Advantages:
+- Fast (parallel fabrication + construction)
+- High quality (controlled environment)
+- Minimal site disruption
+
+Disadvantages:
+- Transport limits (span <30 m typically, width <3.5 m)
+- Heavy cranes required
+
+Pakistan examples:
+- Islamabad-Peshawar Motorway (M-1): Precast I-girders
+- Lahore Orange Line: Precast segmental box girders (span-by-span)
+
+Base: IRC:112-2020 Chapter 19
+
+7.3 INCREMENTAL LAUNCHING
+--------------------------
+Method:
+- Cast deck segments at one end (abutment)
+- Push/pull entire deck across piers
+- Repeat until full span completed
+
+Launching nose:
+- Steel truss at front (reduces cantilever moment during launch)
+
+Suitable for:
+- Long viaducts (multiple equal spans)
+- Congested sites (minimal ground equipment)
+
+Pakistan usage: Limited (few major viaducts, technique not widely known)
+
+Example: China-built CPEC bridges (some incremental launching used)
+
+Base: FIP Recommendations (Federation Internationale de la Precontrainte)
+
+================================================================================
+REFERENCES
+================================================================================
+
+PRIMARY CODES:
+- IRC:5-2015: General Features of Road Bridges
+- IRC:6-2017: Loads and Load Combinations
+- IRC:21-2000: Cement Concrete Bridges (Plain and Reinforced)
+- IRC:22-2015: Steel Road Bridges
+- IRC:78-2014: Foundations and Substructure
+- IRC:112-2020: Code of Practice for Concrete Road Bridges
+
+SPECIALIZED STANDARDS:
+- IRC:83 Part II-2015: Elastomeric Bearings
+- IRC:SP:13-2004: Guidelines for Design of Small Bridges and Culverts
+- IRC:SP:35-2014: Guidelines for Inspection and Maintenance of Bridges
+
+UK STANDARDS:
+- DMRB CD 350: Design of highway structures
+- DMRB CD 351: Design of concrete structures
+
+USA STANDARDS:
+- AASHTO LRFD Bridge Design Specifications (9th Edition)
+
+PAKISTAN REGULATIONS:
+- Pakistan Building Code Seismic Provisions 2007
+- NHA Bridge Design Manual 2015
+
+INDIAN STANDARDS (IS):
+- IS:456-2000: Plain and Reinforced Concrete - Code of Practice
+- IS:1893-2016: Criteria for Earthquake Resistant Design of Structures
+
+ORGANIZATIONS:
+- National Highway Authority (NHA): www.nha.gov.pk
+- Frontier Works Organization (FWO): Bridge construction in Northern Areas
+- Pakistan Engineering Council (PEC): www.pec.org.pk
+
+================================================================================
+END OF CHAPTER 14
+================================================================================
