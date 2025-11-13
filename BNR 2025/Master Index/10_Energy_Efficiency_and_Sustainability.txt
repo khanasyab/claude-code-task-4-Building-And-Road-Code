@@ -1,0 +1,681 @@
+================================================================================
+BNR 2025 - MASTER INDEX
+CHAPTER 10: ENERGY EFFICIENCY AND SUSTAINABILITY
+================================================================================
+
+BASE SOURCES:
+- USA: International Energy Conservation Code (IECC) 2024
+- USA: International Green Construction Code (IgCC) 2024
+- USA: ASHRAE 90.1-2022 (Energy Standard for Buildings)
+- USA: ASHRAE 189.1-2020 (High-Performance Green Buildings)
+- Pakistan: Green Building Code 2023 (Pakistan Green Building Council)
+- India: Energy Conservation Building Code (ECBC) 2017
+
+PAKISTAN CONTEXT:
+- Energy crisis: 4,500-8,000 MW shortfall, load shedding 8-12 hours/day
+- Solar potential: 5.5-6.5 kWh/m²/day (among world's highest)
+- Climate zones: Hot-dry (Karachi), Warm-humid (Lahore), Composite (Islamabad),
+  Temperate (Murree), Cold (Northern Areas)
+- Net metering: NEPRA regulations 2015 (revised 2019)
+- Carbon emissions: 218 million tons/year, buildings sector 35%
+
+================================================================================
+SECTION 1: GENERAL REQUIREMENTS
+================================================================================
+
+1.1 SCOPE AND APPLICATION
+-------------------------
+Buildings covered:
+- All new construction >500 m² floor area
+- Additions >100 m² or >50% existing building area
+- Alterations where equipment/systems are replaced
+- Change of occupancy requiring permits
+
+Exemptions:
+- Religious buildings (mosques, churches, temples)
+- Temporary buildings <180 days occupancy
+- Agricultural buildings (livestock, crop storage)
+- Industrial process buildings where >80% energy for manufacturing
+
+Base: IECC 2024 Section C101
+
+1.2 COMPLIANCE PATHS
+--------------------
+Three options (building owner selects):
+
+PATH 1: Prescriptive Method
+- Meet all individual requirements (envelope, mechanical, electrical, service water heating)
+- Simplest approach, most common for small buildings
+
+PATH 2: Performance Method
+- Computer energy simulation (DOE-2, EnergyPlus, eQUEST, TRNSYS)
+- Proposed design ≤ baseline design annual energy cost
+- Allows trade-offs between systems
+
+PATH 3: Energy Rating Index (ERI)
+- Residential buildings only
+- ERI score ≤ target (typically 50-60)
+- Uses RESNET HERS methodology
+
+Base: IECC 2024 Section C401
+
+1.3 CLIMATE ZONES (PAKISTAN)
+----------------------------
+Zone 1 (Hot-Dry): Karachi, Hyderabad, Quetta, Multan
+- Summer design: 38-45°C dry bulb, 24-28°C wet bulb
+- Winter design: 5-10°C
+- Cooling dominant, minimal heating
+
+Zone 2 (Warm-Humid): Lahore, Faisalabad, Sialkot, Gujranwala
+- Summer: 40-48°C dry bulb, 28-32°C wet bulb
+- Winter: 2-8°C
+- High humidity, cooling + moderate heating
+
+Zone 3 (Composite): Islamabad, Rawalpindi, Peshawar
+- Summer: 35-42°C
+- Winter: -2 to 5°C
+- Balanced cooling and heating loads
+
+Zone 4 (Temperate): Murree, Abbottabad, Azad Kashmir (lower elevations)
+- Summer: 25-30°C
+- Winter: -5 to 2°C
+- Heating dominant
+
+Zone 5 (Cold): Gilgit, Skardu, Chitral, Muzaffarabad (higher elevations)
+- Summer: 20-28°C
+- Winter: -15 to -5°C
+- High heating loads, snow loads
+
+Base: ASHRAE 90.1-2022 Climate Zone definitions adapted for Pakistan
+Pakistan Green Building Code 2023 Section 2.3
+
+================================================================================
+SECTION 2: BUILDING ENVELOPE
+================================================================================
+
+2.1 THERMAL INSULATION REQUIREMENTS
+------------------------------------
+Minimum R-values (m²·K/W):
+
+ROOFS (Insulation entirely above deck):
+- Zone 1 (Hot-Dry): R-2.6 (U-0.38)
+- Zone 2 (Warm-Humid): R-3.3 (U-0.30)
+- Zone 3 (Composite): R-4.4 (U-0.23)
+- Zone 4 (Temperate): R-5.3 (U-0.19)
+- Zone 5 (Cold): R-6.2 (U-0.16)
+
+WALLS (Mass walls - concrete/masonry):
+- Zone 1: R-1.3 (U-0.77) - e.g., 230mm brick + 50mm EPS
+- Zone 2: R-1.8 (U-0.56) - e.g., 230mm brick + 75mm EPS
+- Zone 3: R-2.3 (U-0.43) - e.g., Cavity wall + 75mm EPS
+- Zone 4: R-2.8 (U-0.36) - e.g., Cavity wall + 100mm EPS
+- Zone 5: R-3.5 (U-0.29) - e.g., Cavity wall + 125mm EPS
+
+FLOORS (Slab-on-grade):
+- Zones 1-2: No insulation required (cooling dominant)
+- Zone 3: R-1.0 perimeter insulation, 600mm depth
+- Zone 4: R-1.5 perimeter insulation, 900mm depth
+- Zone 5: R-2.0 full slab insulation
+
+WINDOWS (Fenestration):
+- Zone 1-2: U-factor ≤ 3.4 W/m²·K, SHGC ≤ 0.25 (solar heat gain control critical)
+- Zone 3: U-factor ≤ 2.8 W/m²·K, SHGC ≤ 0.40
+- Zone 4-5: U-factor ≤ 2.3 W/m²·K, SHGC ≥ 0.40 (passive solar heating beneficial)
+
+Maximum window-to-wall ratio: 40% (all zones)
+
+Base: IECC 2024 Tables C402.1.3, C402.1.4
+Pakistan Green Building Code 2023 Table 4.1
+
+2.2 AIR LEAKAGE CONTROL
+-----------------------
+Building envelope air tightness:
+- Residential: ≤ 5.0 air changes per hour at 50 Pa (ACH50)
+- Commercial: ≤ 2.0 L/s·m² at 75 Pa
+
+Testing: Blower door test per ASTM E779 (residential) or E1827 (commercial)
+Required for:
+- Buildings >2,000 m² conditioned area
+- All high-performance/green certified buildings
+
+Air barrier materials:
+- Gypsum board, exterior sheathing, house wrap, fluid-applied membranes
+- All joints/penetrations sealed (caulk, foam, gaskets)
+- Continuous from foundation to roof
+
+Base: IECC 2024 Section C402.5
+ASHRAE 90.1-2022 Section 5.4.3
+
+2.3 THERMAL BRIDGING
+--------------------
+Metal-framed walls (steel studs):
+- Cavity insulation + continuous insulation (ci)
+- Zone 1-2: R-1.3 ci
+- Zone 3: R-1.8 ci
+- Zone 4-5: R-2.3 ci
+
+Balconies/parapets:
+- Thermal break at junction with conditioned space
+- Structural thermal break materials: Isokorb, Schöck
+
+Base: IECC 2024 Section C402.2.6
+
+================================================================================
+SECTION 3: MECHANICAL SYSTEMS (HVAC)
+================================================================================
+
+3.1 EQUIPMENT EFFICIENCY STANDARDS
+-----------------------------------
+Air Conditioning (Split/Window units):
+- Capacity ≤ 19 kW (5 tons): EER ≥ 3.0 (10.2 BTU/Wh)
+- Capacity > 19 kW: EER ≥ 3.2 (10.9 BTU/Wh)
+- Inverter units preferred: SEER ≥ 4.2 (14 BTU/Wh)
+
+Pakistan Energy Efficiency Labels (2023):
+- 5-star rating: EER ≥ 3.5
+- 4-star: EER 3.2-3.49
+- 3-star: EER 3.0-3.19
+- Minimum 3-star for new installations
+
+Chillers (Central plants):
+- Air-cooled: COP ≥ 2.8 (EER ≥ 9.5)
+- Water-cooled: COP ≥ 5.5 (EER ≥ 18.8)
+- Variable-speed drives mandatory for >150 kW capacity
+
+Heat Pumps (Northern Areas):
+- Heating COP ≥ 3.3 at 8.3°C outdoor
+- Cooling EER ≥ 3.5 at 35°C outdoor
+
+Furnaces/Boilers (Heating):
+- Gas furnaces: AFUE ≥ 90%
+- Oil furnaces: AFUE ≥ 85%
+- Gas boilers: Combustion efficiency ≥ 88%
+
+Base: ASHRAE 90.1-2022 Tables 6.8.1-A through 6.8.1-L
+Pakistan ENERCON regulations 2023
+
+3.2 HVAC SYSTEM DESIGN
+----------------------
+Economizers (Free cooling):
+- Required for cooling capacity >18 kW
+- Air-side economizer: Outside air dampers, relief dampers, controls
+- Economizer controls: Differential dry-bulb or differential enthalpy
+- Exception: Warm-humid climates (Lahore, Faisalabad) - use only dry-bulb control
+
+Ventilation:
+- Demand-controlled ventilation (DCV) for occupancies >100 persons
+- CO₂ sensors, setpoint 1,000 ppm
+- Variable air volume (VAV) systems
+
+Zone controls:
+- Individual thermostatic controls for each thermal zone (≤500 m²)
+- Setback controls: Unoccupied periods reduced to 29°C cooling, 15°C heating
+- Programmable thermostats or building automation system (BAS)
+
+Duct insulation:
+- Supply ducts (conditioned space): R-0.6 minimum
+- Return ducts (unconditioned space): R-0.6 minimum
+- Outdoor air ducts: R-1.0 minimum
+- Duct leakage: ≤ 4% (sealed class per SMACNA)
+
+Pipe insulation:
+- Chilled water: R-0.5 (indoor), R-0.9 (outdoor)
+- Hot water (heating): R-0.9 (indoor), R-1.3 (outdoor)
+- Steam condensate: R-0.9
+
+Base: IECC 2024 Section C403.3, C403.6
+ASHRAE 90.1-2022 Section 6.5
+
+3.3 VENTILATION AND IAQ
+-----------------------
+Minimum outdoor air rates (ASHRAE 62.1-2022):
+- Offices: 10 L/s per person + 0.6 L/s·m²
+- Classrooms: 10 L/s per person + 0.6 L/s·m²
+- Retail: 7.5 L/s per person + 0.6 L/s·m²
+- Restaurants: 7.5 L/s per person + 0.9 L/s·m²
+
+Heat recovery:
+- Energy recovery ventilation (ERV) for systems >2,500 L/s outdoor air
+- Sensible effectiveness ≥ 60%
+- Latent effectiveness ≥ 50% (warm-humid climates)
+
+Filtration:
+- Minimum MERV 8 filters (outdoor air and return air)
+- MERV 13 recommended for hospitals, laboratories
+- Pre-filters + final filters for critical environments
+
+Base: ASHRAE 62.1-2022, ASHRAE 90.1-2022 Section 6.5.6
+
+================================================================================
+SECTION 4: SERVICE WATER HEATING
+================================================================================
+
+4.1 EQUIPMENT EFFICIENCY
+------------------------
+Storage water heaters:
+- Electric (≤55 gallons/208L): Energy Factor EF ≥ 0.93
+- Gas (≤55 gallons): EF ≥ 0.67, Thermal Efficiency ≥ 80%
+
+Instantaneous (tankless) water heaters:
+- Electric: EF ≥ 0.99
+- Gas: EF ≥ 0.82
+
+Heat pump water heaters (HPWH):
+- Integrated: Uniform Energy Factor UEF ≥ 3.1
+- 200% - 300% more efficient than electric resistance
+
+Solar water heating:
+- Mandatory for hospitals, hotels >20 rooms, hostels
+- Solar fraction ≥ 60% (annual hot water from solar)
+- Backup conventional heater required
+
+Base: IECC 2024 Section C404.2
+ASHRAE 90.1-2022 Table 7.8
+
+4.2 DISTRIBUTION SYSTEMS
+------------------------
+Pipe insulation:
+- Pipe diameter ≤40mm: R-0.5
+- Pipe diameter >40mm: R-0.7
+- Recirculation systems: R-0.9
+
+Hot water recirculation:
+- Automatic controls (time clock, occupancy sensor, temperature sensor)
+- Maximum 66°C supply temperature (scalding prevention)
+
+Low-flow fixtures (water conservation):
+- Showerheads: ≤9.5 L/min (2.5 gpm)
+- Lavatory faucets: ≤8.3 L/min (2.2 gpm) or 1.9 L per cycle
+- Kitchen faucets: ≤8.3 L/min
+
+Base: IECC 2024 Section C404.5
+
+================================================================================
+SECTION 5: ELECTRICAL SYSTEMS AND LIGHTING
+================================================================================
+
+5.1 LIGHTING POWER DENSITY (LPD)
+--------------------------------
+Maximum interior LPD (W/m²):
+
+Building Area Method:
+- Offices: 9.7 W/m²
+- Schools (classrooms): 11.8 W/m²
+- Retail: 14.0 W/m²
+- Warehouse: 7.5 W/m²
+- Healthcare (patient rooms): 10.8 W/m²
+- Hotels (guest rooms): 11.8 W/m²
+- Mosques: 12.9 W/m²
+- Residential: 6.5 W/m²
+
+Space-by-Space Method (more detailed):
+- Office enclosed: 11.8 W/m²
+- Office open: 9.7 W/m²
+- Conference rooms: 13.4 W/m²
+- Corridors: 5.4 W/m²
+- Restrooms: 9.7 W/m²
+- Storage: 8.6 W/m²
+
+Exterior lighting:
+- Building facades: 2.2 W/m² (horizontal), 5.4 W/m² (vertical)
+- Parking areas: 1.1 W/m²
+- Walkways <3m wide: 10.8 W/linear meter
+
+Base: ASHRAE 90.1-2022 Tables 9.5.1, 9.6.1
+
+5.2 LIGHTING CONTROLS
+---------------------
+Automatic shut-off (mandatory):
+- Occupancy sensors: Enclosed offices, restrooms, storage, classrooms
+- Time-switch control: Open offices, corridors (override ≤2 hours)
+- Daylight-responsive controls: Within 4.5m of windows (primary sidelit zone)
+
+Daylight harvesting:
+- Continuous dimming or stepped control (min 2 steps)
+- Photo sensors calibrated at commissioning
+- Potential savings: 20-60% in perimeter zones
+
+Manual controls:
+- Individual control for ≤90 m² area, ≤10 luminaires
+- Multi-level switching (minimum 50% off, 100% on)
+
+Base: IECC 2024 Section C405.2
+ASHRAE 90.1-2022 Section 9.4
+
+5.3 LAMP AND LUMINAIRE EFFICACY
+--------------------------------
+Minimum efficacy requirements:
+- Linear fluorescent (T8, T5): ≥90 lumens/watt
+- LED downlights: ≥75 lumens/watt
+- LED troffers: ≥90 lumens/watt
+- High-bay LED: ≥120 lumens/watt
+
+Prohibited lamps:
+- Incandescent (except specialty applications)
+- T12 fluorescent
+- Mercury vapor
+
+Base: IECC 2024 Table C405.3.2
+
+5.4 TRANSFORMERS AND MOTORS
+---------------------------
+Transformers (≥10 kVA):
+- Dry-type: NEMA TP-1 efficiency levels
+- 15 kVA: ≥98.0%
+- 150 kVA: ≥98.9%
+
+Motors (≥0.75 kW):
+- Premium efficiency: IE3 (IEC 60034-30-1)
+- Super premium efficiency: IE4 (for critical loads)
+
+Variable speed drives (VSD):
+- Mandatory for motors >7.5 kW variable loads (pumps, fans)
+
+Base: ASHRAE 90.1-2022 Tables 8.2, 10.8-1
+
+================================================================================
+SECTION 6: RENEWABLE ENERGY SYSTEMS
+================================================================================
+
+6.1 SOLAR PHOTOVOLTAIC (PV)
+---------------------------
+Pakistan solar resource:
+- Karachi: 5.8 kWh/m²/day
+- Lahore: 5.5 kWh/m²/day
+- Quetta: 6.3 kWh/m²/day (highest in Pakistan)
+- Islamabad: 5.2 kWh/m²/day
+
+Mandatory solar PV:
+- Government buildings >1,000 m²: ≥20% of electrical load
+- Commercial buildings >5,000 m²: ≥15% of electrical load
+- Hospitals, educational institutions: ≥10% of electrical load
+
+System sizing:
+- Peak sun hours (PSH): 5.5 hours/day (annual average Pakistan)
+- Array DC capacity = Daily load (kWh) / (PSH × derate factor)
+- Derate factor: 0.75-0.80 (soiling, temperature, mismatch losses)
+
+Net metering:
+- NEPRA regulations 2019 (revised 2023)
+- Residential: Up to 1 MW capacity
+- Commercial/industrial: Up to 1 MW per phase
+- Bi-directional meter, credit rollover to next month
+- DISCO connection agreements: LESCO, K-Electric, IESCO, FESCO, etc.
+
+Installation standards:
+- Roof-mounted: Tilt = Latitude ± 10° (Karachi 25°, Lahore 31°, Islamabad 33°)
+- Azimuth: Due south (180°) for maximum yield
+- Clearances: 100mm under modules (air cooling), 1m from roof edge
+- Wind load per BNR seismic/wind provisions
+
+Inverter specifications:
+- Grid-tied: UL 1741, IEEE 1547 compliance
+- Anti-islanding protection
+- Efficiency ≥97% (transformerless), ≥95% (transformer-based)
+
+Base: IgCC 2024 Section 406.3
+Pakistan Alternative Energy Development Board (AEDB) guidelines 2023
+NEPRA Net Metering Regulations 2019 (amended 2023)
+
+6.2 SOLAR WATER HEATING
+------------------------
+Mandatory applications:
+- Hospitals: 80% of hot water load
+- Hotels >20 rooms: 60% of hot water load
+- Hostels, guest houses: 50% of hot water load
+
+Collector types:
+- Flat-plate collectors: Efficiency 60-70% (most common Pakistan)
+- Evacuated tube collectors: Efficiency 70-80% (better for cold climates)
+
+Sizing:
+- Per capita consumption: 40-50 L/day at 60°C
+- Collector area: 1.5-2.0 m² per person (flat-plate)
+- Storage tank: 50-75 L per m² collector area
+
+Installation:
+- Tilt angle: Latitude + 10° (winter optimization)
+- Due south orientation
+- Freeze protection (Northern Areas): Glycol mix or drainback systems
+
+Base: Pakistan Green Building Code 2023 Section 6.2
+
+6.3 WIND ENERGY
+---------------
+Coastal areas (Karachi, Gwadar):
+- Average wind speed: 6-8 m/s at 50m height
+- Small wind turbines: 5-50 kW (distributed generation)
+
+Grid-scale wind farms:
+- Jhimpir, Gharo: 1,320 MW operational (2023)
+- AEDB wind corridor (Sindh): 9,700 km² area, 43,000 MW potential
+
+Building-integrated wind:
+- Vertical axis wind turbines (VAWT): Quieter, lower vibration
+- Minimum 12 m/s sustained wind for economic viability
+- Structural analysis required for roof-mounted installations
+
+Base: AEDB Wind Power Policy 2006 (updated 2023)
+
+================================================================================
+SECTION 7: GREEN BUILDING CERTIFICATION
+================================================================================
+
+7.1 PAKISTAN GREEN BUILDING STANDARDS
+--------------------------------------
+Pakistan Green Building Council (PGBC) - established 2009
+
+Certification systems:
+1. LEED (U.S. Green Building Council)
+   - LEED v4.1: Most common in Pakistan
+   - Levels: Certified (40 pts), Silver (50), Gold (60), Platinum (80)
+   - Categories: Location, Water, Energy, Materials, Indoor Environmental Quality
+
+2. Pakistan Environmental Rating System (PERS)
+   - Developed by PGBC 2018
+   - Pakistan-specific climate, materials, regulations
+   - Lower cost than LEED
+
+3. EDGE (Excellence in Design for Greater Efficiencies)
+   - IFC World Bank system
+   - Focus: 20% savings in energy, water, embodied energy
+   - Popular for affordable housing
+
+Mandatory for:
+- Federal government buildings >5,000 m²: Minimum LEED Silver
+- Punjab government buildings: Minimum LEED Certified
+- Sindh government buildings: Green building assessment required
+
+Base: Pakistan Green Building Code 2023 Chapter 8
+Punjab Green Building Code 2020
+
+7.2 ENERGY PERFORMANCE TARGETS
+-------------------------------
+High-performance buildings:
+- 30% better than ASHRAE 90.1-2022 baseline (LEED minimum)
+- 50% better than baseline (LEED Platinum, net-zero ready)
+
+Net-zero energy buildings (NZEB):
+- Annual energy consumption ≤ on-site renewable energy production
+- Site net-zero (most common) vs. source net-zero
+- Examples: Pakistan Council of Scientific & Industrial Research (PCSIR) HQ Islamabad
+
+Nearly-zero energy buildings (nZEB):
+- EU standard: Primary energy ≤75 kWh/m²·year (residential)
+- Very high efficiency envelope + renewable energy
+
+Base: IgCC 2024 Section 602.1
+ASHRAE 189.1-2020
+
+================================================================================
+SECTION 8: WATER EFFICIENCY AND CONSERVATION
+================================================================================
+
+8.1 INDOOR WATER USE
+--------------------
+Pakistan water crisis:
+- Per capita availability: 1,017 m³/year (2023) - water-stressed (<1,700 m³)
+- Projection 2025: <1,000 m³/year (water-scarce)
+- Urban supply: 4-8 hours/day intermittent
+
+Maximum fixture flow rates:
+- Water closets (WC): 6.0 L per flush (dual-flush 3.0/6.0 L preferred)
+- Urinals: 4.0 L per flush (0.5 L preferred) or waterless
+- Showerheads: 9.5 L/min
+- Lavatory faucets: 8.3 L/min or 1.9 L per cycle (metering faucets)
+- Kitchen faucets: 8.3 L/min
+
+Savings potential:
+- Conventional WC: 13 L/flush → Dual-flush 4.5 L/flush = 65% reduction
+- Conventional urinal: 7 L/flush → Waterless = 100% reduction
+
+Base: IgCC 2024 Section 702.1
+Pakistan Green Building Code 2023 Section 7.1
+
+8.2 OUTDOOR WATER USE (LANDSCAPING)
+------------------------------------
+Climate-appropriate landscaping:
+- Native species: Drought-tolerant, low maintenance
+- Turf grass limits: ≤25% of landscaped area
+- Examples: Bougainvillea, Neem, Guava, Date Palm, Jasmine
+
+Irrigation:
+- Drip irrigation: 90-95% efficiency (vs. 60-70% sprinkler)
+- Smart controllers: Weather-based (ET), soil moisture sensors
+- Mandatory for >1,000 m² landscaped area
+
+Rainwater harvesting:
+- Mandatory for plots >500 m² (Lahore, Islamabad regulations)
+- Collection from roof, paved areas
+- Storage: Minimum 10% of annual rainfall × catchment area
+- Uses: Irrigation, toilet flushing, vehicle washing
+
+Greywater reuse:
+- Sources: Showers, laundry, hand-washing (NOT kitchen, WC)
+- Treatment: Filtration, disinfection
+- Uses: Toilet flushing, irrigation
+
+Base: IgCC 2024 Section 703
+Lahore Water & Sanitation Agency (WASA) Rainwater Harvesting Policy 2019
+
+================================================================================
+SECTION 9: WASTE MANAGEMENT
+================================================================================
+
+9.1 CONSTRUCTION WASTE
+----------------------
+Diversion targets:
+- 50% of construction waste diverted from landfill (by weight)
+- 75% target for high-performance buildings
+
+Materials to salvage/recycle:
+- Concrete, masonry: Crush for aggregate, base course
+- Metals: Steel, aluminum, copper - high scrap value
+- Wood: Reuse, mulch, biomass fuel
+- Cardboard, paper: Recycling
+
+Waste management plan:
+- Designate areas for sorting on site
+- Contracts with recyclers (steel mills, scrap dealers)
+- Documentation: Weight tickets, invoices
+
+Base: IgCC 2024 Section 505
+LEED v4.1 MR Credit: Construction Waste Management
+
+9.2 OPERATIONAL WASTE
+---------------------
+Recycling collection:
+- Minimum 3 streams: Paper, plastic/metal/glass, organic
+- Indoor bins for occupants (multi-stream)
+- Centralized collection areas
+
+Organic waste:
+- Composting for food waste (hotels, restaurants, residential)
+- Biogas digesters (large facilities): Methane for cooking/heating
+
+E-waste:
+- Separate collection for electronics, batteries
+- Pakistan E-Waste Management Rules 2023 (draft)
+
+Base: IgCC 2024 Section 806
+
+================================================================================
+SECTION 10: COMPLIANCE AND VERIFICATION
+================================================================================
+
+10.1 DOCUMENTATION REQUIREMENTS
+-------------------------------
+Construction documents:
+- Energy compliance forms (IECC/ASHRAE)
+- Equipment specifications, cut sheets
+- Lighting plans with LPD calculations
+- Mechanical load calculations
+
+10.2 COMMISSIONING
+------------------
+Mandatory for buildings >5,000 m²:
+- Commissioning authority (CxA): Third-party independent
+- Owner's project requirements (OPR)
+- Basis of design (BOD)
+- Systems commissioned: HVAC, lighting controls, domestic hot water, renewable energy
+
+Functional performance testing:
+- Equipment verified at full-load, part-load conditions
+- Control sequences verified
+- TAB (testing, adjusting, balancing) reports
+
+Base: ASHRAE Guideline 0-2019 (Commissioning Process)
+IECC 2024 Section C408
+
+10.3 BUILDING ENERGY AUDITS
+---------------------------
+Mandatory audits:
+- Commercial buildings >5,000 m²: Every 5 years
+- Industrial facilities >10,000 m²: Every 3 years
+
+Energy audit levels (ASHRAE Standard 211):
+- Level 1 (Walk-through): Benchmarking, preliminary assessment
+- Level 2 (Energy survey): Detailed analysis, savings calculations
+- Level 3 (Investment-grade): Engineering analysis for major retrofits
+
+Pakistan ENERCON (Ministry of Energy):
+- Energy audit regulations 2016
+- Mandatory for industries >200 TOE (tons oil equivalent) annual consumption
+
+Base: ASHRAE Standard 211-2018
+Pakistan ENERCON Regulations
+
+================================================================================
+REFERENCES
+================================================================================
+
+PRIMARY CODES:
+- IECC 2024: International Energy Conservation Code
+- ASHRAE 90.1-2022: Energy Standard for Buildings Except Low-Rise Residential
+- ASHRAE 62.1-2022: Ventilation for Acceptable Indoor Air Quality
+- ASHRAE 189.1-2020: Standard for High-Performance Green Buildings
+- IgCC 2024: International Green Construction Code
+
+PAKISTAN REGULATIONS:
+- Pakistan Green Building Code 2023 (Pakistan Green Building Council)
+- ENERCON Energy Audit Regulations 2016
+- NEPRA Net Metering Regulations 2019 (revised 2023)
+- Punjab Green Building Code 2020
+- Lahore WASA Rainwater Harvesting Policy 2019
+
+STANDARDS:
+- ASTM E779: Air Leakage by Fan Pressurization
+- ASHRAE Standard 211-2018: Commercial Building Energy Audits
+- ASHRAE Guideline 0-2019: The Commissioning Process
+- IEC 60034-30-1: Rotating Electrical Machines - Efficiency Classes
+- RESNET HERS: Home Energy Rating System
+
+ORGANIZATIONS:
+- Pakistan Green Building Council (PGBC): www.greenbuildingcouncil.org.pk
+- ENERCON (Energy Conservation): Ministry of Energy, Government of Pakistan
+- AEDB (Alternative Energy Development Board): www.aedb.org
+- NEPRA (National Electric Power Regulatory Authority): www.nepra.org.pk
+
+================================================================================
+END OF CHAPTER 10
+================================================================================
