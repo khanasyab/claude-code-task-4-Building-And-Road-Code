@@ -1,0 +1,572 @@
+================================================================================
+CHAPTER 07: STRUCTURAL DESIGN - BUILDINGS
+BNR 2025 Master Index
+Base: BNR 1989/1994 + India IS Codes + USA IBC/ASCE 7
+================================================================================
+
+SOURCE HIERARCHY:
+PRIMARY BASE: India IS 456 (Concrete), IS 800 (Steel), IS 1893 (Seismic)
+LOAD STANDARDS: USA ASCE 7-22, IBC 2024 Chapter 16
+ENHANCEMENTS: IRC 112-2020, Pakistan Seismic Code
+
+================================================================================
+SECTION 1: GENERAL STRUCTURAL REQUIREMENTS
+================================================================================
+
+1.1 DESIGN PHILOSOPHY
+
+LIMIT STATE DESIGN (LSD) / LOAD AND RESISTANCE FACTOR DESIGN (LRFD)
+   - Ultimate Limit State: Strength and stability
+   - Serviceability Limit State: Deflection, cracking, vibration
+
+DESIGN PRINCIPLES:
+   - Factored loads > Factored resistance
+   - Load factors: 1.2-1.6 depending on load type
+   - Resistance factors: 0.65-0.90 depending on material
+
+1.2 CODES AND STANDARDS INTEGRATION
+
+CONCRETE DESIGN:
+   - IS 456:2000 (Plain and Reinforced Concrete)
+   - IRC 112:2020 (Modern concrete provisions)
+   - ACI 318 (Reference for advanced topics)
+
+STEEL DESIGN:
+   - IS 800:2007 (Steel Structures - Limit State Method)
+   - AISC 360 (USA - Reference)
+
+MASONRY DESIGN:
+   - IS 1905:1987 (Structural use of unreinforced masonry)
+   - IS 13920 (Ductile detailing in seismic zones)
+
+SEISMIC DESIGN:
+   - IS 1893:2016 (Earthquake Resistant Design - Parts 1-5)
+   - Building Code of Pakistan Seismic Provisions 2007
+   - ASCE 7 Chapter 12 (Reference)
+
+FOUNDATIONS:
+   - IS 1904:1986, IS 2911 (Piles), IS 6403 (Footings)
+
+================================================================================
+SECTION 2: LOADS ON BUILDINGS
+================================================================================
+
+2.1 DEAD LOADS (DL)
+[Source: IS 875 Part 1, ASCE 7 Chapter 3]
+
+MATERIAL UNIT WEIGHTS:
+   - Reinforced concrete: 25 kN/m³
+   - Plain concrete: 24 kN/m³
+   - Brick masonry: 19-20 kN/m³
+   - Stone masonry: 20-26 kN/m³
+   - Structural steel: 77 kN/m³
+
+TYPICAL FLOOR FINISHES:
+   - Tiles (20mm): 0.45 kN/m²
+   - Marble/granite: 0.65 kN/m²
+   - False ceiling: 0.25 kN/m²
+   - Plaster (12mm): 0.30 kN/m²
+   - Waterproofing: 0.15 kN/m²
+
+PARTITIONS:
+   - Light partitions: 1.0 kN/m²
+   - 115mm brick wall: 2.75 kN/m²
+   - 230mm brick wall: 5.50 kN/m²
+
+2.2 LIVE LOADS (LL)
+[Source: IS 875 Part 2, IBC Table 1607.1]
+
+RESIDENTIAL:
+   - Dwelling rooms: 2.0 kN/m²
+   - Corridors, stairs: 3.0 kN/m²
+   - Balconies: 3.0 kN/m²
+
+ASSEMBLY:
+   - Fixed seating (mosques, theaters): 4.0 kN/m²
+   - Movable seating: 5.0 kN/m²
+   - Corridors/aisles: 5.0 kN/m²
+
+OFFICES:
+   - Office rooms: 2.5 kN/m²
+   - Lobbies, corridors: 4.0 kN/m²
+
+EDUCATIONAL:
+   - Classrooms: 3.0 kN/m²
+   - Corridors: 4.0 kN/m²
+
+COMMERCIAL:
+   - Retail: 4.0 kN/m²
+   - Storage warehouses: 6.0-10.0 kN/m² (based on height)
+
+PARKING:
+   - Cars: 2.5 kN/m² (or concentrated load 20 kN/wheel)
+   - Trucks: Design for vehicle loads
+
+ROOFS:
+   - Accessible (gardens): 1.5 kN/m² minimum
+   - Inaccessible: 0.75 kN/m² (maintenance)
+
+LIVE LOAD REDUCTION:
+   - Allowed for tributary areas >20 m²
+   - Reduction factor: Based on tributary area and occupancy
+   - Maximum reduction: 50% (residential), 40% (assembly)
+
+2.3 WIND LOADS (WL)
+[Source: IS 875 Part 3, ASCE 7 Chapter 27]
+
+BASIC WIND SPEED (Pakistan):
+   - Karachi (coastal): 180 km/h (50 m/s)
+   - Lahore, Islamabad: 160 km/h (44 m/s)
+   - Interior cities: 140 km/h (39 m/s)
+   - Coastal areas: Cyclone-prone, higher speeds
+
+WIND PRESSURE CALCULATION:
+   pz = 0.6 Vz² (N/m²) where Vz = design wind speed at height z
+
+FACTORS:
+   - Terrain category (1-4): Open/rough terrain
+   - Height factor k2
+   - Topography factor k3
+   - Importance factor: 1.0-1.15
+   - Directionality: 0.85-1.0
+
+DESIGN PROVISIONS:
+   - Main Wind Force Resisting System (MWFRS)
+   - Components and Cladding (C&C)
+   - Enclosed buildings vs. Open structures
+   - Pressure and suction on surfaces
+
+2.4 SEISMIC LOADS (EQ)
+[Source: IS 1893:2016 Part 1, Pakistan Seismic Code 2007]
+
+PAKISTAN SEISMIC ZONES:
+   - Zone II (Low): Karachi, South Sindh (Z = 0.10)
+   - Zone III (Moderate): Central Punjab, North Sindh (Z = 0.16)
+   - Zone IV (High): Northern Punjab, KPK (Z = 0.24)
+   - Zone V (Very High): Kashmir, Northern Areas (Z = 0.36)
+
+SEISMIC ZONE FACTOR (Z):
+   Represents Peak Ground Acceleration (PGA) as fraction of g
+
+IMPORTANCE FACTOR (I):
+   - Ordinary buildings: 1.0
+   - Important buildings (hospitals, fire stations): 1.5
+   - Critical facilities: 1.75
+
+RESPONSE REDUCTION FACTOR (R):
+   - Ordinary RC moment frame: 3.0
+   - Special RC moment frame (ductile): 5.0
+   - RC shear walls: 4.0
+   - Dual system (frame + shear wall): 5.0
+   - Steel moment frame: 5.0
+   - Confined masonry: 2.5
+   - Unreinforced masonry: PROHIBITED in Zones IV-V
+
+BASE SHEAR CALCULATION:
+   Vb = (Z I Sa/g) / (R) × W
+
+Where:
+   Sa/g = Spectral acceleration (from response spectrum)
+   W = Seismic weight of building
+
+SEISMIC DESIGN REQUIREMENTS:
+   - Ductile detailing (IS 13920) mandatory in Zones III-V
+   - Soft story prohibited
+   - Strong column - weak beam design
+   - Confining reinforcement in columns/beams
+   - Special boundary elements in shear walls
+
+2005 KASHMIR EARTHQUAKE LESSONS:
+   - Magnitude 7.6, 73,000 deaths
+   - Unreinforced masonry (URM) collapsed extensively
+   - Confined masonry performed well
+   - Non-engineered construction major vulnerability
+
+2.5 SNOW LOADS (SL)
+[Source: ASCE 7 Chapter 7 - Pakistan mountain areas]
+
+APPLICABILITY: Gilgit-Baltistan, Kashmir, high-altitude areas
+
+GROUND SNOW LOAD:
+   - Murree: 1.5 kN/m²
+   - Gilgit: 2.0 kN/m²
+   - Skardu: 2.5 kN/m²
+   - Higher elevations: Site-specific study
+
+ROOF SNOW LOAD:
+   pf = 0.7 Ce Ct I pg
+
+Where:
+   Ce = Exposure factor (0.8-1.2)
+   Ct = Thermal factor (1.0-1.2)
+   I = Importance factor (0.8-1.2)
+   pg = Ground snow load
+
+DRIFT LOADS: Consider for multi-level roofs
+
+2.6 RAIN/PONDING LOADS
+   - 75mm depth minimum (flat roofs)
+   - Check for ponding instability
+   - Adequate drainage (roof drains + scuppers)
+
+2.7 LOAD COMBINATIONS
+[Source: IS 875 Part 5, ASCE 7 Chapter 2]
+
+ULTIMATE LIMIT STATE (STRENGTH):
+   1. 1.5 DL
+   2. 1.2 DL + 1.6 LL
+   3. 1.2 DL + 1.6 WL + 0.5 LL
+   4. 1.2 DL + 1.0 EQ ± 0.3 LL
+   5. 0.9 DL ± 1.6 WL (uplift/overturning)
+
+SERVICEABILITY LIMIT STATE:
+   1. DL + LL
+   2. DL + 0.8 LL
+   3. DL + 0.8 WL
+
+================================================================================
+SECTION 3: REINFORCED CONCRETE DESIGN
+================================================================================
+
+3.1 MATERIALS
+[Source: IS 456:2000, IRC 112:2020]
+
+CONCRETE GRADES:
+   - Ordinary structures: M20, M25
+   - Multi-story buildings: M25, M30
+   - High-rise buildings: M30, M35, M40
+   - Prestressed concrete: M35 minimum
+
+   Notation: M20 = 20 MPa characteristic cube strength at 28 days
+
+REINFORCEMENT:
+   - Fe 415: 415 MPa yield strength (most common)
+   - Fe 500: 500 MPa (high-strength)
+   - Fe 550: 550 MPa (special applications)
+
+COVER TO REINFORCEMENT (Pakistan climate):
+   - Footings: 50mm (in contact with soil), 40mm (above ground)
+   - Columns: 40mm (interior), 50mm (exterior)
+   - Beams: 25mm (interior), 30mm (exterior) + bar diameter
+   - Slabs: 20mm (interior), 30mm (exterior)
+   - Coastal areas (Karachi): +10mm (corrosion protection)
+
+3.2 FLEXURAL DESIGN (BEAMS AND SLABS)
+
+ASSUMPTIONS:
+   - Plane sections remain plane (linear strain)
+   - Perfect bond between concrete and steel
+   - Concrete tension neglected
+   - Stress-strain curves per IS 456 Cl. 38
+
+DESIGN STEPS:
+   1. Determine factored moment: Mu
+   2. Calculate effective depth: d
+   3. Check for singly or doubly reinforced
+   4. Calculate steel area: Ast
+   5. Check for minimum and maximum steel
+   6. Check deflection limits
+
+REINFORCEMENT LIMITS:
+   - Minimum steel: 0.85/fy × bd (beams), 0.12% (slabs)
+   - Maximum steel: 0.04 bD (4%)
+   - Redistribution: ±15% (ductile sections), ±10% (limited ductility)
+
+DEFLECTION LIMITS:
+   - Span/depth ratios (IS 456 Fig. 4)
+   - Simply supported: span/250
+   - Cantilever: span/125
+   - Final deflection: span/250 (appearance)
+
+3.3 SHEAR DESIGN
+
+NOMINAL SHEAR STRESS:
+   τv = Vu / (bd)
+
+SHEAR STRENGTH OF CONCRETE (τc):
+   - Depends on grade of concrete and % steel
+   - IS 456 Table 19
+
+SHEAR REINFORCEMENT:
+   - When τv < τc/2: No shear reinforcement
+   - When τc/2 < τv < τc: Minimum stirrups
+   - When τv > τc: Design stirrups
+
+MINIMUM STIRRUPS:
+   - Asv/sv ≥ 0.4/0.87fy
+
+3.4 COLUMN DESIGN
+
+TYPES:
+   - Short columns: Axial load dominant
+   - Slender columns: Bending + axial (consider slenderness)
+
+EFFECTIVE LENGTH:
+   - Based on end conditions (IS 456 Cl. 25.2)
+   - Braced frame: 0.65L to 1.0L
+   - Unbraced frame: 1.2L to 2.0L
+
+REINFORCEMENT:
+   - Minimum: 0.8% (gross area)
+   - Maximum: 4% (6% at laps)
+   - Minimum 4 bars (rectangular), 6 bars (circular)
+   - Bar diameter: 12mm minimum
+
+TIES/STIRRUPS:
+   - Diameter: 6mm minimum (≤12mm main bars), 8mm (>12mm)
+   - Spacing: Least of 16φ, 300mm, least lateral dimension
+   - Lap splices: Not at same location
+
+SEISMIC DETAILING (IS 13920):
+   - Closely spaced ties at top and bottom
+   - Spacing: 100mm at ends (2d length)
+   - 135° hooks
+
+3.5 SHEAR WALLS
+
+TYPES:
+   - Cantilever walls
+   - Coupled shear walls
+   - Core walls
+
+REINFORCEMENT:
+   - Vertical: 0.0025 of gross area
+   - Horizontal: 0.0025 of gross area
+   - Maximum spacing: 300mm or 3× wall thickness
+
+BOUNDARY ELEMENTS:
+   - Required at edges of walls
+   - When extreme fiber compression >0.2fc'
+   - Confining reinforcement per IS 13920
+
+================================================================================
+SECTION 4: STRUCTURAL STEEL DESIGN
+================================================================================
+
+4.1 MATERIALS AND SECTIONS
+[Source: IS 800:2007]
+
+STEEL GRADES:
+   - Fe 250: 250 MPa yield (mild steel, less common)
+   - Fe 410: 410 MPa yield (common structural steel)
+   - Fe 540: 540 MPa yield (high-strength)
+
+SECTIONS:
+   - I-beams: ISMB, ISJB, ISLB (Indian Standards)
+   - Channels: ISMC, ISJC
+   - Angles: ISA (equal/unequal leg)
+   - Hollow sections: CHS (circular), RHS (rectangular), SHS (square)
+   - Built-up sections: Plate girders, box columns
+
+4.2 TENSION MEMBERS
+
+DESIGN STRENGTH:
+   Td = Ag × fy / γm0  (gross section yielding)
+   Td = 0.9 An × fu / γm1  (net section rupture)
+
+Where:
+   γm0 = 1.10, γm1 = 1.25 (partial safety factors)
+   An = Net area (accounting for bolt holes)
+
+SLENDERNESS LIMIT: l/r < 400 (preferably < 300)
+
+4.3 COMPRESSION MEMBERS (COLUMNS)
+
+DESIGN COMPRESSIVE STRENGTH:
+   Pd = Ae × fcd
+
+Where:
+   fcd = (χ × fy) / γm0
+   χ = Stress reduction factor (buckling curves)
+   Ae = Effective sectional area
+
+SLENDERNESS RATIO:
+   λ = KL/r (where K = effective length factor)
+
+EFFECTIVE LENGTH:
+   - Pinned-pinned: 1.0 L
+   - Fixed-fixed: 0.5 L
+   - Fixed-pinned: 0.7 L
+   - Fixed-free: 2.0 L
+
+4.4 FLEXURAL MEMBERS (BEAMS)
+
+PLASTIC MOMENT CAPACITY:
+   Md = βb Zp × fy / γm0
+
+Where:
+   βb = 1.0 (plastic/compact sections)
+   Zp = Plastic section modulus
+
+SHEAR CAPACITY:
+   Vd = Vn / γm0
+   Vn = Av × fy / √3
+
+LATERAL-TORSIONAL BUCKLING:
+   - Unbraced length limits
+   - Bracing requirements
+   - Reduced moment capacity for long spans
+
+4.5 CONNECTIONS
+
+BOLTED CONNECTIONS:
+   - Bolt grades: 4.6, 8.8, 10.9
+   - Bearing type vs. Friction type (HSFG)
+   - Minimum edge distance: 1.5d
+   - Minimum pitch: 2.5d
+
+WELDED CONNECTIONS:
+   - Fillet welds (most common)
+   - Butt welds (full penetration)
+   - Weld throat thickness design
+   - Welding electrodes: E41, E51
+
+4.6 SEISMIC DETAILING
+   - Special moment frames (ductile connections)
+   - Reduced beam sections (dog-bone)
+   - Column panel zone checks
+   - Strong column - weak beam
+
+================================================================================
+SECTION 5: MASONRY STRUCTURES
+================================================================================
+
+5.1 TYPES OF MASONRY
+[Pakistan Context]
+
+UNREINFORCED MASONRY (URM):
+   - Clay brick walls (most common)
+   - Cement mortar
+   - Load-bearing walls
+   - PROHIBITED in Seismic Zones IV-V for >2 stories
+
+CONFINED MASONRY:
+   - Masonry constructed first
+   - RC confining elements (columns/beams) cast after
+   - Mandatory in Seismic Zones IV-V
+   - Excellent seismic performance (2005 earthquake)
+
+REINFORCED MASONRY:
+   - Vertical/horizontal reinforcement in grouted cells
+   - Hollow concrete blocks
+   - Less common in Pakistan
+
+5.2 MATERIALS
+
+BRICKS:
+   - Class A (>10 MPa): Structural
+   - Class B (7-10 MPa): General construction
+   - Dimensions: 230×115×75mm (typical)
+
+MORTAR:
+   - Cement:Sand ratios: 1:3, 1:4, 1:5, 1:6
+   - 1:4 most common for load-bearing walls
+
+COMPRESSIVE STRENGTH:
+   - Brick masonry (1:4 mortar): 3.5-7.5 MPa (IS 1905 Table 8)
+
+5.3 DESIGN OF LOAD-BEARING WALLS
+
+EFFECTIVE HEIGHT:
+   - hef = β × h (clear height)
+   - β depends on support conditions (0.75-2.0)
+
+EFFECTIVE THICKNESS:
+   - tef = thickness (solid wall)
+   - tef = 2/3 × thickness (cavity wall)
+
+SLENDERNESS RATIO:
+   - SR = hef / tef
+   - Maximum: 27 (unreinforced), 30 (reinforced)
+
+STRESS REDUCTION FACTOR:
+   - Based on slenderness ratio
+   - IS 1905 Table 5
+
+COMPRESSIVE STRENGTH:
+   P = σ × A × SR factor
+
+5.4 SEISMIC PROVISIONS (CONFINED MASONRY)
+
+RC CONFINING ELEMENTS:
+   - Columns: 230×230mm minimum
+   - Beams (tie-beams): At all floor levels
+   - Reinforcement: 4-12mm bars + 6mm stirrups @ 150mm
+   - Seismic band at lintel level: 150mm depth
+
+WALL DIMENSIONS:
+   - Minimum thickness: 230mm
+   - Maximum unsupported length: 5m (between columns)
+   - Maximum unsupported height: 3.5m (between beams)
+
+OPENINGS:
+   - Lintel beams over all openings
+   - Vertical bars at jambs
+
+================================================================================
+SECTION 6: FOUNDATIONS
+================================================================================
+
+6.1 GEOTECHNICAL INVESTIGATION
+[Source: IS 1892, IS 6403]
+
+SOIL EXPLORATION:
+   - Minimum 1 borehole per 300 sq m (or per foundation)
+   - Depth: 1.5× foundation width or to rock/hard stratum
+   - SPT testing every 1.5m
+   - Laboratory tests: Atterberg limits, grain size, shear parameters
+
+ALLOWABLE BEARING CAPACITY:
+   - From SPT: qa (kN/m²) ≈ 10× N (for sandy soils)
+   - From plate load test
+   - From soil parameters (Terzaghi equations)
+   - Typical Pakistan soils: 100-250 kN/m² (clayey), 150-300 kN/m² (sandy)
+
+6.2 SHALLOW FOUNDATIONS
+
+TYPES:
+   - Isolated footings (columns)
+   - Combined footings (2 columns)
+   - Strap footings
+   - Mat/raft foundations
+
+DEPTH OF FOUNDATION:
+   - Minimum: 1.0m below ground level
+   - Below seasonal moisture variation
+   - Below scour depth (near water bodies)
+
+DESIGN:
+   - Ultimate bearing capacity check
+   - Settlement check (≤75mm total, ≤50mm differential)
+   - Structural design (bending, shear, punching shear)
+
+6.3 DEEP FOUNDATIONS (PILES)
+
+TYPES:
+   - Bored cast-in-place piles (most common Pakistan)
+   - Driven precast concrete piles
+   - Steel H-piles
+
+CAPACITY:
+   - End-bearing piles (rock/dense strata)
+   - Friction piles (soft/medium soils)
+   - Static analysis (Meyerhof, Vesic methods)
+   - Dynamic analysis (driven piles)
+
+LOAD TESTING:
+   - Initial test: 1% of piles, minimum 2 (to 2× design load)
+   - Routine test: 2% of piles (to 1.5× design load)
+
+PILE CAP DESIGN:
+   - Transfer column loads to pile group
+   - Structural design for bending and shear
+
+================================================================================
+COMPILATION NOTES
+================================================================================
+
+Base: IS 456 (Concrete), IS 800 (Steel), IS 1893 (Seismic)
+Load Standards: IS 875, ASCE 7, IBC 2024
+Pakistan Context: 2005 Earthquake lessons, Climate, Seismic zones
+Version: 2.0
+Date: November 2025
