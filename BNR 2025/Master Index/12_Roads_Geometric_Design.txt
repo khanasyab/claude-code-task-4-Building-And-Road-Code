@@ -1,0 +1,847 @@
+================================================================================
+BNR 2025 - MASTER INDEX
+CHAPTER 12: ROADS GEOMETRIC DESIGN
+================================================================================
+
+BASE SOURCES:
+- India: IRC:73-2018 - Geometric Design Standards for Rural (Non-Urban) Highways
+- India: IRC:86-2018 - Geometric Design Standards for Urban Roads
+- India: IRC:SP:84-2019 - Manual of Specifications & Standards for Four/Six Laning of Highways
+- UK: DMRB CD 109 - Highway link design
+- UK: DMRB CD 127 - Cross-sections and headrooms
+- USA: AASHTO Green Book (Policy on Geometric Design of Highways and Streets) 7th Ed
+
+PAKISTAN CONTEXT:
+- National Highway Authority (NHA): 12,131 km network (2023)
+- CPEC routes: 1,100 km upgrades (Karachi-Peshawar, Gwadar-Khunjerab)
+- Provincial highways: 15,000 km+ (varying standards)
+- Terrain: Plains (Sindh, Punjab), mountainous (KPK, GB, AJK), desert (Balochistan)
+- Climate: Extreme temperatures (-20°C to +52°C), monsoon flooding
+- Traffic: Mixed (cars, trucks, buses, motorcycles, rickshaws, carts, animals)
+
+================================================================================
+SECTION 1: CLASSIFICATION OF ROADS
+================================================================================
+
+1.1 FUNCTIONAL CLASSIFICATION
+------------------------------
+NATIONAL HIGHWAYS (NH):
+- Function: Inter-provincial, international connectivity
+- Examples: N-5 (Grand Trunk Road), N-25 (RCD Highway), M-1/M-2 motorways
+- Design speed: 100-120 km/h (plains), 80-100 km/h (mountainous)
+- Right-of-way (ROW): 60-90 m
+
+PROVINCIAL HIGHWAYS (PH):
+- Function: Inter-district connectivity within province
+- Design speed: 80-100 km/h
+- ROW: 45-60 m
+
+DISTRICT ROADS (DR):
+- Function: Connect tehsil headquarters, link to provincial highways
+- Design speed: 60-80 km/h
+- ROW: 30-45 m
+
+URBAN ROADS:
+- Arterial roads: 60-80 km/h, ROW 45-60 m
+- Sub-arterial: 50-60 km/h, ROW 30-40 m
+- Collector streets: 40-50 km/h, ROW 20-30 m
+- Local streets: 30-40 km/h, ROW 12-20 m
+
+Base: IRC:73-2018 Section 3
+NHA Road Design Manual 2019 Section 2
+
+1.2 TERRAIN CLASSIFICATION
+---------------------------
+PLAIN TERRAIN:
+- Cross-slope ≤10%
+- Unrestricted alignment (long tangents, large radii)
+- Examples: Sindh province, Punjab plains
+
+ROLLING TERRAIN:
+- Cross-slope 10-25%
+- Moderate alignment restrictions
+- Examples: Potohar plateau, Southern Punjab
+
+MOUNTAINOUS TERRAIN:
+- Cross-slope 25-60%
+- Severe alignment restrictions (hairpin bends, tunnels)
+- Examples: Karakoram Highway (KKH), Murree-Kohala, Kaghan Valley
+
+STEEP TERRAIN:
+- Cross-slope >60%
+- Extreme restrictions, maximum grade sections common
+- Examples: Lowari Pass, Babusar Top, Fairy Meadows approach
+
+Base: IRC:73-2018 Section 2.3
+
+================================================================================
+SECTION 2: DESIGN CONTROLS AND CRITERIA
+================================================================================
+
+2.1 DESIGN SPEED
+----------------
+Definition: Maximum safe speed that can be maintained over a specified section
+when conditions are favorable (dry pavement, good visibility)
+
+Minimum design speeds:
+
+NATIONAL HIGHWAYS:
+- Plain terrain: 100 km/h (expressways 120 km/h)
+- Rolling terrain: 80 km/h
+- Mountainous terrain: 50 km/h (60 km/h desirable)
+- Steep terrain: 40 km/h
+
+PROVINCIAL HIGHWAYS:
+- Plain: 80 km/h
+- Rolling: 65 km/h
+- Mountainous: 40 km/h
+
+DISTRICT ROADS:
+- Plain: 65 km/h
+- Rolling: 50 km/h
+- Mountainous: 30 km/h
+
+URBAN ROADS:
+- Arterial: 60-80 km/h
+- Collector: 40-50 km/h
+- Local: 30 km/h
+
+Pakistan adjustments:
+- CPEC routes: 120 km/h (controlled-access highways)
+- Karakoram Highway: 40-60 km/h (high altitude, narrow sections)
+
+Base: IRC:73-2018 Table 3.1
+NHA Design Manual Table 3-1
+
+2.2 DESIGN VEHICLE
+------------------
+Controls: Lane width, turning radii, clearances
+
+PAKISTAN DESIGN VEHICLES:
+
+Passenger Car (PC):
+- Length: 5.8 m, Width: 2.1 m, Height: 1.3 m
+- Minimum turning radius: 7.3 m
+
+Single Unit Truck (SU):
+- Length: 9.1 m, Width: 2.6 m, Height: 4.1 m
+- Overhang: Front 1.2 m, Rear 1.8 m
+
+Intercity Bus (Bus-12):
+- Length: 12.0 m, Width: 2.6 m, Height: 3.8 m
+- Common: Daewoo, Faisal Movers coaches
+
+Semi-Trailer (WB-20):
+- Wheelbase: 20 m total articulated length
+- Length: 18.3 m, Width: 2.6 m, Height: 4.3 m
+- Common: Container trucks (Karachi port traffic)
+
+Multi-Axle Truck (WB-30):
+- Length: 22-25 m (longer combination vehicles)
+- CPEC freight: Chinese spec trucks
+
+Motorcycles/Rickshaws:
+- Width: 1.0-1.5 m (high volume Pakistan traffic)
+
+Base: IRC:73-2018 Section 2.1
+AASHTO Green Book Chapter 2
+
+2.3 TRAFFIC VOLUME
+------------------
+Expressed as: Annual Average Daily Traffic (AADT)
+Peak Hour Traffic: Design Hour Volume (DHV) = AADT × K-factor
+K-factor: 0.10-0.15 (rural), 0.08-0.10 (urban)
+
+Number of lanes:
+
+AADT (veh/day) | Lanes | Road type
+<3,000         | 2     | Single carriageway
+3,000-10,000   | 2-4   | Single carriageway (widen to 4)
+10,000-25,000  | 4     | Dual carriageway
+25,000-60,000  | 4-6   | Dual carriageway
+>60,000        | 6-8   | Expressway/motorway
+
+Pakistan examples:
+- M-2 Motorway: 85,000 AADT (6 lanes)
+- N-5 (Lahore-Islamabad): 45,000 AADT (4 lanes)
+- Karakoram Highway: 1,500-5,000 AADT (2 lanes)
+
+Base: IRC:106-1990 (Guidelines for Capacity of Roads in Rural Areas)
+
+================================================================================
+SECTION 3: SIGHT DISTANCE
+================================================================================
+
+3.1 STOPPING SIGHT DISTANCE (SSD)
+----------------------------------
+Definition: Distance required for driver to stop vehicle safely after perceiving obstacle
+
+SSD = Reaction distance + Braking distance
+
+Formula: SSD = 0.278 V × t + V² / (254 × (f ± g))
+Where:
+- V = Design speed (km/h)
+- t = Reaction time (2.5 seconds)
+- f = Longitudinal friction coefficient (0.35-0.40)
+- g = Grade (decimal, + upgrade, - downgrade)
+
+Minimum SSD (level road):
+
+Design Speed (km/h) | SSD (m)
+30                  | 30
+40                  | 45
+50                  | 65
+60                  | 90
+80                  | 140
+100                 | 180
+120                 | 220
+
+Grade adjustment:
+- Downgrades increase SSD (reduced braking)
+- 3% downgrade: Increase SSD by 10%
+- 6% downgrade: Increase SSD by 20%
+
+Base: IRC:73-2018 Table 4.1
+
+3.2 OVERTAKING SIGHT DISTANCE (OSD)
+------------------------------------
+Definition: Minimum distance to safely overtake slow vehicle on two-lane road
+
+OSD = d₁ + d₂ + d₃
+Where:
+- d₁ = Distance during perception/reaction + initial acceleration
+- d₂ = Distance while overtaking vehicle in opposing lane
+- d₃ = Safety distance to oncoming vehicle
+
+Minimum OSD:
+
+Design Speed (km/h) | OSD (m)
+40                  | 165
+50                  | 245
+60                  | 340
+65                  | 395
+80                  | 470
+100                 | 640
+
+Desirable frequency: OSD provided for 15-20% of highway length
+Minimum frequency: 15% on two-lane highways
+
+Base: IRC:73-2018 Table 4.2
+
+3.3 SIGHT DISTANCE AT INTERSECTIONS
+------------------------------------
+Approach sight triangle:
+- Driver 3 m from edge of intersecting road
+- Object height: 1.05 m (passenger car)
+- Approach sight distance based on design speed of major road
+
+Minimum approach distances:
+
+Major road speed (km/h) | Sight distance (m)
+40                      | 45
+50                      | 65
+60                      | 90
+80                      | 140
+
+Base: IRC:73-2018 Section 4.4
+
+================================================================================
+SECTION 4: HORIZONTAL ALIGNMENT
+================================================================================
+
+4.1 MINIMUM RADIUS OF CURVATURE
+--------------------------------
+Centrifugal force counteracted by:
+- Superelevation (banking)
+- Side friction
+
+Formula: R = V² / 127 (e + f)
+Where:
+- R = Radius (m)
+- V = Design speed (km/h)
+- e = Superelevation rate (decimal, max 0.07 plain, 0.10 mountain)
+- f = Side friction factor (0.15-0.35)
+
+Minimum radius (e = 0.07, f max):
+
+Design Speed (km/h) | f    | R minimum (m) | R ruling (m)
+40                  | 0.15 | 60            | 90
+50                  | 0.17 | 90            | 125
+60                  | 0.17 | 130           | 180
+80                  | 0.15 | 210           | 360
+100                 | 0.13 | 360           | 560
+120                 | 0.11 | 540           | 720
+
+Ruling radius: Desirable for majority of curves
+Minimum radius: Absolute minimum (use sparingly)
+
+Pakistan mountainous:
+- Superelevation e = 0.10 allowed (hairpin curves)
+- Minimum radius 15-20 m (KKH, Kaghan road)
+
+Base: IRC:73-2018 Table 7.1
+
+4.2 SUPERELEVATION
+------------------
+Maximum rates:
+- Plain/rolling terrain: 7%
+- Mountainous terrain: 10% (snow/ice: 7%)
+- Urban areas: 4%
+
+Attainment:
+- Rotate pavement about centerline (preferred) or inside edge
+- Transition length: 0.5-0.7 m per 1% superelevation per lane
+
+Drainage on curves:
+- Minimum 2% cross-slope (even on superelevation transition)
+
+Base: IRC:73-2018 Section 7.2
+
+4.3 TRANSITION CURVES
+---------------------
+Purpose: Gradual change from tangent to circular curve
+
+Spiral (clothoid) curve:
+- Radius decreases uniformly along length
+- Length based on superelevation attainment + driver comfort
+
+Minimum length:
+
+Design Speed (km/h) | Transition length (m)
+50                  | 40
+60                  | 55
+80                  | 80
+100                 | 110
+120                 | 143
+
+Base: IRC:73-2018 Section 7.3
+
+4.4 HORIZONTAL CLEARANCE (WIDENING ON CURVES)
+----------------------------------------------
+Extra width needed for:
+- Off-tracking (rear wheels track inside front wheels)
+- Driver difficulty steering on curve
+
+Widening (We):
+We = (n × L²) / (2R) + V / (9.5√R)
+
+Where:
+- n = Number of lanes
+- L = Wheelbase of design vehicle (6 m truck)
+- R = Radius of curve (m)
+- V = Design speed (km/h)
+
+Pakistan practice:
+- Mountainous roads: Extra 0.5-1.0 m widening on sharp curves
+
+Base: IRC:73-2018 Section 7.5
+
+================================================================================
+SECTION 5: VERTICAL ALIGNMENT
+================================================================================
+
+5.1 GRADIENTS
+-------------
+Maximum grades:
+
+NATIONAL HIGHWAYS:
+Terrain          | Ruling (%) | Limiting (%) | Absolute max (%)
+Plain            | 3.3        | 5.0          | 6.0
+Rolling          | 5.0        | 6.0          | 7.0
+Mountainous      | 6.0        | 7.0          | 8.0
+Steep            | 7.0        | 8.0          | 9.0
+
+DISTRICT/URBAN ROADS:
+- Increase by 1% above NH values
+
+Minimum grade:
+- 0.3% (drainage, longitudinal slope)
+- Exception: Straight sections with adequate cross drainage
+
+Grade length limits:
+- Steep grades (>6%): Maximum 300 m continuous
+- Provide grade breaks, escape ramps (runaway truck ramps)
+
+Pakistan examples:
+- Karakoram Highway: 8-10% grades (Raikot Bridge to Jaglot)
+- Lowari Tunnel approach: 7% grade
+- Bolan Pass: 6-8% grades
+
+Base: IRC:73-2018 Table 5.1
+NHA Design Manual Table 5-1
+
+5.2 VERTICAL CURVES
+-------------------
+Purpose: Smooth transition between grades
+
+Types:
+- Summit (crest) curve: Convex, limits sight distance
+- Valley (sag) curve: Concave, driver comfort, drainage
+
+CREST CURVE - Stopping Sight Distance:
+Formula: L = (N × S²) / (100 × (√h₁ + √h₂)²)
+Where:
+- L = Length of curve (m)
+- S = SSD (m)
+- h₁ = Driver eye height (1.05 m)
+- h₂ = Object height (0.15 m)
+- N = Algebraic difference in grades (%)
+
+Minimum crest K-values (L = K × N):
+
+Design Speed (km/h) | K (SSD)
+40                  | 6
+50                  | 10
+60                  | 17
+80                  | 35
+100                 | 52
+120                 | 80
+
+SAG CURVE - Headlight Sight Distance:
+Based on: Headlight beam (1° upward divergence, 75 m range)
+
+Minimum sag K-values:
+
+Design Speed (km/h) | K
+40                  | 5
+50                  | 9
+60                  | 14
+80                  | 26
+100                 | 40
+120                 | 60
+
+Base: IRC:73-2018 Tables 5.2, 5.3
+
+5.3 DRAINAGE ON GRADES
+----------------------
+Longitudinal slope:
+- Minimum 0.3% (sheet flow drainage)
+- Superelevated sections: Min 0.5% (outside edge)
+
+Grade breaks:
+- Provide drainage inlets at low points
+- Avoid long flat sections (ponding)
+
+Base: IRC:73-2018 Section 5.5
+
+================================================================================
+SECTION 6: CROSS-SECTIONAL ELEMENTS
+================================================================================
+
+6.1 LANE WIDTH
+--------------
+Desirable lane widths:
+
+Road Type               | Lane Width (m)
+National Highways       | 3.5 (3.75 CPEC)
+Provincial Highways     | 3.5
+District Roads          | 3.25-3.5
+Urban Arterial          | 3.5
+Urban Collector         | 3.0-3.25
+Urban Local             | 2.75-3.0
+
+Minimum lane width: 2.75 m (low-volume rural roads)
+
+Pakistan urban:
+- Lahore, Karachi: 3.0-3.5 m lanes (major roads)
+- Old city areas: 2.5-3.0 m (constrained ROW)
+
+Base: IRC:73-2018 Table 6.1
+IRC:86-2018 Table 4.1 (urban)
+
+6.2 ROAD SHOULDERS
+------------------
+Purpose: Emergency stopping, maintenance access, structural support
+
+Paved shoulder widths:
+
+Road Type               | Shoulder width (m)
+National Highways       | 2.5 (1.5 paved)
+Provincial Highways     | 2.0 (1.0 paved)
+District Roads          | 1.5 (0.5 paved)
+
+Shoulder cross-slope:
+- Paved: 3-4% (steeper than carriageway for drainage)
+- Unpaved: 4-5%
+
+Edge line marking:
+- Continuous white line, 100-150 mm width
+- Delineates paved shoulder
+
+Pakistan practice:
+- Paved shoulders often encroached (parking, vendors, rickshaws)
+- Enforcement challenge
+
+Base: IRC:73-2018 Section 6.3
+
+6.3 ROADWAY WIDTH (TOTAL PAVEMENT)
+-----------------------------------
+Roadway width = (Number of lanes × Lane width) + Shoulders
+
+Examples:
+
+2-Lane NH (plain terrain):
+- 2 × 3.5 m lanes + 2 × 2.5 m shoulders = 12 m paved width
+
+4-Lane Divided NH:
+- Each carriageway: 2 × 3.5 m + 2 × 2.5 m = 12 m × 2 = 24 m total
+
+6-Lane Expressway (CPEC):
+- Each carriageway: 3 × 3.75 m + 2 × 3.0 m = 17.25 m × 2 = 34.5 m total
+
+Base: IRC:73-2018 Section 6.2
+
+6.4 MEDIANS
+-----------
+Purpose: Separate opposing traffic, recovery area, aesthetics
+
+Width:
+- Desirable: 10-20 m (high-speed highways)
+- Minimum: 3 m (raised, urban)
+- Narrow medians (<6 m): Rigid barrier required
+
+Median cross-slope:
+- Depressed median: 4-6% (toward center drain)
+- Raised median: 2% (away from traffic)
+
+Median openings:
+- Spacing: 1.5-3 km (rural), 400-800 m (urban)
+- U-turn facilities at openings
+
+Pakistan examples:
+- M-2 Motorway: 15 m depressed median
+- Lahore Ring Road: 6-10 m median
+- Islamabad Expressway: 20 m landscaped median
+
+Base: IRC:73-2018 Section 6.4
+IRC:86-2018 Section 4.4
+
+6.5 ROADSIDE SLOPES (EMBANKMENTS AND CUTS)
+-------------------------------------------
+EMBANKMENT SLOPES:
+Height (m) | Fill slope (H:V)
+0-3        | 1.5:1
+3-6        | 2:1
+>6         | 2:1 or flatter (benching)
+
+CUT SLOPES:
+Soil type           | Cut slope (H:V)
+Rock (hard)         | 0.25:1 to 0.5:1
+Rock (weathered)    | 1:1
+Cohesive soil       | 1:1 to 1.5:1
+Granular soil       | 2:1
+
+Pakistan considerations:
+- Seismic areas (Northern): Flatter slopes (2:1 minimum)
+- Loess soils (Potohar): Erosion-prone, 2:1 or flatter
+- Rainfall intensity (monsoon): Erosion protection critical
+
+Base: IRC:73-2018 Section 6.6
+
+6.6 GUARDRAILS AND BARRIERS
+----------------------------
+Required where:
+- Embankment height >3 m
+- Drop-off >1 m within 3 m of pavement edge
+- Sharp curves with inadequate sight distance
+- Bridge approaches
+
+Types:
+- W-beam steel guardrail: Most common Pakistan
+- Concrete barrier (F-shape, New Jersey): High-speed, narrow median
+- Cable barrier: Median (flexible, low maintenance)
+
+Offset from edge:
+- Desirable: 2-6 m (behind shoulder)
+- Minimum: 0.5 m
+
+Crash cushions:
+- Required at rigid obstacle near roadway (bridge pier, toll plaza)
+
+Base: IRC:SP:87-2019 (Manual of Specifications and Standards for Safety Barriers)
+
+6.7 RIGHT-OF-WAY (ROW)
+----------------------
+Total land corridor width (fence-to-fence)
+
+National Highways:
+- 4-lane: 60 m
+- 6-lane: 90 m
+- Mountainous: 30-45 m (constrained)
+
+Provincial Highways: 45 m
+District Roads: 30 m
+
+Urban ROW:
+- Arterial: 45-60 m
+- Collector: 20-30 m
+- Local: 12-20 m
+
+ROW acquisition:
+- Land Acquisition Act 1894 (amended 2023)
+- Compensation at market rates
+- CPEC projects: Expedited acquisition (national importance)
+
+Base: NHA Design Manual Section 6.8
+
+================================================================================
+SECTION 7: INTERSECTION DESIGN
+================================================================================
+
+7.1 TYPES OF INTERSECTIONS
+---------------------------
+At-grade:
+- T-junction (3-leg)
+- Cross intersection (4-leg)
+- Roundabout (modern, multi-lane)
+- Channelized intersection (turning lanes, islands)
+
+Grade-separated:
+- Interchange (overpass/underpass with ramps)
+- Flyover (straight grade separation, no ramps)
+
+Selection criteria:
+- Traffic volume (AADT >10,000 on both roads: consider grade separation)
+- Speed (high-speed roads: interchanges preferred)
+- Safety (conflict points reduction)
+
+Base: IRC:86-2018 Chapter 8
+
+7.2 ROUNDABOUT DESIGN
+---------------------
+Types:
+- Mini roundabout: 13-25 m diameter (urban, low speed)
+- Single-lane: 25-40 m diameter
+- Multi-lane: 40-60 m diameter
+
+Design elements:
+- Central island: Non-mountable (diameter >4 m)
+- Circulatory roadway: Width 1.2 × approach lane width
+- Entry radius: 15-25 m (speed control)
+- Exit radius: 20-30 m (faster exit than entry)
+
+Capacity:
+- Single-lane: 3,000 PCU/hour
+- Two-lane: 6,000 PCU/hour
+
+Pakistan examples:
+- Islamabad: Multiple large roundabouts (Zero Point, Faizabad)
+- Lahore: Liberty Roundabout, Kalma Chowk (multi-lane, high traffic)
+
+Base: IRC:92-2018 (Guidelines for Design of At-Grade Intersections in Rural & Urban Areas)
+
+7.3 INTERCHANGE DESIGN
+----------------------
+Types:
+- Diamond: Simple, common for arterial/highway intersection
+- Partial cloverleaf (Parclo): A/B types, reduce ROW vs. full cloverleaf
+- Full cloverleaf: High capacity, large ROW
+- Trumpet: 3-leg interchange (T-junction)
+- Directional: High-speed, free-flow ramps (expensive)
+
+Ramp design speeds:
+- Freeway-to-freeway: 60-80 km/h
+- Arterial-to-freeway: 40-60 km/h
+
+Ramp spacing:
+- Desirable: 1.5-3 km
+- Minimum: 800 m (urban), 1.2 km (rural)
+
+Pakistan examples:
+- M-2 Motorway: Trumpet/diamond interchanges every 15-30 km
+- Lahore-Sialkot Motorway: Service interchanges (Gujranwala, Daska)
+
+Base: IRC:92-2018 Section 9
+
+================================================================================
+SECTION 8: SPECIAL DESIGN CONSIDERATIONS
+================================================================================
+
+8.1 MOUNTAINOUS TERRAIN DESIGN
+-------------------------------
+Challenges:
+- Limited ROW, steep slopes
+- Rockfall, landslides
+- Sharp curves, steep grades
+- Snow, ice (high altitude)
+
+Design solutions:
+- Hairpin bends (minimum radius 15-20 m, 10% superelevation)
+- Tunnels (Lowari: 10.4 km, longest road tunnel Pakistan)
+- Retaining walls, gabion walls
+- Avalanche galleries, rock sheds
+
+Karakoram Highway specifics:
+- Elevation: 0 m (Hasan Abdal) to 4,714 m (Khunjerab Pass)
+- 810 bridges, 1,800 culverts (1,300 km length)
+- Maintenance challenges: Landslides, glacial floods (GLOFs)
+
+Base: IRC:52-2019 (Recommendations for Estimating the Resistance of Soil Below the Maximum Scour Level in the Design of Well Foundations of Bridges)
+
+8.2 DESERT TERRAIN DESIGN (BALOCHISTAN)
+----------------------------------------
+Challenges:
+- Extreme temperatures (52°C summer)
+- Sand dune migration
+- Flash floods (wadis)
+- Limited water for construction
+
+Design solutions:
+- High-type pavement (flexible, withstand thermal stress)
+- Dune stabilization (vegetation, geotextiles)
+- Elevated causeways across wadis
+- Dust palliatives (calcium chloride, bitumen)
+
+Base: IRC:37-2018 (Guidelines for Design of Flexible Pavements) - Special provisions
+
+8.3 FLOOD-PRONE AREAS (INDUS PLAIN)
+------------------------------------
+Challenges:
+- Seasonal flooding (monsoon, glacial melt)
+- High water table
+- Soft subgrade (silts, clays)
+
+Design solutions:
+- High embankments (above 100-year flood level)
+- Adequate hydraulic structures (bridges, culverts)
+- Subsurface drainage (reduce pore pressure)
+- Soil stabilization (lime, cement)
+
+Pakistan flood history:
+- 2010 floods: 13,000 km roads damaged (Rs 150 billion loss)
+- 2022 floods: 13,115 km roads damaged (Sindh, Balochistan worst)
+
+Base: IRC:5-2015 (Standard Specifications and Code of Practice for Road Bridges)
+
+================================================================================
+SECTION 9: ACCESSIBILITY AND NON-MOTORIZED TRANSPORT
+================================================================================
+
+9.1 PEDESTRIAN FACILITIES
+--------------------------
+Footpaths (sidewalks):
+- Minimum width: 1.5 m (clear)
+- Desirable width: 2.0-3.0 m (high pedestrian volume)
+- Cross-slope: ≤2% (accessibility)
+- Separation from carriageway: Kerb (150 mm high)
+
+Pedestrian crossings:
+- Zebra crossings: Painted stripes, signage
+- Pelican crossings: Signal-controlled (pedestrian-actuated)
+- Grade-separated: Footbridge, underpass (major highways)
+
+Pakistan challenges:
+- Footpaths often non-existent or encroached
+- Major cities (Karachi, Lahore): Footbridges at key locations
+- Enforcement weak (pedestrians walk on roadway)
+
+Base: IRC:103-2012 (Guidelines for Pedestrian Facilities)
+
+9.2 BICYCLE FACILITIES
+----------------------
+Dedicated cycle tracks:
+- Width: 1.5 m (one-way), 2.5 m (two-way)
+- Separation from motor traffic: Physical barrier or 1.5 m buffer
+- Surface: Smooth, paved (asphalt or concrete)
+
+Shared facilities:
+- Shared footpath: Width ≥3.0 m (pedestrian + cyclist)
+- Shared roadway: Low-speed (<40 km/h), low volume (<3,000 AADT)
+
+Pakistan context:
+- Bicycles common in small towns, rural areas
+- Major cities: Limited cycling (safety concerns, traffic)
+- Lahore: Pilot cycle track projects (Canal Road, 2016)
+
+Base: IRC:11-2018 (Guidelines for Accommodation of Utility Services on Road Reserves)
+
+9.3 MOTORCYCLE LANES
+--------------------
+Pakistan-specific consideration:
+- Motorcycles: 50-70% of vehicle fleet (urban areas)
+- Safety: High fatality rates (no helmets, weaving, overloading)
+
+Dedicated motorcycle lanes:
+- Width: 2.0-2.5 m
+- Location: Left side (slow traffic)
+- Physical separation from cars/trucks (barrier or markings)
+
+Implementation:
+- Islamabad Expressway: Motorcycle lane pilot (2018)
+- Results: Mixed (encroachment by cars, rickshaws)
+
+Base: Pakistan Road Safety Vision 2030
+
+================================================================================
+SECTION 10: COORDINATION OF HORIZONTAL AND VERTICAL ALIGNMENT
+================================================================================
+
+10.1 GENERAL PRINCIPLES
+-----------------------
+Good design:
+- Vertical alignment follows terrain (minimize earthwork)
+- Horizontal alignment avoids obstacles (buildings, utilities)
+- Coordination creates aesthetically pleasing, safe roadway
+
+Avoid:
+- Sharp horizontal curve at crest of vertical curve (hidden curve)
+- Sharp curve immediately after long tangent (speed trap)
+- Vertical curve within horizontal curve (if possible)
+
+Desirable:
+- Vertical curve longer than horizontal curve (or vice versa)
+- Tangent grades on horizontal curves (easier for drivers)
+
+Base: IRC:73-2018 Section 9
+
+10.2 3D ALIGNMENT DESIGN
+------------------------
+Modern practice:
+- CAD software (AutoCAD Civil 3D, Bentley OpenRoads)
+- Digital Terrain Model (DTM) from LiDAR, photogrammetry
+- Optimization algorithms (minimum earthwork, best alignment)
+
+Pakistan practice:
+- NHA projects: 3D design standard (CPEC routes)
+- Provincial highways: Variable (some still 2D design)
+
+Base: NHA CAD Standards Manual 2020
+
+================================================================================
+REFERENCES
+================================================================================
+
+PRIMARY CODES:
+- IRC:73-2018: Geometric Design Standards for Rural (Non-Urban) Highways
+- IRC:86-2018: Geometric Design Standards for Urban Roads
+- IRC:92-2018: Guidelines for Design of At-Grade Intersections
+- IRC:SP:84-2019: Manual for Four/Six Laning of Highways
+
+UK STANDARDS:
+- DMRB CD 109: Highway link design
+- DMRB CD 127: Cross-sections and headrooms
+
+USA STANDARDS:
+- AASHTO Green Book: Policy on Geometric Design of Highways and Streets (7th Ed)
+
+PAKISTAN REGULATIONS:
+- NHA Road Design Manual 2019
+- NHA CAD Standards Manual 2020
+- Land Acquisition Act 1894 (amended 2023)
+
+SPECIALIZED STANDARDS:
+- IRC:5-2015: Code of Practice for Road Bridges
+- IRC:37-2018: Guidelines for Design of Flexible Pavements
+- IRC:52-2019: Bridge Foundation Design
+- IRC:103-2012: Guidelines for Pedestrian Facilities
+- IRC:SP:87-2019: Manual for Safety Barriers
+
+ORGANIZATIONS:
+- National Highway Authority (NHA): www.nha.gov.pk
+- Frontier Works Organization (FWO): KKH maintenance
+- National Highways & Motorway Police (NHMP)
+- Pakistan Road Safety Vision 2030: Ministry of Communications
+
+================================================================================
+END OF CHAPTER 12
+================================================================================
