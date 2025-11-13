@@ -1,0 +1,792 @@
+================================================================================
+CHAPTER 09: BUILDING SERVICES (MEP)
+BNR 2025 Master Index
+Base: USA IMC/IPC/NEC 2024 + India NBC Part 8 + Pakistan Engineering Standards
+================================================================================
+
+SOURCE HIERARCHY:
+PRIMARY BASE: USA IMC 2024 (Mechanical), IPC 2024 (Plumbing), NEC 2020/IEC (Electrical)
+STANDARDS: ASHRAE 62.1 (Ventilation), ASHRAE 90.1 (Energy), India NBC 2016 Part 8
+PAKISTAN CONTEXT: WAPDA/K-Electric, PHED/WASA, PEC Standards
+
+================================================================================
+SECTION 1: MECHANICAL SYSTEMS (HVAC)
+================================================================================
+
+1.1 SCOPE AND CODES
+
+SCOPE:
+- Heating, ventilation, and air conditioning
+- Ventilation for indoor air quality
+- Thermal comfort
+- Energy efficiency
+
+CODES:
+- IMC 2024 (International Mechanical Code)
+- ASHRAE 62.1 (Ventilation for Acceptable Indoor Air Quality)
+- ASHRAE 55 (Thermal Environmental Conditions for Human Occupancy)
+
+1.2 VENTILATION REQUIREMENTS (IMC 2024 Chapter 4, ASHRAE 62.1)
+
+NATURAL VENTILATION:
+- Openable area: Minimum 5% of floor area
+- Operable windows/doors to outdoors
+- Adequate for low-occupancy residential, small offices
+
+MECHANICAL VENTILATION REQUIRED:
+- When natural ventilation inadequate
+- Densely occupied spaces
+- Spaces without operable windows
+- Air-conditioned buildings
+
+OUTDOOR AIR RATES (ASHRAE 62.1):
+- Offices: 10 liters/second per person
+- Classrooms: 8 liters/second per person
+- Retail: 7.5 liters/second per person
+- Auditoriums/assembly: 5 liters/second per person
+- Gymnasiums: 10 liters/second per person
+- Parking garages: 7.5 liters/second per sq m
+
+AIR CHANGE RATES (Alternative Method):
+- Offices: 6-8 air changes per hour (ACH)
+- Classrooms: 6-8 ACH
+- Auditoriums: 10-15 ACH
+- Kitchens (commercial): 20-30 ACH
+- Toilets: 10-15 ACH
+- Parking garages: 6 ACH minimum (or CO monitoring)
+
+1.3 HVAC SYSTEM TYPES
+
+SPLIT AIR CONDITIONING:
+- Most common in Pakistan (residential, small commercial)
+- Indoor unit (evaporator) + outdoor unit (condenser/compressor)
+- Cooling only or heat pump (heating + cooling)
+- Capacity: 1-5 tons (3.5-17.5 kW)
+- Refrigerant: R-410A, R-32 (replacing R-22 ozone-depleting)
+
+VARIABLE REFRIGERANT FLOW (VRF):
+- One outdoor unit, multiple indoor units (up to 64)
+- Individual zone control
+- Simultaneous heating and cooling (heat recovery)
+- High efficiency (part-load operation)
+- Medium to large commercial buildings
+- Higher initial cost, lower operating cost
+
+CENTRAL CHILLED WATER SYSTEM:
+- Chiller plant (produces chilled water 5-7°C)
+- Distribution (pumps, pipes)
+- Air handling units (AHUs) or fan coil units (FCUs)
+- Suitable: Large buildings, high-rise, campuses
+- Chiller types: Centrifugal, screw, absorption
+
+PACKAGED AIR CONDITIONING:
+- Self-contained unit (all components in one or two packages)
+- Rooftop units common (USA), less in Pakistan
+- Simple installation
+- Commercial buildings
+
+DIRECT EXPANSION (DX) UNITS:
+- Package AC, split AC (refrigerant directly cools air)
+- Simpler than chilled water
+- Shorter piping runs
+
+1.4 HVAC DESIGN PARAMETERS (ASHRAE 55, Pakistan Context)
+
+INDOOR DESIGN CONDITIONS:
+- Summer cooling: 24°C ± 2°C, 50% ± 10% relative humidity
+- Winter heating: 20-22°C (where heating required - Northern Pakistan)
+- Air velocity: <0.25 m/s (comfort)
+
+OUTDOOR DESIGN CONDITIONS (Pakistan Major Cities):
+- Karachi: 38°C dry bulb (summer), 26°C wet bulb
+- Lahore: 45°C dry bulb, 28°C wet bulb
+- Islamabad: 42°C dry bulb, 26°C wet bulb
+- Multan: 48°C dry bulb (extreme heat), 30°C wet bulb
+- Gilgit: -10°C (winter heating design)
+
+HEAT GAIN CALCULATION:
+- Solar radiation through windows (major load)
+- Conduction through walls/roof
+- Infiltration/ventilation
+- Occupants (75-100W per person sensible, 50W latent)
+- Lighting (10-20 W/sq m offices)
+- Equipment (computers, machinery)
+
+COOLING LOAD ESTIMATE (Simplified):
+- Offices: 150-200 W/sq m (Pakistan hot climate)
+- Retail: 200-250 W/sq m
+- Restaurants: 250-350 W/sq m
+- Residential: 100-150 W/sq m
+
+1.5 DUCTWORK (IMC 2024 Chapter 6)
+
+DUCT MATERIALS:
+- Galvanized steel (most common)
+- Aluminum (corrosive environments, coastal)
+- Fiberglass duct board (insulated, sound attenuation)
+- Flexible duct (short connections)
+
+DUCT SIZING:
+- Velocity method: 5-8 m/s (supply), 4-6 m/s (return)
+- Friction rate: 1 Pa/m (low velocity systems)
+- Equal friction method: Maintain constant friction rate
+
+INSULATION:
+- External insulation: 25-50mm fiberglass (prevents condensation, heat gain)
+- Internal lining: Acoustic treatment (if required)
+
+FIRE DAMPERS:
+- In ducts penetrating fire-rated walls/floors
+- Fusible link (73°C) closes damper
+- Prevents fire spread through ductwork
+
+1.6 EQUIPMENT EFFICIENCY STANDARDS
+
+AIR CONDITIONERS (Pakistan Energy Efficiency Standards):
+- Split AC: Minimum EER 10.0 (3.5 Star rating)
+  - EER = Cooling capacity (BTU/h) / Power input (Watts)
+  - Higher EER = more efficient
+- Inverter AC: 15-20% more efficient (variable speed compressor)
+- 5 Star: EER >11.5 (highly efficient)
+
+CHILLERS:
+- Centrifugal: COP 5.5-6.5 (water-cooled)
+- Screw: COP 4.5-5.5
+- Absorption (gas-fired): COP 1.2-1.5 (useful where waste heat available)
+  - COP = Cooling output / Energy input
+
+FANS:
+- High-efficiency motors (IE3 class minimum)
+- Variable frequency drives (VFDs) for part-load efficiency
+
+1.7 REFRIGERATION SAFETY (IMC 2024 Chapter 11)
+
+REFRIGERANT TYPES:
+- Group A1 (Low toxicity, non-flammable): R-410A, R-134a, R-32
+- Group A2L (Low toxicity, mildly flammable): R-32, R-454B (new low-GWP)
+- Group A3 (Low toxicity, flammable): R-290 (propane), R-600a (isobutane)
+
+REFRIGERANT LIMITS (Occupied Spaces):
+- Based on toxicity and room volume
+- Mechanical ventilation required (if limits exceeded)
+- Leak detection (flammable refrigerants)
+
+PHASEOUT:
+- R-22 (HCFC) phased out (ozone depletion)
+- R-410A being phased down (high GWP - global warming potential)
+- Transition to low-GWP refrigerants (R-32, R-454B, R-290)
+
+================================================================================
+SECTION 2: PLUMBING SYSTEMS
+================================================================================
+
+2.1 SCOPE AND CODES
+
+SCOPE:
+- Water supply (hot and cold)
+- Sanitary drainage and venting
+- Storm drainage
+- Plumbing fixtures
+
+CODES:
+- IPC 2024 (International Plumbing Code)
+- ASME A112 (Plumbing Fixture Standards)
+- Pakistan Plumbing Regulations (provincial)
+
+2.2 WATER SUPPLY SYSTEM
+
+SOURCES:
+- Municipal water supply (WASA, PHED, etc.)
+- Tube wells/bore wells (private)
+- Tanker supply (where mains unavailable)
+
+WATER PRESSURE:
+- Minimum at fixtures: 140 kPa (20 psi)
+- Maximum: 550 kPa (80 psi) - pressure reducing valve if exceeded
+- Static pressure (Pakistan municipal): 200-400 kPa (varies by location and time)
+
+WATER STORAGE:
+- Underground tank (sump): 1-2 days storage
+  - Capacity: 150-200 liters/person/day (residential)
+  - Offices: 50 liters/person/day
+  - Hotels: 200 liters/person/day
+- Overhead tank: 1 day storage (gravity supply)
+- Pumping: Sump to overhead (automatic control)
+
+TANK REQUIREMENTS:
+- Watertight construction (RCC or plastic)
+- Covered (prevent contamination)
+- Access manhole with locked cover
+- Overflow pipe (screened end)
+- Drain valve at bottom
+- Cleaning: Semi-annual
+
+2.3 PIPE SIZING (FIXTURE UNIT METHOD - IPC 2024)
+
+FIXTURE UNITS (FU):
+- Water closet (flush tank): 3 FU
+- Urinal (flush valve): 5 FU
+- Lavatory (wash basin): 1 FU
+- Shower: 2 FU
+- Kitchen sink: 1.5 FU
+- Washing machine: 3 FU
+
+PIPE SIZING:
+- Total fixture units → Table lookup → Pipe diameter
+- Example: 20 FU → 32mm (1.25") pipe
+- Velocity: <2.5 m/s (minimize noise, erosion)
+
+PIPE MATERIALS (SUPPLY):
+- Galvanized Iron (GI): Traditional, rusting issues
+- UPVC: Non-corrosive, smooth (lower friction), NSF-certified for potable
+- CPVC: Hot water (rated to 80°C)
+- PPR (Polypropylene Random): Modern, hot/cold, fusion welding
+- Copper: Excellent but expensive (rare in Pakistan)
+
+2.4 HOT WATER SYSTEM
+
+HEATING METHODS:
+- Solar water heaters (most common Pakistan)
+  - Flat plate collectors or evacuated tube
+  - 100-300 liters capacity (residential)
+  - Backup electric heating element
+  - Payback: 2-4 years
+
+- Electric geysers (instant or storage)
+  - Capacity: 15-100 liters (storage)
+  - Power: 1.5-3 kW
+  - Insulated tank (reduce standby loss)
+
+- Gas water heaters (instant)
+  - Natural gas or LPG
+  - Tankless (on-demand)
+  - Venting required
+
+TEMPERATURE:
+- Storage: 60°C (prevent Legionella bacteria)
+- Delivery at fixture: 48-52°C (tempered to prevent scalding)
+- Tempering valve (mix hot+cold to safe temperature)
+
+CIRCULATION:
+- Dead legs: Keep <6m (minimize wait time for hot water)
+- Recirculation pump (large buildings, hotels) - maintains hot water in pipes
+
+2.5 SANITARY DRAINAGE SYSTEM (IPC 2024 Chapter 7)
+
+FIXTURE UNITS (DRAINAGE):
+- Water closet: 4 FU
+- Urinal: 4 FU
+- Lavatory: 1 FU
+- Shower: 2 FU
+- Kitchen sink: 2 FU
+
+PIPE SIZING:
+- Horizontal drains: Minimum slope 1:50 (2%) for 100mm pipe, 1:100 (1%) for >100mm
+- Vertical stacks: No slope (gravity flow)
+- Example: 20 FU → 75mm (3") drain
+
+PIPE MATERIALS (DRAINAGE):
+- Cast iron (CI): Durable, quiet, expensive (rare now)
+- UPVC: Most common (lightweight, economical, non-corrosive)
+- HDPE: Modern alternative
+
+TRAPS:
+- P-trap: Standard (horizontal outlet)
+- S-trap: Vertical outlet (less common, can siphon)
+- Water seal: 50-100mm depth
+- Purpose: Prevent sewer gas entry
+
+CLEANOUTS:
+- Access points for drain cleaning
+- Location: Base of stacks, change of direction, every 15m horizontal
+- Size: Same as drain pipe
+
+2.6 VENTING SYSTEM (IPC 2024 Chapter 9)
+
+PURPOSE:
+- Allow air into drainage system
+- Prevent trap siphonage (maintain water seal)
+- Prevent pressure buildup (allow gases to escape)
+
+VENT TYPES:
+- Individual vent: Each fixture separately vented to stack or roof
+- Common vent: 2 fixtures share one vent
+- Wet vent: Drain pipe also serves as vent
+- Stack vent: Extension of soil/waste stack above highest fixture
+
+VENT TERMINAL:
+- Extend through roof
+- Minimum 150mm above roof
+- Minimum 3m from operable windows (prevent gas entry)
+- Vent cap (prevent rain entry, allow gas exit)
+
+2.7 PLUMBING FIXTURES (ASME A112 Standards)
+
+WATER CLOSETS (WC):
+- Floor-mounted (squat type - common in Pakistan)
+  - Water seal depth: 50mm minimum
+  - Flush volume: 10-13 liters (older), 6 liters (low-flow, modern)
+
+- Wall-hung (Western style)
+  - Seat height: 400-430mm
+  - Flush: 6 liters (dual-flush: 3/6 liters)
+
+URINALS:
+- Wall-hung or floor-mounted
+- Flush valve: Manual or automatic (sensor)
+- Flush volume: 3-4 liters
+- Waterless urinals (cartridge-based, saves water)
+
+LAVATORIES (WASH BASINS):
+- Countertop, wall-hung, pedestal
+- Faucet flow rate: 6 liters/minute (older), 2 liters/minute (low-flow, aerators)
+
+SHOWERS:
+- Flow rate: 10 liters/minute (standard), 6-8 liters/minute (low-flow)
+- Mixing valve (hot+cold, adjustable temperature)
+- Anti-scald valve (limit maximum temperature)
+
+KITCHEN SINKS:
+- Single or double bowl
+- Grease trap (commercial kitchens)
+
+ACCESSIBILITY:
+- Accessible fixtures: See Chapter 11
+
+2.8 SEWAGE DISPOSAL
+
+MUNICIPAL SEWERAGE:
+- Connection to public sewer (where available)
+- House connection trap (gully trap)
+- Inspection chamber/manhole
+- Municipal sewer line
+
+SEPTIC TANK SYSTEM (ON-SITE):
+- Where municipal sewer unavailable (common in Pakistan)
+
+Components:
+1. Septic Tank (Primary treatment)
+   - Capacity: 1-3 days sewage storage
+   - Design: 2-chamber or 3-chamber
+   - Function: Solids settle, anaerobic digestion, scum floats
+   - Outlet: Liquid effluent
+
+2. Soakage Pit/Leach Field (Secondary treatment/disposal)
+   - Percolate effluent into ground
+   - Brick or concrete rings (perforated)
+   - Gravel backfill
+   - Sizing: Based on soil percolation test
+   - Multiple pits (alternating use extends life)
+
+MAINTENANCE:
+- Septic tank desludging: Every 1-3 years
+- Soakage pit: May clog over time (rebuild)
+
+ALTERNATIVE:
+- Small sewage treatment plant (STP): Residential societies, hotels
+- Activated sludge or aerobic treatment
+- Treated effluent: Irrigation or discharge
+
+2.9 STORM DRAINAGE (IPC 2024 Chapter 11)
+
+ROOF DRAINAGE:
+- Rainfall intensity: Pakistan (varies by region)
+  - Karachi: 150-200mm/hour (design storm)
+  - Lahore: 100-150mm/hour
+  - Monsoon regions: Higher
+
+- Roof drains: 1 per 200 sq m roof area (minimum)
+- Sizing: Based on rainfall intensity and roof area
+
+GUTTER AND DOWNSPOUT:
+- Gutter slope: 1:200 minimum
+- Downspout: 75-100mm diameter (residential)
+
+DISPOSAL:
+- Storm sewer (separate system - where available)
+- Soakage pit (on-site percolation)
+- Combined sewer (older systems, not recommended)
+
+SECONDARY (OVERFLOW) DRAINS:
+- Required where roof drainage blockage hazards
+- Scuppers (openings in parapet wall)
+- Secondary drains (separate system)
+
+2.10 WATER CONSERVATION (Pakistan Context)
+
+WATER SCARCITY:
+- Major issue in Pakistan
+- Declining water table
+- Seasonal shortages
+
+CONSERVATION STRATEGIES:
+- Low-flow fixtures mandatory (new construction)
+- Dual-flush toilets (3/6 liter)
+- Faucet aerators (reduce flow without compromising function)
+- Fix leaks promptly
+
+RAINWATER HARVESTING:
+- Roof collection
+- Storage tank (underground)
+- Filtration
+- Use: Landscaping, toilet flushing, groundwater recharge
+
+GRAY WATER REUSE:
+- Gray water: Wash basin, shower, laundry (not toilet)
+- Treatment: Filtration, disinfection
+- Reuse: Toilet flushing, landscape irrigation
+- Savings: 30-50% potable water reduction
+
+================================================================================
+SECTION 3: ELECTRICAL SYSTEMS
+================================================================================
+
+3.1 SCOPE AND CODES
+
+SCOPE:
+- Power distribution
+- Lighting
+- Earthing/grounding
+- Emergency power
+
+CODES:
+- NEC 2020 (National Electrical Code - USA reference)
+- IEC Standards (International)
+- Pakistan Electricity Rules
+- WAPDA/K-Electric Connection Requirements
+
+3.2 POWER SUPPLY
+
+UTILITY CONNECTION:
+- WAPDA (Water and Power Development Authority) - most of Pakistan
+- K-Electric (Karachi only)
+- Voltage: 230V single-phase, 400V three-phase
+- Frequency: 50 Hz
+
+SERVICE ENTRANCE:
+- Utility meter
+- Main circuit breaker/switch
+- Main distribution board (MDB)
+
+LOAD SHEDDING (Pakistan Context):
+- Scheduled power outages (common, especially summer)
+- Duration: 2-12 hours/day (varies by area and season)
+- Necessity: Backup power (generator, UPS, solar)
+
+3.3 LOAD CALCULATION (NEC Article 220)
+
+GENERAL LIGHTING:
+- Residential: 20-25 W/sq m
+- Offices: 15-20 W/sq m (LED)
+- Retail: 25-30 W/sq m
+- Schools: 10-15 W/sq m
+
+RECEPTACLES (POWER OUTLETS):
+- General use: 180 VA per outlet (assumed)
+- Specific appliances: Actual nameplate rating
+
+HVAC:
+- Major load (30-50% of total in commercial)
+- Nameplate rating (compressor + fans)
+
+DEMAND FACTOR:
+- Not all loads operate simultaneously
+- Residential: 40-60% demand factor (for total connected load)
+- Commercial: 70-90%
+
+EXAMPLE (Residential):
+- Floor area: 200 sq m
+- Lighting: 200 × 25 = 5000 W
+- Receptacles: 20 outlets × 180 VA = 3600 W
+- HVAC: 5000 W (2 × 1.5 ton AC)
+- Water pump: 1000 W
+- Kitchen appliances: 3000 W
+- Total connected: 17,600 W
+- Demand (60%): 10,560 W
+- Current (230V): 46 A
+- Service: 63 A main breaker
+
+3.4 DISTRIBUTION SYSTEM
+
+MAIN DISTRIBUTION BOARD (MDB):
+- Service entrance location
+- Main circuit breaker (isolates entire building)
+- Branch circuit breakers or fuses
+- Residual current device (RCD/RCCB) for protection
+
+SUB-DISTRIBUTION BOARDS (SDB):
+- Fed from MDB
+- Located on each floor or area
+- Final circuit breakers
+
+CIRCUIT TYPES:
+- Lighting circuits: 10-16 A breaker, 1.5-2.5 sq mm cable
+- Power circuits (receptacles): 16-20 A, 2.5-4 sq mm cable
+- HVAC circuits: Dedicated, 20-63 A (based on unit size)
+- Water heater: Dedicated, 16-32 A
+
+WIRING METHODS (Pakistan Common):
+- PVC conduits (concealed in walls/slabs)
+- Surface conduits (industrial, where concealment not required)
+- Cable trays (large buildings, accessible ceilings)
+
+CABLE TYPES:
+- PVC insulated copper cables (most common)
+- Sizes: 1.5, 2.5, 4, 6, 10, 16, 25 sq mm (residential/commercial)
+- Armored cables (where mechanical protection needed)
+
+3.5 CIRCUIT PROTECTION
+
+MINIATURE CIRCUIT BREAKERS (MCB):
+- Overcurrent protection (short circuit, overload)
+- Ratings: Type B (3-5× trip), Type C (5-10× trip), Type D (10-20× trip)
+- Magnetic trip (instant, short circuit) + Thermal trip (delayed, overload)
+
+RESIDUAL CURRENT DEVICE (RCD/RCCB):
+- Earth leakage protection (electrocution prevention)
+- Sensitivity: 30 mA (personnel protection), 100-300 mA (fire protection)
+- Trip time: <30 ms (30 mA)
+- Required: Bathroom circuits, outdoor outlets, swimming pools
+
+RCBO (Residual Current Breaker with Overcurrent):
+- Combined MCB + RCD (one device)
+- More expensive, saves space
+
+SURGE PROTECTION:
+- Protect against voltage spikes (lightning, switching)
+- Surge protective device (SPD) at main panel
+- Type 2 SPD (most common)
+
+3.6 EARTHING/GROUNDING (IEC 60364, Pakistan Electricity Rules)
+
+PURPOSE:
+- Personnel safety (fault current path to earth)
+- Equipment protection
+- Lightning protection
+
+EARTHING SYSTEMS:
+
+TN-S (Separate neutral and earth):
+- Utility provides separate earth conductor
+- Most reliable
+- Rare in Pakistan residential
+
+TN-C-S (Combined then Separate):
+- Utility neutral is earthed
+- Building separates earth from neutral
+- Common in Pakistan
+
+TT (Separate earth electrode):
+- Building provides its own earth electrode (no utility earth)
+- Most common in Pakistan
+- Requires RCD (higher earth fault loop impedance)
+
+EARTH ELECTRODE:
+- Types: Pipe electrode, plate electrode, strip electrode
+- Pipe: 38-50mm diameter GI pipe, 2.5-4m length, driven vertically
+- Plate: 600×600×6mm copper/GI plate, buried 1.5m depth
+- Resistance: <5 ohms (preferred <1 ohm for sensitive equipment)
+- Testing: Annual with earth resistance tester
+
+BONDING:
+- Main earthing terminal (MET)
+- Earth all metal parts (plumbing, conduits, enclosures, structural steel)
+- Equipotential bonding
+
+3.7 EMERGENCY POWER SYSTEMS
+
+STANDBY GENERATOR:
+- Fuel: Diesel, natural gas, LPG
+- Sizing: 100% of essential loads (emergency lighting, fire alarm, elevators) + 30-50% of non-essential
+- Start time: 10-30 seconds (automatic transfer switch - ATS)
+- Location: Ground floor, outdoor or ventilated room
+- Fuel storage: 8-24 hours full-load runtime
+- Testing: Weekly (30 minutes under load)
+
+UNINTERRUPTIBLE POWER SUPPLY (UPS):
+- Instant switchover (<10 ms, no interruption)
+- Battery backup: 15-30 minutes (bridge to generator start)
+- Critical loads: Computers, servers, medical equipment, fire alarm
+- Types: Offline, Line-interactive, Online (double-conversion)
+
+SOLAR PV WITH BATTERY STORAGE:
+- Growing in Pakistan (net metering available)
+- Hybrid system: Solar + Grid + Battery
+- Daytime: Solar powers load + charges battery
+- Night/cloudy: Battery + Grid
+- Load shedding: Battery backup
+- Cost: Payback 4-7 years
+
+3.8 LIGHTING DESIGN
+
+ILLUMINATION LEVELS (Lux):
+- Offices (general): 300-500 lux
+- Offices (detailed work): 500-750 lux
+- Classrooms: 300-500 lux
+- Corridors: 100-200 lux
+- Parking: 50-100 lux
+- Retail: 500-1000 lux
+- Residential living: 150-300 lux
+
+LIGHTING TYPES:
+- LED (Light Emitting Diode): Standard for new construction
+  - Efficacy: 80-120 lumens/watt
+  - Life: 25,000-50,000 hours
+  - Dimmable, instant on, no UV/IR
+  - Higher initial cost, lowest operating cost
+
+- Fluorescent (T5, T8, CFL): Being phased out
+  - Efficacy: 50-90 lumens/watt
+  - Life: 10,000-20,000 hours
+  - Contains mercury (disposal concern)
+
+- Incandescent: Banned in many countries (inefficient)
+  - Efficacy: 10-20 lumens/watt
+
+CONTROLS:
+- Occupancy sensors (toilet, corridors, storage)
+- Daylight harvesting (dim artificial when daylight adequate)
+- Timers (outdoor, signage lighting)
+- Dimmers (residential, hospitality)
+
+EMERGENCY LIGHTING:
+- Battery backup (90 minutes)
+- Illumination: 10 lux (egress paths), 1 lux minimum
+- Exit signs (illuminated, green)
+
+3.9 ELECTRICAL SAFETY
+
+REGULATIONS:
+- Pakistan Electricity Rules
+- WAPDA/K-Electric Wiring Regulations
+- Pakistan Engineering Council (PEC) Standards
+
+REQUIREMENTS:
+- Licensed electrical contractor (PEC registered)
+- Inspection before connection
+- Periodic inspection (commercial: 3-5 years)
+
+COMMON HAZARDS:
+- Overloading circuits
+- Damaged insulation
+- Improper earthing
+- Wet locations without RCD
+- DIY wiring (unlicensed work)
+
+================================================================================
+SECTION 4: FIRE PROTECTION SYSTEMS
+================================================================================
+
+(See Chapter 08 for detailed coverage)
+
+INTEGRATION WITH MEP:
+- Fire alarm system: Electrical design and installation
+- Sprinkler system: Plumbing design (pipe sizing, water supply)
+- Smoke control: HVAC integration (pressurization, exhaust)
+- Emergency power: Fire pump, fire alarm, emergency lighting
+
+================================================================================
+SECTION 5: ELEVATORS AND VERTICAL TRANSPORTATION
+================================================================================
+
+5.1 REQUIREMENT (IBC Chapter 30)
+
+ELEVATORS REQUIRED:
+- Buildings >3 stories
+- Buildings >1000 sq m per floor
+- Any building with essential services on upper floors
+
+5.2 ELEVATOR TYPES
+
+TRACTION ELEVATORS (GEARED/GEARLESS):
+- Machine room at top (traditional) or machine-room-less (MRL)
+- Steel ropes/belts over traction sheave
+- Counterweight
+- Suitable: Mid-rise to high-rise (up to 500m)
+- Speed: 1-10 m/s (gearless faster)
+
+HYDRAULIC ELEVATORS:
+- Hydraulic ram pushes car up
+- Cylinder in pit or telescopic
+- Suitable: Low-rise (2-7 stories)
+- Speed: 0.5-1 m/s
+- Simpler, lower cost
+
+5.3 CAPACITY PLANNING
+
+POPULATION:
+- Offices: 1 person per 10 sq m
+- Residential: 2 persons per unit
+- Hotels: 1.5 persons per room
+
+ELEVATOR QUANTITY:
+- Rule of thumb: 1 elevator per 200-300 occupants
+- Calculation: Traffic analysis (peak 5-minute demand)
+
+ELEVATOR CAPACITY:
+- 8-13 persons (630-1000 kg) typical
+- Larger buildings: 16-21 persons (1275-1600 kg)
+
+SPEED:
+- Low-rise (≤5 floors): 1 m/s
+- Mid-rise (6-15 floors): 1.5-2.5 m/s
+- High-rise (>15 floors): 3-6 m/s
+
+5.4 ELEVATOR SAFETY
+
+SAFETY FEATURES:
+- Overspeed governor (arrests car if speeding)
+- Safety brakes (engage if rope breaks)
+- Buffer (absorbs energy at bottom)
+- Door interlocks (prevent door opening unless car at floor)
+- Overload sensor
+
+FIRE SERVICE MODE:
+- Elevator recalls to ground floor on fire alarm
+- Manual control by firefighters (override normal operation)
+- Firefighter elevator required (high-rise >24m)
+
+EMERGENCY COMMUNICATION:
+- Intercom/phone in car to monitoring station/security
+
+BACKUP POWER:
+- Emergency generator powers 1 elevator (evacuate disabled persons)
+- Returns all elevators to ground floor first, then 1 continues on generator
+
+5.5 ACCESSIBILITY (See Chapter 11)
+
+ACCESSIBLE ELEVATOR:
+- Car dimensions: 1100×1400mm minimum
+- Door width: 800mm minimum
+- Control buttons: 900-1200mm height, tactile and Braille
+- Audio announcements
+- Handrails in car
+
+5.6 ESCALATORS
+
+TYPES:
+- Parallel (side-by-side, same direction)
+- Criss-cross (up and down)
+
+DIMENSIONS:
+- Width: 600mm (rare), 800mm (standard), 1000mm (heavy traffic)
+- Speed: 0.5 m/s (standard), 0.65 m/s (heavy traffic)
+- Angle: 30° (standard), 35° (max)
+
+CAPACITY:
+- 800mm: 4500-5000 persons/hour
+- 1000mm: 6750-7500 persons/hour
+
+APPLICATIONS:
+- Shopping malls, metro stations, airports
+- Where high-volume vertical movement needed
+
+================================================================================
+COMPILATION NOTES
+================================================================================
+
+Base: IMC 2024, IPC 2024, NEC 2020, ASHRAE 62.1/55, India NBC Part 8
+Pakistan Context: WAPDA/K-Electric, Load shedding, Water scarcity, Solar PV, PEC Standards
+Special considerations: Backup power essential, Water conservation critical, Local materials and practices
+Version: 2.0
+Date: November 2025
