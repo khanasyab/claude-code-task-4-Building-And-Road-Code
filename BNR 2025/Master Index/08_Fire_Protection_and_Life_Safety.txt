@@ -1,0 +1,826 @@
+================================================================================
+CHAPTER 08: FIRE PROTECTION AND LIFE SAFETY
+BNR 2025 Master Index
+Base: USA IFC 2024 + NFPA Standards + Pakistan Fire Service Requirements
+================================================================================
+
+SOURCE HIERARCHY:
+PRIMARY BASE: USA IFC 2024 (International Fire Code)
+STANDARDS: NFPA 13 (Sprinklers), NFPA 72 (Fire Alarm), NFPA 92 (Smoke Control), NFPA 101 (Life Safety)
+PAKISTAN CONTEXT: Ali Enterprises Factory Fire 2012, Fire Service Act
+
+================================================================================
+SECTION 1: FIRE SAFETY AND EVACUATION PLANNING
+================================================================================
+
+1.1 FIRE SAFETY PLANS (IFC 2024 Chapter 4)
+
+REQUIREMENT:
+- Mandatory for buildings >1000 sq m gross floor area
+- Assembly occupancies >50 persons
+- High-rise buildings
+- Hazardous occupancies (Groups F, H)
+
+PLAN CONTENTS:
+A. Emergency Procedures
+   - Fire alarm response procedures
+   - Occupant evacuation procedures
+   - Exit route assignments
+   - Procedures for persons unable to evacuate
+   - Floor warden duties
+
+B. Site Information
+   - Building address and floor plans
+   - Location of fire protection equipment
+   - Fire department access points
+   - Utility shut-off locations
+   - Hazardous material storage locations
+
+C. Coordination
+   - Fire department contact information
+   - Building emergency coordinator
+   - Floor wardens and their alternates
+   - Emergency assembly points
+
+1.2 FIRE DRILLS (IFC Section 405)
+
+FREQUENCY:
+- Group A (Assembly): Quarterly
+- Group E (Educational): Monthly during school term
+- Group I (Institutional): Quarterly
+- Group R-2 (Apartments): Annually
+- High-rise residential: Semi-annually
+
+DRILL REQUIREMENTS:
+- Orderly evacuation to assembly points
+- Use of alternate exits (rotate)
+- Time recording (target <5 minutes total evacuation)
+- Documentation of drill date, time, duration, issues
+
+1.3 FIRE COMMAND CENTER (High-Rise Buildings >24m)
+
+LOCATION: Ground floor, accessible to fire department from exterior
+
+EQUIPMENT REQUIRED:
+- Fire alarm annunciator panel (graphical display)
+- Fire fighter telephone system
+- Public address system
+- Sprinkler/standpipe status indicators
+- HVAC control panel
+- Elevator recall and status panel
+- Emergency generator status
+- Pressurization system controls
+
+FEATURES:
+- Minimum 10 sq m area
+- Fire-rated construction (1 hour)
+- Emergency lighting
+- Direct exterior access
+- Protected from weather
+
+================================================================================
+SECTION 2: MEANS OF EGRESS
+================================================================================
+
+2.1 OCCUPANT LOAD CALCULATION (IBC 2024 Table 1004.5)
+
+OCCUPANT LOAD FACTOR (sq m per person):
+- Assembly (fixed seats): Actual number of seats
+- Assembly (concentrated, without fixed seats): 0.65
+- Assembly (standing space): 0.45
+- Business areas: 9.3
+- Educational (classrooms): 1.9
+- Residential: 18.6
+- Storage: 46.5
+- Mosques/religious (fixed seats): 0.65
+- Mosques (open prayer hall): 0.93
+
+CALCULATION:
+Occupant Load = Floor Area / Occupant Load Factor
+
+Example: 500 sq m mosque prayer hall = 500 / 0.93 = 538 persons
+
+2.2 EXIT CAPACITY
+
+CAPACITY FACTORS:
+- Doors and corridors: 7.6mm per person (130 persons per meter width)
+- Stairways: 5.1mm per person (195 persons per meter width)
+
+MINIMUM EXIT WIDTH:
+- Doors: 800mm clear (single), 1600mm (pair)
+- Corridors: 1100mm (occupant load <50), 1400mm (≥50)
+- Stairways: 1100mm minimum
+
+NUMBER OF EXITS REQUIRED:
+- Occupant load 1-500: 2 exits minimum
+- 501-1000: 3 exits
+- >1000: 4 exits
+
+2.3 TRAVEL DISTANCE LIMITS
+
+MAXIMUM TRAVEL DISTANCE TO NEAREST EXIT:
+- Unsprinklered buildings:
+  - Group A, E, I, R: 23m
+  - Group B, F, S: 30m
+
+- Sprinklered buildings:
+  - Group A, E, I, R: 45m
+  - Group B, F, S: 60m
+  - Group H (Hazardous): 23m (sprinklered or not)
+
+DEAD-END CORRIDORS: Maximum 6m (unsprinklered), 15m (sprinklered)
+
+2.4 EXIT SIGNS AND EMERGENCY LIGHTING
+
+EXIT SIGNS:
+- Illuminated (internally or externally)
+- Minimum letter height: 150mm
+- Visibility: 30m minimum
+- Color: Green background, white text (international) or Red (legacy)
+- Power: Normal + emergency backup
+- Directional arrows where exit not visible
+
+EMERGENCY LIGHTING:
+- Activation: Automatic on power failure (<10 seconds)
+- Duration: 90 minutes minimum
+- Illumination level: 10 lux average, 1 lux minimum
+- Coverage: Egress paths, exit stairs, exit discharge
+- Battery backup or generator
+
+PHOTOLUMINESCENT SIGNS (Alternative):
+- Charge from ambient light, glow in darkness
+- No power required
+- Approved material (4 hours glow minimum)
+
+2.5 STAIRWAY REQUIREMENTS
+
+CONSTRUCTION:
+- Fire resistance: 1 hour (≤4 stories), 2 hours (>4 stories)
+- Enclosed (fire-rated walls and doors)
+- Pressurized (high-rise buildings)
+
+DIMENSIONS:
+- Minimum width: 1100mm
+- Maximum riser: 180mm
+- Minimum tread: 280mm
+- Headroom: 2100mm minimum
+- Handrails: Both sides, 900-1000mm height, continuous
+
+DOORS:
+- Self-closing, latching
+- Swing in direction of egress
+- Fire rating: 1 hour or 1.5 hour (based on wall rating)
+- Vision panel (100×300mm max with fire-rated glass)
+- Panic hardware (occupant load >50)
+
+2.6 STAIRWAY PRESSURIZATION (High-Rise)
+
+PURPOSE: Prevent smoke infiltration into exit stairways
+
+DESIGN:
+- Minimum pressure differential: 12.5 Pa (stairway vs. building)
+- Maximum: 60 Pa (door opening force <130N)
+- Supply fans: Sized for leakage + door opening
+- Outdoor air intake (smoke-free location)
+
+CONTROL:
+- Automatic activation on fire alarm
+- Pressure relief dampers
+- Barometric dampers (regulate pressure)
+
+================================================================================
+SECTION 3: FIRE-RESISTANT CONSTRUCTION
+================================================================================
+
+3.1 FIRE RESISTANCE RATINGS
+
+REQUIRED RATINGS BY BUILDING ELEMENT AND TYPE:
+
+TYPE I-A:
+- Structural frame: 3 hours
+- Exterior walls (bearing): 3 hours
+- Interior walls (bearing): 3 hours
+- Floor construction: 2 hours
+- Roof construction: 1.5 hours
+
+TYPE I-B:
+- Structural frame: 2 hours
+- Exterior walls (bearing): 2 hours
+- Interior walls (bearing): 2 hours
+- Floor construction: 2 hours
+- Roof construction: 1 hour
+
+TYPE II-A:
+- Structural frame: 1 hour
+- Walls and floors: 1 hour
+- Roof: 1 hour
+
+TYPE II-B, V-B: 0 hours (non-rated but non-combustible/combustible respectively)
+
+3.2 FIRE WALLS
+
+DEFINITION: Wall separating buildings or subdividing buildings to restrict fire spread
+
+REQUIREMENTS:
+- Fire resistance: 3-4 hours (based on occupancy)
+- Structural independence (collapse one side doesn't affect other)
+- Continuous from foundation to 900mm above roof
+- No openings (or maximum 25% with 3-hour doors)
+- Parapets: 900mm above roof on both sides
+
+3.3 FIRE BARRIERS
+
+DEFINITION: Interior walls subdividing building to create fire compartments
+
+REQUIREMENTS:
+- Fire resistance: 1-2 hours (based on occupancy separation)
+- Continuous from floor to underside of floor/roof above
+- Openings: 50-75% of wall area maximum
+- Opening protection: Fire doors/windows (3/4 of wall rating)
+
+USES:
+- Occupancy separation (different hazard levels)
+- Shaft enclosures (elevator, stairway)
+- Exit corridors
+- Horizontal exits
+
+3.4 FIRE DOORS AND WINDOWS
+
+FIRE DOOR RATINGS:
+- 3-hour doors: In 3-4 hour fire walls
+- 1.5-hour doors: In 2-hour walls, stairway enclosures
+- 1-hour doors: In 1-hour walls
+- 45-minute doors: Corridors (1-hour rated)
+- 20-minute doors: Corridors (<1-hour rating)
+
+DOOR REQUIREMENTS:
+- Self-closing or automatic-closing (on fire alarm)
+- Positive latching
+- No hold-open devices (unless tied to fire alarm)
+- Vision panels: 100 sq in (645 sq cm) maximum per door
+- Clearance: 6mm maximum under door (smoke seal if required)
+
+FIRE WINDOWS:
+- Used where vision required (doors, walls)
+- Ratings: 45-90 minutes typical
+- Wired glass or fire-rated glazing
+- Area limits based on rating
+
+3.5 THROUGH-PENETRATION PROTECTION
+
+PENETRATIONS: Pipes, ducts, cables passing through fire-rated assemblies
+
+FIRESTOP SYSTEMS:
+- Tested and listed assemblies (UL, FM approved)
+- Rating equal to assembly penetrated
+- Proper installation critical (certified contractors)
+
+COMMON FIRESTOP MATERIALS:
+- Intumescent sealants (expand when heated)
+- Mortar/grout
+- Fire-rated caulk
+- Mechanical firestop devices (collars, wraps)
+
+3.6 FIRE DAMPERS
+
+PURPOSE: Close duct openings in fire barriers to prevent fire/smoke spread
+
+TYPES:
+- Fire dampers: Close on temperature (73°C fusible link)
+- Smoke dampers: Close on smoke detection signal
+- Combination fire/smoke dampers
+
+LOCATIONS:
+- Ducts penetrating fire walls/barriers
+- Ducts penetrating shaft enclosures
+- Return air ducts (smoke dampers)
+
+RATING: 1.5 or 3 hours (match wall/floor rating)
+
+================================================================================
+SECTION 4: AUTOMATIC SPRINKLER SYSTEMS
+================================================================================
+
+4.1 REQUIREMENT FOR SPRINKLERS (IBC 2024 Section 903)
+
+MANDATORY SPRINKLERS:
+- All Group A (Assembly) >1000 sq m or >300 occupant load
+- All Group E (Educational) buildings
+- All Group I (Institutional): Hospitals, jails, etc.
+- Group R (Residential): All high-rise, all apartments >1600 sq m
+- All buildings >5000 sq m (any occupancy)
+- All high-rise buildings (>24m)
+- Specific hazards: Below-grade areas >280 sq m, windowless stories
+
+PAKISTAN-SPECIFIC:
+- All factories/industrial buildings >500 sq m (Ali Enterprises lesson)
+- All commercial buildings >2000 sq m
+- All hotels/restaurants
+
+4.2 SPRINKLER SYSTEM TYPES (NFPA 13)
+
+WET PIPE SYSTEM (Most Common):
+- Pipes filled with water under pressure
+- Sprinkler activation → immediate water discharge
+- Simplest and most reliable
+- Not suitable where freezing possible
+
+DRY PIPE SYSTEM:
+- Pipes filled with compressed air/nitrogen
+- Sprinkler opens → air releases → water valve opens → water flows
+- Delay: 30-60 seconds
+- Used in unheated spaces (parking garages, outdoor)
+
+PREACTION SYSTEM:
+- Pipes initially dry
+- Two-stage activation: 1) Smoke/heat detection → valve opens, fills pipes, 2) Sprinkler fuses → water flows
+- Used where accidental discharge unacceptable (data centers, museums)
+
+DELUGE SYSTEM:
+- All sprinklers open (no fusible elements)
+- Detection system activates control valve → water to all sprinklers simultaneously
+- High-hazard areas (chemical storage, aircraft hangars)
+
+4.3 SPRINKLER DESIGN (NFPA 13)
+
+COVERAGE AREA:
+- Light hazard (offices, residential): 18-20 sq m per sprinkler
+- Ordinary hazard (commercial, parking): 12 sq m per sprinkler
+- High hazard (industrial, storage): 8-10 sq m per sprinkler
+
+SPACING:
+- Maximum between sprinklers: 4.6m
+- Minimum: 1.8m (avoid interference)
+- Distance to walls: 100-150mm
+
+WATER SUPPLY:
+- Duration: 60 minutes (light hazard), 90 minutes (ordinary)
+- Pressure: 50-100 kPa at sprinkler (varies by system)
+- Flow: 15-25 liters/min per sprinkler (design area)
+
+DESIGN AREA:
+- Area of sprinklers assumed to operate simultaneously
+- Light hazard: 140 sq m (7-10 sprinklers)
+- Ordinary hazard: 280 sq m (15-20 sprinklers)
+
+WATER SOURCE:
+- Municipal supply (if adequate pressure and flow)
+- Dedicated fire water tank + pump (common in Pakistan)
+- Tank capacity: System demand × duration + 50% margin
+
+4.4 SPRINKLER TYPES
+
+STANDARD SPRAY (Pendant/Upright):
+- Most common
+- Deflector creates spray pattern
+- Temperature ratings: 68°C (ordinary), 79°C (intermediate), 93°C (high)
+
+SIDEWALL SPRINKLERS:
+- Mount on wall (not ceiling)
+- One-sided discharge
+- Corridors, small rooms
+
+EARLY SUPPRESSION FAST RESPONSE (ESFR):
+- Large orifice, high pressure
+- Suppress fire quickly before spreading
+- High-piled storage
+
+CONCEALED SPRINKLERS:
+- Decorative cover plate
+- 2-stage operation: 1) Cover drops, 2) Sprinkler operates
+
+================================================================================
+SECTION 5: FIRE ALARM AND DETECTION SYSTEMS
+================================================================================
+
+5.1 REQUIREMENT (IBC 2024 Section 907)
+
+MANDATORY FIRE ALARM SYSTEMS:
+- Group A: Assembly >300 occupants or >1000 sq m
+- Group B: Business >2500 sq m
+- Group E: Educational (all schools)
+- Group I: All institutional (hospitals, jails)
+- Group R: High-rise residential, hotels, dormitories
+- All high-rise buildings
+- Underground/windowless stories >280 sq m
+
+5.2 SYSTEM COMPONENTS (NFPA 72)
+
+FIRE ALARM CONTROL PANEL (FACP):
+- System "brain" - receives signals, activates alarms
+- Display: Zone/device in alarm
+- Power: Primary (AC) + backup (battery 24-hour capacity)
+- Located in fire command center or main entrance
+
+INITIATING DEVICES:
+
+A. Manual Pull Stations
+   - Location: Near exits, maximum 60m travel
+   - Height: 1100-1400mm
+   - Type: Break-glass or lever
+   - Color: Red
+
+B. Smoke Detectors
+   - Ionization type: Fast flaming fires
+   - Photoelectric type: Slow smoldering fires
+   - Locations: Corridors, lobbies, elevator lobbies, return air ducts
+   - Spacing: 9m radius coverage (open areas)
+
+C. Heat Detectors
+   - Fixed temperature (68°C, 79°C)
+   - Rate-of-rise (rapid temperature increase)
+   - Locations: Kitchens, mechanical rooms, parking garages (where smoke detectors unsuitable)
+   - Spacing: 6m radius (standard height ceilings)
+
+D. Duct Smoke Detectors
+   - In supply/return air ducts
+   - Shutdown HVAC to prevent smoke distribution
+
+NOTIFICATION DEVICES:
+
+A. Audible Alarms (Horns/Bells)
+   - Sound level: 75 dB minimum (or 15 dB above ambient)
+   - Temporal-3 pattern (standard evacuation signal)
+
+B. Visual Alarms (Strobes)
+   - For hearing-impaired
+   - Flash rate: 1-3 Hz
+   - Intensity: 75-177 candela (based on room size)
+   - Locations: Corridors, rooms, toilets, public spaces
+
+C. Voice Evacuation Systems
+   - Mandatory: High-rise, large assembly
+   - Pre-recorded messages ("A fire emergency has been reported...")
+   - Live announcements (fire command center)
+   - Priority over background music
+
+5.3 ADDRESSABLE VS. CONVENTIONAL SYSTEMS
+
+CONVENTIONAL:
+- Zones (groups of devices)
+- Alarm indicates zone, not specific device
+- Simpler, lower cost
+- Suitable: Small buildings (<2000 sq m)
+
+ADDRESSABLE:
+- Each device has unique address
+- FACP displays exact device in alarm
+- Better troubleshooting
+- Required: Large buildings, high-rise
+- Higher cost
+
+5.4 MONITORING AND SUPERVISION
+
+MONITORING:
+- On-site monitoring: Local alarm only (small buildings)
+- Central station monitoring: Alarm transmitted to monitoring company → Fire department dispatch
+- Required: High-rise, large commercial
+
+SUPERVISION:
+- System self-monitors for faults (broken wires, device tampering, power loss)
+- Trouble signals distinct from alarm
+- 24-hour battery backup
+
+================================================================================
+SECTION 6: SMOKE CONTROL SYSTEMS
+================================================================================
+
+6.1 PURPOSE (IBC 2024 Section 909, NFPA 92)
+
+Maintain tenable conditions in egress paths by:
+- Preventing smoke from entering exit stairways
+- Exhausting smoke from fire floor
+- Providing smoke-free refuge areas
+
+6.2 STAIRWAY PRESSURIZATION
+
+DESIGN CRITERIA:
+- Maintain positive pressure in stairway relative to building
+- Minimum: 12.5 Pa pressure difference
+- Maximum: 60 Pa (door opening force limit)
+- Supply: Outdoor air (smoke-free intake)
+
+COMPONENTS:
+- Supply fans (one per stairway, redundancy recommended)
+- Barometric dampers (pressure relief)
+- Pressure sensors (monitor and adjust)
+- Automatic doors (reduce air loss)
+
+CONTROL:
+- Activate on fire alarm
+- Manual override (fire command center)
+- Stair door position monitoring
+
+6.3 ATRIUM SMOKE CONTROL
+
+ATRIUMS: Large-volume spaces connecting multiple floors
+
+SMOKE CONTROL METHODS:
+- Natural ventilation: Operable skylights/vents at roof (1600 sq cm per 100 sq m floor area)
+- Mechanical exhaust: Fans exhaust smoke at high level
+- Make-up air: Low-level supply to replace exhausted air
+
+DESIGN:
+- Maintain clear layer height >1.8m above highest floor
+- Exhaust rate: 4-8 air changes per hour (atrium volume)
+
+6.4 SMOKE EXHAUST SYSTEMS
+
+ZONE SMOKE CONTROL:
+- Exhaust smoke from fire zone
+- Pressurize adjacent zones
+- Prevents smoke migration
+
+DESIGN:
+- Exhaust: 6-12 air changes per hour (fire zone)
+- Pressurization: Adjacent zones to 12.5 Pa
+- Smoke barriers: Separate zones
+- Automatic activation
+
+================================================================================
+SECTION 7: STANDPIPE AND HOSE SYSTEMS
+================================================================================
+
+7.1 REQUIREMENT (IBC 2024 Section 905)
+
+MANDATORY STANDPIPES:
+- Buildings >18m in height
+- Buildings >6000 sq m per floor
+- Stages and platforms >1000 sq m
+- Underground/windowless stories
+
+7.2 STANDPIPE CLASSES
+
+CLASS I (Fire Department Use):
+- 65mm hose connections
+- Locations: Stairway landings, exit passageways
+- Spacing: Maximum 60m from any point
+- Pressure: 450 kPa minimum at top outlet (flowing)
+
+CLASS II (Occupant/Employee Use):
+- 40mm hose stations (hose and nozzle provided)
+- Locations: Near exits, maximum 40m from any point
+- For initial attack by trained occupants
+- Less common (liability concerns)
+
+CLASS III (Combined):
+- 65mm + 40mm outlets
+- Fire department and occupant use
+
+7.3 SYSTEM TYPES
+
+WET STANDPIPE:
+- Pipes filled with water under pressure (most common)
+- Immediate water availability
+
+DRY STANDPIPE:
+- Empty pipes (fire department connects to inlet, supplies water)
+- Used where water damage concern or freezing risk
+- Less effective (delay)
+
+AUTOMATIC-WET:
+- Connected to building water supply + fire pump
+- Maintains pressure automatically
+
+MANUAL-WET:
+- Fire department connection provides pressure
+
+7.4 WATER SUPPLY
+
+PRESSURE:
+- 65 kPa minimum (static) at highest outlet
+- 450 kPa minimum (flowing, 950 lpm) at highest outlet
+- Fire pump usually required (high-rise)
+
+DURATION: 30 minutes (standpipe only), 60-90 minutes (if also supplying sprinklers)
+
+FIRE DEPARTMENT CONNECTION (FDC):
+- Exterior connection (fire trucks supplement/supply system)
+- Location: Within 15m of fire apparatus access
+- Siamese (2× 65mm inlets)
+
+================================================================================
+SECTION 8: PORTABLE FIRE EXTINGUISHERS
+================================================================================
+
+8.1 TYPES AND USES (IFC 2024 Section 906)
+
+CLASS A: Ordinary Combustibles (wood, paper, cloth)
+   - Agent: Water, foam
+   - Rating: 2-A to 40-A
+
+CLASS B: Flammable Liquids (gasoline, oil, grease)
+   - Agent: CO2, dry chemical, foam
+   - Rating: 5-B to 40-B
+
+CLASS C: Electrical Equipment (live electrical)
+   - Agent: CO2, dry chemical (non-conductive)
+   - Replaces Class B extinguisher at electrical hazards
+
+CLASS D: Combustible Metals (magnesium, titanium)
+   - Agent: Special powder
+   - Rare (industrial facilities only)
+
+CLASS K: Commercial Kitchen (cooking oils/fats)
+   - Agent: Wet chemical
+   - Mandatory in commercial kitchens
+
+ABC EXTINGUISHERS:
+- Multi-purpose dry chemical
+- Effective on A, B, C fires
+- Most common in Pakistan
+
+8.2 DISTRIBUTION
+
+TRAVEL DISTANCE TO EXTINGUISHER:
+- Class A: 22m maximum
+- Class B: 15m maximum
+- Class K: 9m (commercial kitchens)
+
+MOUNTING:
+- Height: <1.4m (top of extinguisher)
+- Signage: Location indicated
+- Cabinets: Recessed or surface-mounted (glass/plastic front)
+
+SIZE:
+- Minimum rating: 2-A:10-B:C
+- Residential: 2.5 kg (minimum)
+- Commercial: 5-10 kg
+
+8.3 MAINTENANCE
+
+INSPECTIONS:
+- Monthly: Visual check (full, accessible, no damage)
+- Annually: Full service by certified technician
+- 5-year: Hydrostatic test (pressure vessels)
+- 6-year: Internal examination (dry chemical)
+- 12-year: Hydrostatic test repeat
+
+TAG:
+- Inspection date
+- Servicing company
+- Next service due
+
+================================================================================
+SECTION 9: SPECIAL HAZARDS
+================================================================================
+
+9.1 FLAMMABLE AND COMBUSTIBLE LIQUIDS (IFC Chapter 57)
+
+CLASSIFICATION:
+- Class I: Flash point <38°C (gasoline, acetone)
+- Class II: Flash point 38-60°C (diesel, kerosene)
+- Class III: Flash point >60°C (fuel oil, lube oil)
+
+STORAGE LIMITS (INDOORS):
+- Sprinklered building: 450 liters (Class I)
+- Unsprinklered: 120 liters
+- Approved storage cabinets increase limits
+
+STORAGE REQUIREMENTS:
+- Approved safety cans (<20 liters capacity)
+- Storage cabinets (fire-rated, self-closing doors, bottom sill)
+- Separate room (fire-rated, explosion venting, exhaust)
+- Grounding/bonding (prevent static)
+- No smoking signs
+
+PETROL PUMPS (Pakistan Context):
+- Underground storage tanks (UST)
+- Dispenser islands (concrete barriers)
+- Fire extinguishers (9kg ABC, every 15m)
+- Emergency shut-off (dispenser and remote)
+- Explosion-proof electrical equipment
+
+9.2 COMPRESSED GASES (IFC Chapter 53)
+
+TYPES:
+- Flammable: LPG, hydrogen, acetylene
+- Oxidizing: Oxygen, nitrous oxide
+- Inert: Nitrogen, argon, helium
+- Toxic: Chlorine, ammonia
+
+STORAGE:
+- Secure cylinders (chains, straps)
+- Upright position
+- Separated by type (flammable vs. oxidizing: 6m distance or 1-hour barrier)
+- Ventilation (mechanical exhaust)
+- Signage
+
+LPG STORAGE (COMMON IN PAKISTAN):
+- Outdoor storage preferred
+- Minimum distance from buildings: 7.5m (small cylinders), 15m (large)
+- Fire extinguishers
+- No ignition sources
+- Pressure relief valves
+- Regular leak testing
+
+9.3 HAZARDOUS MATERIALS (IFC Chapters 50-67)
+
+HIGH-HAZARD OCCUPANCY (GROUP H):
+- H-1: Detonation hazard (explosives)
+- H-2: Deflagration hazard (flammable gases >2000 liters, LPG distribution)
+- H-3: Physical hazard (flammable liquids >450 liters)
+- H-4: Health hazard (corrosives, toxics)
+- H-5: Semiconductor fabrication
+
+REQUIREMENTS:
+- Sprinkler systems mandatory
+- Explosion venting (H-2, H-3)
+- Spill control
+- Emergency eyewash/shower (corrosives, toxics)
+- Fire alarm systems
+- Hazmat inventory reporting
+
+================================================================================
+SECTION 10: PAKISTAN FIRE SAFETY CONTEXT
+================================================================================
+
+10.1 ALI ENTERPRISES FACTORY FIRE (September 11, 2012)
+
+INCIDENT:
+- Garment factory, Karachi
+- 289 deaths (Pakistan's deadliest industrial fire)
+- Fire started on ground floor, spread rapidly
+
+CAUSES:
+- Locked emergency exits (prevent theft)
+- No sprinkler system
+- No fire alarm system
+- Inadequate exits (narrow stairways)
+- Barred windows
+- Flammable materials storage
+
+LESSONS LEARNED:
+- Emergency exits must NEVER be locked during occupancy
+- Sprinklers mandatory (factories >500 sq m)
+- Fire alarm systems required
+- Adequate exit width and number
+- Regular fire drills
+- Fire safety inspections before operation
+
+10.2 BUILDING CONTROL AUTHORITIES
+
+FEDERAL:
+- Capital Development Authority (CDA) - Islamabad
+- Building control regulations enforcement
+
+PROVINCIAL:
+- Karachi Metropolitan Corporation (KMC)
+- Lahore Development Authority (LDA)
+- Rawalpindi Development Authority (RDA)
+- Provincial building departments
+
+FIRE SERVICES:
+- Provincial governments responsibility
+- Major cities: Karachi Fire Brigade, Lahore Fire Brigade, etc.
+- Equipment and training challenges
+- Response time issues (traffic congestion)
+
+10.3 HIGH-RISE BUILDINGS IN PAKISTAN
+
+MAJOR CITIES:
+- Karachi: Tallest buildings, coastal high-rise construction
+- Lahore: Emerging high-rise developments
+- Islamabad: Limited high-rise (height restrictions)
+
+CHALLENGES:
+- Enforcement of fire safety codes
+- Fire department ladder trucks limited (24-32m reach)
+- Firefighting water supply
+- Maintenance of fire protection systems
+
+REQUIREMENTS (ISLAMABAD EXAMPLE):
+- Sprinkler systems
+- Fire alarm with voice evacuation
+- Pressurized stairways
+- Fire pump and storage tank
+- Emergency generator
+- Fire command center
+- Regular inspections (Fire Service)
+
+10.4 MOSQUE FIRE SAFETY
+
+UNIQUE CONSIDERATIONS:
+- High occupant density during prayers (especially Jummah Friday)
+- Carpet flooring (moderate fire hazard)
+- Shoe storage (combustible materials)
+- Limited exits (architectural constraints)
+- Male and female sections (separate egress required)
+
+REQUIREMENTS:
+- Minimum 2 exits (men), 2 exits (women)
+- Exit width based on occupant load
+- Emergency lighting
+- Fire extinguishers (Type A, minimum 9kg, every 20m)
+- Fire drills (annual)
+- No open flames (candles) during occupancy
+
+================================================================================
+COMPILATION NOTES
+================================================================================
+
+Base: IFC 2024, NFPA 13/72/92/101, IBC 2024
+Pakistan Context: Ali Enterprises fire 2012, Fire Service Act, High-rise challenges
+Mandatory sprinklers expanded for Pakistan factory safety
+Version: 2.0
+Date: November 2025
