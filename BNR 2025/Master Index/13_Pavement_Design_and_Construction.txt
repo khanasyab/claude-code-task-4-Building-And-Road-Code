@@ -1,0 +1,758 @@
+================================================================================
+BNR 2025 - MASTER INDEX
+CHAPTER 13: PAVEMENT DESIGN AND CONSTRUCTION
+================================================================================
+
+BASE SOURCES:
+- India: IRC:37-2018 - Guidelines for Design of Flexible Pavements
+- India: IRC:58-2015 - Guidelines for Design of Plain Jointed Rigid Pavements
+- India: IRC:SP:72-2015 - Guidelines for Design of Flexible Pavements for Low Volume Rural Roads
+- UK: DMRB CD 226 - Design for new pavement construction
+- UK: DMRB CD 236 - Surface course materials for construction
+- USA: AASHTO Pavement Design Guide (Mechanistic-Empirical)
+
+PAKISTAN CONTEXT:
+- Climate extremes: -20°C (Skardu winter) to +52°C (Jacobabad summer)
+- Monsoon: Heavy rainfall (Lahore 630 mm, July-Aug), flooding
+- Traffic: Mixed axle loads (overloading common, 20-30% above legal limits)
+- Materials: Local aggregates (variable quality), bitumen imported (Iran, Saudi Arabia)
+- Design life: 15-20 years (flexible), 30 years (rigid)
+
+================================================================================
+SECTION 1: PAVEMENT TYPES AND SELECTION
+================================================================================
+
+1.1 FLEXIBLE PAVEMENTS
+----------------------
+Structure (top to bottom):
+1. Surface course: Bituminous concrete (25-40 mm)
+2. Binder course: Dense bituminous macadam (50-75 mm)
+3. Base course: Water-bound macadam or crushed stone (150-250 mm)
+4. Sub-base: Granular material (150-300 mm)
+5. Subgrade: Compacted soil (natural or stabilized)
+
+Advantages:
+- Lower initial cost
+- Easier maintenance (patching, overlays)
+- Comfortable ride (flexible surface)
+
+Disadvantages:
+- Shorter life (15-20 years)
+- Higher maintenance frequency
+- Deformation under heavy loads (rutting)
+
+Pakistan usage: 95% of road network (cost-effective)
+
+Base: IRC:37-2018 Section 2
+
+1.2 RIGID PAVEMENTS
+-------------------
+Structure:
+1. Concrete slab: Plain cement concrete (150-300 mm)
+2. Sub-base: Dry lean concrete (100-150 mm) or granular (150-200 mm)
+3. Subgrade: Compacted soil
+
+Advantages:
+- Long life (30-40 years)
+- Low maintenance
+- High load-bearing capacity
+
+Disadvantages:
+- High initial cost (2-3× flexible)
+- Difficult repairs (slab replacement)
+- Rough ride (joints)
+
+Pakistan usage: 5% (motorways, airports, industrial areas)
+
+Examples:
+- M-1/M-2 Motorways: Rigid pavement (original construction)
+- Jinnah International Airport Karachi: Concrete runways/taxiways
+
+Base: IRC:58-2015 Section 2
+
+1.3 COMPOSITE PAVEMENTS
+-----------------------
+Structure: Bituminous surface over rigid concrete base
+
+Benefits:
+- Smooth ride (bituminous surface)
+- High strength (concrete base)
+- Extends rigid pavement life
+
+Pakistan usage:
+- Rehabilitation of rigid pavements (M-2 overlays)
+
+Base: IRC:SP:76-2015 (Tentative Guidelines for Rigid Pavement Design)
+
+================================================================================
+SECTION 2: SUBGRADE EVALUATION
+================================================================================
+
+2.1 CALIFORNIA BEARING RATIO (CBR)
+-----------------------------------
+Definition: Penetration resistance of soil compared to standard crushed stone
+
+Test method:
+- Laboratory CBR: Compacted soil in mold, soaked 4 days
+- Field CBR: In-situ testing with portable equipment
+
+CBR values (typical Pakistan soils):
+
+Soil type              | CBR (%) | Subgrade category
+Clay (soft)            | 1-3     | Very poor
+Clay (stiff)           | 3-7     | Poor to fair
+Sandy silt             | 4-8     | Fair
+Silty sand             | 8-15    | Good
+Well-graded gravel     | 15-30   | Very good
+Crushed stone          | 50-80   | Excellent
+
+Design CBR:
+- Average of lowest 25% of test results
+- Minimum 3 tests per km
+
+Pakistan regional CBR:
+- Indus plains (Sindh, Punjab): 2-8% (clay, silt)
+- Potohar plateau: 4-10% (weathered shale, sandy clay)
+- Mountainous areas: 10-20% (gravelly soils, weathered rock)
+
+Base: IRC:37-2018 Section 3.2
+
+2.2 SUBGRADE IMPROVEMENT
+-------------------------
+Methods for low CBR (<3%):
+
+Moisture control:
+- Drainage: Subsurface drains, prevent water infiltration
+- Moisture content: Compact at optimum moisture content (OMC)
+
+Soil stabilization:
+- Lime stabilization: 2-6% lime (clayey soils, increase CBR 200-400%)
+- Cement stabilization: 3-8% cement (sandy soils, CBR >15%)
+- Fly ash: 10-20% (cost-effective, use power plant waste)
+
+Geosynthetics:
+- Geotextiles: Separation, filtration
+- Geogrids: Reinforcement (increase CBR effective by 1.5-2×)
+
+Replacement:
+- Excavate poor soil, replace with granular material (expensive, limited depth)
+
+Pakistan practice:
+- Lime stabilization common (Sindh, Punjab clayey soils)
+- Fly ash available (Jamshoro, Muzaffargarh thermal power plants)
+
+Base: IRC:37-2018 Appendix 2
+
+================================================================================
+SECTION 3: FLEXIBLE PAVEMENT DESIGN
+================================================================================
+
+3.1 DESIGN TRAFFIC (CUMULATIVE STANDARD AXLES)
+-----------------------------------------------
+Standard axle: 80 kN (8,160 kg) single axle, dual tyre
+
+Vehicle damage factor (VDF):
+- Converts actual traffic to equivalent standard axles
+- Heavy vehicles cause exponentially more damage (4th power law)
+
+VDF values (Pakistan):
+
+Vehicle type              | VDF
+Car, Jeep, Auto-rickshaw  | 0.0002-0.001
+Light Commercial Vehicle  | 0.1-0.3
+2-Axle Truck             | 2.5-4.5
+3-Axle Truck             | 1.5-3.0
+Multi-Axle Truck (MAV)    | 3.5-7.0
+Bus                      | 2.0-4.0
+
+Cumulative standard axles (CSA):
+CSA = 365 × CVPD × VDF × [(1+r)ⁿ - 1] / r
+
+Where:
+- CVPD = Commercial vehicles per day (initial)
+- VDF = Vehicle damage factor
+- r = Annual traffic growth rate (5-7% Pakistan)
+- n = Design life (years)
+
+Traffic categories:
+
+CSA (millions) | Traffic category
+<0.1           | Light (village roads)
+0.1-0.3        | Light-medium
+0.3-1.0        | Medium
+1.0-3.0        | Medium-heavy
+3.0-10.0       | Heavy (national highways)
+>10.0          | Very heavy (major corridors, CPEC)
+
+Base: IRC:37-2018 Section 4
+
+3.2 PAVEMENT THICKNESS DESIGN (IRC METHOD)
+-------------------------------------------
+Design charts based on:
+- CBR of subgrade
+- Cumulative standard axles (traffic)
+
+Example design (CBR 5%, CSA 10 msa - heavy traffic):
+
+Layer                    | Thickness (mm)
+Surface (BC + DBM)       | 90 (40 + 50)
+Base (WBM)              | 250
+Sub-base (granular)     | 250
+Total                   | 590
+
+Design iterations for different conditions:
+
+CBR 3%, CSA 3 msa:
+- Surface: 75 mm
+- Base: 250 mm
+- Sub-base: 300 mm
+- Total: 625 mm
+
+CBR 10%, CSA 10 msa:
+- Surface: 90 mm
+- Base: 200 mm
+- Sub-base: 200 mm
+- Total: 490 mm
+
+Design charts: IRC:37-2018 Figures 3-8
+
+3.3 PAVEMENT MATERIALS (FLEXIBLE)
+----------------------------------
+
+BITUMINOUS CONCRETE (BC):
+- Aggregate: Crushed stone, sand (gradation per IRC:111)
+- Binder: VG-30 bitumen (Viscosity Grade, 60°C viscosity 2400-3600 Poise)
+- Mix: Dense-graded, 5-6% bitumen content by weight
+- Compaction: 98% Marshall density (minimum)
+- Thickness: 25-40 mm (surface course)
+
+Pakistan bitumen grades:
+- VG-10: Cold climate (Northern Areas, rare use)
+- VG-30: Most common (moderate climate)
+- VG-40: Hot climate (Sindh, Balochistan)
+
+DENSE BITUMINOUS MACADAM (DBM):
+- Binder course below BC
+- Coarser aggregate (up to 26.5 mm)
+- Bitumen content: 4-5%
+- Thickness: 50-75 mm
+
+WET MIX MACADAM (WMM):
+- Base course (alternative to WBM)
+- Aggregate + 2-3% bitumen emulsion
+- Better than WBM (moisture resistance)
+
+WATER BOUND MACADAM (WBM):
+- Traditional base course
+- Crushed stone aggregate, stone dust filler, water
+- Compaction by rolling + water
+- Economical but moisture-sensitive
+
+SUB-BASE (GRANULAR):
+- Graded crushed stone or gravel
+- Plasticity index (PI) <6
+- CBR ≥20% (minimum)
+
+Base: IRC:111-2009 (Specifications for Dense Graded Bituminous Mixes)
+IRC:SP:11-2014 (Guidelines for Bituminous Mix Design)
+
+================================================================================
+SECTION 4: RIGID PAVEMENT DESIGN
+================================================================================
+
+4.1 DESIGN PARAMETERS
+---------------------
+Concrete strength:
+- Flexural strength (Modulus of Rupture): 4.5 MPa @ 28 days
+- Compressive strength: M40 grade (40 MPa cube strength)
+
+Modulus of subgrade reaction (k):
+- Represents support from subgrade + sub-base
+- Units: MPa/m or kg/cm³
+
+k-values (Pakistan):
+
+Subgrade CBR (%) | k-value (MPa/m)
+2                | 20
+5                | 40
+10               | 80
+
+Sub-base effect:
+- 100 mm DLC sub-base increases k by 50-80%
+
+Design life: 30 years
+Traffic: 150 msa cumulative axles (typical national highway)
+
+Base: IRC:58-2015 Section 4
+
+4.2 SLAB THICKNESS DESIGN
+--------------------------
+IRC design charts based on:
+- Flexural strength
+- k-value
+- Cumulative axle loads
+
+Example designs:
+
+Traffic 30 msa, k = 40 MPa/m:
+- Slab thickness: 200 mm
+- Sub-base: 150 mm DLC
+
+Traffic 150 msa, k = 40 MPa/m:
+- Slab thickness: 280 mm
+- Sub-base: 150 mm DLC
+
+Pakistan practice (Motorways):
+- M-1/M-2: 300 mm concrete slab, 150 mm DLC sub-base
+- Reason: Very heavy traffic, overloading
+
+Design charts: IRC:58-2015 Figures 4-7
+
+4.3 JOINTS IN RIGID PAVEMENTS
+------------------------------
+
+CONTRACTION JOINTS (TRANSVERSE):
+- Purpose: Control cracking due to concrete shrinkage
+- Spacing: 4.5 m (typical), maximum 5.0 m
+- Type: Dummy joint (saw-cut, 1/3 depth) or doweled
+- Dowel bars: 25-32 mm diameter, 500 mm length, 300 mm spacing
+- Sealant: Bituminous or polysulfide (prevent water/debris entry)
+
+EXPANSION JOINTS:
+- Purpose: Accommodate expansion (temperature, moisture)
+- Spacing: 60-140 m (rigid pavement), at bridges, structures
+- Gap: 20-25 mm (filled with compressible filler)
+- Dowel bars: Smooth, one end bonded, other greased (allow movement)
+
+TIE BARS (LONGITUDINAL JOINTS):
+- Purpose: Hold lanes together (prevent separation)
+- 12-16 mm diameter, 700-900 mm length, 600-750 mm spacing
+- Deformed bars (bonded both ends)
+
+Construction joints:
+- End of day's work (transverse)
+- Lane edge (longitudinal)
+- Must include load transfer (dowels or aggregate interlock)
+
+Pakistan issues:
+- Joint sealing often neglected (maintenance failure)
+- Water infiltration → pumping, faulting, slab failure
+
+Base: IRC:58-2015 Section 7
+
+4.4 REINFORCEMENT (JOINTED REINFORCED CONCRETE PAVEMENT)
+---------------------------------------------------------
+Optional reinforcement:
+- Increases joint spacing to 10-15 m
+- Controls cracking (cracks remain tight)
+
+Steel mesh:
+- Diameter: 10-12 mm bars
+- Spacing: 150-200 mm × 150-200 mm
+- Location: Mid-depth of slab
+- Coverage: 0.06-0.08% of cross-section area
+
+Pakistan usage: Limited (higher cost, no major advantage vs. plain concrete)
+
+Base: IRC:58-2015 Section 8
+
+================================================================================
+SECTION 5: PAVEMENT CONSTRUCTION
+================================================================================
+
+5.1 SUBGRADE PREPARATION
+-------------------------
+Clearing and grubbing:
+- Remove vegetation, topsoil (organic material)
+
+Excavation/embankment:
+- Cut to formation level (subgrade elevation)
+- Embankment: 200-300 mm layers, compacted
+
+Compaction:
+- Minimum 95% maximum dry density (MDD) per IS:2720 Part 8
+- Moisture content: OMC ± 2%
+- Equipment: Smooth-wheel roller (cohesive), vibratory roller (granular)
+
+Proof rolling:
+- 10-tonne roller, 15-20 passes
+- Identify weak spots (excessive deformation)
+
+Base: IRC:36-2010 (Recommended Practice for Construction of Earth Embankments for Road Works)
+
+5.2 SUB-BASE AND BASE CONSTRUCTION
+-----------------------------------
+Material placement:
+- Layer thickness: 150-200 mm (loose), 100-125 mm (compacted)
+- Spread uniformly (motor grader, paver)
+
+Compaction:
+- Sub-base: 98% MDD (minimum)
+- Base: 100% MDD (heavy traffic), 98% (light traffic)
+- Equipment: Vibratory roller (8-10 tonne)
+
+Water Bound Macadam (WBM):
+- Spread coarse aggregate (90-40 mm)
+- Compact with roller
+- Spread screenings (stone dust, 11.2 mm down)
+- Add water, compact (water binds fines)
+- Surface tolerances: ±10 mm elevation, ±20 mm cross-section
+
+Base: IRC:SP:48-1998 (Specifications for Rural Roads)
+
+5.3 BITUMINOUS CONSTRUCTION
+----------------------------
+Tack coat:
+- Bitumen emulsion (SS-1, 0.25-0.35 L/m²)
+- Applied to base before binder course (ensures bond)
+- Allow breaking (water evaporation, 1-2 hours)
+
+Prime coat:
+- Bitumen cutback (MC-30, 0.6-1.2 L/m²)
+- Applied to granular base (penetration, waterproofing)
+- Curing: 24 hours minimum
+
+Hot mix asphalt (HMA) laying:
+- Mixing plant: Aggregate + bitumen heated to 160-170°C
+- Transport: Dump trucks (insulated, covered)
+- Laying: Mechanical paver (sensor-controlled screeds)
+- Temperature at laying: 140-160°C (BC), 130-150°C (DBM)
+
+Compaction:
+- Initial: Steel-wheel roller (8-10 tonne), 140-150°C
+- Intermediate: Vibratory roller, 120-140°C
+- Final: Pneumatic-tired roller (finish), 90-110°C
+- Density: 98% (minimum)
+
+Joint construction:
+- Longitudinal: Hot joint (simultaneous paving) or cold joint (tack coat)
+- Transverse: Straight, perpendicular to centerline
+
+Pakistan challenges:
+- Temperature control difficult (long haul distances)
+- Monsoon interruptions (no paving during rain)
+
+Base: IRC:SP:53-2010 (Guidelines on Use of Polymer and Rubber Modified Bitumen in Road Construction)
+MORTH Specifications (Ministry of Road Transport & Highways, India) Section 500
+
+5.4 CONCRETE PAVEMENT CONSTRUCTION
+-----------------------------------
+Formwork:
+- Steel forms, fixed-paving (slip-form paver preferred)
+- Alignment: ±10 mm, elevation ±5 mm
+
+Concrete mixing:
+- Batching plant (transit mixers)
+- Slump: 25-50 mm (low slump, easier compaction)
+- Temperature: <32°C (hot weather), >5°C (cold weather)
+
+Placing and compaction:
+- Paver-finisher or slip-form paver
+- Vibration: Internal vibrators (immersion), external (form-mounted)
+- Uniform thickness (±10 mm)
+
+Finishing:
+- Screeding: Transverse vibrating screed (smooth surface)
+- Float finish: Wood or metal float (slight texture)
+- Texturing: Burlap drag or wire broom (skid resistance)
+
+Jointing:
+- Saw-cutting: 4-12 hours after paving (green cutting)
+- Depth: 1/3 slab thickness (contraction joints)
+
+Curing:
+- Method 1: Water curing (wet burlap, ponding) - 14 days
+- Method 2: Curing compound (spray-applied membrane) - immediate
+- Strength gain: 70% @ 7 days, 90% @ 28 days
+
+Joint sealing:
+- After 28 days (concrete shrunk to final dimensions)
+- Hot-pour sealant (bituminous) or cold-pour (polysulfide)
+
+Opening to traffic:
+- Light traffic: 7 days (if 70% strength achieved)
+- Full traffic: 28 days (100% design strength)
+
+Pakistan practice:
+- Night-time paving (summer) to avoid high temperatures
+- Curing compound preferred (water scarcity)
+
+Base: IRC:15-2017 (Standard Specifications and Code of Practice for Construction of Concrete Roads)
+
+================================================================================
+SECTION 6: SPECIAL PAVEMENTS
+================================================================================
+
+6.1 AIRPORT PAVEMENTS
+---------------------
+Higher design standards:
+- Aircraft loads: 200-400 kN (vs. 80 kN highways)
+- Tire pressures: 1.0-1.5 MPa (vs. 0.7 MPa trucks)
+- Smoothness: ±3 mm per 3 m (vs. ±10 mm roads)
+
+Pavement types:
+- Runways: Rigid pavement (concrete) 300-450 mm
+- Taxiways: Rigid or flexible 250-350 mm
+- Aprons: Rigid pavement (fuel spill resistance)
+
+Grooving:
+- Transverse grooves (6 mm wide, 6 mm deep, 40 mm spacing)
+- Drainage, reduce hydroplaning
+
+Pakistan airports:
+- Jinnah International (Karachi): Concrete runways, 3,400 m × 45 m
+- Islamabad International: New airport (2018), rigid pavements
+
+Base: ICAO Annex 14 (Aerodromes)
+FAA AC 150/5320 series (Airport pavement design)
+
+6.2 CONCRETE BLOCK PAVEMENT (PAVER BLOCKS)
+-------------------------------------------
+Applications:
+- Urban roads (low speed, easy maintenance)
+- Parking lots, driveways, pedestrian areas
+
+Block specifications:
+- Size: 200 mm × 100 mm × 60-80 mm (common)
+- Strength: M40 grade (40 MPa)
+- Interlocking shapes (I-shape, zigzag, hexagonal)
+
+Construction:
+1. Sub-base: 100-150 mm compacted aggregate
+2. Bedding sand: 30-40 mm (washed sand)
+3. Blocks: Laid in herringbone pattern (load distribution)
+4. Jointing sand: Fine sand, swept into joints, compacted
+
+Advantages:
+- Easy repairs (individual block replacement)
+- Permeable (if open joints)
+- Aesthetics (colored, textured)
+
+Pakistan usage:
+- Bahria Town, DHA developments (residential streets, parks)
+- Lahore: Liberty Market, Fortress Stadium walkways
+
+Base: IRC:SP:63-2004 (Guidelines for Use of Interlocking Concrete Block Pavement)
+
+6.3 BITUMINOUS STRESS ABSORBING MEMBRANE (BSAM)
+------------------------------------------------
+Purpose: Overlay existing pavement, prevent reflection cracking
+
+Application:
+- Existing pavement: Cracked, aged flexible or rigid pavement
+- Membrane: Polymer-modified bitumen (4-6 mm thick) + aggregate chips
+- Overlay: Bituminous concrete (40-50 mm)
+
+Pakistan usage:
+- Rehabilitation projects (N-5, N-25 sections)
+- Extends pavement life 5-10 years
+
+Base: IRC:SP:100-2014 (Guidelines on Use of Bituminous Stress Absorbing Membrane)
+
+================================================================================
+SECTION 7: PAVEMENT MATERIALS TESTING
+================================================================================
+
+7.1 AGGREGATE TESTS
+-------------------
+CRUSHING VALUE:
+- Measures resistance to crushing under load
+- Maximum: 30% (surface course), 40% (base course)
+- Test: IS:2386 Part 4
+
+IMPACT VALUE:
+- Resistance to sudden impact
+- Maximum: 30% (surface course), 35% (base course)
+- Test: IS:2386 Part 4
+
+ABRASION VALUE (LOS ANGELES):
+- Resistance to wear
+- Maximum: 30% (bituminous surface), 40% (base)
+- Test: IS:2386 Part 4
+
+FLAKINESS AND ELONGATION INDEX:
+- Shape (undesirable for stability)
+- Maximum: 35% combined
+- Test: IS:2386 Part 1
+
+WATER ABSORPTION:
+- Maximum: 2% (bituminous mixtures)
+- Test: IS:2386 Part 3
+
+Pakistan sources:
+- Margalla Hills (Islamabad): Good quality limestone
+- Sakhi Sarwar (Punjab): Igneous rock (trap)
+- Variable quality (local crushers, inconsistent)
+
+Base: IRC:111-2009 Section 900 (Materials)
+
+7.2 BITUMEN TESTS
+-----------------
+PENETRATION:
+- Consistency measurement (needle penetration, 0.1 mm units)
+- 80/100 grade: 80-100 penetration @ 25°C
+- 60/70 grade: 60-70 (harder, tropical climates)
+- Test: IS:1203
+
+VISCOSITY (VG SYSTEM):
+- Absolute viscosity @ 60°C (Poise)
+- VG-30: 2400-3600 Poise (Pakistan standard)
+- Test: IS:1206
+
+SOFTENING POINT:
+- Ring & Ball method (temperature at which bitumen softens)
+- Minimum: 47°C (VG-30)
+- Test: IS:1205
+
+DUCTILITY:
+- Stretchability (cm @ 27°C, 5 cm/min pull rate)
+- Minimum: 40 cm (bitumen), 50 cm (modified)
+- Test: IS:1208
+
+Pakistan issues:
+- Imported bitumen (Iran, Saudi): Variable quality
+- Substitution/adulteration (field testing critical)
+
+Base: IS:73-2013 (Paving Bitumen Specification)
+
+7.3 CONCRETE TESTS
+------------------
+COMPRESSIVE STRENGTH:
+- 150 mm cubes, tested @ 7, 28 days
+- M40 grade: 40 MPa @ 28 days
+- Test: IS:516
+
+FLEXURAL STRENGTH (MODULUS OF RUPTURE):
+- 150 mm × 150 mm × 700 mm beams
+- Third-point loading
+- Minimum: 4.5 MPa @ 28 days
+- Test: IS:516
+
+SLUMP:
+- Workability (mm subsidence)
+- Pavement concrete: 25-50 mm (low slump)
+- Test: IS:1199
+
+Pakistan practice:
+- Cube testing mandatory (3 samples per 100 m³)
+- Non-destructive: Rebound hammer, UPV (ultrasonic pulse velocity)
+
+Base: IS:516-2018 (Hardened Concrete Testing)
+
+================================================================================
+SECTION 8: QUALITY CONTROL
+================================================================================
+
+8.1 FIELD DENSITY TESTING
+--------------------------
+Sand replacement method:
+- Excavate hole, measure volume (calibrated sand)
+- Weigh excavated material, calculate density
+- Time-consuming (30-45 min per test)
+- Test: IS:2720 Part 28
+
+Core cutter method:
+- Steel cylinder driven into soil
+- Quick (10-15 min), suitable for fine-grained soils
+- Test: IS:2720 Part 29
+
+Nuclear density gauge:
+- Gamma ray backscatter (instant reading)
+- Expensive equipment, calibration required
+- Safety (radioactive source licensing)
+
+Pakistan usage:
+- Sand replacement most common (equipment availability)
+- Nuclear gauges on major projects (NHA, motorways)
+
+Testing frequency:
+- Subgrade/sub-base: 1 test per 250 m²
+- Base course: 1 test per 150 m²
+
+Base: IRC:SP:11-2014 Appendix 6
+
+8.2 PAVEMENT THICKNESS CHECKS
+------------------------------
+Core drilling (bituminous):
+- 100-150 mm diameter cores
+- Measure layer thickness (caliper)
+- Frequency: 1 core per km per lane
+
+Ground penetrating radar (GPR):
+- Non-destructive, continuous profiling
+- Electromagnetic waves (thickness from time delay)
+- Expensive (specialized equipment)
+
+Trial pits:
+- Excavate full pavement section (destructive)
+- Verify layer thickness, materials
+
+Base: IRC:SP:16-2019 (Guidelines for Surface Evenness of Highway Pavements)
+
+8.3 ACCEPTANCE CRITERIA
+------------------------
+LAYER THICKNESS:
+- Tolerance: -5 mm (no less than 5 mm below design)
+- Rejection: <90% design thickness (area >100 m²)
+
+DENSITY:
+- Bituminous: ≥98% Marshall density
+- Granular: ≥98% MDD (base), ≥95% MDD (sub-base)
+
+SURFACE REGULARITY:
+- Flexible pavement: Roughness ≤2,500 mm/km (IRI - International Roughness Index)
+- Rigid pavement: ±5 mm per 3 m straightedge
+
+Remedies (deficient work):
+- Rework (remove and replace)
+- Price reduction (if within tolerable limits)
+- Strengthening overlay
+
+Base: MORTH Specifications Section 300-500
+
+================================================================================
+REFERENCES
+================================================================================
+
+PRIMARY CODES:
+- IRC:37-2018: Guidelines for Design of Flexible Pavements
+- IRC:58-2015: Guidelines for Design of Plain Jointed Rigid Pavements
+- IRC:15-2017: Standard Specifications for Construction of Concrete Roads
+- IRC:111-2009: Specifications for Dense Graded Bituminous Mixes
+
+SPECIALIZED STANDARDS:
+- IRC:SP:11-2014: Guidelines for Bituminous Mix Design
+- IRC:SP:16-2019: Guidelines for Surface Evenness of Highway Pavements
+- IRC:SP:48-1998: Specifications for Rural Roads
+- IRC:SP:53-2010: Polymer and Rubber Modified Bitumen
+- IRC:SP:63-2004: Interlocking Concrete Block Pavement
+- IRC:SP:72-2015: Flexible Pavements for Low Volume Rural Roads
+- IRC:SP:76-2015: Tentative Guidelines for Rigid Pavement Design
+- IRC:SP:100-2014: Bituminous Stress Absorbing Membrane
+
+UK STANDARDS:
+- DMRB CD 226: Design for new pavement construction
+- DMRB CD 236: Surface course materials for construction
+
+USA STANDARDS:
+- AASHTO Pavement Design Guide (Mechanistic-Empirical)
+
+INDIAN STANDARDS (IS):
+- IS:73-2013: Paving Bitumen Specification
+- IS:516-2018: Hardened Concrete Testing
+- IS:1203, 1205, 1206, 1208: Bitumen tests
+- IS:2386: Aggregate tests
+- IS:2720: Soil tests
+
+PAKISTAN REGULATIONS:
+- NHA General Specifications 2012 (Revised 2019)
+- MORTH (India) Specifications for Road and Bridge Works (adopted by Pakistan)
+
+ORGANIZATIONS:
+- National Highway Authority (NHA): www.nha.gov.pk
+- Pakistan Standards & Quality Control Authority (PSQCA): www.psqca.com.pk
+- Attock Refinery Limited: Bitumen manufacturer
+
+================================================================================
+END OF CHAPTER 13
+================================================================================
