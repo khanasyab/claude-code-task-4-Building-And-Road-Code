@@ -1,7 +1,7 @@
 # BNR 2025 FILE CREATION WORKFLOW GUIDE
 
 ## Overview
-This document defines the standardized 3-phase workflow for creating all BNR 2025 files. Each file undergoes comprehensive research, content creation, and rigorous verification to ensure accuracy and international best practice integration.
+This document defines the standardized 4-phase workflow for creating all BNR 2025 files. Each file undergoes comprehensive research, content creation, rigorous verification, and systematic corrections to ensure accuracy and international best practice integration.
 
 ---
 
@@ -205,29 +205,90 @@ Audit report identifying:
 
 ---
 
+## PHASE 4: CORRECTIONS AND FINALIZATION (Single Agent Execution)
+
+**Objective:** Apply all corrections, fixes, and improvements identified in Phase 3 audit to finalize the file.
+
+### Launch 1 Correction Agent:
+
+#### **Correction Agent: Apply Phase 3 Findings**
+- **Task:** Systematically apply all corrections identified by the 5 audit sub-agents
+- **Input:** Phase 3 audit report with all identified issues
+- **Actions:**
+  - Fix USA citation errors
+  - Fix UK citation errors
+  - Fix India IRC citation errors
+  - **CRITICAL:** Fix any BNR-1994 text mismatches (exact text restoration)
+  - Fix cross-reference inconsistencies
+  - Remove any content flagged for removal
+  - Improve clarity where recommended
+  - Add missing information identified in audits
+  - Correct formatting issues
+
+**Correction Priorities:**
+
+1. **HIGHEST PRIORITY - BNR 1994 Text Accuracy**
+   - Any deviation from exact BNR 1994 text must be corrected immediately
+   - Verify character-by-character match with original
+   - Restore proper paragraph numbering
+
+2. **HIGH PRIORITY - Citation Accuracy**
+   - Correct all standard numbers, years, and references
+   - Fix quotation marks and attribution
+   - Verify technical interpretation accuracy
+
+3. **MEDIUM PRIORITY - Consistency Issues**
+   - Align terminology with other BNR 2025 files
+   - Fix cross-reference errors
+   - Standardize formatting
+
+4. **LOWER PRIORITY - Enhancements**
+   - Improve clarity where recommended
+   - Add supplementary information if beneficial
+   - Enhance Pakistan contextualization
+
+### Phase 4 Deliverable:
+Final corrected file with:
+- **All Phase 3 audit issues resolved**
+- **Correction log documenting all changes made**
+- **Verification that file meets 98%+ accuracy threshold**
+- **File ready for final review and approval**
+
+### Phase 4 Success Criteria:
+- Zero critical errors remaining (especially BNR 1994 text accuracy)
+- All citation errors corrected
+- Consistency with other BNR 2025 files achieved
+- File structure compliant with standards
+- Ready for official use
+
+---
+
 ## WORKFLOW EXECUTION NOTES
 
 ### Critical Success Factors:
 
 1. **Phase 1 is Parallel:** All 7 research sub-agents run simultaneously for speed
 2. **Phase 3 is Parallel:** All 5 audit sub-agents run simultaneously for comprehensive verification
-3. **BNR 1994 is Sacred:** Never alter original BNR 1994 text - quote exactly
-4. **Pakistan Context:** Every enhancement must be adapted to Pakistan's reality
-5. **Attribution:** Always cite sources clearly and accurately
+3. **Phase 4 is Single Agent:** One dedicated agent systematically applies all corrections
+4. **BNR 1994 is Sacred:** Never alter original BNR 1994 text - quote exactly
+5. **Pakistan Context:** Every enhancement must be adapted to Pakistan's reality
+6. **Attribution:** Always cite sources clearly and accurately
 
 ### Quality Gates:
 
 - **After Phase 1:** Research must be comprehensive before proceeding to Phase 2
 - **After Phase 2:** Content must follow structure standard exactly
-- **After Phase 3:** All audits must pass before file is finalized
+- **After Phase 3:** Audit report must be complete before proceeding to Phase 4
+- **After Phase 4:** All corrections must be applied and file must achieve 98%+ accuracy before finalization
 
 ### Iteration Protocol:
 
-If Phase 3 audits fail:
-1. Document all issues clearly
-2. Return to Phase 2 for corrections
+If Phase 4 reveals additional issues or if accuracy threshold not met:
+1. Document remaining issues clearly
+2. Return to Phase 2 for major content revisions OR apply minor fixes directly
 3. Re-run Phase 3 audits on corrected version
-4. Repeat until all audits pass
+4. Re-run Phase 4 corrections
+5. Repeat until 98%+ accuracy achieved and all audits pass
 
 ---
 
@@ -264,7 +325,8 @@ BNR 2025/
 
 ## VERSION HISTORY
 
-- **Version 1.0** - November 2025 - Initial workflow documentation
+- **Version 1.0** - November 2025 - Initial 3-phase workflow documentation
+- **Version 2.0** - November 2025 - Added Phase 4 (Corrections and Finalization) for systematic application of audit findings
 - Created based on methodology used for Chief Engineer and Regional Engineer Officer files
 
 ---
@@ -274,4 +336,6 @@ BNR 2025/
 - ✓ Internationally benchmarked
 - ✓ Pakistan-contextualized
 - ✓ Rigorously verified
+- ✓ Systematically corrected
 - ✓ Consistently structured
+- ✓ Ready for official use
